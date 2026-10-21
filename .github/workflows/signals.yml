@@ -1,0 +1,94 @@
+name: signals
+# Free signal engine + Telegram bot, every 15 min. Signals only: public market data, no keys, no wallet, no orders.
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["site/**", ".github/workflows/signals.yml"]
+
+concurrency:
+  group: signals
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    outputs:
+      site: ${{ steps.commit.outputs.site }}
+      sha: ${{ steps.commit.outputs.sha }}
+    env:
+      SIGNALS_TG_TOKEN: ${{ secrets.SIGNALS_TG_TOKEN }}
+      SIGNALS_STATE_KEY: ${{ secrets.SIGNALS_STATE_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Restore private state
+        id: unpack
+        run: python3 state.py unpack
+      - name: Signals
+        run: python3 run.py
+      - name: Telegram bot (commands + broadcast)
+        run: python3 bot.py --once
+      - name: Build site data
+        if: always()
+        run: python3 publish.py --no-push
+      - name: Save state and commit
+        id: commit
+        if: always() && steps.unpack.outcome == 'success'
+        run: |
+          python3 state.py pack
+          git config user.name "signals-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add signals.json signals.csv site/data.json state/
+          site=false
+          git diff --cached --quiet -- site/ || site=true
+          if [ "${{ github.event_name }}" != "schedule" ]; then site=true; fi
+          if ! git diff --cached --quiet; then
+            git commit -q -m "data $(date -u +%FT%TZ) [skip ci]"
+          elif [ $(( $(date +%s) - $(git log -1 --format=%ct) )) -gt $(( 20 * 86400 )) ]; then
+            git commit -q --allow-empty -m "keepalive $(date -u +%F) [skip ci]"
+          fi
+          for i in 1 2 3; do
+            git push -q origin HEAD:main && break
+            git pull -q --rebase origin main
+          done
+          echo "site=$site" >> "$GITHUB_OUTPUT"
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+      - name: Keep the schedule enabled
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ "$(date -u +%H%M)" \< "0015" ] || [ "${{ github.event_name }}" != "schedule" ]; then
+            gh api -X PUT "repos/${{ github.repository }}/actions/workflows/signals.yml/enable" >/dev/null && echo "schedule enabled"
+          fi
+
+  deploy:
+    needs: run
+    if: always() && needs.run.outputs.site == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ needs.run.outputs.sha }}
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deployment
+        uses: actions/deploy-pages@v4

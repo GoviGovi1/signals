@@ -1,0 +1,218 @@
+{
+ "generated": "2026-10-21T21:57:59+00:00",
+ "days": 90,
+ "from": "2026-07-23",
+ "to": "2026-10-21",
+ "source": "OKX public candles",
+ "params": {
+  "ema_fast": 20,
+  "ema_slow": 50,
+  "breakout_n": 20,
+  "trend_fast": 50,
+  "trend_slow": 200,
+  "rsi_len": 14,
+  "atr_len": 14,
+  "rsi_long": [
+   55,
+   75
+  ],
+  "rsi_short": [
+   25,
+   45
+  ],
+  "atr_mult": 2.0,
+  "expire_h": 48,
+  "max_lev": 3,
+  "lev_target_loss": 0.08
+ },
+ "fees_pct_round_trip": {
+  "SPOT": 0.2,
+  "PERP": 0.1
+ },
+ "summary": {
+  "all": {
+   "trades": 511,
+   "wins": 277,
+   "win_rate": 54.2,
+   "tp1_rate": 54.0,
+   "avg_r": 0.159,
+   "total_r": 81.1,
+   "avg_r_net": 0.048,
+   "total_r_net": 24.47,
+   "stopped": 234,
+   "tp3": 107,
+   "expired": 23
+  },
+  "SPOT": {
+   "trades": 221,
+   "wins": 122,
+   "win_rate": 55.2,
+   "tp1_rate": 55.2,
+   "avg_r": 0.197,
+   "total_r": 43.57,
+   "avg_r_net": 0.044,
+   "total_r_net": 9.74,
+   "stopped": 99,
+   "tp3": 49,
+   "expired": 10
+  },
+  "PERP": {
+   "trades": 290,
+   "wins": 155,
+   "win_rate": 53.4,
+   "tp1_rate": 53.1,
+   "avg_r": 0.129,
+   "total_r": 37.53,
+   "avg_r_net": 0.051,
+   "total_r_net": 14.73,
+   "stopped": 135,
+   "tp3": 58,
+   "expired": 13
+  },
+  "PERP_LONG": {
+   "trades": 222,
+   "wins": 119,
+   "win_rate": 53.6,
+   "tp1_rate": 53.6,
+   "avg_r": 0.168,
+   "total_r": 37.19,
+   "avg_r_net": 0.092,
+   "total_r_net": 20.33,
+   "stopped": 103,
+   "tp3": 50,
+   "expired": 9
+  },
+  "PERP_SHORT": {
+   "trades": 68,
+   "wins": 36,
+   "win_rate": 52.9,
+   "tp1_rate": 51.5,
+   "avg_r": 0.005,
+   "total_r": 0.34,
+   "avg_r_net": -0.082,
+   "total_r_net": -5.6,
+   "stopped": 32,
+   "tp3": 8,
+   "expired": 4
+  },
+  "coins": {
+   "BTC": {
+    "trades": 69,
+    "wins": 28,
+    "win_rate": 40.6,
+    "tp1_rate": 40.6,
+    "avg_r": -0.164,
+    "total_r": -11.33,
+    "avg_r_net": -0.355,
+    "total_r_net": -24.5,
+    "stopped": 41,
+    "tp3": 11,
+    "expired": 0
+   },
+   "ETH": {
+    "trades": 51,
+    "wins": 31,
+    "win_rate": 60.8,
+    "tp1_rate": 60.8,
+    "avg_r": 0.268,
+    "total_r": 13.67,
+    "avg_r_net": 0.119,
+    "total_r_net": 6.04,
+    "stopped": 20,
+    "tp3": 12,
+    "expired": 0
+   },
+   "SOL": {
+    "trades": 60,
+    "wins": 41,
+    "win_rate": 68.3,
+    "tp1_rate": 68.3,
+    "avg_r": 0.402,
+    "total_r": 24.13,
+    "avg_r_net": 0.303,
+    "total_r_net": 18.2,
+    "stopped": 19,
+    "tp3": 14,
+    "expired": 4
+   },
+   "BNB": {
+    "trades": 53,
+    "wins": 35,
+    "win_rate": 66.0,
+    "tp1_rate": 66.0,
+    "avg_r": 0.38,
+    "total_r": 20.14,
+    "avg_r_net": 0.221,
+    "total_r_net": 11.71,
+    "stopped": 18,
+    "tp3": 12,
+    "expired": 6
+   },
+   "XRP": {
+    "trades": 55,
+    "wins": 34,
+    "win_rate": 61.8,
+    "tp1_rate": 60.0,
+    "avg_r": 0.335,
+    "total_r": 18.44,
+    "avg_r_net": 0.251,
+    "total_r_net": 13.79,
+    "stopped": 21,
+    "tp3": 14,
+    "expired": 4
+   },
+   "DOGE": {
+    "trades": 50,
+    "wins": 25,
+    "win_rate": 50.0,
+    "tp1_rate": 50.0,
+    "avg_r": 0.084,
+    "total_r": 4.18,
+    "avg_r_net": -0.0,
+    "total_r_net": -0.02,
+    "stopped": 25,
+    "tp3": 12,
+    "expired": 2
+   },
+   "SUI": {
+    "trades": 46,
+    "wins": 26,
+    "win_rate": 56.5,
+    "tp1_rate": 56.5,
+    "avg_r": 0.178,
+    "total_r": 8.21,
+    "avg_r_net": 0.124,
+    "total_r_net": 5.7,
+    "stopped": 20,
+    "tp3": 7,
+    "expired": 4
+   },
+   "AVAX": {
+    "trades": 59,
+    "wins": 30,
+    "win_rate": 50.8,
+    "tp1_rate": 50.8,
+    "avg_r": 0.045,
+    "total_r": 2.67,
+    "avg_r_net": -0.027,
+    "total_r_net": -1.58,
+    "stopped": 29,
+    "tp3": 9,
+    "expired": 0
+   },
+   "LINK": {
+    "trades": 68,
+    "wins": 27,
+    "win_rate": 39.7,
+    "tp1_rate": 39.7,
+    "avg_r": 0.015,
+    "total_r": 1.01,
+    "avg_r_net": -0.072,
+    "total_r_net": -4.88,
+    "stopped": 41,
+    "tp3": 16,
+    "expired": 3
+   }
+  }
+ }
+}
