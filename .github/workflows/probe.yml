@@ -1,0 +1,19 @@
+name: probe
+on: workflow_dispatch
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          for u in \
+            "https://www.okx.com/api/v5/market/candles?instId=BTC-USDT&bar=1H&limit=2" \
+            "https://www.okx.com/api/v5/market/candles?instId=BTC-USDT-SWAP&bar=1H&limit=2" \
+            "https://www.okx.com/api/v5/market/history-candles?instId=BTC-USDT&bar=1H&limit=2" \
+            "https://www.okx.com/api/v5/public/funding-rate?instId=BTC-USDT-SWAP" \
+            "https://api.binance.com/api/v3/klines?symbol=BTCUSDT&interval=1h&limit=2" \
+            "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1h&limit=2" \
+            "https://fapi.binance.com/fapi/v1/klines?symbol=BTCUSDT&interval=1h&limit=2" \
+            "https://api.bybit.com/v5/market/kline?category=linear&symbol=BTCUSDT&interval=60&limit=2" \
+            "https://api.exchange.coinbase.com/products/BTC-USD/candles?granularity=3600" ; do
+            echo "== $u"; curl -s -m 15 -o /tmp/o -w "%{http_code}\n" -A "signals/1.0" "$u"; head -c 250 /tmp/o; echo; done
+          echo "== hyperliquid"; curl -s -m 15 -X POST https://api.hyperliquid.xyz/info -H 'Content-Type: application/json' -d '{"type":"metaAndAssetCtxs"}' -o /tmp/o -w "%{http_code}\n"; head -c 200 /tmp/o; echo
