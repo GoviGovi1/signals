@@ -2,7 +2,7 @@ name: signals
 # Free signal engine + Telegram bot, every 15 min. Signals only: public market data, no keys, no wallet, no orders.
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "7,22,37,52 * * * *"   # off-peak minutes; GitHub may still delay runs
   workflow_dispatch:
     inputs:
       keepalive:
@@ -72,7 +72,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          if [ "$(date -u +%H%M)" \< "0015" ] || [ "${{ github.event_name }}" != "schedule" ]; then
+          if [ "$(date -u +%H%M)" \< "0016" ] || [ "${{ github.event_name }}" != "schedule" ]; then
             gh api -X PUT "repos/${{ github.repository }}/actions/workflows/signals.yml/enable" >/dev/null && echo "schedule enabled"
           fi
 
