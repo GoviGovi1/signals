@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0d1117">
+<title>Crypto Signals · Spot + Perps</title>
+<meta name="description" content="Free spot and perps crypto signals for BTC, ETH, SOL, BNB and other majors, with entry, stop loss, take-profits and every result tracked.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <h1>Crypto Signals</h1>
+  <p class="sub">Free <b>Spot</b> and <b>Perps</b> signals on 9 big coins. Every signal is tracked, wins and losses.</p>
+</header>
+
+<main>
+  <section class="warn" role="note">
+    <b>Not financial advice.</b> These are paper-tracked signals: no trades are placed for you. You can lose money, and leverage makes losses bigger and faster. Only risk what you can afford to lose.
+  </section>
+
+  <a class="tg" id="tg" href="#" target="_blank" rel="noopener">Join on Telegram</a>
+
+  <section class="card record" aria-live="polite">
+    <div class="stat"><span class="n" id="r-wr">–</span><span class="l">Win rate</span></div>
+    <div class="stat"><span class="n" id="r-r">–</span><span class="l">Total R</span></div>
+    <div class="stat"><span class="n" id="r-open">–</span><span class="l">Open now</span></div>
+  </section>
+
+  <h2>Open signals</h2>
+  <nav class="tabs" role="tablist">
+    <button class="tab on" data-f="SPOT" role="tab">Spot</button>
+    <button class="tab" data-f="PERP" role="tab">Perps</button>
+  </nav>
+  <section id="open"><p class="muted">Loading…</p></section>
+
+  <h2>Recent results</h2>
+  <section id="closed"></section>
+
+  <h2>Live stats</h2>
+  <section class="card" id="stats"></section>
+
+  <h2>Backtest (past data, not live results)</h2>
+  <section class="card" id="bt"></section>
+
+  <details class="card about">
+    <summary>How signals are made</summary>
+    <ul>
+      <li><b>Data:</b> public OKX candles (spot and USDT perpetuals), checked on the 1-hour chart.</li>
+      <li><b>Trend filter:</b> on the 4-hour chart, EMA50 above EMA200 means only longs; below means only shorts (perps). Spot is long only.</li>
+      <li><b>Entry:</b> a 1-hour candle closes beyond the high (long) or low (short) of the previous 20 hours, on the right side of the 1-hour EMA50, with RSI(14) at 55–75 for longs or 25–45 for shorts.</li>
+      <li><b>Stop loss:</b> 2 × ATR(14) from entry. That distance is “1R”.</li>
+      <li><b>Take profits:</b> TP1 at 1R, TP2 at 2R, TP3 at 3R. A third is taken at each, and after TP1 the stop moves to entry.</li>
+      <li><b>Time limit:</b> whatever is left closes after 48 hours (“expired”).</li>
+      <li><b>Perps leverage</b> is capped at 3x. Funding rate is shown on each perps signal.</li>
+      <li>One open signal per coin per market at a time. Results don't include fees or funding.</li>
+    </ul>
+  </details>
+
+  <p class="muted foot" id="updated"></p>
+  <p class="muted foot">Signals only. Nobody here will ask for your keys, seed phrase or money.</p>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
