@@ -17,7 +17,7 @@
     0.07727623889092099
    ],
    "lev": 3,
-   "funding_pct": 0.0013,
+   "funding_pct": 0.0007,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-10-22T02:00:00+00:00",
@@ -25,9 +25,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0793,
-   "last_ts": "2026-10-22T10:18:34+00:00",
-   "move_pct": 2.24,
+   "last": 0.07937,
+   "last_ts": "2026-10-22T10:34:21+00:00",
+   "move_pct": 2.16,
    "closed": false,
    "rsi": 37.2
   },
@@ -48,7 +48,7 @@
     99.9796045174737
    ],
    "lev": 3,
-   "funding_pct": 0.0021,
+   "funding_pct": 0.0019,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-10-22T03:00:00+00:00",
@@ -56,9 +56,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 104.45,
-   "last_ts": "2026-10-22T10:18:34+00:00",
-   "move_pct": 0.97,
+   "last": 104.65,
+   "last_ts": "2026-10-22T10:34:21+00:00",
+   "move_pct": 0.78,
    "closed": false,
    "rsi": 37.7
   },
@@ -79,7 +79,7 @@
     11.489897951817015
    ],
    "lev": 3,
-   "funding_pct": -0.0021,
+   "funding_pct": -0.0026,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-10-22T04:00:00+00:00",
@@ -87,9 +87,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 12.059,
-   "last_ts": "2026-10-22T10:18:34+00:00",
-   "move_pct": 1.65,
+   "last": 12.071,
+   "last_ts": "2026-10-22T10:34:21+00:00",
+   "move_pct": 1.55,
    "closed": false,
    "rsi": 39.0
   },
@@ -110,7 +110,7 @@
     718.1143758376251
    ],
    "lev": 3,
-   "funding_pct": -0.0084,
+   "funding_pct": -0.0091,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-10-22T08:00:00+00:00",
@@ -118,9 +118,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 733.9,
-   "last_ts": "2026-10-22T10:18:34+00:00",
-   "move_pct": 0.41,
+   "last": 734.5,
+   "last_ts": "2026-10-22T10:34:21+00:00",
+   "move_pct": 0.33,
    "closed": false,
    "rsi": 34.7
   },
@@ -146,7 +146,7 @@
     1.2596826627132036
    ],
    "lev": 3,
-   "funding_pct": 0.0042,
+   "funding_pct": 0.0044,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-22T09:00:00+00:00",
@@ -154,9 +154,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.3311,
-   "last_ts": "2026-10-22T10:18:34+00:00",
-   "move_pct": -0.31,
+   "last": 1.3332,
+   "last_ts": "2026-10-22T10:34:21+00:00",
+   "move_pct": -0.47,
    "closed": false,
    "rsi": 31.0
   }
@@ -1812,60 +1812,41 @@
   "onchain": [
    {
     "chain": "BSC",
-    "symbol": "AKE",
-    "name": "AKE",
-    "token": "0x2c3a8ee94ddd97244a93bc48298f97d2c412f7db",
-    "price": 0.0285963491918201,
-    "liq": 2569462,
-    "vol24h": 12194220,
-    "age_d": 428.1,
-    "chg24h": -22.597,
-    "chg7d": -8.8,
-    "mcap": 651889525.222538,
+    "symbol": "JCT",
+    "name": "JANCTION",
+    "token": "0xea37a8de1de2d9d10772eeb569e28bfa5cb17707",
+    "price": 0.00445384623959634,
+    "liq": 787807,
+    "vol24h": 9473233,
+    "age_d": 140.8,
+    "chg24h": -7.892,
+    "chg7d": 111.1,
+    "mcap": 51006273.3158649,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
-    "trend_up": false,
-    "rsi": 53.4,
-    "url": "https://www.geckoterminal.com/bsc/pools/0x4d3bf29ba30f8bfe4624e7678709afa195689c5d"
+    "trend_up": true,
+    "rsi": 52.7,
+    "url": "https://www.geckoterminal.com/bsc/pools/0x7bb2f6dab157e444ad8717b0178035c1b1cf24958b37c2a205e61a3582283249"
    },
    {
-    "chain": "Solana",
-    "symbol": "PUMP",
-    "name": "Pump",
-    "token": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-    "price": 0.0047281328314270205,
-    "liq": 24289770,
-    "vol24h": 6447868,
-    "age_d": 464.7,
-    "chg24h": -1.782,
-    "chg7d": 10.5,
-    "mcap": 2183016719.0004,
+    "chain": "Base",
+    "symbol": "VVV",
+    "name": "Venice Token",
+    "token": "0xacfe6019ed1a7dc6f7b508c02d1b04ec88cc21bf",
+    "price": 27.789910468409,
+    "liq": 16266377,
+    "vol24h": 3243757,
+    "age_d": 632.7,
+    "chg24h": 7.603,
+    "chg7d": 23.5,
+    "mcap": 1349927071.09849,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
-    "trend_up": false,
-    "rsi": 38.6,
-    "url": "https://www.geckoterminal.com/solana/pools/2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd"
-   },
-   {
-    "chain": "Solana",
-    "symbol": "CARDS",
-    "name": "Collector Crypt",
-    "token": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
-    "price": 0.3143734765079893,
-    "liq": 4445146,
-    "vol24h": 4689565,
-    "age_d": 418.6,
-    "chg24h": -11.025,
-    "chg7d": 6.4,
-    "mcap": 278502448.183949,
-    "safety": "ok",
-    "safety_notes": [],
-    "trigger": false,
-    "trend_up": false,
-    "rsi": 32.1,
-    "url": "https://www.geckoterminal.com/solana/pools/HnhpJPJgBG2KwniMTNW8cVBHvk1hFog3RC3kjnyc23tD"
+    "trend_up": true,
+    "rsi": 61.7,
+    "url": "https://www.geckoterminal.com/base/pools/0x01784ef301d79e4b2df3a21ad9a536d4cf09a5ce"
    }
   ],
   "onchain_checked": 85,
@@ -2020,23 +2001,6 @@
     ]
    },
    {
-    "id": "real-world-assets-rwa",
-    "name": "Real World Assets RWA",
-    "chg7d": 0.06,
-    "top": [
-     "FIGR_HELOC",
-     "LINK",
-     "XLM",
-     "XAUT",
-     "QNT"
-    ],
-    "tracked": [
-     "LINK",
-     "ONDO",
-     "INJ"
-    ]
-   },
-   {
     "id": "bitcoin-ecosystem",
     "name": "Bitcoin Ecosystem",
     "chg7d": 0.03,
@@ -2050,6 +2014,23 @@
     "tracked": [
      "BTC",
      "PEPE"
+    ]
+   },
+   {
+    "id": "real-world-assets-rwa",
+    "name": "Real World Assets RWA",
+    "chg7d": 0.0,
+    "top": [
+     "FIGR_HELOC",
+     "LINK",
+     "XLM",
+     "XAUT",
+     "QNT"
+    ],
+    "tracked": [
+     "LINK",
+     "ONDO",
+     "INJ"
     ]
    },
    {
@@ -2257,13 +2238,13 @@
     "coin": "PANW",
     "list_ts": 1792662300,
     "market": "PERP",
-    "state": "preopen"
+    "state": "live"
    },
    {
     "coin": "AMGN",
     "list_ts": 1792661400,
     "market": "PERP",
-    "state": "preopen"
+    "state": "live"
    },
    {
     "coin": "ABBV",
@@ -2348,9 +2329,9 @@
   ],
   "updated": {
    "unlocks": 1792656776,
-   "onchain": 1792660840,
-   "sectors": 1792664314,
-   "listings": 1792660839,
+   "onchain": 1792665200,
+   "sectors": 1792665200,
+   "listings": 1792665200,
    "fundamentals": 1792656776
   }
  },
@@ -2373,6 +2354,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "479789700ee41bb89c16ad28dab4619148e32a7ca85a8d60df09793e8e40cdfd",
- "generated": "2026-10-22T10:18:45+00:00"
+ "digest": "69fe3a5335619303aeb99edb861c6989bd3cdca9b5facdc3d20df537701ba59f",
+ "generated": "2026-10-22T10:34:30+00:00"
 }
