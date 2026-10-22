@@ -1,0 +1,808 @@
+{
+ "generated": "2026-10-22T14:55:10+00:00",
+ "coins": 200,
+ "from": "2026-07-23",
+ "to": "2026-10-21",
+ "mid": "2026-09-06",
+ "fees_pct_round_trip": {
+  "SPOT": 0.2,
+  "PERP": 0.1
+ },
+ "rows": {
+  "v2 rule (20h breakout), ATR exits": {
+   "all": {
+    "trades": 6406,
+    "win_rate": 49.6,
+    "avg_r": 0.006,
+    "avg_r_net": -0.058,
+    "total_r_net": -369.0
+   },
+   "H1": {
+    "trades": 3193,
+    "win_rate": 48.6,
+    "avg_r": -0.045,
+    "avg_r_net": -0.11,
+    "total_r_net": -351.9
+   },
+   "H2": {
+    "trades": 3213,
+    "win_rate": 50.7,
+    "avg_r": 0.056,
+    "avg_r_net": -0.005,
+    "total_r_net": -17.2
+   }
+  },
+  "v2 rule, structure exits": {
+   "all": {
+    "trades": 5846,
+    "win_rate": 41.0,
+    "avg_r": 0.001,
+    "avg_r_net": -0.057,
+    "total_r_net": -333.7
+   },
+   "H1": {
+    "trades": 2955,
+    "win_rate": 39.3,
+    "avg_r": -0.081,
+    "avg_r_net": -0.14,
+    "total_r_net": -414.9
+   },
+   "H2": {
+    "trades": 2891,
+    "win_rate": 42.8,
+    "avg_r": 0.084,
+    "avg_r_net": 0.028,
+    "total_r_net": 81.2
+   }
+  },
+  "BOS, ATR exits": {
+   "all": {
+    "trades": 3952,
+    "win_rate": 48.5,
+    "avg_r": -0.016,
+    "avg_r_net": -0.074,
+    "total_r_net": -292.0
+   },
+   "H1": {
+    "trades": 1931,
+    "win_rate": 49.5,
+    "avg_r": 0.012,
+    "avg_r_net": -0.051,
+    "total_r_net": -97.5
+   },
+   "H2": {
+    "trades": 2021,
+    "win_rate": 47.6,
+    "avg_r": -0.043,
+    "avg_r_net": -0.096,
+    "total_r_net": -194.5
+   }
+  },
+  "BOS, structure exits": {
+   "all": {
+    "trades": 3662,
+    "win_rate": 40.7,
+    "avg_r": -0.023,
+    "avg_r_net": -0.076,
+    "total_r_net": -276.9
+   },
+   "H1": {
+    "trades": 1794,
+    "win_rate": 41.9,
+    "avg_r": 0.003,
+    "avg_r_net": -0.054,
+    "total_r_net": -96.8
+   },
+   "H2": {
+    "trades": 1868,
+    "win_rate": 39.7,
+    "avg_r": -0.048,
+    "avg_r_net": -0.096,
+    "total_r_net": -180.1
+   }
+  },
+  "BREAKOUT20, ATR exits": {
+   "all": {
+    "trades": 6406,
+    "win_rate": 49.6,
+    "avg_r": 0.006,
+    "avg_r_net": -0.058,
+    "total_r_net": -369.0
+   },
+   "H1": {
+    "trades": 3193,
+    "win_rate": 48.6,
+    "avg_r": -0.045,
+    "avg_r_net": -0.11,
+    "total_r_net": -351.9
+   },
+   "H2": {
+    "trades": 3213,
+    "win_rate": 50.7,
+    "avg_r": 0.056,
+    "avg_r_net": -0.005,
+    "total_r_net": -17.2
+   }
+  },
+  "BREAKOUT20, structure exits": {
+   "all": {
+    "trades": 5846,
+    "win_rate": 41.0,
+    "avg_r": 0.001,
+    "avg_r_net": -0.057,
+    "total_r_net": -333.7
+   },
+   "H1": {
+    "trades": 2955,
+    "win_rate": 39.3,
+    "avg_r": -0.081,
+    "avg_r_net": -0.14,
+    "total_r_net": -414.9
+   },
+   "H2": {
+    "trades": 2891,
+    "win_rate": 42.8,
+    "avg_r": 0.084,
+    "avg_r_net": 0.028,
+    "total_r_net": 81.2
+   }
+  },
+  "RANGE_BREAK, ATR exits": {
+   "all": {
+    "trades": 3812,
+    "win_rate": 48.6,
+    "avg_r": 0.013,
+    "avg_r_net": -0.046,
+    "total_r_net": -175.3
+   },
+   "H1": {
+    "trades": 1896,
+    "win_rate": 49.7,
+    "avg_r": 0.054,
+    "avg_r_net": -0.012,
+    "total_r_net": -22.7
+   },
+   "H2": {
+    "trades": 1916,
+    "win_rate": 47.5,
+    "avg_r": -0.029,
+    "avg_r_net": -0.08,
+    "total_r_net": -152.6
+   }
+  },
+  "RANGE_BREAK, structure exits": {
+   "all": {
+    "trades": 3804,
+    "win_rate": 39.0,
+    "avg_r": 0.048,
+    "avg_r_net": -0.023,
+    "total_r_net": -87.9
+   },
+   "H1": {
+    "trades": 1862,
+    "win_rate": 40.0,
+    "avg_r": 0.124,
+    "avg_r_net": 0.043,
+    "total_r_net": 80.5
+   },
+   "H2": {
+    "trades": 1942,
+    "win_rate": 38.1,
+    "avg_r": -0.025,
+    "avg_r_net": -0.087,
+    "total_r_net": -168.4
+   }
+  },
+  "RETEST, ATR exits": {
+   "all": {
+    "trades": 2195,
+    "win_rate": 51.5,
+    "avg_r": 0.065,
+    "avg_r_net": 0.011,
+    "total_r_net": 23.4
+   },
+   "H1": {
+    "trades": 1151,
+    "win_rate": 52.4,
+    "avg_r": 0.119,
+    "avg_r_net": 0.058,
+    "total_r_net": 66.8
+   },
+   "H2": {
+    "trades": 1044,
+    "win_rate": 50.5,
+    "avg_r": 0.005,
+    "avg_r_net": -0.042,
+    "total_r_net": -43.4
+   }
+  },
+  "RETEST, structure exits": {
+   "all": {
+    "trades": 2205,
+    "win_rate": 40.5,
+    "avg_r": 0.077,
+    "avg_r_net": 0.009,
+    "total_r_net": 19.2
+   },
+   "H1": {
+    "trades": 1154,
+    "win_rate": 41.6,
+    "avg_r": 0.173,
+    "avg_r_net": 0.097,
+    "total_r_net": 111.5
+   },
+   "H2": {
+    "trades": 1051,
+    "win_rate": 39.2,
+    "avg_r": -0.028,
+    "avg_r_net": -0.088,
+    "total_r_net": -92.3
+   }
+  },
+  "all setups, ATR exits": {
+   "all": {
+    "trades": 10242,
+    "win_rate": 49.2,
+    "avg_r": 0.008,
+    "avg_r_net": -0.052,
+    "total_r_net": -535.2
+   },
+   "H1": {
+    "trades": 5126,
+    "win_rate": 49.1,
+    "avg_r": -0.001,
+    "avg_r_net": -0.067,
+    "total_r_net": -341.9
+   },
+   "H2": {
+    "trades": 5116,
+    "win_rate": 49.3,
+    "avg_r": 0.018,
+    "avg_r_net": -0.038,
+    "total_r_net": -193.3
+   }
+  },
+  "all setups, structure exits": {
+   "all": {
+    "trades": 9242,
+    "win_rate": 40.4,
+    "avg_r": 0.019,
+    "avg_r_net": -0.042,
+    "total_r_net": -385.7
+   },
+   "H1": {
+    "trades": 4671,
+    "win_rate": 40.0,
+    "avg_r": 0.01,
+    "avg_r_net": -0.056,
+    "total_r_net": -263.8
+   },
+   "H2": {
+    "trades": 4571,
+    "win_rate": 40.8,
+    "avg_r": 0.028,
+    "avg_r_net": -0.027,
+    "total_r_net": -121.9
+   }
+  },
+  "setups BOS+BREAKOUT20+RANGE_BREAK+RETEST, st exits": {
+   "all": {
+    "trades": 9242,
+    "win_rate": 40.4,
+    "avg_r": 0.019,
+    "avg_r_net": -0.042,
+    "total_r_net": -385.7
+   },
+   "H1": {
+    "trades": 4671,
+    "win_rate": 40.0,
+    "avg_r": 0.01,
+    "avg_r_net": -0.056,
+    "total_r_net": -263.8
+   },
+   "H2": {
+    "trades": 4571,
+    "win_rate": 40.8,
+    "avg_r": 0.028,
+    "avg_r_net": -0.027,
+    "total_r_net": -121.9
+   }
+  },
+  "  + 1d+4h trend agree": {
+   "all": {
+    "trades": 5740,
+    "win_rate": 41.6,
+    "avg_r": -0.008,
+    "avg_r_net": -0.067,
+    "total_r_net": -384.6
+   },
+   "H1": {
+    "trades": 2956,
+    "win_rate": 40.3,
+    "avg_r": -0.062,
+    "avg_r_net": -0.123,
+    "total_r_net": -365.0
+   },
+   "H2": {
+    "trades": 2784,
+    "win_rate": 43.0,
+    "avg_r": 0.048,
+    "avg_r_net": -0.007,
+    "total_r_net": -19.5
+   }
+  },
+  "  + 4h structure agrees": {
+   "all": {
+    "trades": 4825,
+    "win_rate": 40.7,
+    "avg_r": -0.015,
+    "avg_r_net": -0.071,
+    "total_r_net": -344.6
+   },
+   "H1": {
+    "trades": 2380,
+    "win_rate": 42.1,
+    "avg_r": 0.014,
+    "avg_r_net": -0.046,
+    "total_r_net": -110.2
+   },
+   "H2": {
+    "trades": 2445,
+    "win_rate": 39.3,
+    "avg_r": -0.044,
+    "avg_r_net": -0.096,
+    "total_r_net": -234.4
+   }
+  },
+  "  + all 3 timeframes agree": {
+   "all": {
+    "trades": 2770,
+    "win_rate": 42.5,
+    "avg_r": -0.036,
+    "avg_r_net": -0.091,
+    "total_r_net": -251.5
+   },
+   "H1": {
+    "trades": 1412,
+    "win_rate": 42.8,
+    "avg_r": -0.042,
+    "avg_r_net": -0.099,
+    "total_r_net": -139.8
+   },
+   "H2": {
+    "trades": 1358,
+    "win_rate": 42.0,
+    "avg_r": -0.029,
+    "avg_r_net": -0.082,
+    "total_r_net": -111.7
+   }
+  },
+  "  + volume 1.5x": {
+   "all": {
+    "trades": 7181,
+    "win_rate": 40.5,
+    "avg_r": 0.015,
+    "avg_r_net": -0.047,
+    "total_r_net": -334.3
+   },
+   "H1": {
+    "trades": 3532,
+    "win_rate": 39.4,
+    "avg_r": 0.005,
+    "avg_r_net": -0.063,
+    "total_r_net": -221.5
+   },
+   "H2": {
+    "trades": 3649,
+    "win_rate": 41.5,
+    "avg_r": 0.025,
+    "avg_r_net": -0.031,
+    "total_r_net": -112.7
+   }
+  },
+  "  + stronger than BTC": {
+   "all": {
+    "trades": 7192,
+    "win_rate": 41.2,
+    "avg_r": 0.014,
+    "avg_r_net": -0.04,
+    "total_r_net": -290.2
+   },
+   "H1": {
+    "trades": 3523,
+    "win_rate": 40.2,
+    "avg_r": -0.042,
+    "avg_r_net": -0.101,
+    "total_r_net": -354.7
+   },
+   "H2": {
+    "trades": 3669,
+    "win_rate": 42.2,
+    "avg_r": 0.068,
+    "avg_r_net": 0.018,
+    "total_r_net": 64.5
+   }
+  },
+  "  + BTC not against": {
+   "all": {
+    "trades": 6945,
+    "win_rate": 40.2,
+    "avg_r": 0.019,
+    "avg_r_net": -0.047,
+    "total_r_net": -326.8
+   },
+   "H1": {
+    "trades": 3493,
+    "win_rate": 41.7,
+    "avg_r": 0.079,
+    "avg_r_net": 0.007,
+    "total_r_net": 24.7
+   },
+   "H2": {
+    "trades": 3452,
+    "win_rate": 38.7,
+    "avg_r": -0.042,
+    "avg_r_net": -0.102,
+    "total_r_net": -351.5
+   }
+  },
+  "  + room to next level >= 2R": {
+   "all": {
+    "trades": 4085,
+    "win_rate": 38.7,
+    "avg_r": 0.05,
+    "avg_r_net": -0.016,
+    "total_r_net": -64.9
+   },
+   "H1": {
+    "trades": 2149,
+    "win_rate": 38.3,
+    "avg_r": 0.044,
+    "avg_r_net": -0.027,
+    "total_r_net": -57.9
+   },
+   "H2": {
+    "trades": 1936,
+    "win_rate": 39.3,
+    "avg_r": 0.058,
+    "avg_r_net": -0.004,
+    "total_r_net": -7.0
+   }
+  },
+  "  + OI not falling": {
+   "all": {
+    "trades": 5711,
+    "win_rate": 42.3,
+    "avg_r": 0.07,
+    "avg_r_net": 0.006,
+    "total_r_net": 35.8
+   },
+   "H1": {
+    "trades": 2951,
+    "win_rate": 42.5,
+    "avg_r": 0.094,
+    "avg_r_net": 0.025,
+    "total_r_net": 73.6
+   },
+   "H2": {
+    "trades": 2760,
+    "win_rate": 42.1,
+    "avg_r": 0.045,
+    "avg_r_net": -0.014,
+    "total_r_net": -37.8
+   }
+  },
+  "  + ATR% < 2.5": {
+   "all": {
+    "trades": 8422,
+    "win_rate": 40.4,
+    "avg_r": 0.034,
+    "avg_r_net": -0.03,
+    "total_r_net": -249.6
+   },
+   "H1": {
+    "trades": 4282,
+    "win_rate": 40.1,
+    "avg_r": 0.02,
+    "avg_r_net": -0.05,
+    "total_r_net": -216.2
+   },
+   "H2": {
+    "trades": 4140,
+    "win_rate": 40.7,
+    "avg_r": 0.05,
+    "avg_r_net": -0.008,
+    "total_r_net": -33.4
+   }
+  },
+  "  + RSI not stretched (<75)": {
+   "all": {
+    "trades": 8709,
+    "win_rate": 40.2,
+    "avg_r": 0.009,
+    "avg_r_net": -0.051,
+    "total_r_net": -446.3
+   },
+   "H1": {
+    "trades": 4380,
+    "win_rate": 39.5,
+    "avg_r": -0.016,
+    "avg_r_net": -0.081,
+    "total_r_net": -356.3
+   },
+   "H2": {
+    "trades": 4329,
+    "win_rate": 40.9,
+    "avg_r": 0.034,
+    "avg_r_net": -0.021,
+    "total_r_net": -90.1
+   }
+  },
+  "v4 rules = OI not falling + room to next level >= 2R + ATR% < 2.5": {
+   "all": {
+    "trades": 2108,
+    "win_rate": 41.2,
+    "avg_r": 0.148,
+    "avg_r_net": 0.071,
+    "total_r_net": 150.4
+   },
+   "H1": {
+    "trades": 1127,
+    "win_rate": 41.9,
+    "avg_r": 0.199,
+    "avg_r_net": 0.117,
+    "total_r_net": 131.6
+   },
+   "H2": {
+    "trades": 981,
+    "win_rate": 40.4,
+    "avg_r": 0.089,
+    "avg_r_net": 0.019,
+    "total_r_net": 18.8
+   }
+  },
+  "v4 rules + caps (15 open, 8/day)": {
+   "all": {
+    "trades": 713,
+    "win_rate": 37.6,
+    "avg_r": 0.027,
+    "avg_r_net": -0.046,
+    "total_r_net": -32.8
+   },
+   "H1": {
+    "trades": 363,
+    "win_rate": 37.5,
+    "avg_r": -0.014,
+    "avg_r_net": -0.095,
+    "total_r_net": -34.4
+   },
+   "H2": {
+    "trades": 350,
+    "win_rate": 37.7,
+    "avg_r": 0.07,
+    "avg_r_net": 0.005,
+    "total_r_net": 1.6
+   }
+  },
+  "OUT-OF-SAMPLE: filters picked on H1 only (OI not falling+BTC not against+room to next level >= 2R+4h structure agrees+ATR% < 2.5+volume 1.5x), tested on H2": {
+   "all": {
+    "trades": 259,
+    "win_rate": 49.8,
+    "avg_r": 0.397,
+    "avg_r_net": 0.316,
+    "total_r_net": 81.7
+   },
+   "H1": {
+    "trades": 259,
+    "win_rate": 49.8,
+    "avg_r": 0.397,
+    "avg_r_net": 0.316,
+    "total_r_net": 81.7
+   },
+   "H2": {
+    "trades": 239,
+    "win_rate": 38.9,
+    "avg_r": -0.017,
+    "avg_r_net": -0.088,
+    "total_r_net": -21.0
+   }
+  },
+  "v4 rules + caps, rank by relative strength": {
+   "all": {
+    "trades": 713,
+    "win_rate": 37.6,
+    "avg_r": 0.027,
+    "avg_r_net": -0.046,
+    "total_r_net": -32.8
+   },
+   "H1": {
+    "trades": 363,
+    "win_rate": 37.5,
+    "avg_r": -0.014,
+    "avg_r_net": -0.095,
+    "total_r_net": -34.4
+   },
+   "H2": {
+    "trades": 350,
+    "win_rate": 37.7,
+    "avg_r": 0.07,
+    "avg_r_net": 0.005,
+    "total_r_net": 1.6
+   }
+  },
+  "v4 rules + caps, rank by room to next level": {
+   "all": {
+    "trades": 713,
+    "win_rate": 37.9,
+    "avg_r": 0.023,
+    "avg_r_net": -0.05,
+    "total_r_net": -35.9
+   },
+   "H1": {
+    "trades": 363,
+    "win_rate": 37.5,
+    "avg_r": -0.035,
+    "avg_r_net": -0.116,
+    "total_r_net": -42.0
+   },
+   "H2": {
+    "trades": 350,
+    "win_rate": 38.3,
+    "avg_r": 0.083,
+    "avg_r_net": 0.017,
+    "total_r_net": 6.1
+   }
+  },
+  "v4 rules + caps, rank by volume": {
+   "all": {
+    "trades": 713,
+    "win_rate": 38.3,
+    "avg_r": 0.05,
+    "avg_r_net": -0.024,
+    "total_r_net": -17.3
+   },
+   "H1": {
+    "trades": 363,
+    "win_rate": 37.7,
+    "avg_r": 0.01,
+    "avg_r_net": -0.072,
+    "total_r_net": -26.1
+   },
+   "H2": {
+    "trades": 350,
+    "win_rate": 38.9,
+    "avg_r": 0.091,
+    "avg_r_net": 0.025,
+    "total_r_net": 8.9
+   }
+  },
+  "ML score (walk-forward, top 40%), all setups": {
+   "all": {
+    "trades": 3481,
+    "win_rate": 41.3,
+    "avg_r": -0.034,
+    "avg_r_net": -0.083,
+    "total_r_net": -289.9
+   },
+   "H1": {
+    "trades": 1277,
+    "win_rate": 40.6,
+    "avg_r": -0.021,
+    "avg_r_net": -0.075,
+    "total_r_net": -96.2
+   },
+   "H2": {
+    "trades": 2204,
+    "win_rate": 41.7,
+    "avg_r": -0.041,
+    "avg_r_net": -0.088,
+    "total_r_net": -193.7
+   }
+  },
+  "v4 rules, same period as ML": {
+   "all": {
+    "trades": 1650,
+    "win_rate": 41.7,
+    "avg_r": 0.196,
+    "avg_r_net": 0.12,
+    "total_r_net": 197.5
+   },
+   "H1": {
+    "trades": 669,
+    "win_rate": 43.6,
+    "avg_r": 0.353,
+    "avg_r_net": 0.267,
+    "total_r_net": 178.7
+   },
+   "H2": {
+    "trades": 981,
+    "win_rate": 40.4,
+    "avg_r": 0.089,
+    "avg_r_net": 0.019,
+    "total_r_net": 18.8
+   }
+  },
+  "v4 rules + ML score (top 60%)": {
+   "all": {
+    "trades": 834,
+    "win_rate": 44.4,
+    "avg_r": 0.07,
+    "avg_r_net": 0.002,
+    "total_r_net": 1.4
+   },
+   "H1": {
+    "trades": 347,
+    "win_rate": 44.1,
+    "avg_r": 0.167,
+    "avg_r_net": 0.088,
+    "total_r_net": 30.6
+   },
+   "H2": {
+    "trades": 487,
+    "win_rate": 44.6,
+    "avg_r": 0.0,
+    "avg_r_net": -0.06,
+    "total_r_net": -29.1
+   }
+  },
+  "v4 rules + caps + coin gate (walk-forward)": {
+   "all": {
+    "trades": 650,
+    "win_rate": 40.5,
+    "avg_r": 0.05,
+    "avg_r_net": -0.024,
+    "total_r_net": -15.5
+   },
+   "H1": {
+    "trades": 336,
+    "win_rate": 38.7,
+    "avg_r": -0.062,
+    "avg_r_net": -0.138,
+    "total_r_net": -46.2
+   },
+   "H2": {
+    "trades": 314,
+    "win_rate": 42.4,
+    "avg_r": 0.169,
+    "avg_r_net": 0.098,
+    "total_r_net": 30.7
+   }
+  }
+ },
+ "oos_stack_h1": [
+  "OI not falling",
+  "BTC not against",
+  "room to next level >= 2R",
+  "4h structure agrees",
+  "ATR% < 2.5",
+  "volume 1.5x"
+ ],
+ "exits": "st",
+ "setups": [
+  "BOS",
+  "BREAKOUT20",
+  "RANGE_BREAK",
+  "RETEST"
+ ],
+ "filters": [
+  "OI not falling",
+  "room to next level >= 2R",
+  "ATR% < 2.5"
+ ],
+ "single_filters_kept": [
+  "room to next level >= 2R",
+  "OI not falling",
+  "ATR% < 2.5"
+ ],
+ "ml_kept": false,
+ "setup_scores": {
+  "BOS|atr": -0.096,
+  "BOS|st": -0.096,
+  "BREAKOUT20|atr": -0.11,
+  "BREAKOUT20|st": -0.14,
+  "RANGE_BREAK|atr": -0.08,
+  "RANGE_BREAK|st": -0.087,
+  "RETEST|atr": -0.042,
+  "RETEST|st": -0.088
+ }
+}

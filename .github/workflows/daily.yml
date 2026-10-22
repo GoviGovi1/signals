@@ -14,20 +14,24 @@ permissions:
 jobs:
   gate:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 35
     steps:
       - uses: actions/checkout@v4
         with:
           ref: main
-      - name: Fetch 45 days of history
-        run: python3 bt_fetch.py --days 45 --no-funding
-      - name: Coin gate
-        run: python3 backtest_catalyst.py --gate
+      - name: Refresh the coin universe (~200 OKX coins)
+        run: python3 -c "import universe; universe.refresh(force=True)"
+      - name: Fetch 55 days of history (45 tested + indicator warm-up)
+        env:
+          BT_THREADS: "6"
+        run: python3 bt_fetch.py --days 55 --no-funding
+      - name: Coin gate (strategy v4 chart-reading rules)
+        run: python3 backtest_v4.py --gate
       - name: Commit
         run: |
           git config user.name "signals-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add catalyst/coin_gate.json
+          git add catalyst/coin_gate.json catalyst/universe.json
           git diff --cached --quiet && exit 0
           git commit -q -m "coin gate $(date -u +%F) [skip ci]"
           for i in 1 2 3 4; do

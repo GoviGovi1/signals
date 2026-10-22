@@ -119,7 +119,7 @@ def new_trade(side, entry, atr_v, opened_ms, p=P):
 def _close(t, price, status):
     side, e, R = t["dir"], t["entry"], t["R"]
     rest = 3 - t["hits"]
-    r = sum(k for k in range(1, t["hits"] + 1)) + rest * side * (price - e) / R
+    r = sum(side * (t["tps"][k] - e) / R for k in range(t["hits"])) + rest * side * (price - e) / R
     t["result_r"] = round(r / 3, 4)
     t["exit_price"] = price
     t["status"] = status

@@ -3,7 +3,7 @@ Signals only: reads public market data (OKX, DefiLlama, CoinGecko, GeckoTerminal
 wallet or exchange account.
 
 Signal kinds
-  TA                chart breakout (strategy.py) on ~40 liquid OKX coins, with catalyst reasons attached and
+  TA                chart breakout (strategy.py) on ~200 liquid OKX coins, with catalyst reasons attached and
                     catalyst filters applied where the backtest showed they help (config.CATALYST_FILTERS)
   UNLOCK_SHORT      perps short before a big token unlock, with a bearish chart          (if switched on)
   POST_UNLOCK_LONG  spot long after a big unlock passed and price held                   (if switched on)
@@ -13,7 +13,7 @@ usage: python3 run.py [--no-refresh]"""
 import csv, fcntl, json, os, sys, time
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
-import config as C, okx, strategy as S, catalyst as K, universe
+import config as C, chartread as CR, okx, strategy as S, catalyst as K, universe
 
 H = S.H
 DAY = 86400
@@ -244,6 +244,54 @@ def ta_reason(side, r, tr4):
     return f"Chart: 20-hour breakdown below EMA50, 4h downtrend, RSI {r:.0f}"
 
 
+# ---------------- market choice ----------------
+def lev_for(stop_frac, cap):
+    """Leverage so a stop costs ~8% of margin AND liquidation (~1/L minus ~1% maintenance) sits at least 3x
+    further away than the stop. Capped."""
+    if stop_frac <= 0:
+        return 1
+    return max(1, min(cap, int(C.P["lev_target_loss"] / stop_frac), int(1 / (3 * stop_frac + 0.01))))
+
+
+def choose_market(coin, side, stop_frac, atrp, strong, der):
+    """('SPOT'|'PERP', leverage, reason in plain words) or (None, 0, why not)."""
+    inf = universe.info(coin)
+    fund8 = (der or {}).get("funding_8h_pct")
+    thin = inf.get("vol_perp", 0) < 10e6
+    wild = atrp > 3.0
+    cap = 1 if (thin or wild) else C.P["max_lev"]
+    if side < 0:
+        if not inf.get("perp"):
+            return None, 0, "no perpetual to short"
+        L = lev_for(stop_frac, cap)
+        why = "shorts need perps"
+        if wild: why += "; very volatile, so 1x"
+        elif thin: why += "; thin perp market, so 1x"
+        else: why += f"; {L}x keeps liquidation 3x+ further away than the stop"
+        return "PERP", L, why
+    if not inf.get("perp"):
+        return "SPOT", 1, "only spot is listed"
+    if not inf.get("spot"):
+        L = lev_for(stop_frac, cap)
+        return "PERP", L, f"only perps are listed; {L}x keeps liquidation far from the stop"
+    L = lev_for(stop_frac, cap)
+    cheap = fund8 is not None and fund8 <= 0.01
+    if strong and cheap and not wild and not thin and L >= 2:
+        return "PERP", L, (f"strong trend (coin and BTC up, beating BTC) and cheap funding ({fund8:+.3f}%/8h); "
+                           f"{L}x keeps liquidation 3x+ further away than the stop")
+    if wild:
+        why = "very volatile coin: spot avoids liquidation"
+    elif thin:
+        why = "thin perp market: spot is safer"
+    elif fund8 is not None and not cheap:
+        why = f"funding {fund8:+.3f}%/8h is not cheap: spot avoids paying it"
+    elif not strong:
+        why = "trend not strong enough for leverage: spot has no liquidation or funding"
+    else:
+        why = "spot: no liquidation or funding"
+    return "SPOT", 1, why
+
+
 # ---------------- main ----------------
 def fetch(key):
     coin, m = key
@@ -251,6 +299,52 @@ def fetch(key):
         return key, okx.recent(coin, m, "1h", 300), okx.recent(coin, m, "4h", 300, confirmed_only=True), None
     except Exception as e:
         return key, None, None, type(e).__name__
+
+
+def fetch1(key, limit=100):
+    coin, m = key
+    try:
+        return key, okx.recent(coin, m, "1h", limit), None
+    except Exception as e:
+        return key, None, type(e).__name__
+
+
+SCAN = os.path.join(C.DIR, "catalyst", "scan_state.json")
+
+
+def v3_filters(side, rs, vr, btc_trend, atrp=None):
+    """Strategy v3 extra rules (switched on in config.V3_FILTERS by backtest200.py). Returns (ok, reasons)."""
+    F, ok, rs_ = C.V3_FILTERS, True, []
+    if btc_trend is not None:
+        rs_.append("BTC 4h trend " + {1: "up", -1: "down", 0: "flat"}[btc_trend])
+        if F.get("BTC regime") and btc_trend == -side:
+            ok = False
+    if rs is not None:
+        rs_.append(f"{'Stronger' if rs > 0 else 'Weaker'} than BTC by {abs(rs):.1f}% over 7d")
+        if F.get("relative strength vs BTC") and side * rs <= 0:
+            ok = False
+    if vr is not None:
+        rs_.append(f"Breakout volume {vr:.1f}x the 20h average")
+        if F.get("volume 1.5x") and vr < 1.5:
+            ok = False
+    if atrp is not None and F.get("ATR% < 2.5 (calmer coins)") and atrp >= 2.5:
+        rs_.append(f"Too volatile (ATR {atrp:.1f}%/h)"); ok = False
+    if F.get("longs only") and side == -1:
+        rs_.append("shorts switched off"); ok = False
+    return ok, rs_
+
+
+def prune_charts(sigs):
+    d = os.path.join(C.SITE_DIR, "charts")
+    if not os.path.isdir(d):
+        return
+    closed = sorted((s for s in sigs if s["closed"]), key=lambda s: s.get("closed_at") or 0, reverse=True)
+    keep = {os.path.basename(s["chart"]) for s in sigs if s.get("chart") and (not s["closed"] or s in closed[:40])}
+    for f in os.listdir(d):
+        if f.endswith(".png") and f not in keep:
+            os.remove(os.path.join(d, f))
+    for s in closed[40:]:
+        s.pop("chart", None)
 
 
 def main():
@@ -266,103 +360,179 @@ def main():
         if done_ or failed:
             print("catalyst:", ", ".join(done_) or "-", ("| failed: " + "; ".join(failed)) if failed else "")
     sigs = load()
-    coins = universe.coins()
-    open_coins = [s["coin"] for s in sigs if not s["closed"] and s["market"] != "DEX"]
-    coins = list(dict.fromkeys(coins + open_coins))
-    lines, now_ms = [], int(time.time() * 1000)
-    keys = [(c, m) for c in coins for m in C.MARKETS]
+    lines, outbox, now_ms = [], [], int(time.time() * 1000)
+    # 1) track open exchange signals on their own market (one small call each)
+    open_keys = sorted({(s["coin"], s["market"]) for s in sigs if not s["closed"] and s["market"] != "DEX"})
     with ThreadPoolExecutor(3) as ex:
-        got = list(ex.map(fetch, keys))
-    errors = [f"{c} {m}: {e}" for (c, m), _, _, e in got if e]
-    cx = Ctx()
-    n_open = sum(1 for s in sigs if not s["closed"] and s["market"] != "DEX")
-    cands = []
-    for (coin, m), b1, b4, err in got:
-        if err or not b1:
+        got_open = {k: (b, e) for k, b, e in ex.map(fetch1, open_keys)}
+    errors = [f"{k}: {e}" for k, (b, e) in got_open.items() if e]
+    for s in sigs:
+        if s["closed"] or s["market"] == "DEX":
             continue
-        done = [b for b in b1 if b["done"]]
-        # 1) update open signals
-        for s in sigs:
-            if s["closed"] or s["coin"] != coin or s["market"] != m:
-                continue
-            ev = track(s, b1, now_ms)
-            if m == "PERP" and not s["closed"]:
-                try:
-                    s["funding_pct"] = round(okx.funding(coin) * 100, 4)
-                except Exception:
-                    pass
-            lines += update_lines(s, ev)
-        # 2) candidate on the last closed 1h candle (one open signal per coin per market)
-        if coin not in universe.coins() or len(done) < 60:
+        b1 = got_open.get((s["coin"], s["market"]), (None, None))[0]
+        if not b1:
             continue
-        if any(not s["closed"] and s["coin"] == coin and s["market"] == m for s in sigs):
-            continue
-        i = len(done) - 1
-        bar_ts = done[i]["ts"]
-        if any(s["coin"] == coin and s["market"] == m and s["bar_ts"] == bar_ts for s in sigs):
-            continue
-        ind = S.indicators(done, b4)
-        side = S.signal_at(done, ind, i, m)
-        kind, reasons = "TA", []
-        c = cx.coin(coin, b1, b4)
-        if side:
-            reasons = [ta_reason(side, ind["rsi"][i], ind["trend"][i])]
-        else:
-            kind, side, reasons = catalyst_kind(coin, m, done, ind, c)
-            if not kind:
-                continue
-        cands.append((coin, m, b1, done, ind, i, side, kind, reasons, c))
-    for coin, m, b1, done, ind, i, side, kind, reasons, c in cands:
-        if n_open >= C.MAX_OPEN:
-            print(f"skip {coin} {m}: {C.MAX_OPEN} signals already open")
-            continue
-        der = cx.derivs(coin)
-        score, veto, crs = assess(coin, side, m, c, der)
-        gate = K.coin_gate() if C.COIN_GATE and kind == "TA" else None
-        if gate and coin not in gate.get("net_r", {}):
-            veto = veto or f"no 45-day track record for {coin} yet"
-        elif gate and gate["net_r"][coin] <= 0:
-            veto = veto or f"strategy lost {gate['net_r'][coin]:+.1f}R on {coin} in the last 45 days"
-        elif gate and coin in gate.get("net_r", {}):
-            crs.append(f"Track record: {gate['net_r'][coin]:+.1f}R on {coin} in the last 45 days (backtest)")
-        if veto and kind == "TA":
-            print(f"filtered {coin} {m} {'LONG' if side > 0 else 'SHORT'}: {veto}")
-            continue
-        bar_ts, last = done[i]["ts"], b1[-1]["c"]
-        t = S.new_trade(side, done[i]["c"], ind["atr"][i], bar_ts + H)
-        s = dict(t, id=f"{coin}-{m}-{bar_ts // 1000}", kind=kind, coin=coin, market=m, bar_ts=bar_ts,
-                 side="LONG" if side == 1 else "SHORT", next_bar=bar_ts + H, last=last, last_ts=now_ms,
-                 rsi=round(ind["rsi"][i], 1), atr=ind["atr"][i], result_pct=None, closed_at=None,
-                 move_pct=round((last - t["entry"]) / t["entry"] * 100 * side, 2),
-                 score=score, reasons=reasons + [x for x in crs if x not in reasons])
-        if m == "PERP":
-            s["funding_pct"] = der.get("funding_pct")
-        else:
-            s["lev"] = 1
-        sigs.append(s)
-        n_open += 1
-        lines.append(signal_line(s))
-        ev = S.step(s, b1[-1]) if not b1[-1]["done"] else []
-        finish(s, now_ms)
+        ev = track(s, b1, now_ms)
+        if s["market"] == "PERP" and not s["closed"]:
+            try:
+                s["funding_pct"] = round(okx.funding(s["coin"]) * 100, 4)
+            except Exception:
+                pass
         lines += update_lines(s, ev)
+    # 2) scan the universe once per closed hour (the first run after the hour does it)
+    st = K.jload("scan_state")
+    last_closed = (now_ms // H) * H - H
+    scanned = 0
+    if st.get("bar_ts") != last_closed or "--scan" in sys.argv:
+        coins = universe.coins()
+        keys = [(c, universe.info(c).get("series") or "PERP") for c in coins]
+        with ThreadPoolExecutor(4) as ex:
+            got = list(ex.map(fetch, keys))
+        scanned = len(keys)
+        errs = [f"{c} {m}: {e}" for (c, m), _, _, e in got if e]
+        errors += errs
+        if len(errs) < len(keys) // 2:
+            K.jsave("scan_state", {"bar_ts": last_closed, "updated": int(time.time()), "coins": len(keys), "errors": len(errs)})
+        lines += scan(sigs, got, now_ms)
     # 3) on-chain (DEX) watchlist signals
     lines += dex_signals(sigs, now_ms)
+    prune_charts(sigs)
     save(sigs)
-    if len(errors) == len(keys):
+    if scanned and len(errors) >= scanned:
         state = os.path.join(C.PRIVATE_DIR, "outage")
         if not os.path.exists(state):
             open(state, "w").write(iso(now_ms))
             lines.append("ERROR market data unavailable (OKX); will keep retrying")
-    elif os.path.exists(os.path.join(C.PRIVATE_DIR, "outage")):
+    elif scanned and os.path.exists(os.path.join(C.PRIVATE_DIR, "outage")):
         os.remove(os.path.join(C.PRIVATE_DIR, "outage"))
         lines.append("OK market data is back")
     if lines:
         with open(C.OUTBOX, "a") as fh:
             for ln in lines:
-                if ln.startswith(("SIGNAL", "UPDATE")):
+                if isinstance(ln, dict):
+                    fh.write(json.dumps(dict(ln, ts=now_ms)) + "\n")
+                elif ln.startswith(("SIGNAL", "UPDATE")):
                     fh.write(json.dumps({"ts": now_ms, "text": ln}) + "\n")
-        print("\n".join(lines))
-    print(f"run: {len(coins)} coins, {len(errors)} fetch errors, {time.time() - t0:.0f}s")
+        print("\n".join(ln["text"] if isinstance(ln, dict) else ln for ln in lines))
+    print(f"run: {len(open_keys)} open tracked, {scanned} coins scanned, {len(errors)} fetch errors, {time.time() - t0:.0f}s")
+
+
+def scan(sigs, got, now_ms):
+    lines = []
+    cx = Ctx()
+    data = {c: (m, b1, b4) for (c, m), b1, b4, e in got if not e and b1 and b4}
+    btc = data.get("BTC")
+    btc_trend, btc_7d = None, None
+    if btc:
+        tr = S.trend_series(btc[2])
+        btc_trend = tr[-1][1] if tr else None
+        bd = [b for b in btc[1] if b["done"]]
+        btc_7d = bd[-1]["c"] / bd[-169]["c"] - 1 if len(bd) > 169 else None
+    n_open = sum(1 for s in sigs if not s["closed"] and s["market"] != "DEX")
+    today = sum(1 for s in sigs if s["market"] != "DEX" and s["opened"] // (86400 * 1000) == now_ms // (86400 * 1000))
+    gate = K.coin_gate() if C.COIN_GATE else None
+    cands = []
+    for coin, (m, b1, b4) in data.items():
+        done = [b for b in b1 if b["done"]]
+        if len(done) < 200:
+            continue
+        if any(not s["closed"] and s["coin"] == coin and s["market"] != "DEX" for s in sigs):
+            continue
+        i = len(done) - 1
+        bar_ts = done[i]["ts"]
+        if any(s["coin"] == coin and s.get("bar_ts") == bar_ts for s in sigs):
+            continue
+        inf = universe.info(coin)
+        sides = (1, -1) if inf.get("perp") else (1,)
+        P = CR.prep(done, b4)
+        for k in range(max(200, i - 26), i):             # replay recent bars so retests know their breakout
+            CR.triggers(P, k, sides)
+        V4 = C.V4
+        for setup, side, info in CR.triggers(P, i, sides):
+            if setup not in V4["setups"]:
+                continue
+            rd = CR.read(P, i, side, setup, info)
+            f = rd["features"]
+            if f["room"] < V4["min_room_r"]:
+                print(f"filtered {coin} {setup}: next level only {f['room']:.1f}R away"); continue
+            if f["atrp"] >= V4["max_atr_pct"]:
+                print(f"filtered {coin} {setup}: too volatile (ATR {f['atrp']:.1f}%/h)"); continue
+            rs = (done[i]["c"] / done[i - 168]["c"] - 1 - btc_7d) * 100 if btc_7d is not None and i >= 168 else None
+            vr = f["vr"]
+            cands.append((side * (rs or 0), coin, m, b1, b4, done, P["ind"], i, side, rs, vr, setup, rd))
+            break                                        # one setup per coin (order: range, retest, BOS, 20h)
+    cands.sort(key=lambda x: -x[0])                     # strongest relative strength first
+    for _, coin, m, b1, b4, done, ind, i, side, rs, vr, setup, rd in cands:
+        if n_open >= C.MAX_OPEN or today >= C.MAX_NEW_PER_DAY:
+            print(f"cap reached, skipped {coin} ({n_open} open, {today} today)")
+            continue
+        ok, v3r = v3_filters(side, rs, None, btc_trend, None)
+        if not ok:
+            print(f"filtered {coin} {'LONG' if side > 0 else 'SHORT'}: v3 rules ({'; '.join(v3r)})")
+            continue
+        inf = universe.info(coin)
+        der = cx.derivs(coin) if inf.get("perp") else {}
+        c = cx.coin(coin, b1, b4)
+        score, veto, crs = assess(coin, side, m, c, der)
+        if gate and coin not in gate.get("net_r", {}):
+            veto = veto or f"no 45-day track record for {coin} yet"
+        elif gate and gate["net_r"][coin] <= 0:
+            veto = veto or f"strategy lost {gate['net_r'][coin]:+.1f}R on {coin} in the last 45 days"
+        elif gate:
+            crs.append(f"Track record: {gate['net_r'][coin]:+.1f}R on {coin} in the last 45 days (backtest)")
+        if veto:
+            print(f"filtered {coin} {'LONG' if side > 0 else 'SHORT'}: {veto}")
+            continue
+        atr_v, entry = ind["atr"][i], done[i]["c"]
+        atrp = atr_v / entry * 100
+        f = rd["features"]
+        strong = side > 0 and f["t4"] == 1 and f["d1"] == 1 and btc_trend == 1 and (rs or 0) > 0
+        market, lev, mwhy = choose_market(coin, side, rd["R"] / entry, atrp, strong, der)
+        scale = 1.0
+        if not market:
+            continue
+        bars, b4m = b1, b4
+        if market != m:                                  # levels from the market you'll actually trade
+            try:
+                bars = okx.recent(coin, market, "1h", 300)
+                b4m = okx.recent(coin, market, "4h", 300, confirmed_only=True)
+                d2 = [b for b in bars if b["done"]]
+                k2 = next(k for k, b in enumerate(d2) if b["ts"] == done[i]["ts"])
+                ind2 = S.indicators(d2, b4m)
+                scale = d2[k2]["c"] / entry                 # same chart levels, priced on that market
+                entry, atr_v = d2[k2]["c"], ind2["atr"][k2]
+            except Exception:
+                bars, market, lev = b1, m, (lev if m == "PERP" else 1)
+                mwhy += " (fallback: other market's data unavailable)"
+        bar_ts, last = done[i]["ts"], bars[-1]["c"]
+        t = S.new_trade(side, entry, atr_v, bar_ts + H)
+        sl = rd["sl"] * scale
+        t.update(sl=sl, sl0=sl, R=abs(entry - sl), tps=[x * scale for x in rd["tps"]])
+        trade_on = "Spot" if market == "SPOT" else f"Perps {lev}x"
+        s = dict(t, id=f"{coin}-{market}-{bar_ts // 1000}", kind="TA", coin=coin, market=market, bar_ts=bar_ts,
+                 side="LONG" if side == 1 else "SHORT", next_bar=bar_ts + H, last=last, last_ts=now_ms,
+                 rsi=round(ind["rsi"][i], 1), atr=atr_v, result_pct=None, closed_at=None,
+                 move_pct=round((last - entry) / entry * 100 * side, 2), score=score, lev=lev,
+                 trade_on=trade_on, market_reason=mwhy,
+                 setup=setup, reasons=[f"Chart: {x}" if k == 0 else x for k, x in enumerate(rd["reasons"])] + v3r + crs,
+                 levels=[round(x * scale, 10) for x in rd["plot"]["levels"]],
+                 range_box=[rd["plot"]["range"][0] * scale, rd["plot"]["range"][1] * scale, rd["plot"]["range"][2]] if rd["plot"].get("range") else None)
+        s["funding_pct"] = der.get("funding_pct") if market == "PERP" else None
+        try:
+            import chart
+            path = os.path.join(C.SITE_DIR, "charts", f"{s['id']}.png")
+            chart.render(s, bars, path)
+            s["chart"] = f"charts/{s['id']}.png"
+        except Exception as e:
+            print(f"chart failed for {coin}: {type(e).__name__}")
+        sigs.append(s)
+        n_open += 1; today += 1
+        line = signal_line(s)
+        lines.append({"text": line, "sig": s["id"], "photo": os.path.join("site", s["chart"]) if s.get("chart") else None})
+        ev = S.step(s, bars[-1]) if not bars[-1]["done"] else []
+        finish(s, now_ms)
+        lines += update_lines(s, ev)
+    return lines
 
 
 def dex_signals(sigs, now_ms):
@@ -401,10 +571,19 @@ def dex_signals(sigs, now_ms):
                  token=w["token"], pool=w["pool"], url=w["url"], bar_ts=w["bar_ts"], side="LONG",
                  next_bar=w["bar_ts"] + H, last=w["price"], last_ts=now_ms, rsi=w["rsi"], atr=w["atr"],
                  result_pct=None, closed_at=None, move_pct=round((w["price"] - t["entry"]) / t["entry"] * 100, 2),
-                 score=None, reasons=rs, lev=1)
+                 score=None, reasons=rs, lev=1, trade_on=f"On-chain spot ({w['chain']} DEX)",
+                 market_reason="not listed on OKX; buy on a DEX, small size, no leverage")
+        try:
+            import chart
+            os.makedirs(os.path.join(C.SITE_DIR, "charts"), exist_ok=True)
+            chart.render(s, K.dex_bars(w["net"], w["pool"], 100), os.path.join(C.SITE_DIR, "charts", f"{sid}.png"))
+            s["chart"] = f"charts/{sid}.png"
+        except Exception as e:
+            print(f"dex chart failed for {w['symbol']}: {type(e).__name__}")
         sigs.append(s)
         open_dex.append(s); today.append(s)
-        lines.append(signal_line(s) + f" | token {w['token']}")
+        lines.append({"text": signal_line(s) + f" | token {w['token']}", "sig": sid,
+                      "photo": os.path.join("site", s["chart"]) if s.get("chart") else None})
     return lines
 
 

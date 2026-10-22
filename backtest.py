@@ -9,9 +9,12 @@ DAYS = 90
 H = S.H
 
 
+MAX_AGE = 6 * 3600
+
+
 def load(coin, market, bar, n, refresh):
     path = os.path.join(C.CACHE_DIR, f"{coin}_{market}_{bar}.json")
-    if not refresh and os.path.exists(path) and time.time() - os.path.getmtime(path) < 6 * 3600:
+    if not refresh and os.path.exists(path) and time.time() - os.path.getmtime(path) < MAX_AGE:
         return json.load(open(path))
     rows = okx.history(coin, market, bar, n)
     json.dump(rows, open(path, "w"))

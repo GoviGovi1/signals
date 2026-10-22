@@ -8,7 +8,7 @@ import config as C, universe
 
 OUT = os.path.join(C.SITE_DIR, "data.json")
 KEEP = ["id", "kind", "score", "reasons", "chain", "token", "url", "coin", "market", "side", "entry", "sl0", "sl", "tps", "lev", "funding_pct", "status", "hits",
-        "opened", "closed_at", "exit_price", "result_r", "result_pct", "last", "last_ts", "move_pct", "closed", "rsi"]
+        "opened", "closed_at", "exit_price", "result_r", "result_pct", "last", "last_ts", "move_pct", "closed", "rsi", "trade_on", "market_reason", "chart", "setup"]
 
 
 def iso(ms):
@@ -102,13 +102,21 @@ def build():
             bt["catalyst"]["decisions"] = x.get("decisions", {})
             for k in bt["catalyst"]["catalyst"].values():
                 k.pop("list", None)
+        b200 = os.path.join(C.DIR, "backtest200.json")
+        if os.path.exists(b200):
+            bt["v3"] = json.load(open(b200))
+        b4 = os.path.join(C.DIR, "backtest_v4.json")
+        if os.path.exists(b4):
+            bt["v4"] = json.load(open(b4))
         before = os.path.join(C.DIR, "backtest_before.json")
         if os.path.exists(before):
             bb = json.load(open(before))["summary"]
             bt["before"] = {k: bb[k] for k in ["all", "SPOT", "PERP"]}
     return {"open": open_, "closed": [clean(s) for s in closed[:60]], "stats": stats, "backtest": bt,
             "telegram": C.TG_LINK, "coins": coins, "catalysts": catalysts(coins),
-            "filters": C.CATALYST_FILTERS, "catalyst_signals": C.CATALYST_SIGNALS,
+            "filters": C.CATALYST_FILTERS, "v3_filters": getattr(C, "V3_FILTERS", {}),
+            "caps": {"max_open": C.MAX_OPEN, "max_new_per_day": getattr(C, "MAX_NEW_PER_DAY", None),
+                     "max_open_dex": C.MAX_OPEN_DEX, "max_new_dex_per_day": C.MAX_NEW_DEX_PER_DAY}, "catalyst_signals": C.CATALYST_SIGNALS,
             "rules": {k: C.P[k] for k in ["breakout_n", "atr_mult", "expire_h", "max_lev"]}}
 
 

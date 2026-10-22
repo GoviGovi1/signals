@@ -53,6 +53,8 @@
       '<div class="grid g4">' + kv("Entry", px(s.entry)) + kv("Stop" + (s.hits ? " (entry)" : ""), px(s.hits ? s.entry : s.sl0), "bad") + extra +
       kv("Move", (s.move_pct == null ? "–" : sg(s.move_pct) + "%"), cls(s.move_pct)) + '</div>' +
       '<div class="grid">' + tps + '</div>' +
+      (s.trade_on ? '<p class="tradeon"><b>Trade on: ' + esc(s.trade_on) + '</b>' + (s.market_reason ? ' <span class="muted">— ' + esc(s.market_reason) + '</span>' : "") + '</p>' : "") +
+      (s.chart ? '<a href="' + esc(s.chart) + '" target="_blank" rel="noopener"><img class="sigchart" loading="lazy" src="' + esc(s.chart) + '" alt="' + esc(s.coin) + ' signal chart"></a>' : "") +
       why(s) + (s.market === "DEX" && s.token ? copyBtn(s.token) : "") +
       '<div class="bottom">' + st + '<span class="chip kind">' + esc(KIND[s.kind] || "Chart breakout") + '</span>' +
       (s.score != null ? '<span class="score ' + cls(s.score) + '">Catalyst ' + sg(s.score, 0) + '</span>' : "") + '<span class="muted lvl" style="margin-left:auto">' + (s.market === "PERP" ? "Price " + px(s.last) + " · " : "") + 'checked ' + ago(s.last_ts) + '</span></div></article>';
@@ -156,10 +158,11 @@
         'Before fees. After typical fees (' + b.fees.SPOT + '% spot, ' + b.fees.PERP + '% perps round trip) the average drops to ' + sg(b.all.avg_r_net, 2) + 'R per signal, close to break-even. ' +
         (b.before ? 'The first version (EMA20 pullback) lost money in the same test (' + sg(b.before.all.avg_r, 2) + 'R per signal before fees), so it was replaced. ' : '') +
         'Past results do not predict future ones.</p>';
-      $("bt").innerHTML = t + catBacktest(b);
+      $("bt").innerHTML = v3Backtest(b) + t + catBacktest(b);
     }
     renderCat();
     if (data.coins) $("ncoins").textContent = data.coins.length;
+    if (data.caps) { $("maxopen").textContent = data.caps.max_open; $("maxday").textContent = data.caps.max_new_per_day; }
     $("updated").textContent = "Updated " + ago(data.generated);
   }
   document.querySelectorAll(".tab").forEach(function (b) {
@@ -179,6 +182,19 @@
     var t = b.getAttribute("data-copy");
     (navigator.clipboard ? navigator.clipboard.writeText(t) : Promise.reject()).then(function () { b.textContent = "Copied"; setTimeout(function () { b.textContent = "Copy"; }, 1500); }, function () {});
   });
+  function v3Backtest(b) { return btTable(b.v4, "Strategy v4 (chart reading)") + btTable(b.v3, "Strategy v3 (20-hour breakout + filters)"); }
+  function btTable(v, title) {
+    if (!v) return "";
+    function c(a) { return a && a.trades ? '<td>' + a.trades + '</td><td class="' + cls(a.avg_r_net) + '">' + sg(a.avg_r_net, 3) + 'R</td>' : '<td>0</td><td>–</td>'; }
+    var h = '<h3>' + title + ' on ' + v.coins + ' coins (' + v.from + ' → ' + v.to + ', split ' + v.mid + ')</h3>' +
+      '<table class="bt"><tr><th>Version</th><th>Signals H1</th><th>Net R H1</th><th>Signals H2</th><th>Net R H2</th></tr>';
+    Object.keys(v.rows).forEach(function (k) { h += '<tr><td>' + esc(k) + '</td>' + c(v.rows[k].H1) + c(v.rows[k].H2) + '</tr>'; });
+    return h + '</table><p class="bt-note">Average result per signal <b>after fees</b> (' + v.fees_pct_round_trip.SPOT + '% spot, ' + v.fees_pct_round_trip.PERP +
+      '% perps round trip), in R. H1 = older half, H2 = newer half. A rule is kept only if it helped in both halves' +
+      ((v.kept_filters || v.filters) && (v.kept_filters || v.filters).length ? ' (kept: ' + esc((v.kept_filters || v.filters).join(", ")) + ')' : ' (none qualified)') +
+      (v.ml_kept === false ? '. The machine-learning score did not beat the rules out-of-sample, so it is off' : "") +
+      '. The coin gate row is walk-forward: coins picked on one half, tested on the other. Past results do not predict future ones.</p>';
+  }
   function load() {
     fetch("data.json?t=" + Date.now()).then(function (r) { return r.json(); }).then(function (d) { data = d; render(); })
       .catch(function () { $("open").innerHTML = '<p class="muted">Could not load data. Pull to refresh.</p>'; });

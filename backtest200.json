@@ -1,0 +1,294 @@
+{
+ "generated": "2026-10-22T14:50:15+00:00",
+ "coins": 200,
+ "from": "2026-07-23",
+ "to": "2026-10-21",
+ "mid": "2026-09-06",
+ "fees_pct_round_trip": {
+  "SPOT": 0.2,
+  "PERP": 0.1
+ },
+ "rows": {
+  "TA only, no caps (v2 rules, 200 coins)": {
+   "all": {
+    "trades": 6415,
+    "win_rate": 49.6,
+    "avg_r": 0.005,
+    "avg_r_net": -0.058,
+    "total_r_net": -371.4
+   },
+   "H1": {
+    "trades": 3193,
+    "win_rate": 48.6,
+    "avg_r": -0.045,
+    "avg_r_net": -0.11,
+    "total_r_net": -351.9
+   },
+   "H2": {
+    "trades": 3222,
+    "win_rate": 50.7,
+    "avg_r": 0.055,
+    "avg_r_net": -0.006,
+    "total_r_net": -19.6
+   }
+  },
+  "TA only, original 9 coins": {
+   "all": {
+    "trades": 290,
+    "win_rate": 53.4,
+    "avg_r": 0.129,
+    "avg_r_net": -0.007,
+    "total_r_net": -2.1
+   },
+   "H1": {
+    "trades": 153,
+    "win_rate": 54.9,
+    "avg_r": 0.129,
+    "avg_r_net": -0.019,
+    "total_r_net": -2.9
+   },
+   "H2": {
+    "trades": 137,
+    "win_rate": 51.8,
+    "avg_r": 0.129,
+    "avg_r_net": 0.006,
+    "total_r_net": 0.8
+   }
+  },
+  "+ BTC regime": {
+   "all": {
+    "trades": 5008,
+    "win_rate": 49.5,
+    "avg_r": -0.007,
+    "avg_r_net": -0.074,
+    "total_r_net": -368.4
+   },
+   "H1": {
+    "trades": 2343,
+    "win_rate": 49.5,
+    "avg_r": -0.029,
+    "avg_r_net": -0.099,
+    "total_r_net": -232.3
+   },
+   "H2": {
+    "trades": 2665,
+    "win_rate": 49.5,
+    "avg_r": 0.013,
+    "avg_r_net": -0.051,
+    "total_r_net": -136.2
+   }
+  },
+  "+ relative strength vs BTC": {
+   "all": {
+    "trades": 5088,
+    "win_rate": 49.7,
+    "avg_r": 0.01,
+    "avg_r_net": -0.047,
+    "total_r_net": -240.3
+   },
+   "H1": {
+    "trades": 2478,
+    "win_rate": 48.1,
+    "avg_r": -0.06,
+    "avg_r_net": -0.12,
+    "total_r_net": -298.0
+   },
+   "H2": {
+    "trades": 2610,
+    "win_rate": 51.2,
+    "avg_r": 0.077,
+    "avg_r_net": 0.022,
+    "total_r_net": 57.7
+   }
+  },
+  "+ volume 1.5x": {
+   "all": {
+    "trades": 5182,
+    "win_rate": 48.4,
+    "avg_r": -0.011,
+    "avg_r_net": -0.074,
+    "total_r_net": -384.6
+   },
+   "H1": {
+    "trades": 2516,
+    "win_rate": 46.0,
+    "avg_r": -0.079,
+    "avg_r_net": -0.145,
+    "total_r_net": -364.8
+   },
+   "H2": {
+    "trades": 2666,
+    "win_rate": 50.8,
+    "avg_r": 0.053,
+    "avg_r_net": -0.007,
+    "total_r_net": -19.9
+   }
+  },
+  "+ OI not falling": {
+   "all": {
+    "trades": 3781,
+    "win_rate": 51.1,
+    "avg_r": 0.034,
+    "avg_r_net": -0.031,
+    "total_r_net": -115.6
+   },
+   "H1": {
+    "trades": 1836,
+    "win_rate": 50.3,
+    "avg_r": 0.005,
+    "avg_r_net": -0.061,
+    "total_r_net": -112.5
+   },
+   "H2": {
+    "trades": 1945,
+    "win_rate": 51.8,
+    "avg_r": 0.061,
+    "avg_r_net": -0.002,
+    "total_r_net": -3.1
+   }
+  },
+  "+ longs only": {
+   "all": {
+    "trades": 3737,
+    "win_rate": 49.3,
+    "avg_r": 0.006,
+    "avg_r_net": -0.066,
+    "total_r_net": -246.6
+   },
+   "H1": {
+    "trades": 1371,
+    "win_rate": 52.0,
+    "avg_r": 0.054,
+    "avg_r_net": -0.026,
+    "total_r_net": -35.3
+   },
+   "H2": {
+    "trades": 2366,
+    "win_rate": 47.8,
+    "avg_r": -0.022,
+    "avg_r_net": -0.089,
+    "total_r_net": -211.3
+   }
+  },
+  "+ ATR% < 2.5 (calmer coins)": {
+   "all": {
+    "trades": 5895,
+    "win_rate": 49.9,
+    "avg_r": 0.015,
+    "avg_r_net": -0.052,
+    "total_r_net": -307.1
+   },
+   "H1": {
+    "trades": 2959,
+    "win_rate": 49.0,
+    "avg_r": -0.038,
+    "avg_r_net": -0.108,
+    "total_r_net": -318.2
+   },
+   "H2": {
+    "trades": 2936,
+    "win_rate": 50.8,
+    "avg_r": 0.068,
+    "avg_r_net": 0.004,
+    "total_r_net": 11.1
+   }
+  },
+  "v3 = TA + OI not falling + ATR% < 2.5 (calmer coins)": {
+   "all": {
+    "trades": 3387,
+    "win_rate": 51.6,
+    "avg_r": 0.047,
+    "avg_r_net": -0.022,
+    "total_r_net": -74.6
+   },
+   "H1": {
+    "trades": 1670,
+    "win_rate": 50.7,
+    "avg_r": 0.008,
+    "avg_r_net": -0.063,
+    "total_r_net": -105.9
+   },
+   "H2": {
+    "trades": 1717,
+    "win_rate": 52.4,
+    "avg_r": 0.086,
+    "avg_r_net": 0.018,
+    "total_r_net": 31.3
+   }
+  },
+  "v3 + caps (15 open, 8/day)": {
+   "all": {
+    "trades": 722,
+    "win_rate": 50.0,
+    "avg_r": 0.015,
+    "avg_r_net": -0.049,
+    "total_r_net": -35.1
+   },
+   "H1": {
+    "trades": 361,
+    "win_rate": 51.2,
+    "avg_r": 0.02,
+    "avg_r_net": -0.046,
+    "total_r_net": -16.5
+   },
+   "H2": {
+    "trades": 361,
+    "win_rate": 48.8,
+    "avg_r": 0.011,
+    "avg_r_net": -0.051,
+    "total_r_net": -18.6
+   }
+  },
+  "v3 + caps + coin gate (walk-forward)": {
+   "all": {
+    "trades": 695,
+    "win_rate": 52.9,
+    "avg_r": 0.081,
+    "avg_r_net": 0.017,
+    "total_r_net": 11.9
+   },
+   "H1": {
+    "trades": 351,
+    "win_rate": 51.6,
+    "avg_r": 0.006,
+    "avg_r_net": -0.059,
+    "total_r_net": -20.8
+   },
+   "H2": {
+    "trades": 344,
+    "win_rate": 54.4,
+    "avg_r": 0.157,
+    "avg_r_net": 0.095,
+    "total_r_net": 32.8
+   },
+   "note": "H2 uses coins picked on H1; H1 uses coins picked on H2"
+  },
+  "v3 + caps, H2 only (same start as gate test)": {
+   "all": {
+    "trades": 369,
+    "win_rate": 48.8,
+    "avg_r": 0.008,
+    "avg_r_net": -0.055,
+    "total_r_net": -20.2
+   },
+   "H1": {
+    "trades": 0
+   },
+   "H2": {
+    "trades": 369,
+    "win_rate": 48.8,
+    "avg_r": 0.008,
+    "avg_r_net": -0.055,
+    "total_r_net": -20.2
+   }
+  }
+ },
+ "kept_filters": [
+  "OI not falling",
+  "ATR% < 2.5 (calmer coins)"
+ ],
+ "gate_coins": {
+  "picked_on_H1": 83,
+  "picked_on_H2": 102
+ }
+}

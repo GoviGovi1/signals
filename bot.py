@@ -73,6 +73,57 @@ def send(chat, text):
     return api("sendMessage", {"chat_id": chat, "text": text, "disable_web_page_preview": "true"})
 
 
+def send_photo(chat, photo, cap, uploaded=False):
+    """sendPhoto: upload the PNG the first time (multipart), then reuse Telegram's file_id."""
+    if uploaded:
+        return api("sendPhoto", {"chat_id": chat, "photo": photo, "caption": cap})
+    import uuid
+    bnd = "----mho" + uuid.uuid4().hex
+    parts = []
+    for k, v in (("chat_id", chat), ("caption", cap)):
+        parts.append(f"--{bnd}\r\nContent-Disposition: form-data; name=\"{k}\"\r\n\r\n{v}\r\n".encode())
+    parts.append(f"--{bnd}\r\nContent-Disposition: form-data; name=\"photo\"; filename=\"signal.png\"\r\n"
+                 f"Content-Type: image/png\r\n\r\n".encode() + open(photo, "rb").read() + b"\r\n")
+    parts.append(f"--{bnd}--\r\n".encode())
+    url = f"https://api.telegram.org/bot{token()}/sendPhoto"
+    req = urllib.request.Request(url, data=b"".join(parts), headers={"Content-Type": f"multipart/form-data; boundary={bnd}"})
+    try:
+        d = json.load(urllib.request.urlopen(req, timeout=60))
+    except urllib.error.HTTPError as e:                  # never let the URL (token) reach a log
+        try:
+            d = json.load(e)
+        except ValueError:
+            raise TGError(e.code, "http error") from None
+    except OSError as e:
+        raise TGError(0, type(e).__name__) from None
+    if not d.get("ok"):
+        raise TGError(d.get("error_code"), d.get("description", "")[:120])
+    return d["result"]
+
+
+def caption(s):
+    """Signal message built from the stored signal (used as the photo caption, max 1024 chars)."""
+    icon = "🟢" if s["side"] == "LONG" else "🔴"
+    nm = f"{s['coin']} on {s.get('chain')}" if s["market"] == "DEX" else f"{s['coin']}/USDT"
+    trade_on = s.get("trade_on") or ("Spot" if s["market"] == "SPOT" else f"Perps {s.get('lev', 1)}x" if s["market"] == "PERP" else "On-chain spot")
+    t = (f"{icon} {s['side']} {nm}\nTrade on: {trade_on}" + (f" ({s['market_reason']})" if s.get("market_reason") else "") +
+         f"\n\nEntry {fmt(s['entry'])}\nStop loss {fmt(s['sl0'])} ({abs(s['sl0'] / s['entry'] - 1) * 100:.1f}%)\n"
+         f"TP1 {fmt(s['tps'][0])}\nTP2 {fmt(s['tps'][1])}\nTP3 {fmt(s['tps'][2])} ({abs(s['tps'][2] / s['entry'] - 1) * 100:.1f}%)")
+    if s["market"] == "PERP" and s.get("funding_pct") is not None:
+        t += f"\nFunding {s['funding_pct']:+.4f}%"
+    rs = [r for r in (s.get("reasons") or []) if not r.startswith("Untested")]
+    tail = "\n\nTake a third at each TP; after TP1 move the stop to entry.\nNot financial advice · " + C.SITE_URL
+    if s["market"] == "DEX" and s.get("token"):
+        tail = f"\n\nToken: {s['token']}\nUntested signal type. Check the address; copies exist." + tail
+    why = ""
+    for r in rs:
+        add = ("\n\nWhy:" if not why else "") + "\n• " + r
+        if len(t) + len(why) + len(add) + len(tail) > 1020:
+            break
+        why += add
+    return t + why + tail
+
+
 # ---------- formatting ----------
 def fmt(p):
     if p >= 1000: return f"{p:.1f}"
@@ -98,12 +149,15 @@ def open_text():
     out = ["Open signals:"]
     for s in op:
         lev = f" {s['lev']}x" if s["market"] == "PERP" else ""
+        to = s.get("trade_on")
         st = "open" if not s["hits"] else f"TP{s['hits']} hit, stop at entry"
         mv = f"{s.get('move_pct', 0):+.1f}%" if s.get("move_pct") is not None else ""
         nm = f"{s['coin']} on {s['chain']}" if s["market"] == "DEX" else s["coin"]
         out.append(f"\n{nm} {MKT.get(s['market'], s['market'])} {s['side']}{lev} ({st}) {mv}\n"
                    f"Entry {fmt(s['entry'])}  SL {fmt(s['entry'] if s['hits'] else s['sl0'])}\n"
                    f"TP1 {fmt(s['tps'][0])}  TP2 {fmt(s['tps'][1])}  TP3 {fmt(s['tps'][2])}")
+        if to:
+            out.append(f"Trade on: {to}" + (f" ({s['market_reason']})" if s.get("market_reason") else ""))
         rs = [r for r in (s.get("reasons") or []) if not r.startswith("Chart:")][:3]
         if rs:
             out.append("Why: " + "; ".join(rs))
@@ -185,7 +239,7 @@ def stats_text():
 
 
 def welcome():
-    return ("Welcome! You're subscribed to free crypto Spot + Perps signals on about 40 of the most traded "
+    return ("Welcome! You're subscribed to free crypto Spot + Perps signals on about 200 of the most traded "
             "coins on OKX, plus on-chain spot picks.\n\nSignals use the chart plus catalysts: token unlocks, open "
             "interest and funding, TVL, fees and DEX volume, and sector strength. Each signal says why in plain "
             "words, with an entry, stop loss and 3 take-profits. Perps signals suggest at most 3x leverage. "
@@ -249,17 +303,35 @@ def flush():
     with open(C.OUTBOX) as fh:
         fh.seek(pos)
         chunk = fh.read()
-    lines = [json.loads(l)["text"] for l in chunk.splitlines() if l.strip()]
+    entries = [json.loads(l) for l in chunk.splitlines() if l.strip()]
+    lines = [e["text"] for e in entries]
     if not lines:
         return 0
     subs = jload(SUBS, {})
     chan = jload(CFG, {}).get("channel")
     targets = ([chan] if chan else []) + list(subs)
-    for ln in lines:
-        msg = pretty(ln)
+    by_id = {x["id"]: x for x in signals()}
+    for ent in entries:
+        sig = by_id.get(ent.get("sig")) if ent.get("sig") else None
+        msg = caption(sig) if sig else pretty(ent["text"])
+        photo = ent.get("photo")
+        photo = os.path.join(C.DIR, photo) if photo and os.path.exists(os.path.join(C.DIR, photo)) else None
+        file_id = None
         for chat in targets:
             try:
-                send(chat, msg)
+                if photo:
+                    try:
+                        r = send_photo(chat, file_id or photo, msg[:1024], uploaded=bool(file_id))
+                        file_id = file_id or (r.get("photo") or [{}])[-1].get("file_id")
+                        if len(msg) > 1024:
+                            send(chat, msg[1024:].lstrip() or "")
+                    except TGError as e:
+                        if e.code in (403,):
+                            raise
+                        log(f"photo failed ({e.code}), sending text")
+                        send(chat, msg)
+                else:
+                    send(chat, msg)
             except TGError as e:
                 if e.code in (403, 400) and chat in subs:     # blocked the bot / chat gone
                     subs.pop(chat, None); log(f"removed subscriber after {e.code}")

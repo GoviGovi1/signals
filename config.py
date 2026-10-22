@@ -33,6 +33,7 @@ FEES_PCT = {"SPOT": 0.2, "PERP": 0.1}         # round-trip taker fees used in ba
 # --- catalyst layer (see catalyst.py, backtest_catalyst.py) ---
 MAX_OPEN = 15                 # total open exchange signals (spot + perps)
 MAX_OPEN_DEX = 4              # open on-chain (DEX) watchlist signals
+MAX_NEW_PER_DAY = 8           # new exchange signals per UTC day (best relative strength first)
 MAX_NEW_DEX_PER_DAY = 2
 # A catalyst rule becomes a FILTER only if it improved the TA signals in BOTH halves of the 90-day backtest
 # (backtest_catalyst.py, 40 coins, 2026-07-24 -> 2026-10-22). Everything else is shown as a reason only.
@@ -49,3 +50,12 @@ COIN_GATE = True
 # Stand-alone catalyst signal types. All three lost money in the backtest, so they are off (display only).
 # ONCHAIN can't be backtested with free data: on, capped, and labelled untested.
 CATALYST_SIGNALS = {"UNLOCK_SHORT": False, "POST_UNLOCK_LONG": False, "FUND_LONG": False, "ONCHAIN": True}
+
+# Strategy v3 extra rules (decided by backtest200.py on the 200-coin universe; True = filter is on)
+V3_FILTERS = {"BTC regime": False, "relative strength vs BTC": False, "volume 1.5x": False,
+              "ATR% < 2.5 (calmer coins)": True}
+# Strategy v4 (chartread.py), decided by backtest_v4.py (200 coins, 90 days, both halves, after fees):
+# setups that fire, exit style ("structure" = stop beyond the nearest level, targets at the next levels),
+# and the filters that improved both halves. ML scorer did NOT beat the rules out-of-sample -> off.
+V4 = {"setups": ["RANGE_BREAK", "RETEST", "BOS", "BREAKOUT20"], "exits": "structure",
+      "min_room_r": 2.0, "max_atr_pct": 2.5, "ml": False}

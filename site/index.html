@@ -5,13 +5,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#0d1117">
 <title>Crypto Signals · Spot, Perps + Catalysts</title>
-<meta name="description" content="Free spot, perps and on-chain crypto signals on about 40 liquid coins, using the chart plus catalysts: token unlocks, open interest, funding, TVL, fees and sector strength. Every result tracked.">
+<meta name="description" content="Free spot, perps and on-chain crypto signals on about 200 liquid coins, using the chart plus catalysts: token unlocks, open interest, funding, TVL, fees and sector strength. Every result tracked.">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header class="top">
   <h1>Crypto Signals</h1>
-  <p class="sub">Free <b>Spot</b>, <b>Perps</b> and <b>on-chain</b> signals on <span id="ncoins">40</span> liquid coins. Chart + catalysts (unlocks, open interest, funding, TVL, fees, sectors). Every signal says why, and every result is tracked.</p>
+  <p class="sub">Free <b>Spot</b>, <b>Perps</b> and <b>on-chain</b> signals on <span id="ncoins">200</span> liquid coins. Chart + catalysts (unlocks, open interest, funding, TVL, fees, sectors). Every signal says why, and every result is tracked.</p>
 </header>
 
 <main>
@@ -57,16 +57,20 @@
   <details class="card about">
     <summary>How signals are made</summary>
     <ul>
-      <li><b>Coins:</b> the ~40 most traded coins that have both an OKX USDT spot pair and perpetual (at least 60 days old), refreshed daily. Data: public OKX candles.</li>
-      <li><b>Chart signal:</b> 4-hour trend filter (EMA50 vs EMA200), then a 1-hour candle that closes beyond the high (long) or low (short) of the previous 20 hours, on the right side of the 1-hour EMA50, with RSI(14) at 55–75 for longs or 25–45 for shorts. Spot is long only.</li>
-      <li><b>Stop loss:</b> 2 × ATR(14) from entry (“1R”). <b>Take profits:</b> 1R, 2R, 3R, a third at each; after TP1 the stop moves to entry. Anything left closes after 48 hours.</li>
+      <li><b>Coins:</b> the ~200 most traded crypto coins on OKX (USDT spot pair and/or perpetual, 24h volume over $0.5M, listed 45+ days; no stablecoins, wrapped or leveraged tokens), refreshed daily. Data: public OKX candles.</li>
+      <li><b>Spot or perps:</b> every signal says where to trade it. Shorts are perps only. Longs default to <b>spot</b>; they move to perps only when the coin has a liquid perp, the trend is strong, funding is cheap (≤0.01% per 8h) and the coin isn't too volatile. Leverage is set so liquidation sits far beyond the stop, max 3x; thin or wild coins get 1x. Spot-only coins get spot longs only.</li>
+      <li><b>Strategy v3 extra rules:</b> rules such as the BTC trend, strength vs BTC and breakout volume are only switched on if they improved results after fees in <i>both</i> halves of the 200-coin backtest (see the table below). At most <span id="maxday">8</span> new signals a day; when several fire at once the ones strongest vs BTC (or weakest, for shorts) go first.</li>
+      <li><b>Coin gate:</b> each day, chart signals are allowed only on coins whose signals made money after fees over the last 45 days.</li>
+      <li><b>Chart reading (v4):</b> support/resistance from swing highs/lows (1h and 4h) and high-volume price zones; market structure (higher highs/lows, break of structure); 1d/4h/1h trend; range/base detection. Setups: <i>range breakout</i>, <i>retest</i> of a broken level that holds, <i>break of structure</i>, and the 20-hour breakout. Stops go beyond the nearest level (1–4 ATR), targets sit just before the next levels. A signal is skipped if the next level is closer than 2R or the coin moves more than 2.5% an hour. The chart image marks the levels and the range.</li>
+      <li><b>v2 rule (still one of the setups):</b> 4-hour trend filter (EMA50 vs EMA200), then a 1-hour candle that closes beyond the high (long) or low (short) of the previous 20 hours, on the right side of the 1-hour EMA50, with RSI(14) at 55–75 for longs or 25–45 for shorts. Spot is long only.</li>
+      <li><b>Stop loss:</b> just beyond the nearest support (long) or resistance (short), 1–4 ATR away; 2 × ATR(14) when there is no nearby level. That distance is “1R”. <b>Take profits:</b> just before the next levels (at least 1R, at most 6R), or 1R/2R/3R when there are no levels; a third at each, and after TP1 the stop moves to entry. Anything left closes after 48 hours.</li>
       <li><b>Token unlocks</b> (DefiLlama): a cliff unlock of 2%+ of circulating supply, or $10M+ (and 0.5%+), within 7 days counts as big. It lowers the catalyst score of longs and raises shorts; after a big unlock passes and price holds, longs score higher.</li>
       <li><b>Derivatives</b> (OKX): open interest up 5%+ in 24h with the breakout = confirmation; OI down 10%+ after the move = exhaustion; funding of 0.05%+ per 8h paid by your side = crowded.</li>
       <li><b>Fundamentals</b> (DefiLlama): TVL, fees or DEX volume up 20%+ week over week while price is up less than 5% = momentum the price hasn't caught.</li>
       <li><b>Sectors</b> (CoinGecko): median 7-day change of each sector's top 50 coins; coins in leading sectors score higher for longs.</li>
       <li><b>On-chain spot:</b> GeckoTerminal trending pools on Solana, Base, BSC, Ethereum and Arbitrum with liquidity over $250k, 7+ days old, $250k+ daily volume and a GoPlus safety check. A signal fires on a 20-hour breakout of the DEX chart. These can't be backtested with free data, so treat them as the riskiest.</li>
       <li><b>Filters vs. info:</b> a catalyst only blocks signals if it improved results in <i>both</i> halves of the 90-day backtest. Everything else is shown as a reason on the card and doesn't block anything. See the backtest section for which is which.</li>
-      <li>Perps leverage capped at 3x. One open signal per coin per market, at most <span id="maxopen">15</span> open at once. Results don't include fees or funding.</li>
+      <li>Perps leverage capped at 3x. One open signal per coin per market, at most <span id="maxopen">15</span> open at once. Live results don't include fees or funding; the v3 backtest does include fees. Each new signal comes with a chart image (entry, stop and targets).</li>
     </ul>
   </details>
 
