@@ -17,7 +17,7 @@
     0.07727623889092099
    ],
    "lev": 3,
-   "funding_pct": -0.0037,
+   "funding_pct": -0.0041,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-10-22T02:00:00+00:00",
@@ -25,9 +25,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.07944,
-   "last_ts": "2026-10-22T13:31:15+00:00",
-   "move_pct": 2.07,
+   "last": 0.07937,
+   "last_ts": "2026-10-22T13:47:40+00:00",
+   "move_pct": 2.16,
    "closed": false,
    "rsi": 37.2
   },
@@ -48,7 +48,7 @@
     99.9796045174737
    ],
    "lev": 3,
-   "funding_pct": 0.003,
+   "funding_pct": 0.0033,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-10-22T03:00:00+00:00",
@@ -56,9 +56,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 104.48,
-   "last_ts": "2026-10-22T13:31:15+00:00",
-   "move_pct": 0.94,
+   "last": 104.56,
+   "last_ts": "2026-10-22T13:47:40+00:00",
+   "move_pct": 0.86,
    "closed": false,
    "rsi": 37.7
   },
@@ -79,7 +79,7 @@
     11.489897951817015
    ],
    "lev": 3,
-   "funding_pct": -0.0031,
+   "funding_pct": -0.0026,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-10-22T04:00:00+00:00",
@@ -87,9 +87,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 12.029,
-   "last_ts": "2026-10-22T13:31:15+00:00",
-   "move_pct": 1.89,
+   "last": 12.014,
+   "last_ts": "2026-10-22T13:47:40+00:00",
+   "move_pct": 2.01,
    "closed": false,
    "rsi": 39.0
   },
@@ -110,7 +110,7 @@
     718.1143758376251
    ],
    "lev": 3,
-   "funding_pct": -0.0199,
+   "funding_pct": -0.0207,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-10-22T08:00:00+00:00",
@@ -118,9 +118,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 732.8,
-   "last_ts": "2026-10-22T13:31:15+00:00",
-   "move_pct": 0.56,
+   "last": 731.9,
+   "last_ts": "2026-10-22T13:47:40+00:00",
+   "move_pct": 0.68,
    "closed": false,
    "rsi": 34.7
   },
@@ -154,8 +154,8 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.3235,
-   "last_ts": "2026-10-22T13:31:15+00:00",
+   "last": 1.3236,
+   "last_ts": "2026-10-22T13:47:40+00:00",
    "move_pct": 0.26,
    "closed": false,
    "rsi": 31.0
@@ -1812,124 +1812,63 @@
   "onchain": [
    {
     "chain": "BSC",
-    "symbol": "PPOLY",
-    "name": "Paimon Polymarket SPV Token",
-    "token": "0x1d80392d12caaaf9e333bb0bb7f021eacf297fe6",
-    "price": 15.4213481823437,
-    "liq": 3272321,
-    "vol24h": 109714619,
-    "age_d": 32.2,
-    "chg24h": -0.417,
-    "chg7d": -3.1,
-    "mcap": 4976258.18822452,
+    "symbol": "IRYS",
+    "name": "Irys",
+    "token": "0x91152b4ef635403efbae860edd0f8c321d7c035d",
+    "price": 0.0200462931094229,
+    "liq": 442291,
+    "vol24h": 10522711,
+    "age_d": 308.0,
+    "chg24h": 18.103,
+    "chg7d": 45.6,
+    "mcap": 40092586.22,
+    "safety": "ok",
+    "safety_notes": [],
+    "trigger": false,
+    "trend_up": true,
+    "rsi": 47.7,
+    "url": "https://www.geckoterminal.com/bsc/pools/0x73de8b8d37fac1afe156f6533788a0eff197d636"
+   },
+   {
+    "chain": "Solana",
+    "symbol": "PUMP",
+    "name": "Pump",
+    "token": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+    "price": 0.0047648198350696705,
+    "liq": 24374842,
+    "vol24h": 6603497,
+    "age_d": 464.9,
+    "chg24h": 0.033,
+    "chg7d": 12.4,
+    "mcap": 2200120985.52084,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 48.4,
-    "url": "https://www.geckoterminal.com/bsc/pools/0xe2d5738b246526194b19adf0dcdf5fc511126d276798e8fe5102ed464f7720e2"
+    "rsi": 41.5,
+    "url": "https://www.geckoterminal.com/solana/pools/2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd"
    },
    {
-    "chain": "BSC",
-    "symbol": "DNA",
-    "name": "DE NEO AGENT",
-    "token": "0xa991f61940095aea0724ef54077223b048c5cf7b",
-    "price": 0.199934957955005,
-    "liq": 1770685,
-    "vol24h": 87489632,
-    "age_d": 7.1,
-    "chg24h": -7.285,
-    "chg7d": 5.3,
-    "mcap": 25897515.228,
+    "chain": "Solana",
+    "symbol": "DOOD",
+    "name": "Doodles",
+    "token": "DvjbEsdca43oQcw2h3HW1CT7N3x5vRcr3QrvTUHnXvgV",
+    "price": 0.0022181199481203467,
+    "liq": 598827,
+    "vol24h": 3860321,
+    "age_d": 531.0,
+    "chg24h": -52.91,
+    "chg7d": 60.4,
+    "mcap": 17301335.5944,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 44.4,
-    "url": "https://www.geckoterminal.com/bsc/pools/0xd0949ad5874cee7991ccd4cc2c5f7f80a7be4a220689cf5947ccb12a946fa50d"
-   },
-   {
-    "chain": "BSC",
-    "symbol": "AKE",
-    "name": "AKE",
-    "token": "0x2c3a8ee94ddd97244a93bc48298f97d2c412f7db",
-    "price": 0.0284585252296713,
-    "liq": 2568546,
-    "vol24h": 10592237,
-    "age_d": 428.2,
-    "chg24h": -4.833,
-    "chg7d": -11.1,
-    "mcap": 649919545.105725,
-    "safety": "ok",
-    "safety_notes": [],
-    "trigger": false,
-    "trend_up": false,
-    "rsi": 58.7,
-    "url": "https://www.geckoterminal.com/bsc/pools/0x4d3bf29ba30f8bfe4624e7678709afa195689c5d"
-   },
-   {
-    "chain": "Arbitrum",
-    "symbol": "ARB",
-    "name": "Arbitrum",
-    "token": "0x912ce59144191c1204e64559fe8253a0e49e6548",
-    "price": 0.184504429177608,
-    "liq": 1859641,
-    "vol24h": 7068157,
-    "age_d": 1315.4,
-    "chg24h": -3.555,
-    "chg7d": 5.6,
-    "mcap": 1271625749.7754,
-    "safety": "ok",
-    "safety_notes": [],
-    "trigger": false,
-    "trend_up": false,
-    "rsi": 42.9,
-    "url": "https://www.geckoterminal.com/arbitrum/pools/0xc6f780497a95e246eb9449f5e4770916dcd6396a"
-   },
-   {
-    "chain": "BSC",
-    "symbol": "COLLECT",
-    "name": "Collect on Fanable",
-    "token": "0x4b3d30992f003c8167699735f5ab2831b2a087d3",
-    "price": 0.0239141842473433,
-    "liq": 2343935,
-    "vol24h": 3361827,
-    "age_d": 300.1,
-    "chg24h": -7.925,
-    "chg7d": 12.7,
-    "mcap": 12852988.20681,
-    "safety": "unknown",
-    "safety_notes": [
-     "safety not checked"
-    ],
-    "trigger": false,
-    "trend_up": false,
-    "rsi": 38.4,
-    "url": "https://www.geckoterminal.com/bsc/pools/0xef470f9ae8512d2762e4f1cd91ae58caea17143afa61b8d56e9b20c8f87688c4"
-   },
-   {
-    "chain": "Base",
-    "symbol": "AERO",
-    "name": "Aerodrome",
-    "token": "0x940181a94a35a4569e4529a3cdfb74e38fd98631",
-    "price": 0.800050740805117,
-    "liq": 20875453,
-    "vol24h": 3298921,
-    "age_d": 1140.6,
-    "chg24h": -6.096,
-    "chg7d": -4.7,
-    "mcap": 715147802.379494,
-    "safety": "unknown",
-    "safety_notes": [
-     "safety not checked"
-    ],
-    "trigger": false,
-    "trend_up": false,
-    "rsi": 41.1,
-    "url": "https://www.geckoterminal.com/base/pools/0x6cdcb1c4a4d1c3c6d054b27ac5b77e89eafb971d"
+    "rsi": 42.3,
+    "url": "https://www.geckoterminal.com/solana/pools/5KXE8RMF7iW9Ptn665AHfzsMFjYb4LV2Ta8eZEtsTwWC"
    }
   ],
-  "onchain_checked": 86,
+  "onchain_checked": 84,
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
@@ -2030,21 +1969,6 @@
     ]
    },
    {
-    "id": "solana-meme-coins",
-    "name": "Solana Meme Coins",
-    "chg7d": 0.5,
-    "top": [
-     "TRUMP",
-     "PENGU",
-     "BONK",
-     "WIF",
-     "USELESS"
-    ],
-    "tracked": [
-     "TRUMP"
-    ]
-   },
-   {
     "id": "depin",
     "name": "DePIN",
     "chg7d": 0.21,
@@ -2111,6 +2035,21 @@
      "LINK",
      "ONDO",
      "INJ"
+    ]
+   },
+   {
+    "id": "solana-meme-coins",
+    "name": "Solana Meme Coins",
+    "chg7d": -0.2,
+    "top": [
+     "TRUMP",
+     "PENGU",
+     "BONK",
+     "WIF",
+     "USELESS"
+    ],
+    "tracked": [
+     "TRUMP"
     ]
    },
    {
@@ -2409,9 +2348,9 @@
   ],
   "updated": {
    "unlocks": 1792656776,
-   "onchain": 1792672624,
-   "sectors": 1792675177,
-   "listings": 1792672624,
+   "onchain": 1792676797,
+   "sectors": 1792676797,
+   "listings": 1792676797,
    "fundamentals": 1792656776
   }
  },
@@ -2434,6 +2373,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "3ae6cf3211e4884dd1b53f2506637185a4899219551f9a00e214b6e7c7711983",
- "generated": "2026-10-22T13:31:29+00:00"
+ "digest": "42b165578845790378fa25288b3f419c9bd3fab404e7a47d3a14d7647aba1531",
+ "generated": "2026-10-22T13:47:54+00:00"
 }
