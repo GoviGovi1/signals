@@ -1,5 +1,34 @@
 {
- "open": [],
+ "open": [
+  {
+   "id": "DOGE-PERP-1792630800",
+   "coin": "DOGE",
+   "market": "PERP",
+   "side": "SHORT",
+   "entry": 0.08112,
+   "sl0": 0.08240125370302634,
+   "sl": 0.08240125370302634,
+   "tps": [
+    0.07983874629697366,
+    0.07855749259394733,
+    0.07727623889092099
+   ],
+   "lev": 3,
+   "funding_pct": 0.01,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-10-22T02:00:00+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.08095,
+   "last_ts": "2026-10-22T02:05:29+00:00",
+   "move_pct": 0.21,
+   "closed": false,
+   "rsi": 37.2
+  }
+ ],
  "closed": [],
  "stats": {
   "all": {
@@ -12,7 +41,7 @@
    "trades": 0
   },
   "coins": {},
-  "open": 0
+  "open": 1
  },
  "backtest": {
   "from": "2026-07-23",
@@ -266,6 +295,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "5e86e84ed7c78a43799f9e4c6978bc6857e4ea6333c1ca9f0b00f30c8f9d2967",
- "generated": "2026-10-21T22:04:59+00:00"
+ "digest": "243766534cd7f822c2f3c3552f7bc3bd1757ea349ec3d35c1fd8c0bfd3b70934",
+ "generated": "2026-10-22T02:05:36+00:00"
 }
