@@ -17,7 +17,7 @@
     0.07727623889092099
    ],
    "lev": 3,
-   "funding_pct": -0.0002,
+   "funding_pct": 0.0005,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-10-22T02:00:00+00:00",
@@ -25,9 +25,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.07845,
-   "last_ts": "2026-10-22T18:34:46+00:00",
-   "move_pct": 3.29,
+   "last": 0.07856,
+   "last_ts": "2026-10-22T18:51:46+00:00",
+   "move_pct": 3.16,
    "closed": false,
    "rsi": 37.2,
    "trade_on": null,
@@ -52,7 +52,7 @@
     99.9796045174737
    ],
    "lev": 3,
-   "funding_pct": 0.0033,
+   "funding_pct": 0.0036,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-10-22T03:00:00+00:00",
@@ -60,9 +60,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 103.7,
-   "last_ts": "2026-10-22T18:34:46+00:00",
-   "move_pct": 1.68,
+   "last": 103.74,
+   "last_ts": "2026-10-22T18:51:46+00:00",
+   "move_pct": 1.64,
    "closed": false,
    "rsi": 37.7,
    "trade_on": null,
@@ -95,9 +95,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 11.934,
-   "last_ts": "2026-10-22T18:34:46+00:00",
-   "move_pct": 2.67,
+   "last": 11.932,
+   "last_ts": "2026-10-22T18:51:46+00:00",
+   "move_pct": 2.68,
    "closed": false,
    "rsi": 39.0,
    "trade_on": null,
@@ -122,7 +122,7 @@
     718.1143758376251
    ],
    "lev": 3,
-   "funding_pct": -0.0119,
+   "funding_pct": -0.0107,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-10-22T08:00:00+00:00",
@@ -130,9 +130,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 729.3,
-   "last_ts": "2026-10-22T18:34:46+00:00",
-   "move_pct": 1.03,
+   "last": 730.6,
+   "last_ts": "2026-10-22T18:51:46+00:00",
+   "move_pct": 0.85,
    "closed": false,
    "rsi": 34.7,
    "trade_on": null,
@@ -162,7 +162,7 @@
     1.2596826627132036
    ],
    "lev": 3,
-   "funding_pct": 0.0059,
+   "funding_pct": 0.0066,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-10-22T09:00:00+00:00",
@@ -170,9 +170,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.3055,
-   "last_ts": "2026-10-22T18:34:46+00:00",
-   "move_pct": 1.62,
+   "last": 1.3073,
+   "last_ts": "2026-10-22T18:51:46+00:00",
+   "move_pct": 1.48,
    "closed": false,
    "rsi": 31.0,
    "trade_on": null,
@@ -207,7 +207,7 @@
     0.0019120182314873771
    ],
    "lev": 1,
-   "funding_pct": -0.0379,
+   "funding_pct": -0.0345,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-22T16:00:00+00:00",
@@ -215,9 +215,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002099,
-   "last_ts": "2026-10-22T18:34:46+00:00",
-   "move_pct": -0.05,
+   "last": 0.002111,
+   "last_ts": "2026-10-22T18:51:46+00:00",
+   "move_pct": -0.62,
    "closed": false,
    "rsi": 29.2,
    "trade_on": "Perps 1x",
@@ -3500,28 +3500,6 @@
     ]
    },
    {
-    "id": "zero-knowledge-zk",
-    "name": "Zero Knowledge ZK",
-    "chg7d": -2.28,
-    "top": [
-     "ZEC",
-     "POL",
-     "NIGHT",
-     "STRK",
-     "ZK"
-    ],
-    "tracked": [
-     "ZEC",
-     "STRK",
-     "MAGIC",
-     "NIGHT",
-     "POL",
-     "ZK",
-     "MINA",
-     "ZEN"
-    ]
-   },
-   {
     "id": "storage",
     "name": "Storage",
     "chg7d": -2.44,
@@ -3630,6 +3608,28 @@
     ],
     "tracked": [
      "ZEC"
+    ]
+   },
+   {
+    "id": "zero-knowledge-zk",
+    "name": "Zero Knowledge ZK",
+    "chg7d": -6.79,
+    "top": [
+     "ZEC",
+     "POL",
+     "NIGHT",
+     "STRK",
+     "ZK"
+    ],
+    "tracked": [
+     "ZEC",
+     "STRK",
+     "MAGIC",
+     "NIGHT",
+     "POL",
+     "ZK",
+     "MINA",
+     "ZEN"
     ]
    }
   ],
@@ -3772,7 +3772,7 @@
   "updated": {
    "unlocks": 1792678834,
    "onchain": 1792694021,
-   "sectors": 1792694021,
+   "sectors": 1792695106,
    "listings": 1792694021,
    "fundamentals": 1792678835
   }
@@ -3808,6 +3808,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "b341e79ae9b5a1301da6880604135f5ad31352ae0e09301b50f07e597af3df08",
- "generated": "2026-10-22T18:34:49+00:00"
+ "digest": "bc4283b8c21e8ed8601b410e695a634a3b0070807f9fb458808b4ec6567276af",
+ "generated": "2026-10-22T18:51:49+00:00"
 }
