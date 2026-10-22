@@ -17,7 +17,7 @@
     0.07727623889092099
    ],
    "lev": 3,
-   "funding_pct": 0.0043,
+   "funding_pct": 0.003,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-10-22T02:00:00+00:00",
@@ -25,9 +25,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.07893,
-   "last_ts": "2026-10-22T09:31:39+00:00",
-   "move_pct": 2.7,
+   "last": 0.07904,
+   "last_ts": "2026-10-22T09:46:58+00:00",
+   "move_pct": 2.56,
    "closed": false,
    "rsi": 37.2
   },
@@ -48,7 +48,7 @@
     99.9796045174737
    ],
    "lev": 3,
-   "funding_pct": 0.003,
+   "funding_pct": 0.0028,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-10-22T03:00:00+00:00",
@@ -56,9 +56,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 103.72,
-   "last_ts": "2026-10-22T09:31:39+00:00",
-   "move_pct": 1.66,
+   "last": 103.84,
+   "last_ts": "2026-10-22T09:46:58+00:00",
+   "move_pct": 1.55,
    "closed": false,
    "rsi": 37.7
   },
@@ -79,7 +79,7 @@
     11.489897951817015
    ],
    "lev": 3,
-   "funding_pct": -0.0003,
+   "funding_pct": -0.0008,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-10-22T04:00:00+00:00",
@@ -88,7 +88,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 12.008,
-   "last_ts": "2026-10-22T09:31:39+00:00",
+   "last_ts": "2026-10-22T09:46:58+00:00",
    "move_pct": 2.06,
    "closed": false,
    "rsi": 39.0
@@ -110,7 +110,7 @@
     718.1143758376251
    ],
    "lev": 3,
-   "funding_pct": -0.0081,
+   "funding_pct": -0.0078,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-10-22T08:00:00+00:00",
@@ -118,9 +118,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 732.7,
-   "last_ts": "2026-10-22T09:31:39+00:00",
-   "move_pct": 0.57,
+   "last": 733.0,
+   "last_ts": "2026-10-22T09:46:58+00:00",
+   "move_pct": 0.53,
    "closed": false,
    "rsi": 34.7
   },
@@ -146,7 +146,7 @@
     1.2596826627132036
    ],
    "lev": 3,
-   "funding_pct": 0.0033,
+   "funding_pct": 0.0036,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-22T09:00:00+00:00",
@@ -154,9 +154,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.3262,
-   "last_ts": "2026-10-22T09:31:39+00:00",
-   "move_pct": 0.06,
+   "last": 1.3266,
+   "last_ts": "2026-10-22T09:46:58+00:00",
+   "move_pct": 0.03,
    "closed": false,
    "rsi": 31.0
   }
@@ -1872,25 +1872,6 @@
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
-    "id": "decentralized-exchange",
-    "name": "Decentralized Exchange",
-    "chg7d": 1.61,
-    "top": [
-     "HYPE",
-     "UNI",
-     "PUMP",
-     "ASTER",
-     "JUP"
-    ],
-    "tracked": [
-     "PUMP",
-     "HYPE",
-     "LIT",
-     "UNI",
-     "CRV"
-    ]
-   },
-   {
     "id": "exchange-based-tokens",
     "name": "Exchange Based Tokens",
     "chg7d": 1.33,
@@ -1986,6 +1967,25 @@
      "ENA",
      "AAVE",
      "ONDO"
+    ]
+   },
+   {
+    "id": "decentralized-exchange",
+    "name": "Decentralized Exchange",
+    "chg7d": 0.51,
+    "top": [
+     "HYPE",
+     "UNI",
+     "PUMP",
+     "ASTER",
+     "JUP"
+    ],
+    "tracked": [
+     "PUMP",
+     "HYPE",
+     "LIT",
+     "UNI",
+     "CRV"
     ]
    },
    {
@@ -2349,7 +2349,7 @@
   "updated": {
    "unlocks": 1792656776,
    "onchain": 1792660840,
-   "sectors": 1792660840,
+   "sectors": 1792662418,
    "listings": 1792660839,
    "fundamentals": 1792656776
   }
@@ -2373,6 +2373,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "48356c73f6a12193979ed7e595515c7f9fa8a518829979f63a301fa1bfb40b7f",
- "generated": "2026-10-22T09:32:00+00:00"
+ "digest": "e10c7756e1d6b03f021a94cead52e40dad0c4a60693d43e826c2d16f8c9d62ca",
+ "generated": "2026-10-22T09:47:13+00:00"
 }
