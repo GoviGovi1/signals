@@ -19,6 +19,8 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: main
+      - name: Install numpy
+        run: python3 -m pip install -q --user --break-system-packages numpy || python3 -m pip install -q --user numpy
       - name: Refresh the coin universe (~200 OKX coins)
         run: python3 -c "import universe; universe.refresh(force=True)"
       - name: Fetch 55 days of history (45 tested + indicator warm-up)

@@ -41,7 +41,7 @@ jobs:
         with:
           ref: main
       - name: Install chart library
-        run: python3 -m pip install -q --user --break-system-packages matplotlib || python3 -m pip install -q --user matplotlib
+        run: python3 -m pip install -q --user --break-system-packages numpy matplotlib || python3 -m pip install -q --user numpy matplotlib
       - name: Restore private state
         id: unpack
         run: python3 state.py unpack
