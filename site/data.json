@@ -17,7 +17,7 @@
     0.07727623889092099
    ],
    "lev": 3,
-   "funding_pct": -0.0034,
+   "funding_pct": -0.0033,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-10-22T02:00:00+00:00",
@@ -25,9 +25,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.07933,
-   "last_ts": "2026-10-22T15:03:02+00:00",
-   "move_pct": 2.21,
+   "last": 0.07894,
+   "last_ts": "2026-10-22T15:10:18+00:00",
+   "move_pct": 2.69,
    "closed": false,
    "rsi": 37.2,
    "trade_on": null,
@@ -52,7 +52,7 @@
     99.9796045174737
    ],
    "lev": 3,
-   "funding_pct": 0.0032,
+   "funding_pct": 0.0028,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-10-22T03:00:00+00:00",
@@ -60,9 +60,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 104.63,
-   "last_ts": "2026-10-22T15:03:02+00:00",
-   "move_pct": 0.8,
+   "last": 104.26,
+   "last_ts": "2026-10-22T15:10:18+00:00",
+   "move_pct": 1.15,
    "closed": false,
    "rsi": 37.7,
    "trade_on": null,
@@ -87,7 +87,7 @@
     11.489897951817015
    ],
    "lev": 3,
-   "funding_pct": -0.0016,
+   "funding_pct": -0.0017,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-10-22T04:00:00+00:00",
@@ -95,9 +95,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 12.031,
-   "last_ts": "2026-10-22T15:03:02+00:00",
-   "move_pct": 1.88,
+   "last": 11.963,
+   "last_ts": "2026-10-22T15:10:18+00:00",
+   "move_pct": 2.43,
    "closed": false,
    "rsi": 39.0,
    "trade_on": null,
@@ -122,7 +122,7 @@
     718.1143758376251
    ],
    "lev": 3,
-   "funding_pct": -0.0188,
+   "funding_pct": -0.0186,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-10-22T08:00:00+00:00",
@@ -130,9 +130,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 733.4,
-   "last_ts": "2026-10-22T15:03:02+00:00",
-   "move_pct": 0.47,
+   "last": 731.1,
+   "last_ts": "2026-10-22T15:10:18+00:00",
+   "move_pct": 0.79,
    "closed": false,
    "rsi": 34.7,
    "trade_on": null,
@@ -162,7 +162,7 @@
     1.2596826627132036
    ],
    "lev": 3,
-   "funding_pct": 0.0037,
+   "funding_pct": 0.0036,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-22T09:00:00+00:00",
@@ -170,9 +170,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.3232,
-   "last_ts": "2026-10-22T15:03:02+00:00",
-   "move_pct": 0.29,
+   "last": 1.3194,
+   "last_ts": "2026-10-22T15:10:18+00:00",
+   "move_pct": 0.57,
    "closed": false,
    "rsi": 31.0,
    "trade_on": null,
@@ -3211,6 +3211,28 @@
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
+    "id": "artificial-intelligence",
+    "name": "Artificial Intelligence",
+    "chg7d": 1.01,
+    "top": [
+     "NEAR",
+     "TAO",
+     "SN0",
+     "ICP",
+     "VVV"
+    ],
+    "tracked": [
+     "NEAR",
+     "TAO",
+     "VVV",
+     "GRASS",
+     "ICP",
+     "DATA",
+     "EIGEN",
+     "ARKM"
+    ]
+   },
+   {
     "id": "meme-token",
     "name": "Meme Token",
     "chg7d": 0.87,
@@ -3252,28 +3274,6 @@
      "BNB",
      "AVAX",
      "ZEC"
-    ]
-   },
-   {
-    "id": "artificial-intelligence",
-    "name": "Artificial Intelligence",
-    "chg7d": 0.74,
-    "top": [
-     "NEAR",
-     "TAO",
-     "SN0",
-     "ICP",
-     "VVV"
-    ],
-    "tracked": [
-     "NEAR",
-     "TAO",
-     "VVV",
-     "GRASS",
-     "ICP",
-     "DATA",
-     "EIGEN",
-     "ARKM"
     ]
    },
    {
@@ -3763,7 +3763,7 @@
   "updated": {
    "unlocks": 1792678834,
    "onchain": 1792680754,
-   "sectors": 1792680754,
+   "sectors": 1792681818,
    "listings": 1792680754,
    "fundamentals": 1792678835
   }
@@ -3799,6 +3799,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "6a8bfcc73a627fca81c9b8da553459648e86b1f0e1502fabf89b06727d464f74",
- "generated": "2026-10-22T15:03:29+00:00"
+ "digest": "bb739f649001a08ad79beb603c150e93acbdae4da1cf1f473347a80e093057df",
+ "generated": "2026-10-22T15:10:20+00:00"
 }
