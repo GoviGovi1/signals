@@ -1,5 +1,5 @@
 {
- "checked": 86,
+ "checked": 85,
  "errors": [],
  "rejected": [
   {
@@ -28,21 +28,14 @@
   {
    "chain": "Solana",
    "fails": [
-    "not checked this hour"
-   ],
-   "symbol": "DACITY"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "not checked this hour"
+    "no DEX candles"
    ],
    "symbol": "PUMP"
   },
   {
    "chain": "Solana",
    "fails": [
-    "not checked this hour"
+    "no DEX candles"
    ],
    "symbol": "CARDS"
   },
@@ -57,13 +50,6 @@
   {
    "chain": "Solana",
    "fails": [
-    "not checked this hour"
-   ],
-   "symbol": "USELESS"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
     "liquidity under $250k",
     "pool younger than 7 days"
    ],
@@ -73,6 +59,13 @@
    "chain": "Solana",
    "fails": [
     "not checked this hour"
+   ],
+   "symbol": "USELESS"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "no DEX candles"
    ],
    "symbol": "DOOD"
   },
@@ -160,23 +153,16 @@
   {
    "chain": "Base",
    "fails": [
-    "not checked this hour"
-   ],
-   "symbol": "AERO"
-  },
-  {
-   "chain": "Base",
-   "fails": [
-    "not checked this hour"
-   ],
-   "symbol": "VVV"
-  },
-  {
-   "chain": "Base",
-   "fails": [
     "liquidity under $250k"
    ],
    "symbol": "OWB"
+  },
+  {
+   "chain": "Base",
+   "fails": [
+    "no DEX candles"
+   ],
+   "symbol": "XDP"
   },
   {
    "chain": "Base",
@@ -223,16 +209,16 @@
   {
    "chain": "Base",
    "fails": [
-    "24h volume under $250k"
+    "not checked this hour"
    ],
-   "symbol": "DOT"
+   "symbol": "ELSA"
   },
   {
    "chain": "Base",
    "fails": [
-    "not checked this hour"
+    "24h volume under $250k"
    ],
-   "symbol": "ELSA"
+   "symbol": "DOT"
   },
   {
    "chain": "Base",
@@ -245,16 +231,16 @@
   {
    "chain": "Base",
    "fails": [
-    "not checked this hour"
+    "no DEX candles"
    ],
-   "symbol": "CTR"
+   "symbol": "MSTRC"
   },
   {
-   "chain": "Base",
+   "chain": "BSC",
    "fails": [
-    "24h volume under $250k"
+    "no DEX candles"
    ],
-   "symbol": "KTA"
+   "symbol": "AKE"
   },
   {
    "chain": "BSC",
@@ -266,6 +252,13 @@
   {
    "chain": "BSC",
    "fails": [
+    "no DEX candles"
+   ],
+   "symbol": "IRYS"
+  },
+  {
+   "chain": "BSC",
+   "fails": [
     "pool younger than 7 days"
    ],
    "symbol": "DNA"
@@ -273,9 +266,16 @@
   {
    "chain": "BSC",
    "fails": [
-    "not checked this hour"
+    "no DEX candles"
    ],
-   "symbol": "BTW"
+   "symbol": "AGT"
+  },
+  {
+   "chain": "BSC",
+   "fails": [
+    "no DEX candles"
+   ],
+   "symbol": "JCT"
   },
   {
    "chain": "BSC",
@@ -287,181 +287,181 @@
   {
    "chain": "BSC",
    "fails": [
-    "not checked this hour"
+    "no DEX candles"
    ],
    "symbol": "COLLECT"
   }
  ],
  "rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
- "updated": 1792656147,
+ "updated": 1792656539,
  "watchlist": [
   {
-   "age_d": 307.8,
-   "atr": 0.0019917433361270613,
+   "age_d": 37.8,
+   "atr": 0.08057974252966457,
    "bar_ts": 1792652400000,
    "chain": "BSC",
-   "chg24h": 23.888,
-   "chg7d": 53.8,
-   "close": 0.0195936963562052,
-   "ema20": 0.01946838859869363,
-   "ema50": 0.017041688675174853,
+   "chg24h": -2.558,
+   "chg7d": 13.7,
+   "close": 5.36991324423462,
+   "ema20": 5.488419832089913,
+   "ema50": 5.318718020019802,
    "fails": [],
-   "gecko_id": "irys",
-   "liq": 435034,
-   "mcap": 39015066.74,
-   "name": "Irys",
+   "gecko_id": "cea-industries-bstocks-tokenized-stock",
+   "liq": 2756582,
+   "mcap": 33358673.4358283,
+   "name": "B13B",
    "net": "bsc",
-   "pool": "0x73de8b8d37fac1afe156f6533788a0eff197d636",
-   "price": 0.019497560380468,
-   "rsi": 53.0,
+   "pool": "0x320e8096e5e7a46e43446141a5b15d801fc596f5",
+   "price": 5.34259453666415,
+   "rsi": 42.5,
    "safety": "ok",
    "safety_notes": [],
-   "symbol": "IRYS",
-   "token": "0x91152b4ef635403efbae860edd0f8c321d7c035d",
+   "symbol": "B13B",
+   "token": "0x4902c5ebc598265ed2212b559b042de8a5eeec3f",
    "trend_up": true,
    "trigger": false,
-   "url": "https://www.geckoterminal.com/bsc/pools/0x73de8b8d37fac1afe156f6533788a0eff197d636",
-   "vol24h": 10972078
+   "url": "https://www.geckoterminal.com/bsc/pools/0x320e8096e5e7a46e43446141a5b15d801fc596f5",
+   "vol24h": 6644628
   },
   {
-   "age_d": 140.7,
-   "atr": 0.0003324653568610077,
+   "age_d": 10.9,
+   "atr": 0.0016100092595237338,
    "bar_ts": 1792652400000,
-   "chain": "BSC",
-   "chg24h": 0.64,
-   "chg7d": 127.2,
-   "close": 0.00445035224180391,
-   "ema20": 0.004282885697409267,
-   "ema50": 0.0039969477242622255,
+   "chain": "Solana",
+   "chg24h": 22.957,
+   "chg7d": 10718.1,
+   "close": 0.013862445345144666,
+   "ema20": 0.012630183417495881,
+   "ema50": 0.010971945835150865,
    "fails": [],
-   "gecko_id": "janction",
-   "liq": 791304,
-   "mcap": 51175180.5590554,
-   "name": "JANCTION",
-   "net": "bsc",
-   "pool": "0x7bb2f6dab157e444ad8717b0178035c1b1cf24958b37c2a205e61a3582283249",
-   "price": 0.00445245971394351,
-   "rsi": 55.2,
+   "gecko_id": "dacity-coin-2",
+   "liq": 472687,
+   "mcap": 13313657.0673201,
+   "name": "Dacity Coin",
+   "net": "solana",
+   "pool": "G2UuRbmVDzDFP4qyoBJrSKBXSi7d6V4bPP9tHPs36y4b",
+   "price": 0.01356382999712452,
+   "rsi": 60.4,
    "safety": "ok",
    "safety_notes": [],
-   "symbol": "JCT",
-   "token": "0xea37a8de1de2d9d10772eeb569e28bfa5cb17707",
+   "symbol": "DACITY",
+   "token": "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump",
    "trend_up": true,
    "trigger": false,
-   "url": "https://www.geckoterminal.com/bsc/pools/0x7bb2f6dab157e444ad8717b0178035c1b1cf24958b37c2a205e61a3582283249",
-   "vol24h": 10518453
+   "url": "https://www.geckoterminal.com/solana/pools/G2UuRbmVDzDFP4qyoBJrSKBXSi7d6V4bPP9tHPs36y4b",
+   "vol24h": 5452295
   },
   {
-   "age_d": 23.8,
-   "atr": 0.0002921938642363228,
+   "age_d": 632.6,
+   "atr": 0.5886988911616289,
    "bar_ts": 1792652400000,
    "chain": "Base",
-   "chg24h": -4.125,
-   "chg7d": -1.2,
-   "close": 0.0184202915039679,
-   "ema20": 0.01874441537606138,
-   "ema50": 0.01892002206077726,
+   "chg24h": 7.959,
+   "chg7d": 24.5,
+   "close": 27.7260673515675,
+   "ema20": 27.179290815485604,
+   "ema50": 26.296310859420693,
    "fails": [],
-   "gecko_id": "doppler-finance",
-   "liq": 1785291,
-   "mcap": 18410974.36,
-   "name": "Doppler Finance",
+   "gecko_id": "venice-token",
+   "liq": 16466021,
+   "mcap": 1343020444.51973,
+   "name": "Venice Token",
    "net": "base",
-   "pool": "0x2df380544b88adb3ad0a94100dcc45fd705aae2d",
-   "price": 0.0184116617726814,
-   "rsi": 29.3,
+   "pool": "0x01784ef301d79e4b2df3a21ad9a536d4cf09a5ce",
+   "price": 27.6479193015046,
+   "rsi": 60.5,
    "safety": "ok",
    "safety_notes": [],
-   "symbol": "XDP",
-   "token": "0x07b3d902783c3c12b077508c3b5c00113d1291d0",
-   "trend_up": false,
+   "symbol": "VVV",
+   "token": "0xacfe6019ed1a7dc6f7b508c02d1b04ec88cc21bf",
+   "trend_up": true,
    "trigger": false,
-   "url": "https://www.geckoterminal.com/base/pools/0x2df380544b88adb3ad0a94100dcc45fd705aae2d",
-   "vol24h": 63058256
+   "url": "https://www.geckoterminal.com/base/pools/0x01784ef301d79e4b2df3a21ad9a536d4cf09a5ce",
+   "vol24h": 3153705
   },
   {
-   "age_d": 524.8,
-   "atr": 0.004051015642240913,
+   "age_d": 233.9,
+   "atr": 0.11116811223081845,
    "bar_ts": 1792652400000,
    "chain": "BSC",
-   "chg24h": 32.599,
-   "chg7d": 257.0,
-   "close": 0.0596955526816231,
-   "ema20": 0.055212246976677655,
-   "ema50": 0.05893476027237507,
+   "chg24h": -19.983,
+   "chg7d": -9.4,
+   "close": 1.82658498303231,
+   "ema20": 1.720822482692438,
+   "ema50": 1.798723245894721,
    "fails": [],
-   "gecko_id": "alaya-ai",
-   "liq": 2544791,
-   "mcap": 0.0,
-   "name": "Alaya Governance Token",
+   "gecko_id": "bitway",
+   "liq": 326835,
+   "mcap": 2553703568.7607,
+   "name": "Bitway Token",
    "net": "bsc",
-   "pool": "0xd3cffc6b02a34dfc72f1350339031043a854599f",
-   "price": 0.0598086878534952,
-   "rsi": 57.1,
+   "pool": "0xf7b5a9b7ef764606f900c9c1db39afc682049bc4",
+   "price": 1.67652894656186,
+   "rsi": 57.4,
    "safety": "ok",
    "safety_notes": [],
-   "symbol": "AGT",
-   "token": "0x5dbde81fce337ff4bcaaee4ca3466c00aecae274",
+   "symbol": "BTW",
+   "token": "0x444045b0ee1ee319a660a5e3d604ca0ffa35acaa",
    "trend_up": false,
    "trigger": false,
-   "url": "https://www.geckoterminal.com/bsc/pools/0xd3cffc6b02a34dfc72f1350339031043a854599f",
-   "vol24h": 24934494
+   "url": "https://www.geckoterminal.com/bsc/pools/0xf7b5a9b7ef764606f900c9c1db39afc682049bc4",
+   "vol24h": 4842979
   },
   {
-   "age_d": 428.0,
-   "atr": 0.0020769804419007772,
-   "bar_ts": 1792652400000,
-   "chain": "BSC",
-   "chg24h": -27.156,
-   "chg7d": -14.3,
-   "close": 0.0248549003572053,
-   "ema20": 0.025089432160096233,
-   "ema50": 0.02771404580412279,
-   "fails": [],
-   "gecko_id": "akedo",
-   "liq": 2467321,
-   "mcap": 566764520.97675,
-   "name": "AKE",
-   "net": "bsc",
-   "pool": "0x4d3bf29ba30f8bfe4624e7678709afa195689c5d",
-   "price": 0.0248314192917244,
-   "rsi": 45.4,
-   "safety": "ok",
-   "safety_notes": [],
-   "symbol": "AKE",
-   "token": "0x2c3a8ee94ddd97244a93bc48298f97d2c412f7db",
-   "trend_up": false,
-   "trigger": false,
-   "url": "https://www.geckoterminal.com/bsc/pools/0x4d3bf29ba30f8bfe4624e7678709afa195689c5d",
-   "vol24h": 10889029
-  },
-  {
-   "age_d": 48.9,
-   "atr": 2.712572042271696,
+   "age_d": 148.8,
+   "atr": 0.0005309090425723975,
    "bar_ts": 1792652400000,
    "chain": "Base",
-   "chg24h": 0.051,
-   "chg7d": 2.9,
-   "close": 145.307580716177,
-   "ema20": 148.61877010206746,
-   "ema50": 146.11631971346063,
+   "chg24h": -11.168,
+   "chg7d": 20.6,
+   "close": 0.0160647750951608,
+   "ema20": 0.01565407454291989,
+   "ema50": 0.015785838678815466,
    "fails": [],
-   "gecko_id": "microstrategy-coinbase-tokenized-stock",
-   "liq": 522506,
-   "mcap": 1498462.51909072,
-   "name": "Strategy Inc.",
+   "gecko_id": "citrea",
+   "liq": 651519,
+   "mcap": 24258018.09,
+   "name": "CTR",
    "net": "base",
-   "pool": "0x8b27f626ab668197000bc722a1012022caed10e2",
-   "price": 145.112928100675,
-   "rsi": 40.0,
+   "pool": "0x0ab02e160f0df68dc049b012c514857306960eae",
+   "price": 0.0161720120558848,
+   "rsi": 55.3,
    "safety": "ok",
    "safety_notes": [],
-   "symbol": "MSTRC",
-   "token": "0xb2000000000000000000004884b426556b92883d",
+   "symbol": "CTR",
+   "token": "0x11030f79109269d796fd0fb956d6244e502757f7",
    "trend_up": false,
    "trigger": false,
-   "url": "https://www.geckoterminal.com/base/pools/0x8b27f626ab668197000bc722a1012022caed10e2",
-   "vol24h": 9747405
+   "url": "https://www.geckoterminal.com/base/pools/0x0ab02e160f0df68dc049b012c514857306960eae",
+   "vol24h": 3769927
+  },
+  {
+   "age_d": 1140.4,
+   "atr": 0.017214092390928158,
+   "bar_ts": 1792652400000,
+   "chain": "Base",
+   "chg24h": -5.623,
+   "chg7d": -4.2,
+   "close": 0.802784670344331,
+   "ema20": 0.8260893416815953,
+   "ema50": 0.8310459599362188,
+   "fails": [],
+   "gecko_id": "aerodrome-finance",
+   "liq": 23672929,
+   "mcap": 719309315.288254,
+   "name": "Aerodrome",
+   "net": "base",
+   "pool": "0x6cdcb1c4a4d1c3c6d054b27ac5b77e89eafb971d",
+   "price": 0.799421145880376,
+   "rsi": 37.0,
+   "safety": "ok",
+   "safety_notes": [],
+   "symbol": "AERO",
+   "token": "0x940181a94a35a4569e4529a3cdfb74e38fd98631",
+   "trend_up": false,
+   "trigger": false,
+   "url": "https://www.geckoterminal.com/base/pools/0x6cdcb1c4a4d1c3c6d054b27ac5b77e89eafb971d",
+   "vol24h": 3424283
   }
  ]
 }
