@@ -17,7 +17,7 @@
     0.07727623889092099
    ],
    "lev": 3,
-   "funding_pct": 0.0054,
+   "funding_pct": 0.005,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-10-22T02:00:00+00:00",
@@ -25,9 +25,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.07888,
-   "last_ts": "2026-10-22T09:01:28+00:00",
-   "move_pct": 2.76,
+   "last": 0.07914,
+   "last_ts": "2026-10-22T09:21:43+00:00",
+   "move_pct": 2.44,
    "closed": false,
    "rsi": 37.2
   },
@@ -48,7 +48,7 @@
     99.9796045174737
    ],
    "lev": 3,
-   "funding_pct": 0.0037,
+   "funding_pct": 0.0031,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-10-22T03:00:00+00:00",
@@ -56,9 +56,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 103.69,
-   "last_ts": "2026-10-22T09:01:28+00:00",
-   "move_pct": 1.69,
+   "last": 103.86,
+   "last_ts": "2026-10-22T09:21:43+00:00",
+   "move_pct": 1.53,
    "closed": false,
    "rsi": 37.7
   },
@@ -79,7 +79,7 @@
     11.489897951817015
    ],
    "lev": 3,
-   "funding_pct": 0.0015,
+   "funding_pct": 0.0003,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-10-22T04:00:00+00:00",
@@ -87,9 +87,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 12.01,
-   "last_ts": "2026-10-22T09:01:28+00:00",
-   "move_pct": 2.05,
+   "last": 12.041,
+   "last_ts": "2026-10-22T09:21:43+00:00",
+   "move_pct": 1.79,
    "closed": false,
    "rsi": 39.0
   },
@@ -103,24 +103,24 @@
    "side": "SHORT",
    "entry": 736.9,
    "sl0": 743.1618747207916,
-   "sl": 743.1618747207916,
+   "sl": 736.9,
    "tps": [
     730.6381252792083,
     724.3762505584167,
     718.1143758376251
    ],
    "lev": 3,
-   "funding_pct": -0.0077,
-   "status": "open",
-   "hits": 0,
+   "funding_pct": -0.0082,
+   "status": "tp1",
+   "hits": 1,
    "opened": "2026-10-22T08:00:00+00:00",
    "closed_at": null,
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 731.1,
-   "last_ts": "2026-10-22T09:01:28+00:00",
-   "move_pct": 0.79,
+   "last": 733.8,
+   "last_ts": "2026-10-22T09:21:43+00:00",
+   "move_pct": 0.42,
    "closed": false,
    "rsi": 34.7
   },
@@ -146,7 +146,7 @@
     1.2596826627132036
    ],
    "lev": 3,
-   "funding_pct": 0.0034,
+   "funding_pct": 0.0033,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-22T09:00:00+00:00",
@@ -154,9 +154,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.3262,
-   "last_ts": "2026-10-22T09:01:28+00:00",
-   "move_pct": 0.06,
+   "last": 1.3287,
+   "last_ts": "2026-10-22T09:21:43+00:00",
+   "move_pct": -0.13,
    "closed": false,
    "rsi": 31.0
   }
@@ -1811,25 +1811,61 @@
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
   "onchain": [
    {
-    "chain": "Base",
-    "symbol": "VVV",
-    "name": "Venice Token",
-    "token": "0xacfe6019ed1a7dc6f7b508c02d1b04ec88cc21bf",
-    "price": 27.6092084694088,
-    "liq": 16442864,
-    "vol24h": 3146799,
-    "age_d": 632.6,
-    "chg24h": 7.348,
-    "chg7d": 24.5,
-    "mcap": 1341140033.97716,
-    "safety": "unknown",
-    "safety_notes": [
-     "safety not checked"
-    ],
+    "chain": "BSC",
+    "symbol": "AKE",
+    "name": "AKE",
+    "token": "0x2c3a8ee94ddd97244a93bc48298f97d2c412f7db",
+    "price": 0.0285963491918201,
+    "liq": 2569462,
+    "vol24h": 12194220,
+    "age_d": 428.1,
+    "chg24h": -22.597,
+    "chg7d": -8.8,
+    "mcap": 651889525.222538,
+    "safety": "ok",
+    "safety_notes": [],
     "trigger": false,
-    "trend_up": true,
-    "rsi": 60.5,
-    "url": "https://www.geckoterminal.com/base/pools/0x01784ef301d79e4b2df3a21ad9a536d4cf09a5ce"
+    "trend_up": false,
+    "rsi": 53.4,
+    "url": "https://www.geckoterminal.com/bsc/pools/0x4d3bf29ba30f8bfe4624e7678709afa195689c5d"
+   },
+   {
+    "chain": "Solana",
+    "symbol": "PUMP",
+    "name": "Pump",
+    "token": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+    "price": 0.0047281328314270205,
+    "liq": 24289770,
+    "vol24h": 6447868,
+    "age_d": 464.7,
+    "chg24h": -1.782,
+    "chg7d": 10.5,
+    "mcap": 2183016719.0004,
+    "safety": "ok",
+    "safety_notes": [],
+    "trigger": false,
+    "trend_up": false,
+    "rsi": 38.6,
+    "url": "https://www.geckoterminal.com/solana/pools/2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd"
+   },
+   {
+    "chain": "Solana",
+    "symbol": "CARDS",
+    "name": "Collector Crypt",
+    "token": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
+    "price": 0.3143734765079893,
+    "liq": 4445146,
+    "vol24h": 4689565,
+    "age_d": 418.6,
+    "chg24h": -11.025,
+    "chg7d": 6.4,
+    "mcap": 278502448.183949,
+    "safety": "ok",
+    "safety_notes": [],
+    "trigger": false,
+    "trend_up": false,
+    "rsi": 32.1,
+    "url": "https://www.geckoterminal.com/solana/pools/HnhpJPJgBG2KwniMTNW8cVBHvk1hFog3RC3kjnyc23tD"
    }
   ],
   "onchain_checked": 85,
@@ -1852,28 +1888,6 @@
      "LIT",
      "UNI",
      "CRV"
-    ]
-   },
-   {
-    "id": "decentralized-finance-defi",
-    "name": "Decentralized Finance DeFi",
-    "chg7d": 1.55,
-    "top": [
-     "STETH",
-     "HYPE",
-     "WSTETH",
-     "LINK",
-     "RAIN"
-    ],
-    "tracked": [
-     "LINK",
-     "PUMP",
-     "HYPE",
-     "LIT",
-     "UNI",
-     "ENA",
-     "AAVE",
-     "ONDO"
     ]
    },
    {
@@ -1950,6 +1964,28 @@
      "PUMP",
      "PEPE",
      "TRUMP"
+    ]
+   },
+   {
+    "id": "decentralized-finance-defi",
+    "name": "Decentralized Finance DeFi",
+    "chg7d": 0.53,
+    "top": [
+     "STETH",
+     "HYPE",
+     "WSTETH",
+     "LINK",
+     "RAIN"
+    ],
+    "tracked": [
+     "LINK",
+     "PUMP",
+     "HYPE",
+     "LIT",
+     "UNI",
+     "ENA",
+     "AAVE",
+     "ONDO"
     ]
    },
    {
@@ -2170,6 +2206,54 @@
   ],
   "listings": [
    {
+    "coin": "XJPM",
+    "list_ts": 1792747800,
+    "market": "SPOT",
+    "state": "preopen"
+   },
+   {
+    "coin": "XHUT",
+    "list_ts": 1792746000,
+    "market": "SPOT",
+    "state": "preopen"
+   },
+   {
+    "coin": "XGTLB",
+    "list_ts": 1792744200,
+    "market": "SPOT",
+    "state": "preopen"
+   },
+   {
+    "coin": "XGS",
+    "list_ts": 1792742400,
+    "market": "SPOT",
+    "state": "preopen"
+   },
+   {
+    "coin": "XDDOG",
+    "list_ts": 1792740600,
+    "market": "SPOT",
+    "state": "preopen"
+   },
+   {
+    "coin": "XCOST",
+    "list_ts": 1792738800,
+    "market": "SPOT",
+    "state": "preopen"
+   },
+   {
+    "coin": "XAXTI",
+    "list_ts": 1792737000,
+    "market": "SPOT",
+    "state": "preopen"
+   },
+   {
+    "coin": "XACN",
+    "list_ts": 1792735200,
+    "market": "SPOT",
+    "state": "preopen"
+   },
+   {
     "coin": "PANW",
     "list_ts": 1792662300,
     "market": "PERP",
@@ -2185,77 +2269,29 @@
     "coin": "ABBV",
     "list_ts": 1792660500,
     "market": "PERP",
-    "state": "preopen"
+    "state": "live"
    },
    {
     "coin": "NVO",
     "list_ts": 1792659600,
     "market": "PERP",
-    "state": "preopen"
+    "state": "live"
    },
    {
     "coin": "GE",
     "list_ts": 1792658700,
     "market": "PERP",
-    "state": "preopen"
+    "state": "live"
    },
    {
     "coin": "VST",
     "list_ts": 1792657800,
     "market": "PERP",
-    "state": "preopen"
+    "state": "live"
    },
    {
     "coin": "BTW",
     "list_ts": 1792656000,
-    "market": "PERP",
-    "state": "live"
-   },
-   {
-    "coin": "AXIS",
-    "list_ts": 1792591200,
-    "market": "PERP",
-    "state": "live"
-   },
-   {
-    "coin": "TWST",
-    "list_ts": 1792490400,
-    "market": "PERP",
-    "state": "live"
-   },
-   {
-    "coin": "MP",
-    "list_ts": 1792489500,
-    "market": "PERP",
-    "state": "live"
-   },
-   {
-    "coin": "CVNA",
-    "list_ts": 1792488600,
-    "market": "PERP",
-    "state": "live"
-   },
-   {
-    "coin": "CRML",
-    "list_ts": 1792487700,
-    "market": "PERP",
-    "state": "live"
-   },
-   {
-    "coin": "RUM",
-    "list_ts": 1792486800,
-    "market": "PERP",
-    "state": "live"
-   },
-   {
-    "coin": "DNA",
-    "list_ts": 1792152000,
-    "market": "PERP",
-    "state": "live"
-   },
-   {
-    "coin": "GS",
-    "list_ts": 1792143900,
     "market": "PERP",
     "state": "live"
    }
@@ -2312,9 +2348,9 @@
   ],
   "updated": {
    "unlocks": 1792656776,
-   "onchain": 1792656785,
-   "sectors": 1792659688,
-   "listings": 1792656785,
+   "onchain": 1792660840,
+   "sectors": 1792660840,
+   "listings": 1792660839,
    "fundamentals": 1792656776
   }
  },
@@ -2337,6 +2373,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "05a88e6e975f4b7f0adf668a277b9ca1a9b8b69aef8b85ad58d3ef9bebaf5486",
- "generated": "2026-10-22T09:01:44+00:00"
+ "digest": "0e3ecbf43912ea3b36e7036756189f1766564b25aaccdb8ba589c89ebc9101cb",
+ "generated": "2026-10-22T09:22:05+00:00"
 }
