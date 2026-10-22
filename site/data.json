@@ -17,7 +17,7 @@
     0.07727623889092099
    ],
    "lev": 3,
-   "funding_pct": -0.0031,
+   "funding_pct": -0.0027,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-10-22T02:00:00+00:00",
@@ -25,9 +25,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.07912,
-   "last_ts": "2026-10-22T15:20:52+00:00",
-   "move_pct": 2.47,
+   "last": 0.07897,
+   "last_ts": "2026-10-22T15:34:47+00:00",
+   "move_pct": 2.65,
    "closed": false,
    "rsi": 37.2,
    "trade_on": null,
@@ -52,7 +52,7 @@
     99.9796045174737
    ],
    "lev": 3,
-   "funding_pct": 0.0026,
+   "funding_pct": 0.0027,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-10-22T03:00:00+00:00",
@@ -60,9 +60,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 104.57,
-   "last_ts": "2026-10-22T15:20:52+00:00",
-   "move_pct": 0.85,
+   "last": 104.38,
+   "last_ts": "2026-10-22T15:34:47+00:00",
+   "move_pct": 1.03,
    "closed": false,
    "rsi": 37.7,
    "trade_on": null,
@@ -87,7 +87,7 @@
     11.489897951817015
    ],
    "lev": 3,
-   "funding_pct": -0.0014,
+   "funding_pct": -0.0004,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-10-22T04:00:00+00:00",
@@ -95,9 +95,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 11.987,
-   "last_ts": "2026-10-22T15:20:52+00:00",
-   "move_pct": 2.23,
+   "last": 11.958,
+   "last_ts": "2026-10-22T15:34:47+00:00",
+   "move_pct": 2.47,
    "closed": false,
    "rsi": 39.0,
    "trade_on": null,
@@ -122,7 +122,7 @@
     718.1143758376251
    ],
    "lev": 3,
-   "funding_pct": -0.0181,
+   "funding_pct": -0.0173,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-10-22T08:00:00+00:00",
@@ -130,9 +130,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 731.4,
-   "last_ts": "2026-10-22T15:20:52+00:00",
-   "move_pct": 0.75,
+   "last": 729.7,
+   "last_ts": "2026-10-22T15:34:47+00:00",
+   "move_pct": 0.98,
    "closed": false,
    "rsi": 34.7,
    "trade_on": null,
@@ -162,7 +162,7 @@
     1.2596826627132036
    ],
    "lev": 3,
-   "funding_pct": 0.0035,
+   "funding_pct": 0.0039,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-22T09:00:00+00:00",
@@ -170,9 +170,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.3202,
-   "last_ts": "2026-10-22T15:20:52+00:00",
-   "move_pct": 0.51,
+   "last": 1.3188,
+   "last_ts": "2026-10-22T15:34:47+00:00",
+   "move_pct": 0.62,
    "closed": false,
    "rsi": 31.0,
    "trade_on": null,
@@ -3277,6 +3277,28 @@
     ]
    },
    {
+    "id": "ai-agents",
+    "name": "AI Agents",
+    "chg7d": 0.68,
+    "top": [
+     "VVV",
+     "VIRTUAL",
+     "FET",
+     "KITE",
+     "TRAC"
+    ],
+    "tracked": [
+     "VVV",
+     "MAGIC",
+     "AEON",
+     "FET",
+     "VIRTUAL",
+     "PHA",
+     "PIPPIN",
+     "AIXBT"
+    ]
+   },
+   {
     "id": "decentralized-finance-defi",
     "name": "Decentralized Finance DeFi",
     "chg7d": 0.53,
@@ -3426,28 +3448,6 @@
      "MORPHO",
      "KMNO",
      "SPK"
-    ]
-   },
-   {
-    "id": "ai-agents",
-    "name": "AI Agents",
-    "chg7d": -0.54,
-    "top": [
-     "VVV",
-     "VIRTUAL",
-     "FET",
-     "KITE",
-     "TRAC"
-    ],
-    "tracked": [
-     "VVV",
-     "MAGIC",
-     "AEON",
-     "FET",
-     "VIRTUAL",
-     "PHA",
-     "PIPPIN",
-     "AIXBT"
     ]
    },
    {
@@ -3763,7 +3763,7 @@
   "updated": {
    "unlocks": 1792678834,
    "onchain": 1792680754,
-   "sectors": 1792681818,
+   "sectors": 1792683287,
    "listings": 1792680754,
    "fundamentals": 1792678835
   }
@@ -3799,6 +3799,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "8a728544e5d636008f724c80960596ef71452b8d4e102ce934fa967678676e2c",
- "generated": "2026-10-22T15:20:58+00:00"
+ "digest": "4deed1667e9fdd9a7c12017d17865dd15163b7b0d7f6c043ecb718ab8466bec0",
+ "generated": "2026-10-22T15:34:49+00:00"
 }
