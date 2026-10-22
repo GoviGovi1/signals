@@ -17,7 +17,7 @@
     0.07727623889092099
    ],
    "lev": 3,
-   "funding_pct": -0.0037,
+   "funding_pct": -0.0038,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-10-22T02:00:00+00:00",
@@ -25,9 +25,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.07923,
-   "last_ts": "2026-10-22T14:35:36+00:00",
-   "move_pct": 2.33,
+   "last": 0.07933,
+   "last_ts": "2026-10-22T14:53:07+00:00",
+   "move_pct": 2.21,
    "closed": false,
    "rsi": 37.2
   },
@@ -48,7 +48,7 @@
     99.9796045174737
    ],
    "lev": 3,
-   "funding_pct": 0.0042,
+   "funding_pct": 0.0036,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-10-22T03:00:00+00:00",
@@ -56,9 +56,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 104.31,
-   "last_ts": "2026-10-22T14:35:36+00:00",
-   "move_pct": 1.1,
+   "last": 104.52,
+   "last_ts": "2026-10-22T14:53:07+00:00",
+   "move_pct": 0.9,
    "closed": false,
    "rsi": 37.7
   },
@@ -79,7 +79,7 @@
     11.489897951817015
    ],
    "lev": 3,
-   "funding_pct": -0.0022,
+   "funding_pct": -0.0017,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-10-22T04:00:00+00:00",
@@ -87,9 +87,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 12.01,
-   "last_ts": "2026-10-22T14:35:36+00:00",
-   "move_pct": 2.05,
+   "last": 12.03,
+   "last_ts": "2026-10-22T14:53:07+00:00",
+   "move_pct": 1.88,
    "closed": false,
    "rsi": 39.0
   },
@@ -110,7 +110,7 @@
     718.1143758376251
    ],
    "lev": 3,
-   "funding_pct": -0.0196,
+   "funding_pct": -0.0191,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-10-22T08:00:00+00:00",
@@ -118,9 +118,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 731.6,
-   "last_ts": "2026-10-22T14:35:36+00:00",
-   "move_pct": 0.72,
+   "last": 733.8,
+   "last_ts": "2026-10-22T14:53:07+00:00",
+   "move_pct": 0.42,
    "closed": false,
    "rsi": 34.7
   },
@@ -146,7 +146,7 @@
     1.2596826627132036
    ],
    "lev": 3,
-   "funding_pct": 0.004,
+   "funding_pct": 0.0037,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-22T09:00:00+00:00",
@@ -154,9 +154,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.3202,
-   "last_ts": "2026-10-22T14:35:36+00:00",
-   "move_pct": 0.51,
+   "last": 1.3224,
+   "last_ts": "2026-10-22T14:53:07+00:00",
+   "move_pct": 0.35,
    "closed": false,
    "rsi": 31.0
   }
@@ -1812,65 +1812,140 @@
   "onchain": [
    {
     "chain": "BSC",
-    "symbol": "IRYS",
-    "name": "Irys",
-    "token": "0x91152b4ef635403efbae860edd0f8c321d7c035d",
-    "price": 0.0200462931094229,
-    "liq": 442291,
-    "vol24h": 10522711,
-    "age_d": 308.0,
-    "chg24h": 18.103,
-    "chg7d": 45.6,
-    "mcap": 40092586.22,
+    "symbol": "JCT",
+    "name": "JANCTION",
+    "token": "0xea37a8de1de2d9d10772eeb569e28bfa5cb17707",
+    "price": 0.00472706972796189,
+    "liq": 810393,
+    "vol24h": 9802860,
+    "age_d": 141.0,
+    "chg24h": 9.814,
+    "chg7d": 118.1,
+    "mcap": 54331462.244342,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": true,
-    "rsi": 47.7,
-    "url": "https://www.geckoterminal.com/bsc/pools/0x73de8b8d37fac1afe156f6533788a0eff197d636"
+    "rsi": 53.1,
+    "url": "https://www.geckoterminal.com/bsc/pools/0x7bb2f6dab157e444ad8717b0178035c1b1cf24958b37c2a205e61a3582283249"
    },
    {
     "chain": "Solana",
     "symbol": "PUMP",
     "name": "Pump",
     "token": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-    "price": 0.0047648198350696705,
-    "liq": 24374842,
-    "vol24h": 6603497,
+    "price": 0.004716886859069261,
+    "liq": 24241641,
+    "vol24h": 6602045,
     "age_d": 464.9,
-    "chg24h": 0.033,
-    "chg7d": 12.4,
-    "mcap": 2200120985.52084,
+    "chg24h": -2.451,
+    "chg7d": 13.7,
+    "mcap": 2177631480.212,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
-    "trend_up": false,
-    "rsi": 41.5,
+    "trend_up": true,
+    "rsi": 49.0,
     "url": "https://www.geckoterminal.com/solana/pools/2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd"
    },
    {
-    "chain": "Solana",
-    "symbol": "DOOD",
-    "name": "Doodles",
-    "token": "DvjbEsdca43oQcw2h3HW1CT7N3x5vRcr3QrvTUHnXvgV",
-    "price": 0.0022181199481203467,
-    "liq": 598827,
-    "vol24h": 3860321,
-    "age_d": 531.0,
-    "chg24h": -52.91,
-    "chg7d": 60.4,
-    "mcap": 17301335.5944,
+    "chain": "BSC",
+    "symbol": "DNA",
+    "name": "DE NEO AGENT",
+    "token": "0xa991f61940095aea0724ef54077223b048c5cf7b",
+    "price": 0.1793017804332,
+    "liq": 1739951,
+    "vol24h": 90316373,
+    "age_d": 7.2,
+    "chg24h": -13.342,
+    "chg7d": -1.7,
+    "mcap": 23304904.571,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 42.3,
-    "url": "https://www.geckoterminal.com/solana/pools/5KXE8RMF7iW9Ptn665AHfzsMFjYb4LV2Ta8eZEtsTwWC"
+    "rsi": 28.8,
+    "url": "https://www.geckoterminal.com/bsc/pools/0xd0949ad5874cee7991ccd4cc2c5f7f80a7be4a220689cf5947ccb12a946fa50d"
+   },
+   {
+    "chain": "Base",
+    "symbol": "XDP",
+    "name": "Doppler Finance",
+    "token": "0x07b3d902783c3c12b077508c3b5c00113d1291d0",
+    "price": 0.018484667640596,
+    "liq": 1793142,
+    "vol24h": 60041911,
+    "age_d": 24.1,
+    "chg24h": -2.997,
+    "chg7d": 1.2,
+    "mcap": 18484667.64,
+    "safety": "ok",
+    "safety_notes": [],
+    "trigger": false,
+    "trend_up": false,
+    "rsi": 43.5,
+    "url": "https://www.geckoterminal.com/base/pools/0x2df380544b88adb3ad0a94100dcc45fd705aae2d"
+   },
+   {
+    "chain": "BSC",
+    "symbol": "AGT",
+    "name": "Alaya Governance Token",
+    "token": "0x5dbde81fce337ff4bcaaee4ca3466c00aecae274",
+    "price": 0.0647158376292769,
+    "liq": 2629750,
+    "vol24h": 29777544,
+    "age_d": 525.1,
+    "chg24h": 41.393,
+    "chg7d": 305.7,
+    "mcap": 0.0,
+    "safety": "ok",
+    "safety_notes": [],
+    "trigger": false,
+    "trend_up": false,
+    "rsi": 63.2,
+    "url": "https://www.geckoterminal.com/bsc/pools/0xd3cffc6b02a34dfc72f1350339031043a854599f"
+   },
+   {
+    "chain": "Arbitrum",
+    "symbol": "ARB",
+    "name": "Arbitrum",
+    "token": "0x912ce59144191c1204e64559fe8253a0e49e6548",
+    "price": 0.18365312681743,
+    "liq": 1857440,
+    "vol24h": 6854227,
+    "age_d": 1315.5,
+    "chg24h": -4.909,
+    "chg7d": 7.3,
+    "mcap": 1265726509.3897,
+    "safety": "ok",
+    "safety_notes": [],
+    "trigger": false,
+    "trend_up": false,
+    "rsi": 46.8,
+    "url": "https://www.geckoterminal.com/arbitrum/pools/0xc6f780497a95e246eb9449f5e4770916dcd6396a"
    }
   ],
-  "onchain_checked": 84,
+  "onchain_checked": 85,
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
+   {
+    "id": "meme-token",
+    "name": "Meme Token",
+    "chg7d": 0.87,
+    "top": [
+     "DOGE",
+     "SHIB",
+     "PUMP",
+     "M",
+     "PEPE"
+    ],
+    "tracked": [
+     "DOGE",
+     "PUMP",
+     "PEPE",
+     "TRUMP"
+    ]
+   },
    {
     "id": "layer-1",
     "name": "Layer 1",
@@ -1907,24 +1982,6 @@
     "tracked": [
      "NEAR",
      "TAO"
-    ]
-   },
-   {
-    "id": "meme-token",
-    "name": "Meme Token",
-    "chg7d": 0.56,
-    "top": [
-     "DOGE",
-     "SHIB",
-     "PUMP",
-     "M",
-     "PEPE"
-    ],
-    "tracked": [
-     "DOGE",
-     "PUMP",
-     "PEPE",
-     "TRUMP"
     ]
    },
    {
@@ -2342,9 +2399,9 @@
   ],
   "updated": {
    "unlocks": 1792678834,
-   "onchain": 1792676797,
-   "sectors": 1792679736,
-   "listings": 1792676797,
+   "onchain": 1792680754,
+   "sectors": 1792680754,
+   "listings": 1792680754,
    "fundamentals": 1792678835
   }
  },
@@ -2367,6 +2424,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "d90c8f9abe13995a6d9031efdfc6c581d383e189afdafc9876ed99bf800ab644",
- "generated": "2026-10-22T14:35:50+00:00"
+ "digest": "5a5fcd0140483490b3ed2b23a90e07c49662fa5551ec5276a8c60ecbac5092a9",
+ "generated": "2026-10-22T14:53:21+00:00"
 }
