@@ -10,6 +10,10 @@ on:
         description: "Make an empty keepalive commit"
         type: boolean
         default: false
+      force_catalyst:
+        description: "Refresh every catalyst source now (unlocks, TVL/fees, listings, sectors, on-chain)"
+        type: boolean
+        default: false
   push:
     branches: [main]
     paths: ["site/**", ".github/workflows/signals.yml"]
@@ -39,6 +43,9 @@ jobs:
       - name: Restore private state
         id: unpack
         run: python3 state.py unpack
+      - name: Force catalyst refresh
+        if: inputs.force_catalyst == true
+        run: python3 catalyst.py --force
       - name: Signals
         run: python3 run.py
       - name: Telegram bot (commands + broadcast)
