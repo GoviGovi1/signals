@@ -369,6 +369,7 @@ def dex_signals(sigs, now_ms):
     if not C.CATALYST_SIGNALS.get("ONCHAIN"):
         return []
     lines = []
+    K.GT_DEADLINE[0] = time.time() + 25
     for s in sigs:                                     # track open ones on their own DEX pool candles
         if s["closed"] or s["market"] != "DEX":
             continue
@@ -378,6 +379,7 @@ def dex_signals(sigs, now_ms):
             continue
         if bars:
             lines += update_lines(s, track(s, bars, now_ms))
+    K.GT_DEADLINE[0] = 0.0
     oc = K.jload("onchain")
     open_dex = [s for s in sigs if not s["closed"] and s["market"] == "DEX"]
     today = [s for s in sigs if s["market"] == "DEX" and now_ms - s["opened"] < DAY * 1000]

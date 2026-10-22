@@ -343,9 +343,16 @@ def refresh_listings():
 
 
 # ---------- on-chain spot watchlist (GeckoTerminal + GoPlus) ----------
+GT_DEADLINE = [0.0]
+
+
 def _gt(url):
-    time.sleep(2.2)                                   # GeckoTerminal free limit ~30 calls/min
-    return http("https://api.geckoterminal.com/api/v2" + url)
+    """GeckoTerminal call: free limit ~30/min, and GitHub's shared IPs hit it sooner, so no retries on 429 and a
+    hard time budget per refresh (GT_DEADLINE) so the 15-minute run stays short."""
+    if GT_DEADLINE[0] and time.time() > GT_DEADLINE[0]:
+        raise TimeoutError("GeckoTerminal time budget used up")
+    time.sleep(2.1)
+    return http("https://api.geckoterminal.com/api/v2" + url, timeout=15, tries=1)
 
 
 def goplus(net, addr):
@@ -399,9 +406,10 @@ def dex_bars(net, pool, limit=200):
     return out
 
 
-def refresh_onchain(max_detail=6):
+def refresh_onchain(max_detail=6, budget_s=55):
     import strategy as S
     now = time.time()
+    GT_DEADLINE[0] = now + budget_s
     cands, seen, errors = [], set(), []
     for net in NETS:
         try:
@@ -466,7 +474,16 @@ def refresh_onchain(max_detail=6):
                   "bar_ts": done[i]["ts"], "chg7d": round(pct(cl[i], cl[max(0, i - 168)]), 1)})
         r["trend_up"] = e20[i] > e50[i] and cl[i] > e50[i]
         r["trigger"] = r["trend_up"] and cl[i] > hh and 55 <= rs[i] <= 75 and at[i] / cl[i] < 0.08
+    GT_DEADLINE[0] = 0.0
+    if not cands:
+        raise RuntimeError("no trending pools fetched: " + "; ".join(errors))
     wl = [r for r in cands if not r["fails"]]
+    old = {(w["net"], w["token"]): w for w in jload("onchain").get("watchlist", [])}
+    done_nets = {r["net"] for r in cands}
+    for k, w in old.items():                          # keep last hour's rows for networks we couldn't reach
+        if w["net"] not in done_nets and k not in {(r["net"], r["token"]) for r in wl}:
+            w = dict(w, trigger=False)
+            wl.append(w)
     wl.sort(key=lambda r: (not r.get("trigger"), not r.get("trend_up"), -r["vol24h"]))
     jsave("onchain", {"updated": int(now), "watchlist": wl[:15], "checked": len(cands),
                       "rejected": [{k: r[k] for k in ("chain", "symbol", "fails")} for r in cands if r["fails"]][:40],
