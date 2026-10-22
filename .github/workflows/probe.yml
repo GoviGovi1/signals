@@ -1,0 +1,13 @@
+name: probe-sources
+# Manual only: checks which free, keyless data sources answer from GitHub's runners. No secrets used.
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 tools/probe_sources.py
