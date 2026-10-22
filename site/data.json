@@ -14,7 +14,7 @@
     0.07727623889092099
    ],
    "lev": 3,
-   "funding_pct": 0.0054,
+   "funding_pct": 0.0051,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-10-22T02:00:00+00:00",
@@ -22,9 +22,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.07965,
-   "last_ts": "2026-10-22T07:52:40+00:00",
-   "move_pct": 1.81,
+   "last": 0.07944,
+   "last_ts": "2026-10-22T08:04:12+00:00",
+   "move_pct": 2.07,
    "closed": false,
    "rsi": 37.2
   },
@@ -42,7 +42,7 @@
     99.9796045174737
    ],
    "lev": 3,
-   "funding_pct": 0.0028,
+   "funding_pct": 0.0026,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-22T03:00:00+00:00",
@@ -50,9 +50,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 104.37,
-   "last_ts": "2026-10-22T07:52:40+00:00",
-   "move_pct": 1.04,
+   "last": 104.18,
+   "last_ts": "2026-10-22T08:04:12+00:00",
+   "move_pct": 1.22,
    "closed": false,
    "rsi": 37.7
   },
@@ -70,7 +70,7 @@
     11.489897951817015
    ],
    "lev": 3,
-   "funding_pct": 0.0029,
+   "funding_pct": 0.0023,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-22T04:00:00+00:00",
@@ -78,11 +78,39 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 12.176,
-   "last_ts": "2026-10-22T07:52:40+00:00",
-   "move_pct": 0.69,
+   "last": 12.164,
+   "last_ts": "2026-10-22T08:04:12+00:00",
+   "move_pct": 0.79,
    "closed": false,
    "rsi": 39.0
+  },
+  {
+   "id": "BNB-PERP-1792652400",
+   "coin": "BNB",
+   "market": "PERP",
+   "side": "SHORT",
+   "entry": 736.9,
+   "sl0": 743.1618747207916,
+   "sl": 743.1618747207916,
+   "tps": [
+    730.6381252792083,
+    724.3762505584167,
+    718.1143758376251
+   ],
+   "lev": 3,
+   "funding_pct": -0.0085,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-10-22T08:00:00+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 735.5,
+   "last_ts": "2026-10-22T08:04:12+00:00",
+   "move_pct": 0.19,
+   "closed": false,
+   "rsi": 34.7
   }
  ],
  "closed": [],
@@ -97,7 +125,7 @@
    "trades": 0
   },
   "coins": {},
-  "open": 3
+  "open": 4
  },
  "backtest": {
   "from": "2026-07-23",
@@ -351,6 +379,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "5c9dae462afef3a958b27cdcba071f9fb587b609d837196207fc2b6250d0772b",
- "generated": "2026-10-22T07:52:48+00:00"
+ "digest": "7a0dcfaf8afdd1c9b033171d68be5ec9f2ecf2fb7ddfa34a876e27f072689bcc",
+ "generated": "2026-10-22T08:04:22+00:00"
 }
