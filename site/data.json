@@ -17,7 +17,7 @@
     0.07727623889092099
    ],
    "lev": 3,
-   "funding_pct": -0.0035,
+   "funding_pct": -0.0038,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-10-22T02:00:00+00:00",
@@ -25,9 +25,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.07926,
-   "last_ts": "2026-10-22T11:50:33+00:00",
-   "move_pct": 2.29,
+   "last": 0.07922,
+   "last_ts": "2026-10-22T12:04:49+00:00",
+   "move_pct": 2.34,
    "closed": false,
    "rsi": 37.2
   },
@@ -48,7 +48,7 @@
     99.9796045174737
    ],
    "lev": 3,
-   "funding_pct": 0.0006,
+   "funding_pct": 0.0008,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-10-22T03:00:00+00:00",
@@ -56,9 +56,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 104.47,
-   "last_ts": "2026-10-22T11:50:33+00:00",
-   "move_pct": 0.95,
+   "last": 104.29,
+   "last_ts": "2026-10-22T12:04:49+00:00",
+   "move_pct": 1.12,
    "closed": false,
    "rsi": 37.7
   },
@@ -79,7 +79,7 @@
     11.489897951817015
    ],
    "lev": 3,
-   "funding_pct": -0.0046,
+   "funding_pct": -0.0039,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-10-22T04:00:00+00:00",
@@ -87,9 +87,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 12.035,
-   "last_ts": "2026-10-22T11:50:33+00:00",
-   "move_pct": 1.84,
+   "last": 12.047,
+   "last_ts": "2026-10-22T12:04:49+00:00",
+   "move_pct": 1.75,
    "closed": false,
    "rsi": 39.0
   },
@@ -110,7 +110,7 @@
     718.1143758376251
    ],
    "lev": 3,
-   "funding_pct": -0.0116,
+   "funding_pct": -0.0126,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-10-22T08:00:00+00:00",
@@ -118,9 +118,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 733.0,
-   "last_ts": "2026-10-22T11:50:33+00:00",
-   "move_pct": 0.53,
+   "last": 732.2,
+   "last_ts": "2026-10-22T12:04:49+00:00",
+   "move_pct": 0.64,
    "closed": false,
    "rsi": 34.7
   },
@@ -146,7 +146,7 @@
     1.2596826627132036
    ],
    "lev": 3,
-   "funding_pct": 0.0045,
+   "funding_pct": 0.0048,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-22T09:00:00+00:00",
@@ -154,9 +154,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.3264,
-   "last_ts": "2026-10-22T11:50:33+00:00",
-   "move_pct": 0.05,
+   "last": 1.3253,
+   "last_ts": "2026-10-22T12:04:49+00:00",
+   "move_pct": 0.13,
    "closed": false,
    "rsi": 31.0
   }
@@ -1991,22 +1991,6 @@
     ]
    },
    {
-    "id": "depin",
-    "name": "DePIN",
-    "chg7d": 0.5,
-    "top": [
-     "TAO",
-     "RENDER",
-     "FIL",
-     "BDX",
-     "GRASS"
-    ],
-    "tracked": [
-     "FIL",
-     "TAO"
-    ]
-   },
-   {
     "id": "solana-meme-coins",
     "name": "Solana Meme Coins",
     "chg7d": 0.5,
@@ -2019,6 +2003,22 @@
     ],
     "tracked": [
      "TRUMP"
+    ]
+   },
+   {
+    "id": "depin",
+    "name": "DePIN",
+    "chg7d": 0.21,
+    "top": [
+     "TAO",
+     "RENDER",
+     "FIL",
+     "BDX",
+     "GRASS"
+    ],
+    "tracked": [
+     "FIL",
+     "TAO"
     ]
    },
    {
@@ -2351,7 +2351,7 @@
   "updated": {
    "unlocks": 1792656776,
    "onchain": 1792668950,
-   "sectors": 1792669833,
+   "sectors": 1792670689,
    "listings": 1792668949,
    "fundamentals": 1792656776
   }
@@ -2375,6 +2375,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "51304090fba87ae9ef4816704a19f2adbdb102717579b0a6a0f76d3286fd9f03",
- "generated": "2026-10-22T11:50:46+00:00"
+ "digest": "aff95a6511a506a4dc71413cbd23771551e53b1e36b62cfc843d5a926972f2f3",
+ "generated": "2026-10-22T12:05:02+00:00"
 }
