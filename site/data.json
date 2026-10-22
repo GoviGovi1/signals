@@ -22,9 +22,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.08025,
-   "last_ts": "2026-10-22T03:47:31+00:00",
-   "move_pct": 1.07,
+   "last": 0.08038,
+   "last_ts": "2026-10-22T04:08:15+00:00",
+   "move_pct": 0.91,
    "closed": false,
    "rsi": 37.2
   },
@@ -42,7 +42,7 @@
     99.9796045174737
    ],
    "lev": 3,
-   "funding_pct": 0.0006,
+   "funding_pct": 0.0008,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-22T03:00:00+00:00",
@@ -50,11 +50,39 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 105.4,
-   "last_ts": "2026-10-22T03:47:31+00:00",
-   "move_pct": 0.07,
+   "last": 105.54,
+   "last_ts": "2026-10-22T04:08:15+00:00",
+   "move_pct": -0.07,
    "closed": false,
    "rsi": 37.7
+  },
+  {
+   "id": "LINK-PERP-1792638000",
+   "coin": "LINK",
+   "market": "PERP",
+   "side": "SHORT",
+   "entry": 12.261,
+   "sl0": 12.518034016060994,
+   "sl": 12.518034016060994,
+   "tps": [
+    12.003965983939004,
+    11.74693196787801,
+    11.489897951817015
+   ],
+   "lev": 3,
+   "funding_pct": 0.0054,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-10-22T04:00:00+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 12.264,
+   "last_ts": "2026-10-22T04:08:15+00:00",
+   "move_pct": -0.02,
+   "closed": false,
+   "rsi": 39.0
   }
  ],
  "closed": [],
@@ -69,7 +97,7 @@
    "trades": 0
   },
   "coins": {},
-  "open": 2
+  "open": 3
  },
  "backtest": {
   "from": "2026-07-23",
@@ -323,6 +351,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "4cf4ecc254e320a1506d092dbbe6d40c1010c6e634deb5ef4ec62a970e2adec7",
- "generated": "2026-10-22T03:47:40+00:00"
+ "digest": "58e4ccfa85af9412776b40b884a2eca6eab9871da9610d4dbee7f8aa14e65870",
+ "generated": "2026-10-22T04:08:25+00:00"
 }
