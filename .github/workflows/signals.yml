@@ -1,5 +1,6 @@
 name: signals
 # Free signal engine + Telegram bot, every 15 min. Signals only: public market data, no keys, no wallet, no orders.
+# run.py also refreshes the catalyst cache (catalyst/*.json: unlocks, TVL/fees, sectors, listings, on-chain) when due.
 on:
   schedule:
     - cron: "7,22,37,52 * * * *"   # off-peak minutes; GitHub may still delay runs
@@ -52,7 +53,7 @@ jobs:
           python3 state.py pack
           git config user.name "signals-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add signals.json signals.csv site/data.json state/
+          git add signals.json signals.csv site/data.json state/ catalyst/
           site=false
           git diff --cached --quiet -- site/ || site=true
           if [ "${{ github.event_name }}" != "schedule" ]; then site=true; fi

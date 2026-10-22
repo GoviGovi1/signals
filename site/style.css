@@ -57,3 +57,21 @@ td:first-child,th:first-child{text-align:left}
 th{color:var(--muted);font-weight:600}
 .bt-note{font-size:13px;color:var(--muted);margin:6px 0 0}
 .empty{text-align:center;padding:18px 8px}
+.chip.dex{background:#2a1a4a;color:#c9a7ff}
+.chip.kind{background:#2d2205;color:#e3b341;text-transform:none}
+.why{margin:8px 0 0;padding-left:16px;font-size:13px;color:#c9d1d9}
+.why li{margin:2px 0}
+.why li.neg{color:#ffa198}.why li.pos{color:#7ee787}
+.score{font-size:12px;font-weight:700;padding:2px 8px;border-radius:999px;background:#21262d}
+.ctabs{display:flex;gap:6px;overflow-x:auto;margin:4px 0 10px;-webkit-overflow-scrolling:touch}
+.ctab{flex:0 0 auto;background:var(--card);color:var(--text);border:1px solid var(--line);border-radius:999px;padding:7px 12px;font:inherit;font-size:13px;font-weight:600}
+.ctab.on{background:#8957e5;border-color:#8957e5}
+.urow{display:flex;gap:10px;align-items:baseline;padding:8px 0;border-bottom:1px solid var(--line)}
+.urow:last-child{border-bottom:0}
+.udate{min-width:54px;color:var(--muted);font-size:13px}
+.ucoin{font-weight:700;min-width:58px}
+.ubody{flex:1;font-size:13px}
+.big{color:#ffa198;font-weight:700}
+.bar{height:6px;border-radius:3px;background:#21262d;margin-top:4px;overflow:hidden}
+.bar i{display:block;height:100%}
+.small{font-size:12px}

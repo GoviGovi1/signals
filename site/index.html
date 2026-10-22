@@ -4,14 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#0d1117">
-<title>Crypto Signals · Spot + Perps</title>
-<meta name="description" content="Free spot and perps crypto signals for BTC, ETH, SOL, BNB and other majors, with entry, stop loss, take-profits and every result tracked.">
+<title>Crypto Signals · Spot, Perps + Catalysts</title>
+<meta name="description" content="Free spot, perps and on-chain crypto signals on about 40 liquid coins, using the chart plus catalysts: token unlocks, open interest, funding, TVL, fees and sector strength. Every result tracked.">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header class="top">
   <h1>Crypto Signals</h1>
-  <p class="sub">Free <b>Spot</b> and <b>Perps</b> signals on 9 big coins. Every signal is tracked, wins and losses.</p>
+  <p class="sub">Free <b>Spot</b>, <b>Perps</b> and <b>on-chain</b> signals on <span id="ncoins">40</span> liquid coins. Chart + catalysts (unlocks, open interest, funding, TVL, fees, sectors). Every signal says why, and every result is tracked.</p>
 </header>
 
 <main>
@@ -31,8 +31,19 @@
   <nav class="tabs" role="tablist">
     <button class="tab on" data-f="SPOT" role="tab">Spot</button>
     <button class="tab" data-f="PERP" role="tab">Perps</button>
+    <button class="tab" data-f="DEX" role="tab">On-chain</button>
   </nav>
   <section id="open"><p class="muted">Loading…</p></section>
+
+  <h2>Catalysts</h2>
+  <nav class="ctabs" role="tablist">
+    <button class="ctab on" data-c="unlocks">Unlocks</button>
+    <button class="ctab" data-c="onchain">On-chain watchlist</button>
+    <button class="ctab" data-c="sectors">Sectors</button>
+    <button class="ctab" data-c="fund">TVL &amp; fees</button>
+    <button class="ctab" data-c="listings">New on OKX</button>
+  </nav>
+  <section class="card" id="cat"><p class="muted">Loading…</p></section>
 
   <h2>Recent results</h2>
   <section id="closed"></section>
@@ -46,14 +57,16 @@
   <details class="card about">
     <summary>How signals are made</summary>
     <ul>
-      <li><b>Data:</b> public OKX candles (spot and USDT perpetuals), checked on the 1-hour chart.</li>
-      <li><b>Trend filter:</b> on the 4-hour chart, EMA50 above EMA200 means only longs; below means only shorts (perps). Spot is long only.</li>
-      <li><b>Entry:</b> a 1-hour candle closes beyond the high (long) or low (short) of the previous 20 hours, on the right side of the 1-hour EMA50, with RSI(14) at 55–75 for longs or 25–45 for shorts.</li>
-      <li><b>Stop loss:</b> 2 × ATR(14) from entry. That distance is “1R”.</li>
-      <li><b>Take profits:</b> TP1 at 1R, TP2 at 2R, TP3 at 3R. A third is taken at each, and after TP1 the stop moves to entry.</li>
-      <li><b>Time limit:</b> whatever is left closes after 48 hours (“expired”).</li>
-      <li><b>Perps leverage</b> is capped at 3x. Funding rate is shown on each perps signal.</li>
-      <li>One open signal per coin per market at a time. Results don't include fees or funding.</li>
+      <li><b>Coins:</b> the ~40 most traded coins that have both an OKX USDT spot pair and perpetual (at least 60 days old), refreshed daily. Data: public OKX candles.</li>
+      <li><b>Chart signal:</b> 4-hour trend filter (EMA50 vs EMA200), then a 1-hour candle that closes beyond the high (long) or low (short) of the previous 20 hours, on the right side of the 1-hour EMA50, with RSI(14) at 55–75 for longs or 25–45 for shorts. Spot is long only.</li>
+      <li><b>Stop loss:</b> 2 × ATR(14) from entry (“1R”). <b>Take profits:</b> 1R, 2R, 3R, a third at each; after TP1 the stop moves to entry. Anything left closes after 48 hours.</li>
+      <li><b>Token unlocks</b> (DefiLlama): a cliff unlock of 2%+ of circulating supply, or $10M+ (and 0.5%+), within 7 days counts as big. It lowers the catalyst score of longs and raises shorts; after a big unlock passes and price holds, longs score higher.</li>
+      <li><b>Derivatives</b> (OKX): open interest up 5%+ in 24h with the breakout = confirmation; OI down 10%+ after the move = exhaustion; funding of 0.05%+ per 8h paid by your side = crowded.</li>
+      <li><b>Fundamentals</b> (DefiLlama): TVL, fees or DEX volume up 20%+ week over week while price is up less than 5% = momentum the price hasn't caught.</li>
+      <li><b>Sectors</b> (CoinGecko): median 7-day change of each sector's top 50 coins; coins in leading sectors score higher for longs.</li>
+      <li><b>On-chain spot:</b> GeckoTerminal trending pools on Solana, Base, BSC, Ethereum and Arbitrum with liquidity over $250k, 7+ days old, $250k+ daily volume and a GoPlus safety check. A signal fires on a 20-hour breakout of the DEX chart. These can't be backtested with free data, so treat them as the riskiest.</li>
+      <li><b>Filters vs. info:</b> a catalyst only blocks signals if it improved results in <i>both</i> halves of the 90-day backtest. Everything else is shown as a reason on the card and doesn't block anything. See the backtest section for which is which.</li>
+      <li>Perps leverage capped at 3x. One open signal per coin per market, at most <span id="maxopen">15</span> open at once. Results don't include fees or funding.</li>
     </ul>
   </details>
 

@@ -1,0 +1,1165 @@
+{
+ "generated": "2026-10-22T08:02:12+00:00",
+ "days": 90,
+ "from": "2026-07-24",
+ "to": "2026-10-22",
+ "mid": "2026-09-07",
+ "coins": 40,
+ "fees_pct_round_trip": {
+  "SPOT": 0.2,
+  "PERP": 0.1
+ },
+ "variants": {
+  "TA only (all coins)": {
+   "all": {
+    "trades": 2216,
+    "win_rate": 50.7,
+    "avg_r": 0.049,
+    "avg_r_net": -0.016,
+    "total_r_net": -36.4
+   },
+   "H1": {
+    "trades": 1028,
+    "win_rate": 52.7,
+    "avg_r": 0.106,
+    "avg_r_net": 0.032,
+    "total_r_net": 32.4
+   },
+   "H2": {
+    "trades": 1188,
+    "win_rate": 48.9,
+    "avg_r": 0.001,
+    "avg_r_net": -0.058,
+    "total_r_net": -68.9
+   }
+  },
+  "TA only, original 9 coins": {
+   "all": {
+    "trades": 511,
+    "win_rate": 54.2,
+    "avg_r": 0.159,
+    "avg_r_net": 0.048,
+    "total_r_net": 24.5
+   },
+   "H1": {
+    "trades": 262,
+    "win_rate": 56.5,
+    "avg_r": 0.185,
+    "avg_r_net": 0.06,
+    "total_r_net": 15.8
+   },
+   "H2": {
+    "trades": 249,
+    "win_rate": 51.8,
+    "avg_r": 0.131,
+    "avg_r_net": 0.035,
+    "total_r_net": 8.6
+   }
+  },
+  "TA only, 31 added coins": {
+   "all": {
+    "trades": 1705,
+    "win_rate": 49.6,
+    "avg_r": 0.017,
+    "avg_r_net": -0.036,
+    "total_r_net": -60.9
+   },
+   "H1": {
+    "trades": 766,
+    "win_rate": 51.4,
+    "avg_r": 0.079,
+    "avg_r_net": 0.022,
+    "total_r_net": 16.6
+   },
+   "H2": {
+    "trades": 939,
+    "win_rate": 48.1,
+    "avg_r": -0.034,
+    "avg_r_net": -0.083,
+    "total_r_net": -77.5
+   }
+  },
+  "TA only SPOT": {
+   "all": {
+    "trades": 930,
+    "win_rate": 51.6,
+    "avg_r": 0.079,
+    "avg_r_net": -0.012,
+    "total_r_net": -10.9
+   },
+   "H1": {
+    "trades": 383,
+    "win_rate": 55.6,
+    "avg_r": 0.193,
+    "avg_r_net": 0.088,
+    "total_r_net": 33.6
+   },
+   "H2": {
+    "trades": 547,
+    "win_rate": 48.8,
+    "avg_r": -0.001,
+    "avg_r_net": -0.081,
+    "total_r_net": -44.5
+   }
+  },
+  "TA only PERP": {
+   "all": {
+    "trades": 1286,
+    "win_rate": 50.0,
+    "avg_r": 0.028,
+    "avg_r_net": -0.02,
+    "total_r_net": -25.5
+   },
+   "H1": {
+    "trades": 645,
+    "win_rate": 51.0,
+    "avg_r": 0.054,
+    "avg_r_net": -0.002,
+    "total_r_net": -1.1
+   },
+   "H2": {
+    "trades": 641,
+    "win_rate": 49.0,
+    "avg_r": 0.003,
+    "avg_r_net": -0.038,
+    "total_r_net": -24.4
+   }
+  },
+  "skip longs before a big unlock": {
+   "all": {
+    "trades": 2149,
+    "win_rate": 51.1,
+    "avg_r": 0.056,
+    "avg_r_net": -0.011,
+    "total_r_net": -23.8
+   },
+   "H1": {
+    "trades": 1019,
+    "win_rate": 52.7,
+    "avg_r": 0.102,
+    "avg_r_net": 0.028,
+    "total_r_net": 28.4
+   },
+   "H2": {
+    "trades": 1130,
+    "win_rate": 49.7,
+    "avg_r": 0.013,
+    "avg_r_net": -0.046,
+    "total_r_net": -52.2
+   }
+  },
+  "skip crowded funding": {
+   "all": {
+    "trades": 2216,
+    "win_rate": 50.7,
+    "avg_r": 0.049,
+    "avg_r_net": -0.016,
+    "total_r_net": -36.4
+   },
+   "H1": {
+    "trades": 1028,
+    "win_rate": 52.7,
+    "avg_r": 0.106,
+    "avg_r_net": 0.032,
+    "total_r_net": 32.4
+   },
+   "H2": {
+    "trades": 1188,
+    "win_rate": 48.9,
+    "avg_r": 0.001,
+    "avg_r_net": -0.058,
+    "total_r_net": -68.9
+   }
+  },
+  "skip OI exhaustion": {
+   "all": {
+    "trades": 2172,
+    "win_rate": 50.9,
+    "avg_r": 0.055,
+    "avg_r_net": -0.011,
+    "total_r_net": -23.8
+   },
+   "H1": {
+    "trades": 1011,
+    "win_rate": 52.8,
+    "avg_r": 0.111,
+    "avg_r_net": 0.037,
+    "total_r_net": 37.0
+   },
+   "H2": {
+    "trades": 1161,
+    "win_rate": 49.3,
+    "avg_r": 0.007,
+    "avg_r_net": -0.052,
+    "total_r_net": -60.8
+   }
+  },
+  "require OI rising (+5% 24h)": {
+   "all": {
+    "trades": 753,
+    "win_rate": 50.9,
+    "avg_r": 0.061,
+    "avg_r_net": 0.013,
+    "total_r_net": 9.7
+   },
+   "H1": {
+    "trades": 317,
+    "win_rate": 55.2,
+    "avg_r": 0.197,
+    "avg_r_net": 0.144,
+    "total_r_net": 45.6
+   },
+   "H2": {
+    "trades": 436,
+    "win_rate": 47.7,
+    "avg_r": -0.038,
+    "avg_r_net": -0.082,
+    "total_r_net": -35.9
+   }
+  },
+  "skip when OI unknown or falling": {
+   "all": {
+    "trades": 1470,
+    "win_rate": 52.7,
+    "avg_r": 0.081,
+    "avg_r_net": 0.019,
+    "total_r_net": 28.3
+   },
+   "H1": {
+    "trades": 663,
+    "win_rate": 55.7,
+    "avg_r": 0.168,
+    "avg_r_net": 0.101,
+    "total_r_net": 66.8
+   },
+   "H2": {
+    "trades": 807,
+    "win_rate": 50.3,
+    "avg_r": 0.01,
+    "avg_r_net": -0.048,
+    "total_r_net": -38.6
+   }
+  },
+  "LIVE filters (skip falling OI)": {
+   "all": {
+    "trades": 1470,
+    "win_rate": 52.7,
+    "avg_r": 0.081,
+    "avg_r_net": 0.019,
+    "total_r_net": 28.3
+   },
+   "H1": {
+    "trades": 663,
+    "win_rate": 55.7,
+    "avg_r": 0.168,
+    "avg_r_net": 0.101,
+    "total_r_net": 66.8
+   },
+   "H2": {
+    "trades": 807,
+    "win_rate": 50.3,
+    "avg_r": 0.01,
+    "avg_r_net": -0.048,
+    "total_r_net": -38.6
+   }
+  }
+ },
+ "splits": {
+  "big unlock in next 7d": {
+   "with": {
+    "all": {
+     "trades": 74,
+     "win_rate": 37.8,
+     "avg_r": -0.113,
+     "avg_r_net": -0.157,
+     "total_r_net": -11.6
+    },
+    "H1": {
+     "trades": 16,
+     "win_rate": 56.2,
+     "avg_r": 0.354,
+     "avg_r_net": 0.311,
+     "total_r_net": 5.0
+    },
+    "H2": {
+     "trades": 58,
+     "win_rate": 32.8,
+     "avg_r": -0.241,
+     "avg_r_net": -0.287,
+     "total_r_net": -16.6
+    }
+   },
+   "without": {
+    "all": {
+     "trades": 2142,
+     "win_rate": 51.1,
+     "avg_r": 0.055,
+     "avg_r_net": -0.012,
+     "total_r_net": -24.8
+    },
+    "H1": {
+     "trades": 1012,
+     "win_rate": 52.7,
+     "avg_r": 0.102,
+     "avg_r_net": 0.027,
+     "total_r_net": 27.4
+    },
+    "H2": {
+     "trades": 1130,
+     "win_rate": 49.7,
+     "avg_r": 0.013,
+     "avg_r_net": -0.046,
+     "total_r_net": -52.2
+    }
+   }
+  },
+  "OI +5% (confirm)": {
+   "with": {
+    "all": {
+     "trades": 468,
+     "win_rate": 51.1,
+     "avg_r": 0.07,
+     "avg_r_net": 0.024,
+     "total_r_net": 11.2
+    },
+    "H1": {
+     "trades": 214,
+     "win_rate": 53.7,
+     "avg_r": 0.218,
+     "avg_r_net": 0.165,
+     "total_r_net": 35.4
+    },
+    "H2": {
+     "trades": 254,
+     "win_rate": 48.8,
+     "avg_r": -0.054,
+     "avg_r_net": -0.095,
+     "total_r_net": -24.2
+    }
+   },
+   "without": {
+    "all": {
+     "trades": 1748,
+     "win_rate": 50.6,
+     "avg_r": 0.044,
+     "avg_r_net": -0.027,
+     "total_r_net": -47.6
+    },
+    "H1": {
+     "trades": 814,
+     "win_rate": 52.5,
+     "avg_r": 0.076,
+     "avg_r_net": -0.004,
+     "total_r_net": -3.0
+    },
+    "H2": {
+     "trades": 934,
+     "win_rate": 48.9,
+     "avg_r": 0.016,
+     "avg_r_net": -0.048,
+     "total_r_net": -44.7
+    }
+   }
+  },
+  "crowded funding": {
+   "with": {
+    "all": {
+     "trades": 1,
+     "win_rate": 0.0,
+     "avg_r": -1.0,
+     "avg_r_net": -1.077,
+     "total_r_net": -1.1
+    },
+    "H1": {
+     "trades": 1,
+     "win_rate": 0.0,
+     "avg_r": -1.0,
+     "avg_r_net": -1.077,
+     "total_r_net": -1.1
+    },
+    "H2": {
+     "trades": 0
+    }
+   },
+   "without": {
+    "all": {
+     "trades": 2215,
+     "win_rate": 50.7,
+     "avg_r": 0.05,
+     "avg_r_net": -0.016,
+     "total_r_net": -35.3
+    },
+    "H1": {
+     "trades": 1027,
+     "win_rate": 52.8,
+     "avg_r": 0.107,
+     "avg_r_net": 0.033,
+     "total_r_net": 33.5
+    },
+    "H2": {
+     "trades": 1188,
+     "win_rate": 48.9,
+     "avg_r": 0.001,
+     "avg_r_net": -0.058,
+     "total_r_net": -68.9
+    }
+   }
+  },
+  "OI exhaustion": {
+   "with": {
+    "all": {
+     "trades": 64,
+     "win_rate": 40.6,
+     "avg_r": -0.233,
+     "avg_r_net": -0.274,
+     "total_r_net": -17.5
+    },
+    "H1": {
+     "trades": 28,
+     "win_rate": 50.0,
+     "avg_r": -0.096,
+     "avg_r_net": -0.147,
+     "total_r_net": -4.1
+    },
+    "H2": {
+     "trades": 36,
+     "win_rate": 33.3,
+     "avg_r": -0.339,
+     "avg_r_net": -0.372,
+     "total_r_net": -13.4
+    }
+   },
+   "without": {
+    "all": {
+     "trades": 2152,
+     "win_rate": 51.0,
+     "avg_r": 0.058,
+     "avg_r_net": -0.009,
+     "total_r_net": -18.9
+    },
+    "H1": {
+     "trades": 1000,
+     "win_rate": 52.8,
+     "avg_r": 0.111,
+     "avg_r_net": 0.037,
+     "total_r_net": 36.6
+    },
+    "H2": {
+     "trades": 1152,
+     "win_rate": 49.4,
+     "avg_r": 0.011,
+     "avg_r_net": -0.048,
+     "total_r_net": -55.5
+    }
+   }
+  },
+  "fundamentals rising, price lagging": {
+   "with": {
+    "all": {
+     "trades": 81,
+     "win_rate": 60.5,
+     "avg_r": 0.137,
+     "avg_r_net": 0.061,
+     "total_r_net": 5.0
+    },
+    "H1": {
+     "trades": 51,
+     "win_rate": 54.9,
+     "avg_r": 0.14,
+     "avg_r_net": 0.047,
+     "total_r_net": 2.4
+    },
+    "H2": {
+     "trades": 30,
+     "win_rate": 70.0,
+     "avg_r": 0.133,
+     "avg_r_net": 0.085,
+     "total_r_net": 2.6
+    }
+   },
+   "without": {
+    "all": {
+     "trades": 2135,
+     "win_rate": 50.3,
+     "avg_r": 0.046,
+     "avg_r_net": -0.019,
+     "total_r_net": -41.4
+    },
+    "H1": {
+     "trades": 977,
+     "win_rate": 52.6,
+     "avg_r": 0.104,
+     "avg_r_net": 0.031,
+     "total_r_net": 30.0
+    },
+    "H2": {
+     "trades": 1158,
+     "win_rate": 48.4,
+     "avg_r": -0.003,
+     "avg_r_net": -0.062,
+     "total_r_net": -71.4
+    }
+   }
+  }
+ },
+ "catalyst": {
+  "UNLOCK_SHORT": {
+   "all": {
+    "trades": 9,
+    "win_rate": 11.1,
+    "avg_r": -0.704,
+    "avg_r_net": -0.738,
+    "total_r_net": -6.6
+   },
+   "H1": {
+    "trades": 5,
+    "win_rate": 20.0,
+    "avg_r": -0.467,
+    "avg_r_net": -0.505,
+    "total_r_net": -2.5
+   },
+   "H2": {
+    "trades": 4,
+    "win_rate": 0.0,
+    "avg_r": -1.0,
+    "avg_r_net": -1.03,
+    "total_r_net": -4.1
+   },
+   "list": [
+    {
+     "coin": "STRK",
+     "opened": "2026-08-07",
+     "r_net": -1.05,
+     "status": "stopped"
+    },
+    {
+     "coin": "ARB",
+     "opened": "2026-10-08",
+     "r_net": -1.02,
+     "status": "stopped"
+    },
+    {
+     "coin": "GRVT",
+     "opened": "2026-08-22",
+     "r_net": -1.02,
+     "status": "stopped"
+    },
+    {
+     "coin": "XPL",
+     "opened": "2026-07-25",
+     "r_net": -1.04,
+     "status": "stopped"
+    },
+    {
+     "coin": "XPL",
+     "opened": "2026-08-18",
+     "r_net": -1.04,
+     "status": "stopped"
+    },
+    {
+     "coin": "XPL",
+     "opened": "2026-10-18",
+     "r_net": -1.03,
+     "status": "stopped"
+    },
+    {
+     "coin": "ZRO",
+     "opened": "2026-08-13",
+     "r_net": 1.62,
+     "status": "expired"
+    },
+    {
+     "coin": "ZRO",
+     "opened": "2026-09-13",
+     "r_net": -1.04,
+     "status": "stopped"
+    },
+    {
+     "coin": "ZRO",
+     "opened": "2026-10-18",
+     "r_net": -1.03,
+     "status": "stopped"
+    }
+   ]
+  },
+  "POST_UNLOCK_LONG": {
+   "all": {
+    "trades": 12,
+    "win_rate": 41.7,
+    "avg_r": -0.167,
+    "avg_r_net": -0.219,
+    "total_r_net": -2.6
+   },
+   "H1": {
+    "trades": 3,
+    "win_rate": 33.3,
+    "avg_r": -0.556,
+    "avg_r_net": -0.606,
+    "total_r_net": -1.8
+   },
+   "H2": {
+    "trades": 9,
+    "win_rate": 44.4,
+    "avg_r": -0.037,
+    "avg_r_net": -0.091,
+    "total_r_net": -0.8
+   },
+   "list": [
+    {
+     "coin": "LINK",
+     "opened": "2026-10-10",
+     "r_net": -1.13,
+     "status": "stopped"
+    },
+    {
+     "coin": "PUMP",
+     "opened": "2026-08-13",
+     "r_net": 0.28,
+     "status": "stopped_be"
+    },
+    {
+     "coin": "PUMP",
+     "opened": "2026-09-13",
+     "r_net": -1.05,
+     "status": "stopped"
+    },
+    {
+     "coin": "STRK",
+     "opened": "2026-09-18",
+     "r_net": 1.93,
+     "status": "tp3"
+    },
+    {
+     "coin": "STRK",
+     "opened": "2026-10-15",
+     "r_net": -1.02,
+     "status": "stopped"
+    },
+    {
+     "coin": "ARB",
+     "opened": "2026-09-16",
+     "r_net": 1.97,
+     "status": "tp3"
+    },
+    {
+     "coin": "ARB",
+     "opened": "2026-10-16",
+     "r_net": -1.06,
+     "status": "stopped"
+    },
+    {
+     "coin": "GRVT",
+     "opened": "2026-08-30",
+     "r_net": -1.05,
+     "status": "stopped"
+    },
+    {
+     "coin": "XPL",
+     "opened": "2026-09-26",
+     "r_net": -1.03,
+     "status": "stopped"
+    },
+    {
+     "coin": "ZRO",
+     "opened": "2026-08-21",
+     "r_net": -1.05,
+     "status": "stopped"
+    },
+    {
+     "coin": "ZRO",
+     "opened": "2026-09-20",
+     "r_net": 0.28,
+     "status": "stopped_be"
+    },
+    {
+     "coin": "ZRO",
+     "opened": "2026-10-21",
+     "r_net": 0.29,
+     "status": "stopped_be"
+    }
+   ]
+  },
+  "FUND_LONG": {
+   "all": {
+    "trades": 63,
+    "win_rate": 49.2,
+    "avg_r": 0.077,
+    "avg_r_net": -0.023,
+    "total_r_net": -1.4
+   },
+   "H1": {
+    "trades": 41,
+    "win_rate": 48.8,
+    "avg_r": 0.114,
+    "avg_r_net": 0.0,
+    "total_r_net": 0.0
+   },
+   "H2": {
+    "trades": 22,
+    "win_rate": 50.0,
+    "avg_r": 0.008,
+    "avg_r_net": -0.065,
+    "total_r_net": -1.4
+   },
+   "list": [
+    {
+     "coin": "BNB",
+     "opened": "2026-07-31",
+     "r_net": -1.2,
+     "status": "stopped"
+    },
+    {
+     "coin": "BNB",
+     "opened": "2026-07-31",
+     "r_net": 0.14,
+     "status": "stopped_be"
+    },
+    {
+     "coin": "BNB",
+     "opened": "2026-07-31",
+     "r_net": -1.18,
+     "status": "stopped"
+    },
+    {
+     "coin": "BNB",
+     "opened": "2026-08-02",
+     "r_net": -1.24,
+     "status": "stopped"
+    },
+    {
+     "coin": "BNB",
+     "opened": "2026-08-03",
+     "r_net": 1.75,
+     "status": "tp3"
+    },
+    {
+     "coin": "BNB",
+     "opened": "2026-08-05",
+     "r_net": -1.19,
+     "status": "stopped"
+    },
+    {
+     "coin": "BNB",
+     "opened": "2026-08-06",
+     "r_net": -1.22,
+     "status": "stopped"
+    },
+    {
+     "coin": "BNB",
+     "opened": "2026-08-08",
+     "r_net": 1.64,
+     "status": "tp3"
+    },
+    {
+     "coin": "BNB",
+     "opened": "2026-08-08",
+     "r_net": 0.08,
+     "status": "stopped_be"
+    },
+    {
+     "coin": "BNB",
+     "opened": "2026-08-20",
+     "r_net": 1.85,
+     "status": "tp3"
+    },
+    {
+     "coin": "BNB",
+     "opened": "2026-09-12",
+     "r_net": -1.14,
+     "status": "stopped"
+    },
+    {
+     "coin": "BNB",
+     "opened": "2026-09-14",
+     "r_net": -1.19,
+     "status": "stopped"
+    },
+    {
+     "coin": "PUMP",
+     "opened": "2026-07-26",
+     "r_net": 1.92,
+     "status": "tp3"
+    },
+    {
+     "coin": "PUMP",
+     "opened": "2026-07-27",
+     "r_net": 0.95,
+     "status": "stopped_be"
+    },
+    {
+     "coin": "PUMP",
+     "opened": "2026-07-30",
+     "r_net": 1.94,
+     "status": "tp3"
+    },
+    {
+     "coin": "PUMP",
+     "opened": "2026-08-29",
+     "r_net": 0.28,
+     "status": "stopped_be"
+    },
+    {
+     "coin": "PUMP",
+     "opened": "2026-08-30",
+     "r_net": -1.05,
+     "status": "stopped"
+    },
+    {
+     "coin": "PUMP",
+     "opened": "2026-09-03",
+     "r_net": -1.05,
+     "status": "stopped"
+    },
+    {
+     "coin": "HYPE",
+     "opened": "2026-08-29",
+     "r_net": -1.1,
+     "status": "stopped"
+    },
+    {
+     "coin": "LIT",
+     "opened": "2026-07-29",
+     "r_net": -1.05,
+     "status": "stopped"
+    },
+    {
+     "coin": "LIT",
+     "opened": "2026-07-29",
+     "r_net": -1.05,
+     "status": "stopped"
+    },
+    {
+     "coin": "LIT",
+     "opened": "2026-07-30",
+     "r_net": -1.05,
+     "status": "stopped"
+    },
+    {
+     "coin": "LIT",
+     "opened": "2026-08-29",
+     "r_net": 1.94,
+     "status": "tp3"
+    },
+    {
+     "coin": "LIT",
+     "opened": "2026-08-30",
+     "r_net": 0.29,
+     "status": "stopped_be"
+    },
+    {
+     "coin": "LIT",
+     "opened": "2026-09-16",
+     "r_net": 1.96,
+     "status": "tp3"
+    },
+    {
+     "coin": "LIT",
+     "opened": "2026-09-18",
+     "r_net": 0.3,
+     "status": "stopped_be"
+    },
+    {
+     "coin": "ENA",
+     "opened": "2026-08-11",
+     "r_net": -1.09,
+     "status": "stopped"
+    },
+    {
+     "coin": "ENA",
+     "opened": "2026-08-11",
+     "r_net": -1.08,
+     "status": "stopped"
+    },
+    {
+     "coin": "ENA",
+     "opened": "2026-09-05",
+     "r_net": 1.95,
+     "status": "tp3"
+    },
+    {
+     "coin": "ENA",
+     "opened": "2026-10-10",
+     "r_net": 1.93,
+     "status": "tp3"
+    },
+    {
+     "coin": "ENA",
+     "opened": "2026-10-11",
+     "r_net": 0.27,
+     "status": "stopped_be"
+    },
+    {
+     "coin": "ENA",
+     "opened": "2026-10-11",
+     "r_net": -1.05,
+     "status": "stopped"
+    },
+    {
+     "coin": "ENA",
+     "opened": "2026-10-16",
+     "r_net": -1.05,
+     "status": "stopped"
+    },
+    {
+     "coin": "ARB",
+     "opened": "2026-08-30",
+     "r_net": -1.1,
+     "status": "stopped"
+    },
+    {
+     "coin": "ONDO",
+     "opened": "2026-07-30",
+     "r_net": 0.28,
+     "status": "stopped_be"
+    },
+    {
+     "coin": "ONDO",
+     "opened": "2026-08-05",
+     "r_net": -1.08,
+     "status": "stopped"
+    },
+    {
+     "coin": "ONDO",
+     "opened": "2026-09-05",
+     "r_net": 1.92,
+     "status": "tp3"
+    },
+    {
+     "coin": "ONDO",
+     "opened": "2026-10-16",
+     "r_net": -1.06,
+     "status": "stopped"
+    },
+    {
+     "coin": "ONDO",
+     "opened": "2026-10-21",
+     "r_net": 0.26,
+     "status": "stopped_be"
+    },
+    {
+     "coin": "INJ",
+     "opened": "2026-07-25",
+     "r_net": -1.09,
+     "status": "stopped"
+    },
+    {
+     "coin": "INJ",
+     "opened": "2026-08-30",
+     "r_net": -1.09,
+     "status": "stopped"
+    },
+    {
+     "coin": "INJ",
+     "opened": "2026-09-14",
+     "r_net": -1.06,
+     "status": "stopped"
+    },
+    {
+     "coin": "INJ",
+     "opened": "2026-09-17",
+     "r_net": 1.93,
+     "status": "tp3"
+    },
+    {
+     "coin": "INJ",
+     "opened": "2026-10-12",
+     "r_net": 0.27,
+     "status": "stopped_be"
+    },
+    {
+     "coin": "INJ",
+     "opened": "2026-10-12",
+     "r_net": -1.05,
+     "status": "stopped"
+    },
+    {
+     "coin": "OKB",
+     "opened": "2026-08-29",
+     "r_net": 0.22,
+     "status": "stopped_be"
+    },
+    {
+     "coin": "OKB",
+     "opened": "2026-09-09",
+     "r_net": -1.15,
+     "status": "stopped"
+    },
+    {
+     "coin": "OKB",
+     "opened": "2026-09-11",
+     "r_net": 0.25,
+     "status": "stopped_be"
+    },
+    {
+     "coin": "CRV",
+     "opened": "2026-08-06",
+     "r_net": 1.85,
+     "status": "tp3"
+    },
+    {
+     "coin": "CRV",
+     "opened": "2026-08-06",
+     "r_net": -1.09,
+     "status": "stopped"
+    },
+    {
+     "coin": "CRV",
+     "opened": "2026-08-07",
+     "r_net": -1.1,
+     "status": "stopped"
+    },
+    {
+     "coin": "CRV",
+     "opened": "2026-08-08",
+     "r_net": 1.85,
+     "status": "tp3"
+    },
+    {
+     "coin": "CRV",
+     "opened": "2026-08-16",
+     "r_net": 0.23,
+     "status": "stopped_be"
+    },
+    {
+     "coin": "CRV",
+     "opened": "2026-08-17",
+     "r_net": -1.09,
+     "status": "stopped"
+    },
+    {
+     "coin": "CRV",
+     "opened": "2026-08-17",
+     "r_net": -1.08,
+     "status": "stopped"
+    },
+    {
+     "coin": "CRV",
+     "opened": "2026-08-19",
+     "r_net": 0.26,
+     "status": "stopped_be"
+    },
+    {
+     "coin": "CRV",
+     "opened": "2026-08-20",
+     "r_net": 1.93,
+     "status": "tp3"
+    },
+    {
+     "coin": "CRV",
+     "opened": "2026-09-13",
+     "r_net": 0.26,
+     "status": "stopped_be"
+    },
+    {
+     "coin": "CRV",
+     "opened": "2026-09-14",
+     "r_net": -1.06,
+     "status": "stopped"
+    },
+    {
+     "coin": "CRV",
+     "opened": "2026-09-17",
+     "r_net": 1.12,
+     "status": "expired"
+    },
+    {
+     "coin": "CRV",
+     "opened": "2026-09-22",
+     "r_net": -1.05,
+     "status": "stopped"
+    },
+    {
+     "coin": "CRV",
+     "opened": "2026-10-15",
+     "r_net": -1.05,
+     "status": "stopped"
+    },
+    {
+     "coin": "CRV",
+     "opened": "2026-10-19",
+     "r_net": 1.93,
+     "status": "tp3"
+    }
+   ]
+  }
+ },
+ "gate_walk_forward": {
+  "picked on H1, tested on H2": {
+   "kept": {
+    "trades": 528,
+    "win_rate": 52.1,
+    "avg_r": 0.058,
+    "avg_r_net": -0.002,
+    "total_r_net": -1.1
+   },
+   "dropped": {
+    "trades": 279,
+    "win_rate": 47.0,
+    "avg_r": -0.081,
+    "avg_r_net": -0.134,
+    "total_r_net": -37.5
+   },
+   "coins_kept": 24
+  },
+  "picked on H2, tested on H1": {
+   "kept": {
+    "trades": 295,
+    "win_rate": 58.0,
+    "avg_r": 0.182,
+    "avg_r_net": 0.106,
+    "total_r_net": 31.1
+   },
+   "dropped": {
+    "trades": 368,
+    "win_rate": 53.8,
+    "avg_r": 0.156,
+    "avg_r_net": 0.097,
+    "total_r_net": 35.7
+   },
+   "coins_kept": 17
+  }
+ },
+ "decisions": {
+  "OI falling": "FILTER: skipping signals when open interest fell over the last 24h improved results in both halves (a lot in the first, a little in the second).",
+  "OI exhaustion": "FILTER (part of the OI rule): those signals lost in both halves.",
+  "Big unlock ahead": "INFO ONLY: helped in the second half but hurt in the first; few signals affected.",
+  "OI rising +5%": "INFO ONLY (+1 score): much better in the first half, worse in the second.",
+  "Crowded funding": "INFO ONLY: only 1 signal in 90 days hit it, nothing to test.",
+  "Fundamentals rising, price lagging": "INFO ONLY (+1 score): those signals did better in both halves, but too few (81) to filter on.",
+  "Stand-alone unlock / fundamentals signals": "OFF: all three lost money after fees.",
+  "Coin gate": "FILTER, modest evidence: coins picked on the first half did far better on the second half than the dropped ones (about break-even vs clearly losing); the reverse check showed almost no difference.",
+  "Sectors, listings, on-chain": "No free history to test: shown as information; on-chain signals are labelled untested."
+ },
+ "data_coverage": {
+  "oi_coins": 40,
+  "funding_coins": 40,
+  "unlock_coins": 24,
+  "unlock_events_in_window": 25,
+  "fund_coins": [
+   "AAVE",
+   "ADA",
+   "ARB",
+   "AVAX",
+   "BNB",
+   "BTC",
+   "CRV",
+   "ENA",
+   "ETH",
+   "HYPE",
+   "INJ",
+   "LINK",
+   "LIT",
+   "LTC",
+   "NEAR",
+   "OKB",
+   "ONDO",
+   "PUMP",
+   "SOL",
+   "STRK",
+   "SUI",
+   "UNI",
+   "XPL",
+   "XRP"
+  ]
+ }
+}

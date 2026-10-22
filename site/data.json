@@ -2,6 +2,9 @@
  "open": [
   {
    "id": "DOGE-PERP-1792630800",
+   "kind": "TA",
+   "score": null,
+   "reasons": null,
    "coin": "DOGE",
    "market": "PERP",
    "side": "SHORT",
@@ -30,6 +33,9 @@
   },
   {
    "id": "SOL-PERP-1792634400",
+   "kind": "TA",
+   "score": null,
+   "reasons": null,
    "coin": "SOL",
    "market": "PERP",
    "side": "SHORT",
@@ -58,6 +64,9 @@
   },
   {
    "id": "LINK-PERP-1792638000",
+   "kind": "TA",
+   "score": null,
+   "reasons": null,
    "coin": "LINK",
    "market": "PERP",
    "side": "SHORT",
@@ -86,6 +95,9 @@
   },
   {
    "id": "BNB-PERP-1792652400",
+   "kind": "TA",
+   "score": null,
+   "reasons": null,
    "coin": "BNB",
    "market": "PERP",
    "side": "SHORT",
@@ -124,81 +136,85 @@
   "PERP": {
    "trades": 0
   },
+  "DEX": {
+   "trades": 0
+  },
+  "kinds": {},
   "coins": {},
   "open": 4
  },
  "backtest": {
-  "from": "2026-07-23",
-  "to": "2026-10-21",
+  "from": "2026-07-24",
+  "to": "2026-10-22",
   "days": 90,
   "fees": {
    "SPOT": 0.2,
    "PERP": 0.1
   },
   "all": {
-   "trades": 511,
-   "wins": 277,
-   "win_rate": 54.2,
-   "tp1_rate": 54.0,
-   "avg_r": 0.159,
-   "total_r": 81.1,
-   "avg_r_net": 0.048,
-   "total_r_net": 24.47,
-   "stopped": 234,
-   "tp3": 107,
-   "expired": 23
+   "trades": 2216,
+   "wins": 1123,
+   "win_rate": 50.7,
+   "tp1_rate": 50.5,
+   "avg_r": 0.049,
+   "total_r": 109.64,
+   "avg_r_net": -0.016,
+   "total_r_net": -36.42,
+   "stopped": 1078,
+   "tp3": 387,
+   "expired": 85
   },
   "SPOT": {
-   "trades": 221,
-   "wins": 122,
-   "win_rate": 55.2,
-   "tp1_rate": 55.2,
-   "avg_r": 0.197,
-   "total_r": 43.57,
-   "avg_r_net": 0.044,
-   "total_r_net": 9.74,
-   "stopped": 99,
-   "tp3": 49,
-   "expired": 10
+   "trades": 930,
+   "wins": 480,
+   "win_rate": 51.6,
+   "tp1_rate": 51.5,
+   "avg_r": 0.079,
+   "total_r": 73.1,
+   "avg_r_net": -0.012,
+   "total_r_net": -10.91,
+   "stopped": 445,
+   "tp3": 171,
+   "expired": 29
   },
   "PERP": {
-   "trades": 290,
-   "wins": 155,
-   "win_rate": 53.4,
-   "tp1_rate": 53.1,
-   "avg_r": 0.129,
-   "total_r": 37.53,
-   "avg_r_net": 0.051,
-   "total_r_net": 14.73,
-   "stopped": 135,
-   "tp3": 58,
-   "expired": 13
+   "trades": 1286,
+   "wins": 643,
+   "win_rate": 50.0,
+   "tp1_rate": 49.7,
+   "avg_r": 0.028,
+   "total_r": 36.54,
+   "avg_r_net": -0.02,
+   "total_r_net": -25.51,
+   "stopped": 633,
+   "tp3": 216,
+   "expired": 56
   },
   "PERP_LONG": {
-   "trades": 222,
-   "wins": 119,
-   "win_rate": 53.6,
-   "tp1_rate": 53.6,
-   "avg_r": 0.168,
-   "total_r": 37.19,
-   "avg_r_net": 0.092,
-   "total_r_net": 20.33,
-   "stopped": 103,
-   "tp3": 50,
-   "expired": 9
+   "trades": 922,
+   "wins": 472,
+   "win_rate": 51.2,
+   "tp1_rate": 51.0,
+   "avg_r": 0.067,
+   "total_r": 61.74,
+   "avg_r_net": 0.023,
+   "total_r_net": 20.84,
+   "stopped": 444,
+   "tp3": 169,
+   "expired": 31
   },
   "PERP_SHORT": {
-   "trades": 68,
-   "wins": 36,
-   "win_rate": 52.9,
-   "tp1_rate": 51.5,
-   "avg_r": 0.005,
-   "total_r": 0.34,
-   "avg_r_net": -0.082,
-   "total_r_net": -5.6,
-   "stopped": 32,
-   "tp3": 8,
-   "expired": 4
+   "trades": 364,
+   "wins": 171,
+   "win_rate": 47.0,
+   "tp1_rate": 46.4,
+   "avg_r": -0.069,
+   "total_r": -25.2,
+   "avg_r_net": -0.127,
+   "total_r_net": -46.34,
+   "stopped": 189,
+   "tp3": 47,
+   "expired": 25
   },
   "coins": {
    "BTC": {
@@ -240,19 +256,6 @@
     "tp3": 14,
     "expired": 4
    },
-   "BNB": {
-    "trades": 53,
-    "wins": 35,
-    "win_rate": 66.0,
-    "tp1_rate": 66.0,
-    "avg_r": 0.38,
-    "total_r": 20.14,
-    "avg_r_net": 0.221,
-    "total_r_net": 11.71,
-    "stopped": 18,
-    "tp3": 12,
-    "expired": 6
-   },
    "XRP": {
     "trades": 55,
     "wins": 34,
@@ -292,6 +295,19 @@
     "tp3": 7,
     "expired": 4
    },
+   "LINK": {
+    "trades": 68,
+    "wins": 27,
+    "win_rate": 39.7,
+    "tp1_rate": 39.7,
+    "avg_r": 0.015,
+    "total_r": 1.01,
+    "avg_r_net": -0.072,
+    "total_r_net": -4.88,
+    "stopped": 41,
+    "tp3": 16,
+    "expired": 3
+   },
    "AVAX": {
     "trades": 59,
     "wins": 30,
@@ -305,18 +321,1034 @@
     "tp3": 9,
     "expired": 0
    },
-   "LINK": {
-    "trades": 68,
-    "wins": 27,
-    "win_rate": 39.7,
-    "tp1_rate": 39.7,
-    "avg_r": 0.015,
-    "total_r": 1.01,
-    "avg_r_net": -0.072,
-    "total_r_net": -4.88,
-    "stopped": 41,
-    "tp3": 16,
+   "BNB": {
+    "trades": 53,
+    "wins": 35,
+    "win_rate": 66.0,
+    "tp1_rate": 66.0,
+    "avg_r": 0.38,
+    "total_r": 20.14,
+    "avg_r_net": 0.221,
+    "total_r_net": 11.71,
+    "stopped": 18,
+    "tp3": 12,
+    "expired": 6
+   },
+   "ZEC": {
+    "trades": 51,
+    "wins": 28,
+    "win_rate": 54.9,
+    "tp1_rate": 54.9,
+    "avg_r": 0.186,
+    "total_r": 9.48,
+    "avg_r_net": 0.137,
+    "total_r_net": 6.96,
+    "stopped": 22,
+    "tp3": 10,
+    "expired": 1
+   },
+   "DOOD": {
+    "trades": 46,
+    "wins": 24,
+    "win_rate": 52.2,
+    "tp1_rate": 52.2,
+    "avg_r": 0.029,
+    "total_r": 1.33,
+    "avg_r_net": -0.032,
+    "total_r_net": -1.47,
+    "stopped": 22,
+    "tp3": 8,
+    "expired": 0
+   },
+   "NEAR": {
+    "trades": 67,
+    "wins": 44,
+    "win_rate": 65.7,
+    "tp1_rate": 65.7,
+    "avg_r": 0.31,
+    "total_r": 20.75,
+    "avg_r_net": 0.269,
+    "total_r_net": 18.02,
+    "stopped": 23,
+    "tp3": 12,
     "expired": 3
+   },
+   "WLD": {
+    "trades": 58,
+    "wins": 25,
+    "win_rate": 43.1,
+    "tp1_rate": 43.1,
+    "avg_r": -0.084,
+    "total_r": -4.87,
+    "avg_r_net": -0.124,
+    "total_r_net": -7.18,
+    "stopped": 31,
+    "tp3": 9,
+    "expired": 2
+   },
+   "PUMP": {
+    "trades": 72,
+    "wins": 39,
+    "win_rate": 54.2,
+    "tp1_rate": 54.2,
+    "avg_r": 0.079,
+    "total_r": 5.66,
+    "avg_r_net": 0.043,
+    "total_r_net": 3.1,
+    "stopped": 33,
+    "tp3": 13,
+    "expired": 2
+   },
+   "IOST": {
+    "trades": 45,
+    "wins": 28,
+    "win_rate": 62.2,
+    "tp1_rate": 62.2,
+    "avg_r": 0.212,
+    "total_r": 9.56,
+    "avg_r_net": 0.16,
+    "total_r_net": 7.21,
+    "stopped": 17,
+    "tp3": 9,
+    "expired": 2
+   },
+   "HYPE": {
+    "trades": 67,
+    "wins": 24,
+    "win_rate": 35.8,
+    "tp1_rate": 35.8,
+    "avg_r": -0.292,
+    "total_r": -19.54,
+    "avg_r_net": -0.361,
+    "total_r_net": -24.18,
+    "stopped": 42,
+    "tp3": 7,
+    "expired": 2
+   },
+   "PEPE": {
+    "trades": 61,
+    "wins": 31,
+    "win_rate": 50.8,
+    "tp1_rate": 50.8,
+    "avg_r": 0.153,
+    "total_r": 9.33,
+    "avg_r_net": 0.088,
+    "total_r_net": 5.39,
+    "stopped": 30,
+    "tp3": 15,
+    "expired": 0
+   },
+   "LIT": {
+    "trades": 69,
+    "wins": 39,
+    "win_rate": 56.5,
+    "tp1_rate": 56.5,
+    "avg_r": 0.139,
+    "total_r": 9.56,
+    "avg_r_net": 0.1,
+    "total_r_net": 6.88,
+    "stopped": 29,
+    "tp3": 11,
+    "expired": 3
+   },
+   "STRK": {
+    "trades": 58,
+    "wins": 26,
+    "win_rate": 44.8,
+    "tp1_rate": 44.8,
+    "avg_r": -0.121,
+    "total_r": -7.0,
+    "avg_r_net": -0.157,
+    "total_r_net": -9.12,
+    "stopped": 32,
+    "tp3": 9,
+    "expired": 0
+   },
+   "UNI": {
+    "trades": 51,
+    "wins": 28,
+    "win_rate": 54.9,
+    "tp1_rate": 54.9,
+    "avg_r": 0.176,
+    "total_r": 9.0,
+    "avg_r_net": 0.127,
+    "total_r_net": 6.48,
+    "stopped": 23,
+    "tp3": 12,
+    "expired": 0
+   },
+   "FIL": {
+    "trades": 54,
+    "wins": 25,
+    "win_rate": 46.3,
+    "tp1_rate": 46.3,
+    "avg_r": 0.125,
+    "total_r": 6.76,
+    "avg_r_net": 0.074,
+    "total_r_net": 3.99,
+    "stopped": 27,
+    "tp3": 15,
+    "expired": 2
+   },
+   "IRYS": {
+    "trades": 42,
+    "wins": 15,
+    "win_rate": 35.7,
+    "tp1_rate": 33.3,
+    "avg_r": -0.215,
+    "total_r": -9.01,
+    "avg_r_net": -0.272,
+    "total_r_net": -11.4,
+    "stopped": 26,
+    "tp3": 7,
+    "expired": 3
+   },
+   "ENA": {
+    "trades": 54,
+    "wins": 35,
+    "win_rate": 64.8,
+    "tp1_rate": 64.8,
+    "avg_r": 0.123,
+    "total_r": 6.67,
+    "avg_r_net": 0.083,
+    "total_r_net": 4.47,
+    "stopped": 19,
+    "tp3": 6,
+    "expired": 0
+   },
+   "TRUMP": {
+    "trades": 37,
+    "wins": 11,
+    "win_rate": 29.7,
+    "tp1_rate": 29.7,
+    "avg_r": -0.351,
+    "total_r": -13.01,
+    "avg_r_net": -0.393,
+    "total_r_net": -14.55,
+    "stopped": 24,
+    "tp3": 5,
+    "expired": 2
+   },
+   "ARB": {
+    "trades": 55,
+    "wins": 29,
+    "win_rate": 52.7,
+    "tp1_rate": 52.7,
+    "avg_r": 0.077,
+    "total_r": 4.22,
+    "avg_r_net": 0.033,
+    "total_r_net": 1.81,
+    "stopped": 26,
+    "tp3": 8,
+    "expired": 5
+   },
+   "BCH": {
+    "trades": 52,
+    "wins": 11,
+    "win_rate": 21.2,
+    "tp1_rate": 21.2,
+    "avg_r": -0.663,
+    "total_r": -34.5,
+    "avg_r_net": -0.737,
+    "total_r_net": -38.31,
+    "stopped": 40,
+    "tp3": 0,
+    "expired": 2
+   },
+   "ADA": {
+    "trades": 57,
+    "wins": 29,
+    "win_rate": 50.9,
+    "tp1_rate": 50.9,
+    "avg_r": 0.261,
+    "total_r": 14.89,
+    "avg_r_net": 0.196,
+    "total_r_net": 11.16,
+    "stopped": 28,
+    "tp3": 16,
+    "expired": 4
+   },
+   "LTC": {
+    "trades": 52,
+    "wins": 33,
+    "win_rate": 63.5,
+    "tp1_rate": 63.5,
+    "avg_r": 0.305,
+    "total_r": 15.85,
+    "avg_r_net": 0.209,
+    "total_r_net": 10.84,
+    "stopped": 18,
+    "tp3": 11,
+    "expired": 1
+   },
+   "AAVE": {
+    "trades": 63,
+    "wins": 37,
+    "win_rate": 58.7,
+    "tp1_rate": 58.7,
+    "avg_r": 0.256,
+    "total_r": 16.12,
+    "avg_r_net": 0.191,
+    "total_r_net": 12.03,
+    "stopped": 26,
+    "tp3": 12,
+    "expired": 4
+   },
+   "ONDO": {
+    "trades": 53,
+    "wins": 25,
+    "win_rate": 47.2,
+    "tp1_rate": 47.2,
+    "avg_r": -0.187,
+    "total_r": -9.94,
+    "avg_r_net": -0.24,
+    "total_r_net": -12.72,
+    "stopped": 28,
+    "tp3": 2,
+    "expired": 3
+   },
+   "TIA": {
+    "trades": 62,
+    "wins": 27,
+    "win_rate": 43.5,
+    "tp1_rate": 40.3,
+    "avg_r": -0.095,
+    "total_r": -5.88,
+    "avg_r_net": -0.138,
+    "total_r_net": -8.54,
+    "stopped": 32,
+    "tp3": 10,
+    "expired": 5
+   },
+   "TAO": {
+    "trades": 51,
+    "wins": 25,
+    "win_rate": 49.0,
+    "tp1_rate": 49.0,
+    "avg_r": -0.0,
+    "total_r": -0.0,
+    "avg_r_net": -0.057,
+    "total_r_net": -2.9,
+    "stopped": 26,
+    "tp3": 9,
+    "expired": 0
+   },
+   "INJ": {
+    "trades": 56,
+    "wins": 25,
+    "win_rate": 44.6,
+    "tp1_rate": 44.6,
+    "avg_r": 0.071,
+    "total_r": 4.0,
+    "avg_r_net": 0.024,
+    "total_r_net": 1.34,
+    "stopped": 31,
+    "tp3": 16,
+    "expired": 0
+   },
+   "GRVT": {
+    "trades": 29,
+    "wins": 14,
+    "win_rate": 48.3,
+    "tp1_rate": 48.3,
+    "avg_r": -0.241,
+    "total_r": -7.0,
+    "avg_r_net": -0.297,
+    "total_r_net": -8.61,
+    "stopped": 15,
+    "tp3": 0,
+    "expired": 0
+   },
+   "W": {
+    "trades": 56,
+    "wins": 32,
+    "win_rate": 57.1,
+    "tp1_rate": 57.1,
+    "avg_r": 0.242,
+    "total_r": 13.54,
+    "avg_r_net": 0.193,
+    "total_r_net": 10.82,
+    "stopped": 24,
+    "tp3": 13,
+    "expired": 4
+   },
+   "OKB": {
+    "trades": 47,
+    "wins": 34,
+    "win_rate": 72.3,
+    "tp1_rate": 70.2,
+    "avg_r": 0.503,
+    "total_r": 23.66,
+    "avg_r_net": 0.397,
+    "total_r_net": 18.64,
+    "stopped": 13,
+    "tp3": 13,
+    "expired": 1
+   },
+   "PARTI": {
+    "trades": 51,
+    "wins": 12,
+    "win_rate": 23.5,
+    "tp1_rate": 23.5,
+    "avg_r": -0.512,
+    "total_r": -26.09,
+    "avg_r_net": -0.553,
+    "total_r_net": -28.22,
+    "stopped": 39,
+    "tp3": 2,
+    "expired": 4
+   },
+   "CRV": {
+    "trades": 74,
+    "wins": 36,
+    "win_rate": 48.6,
+    "tp1_rate": 48.6,
+    "avg_r": -0.022,
+    "total_r": -1.66,
+    "avg_r_net": -0.073,
+    "total_r_net": -5.43,
+    "stopped": 38,
+    "tp3": 10,
+    "expired": 3
+   },
+   "XPL": {
+    "trades": 46,
+    "wins": 20,
+    "win_rate": 43.5,
+    "tp1_rate": 43.5,
+    "avg_r": -0.178,
+    "total_r": -8.19,
+    "avg_r_net": -0.215,
+    "total_r_net": -9.89,
+    "stopped": 26,
+    "tp3": 5,
+    "expired": 1
+   },
+   "ZRO": {
+    "trades": 69,
+    "wins": 35,
+    "win_rate": 50.7,
+    "tp1_rate": 50.7,
+    "avg_r": -0.074,
+    "total_r": -5.14,
+    "avg_r_net": -0.109,
+    "total_r_net": -7.5,
+    "stopped": 34,
+    "tp3": 5,
+    "expired": 3
+   }
+  },
+  "catalyst": {
+   "from": "2026-07-24",
+   "to": "2026-10-22",
+   "mid": "2026-09-07",
+   "coins": 40,
+   "variants": {
+    "TA only (all coins)": {
+     "all": {
+      "trades": 2216,
+      "win_rate": 50.7,
+      "avg_r": 0.049,
+      "avg_r_net": -0.016,
+      "total_r_net": -36.4
+     },
+     "H1": {
+      "trades": 1028,
+      "win_rate": 52.7,
+      "avg_r": 0.106,
+      "avg_r_net": 0.032,
+      "total_r_net": 32.4
+     },
+     "H2": {
+      "trades": 1188,
+      "win_rate": 48.9,
+      "avg_r": 0.001,
+      "avg_r_net": -0.058,
+      "total_r_net": -68.9
+     }
+    },
+    "TA only, original 9 coins": {
+     "all": {
+      "trades": 511,
+      "win_rate": 54.2,
+      "avg_r": 0.159,
+      "avg_r_net": 0.048,
+      "total_r_net": 24.5
+     },
+     "H1": {
+      "trades": 262,
+      "win_rate": 56.5,
+      "avg_r": 0.185,
+      "avg_r_net": 0.06,
+      "total_r_net": 15.8
+     },
+     "H2": {
+      "trades": 249,
+      "win_rate": 51.8,
+      "avg_r": 0.131,
+      "avg_r_net": 0.035,
+      "total_r_net": 8.6
+     }
+    },
+    "TA only, 31 added coins": {
+     "all": {
+      "trades": 1705,
+      "win_rate": 49.6,
+      "avg_r": 0.017,
+      "avg_r_net": -0.036,
+      "total_r_net": -60.9
+     },
+     "H1": {
+      "trades": 766,
+      "win_rate": 51.4,
+      "avg_r": 0.079,
+      "avg_r_net": 0.022,
+      "total_r_net": 16.6
+     },
+     "H2": {
+      "trades": 939,
+      "win_rate": 48.1,
+      "avg_r": -0.034,
+      "avg_r_net": -0.083,
+      "total_r_net": -77.5
+     }
+    },
+    "TA only SPOT": {
+     "all": {
+      "trades": 930,
+      "win_rate": 51.6,
+      "avg_r": 0.079,
+      "avg_r_net": -0.012,
+      "total_r_net": -10.9
+     },
+     "H1": {
+      "trades": 383,
+      "win_rate": 55.6,
+      "avg_r": 0.193,
+      "avg_r_net": 0.088,
+      "total_r_net": 33.6
+     },
+     "H2": {
+      "trades": 547,
+      "win_rate": 48.8,
+      "avg_r": -0.001,
+      "avg_r_net": -0.081,
+      "total_r_net": -44.5
+     }
+    },
+    "TA only PERP": {
+     "all": {
+      "trades": 1286,
+      "win_rate": 50.0,
+      "avg_r": 0.028,
+      "avg_r_net": -0.02,
+      "total_r_net": -25.5
+     },
+     "H1": {
+      "trades": 645,
+      "win_rate": 51.0,
+      "avg_r": 0.054,
+      "avg_r_net": -0.002,
+      "total_r_net": -1.1
+     },
+     "H2": {
+      "trades": 641,
+      "win_rate": 49.0,
+      "avg_r": 0.003,
+      "avg_r_net": -0.038,
+      "total_r_net": -24.4
+     }
+    },
+    "skip longs before a big unlock": {
+     "all": {
+      "trades": 2149,
+      "win_rate": 51.1,
+      "avg_r": 0.056,
+      "avg_r_net": -0.011,
+      "total_r_net": -23.8
+     },
+     "H1": {
+      "trades": 1019,
+      "win_rate": 52.7,
+      "avg_r": 0.102,
+      "avg_r_net": 0.028,
+      "total_r_net": 28.4
+     },
+     "H2": {
+      "trades": 1130,
+      "win_rate": 49.7,
+      "avg_r": 0.013,
+      "avg_r_net": -0.046,
+      "total_r_net": -52.2
+     }
+    },
+    "skip crowded funding": {
+     "all": {
+      "trades": 2216,
+      "win_rate": 50.7,
+      "avg_r": 0.049,
+      "avg_r_net": -0.016,
+      "total_r_net": -36.4
+     },
+     "H1": {
+      "trades": 1028,
+      "win_rate": 52.7,
+      "avg_r": 0.106,
+      "avg_r_net": 0.032,
+      "total_r_net": 32.4
+     },
+     "H2": {
+      "trades": 1188,
+      "win_rate": 48.9,
+      "avg_r": 0.001,
+      "avg_r_net": -0.058,
+      "total_r_net": -68.9
+     }
+    },
+    "skip OI exhaustion": {
+     "all": {
+      "trades": 2172,
+      "win_rate": 50.9,
+      "avg_r": 0.055,
+      "avg_r_net": -0.011,
+      "total_r_net": -23.8
+     },
+     "H1": {
+      "trades": 1011,
+      "win_rate": 52.8,
+      "avg_r": 0.111,
+      "avg_r_net": 0.037,
+      "total_r_net": 37.0
+     },
+     "H2": {
+      "trades": 1161,
+      "win_rate": 49.3,
+      "avg_r": 0.007,
+      "avg_r_net": -0.052,
+      "total_r_net": -60.8
+     }
+    },
+    "require OI rising (+5% 24h)": {
+     "all": {
+      "trades": 753,
+      "win_rate": 50.9,
+      "avg_r": 0.061,
+      "avg_r_net": 0.013,
+      "total_r_net": 9.7
+     },
+     "H1": {
+      "trades": 317,
+      "win_rate": 55.2,
+      "avg_r": 0.197,
+      "avg_r_net": 0.144,
+      "total_r_net": 45.6
+     },
+     "H2": {
+      "trades": 436,
+      "win_rate": 47.7,
+      "avg_r": -0.038,
+      "avg_r_net": -0.082,
+      "total_r_net": -35.9
+     }
+    },
+    "skip when OI unknown or falling": {
+     "all": {
+      "trades": 1470,
+      "win_rate": 52.7,
+      "avg_r": 0.081,
+      "avg_r_net": 0.019,
+      "total_r_net": 28.3
+     },
+     "H1": {
+      "trades": 663,
+      "win_rate": 55.7,
+      "avg_r": 0.168,
+      "avg_r_net": 0.101,
+      "total_r_net": 66.8
+     },
+     "H2": {
+      "trades": 807,
+      "win_rate": 50.3,
+      "avg_r": 0.01,
+      "avg_r_net": -0.048,
+      "total_r_net": -38.6
+     }
+    },
+    "LIVE filters (skip falling OI)": {
+     "all": {
+      "trades": 1470,
+      "win_rate": 52.7,
+      "avg_r": 0.081,
+      "avg_r_net": 0.019,
+      "total_r_net": 28.3
+     },
+     "H1": {
+      "trades": 663,
+      "win_rate": 55.7,
+      "avg_r": 0.168,
+      "avg_r_net": 0.101,
+      "total_r_net": 66.8
+     },
+     "H2": {
+      "trades": 807,
+      "win_rate": 50.3,
+      "avg_r": 0.01,
+      "avg_r_net": -0.048,
+      "total_r_net": -38.6
+     }
+    }
+   },
+   "catalyst": {
+    "UNLOCK_SHORT": {
+     "all": {
+      "trades": 9,
+      "win_rate": 11.1,
+      "avg_r": -0.704,
+      "avg_r_net": -0.738,
+      "total_r_net": -6.6
+     },
+     "H1": {
+      "trades": 5,
+      "win_rate": 20.0,
+      "avg_r": -0.467,
+      "avg_r_net": -0.505,
+      "total_r_net": -2.5
+     },
+     "H2": {
+      "trades": 4,
+      "win_rate": 0.0,
+      "avg_r": -1.0,
+      "avg_r_net": -1.03,
+      "total_r_net": -4.1
+     }
+    },
+    "POST_UNLOCK_LONG": {
+     "all": {
+      "trades": 12,
+      "win_rate": 41.7,
+      "avg_r": -0.167,
+      "avg_r_net": -0.219,
+      "total_r_net": -2.6
+     },
+     "H1": {
+      "trades": 3,
+      "win_rate": 33.3,
+      "avg_r": -0.556,
+      "avg_r_net": -0.606,
+      "total_r_net": -1.8
+     },
+     "H2": {
+      "trades": 9,
+      "win_rate": 44.4,
+      "avg_r": -0.037,
+      "avg_r_net": -0.091,
+      "total_r_net": -0.8
+     }
+    },
+    "FUND_LONG": {
+     "all": {
+      "trades": 63,
+      "win_rate": 49.2,
+      "avg_r": 0.077,
+      "avg_r_net": -0.023,
+      "total_r_net": -1.4
+     },
+     "H1": {
+      "trades": 41,
+      "win_rate": 48.8,
+      "avg_r": 0.114,
+      "avg_r_net": 0.0,
+      "total_r_net": 0.0
+     },
+     "H2": {
+      "trades": 22,
+      "win_rate": 50.0,
+      "avg_r": 0.008,
+      "avg_r_net": -0.065,
+      "total_r_net": -1.4
+     }
+    }
+   },
+   "data_coverage": {
+    "oi_coins": 40,
+    "funding_coins": 40,
+    "unlock_coins": 24,
+    "unlock_events_in_window": 25,
+    "fund_coins": [
+     "AAVE",
+     "ADA",
+     "ARB",
+     "AVAX",
+     "BNB",
+     "BTC",
+     "CRV",
+     "ENA",
+     "ETH",
+     "HYPE",
+     "INJ",
+     "LINK",
+     "LIT",
+     "LTC",
+     "NEAR",
+     "OKB",
+     "ONDO",
+     "PUMP",
+     "SOL",
+     "STRK",
+     "SUI",
+     "UNI",
+     "XPL",
+     "XRP"
+    ]
+   },
+   "splits": {
+    "big unlock in next 7d": {
+     "with": {
+      "all": {
+       "trades": 74,
+       "win_rate": 37.8,
+       "avg_r": -0.113,
+       "avg_r_net": -0.157,
+       "total_r_net": -11.6
+      },
+      "H1": {
+       "trades": 16,
+       "win_rate": 56.2,
+       "avg_r": 0.354,
+       "avg_r_net": 0.311,
+       "total_r_net": 5.0
+      },
+      "H2": {
+       "trades": 58,
+       "win_rate": 32.8,
+       "avg_r": -0.241,
+       "avg_r_net": -0.287,
+       "total_r_net": -16.6
+      }
+     },
+     "without": {
+      "all": {
+       "trades": 2142,
+       "win_rate": 51.1,
+       "avg_r": 0.055,
+       "avg_r_net": -0.012,
+       "total_r_net": -24.8
+      },
+      "H1": {
+       "trades": 1012,
+       "win_rate": 52.7,
+       "avg_r": 0.102,
+       "avg_r_net": 0.027,
+       "total_r_net": 27.4
+      },
+      "H2": {
+       "trades": 1130,
+       "win_rate": 49.7,
+       "avg_r": 0.013,
+       "avg_r_net": -0.046,
+       "total_r_net": -52.2
+      }
+     }
+    },
+    "OI +5% (confirm)": {
+     "with": {
+      "all": {
+       "trades": 468,
+       "win_rate": 51.1,
+       "avg_r": 0.07,
+       "avg_r_net": 0.024,
+       "total_r_net": 11.2
+      },
+      "H1": {
+       "trades": 214,
+       "win_rate": 53.7,
+       "avg_r": 0.218,
+       "avg_r_net": 0.165,
+       "total_r_net": 35.4
+      },
+      "H2": {
+       "trades": 254,
+       "win_rate": 48.8,
+       "avg_r": -0.054,
+       "avg_r_net": -0.095,
+       "total_r_net": -24.2
+      }
+     },
+     "without": {
+      "all": {
+       "trades": 1748,
+       "win_rate": 50.6,
+       "avg_r": 0.044,
+       "avg_r_net": -0.027,
+       "total_r_net": -47.6
+      },
+      "H1": {
+       "trades": 814,
+       "win_rate": 52.5,
+       "avg_r": 0.076,
+       "avg_r_net": -0.004,
+       "total_r_net": -3.0
+      },
+      "H2": {
+       "trades": 934,
+       "win_rate": 48.9,
+       "avg_r": 0.016,
+       "avg_r_net": -0.048,
+       "total_r_net": -44.7
+      }
+     }
+    },
+    "crowded funding": {
+     "with": {
+      "all": {
+       "trades": 1,
+       "win_rate": 0.0,
+       "avg_r": -1.0,
+       "avg_r_net": -1.077,
+       "total_r_net": -1.1
+      },
+      "H1": {
+       "trades": 1,
+       "win_rate": 0.0,
+       "avg_r": -1.0,
+       "avg_r_net": -1.077,
+       "total_r_net": -1.1
+      },
+      "H2": {
+       "trades": 0
+      }
+     },
+     "without": {
+      "all": {
+       "trades": 2215,
+       "win_rate": 50.7,
+       "avg_r": 0.05,
+       "avg_r_net": -0.016,
+       "total_r_net": -35.3
+      },
+      "H1": {
+       "trades": 1027,
+       "win_rate": 52.8,
+       "avg_r": 0.107,
+       "avg_r_net": 0.033,
+       "total_r_net": 33.5
+      },
+      "H2": {
+       "trades": 1188,
+       "win_rate": 48.9,
+       "avg_r": 0.001,
+       "avg_r_net": -0.058,
+       "total_r_net": -68.9
+      }
+     }
+    },
+    "OI exhaustion": {
+     "with": {
+      "all": {
+       "trades": 64,
+       "win_rate": 40.6,
+       "avg_r": -0.233,
+       "avg_r_net": -0.274,
+       "total_r_net": -17.5
+      },
+      "H1": {
+       "trades": 28,
+       "win_rate": 50.0,
+       "avg_r": -0.096,
+       "avg_r_net": -0.147,
+       "total_r_net": -4.1
+      },
+      "H2": {
+       "trades": 36,
+       "win_rate": 33.3,
+       "avg_r": -0.339,
+       "avg_r_net": -0.372,
+       "total_r_net": -13.4
+      }
+     },
+     "without": {
+      "all": {
+       "trades": 2152,
+       "win_rate": 51.0,
+       "avg_r": 0.058,
+       "avg_r_net": -0.009,
+       "total_r_net": -18.9
+      },
+      "H1": {
+       "trades": 1000,
+       "win_rate": 52.8,
+       "avg_r": 0.111,
+       "avg_r_net": 0.037,
+       "total_r_net": 36.6
+      },
+      "H2": {
+       "trades": 1152,
+       "win_rate": 49.4,
+       "avg_r": 0.011,
+       "avg_r_net": -0.048,
+       "total_r_net": -55.5
+      }
+     }
+    },
+    "fundamentals rising, price lagging": {
+     "with": {
+      "all": {
+       "trades": 81,
+       "win_rate": 60.5,
+       "avg_r": 0.137,
+       "avg_r_net": 0.061,
+       "total_r_net": 5.0
+      },
+      "H1": {
+       "trades": 51,
+       "win_rate": 54.9,
+       "avg_r": 0.14,
+       "avg_r_net": 0.047,
+       "total_r_net": 2.4
+      },
+      "H2": {
+       "trades": 30,
+       "win_rate": 70.0,
+       "avg_r": 0.133,
+       "avg_r_net": 0.085,
+       "total_r_net": 2.6
+      }
+     },
+     "without": {
+      "all": {
+       "trades": 2135,
+       "win_rate": 50.3,
+       "avg_r": 0.046,
+       "avg_r_net": -0.019,
+       "total_r_net": -41.4
+      },
+      "H1": {
+       "trades": 977,
+       "win_rate": 52.6,
+       "avg_r": 0.104,
+       "avg_r_net": 0.031,
+       "total_r_net": 30.0
+      },
+      "H2": {
+       "trades": 1158,
+       "win_rate": 48.4,
+       "avg_r": -0.003,
+       "avg_r_net": -0.062,
+       "total_r_net": -71.4
+      }
+     }
+    }
+   },
+   "decisions": {
+    "OI falling": "FILTER: skipping signals when open interest fell over the last 24h improved results in both halves (a lot in the first, a little in the second).",
+    "OI exhaustion": "FILTER (part of the OI rule): those signals lost in both halves.",
+    "Big unlock ahead": "INFO ONLY: helped in the second half but hurt in the first; few signals affected.",
+    "OI rising +5%": "INFO ONLY (+1 score): much better in the first half, worse in the second.",
+    "Crowded funding": "INFO ONLY: only 1 signal in 90 days hit it, nothing to test.",
+    "Fundamentals rising, price lagging": "INFO ONLY (+1 score): those signals did better in both halves, but too few (81) to filter on.",
+    "Stand-alone unlock / fundamentals signals": "OFF: all three lost money after fees.",
+    "Coin gate": "FILTER, modest evidence: coins picked on the first half did far better on the second half than the dropped ones (about break-even vs clearly losing); the reverse check showed almost no difference.",
+    "Sectors, listings, on-chain": "No free history to test: shown as information; on-chain signals are labelled untested."
    }
   },
   "before": {
@@ -366,19 +1398,1002 @@
   "BTC",
   "ETH",
   "SOL",
-  "BNB",
   "XRP",
   "DOGE",
   "SUI",
+  "LINK",
   "AVAX",
-  "LINK"
+  "BNB",
+  "ZEC",
+  "DOOD",
+  "NEAR",
+  "WLD",
+  "PUMP",
+  "IOST",
+  "HYPE",
+  "PEPE",
+  "LIT",
+  "STRK",
+  "UNI",
+  "FIL",
+  "IRYS",
+  "ENA",
+  "TRUMP",
+  "ARB",
+  "BCH",
+  "ADA",
+  "LTC",
+  "AAVE",
+  "ONDO",
+  "TIA",
+  "TAO",
+  "INJ",
+  "GRVT",
+  "W",
+  "OKB",
+  "PARTI",
+  "CRV",
+  "XPL",
+  "ZRO"
  ],
+ "catalysts": {
+  "unlocks": [
+   {
+    "big": true,
+    "coin": "GRAM",
+    "insider_pct": 0,
+    "pct": 1.19,
+    "tokens": 36583333,
+    "tracked": false,
+    "ts": 1792734516,
+    "usd": 49169387,
+    "who": [
+     "TON Believers Fund"
+    ]
+   },
+   {
+    "big": false,
+    "coin": "AVAX",
+    "insider_pct": 100,
+    "pct": 0.38,
+    "tokens": 1667000,
+    "tracked": true,
+    "ts": 1792873239,
+    "usd": 15609432,
+    "who": [
+     "Foundation"
+    ]
+   },
+   {
+    "big": true,
+    "coin": "XPL",
+    "insider_pct": 61,
+    "pct": 5.02,
+    "tokens": 227777778,
+    "tracked": true,
+    "ts": 1792945059,
+    "usd": 18061131,
+    "who": [
+     "Ecosystem & Growth",
+     "Team",
+     "Investors"
+    ]
+   },
+   {
+    "big": true,
+    "coin": "RESOLV",
+    "insider_pct": 100,
+    "pct": 3.52,
+    "tokens": 18241468,
+    "tracked": false,
+    "ts": 1793075115,
+    "usd": 302769,
+    "who": [
+     "Team",
+     "Private Sale",
+     "Advisors"
+    ]
+   },
+   {
+    "big": false,
+    "coin": "W",
+    "insider_pct": 100,
+    "pct": 0.76,
+    "tokens": 50411392,
+    "tracked": true,
+    "ts": 1793318400,
+    "usd": 698791,
+    "who": [
+     "Ecosystem & Incubation",
+     "Strategic Network Participants",
+     "Core Contributors"
+    ]
+   },
+   {
+    "big": true,
+    "coin": "ZORA",
+    "insider_pct": 75,
+    "pct": 2.94,
+    "tokens": 166666667,
+    "tracked": false,
+    "ts": 1793328402,
+    "usd": 1073354,
+    "who": [
+     "Investors",
+     "Team",
+     "Treasury"
+    ]
+   },
+   {
+    "big": true,
+    "coin": "EIGEN",
+    "insider_pct": 100,
+    "pct": 4.08,
+    "tokens": 36820227,
+    "tracked": false,
+    "ts": 1793452545,
+    "usd": 8299197,
+    "who": [
+     "Investors",
+     "Early Contributors"
+    ]
+   },
+   {
+    "big": true,
+    "coin": "ZETA",
+    "insider_pct": 51,
+    "pct": 2.68,
+    "tokens": 44260417,
+    "tracked": false,
+    "ts": 1793527119,
+    "usd": 1825013,
+    "who": [
+     "Core Contributors",
+     "Protocol Treasury",
+     "Purchasers & Advisors"
+    ]
+   },
+   {
+    "big": true,
+    "coin": "MOVE",
+    "insider_pct": 70,
+    "pct": 3.57,
+    "tokens": 164583333,
+    "tracked": false,
+    "ts": 1794186489,
+    "usd": 1200267,
+    "who": [
+     "Early Backers",
+     "Ecosystem & Community",
+     "Early Contributors"
+    ]
+   },
+   {
+    "big": true,
+    "coin": "LAYER",
+    "insider_pct": 0,
+    "pct": 4.83,
+    "tokens": 27018750,
+    "tracked": false,
+    "ts": 1794370203,
+    "usd": 1758313,
+    "who": [
+     "Community and Ecosystem",
+     "Foundation"
+    ]
+   },
+   {
+    "big": true,
+    "coin": "PUMP",
+    "insider_pct": 100,
+    "pct": 1.29,
+    "tokens": 6875000000,
+    "tracked": true,
+    "ts": 1794401098,
+    "usd": 33216246,
+    "who": [
+     "Team",
+     "Existing Investors"
+    ]
+   },
+   {
+    "big": false,
+    "coin": "W",
+    "insider_pct": 100,
+    "pct": 0.76,
+    "tokens": 50411392,
+    "tracked": true,
+    "ts": 1794528000,
+    "usd": 698791,
+    "who": [
+     "Ecosystem & Incubation",
+     "Strategic Network Participants",
+     "Core Contributors"
+    ]
+   },
+   {
+    "big": true,
+    "coin": "STRK",
+    "insider_pct": 92,
+    "pct": 3.17,
+    "tokens": 226356431,
+    "tracked": true,
+    "ts": 1794612576,
+    "usd": 12220714,
+    "who": [
+     "Early Contributors",
+     "Investors",
+     "Starkware"
+    ]
+   },
+   {
+    "big": true,
+    "coin": "ARB",
+    "insider_pct": 100,
+    "pct": 1.3,
+    "tokens": 92645833,
+    "tracked": true,
+    "ts": 1794702576,
+    "usd": 16820637,
+    "who": [
+     "Team, Contributors & Advisors",
+     "Investors"
+    ]
+   },
+   {
+    "big": true,
+    "coin": "ZK",
+    "insider_pct": 100,
+    "pct": 2.4,
+    "tokens": 173038250,
+    "tracked": false,
+    "ts": 1794844957,
+    "usd": 2401193,
+    "who": [
+     "Investors",
+     "Team"
+    ]
+   },
+   {
+    "big": true,
+    "coin": "RE",
+    "insider_pct": 0,
+    "pct": 3.77,
+    "tokens": 7091667,
+    "tracked": false,
+    "ts": 1794889515,
+    "usd": 2702906,
+    "who": [
+     "Ecosystem"
+    ]
+   },
+   {
+    "big": true,
+    "coin": "KAITO",
+    "insider_pct": 53,
+    "pct": 3.56,
+    "tokens": 17597619,
+    "tracked": false,
+    "ts": 1795061403,
+    "usd": 4762753,
+    "who": [
+     "Ecosystem & Network Growth",
+     "Core Contributors",
+     "Early Backers"
+    ]
+   },
+   {
+    "big": true,
+    "coin": "ZRO",
+    "insider_pct": 100,
+    "pct": 3.48,
+    "tokens": 23625000,
+    "tracked": true,
+    "ts": 1795104157,
+    "usd": 44280461,
+    "who": [
+     "Strategic Partners",
+     "Core Contributors"
+    ]
+   }
+  ],
+  "unlocks_recent": [
+   {
+    "insider_pct": 100,
+    "pct": 3.48,
+    "tokens": 23625000,
+    "ts": 1792474414,
+    "usd": 44280461,
+    "who": [
+     "Strategic Partners",
+     "Core Contributors"
+    ],
+    "coin": "ZRO"
+   },
+   {
+    "insider_pct": 100,
+    "pct": 0.76,
+    "tokens": 50411392,
+    "ts": 1792108800,
+    "usd": 698791,
+    "who": [
+     "Ecosystem & Incubation",
+     "Strategic Network Participants",
+     "Core Contributors"
+    ],
+    "coin": "W"
+   },
+   {
+    "insider_pct": 100,
+    "pct": 1.3,
+    "tokens": 92645833,
+    "ts": 1792072833,
+    "usd": 16820637,
+    "who": [
+     "Team, Contributors & Advisors",
+     "Investors"
+    ],
+    "coin": "ARB"
+   },
+   {
+    "insider_pct": 92,
+    "pct": 3.17,
+    "tokens": 226356431,
+    "ts": 1791982833,
+    "usd": 12220714,
+    "who": [
+     "Early Contributors",
+     "Investors",
+     "Starkware"
+    ],
+    "coin": "STRK"
+   },
+   {
+    "insider_pct": 100,
+    "pct": 1.29,
+    "tokens": 6875000000,
+    "ts": 1791771355,
+    "usd": 33216246,
+    "who": [
+     "Team",
+     "Existing Investors"
+    ],
+    "coin": "PUMP"
+   },
+   {
+    "insider_pct": 100,
+    "pct": 2.45,
+    "tokens": 18750000,
+    "ts": 1791504000,
+    "usd": 228492655,
+    "who": [
+     "Node Operators & Company"
+    ],
+    "coin": "LINK"
+   }
+  ],
+  "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
+  "onchain": [
+   {
+    "chain": "BSC",
+    "symbol": "IRYS",
+    "name": "Irys",
+    "token": "0x91152b4ef635403efbae860edd0f8c321d7c035d",
+    "price": 0.019497560380468,
+    "liq": 435034,
+    "vol24h": 10972078,
+    "age_d": 307.8,
+    "chg24h": 23.888,
+    "chg7d": 53.8,
+    "mcap": 39015066.74,
+    "safety": "ok",
+    "safety_notes": [],
+    "trigger": false,
+    "trend_up": true,
+    "rsi": 53.0,
+    "url": "https://www.geckoterminal.com/bsc/pools/0x73de8b8d37fac1afe156f6533788a0eff197d636"
+   },
+   {
+    "chain": "BSC",
+    "symbol": "JCT",
+    "name": "JANCTION",
+    "token": "0xea37a8de1de2d9d10772eeb569e28bfa5cb17707",
+    "price": 0.00445245971394351,
+    "liq": 791304,
+    "vol24h": 10518453,
+    "age_d": 140.7,
+    "chg24h": 0.64,
+    "chg7d": 127.2,
+    "mcap": 51175180.5590554,
+    "safety": "ok",
+    "safety_notes": [],
+    "trigger": false,
+    "trend_up": true,
+    "rsi": 55.2,
+    "url": "https://www.geckoterminal.com/bsc/pools/0x7bb2f6dab157e444ad8717b0178035c1b1cf24958b37c2a205e61a3582283249"
+   },
+   {
+    "chain": "Base",
+    "symbol": "XDP",
+    "name": "Doppler Finance",
+    "token": "0x07b3d902783c3c12b077508c3b5c00113d1291d0",
+    "price": 0.0184116617726814,
+    "liq": 1785291,
+    "vol24h": 63058256,
+    "age_d": 23.8,
+    "chg24h": -4.125,
+    "chg7d": -1.2,
+    "mcap": 18410974.36,
+    "safety": "ok",
+    "safety_notes": [],
+    "trigger": false,
+    "trend_up": false,
+    "rsi": 29.3,
+    "url": "https://www.geckoterminal.com/base/pools/0x2df380544b88adb3ad0a94100dcc45fd705aae2d"
+   },
+   {
+    "chain": "BSC",
+    "symbol": "AGT",
+    "name": "Alaya Governance Token",
+    "token": "0x5dbde81fce337ff4bcaaee4ca3466c00aecae274",
+    "price": 0.0598086878534952,
+    "liq": 2544791,
+    "vol24h": 24934494,
+    "age_d": 524.8,
+    "chg24h": 32.599,
+    "chg7d": 257.0,
+    "mcap": 0.0,
+    "safety": "ok",
+    "safety_notes": [],
+    "trigger": false,
+    "trend_up": false,
+    "rsi": 57.1,
+    "url": "https://www.geckoterminal.com/bsc/pools/0xd3cffc6b02a34dfc72f1350339031043a854599f"
+   },
+   {
+    "chain": "BSC",
+    "symbol": "AKE",
+    "name": "AKE",
+    "token": "0x2c3a8ee94ddd97244a93bc48298f97d2c412f7db",
+    "price": 0.0248314192917244,
+    "liq": 2467321,
+    "vol24h": 10889029,
+    "age_d": 428.0,
+    "chg24h": -27.156,
+    "chg7d": -14.3,
+    "mcap": 566764520.97675,
+    "safety": "ok",
+    "safety_notes": [],
+    "trigger": false,
+    "trend_up": false,
+    "rsi": 45.4,
+    "url": "https://www.geckoterminal.com/bsc/pools/0x4d3bf29ba30f8bfe4624e7678709afa195689c5d"
+   },
+   {
+    "chain": "Base",
+    "symbol": "MSTRC",
+    "name": "Strategy Inc.",
+    "token": "0xb2000000000000000000004884b426556b92883d",
+    "price": 145.112928100675,
+    "liq": 522506,
+    "vol24h": 9747405,
+    "age_d": 48.9,
+    "chg24h": 0.051,
+    "chg7d": 2.9,
+    "mcap": 1498462.51909072,
+    "safety": "ok",
+    "safety_notes": [],
+    "trigger": false,
+    "trend_up": false,
+    "rsi": 40.0,
+    "url": "https://www.geckoterminal.com/base/pools/0x8b27f626ab668197000bc722a1012022caed10e2"
+   }
+  ],
+  "onchain_checked": 86,
+  "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
+  "sectors": [
+   {
+    "id": "decentralized-exchange",
+    "name": "Decentralized Exchange",
+    "chg7d": 1.61,
+    "top": [
+     "HYPE",
+     "UNI",
+     "PUMP",
+     "ASTER",
+     "JUP"
+    ],
+    "tracked": [
+     "PUMP",
+     "HYPE",
+     "LIT",
+     "UNI",
+     "CRV"
+    ]
+   },
+   {
+    "id": "decentralized-finance-defi",
+    "name": "Decentralized Finance DeFi",
+    "chg7d": 1.55,
+    "top": [
+     "STETH",
+     "HYPE",
+     "WSTETH",
+     "LINK",
+     "RAIN"
+    ],
+    "tracked": [
+     "LINK",
+     "PUMP",
+     "HYPE",
+     "LIT",
+     "UNI",
+     "ENA",
+     "AAVE",
+     "ONDO"
+    ]
+   },
+   {
+    "id": "exchange-based-tokens",
+    "name": "Exchange Based Tokens",
+    "chg7d": 1.33,
+    "top": [
+     "BNB",
+     "HYPE",
+     "WBT",
+     "LEO",
+     "UNI"
+    ],
+    "tracked": [
+     "BNB",
+     "PUMP",
+     "HYPE",
+     "UNI",
+     "OKB",
+     "CRV"
+    ]
+   },
+   {
+    "id": "layer-1",
+    "name": "Layer 1",
+    "chg7d": 1.19,
+    "top": [
+     "BTC",
+     "ETH",
+     "BNB",
+     "XRP",
+     "SOL"
+    ],
+    "tracked": [
+     "BTC",
+     "ETH",
+     "SOL",
+     "XRP",
+     "SUI",
+     "AVAX",
+     "BNB",
+     "ZEC"
+    ]
+   },
+   {
+    "id": "artificial-intelligence",
+    "name": "Artificial Intelligence",
+    "chg7d": 0.74,
+    "top": [
+     "NEAR",
+     "TAO",
+     "SN0",
+     "ICP",
+     "VVV"
+    ],
+    "tracked": [
+     "NEAR",
+     "TAO"
+    ]
+   },
+   {
+    "id": "meme-token",
+    "name": "Meme Token",
+    "chg7d": 0.56,
+    "top": [
+     "DOGE",
+     "SHIB",
+     "PUMP",
+     "M",
+     "PEPE"
+    ],
+    "tracked": [
+     "DOGE",
+     "PUMP",
+     "PEPE",
+     "TRUMP"
+    ]
+   },
+   {
+    "id": "depin",
+    "name": "DePIN",
+    "chg7d": 0.5,
+    "top": [
+     "TAO",
+     "RENDER",
+     "FIL",
+     "BDX",
+     "GRASS"
+    ],
+    "tracked": [
+     "FIL",
+     "TAO"
+    ]
+   },
+   {
+    "id": "solana-meme-coins",
+    "name": "Solana Meme Coins",
+    "chg7d": 0.5,
+    "top": [
+     "TRUMP",
+     "PENGU",
+     "BONK",
+     "WIF",
+     "USELESS"
+    ],
+    "tracked": [
+     "TRUMP"
+    ]
+   },
+   {
+    "id": "ai-agents",
+    "name": "AI Agents",
+    "chg7d": 0.25,
+    "top": [
+     "VVV",
+     "VIRTUAL",
+     "FET",
+     "KITE",
+     "TRAC"
+    ],
+    "tracked": []
+   },
+   {
+    "id": "real-world-assets-rwa",
+    "name": "Real World Assets RWA",
+    "chg7d": 0.06,
+    "top": [
+     "FIGR_HELOC",
+     "LINK",
+     "XLM",
+     "XAUT",
+     "QNT"
+    ],
+    "tracked": [
+     "LINK",
+     "ONDO",
+     "INJ"
+    ]
+   },
+   {
+    "id": "bitcoin-ecosystem",
+    "name": "Bitcoin Ecosystem",
+    "chg7d": 0.03,
+    "top": [
+     "BTC",
+     "DOG",
+     "ORDI",
+     "USTBL",
+     "SATS"
+    ],
+    "tracked": [
+     "BTC",
+     "PEPE"
+    ]
+   },
+   {
+    "id": "lending-borrowing",
+    "name": "Lending Borrowing",
+    "chg7d": -0.18,
+    "top": [
+     "AAVE",
+     "MORPHO",
+     "OHM",
+     "COMP",
+     "KMNO"
+    ],
+    "tracked": [
+     "AAVE"
+    ]
+   },
+   {
+    "id": "gaming",
+    "name": "Gaming",
+    "chg7d": -0.48,
+    "top": [
+     "FLOKI",
+     "AXS",
+     "MANA",
+     "SAND",
+     "BEAM"
+    ],
+    "tracked": []
+   },
+   {
+    "id": "oracle",
+    "name": "Oracle",
+    "chg7d": -0.94,
+    "top": [
+     "LINK",
+     "PYTH",
+     "RED",
+     "RLC",
+     "WIN"
+    ],
+    "tracked": [
+     "LINK"
+    ]
+   },
+   {
+    "id": "layer-2",
+    "name": "Layer 2",
+    "chg7d": -0.98,
+    "top": [
+     "OKB",
+     "MNT",
+     "ARB",
+     "POL",
+     "STX"
+    ],
+    "tracked": [
+     "STRK",
+     "ARB",
+     "OKB"
+    ]
+   },
+   {
+    "id": "zero-knowledge-zk",
+    "name": "Zero Knowledge ZK",
+    "chg7d": -1.01,
+    "top": [
+     "ZEC",
+     "POL",
+     "NIGHT",
+     "STRK",
+     "ZK"
+    ],
+    "tracked": [
+     "ZEC",
+     "STRK"
+    ]
+   },
+   {
+    "id": "decentralized-perpetuals",
+    "name": "Decentralized Perpetuals",
+    "chg7d": -1.39,
+    "top": [
+     "HYPE",
+     "ASTER",
+     "JUP",
+     "LIT",
+     "CAKE"
+    ],
+    "tracked": [
+     "HYPE",
+     "LIT",
+     "GRVT"
+    ]
+   },
+   {
+    "id": "storage",
+    "name": "Storage",
+    "chg7d": -3.2,
+    "top": [
+     "FIL",
+     "BTT",
+     "AR",
+     "AIOZ",
+     "WAL"
+    ],
+    "tracked": [
+     "FIL"
+    ]
+   },
+   {
+    "id": "privacy-coins",
+    "name": "Privacy Coins",
+    "chg7d": -3.61,
+    "top": [
+     "ZEC",
+     "XMR",
+     "DCR",
+     "ZANO",
+     "NOCK"
+    ],
+    "tracked": [
+     "ZEC"
+    ]
+   },
+   {
+    "id": "interoperability",
+    "name": "Interoperability",
+    "chg7d": -4.5,
+    "top": [
+     "TRAC",
+     "W",
+     "CKB",
+     "AXL",
+     "PHA"
+    ],
+    "tracked": [
+     "W"
+    ]
+   }
+  ],
+  "listings": [
+   {
+    "coin": "PANW",
+    "list_ts": 1792662300,
+    "market": "PERP",
+    "state": "preopen"
+   },
+   {
+    "coin": "AMGN",
+    "list_ts": 1792661400,
+    "market": "PERP",
+    "state": "preopen"
+   },
+   {
+    "coin": "ABBV",
+    "list_ts": 1792660500,
+    "market": "PERP",
+    "state": "preopen"
+   },
+   {
+    "coin": "NVO",
+    "list_ts": 1792659600,
+    "market": "PERP",
+    "state": "preopen"
+   },
+   {
+    "coin": "GE",
+    "list_ts": 1792658700,
+    "market": "PERP",
+    "state": "preopen"
+   },
+   {
+    "coin": "VST",
+    "list_ts": 1792657800,
+    "market": "PERP",
+    "state": "preopen"
+   },
+   {
+    "coin": "BTW",
+    "list_ts": 1792656000,
+    "market": "PERP",
+    "state": "preopen"
+   },
+   {
+    "coin": "AXIS",
+    "list_ts": 1792591200,
+    "market": "PERP",
+    "state": "live"
+   },
+   {
+    "coin": "TWST",
+    "list_ts": 1792490400,
+    "market": "PERP",
+    "state": "live"
+   },
+   {
+    "coin": "MP",
+    "list_ts": 1792489500,
+    "market": "PERP",
+    "state": "live"
+   },
+   {
+    "coin": "CVNA",
+    "list_ts": 1792488600,
+    "market": "PERP",
+    "state": "live"
+   },
+   {
+    "coin": "CRML",
+    "list_ts": 1792487700,
+    "market": "PERP",
+    "state": "live"
+   },
+   {
+    "coin": "RUM",
+    "list_ts": 1792486800,
+    "market": "PERP",
+    "state": "live"
+   },
+   {
+    "coin": "DNA",
+    "list_ts": 1792152000,
+    "market": "PERP",
+    "state": "live"
+   },
+   {
+    "coin": "GS",
+    "list_ts": 1792143900,
+    "market": "PERP",
+    "state": "live"
+   }
+  ],
+  "fund_movers": [
+   {
+    "coin": "ONDO",
+    "metric": "Fees",
+    "chg7d": 52.0,
+    "size": 2039403
+   },
+   {
+    "coin": "LIT",
+    "metric": "DEX volume",
+    "chg7d": 19.9,
+    "size": 59204900
+   },
+   {
+    "coin": "HYPE",
+    "metric": "Fees",
+    "chg7d": 12.5,
+    "size": 20240540
+   },
+   {
+    "coin": "UNI",
+    "metric": "DEX volume",
+    "chg7d": -10.1,
+    "size": 13588274290
+   },
+   {
+    "coin": "UNI",
+    "metric": "Fees",
+    "chg7d": -17.5,
+    "size": 16800234
+   },
+   {
+    "coin": "BNB",
+    "metric": "Fees",
+    "chg7d": -20.4,
+    "size": 167660
+   },
+   {
+    "coin": "ONDO",
+    "metric": "DEX volume",
+    "chg7d": -22.0,
+    "size": 80066981
+   },
+   {
+    "coin": "CRV",
+    "metric": "Fees",
+    "chg7d": -27.9,
+    "size": 744894
+   }
+  ],
+  "updated": {
+   "unlocks": 1792655679,
+   "onchain": 1792656147,
+   "sectors": 1792656354,
+   "listings": 1792654954,
+   "fundamentals": 1792655010
+  }
+ },
+ "filters": {
+  "oi_falling": true,
+  "exhaustion": true,
+  "unlock_long_veto": false,
+  "crowded": false,
+  "require_oi_confirm": false
+ },
+ "catalyst_signals": {
+  "UNLOCK_SHORT": false,
+  "POST_UNLOCK_LONG": false,
+  "FUND_LONG": false,
+  "ONCHAIN": true
+ },
  "rules": {
   "breakout_n": 20,
   "atr_mult": 2.0,
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "7a0dcfaf8afdd1c9b033171d68be5ec9f2ecf2fb7ddfa34a876e27f072689bcc",
- "generated": "2026-10-22T08:04:22+00:00"
+ "digest": "900446a461b200a67c3b1fe2813be9ca04e4bbe6ea7738ea4f31ebf6e122e53e",
+ "generated": "2026-10-22T08:07:03+00:00"
 }

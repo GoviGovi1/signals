@@ -3,7 +3,7 @@ usage: python3 backtest.py [--refresh]   writes backtest.json, prints a summary.
 Numbers are what the rules produced on past data; fees shown separately; funding/slippage ignored."""
 import json, os, sys, time
 from datetime import datetime, timezone
-import config as C, okx, strategy as S
+import config as C, okx, strategy as S, universe
 
 DAYS = 90
 H = S.H
@@ -62,13 +62,13 @@ def summarize(trades):
         out[m] = agg([t for t in trades if t["market"] == m])
     out["PERP_LONG"] = agg([t for t in trades if t["market"] == "PERP" and t["side"] == "LONG"])
     out["PERP_SHORT"] = agg([t for t in trades if t["market"] == "PERP" and t["side"] == "SHORT"])
-    out["coins"] = {c: agg([t for t in trades if t["coin"] == c]) for c in C.COINS}
+    out["coins"] = {c: agg([t for t in trades if t["coin"] == c]) for c in universe.coins()}
     return out
 
 
 def fetch_all(refresh=False):
     data = {}
-    for coin in C.COINS:
+    for coin in universe.coins():
         for m in C.MARKETS:
             b1 = load(coin, m, "1h", DAYS * 24 + 300, refresh)
             b4 = load(coin, m, "4h", DAYS * 6 + 260, refresh)
@@ -85,7 +85,7 @@ def main():
     res = {"generated": datetime.now(timezone.utc).isoformat(timespec="seconds"), "days": DAYS,
            "from": datetime.fromtimestamp(start / 1000, timezone.utc).date().isoformat(),
            "to": datetime.fromtimestamp(last / 1000, timezone.utc).date().isoformat(),
-           "source": "OKX public candles", "params": C.P, "fees_pct_round_trip": C.FEES_PCT, "summary": s}
+           "source": "OKX public candles", "coins": universe.coins(), "params": C.P, "fees_pct_round_trip": C.FEES_PCT, "summary": s}
     json.dump(res, open(C.BACKTEST_JSON, "w"), indent=1)
     for k in ["all", "SPOT", "PERP", "PERP_LONG", "PERP_SHORT"]:
         print(k, s[k])

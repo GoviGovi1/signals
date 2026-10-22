@@ -86,6 +86,11 @@ def signals():
     return jload(C.SIGNALS_JSON, [])
 
 
+KIND = {"TA": "Chart breakout", "UNLOCK_SHORT": "Unlock short", "POST_UNLOCK_LONG": "Post-unlock long",
+        "FUND_LONG": "Fundamentals long", "ONCHAIN": "On-chain spot"}
+MKT = {"PERP": "PERPS", "SPOT": "SPOT", "DEX": "ON-CHAIN SPOT"}
+
+
 def open_text():
     op = [s for s in signals() if not s["closed"]]
     if not op:
@@ -95,10 +100,64 @@ def open_text():
         lev = f" {s['lev']}x" if s["market"] == "PERP" else ""
         st = "open" if not s["hits"] else f"TP{s['hits']} hit, stop at entry"
         mv = f"{s.get('move_pct', 0):+.1f}%" if s.get("move_pct") is not None else ""
-        out.append(f"\n{s['coin']} {s['market']} {s['side']}{lev} ({st}) {mv}\n"
+        nm = f"{s['coin']} on {s['chain']}" if s["market"] == "DEX" else s["coin"]
+        out.append(f"\n{nm} {MKT.get(s['market'], s['market'])} {s['side']}{lev} ({st}) {mv}\n"
                    f"Entry {fmt(s['entry'])}  SL {fmt(s['entry'] if s['hits'] else s['sl0'])}\n"
                    f"TP1 {fmt(s['tps'][0])}  TP2 {fmt(s['tps'][1])}  TP3 {fmt(s['tps'][2])}")
+        rs = [r for r in (s.get("reasons") or []) if not r.startswith("Chart:")][:3]
+        if rs:
+            out.append("Why: " + "; ".join(rs))
+        if s["market"] == "DEX" and s.get("token"):
+            out.append(f"Token: {s['token']}")
     out.append("\n" + C.SITE_URL)
+    return "\n".join(out)
+
+
+def cat(name):
+    try:
+        return json.load(open(os.path.join(C.DIR, "catalyst", name + ".json")))
+    except (OSError, ValueError):
+        return {}
+
+
+def money(x):
+    return f"${x / 1e9:.1f}B" if x >= 1e9 else f"${x / 1e6:.1f}M" if x >= 1e6 else f"${x / 1e3:.0f}k"
+
+
+def unlocks_text():
+    cal = cat("unlocks").get("calendar", [])
+    now = time.time()
+    rows = [u for u in cal if now < u["ts"] <= now + 14 * 86400 and (u["big"] or u["pct"] >= 0.5)]
+    if not rows:
+        return "No big token unlocks in the next 14 days for the coins we track.\n\n" + C.SITE_URL
+    out = ["Token unlocks, next 14 days (big = 2%+ of supply or $10M+):"]
+    for u in rows[:20]:
+        d = datetime.fromtimestamp(u["ts"], timezone.utc).strftime("%b %d")
+        who = (" · " + u["who"][0]) if u.get("who") else ""
+        tag = "⚠️ " if u["big"] else ""
+        trk = "" if u.get("tracked") else " (not in signal list)"
+        out.append(f"{tag}{d}  {u['coin']}  {u['pct']:.1f}% of supply, {money(u['usd'])}{who}{trk}")
+    out.append("\nBefore a big unlock: no new longs are favoured; after it passes and price holds, longs are allowed. "
+               "Data: DefiLlama.\n\n" + C.SITE_URL)
+    return "\n".join(out)
+
+
+def watchlist_text():
+    oc = cat("onchain").get("watchlist", [])
+    sec = cat("sectors")
+    out = []
+    if oc:
+        out.append("On-chain watchlist (trending, liquidity > $250k, 7+ days old, safety-checked):")
+        for w in oc[:8]:
+            st = "breakout now" if w.get("trigger") else "uptrend" if w.get("trend_up") else "watching"
+            out.append(f"{w['symbol']} on {w['chain']}  {w['chg24h']:+.0f}% 24h, liq {money(w['liq'])} ({st})\n  {w['token']}")
+    else:
+        out.append("On-chain watchlist is empty right now.")
+    rk = sec.get("ranked", [])
+    if rk:
+        names, ss = sec.get("names", {}), sec.get("sectors", {})
+        out.append("\nLeading sectors (7d): " + ", ".join(f"{names.get(k, k)} {ss[k]['chg7d']:+.1f}%" for k in rk[:4]))
+    out.append("\nOn-chain tokens are riskier than big coins. Check the contract address yourself.\n\n" + C.SITE_URL)
     return "\n".join(out)
 
 
@@ -126,31 +185,47 @@ def stats_text():
 
 
 def welcome():
-    return ("Welcome! You're subscribed to free crypto Spot + Perps signals for BTC, ETH, SOL, BNB, XRP, "
-            "DOGE, SUI, AVAX and LINK.\n\nEach signal has an entry, stop loss and 3 take-profits. Perps "
-            "signals suggest at most 3x leverage. Every result is tracked on the website:\n" + C.SITE_URL +
+    return ("Welcome! You're subscribed to free crypto Spot + Perps signals on about 40 of the most traded "
+            "coins on OKX, plus on-chain spot picks.\n\nSignals use the chart plus catalysts: token unlocks, open "
+            "interest and funding, TVL, fees and DEX volume, and sector strength. Each signal says why in plain "
+            "words, with an entry, stop loss and 3 take-profits. Perps signals suggest at most 3x leverage. "
+            "Every result is tracked on the website:\n" + C.SITE_URL +
             "\n\n" + DISCLAIMER + "\n\nNobody from this bot will ever ask for your keys, seed phrase or money.\n\n" + help_text())
 
 
 def help_text():
-    return ("Commands:\n/signals  open signals\n/stats  win rate and results\n/stop  stop receiving signals\n"
+    return ("Commands:\n/signals  open signals and why\n/unlocks  upcoming token unlocks\n/watchlist  on-chain "
+            "watchlist and leading sectors\n/stats  win rate and results\n/stop  stop receiving signals\n"
             "/start  subscribe again\n/help  this list")
 
 
 def pretty(line):
     """Turn a run.py line into a Telegram message."""
-    w = line.split()
+    head, _, why = line.partition(" | ")
+    kind = "TA"
+    if " [" in head:
+        head, _, k = head.partition(" [")
+        kind = k.rstrip("]")
+    w = head.split()
     if w[0] == "SIGNAL":
         market, side, coin = w[1], w[2], w[3]
         kv = dict(zip(w[4::2], w[5::2]))
         icon = "🟢" if side == "LONG" else "🔴"
-        t = (f"{icon} NEW {('PERPS' if market == 'PERP' else 'SPOT')} {side} {coin}\n"
+        reasons = [r for r in why.split("; ") if r and not r.startswith("token ")] if why else []
+        token = why.split(" | token ")[-1] if " | token " in line else None
+        if token:
+            reasons = [r for r in "; ".join(reasons).split(" | token ")[0].split("; ") if r]
+        t = (f"{icon} NEW {MKT.get(market, market)} {side} {coin}\n{KIND.get(kind, kind)}\n"
              f"Entry {kv.get('entry')}\nStop loss {kv.get('SL')}\n"
              f"TP1 {kv.get('TP1')}\nTP2 {kv.get('TP2')}\nTP3 {kv.get('TP3')}")
         if market == "PERP":
             t += f"\nLeverage max {kv.get('lev')}"
             if "funding" in kv:
                 t += f" · funding {kv['funding']}"
+        if reasons:
+            t += "\n\nWhy:\n" + "\n".join("• " + r for r in reasons[:7])
+        if token:
+            t += f"\n\nToken address: {token}\nCheck the address before buying; copies with the same name exist."
         t += "\n\nTake a third at each TP, move the stop to entry after TP1."
     else:
         t = "📊 " + line.replace("UPDATE ", "", 1)
@@ -224,6 +299,10 @@ def handle(msg):
         send(chat, open_text())
     elif cmd == "/stats":
         send(chat, stats_text())
+    elif cmd == "/unlocks":
+        send(chat, unlocks_text())
+    elif cmd in ("/watchlist", "/catalysts"):
+        send(chat, watchlist_text())
     elif cmd == "/help" or msg["chat"].get("type") == "private":
         send(chat, help_text())
 
@@ -255,10 +334,23 @@ def loop():
             time.sleep(5)
 
 
+CMDS = [("signals", "Open signals and why"), ("unlocks", "Upcoming token unlocks"),
+        ("watchlist", "On-chain watchlist and leading sectors"), ("stats", "Win rate and results"),
+        ("help", "All commands"), ("stop", "Stop receiving signals")]
+CMDS_V = 2
+
+
 def once():
     """Single non-blocking pass (GitHub Actions every ~15 min). Prints counts only, never chat ids or the token."""
     api("getMe")
     st = jload(STATE, {})
+    if st.get("cmds_v") != CMDS_V:
+        try:
+            api("setMyCommands", {"commands": json.dumps([{"command": c, "description": d} for c, d in CMDS])})
+            st["cmds_v"] = CMDS_V; jsave(STATE, st)
+            print("bot: command menu updated")
+        except TGError as e:
+            print(f"bot: command menu update failed ({e.code})")
     ups = api("getUpdates", {"offset": st.get("offset", 0), "timeout": 0,
                              "allowed_updates": json.dumps(["message"])}, timeout=30)
     replied = 0

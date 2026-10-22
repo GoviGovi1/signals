@@ -69,3 +69,49 @@ def funding(coin):
 def last_price(coin, market):
     d = get("/api/v5/market/ticker", {"instId": inst(coin, market)})
     return float(d[0]["last"])
+
+
+# ---- derivatives stats (public, no key) ----
+def oi_history(coin, period="4H", n=7):
+    """Open interest history oldest first: [{ts, oi_usd}] (rubik stats; 1H goes back ~60 days, 4H much further)."""
+    out, end = [], None
+    while len(out) < n:
+        p = {"instId": inst(coin, "PERP"), "period": period, "limit": min(100, n - len(out))}
+        if end:
+            p["end"] = end
+        d = get("/api/v5/rubik/stat/contracts/open-interest-history", p)
+        if not d:
+            break
+        out.extend({"ts": int(r[0]), "oi_usd": float(r[3])} for r in d)
+        end = d[-1][0]
+        if len(d) < p["limit"]:
+            break
+        time.sleep(0.42)                           # rubik limit: 5 requests / 2 s
+    out = {r["ts"]: r for r in out}
+    return [out[k] for k in sorted(out)]
+
+
+def funding_history(coin, n=100):
+    """Settled funding rates oldest first: [{ts, rate}] (OKX keeps ~3 months)."""
+    out, after = [], None
+    while len(out) < n:
+        p = {"instId": inst(coin, "PERP"), "limit": 100}
+        if after:
+            p["after"] = after
+        d = get("/api/v5/public/funding-rate-history", p)
+        if not d:
+            break
+        out.extend({"ts": int(r["fundingTime"]), "rate": float(r["realizedRate"] or r["fundingRate"])} for r in d)
+        after = d[-1]["fundingTime"]
+        if len(d) < 100:
+            break
+        time.sleep(0.25)
+    out = {r["ts"]: r for r in out}
+    return [out[k] for k in sorted(out)][-n:]
+
+
+def funding_now(coin):
+    """Current funding rate and its interval in hours (OKX coins settle every 1, 2, 4 or 8 hours)."""
+    d = get("/api/v5/public/funding-rate", {"instId": inst(coin, "PERP")})[0]
+    iv = (int(d["nextFundingTime"]) - int(d["fundingTime"])) / 3600000 if d.get("nextFundingTime") else 8
+    return float(d["fundingRate"]), (iv if iv > 0 else 8)

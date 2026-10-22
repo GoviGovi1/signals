@@ -29,3 +29,23 @@ P = {
     "lev_target_loss": 0.08,                  # leverage chosen so a stop costs ~8% of margin
 }
 FEES_PCT = {"SPOT": 0.2, "PERP": 0.1}         # round-trip taker fees used in backtest net numbers
+
+# --- catalyst layer (see catalyst.py, backtest_catalyst.py) ---
+MAX_OPEN = 15                 # total open exchange signals (spot + perps)
+MAX_OPEN_DEX = 4              # open on-chain (DEX) watchlist signals
+MAX_NEW_DEX_PER_DAY = 2
+# A catalyst rule becomes a FILTER only if it improved the TA signals in BOTH halves of the 90-day backtest
+# (backtest_catalyst.py, 40 coins, 2026-07-24 -> 2026-10-22). Everything else is shown as a reason only.
+CATALYST_FILTERS = {
+    "oi_falling": True,          # skip when open interest fell over the last 24h (helped in both halves)
+    "exhaustion": True,          # OI -10% after a move our way (subset of oi_falling; worst trades in both halves)
+    "unlock_long_veto": False,   # big unlock within 7 days: mixed (helped H2, hurt H1) -> score/reason only
+    "crowded": False,            # crowded funding: only 1 signal in 90 days -> reason only
+    "require_oi_confirm": False, # OI +5%: helped H1, hurt H2 -> reason/score only
+}
+# Coin gate (walk-forward): chart signals only on coins where the same rules made money (after fees) over the
+# previous 45 days. Re-checked daily by .github/workflows/daily.yml -> catalyst/coin_gate.json.
+COIN_GATE = True
+# Stand-alone catalyst signal types. All three lost money in the backtest, so they are off (display only).
+# ONCHAIN can't be backtested with free data: on, capped, and labelled untested.
+CATALYST_SIGNALS = {"UNLOCK_SHORT": False, "POST_UNLOCK_LONG": False, "FUND_LONG": False, "ONCHAIN": True}
