@@ -17,7 +17,7 @@
     0.07727623889092099
    ],
    "lev": 3,
-   "funding_pct": 0.0046,
+   "funding_pct": 0.0054,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-10-22T02:00:00+00:00",
@@ -25,9 +25,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.079,
-   "last_ts": "2026-10-22T08:48:26+00:00",
-   "move_pct": 2.61,
+   "last": 0.07888,
+   "last_ts": "2026-10-22T09:01:28+00:00",
+   "move_pct": 2.76,
    "closed": false,
    "rsi": 37.2
   },
@@ -48,7 +48,7 @@
     99.9796045174737
    ],
    "lev": 3,
-   "funding_pct": 0.0033,
+   "funding_pct": 0.0037,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-10-22T03:00:00+00:00",
@@ -56,9 +56,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 103.71,
-   "last_ts": "2026-10-22T08:48:26+00:00",
-   "move_pct": 1.67,
+   "last": 103.69,
+   "last_ts": "2026-10-22T09:01:28+00:00",
+   "move_pct": 1.69,
    "closed": false,
    "rsi": 37.7
   },
@@ -79,7 +79,7 @@
     11.489897951817015
    ],
    "lev": 3,
-   "funding_pct": 0.0012,
+   "funding_pct": 0.0015,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-10-22T04:00:00+00:00",
@@ -87,9 +87,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 12.014,
-   "last_ts": "2026-10-22T08:48:26+00:00",
-   "move_pct": 2.01,
+   "last": 12.01,
+   "last_ts": "2026-10-22T09:01:28+00:00",
+   "move_pct": 2.05,
    "closed": false,
    "rsi": 39.0
   },
@@ -118,11 +118,47 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 733.4,
-   "last_ts": "2026-10-22T08:48:26+00:00",
-   "move_pct": 0.47,
+   "last": 731.1,
+   "last_ts": "2026-10-22T09:01:28+00:00",
+   "move_pct": 0.79,
    "closed": false,
    "rsi": 34.7
+  },
+  {
+   "id": "XRP-PERP-1792656000",
+   "kind": "TA",
+   "score": -1,
+   "reasons": [
+    "Chart: 20-hour breakdown below EMA50, 4h downtrend, RSI 31",
+    "OI +3% 24h",
+    "Sector: Layer 1 +1.2% 7d (leading, #4 of 20)",
+    "Track record: +3.7R on XRP in the last 45 days (backtest)"
+   ],
+   "coin": "XRP",
+   "market": "PERP",
+   "side": "SHORT",
+   "entry": 1.327,
+   "sl0": 1.349439112428932,
+   "sl": 1.349439112428932,
+   "tps": [
+    1.304560887571068,
+    1.2821217751421357,
+    1.2596826627132036
+   ],
+   "lev": 3,
+   "funding_pct": 0.0034,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-10-22T09:00:00+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 1.3262,
+   "last_ts": "2026-10-22T09:01:28+00:00",
+   "move_pct": 0.06,
+   "closed": false,
+   "rsi": 31.0
   }
  ],
  "closed": [],
@@ -141,7 +177,7 @@
   },
   "kinds": {},
   "coins": {},
-  "open": 4
+  "open": 5
  },
  "backtest": {
   "from": "2026-07-24",
@@ -1948,19 +1984,6 @@
     ]
    },
    {
-    "id": "ai-agents",
-    "name": "AI Agents",
-    "chg7d": 0.25,
-    "top": [
-     "VVV",
-     "VIRTUAL",
-     "FET",
-     "KITE",
-     "TRAC"
-    ],
-    "tracked": []
-   },
-   {
     "id": "real-world-assets-rwa",
     "name": "Real World Assets RWA",
     "chg7d": 0.06,
@@ -2018,6 +2041,19 @@
      "MANA",
      "SAND",
      "BEAM"
+    ],
+    "tracked": []
+   },
+   {
+    "id": "ai-agents",
+    "name": "AI Agents",
+    "chg7d": -0.54,
+    "top": [
+     "VVV",
+     "VIRTUAL",
+     "FET",
+     "KITE",
+     "TRAC"
     ],
     "tracked": []
    },
@@ -2277,7 +2313,7 @@
   "updated": {
    "unlocks": 1792656776,
    "onchain": 1792656785,
-   "sectors": 1792658208,
+   "sectors": 1792659688,
    "listings": 1792656785,
    "fundamentals": 1792656776
   }
@@ -2301,6 +2337,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "17e4385a5191b84efedfa13cf96c2e725c796532014408e81a5a3471b4cf3a79",
- "generated": "2026-10-22T08:48:37+00:00"
+ "digest": "05a88e6e975f4b7f0adf668a277b9ca1a9b8b69aef8b85ad58d3ef9bebaf5486",
+ "generated": "2026-10-22T09:01:44+00:00"
 }
