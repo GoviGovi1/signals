@@ -17,7 +17,7 @@
     0.07727623889092099
    ],
    "lev": 3,
-   "funding_pct": 0.0012,
+   "funding_pct": 0.0015,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-10-22T02:00:00+00:00",
@@ -25,9 +25,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.07858,
-   "last_ts": "2026-10-22T19:14:23+00:00",
-   "move_pct": 3.13,
+   "last": 0.07872,
+   "last_ts": "2026-10-22T19:38:03+00:00",
+   "move_pct": 2.96,
    "closed": false,
    "rsi": 37.2,
    "trade_on": null,
@@ -52,7 +52,7 @@
     99.9796045174737
    ],
    "lev": 3,
-   "funding_pct": 0.0033,
+   "funding_pct": 0.004,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-10-22T03:00:00+00:00",
@@ -60,9 +60,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 103.41,
-   "last_ts": "2026-10-22T19:14:23+00:00",
-   "move_pct": 1.95,
+   "last": 103.57,
+   "last_ts": "2026-10-22T19:38:03+00:00",
+   "move_pct": 1.8,
    "closed": false,
    "rsi": 37.7,
    "trade_on": null,
@@ -87,7 +87,7 @@
     11.489897951817015
    ],
    "lev": 3,
-   "funding_pct": -0.003,
+   "funding_pct": -0.0033,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-10-22T04:00:00+00:00",
@@ -95,9 +95,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 11.942,
-   "last_ts": "2026-10-22T19:14:23+00:00",
-   "move_pct": 2.6,
+   "last": 11.974,
+   "last_ts": "2026-10-22T19:38:03+00:00",
+   "move_pct": 2.34,
    "closed": false,
    "rsi": 39.0,
    "trade_on": null,
@@ -122,7 +122,7 @@
     718.1143758376251
    ],
    "lev": 3,
-   "funding_pct": -0.0093,
+   "funding_pct": -0.007,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-10-22T08:00:00+00:00",
@@ -130,9 +130,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 730.7,
-   "last_ts": "2026-10-22T19:14:23+00:00",
-   "move_pct": 0.84,
+   "last": 731.9,
+   "last_ts": "2026-10-22T19:38:03+00:00",
+   "move_pct": 0.68,
    "closed": false,
    "rsi": 34.7,
    "trade_on": null,
@@ -162,7 +162,7 @@
     1.2596826627132036
    ],
    "lev": 3,
-   "funding_pct": 0.0071,
+   "funding_pct": 0.0081,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-10-22T09:00:00+00:00",
@@ -170,9 +170,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.3083,
-   "last_ts": "2026-10-22T19:14:23+00:00",
-   "move_pct": 1.41,
+   "last": 1.3089,
+   "last_ts": "2026-10-22T19:38:03+00:00",
+   "move_pct": 1.36,
    "closed": false,
    "rsi": 31.0,
    "trade_on": null,
@@ -207,7 +207,7 @@
     0.0019120182314873771
    ],
    "lev": 1,
-   "funding_pct": -0.0385,
+   "funding_pct": -0.0411,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-22T16:00:00+00:00",
@@ -215,9 +215,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002105,
-   "last_ts": "2026-10-22T19:14:23+00:00",
-   "move_pct": -0.33,
+   "last": 0.002083,
+   "last_ts": "2026-10-22T19:38:03+00:00",
+   "move_pct": 0.71,
    "closed": false,
    "rsi": 29.2,
    "trade_on": "Perps 1x",
@@ -3136,86 +3136,7 @@
    }
   ],
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
-  "onchain": [
-   {
-    "chain": "Base",
-    "symbol": "XDP",
-    "name": "Doppler Finance",
-    "token": "0x07b3d902783c3c12b077508c3b5c00113d1291d0",
-    "price": 0.0183942584816608,
-    "liq": 1796739,
-    "vol24h": 59720929,
-    "age_d": 24.2,
-    "chg24h": -3.119,
-    "chg7d": -3.1,
-    "mcap": 18394258.48,
-    "safety": "ok",
-    "safety_notes": [],
-    "trigger": false,
-    "trend_up": false,
-    "rsi": 38.9,
-    "url": "https://www.geckoterminal.com/base/pools/0x2df380544b88adb3ad0a94100dcc45fd705aae2d"
-   },
-   {
-    "chain": "Solana",
-    "symbol": "PUMP",
-    "name": "Pump",
-    "token": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-    "price": 0.0045928036559646805,
-    "liq": 23938541,
-    "vol24h": 6863017,
-    "age_d": 465.1,
-    "chg24h": -9.006,
-    "chg7d": 0.2,
-    "mcap": 2120190373.51642,
-    "safety": "ok",
-    "safety_notes": [],
-    "trigger": false,
-    "trend_up": false,
-    "rsi": 34.7,
-    "url": "https://www.geckoterminal.com/solana/pools/2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd"
-   },
-   {
-    "chain": "Base",
-    "symbol": "AERO",
-    "name": "Aerodrome",
-    "token": "0x940181a94a35a4569e4529a3cdfb74e38fd98631",
-    "price": 0.796249055724529,
-    "liq": 18079564,
-    "vol24h": 3286136,
-    "age_d": 1140.8,
-    "chg24h": -7.618,
-    "chg7d": -9.9,
-    "mcap": 702341110.749846,
-    "safety": "ok",
-    "safety_notes": [],
-    "trigger": false,
-    "trend_up": false,
-    "rsi": 40.8,
-    "url": "https://www.geckoterminal.com/base/pools/0x6cdcb1c4a4d1c3c6d054b27ac5b77e89eafb971d"
-   },
-   {
-    "chain": "BSC",
-    "symbol": "CLO",
-    "name": "Yei Finance",
-    "token": "0x81d3a238b02827f62b9f390f947d36d4a5bf89d2",
-    "price": 0.0507161116986209,
-    "liq": 873879,
-    "vol24h": 2935745,
-    "age_d": 374.5,
-    "chg24h": -10.107,
-    "chg7d": 7.9,
-    "mcap": 19123496.0405609,
-    "safety": "unknown",
-    "safety_notes": [
-     "safety not checked"
-    ],
-    "trigger": false,
-    "trend_up": false,
-    "rsi": 41.8,
-    "url": "https://www.geckoterminal.com/bsc/pools/0x8d23f1230c18b8a6e2c7fd5f74fb5b11e3c023018438328022278fd8cd015263"
-   }
-  ],
+  "onchain": [],
   "onchain_checked": 87,
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
@@ -3558,22 +3479,6 @@
     ]
    },
    {
-    "id": "interoperability",
-    "name": "Interoperability",
-    "chg7d": -5.04,
-    "top": [
-     "TRAC",
-     "W",
-     "CKB",
-     "AXL",
-     "PHA"
-    ],
-    "tracked": [
-     "W",
-     "PHA"
-    ]
-   },
-   {
     "id": "depin",
     "name": "DePIN",
     "chg7d": -5.18,
@@ -3630,6 +3535,22 @@
      "ZK",
      "MINA",
      "ZEN"
+    ]
+   },
+   {
+    "id": "interoperability",
+    "name": "Interoperability",
+    "chg7d": -9.58,
+    "top": [
+     "TRAC",
+     "W",
+     "CKB",
+     "AXL",
+     "PHA"
+    ],
+    "tracked": [
+     "W",
+     "PHA"
     ]
    }
   ],
@@ -3771,9 +3692,9 @@
   ],
   "updated": {
    "unlocks": 1792678834,
-   "onchain": 1792694021,
-   "sectors": 1792696463,
-   "listings": 1792694021,
+   "onchain": 1792697820,
+   "sectors": 1792697820,
+   "listings": 1792697820,
    "fundamentals": 1792678835
   }
  },
@@ -3808,6 +3729,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "6f417629f2edfdd09cad5ebb13b21f44690ad158344629cd69827fcd6a999344",
- "generated": "2026-10-22T19:14:26+00:00"
+ "digest": "0a8606444c1553ff06b4716764a6236edd5eb32aa8fac621f87cbb92ff37eeb2",
+ "generated": "2026-10-22T19:38:06+00:00"
 }
