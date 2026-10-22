@@ -25,9 +25,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.07938,
-   "last_ts": "2026-10-22T13:02:42+00:00",
-   "move_pct": 2.14,
+   "last": 0.07931,
+   "last_ts": "2026-10-22T13:19:37+00:00",
+   "move_pct": 2.23,
    "closed": false,
    "rsi": 37.2
   },
@@ -48,7 +48,7 @@
     99.9796045174737
    ],
    "lev": 3,
-   "funding_pct": 0.0025,
+   "funding_pct": 0.003,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-10-22T03:00:00+00:00",
@@ -56,9 +56,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 104.3,
-   "last_ts": "2026-10-22T13:02:42+00:00",
-   "move_pct": 1.11,
+   "last": 104.38,
+   "last_ts": "2026-10-22T13:19:37+00:00",
+   "move_pct": 1.03,
    "closed": false,
    "rsi": 37.7
   },
@@ -79,7 +79,7 @@
     11.489897951817015
    ],
    "lev": 3,
-   "funding_pct": -0.0028,
+   "funding_pct": -0.0031,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-10-22T04:00:00+00:00",
@@ -87,9 +87,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 12.027,
-   "last_ts": "2026-10-22T13:02:42+00:00",
-   "move_pct": 1.91,
+   "last": 12.023,
+   "last_ts": "2026-10-22T13:19:37+00:00",
+   "move_pct": 1.94,
    "closed": false,
    "rsi": 39.0
   },
@@ -110,7 +110,7 @@
     718.1143758376251
    ],
    "lev": 3,
-   "funding_pct": -0.0175,
+   "funding_pct": -0.0189,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-10-22T08:00:00+00:00",
@@ -118,9 +118,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 732.1,
-   "last_ts": "2026-10-22T13:02:42+00:00",
-   "move_pct": 0.65,
+   "last": 732.5,
+   "last_ts": "2026-10-22T13:19:37+00:00",
+   "move_pct": 0.6,
    "closed": false,
    "rsi": 34.7
   },
@@ -146,7 +146,7 @@
     1.2596826627132036
    ],
    "lev": 3,
-   "funding_pct": 0.0048,
+   "funding_pct": 0.0047,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-22T09:00:00+00:00",
@@ -154,9 +154,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.3231,
-   "last_ts": "2026-10-22T13:02:42+00:00",
-   "move_pct": 0.29,
+   "last": 1.3229,
+   "last_ts": "2026-10-22T13:19:37+00:00",
+   "move_pct": 0.31,
    "closed": false,
    "rsi": 31.0
   }
@@ -1933,26 +1933,6 @@
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
-    "id": "exchange-based-tokens",
-    "name": "Exchange Based Tokens",
-    "chg7d": 1.33,
-    "top": [
-     "BNB",
-     "HYPE",
-     "WBT",
-     "LEO",
-     "UNI"
-    ],
-    "tracked": [
-     "BNB",
-     "PUMP",
-     "HYPE",
-     "UNI",
-     "OKB",
-     "CRV"
-    ]
-   },
-   {
     "id": "layer-1",
     "name": "Layer 1",
     "chg7d": 1.19,
@@ -2078,6 +2058,26 @@
     "tracked": [
      "FIL",
      "TAO"
+    ]
+   },
+   {
+    "id": "exchange-based-tokens",
+    "name": "Exchange Based Tokens",
+    "chg7d": 0.07,
+    "top": [
+     "BNB",
+     "HYPE",
+     "WBT",
+     "LEO",
+     "UNI"
+    ],
+    "tracked": [
+     "BNB",
+     "PUMP",
+     "HYPE",
+     "UNI",
+     "OKB",
+     "CRV"
     ]
    },
    {
@@ -2410,7 +2410,7 @@
   "updated": {
    "unlocks": 1792656776,
    "onchain": 1792672624,
-   "sectors": 1792674162,
+   "sectors": 1792675177,
    "listings": 1792672624,
    "fundamentals": 1792656776
   }
@@ -2434,6 +2434,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "3c7c9d3647f3aedd3a95661b53cf96d838371e30a2035f85da31d192c1630ac2",
- "generated": "2026-10-22T13:02:55+00:00"
+ "digest": "60f8909afbe2ecc25a9a052a6c42040fb8570b8ec6f466cb3f3287041a821815",
+ "generated": "2026-10-22T13:19:51+00:00"
 }
