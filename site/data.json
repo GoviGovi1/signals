@@ -25,9 +25,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.08046,
-   "last_ts": "2026-10-23T08:50:04+00:00",
-   "move_pct": 0.81,
+   "last": 0.08045,
+   "last_ts": "2026-10-23T09:07:16+00:00",
+   "move_pct": 0.83,
    "closed": false,
    "rsi": 37.2,
    "trade_on": null,
@@ -52,7 +52,7 @@
     99.9796045174737
    ],
    "lev": 3,
-   "funding_pct": 0.0055,
+   "funding_pct": 0.005,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-10-22T03:00:00+00:00",
@@ -60,9 +60,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 104.8,
-   "last_ts": "2026-10-23T08:50:04+00:00",
-   "move_pct": 0.64,
+   "last": 104.55,
+   "last_ts": "2026-10-23T09:07:16+00:00",
+   "move_pct": 0.87,
    "closed": false,
    "rsi": 37.7,
    "trade_on": null,
@@ -97,7 +97,7 @@
     0.0019120182314873771
    ],
    "lev": 1,
-   "funding_pct": -0.0249,
+   "funding_pct": -0.0286,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-22T16:00:00+00:00",
@@ -105,9 +105,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002101,
-   "last_ts": "2026-10-23T08:50:04+00:00",
-   "move_pct": -0.14,
+   "last": 0.002095,
+   "last_ts": "2026-10-23T09:07:16+00:00",
+   "move_pct": 0.14,
    "closed": false,
    "rsi": 29.2,
    "trade_on": "Perps 1x",
@@ -149,9 +149,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04979,
-   "last_ts": "2026-10-23T08:50:04+00:00",
-   "move_pct": -0.26,
+   "last": 0.04977,
+   "last_ts": "2026-10-23T09:07:16+00:00",
+   "move_pct": -0.3,
    "closed": false,
    "rsi": 63.0,
    "trade_on": "Spot",
@@ -193,9 +193,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0335423705282354,
-   "last_ts": "2026-10-23T08:50:04+00:00",
-   "move_pct": 21.69,
+   "last": 0.0338094035888813,
+   "last_ts": "2026-10-23T09:07:16+00:00",
+   "move_pct": 22.66,
    "closed": false,
    "rsi": 73.0,
    "trade_on": "On-chain spot (BSC DEX)",
@@ -237,9 +237,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.809,
-   "last_ts": "2026-10-23T08:50:04+00:00",
-   "move_pct": 0.5,
+   "last": 1.802,
+   "last_ts": "2026-10-23T09:07:16+00:00",
+   "move_pct": 0.11,
    "closed": false,
    "rsi": 68.1,
    "trade_on": "Spot",
@@ -3911,21 +3911,6 @@
     ]
    },
    {
-    "id": "privacy-coins",
-    "name": "Privacy Coins",
-    "chg7d": -5.53,
-    "top": [
-     "ZEC",
-     "XMR",
-     "DCR",
-     "ZANO",
-     "NOCK"
-    ],
-    "tracked": [
-     "ZEC"
-    ]
-   },
-   {
     "id": "storage",
     "name": "Storage",
     "chg7d": -6.15,
@@ -3940,6 +3925,21 @@
      "FIL",
      "AR",
      "WAL"
+    ]
+   },
+   {
+    "id": "privacy-coins",
+    "name": "Privacy Coins",
+    "chg7d": -6.95,
+    "top": [
+     "ZEC",
+     "XMR",
+     "DCR",
+     "ZANO",
+     "NOCK"
+    ],
+    "tracked": [
+     "ZEC"
     ]
    },
    {
@@ -3970,19 +3970,19 @@
     "coin": "XHUT",
     "list_ts": 1792746000,
     "market": "SPOT",
-    "state": "preopen"
+    "state": "live"
    },
    {
     "coin": "XGTLB",
     "list_ts": 1792744200,
     "market": "SPOT",
-    "state": "preopen"
+    "state": "live"
    },
    {
     "coin": "XGS",
     "list_ts": 1792742400,
     "market": "SPOT",
-    "state": "preopen"
+    "state": "live"
    },
    {
     "coin": "XDDOG",
@@ -4128,8 +4128,8 @@
   "updated": {
    "unlocks": 1792745333,
    "onchain": 1792745341,
-   "sectors": 1792745341,
-   "listings": 1792741795,
+   "sectors": 1792746436,
+   "listings": 1792746435,
    "fundamentals": 1792745334
   }
  },
@@ -4164,6 +4164,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "dc2a8ae140cccf3b6b3bf3fc1df6a0ea492f3ddd21c3ce8efb589030f8d38fb5",
- "generated": "2026-10-23T08:50:08+00:00"
+ "digest": "af2d6f6167f0dcfb854d918164e300c468432a8f27981257ca41e2c9427b67f4",
+ "generated": "2026-10-23T09:07:38+00:00"
 }
