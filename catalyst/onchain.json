@@ -73,14 +73,6 @@
   {
    "chain": "Solana",
    "fails": [
-    "liquidity under $250k",
-    "pool younger than 7 days"
-   ],
-   "symbol": "SHAV"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
     "no DEX candles"
    ],
    "symbol": "STONK"
@@ -91,7 +83,30 @@
     "liquidity under $250k",
     "pool younger than 7 days"
    ],
+   "symbol": "SHAV"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "no DEX candles"
+   ],
+   "symbol": "ANSEM"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "liquidity under $250k",
+    "pool younger than 7 days"
+   ],
    "symbol": "CYBER"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "liquidity under $250k",
+    "pool younger than 7 days"
+   ],
+   "symbol": "AU"
   },
   {
    "chain": "Solana",
@@ -106,22 +121,7 @@
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "ANSEM"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "no DEX candles"
-   ],
    "symbol": "JEANPHIL"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "liquidity under $250k",
-    "pool younger than 7 days"
-   ],
-   "symbol": "AU"
   },
   {
    "chain": "Solana",
@@ -133,6 +133,14 @@
   {
    "chain": "Solana",
    "fails": [
+    "liquidity under $250k",
+    "pool younger than 7 days"
+   ],
+   "symbol": "\u30e4\u30ae"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
     "liquidity under $250k"
    ],
    "symbol": "DOPE"
@@ -140,16 +148,9 @@
   {
    "chain": "Solana",
    "fails": [
-    "no DEX candles"
+    "24h volume under $250k"
    ],
    "symbol": "FONE"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "CATE"
   },
   {
    "chain": "Base",
@@ -210,13 +211,6 @@
   {
    "chain": "Base",
    "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "STONKEX"
-  },
-  {
-   "chain": "Base",
-   "fails": [
     "liquidity under $250k",
     "24h volume under $250k"
    ],
@@ -227,14 +221,7 @@
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "ELSA"
-  },
-  {
-   "chain": "Base",
-   "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "CTR"
+   "symbol": "STONKEX"
   },
   {
    "chain": "Base",
@@ -246,10 +233,23 @@
   {
    "chain": "Base",
    "fails": [
-    "liquidity under $250k",
-    "pool younger than 7 days"
+    "no DEX candles"
    ],
-   "symbol": "PANGEA"
+   "symbol": "CTR"
+  },
+  {
+   "chain": "Base",
+   "fails": [
+    "no DEX candles"
+   ],
+   "symbol": "ELSA"
+  },
+  {
+   "chain": "Base",
+   "fails": [
+    "24h volume under $250k"
+   ],
+   "symbol": "AEON"
   },
   {
    "chain": "Base",
@@ -261,9 +261,10 @@
   {
    "chain": "Base",
    "fails": [
-    "24h volume under $250k"
+    "liquidity under $250k",
+    "pool younger than 7 days"
    ],
-   "symbol": "AEON"
+   "symbol": "PANGEA"
   },
   {
    "chain": "Base",
@@ -295,35 +296,6 @@
   }
  ],
  "rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
- "updated": 1792741795,
- "watchlist": [
-  {
-   "age_d": 7.9,
-   "atr": 0.010183421062222588,
-   "bar_ts": 1792735200000,
-   "chain": "BSC",
-   "chg24h": 14.935,
-   "chg7d": 7.9,
-   "close": 0.205289008177034,
-   "ema20": 0.19844136632693654,
-   "ema50": 0.2039125719051964,
-   "fails": [],
-   "gecko_id": "neosoul",
-   "liq": 1772103,
-   "mcap": 29708443.947,
-   "name": "DE NEO AGENT",
-   "net": "bsc",
-   "pool": "0xd0949ad5874cee7991ccd4cc2c5f7f80a7be4a220689cf5947ccb12a946fa50d",
-   "price": 0.228526491942823,
-   "rsi": 55.5,
-   "safety": "ok",
-   "safety_notes": [],
-   "symbol": "DNA",
-   "token": "0xa991f61940095aea0724ef54077223b048c5cf7b",
-   "trend_up": false,
-   "trigger": false,
-   "url": "https://www.geckoterminal.com/bsc/pools/0xd0949ad5874cee7991ccd4cc2c5f7f80a7be4a220689cf5947ccb12a946fa50d",
-   "vol24h": 88127073
-  }
- ]
+ "updated": 1792745341,
+ "watchlist": []
 }
