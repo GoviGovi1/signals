@@ -17,7 +17,7 @@
     0.07727623889092099
    ],
    "lev": 3,
-   "funding_pct": 0.0058,
+   "funding_pct": 0.005,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-10-22T02:00:00+00:00",
@@ -25,9 +25,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.08013,
-   "last_ts": "2026-10-23T12:50:44+00:00",
-   "move_pct": 1.22,
+   "last": 0.08001,
+   "last_ts": "2026-10-23T13:08:34+00:00",
+   "move_pct": 1.37,
    "closed": false,
    "rsi": 37.2,
    "trade_on": null,
@@ -60,9 +60,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 104.32,
-   "last_ts": "2026-10-23T12:50:44+00:00",
-   "move_pct": 1.09,
+   "last": 104.22,
+   "last_ts": "2026-10-23T13:08:34+00:00",
+   "move_pct": 1.19,
    "closed": false,
    "rsi": 37.7,
    "trade_on": null,
@@ -97,7 +97,7 @@
     0.0019120182314873771
    ],
    "lev": 1,
-   "funding_pct": -0.0313,
+   "funding_pct": -0.0365,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-22T16:00:00+00:00",
@@ -106,7 +106,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.002099,
-   "last_ts": "2026-10-23T12:50:44+00:00",
+   "last_ts": "2026-10-23T13:08:34+00:00",
    "move_pct": -0.05,
    "closed": false,
    "rsi": 29.2,
@@ -149,9 +149,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.05022,
-   "last_ts": "2026-10-23T12:50:44+00:00",
-   "move_pct": 0.6,
+   "last": 0.05001,
+   "last_ts": "2026-10-23T13:08:34+00:00",
+   "move_pct": 0.18,
    "closed": false,
    "rsi": 63.0,
    "trade_on": "Spot",
@@ -3635,64 +3635,64 @@
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
   "onchain": [
    {
-    "chain": "BSC",
-    "symbol": "BTR",
-    "name": "BTR token",
-    "token": "0xfed13d0c40790220fbde712987079eda1ed75c51",
-    "price": 0.0607306793550404,
-    "liq": 606581,
-    "vol24h": 15958793,
-    "age_d": 424.0,
-    "chg24h": 39.563,
-    "chg7d": 28.5,
-    "mcap": 15924276.552264,
+    "chain": "Solana",
+    "symbol": "STONK",
+    "name": "STONK",
+    "token": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
+    "price": 0.12605800889570024,
+    "liq": 2261292,
+    "vol24h": 4175119,
+    "age_d": 72.1,
+    "chg24h": 13.082,
+    "chg7d": 7.5,
+    "mcap": 99088539.5562151,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": true,
-    "rsi": 59.3,
-    "url": "https://www.geckoterminal.com/bsc/pools/0x787abd73593bed588852163402d191c302c7f8b6"
+    "rsi": 64.6,
+    "url": "https://www.geckoterminal.com/solana/pools/zxTpi4BtaWX3mgdAPoezkMD1hxx8CdeCfrqXMWvSCLX"
    },
    {
-    "chain": "Ethereum",
-    "symbol": "PAXG",
-    "name": "Paxos Gold",
-    "token": "0x45804880de22913dafe09f4980848ece6ecbaf78",
-    "price": 4052.52460116946,
-    "liq": 5504046,
-    "vol24h": 6380742,
-    "age_d": 365.9,
-    "chg24h": -0.302,
-    "chg7d": -3.1,
-    "mcap": 1793146132.13927,
+    "chain": "BSC",
+    "symbol": "POP",
+    "name": "Zypher Token",
+    "token": "0xa3cfb853339b77f385b994799b015cb04b208fe6",
+    "price": 0.000161080016114363,
+    "liq": 325199,
+    "vol24h": 6948010,
+    "age_d": 409.3,
+    "chg24h": -16.757,
+    "chg7d": -62.8,
+    "mcap": 233008.880816672,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 51.4,
-    "url": "https://www.geckoterminal.com/eth/pools/0xc756bba710d45647715079ce50aa16aab36ded42"
+    "rsi": 41.3,
+    "url": "https://www.geckoterminal.com/bsc/pools/0xe5ce5bc4785cd2a246151364f5a190cee3fdb142"
    },
    {
-    "chain": "Arbitrum",
-    "symbol": "ARB",
-    "name": "Arbitrum",
-    "token": "0x912ce59144191c1204e64559fe8253a0e49e6548",
-    "price": 0.18011265228809,
-    "liq": 1876843,
-    "vol24h": 4715639,
-    "age_d": 1316.4,
-    "chg24h": -1.831,
-    "chg7d": -10.4,
-    "mcap": 1240842346.80765,
+    "chain": "BSC",
+    "symbol": "BTW",
+    "name": "Bitway Token",
+    "token": "0x444045b0ee1ee319a660a5e3d604ca0ffa35acaa",
+    "price": 1.72151609223501,
+    "liq": 364692,
+    "vol24h": 5310127,
+    "age_d": 235.1,
+    "chg24h": 1.344,
+    "chg7d": 0.2,
+    "mcap": 2589562533.25121,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 42.7,
-    "url": "https://www.geckoterminal.com/arbitrum/pools/0xc6f780497a95e246eb9449f5e4770916dcd6396a"
+    "rsi": 49.4,
+    "url": "https://www.geckoterminal.com/bsc/pools/0xf7b5a9b7ef764606f900c9c1db39afc682049bc4"
    }
   ],
-  "onchain_checked": 86,
+  "onchain_checked": 87,
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
@@ -3823,28 +3823,6 @@
      "MORPHO",
      "KMNO",
      "SPK"
-    ]
-   },
-   {
-    "id": "layer-1",
-    "name": "Layer 1",
-    "chg7d": -3.02,
-    "top": [
-     "BTC",
-     "ETH",
-     "BNB",
-     "XRP",
-     "SOL"
-    ],
-    "tracked": [
-     "BTC",
-     "ETH",
-     "SOL",
-     "XRP",
-     "SUI",
-     "BNB",
-     "AVAX",
-     "ZEC"
     ]
    },
    {
@@ -3992,6 +3970,28 @@
      "STX",
      "POL",
      "MEGA"
+    ]
+   },
+   {
+    "id": "layer-1",
+    "name": "Layer 1",
+    "chg7d": -4.25,
+    "top": [
+     "BTC",
+     "ETH",
+     "BNB",
+     "XRP",
+     "SOL"
+    ],
+    "tracked": [
+     "BTC",
+     "ETH",
+     "SOL",
+     "XRP",
+     "SUI",
+     "BNB",
+     "AVAX",
+     "ZEC"
     ]
    },
    {
@@ -4277,8 +4277,8 @@
   ],
   "updated": {
    "unlocks": 1792745333,
-   "onchain": 1792756900,
-   "sectors": 1792759844,
+   "onchain": 1792760850,
+   "sectors": 1792760850,
    "listings": 1792759613,
    "fundamentals": 1792745334
   }
@@ -4314,6 +4314,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "37e81df13c127a90a13a06bd7f3e33d58b46601f572cd52104866c2a618f25d8",
- "generated": "2026-10-23T12:50:46+00:00"
+ "digest": "7d055a122d15c70fc2b88988ab25ea9e3a94b5f6e2a9cc3da30b4ebe7553ad2f",
+ "generated": "2026-10-23T13:08:55+00:00"
 }
