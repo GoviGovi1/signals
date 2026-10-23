@@ -25,9 +25,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.07917,
-   "last_ts": "2026-10-23T20:38:08+00:00",
-   "move_pct": 2.4,
+   "last": 0.07926,
+   "last_ts": "2026-10-23T20:46:26+00:00",
+   "move_pct": 2.29,
    "closed": false,
    "rsi": 37.2,
    "trade_on": null,
@@ -60,9 +60,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 103.56,
-   "last_ts": "2026-10-23T20:38:08+00:00",
-   "move_pct": 1.81,
+   "last": 103.8,
+   "last_ts": "2026-10-23T20:46:26+00:00",
+   "move_pct": 1.58,
    "closed": false,
    "rsi": 37.7,
    "trade_on": null,
@@ -104,9 +104,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.05139,
-   "last_ts": "2026-10-23T20:38:08+00:00",
-   "move_pct": 2.94,
+   "last": 0.0517,
+   "last_ts": "2026-10-23T20:46:26+00:00",
+   "move_pct": 3.57,
    "closed": false,
    "rsi": 63.0,
    "trade_on": "Spot",
@@ -149,9 +149,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0407,
-   "last_ts": "2026-10-23T20:38:08+00:00",
-   "move_pct": 1.17,
+   "last": 0.04073,
+   "last_ts": "2026-10-23T20:46:26+00:00",
+   "move_pct": 1.24,
    "closed": false,
    "rsi": 59.7,
    "trade_on": "Spot",
@@ -186,7 +186,7 @@
     6.31391444155267
    ],
    "lev": 2,
-   "funding_pct": -0.0006,
+   "funding_pct": -0.0001,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-23T17:00:00+00:00",
@@ -194,9 +194,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 7.73,
-   "last_ts": "2026-10-23T20:38:08+00:00",
-   "move_pct": 0.74,
+   "last": 7.765,
+   "last_ts": "2026-10-23T20:46:26+00:00",
+   "move_pct": 0.3,
    "closed": false,
    "rsi": 30.0,
    "trade_on": "Perps 2x",
@@ -239,9 +239,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.13639,
-   "last_ts": "2026-10-23T20:38:08+00:00",
-   "move_pct": 0.26,
+   "last": 0.13597,
+   "last_ts": "2026-10-23T20:46:26+00:00",
+   "move_pct": -0.04,
    "closed": false,
    "rsi": 66.6,
    "trade_on": "Spot",
@@ -283,9 +283,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0908795545427864,
-   "last_ts": "2026-10-23T20:38:08+00:00",
-   "move_pct": -4.48,
+   "last": 0.0905417634262495,
+   "last_ts": "2026-10-23T20:46:26+00:00",
+   "move_pct": -4.83,
    "closed": false,
    "rsi": 71.1,
    "trade_on": "On-chain spot (BSC DEX)",
@@ -3266,20 +3266,6 @@
   "unlocks": [
    {
     "big": true,
-    "coin": "INIT",
-    "insider_pct": 0,
-    "pct": 3.52,
-    "tokens": 7343750,
-    "tracked": true,
-    "ts": 1792788174,
-    "usd": 982352,
-    "who": [
-     "Foundation",
-     "Echo.xyz Community Sale"
-    ]
-   },
-   {
-    "big": true,
     "coin": "H",
     "insider_pct": 55,
     "pct": 7.34,
@@ -4104,6 +4090,28 @@
     ]
    },
    {
+    "id": "layer-2",
+    "name": "Layer 2",
+    "chg7d": -2.31,
+    "top": [
+     "OKB",
+     "MNT",
+     "ARB",
+     "POL",
+     "STX"
+    ],
+    "tracked": [
+     "STRK",
+     "ARB",
+     "OKB",
+     "OP",
+     "MAGIC",
+     "STX",
+     "POL",
+     "MEGA"
+    ]
+   },
+   {
     "id": "lending-borrowing",
     "name": "Lending Borrowing",
     "chg7d": -2.39,
@@ -4272,28 +4280,6 @@
      "AXS",
      "FLOKI",
      "IMX"
-    ]
-   },
-   {
-    "id": "layer-2",
-    "name": "Layer 2",
-    "chg7d": -4.74,
-    "top": [
-     "OKB",
-     "MNT",
-     "ARB",
-     "POL",
-     "STX"
-    ],
-    "tracked": [
-     "STRK",
-     "ARB",
-     "OKB",
-     "OP",
-     "MAGIC",
-     "STX",
-     "POL",
-     "MEGA"
     ]
    },
    {
@@ -4536,7 +4522,7 @@
   "updated": {
    "unlocks": 1792767180,
    "onchain": 1792787854,
-   "sectors": 1792787344,
+   "sectors": 1792788386,
    "listings": 1792787854,
    "fundamentals": 1792767180
   }
@@ -4572,6 +4558,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "44967ce631a6d80e6cd6cbff28afee65c7194f26fcef30fc270d213411b58df2",
- "generated": "2026-10-23T20:38:14+00:00"
+ "digest": "72a2385726e4e9c4eb080ba9cc8acaa5d305641b5c872b774bd7e2c0873ee5a8",
+ "generated": "2026-10-23T20:46:31+00:00"
 }
