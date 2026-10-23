@@ -17,7 +17,7 @@
     0.07727623889092099
    ],
    "lev": 3,
-   "funding_pct": 0.0074,
+   "funding_pct": 0.007,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-10-22T02:00:00+00:00",
@@ -25,9 +25,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0776,
-   "last_ts": "2026-10-23T22:55:19+00:00",
-   "move_pct": 4.34,
+   "last": 0.07797,
+   "last_ts": "2026-10-23T23:00:31+00:00",
+   "move_pct": 3.88,
    "closed": false,
    "rsi": 37.2,
    "trade_on": null,
@@ -52,7 +52,7 @@
     99.9796045174737
    ],
    "lev": 3,
-   "funding_pct": 0.0058,
+   "funding_pct": 0.0055,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-10-22T03:00:00+00:00",
@@ -60,9 +60,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 101.92,
-   "last_ts": "2026-10-23T22:55:19+00:00",
-   "move_pct": 3.37,
+   "last": 102.37,
+   "last_ts": "2026-10-23T23:00:31+00:00",
+   "move_pct": 2.94,
    "closed": false,
    "rsi": 37.7,
    "trade_on": null,
@@ -104,9 +104,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.05127,
-   "last_ts": "2026-10-23T22:55:19+00:00",
-   "move_pct": 2.7,
+   "last": 0.05152,
+   "last_ts": "2026-10-23T23:00:31+00:00",
+   "move_pct": 3.21,
    "closed": false,
    "rsi": 63.0,
    "trade_on": "Spot",
@@ -150,7 +150,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.04136,
-   "last_ts": "2026-10-23T22:55:19+00:00",
+   "last_ts": "2026-10-23T23:00:31+00:00",
    "move_pct": 2.81,
    "closed": false,
    "rsi": 59.7,
@@ -186,7 +186,7 @@
     6.31391444155267
    ],
    "lev": 2,
-   "funding_pct": -0.0036,
+   "funding_pct": -0.0038,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-23T17:00:00+00:00",
@@ -194,9 +194,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 7.616,
-   "last_ts": "2026-10-23T22:55:19+00:00",
-   "move_pct": 2.21,
+   "last": 7.685,
+   "last_ts": "2026-10-23T23:00:31+00:00",
+   "move_pct": 1.32,
    "closed": false,
    "rsi": 30.0,
    "trade_on": "Perps 2x",
@@ -239,9 +239,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1278,
-   "last_ts": "2026-10-23T22:55:19+00:00",
-   "move_pct": -6.05,
+   "last": 0.12879,
+   "last_ts": "2026-10-23T23:00:31+00:00",
+   "move_pct": -5.32,
    "closed": false,
    "rsi": 66.6,
    "trade_on": "Spot",
@@ -283,15 +283,103 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.100281668577999,
-   "last_ts": "2026-10-23T22:55:19+00:00",
-   "move_pct": 5.41,
+   "last": 0.10137479384083,
+   "last_ts": "2026-10-23T23:00:31+00:00",
+   "move_pct": 6.56,
    "closed": false,
    "rsi": 71.1,
    "trade_on": "On-chain spot (BSC DEX)",
    "market_reason": "not listed on OKX; buy on a DEX, small size, no leverage",
    "chart": "charts/AGT-DEX-bsc-0x5dbde81f-1792782000.png",
    "setup": null
+  },
+  {
+   "id": "PONS-PERP-1792792800",
+   "kind": "TA",
+   "score": 0,
+   "reasons": [
+    "Chart: Broke the 20-hour low on 3.3x volume",
+    "Timeframes: 1d down, 4h down, 4h structure lower highs/lows",
+    "No support below in the last 50 days",
+    "Stop 0.24519 (structure); targets at 1R/2R/3R",
+    "BTC 4h trend flat",
+    "Weaker than BTC by 24.6% over 7d",
+    "OI +2% 24h",
+    "Track record: +3.5R on PONS in the last 45 days (backtest)"
+   ],
+   "coin": "PONS",
+   "market": "PERP",
+   "side": "SHORT",
+   "entry": 0.238,
+   "sl0": 0.24519072213655796,
+   "sl": 0.24519072213655796,
+   "tps": [
+    0.23080927786344202,
+    0.22361855572688405,
+    0.21642783359032608
+   ],
+   "lev": 2,
+   "funding_pct": 0.005,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-10-23T23:00:00+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.238,
+   "last_ts": "2026-10-23T23:00:31+00:00",
+   "move_pct": -0.0,
+   "closed": false,
+   "rsi": 27.5,
+   "trade_on": "Perps 2x",
+   "market_reason": "shorts need perps; 2x keeps liquidation 3x+ further away than the stop",
+   "chart": "charts/PONS-PERP-1792792800.png",
+   "setup": "BREAKOUT20"
+  },
+  {
+   "id": "CHZ-PERP-1792792800",
+   "kind": "TA",
+   "score": 0,
+   "reasons": [
+    "Chart: Broke the 20-hour low on 3.8x volume",
+    "Timeframes: 1d down, 4h down, 4h structure lower highs/lows",
+    "No support below in the last 50 days",
+    "Stop 0.013366 (2 ATR); targets at 1R/2R/3R",
+    "BTC 4h trend flat",
+    "Weaker than BTC by 8.9% over 7d",
+    "OI +0% 24h",
+    "Track record: +0.4R on CHZ in the last 45 days (backtest)"
+   ],
+   "coin": "CHZ",
+   "market": "PERP",
+   "side": "SHORT",
+   "entry": 0.01305,
+   "sl0": 0.013366286001673064,
+   "sl": 0.013366286001673064,
+   "tps": [
+    0.012733713998326937,
+    0.012417427996653874,
+    0.01210114199498081
+   ],
+   "lev": 1,
+   "funding_pct": 0.0026,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-10-23T23:00:00+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.01308,
+   "last_ts": "2026-10-23T23:00:31+00:00",
+   "move_pct": -0.23,
+   "closed": false,
+   "rsi": 28.4,
+   "trade_on": "Perps 1x",
+   "market_reason": "shorts need perps; thin perp market, so 1x",
+   "chart": "charts/CHZ-PERP-1792792800.png",
+   "setup": "BREAKOUT20"
   }
  ],
  "closed": [
@@ -705,7 +793,7 @@
     "total_pct": -2.95
    }
   },
-  "open": 7
+  "open": 9
  },
  "backtest": {
   "from": "2026-07-24",
@@ -4269,28 +4357,6 @@
     ]
    },
    {
-    "id": "gaming",
-    "name": "Gaming",
-    "chg7d": -4.19,
-    "top": [
-     "FLOKI",
-     "AXS",
-     "BEAM",
-     "MANA",
-     "SAND"
-    ],
-    "tracked": [
-     "SAND",
-     "BEAT",
-     "ONE",
-     "GALA",
-     "APE",
-     "AXS",
-     "FLOKI",
-     "IMX"
-    ]
-   },
-   {
     "id": "artificial-intelligence",
     "name": "Artificial Intelligence",
     "chg7d": -4.36,
@@ -4326,6 +4392,28 @@
     "tracked": [
      "W",
      "PHA"
+    ]
+   },
+   {
+    "id": "gaming",
+    "name": "Gaming",
+    "chg7d": -5.91,
+    "top": [
+     "FLOKI",
+     "AXS",
+     "BEAM",
+     "MANA",
+     "GOMINING"
+    ],
+    "tracked": [
+     "SAND",
+     "BEAT",
+     "ONE",
+     "GALA",
+     "APE",
+     "AXS",
+     "FLOKI",
+     "IMX"
     ]
    },
    {
@@ -4515,7 +4603,7 @@
   "updated": {
    "unlocks": 1792788979,
    "onchain": 1792795224,
-   "sectors": 1792795522,
+   "sectors": 1792796431,
    "listings": 1792795224,
    "fundamentals": 1792788980
   }
@@ -4551,6 +4639,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "acf01c9d63c98fdc5a9e2e63f21e9302652981c3b70531cd5e262bd79e5de1a6",
- "generated": "2026-10-23T22:55:24+00:00"
+ "digest": "b0b95fe158a1abf3d09e8631706867e8ffdcede70a7b32a37c92bc82eb2fa480",
+ "generated": "2026-10-23T23:01:08+00:00"
 }
