@@ -17,7 +17,7 @@
     0.07727623889092099
    ],
    "lev": 3,
-   "funding_pct": 0.0058,
+   "funding_pct": 0.0065,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-10-22T02:00:00+00:00",
@@ -25,9 +25,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0795,
-   "last_ts": "2026-10-23T03:33:49+00:00",
-   "move_pct": 2.0,
+   "last": 0.07964,
+   "last_ts": "2026-10-23T03:50:31+00:00",
+   "move_pct": 1.82,
    "closed": false,
    "rsi": 37.2,
    "trade_on": null,
@@ -60,9 +60,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 104.2,
-   "last_ts": "2026-10-23T03:33:49+00:00",
-   "move_pct": 1.2,
+   "last": 104.28,
+   "last_ts": "2026-10-23T03:50:31+00:00",
+   "move_pct": 1.13,
    "closed": false,
    "rsi": 37.7,
    "trade_on": null,
@@ -100,9 +100,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.3198,
-   "last_ts": "2026-10-23T03:33:49+00:00",
-   "move_pct": 0.54,
+   "last": 1.3225,
+   "last_ts": "2026-10-23T03:50:31+00:00",
+   "move_pct": 0.34,
    "closed": false,
    "rsi": 31.0,
    "trade_on": null,
@@ -137,7 +137,7 @@
     0.0019120182314873771
    ],
    "lev": 1,
-   "funding_pct": -0.0221,
+   "funding_pct": -0.0158,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-22T16:00:00+00:00",
@@ -145,9 +145,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002107,
-   "last_ts": "2026-10-23T03:33:49+00:00",
-   "move_pct": -0.43,
+   "last": 0.002109,
+   "last_ts": "2026-10-23T03:50:31+00:00",
+   "move_pct": -0.52,
    "closed": false,
    "rsi": 29.2,
    "trade_on": "Perps 1x",
@@ -189,9 +189,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.05029,
-   "last_ts": "2026-10-23T03:33:49+00:00",
-   "move_pct": 0.74,
+   "last": 0.05007,
+   "last_ts": "2026-10-23T03:50:31+00:00",
+   "move_pct": 0.3,
    "closed": false,
    "rsi": 63.0,
    "trade_on": "Spot",
@@ -233,9 +233,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0246067446410218,
-   "last_ts": "2026-10-23T03:33:49+00:00",
-   "move_pct": -10.73,
+   "last": 0.0253824131542499,
+   "last_ts": "2026-10-23T03:50:31+00:00",
+   "move_pct": -7.92,
    "closed": false,
    "rsi": 73.0,
    "trade_on": "On-chain spot (BSC DEX)",
@@ -3664,6 +3664,28 @@
     ]
    },
    {
+    "id": "depin",
+    "name": "DePIN",
+    "chg7d": -2.92,
+    "top": [
+     "TAO",
+     "RENDER",
+     "FIL",
+     "BDX",
+     "GRASS"
+    ],
+    "tracked": [
+     "FIL",
+     "TAO",
+     "GRASS",
+     "RENDER",
+     "AR",
+     "ATH",
+     "PHA",
+     "LPT"
+    ]
+   },
+   {
     "id": "lending-borrowing",
     "name": "Lending Borrowing",
     "chg7d": -3.39,
@@ -3854,28 +3876,6 @@
      "ZK",
      "MINA",
      "ZEN"
-    ]
-   },
-   {
-    "id": "depin",
-    "name": "DePIN",
-    "chg7d": -5.18,
-    "top": [
-     "TAO",
-     "RENDER",
-     "FIL",
-     "BDX",
-     "GRASS"
-    ],
-    "tracked": [
-     "FIL",
-     "TAO",
-     "GRASS",
-     "RENDER",
-     "AR",
-     "ATH",
-     "PHA",
-     "LPT"
     ]
    },
    {
@@ -4184,7 +4184,7 @@
   "updated": {
    "unlocks": 1792723637,
    "onchain": 1792726366,
-   "sectors": 1792725595,
+   "sectors": 1792727431,
    "listings": 1792726366,
    "fundamentals": 1792723638
   }
@@ -4220,6 +4220,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "55d8c55d87bebe59bae624e6e2e723e2addb12e7d39a1df697c1ccfa8597ce95",
- "generated": "2026-10-23T03:33:56+00:00"
+ "digest": "02b83eab6e0ab64ef545b8a3c645cbd3d4a9313eac3c400c17efa32834bfc543",
+ "generated": "2026-10-23T03:50:35+00:00"
 }
