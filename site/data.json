@@ -17,7 +17,7 @@
     0.07727623889092099
    ],
    "lev": 3,
-   "funding_pct": 0.0064,
+   "funding_pct": 0.0067,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-10-22T02:00:00+00:00",
@@ -25,9 +25,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.08009,
-   "last_ts": "2026-10-23T16:43:47+00:00",
-   "move_pct": 1.27,
+   "last": 0.07994,
+   "last_ts": "2026-10-23T17:05:52+00:00",
+   "move_pct": 1.45,
    "closed": false,
    "rsi": 37.2,
    "trade_on": null,
@@ -52,7 +52,7 @@
     99.9796045174737
    ],
    "lev": 3,
-   "funding_pct": 0.006,
+   "funding_pct": 0.0066,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-10-22T03:00:00+00:00",
@@ -60,9 +60,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 104.77,
-   "last_ts": "2026-10-23T16:43:47+00:00",
-   "move_pct": 0.66,
+   "last": 104.62,
+   "last_ts": "2026-10-23T17:05:52+00:00",
+   "move_pct": 0.81,
    "closed": false,
    "rsi": 37.7,
    "trade_on": null,
@@ -97,7 +97,7 @@
     0.0019120182314873771
    ],
    "lev": 1,
-   "funding_pct": -0.0225,
+   "funding_pct": -0.0246,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-22T16:00:00+00:00",
@@ -105,9 +105,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002115,
-   "last_ts": "2026-10-23T16:43:47+00:00",
-   "move_pct": -0.81,
+   "last": 0.002101,
+   "last_ts": "2026-10-23T17:05:52+00:00",
+   "move_pct": -0.14,
    "closed": false,
    "rsi": 29.2,
    "trade_on": "Perps 1x",
@@ -149,9 +149,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.05138,
-   "last_ts": "2026-10-23T16:43:47+00:00",
-   "move_pct": 2.92,
+   "last": 0.05256,
+   "last_ts": "2026-10-23T17:05:52+00:00",
+   "move_pct": 5.29,
    "closed": false,
    "rsi": 63.0,
    "trade_on": "Spot",
@@ -194,14 +194,104 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04116,
-   "last_ts": "2026-10-23T16:43:47+00:00",
-   "move_pct": 2.31,
+   "last": 0.04081,
+   "last_ts": "2026-10-23T17:05:52+00:00",
+   "move_pct": 1.44,
    "closed": false,
    "rsi": 59.7,
    "trade_on": "Spot",
    "market_reason": "thin perp market: spot is safer",
    "chart": "charts/KMNO-SPOT-1792767600.png",
+   "setup": "BREAKOUT20"
+  },
+  {
+   "id": "INJ-PERP-1792771200",
+   "kind": "TA",
+   "score": -1,
+   "reasons": [
+    "Chart: Break of structure: closed below the last swing low 7.8410, after a lower high",
+    "Timeframes: 1d flat, 4h up, 4h structure lower highs/lows",
+    "Next support 6.8260 (3.9R away, 4h swing)",
+    "Stop 8.0324 (2 ATR); targets at the next 2 level(s)",
+    "BTC 4h trend flat",
+    "Weaker than BTC by 10.6% over 7d",
+    "OI +1% 24h",
+    "Sector: Real World Assets RWA +0.0% 7d (leading, #1 of 20)",
+    "Track record: +7.0R on INJ in the last 45 days (backtest)"
+   ],
+   "coin": "INJ",
+   "market": "PERP",
+   "side": "SHORT",
+   "entry": 7.788,
+   "sl0": 8.03241681994306,
+   "sl": 8.03241681994306,
+   "tps": [
+    6.8443312614957295,
+    6.55833126149573,
+    6.31391444155267
+   ],
+   "lev": 2,
+   "funding_pct": 0.0018,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-10-23T17:00:00+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 7.808,
+   "last_ts": "2026-10-23T17:05:52+00:00",
+   "move_pct": -0.26,
+   "closed": false,
+   "rsi": 30.0,
+   "trade_on": "Perps 2x",
+   "market_reason": "shorts need perps; 2x keeps liquidation 3x+ further away than the stop",
+   "chart": "charts/INJ-PERP-1792771200.png",
+   "setup": "BOS"
+  },
+  {
+   "id": "ARKM-SPOT-1792771200",
+   "kind": "TA",
+   "score": 1,
+   "reasons": [
+    "Chart: Broke the 20-hour high on 12.8x volume",
+    "Timeframes: 1d up, 4h up, 4h structure higher highs/lows",
+    "No resistance overhead in the last 50 days",
+    "Stop 0.12322 (structure); targets at 1R/2R/3R",
+    "BTC 4h trend flat",
+    "Stronger than BTC by 10.3% over 7d",
+    "OI +1% 24h",
+    "Sector: Exchange Based Tokens -1.9% 7d (leading, #4 of 20)",
+    "Track record: +0.3R on ARKM in the last 45 days (backtest)"
+   ],
+   "coin": "ARKM",
+   "market": "SPOT",
+   "side": "LONG",
+   "entry": 0.13603,
+   "sl0": 0.12361281946824898,
+   "sl": 0.12361281946824898,
+   "tps": [
+    0.14844718053175107,
+    0.1608643610635021,
+    0.17328154159525316
+   ],
+   "lev": null,
+   "funding_pct": null,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-10-23T17:00:00+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.13577,
+   "last_ts": "2026-10-23T17:05:52+00:00",
+   "move_pct": -0.19,
+   "closed": false,
+   "rsi": 66.6,
+   "trade_on": "Spot",
+   "market_reason": "thin perp market: spot is safer",
+   "chart": "charts/ARKM-SPOT-1792771200.png",
    "setup": "BREAKOUT20"
   }
  ],
@@ -562,7 +652,7 @@
     "total_pct": 0.56
    }
   },
-  "open": 5
+  "open": 7
  },
  "backtest": {
   "from": "2026-07-24",
@@ -3886,6 +3976,25 @@
     ]
    },
    {
+    "id": "oracle",
+    "name": "Oracle",
+    "chg7d": -3.43,
+    "top": [
+     "LINK",
+     "PYTH",
+     "RED",
+     "RLC",
+     "WIN"
+    ],
+    "tracked": [
+     "LINK",
+     "PYTH",
+     "TRB",
+     "PHA",
+     "API3"
+    ]
+   },
+   {
     "id": "solana-meme-coins",
     "name": "Solana Meme Coins",
     "chg7d": -3.74,
@@ -3905,25 +4014,6 @@
      "BONK",
      "FARTCOIN",
      "BOME"
-    ]
-   },
-   {
-    "id": "oracle",
-    "name": "Oracle",
-    "chg7d": -4.01,
-    "top": [
-     "LINK",
-     "PYTH",
-     "RED",
-     "RLC",
-     "WIN"
-    ],
-    "tracked": [
-     "LINK",
-     "PYTH",
-     "TRB",
-     "PHA",
-     "API3"
     ]
    },
    {
@@ -4298,8 +4388,8 @@
   "updated": {
    "unlocks": 1792767180,
    "onchain": 1792772467,
-   "sectors": 1792773447,
-   "listings": 1792771256,
+   "sectors": 1792775152,
+   "listings": 1792775152,
    "fundamentals": 1792767180
   }
  },
@@ -4334,6 +4424,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "8350028391f7737cfe05400477c90119a4bf6867dd123bc79307608b25dcab18",
- "generated": "2026-10-23T16:43:49+00:00"
+ "digest": "6346e54cb4ce1ee55c0a8fd60309feb9aa5656f4baf3a55c1f6739bc1943d8f5",
+ "generated": "2026-10-23T17:06:26+00:00"
 }
