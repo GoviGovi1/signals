@@ -17,7 +17,7 @@
     0.07727623889092099
    ],
    "lev": 3,
-   "funding_pct": 0.0037,
+   "funding_pct": 0.0043,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-10-22T02:00:00+00:00",
@@ -25,9 +25,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.07897,
-   "last_ts": "2026-10-23T02:03:13+00:00",
-   "move_pct": 2.65,
+   "last": 0.07938,
+   "last_ts": "2026-10-23T02:22:59+00:00",
+   "move_pct": 2.14,
    "closed": false,
    "rsi": 37.2,
    "trade_on": null,
@@ -60,9 +60,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 103.86,
-   "last_ts": "2026-10-23T02:03:13+00:00",
-   "move_pct": 1.53,
+   "last": 104.29,
+   "last_ts": "2026-10-23T02:22:59+00:00",
+   "move_pct": 1.12,
    "closed": false,
    "rsi": 37.7,
    "trade_on": null,
@@ -87,7 +87,7 @@
     11.489897951817015
    ],
    "lev": 3,
-   "funding_pct": -0.0004,
+   "funding_pct": 0.0006,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-10-22T04:00:00+00:00",
@@ -95,9 +95,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 12.012,
-   "last_ts": "2026-10-23T02:03:13+00:00",
-   "move_pct": 2.03,
+   "last": 12.078,
+   "last_ts": "2026-10-23T02:22:59+00:00",
+   "move_pct": 1.49,
    "closed": false,
    "rsi": 39.0,
    "trade_on": null,
@@ -122,7 +122,7 @@
     718.1143758376251
    ],
    "lev": 3,
-   "funding_pct": 0.0009,
+   "funding_pct": 0.002,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-10-22T08:00:00+00:00",
@@ -130,9 +130,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 732.7,
-   "last_ts": "2026-10-23T02:03:13+00:00",
-   "move_pct": 0.57,
+   "last": 735.5,
+   "last_ts": "2026-10-23T02:22:59+00:00",
+   "move_pct": 0.19,
    "closed": false,
    "rsi": 34.7,
    "trade_on": null,
@@ -170,9 +170,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.3101,
-   "last_ts": "2026-10-23T02:03:13+00:00",
-   "move_pct": 1.27,
+   "last": 1.3177,
+   "last_ts": "2026-10-23T02:22:59+00:00",
+   "move_pct": 0.7,
    "closed": false,
    "rsi": 31.0,
    "trade_on": null,
@@ -207,7 +207,7 @@
     0.0019120182314873771
    ],
    "lev": 1,
-   "funding_pct": -0.038,
+   "funding_pct": -0.034,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-22T16:00:00+00:00",
@@ -215,9 +215,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002066,
-   "last_ts": "2026-10-23T02:03:13+00:00",
-   "move_pct": 1.53,
+   "last": 0.002079,
+   "last_ts": "2026-10-23T02:22:59+00:00",
+   "move_pct": 0.91,
    "closed": false,
    "rsi": 29.2,
    "trade_on": "Perps 1x",
@@ -3389,7 +3389,27 @@
    }
   ],
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
-  "onchain": [],
+  "onchain": [
+   {
+    "chain": "BSC",
+    "symbol": "DNA",
+    "name": "DE NEO AGENT",
+    "token": "0xa991f61940095aea0724ef54077223b048c5cf7b",
+    "price": 0.191560549524864,
+    "liq": 1741321,
+    "vol24h": 94494471,
+    "age_d": 7.7,
+    "chg24h": -1.732,
+    "chg7d": 2.8,
+    "mcap": 24901053.307,
+    "safety": "ok",
+    "safety_notes": [],
+    "trigger": false,
+    "trend_up": false,
+    "rsi": 47.2,
+    "url": "https://www.geckoterminal.com/bsc/pools/0xd0949ad5874cee7991ccd4cc2c5f7f80a7be4a220689cf5947ccb12a946fa50d"
+   }
+  ],
   "onchain_checked": 87,
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
@@ -3627,28 +3647,6 @@
     ]
    },
    {
-    "id": "gaming",
-    "name": "Gaming",
-    "chg7d": -4.69,
-    "top": [
-     "FLOKI",
-     "AXS",
-     "MANA",
-     "BEAM",
-     "SAND"
-    ],
-    "tracked": [
-     "SAND",
-     "BEAT",
-     "GALA",
-     "ONE",
-     "APE",
-     "AXS",
-     "IMX",
-     "FLOKI"
-    ]
-   },
-   {
     "id": "depin",
     "name": "DePIN",
     "chg7d": -5.18,
@@ -3668,6 +3666,28 @@
      "ATH",
      "PHA",
      "LPT"
+    ]
+   },
+   {
+    "id": "gaming",
+    "name": "Gaming",
+    "chg7d": -5.3,
+    "top": [
+     "FLOKI",
+     "AXS",
+     "MANA",
+     "SAND",
+     "BEAM"
+    ],
+    "tracked": [
+     "SAND",
+     "BEAT",
+     "GALA",
+     "ONE",
+     "APE",
+     "AXS",
+     "IMX",
+     "FLOKI"
     ]
    },
    {
@@ -3975,9 +3995,9 @@
   ],
   "updated": {
    "unlocks": 1792701454,
-   "onchain": 1792718403,
-   "sectors": 1792720908,
-   "listings": 1792718402,
+   "onchain": 1792722116,
+   "sectors": 1792722116,
+   "listings": 1792722116,
    "fundamentals": 1792701455
   }
  },
@@ -4012,6 +4032,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "3f37f91a0224f11d658d5e363952c8b04a1d5c5e1bb13d8d56378c7eb5206599",
- "generated": "2026-10-23T02:03:15+00:00"
+ "digest": "458c8bcbdd04ddac58e7da8c4c21bc8d3ff0f4078b50b14932a6ed2e94ca0bb2",
+ "generated": "2026-10-23T02:23:01+00:00"
 }
