@@ -17,7 +17,7 @@
     0.07727623889092099
    ],
    "lev": 3,
-   "funding_pct": 0.0076,
+   "funding_pct": 0.0069,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-10-22T02:00:00+00:00",
@@ -25,9 +25,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0803,
-   "last_ts": "2026-10-23T11:44:22+00:00",
-   "move_pct": 1.01,
+   "last": 0.08011,
+   "last_ts": "2026-10-23T12:02:40+00:00",
+   "move_pct": 1.25,
    "closed": false,
    "rsi": 37.2,
    "trade_on": null,
@@ -52,7 +52,7 @@
     99.9796045174737
    ],
    "lev": 3,
-   "funding_pct": 0.0045,
+   "funding_pct": 0.0042,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-10-22T03:00:00+00:00",
@@ -60,9 +60,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 104.4,
-   "last_ts": "2026-10-23T11:44:22+00:00",
-   "move_pct": 1.01,
+   "last": 104.32,
+   "last_ts": "2026-10-23T12:02:40+00:00",
+   "move_pct": 1.09,
    "closed": false,
    "rsi": 37.7,
    "trade_on": null,
@@ -97,7 +97,7 @@
     0.0019120182314873771
    ],
    "lev": 1,
-   "funding_pct": -0.0327,
+   "funding_pct": -0.0312,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-22T16:00:00+00:00",
@@ -105,9 +105,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002108,
-   "last_ts": "2026-10-23T11:44:22+00:00",
-   "move_pct": -0.48,
+   "last": 0.002102,
+   "last_ts": "2026-10-23T12:02:40+00:00",
+   "move_pct": -0.19,
    "closed": false,
    "rsi": 29.2,
    "trade_on": "Perps 1x",
@@ -149,15 +149,59 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04995,
-   "last_ts": "2026-10-23T11:44:22+00:00",
-   "move_pct": 0.06,
+   "last": 0.04992,
+   "last_ts": "2026-10-23T12:02:40+00:00",
+   "move_pct": 0.0,
    "closed": false,
    "rsi": 63.0,
    "trade_on": "Spot",
    "market_reason": "thin perp market: spot is safer",
    "chart": "charts/SLX-SPOT-1792720800.png",
    "setup": "BOS"
+  },
+  {
+   "id": "LIGHT-PERP-1792753200",
+   "kind": "TA",
+   "score": 1,
+   "reasons": [
+    "Chart: Broke out of a 7-day range at 0.2251 (range 0.1978\u20130.2251) on 2.3x volume",
+    "Timeframes: 1d up, 4h up, 4h structure lower highs/lows",
+    "No resistance overhead in the last 50 days",
+    "Stop 0.22288 (below the breakout level); targets at 1R/2R/3R",
+    "BTC 4h trend flat",
+    "Stronger than BTC by 8.7% over 7d",
+    "OI +8% 24h with breakout",
+    "Track record: +0.5R on LIGHT in the last 45 days (backtest)"
+   ],
+   "coin": "LIGHT",
+   "market": "PERP",
+   "side": "LONG",
+   "entry": 0.2271,
+   "sl0": 0.22288283261614703,
+   "sl": 0.22288283261614703,
+   "tps": [
+    0.23131716738385297,
+    0.23553433476770594,
+    0.2397515021515589
+   ],
+   "lev": 1,
+   "funding_pct": 0.005,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-10-23T12:00:00+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.2273,
+   "last_ts": "2026-10-23T12:02:40+00:00",
+   "move_pct": 0.09,
+   "closed": false,
+   "rsi": 67.3,
+   "trade_on": "Perps 1x",
+   "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
+   "chart": "charts/LIGHT-PERP-1792753200.png",
+   "setup": "RANGE_BREAK"
   }
  ],
  "closed": [
@@ -464,7 +508,7 @@
     "total_pct": 0.56
    }
   },
-  "open": 4
+  "open": 5
  },
  "backtest": {
   "from": "2026-07-24",
@@ -3580,8 +3624,66 @@
    }
   ],
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
-  "onchain": [],
-  "onchain_checked": 85,
+  "onchain": [
+   {
+    "chain": "BSC",
+    "symbol": "BTR",
+    "name": "BTR token",
+    "token": "0xfed13d0c40790220fbde712987079eda1ed75c51",
+    "price": 0.0607306793550404,
+    "liq": 606581,
+    "vol24h": 15958793,
+    "age_d": 424.0,
+    "chg24h": 39.563,
+    "chg7d": 28.5,
+    "mcap": 15924276.552264,
+    "safety": "ok",
+    "safety_notes": [],
+    "trigger": false,
+    "trend_up": true,
+    "rsi": 59.3,
+    "url": "https://www.geckoterminal.com/bsc/pools/0x787abd73593bed588852163402d191c302c7f8b6"
+   },
+   {
+    "chain": "Ethereum",
+    "symbol": "PAXG",
+    "name": "Paxos Gold",
+    "token": "0x45804880de22913dafe09f4980848ece6ecbaf78",
+    "price": 4052.52460116946,
+    "liq": 5504046,
+    "vol24h": 6380742,
+    "age_d": 365.9,
+    "chg24h": -0.302,
+    "chg7d": -3.1,
+    "mcap": 1793146132.13927,
+    "safety": "ok",
+    "safety_notes": [],
+    "trigger": false,
+    "trend_up": false,
+    "rsi": 51.4,
+    "url": "https://www.geckoterminal.com/eth/pools/0xc756bba710d45647715079ce50aa16aab36ded42"
+   },
+   {
+    "chain": "Arbitrum",
+    "symbol": "ARB",
+    "name": "Arbitrum",
+    "token": "0x912ce59144191c1204e64559fe8253a0e49e6548",
+    "price": 0.18011265228809,
+    "liq": 1876843,
+    "vol24h": 4715639,
+    "age_d": 1316.4,
+    "chg24h": -1.831,
+    "chg7d": -10.4,
+    "mcap": 1240842346.80765,
+    "safety": "ok",
+    "safety_notes": [],
+    "trigger": false,
+    "trend_up": false,
+    "rsi": 42.7,
+    "url": "https://www.geckoterminal.com/arbitrum/pools/0xc6f780497a95e246eb9449f5e4770916dcd6396a"
+   }
+  ],
+  "onchain_checked": 86,
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
@@ -3697,7 +3799,7 @@
    {
     "id": "lending-borrowing",
     "name": "Lending Borrowing",
-    "chg7d": -2.92,
+    "chg7d": -2.89,
     "top": [
      "AAVE",
      "MORPHO",
@@ -4166,8 +4268,8 @@
   ],
   "updated": {
    "unlocks": 1792745333,
-   "onchain": 1792753318,
-   "sectors": 1792755410,
+   "onchain": 1792756900,
+   "sectors": 1792756900,
    "listings": 1792755410,
    "fundamentals": 1792745334
   }
@@ -4203,6 +4305,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "93ae380ecd23820815fc5d7d8cb97dc7f37cafafc553678242bd66876d3da075",
- "generated": "2026-10-23T11:44:24+00:00"
+ "digest": "e1f7699e3332a4139fbfff9db9adc5f4ea141ec8b86708895329410637da2225",
+ "generated": "2026-10-23T12:03:04+00:00"
 }

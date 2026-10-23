@@ -1,5 +1,5 @@
 {
- "checked": 85,
+ "checked": 86,
  "errors": [],
  "rejected": [
   {
@@ -9,14 +9,6 @@
     "pool younger than 7 days"
    ],
    "symbol": "VIRTUAL"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "liquidity under $250k",
-    "pool younger than 7 days"
-   ],
-   "symbol": "PHP"
   },
   {
    "chain": "Solana",
@@ -31,14 +23,15 @@
     "liquidity under $250k",
     "pool younger than 7 days"
    ],
-   "symbol": "BLACKTOBER"
+   "symbol": "PHP"
   },
   {
    "chain": "Solana",
    "fails": [
-    "no DEX candles"
+    "liquidity under $250k",
+    "pool younger than 7 days"
    ],
-   "symbol": "PUMP"
+   "symbol": "BLACKTOBER"
   },
   {
    "chain": "Solana",
@@ -60,6 +53,20 @@
    "fails": [
     "no DEX candles"
    ],
+   "symbol": "DACITY"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "no DEX candles"
+   ],
+   "symbol": "CARDS"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "no DEX candles"
+   ],
    "symbol": "ANSEM"
   },
   {
@@ -75,14 +82,22 @@
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "DACITY"
+   "symbol": "PUMP"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "liquidity under $250k",
+    "pool younger than 7 days"
+   ],
+   "symbol": "SCRIBES"
   },
   {
    "chain": "Solana",
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "CARDS"
+   "symbol": "JEANPHIL"
   },
   {
    "chain": "Solana",
@@ -96,24 +111,9 @@
    "chain": "Solana",
    "fails": [
     "liquidity under $250k",
-    "24h volume under $250k"
-   ],
-   "symbol": "PENGU"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "liquidity under $250k",
     "pool younger than 7 days"
    ],
    "symbol": "CYBER"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "JEANPHIL"
   },
   {
    "chain": "Solana",
@@ -150,7 +150,7 @@
     "liquidity under $250k",
     "24h volume under $250k"
    ],
-   "symbol": "FTR"
+   "symbol": "PENGU"
   },
   {
    "chain": "Base",
@@ -171,13 +171,6 @@
    "fails": [
     "24h volume under $250k"
    ],
-   "symbol": "TIBBIR"
-  },
-  {
-   "chain": "Base",
-   "fails": [
-    "24h volume under $250k"
-   ],
    "symbol": "DRB"
   },
   {
@@ -186,6 +179,13 @@
     "no DEX candles"
    ],
    "symbol": "XDP"
+  },
+  {
+   "chain": "Base",
+   "fails": [
+    "24h volume under $250k"
+   ],
+   "symbol": "TIBBIR"
   },
   {
    "chain": "Base",
@@ -211,6 +211,14 @@
   {
    "chain": "Base",
    "fails": [
+    "liquidity under $250k",
+    "24h volume under $250k"
+   ],
+   "symbol": "OWB"
+  },
+  {
+   "chain": "Base",
+   "fails": [
     "24h volume under $250k"
    ],
    "symbol": "DOT"
@@ -226,32 +234,9 @@
   {
    "chain": "Base",
    "fails": [
-    "liquidity under $250k",
-    "24h volume under $250k"
-   ],
-   "symbol": "OWB"
-  },
-  {
-   "chain": "Base",
-   "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "PROS"
-  },
-  {
-   "chain": "Base",
-   "fails": [
     "no DEX candles"
    ],
    "symbol": "CTR"
-  },
-  {
-   "chain": "Base",
-   "fails": [
-    "liquidity under $250k",
-    "pool younger than 7 days"
-   ],
-   "symbol": "PANGEA"
   },
   {
    "chain": "Base",
@@ -263,9 +248,10 @@
   {
    "chain": "Base",
    "fails": [
-    "no DEX candles"
+    "liquidity under $250k",
+    "pool younger than 7 days"
    ],
-   "symbol": "TRUE"
+   "symbol": "PANGEA"
   },
   {
    "chain": "Base",
@@ -279,7 +265,21 @@
    "fails": [
     "no DEX candles"
    ],
+   "symbol": "PROS"
+  },
+  {
+   "chain": "Base",
+   "fails": [
+    "no DEX candles"
+   ],
    "symbol": "ELSA"
+  },
+  {
+   "chain": "Base",
+   "fails": [
+    "no DEX candles"
+   ],
+   "symbol": "TRUE"
   },
   {
    "chain": "BSC",
@@ -297,6 +297,91 @@
   }
  ],
  "rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
- "updated": 1792753318,
- "watchlist": []
+ "updated": 1792756900,
+ "watchlist": [
+  {
+   "age_d": 424.0,
+   "atr": 0.003752717702829373,
+   "bar_ts": 1792753200000,
+   "chain": "BSC",
+   "chg24h": 39.563,
+   "chg7d": 28.5,
+   "close": 0.060875966483773,
+   "ema20": 0.05898355325237425,
+   "ema50": 0.05349409039795504,
+   "fails": [],
+   "gecko_id": "bitlayer-bitvm",
+   "liq": 606581,
+   "mcap": 15924276.552264,
+   "name": "BTR token",
+   "net": "bsc",
+   "pool": "0x787abd73593bed588852163402d191c302c7f8b6",
+   "price": 0.0607306793550404,
+   "rsi": 59.3,
+   "safety": "ok",
+   "safety_notes": [],
+   "symbol": "BTR",
+   "token": "0xfed13d0c40790220fbde712987079eda1ed75c51",
+   "trend_up": true,
+   "trigger": false,
+   "url": "https://www.geckoterminal.com/bsc/pools/0x787abd73593bed588852163402d191c302c7f8b6",
+   "vol24h": 15958793
+  },
+  {
+   "age_d": 365.9,
+   "atr": 21.124757829692697,
+   "bar_ts": 1792753200000,
+   "chain": "Ethereum",
+   "chg24h": -0.302,
+   "chg7d": -3.1,
+   "close": 4052.52460116946,
+   "ema20": 4040.7186519188986,
+   "ema50": 4067.9832385470727,
+   "fails": [],
+   "gecko_id": "pax-gold",
+   "liq": 5504046,
+   "mcap": 1793146132.13927,
+   "name": "Paxos Gold",
+   "net": "eth",
+   "pool": "0xc756bba710d45647715079ce50aa16aab36ded42",
+   "price": 4052.52460116946,
+   "rsi": 51.4,
+   "safety": "ok",
+   "safety_notes": [],
+   "symbol": "PAXG",
+   "token": "0x45804880de22913dafe09f4980848ece6ecbaf78",
+   "trend_up": false,
+   "trigger": false,
+   "url": "https://www.geckoterminal.com/eth/pools/0xc756bba710d45647715079ce50aa16aab36ded42",
+   "vol24h": 6380742
+  },
+  {
+   "age_d": 1316.4,
+   "atr": 0.0022215868867472787,
+   "bar_ts": 1792753200000,
+   "chain": "Arbitrum",
+   "chg24h": -1.831,
+   "chg7d": -10.4,
+   "close": 0.180302495973863,
+   "ema20": 0.18173284277784546,
+   "ema50": 0.18418090813220475,
+   "fails": [],
+   "gecko_id": "arbitrum",
+   "liq": 1876843,
+   "mcap": 1240842346.80765,
+   "name": "Arbitrum",
+   "net": "arbitrum",
+   "pool": "0xc6f780497a95e246eb9449f5e4770916dcd6396a",
+   "price": 0.18011265228809,
+   "rsi": 42.7,
+   "safety": "ok",
+   "safety_notes": [],
+   "symbol": "ARB",
+   "token": "0x912ce59144191c1204e64559fe8253a0e49e6548",
+   "trend_up": false,
+   "trigger": false,
+   "url": "https://www.geckoterminal.com/arbitrum/pools/0xc6f780497a95e246eb9449f5e4770916dcd6396a",
+   "vol24h": 4715639
+  }
+ ]
 }
