@@ -17,7 +17,7 @@
     0.07727623889092099
    ],
    "lev": 3,
-   "funding_pct": 0.0049,
+   "funding_pct": 0.0056,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-10-22T02:00:00+00:00",
@@ -25,9 +25,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.08007,
-   "last_ts": "2026-10-23T16:00:56+00:00",
-   "move_pct": 1.29,
+   "last": 0.08004,
+   "last_ts": "2026-10-23T16:22:08+00:00",
+   "move_pct": 1.33,
    "closed": false,
    "rsi": 37.2,
    "trade_on": null,
@@ -52,7 +52,7 @@
     99.9796045174737
    ],
    "lev": 3,
-   "funding_pct": 0.0045,
+   "funding_pct": 0.0051,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-10-22T03:00:00+00:00",
@@ -60,9 +60,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 104.61,
-   "last_ts": "2026-10-23T16:00:56+00:00",
-   "move_pct": 0.82,
+   "last": 104.5,
+   "last_ts": "2026-10-23T16:22:08+00:00",
+   "move_pct": 0.92,
    "closed": false,
    "rsi": 37.7,
    "trade_on": null,
@@ -97,7 +97,7 @@
     0.0019120182314873771
    ],
    "lev": 1,
-   "funding_pct": -0.0255,
+   "funding_pct": -0.0203,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-22T16:00:00+00:00",
@@ -105,9 +105,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002105,
-   "last_ts": "2026-10-23T16:00:56+00:00",
-   "move_pct": -0.33,
+   "last": 0.002117,
+   "last_ts": "2026-10-23T16:22:08+00:00",
+   "move_pct": -0.91,
    "closed": false,
    "rsi": 29.2,
    "trade_on": "Perps 1x",
@@ -134,7 +134,7 @@
    "side": "LONG",
    "entry": 0.04992,
    "sl0": 0.048839626060705306,
-   "sl": 0.048839626060705306,
+   "sl": 0.04992,
    "tps": [
     0.05337826296196327,
     0.056067724207707316,
@@ -142,16 +142,16 @@
    ],
    "lev": null,
    "funding_pct": null,
-   "status": "open",
-   "hits": 0,
+   "status": "tp1",
+   "hits": 1,
    "opened": "2026-10-23T03:00:00+00:00",
    "closed_at": null,
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.05254,
-   "last_ts": "2026-10-23T16:00:56+00:00",
-   "move_pct": 5.25,
+   "last": 0.0518,
+   "last_ts": "2026-10-23T16:22:08+00:00",
+   "move_pct": 3.77,
    "closed": false,
    "rsi": 63.0,
    "trade_on": "Spot",
@@ -194,9 +194,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.03996,
-   "last_ts": "2026-10-23T16:00:56+00:00",
-   "move_pct": -0.67,
+   "last": 0.04049,
+   "last_ts": "2026-10-23T16:22:08+00:00",
+   "move_pct": 0.65,
    "closed": false,
    "rsi": 59.7,
    "trade_on": "Spot",
@@ -3693,61 +3693,23 @@
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
   "onchain": [
    {
-    "chain": "Base",
-    "symbol": "PROS",
-    "name": "Wrapped PROS",
-    "token": "0x8b7dde054be9d180c1be7fae0874697374a49832",
-    "price": 0.67650703902064,
-    "liq": 973500,
-    "vol24h": 5231287,
-    "age_d": 163.1,
-    "chg24h": 8.39,
-    "chg7d": 5.4,
-    "mcap": 2644260.22280729,
-    "safety": "ok",
-    "safety_notes": [],
-    "trigger": false,
-    "trend_up": true,
-    "rsi": 76.8,
-    "url": "https://www.geckoterminal.com/base/pools/0x8a8e4170c09074b109352190d47e54d7c1f61e4e"
-   },
-   {
-    "chain": "Ethereum",
-    "symbol": "PAXG",
-    "name": "Paxos Gold",
-    "token": "0x45804880de22913dafe09f4980848ece6ecbaf78",
-    "price": 4013.86740763468,
-    "liq": 5471249,
-    "vol24h": 7013889,
-    "age_d": 366.1,
-    "chg24h": -1.477,
-    "chg7d": -3.3,
-    "mcap": 1776041239.78494,
+    "chain": "BSC",
+    "symbol": "COLLECT",
+    "name": "Collect on Fanable",
+    "token": "0x4b3d30992f003c8167699735f5ab2831b2a087d3",
+    "price": 0.0237812959469056,
+    "liq": 2356000,
+    "vol24h": 2541611,
+    "age_d": 301.3,
+    "chg24h": 1.063,
+    "chg7d": 10.5,
+    "mcap": 12770555.92515,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 45.0,
-    "url": "https://www.geckoterminal.com/eth/pools/0xc756bba710d45647715079ce50aa16aab36ded42"
-   },
-   {
-    "chain": "Solana",
-    "symbol": "DACITY",
-    "name": "Dacity Coin",
-    "token": "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump",
-    "price": 0.01131902094449148,
-    "liq": 440285,
-    "vol24h": 2965492,
-    "age_d": 12.2,
-    "chg24h": 6.271,
-    "chg7d": 542.6,
-    "mcap": 11127181.2398453,
-    "safety": "ok",
-    "safety_notes": [],
-    "trigger": false,
-    "trend_up": false,
-    "rsi": 47.1,
-    "url": "https://www.geckoterminal.com/solana/pools/G2UuRbmVDzDFP4qyoBJrSKBXSi7d6V4bPP9tHPs36y4b"
+    "rsi": 46.7,
+    "url": "https://www.geckoterminal.com/bsc/pools/0xef470f9ae8512d2762e4f1cd91ae58caea17143afa61b8d56e9b20c8f87688c4"
    }
   ],
   "onchain_checked": 85,
@@ -4075,6 +4037,21 @@
     ]
    },
    {
+    "id": "privacy-coins",
+    "name": "Privacy Coins",
+    "chg7d": -4.75,
+    "top": [
+     "ZEC",
+     "XMR",
+     "DCR",
+     "ZANO",
+     "NOCK"
+    ],
+    "tracked": [
+     "ZEC"
+    ]
+   },
+   {
     "id": "depin",
     "name": "DePIN",
     "chg7d": -4.78,
@@ -4149,21 +4126,6 @@
     "tracked": [
      "W",
      "PHA"
-    ]
-   },
-   {
-    "id": "privacy-coins",
-    "name": "Privacy Coins",
-    "chg7d": -6.95,
-    "top": [
-     "ZEC",
-     "XMR",
-     "DCR",
-     "ZANO",
-     "NOCK"
-    ],
-    "tracked": [
-     "ZEC"
     ]
    }
   ],
@@ -4335,8 +4297,8 @@
   ],
   "updated": {
    "unlocks": 1792767180,
-   "onchain": 1792768651,
-   "sectors": 1792771256,
+   "onchain": 1792772467,
+   "sectors": 1792772467,
    "listings": 1792771256,
    "fundamentals": 1792767180
   }
@@ -4372,6 +4334,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "2c56cef2a87796a0b50fd85ab82b00f6b823a8303b3e08a8e8891870e858110a",
- "generated": "2026-10-23T16:01:49+00:00"
+ "digest": "696e6a21a0a261b0da1ce93a78ccf9531c7b9619eb8d281ef6615b4ff5235798",
+ "generated": "2026-10-23T16:22:11+00:00"
 }
