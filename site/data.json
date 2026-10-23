@@ -25,9 +25,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.07936,
-   "last_ts": "2026-10-23T21:10:55+00:00",
-   "move_pct": 2.17,
+   "last": 0.07934,
+   "last_ts": "2026-10-23T21:15:21+00:00",
+   "move_pct": 2.19,
    "closed": false,
    "rsi": 37.2,
    "trade_on": null,
@@ -52,7 +52,7 @@
     99.9796045174737
    ],
    "lev": 3,
-   "funding_pct": 0.0074,
+   "funding_pct": 0.0076,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-10-22T03:00:00+00:00",
@@ -61,7 +61,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 103.98,
-   "last_ts": "2026-10-23T21:10:55+00:00",
+   "last_ts": "2026-10-23T21:15:21+00:00",
    "move_pct": 1.41,
    "closed": false,
    "rsi": 37.7,
@@ -104,9 +104,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.05187,
-   "last_ts": "2026-10-23T21:10:55+00:00",
-   "move_pct": 3.91,
+   "last": 0.05223,
+   "last_ts": "2026-10-23T21:15:21+00:00",
+   "move_pct": 4.63,
    "closed": false,
    "rsi": 63.0,
    "trade_on": "Spot",
@@ -149,9 +149,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04138,
-   "last_ts": "2026-10-23T21:10:55+00:00",
-   "move_pct": 2.86,
+   "last": 0.0413,
+   "last_ts": "2026-10-23T21:15:21+00:00",
+   "move_pct": 2.66,
    "closed": false,
    "rsi": 59.7,
    "trade_on": "Spot",
@@ -186,7 +186,7 @@
     6.31391444155267
    ],
    "lev": 2,
-   "funding_pct": 0.0006,
+   "funding_pct": 0.0004,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-23T17:00:00+00:00",
@@ -194,9 +194,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 7.819,
-   "last_ts": "2026-10-23T21:10:55+00:00",
-   "move_pct": -0.4,
+   "last": 7.811,
+   "last_ts": "2026-10-23T21:15:21+00:00",
+   "move_pct": -0.3,
    "closed": false,
    "rsi": 30.0,
    "trade_on": "Perps 2x",
@@ -239,9 +239,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.13651,
-   "last_ts": "2026-10-23T21:10:55+00:00",
-   "move_pct": 0.35,
+   "last": 0.1357,
+   "last_ts": "2026-10-23T21:15:21+00:00",
+   "move_pct": -0.24,
    "closed": false,
    "rsi": 66.6,
    "trade_on": "Spot",
@@ -283,9 +283,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0988869737011336,
-   "last_ts": "2026-10-23T21:10:55+00:00",
-   "move_pct": 3.94,
+   "last": 0.108361358913404,
+   "last_ts": "2026-10-23T21:15:21+00:00",
+   "move_pct": 13.9,
    "closed": false,
    "rsi": 71.1,
    "trade_on": "On-chain spot (BSC DEX)",
@@ -4295,6 +4295,28 @@
     ]
    },
    {
+    "id": "artificial-intelligence",
+    "name": "Artificial Intelligence",
+    "chg7d": -4.36,
+    "top": [
+     "NEAR",
+     "TAO",
+     "SN0",
+     "ICP",
+     "VVV"
+    ],
+    "tracked": [
+     "NEAR",
+     "TAO",
+     "VVV",
+     "GRASS",
+     "ICP",
+     "DATA",
+     "RENDER",
+     "ARKM"
+    ]
+   },
+   {
     "id": "privacy-coins",
     "name": "Privacy Coins",
     "chg7d": -4.75,
@@ -4307,28 +4329,6 @@
     ],
     "tracked": [
      "ZEC"
-    ]
-   },
-   {
-    "id": "artificial-intelligence",
-    "name": "Artificial Intelligence",
-    "chg7d": -5.36,
-    "top": [
-     "NEAR",
-     "TAO",
-     "SN0",
-     "ICP",
-     "VVV"
-    ],
-    "tracked": [
-     "NEAR",
-     "TAO",
-     "VVV",
-     "DOS",
-     "GRASS",
-     "ICP",
-     "DATA",
-     "RENDER"
     ]
    },
    {
@@ -4534,7 +4534,7 @@
   "updated": {
    "unlocks": 1792788979,
    "onchain": 1792787854,
-   "sectors": 1792789230,
+   "sectors": 1792790121,
    "listings": 1792787854,
    "fundamentals": 1792788980
   }
@@ -4570,6 +4570,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "6b5bb21b4f9b695533c92222ae63c0254843d2fa65f0b6b7eef69b75569fdec9",
- "generated": "2026-10-23T21:10:59+00:00"
+ "digest": "f9b78989e69efeabd3a215f90778c2ddac335dabe9131acc298257e74d4fe74c",
+ "generated": "2026-10-23T21:15:26+00:00"
 }
