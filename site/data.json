@@ -25,9 +25,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.07914,
-   "last_ts": "2026-10-23T20:15:01+00:00",
-   "move_pct": 2.44,
+   "last": 0.07916,
+   "last_ts": "2026-10-23T20:29:04+00:00",
+   "move_pct": 2.42,
    "closed": false,
    "rsi": 37.2,
    "trade_on": null,
@@ -52,7 +52,7 @@
     99.9796045174737
    ],
    "lev": 3,
-   "funding_pct": 0.0079,
+   "funding_pct": 0.0075,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-10-22T03:00:00+00:00",
@@ -60,9 +60,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 103.59,
-   "last_ts": "2026-10-23T20:15:01+00:00",
-   "move_pct": 1.78,
+   "last": 103.61,
+   "last_ts": "2026-10-23T20:29:04+00:00",
+   "move_pct": 1.76,
    "closed": false,
    "rsi": 37.7,
    "trade_on": null,
@@ -105,7 +105,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.05131,
-   "last_ts": "2026-10-23T20:15:01+00:00",
+   "last_ts": "2026-10-23T20:29:04+00:00",
    "move_pct": 2.78,
    "closed": false,
    "rsi": 63.0,
@@ -149,9 +149,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04115,
-   "last_ts": "2026-10-23T20:15:01+00:00",
-   "move_pct": 2.29,
+   "last": 0.04091,
+   "last_ts": "2026-10-23T20:29:04+00:00",
+   "move_pct": 1.69,
    "closed": false,
    "rsi": 59.7,
    "trade_on": "Spot",
@@ -186,7 +186,7 @@
     6.31391444155267
    ],
    "lev": 2,
-   "funding_pct": -0.0005,
+   "funding_pct": -0.0004,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-23T17:00:00+00:00",
@@ -194,9 +194,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 7.745,
-   "last_ts": "2026-10-23T20:15:01+00:00",
-   "move_pct": 0.55,
+   "last": 7.755,
+   "last_ts": "2026-10-23T20:29:04+00:00",
+   "move_pct": 0.42,
    "closed": false,
    "rsi": 30.0,
    "trade_on": "Perps 2x",
@@ -239,9 +239,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.13597,
-   "last_ts": "2026-10-23T20:15:01+00:00",
-   "move_pct": -0.04,
+   "last": 0.13544,
+   "last_ts": "2026-10-23T20:29:04+00:00",
+   "move_pct": -0.43,
    "closed": false,
    "rsi": 66.6,
    "trade_on": "Spot",
@@ -4026,6 +4026,28 @@
     ]
    },
    {
+    "id": "layer-1",
+    "name": "Layer 1",
+    "chg7d": -2.57,
+    "top": [
+     "BTC",
+     "ETH",
+     "BNB",
+     "XRP",
+     "SOL"
+    ],
+    "tracked": [
+     "BTC",
+     "ETH",
+     "SOL",
+     "XRP",
+     "SUI",
+     "BNB",
+     "AVAX",
+     "ZEC"
+    ]
+   },
+   {
     "id": "zero-knowledge-zk",
     "name": "Zero Knowledge ZK",
     "chg7d": -2.8,
@@ -4130,28 +4152,6 @@
      "AXS",
      "FLOKI",
      "IMX"
-    ]
-   },
-   {
-    "id": "layer-1",
-    "name": "Layer 1",
-    "chg7d": -4.25,
-    "top": [
-     "BTC",
-     "ETH",
-     "BNB",
-     "XRP",
-     "SOL"
-    ],
-    "tracked": [
-     "BTC",
-     "ETH",
-     "SOL",
-     "XRP",
-     "SUI",
-     "BNB",
-     "AVAX",
-     "ZEC"
     ]
    },
    {
@@ -4416,7 +4416,7 @@
   "updated": {
    "unlocks": 1792767180,
    "onchain": 1792784126,
-   "sectors": 1792785934,
+   "sectors": 1792787344,
    "listings": 1792784125,
    "fundamentals": 1792767180
   }
@@ -4452,6 +4452,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "36e0b10909a734d5f5204f5de56020cf5db905b5f9f2a29595cc71d8cc1e8138",
- "generated": "2026-10-23T20:15:03+00:00"
+ "digest": "6bfeeb7709ee1172de477173b6335557c7c5824eb3c1b6f2d26b3712963529dc",
+ "generated": "2026-10-23T20:29:06+00:00"
 }
