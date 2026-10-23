@@ -17,7 +17,7 @@
     0.07727623889092099
    ],
    "lev": 3,
-   "funding_pct": 0.0034,
+   "funding_pct": 0.0038,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-10-22T02:00:00+00:00",
@@ -25,9 +25,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.07944,
-   "last_ts": "2026-10-23T01:47:18+00:00",
-   "move_pct": 2.07,
+   "last": 0.07896,
+   "last_ts": "2026-10-23T02:01:48+00:00",
+   "move_pct": 2.66,
    "closed": false,
    "rsi": 37.2,
    "trade_on": null,
@@ -60,9 +60,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 104.57,
-   "last_ts": "2026-10-23T01:47:18+00:00",
-   "move_pct": 0.85,
+   "last": 103.83,
+   "last_ts": "2026-10-23T02:01:48+00:00",
+   "move_pct": 1.55,
    "closed": false,
    "rsi": 37.7,
    "trade_on": null,
@@ -87,7 +87,7 @@
     11.489897951817015
    ],
    "lev": 3,
-   "funding_pct": -0.002,
+   "funding_pct": -0.0007,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-10-22T04:00:00+00:00",
@@ -95,9 +95,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 12.116,
-   "last_ts": "2026-10-23T01:47:18+00:00",
-   "move_pct": 1.18,
+   "last": 12.009,
+   "last_ts": "2026-10-23T02:01:48+00:00",
+   "move_pct": 2.06,
    "closed": false,
    "rsi": 39.0,
    "trade_on": null,
@@ -122,7 +122,7 @@
     718.1143758376251
    ],
    "lev": 3,
-   "funding_pct": 0.0,
+   "funding_pct": 0.0009,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-10-22T08:00:00+00:00",
@@ -130,9 +130,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 735.6,
-   "last_ts": "2026-10-23T01:47:18+00:00",
-   "move_pct": 0.18,
+   "last": 732.6,
+   "last_ts": "2026-10-23T02:01:48+00:00",
+   "move_pct": 0.58,
    "closed": false,
    "rsi": 34.7,
    "trade_on": null,
@@ -170,9 +170,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.3187,
-   "last_ts": "2026-10-23T01:47:18+00:00",
-   "move_pct": 0.63,
+   "last": 1.3108,
+   "last_ts": "2026-10-23T02:01:48+00:00",
+   "move_pct": 1.22,
    "closed": false,
    "rsi": 31.0,
    "trade_on": null,
@@ -207,7 +207,7 @@
     0.0019120182314873771
    ],
    "lev": 1,
-   "funding_pct": -0.0335,
+   "funding_pct": -0.0389,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-22T16:00:00+00:00",
@@ -215,9 +215,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002083,
-   "last_ts": "2026-10-23T01:47:18+00:00",
-   "move_pct": 0.71,
+   "last": 0.002063,
+   "last_ts": "2026-10-23T02:01:48+00:00",
+   "move_pct": 1.67,
    "closed": false,
    "rsi": 29.2,
    "trade_on": "Perps 1x",
@@ -3671,6 +3671,21 @@
     ]
    },
    {
+    "id": "privacy-coins",
+    "name": "Privacy Coins",
+    "chg7d": -5.53,
+    "top": [
+     "ZEC",
+     "XMR",
+     "DCR",
+     "ZANO",
+     "NOCK"
+    ],
+    "tracked": [
+     "ZEC"
+    ]
+   },
+   {
     "id": "solana-meme-coins",
     "name": "Solana Meme Coins",
     "chg7d": -5.92,
@@ -3712,21 +3727,6 @@
      "SOON",
      "STX",
      "POL"
-    ]
-   },
-   {
-    "id": "privacy-coins",
-    "name": "Privacy Coins",
-    "chg7d": -6.72,
-    "top": [
-     "ZEC",
-     "XMR",
-     "DCR",
-     "ZANO",
-     "NOCK"
-    ],
-    "tracked": [
-     "ZEC"
     ]
    },
    {
@@ -3976,7 +3976,7 @@
   "updated": {
    "unlocks": 1792701454,
    "onchain": 1792718403,
-   "sectors": 1792720038,
+   "sectors": 1792720908,
    "listings": 1792718402,
    "fundamentals": 1792701455
   }
@@ -4012,6 +4012,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "0da79dd942317de52065a5ebd942c1e4350d05d5f01eff76c5c6e79a4efd0c21",
- "generated": "2026-10-23T01:47:21+00:00"
+ "digest": "36f6581b91b5d3f9cea4c1c89b32ce83dd5da0133059063add42731c09a59c05",
+ "generated": "2026-10-23T02:02:14+00:00"
 }
