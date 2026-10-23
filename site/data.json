@@ -25,9 +25,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.07917,
-   "last_ts": "2026-10-23T21:55:21+00:00",
-   "move_pct": 2.4,
+   "last": 0.07935,
+   "last_ts": "2026-10-23T22:00:29+00:00",
+   "move_pct": 2.18,
    "closed": false,
    "rsi": 37.2,
    "trade_on": null,
@@ -52,7 +52,7 @@
     99.9796045174737
    ],
    "lev": 3,
-   "funding_pct": 0.008,
+   "funding_pct": 0.0081,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-10-22T03:00:00+00:00",
@@ -60,9 +60,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 103.54,
-   "last_ts": "2026-10-23T21:55:21+00:00",
-   "move_pct": 1.83,
+   "last": 103.7,
+   "last_ts": "2026-10-23T22:00:29+00:00",
+   "move_pct": 1.68,
    "closed": false,
    "rsi": 37.7,
    "trade_on": null,
@@ -104,9 +104,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.05184,
-   "last_ts": "2026-10-23T21:55:21+00:00",
-   "move_pct": 3.85,
+   "last": 0.0518,
+   "last_ts": "2026-10-23T22:00:29+00:00",
+   "move_pct": 3.77,
    "closed": false,
    "rsi": 63.0,
    "trade_on": "Spot",
@@ -149,9 +149,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04148,
-   "last_ts": "2026-10-23T21:55:21+00:00",
-   "move_pct": 3.11,
+   "last": 0.04172,
+   "last_ts": "2026-10-23T22:00:29+00:00",
+   "move_pct": 3.7,
    "closed": false,
    "rsi": 59.7,
    "trade_on": "Spot",
@@ -186,7 +186,7 @@
     6.31391444155267
    ],
    "lev": 2,
-   "funding_pct": -0.0011,
+   "funding_pct": -0.0014,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-23T17:00:00+00:00",
@@ -194,9 +194,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 7.834,
-   "last_ts": "2026-10-23T21:55:21+00:00",
-   "move_pct": -0.59,
+   "last": 7.842,
+   "last_ts": "2026-10-23T22:00:29+00:00",
+   "move_pct": -0.69,
    "closed": false,
    "rsi": 30.0,
    "trade_on": "Perps 2x",
@@ -239,9 +239,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1331,
-   "last_ts": "2026-10-23T21:55:21+00:00",
-   "move_pct": -2.15,
+   "last": 0.13175,
+   "last_ts": "2026-10-23T22:00:29+00:00",
+   "move_pct": -3.15,
    "closed": false,
    "rsi": 66.6,
    "trade_on": "Spot",
@@ -283,9 +283,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0983664668854124,
-   "last_ts": "2026-10-23T21:55:21+00:00",
-   "move_pct": 3.39,
+   "last": 0.0972227039987662,
+   "last_ts": "2026-10-23T22:00:29+00:00",
+   "move_pct": 2.19,
    "closed": false,
    "rsi": 71.1,
    "trade_on": "On-chain spot (BSC DEX)",
@@ -3986,6 +3986,28 @@
     ]
    },
    {
+    "id": "decentralized-exchange",
+    "name": "Decentralized Exchange",
+    "chg7d": -1.59,
+    "top": [
+     "HYPE",
+     "UNI",
+     "PUMP",
+     "ASTER",
+     "JUP"
+    ],
+    "tracked": [
+     "PUMP",
+     "HYPE",
+     "LIT",
+     "UNI",
+     "CRV",
+     "EDGE",
+     "ASTER",
+     "AERO"
+    ]
+   },
+   {
     "id": "bitcoin-ecosystem",
     "name": "Bitcoin Ecosystem",
     "chg7d": -2.17,
@@ -4065,28 +4087,6 @@
      "MORPHO",
      "KMNO",
      "SPK"
-    ]
-   },
-   {
-    "id": "decentralized-exchange",
-    "name": "Decentralized Exchange",
-    "chg7d": -2.52,
-    "top": [
-     "HYPE",
-     "UNI",
-     "PUMP",
-     "ASTER",
-     "JUP"
-    ],
-    "tracked": [
-     "PUMP",
-     "HYPE",
-     "LIT",
-     "UNI",
-     "CRV",
-     "EDGE",
-     "ASTER",
-     "AERO"
     ]
    },
    {
@@ -4458,7 +4458,7 @@
   "updated": {
    "unlocks": 1792788979,
    "onchain": 1792791623,
-   "sectors": 1792791922,
+   "sectors": 1792792829,
    "listings": 1792791623,
    "fundamentals": 1792788980
   }
@@ -4494,6 +4494,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "7473f15136f74fa0e6f52110ecc6a7a70044e8b626095588339d6f5e28a05af2",
- "generated": "2026-10-23T21:55:25+00:00"
+ "digest": "1bb47b5fa1e9cb6faaa8b5e1161bc095793f1835652454b45bf57c7c2df4df8d",
+ "generated": "2026-10-23T22:01:01+00:00"
 }
