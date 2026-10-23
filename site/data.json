@@ -17,7 +17,7 @@
     0.07727623889092099
    ],
    "lev": 3,
-   "funding_pct": 0.0091,
+   "funding_pct": 0.0089,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-10-22T02:00:00+00:00",
@@ -25,9 +25,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.08003,
-   "last_ts": "2026-10-23T06:17:58+00:00",
-   "move_pct": 1.34,
+   "last": 0.07997,
+   "last_ts": "2026-10-23T06:37:52+00:00",
+   "move_pct": 1.42,
    "closed": false,
    "rsi": 37.2,
    "trade_on": null,
@@ -52,7 +52,7 @@
     99.9796045174737
    ],
    "lev": 3,
-   "funding_pct": 0.01,
+   "funding_pct": 0.0097,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-10-22T03:00:00+00:00",
@@ -60,9 +60,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 104.62,
-   "last_ts": "2026-10-23T06:17:58+00:00",
-   "move_pct": 0.81,
+   "last": 104.38,
+   "last_ts": "2026-10-23T06:37:52+00:00",
+   "move_pct": 1.03,
    "closed": false,
    "rsi": 37.7,
    "trade_on": null,
@@ -97,7 +97,7 @@
     0.0019120182314873771
    ],
    "lev": 1,
-   "funding_pct": -0.0286,
+   "funding_pct": -0.0314,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-22T16:00:00+00:00",
@@ -105,9 +105,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002115,
-   "last_ts": "2026-10-23T06:17:58+00:00",
-   "move_pct": -0.81,
+   "last": 0.002105,
+   "last_ts": "2026-10-23T06:37:52+00:00",
+   "move_pct": -0.33,
    "closed": false,
    "rsi": 29.2,
    "trade_on": "Perps 1x",
@@ -149,9 +149,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.05011,
-   "last_ts": "2026-10-23T06:17:58+00:00",
-   "move_pct": 0.38,
+   "last": 0.05005,
+   "last_ts": "2026-10-23T06:37:52+00:00",
+   "move_pct": 0.26,
    "closed": false,
    "rsi": 63.0,
    "trade_on": "Spot",
@@ -237,9 +237,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.796,
-   "last_ts": "2026-10-23T06:17:58+00:00",
-   "move_pct": -0.22,
+   "last": 1.799,
+   "last_ts": "2026-10-23T06:37:52+00:00",
+   "move_pct": -0.06,
    "closed": false,
    "rsi": 68.1,
    "trade_on": "Spot",
@@ -3546,79 +3546,62 @@
   "onchain": [
    {
     "chain": "BSC",
-    "symbol": "BTR",
-    "name": "BTR token",
-    "token": "0xfed13d0c40790220fbde712987079eda1ed75c51",
-    "price": 0.0614251824185153,
-    "liq": 608838,
-    "vol24h": 13741082,
-    "age_d": 423.7,
-    "chg24h": 40.935,
-    "chg7d": 27.0,
-    "mcap": 16068827.721072,
-    "safety": "ok",
-    "safety_notes": [],
+    "symbol": "ARK",
+    "name": "ARK",
+    "token": "0xcae117ca6bc8a341d2e7207f30e180f0e5618b9d",
+    "price": 6.32535753252983,
+    "liq": 57941385,
+    "vol24h": 2418547,
+    "age_d": 422.8,
+    "chg24h": -0.498,
+    "chg7d": 2.3,
+    "mcap": 0.0,
+    "safety": "unknown",
+    "safety_notes": [
+     "safety not checked"
+    ],
     "trigger": false,
     "trend_up": true,
-    "rsi": 60.6,
-    "url": "https://www.geckoterminal.com/bsc/pools/0x787abd73593bed588852163402d191c302c7f8b6"
+    "rsi": 53.5,
+    "url": "https://www.geckoterminal.com/bsc/pools/0xcaaf3c41a40103a23eeaa4bba468af3cf5b0e0d8"
    },
    {
     "chain": "BSC",
-    "symbol": "B13B",
-    "name": "B13B",
-    "token": "0x4902c5ebc598265ed2212b559b042de8a5eeec3f",
-    "price": 5.49108324337527,
-    "liq": 2927358,
-    "vol24h": 5624551,
-    "age_d": 38.7,
-    "chg24h": 1.762,
-    "chg7d": 16.0,
-    "mcap": 34131180.7218807,
-    "safety": "ok",
-    "safety_notes": [],
-    "trigger": false,
-    "trend_up": true,
-    "rsi": 61.7,
-    "url": "https://www.geckoterminal.com/bsc/pools/0x320e8096e5e7a46e43446141a5b15d801fc596f5"
-   },
-   {
-    "chain": "Base",
-    "symbol": "ELSA",
-    "name": "Elsa",
-    "token": "0x29cc30f9d113b356ce408667aa6433589cecbdca",
-    "price": 0.0716922783945411,
-    "liq": 484689,
-    "vol24h": 2231154,
-    "age_d": 275.9,
-    "chg24h": 0.678,
-    "chg7d": 26.6,
-    "mcap": 16412827.970591,
-    "safety": "ok",
-    "safety_notes": [],
-    "trigger": false,
-    "trend_up": true,
-    "rsi": 52.2,
-    "url": "https://www.geckoterminal.com/base/pools/0x83f3aca29bc79b048b99c56013475570acc97ccf"
-   },
-   {
-    "chain": "Base",
-    "symbol": "CTR",
-    "name": "CTR",
-    "token": "0x11030f79109269d796fd0fb956d6244e502757f7",
-    "price": 0.0155126745508811,
-    "liq": 639864,
-    "vol24h": 3097442,
-    "age_d": 149.7,
-    "chg24h": 0.776,
-    "chg7d": 19.6,
-    "mcap": 23279687.295,
+    "symbol": "DNA",
+    "name": "DE NEO AGENT",
+    "token": "0xa991f61940095aea0724ef54077223b048c5cf7b",
+    "price": 0.202718594796041,
+    "liq": 1746266,
+    "vol24h": 91227039,
+    "age_d": 7.9,
+    "chg24h": 1.614,
+    "chg7d": 5.8,
+    "mcap": 26300876.251,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 40.5,
-    "url": "https://www.geckoterminal.com/base/pools/0x0ab02e160f0df68dc049b012c514857306960eae"
+    "rsi": 52.5,
+    "url": "https://www.geckoterminal.com/bsc/pools/0xd0949ad5874cee7991ccd4cc2c5f7f80a7be4a220689cf5947ccb12a946fa50d"
+   },
+   {
+    "chain": "BSC",
+    "symbol": "BTW",
+    "name": "Bitway Token",
+    "token": "0x444045b0ee1ee319a660a5e3d604ca0ffa35acaa",
+    "price": 1.69377423662117,
+    "liq": 337270,
+    "vol24h": 5851317,
+    "age_d": 234.8,
+    "chg24h": -1.948,
+    "chg7d": -15.2,
+    "mcap": 2550464096.40711,
+    "safety": "ok",
+    "safety_notes": [],
+    "trigger": false,
+    "trend_up": false,
+    "rsi": 47.9,
+    "url": "https://www.geckoterminal.com/bsc/pools/0xf7b5a9b7ef764606f900c9c1db39afc682049bc4"
    }
   ],
   "onchain_checked": 88,
@@ -3688,6 +3671,28 @@
      "ENA",
      "AAVE",
      "ONDO"
+    ]
+   },
+   {
+    "id": "meme-token",
+    "name": "Meme Token",
+    "chg7d": -2.51,
+    "top": [
+     "DOGE",
+     "SHIB",
+     "PUMP",
+     "M",
+     "PEPE"
+    ],
+    "tracked": [
+     "DOGE",
+     "PUMP",
+     "PEPE",
+     "TRUMP",
+     "PENGU",
+     "USELESS",
+     "SHIB",
+     "MEW"
     ]
    },
    {
@@ -3836,28 +3841,6 @@
      "PEPE",
      "ORDI",
      "SATS"
-    ]
-   },
-   {
-    "id": "meme-token",
-    "name": "Meme Token",
-    "chg7d": -3.71,
-    "top": [
-     "DOGE",
-     "SHIB",
-     "PUMP",
-     "M",
-     "PEPE"
-    ],
-    "tracked": [
-     "DOGE",
-     "PUMP",
-     "PEPE",
-     "TRUMP",
-     "PENGU",
-     "USELESS",
-     "SHIB",
-     "MEW"
     ]
    },
    {
@@ -4079,13 +4062,13 @@
     "coin": "XAXTI",
     "list_ts": 1792737000,
     "market": "SPOT",
-    "state": "preopen"
+    "state": "live"
    },
    {
     "coin": "XACN",
     "list_ts": 1792735200,
     "market": "SPOT",
-    "state": "preopen"
+    "state": "live"
    },
    {
     "coin": "PANW",
@@ -4206,9 +4189,9 @@
   ],
   "updated": {
    "unlocks": 1792723637,
-   "onchain": 1792733801,
-   "sectors": 1792735658,
-   "listings": 1792733801,
+   "onchain": 1792737411,
+   "sectors": 1792737411,
+   "listings": 1792737411,
    "fundamentals": 1792723638
   }
  },
@@ -4243,6 +4226,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "f9fad86031a5a2e1209b4fb6258af4d902570c67ad3a78dc48bcca92dc88110e",
- "generated": "2026-10-23T06:18:02+00:00"
+ "digest": "44626220f27088888fb690f3994b9007dcdb7af2a6acdc21c4aa0bdde3150d86",
+ "generated": "2026-10-23T06:37:56+00:00"
 }
