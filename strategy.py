@@ -118,16 +118,17 @@ def new_trade(side, entry, atr_v, opened_ms, p=P):
 
 def _close(t, price, status):
     side, e, R = t["dir"], t["entry"], t["R"]
-    rest = 3 - t["hits"]
-    r = sum(side * (t["tps"][k] - e) / R for k in range(t["hits"])) + rest * side * (price - e) / R
-    t["result_r"] = round(r / 3, 4)
+    w = t.get("w") or [1 / 3, 1 / 3, 1 / 3]            # share closed at TP1/TP2/TP3 (old signals: thirds)
+    rest = 1 - sum(w[:t["hits"]])
+    r = sum(w[k] * side * (t["tps"][k] - e) / R for k in range(t["hits"])) + rest * side * (price - e) / R
+    t["result_r"] = round(r, 4)
     t["exit_price"] = price
     t["status"] = status
     t["closed"] = True
 
 
 def realized_pct(t):
-    """Weighted price move % of the whole signal (thirds), unlevered."""
+    """Weighted price move % of the whole signal (by the exit weights), unlevered."""
     if t["result_r"] is None:
         return None
     return t["result_r"] * t["R"] / t["entry"] * 100

@@ -1,0 +1,1261 @@
+{
+ "generated": "2026-10-23T21:05:02+00:00",
+ "coins": 197,
+ "from": "2026-07-23",
+ "to": "2026-10-21",
+ "mid": "2026-09-06",
+ "fees_pct_round_trip": {
+  "SPOT": 0.2,
+  "PERP": 0.1
+ },
+ "rows": {
+  "baseline: thirds, stop->entry after TP1": {
+   "all": {
+    "trades": 2061,
+    "win_rate": 42.2,
+    "avg_r": 0.169,
+    "avg_r_net": 0.092,
+    "total_r_net": 189.8,
+    "max_dd_r": 124.9
+   },
+   "H1": {
+    "trades": 1120,
+    "win_rate": 42.9,
+    "avg_r": 0.222,
+    "avg_r_net": 0.139,
+    "total_r_net": 155.5,
+    "max_dd_r": 104.2
+   },
+   "H2": {
+    "trades": 941,
+    "win_rate": 41.3,
+    "avg_r": 0.107,
+    "avg_r_net": 0.036,
+    "total_r_net": 34.2,
+    "max_dd_r": 82.4
+   }
+  },
+  "baseline: thirds, stop->entry after TP1 [caps]": {
+   "all": {
+    "trades": 700,
+    "win_rate": 37.9,
+    "avg_r": 0.029,
+    "avg_r_net": -0.045,
+    "total_r_net": -31.5,
+    "max_dd_r": 52.6
+   },
+   "H1": {
+    "trades": 363,
+    "win_rate": 38.0,
+    "avg_r": 0.008,
+    "avg_r_net": -0.073,
+    "total_r_net": -26.4,
+    "max_dd_r": 52.6
+   },
+   "H2": {
+    "trades": 337,
+    "win_rate": 37.7,
+    "avg_r": 0.051,
+    "avg_r_net": -0.015,
+    "total_r_net": -5.1,
+    "max_dd_r": 34.6
+   }
+  },
+  "baseline: thirds, stop->entry after TP1 + BTC trend agrees": {
+   "all": {
+    "trades": 1408,
+    "win_rate": 43.3,
+    "avg_r": 0.214,
+    "avg_r_net": 0.131,
+    "total_r_net": 184.5,
+    "max_dd_r": 121.4
+   },
+   "H1": {
+    "trades": 653,
+    "win_rate": 47.0,
+    "avg_r": 0.398,
+    "avg_r_net": 0.307,
+    "total_r_net": 200.2,
+    "max_dd_r": 87.1
+   },
+   "H2": {
+    "trades": 755,
+    "win_rate": 40.1,
+    "avg_r": 0.054,
+    "avg_r_net": -0.021,
+    "total_r_net": -15.8,
+    "max_dd_r": 121.4
+   }
+  },
+  "baseline: thirds, stop->entry after TP1 + BTC trend agrees [caps]": {
+   "all": {
+    "trades": 549,
+    "win_rate": 39.7,
+    "avg_r": 0.105,
+    "avg_r_net": 0.027,
+    "total_r_net": 14.6,
+    "max_dd_r": 44.6
+   },
+   "H1": {
+    "trades": 260,
+    "win_rate": 43.5,
+    "avg_r": 0.239,
+    "avg_r_net": 0.152,
+    "total_r_net": 39.5,
+    "max_dd_r": 27.3
+   },
+   "H2": {
+    "trades": 289,
+    "win_rate": 36.3,
+    "avg_r": -0.016,
+    "avg_r_net": -0.086,
+    "total_r_net": -24.9,
+    "max_dd_r": 44.6
+   }
+  },
+  "baseline: thirds, stop->entry after TP1 + RR>=2 to TP2": {
+   "all": {
+    "trades": 2052,
+    "win_rate": 42.1,
+    "avg_r": 0.168,
+    "avg_r_net": 0.091,
+    "total_r_net": 187.2,
+    "max_dd_r": 127.4
+   },
+   "H1": {
+    "trades": 1118,
+    "win_rate": 42.8,
+    "avg_r": 0.221,
+    "avg_r_net": 0.138,
+    "total_r_net": 154.4,
+    "max_dd_r": 104.2
+   },
+   "H2": {
+    "trades": 934,
+    "win_rate": 41.1,
+    "avg_r": 0.105,
+    "avg_r_net": 0.035,
+    "total_r_net": 32.8,
+    "max_dd_r": 84.5
+   }
+  },
+  "baseline: thirds, stop->entry after TP1 + RR>=2 to TP2 [caps]": {
+   "all": {
+    "trades": 700,
+    "win_rate": 37.9,
+    "avg_r": 0.026,
+    "avg_r_net": -0.047,
+    "total_r_net": -33.1,
+    "max_dd_r": 52.6
+   },
+   "H1": {
+    "trades": 363,
+    "win_rate": 38.0,
+    "avg_r": 0.008,
+    "avg_r_net": -0.073,
+    "total_r_net": -26.4,
+    "max_dd_r": 52.6
+   },
+   "H2": {
+    "trades": 337,
+    "win_rate": 37.7,
+    "avg_r": 0.046,
+    "avg_r_net": -0.02,
+    "total_r_net": -6.8,
+    "max_dd_r": 34.8
+   }
+  },
+  "baseline: thirds, stop->entry after TP1 + BTC trend + RR>=2": {
+   "all": {
+    "trades": 1400,
+    "win_rate": 43.1,
+    "avg_r": 0.212,
+    "avg_r_net": 0.13,
+    "total_r_net": 181.5,
+    "max_dd_r": 125.1
+   },
+   "H1": {
+    "trades": 652,
+    "win_rate": 46.9,
+    "avg_r": 0.396,
+    "avg_r_net": 0.305,
+    "total_r_net": 198.7,
+    "max_dd_r": 87.1
+   },
+   "H2": {
+    "trades": 748,
+    "win_rate": 39.8,
+    "avg_r": 0.052,
+    "avg_r_net": -0.023,
+    "total_r_net": -17.2,
+    "max_dd_r": 125.1
+   }
+  },
+  "baseline: thirds, stop->entry after TP1 + BTC trend + RR>=2 [caps]": {
+   "all": {
+    "trades": 549,
+    "win_rate": 39.5,
+    "avg_r": 0.098,
+    "avg_r_net": 0.02,
+    "total_r_net": 11.0,
+    "max_dd_r": 46.1
+   },
+   "H1": {
+    "trades": 260,
+    "win_rate": 43.5,
+    "avg_r": 0.239,
+    "avg_r_net": 0.152,
+    "total_r_net": 39.4,
+    "max_dd_r": 27.3
+   },
+   "H2": {
+    "trades": 289,
+    "win_rate": 36.0,
+    "avg_r": -0.028,
+    "avg_r_net": -0.099,
+    "total_r_net": -28.5,
+    "max_dd_r": 46.1
+   }
+  },
+  "A1: 25/25/50, stop->entry after TP1": {
+   "all": {
+    "trades": 2061,
+    "win_rate": 42.2,
+    "avg_r": 0.183,
+    "avg_r_net": 0.106,
+    "total_r_net": 217.8,
+    "max_dd_r": 125.4
+   },
+   "H1": {
+    "trades": 1120,
+    "win_rate": 42.9,
+    "avg_r": 0.238,
+    "avg_r_net": 0.155,
+    "total_r_net": 173.6,
+    "max_dd_r": 105.7
+   },
+   "H2": {
+    "trades": 941,
+    "win_rate": 41.3,
+    "avg_r": 0.117,
+    "avg_r_net": 0.047,
+    "total_r_net": 44.1,
+    "max_dd_r": 83.9
+   }
+  },
+  "A1: 25/25/50, stop->entry after TP1 [caps]": {
+   "all": {
+    "trades": 700,
+    "win_rate": 37.9,
+    "avg_r": 0.037,
+    "avg_r_net": -0.037,
+    "total_r_net": -25.9,
+    "max_dd_r": 53.7
+   },
+   "H1": {
+    "trades": 363,
+    "win_rate": 38.0,
+    "avg_r": 0.008,
+    "avg_r_net": -0.073,
+    "total_r_net": -26.5,
+    "max_dd_r": 53.7
+   },
+   "H2": {
+    "trades": 337,
+    "win_rate": 37.7,
+    "avg_r": 0.068,
+    "avg_r_net": 0.002,
+    "total_r_net": 0.7,
+    "max_dd_r": 33.7
+   }
+  },
+  "A2: thirds, stop->entry after TP2": {
+   "all": {
+    "trades": 2024,
+    "win_rate": 37.1,
+    "avg_r": 0.189,
+    "avg_r_net": 0.111,
+    "total_r_net": 225.5,
+    "max_dd_r": 120.3
+   },
+   "H1": {
+    "trades": 1102,
+    "win_rate": 38.4,
+    "avg_r": 0.252,
+    "avg_r_net": 0.169,
+    "total_r_net": 186.4,
+    "max_dd_r": 109.8
+   },
+   "H2": {
+    "trades": 922,
+    "win_rate": 35.5,
+    "avg_r": 0.113,
+    "avg_r_net": 0.042,
+    "total_r_net": 39.1,
+    "max_dd_r": 84.3
+   }
+  },
+  "A2: thirds, stop->entry after TP2 [caps]": {
+   "all": {
+    "trades": 700,
+    "win_rate": 33.7,
+    "avg_r": 0.031,
+    "avg_r_net": -0.043,
+    "total_r_net": -30.1,
+    "max_dd_r": 50.4
+   },
+   "H1": {
+    "trades": 363,
+    "win_rate": 34.2,
+    "avg_r": 0.031,
+    "avg_r_net": -0.05,
+    "total_r_net": -18.2,
+    "max_dd_r": 50.4
+   },
+   "H2": {
+    "trades": 337,
+    "win_rate": 33.2,
+    "avg_r": 0.03,
+    "avg_r_net": -0.035,
+    "total_r_net": -11.9,
+    "max_dd_r": 39.3
+   }
+  },
+  "A3: thirds, stop->entry at +1R": {
+   "all": {
+    "trades": 2115,
+    "win_rate": 35.2,
+    "avg_r": 0.124,
+    "avg_r_net": 0.047,
+    "total_r_net": 100.3,
+    "max_dd_r": 128.2
+   },
+   "H1": {
+    "trades": 1147,
+    "win_rate": 35.8,
+    "avg_r": 0.171,
+    "avg_r_net": 0.089,
+    "total_r_net": 101.7,
+    "max_dd_r": 102.1
+   },
+   "H2": {
+    "trades": 968,
+    "win_rate": 34.4,
+    "avg_r": 0.069,
+    "avg_r_net": -0.001,
+    "total_r_net": -1.4,
+    "max_dd_r": 88.8
+   }
+  },
+  "A3: thirds, stop->entry at +1R [caps]": {
+   "all": {
+    "trades": 701,
+    "win_rate": 31.7,
+    "avg_r": 0.016,
+    "avg_r_net": -0.057,
+    "total_r_net": -40.2,
+    "max_dd_r": 58.2
+   },
+   "H1": {
+    "trades": 363,
+    "win_rate": 32.0,
+    "avg_r": -0.016,
+    "avg_r_net": -0.097,
+    "total_r_net": -35.1,
+    "max_dd_r": 50.2
+   },
+   "H2": {
+    "trades": 338,
+    "win_rate": 31.4,
+    "avg_r": 0.051,
+    "avg_r_net": -0.015,
+    "total_r_net": -5.1,
+    "max_dd_r": 36.2
+   }
+  },
+  "A3: thirds, stop->entry at +1R + BTC trend agrees": {
+   "all": {
+    "trades": 1448,
+    "win_rate": 36.6,
+    "avg_r": 0.151,
+    "avg_r_net": 0.068,
+    "total_r_net": 99.0,
+    "max_dd_r": 118.8
+   },
+   "H1": {
+    "trades": 674,
+    "win_rate": 39.2,
+    "avg_r": 0.309,
+    "avg_r_net": 0.218,
+    "total_r_net": 147.2,
+    "max_dd_r": 84.5
+   },
+   "H2": {
+    "trades": 774,
+    "win_rate": 34.4,
+    "avg_r": 0.013,
+    "avg_r_net": -0.062,
+    "total_r_net": -48.3,
+    "max_dd_r": 118.8
+   }
+  },
+  "A3: thirds, stop->entry at +1R + BTC trend agrees [caps]": {
+   "all": {
+    "trades": 550,
+    "win_rate": 33.5,
+    "avg_r": 0.062,
+    "avg_r_net": -0.016,
+    "total_r_net": -8.8,
+    "max_dd_r": 47.5
+   },
+   "H1": {
+    "trades": 261,
+    "win_rate": 35.6,
+    "avg_r": 0.16,
+    "avg_r_net": 0.073,
+    "total_r_net": 19.1,
+    "max_dd_r": 30.9
+   },
+   "H2": {
+    "trades": 289,
+    "win_rate": 31.5,
+    "avg_r": -0.026,
+    "avg_r_net": -0.096,
+    "total_r_net": -27.9,
+    "max_dd_r": 47.5
+   }
+  },
+  "A3: thirds, stop->entry at +1R + RR>=2 to TP2": {
+   "all": {
+    "trades": 2107,
+    "win_rate": 35.0,
+    "avg_r": 0.123,
+    "avg_r_net": 0.046,
+    "total_r_net": 96.7,
+    "max_dd_r": 130.6
+   },
+   "H1": {
+    "trades": 1145,
+    "win_rate": 35.8,
+    "avg_r": 0.171,
+    "avg_r_net": 0.088,
+    "total_r_net": 100.6,
+    "max_dd_r": 101.7
+   },
+   "H2": {
+    "trades": 962,
+    "win_rate": 34.1,
+    "avg_r": 0.066,
+    "avg_r_net": -0.004,
+    "total_r_net": -3.9,
+    "max_dd_r": 90.8
+   }
+  },
+  "A3: thirds, stop->entry at +1R + RR>=2 to TP2 [caps]": {
+   "all": {
+    "trades": 701,
+    "win_rate": 31.7,
+    "avg_r": 0.012,
+    "avg_r_net": -0.061,
+    "total_r_net": -42.9,
+    "max_dd_r": 58.2
+   },
+   "H1": {
+    "trades": 363,
+    "win_rate": 32.0,
+    "avg_r": -0.016,
+    "avg_r_net": -0.097,
+    "total_r_net": -35.1,
+    "max_dd_r": 50.2
+   },
+   "H2": {
+    "trades": 338,
+    "win_rate": 31.4,
+    "avg_r": 0.043,
+    "avg_r_net": -0.023,
+    "total_r_net": -7.8,
+    "max_dd_r": 36.3
+   }
+  },
+  "A3: thirds, stop->entry at +1R + BTC trend + RR>=2": {
+   "all": {
+    "trades": 1441,
+    "win_rate": 36.4,
+    "avg_r": 0.149,
+    "avg_r_net": 0.066,
+    "total_r_net": 95.0,
+    "max_dd_r": 122.7
+   },
+   "H1": {
+    "trades": 673,
+    "win_rate": 39.1,
+    "avg_r": 0.308,
+    "avg_r_net": 0.217,
+    "total_r_net": 145.7,
+    "max_dd_r": 84.5
+   },
+   "H2": {
+    "trades": 768,
+    "win_rate": 34.0,
+    "avg_r": 0.009,
+    "avg_r_net": -0.066,
+    "total_r_net": -50.8,
+    "max_dd_r": 122.7
+   }
+  },
+  "A3: thirds, stop->entry at +1R + BTC trend + RR>=2 [caps]": {
+   "all": {
+    "trades": 550,
+    "win_rate": 33.3,
+    "avg_r": 0.054,
+    "avg_r_net": -0.024,
+    "total_r_net": -13.4,
+    "max_dd_r": 50.1
+   },
+   "H1": {
+    "trades": 261,
+    "win_rate": 35.6,
+    "avg_r": 0.16,
+    "avg_r_net": 0.073,
+    "total_r_net": 19.0,
+    "max_dd_r": 30.9
+   },
+   "H2": {
+    "trades": 289,
+    "win_rate": 31.1,
+    "avg_r": -0.042,
+    "avg_r_net": -0.112,
+    "total_r_net": -32.4,
+    "max_dd_r": 50.1
+   }
+  },
+  "A4: TP1 >= 1.5R, thirds, after TP1": {
+   "all": {
+    "trades": 2031,
+    "win_rate": 38.7,
+    "avg_r": 0.18,
+    "avg_r_net": 0.103,
+    "total_r_net": 209.3,
+    "max_dd_r": 129.0
+   },
+   "H1": {
+    "trades": 1107,
+    "win_rate": 39.7,
+    "avg_r": 0.239,
+    "avg_r_net": 0.156,
+    "total_r_net": 172.9,
+    "max_dd_r": 113.1
+   },
+   "H2": {
+    "trades": 924,
+    "win_rate": 37.4,
+    "avg_r": 0.11,
+    "avg_r_net": 0.039,
+    "total_r_net": 36.4,
+    "max_dd_r": 84.3
+   }
+  },
+  "A4: TP1 >= 1.5R, thirds, after TP1 [caps]": {
+   "all": {
+    "trades": 700,
+    "win_rate": 35.6,
+    "avg_r": 0.039,
+    "avg_r_net": -0.034,
+    "total_r_net": -24.0,
+    "max_dd_r": 43.0
+   },
+   "H1": {
+    "trades": 363,
+    "win_rate": 36.4,
+    "avg_r": 0.036,
+    "avg_r_net": -0.045,
+    "total_r_net": -16.4,
+    "max_dd_r": 43.0
+   },
+   "H2": {
+    "trades": 337,
+    "win_rate": 34.7,
+    "avg_r": 0.043,
+    "avg_r_net": -0.023,
+    "total_r_net": -7.7,
+    "max_dd_r": 35.1
+   }
+  },
+  "A5: 25/25/50, stop->entry after TP2": {
+   "all": {
+    "trades": 2024,
+    "win_rate": 35.6,
+    "avg_r": 0.205,
+    "avg_r_net": 0.127,
+    "total_r_net": 257.6,
+    "max_dd_r": 121.5
+   },
+   "H1": {
+    "trades": 1102,
+    "win_rate": 36.7,
+    "avg_r": 0.274,
+    "avg_r_net": 0.191,
+    "total_r_net": 210.0,
+    "max_dd_r": 113.3
+   },
+   "H2": {
+    "trades": 922,
+    "win_rate": 34.4,
+    "avg_r": 0.122,
+    "avg_r_net": 0.052,
+    "total_r_net": 47.6,
+    "max_dd_r": 88.4
+   }
+  },
+  "A5: 25/25/50, stop->entry after TP2 [caps]": {
+   "all": {
+    "trades": 700,
+    "win_rate": 32.3,
+    "avg_r": 0.038,
+    "avg_r_net": -0.035,
+    "total_r_net": -24.7,
+    "max_dd_r": 50.9
+   },
+   "H1": {
+    "trades": 363,
+    "win_rate": 32.8,
+    "avg_r": 0.034,
+    "avg_r_net": -0.047,
+    "total_r_net": -17.1,
+    "max_dd_r": 50.9
+   },
+   "H2": {
+    "trades": 337,
+    "win_rate": 31.8,
+    "avg_r": 0.043,
+    "avg_r_net": -0.022,
+    "total_r_net": -7.5,
+    "max_dd_r": 37.7
+   }
+  },
+  "A5: 25/25/50, stop->entry after TP2 + BTC trend agrees": {
+   "all": {
+    "trades": 1378,
+    "win_rate": 35.8,
+    "avg_r": 0.251,
+    "avg_r_net": 0.168,
+    "total_r_net": 231.0,
+    "max_dd_r": 125.1
+   },
+   "H1": {
+    "trades": 642,
+    "win_rate": 39.4,
+    "avg_r": 0.459,
+    "avg_r_net": 0.367,
+    "total_r_net": 235.8,
+    "max_dd_r": 95.6
+   },
+   "H2": {
+    "trades": 736,
+    "win_rate": 32.6,
+    "avg_r": 0.069,
+    "avg_r_net": -0.007,
+    "total_r_net": -4.8,
+    "max_dd_r": 125.1
+   }
+  },
+  "A5: 25/25/50, stop->entry after TP2 + BTC trend agrees [caps]": {
+   "all": {
+    "trades": 548,
+    "win_rate": 34.1,
+    "avg_r": 0.134,
+    "avg_r_net": 0.056,
+    "total_r_net": 30.6,
+    "max_dd_r": 47.3
+   },
+   "H1": {
+    "trades": 260,
+    "win_rate": 37.7,
+    "avg_r": 0.311,
+    "avg_r_net": 0.223,
+    "total_r_net": 57.9,
+    "max_dd_r": 27.0
+   },
+   "H2": {
+    "trades": 288,
+    "win_rate": 30.9,
+    "avg_r": -0.025,
+    "avg_r_net": -0.095,
+    "total_r_net": -27.4,
+    "max_dd_r": 47.3
+   }
+  },
+  "A5: 25/25/50, stop->entry after TP2 + RR>=2 to TP2": {
+   "all": {
+    "trades": 2017,
+    "win_rate": 35.6,
+    "avg_r": 0.205,
+    "avg_r_net": 0.128,
+    "total_r_net": 257.7,
+    "max_dd_r": 124.0
+   },
+   "H1": {
+    "trades": 1101,
+    "win_rate": 36.6,
+    "avg_r": 0.272,
+    "avg_r_net": 0.189,
+    "total_r_net": 207.9,
+    "max_dd_r": 114.3
+   },
+   "H2": {
+    "trades": 916,
+    "win_rate": 34.4,
+    "avg_r": 0.125,
+    "avg_r_net": 0.054,
+    "total_r_net": 49.8,
+    "max_dd_r": 86.8
+   }
+  },
+  "A5: 25/25/50, stop->entry after TP2 + RR>=2 to TP2 [caps]": {
+   "all": {
+    "trades": 700,
+    "win_rate": 32.1,
+    "avg_r": 0.035,
+    "avg_r_net": -0.039,
+    "total_r_net": -27.1,
+    "max_dd_r": 50.9
+   },
+   "H1": {
+    "trades": 363,
+    "win_rate": 32.8,
+    "avg_r": 0.034,
+    "avg_r_net": -0.047,
+    "total_r_net": -17.1,
+    "max_dd_r": 50.9
+   },
+   "H2": {
+    "trades": 337,
+    "win_rate": 31.5,
+    "avg_r": 0.036,
+    "avg_r_net": -0.03,
+    "total_r_net": -10.0,
+    "max_dd_r": 39.9
+   }
+  },
+  "A5: 25/25/50, stop->entry after TP2 + BTC trend + RR>=2": {
+   "all": {
+    "trades": 1372,
+    "win_rate": 35.7,
+    "avg_r": 0.251,
+    "avg_r_net": 0.168,
+    "total_r_net": 230.6,
+    "max_dd_r": 125.8
+   },
+   "H1": {
+    "trades": 642,
+    "win_rate": 39.3,
+    "avg_r": 0.455,
+    "avg_r_net": 0.363,
+    "total_r_net": 233.3,
+    "max_dd_r": 96.7
+   },
+   "H2": {
+    "trades": 730,
+    "win_rate": 32.6,
+    "avg_r": 0.072,
+    "avg_r_net": -0.004,
+    "total_r_net": -2.6,
+    "max_dd_r": 125.8
+   }
+  },
+  "A5: 25/25/50, stop->entry after TP2 + BTC trend + RR>=2 [caps]": {
+   "all": {
+    "trades": 548,
+    "win_rate": 33.9,
+    "avg_r": 0.129,
+    "avg_r_net": 0.05,
+    "total_r_net": 27.3,
+    "max_dd_r": 48.7
+   },
+   "H1": {
+    "trades": 260,
+    "win_rate": 37.7,
+    "avg_r": 0.311,
+    "avg_r_net": 0.223,
+    "total_r_net": 57.9,
+    "max_dd_r": 27.0
+   },
+   "H2": {
+    "trades": 288,
+    "win_rate": 30.6,
+    "avg_r": -0.036,
+    "avg_r_net": -0.106,
+    "total_r_net": -30.6,
+    "max_dd_r": 48.7
+   }
+  },
+  "A6: TP1 >= 1.5R, 25/25/50, after TP2": {
+   "all": {
+    "trades": 2024,
+    "win_rate": 35.5,
+    "avg_r": 0.206,
+    "avg_r_net": 0.128,
+    "total_r_net": 259.5,
+    "max_dd_r": 124.6
+   },
+   "H1": {
+    "trades": 1102,
+    "win_rate": 36.7,
+    "avg_r": 0.279,
+    "avg_r_net": 0.196,
+    "total_r_net": 216.5,
+    "max_dd_r": 116.2
+   },
+   "H2": {
+    "trades": 922,
+    "win_rate": 34.2,
+    "avg_r": 0.117,
+    "avg_r_net": 0.047,
+    "total_r_net": 43.1,
+    "max_dd_r": 92.6
+   }
+  },
+  "A6: TP1 >= 1.5R, 25/25/50, after TP2 [caps]": {
+   "all": {
+    "trades": 700,
+    "win_rate": 32.3,
+    "avg_r": 0.045,
+    "avg_r_net": -0.029,
+    "total_r_net": -20.1,
+    "max_dd_r": 47.4
+   },
+   "H1": {
+    "trades": 363,
+    "win_rate": 32.8,
+    "avg_r": 0.047,
+    "avg_r_net": -0.034,
+    "total_r_net": -12.4,
+    "max_dd_r": 47.4
+   },
+   "H2": {
+    "trades": 337,
+    "win_rate": 31.8,
+    "avg_r": 0.043,
+    "avg_r_net": -0.023,
+    "total_r_net": -7.7,
+    "max_dd_r": 37.6
+   }
+  },
+  "A6: TP1 >= 1.5R, 25/25/50, after TP2 + BTC trend agrees": {
+   "all": {
+    "trades": 1378,
+    "win_rate": 35.7,
+    "avg_r": 0.25,
+    "avg_r_net": 0.167,
+    "total_r_net": 229.6,
+    "max_dd_r": 130.0
+   },
+   "H1": {
+    "trades": 642,
+    "win_rate": 39.4,
+    "avg_r": 0.465,
+    "avg_r_net": 0.374,
+    "total_r_net": 239.9,
+    "max_dd_r": 99.0
+   },
+   "H2": {
+    "trades": 736,
+    "win_rate": 32.5,
+    "avg_r": 0.062,
+    "avg_r_net": -0.014,
+    "total_r_net": -10.3,
+    "max_dd_r": 130.0
+   }
+  },
+  "A6: TP1 >= 1.5R, 25/25/50, after TP2 + BTC trend agrees [caps]": {
+   "all": {
+    "trades": 548,
+    "win_rate": 34.1,
+    "avg_r": 0.136,
+    "avg_r_net": 0.057,
+    "total_r_net": 31.5,
+    "max_dd_r": 47.7
+   },
+   "H1": {
+    "trades": 260,
+    "win_rate": 37.7,
+    "avg_r": 0.319,
+    "avg_r_net": 0.232,
+    "total_r_net": 60.2,
+    "max_dd_r": 27.8
+   },
+   "H2": {
+    "trades": 288,
+    "win_rate": 30.9,
+    "avg_r": -0.029,
+    "avg_r_net": -0.1,
+    "total_r_net": -28.7,
+    "max_dd_r": 47.7
+   }
+  },
+  "A6: TP1 >= 1.5R, 25/25/50, after TP2 + RR>=2 to TP2": {
+   "all": {
+    "trades": 2017,
+    "win_rate": 35.5,
+    "avg_r": 0.207,
+    "avg_r_net": 0.129,
+    "total_r_net": 260.4,
+    "max_dd_r": 127.3
+   },
+   "H1": {
+    "trades": 1101,
+    "win_rate": 36.6,
+    "avg_r": 0.278,
+    "avg_r_net": 0.195,
+    "total_r_net": 214.2,
+    "max_dd_r": 117.3
+   },
+   "H2": {
+    "trades": 916,
+    "win_rate": 34.3,
+    "avg_r": 0.121,
+    "avg_r_net": 0.051,
+    "total_r_net": 46.3,
+    "max_dd_r": 90.0
+   }
+  },
+  "A6: TP1 >= 1.5R, 25/25/50, after TP2 + RR>=2 to TP2 [caps]": {
+   "all": {
+    "trades": 700,
+    "win_rate": 32.1,
+    "avg_r": 0.041,
+    "avg_r_net": -0.032,
+    "total_r_net": -22.5,
+    "max_dd_r": 47.4
+   },
+   "H1": {
+    "trades": 363,
+    "win_rate": 32.8,
+    "avg_r": 0.047,
+    "avg_r_net": -0.034,
+    "total_r_net": -12.4,
+    "max_dd_r": 47.4
+   },
+   "H2": {
+    "trades": 337,
+    "win_rate": 31.5,
+    "avg_r": 0.036,
+    "avg_r_net": -0.03,
+    "total_r_net": -10.2,
+    "max_dd_r": 39.9
+   }
+  },
+  "A6: TP1 >= 1.5R, 25/25/50, after TP2 + BTC trend + RR>=2": {
+   "all": {
+    "trades": 1372,
+    "win_rate": 35.7,
+    "avg_r": 0.251,
+    "avg_r_net": 0.168,
+    "total_r_net": 230.1,
+    "max_dd_r": 129.7
+   },
+   "H1": {
+    "trades": 642,
+    "win_rate": 39.3,
+    "avg_r": 0.461,
+    "avg_r_net": 0.369,
+    "total_r_net": 237.2,
+    "max_dd_r": 100.1
+   },
+   "H2": {
+    "trades": 730,
+    "win_rate": 32.6,
+    "avg_r": 0.066,
+    "avg_r_net": -0.01,
+    "total_r_net": -7.1,
+    "max_dd_r": 129.7
+   }
+  },
+  "A6: TP1 >= 1.5R, 25/25/50, after TP2 + BTC trend + RR>=2 [caps]": {
+   "all": {
+    "trades": 548,
+    "win_rate": 33.9,
+    "avg_r": 0.131,
+    "avg_r_net": 0.052,
+    "total_r_net": 28.6,
+    "max_dd_r": 48.6
+   },
+   "H1": {
+    "trades": 260,
+    "win_rate": 37.7,
+    "avg_r": 0.319,
+    "avg_r_net": 0.231,
+    "total_r_net": 60.2,
+    "max_dd_r": 27.8
+   },
+   "H2": {
+    "trades": 288,
+    "win_rate": 30.6,
+    "avg_r": -0.039,
+    "avg_r_net": -0.11,
+    "total_r_net": -31.6,
+    "max_dd_r": 48.6
+   }
+  },
+  "A7: TP1 >= 1.5R, 25/25/50, at +1.5R": {
+   "all": {
+    "trades": 2050,
+    "win_rate": 34.8,
+    "avg_r": 0.166,
+    "avg_r_net": 0.088,
+    "total_r_net": 181.3,
+    "max_dd_r": 141.6
+   },
+   "H1": {
+    "trades": 1117,
+    "win_rate": 35.8,
+    "avg_r": 0.219,
+    "avg_r_net": 0.136,
+    "total_r_net": 152.2,
+    "max_dd_r": 117.3
+   },
+   "H2": {
+    "trades": 933,
+    "win_rate": 33.7,
+    "avg_r": 0.102,
+    "avg_r_net": 0.031,
+    "total_r_net": 29.1,
+    "max_dd_r": 72.0
+   }
+  },
+  "A7: TP1 >= 1.5R, 25/25/50, at +1.5R [caps]": {
+   "all": {
+    "trades": 700,
+    "win_rate": 32.1,
+    "avg_r": 0.019,
+    "avg_r_net": -0.055,
+    "total_r_net": -38.5,
+    "max_dd_r": 55.8
+   },
+   "H1": {
+    "trades": 363,
+    "win_rate": 33.1,
+    "avg_r": 0.001,
+    "avg_r_net": -0.08,
+    "total_r_net": -29.0,
+    "max_dd_r": 45.5
+   },
+   "H2": {
+    "trades": 337,
+    "win_rate": 31.2,
+    "avg_r": 0.037,
+    "avg_r_net": -0.028,
+    "total_r_net": -9.6,
+    "max_dd_r": 35.0
+   }
+  },
+  "A7: TP1 >= 1.5R, 25/25/50, at +1.5R + BTC trend agrees": {
+   "all": {
+    "trades": 1397,
+    "win_rate": 35.6,
+    "avg_r": 0.2,
+    "avg_r_net": 0.117,
+    "total_r_net": 163.7,
+    "max_dd_r": 118.1
+   },
+   "H1": {
+    "trades": 653,
+    "win_rate": 38.7,
+    "avg_r": 0.379,
+    "avg_r_net": 0.288,
+    "total_r_net": 187.8,
+    "max_dd_r": 102.4
+   },
+   "H2": {
+    "trades": 744,
+    "win_rate": 32.8,
+    "avg_r": 0.044,
+    "avg_r_net": -0.032,
+    "total_r_net": -24.0,
+    "max_dd_r": 113.1
+   }
+  },
+  "A7: TP1 >= 1.5R, 25/25/50, at +1.5R + BTC trend agrees [caps]": {
+   "all": {
+    "trades": 549,
+    "win_rate": 33.2,
+    "avg_r": 0.099,
+    "avg_r_net": 0.021,
+    "total_r_net": 11.3,
+    "max_dd_r": 49.7
+   },
+   "H1": {
+    "trades": 261,
+    "win_rate": 36.4,
+    "avg_r": 0.233,
+    "avg_r_net": 0.145,
+    "total_r_net": 37.9,
+    "max_dd_r": 38.3
+   },
+   "H2": {
+    "trades": 288,
+    "win_rate": 30.2,
+    "avg_r": -0.022,
+    "avg_r_net": -0.092,
+    "total_r_net": -26.6,
+    "max_dd_r": 42.6
+   }
+  },
+  "A7: TP1 >= 1.5R, 25/25/50, at +1.5R + RR>=2 to TP2": {
+   "all": {
+    "trades": 2042,
+    "win_rate": 34.8,
+    "avg_r": 0.167,
+    "avg_r_net": 0.089,
+    "total_r_net": 182.4,
+    "max_dd_r": 143.2
+   },
+   "H1": {
+    "trades": 1115,
+    "win_rate": 35.8,
+    "avg_r": 0.218,
+    "avg_r_net": 0.135,
+    "total_r_net": 151.0,
+    "max_dd_r": 117.3
+   },
+   "H2": {
+    "trades": 927,
+    "win_rate": 33.7,
+    "avg_r": 0.105,
+    "avg_r_net": 0.034,
+    "total_r_net": 31.4,
+    "max_dd_r": 71.7
+   }
+  },
+  "A7: TP1 >= 1.5R, 25/25/50, at +1.5R + RR>=2 to TP2 [caps]": {
+   "all": {
+    "trades": 700,
+    "win_rate": 32.1,
+    "avg_r": 0.016,
+    "avg_r_net": -0.057,
+    "total_r_net": -40.0,
+    "max_dd_r": 55.8
+   },
+   "H1": {
+    "trades": 363,
+    "win_rate": 33.1,
+    "avg_r": 0.001,
+    "avg_r_net": -0.08,
+    "total_r_net": -29.0,
+    "max_dd_r": 45.5
+   },
+   "H2": {
+    "trades": 337,
+    "win_rate": 31.2,
+    "avg_r": 0.033,
+    "avg_r_net": -0.033,
+    "total_r_net": -11.1,
+    "max_dd_r": 36.4
+   }
+  },
+  "A7: TP1 >= 1.5R, 25/25/50, at +1.5R + BTC trend + RR>=2": {
+   "all": {
+    "trades": 1390,
+    "win_rate": 35.5,
+    "avg_r": 0.201,
+    "avg_r_net": 0.118,
+    "total_r_net": 164.4,
+    "max_dd_r": 119.7
+   },
+   "H1": {
+    "trades": 652,
+    "win_rate": 38.7,
+    "avg_r": 0.377,
+    "avg_r_net": 0.285,
+    "total_r_net": 186.1,
+    "max_dd_r": 102.4
+   },
+   "H2": {
+    "trades": 738,
+    "win_rate": 32.8,
+    "avg_r": 0.046,
+    "avg_r_net": -0.029,
+    "total_r_net": -21.7,
+    "max_dd_r": 114.2
+   }
+  },
+  "A7: TP1 >= 1.5R, 25/25/50, at +1.5R + BTC trend + RR>=2 [caps]": {
+   "all": {
+    "trades": 549,
+    "win_rate": 33.2,
+    "avg_r": 0.096,
+    "avg_r_net": 0.017,
+    "total_r_net": 9.3,
+    "max_dd_r": 51.6
+   },
+   "H1": {
+    "trades": 261,
+    "win_rate": 36.4,
+    "avg_r": 0.233,
+    "avg_r_net": 0.145,
+    "total_r_net": 37.9,
+    "max_dd_r": 38.3
+   },
+   "H2": {
+    "trades": 288,
+    "win_rate": 30.2,
+    "avg_r": -0.029,
+    "avg_r_net": -0.099,
+    "total_r_net": -28.6,
+    "max_dd_r": 42.7
+   }
+  },
+  "A8: no TP1 (0/50/50), after TP2": {
+   "all": {
+    "trades": 2024,
+    "win_rate": 34.9,
+    "avg_r": 0.221,
+    "avg_r_net": 0.144,
+    "total_r_net": 291.5,
+    "max_dd_r": 128.6
+   },
+   "H1": {
+    "trades": 1102,
+    "win_rate": 36.0,
+    "avg_r": 0.299,
+    "avg_r_net": 0.216,
+    "total_r_net": 237.6,
+    "max_dd_r": 121.3
+   },
+   "H2": {
+    "trades": 922,
+    "win_rate": 33.5,
+    "avg_r": 0.129,
+    "avg_r_net": 0.059,
+    "total_r_net": 54.0,
+    "max_dd_r": 94.6
+   }
+  },
+  "A8: no TP1 (0/50/50), after TP2 [caps]": {
+   "all": {
+    "trades": 700,
+    "win_rate": 31.9,
+    "avg_r": 0.052,
+    "avg_r_net": -0.022,
+    "total_r_net": -15.4,
+    "max_dd_r": 48.7
+   },
+   "H1": {
+    "trades": 363,
+    "win_rate": 32.5,
+    "avg_r": 0.05,
+    "avg_r_net": -0.031,
+    "total_r_net": -11.2,
+    "max_dd_r": 48.7
+   },
+   "H2": {
+    "trades": 337,
+    "win_rate": 31.2,
+    "avg_r": 0.053,
+    "avg_r_net": -0.012,
+    "total_r_net": -4.2,
+    "max_dd_r": 38.5
+   }
+  }
+ }
+}

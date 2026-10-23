@@ -101,6 +101,14 @@ def send_photo(chat, photo, cap, uploaded=False):
     return d["result"]
 
 
+def plan_text(s=None):
+    w = (s or {}).get("w") if s else C.V4.get("exit_weights")
+    if not w or abs(w[0] - 1 / 3) < 0.01:
+        return "Take a third at each TP; after TP1 move the stop to entry."
+    p = [round(x * 100) for x in w]
+    return f"Take {p[0]}% at TP1, {p[1]}% at TP2, {p[2]}% at TP3; after TP1 move the stop to entry."
+
+
 def caption(s):
     """Signal message built from the stored signal (used as the photo caption, max 1024 chars)."""
     icon = "🟢" if s["side"] == "LONG" else "🔴"
@@ -112,7 +120,7 @@ def caption(s):
     if s["market"] == "PERP" and s.get("funding_pct") is not None:
         t += f"\nFunding {s['funding_pct']:+.4f}%"
     rs = [r for r in (s.get("reasons") or []) if not r.startswith("Untested")]
-    tail = "\n\nTake a third at each TP; after TP1 move the stop to entry.\nNot financial advice · " + C.SITE_URL
+    tail = "\n\n" + plan_text(s) + "\nNot financial advice · " + C.SITE_URL
     if s["market"] == "DEX" and s.get("token"):
         tail = f"\n\nToken: {s['token']}\nUntested signal type. Check the address; copies exist." + tail
     why = ""
@@ -215,6 +223,10 @@ def watchlist_text():
     return "\n".join(out)
 
 
+SHIPPED_ROW = "A1: 25/25/50, stop->entry after TP1"
+BASE_ROW = "baseline: thirds, stop->entry after TP1"
+
+
 def stats_text():
     cl = [s for s in signals() if s["closed"]]
     bt = jload(C.BACKTEST_JSON, {}).get("summary", {}).get("all")
@@ -231,7 +243,14 @@ def stats_text():
     else:
         lines.append("Live: no closed signals yet.")
     lines.append(f"Open now: {sum(1 for s in signals() if not s['closed'])}")
-    if bt:
+    lines.append(f"\nStrategy {C.STRATEGY_VERSION}: {C.STRATEGY_NOTE}.")
+    be = jload(os.path.join(C.DIR, "backtest_exits.json"), {}).get("rows", {})
+    cur, old = be.get(SHIPPED_ROW, {}).get("all"), be.get(BASE_ROW, {}).get("all")
+    if cur and old:
+        lines.append(f"Backtest (past 90 days, ~200 coins, after fees, not live): {cur['trades']} signals, {cur['win_rate']}% wins, "
+                     f"{cur['avg_r_net']:+.2f}R per signal (old exits {old['avg_r_net']:+.2f}R). "
+                     "News filter is live-only (can't be backtested).")
+    elif bt:
         lines.append(f"\nBacktest (past 90 days, not live): {bt['trades']} signals, {bt['win_rate']}% wins, "
                      f"{bt['avg_r']:+.2f}R per signal before fees, {bt['avg_r_net']:+.2f}R after fees.")
     lines.append("\n" + C.SITE_URL)
@@ -280,7 +299,9 @@ def pretty(line):
             t += "\n\nWhy:\n" + "\n".join("• " + r for r in reasons[:7])
         if token:
             t += f"\n\nToken address: {token}\nCheck the address before buying; copies with the same name exist."
-        t += "\n\nTake a third at each TP, move the stop to entry after TP1."
+        t += "\n\n" + plan_text()
+    elif w[0] == "NEWS":
+        return "📰 News" + line[4:] + f"\n\nNot financial advice · {C.SITE_URL}"
     else:
         t = "📊 " + line.replace("UPDATE ", "", 1)
     return t + f"\n\nNot financial advice · {C.SITE_URL}"

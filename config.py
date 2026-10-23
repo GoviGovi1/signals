@@ -58,4 +58,13 @@ V3_FILTERS = {"BTC regime": False, "relative strength vs BTC": False, "volume 1.
 # setups that fire, exit style ("structure" = stop beyond the nearest level, targets at the next levels),
 # and the filters that improved both halves. ML scorer did NOT beat the rules out-of-sample -> off.
 V4 = {"setups": ["RANGE_BREAK", "RETEST", "BOS", "BREAKOUT20"], "exits": "structure",
-      "min_room_r": 2.0, "max_atr_pct": 2.5, "ml": False}
+      "min_room_r": 2.0, "max_atr_pct": 2.5, "ml": False,
+      # v4.1 exit plan (backtest_exits.py): 25% at TP1, 25% at TP2, 50% at TP3, stop to entry after TP1.
+      # Beat thirds after fees in both halves, with caps and with the coin gate; BTC-trend filter and
+      # TP1-farther / later-breakeven variants did not hold in both halves -> off.
+      "exit_weights": [0.25, 0.25, 0.5]}
+STRATEGY_VERSION = "v4.1"
+STRATEGY_NOTE = "chart setups v4 + exits 25/25/50 (stop to entry after TP1) + live news filter"
+# Live news filter (news.py; can't be backtested): skip longs on fresh (24h) bearish news for the coin and shorts
+# on fresh bullish news (not for BTC/ETH: their headlines are market-wide), show the headline, follow up on open signals.
+NEWS = {"veto": True, "followups": True}

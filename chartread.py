@@ -280,10 +280,12 @@ def read(P, i, side, setup, info):
     return {"features": f, "sl": sl, "tps": tps, "R": R, "reasons": rs, "plot": plot, "levels": lv}
 
 
-def sim(P, i, side, entry, sl, tps, expire_h=48):
-    """Simulate exits (thirds at each TP, stop to entry after TP1, expiry). Returns trade dict."""
+def sim(P, i, side, entry, sl, tps, expire_h=48, w=None):
+    """Simulate exits (shares w at each TP, default the live config.V4 exit_weights; stop to entry after TP1;
+    expiry). Returns trade dict."""
+    import config
     R = abs(entry - sl)
-    t = {"dir": side, "entry": entry, "sl": sl, "sl0": sl, "R": R, "tps": list(tps), "hits": 0, "be_from": None,
+    t = {"w": w or config.V4.get("exit_weights"), "dir": side, "entry": entry, "sl": sl, "sl0": sl, "R": R, "tps": list(tps), "hits": 0, "be_from": None,
          "opened": int(P["ts"][i]) + H, "status": "open", "closed": False, "exit_price": None, "result_r": None, "lev": 1}
     b1 = P["b1"]
     jj = i + 1

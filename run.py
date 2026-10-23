@@ -13,7 +13,7 @@ usage: python3 run.py [--no-refresh]"""
 import csv, fcntl, json, os, sys, time
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
-import config as C, chartread as CR, okx, strategy as S, catalyst as K, universe
+import config as C, chartread as CR, okx, strategy as S, catalyst as K, universe, news as N
 
 H = S.H
 DAY = 86400
@@ -359,6 +359,12 @@ def main():
         done_, failed = K.refresh()
         if done_ or failed:
             print("catalyst:", ", ".join(done_) or "-", ("| failed: " + "; ".join(failed)) if failed else "")
+    try:
+        nr = N.refresh()
+        if nr:
+            print(f"news: {nr[0]} headlines fetched, {nr[1]} coin-matched kept" + (f" | failed: {'; '.join(nr[2])}" if nr[2] else ""))
+    except Exception as e:
+        print(f"news: refresh failed ({type(e).__name__})")
     sigs = load()
     lines, outbox, now_ms = [], [], int(time.time() * 1000)
     # 1) track open exchange signals on their own market (one small call each)
@@ -379,6 +385,11 @@ def main():
             except Exception:
                 pass
         lines += update_lines(s, ev)
+    if C.NEWS.get("followups"):
+        try:
+            lines += N.followups(sigs, now_ms)
+        except Exception as e:
+            print(f"news: follow-ups failed ({type(e).__name__})")
     # 2) scan the universe once per closed hour (the first run after the hour does it)
     st = K.jload("scan_state")
     last_closed = (now_ms // H) * H - H
@@ -480,6 +491,9 @@ def scan(sigs, got, now_ms):
             veto = veto or f"strategy lost {gate['net_r'][coin]:+.1f}R on {coin} in the last 45 days"
         elif gate:
             crs.append(f"Track record: {gate['net_r'][coin]:+.1f}R on {coin} in the last 45 days (backtest)")
+        nveto, nline = N.assess(coin, side)
+        if nveto and C.NEWS.get("veto"):
+            veto = veto or nveto
         if veto:
             print(f"filtered {coin} {'LONG' if side > 0 else 'SHORT'}: {veto}")
             continue
@@ -514,7 +528,8 @@ def scan(sigs, got, now_ms):
                  rsi=round(ind["rsi"][i], 1), atr=atr_v, result_pct=None, closed_at=None,
                  move_pct=round((last - entry) / entry * 100 * side, 2), score=score, lev=lev,
                  trade_on=trade_on, market_reason=mwhy,
-                 setup=setup, reasons=[f"Chart: {x}" if k == 0 else x for k, x in enumerate(rd["reasons"])] + v3r + crs,
+                 setup=setup, reasons=[f"Chart: {x}" if k == 0 else x for k, x in enumerate(rd["reasons"])][:1] + ([nline] if nline else [])
+                 + rd["reasons"][1:] + v3r + crs, w=list(C.V4["exit_weights"]), strategy=C.STRATEGY_VERSION,
                  levels=[round(x * scale, 10) for x in rd["plot"]["levels"]],
                  range_box=[rd["plot"]["range"][0] * scale, rd["plot"]["range"][1] * scale, rd["plot"]["range"][2]] if rd["plot"].get("range") else None)
         s["funding_pct"] = der.get("funding_pct") if market == "PERP" else None
