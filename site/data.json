@@ -17,7 +17,7 @@
     0.07727623889092099
    ],
    "lev": 3,
-   "funding_pct": 0.0099,
+   "funding_pct": 0.01,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-10-22T02:00:00+00:00",
@@ -25,9 +25,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.07984,
-   "last_ts": "2026-10-23T07:50:56+00:00",
-   "move_pct": 1.58,
+   "last": 0.07998,
+   "last_ts": "2026-10-23T08:07:30+00:00",
+   "move_pct": 1.41,
    "closed": false,
    "rsi": 37.2,
    "trade_on": null,
@@ -52,7 +52,7 @@
     99.9796045174737
    ],
    "lev": 3,
-   "funding_pct": 0.0073,
+   "funding_pct": 0.0067,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-10-22T03:00:00+00:00",
@@ -60,9 +60,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 104.25,
-   "last_ts": "2026-10-23T07:50:56+00:00",
-   "move_pct": 1.16,
+   "last": 104.49,
+   "last_ts": "2026-10-23T08:07:30+00:00",
+   "move_pct": 0.93,
    "closed": false,
    "rsi": 37.7,
    "trade_on": null,
@@ -97,7 +97,7 @@
     0.0019120182314873771
    ],
    "lev": 1,
-   "funding_pct": -0.0232,
+   "funding_pct": -0.0228,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-22T16:00:00+00:00",
@@ -105,9 +105,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002104,
-   "last_ts": "2026-10-23T07:50:56+00:00",
-   "move_pct": -0.29,
+   "last": 0.002093,
+   "last_ts": "2026-10-23T08:07:30+00:00",
+   "move_pct": 0.24,
    "closed": false,
    "rsi": 29.2,
    "trade_on": "Perps 1x",
@@ -149,9 +149,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0498,
-   "last_ts": "2026-10-23T07:50:56+00:00",
-   "move_pct": -0.24,
+   "last": 0.04976,
+   "last_ts": "2026-10-23T08:07:30+00:00",
+   "move_pct": -0.32,
    "closed": false,
    "rsi": 63.0,
    "trade_on": "Spot",
@@ -178,7 +178,7 @@
    "side": "LONG",
    "entry": 0.0275642877607695,
    "sl0": 0.023763503003756237,
-   "sl": 0.023763503003756237,
+   "sl": 0.0275642877607695,
    "tps": [
     0.03136507251778276,
     0.03516585727479602,
@@ -186,16 +186,16 @@
    ],
    "lev": null,
    "funding_pct": null,
-   "status": "open",
-   "hits": 0,
+   "status": "tp1",
+   "hits": 1,
    "opened": "2026-10-23T03:00:00+00:00",
    "closed_at": null,
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0284342464876802,
-   "last_ts": "2026-10-23T07:33:38+00:00",
-   "move_pct": 3.16,
+   "last": 0.0325186341216846,
+   "last_ts": "2026-10-23T08:07:30+00:00",
+   "move_pct": 17.97,
    "closed": false,
    "rsi": 73.0,
    "trade_on": "On-chain spot (BSC DEX)",
@@ -237,9 +237,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.815,
-   "last_ts": "2026-10-23T07:50:56+00:00",
-   "move_pct": 0.83,
+   "last": 1.803,
+   "last_ts": "2026-10-23T08:07:30+00:00",
+   "move_pct": 0.17,
    "closed": false,
    "rsi": 68.1,
    "trade_on": "Spot",
@@ -3634,6 +3634,28 @@
     ]
    },
    {
+    "id": "decentralized-exchange",
+    "name": "Decentralized Exchange",
+    "chg7d": -2.44,
+    "top": [
+     "HYPE",
+     "UNI",
+     "PUMP",
+     "ASTER",
+     "JUP"
+    ],
+    "tracked": [
+     "PUMP",
+     "HYPE",
+     "LIT",
+     "UNI",
+     "CRV",
+     "ASTER",
+     "AERO",
+     "RAY"
+    ]
+   },
+   {
     "id": "meme-token",
     "name": "Meme Token",
     "chg7d": -2.51,
@@ -3739,28 +3761,6 @@
      "FARTCOIN",
      "WIF",
      "BONK"
-    ]
-   },
-   {
-    "id": "decentralized-exchange",
-    "name": "Decentralized Exchange",
-    "chg7d": -3.43,
-    "top": [
-     "HYPE",
-     "UNI",
-     "PUMP",
-     "ASTER",
-     "JUP"
-    ],
-    "tracked": [
-     "PUMP",
-     "HYPE",
-     "LIT",
-     "UNI",
-     "CRV",
-     "ASTER",
-     "AERO",
-     "RAY"
     ]
    },
    {
@@ -4150,7 +4150,7 @@
   "updated": {
    "unlocks": 1792723637,
    "onchain": 1792741795,
-   "sectors": 1792741795,
+   "sectors": 1792742850,
    "listings": 1792741795,
    "fundamentals": 1792723638
   }
@@ -4186,6 +4186,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "1a65342e22c6a9998adf5e8a6f058ca5b605d48ab4e922b5bfc21c69697ac5c6",
- "generated": "2026-10-23T07:51:00+00:00"
+ "digest": "3a6fe2d3fd7bdd0541d5725eaeef868f6d3b94f40fe63ca19d2586c442034511",
+ "generated": "2026-10-23T08:08:00+00:00"
 }
