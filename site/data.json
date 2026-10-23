@@ -25,9 +25,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.07914,
-   "last_ts": "2026-10-23T19:15:32+00:00",
-   "move_pct": 2.44,
+   "last": 0.07898,
+   "last_ts": "2026-10-23T19:36:28+00:00",
+   "move_pct": 2.64,
    "closed": false,
    "rsi": 37.2,
    "trade_on": null,
@@ -52,7 +52,7 @@
     99.9796045174737
    ],
    "lev": 3,
-   "funding_pct": 0.0085,
+   "funding_pct": 0.0083,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-10-22T03:00:00+00:00",
@@ -60,60 +60,15 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 103.77,
-   "last_ts": "2026-10-23T19:15:32+00:00",
-   "move_pct": 1.61,
+   "last": 103.63,
+   "last_ts": "2026-10-23T19:36:28+00:00",
+   "move_pct": 1.74,
    "closed": false,
    "rsi": 37.7,
    "trade_on": null,
    "market_reason": null,
    "chart": null,
    "setup": null
-  },
-  {
-   "id": "ZIL-PERP-1792681200",
-   "kind": "TA",
-   "score": -1,
-   "reasons": [
-    "Chart: Broke down from a 4-day range at 0.002102 (range 0.002102\u20130.002308) on 3.1x volume",
-    "Timeframes: 1d down, 4h down, 4h structure higher highs/lows",
-    "No support below in the last 50 days",
-    "Stop 0.00216 (2 ATR); targets at 1R/2R/3R",
-    "BTC 4h trend flat",
-    "Weaker than BTC by 34.8% over 7d",
-    "OI +3% 24h",
-    "funding -0.087%/8h: shorts crowded",
-    "Track record: +2.5R on ZIL in the last 45 days (backtest)"
-   ],
-   "coin": "ZIL",
-   "market": "PERP",
-   "side": "SHORT",
-   "entry": 0.002098,
-   "sl0": 0.002159993922837541,
-   "sl": 0.002159993922837541,
-   "tps": [
-    0.002036006077162459,
-    0.001974012154324918,
-    0.0019120182314873771
-   ],
-   "lev": 1,
-   "funding_pct": -0.0281,
-   "status": "open",
-   "hits": 0,
-   "opened": "2026-10-22T16:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.002068,
-   "last_ts": "2026-10-23T19:15:32+00:00",
-   "move_pct": 1.43,
-   "closed": false,
-   "rsi": 29.2,
-   "trade_on": "Perps 1x",
-   "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": "charts/ZIL-PERP-1792681200.png",
-   "setup": "RANGE_BREAK"
   },
   {
    "id": "SLX-SPOT-1792720800",
@@ -149,9 +104,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.05148,
-   "last_ts": "2026-10-23T19:15:32+00:00",
-   "move_pct": 3.12,
+   "last": 0.05108,
+   "last_ts": "2026-10-23T19:36:28+00:00",
+   "move_pct": 2.32,
    "closed": false,
    "rsi": 63.0,
    "trade_on": "Spot",
@@ -194,9 +149,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04215,
-   "last_ts": "2026-10-23T19:15:32+00:00",
-   "move_pct": 4.77,
+   "last": 0.04258,
+   "last_ts": "2026-10-23T19:36:28+00:00",
+   "move_pct": 5.84,
    "closed": false,
    "rsi": 59.7,
    "trade_on": "Spot",
@@ -231,7 +186,7 @@
     6.31391444155267
    ],
    "lev": 2,
-   "funding_pct": -0.0006,
+   "funding_pct": -0.0001,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-23T17:00:00+00:00",
@@ -239,9 +194,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 7.78,
-   "last_ts": "2026-10-23T19:15:32+00:00",
-   "move_pct": 0.1,
+   "last": 7.767,
+   "last_ts": "2026-10-23T19:36:28+00:00",
+   "move_pct": 0.27,
    "closed": false,
    "rsi": 30.0,
    "trade_on": "Perps 2x",
@@ -284,9 +239,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.13943,
-   "last_ts": "2026-10-23T19:15:32+00:00",
-   "move_pct": 2.5,
+   "last": 0.1376,
+   "last_ts": "2026-10-23T19:36:28+00:00",
+   "move_pct": 1.15,
    "closed": false,
    "rsi": 66.6,
    "trade_on": "Spot",
@@ -296,6 +251,51 @@
   }
  ],
  "closed": [
+  {
+   "id": "ZIL-PERP-1792681200",
+   "kind": "TA",
+   "score": -1,
+   "reasons": [
+    "Chart: Broke down from a 4-day range at 0.002102 (range 0.002102\u20130.002308) on 3.1x volume",
+    "Timeframes: 1d down, 4h down, 4h structure higher highs/lows",
+    "No support below in the last 50 days",
+    "Stop 0.00216 (2 ATR); targets at 1R/2R/3R",
+    "BTC 4h trend flat",
+    "Weaker than BTC by 34.8% over 7d",
+    "OI +3% 24h",
+    "funding -0.087%/8h: shorts crowded",
+    "Track record: +2.5R on ZIL in the last 45 days (backtest)"
+   ],
+   "coin": "ZIL",
+   "market": "PERP",
+   "side": "SHORT",
+   "entry": 0.002098,
+   "sl0": 0.002159993922837541,
+   "sl": 0.002159993922837541,
+   "tps": [
+    0.002036006077162459,
+    0.001974012154324918,
+    0.0019120182314873771
+   ],
+   "lev": 1,
+   "funding_pct": -0.0281,
+   "status": "stopped",
+   "hits": 0,
+   "opened": "2026-10-22T16:00:00+00:00",
+   "closed_at": "2026-10-23T19:36:28+00:00",
+   "exit_price": 0.002159993922837541,
+   "result_r": -1.0,
+   "result_pct": -2.95,
+   "last": 0.002107,
+   "last_ts": "2026-10-23T19:36:28+00:00",
+   "move_pct": 1.43,
+   "closed": true,
+   "rsi": 29.2,
+   "trade_on": "Perps 1x",
+   "market_reason": "shorts need perps; thin perp market, so 1x",
+   "chart": "charts/ZIL-PERP-1792681200.png",
+   "setup": "RANGE_BREAK"
+  },
   {
    "id": "LIGHT-PERP-1792753200",
    "kind": "TA",
@@ -541,13 +541,13 @@
  ],
  "stats": {
   "all": {
-   "trades": 6,
+   "trades": 7,
    "wins": 4,
-   "losses": 2,
-   "win_rate": 66.7,
-   "total_r": 1.0,
-   "avg_r": 0.167,
-   "total_pct": 24.97
+   "losses": 3,
+   "win_rate": 57.1,
+   "total_r": -0.0,
+   "avg_r": -0.0,
+   "total_pct": 22.02
   },
   "SPOT": {
    "trades": 1,
@@ -559,13 +559,13 @@
    "total_pct": -2.29
   },
   "PERP": {
-   "trades": 4,
+   "trades": 5,
    "wins": 3,
-   "losses": 1,
-   "win_rate": 75.0,
-   "total_r": -0.0,
-   "avg_r": -0.0,
-   "total_pct": -0.32
+   "losses": 2,
+   "win_rate": 60.0,
+   "total_r": -1.0,
+   "avg_r": -0.2,
+   "total_pct": -3.27
   },
   "DEX": {
    "trades": 1,
@@ -587,13 +587,13 @@
     "total_pct": 27.58
    },
    "TA": {
-    "trades": 5,
+    "trades": 6,
     "wins": 3,
-    "losses": 2,
-    "win_rate": 60.0,
-    "total_r": -1.0,
-    "avg_r": -0.2,
-    "total_pct": -2.61
+    "losses": 3,
+    "win_rate": 50.0,
+    "total_r": -2.0,
+    "avg_r": -0.333,
+    "total_pct": -5.56
    }
   },
   "coins": {
@@ -650,9 +650,18 @@
     "total_r": 0.33,
     "avg_r": 0.333,
     "total_pct": 0.56
+   },
+   "ZIL": {
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate": 0.0,
+    "total_r": -1.0,
+    "avg_r": -1.0,
+    "total_pct": -2.95
    }
   },
-  "open": 7
+  "open": 6
  },
  "backtest": {
   "from": "2026-07-24",
@@ -3783,25 +3792,42 @@
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
   "onchain": [
    {
-    "chain": "Ethereum",
-    "symbol": "PEPE",
-    "name": "Pepe",
-    "token": "0x6982508145454ce325ddbe47a25d4ec3d2311933",
-    "price": 4.78456598092856e-06,
-    "liq": 31639436,
-    "vol24h": 4602417,
-    "age_d": 1288.0,
-    "chg24h": 9.045,
-    "chg7d": 19.2,
-    "mcap": 2013335147.7906,
-    "safety": "unknown",
-    "safety_notes": [
-     "safety not checked"
-    ],
+    "chain": "BSC",
+    "symbol": "B13B",
+    "name": "B13B",
+    "token": "0x4902c5ebc598265ed2212b559b042de8a5eeec3f",
+    "price": 5.46509037392354,
+    "liq": 449342,
+    "vol24h": 7644266,
+    "age_d": 39.3,
+    "chg24h": 5.539,
+    "chg7d": 21.9,
+    "mcap": 34911048.6126416,
+    "safety": "ok",
+    "safety_notes": [],
     "trigger": false,
     "trend_up": true,
-    "rsi": 53.5,
-    "url": "https://www.geckoterminal.com/eth/pools/0xa43fe16908251ee70ef74718545e4fe6c5ccec9f"
+    "rsi": 51.1,
+    "url": "https://www.geckoterminal.com/bsc/pools/0xb754f10cebf50b8862444cf4d6c1cc31a3b71c18"
+   },
+   {
+    "chain": "Arbitrum",
+    "symbol": "ARB",
+    "name": "Arbitrum",
+    "token": "0x912ce59144191c1204e64559fe8253a0e49e6548",
+    "price": 0.177945489564322,
+    "liq": 1857407,
+    "vol24h": 4637323,
+    "age_d": 1316.7,
+    "chg24h": -1.377,
+    "chg7d": -5.8,
+    "mcap": 1226339114.07533,
+    "safety": "ok",
+    "safety_notes": [],
+    "trigger": false,
+    "trend_up": false,
+    "rsi": 44.1,
+    "url": "https://www.geckoterminal.com/arbitrum/pools/0xc6f780497a95e246eb9449f5e4770916dcd6396a"
    }
   ],
   "onchain_checked": 86,
@@ -3827,6 +3853,28 @@
      "ALGO",
      "RSR",
      "CARDS"
+    ]
+   },
+   {
+    "id": "exchange-based-tokens",
+    "name": "Exchange Based Tokens",
+    "chg7d": -0.49,
+    "top": [
+     "BNB",
+     "HYPE",
+     "WBT",
+     "LEO",
+     "UNI"
+    ],
+    "tracked": [
+     "BNB",
+     "PUMP",
+     "HYPE",
+     "UNI",
+     "OKB",
+     "CRV",
+     "EDGE",
+     "ASTER"
     ]
    },
    {
@@ -3871,28 +3919,6 @@
      "PENGU",
      "SHIB",
      "USELESS"
-    ]
-   },
-   {
-    "id": "exchange-based-tokens",
-    "name": "Exchange Based Tokens",
-    "chg7d": -1.86,
-    "top": [
-     "BNB",
-     "HYPE",
-     "WBT",
-     "LEO",
-     "UNI"
-    ],
-    "tracked": [
-     "BNB",
-     "PUMP",
-     "HYPE",
-     "UNI",
-     "OKB",
-     "CRV",
-     "EDGE",
-     "ASTER"
     ]
    },
    {
@@ -4389,9 +4415,9 @@
   ],
   "updated": {
    "unlocks": 1792767180,
-   "onchain": 1792779737,
-   "sectors": 1792782332,
-   "listings": 1792779736,
+   "onchain": 1792784126,
+   "sectors": 1792784126,
+   "listings": 1792784125,
    "fundamentals": 1792767180
   }
  },
@@ -4426,6 +4452,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "f4888949409465ae0317b9d4a990db8e217c0365b12dd2d8daf8633deedc766a",
- "generated": "2026-10-23T19:15:34+00:00"
+ "digest": "d9000403e4ab8bce8fbebd736ec346f03240a56af97936db4a9cc5467fe139dd",
+ "generated": "2026-10-23T19:36:30+00:00"
 }
