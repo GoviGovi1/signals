@@ -17,7 +17,7 @@
     0.07727623889092099
    ],
    "lev": 3,
-   "funding_pct": 0.0043,
+   "funding_pct": 0.0049,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-10-22T02:00:00+00:00",
@@ -25,9 +25,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.07938,
-   "last_ts": "2026-10-23T02:22:59+00:00",
-   "move_pct": 2.14,
+   "last": 0.0796,
+   "last_ts": "2026-10-23T02:35:15+00:00",
+   "move_pct": 1.87,
    "closed": false,
    "rsi": 37.2,
    "trade_on": null,
@@ -60,9 +60,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 104.29,
-   "last_ts": "2026-10-23T02:22:59+00:00",
-   "move_pct": 1.12,
+   "last": 104.68,
+   "last_ts": "2026-10-23T02:35:15+00:00",
+   "move_pct": 0.75,
    "closed": false,
    "rsi": 37.7,
    "trade_on": null,
@@ -87,7 +87,7 @@
     11.489897951817015
    ],
    "lev": 3,
-   "funding_pct": 0.0006,
+   "funding_pct": 0.0014,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-10-22T04:00:00+00:00",
@@ -95,46 +95,11 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 12.078,
-   "last_ts": "2026-10-23T02:22:59+00:00",
-   "move_pct": 1.49,
+   "last": 12.146,
+   "last_ts": "2026-10-23T02:35:15+00:00",
+   "move_pct": 0.94,
    "closed": false,
    "rsi": 39.0,
-   "trade_on": null,
-   "market_reason": null,
-   "chart": null,
-   "setup": null
-  },
-  {
-   "id": "BNB-PERP-1792652400",
-   "kind": "TA",
-   "score": null,
-   "reasons": null,
-   "coin": "BNB",
-   "market": "PERP",
-   "side": "SHORT",
-   "entry": 736.9,
-   "sl0": 743.1618747207916,
-   "sl": 736.9,
-   "tps": [
-    730.6381252792083,
-    724.3762505584167,
-    718.1143758376251
-   ],
-   "lev": 3,
-   "funding_pct": 0.002,
-   "status": "tp1",
-   "hits": 1,
-   "opened": "2026-10-22T08:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 735.5,
-   "last_ts": "2026-10-23T02:22:59+00:00",
-   "move_pct": 0.19,
-   "closed": false,
-   "rsi": 34.7,
    "trade_on": null,
    "market_reason": null,
    "chart": null,
@@ -170,9 +135,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.3177,
-   "last_ts": "2026-10-23T02:22:59+00:00",
-   "move_pct": 0.7,
+   "last": 1.3235,
+   "last_ts": "2026-10-23T02:35:15+00:00",
+   "move_pct": 0.26,
    "closed": false,
    "rsi": 31.0,
    "trade_on": null,
@@ -207,7 +172,7 @@
     0.0019120182314873771
    ],
    "lev": 1,
-   "funding_pct": -0.034,
+   "funding_pct": -0.0319,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-22T16:00:00+00:00",
@@ -215,9 +180,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002079,
-   "last_ts": "2026-10-23T02:22:59+00:00",
-   "move_pct": 0.91,
+   "last": 0.002087,
+   "last_ts": "2026-10-23T02:35:15+00:00",
+   "move_pct": 0.52,
    "closed": false,
    "rsi": 29.2,
    "trade_on": "Perps 1x",
@@ -226,23 +191,91 @@
    "setup": "RANGE_BREAK"
   }
  ],
- "closed": [],
+ "closed": [
+  {
+   "id": "BNB-PERP-1792652400",
+   "kind": "TA",
+   "score": null,
+   "reasons": null,
+   "coin": "BNB",
+   "market": "PERP",
+   "side": "SHORT",
+   "entry": 736.9,
+   "sl0": 743.1618747207916,
+   "sl": 736.9,
+   "tps": [
+    730.6381252792083,
+    724.3762505584167,
+    718.1143758376251
+   ],
+   "lev": 3,
+   "funding_pct": 0.002,
+   "status": "stopped_be",
+   "hits": 1,
+   "opened": "2026-10-22T08:00:00+00:00",
+   "closed_at": "2026-10-23T02:35:15+00:00",
+   "exit_price": 736.9,
+   "result_r": 0.333,
+   "result_pct": 0.28,
+   "last": 737.6,
+   "last_ts": "2026-10-23T02:35:15+00:00",
+   "move_pct": 0.19,
+   "closed": true,
+   "rsi": 34.7,
+   "trade_on": null,
+   "market_reason": null,
+   "chart": null,
+   "setup": null
+  }
+ ],
  "stats": {
   "all": {
-   "trades": 0
+   "trades": 1,
+   "wins": 1,
+   "losses": 0,
+   "win_rate": 100.0,
+   "total_r": 0.33,
+   "avg_r": 0.333,
+   "total_pct": 0.28
   },
   "SPOT": {
    "trades": 0
   },
   "PERP": {
-   "trades": 0
+   "trades": 1,
+   "wins": 1,
+   "losses": 0,
+   "win_rate": 100.0,
+   "total_r": 0.33,
+   "avg_r": 0.333,
+   "total_pct": 0.28
   },
   "DEX": {
    "trades": 0
   },
-  "kinds": {},
-  "coins": {},
-  "open": 6
+  "kinds": {
+   "TA": {
+    "trades": 1,
+    "wins": 1,
+    "losses": 0,
+    "win_rate": 100.0,
+    "total_r": 0.33,
+    "avg_r": 0.333,
+    "total_pct": 0.28
+   }
+  },
+  "coins": {
+   "BNB": {
+    "trades": 1,
+    "wins": 1,
+    "losses": 0,
+    "win_rate": 100.0,
+    "total_r": 0.33,
+    "avg_r": 0.333,
+    "total_pct": 0.28
+   }
+  },
+  "open": 5
  },
  "backtest": {
   "from": "2026-07-24",
@@ -4032,6 +4065,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "458c8bcbdd04ddac58e7da8c4c21bc8d3ff0f4078b50b14932a6ed2e94ca0bb2",
- "generated": "2026-10-23T02:23:01+00:00"
+ "digest": "e5e295d819abe1f92b2981b3f7e1637b8959d9df276958eddc4f072c326f9680",
+ "generated": "2026-10-23T02:35:18+00:00"
 }
