@@ -1,5 +1,6 @@
-"""Encrypted private state for GitHub Actions. Subscriber chat ids, the Telegram offset and the outbox
-never sit in the public repo in plain text: they live in state/private.enc (AES-256-CBC, PBKDF2-SHA256,
+"""Encrypted private state for GitHub Actions. Subscriber chat ids (including stop tombstones), the Telegram
+offset, webhook ack keys, and the outbox never sit in the public repo in plain text: they live in
+state/private.enc (AES-256-CBC, PBKDF2-SHA256,
 200k iterations, via openssl) with an HMAC-SHA256 check in state/private.mac.
 Key: env SIGNALS_STATE_KEY (an Actions secret). Never printed.
   python3 state.py unpack   state/private.enc -> private/*

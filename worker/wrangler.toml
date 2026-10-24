@@ -1,0 +1,13 @@
+name = "mhosignalbot"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+workers_dev = true
+
+# Replace REPLACE_ME with the id printed by:
+#   npx wrangler kv namespace create SUBS
+[[kv_namespaces]]
+binding = "SUBS"
+id = "REPLACE_ME"
+
+[vars]
+REPLIES_URL = "https://raw.githubusercontent.com/GoviGovi1/signals/main/site/bot/replies.json"

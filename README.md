@@ -20,17 +20,47 @@ The full scan of all coins runs once per closed hour; other 15-min runs only tra
 Rules and which ones are filters vs info: `config.py` (CATALYST_FILTERS, COIN_GATE, CATALYST_SIGNALS), decided by
 `backtest_catalyst.py` (90 days, both halves) -> `backtest_catalyst.json`. Daily coin gate: `daily.yml`.
 
-Runs on **GitHub Actions** for free (`.github/workflows/signals.yml`, every 15 min + manual run):
+Runs on **GitHub Actions** for free (`.github/workflows/signals.yml`, every 15 min, plus an external cron that
+dispatches the same workflow about every 5 min):
 1. `python3 state.py unpack`  decrypt private state (subscribers, Telegram offset, outbox) from `state/private.enc`
 2. `python3 run.py`           new signals + status updates -> signals.json/csv and private/outbox.jsonl
-3. `python3 bot.py --once`    getUpdates, answer /start /signals /unlocks /watchlist /stats /help /stop, broadcast new signals (photo + caption)
+3. `python3 bot.py --serve`   publish command replies, sync /start and /stop, broadcast new signals (photo + caption).
+   Polls `getUpdates` only until the webhook below is configured. After that it does not poll.
 4. `python3 publish.py --no-push`  rebuild site/data.json
 5. `python3 state.py pack`, commit `[skip ci]`, then deploy `site/` to GitHub Pages when it changed
 
-Secrets (Actions): `SIGNALS_TG_TOKEN` (@Mhosignalbot), `SIGNALS_STATE_KEY` (AES key for state/).
+Secrets (Actions): `SIGNALS_TG_TOKEN` (@Mhosignalbot), `SIGNALS_STATE_KEY` (AES key for state/),
+and, once the worker exists, `SIGNALS_WEBHOOK_URL` plus `SIGNALS_WEBHOOK_SECRET`.
 `private/` is never committed; `state/private.enc` is AES-256-CBC (openssl, PBKDF2) + HMAC.
 
-Other tools: `python3 bot.py` (long-polling loop, don't run it while Actions is active), `python3 bt_fetch.py`
+### Instant commands (Cloudflare Worker, free)
+Telegram delivers `/start`, `/signals`, `/stats`, `/help`, `/stop`, `/unlocks`, and `/watchlist` to a
+[Cloudflare Worker](worker/) webhook (`https://<name>.<account>.workers.dev/hook`) within a few seconds.
+The worker does not scan markets and does not send the signal photos. Each Actions run renders the reply
+text with the same `bot.py` functions as before, stores it for the worker, applies join/leave events onto
+`private/subscribers.json`, then broadcasts. `getUpdates` and the webhook are never used together: while a
+webhook is set, `--serve` only broadcasts, and `python3 bot.py` (the long-polling loop) exits instead of polling.
+
+Free limits (no credit card, resets 00:00 UTC): Workers 100,000 requests/day and 10 ms of CPU per request
+(waiting on Telegram or KV does not count). Workers KV: 100,000 reads, 1,000 writes, 1,000 deletes, and
+1,000 list operations per day, 1 GB stored. This bot uses one write when the reply text changes and one list
+per scan (~300/day at a 5-minute cadence), plus one write per `/start` or `/stop` and one read per command.
+The worker does not sleep. Do not turn on the Workers Paid plan.
+
+Deploy and rotation steps are in the pull request that added `worker/`. Short version: `npx wrangler kv namespace create SUBS`,
+paste the id into `worker/wrangler.toml`, `npx wrangler deploy`, then `npx wrangler secret put TG_TOKEN` and
+`npx wrangler secret put WEBHOOK_SECRET`. Put the `*.workers.dev` origin (no `/hook`) and the same secret in the two Actions secrets.
+Confirm `https://<worker>/health` returns `{"ok":true}` before saving those secrets. To drop the webhook and go back to
+polling, delete both Actions secrets and run the workflow with **webhook_off** checked.
+
+Rotate the bot token: in @BotFather, revoke it, then update Actions secret `SIGNALS_TG_TOKEN` and
+`npx wrangler secret put TG_TOKEN`, and run the signals workflow so `setWebhook` is called with the new token.
+Rotate the webhook secret: generate a new one (`openssl rand -hex 32`), put it in `WEBHOOK_SECRET` and
+`SIGNALS_WEBHOOK_SECRET`, and run the workflow. The secret is 1–256 characters of `A-Z a-z 0-9 _ -`.
+Neither value is printed by the workflow.
+
+Other tools: `python3 bot.py --once` (one poll, skipped automatically if a webhook is set), `python3 bot.py --push`
+(broadcast only), `python3 bot.py --webhook-off`, `python3 bt_fetch.py`
 (history cache), `python3 backtest.py` (90-day chart backtest, all universe coins -> backtest.json; backtest_before.json =
 v1 pullback strategy on 9 coins), `python3 backtest_catalyst.py [--gate]`, `python3 catalyst.py [--force]`.
 Site: https://govigovi1.github.io/signals/
