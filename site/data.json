@@ -27,7 +27,7 @@
     6.31391444155267
    ],
    "lev": 2,
-   "funding_pct": -0.0026,
+   "funding_pct": -0.002,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-23T17:00:00+00:00",
@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 7.572,
-   "last_ts": "2026-10-24T14:55:23+00:00",
-   "move_pct": 2.77,
+   "last": 7.597,
+   "last_ts": "2026-10-24T15:00:26+00:00",
+   "move_pct": 2.45,
    "closed": false,
    "rsi": 30.0,
    "trade_on": "Perps 2x",
@@ -80,13 +80,102 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.2236,
-   "last_ts": "2026-10-24T14:55:23+00:00",
+   "last_ts": "2026-10-24T15:00:26+00:00",
    "move_pct": 6.05,
    "closed": false,
    "rsi": 27.5,
    "trade_on": "Perps 2x",
    "market_reason": "shorts need perps; 2x keeps liquidation 3x+ further away than the stop",
    "chart": "charts/PONS-PERP-1792792800.png",
+   "setup": "BREAKOUT20"
+  },
+  {
+   "id": "ZIL-PERP-1792850400",
+   "kind": "TA",
+   "score": -1,
+   "reasons": [
+    "Chart: Broke down from a 2-day range at 0.002017 (range 0.002017\u20130.002171) on 5.3x volume",
+    "Timeframes: 1d down, 4h down, 4h structure mixed",
+    "No support below in the last 50 days",
+    "Stop 0.0020321 (structure); targets at 1R/2R/3R",
+    "BTC 4h trend flat",
+    "Weaker than BTC by 13.2% over 7d",
+    "OI +0% 24h",
+    "funding -0.074%/8h: shorts crowded",
+    "Track record: +3.0R on ZIL in the last 45 days (backtest)"
+   ],
+   "coin": "ZIL",
+   "market": "PERP",
+   "side": "SHORT",
+   "entry": 0.001983,
+   "sl0": 0.0020321131668480656,
+   "sl": 0.0020321131668480656,
+   "tps": [
+    0.0019338868331519343,
+    0.0018847736663038686,
+    0.001835660499455803
+   ],
+   "lev": 1,
+   "funding_pct": -0.037,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-10-24T15:00:00+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.001984,
+   "last_ts": "2026-10-24T15:00:26+00:00",
+   "move_pct": -0.05,
+   "closed": false,
+   "rsi": 28.8,
+   "trade_on": "Perps 1x",
+   "market_reason": "shorts need perps; thin perp market, so 1x",
+   "chart": "charts/ZIL-PERP-1792850400.png",
+   "setup": "RANGE_BREAK"
+  },
+  {
+   "id": "CORE-PERP-1792850400",
+   "kind": "TA",
+   "score": 0,
+   "reasons": [
+    "Chart: Broke the 20-hour low on 2.9x volume",
+    "Timeframes: 1d down, 4h down, 4h structure higher highs/lows",
+    "No support below in the last 50 days",
+    "Stop 0.018251 (structure); targets at 1R/2R/3R",
+    "BTC 4h trend flat",
+    "Weaker than BTC by 4.1% over 7d",
+    "OI +3% 24h",
+    "Track record: +0.5R on CORE in the last 45 days (backtest)"
+   ],
+   "coin": "CORE",
+   "market": "PERP",
+   "side": "SHORT",
+   "entry": 0.01712,
+   "sl0": 0.018250976691976405,
+   "sl": 0.018250976691976405,
+   "tps": [
+    0.015989023308023594,
+    0.014858046616047189,
+    0.013727069924070783
+   ],
+   "lev": 1,
+   "funding_pct": 0.01,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-10-24T15:00:00+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.01713,
+   "last_ts": "2026-10-24T15:00:26+00:00",
+   "move_pct": -0.06,
+   "closed": false,
+   "rsi": 35.3,
+   "trade_on": "Perps 1x",
+   "market_reason": "shorts need perps; thin perp market, so 1x",
+   "chart": "charts/CORE-PERP-1792850400.png",
    "setup": "BREAKOUT20"
   }
  ],
@@ -1007,7 +1096,7 @@
     "total_pct": -2.95
    }
   },
-  "open": 2
+  "open": 4
  },
  "backtest": {
   "from": "2026-07-24",
@@ -4546,7 +4635,7 @@
    {
     "id": "interoperability",
     "name": "Interoperability",
-    "chg7d": -8.38,
+    "chg7d": -7.57,
     "top": [
      "TRAC",
      "W",
@@ -4746,7 +4835,7 @@
   "updated": {
    "unlocks": 1792832428,
    "onchain": 1792852823,
-   "sectors": 1792853122,
+   "sectors": 1792854026,
    "listings": 1792851921,
    "fundamentals": 1792832428
   }
@@ -4782,6 +4871,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "ed312bad24c0e65d74493cf12cd6187b1a6befb5ae845a38dc3db8f3a2cb7f85",
- "generated": "2026-10-24T14:55:24+00:00"
+ "digest": "7c166bb83042d3e5107b86238de2c1ed1c13975060098a71e34fd9d1922683f3",
+ "generated": "2026-10-24T15:01:14+00:00"
 }
