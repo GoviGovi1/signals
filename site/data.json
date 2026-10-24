@@ -27,7 +27,7 @@
     6.31391444155267
    ],
    "lev": 2,
-   "funding_pct": -0.0105,
+   "funding_pct": -0.0106,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-23T17:00:00+00:00",
@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 7.572,
-   "last_ts": "2026-10-24T21:41:26+00:00",
-   "move_pct": 2.77,
+   "last": 7.566,
+   "last_ts": "2026-10-24T21:45:19+00:00",
+   "move_pct": 2.85,
    "closed": false,
    "rsi": 30.0,
    "trade_on": "Perps 2x",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2293,
-   "last_ts": "2026-10-24T21:41:26+00:00",
-   "move_pct": 3.66,
+   "last": 0.2291,
+   "last_ts": "2026-10-24T21:45:19+00:00",
+   "move_pct": 3.74,
    "closed": false,
    "rsi": 27.5,
    "trade_on": "Perps 2x",
@@ -116,7 +116,7 @@
     0.001835660499455803
    ],
    "lev": 1,
-   "funding_pct": -0.0509,
+   "funding_pct": -0.0497,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-24T15:00:00+00:00",
@@ -124,9 +124,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.001999,
-   "last_ts": "2026-10-24T21:41:26+00:00",
-   "move_pct": -0.81,
+   "last": 0.001998,
+   "last_ts": "2026-10-24T21:45:19+00:00",
+   "move_pct": -0.76,
    "closed": false,
    "rsi": 28.8,
    "trade_on": "Perps 1x",
@@ -160,7 +160,7 @@
     0.013727069924070783
    ],
    "lev": 1,
-   "funding_pct": 0.0058,
+   "funding_pct": 0.0064,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-24T15:00:00+00:00",
@@ -168,9 +168,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.01742,
-   "last_ts": "2026-10-24T21:41:26+00:00",
-   "move_pct": -1.75,
+   "last": 0.01744,
+   "last_ts": "2026-10-24T21:45:19+00:00",
+   "move_pct": -1.87,
    "closed": false,
    "rsi": 35.3,
    "trade_on": "Perps 1x",
@@ -212,9 +212,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.02969,
-   "last_ts": "2026-10-24T21:41:26+00:00",
-   "move_pct": -2.95,
+   "last": 0.02974,
+   "last_ts": "2026-10-24T21:45:19+00:00",
+   "move_pct": -3.12,
    "closed": false,
    "rsi": 31.9,
    "trade_on": "Perps 1x",
@@ -252,9 +252,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.3018,
-   "last_ts": "2026-10-24T21:41:26+00:00",
-   "move_pct": 11.61,
+   "last": 0.2991,
+   "last_ts": "2026-10-24T21:45:19+00:00",
+   "move_pct": 10.61,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -292,9 +292,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.003555,
-   "last_ts": "2026-10-24T21:41:26+00:00",
-   "move_pct": 1.92,
+   "last": 0.003599,
+   "last_ts": "2026-10-24T21:45:19+00:00",
+   "move_pct": 3.18,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -4893,6 +4893,28 @@
     ]
    },
    {
+    "id": "layer-2",
+    "name": "Layer 2",
+    "chg7d": -4.2,
+    "top": [
+     "OKB",
+     "MNT",
+     "ARB",
+     "POL",
+     "STX"
+    ],
+    "tracked": [
+     "ORDER",
+     "ARB",
+     "KAT",
+     "STRK",
+     "OKB",
+     "OP",
+     "SOON",
+     "ZORA"
+    ]
+   },
+   {
     "id": "decentralized-perpetuals",
     "name": "Decentralized Perpetuals",
     "chg7d": -4.35,
@@ -4956,28 +4978,6 @@
      "ACU",
      "LPT",
      "ATH"
-    ]
-   },
-   {
-    "id": "layer-2",
-    "name": "Layer 2",
-    "chg7d": -5.87,
-    "top": [
-     "OKB",
-     "MNT",
-     "ARB",
-     "POL",
-     "STX"
-    ],
-    "tracked": [
-     "ORDER",
-     "ARB",
-     "KAT",
-     "STRK",
-     "OKB",
-     "OP",
-     "SOON",
-     "ZORA"
     ]
    },
    {
@@ -5227,7 +5227,7 @@
   "updated": {
    "unlocks": 1792875923,
    "onchain": 1792878024,
-   "sectors": 1792877427,
+   "sectors": 1792878319,
    "listings": 1792875022,
    "fundamentals": 1792875924
   }
@@ -5266,6 +5266,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "76f40ed92d200bf15e80ce2efea035a6e712c5f5855344288bfd380413261a1e",
- "generated": "2026-10-24T21:41:29+00:00"
+ "digest": "de5bf007530fbea96f0f42b0a73cffb87711104c9e9abb12adc70154b5acb747",
+ "generated": "2026-10-24T21:45:22+00:00"
 }
