@@ -1,6 +1,6 @@
 (function () {
   var data = null, tab = "SPOT", ctab = "unlocks";
-  var KIND = {TA: "Chart breakout", UNLOCK_SHORT: "Unlock short", POST_UNLOCK_LONG: "Post-unlock long", FUND_LONG: "Fundamentals long", ONCHAIN: "On-chain spot"};
+  var KIND = {TA: "Chart breakout", UNLOCK_SHORT: "Unlock short", POST_UNLOCK_LONG: "Post-unlock long", FUND_LONG: "Fundamentals long", ONCHAIN: "On-chain spot", HOT: "24h hot mover"};
   function money(x) { if (x == null) return "–"; return x >= 1e9 ? "$" + (x / 1e9).toFixed(1) + "B" : x >= 1e6 ? "$" + (x / 1e6).toFixed(1) + "M" : "$" + Math.round(x / 1e3) + "k"; }
   function day(ts) { return new Date(ts * 1000).toLocaleDateString(undefined, {month: "short", day: "numeric"}); }
   function inDays(ts) { var d = (ts * 1000 - Date.now()) / 864e5; return d < 1 ? "in " + Math.max(1, Math.round(d * 24)) + " h" : "in " + Math.round(d) + (Math.round(d) === 1 ? " day" : " days"); }

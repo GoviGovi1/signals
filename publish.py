@@ -116,7 +116,9 @@ def build():
             "telegram": C.TG_LINK, "coins": coins, "catalysts": catalysts(coins),
             "filters": C.CATALYST_FILTERS, "v3_filters": getattr(C, "V3_FILTERS", {}),
             "caps": {"max_open": C.MAX_OPEN, "max_new_per_day": getattr(C, "MAX_NEW_PER_DAY", None),
-                     "max_open_dex": C.MAX_OPEN_DEX, "max_new_dex_per_day": C.MAX_NEW_DEX_PER_DAY}, "catalyst_signals": C.CATALYST_SIGNALS,
+                     "max_open_dex": C.MAX_OPEN_DEX, "max_new_dex_per_day": C.MAX_NEW_DEX_PER_DAY,
+                     "max_hot_per_run": C.HOT["max_per_run"], "max_hot_per_day": C.HOT["max_per_day"],
+                     "max_hot_open": C.HOT["max_open"]}, "catalyst_signals": C.CATALYST_SIGNALS,
             "rules": {k: C.P[k] for k in ["breakout_n", "atr_mult", "expire_h", "max_lev"]}}
 
 

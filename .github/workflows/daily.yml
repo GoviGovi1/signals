@@ -1,5 +1,5 @@
 name: daily-coin-gate
-# Once a day: re-run the live chart rules on the last 45 days for every universe coin and write
+# Once a day: refresh the OKX universe, re-run the live chart rules on the last 45 days for every universe coin and write
 # catalyst/coin_gate.json (chart signals only on coins with a positive result after fees).
 # Public OKX data only: no secrets, no keys, no orders.
 on:
@@ -21,7 +21,7 @@ jobs:
           ref: main
       - name: Install numpy
         run: python3 -m pip install -q --user --break-system-packages numpy || python3 -m pip install -q --user numpy
-      - name: Refresh the coin universe (~200 OKX coins)
+      - name: Refresh the coin universe (up to 350 OKX coins)
         run: python3 -c "import universe; universe.refresh(force=True)"
       - name: Fetch 55 days of history (45 tested + indicator warm-up)
         env:

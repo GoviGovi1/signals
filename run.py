@@ -3,24 +3,25 @@ Signals only: reads public market data (OKX, DefiLlama, CoinGecko, GeckoTerminal
 wallet or exchange account.
 
 Signal kinds
-  TA                chart breakout (strategy.py) on ~200 liquid OKX coins, with catalyst reasons attached and
+  TA                chart breakout (strategy.py) on ~350 liquid OKX coins, with catalyst reasons attached and
                     catalyst filters applied where the backtest showed they help (config.CATALYST_FILTERS)
   UNLOCK_SHORT      perps short before a big token unlock, with a bearish chart          (if switched on)
   POST_UNLOCK_LONG  spot long after a big unlock passed and price held                   (if switched on)
   FUND_LONG         spot long when TVL / fees / DEX volume jump while price lags          (if switched on)
   ONCHAIN           on-chain (DEX) spot watchlist breakout; untested: no free history to backtest
+  HOT               24h OKX pump with a volume spike, including coins outside the chart universe
 usage: python3 run.py [--no-refresh]"""
 import csv, fcntl, json, os, sys, time
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
-import config as C, chartread as CR, okx, strategy as S, catalyst as K, universe, news as N
+import config as C, chartread as CR, okx, strategy as S, catalyst as K, universe, news as N, hot
 
 H = S.H
 DAY = 86400
 FIELDS = ["id", "kind", "coin", "market", "side", "opened_iso", "entry", "sl0", "tp1", "tp2", "tp3", "lev", "funding_pct",
           "status", "hits", "closed_iso", "exit_price", "result_r", "result_pct", "score", "reasons", "chain", "token"]
 KIND_LABEL = {"TA": "Chart breakout", "UNLOCK_SHORT": "Unlock short", "POST_UNLOCK_LONG": "Post-unlock long",
-              "FUND_LONG": "Fundamentals long", "ONCHAIN": "On-chain spot"}
+              "FUND_LONG": "Fundamentals long", "ONCHAIN": "On-chain spot", "HOT": "24h hot mover"}
 
 
 def fmt(p):
@@ -253,9 +254,11 @@ def lev_for(stop_frac, cap):
     return max(1, min(cap, int(C.P["lev_target_loss"] / stop_frac), int(1 / (3 * stop_frac + 0.01))))
 
 
-def choose_market(coin, side, stop_frac, atrp, strong, der):
-    """('SPOT'|'PERP', leverage, reason in plain words) or (None, 0, why not)."""
-    inf = universe.info(coin)
+def choose_market(coin, side, stop_frac, atrp, strong, der, inf=None):
+    """('SPOT'|'PERP', leverage, reason in plain words) or (None, 0, why not).
+    inf overrides universe.info (hot movers pass the live OKX book, which may not be in the universe)."""
+    if inf is None:
+        inf = universe.info(coin)
     fund8 = (der or {}).get("funding_8h_pct")
     thin = inf.get("vol_perp", 0) < 10e6
     wild = atrp > 3.0
@@ -407,6 +410,11 @@ def main():
         lines += scan(sigs, got, now_ms)
     # 3) on-chain (DEX) watchlist signals
     lines += dex_signals(sigs, now_ms)
+    # 4) 24h hot movers (every run, including coins the chart universe does not list yet)
+    try:
+        lines += hot_signals(sigs, now_ms)
+    except Exception as e:
+        print(f"hot movers: failed ({type(e).__name__})")
     prune_charts(sigs)
     save(sigs)
     if scanned and len(errors) >= scanned:
@@ -439,8 +447,8 @@ def scan(sigs, got, now_ms):
         btc_trend = tr[-1][1] if tr else None
         bd = [b for b in btc[1] if b["done"]]
         btc_7d = bd[-1]["c"] / bd[-169]["c"] - 1 if len(bd) > 169 else None
-    n_open = sum(1 for s in sigs if not s["closed"] and s["market"] != "DEX")
-    today = sum(1 for s in sigs if s["market"] != "DEX" and s["opened"] // (86400 * 1000) == now_ms // (86400 * 1000))
+    n_open = sum(1 for s in sigs if not s["closed"] and hot.counts_toward_chart_cap(s))
+    today = sum(1 for s in sigs if hot.counts_toward_chart_cap(s) and s["opened"] // (86400 * 1000) == now_ms // (86400 * 1000))
     gate = K.coin_gate() if C.COIN_GATE else None
     cands = []
     for coin, (m, b1, b4) in data.items():
@@ -547,6 +555,158 @@ def scan(sigs, got, now_ms):
         ev = S.step(s, bars[-1]) if not bars[-1]["done"] else []
         finish(s, now_ms)
         lines += update_lines(s, ev)
+    return lines
+
+
+def _hot_blocked(sigs, coin, now_ms):
+    if any(not s["closed"] and s["coin"] == coin and s["market"] != "DEX" for s in sigs):
+        return True
+    return any(s.get("kind") == "HOT" and s["coin"] == coin and now_ms - s["opened"] < DAY * 1000 for s in sigs)
+
+
+def _hot_plan(coin, book):
+    bars = okx.recent(coin, book["market"], "1h", 120)
+    plan = hot.confirm(book, bars)
+    if plan:
+        plan["bars"] = bars
+    return plan
+
+
+def _hot_override(market, info, stop_frac, atrp):
+    """choose_market wanted a book that did not confirm. Trade the book that actually moved."""
+    if market == "SPOT":
+        return 1, "spot is the book with the 24h move and the volume"
+    wild, thin = atrp > 3.0, info.get("vol_perp", 0) < 10e6
+    cap = 1 if (thin or wild) else C.P["max_lev"]
+    lev = lev_for(stop_frac, cap)
+    why = "the perp book is where the 24h move and volume are"
+    if wild:
+        why += "; very volatile, so 1x"
+    elif thin:
+        why += "; thin perp market, so 1x"
+    else:
+        why += f"; {lev}x keeps liquidation 3x+ further away than the stop"
+    return lev, why
+
+
+def _hot_terms(plan, info):
+    """Leverage and plain-language market reason for a confirmed book, via choose_market when it agrees."""
+    stop_frac = (plan["entry"] - plan["sl"]) / plan["entry"]
+    atrp = plan["atr"] / plan["entry"] * 100
+    pref, lev, why = choose_market(info.get("coin") or plan.get("coin"), 1, stop_frac, atrp, False, None, info)
+    if pref == plan["market"]:
+        return lev, why
+    return _hot_override(plan["market"], info, stop_frac, atrp)
+
+
+def _emit_hot(sigs, plan, now_ms, nline):
+    coin, market = plan["coin"], plan["market"]
+    entry, sl, tps, atr = plan["entry"], plan["sl"], plan["tps"], plan["atr"]
+    lev = plan["lev"]
+    sid = f"{coin}-{market}-HOT-{now_ms // (DAY * 1000)}"
+    if any(s["id"] == sid for s in sigs):
+        return []
+    t = S.new_trade(1, entry, atr, now_ms)
+    t.update(sl=sl, sl0=sl, R=plan["R"], tps=list(tps), lev=lev)
+    bars = plan["bars"]
+    last = bars[-1]["c"]
+    reasons = list(plan["reasons"]) + ([nline] if nline else [])
+    trade_on = "Spot" if market == "SPOT" else f"Perps {lev}x"
+    s = dict(t, id=sid, kind="HOT", coin=coin, market=market, bar_ts=plan["bar_ts"], side="LONG",
+             next_bar=(now_ms // H) * H + H, last=last, last_ts=now_ms, rsi=None, atr=atr,
+             result_pct=None, closed_at=None, move_pct=round((last - entry) / entry * 100, 2),
+             score=round(plan["score"], 2), lev=lev, trade_on=trade_on, market_reason=plan["market_reason"],
+             setup="HOT24", reasons=reasons, w=list(C.V4["exit_weights"]), strategy=C.STRATEGY_VERSION,
+             levels=[], range_box=None, funding_pct=None)
+    if market == "PERP":
+        try:
+            s["funding_pct"] = round(okx.funding(coin) * 100, 4)
+        except Exception:
+            pass
+    try:
+        import chart
+        os.makedirs(os.path.join(C.SITE_DIR, "charts"), exist_ok=True)
+        chart.render(s, bars, os.path.join(C.SITE_DIR, "charts", f"{sid}.png"))
+        s["chart"] = f"charts/{sid}.png"
+    except Exception as e:
+        print(f"chart failed for {coin}: {type(e).__name__}")
+    sigs.append(s)
+    return [{"text": signal_line(s), "sig": sid, "photo": os.path.join("site", s["chart"]) if s.get("chart") else None}]
+
+
+def hot_signals(sigs, now_ms):
+    """24h OKX pumps, including coins the chart universe does not list. Appends to sigs; returns outbox lines."""
+    cfg = C.HOT
+    if not cfg.get("on", True):
+        return []
+    try:
+        rows = universe.markets()
+    except Exception as e:
+        print(f"hot movers: market list failed ({type(e).__name__})")
+        return []
+    ranked = hot.pick(rows)
+    cands = [c for c in ranked if not _hot_blocked(sigs, c["coin"], now_ms)]
+    if not cands:
+        return []
+    ready, fetched = [], 0
+    for cand in cands:
+        if fetched >= cfg["fetch_cap"]:
+            break
+        plans, primary = {}, None
+        for book in cand["books"]:
+            if fetched >= cfg["fetch_cap"]:
+                break
+            fetched += 1
+            try:
+                primary = _hot_plan(cand["coin"], book)
+            except Exception as e:
+                print(f"hot movers: {cand['coin']} {book['market']} candles failed ({type(e).__name__})")
+                primary = None
+            if primary:
+                plans[primary["market"]] = primary
+                break
+        if not primary:
+            continue
+        pref = choose_market(cand["coin"], 1, (primary["entry"] - primary["sl"]) / primary["entry"],
+                             primary["atr"] / primary["entry"] * 100, False, None, cand["info"])[0]
+        if pref and pref not in plans and any(b["market"] == pref for b in cand["books"]) and fetched < cfg["fetch_cap"]:
+            book = next(b for b in cand["books"] if b["market"] == pref)
+            fetched += 1
+            try:
+                alt = _hot_plan(cand["coin"], book)
+            except Exception as e:
+                print(f"hot movers: {cand['coin']} {pref} candles failed ({type(e).__name__})")
+                alt = None
+            if alt:
+                plans[alt["market"]] = alt
+        book_name = hot.choose_book(plans, pref) or primary["market"]
+        plan = plans[book_name]
+        lev, mwhy = _hot_terms(plan, cand["info"])
+        plan.update(coin=cand["coin"], lev=lev, market_reason=mwhy, info=cand["info"])
+        ready.append(plan)
+    ready.sort(key=lambda p: -p["score"])
+    print(f"hot movers: {len(ranked)} ticker hits, {len(ready)} confirmed")
+    lines, made = [], 0
+    open_hot = sum(1 for s in sigs if not s["closed"] and s.get("kind") == "HOT")
+    today_hot = sum(1 for s in sigs if s.get("kind") == "HOT" and s["opened"] // (DAY * 1000) == now_ms // (DAY * 1000))
+    for plan in ready:
+        if made >= cfg["max_per_run"] or today_hot + made >= cfg["max_per_day"] or open_hot + made >= cfg["max_open"]:
+            print(f"hot cap reached, skipped {plan['coin']}")
+            continue
+        nveto, nline = None, None
+        if C.NEWS.get("veto"):
+            try:
+                nveto, nline = N.assess(plan["coin"], 1)
+            except Exception as e:
+                print(f"hot movers: news check failed for {plan['coin']} ({type(e).__name__})")
+        if nveto:
+            print(f"filtered {plan['coin']} LONG: {nveto}")
+            continue
+        added = _emit_hot(sigs, plan, now_ms, nline)
+        if not added:
+            continue
+        lines += added
+        made += 1
     return lines
 
 

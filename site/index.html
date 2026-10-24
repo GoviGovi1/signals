@@ -5,13 +5,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#0d1117">
 <title>Crypto Signals · Spot, Perps + Catalysts</title>
-<meta name="description" content="Free spot, perps and on-chain crypto signals on about 200 liquid coins, using the chart plus catalysts: token unlocks, open interest, funding, TVL, fees and sector strength. Every result tracked.">
+<meta name="description" content="Free spot, perps and on-chain crypto signals on up to 350 liquid OKX coins, plus 24h hot movers, using the chart plus catalysts: token unlocks, open interest, funding, TVL, fees and sector strength. Every result tracked.">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header class="top">
   <h1>Crypto Signals</h1>
-  <p class="sub">Free <b>Spot</b>, <b>Perps</b> and <b>on-chain</b> signals on <span id="ncoins">200</span> liquid coins. Chart + catalysts (unlocks, open interest, funding, TVL, fees, sectors) + live news. Every signal says why, and every result is tracked.</p>
+  <p class="sub">Free <b>Spot</b>, <b>Perps</b> and <b>on-chain</b> signals on <span id="ncoins">279</span> liquid coins (up to 350), plus 24h hot movers. Chart + catalysts (unlocks, open interest, funding, TVL, fees, sectors) + live news. Every signal says why, and every result is tracked.</p>
   <p class="muted">Strategy v4.1 (Oct 23, 2026): exits 25% / 25% / 50%, stop to entry after TP1; news filter on.</p>
 </header>
 
@@ -58,7 +58,8 @@
   <details class="card about">
     <summary>How signals are made</summary>
     <ul>
-      <li><b>Coins:</b> the ~200 most traded crypto coins on OKX (USDT spot pair and/or perpetual, 24h volume over $0.5M, listed 45+ days; no stablecoins, wrapped or leveraged tokens), refreshed daily. Data: public OKX candles.</li>
+      <li><b>Coins:</b> up to 350 of the most traded crypto coins on OKX (USDT spot pair and/or perpetual, combined 24h volume over $0.25M, chart market 30+ days old; no stablecoins, wrapped or leveraged tokens), refreshed daily. The list is shorter when fewer coins clear that bar. A coin already on the list stays while it remains inside the top 450. Data: public OKX candles.</li>
+      <li><b>Hot movers:</b> a separate scan of every OKX USDT book, not only the chart list. A long can fire when a coin is up 20%+ in 24 hours, that book did at least $0.5M, it is at least 2 days old, and volume is at least 1.8× its recent average. At most 2 per run and 3 per day. The stop is 2× the 1-hour ATR (between 4% and 12%) with targets at 1R, 2R and 3R. These are not the backtested chart setups, and they skip the 45-day coin gate on purpose so a new listing can show up. Spot vs perps uses the same rules as other signals.</li>
       <li><b>Spot or perps:</b> every signal says where to trade it. Shorts are perps only. Longs default to <b>spot</b>; they move to perps only when the coin has a liquid perp, the trend is strong, funding is cheap (≤0.01% per 8h) and the coin isn't too volatile. Leverage is set so liquidation sits far beyond the stop, max 3x; thin or wild coins get 1x. Spot-only coins get spot longs only.</li>
       <li><b>Strategy v3 extra rules:</b> rules such as the BTC trend, strength vs BTC and breakout volume are only switched on if they improved results after fees in <i>both</i> halves of the 200-coin backtest (see the table below). At most <span id="maxday">8</span> new signals a day; when several fire at once the ones strongest vs BTC (or weakest, for shorts) go first.</li>
       <li><b>Coin gate:</b> each day, chart signals are allowed only on coins whose signals made money after fees over the last 45 days.</li>
@@ -72,7 +73,7 @@
       <li><b>News (live filter, v4.1):</b> free headlines from CoinDesk, Cointelegraph, The Block, Decrypt, CryptoSlate and OKX listing/delisting announcements, matched to coins by ticker or name. Fresh (24h) bearish news (hack, exploit, delisting, lawsuit, SEC action…) blocks new longs on that coin, and fresh bullish news (listing, partnership, ETF approval, mainnet, upgrade…) blocks new shorts (BTC/ETH headlines are market-wide, so they're shown but don't block). The headline and link appear in the signal's “Why”, and open signals get a short follow-up when flagged news hits the coin (at most 2 per signal and 6 a day). News can't be backtested with free data.</li>
       <li><b>On-chain spot:</b> GeckoTerminal trending pools on Solana, Base, BSC, Ethereum and Arbitrum with liquidity over $250k, 7+ days old, $250k+ daily volume and a GoPlus safety check. A signal fires on a 20-hour breakout of the DEX chart. These can't be backtested with free data, so treat them as the riskiest.</li>
       <li><b>Filters vs. info:</b> a catalyst only blocks signals if it improved results in <i>both</i> halves of the 90-day backtest. Everything else is shown as a reason on the card and doesn't block anything. See the backtest section for which is which.</li>
-      <li>Perps leverage capped at 3x. One open signal per coin per market, at most <span id="maxopen">15</span> open at once. Live results don't include fees or funding; the v3 backtest does include fees. Each new signal comes with a chart image (entry, stop and targets).</li>
+      <li>Perps leverage capped at 3x. One open signal per coin per market, at most <span id="maxopen">15</span> open chart signals at once (hot movers have their own cap of 3). Live results don't include fees or funding; the v3 backtest does include fees. Each new signal comes with a chart image (entry, stop and targets).</li>
     </ul>
   </details>
 
