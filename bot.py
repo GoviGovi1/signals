@@ -1,14 +1,17 @@
 """Telegram bot for the signal service (@Mhosignalbot).
 Token: env SIGNALS_TG_TOKEN, else ALTSPOT_TELEGRAM_BOT_TOKEN. Never printed or written to disk.
-  python3 bot.py           long-polling loop: answers /start /signals /stats /help /stop and broadcasts
-                           every new SIGNAL/UPDATE line from run.py (private/outbox.jsonl) to subscribers
-  python3 bot.py --once    one pass for GitHub Actions: getUpdates (stored offset), answer commands,
-                           broadcast unsent outbox lines, then exit
-  python3 bot.py --push    send any unsent outbox lines once, then exit (use if the loop is not running)
-  python3 bot.py --status  show bot username, subscriber count, unsent lines
+  python3 bot.py            long-polling loop. Do not run this while a webhook is set.
+  python3 bot.py --once     one polling pass: getUpdates, answer commands, broadcast, exit
+  python3 bot.py --serve    Actions entry. If SIGNALS_WEBHOOK_URL + SIGNALS_WEBHOOK_SECRET are set and
+                            the worker /health responds, point the Telegram webhook at the worker and
+                            only broadcast (no getUpdates). Otherwise same as --once.
+  python3 bot.py --push     send any unsent outbox lines once, then exit
+  python3 bot.py --webhook-off   deleteWebhook so polling can be used again (does not drop updates)
+  python3 bot.py --status   show bot username, subscriber count, unsent lines
 Optional: private/telegram.json {"channel": "@yourchannel"} also posts broadcasts to a channel
-(the bot must be an admin there). Subscribers live in private/subscribers.json (never published)."""
-import fcntl, json, os, sys, time, urllib.request, urllib.parse
+(the bot must be an admin there). Subscribers live in private/subscribers.json (never published).
+The worker (worker/) answers commands; this process still renders the reply text and sends signals."""
+import fcntl, hashlib, json, os, re, sys, time, urllib.request, urllib.parse
 from datetime import datetime, timezone
 import config as C
 
@@ -16,8 +19,18 @@ SUBS = os.path.join(C.PRIVATE_DIR, "subscribers.json")
 STATE = os.path.join(C.PRIVATE_DIR, "bot_state.json")
 CFG = os.path.join(C.PRIVATE_DIR, "telegram.json")
 LOG = os.path.join(C.PRIVATE_DIR, "bot.log")
+REPLIES = os.path.join(C.SITE_DIR, "bot", "replies.json")
 DISCLAIMER = ("Not financial advice. These are paper-tracked signals: nothing is traded for you. "
               "You can lose money, and leverage makes losses bigger and faster.")
+STOP_TEXT = "You won't get signals anymore. Send /start to subscribe again."
+REPLY_KEYS = ("signals", "stats", "unlocks", "watchlist", "help", "welcome", "stop")
+TOMBSTONE_TTL = 86400 * 1000          # milliseconds; event timestamps are unix ms
+SECRET_RE = re.compile(r"[A-Za-z0-9_-]{1,256}")
+ACK_BATCH = 30
+
+
+def now_ms():
+    return int(time.time() * 1000)
 
 
 def token():
@@ -38,11 +51,10 @@ class TGError(Exception):
         self.code = code
 
 
-def api(method, params=None, timeout=20):
+def _api_result(method, data, headers, timeout):
     url = f"https://api.telegram.org/bot{token()}/{method}"
-    data = urllib.parse.urlencode(params or {}).encode()
     try:
-        r = urllib.request.urlopen(urllib.request.Request(url, data=data), timeout=timeout)
+        r = urllib.request.urlopen(urllib.request.Request(url, data=data, headers=headers), timeout=timeout)
         d = json.load(r)
     except urllib.error.HTTPError as e:                  # never let the URL (token) reach a log
         try:
@@ -54,6 +66,15 @@ def api(method, params=None, timeout=20):
     if not d.get("ok"):
         raise TGError(d.get("error_code"), d.get("description", "")[:120])
     return d["result"]
+
+
+def api(method, params=None, timeout=20):
+    return _api_result(method, urllib.parse.urlencode(params or {}).encode(), {}, timeout)
+
+
+def api_json(method, payload, timeout=20):
+    """JSON body so booleans stay booleans (form encoding can turn false into true)."""
+    return _api_result(method, json.dumps(payload).encode(), {"Content-Type": "application/json"}, timeout)
 
 
 def jload(path, default):
@@ -69,8 +90,26 @@ def jsave(path, obj):
     os.replace(tmp, path)
 
 
+def text_parts(text, limit=4000):
+    """Split a Telegram message on newlines so a long /signals reply still sends."""
+    text = text or ""
+    parts = []
+    while len(text) > limit:
+        cut = text.rfind("\n", 0, limit)
+        if cut < limit // 2:
+            cut = limit
+        parts.append(text[:cut])
+        text = text[cut:].lstrip("\n")
+    if text:
+        parts.append(text)
+    return parts or [""]
+
+
 def send(chat, text):
-    return api("sendMessage", {"chat_id": chat, "text": text, "disable_web_page_preview": "true"})
+    last = None
+    for part in text_parts(text):
+        last = api("sendMessage", {"chat_id": chat, "text": part, "disable_web_page_preview": "true"})
+    return last
 
 
 def send_photo(chat, photo, cap, uploaded=False):
@@ -307,11 +346,241 @@ def pretty(line):
     return t + f"\n\nNot financial advice · {C.SITE_URL}"
 
 
+# ---------- subscribers ----------
+def is_live(rec):
+    return not (isinstance(rec, dict) and rec.get("stopped"))
+
+
+def live_ids(subs):
+    return [k for k, v in subs.items() if is_live(v)]
+
+
+def subscriber_count():
+    return len(live_ids(jload(SUBS, {})))
+
+
+def prune_subs(subs, now=None):
+    """Drop stop-tombstones after a day. The timestamp blocks a stale join from subscribing them again."""
+    now = now_ms() if now is None else now
+    out = {}
+    for k, v in subs.items():
+        if isinstance(v, dict) and v.get("stopped") and now - int(v.get("ts") or 0) > TOMBSTONE_TTL:
+            continue
+        out[k] = v
+    return out
+
+
+def apply_event(subs, ev):
+    """Apply one worker join/leave. Ignore it when a newer event for that chat is already stored."""
+    chat = str(ev.get("chat") or "")
+    if not chat or ev.get("op") not in ("start", "stop"):
+        return False
+    ts = int(ev.get("ts") or 0)
+    cur = subs.get(chat)
+    cur_ts = int(cur.get("ts") or 0) if isinstance(cur, dict) else 0
+    if ts < cur_ts:
+        return False
+    if ev["op"] == "start":
+        joined = ev.get("joined")
+        subs[chat] = {"joined": int(joined if joined else time.time()),
+                      "type": ev.get("type") or "private", "ts": ts}
+    else:
+        subs[chat] = {"stopped": True, "ts": ts}
+    return True
+
+
+def reply_bundle():
+    return {"signals": open_text(), "stats": stats_text(), "unlocks": unlocks_text(),
+            "watchlist": watchlist_text(), "help": help_text(), "welcome": welcome(), "stop": STOP_TEXT}
+
+
+def write_replies():
+    """Publish the command texts the worker sends. Skips the write when the words did not change."""
+    bundle = reply_bundle()
+    prev = jload(REPLIES, {})
+    if all(prev.get(k) == bundle[k] for k in REPLY_KEYS):
+        return bundle
+    os.makedirs(os.path.dirname(REPLIES), exist_ok=True)
+    tmp = REPLIES + ".tmp"
+    json.dump({k: bundle[k] for k in REPLY_KEYS}, open(tmp, "w"), indent=1, ensure_ascii=False)
+    os.replace(tmp, REPLIES)
+    return bundle
+
+
+def replies_fp(bundle):
+    body = json.dumps({k: bundle[k] for k in REPLY_KEYS}, sort_keys=True, ensure_ascii=False).encode()
+    return hashlib.sha256(body).hexdigest()[:20]
+
+
+# ---------- worker sync (no getUpdates) ----------
+def webhook_env():
+    """Return (base_url, secret) or (None, None). Never prints the secret."""
+    url = (os.environ.get("SIGNALS_WEBHOOK_URL") or "").strip().rstrip("/")
+    if url.endswith("/hook"):
+        url = url[:-5].rstrip("/")
+    secret = (os.environ.get("SIGNALS_WEBHOOK_SECRET") or "").strip()
+    if not url and not secret:
+        return None, None
+    local = url.startswith("http://127.0.0.1:") or url.startswith("http://localhost:")
+    if not url or not secret or not (url.startswith("https://") or local) or not SECRET_RE.fullmatch(secret):
+        print("bot: webhook skipped; need https SIGNALS_WEBHOOK_URL and a SIGNALS_WEBHOOK_SECRET "
+              "of 1-256 chars A-Z a-z 0-9 _ -")
+        return None, None
+    return url, secret
+
+
+def worker_healthy(url):
+    try:
+        with urllib.request.urlopen(urllib.request.Request(url.rstrip("/") + "/health"), timeout=15) as r:
+            return 200 <= r.status < 300
+    except (OSError, urllib.error.HTTPError):
+        return False
+
+
+def admin_json(method, path, payload=None, timeout=30):
+    """Call the worker admin API. Prints the status only, never the secret or the body."""
+    url, secret = webhook_env()
+    if not url:
+        return None
+    body = None if payload is None else json.dumps(payload).encode()
+    req = urllib.request.Request(
+        url + path, data=body, method=method,
+        headers={"Authorization": "Bearer " + secret, "Accept": "application/json",
+                 "Content-Type": "application/json"})
+    try:
+        with urllib.request.urlopen(req, timeout=timeout) as r:
+            raw = r.read()
+    except urllib.error.HTTPError as e:
+        print(f"bot: worker {method} {path} failed ({e.code})")
+        return None
+    except OSError:
+        print(f"bot: worker {method} {path} unreachable")
+        return None
+    try:
+        return json.loads(raw.decode() or "null")
+    except ValueError:
+        print(f"bot: worker {method} {path} bad json")
+        return None
+
+
+def ack_events(keys):
+    done = []
+    for i in range(0, len(keys), ACK_BATCH):
+        chunk = keys[i:i + ACK_BATCH]
+        resp = admin_json("POST", "/admin/events/ack", {"keys": chunk})
+        if not isinstance(resp, dict):
+            break
+        deleted = [k for k in (resp.get("deleted") or []) if k in chunk]
+        done.extend(deleted)
+        if len(deleted) < len(chunk):
+            break
+    return done
+
+
+def sync_events():
+    """Pull /start and /stop events into the encrypted subscriber list. Worker stays the command path."""
+    st = jload(STATE, {})
+    pending = list(st.get("ack_events") or [])
+    if pending:
+        done = set(ack_events(pending))
+        pending = [k for k in pending if k not in done]
+        st["ack_events"] = pending
+        jsave(STATE, st)
+    data = admin_json("GET", "/admin/events")
+    if not isinstance(data, dict):
+        print("bot: join/leave sync failed; keeping saved subscribers")
+        return 0
+    subs = prune_subs(jload(SUBS, {}))
+    applied = 0
+    keys = []
+    events = list(data.get("events") or [])
+    events.sort(key=lambda e: e.get("key") or "")
+    for ev in events:
+        key = ev.get("key")
+        if not key:
+            continue
+        keys.append(key)
+        if apply_event(subs, ev):
+            applied += 1
+    jsave(SUBS, subs)
+    st = jload(STATE, {})
+    st["ack_events"] = list(dict.fromkeys(list(st.get("ack_events") or []) + keys))
+    jsave(STATE, st)
+    if applied:
+        print(f"bot: applied {applied} join/leave event(s)")
+    return applied
+
+
+def push_replies(bundle):
+    fp = replies_fp(bundle)
+    st = jload(STATE, {})
+    if st.get("replies_fp") == fp:
+        return True
+    resp = admin_json("POST", "/admin/replies", {k: bundle[k] for k in REPLY_KEYS})
+    if not isinstance(resp, dict) or not resp.get("ok"):
+        print("bot: reply upload failed; worker will use the last copy or the site file")
+        return False
+    st = jload(STATE, {})
+    st["replies_fp"] = fp
+    jsave(STATE, st)
+    print("bot: command replies updated")
+    return True
+
+
+def webhook_info():
+    try:
+        return api("getWebhookInfo")
+    except TGError as e:
+        print(f"bot: webhook check failed ({e.code})")
+        return None
+
+
+def ensure_webhook(url, secret):
+    want = url + "/hook"
+    info = api("getWebhookInfo")
+    fp = hashlib.sha256(secret.encode()).hexdigest()[:16]
+    st = jload(STATE, {})
+    if info.get("url") == want and st.get("webhook_fp") == fp:
+        err = (info.get("last_error_message") or "")[:180]
+        if err:
+            print("bot: webhook delivery error: " + err)
+        return True
+    api_json("setWebhook", {"url": want, "secret_token": secret, "allowed_updates": ["message"],
+                            "drop_pending_updates": False, "max_connections": 8})
+    st = jload(STATE, {})
+    st["webhook_fp"] = fp
+    jsave(STATE, st)
+    print("bot: webhook set, polling off")
+    return True
+
+
+def webhook_off():
+    api_json("deleteWebhook", {"drop_pending_updates": False})
+    st = jload(STATE, {})
+    st.pop("webhook_fp", None)
+    jsave(STATE, st)
+    print("bot: webhook removed; updates kept for the next poll")
+
+
+def serve_plan(configured, healthy, webhook_url):
+    """webhook: commands on the worker, this process broadcasts.
+    broadcast-only: a webhook is already set, so getUpdates would 409 and drop nothing but also answer nothing.
+    poll: no webhook yet."""
+    if configured and healthy:
+        return "webhook"
+    if webhook_url:
+        return "broadcast-only"
+    return "poll"
+
+
 # ---------- broadcast ----------
 def flush():
-    """Send unsent outbox lines to the channel (if set) and every subscriber. Safe to call concurrently."""
+    """Send unsent outbox lines to the channel (if set) and every live subscriber. Safe to call concurrently."""
     lock = open(os.path.join(C.PRIVATE_DIR, "flush.lock"), "w")
     fcntl.flock(lock, fcntl.LOCK_EX)
+    subs = prune_subs(jload(SUBS, {}))
+    if subs != jload(SUBS, {}):
+        jsave(SUBS, subs)
     st = jload(STATE, {})
     if not os.path.exists(C.OUTBOX):
         return 0
@@ -328,9 +597,9 @@ def flush():
     lines = [e["text"] for e in entries]
     if not lines:
         return 0
-    subs = jload(SUBS, {})
+    subs = prune_subs(jload(SUBS, {}))
     chan = jload(CFG, {}).get("channel")
-    targets = ([chan] if chan else []) + list(subs)
+    targets = ([chan] if chan else []) + live_ids(subs)
     by_id = {x["id"]: x for x in signals()}
     for ent in entries:
         sig = by_id.get(ent.get("sig")) if ent.get("sig") else None
@@ -354,8 +623,9 @@ def flush():
                 else:
                     send(chat, msg)
             except TGError as e:
-                if e.code in (403, 400) and chat in subs:     # blocked the bot / chat gone
-                    subs.pop(chat, None); log(f"removed subscriber after {e.code}")
+                if e.code in (403, 400) and chat in subs and is_live(subs.get(chat)):  # blocked the bot / chat gone
+                    subs[chat] = {"stopped": True, "ts": now_ms()}
+                    log(f"removed subscriber after {e.code}")
                 elif e.code == 429:
                     time.sleep(5)
                 else:
@@ -379,15 +649,18 @@ def handle(msg):
     cmd = text.split()[0].split("@")[0].lower() if text.startswith("/") else ""
     subs = jload(SUBS, {})
     if cmd == "/start":
-        if chat not in subs:
-            subs[chat] = {"joined": int(time.time()), "type": msg["chat"].get("type")}
+        cur = subs.get(chat)
+        if not (isinstance(cur, dict) and cur.get("joined") and not cur.get("stopped")):
+            subs[chat] = {"joined": int(time.time()), "type": msg["chat"].get("type"), "ts": now_ms()}
             jsave(SUBS, subs)
-            log(f"new subscriber ({len(subs)} total)")
+            log(f"new subscriber ({len(live_ids(subs))} total)")
         send(chat, welcome())
     elif cmd == "/stop":
-        if subs.pop(chat, None) is not None:
+        cur = subs.get(chat)
+        if cur is not None and not (isinstance(cur, dict) and cur.get("stopped")):
+            subs[chat] = {"stopped": True, "ts": now_ms()}
             jsave(SUBS, subs)
-        send(chat, "You won't get signals anymore. Send /start to subscribe again.")
+        send(chat, STOP_TEXT)
     elif cmd == "/signals":
         send(chat, open_text())
     elif cmd == "/stats":
@@ -401,6 +674,10 @@ def handle(msg):
 
 
 def loop():
+    info = webhook_info()
+    if info and info.get("url"):
+        sys.exit("bot: a webhook is set, so this loop would not receive updates. "
+                 "Leave commands to the worker, or run: python3 bot.py --webhook-off")
     me = api("getMe")
     log(f"bot loop started as @{me['username']}")
     st = jload(STATE, {})
@@ -433,19 +710,30 @@ CMDS = [("signals", "Open signals and why"), ("unlocks", "Upcoming token unlocks
 CMDS_V = 2
 
 
-def once():
-    """Single non-blocking pass (GitHub Actions every ~15 min). Prints counts only, never chat ids or the token."""
-    api("getMe")
+def menu():
     st = jload(STATE, {})
-    if st.get("cmds_v") != CMDS_V:
-        try:
-            api("setMyCommands", {"commands": json.dumps([{"command": c, "description": d} for c, d in CMDS])})
-            st["cmds_v"] = CMDS_V; jsave(STATE, st)
-            print("bot: command menu updated")
-        except TGError as e:
-            print(f"bot: command menu update failed ({e.code})")
-    ups = api("getUpdates", {"offset": st.get("offset", 0), "timeout": 0,
-                             "allowed_updates": json.dumps(["message"])}, timeout=30)
+    if st.get("cmds_v") == CMDS_V:
+        return
+    try:
+        api("setMyCommands", {"commands": json.dumps([{"command": c, "description": d} for c, d in CMDS])})
+        st = jload(STATE, {}); st["cmds_v"] = CMDS_V; jsave(STATE, st)
+        print("bot: command menu updated")
+    except TGError as e:
+        print(f"bot: command menu update failed ({e.code})")
+
+
+def poll_once():
+    """The only Actions path that calls getUpdates. A 409 means a webhook owns delivery; do not retry."""
+    api("getMe")
+    menu()
+    try:
+        ups = api("getUpdates", {"offset": jload(STATE, {}).get("offset", 0), "timeout": 0,
+                                 "allowed_updates": json.dumps(["message"])}, timeout=30)
+    except TGError as e:
+        if e.code != 409:
+            raise
+        print("bot: getUpdates refused because a webhook is active; not polling")
+        ups = []
     replied = 0
     for u in ups:
         st = jload(STATE, {}); st["offset"] = u["update_id"] + 1; jsave(STATE, st)
@@ -458,22 +746,71 @@ def once():
                 print(f"bot: reply failed ({e.code})")
     n = flush()
     print(f"bot: ok, {len(ups)} update(s), {replied} handled, {n} broadcast line(s), "
-          f"{len(jload(SUBS, {}))} subscriber(s)")
+          f"{subscriber_count()} subscriber(s)")
+
+
+def broadcast_only(note):
+    menu()
+    n = flush()
+    print(f"bot: {note}, {n} broadcast line(s), {subscriber_count()} subscriber(s)")
+
+
+def once():
+    """Single polling pass. Prints counts only, never chat ids or the token."""
+    write_replies()
+    info = webhook_info()
+    if info and info.get("url"):
+        broadcast_only("webhook active, not polling")
+        return
+    poll_once()
+
+
+def serve():
+    """Actions entry: webhook commands when the worker is up, otherwise today's polling pass."""
+    bundle = write_replies()
+    url, secret = webhook_env()
+    info = webhook_info()
+    current = (info or {}).get("url") or ""
+    plan = serve_plan(bool(url), worker_healthy(url) if url else False, current)
+    if plan == "poll":
+        if url:
+            print("bot: worker not reachable; polling this run")
+        poll_once()
+        return
+    if plan == "broadcast-only":
+        broadcast_only("webhook active, not polling")
+        return
+    try:
+        ensure_webhook(url, secret)
+    except TGError as e:
+        print(f"bot: setWebhook failed ({e.code})")
+        if not current:
+            poll_once()
+            return
+    push_replies(bundle)
+    sync_events()
+    broadcast_only("webhook, not polling")
 
 
 def main():
     os.makedirs(C.PRIVATE_DIR, exist_ok=True)
-    if "--once" in sys.argv:
+    if "--webhook-off" in sys.argv:
+        webhook_off()
+        if "--push" not in sys.argv:
+            return
+    if "--serve" in sys.argv:
+        serve()
+    elif "--once" in sys.argv:
         once()
     elif "--push" in sys.argv:
         n = flush()
         if n:
-            print(f"bot: sent {n} line(s) to {len(jload(SUBS, {}))} subscriber(s)")
+            print(f"bot: sent {n} line(s) to {subscriber_count()} subscriber(s)")
     elif "--status" in sys.argv:
         me = api("getMe")
         st = jload(STATE, {})
         size = os.path.getsize(C.OUTBOX) if os.path.exists(C.OUTBOX) else 0
-        print(f"bot @{me['username']}, {len(jload(SUBS, {}))} subscriber(s), "
+        print(f"bot @{me['username']}, {subscriber_count()} subscriber(s), "
               f"{max(0, size - st.get('outbox_pos', size))} unsent bytes")
     else:
         lock = open(os.path.join(C.PRIVATE_DIR, "bot.lock"), "w")

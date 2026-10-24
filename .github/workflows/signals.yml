@@ -1,5 +1,8 @@
 name: signals
-# Free signal engine + Telegram bot, every 15 min. Signals only: public market data, no keys, no wallet, no orders.
+# Free signal engine + Telegram broadcast. The schedule is every 15 min; an external cron may dispatch
+# this workflow about every 5 min. Signals only: public market data, no keys, no wallet, no orders.
+# Commands are answered by the Cloudflare Worker webhook (worker/) when SIGNALS_WEBHOOK_URL is set.
+# Until then, bot.py --serve keeps polling getUpdates. It never polls while a webhook is active.
 # run.py also refreshes the catalyst cache (catalyst/*.json: unlocks, TVL/fees, sectors, listings, on-chain) when due.
 on:
   schedule:
@@ -12,6 +15,10 @@ on:
         default: false
       force_catalyst:
         description: "Refresh every catalyst source now (unlocks, TVL/fees, listings, sectors, on-chain)"
+        type: boolean
+        default: false
+      webhook_off:
+        description: "Remove the Telegram webhook and send broadcasts only. Also delete SIGNALS_WEBHOOK_URL and SIGNALS_WEBHOOK_SECRET or the next run turns the webhook back on."
         type: boolean
         default: false
   push:
@@ -36,6 +43,8 @@ jobs:
     env:
       SIGNALS_TG_TOKEN: ${{ secrets.SIGNALS_TG_TOKEN }}
       SIGNALS_STATE_KEY: ${{ secrets.SIGNALS_STATE_KEY }}
+      SIGNALS_WEBHOOK_URL: ${{ secrets.SIGNALS_WEBHOOK_URL }}
+      SIGNALS_WEBHOOK_SECRET: ${{ secrets.SIGNALS_WEBHOOK_SECRET }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -50,8 +59,14 @@ jobs:
         run: python3 catalyst.py --force
       - name: Signals
         run: python3 run.py
-      - name: Telegram bot (commands + broadcast)
-        run: python3 bot.py --once
+      - name: Telegram broadcast (commands stay on the webhook)
+        run: |
+          if [ "${{ inputs.webhook_off }}" = "true" ]; then
+            python3 bot.py --webhook-off
+            python3 bot.py --push
+          else
+            python3 bot.py --serve
+          fi
       - name: Build site data
         if: always()
         run: python3 publish.py --no-push
@@ -63,6 +78,7 @@ jobs:
           git config user.name "signals-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add signals.json signals.csv site/data.json state/ catalyst/
+          if [ -f site/bot/replies.json ]; then git add site/bot/replies.json; fi
           git add -A site/charts 2>/dev/null || true
           site=false
           git diff --cached --quiet -- site/ || site=true
