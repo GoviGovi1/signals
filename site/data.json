@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.05175,
-   "last_ts": "2026-10-24T09:41:24+00:00",
-   "move_pct": 3.67,
+   "last": 0.05142,
+   "last_ts": "2026-10-24T09:45:21+00:00",
+   "move_pct": 3.0,
    "closed": false,
    "rsi": 63.0,
    "trade_on": "Spot",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04121,
-   "last_ts": "2026-10-24T09:41:24+00:00",
-   "move_pct": 2.44,
+   "last": 0.0411,
+   "last_ts": "2026-10-24T09:45:21+00:00",
+   "move_pct": 2.16,
    "closed": false,
    "rsi": 59.7,
    "trade_on": "Spot",
@@ -116,7 +116,7 @@
     6.31391444155267
    ],
    "lev": 2,
-   "funding_pct": -0.0014,
+   "funding_pct": -0.0015,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-23T17:00:00+00:00",
@@ -124,9 +124,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 7.692,
-   "last_ts": "2026-10-24T09:41:24+00:00",
-   "move_pct": 1.23,
+   "last": 7.655,
+   "last_ts": "2026-10-24T09:45:21+00:00",
+   "move_pct": 1.71,
    "closed": false,
    "rsi": 30.0,
    "trade_on": "Perps 2x",
@@ -169,9 +169,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.128,
-   "last_ts": "2026-10-24T09:41:24+00:00",
-   "move_pct": -5.9,
+   "last": 0.12715,
+   "last_ts": "2026-10-24T09:45:21+00:00",
+   "move_pct": -6.53,
    "closed": false,
    "rsi": 66.6,
    "trade_on": "Spot",
@@ -214,7 +214,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.2281,
-   "last_ts": "2026-10-24T09:41:24+00:00",
+   "last_ts": "2026-10-24T09:45:21+00:00",
    "move_pct": 4.16,
    "closed": false,
    "rsi": 27.5,
@@ -4212,6 +4212,28 @@
     ]
    },
    {
+    "id": "depin",
+    "name": "DePIN",
+    "chg7d": -3.46,
+    "top": [
+     "TAO",
+     "RENDER",
+     "FIL",
+     "BDX",
+     "GRASS"
+    ],
+    "tracked": [
+     "FIL",
+     "TAO",
+     "GRASS",
+     "RENDER",
+     "AR",
+     "ATH",
+     "LPT",
+     "PHA"
+    ]
+   },
+   {
     "id": "lending-borrowing",
     "name": "Lending Borrowing",
     "chg7d": -3.46,
@@ -4229,28 +4251,6 @@
      "MORPHO",
      "COMP",
      "SPK"
-    ]
-   },
-   {
-    "id": "depin",
-    "name": "DePIN",
-    "chg7d": -3.62,
-    "top": [
-     "TAO",
-     "RENDER",
-     "FIL",
-     "BDX",
-     "GRASS"
-    ],
-    "tracked": [
-     "FIL",
-     "TAO",
-     "GRASS",
-     "RENDER",
-     "AR",
-     "ATH",
-     "LPT",
-     "PHA"
     ]
    },
    {
@@ -4666,7 +4666,7 @@
   "updated": {
    "unlocks": 1792832428,
    "onchain": 1792834822,
-   "sectors": 1792834227,
+   "sectors": 1792835121,
    "listings": 1792833321,
    "fundamentals": 1792832428
   }
@@ -4702,6 +4702,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "bdcd978ca98952c87845f7b8dc8a0fd4efd83bfc7b09ac86b864489866f639d1",
- "generated": "2026-10-24T09:41:26+00:00"
+ "digest": "76e158edf0a81f7f4f3b672c3adf027260792b2724fd9cf322bfe9c7cbd4830d",
+ "generated": "2026-10-24T09:45:22+00:00"
 }
