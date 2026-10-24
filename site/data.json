@@ -1,41 +1,6 @@
 {
  "open": [
   {
-   "id": "SOL-PERP-1792634400",
-   "kind": "TA",
-   "score": null,
-   "reasons": null,
-   "coin": "SOL",
-   "market": "PERP",
-   "side": "SHORT",
-   "entry": 105.47,
-   "sl0": 107.30013182750876,
-   "sl": 105.47,
-   "tps": [
-    103.63986817249123,
-    101.80973634498247,
-    99.9796045174737
-   ],
-   "lev": 3,
-   "funding_pct": 0.01,
-   "status": "tp2",
-   "hits": 2,
-   "opened": "2026-10-22T03:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 102.62,
-   "last_ts": "2026-10-24T02:55:24+00:00",
-   "move_pct": 2.7,
-   "closed": false,
-   "rsi": 37.7,
-   "trade_on": null,
-   "market_reason": null,
-   "chart": null,
-   "setup": null
-  },
-  {
    "id": "SLX-SPOT-1792720800",
    "kind": "TA",
    "score": 0,
@@ -69,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.05108,
-   "last_ts": "2026-10-24T02:55:24+00:00",
-   "move_pct": 2.32,
+   "last": 0.05126,
+   "last_ts": "2026-10-24T03:00:41+00:00",
+   "move_pct": 2.68,
    "closed": false,
    "rsi": 63.0,
    "trade_on": "Spot",
@@ -114,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04276,
-   "last_ts": "2026-10-24T02:55:24+00:00",
-   "move_pct": 6.29,
+   "last": 0.04244,
+   "last_ts": "2026-10-24T03:00:41+00:00",
+   "move_pct": 5.49,
    "closed": false,
    "rsi": 59.7,
    "trade_on": "Spot",
@@ -151,7 +116,7 @@
     6.31391444155267
    ],
    "lev": 2,
-   "funding_pct": 0.0027,
+   "funding_pct": 0.0031,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-23T17:00:00+00:00",
@@ -159,9 +124,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 7.738,
-   "last_ts": "2026-10-24T02:55:24+00:00",
-   "move_pct": 0.64,
+   "last": 7.765,
+   "last_ts": "2026-10-24T03:00:41+00:00",
+   "move_pct": 0.3,
    "closed": false,
    "rsi": 30.0,
    "trade_on": "Perps 2x",
@@ -204,9 +169,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.13317,
-   "last_ts": "2026-10-24T02:55:24+00:00",
-   "move_pct": -2.1,
+   "last": 0.13354,
+   "last_ts": "2026-10-24T03:00:41+00:00",
+   "move_pct": -1.83,
    "closed": false,
    "rsi": 66.6,
    "trade_on": "Spot",
@@ -248,9 +213,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2404,
-   "last_ts": "2026-10-24T02:55:24+00:00",
-   "move_pct": -1.01,
+   "last": 0.2407,
+   "last_ts": "2026-10-24T03:00:41+00:00",
+   "move_pct": -1.13,
    "closed": false,
    "rsi": 27.5,
    "trade_on": "Perps 2x",
@@ -292,9 +257,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2317,
-   "last_ts": "2026-10-24T02:55:24+00:00",
-   "move_pct": 1.05,
+   "last": 0.2316,
+   "last_ts": "2026-10-24T03:00:41+00:00",
+   "move_pct": 1.0,
    "closed": false,
    "rsi": 65.3,
    "trade_on": "Perps 1x",
@@ -337,9 +302,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.004475,
-   "last_ts": "2026-10-24T02:55:24+00:00",
-   "move_pct": 6.83,
+   "last": 0.004503,
+   "last_ts": "2026-10-24T03:00:41+00:00",
+   "move_pct": 7.5,
    "closed": false,
    "rsi": 66.3,
    "trade_on": "Spot",
@@ -349,6 +314,41 @@
   }
  ],
  "closed": [
+  {
+   "id": "SOL-PERP-1792634400",
+   "kind": "TA",
+   "score": null,
+   "reasons": null,
+   "coin": "SOL",
+   "market": "PERP",
+   "side": "SHORT",
+   "entry": 105.47,
+   "sl0": 107.30013182750876,
+   "sl": 105.47,
+   "tps": [
+    103.63986817249123,
+    101.80973634498247,
+    99.9796045174737
+   ],
+   "lev": 3,
+   "funding_pct": 0.01,
+   "status": "expired",
+   "hits": 2,
+   "opened": "2026-10-22T03:00:00+00:00",
+   "closed_at": "2026-10-24T03:00:41+00:00",
+   "exit_price": 102.72,
+   "result_r": 1.501,
+   "result_pct": 2.6,
+   "last": 102.72,
+   "last_ts": "2026-10-24T03:00:41+00:00",
+   "move_pct": 2.7,
+   "closed": true,
+   "rsi": 37.7,
+   "trade_on": null,
+   "market_reason": null,
+   "chart": null,
+   "setup": null
+  },
   {
    "id": "AGT-DEX-bsc-0x5dbde81f-1792782000",
    "kind": "ONCHAIN",
@@ -762,13 +762,13 @@
  ],
  "stats": {
   "all": {
-   "trades": 10,
-   "wins": 5,
+   "trades": 11,
+   "wins": 6,
    "losses": 5,
-   "win_rate": 50.0,
-   "total_r": -0.39,
-   "avg_r": -0.039,
-   "total_pct": 6.51
+   "win_rate": 54.5,
+   "total_r": 1.11,
+   "avg_r": 0.101,
+   "total_pct": 9.11
   },
   "SPOT": {
    "trades": 1,
@@ -780,13 +780,13 @@
    "total_pct": -2.29
   },
   "PERP": {
-   "trades": 7,
-   "wins": 4,
+   "trades": 8,
+   "wins": 5,
    "losses": 3,
-   "win_rate": 57.1,
-   "total_r": -0.39,
-   "avg_r": -0.056,
-   "total_pct": -3.15
+   "win_rate": 62.5,
+   "total_r": 1.11,
+   "avg_r": 0.138,
+   "total_pct": -0.55
   },
   "DEX": {
    "trades": 2,
@@ -808,13 +808,13 @@
     "total_pct": 11.95
    },
    "TA": {
-    "trades": 8,
-    "wins": 4,
+    "trades": 9,
+    "wins": 5,
     "losses": 4,
-    "win_rate": 50.0,
-    "total_r": -1.39,
-    "avg_r": -0.174,
-    "total_pct": -5.44
+    "win_rate": 55.6,
+    "total_r": 0.11,
+    "avg_r": 0.012,
+    "total_pct": -2.84
    }
   },
   "coins": {
@@ -890,6 +890,15 @@
     "avg_r": 0.333,
     "total_pct": 0.7
    },
+   "SOL": {
+    "trades": 1,
+    "wins": 1,
+    "losses": 0,
+    "win_rate": 100.0,
+    "total_r": 1.5,
+    "avg_r": 1.501,
+    "total_pct": 2.6
+   },
    "XRP": {
     "trades": 1,
     "wins": 1,
@@ -909,7 +918,7 @@
     "total_pct": -2.95
    }
   },
-  "open": 8
+  "open": 7
  },
  "backtest": {
   "from": "2026-07-24",
@@ -3476,7 +3485,7 @@
     "tokens": 1667000,
     "tracked": true,
     "ts": 1792873239,
-    "usd": 15146883,
+    "usd": 15023622,
     "who": [
      "Foundation"
     ]
@@ -3489,7 +3498,7 @@
     "tokens": 227777778,
     "tracked": true,
     "ts": 1792945059,
-    "usd": 17780973,
+    "usd": 17067542,
     "who": [
      "Ecosystem & Growth",
      "Team",
@@ -3504,7 +3513,7 @@
     "tokens": 32708333,
     "tracked": true,
     "ts": 1792998717,
-    "usd": 1201195,
+    "usd": 1160088,
     "who": [
      "Community Reserve",
      "Subsidies",
@@ -3519,7 +3528,7 @@
     "tokens": 18241468,
     "tracked": true,
     "ts": 1793075115,
-    "usd": 314518,
+    "usd": 315645,
     "who": [
      "Team",
      "Private Sale",
@@ -3534,7 +3543,7 @@
     "tokens": 12328169,
     "tracked": true,
     "ts": 1793145600,
-    "usd": 552759,
+    "usd": 543528,
     "who": [
      "Tangle Ecosystem Association",
      "IOTA DLT Foundation",
@@ -3549,7 +3558,7 @@
     "tokens": 10212489,
     "tracked": true,
     "ts": 1793187432,
-    "usd": 6882426,
+    "usd": 6476934,
     "who": [
      "Contributors",
      "Future Incentives",
@@ -3564,7 +3573,7 @@
     "tokens": 20833333,
     "tracked": true,
     "ts": 1793274744,
-    "usd": 765092,
+    "usd": 738909,
     "who": [
      "Early Contributor"
     ]
@@ -3577,7 +3586,7 @@
     "tokens": 50411392,
     "tracked": true,
     "ts": 1793318400,
-    "usd": 673519,
+    "usd": 641040,
     "who": [
      "Ecosystem & Incubation",
      "Strategic Network Participants",
@@ -3592,7 +3601,7 @@
     "tokens": 1941766,
     "tracked": true,
     "ts": 1793318400,
-    "usd": 33480,
+    "usd": 33600,
     "who": [
      "Ecosystem & Community",
      "Treasury"
@@ -3606,7 +3615,7 @@
     "tokens": 166666667,
     "tracked": false,
     "ts": 1793328402,
-    "usd": 1102941,
+    "usd": 1141264,
     "who": [
      "Investors",
      "Team",
@@ -3621,7 +3630,7 @@
     "tokens": 36820227,
     "tracked": true,
     "ts": 1793452545,
-    "usd": 7902126,
+    "usd": 7570315,
     "who": [
      "Investors",
      "Early Contributors"
@@ -3635,7 +3644,7 @@
     "tokens": 44260417,
     "tracked": false,
     "ts": 1793527119,
-    "usd": 1858697,
+    "usd": 1801239,
     "who": [
      "Core Contributors",
      "Protocol Treasury",
@@ -3650,7 +3659,7 @@
     "tokens": 10358084,
     "tracked": true,
     "ts": 1793653086,
-    "usd": 529444,
+    "usd": 511514,
     "who": [
      "Foundation",
      "Ecosystem & Incentives"
@@ -3664,7 +3673,7 @@
     "tokens": 1941766,
     "tracked": true,
     "ts": 1793923200,
-    "usd": 33480,
+    "usd": 33600,
     "who": [
      "Ecosystem & Community",
      "Treasury"
@@ -3678,7 +3687,7 @@
     "tokens": 164583333,
     "tracked": false,
     "ts": 1794186489,
-    "usd": 1201042,
+    "usd": 1171434,
     "who": [
      "Early Backers",
      "Ecosystem & Community",
@@ -3693,7 +3702,7 @@
     "tokens": 12328169,
     "tracked": true,
     "ts": 1794355200,
-    "usd": 552759,
+    "usd": 543528,
     "who": [
      "Tangle Ecosystem Association",
      "IOTA DLT Foundation",
@@ -3708,7 +3717,7 @@
     "tokens": 27018750,
     "tracked": false,
     "ts": 1794370203,
-    "usd": 1771088,
+    "usd": 1762386,
     "who": [
      "Community and Ecosystem",
      "Foundation"
@@ -3722,7 +3731,7 @@
     "tokens": 4543478,
     "tracked": true,
     "ts": 1794390207,
-    "usd": 3445765,
+    "usd": 3288800,
     "who": [
      "Community",
      "Foundation"
@@ -3736,7 +3745,7 @@
     "tokens": 6875000000,
     "tracked": true,
     "ts": 1794401098,
-    "usd": 30960279,
+    "usd": 29073330,
     "who": [
      "Team",
      "Existing Investors"
@@ -3750,7 +3759,7 @@
     "tokens": 50411392,
     "tracked": true,
     "ts": 1794528000,
-    "usd": 673519,
+    "usd": 641040,
     "who": [
      "Ecosystem & Incubation",
      "Strategic Network Participants",
@@ -3765,7 +3774,7 @@
     "tokens": 1941766,
     "tracked": true,
     "ts": 1794528000,
-    "usd": 33480,
+    "usd": 33600,
     "who": [
      "Ecosystem & Community",
      "Treasury"
@@ -3779,7 +3788,7 @@
     "tokens": 119861110,
     "tracked": true,
     "ts": 1794531177,
-    "usd": 6962002,
+    "usd": 6632998,
     "who": [
      "Private Sale",
      "Team",
@@ -3794,7 +3803,7 @@
     "tokens": 226356431,
     "tracked": true,
     "ts": 1794612576,
-    "usd": 11592172,
+    "usd": 11015540,
     "who": [
      "Early Contributors",
      "Investors",
@@ -3809,7 +3818,7 @@
     "tokens": 92645833,
     "tracked": true,
     "ts": 1794702576,
-    "usd": 16585797,
+    "usd": 15653843,
     "who": [
      "Team, Contributors & Advisors",
      "Investors"
@@ -3823,7 +3832,7 @@
     "tokens": 173038250,
     "tracked": true,
     "ts": 1794844957,
-    "usd": 2185539,
+    "usd": 2141482,
     "who": [
      "Investors",
      "Team"
@@ -3837,7 +3846,7 @@
     "tokens": 7091667,
     "tracked": true,
     "ts": 1794889515,
-    "usd": 2704074,
+    "usd": 2717008,
     "who": [
      "Ecosystem"
     ]
@@ -3850,7 +3859,7 @@
     "tokens": 17597619,
     "tracked": true,
     "ts": 1795061403,
-    "usd": 4698461,
+    "usd": 4543921,
     "who": [
      "Ecosystem & Network Growth",
      "Core Contributors",
@@ -3865,7 +3874,7 @@
     "tokens": 23625000,
     "tracked": true,
     "ts": 1795104157,
-    "usd": 41593537,
+    "usd": 39705432,
     "who": [
      "Strategic Partners",
      "Core Contributors"
@@ -3879,7 +3888,7 @@
     "tokens": 1941766,
     "tracked": true,
     "ts": 1795132800,
-    "usd": 33480,
+    "usd": 33600,
     "who": [
      "Ecosystem & Community",
      "Treasury"
@@ -3889,11 +3898,11 @@
     "big": true,
     "coin": "GRAM",
     "insider_pct": 0,
-    "pct": 1.19,
+    "pct": 1.18,
     "tokens": 36583333,
     "tracked": true,
     "ts": 1795364259,
-    "usd": 47927399,
+    "usd": 44748018,
     "who": [
      "TON Believers Fund"
     ]
@@ -3901,11 +3910,24 @@
   ],
   "unlocks_recent": [
    {
+    "insider_pct": 55,
+    "pct": 6.84,
+    "tokens": 292857143,
+    "ts": 1792799088,
+    "usd": 16547191,
+    "who": [
+     "Team",
+     "Investors",
+     "Ecosystem Fund"
+    ],
+    "coin": "H"
+   },
+   {
     "insider_pct": 0,
-    "pct": 3.52,
+    "pct": 3.4,
     "tokens": 7343750,
     "ts": 1792788174,
-    "usd": 1072312,
+    "usd": 1059081,
     "who": [
      "Foundation",
      "Echo.xyz Community Sale"
@@ -3914,10 +3936,10 @@
    },
    {
     "insider_pct": 78,
-    "pct": 47.21,
+    "pct": 32.07,
     "tokens": 149666667,
     "ts": 1792734516,
-    "usd": 3615886,
+    "usd": 3714141,
     "who": [
      "Early Backers",
      "Core Contributors",
@@ -3927,10 +3949,10 @@
    },
    {
     "insider_pct": 0,
-    "pct": 1.19,
+    "pct": 1.18,
     "tokens": 36583333,
     "ts": 1792734516,
-    "usd": 47927399,
+    "usd": 44748018,
     "who": [
      "TON Believers Fund"
     ],
@@ -3941,7 +3963,7 @@
     "pct": 0.37,
     "tokens": 1941766,
     "ts": 1792713600,
-    "usd": 33480,
+    "usd": 33600,
     "who": [
      "Ecosystem & Community",
      "Treasury"
@@ -3953,7 +3975,7 @@
     "pct": 0.5,
     "tokens": 952145,
     "ts": 1792627200,
-    "usd": 254075,
+    "usd": 248538,
     "who": [
      "Staking rewards"
     ],
@@ -3964,7 +3986,7 @@
     "pct": 3.48,
     "tokens": 23625000,
     "ts": 1792474414,
-    "usd": 41593537,
+    "usd": 39705432,
     "who": [
      "Strategic Partners",
      "Core Contributors"
@@ -3976,7 +3998,7 @@
     "pct": 3.56,
     "tokens": 17597619,
     "ts": 1792431660,
-    "usd": 4698461,
+    "usd": 4543921,
     "who": [
      "Ecosystem & Network Growth",
      "Core Contributors",
@@ -3989,7 +4011,7 @@
     "pct": 3.77,
     "tokens": 7091667,
     "ts": 1792259772,
-    "usd": 2704074,
+    "usd": 2717008,
     "who": [
      "Ecosystem"
     ],
@@ -4000,24 +4022,12 @@
     "pct": 2.4,
     "tokens": 173038250,
     "ts": 1792215214,
-    "usd": 2185539,
+    "usd": 2141482,
     "who": [
      "Investors",
      "Team"
     ],
     "coin": "ZK"
-   },
-   {
-    "insider_pct": 0,
-    "pct": 0.37,
-    "tokens": 1941766,
-    "ts": 1792108800,
-    "usd": 33480,
-    "who": [
-     "Ecosystem & Community",
-     "Treasury"
-    ],
-    "coin": "RESOLV"
    }
   ],
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
@@ -4087,28 +4097,6 @@
     ]
    },
    {
-    "id": "decentralized-exchange",
-    "name": "Decentralized Exchange",
-    "chg7d": -1.59,
-    "top": [
-     "HYPE",
-     "UNI",
-     "PUMP",
-     "ASTER",
-     "JUP"
-    ],
-    "tracked": [
-     "PUMP",
-     "HYPE",
-     "LIT",
-     "UNI",
-     "CRV",
-     "EDGE",
-     "ASTER",
-     "AERO"
-    ]
-   },
-   {
     "id": "decentralized-finance-defi",
     "name": "Decentralized Finance DeFi",
     "chg7d": -1.62,
@@ -4172,6 +4160,28 @@
      "CRV",
      "EDGE",
      "ASTER"
+    ]
+   },
+   {
+    "id": "decentralized-exchange",
+    "name": "Decentralized Exchange",
+    "chg7d": -2.25,
+    "top": [
+     "HYPE",
+     "UNI",
+     "PUMP",
+     "ASTER",
+     "JUP"
+    ],
+    "tracked": [
+     "PUMP",
+     "HYPE",
+     "LIT",
+     "UNI",
+     "CRV",
+     "EDGE",
+     "ASTER",
+     "AERO"
     ]
    },
    {
@@ -4572,84 +4582,84 @@
   ],
   "fund_movers": [
    {
-    "coin": "RENDER",
+    "coin": "ATH",
     "metric": "Fees",
-    "chg7d": 598.6,
-    "size": 340462
+    "chg7d": 1886.7,
+    "size": 3752771
    },
    {
-    "coin": "MASK",
+    "coin": "RENDER",
     "metric": "Fees",
-    "chg7d": 104.9,
-    "size": 338900
+    "chg7d": 125.4,
+    "size": 275483
    },
    {
     "coin": "CARDS",
     "metric": "DEX volume",
-    "chg7d": 84.1,
-    "size": 68380822
+    "chg7d": 90.4,
+    "size": 74391679
    },
    {
     "coin": "PENDLE",
     "metric": "DEX volume",
-    "chg7d": 58.1,
-    "size": 300322000
+    "chg7d": 40.8,
+    "size": 282747594
    },
    {
-    "coin": "ONDO",
+    "coin": "MASK",
     "metric": "Fees",
-    "chg7d": 52.3,
-    "size": 2044307
-   },
-   {
-    "coin": "CARDS",
-    "metric": "Fees",
-    "chg7d": 43.4,
-    "size": 5198988
+    "chg7d": 40.4,
+    "size": 302978
    },
    {
     "coin": "LIT",
     "metric": "DEX volume",
-    "chg7d": 38.7,
-    "size": 62943830
+    "chg7d": 38.4,
+    "size": 62724737
+   },
+   {
+    "coin": "ONDO",
+    "metric": "Fees",
+    "chg7d": 30.0,
+    "size": 2047597
+   },
+   {
+    "coin": "BONK",
+    "metric": "Fees",
+    "chg7d": 28.1,
+    "size": 433411
+   },
+   {
+    "coin": "CARDS",
+    "metric": "Fees",
+    "chg7d": 13.8,
+    "size": 4605288
    },
    {
     "coin": "HYPE",
     "metric": "DEX volume",
     "chg7d": -10.8,
-    "size": 863310421
+    "size": 864468934
    },
    {
-    "coin": "UNI",
-    "metric": "DEX volume",
-    "chg7d": -13.1,
-    "size": 12801976088
+    "coin": "RIVER",
+    "metric": "TVL",
+    "chg7d": -10.8,
+    "size": 90759349
    },
    {
-    "coin": "AERO",
-    "metric": "DEX volume",
-    "chg7d": -14.0,
-    "size": 3412207381
-   },
-   {
-    "coin": "JTO",
+    "coin": "PONS",
     "metric": "Fees",
-    "chg7d": -15.0,
-    "size": 2154128
-   },
-   {
-    "coin": "EDGE",
-    "metric": "Fees",
-    "chg7d": -15.2,
-    "size": 484309
+    "chg7d": -11.1,
+    "size": 3025074
    }
   ],
   "updated": {
-   "unlocks": 1792788979,
+   "unlocks": 1792810827,
    "onchain": 1792809624,
-   "sectors": 1792809921,
+   "sectors": 1792810841,
    "listings": 1792810523,
-   "fundamentals": 1792788980
+   "fundamentals": 1792810827
   }
  },
  "filters": {
@@ -4683,6 +4693,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "1fef44f2ebe0102d9ebb9de9500de6517997e16a14aa2deb60b62c8be128d3c3",
- "generated": "2026-10-24T02:55:26+00:00"
+ "digest": "9192bbd0105fb7060bd955f0db0b5838d4a355b6160c5e35f0b4355795b83851",
+ "generated": "2026-10-24T03:01:00+00:00"
 }
