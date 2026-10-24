@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0518,
-   "last_ts": "2026-10-24T06:41:24+00:00",
-   "move_pct": 3.77,
+   "last": 0.05169,
+   "last_ts": "2026-10-24T06:45:23+00:00",
+   "move_pct": 3.55,
    "closed": false,
    "rsi": 63.0,
    "trade_on": "Spot",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04298,
-   "last_ts": "2026-10-24T06:41:24+00:00",
-   "move_pct": 6.84,
+   "last": 0.0428,
+   "last_ts": "2026-10-24T06:45:23+00:00",
+   "move_pct": 6.39,
    "closed": false,
    "rsi": 59.7,
    "trade_on": "Spot",
@@ -116,7 +116,7 @@
     6.31391444155267
    ],
    "lev": 2,
-   "funding_pct": 0.0076,
+   "funding_pct": 0.0074,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-23T17:00:00+00:00",
@@ -124,9 +124,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 7.69,
-   "last_ts": "2026-10-24T06:41:24+00:00",
-   "move_pct": 1.26,
+   "last": 7.696,
+   "last_ts": "2026-10-24T06:45:23+00:00",
+   "move_pct": 1.18,
    "closed": false,
    "rsi": 30.0,
    "trade_on": "Perps 2x",
@@ -169,9 +169,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1336,
-   "last_ts": "2026-10-24T06:41:24+00:00",
-   "move_pct": -1.79,
+   "last": 0.13327,
+   "last_ts": "2026-10-24T06:45:23+00:00",
+   "move_pct": -2.03,
    "closed": false,
    "rsi": 66.6,
    "trade_on": "Spot",
@@ -213,9 +213,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2366,
-   "last_ts": "2026-10-24T06:41:24+00:00",
-   "move_pct": 0.59,
+   "last": 0.236,
+   "last_ts": "2026-10-24T06:45:23+00:00",
+   "move_pct": 0.84,
    "closed": false,
    "rsi": 27.5,
    "trade_on": "Perps 2x",
@@ -257,9 +257,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2361,
-   "last_ts": "2026-10-24T06:41:24+00:00",
-   "move_pct": 2.97,
+   "last": 0.2363,
+   "last_ts": "2026-10-24T06:45:23+00:00",
+   "move_pct": 3.05,
    "closed": false,
    "rsi": 65.3,
    "trade_on": "Perps 1x",
@@ -4342,6 +4342,28 @@
     ]
    },
    {
+    "id": "layer-2",
+    "name": "Layer 2",
+    "chg7d": -3.89,
+    "top": [
+     "OKB",
+     "MNT",
+     "ARB",
+     "POL",
+     "STX"
+    ],
+    "tracked": [
+     "STRK",
+     "ARB",
+     "OKB",
+     "OP",
+     "MAGIC",
+     "STX",
+     "POL",
+     "MEGA"
+    ]
+   },
+   {
     "id": "solana-meme-coins",
     "name": "Solana Meme Coins",
     "chg7d": -4.05,
@@ -4402,28 +4424,6 @@
      "TRB",
      "PHA",
      "API3"
-    ]
-   },
-   {
-    "id": "layer-2",
-    "name": "Layer 2",
-    "chg7d": -4.44,
-    "top": [
-     "OKB",
-     "MNT",
-     "ARB",
-     "POL",
-     "STX"
-    ],
-    "tracked": [
-     "STRK",
-     "ARB",
-     "OKB",
-     "OP",
-     "MAGIC",
-     "STX",
-     "POL",
-     "MEGA"
     ]
    },
    {
@@ -4666,7 +4666,7 @@
   "updated": {
    "unlocks": 1792810827,
    "onchain": 1792824022,
-   "sectors": 1792823426,
+   "sectors": 1792824323,
    "listings": 1792822223,
    "fundamentals": 1792810827
   }
@@ -4702,6 +4702,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "45a4c88f24dd545da59f28c4b4d16b82f4bf399bddb6cb5eda6a0392716e3cde",
- "generated": "2026-10-24T06:41:26+00:00"
+ "digest": "ff41ef51d351f57d61b6a95e1c6abdf692d16cea3ebed14825f9be2163034d52",
+ "generated": "2026-10-24T06:45:25+00:00"
 }
