@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 7.506,
-   "last_ts": "2026-10-24T17:25:21+00:00",
-   "move_pct": 3.62,
+   "last": 7.482,
+   "last_ts": "2026-10-24T17:30:27+00:00",
+   "move_pct": 3.93,
    "closed": false,
    "rsi": 30.0,
    "trade_on": "Perps 2x",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.228,
-   "last_ts": "2026-10-24T17:25:21+00:00",
-   "move_pct": 4.2,
+   "last": 0.2272,
+   "last_ts": "2026-10-24T17:30:27+00:00",
+   "move_pct": 4.54,
    "closed": false,
    "rsi": 27.5,
    "trade_on": "Perps 2x",
@@ -116,7 +116,7 @@
     0.001835660499455803
    ],
    "lev": 1,
-   "funding_pct": -0.0378,
+   "funding_pct": -0.0357,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-24T15:00:00+00:00",
@@ -124,9 +124,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.001989,
-   "last_ts": "2026-10-24T17:25:21+00:00",
-   "move_pct": -0.3,
+   "last": 0.001987,
+   "last_ts": "2026-10-24T17:30:27+00:00",
+   "move_pct": -0.2,
    "closed": false,
    "rsi": 28.8,
    "trade_on": "Perps 1x",
@@ -160,7 +160,7 @@
     0.013727069924070783
    ],
    "lev": 1,
-   "funding_pct": -0.0076,
+   "funding_pct": -0.0071,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-24T15:00:00+00:00",
@@ -168,9 +168,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.01689,
-   "last_ts": "2026-10-24T17:25:21+00:00",
-   "move_pct": 1.34,
+   "last": 0.01694,
+   "last_ts": "2026-10-24T17:30:27+00:00",
+   "move_pct": 1.05,
    "closed": false,
    "rsi": 35.3,
    "trade_on": "Perps 1x",
@@ -212,9 +212,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.02918,
-   "last_ts": "2026-10-24T17:25:21+00:00",
-   "move_pct": -1.18,
+   "last": 0.02916,
+   "last_ts": "2026-10-24T17:30:27+00:00",
+   "move_pct": -1.11,
    "closed": false,
    "rsi": 31.9,
    "trade_on": "Perps 1x",
@@ -244,7 +244,7 @@
     0.09355440000000001
    ],
    "lev": 1,
-   "funding_pct": -0.3687,
+   "funding_pct": -0.3534,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-24T16:33:19+00:00",
@@ -252,9 +252,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.07132,
-   "last_ts": "2026-10-24T17:25:21+00:00",
-   "move_pct": 3.68,
+   "last": 0.07031,
+   "last_ts": "2026-10-24T17:30:27+00:00",
+   "move_pct": 2.21,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -292,9 +292,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2618,
-   "last_ts": "2026-10-24T17:25:21+00:00",
-   "move_pct": -3.18,
+   "last": 0.2711,
+   "last_ts": "2026-10-24T17:30:27+00:00",
+   "move_pct": 0.26,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -4726,28 +4726,6 @@
     ]
    },
    {
-    "id": "ai-agents",
-    "name": "AI Agents",
-    "chg7d": -4.92,
-    "top": [
-     "VVV",
-     "VIRTUAL",
-     "FET",
-     "KITE",
-     "TRAC"
-    ],
-    "tracked": [
-     "VVV",
-     "MAGIC",
-     "AEON",
-     "VIRTUAL",
-     "FET",
-     "PHA",
-     "AIXBT",
-     "RECALL"
-    ]
-   },
-   {
     "id": "bitcoin-ecosystem",
     "name": "Bitcoin Ecosystem",
     "chg7d": -5.14,
@@ -4851,6 +4829,28 @@
      "BONK",
      "MOODENG",
      "MEW"
+    ]
+   },
+   {
+    "id": "ai-agents",
+    "name": "AI Agents",
+    "chg7d": -6.65,
+    "top": [
+     "VVV",
+     "VIRTUAL",
+     "FET",
+     "KITE",
+     "TRAC"
+    ],
+    "tracked": [
+     "VVV",
+     "MAGIC",
+     "AEON",
+     "VIRTUAL",
+     "FET",
+     "PROMPT",
+     "PHA",
+     "AIXBT"
     ]
    },
    {
@@ -5056,7 +5056,7 @@
   "updated": {
    "unlocks": 1792854318,
    "onchain": 1792860025,
-   "sectors": 1792862121,
+   "sectors": 1792863027,
    "listings": 1792859599,
    "fundamentals": 1792854319
   }
@@ -5095,6 +5095,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "3315461b71f3e70effa7b166d0b609a971ff080c656d05a793b122df6b3e1a89",
- "generated": "2026-10-24T17:25:24+00:00"
+ "digest": "27bcb9ad9285ed65864c6af7c7eae53a4276bb10f4bbfed80f9449635540b3bd",
+ "generated": "2026-10-24T17:30:31+00:00"
 }
