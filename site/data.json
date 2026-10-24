@@ -17,7 +17,7 @@
     99.9796045174737
    ],
    "lev": 3,
-   "funding_pct": 0.008,
+   "funding_pct": 0.0081,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-10-22T03:00:00+00:00",
@@ -25,9 +25,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 102.52,
-   "last_ts": "2026-10-24T02:15:23+00:00",
-   "move_pct": 2.8,
+   "last": 102.42,
+   "last_ts": "2026-10-24T02:20:23+00:00",
+   "move_pct": 2.89,
    "closed": false,
    "rsi": 37.7,
    "trade_on": null,
@@ -69,9 +69,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.05201,
-   "last_ts": "2026-10-24T02:15:23+00:00",
-   "move_pct": 4.19,
+   "last": 0.05198,
+   "last_ts": "2026-10-24T02:20:23+00:00",
+   "move_pct": 4.13,
    "closed": false,
    "rsi": 63.0,
    "trade_on": "Spot",
@@ -114,9 +114,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04235,
-   "last_ts": "2026-10-24T02:15:23+00:00",
-   "move_pct": 5.27,
+   "last": 0.04225,
+   "last_ts": "2026-10-24T02:20:23+00:00",
+   "move_pct": 5.02,
    "closed": false,
    "rsi": 59.7,
    "trade_on": "Spot",
@@ -151,7 +151,7 @@
     6.31391444155267
    ],
    "lev": 2,
-   "funding_pct": -0.0004,
+   "funding_pct": -0.0,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-23T17:00:00+00:00",
@@ -159,9 +159,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 7.709,
-   "last_ts": "2026-10-24T02:15:23+00:00",
-   "move_pct": 1.01,
+   "last": 7.725,
+   "last_ts": "2026-10-24T02:20:23+00:00",
+   "move_pct": 0.81,
    "closed": false,
    "rsi": 30.0,
    "trade_on": "Perps 2x",
@@ -204,59 +204,15 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.13511,
-   "last_ts": "2026-10-24T02:15:23+00:00",
-   "move_pct": -0.68,
+   "last": 0.134,
+   "last_ts": "2026-10-24T02:20:23+00:00",
+   "move_pct": -1.49,
    "closed": false,
    "rsi": 66.6,
    "trade_on": "Spot",
    "market_reason": "thin perp market: spot is safer",
    "chart": "charts/ARKM-SPOT-1792771200.png",
    "setup": "BREAKOUT20"
-  },
-  {
-   "id": "AGT-DEX-bsc-0x5dbde81f-1792782000",
-   "kind": "ONCHAIN",
-   "score": null,
-   "reasons": [
-    "Trending on BSC (GeckoTerminal), $64.8M volume 24h",
-    "Liquidity $3.0M, pool 526 days old",
-    "Safety: GoPlus OK",
-    "Chart: 20-hour breakout above EMA50 on the DEX, RSI 71",
-    "Untested: no free history to backtest on-chain signals"
-   ],
-   "chain": "BSC",
-   "token": "0x5dbde81fce337ff4bcaaee4ca3466c00aecae274",
-   "url": "https://www.geckoterminal.com/bsc/pools/0xd3cffc6b02a34dfc72f1350339031043a854599f",
-   "coin": "AGT",
-   "market": "DEX",
-   "side": "LONG",
-   "entry": 0.0951383145642735,
-   "sl0": 0.08027116384476081,
-   "sl": 0.08027116384476081,
-   "tps": [
-    0.1100054652837862,
-    0.12487261600329888,
-    0.13973976672281158
-   ],
-   "lev": null,
-   "funding_pct": null,
-   "status": "open",
-   "hits": 0,
-   "opened": "2026-10-23T20:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.0825449970582246,
-   "last_ts": "2026-10-24T02:15:23+00:00",
-   "move_pct": -13.24,
-   "closed": false,
-   "rsi": 71.1,
-   "trade_on": "On-chain spot (BSC DEX)",
-   "market_reason": "not listed on OKX; buy on a DEX, small size, no leverage",
-   "chart": "charts/AGT-DEX-bsc-0x5dbde81f-1792782000.png",
-   "setup": null
   },
   {
    "id": "PONS-PERP-1792792800",
@@ -292,9 +248,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2407,
-   "last_ts": "2026-10-24T02:15:23+00:00",
-   "move_pct": -1.13,
+   "last": 0.2396,
+   "last_ts": "2026-10-24T02:20:23+00:00",
+   "move_pct": -0.67,
    "closed": false,
    "rsi": 27.5,
    "trade_on": "Perps 2x",
@@ -336,9 +292,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2293,
-   "last_ts": "2026-10-24T02:15:23+00:00",
-   "move_pct": 0.0,
+   "last": 0.2292,
+   "last_ts": "2026-10-24T02:20:23+00:00",
+   "move_pct": -0.04,
    "closed": false,
    "rsi": 65.3,
    "trade_on": "Perps 1x",
@@ -381,9 +337,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.004468,
-   "last_ts": "2026-10-24T02:15:23+00:00",
-   "move_pct": 6.66,
+   "last": 0.004395,
+   "last_ts": "2026-10-24T02:20:23+00:00",
+   "move_pct": 4.92,
    "closed": false,
    "rsi": 66.3,
    "trade_on": "Spot",
@@ -393,6 +349,50 @@
   }
  ],
  "closed": [
+  {
+   "id": "AGT-DEX-bsc-0x5dbde81f-1792782000",
+   "kind": "ONCHAIN",
+   "score": null,
+   "reasons": [
+    "Trending on BSC (GeckoTerminal), $64.8M volume 24h",
+    "Liquidity $3.0M, pool 526 days old",
+    "Safety: GoPlus OK",
+    "Chart: 20-hour breakout above EMA50 on the DEX, RSI 71",
+    "Untested: no free history to backtest on-chain signals"
+   ],
+   "chain": "BSC",
+   "token": "0x5dbde81fce337ff4bcaaee4ca3466c00aecae274",
+   "url": "https://www.geckoterminal.com/bsc/pools/0xd3cffc6b02a34dfc72f1350339031043a854599f",
+   "coin": "AGT",
+   "market": "DEX",
+   "side": "LONG",
+   "entry": 0.0951383145642735,
+   "sl0": 0.08027116384476081,
+   "sl": 0.08027116384476081,
+   "tps": [
+    0.1100054652837862,
+    0.12487261600329888,
+    0.13973976672281158
+   ],
+   "lev": null,
+   "funding_pct": null,
+   "status": "stopped",
+   "hits": 0,
+   "opened": "2026-10-23T20:00:00+00:00",
+   "closed_at": "2026-10-24T02:20:23+00:00",
+   "exit_price": 0.08027116384476081,
+   "result_r": -1.0,
+   "result_pct": -15.63,
+   "last": 0.0764114614698258,
+   "last_ts": "2026-10-24T02:20:23+00:00",
+   "move_pct": -13.24,
+   "closed": true,
+   "rsi": 71.1,
+   "trade_on": "On-chain spot (BSC DEX)",
+   "market_reason": "not listed on OKX; buy on a DEX, small size, no leverage",
+   "chart": "charts/AGT-DEX-bsc-0x5dbde81f-1792782000.png",
+   "setup": null
+  },
   {
    "id": "CHZ-PERP-1792792800",
    "kind": "TA",
@@ -762,13 +762,13 @@
  ],
  "stats": {
   "all": {
-   "trades": 9,
+   "trades": 10,
    "wins": 5,
-   "losses": 4,
-   "win_rate": 55.6,
-   "total_r": 0.61,
-   "avg_r": 0.067,
-   "total_pct": 22.14
+   "losses": 5,
+   "win_rate": 50.0,
+   "total_r": -0.39,
+   "avg_r": -0.039,
+   "total_pct": 6.51
   },
   "SPOT": {
    "trades": 1,
@@ -789,23 +789,23 @@
    "total_pct": -3.15
   },
   "DEX": {
-   "trades": 1,
+   "trades": 2,
    "wins": 1,
-   "losses": 0,
-   "win_rate": 100.0,
-   "total_r": 2.0,
-   "avg_r": 2.0,
-   "total_pct": 27.58
+   "losses": 1,
+   "win_rate": 50.0,
+   "total_r": 1.0,
+   "avg_r": 0.5,
+   "total_pct": 11.95
   },
   "kinds": {
    "ONCHAIN": {
-    "trades": 1,
+    "trades": 2,
     "wins": 1,
-    "losses": 0,
-    "win_rate": 100.0,
-    "total_r": 2.0,
-    "avg_r": 2.0,
-    "total_pct": 27.58
+    "losses": 1,
+    "win_rate": 50.0,
+    "total_r": 1.0,
+    "avg_r": 0.5,
+    "total_pct": 11.95
    },
    "TA": {
     "trades": 8,
@@ -818,6 +818,15 @@
    }
   },
   "coins": {
+   "AGT": {
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate": 0.0,
+    "total_r": -1.0,
+    "avg_r": -1.0,
+    "total_pct": -15.63
+   },
    "ATOM": {
     "trades": 1,
     "wins": 0,
@@ -900,7 +909,7 @@
     "total_pct": -2.95
    }
   },
-  "open": 9
+  "open": 8
  },
  "backtest": {
   "from": "2026-07-24",
@@ -4674,6 +4683,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "5d803437c50b320c937c19a7041988a86d3e3b2e7f7a7fb467027b19d08d989a",
- "generated": "2026-10-24T02:15:27+00:00"
+ "digest": "a3d0ad6ff432fd447b2161ede04c3e95b7493ec7c37f02d80290238d1386f7df",
+ "generated": "2026-10-24T02:20:28+00:00"
 }
