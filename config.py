@@ -50,6 +50,26 @@ COIN_GATE = True
 # Stand-alone catalyst signal types. All three lost money in the backtest, so they are off (display only).
 # ONCHAIN can't be backtested with free data: on, capped, and labelled untested.
 CATALYST_SIGNALS = {"UNLOCK_SHORT": False, "POST_UNLOCK_LONG": False, "FUND_LONG": False, "ONCHAIN": True}
+# Hot movers (hot.py): a parallel scan, every run, not backtested. Long only.
+# A coin up hard in 24h with a volume spike can signal even when it is outside the chart universe,
+# or when the chart rules skip it (volatility, or no 45-day coin-gate record). Own caps, so it does
+# not use up MAX_OPEN / MAX_NEW_PER_DAY.
+HOT = {
+    "on": True,
+    "min_chg_pct": 20.0,          # OKX open24h -> last, on the book that moved
+    "min_vol_usd": 5e5,           # that same book, 24h USD volume
+    "min_age_d": 2,               # enough hourly bars for ATR and a chart
+    "min_bars": 30,
+    "spike_mult": 1.8,            # last 24h vs the recent daily average
+    "spike_mult_short": 2.2,      # stricter when only a 12h window exists
+    "stop_atr": 2.0,
+    "stop_min_pct": 0.04,         # stop never tighter than 4% on a fast coin
+    "stop_max_pct": 0.12,         # and never wider than 12%
+    "max_per_run": 2,
+    "max_per_day": 3,
+    "max_open": 3,
+    "fetch_cap": 8,               # 1h candle fetches per run, strongest ticker scores first
+}
 
 # Strategy v3 extra rules (decided by backtest200.py on the 200-coin universe; True = filter is on)
 V3_FILTERS = {"BTC regime": False, "relative strength vs BTC": False, "volume 1.5x": False,

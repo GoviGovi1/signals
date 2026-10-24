@@ -339,7 +339,8 @@ def refresh_listings():
                             "list_ts": lt // 1000, "state": x.get("state")})
     out.sort(key=lambda r: -r["list_ts"])
     jsave("listings", {"updated": int(time.time()), "new": out[:40],
-                       "rule": "New on OKX: watch only. No signal until it has 60 days of history."})
+                       "rule": "New on OKX. Chart signals need the universe rules (volume rank, 30+ days on the chart market). "
+                               "Hot-mover signals can fire from day 2 when the 24h move and volume spike pass hot.py."})
 
 
 # ---------- on-chain spot watchlist (GeckoTerminal + GoPlus) ----------

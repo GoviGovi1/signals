@@ -185,7 +185,7 @@ def signals():
 
 
 KIND = {"TA": "Chart breakout", "UNLOCK_SHORT": "Unlock short", "POST_UNLOCK_LONG": "Post-unlock long",
-        "FUND_LONG": "Fundamentals long", "ONCHAIN": "On-chain spot"}
+        "FUND_LONG": "Fundamentals long", "ONCHAIN": "On-chain spot", "HOT": "24h hot mover"}
 MKT = {"PERP": "PERPS", "SPOT": "SPOT", "DEX": "ON-CHAIN SPOT"}
 
 
@@ -297,11 +297,12 @@ def stats_text():
 
 
 def welcome():
-    return ("Welcome! You're subscribed to free crypto Spot + Perps signals on about 200 of the most traded "
-            "coins on OKX, plus on-chain spot picks.\n\nSignals use the chart plus catalysts: token unlocks, open "
-            "interest and funding, TVL, fees and DEX volume, and sector strength. Each signal says why in plain "
-            "words, with an entry, stop loss and 3 take-profits. Perps signals suggest at most 3x leverage. "
-            "Every result is tracked on the website:\n" + C.SITE_URL +
+    return ("Welcome! You're subscribed to free crypto Spot + Perps signals on up to 350 of the most traded "
+            "coins on OKX, plus a short list of 24h hot movers and on-chain spot picks.\n\nSignals use the chart "
+            "plus catalysts: token unlocks, open interest and funding, TVL, fees and DEX volume, and sector strength. "
+            "Hot movers are separate: a coin up hard in 24 hours with a volume spike can signal even if it is not "
+            "in the chart list yet. Each signal says why in plain words, with an entry, stop loss and 3 take-profits. "
+            "Perps signals suggest at most 3x leverage. Every result is tracked on the website:\n" + C.SITE_URL +
             "\n\n" + DISCLAIMER + "\n\nNobody from this bot will ever ask for your keys, seed phrase or money.\n\n" + help_text())
 
 

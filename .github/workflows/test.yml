@@ -1,0 +1,19 @@
+name: tests
+# Offline unit checks. No secrets, no market calls. The 5-minute signals workflow is unchanged.
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  unit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Universe, hot movers, webhook
+        run: |
+          python3 tools/test_universe.py
+          python3 tools/test_hot.py
+          python3 tools/test_webhook.py

@@ -6,8 +6,12 @@ CoinGecko (coin ids, sectors), GeckoTerminal (trending pools, DEX candles), GoPl
 Blocked or paid (not used): Binance + Bybit (geo-blocked from US runners and the box), DefiLlama `api.llama.fi/emission*`
 (paid; the free `defillama-datasets.llama.fi` copy is used), Tokenomist (key), CryptoRank (blocked).
 
-Universe: ~200 OKX crypto coins ranked by 24h volume, USDT spot and/or perp, $0.5M+ volume, 45+ days listed, no
-stables/wrapped/leveraged tokens (`universe.py`, daily, `catalyst/universe.json`). Strategy v4 (`chartread.py`, decided by `backtest_v4.py` -> `backtest_v4.json`): support/resistance from swing
+Universe: up to 350 OKX crypto coins ranked by 24h volume, USDT spot and/or perp, $0.25M+ combined volume, chart market 30+ days old, no
+stables/wrapped/leveraged tokens (`universe.py`, daily and `python3 universe.py --force`, `catalyst/universe.json`). The cap is not filled with thinner names: a forced rebuild for this change found 279 coins (every book that cleared the filters), including WET, which was outside the old top 200 despite about $21M of 24h volume and a market older than 300 days. The 9 majors stay in while they still clear the rules. Hysteresis keeps a coin that is already listed while it remains inside the top 450. 30 days covers the 200 hourly bars the chart scan needs; the 20-hour breakout's 4h EMA200 keeps reading "no trend" until ~34 days of 4h candles exist. The daily coin-gate workflow rebuilds the list again. Backtest files already in the repo were run on the earlier ~200-coin list and were not re-run for this widen.
+
+Hot movers (`hot.py`, every `run.py`, not only the hourly chart scan): a long when an OKX USDT book is up at least 20% in 24h, that book traded at least $0.5M, the market is at least 2 days old, and volume is at least 1.8× its recent average (2.2× when only a 12h window exists). At most 2 new signals a run, 3 a UTC day, and 3 open at once. They skip the 45-day coin gate on purpose (a coin that just joined the chart list still waits for that gate before a chart signal) and do not take the chart strategy's daily slots. Stop is 2× the 1h ATR, clamped between 4% and 12%, targets at 1R/2R/3R, same exit weights, and the same spot-vs-perps choice. `python3 hot.py` prints the current candidates and sends nothing; `python3 hot.py --no-candles` stops after the ticker ranking. No new secrets and no worker redeploy: this still runs inside the existing Actions step.
+
+Strategy v4 (`chartread.py`, decided by `backtest_v4.py` -> `backtest_v4.json`): support/resistance from swing
 highs/lows + volume nodes, 1d/4h/1h trend and 4h structure, range/base detection; setups range breakout, retest,
 break of structure, 20h breakout; structure stops/targets; skip if next level < 2R or ATR >= 2.5%/h (`config.V4`);
 ML scorer tested walk-forward and kept off (did not beat the rules). Older v3 study: v2 chart rule +
@@ -15,7 +19,7 @@ filters from `config.V3_FILTERS` (kept only if they beat the base in both halves
 caps MAX_OPEN / MAX_NEW_PER_DAY, OI veto, daily coin gate (`backtest_v4.py --gate`). `choose_market()` picks
 "Trade on: Spot" or "Trade on: Perps Nx" with a reason; shorts perps only, leverage <= 3x and far from the stop.
 `chart.py` renders a PNG per new signal (site/charts/, pruned; sent with Telegram sendPhoto, caption = signal text).
-The full scan of all coins runs once per closed hour; other 15-min runs only track open signals. Catalyst layer: `catalyst.py`
+The full chart scan runs once per closed hour; other runs track open signals and still check hot movers. Catalyst layer: `catalyst.py`
 (cache in `catalyst/*.json`, committed; unlocks + fundamentals every 6 h, listings + on-chain hourly, one sector per run).
 Rules and which ones are filters vs info: `config.py` (CATALYST_FILTERS, COIN_GATE, CATALYST_SIGNALS), decided by
 `backtest_catalyst.py` (90 days, both halves) -> `backtest_catalyst.json`. Daily coin gate: `daily.yml`.
@@ -61,6 +65,6 @@ Neither value is printed by the workflow.
 
 Other tools: `python3 bot.py --once` (one poll, skipped automatically if a webhook is set), `python3 bot.py --push`
 (broadcast only), `python3 bot.py --webhook-off`, `python3 bt_fetch.py`
-(history cache), `python3 backtest.py` (90-day chart backtest, all universe coins -> backtest.json; backtest_before.json =
+(history cache), `python3 hot.py` (hot-mover dry run, sends nothing), `python3 backtest.py` (90-day chart backtest, all universe coins -> backtest.json; backtest_before.json =
 v1 pullback strategy on 9 coins), `python3 backtest_catalyst.py [--gate]`, `python3 catalyst.py [--force]`.
 Site: https://govigovi1.github.io/signals/
