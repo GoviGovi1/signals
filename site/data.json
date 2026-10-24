@@ -27,7 +27,7 @@
     6.31391444155267
    ],
    "lev": 2,
-   "funding_pct": -0.0011,
+   "funding_pct": -0.0012,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-23T17:00:00+00:00",
@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 7.514,
-   "last_ts": "2026-10-24T15:55:18+00:00",
-   "move_pct": 3.52,
+   "last": 7.502,
+   "last_ts": "2026-10-24T16:00:29+00:00",
+   "move_pct": 3.67,
    "closed": false,
    "rsi": 30.0,
    "trade_on": "Perps 2x",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2221,
-   "last_ts": "2026-10-24T15:55:18+00:00",
-   "move_pct": 6.68,
+   "last": 0.2245,
+   "last_ts": "2026-10-24T16:00:29+00:00",
+   "move_pct": 5.67,
    "closed": false,
    "rsi": 27.5,
    "trade_on": "Perps 2x",
@@ -116,7 +116,7 @@
     0.001835660499455803
    ],
    "lev": 1,
-   "funding_pct": -0.0462,
+   "funding_pct": -0.0451,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-24T15:00:00+00:00",
@@ -124,9 +124,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.001959,
-   "last_ts": "2026-10-24T15:55:18+00:00",
-   "move_pct": 1.21,
+   "last": 0.001965,
+   "last_ts": "2026-10-24T16:00:29+00:00",
+   "move_pct": 0.91,
    "closed": false,
    "rsi": 28.8,
    "trade_on": "Perps 1x",
@@ -168,14 +168,58 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.01685,
-   "last_ts": "2026-10-24T15:55:18+00:00",
-   "move_pct": 1.58,
+   "last": 0.01686,
+   "last_ts": "2026-10-24T16:00:29+00:00",
+   "move_pct": 1.52,
    "closed": false,
    "rsi": 35.3,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": "charts/CORE-PERP-1792850400.png",
+   "setup": "BREAKOUT20"
+  },
+  {
+   "id": "2Z-PERP-1792854000",
+   "kind": "TA",
+   "score": 1,
+   "reasons": [
+    "Chart: Broke the 20-hour low on 3.2x volume",
+    "Timeframes: 1d down, 4h down, 4h structure mixed",
+    "No support below in the last 50 days",
+    "Stop 0.030084 (structure); targets at 1R/2R/3R",
+    "BTC 4h trend flat",
+    "Weaker than BTC by 7.5% over 7d",
+    "OI +10% 24h with breakout",
+    "Track record: +1.8R on 2Z in the last 45 days (backtest)"
+   ],
+   "coin": "2Z",
+   "market": "PERP",
+   "side": "SHORT",
+   "entry": 0.02884,
+   "sl0": 0.030084213621418467,
+   "sl": 0.030084213621418467,
+   "tps": [
+    0.027595786378581535,
+    0.02635157275716307,
+    0.025107359135744602
+   ],
+   "lev": 1,
+   "funding_pct": -0.0017,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-10-24T16:00:00+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.02892,
+   "last_ts": "2026-10-24T16:00:29+00:00",
+   "move_pct": -0.28,
+   "closed": false,
+   "rsi": 31.9,
+   "trade_on": "Perps 1x",
+   "market_reason": "shorts need perps; thin perp market, so 1x",
+   "chart": "charts/2Z-PERP-1792854000.png",
    "setup": "BREAKOUT20"
   }
  ],
@@ -1096,7 +1140,7 @@
     "total_pct": -2.95
    }
   },
-  "open": 4
+  "open": 5
  },
  "backtest": {
   "from": "2026-07-24",
@@ -4606,28 +4650,6 @@
     ]
    },
    {
-    "id": "solana-meme-coins",
-    "name": "Solana Meme Coins",
-    "chg7d": -5.11,
-    "top": [
-     "PENGU",
-     "TRUMP",
-     "BONK",
-     "WIF",
-     "USELESS"
-    ],
-    "tracked": [
-     "TRUMP",
-     "PENGU",
-     "USELESS",
-     "BONK",
-     "WIF",
-     "FARTCOIN",
-     "MEW",
-     "MOODENG"
-    ]
-   },
-   {
     "id": "artificial-intelligence",
     "name": "Artificial Intelligence",
     "chg7d": -6.38,
@@ -4647,6 +4669,28 @@
      "VVV",
      "ICP",
      "EIGEN"
+    ]
+   },
+   {
+    "id": "solana-meme-coins",
+    "name": "Solana Meme Coins",
+    "chg7d": -6.51,
+    "top": [
+     "PENGU",
+     "TRUMP",
+     "BONK",
+     "WIF",
+     "USELESS"
+    ],
+    "tracked": [
+     "TRUMP",
+     "PENGU",
+     "USELESS",
+     "BONK",
+     "WIF",
+     "FARTCOIN",
+     "MEW",
+     "MOODENG"
     ]
    },
    {
@@ -4852,7 +4896,7 @@
   "updated": {
    "unlocks": 1792854318,
    "onchain": 1792856421,
-   "sectors": 1792856723,
+   "sectors": 1792857629,
    "listings": 1792855827,
    "fundamentals": 1792854319
   }
@@ -4888,6 +4932,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "f5b933c5ecc93f13cdf3178a1c7563d4018bfa7f0d9848b2313d08f6c6227aed",
- "generated": "2026-10-24T15:55:19+00:00"
+ "digest": "bc0d4f86b9d373aaa76e7e7987d26109c808c80929469bc1e844a3d9644e0de7",
+ "generated": "2026-10-24T16:01:04+00:00"
 }
