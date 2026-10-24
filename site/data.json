@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.051,
-   "last_ts": "2026-10-24T03:15:25+00:00",
-   "move_pct": 2.16,
+   "last": 0.05124,
+   "last_ts": "2026-10-24T03:20:23+00:00",
+   "move_pct": 2.64,
    "closed": false,
    "rsi": 63.0,
    "trade_on": "Spot",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04326,
-   "last_ts": "2026-10-24T03:15:25+00:00",
-   "move_pct": 7.53,
+   "last": 0.04331,
+   "last_ts": "2026-10-24T03:20:23+00:00",
+   "move_pct": 7.66,
    "closed": false,
    "rsi": 59.7,
    "trade_on": "Spot",
@@ -124,9 +124,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 7.786,
-   "last_ts": "2026-10-24T03:15:25+00:00",
-   "move_pct": 0.03,
+   "last": 7.778,
+   "last_ts": "2026-10-24T03:20:23+00:00",
+   "move_pct": 0.13,
    "closed": false,
    "rsi": 30.0,
    "trade_on": "Perps 2x",
@@ -169,9 +169,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.13308,
-   "last_ts": "2026-10-24T03:15:25+00:00",
-   "move_pct": -2.17,
+   "last": 0.13476,
+   "last_ts": "2026-10-24T03:20:23+00:00",
+   "move_pct": -0.93,
    "closed": false,
    "rsi": 66.6,
    "trade_on": "Spot",
@@ -213,9 +213,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2402,
-   "last_ts": "2026-10-24T03:15:25+00:00",
-   "move_pct": -0.92,
+   "last": 0.2417,
+   "last_ts": "2026-10-24T03:20:23+00:00",
+   "move_pct": -1.55,
    "closed": false,
    "rsi": 27.5,
    "trade_on": "Perps 2x",
@@ -257,16 +257,18 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2306,
-   "last_ts": "2026-10-24T03:15:25+00:00",
-   "move_pct": 0.57,
+   "last": 0.231,
+   "last_ts": "2026-10-24T03:20:23+00:00",
+   "move_pct": 0.74,
    "closed": false,
    "rsi": 65.3,
    "trade_on": "Perps 1x",
    "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
    "chart": "charts/LIGHT-PERP-1792796400.png",
    "setup": "RANGE_BREAK"
-  },
+  }
+ ],
+ "closed": [
   {
    "id": "KAT-SPOT-1792796400",
    "kind": "TA",
@@ -295,25 +297,23 @@
    ],
    "lev": null,
    "funding_pct": null,
-   "status": "tp2",
-   "hits": 2,
+   "status": "tp3",
+   "hits": 3,
    "opened": "2026-10-24T00:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.004591,
-   "last_ts": "2026-10-24T03:15:25+00:00",
+   "closed_at": "2026-10-24T03:20:23+00:00",
+   "exit_price": 0.004844825485283905,
+   "result_r": 4.253,
+   "result_pct": 12.68,
+   "last": 0.004822,
+   "last_ts": "2026-10-24T03:20:23+00:00",
    "move_pct": 9.6,
-   "closed": false,
+   "closed": true,
    "rsi": 66.3,
    "trade_on": "Spot",
    "market_reason": "thin perp market: spot is safer",
    "chart": "charts/KAT-SPOT-1792796400.png",
    "setup": "BOS"
-  }
- ],
- "closed": [
+  },
   {
    "id": "SOL-PERP-1792634400",
    "kind": "TA",
@@ -762,22 +762,22 @@
  ],
  "stats": {
   "all": {
-   "trades": 11,
-   "wins": 6,
+   "trades": 12,
+   "wins": 7,
    "losses": 5,
-   "win_rate": 54.5,
-   "total_r": 1.11,
-   "avg_r": 0.101,
-   "total_pct": 9.11
+   "win_rate": 58.3,
+   "total_r": 5.36,
+   "avg_r": 0.447,
+   "total_pct": 21.79
   },
   "SPOT": {
-   "trades": 1,
-   "wins": 0,
+   "trades": 2,
+   "wins": 1,
    "losses": 1,
-   "win_rate": 0.0,
-   "total_r": -1.0,
-   "avg_r": -1.0,
-   "total_pct": -2.29
+   "win_rate": 50.0,
+   "total_r": 3.25,
+   "avg_r": 1.627,
+   "total_pct": 10.39
   },
   "PERP": {
    "trades": 8,
@@ -808,13 +808,13 @@
     "total_pct": 11.95
    },
    "TA": {
-    "trades": 9,
-    "wins": 5,
+    "trades": 10,
+    "wins": 6,
     "losses": 4,
-    "win_rate": 55.6,
-    "total_r": 0.11,
-    "avg_r": 0.012,
-    "total_pct": -2.84
+    "win_rate": 60.0,
+    "total_r": 4.36,
+    "avg_r": 0.436,
+    "total_pct": 9.84
    }
   },
   "coins": {
@@ -872,6 +872,15 @@
     "avg_r": 2.0,
     "total_pct": 27.58
    },
+   "KAT": {
+    "trades": 1,
+    "wins": 1,
+    "losses": 0,
+    "win_rate": 100.0,
+    "total_r": 4.25,
+    "avg_r": 4.253,
+    "total_pct": 12.68
+   },
    "LIGHT": {
     "trades": 1,
     "wins": 0,
@@ -918,7 +927,7 @@
     "total_pct": -2.95
    }
   },
-  "open": 7
+  "open": 6
  },
  "backtest": {
   "from": "2026-07-24",
@@ -4693,6 +4702,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "97b03d697f650ec5357d8fc566be31241fb16206333b498490de0d35378c408f",
- "generated": "2026-10-24T03:15:28+00:00"
+ "digest": "c4a6113966ca174a95e3ced015edcc4e3165a782dfeeb7ce17b133a7339f5527",
+ "generated": "2026-10-24T03:20:26+00:00"
 }
