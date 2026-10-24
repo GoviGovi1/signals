@@ -27,7 +27,7 @@
     6.31391444155267
    ],
    "lev": 2,
-   "funding_pct": -0.0023,
+   "funding_pct": -0.0022,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-23T17:00:00+00:00",
@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 7.513,
-   "last_ts": "2026-10-24T17:55:21+00:00",
-   "move_pct": 3.53,
+   "last": 7.516,
+   "last_ts": "2026-10-24T18:00:29+00:00",
+   "move_pct": 3.49,
    "closed": false,
    "rsi": 30.0,
    "trade_on": "Perps 2x",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2273,
-   "last_ts": "2026-10-24T17:55:21+00:00",
-   "move_pct": 4.5,
+   "last": 0.2269,
+   "last_ts": "2026-10-24T18:00:29+00:00",
+   "move_pct": 4.66,
    "closed": false,
    "rsi": 27.5,
    "trade_on": "Perps 2x",
@@ -116,7 +116,7 @@
     0.001835660499455803
    ],
    "lev": 1,
-   "funding_pct": -0.0366,
+   "funding_pct": -0.0395,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-24T15:00:00+00:00",
@@ -124,9 +124,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.001993,
-   "last_ts": "2026-10-24T17:55:21+00:00",
-   "move_pct": -0.5,
+   "last": 0.001989,
+   "last_ts": "2026-10-24T18:00:29+00:00",
+   "move_pct": -0.3,
    "closed": false,
    "rsi": 28.8,
    "trade_on": "Perps 1x",
@@ -160,7 +160,7 @@
     0.013727069924070783
    ],
    "lev": 1,
-   "funding_pct": -0.0103,
+   "funding_pct": -0.0114,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-24T15:00:00+00:00",
@@ -169,7 +169,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.01699,
-   "last_ts": "2026-10-24T17:55:21+00:00",
+   "last_ts": "2026-10-24T18:00:29+00:00",
    "move_pct": 0.76,
    "closed": false,
    "rsi": 35.3,
@@ -212,9 +212,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.02912,
-   "last_ts": "2026-10-24T17:55:21+00:00",
-   "move_pct": -0.97,
+   "last": 0.0291,
+   "last_ts": "2026-10-24T18:00:29+00:00",
+   "move_pct": -0.9,
    "closed": false,
    "rsi": 31.9,
    "trade_on": "Perps 1x",
@@ -244,7 +244,7 @@
     0.09355440000000001
    ],
    "lev": 1,
-   "funding_pct": -0.3189,
+   "funding_pct": -0.3217,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-24T16:33:19+00:00",
@@ -252,9 +252,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.06893,
-   "last_ts": "2026-10-24T17:55:21+00:00",
-   "move_pct": 0.2,
+   "last": 0.07012,
+   "last_ts": "2026-10-24T18:00:29+00:00",
+   "move_pct": 1.93,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -292,15 +292,61 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2725,
-   "last_ts": "2026-10-24T17:55:21+00:00",
-   "move_pct": 0.78,
+   "last": 0.275,
+   "last_ts": "2026-10-24T18:00:29+00:00",
+   "move_pct": 1.7,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
    "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
    "chart": "charts/LIGHT-PERP-HOT-20750.png",
    "setup": "HOT24"
+  },
+  {
+   "id": "ZBT-PERP-1792861200",
+   "kind": "TA",
+   "score": 2,
+   "reasons": [
+    "Chart: Broke out of a 10-day range at 0.07867 (range 0.06604\u20130.07867) on 6.3x volume",
+    "Timeframes: 1d down, 4h down, 4h structure mixed",
+    "Next resistance 0.09471 (4.9R away, 4h swing)",
+    "Stop 0.077628 (below the breakout level); targets at the next 1 level(s)",
+    "BTC 4h trend flat",
+    "Stronger than BTC by 15.1% over 7d",
+    "OI +19% 24h with breakout",
+    "funding -0.087%/8h: other side crowded",
+    "Sector: Zero Knowledge ZK -2.9% 7d (leading, #3 of 20)",
+    "Track record: +5.2R on ZBT in the last 45 days (backtest)"
+   ],
+   "coin": "ZBT",
+   "market": "PERP",
+   "side": "LONG",
+   "entry": 0.0805,
+   "sl0": 0.0776278816659621,
+   "sl": 0.0776278816659621,
+   "tps": [
+    0.09444947041649053,
+    0.09732158875052843,
+    0.10019370708456633
+   ],
+   "lev": 1,
+   "funding_pct": -0.0434,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-10-24T18:00:00+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.0802,
+   "last_ts": "2026-10-24T18:00:29+00:00",
+   "move_pct": -0.37,
+   "closed": false,
+   "rsi": 89.2,
+   "trade_on": "Perps 1x",
+   "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
+   "chart": "charts/ZBT-PERP-1792861200.png",
+   "setup": "RANGE_BREAK"
   }
  ],
  "closed": [
@@ -1220,7 +1266,7 @@
     "total_pct": -2.95
    }
   },
-  "open": 7
+  "open": 8
  },
  "backtest": {
   "from": "2026-07-24",
@@ -4605,7 +4651,7 @@
    {
     "id": "decentralized-exchange",
     "name": "Decentralized Exchange",
-    "chg7d": -3.81,
+    "chg7d": -3.67,
     "top": [
      "HYPE",
      "UNI",
@@ -5058,7 +5104,7 @@
   "updated": {
    "unlocks": 1792854318,
    "onchain": 1792863620,
-   "sectors": 1792863923,
+   "sectors": 1792864829,
    "listings": 1792863323,
    "fundamentals": 1792854319
   }
@@ -5097,6 +5143,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "73b606f60fac7977d856fda516351f5063e8b3480dd6d81dae696d7d0a087b3d",
- "generated": "2026-10-24T17:55:24+00:00"
+ "digest": "5359cf8c7fe513d6920abe5a06ba81107ca597e1f1d10abe8bef5dc2e8e43c72",
+ "generated": "2026-10-24T18:01:05+00:00"
 }
