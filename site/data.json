@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.05313,
-   "last_ts": "2026-10-24T10:10:21+00:00",
-   "move_pct": 6.43,
+   "last": 0.05248,
+   "last_ts": "2026-10-24T10:15:25+00:00",
+   "move_pct": 5.13,
    "closed": false,
    "rsi": 63.0,
    "trade_on": "Spot",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04087,
-   "last_ts": "2026-10-24T10:10:21+00:00",
-   "move_pct": 1.59,
+   "last": 0.0409,
+   "last_ts": "2026-10-24T10:15:25+00:00",
+   "move_pct": 1.67,
    "closed": false,
    "rsi": 59.7,
    "trade_on": "Spot",
@@ -116,7 +116,7 @@
     6.31391444155267
    ],
    "lev": 2,
-   "funding_pct": -0.0006,
+   "funding_pct": 0.0,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-23T17:00:00+00:00",
@@ -124,9 +124,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 7.661,
-   "last_ts": "2026-10-24T10:10:21+00:00",
-   "move_pct": 1.63,
+   "last": 7.669,
+   "last_ts": "2026-10-24T10:15:25+00:00",
+   "move_pct": 1.53,
    "closed": false,
    "rsi": 30.0,
    "trade_on": "Perps 2x",
@@ -169,9 +169,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.12762,
-   "last_ts": "2026-10-24T10:10:21+00:00",
-   "move_pct": -6.18,
+   "last": 0.12736,
+   "last_ts": "2026-10-24T10:15:25+00:00",
+   "move_pct": -6.37,
    "closed": false,
    "rsi": 66.6,
    "trade_on": "Spot",
@@ -214,7 +214,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.2282,
-   "last_ts": "2026-10-24T10:10:21+00:00",
+   "last_ts": "2026-10-24T10:15:25+00:00",
    "move_pct": 4.12,
    "closed": false,
    "rsi": 27.5,
@@ -4464,23 +4464,6 @@
     ]
    },
    {
-    "id": "storage",
-    "name": "Storage",
-    "chg7d": -8.27,
-    "top": [
-     "FIL",
-     "BTT",
-     "AR",
-     "AIOZ",
-     "WAL"
-    ],
-    "tracked": [
-     "FIL",
-     "AR",
-     "WAL"
-    ]
-   },
-   {
     "id": "interoperability",
     "name": "Interoperability",
     "chg7d": -8.38,
@@ -4494,6 +4477,23 @@
     "tracked": [
      "W",
      "PHA"
+    ]
+   },
+   {
+    "id": "storage",
+    "name": "Storage",
+    "chg7d": -8.39,
+    "top": [
+     "FIL",
+     "BTT",
+     "AR",
+     "AIOZ",
+     "WAL"
+    ],
+    "tracked": [
+     "FIL",
+     "AR",
+     "WAL"
     ]
    }
   ],
@@ -4666,8 +4666,8 @@
   "updated": {
    "unlocks": 1792832428,
    "onchain": 1792834822,
-   "sectors": 1792836027,
-   "listings": 1792833321,
+   "sectors": 1792836925,
+   "listings": 1792836925,
    "fundamentals": 1792832428
   }
  },
@@ -4702,6 +4702,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "9c3f56bdb6d012142a1603c28a11134bbbfbcee4bfe196240ad21f396ba15885",
- "generated": "2026-10-24T10:10:23+00:00"
+ "digest": "c13b8b53da1586e00b9b533b4f43156e750e75ddd5acdc8abad7c03326a3baf4",
+ "generated": "2026-10-24T10:15:27+00:00"
 }
