@@ -27,7 +27,7 @@
     6.31391444155267
    ],
    "lev": 2,
-   "funding_pct": -0.0054,
+   "funding_pct": -0.0052,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-23T17:00:00+00:00",
@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 7.56,
-   "last_ts": "2026-10-24T20:25:19+00:00",
-   "move_pct": 2.93,
+   "last": 7.563,
+   "last_ts": "2026-10-24T20:30:25+00:00",
+   "move_pct": 2.89,
    "closed": false,
    "rsi": 30.0,
    "trade_on": "Perps 2x",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2289,
-   "last_ts": "2026-10-24T20:25:19+00:00",
-   "move_pct": 3.82,
+   "last": 0.2281,
+   "last_ts": "2026-10-24T20:30:25+00:00",
+   "move_pct": 4.16,
    "closed": false,
    "rsi": 27.5,
    "trade_on": "Perps 2x",
@@ -116,7 +116,7 @@
     0.001835660499455803
    ],
    "lev": 1,
-   "funding_pct": -0.0686,
+   "funding_pct": -0.0669,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-24T15:00:00+00:00",
@@ -124,9 +124,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002001,
-   "last_ts": "2026-10-24T20:25:19+00:00",
-   "move_pct": -0.91,
+   "last": 0.002,
+   "last_ts": "2026-10-24T20:30:25+00:00",
+   "move_pct": -0.86,
    "closed": false,
    "rsi": 28.8,
    "trade_on": "Perps 1x",
@@ -160,7 +160,7 @@
     0.013727069924070783
    ],
    "lev": 1,
-   "funding_pct": -0.002,
+   "funding_pct": -0.0007,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-24T15:00:00+00:00",
@@ -168,9 +168,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.01741,
-   "last_ts": "2026-10-24T20:25:19+00:00",
-   "move_pct": -1.69,
+   "last": 0.0174,
+   "last_ts": "2026-10-24T20:30:25+00:00",
+   "move_pct": -1.64,
    "closed": false,
    "rsi": 35.3,
    "trade_on": "Perps 1x",
@@ -204,7 +204,7 @@
     0.025107359135744602
    ],
    "lev": 1,
-   "funding_pct": 0.0049,
+   "funding_pct": 0.005,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-24T16:00:00+00:00",
@@ -212,9 +212,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.02952,
-   "last_ts": "2026-10-24T20:25:19+00:00",
-   "move_pct": -2.36,
+   "last": 0.02946,
+   "last_ts": "2026-10-24T20:30:25+00:00",
+   "move_pct": -2.15,
    "closed": false,
    "rsi": 31.9,
    "trade_on": "Perps 1x",
@@ -252,9 +252,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2973,
-   "last_ts": "2026-10-24T20:25:19+00:00",
-   "move_pct": 9.95,
+   "last": 0.2915,
+   "last_ts": "2026-10-24T20:30:25+00:00",
+   "move_pct": 7.8,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -292,9 +292,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.003392,
-   "last_ts": "2026-10-24T20:25:19+00:00",
-   "move_pct": -2.75,
+   "last": 0.003404,
+   "last_ts": "2026-10-24T20:30:25+00:00",
+   "move_pct": -2.41,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -4593,6 +4593,26 @@
     ]
    },
    {
+    "id": "lending-borrowing",
+    "name": "Lending Borrowing",
+    "chg7d": -2.42,
+    "top": [
+     "AAVE",
+     "MORPHO",
+     "OHM",
+     "COMP",
+     "KMNO"
+    ],
+    "tracked": [
+     "AAVE",
+     "CAP",
+     "KMNO",
+     "MORPHO",
+     "COMP",
+     "SPK"
+    ]
+   },
+   {
     "id": "meme-token",
     "name": "Meme Token",
     "chg7d": -2.83,
@@ -4656,26 +4676,6 @@
      "LIT",
      "AAVE",
      "ONDO"
-    ]
-   },
-   {
-    "id": "lending-borrowing",
-    "name": "Lending Borrowing",
-    "chg7d": -3.53,
-    "top": [
-     "AAVE",
-     "MORPHO",
-     "OHM",
-     "COMP",
-     "KMNO"
-    ],
-    "tracked": [
-     "AAVE",
-     "CAP",
-     "KMNO",
-     "MORPHO",
-     "COMP",
-     "SPK"
     ]
    },
    {
@@ -5156,7 +5156,7 @@
   "updated": {
    "unlocks": 1792854318,
    "onchain": 1792870822,
-   "sectors": 1792872920,
+   "sectors": 1792873824,
    "listings": 1792871124,
    "fundamentals": 1792854319
   }
@@ -5195,6 +5195,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "39daf7efddfadfe5875dec6cb92abc46383deab73071664bdd6154d0ab55afd5",
- "generated": "2026-10-24T20:25:22+00:00"
+ "digest": "22d1c9b9e3507f2ccc1a94d9a3a0b8ff862c6bba9d0d982ef56396c18878c079",
+ "generated": "2026-10-24T20:30:28+00:00"
 }
