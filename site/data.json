@@ -1,50 +1,6 @@
 {
  "open": [
   {
-   "id": "SLX-SPOT-1792720800",
-   "kind": "TA",
-   "score": 0,
-   "reasons": [
-    "Chart: Break of structure: closed above the last swing high 0.04922, after a higher low",
-    "Timeframes: 1d down, 4h down, 4h structure higher highs/lows",
-    "Next resistance 0.05347 (3.3R away, 4h swing/swing)",
-    "Stop 0.048849 (2 ATR); targets at the next 2 level(s)",
-    "BTC 4h trend flat",
-    "Weaker than BTC by 4.6% over 7d",
-    "OI +1% 24h",
-    "Track record: +9.6R on SLX in the last 45 days (backtest)"
-   ],
-   "coin": "SLX",
-   "market": "SPOT",
-   "side": "LONG",
-   "entry": 0.04992,
-   "sl0": 0.048839626060705306,
-   "sl": 0.04992,
-   "tps": [
-    0.05337826296196327,
-    0.056067724207707316,
-    0.05714809814700201
-   ],
-   "lev": null,
-   "funding_pct": null,
-   "status": "tp1",
-   "hits": 1,
-   "opened": "2026-10-23T03:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.05062,
-   "last_ts": "2026-10-24T14:15:22+00:00",
-   "move_pct": 1.4,
-   "closed": false,
-   "rsi": 63.0,
-   "trade_on": "Spot",
-   "market_reason": "thin perp market: spot is safer",
-   "chart": "charts/SLX-SPOT-1792720800.png",
-   "setup": "BOS"
-  },
-  {
    "id": "INJ-PERP-1792771200",
    "kind": "TA",
    "score": -1,
@@ -71,7 +27,7 @@
     6.31391444155267
    ],
    "lev": 2,
-   "funding_pct": -0.0028,
+   "funding_pct": -0.0025,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-23T17:00:00+00:00",
@@ -79,60 +35,15 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 7.573,
-   "last_ts": "2026-10-24T14:15:22+00:00",
-   "move_pct": 2.76,
+   "last": 7.552,
+   "last_ts": "2026-10-24T14:20:23+00:00",
+   "move_pct": 3.03,
    "closed": false,
    "rsi": 30.0,
    "trade_on": "Perps 2x",
    "market_reason": "shorts need perps; 2x keeps liquidation 3x+ further away than the stop",
    "chart": "charts/INJ-PERP-1792771200.png",
    "setup": "BOS"
-  },
-  {
-   "id": "ARKM-SPOT-1792771200",
-   "kind": "TA",
-   "score": 1,
-   "reasons": [
-    "Chart: Broke the 20-hour high on 12.8x volume",
-    "Timeframes: 1d up, 4h up, 4h structure higher highs/lows",
-    "No resistance overhead in the last 50 days",
-    "Stop 0.12322 (structure); targets at 1R/2R/3R",
-    "BTC 4h trend flat",
-    "Stronger than BTC by 10.3% over 7d",
-    "OI +1% 24h",
-    "Sector: Exchange Based Tokens -1.9% 7d (leading, #4 of 20)",
-    "Track record: +0.3R on ARKM in the last 45 days (backtest)"
-   ],
-   "coin": "ARKM",
-   "market": "SPOT",
-   "side": "LONG",
-   "entry": 0.13603,
-   "sl0": 0.12361281946824898,
-   "sl": 0.12361281946824898,
-   "tps": [
-    0.14844718053175107,
-    0.1608643610635021,
-    0.17328154159525316
-   ],
-   "lev": null,
-   "funding_pct": null,
-   "status": "open",
-   "hits": 0,
-   "opened": "2026-10-23T17:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.12468,
-   "last_ts": "2026-10-24T14:15:22+00:00",
-   "move_pct": -8.34,
-   "closed": false,
-   "rsi": 66.6,
-   "trade_on": "Spot",
-   "market_reason": "thin perp market: spot is safer",
-   "chart": "charts/ARKM-SPOT-1792771200.png",
-   "setup": "BREAKOUT20"
   },
   {
    "id": "PONS-PERP-1792792800",
@@ -168,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2221,
-   "last_ts": "2026-10-24T14:15:22+00:00",
-   "move_pct": 6.68,
+   "last": 0.221,
+   "last_ts": "2026-10-24T14:20:23+00:00",
+   "move_pct": 7.14,
    "closed": false,
    "rsi": 27.5,
    "trade_on": "Perps 2x",
@@ -180,6 +91,95 @@
   }
  ],
  "closed": [
+  {
+   "id": "SLX-SPOT-1792720800",
+   "kind": "TA",
+   "score": 0,
+   "reasons": [
+    "Chart: Break of structure: closed above the last swing high 0.04922, after a higher low",
+    "Timeframes: 1d down, 4h down, 4h structure higher highs/lows",
+    "Next resistance 0.05347 (3.3R away, 4h swing/swing)",
+    "Stop 0.048849 (2 ATR); targets at the next 2 level(s)",
+    "BTC 4h trend flat",
+    "Weaker than BTC by 4.6% over 7d",
+    "OI +1% 24h",
+    "Track record: +9.6R on SLX in the last 45 days (backtest)"
+   ],
+   "coin": "SLX",
+   "market": "SPOT",
+   "side": "LONG",
+   "entry": 0.04992,
+   "sl0": 0.048839626060705306,
+   "sl": 0.04992,
+   "tps": [
+    0.05337826296196327,
+    0.056067724207707316,
+    0.05714809814700201
+   ],
+   "lev": null,
+   "funding_pct": null,
+   "status": "stopped_be",
+   "hits": 1,
+   "opened": "2026-10-23T03:00:00+00:00",
+   "closed_at": "2026-10-24T14:20:23+00:00",
+   "exit_price": 0.04992,
+   "result_r": 1.067,
+   "result_pct": 2.31,
+   "last": 0.05079,
+   "last_ts": "2026-10-24T14:20:23+00:00",
+   "move_pct": 1.4,
+   "closed": true,
+   "rsi": 63.0,
+   "trade_on": "Spot",
+   "market_reason": "thin perp market: spot is safer",
+   "chart": "charts/SLX-SPOT-1792720800.png",
+   "setup": "BOS"
+  },
+  {
+   "id": "ARKM-SPOT-1792771200",
+   "kind": "TA",
+   "score": 1,
+   "reasons": [
+    "Chart: Broke the 20-hour high on 12.8x volume",
+    "Timeframes: 1d up, 4h up, 4h structure higher highs/lows",
+    "No resistance overhead in the last 50 days",
+    "Stop 0.12322 (structure); targets at 1R/2R/3R",
+    "BTC 4h trend flat",
+    "Stronger than BTC by 10.3% over 7d",
+    "OI +1% 24h",
+    "Sector: Exchange Based Tokens -1.9% 7d (leading, #4 of 20)",
+    "Track record: +0.3R on ARKM in the last 45 days (backtest)"
+   ],
+   "coin": "ARKM",
+   "market": "SPOT",
+   "side": "LONG",
+   "entry": 0.13603,
+   "sl0": 0.12361281946824898,
+   "sl": 0.12361281946824898,
+   "tps": [
+    0.14844718053175107,
+    0.1608643610635021,
+    0.17328154159525316
+   ],
+   "lev": null,
+   "funding_pct": null,
+   "status": "stopped",
+   "hits": 0,
+   "opened": "2026-10-23T17:00:00+00:00",
+   "closed_at": "2026-10-24T14:20:23+00:00",
+   "exit_price": 0.12361281946824898,
+   "result_r": -1.0,
+   "result_pct": -9.13,
+   "last": 0.12399,
+   "last_ts": "2026-10-24T14:20:23+00:00",
+   "move_pct": -8.34,
+   "closed": true,
+   "rsi": 66.6,
+   "trade_on": "Spot",
+   "market_reason": "thin perp market: spot is safer",
+   "chart": "charts/ARKM-SPOT-1792771200.png",
+   "setup": "BREAKOUT20"
+  },
   {
    "id": "KMNO-SPOT-1792767600",
    "kind": "TA",
@@ -806,22 +806,22 @@
  ],
  "stats": {
   "all": {
-   "trades": 15,
-   "wins": 10,
-   "losses": 5,
-   "win_rate": 66.7,
-   "total_r": 10.28,
-   "avg_r": 0.685,
-   "total_pct": 44.17
+   "trades": 17,
+   "wins": 11,
+   "losses": 6,
+   "win_rate": 64.7,
+   "total_r": 10.34,
+   "avg_r": 0.608,
+   "total_pct": 37.35
   },
   "SPOT": {
-   "trades": 3,
-   "wins": 2,
-   "losses": 1,
-   "win_rate": 66.7,
-   "total_r": 4.92,
-   "avg_r": 1.64,
-   "total_pct": 16.62
+   "trades": 5,
+   "wins": 3,
+   "losses": 2,
+   "win_rate": 60.0,
+   "total_r": 4.99,
+   "avg_r": 0.997,
+   "total_pct": 9.8
   },
   "PERP": {
    "trades": 9,
@@ -852,13 +852,13 @@
     "total_pct": 19.59
    },
    "TA": {
-    "trades": 12,
-    "wins": 8,
-    "losses": 4,
-    "win_rate": 66.7,
-    "total_r": 8.28,
-    "avg_r": 0.69,
-    "total_pct": 24.58
+    "trades": 14,
+    "wins": 9,
+    "losses": 5,
+    "win_rate": 64.3,
+    "total_r": 8.34,
+    "avg_r": 0.596,
+    "total_pct": 17.76
    }
   },
   "coins": {
@@ -870,6 +870,15 @@
     "total_r": -1.0,
     "avg_r": -1.0,
     "total_pct": -15.63
+   },
+   "ARKM": {
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate": 0.0,
+    "total_r": -1.0,
+    "avg_r": -1.0,
+    "total_pct": -9.13
    },
    "ATOM": {
     "trades": 1,
@@ -961,6 +970,15 @@
     "avg_r": 0.333,
     "total_pct": 0.7
    },
+   "SLX": {
+    "trades": 1,
+    "wins": 1,
+    "losses": 0,
+    "win_rate": 100.0,
+    "total_r": 1.07,
+    "avg_r": 1.067,
+    "total_pct": 2.31
+   },
    "SOL": {
     "trades": 1,
     "wins": 1,
@@ -989,7 +1007,7 @@
     "total_pct": -2.95
    }
   },
-  "open": 4
+  "open": 2
  },
  "backtest": {
   "from": "2026-07-24",
@@ -4766,6 +4784,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "12973a94b510171a6aa2789711da998dab968d8af6f89551b512753a597958ec",
- "generated": "2026-10-24T14:15:24+00:00"
+ "digest": "1503043576580b93efe932efbbcf4413583b4d8a81230bc275130a7b3efe35bf",
+ "generated": "2026-10-24T14:20:27+00:00"
 }
