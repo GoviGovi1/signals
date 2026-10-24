@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0513,
-   "last_ts": "2026-10-24T11:55:20+00:00",
-   "move_pct": 2.76,
+   "last": 0.05107,
+   "last_ts": "2026-10-24T12:00:29+00:00",
+   "move_pct": 2.3,
    "closed": false,
    "rsi": 63.0,
    "trade_on": "Spot",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04079,
-   "last_ts": "2026-10-24T11:55:20+00:00",
-   "move_pct": 1.39,
+   "last": 0.0407,
+   "last_ts": "2026-10-24T12:00:29+00:00",
+   "move_pct": 1.17,
    "closed": false,
    "rsi": 59.7,
    "trade_on": "Spot",
@@ -116,7 +116,7 @@
     6.31391444155267
    ],
    "lev": 2,
-   "funding_pct": 0.0036,
+   "funding_pct": 0.004,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-23T17:00:00+00:00",
@@ -124,9 +124,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 7.669,
-   "last_ts": "2026-10-24T11:55:20+00:00",
-   "move_pct": 1.53,
+   "last": 7.673,
+   "last_ts": "2026-10-24T12:00:29+00:00",
+   "move_pct": 1.48,
    "closed": false,
    "rsi": 30.0,
    "trade_on": "Perps 2x",
@@ -169,9 +169,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.12591,
-   "last_ts": "2026-10-24T11:55:20+00:00",
-   "move_pct": -7.44,
+   "last": 0.12637,
+   "last_ts": "2026-10-24T12:00:29+00:00",
+   "move_pct": -7.1,
    "closed": false,
    "rsi": 66.6,
    "trade_on": "Spot",
@@ -213,16 +213,18 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2266,
-   "last_ts": "2026-10-24T11:55:20+00:00",
-   "move_pct": 4.79,
+   "last": 0.2269,
+   "last_ts": "2026-10-24T12:00:29+00:00",
+   "move_pct": 4.66,
    "closed": false,
    "rsi": 27.5,
    "trade_on": "Perps 2x",
    "market_reason": "shorts need perps; 2x keeps liquidation 3x+ further away than the stop",
    "chart": "charts/PONS-PERP-1792792800.png",
    "setup": "BREAKOUT20"
-  },
+  }
+ ],
+ "closed": [
   {
    "id": "ELSA-DEX-base-0x29cc30f9-1792836000",
    "kind": "ONCHAIN",
@@ -250,25 +252,23 @@
    ],
    "lev": null,
    "funding_pct": null,
-   "status": "tp2",
+   "status": "stopped_be",
    "hits": 2,
    "opened": "2026-10-24T11:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.0733997561555686,
-   "last_ts": "2026-10-24T11:55:20+00:00",
+   "closed_at": "2026-10-24T12:00:29+00:00",
+   "exit_price": 0.0781728853092088,
+   "result_r": 1.0,
+   "result_pct": 7.64,
+   "last": 0.0750025615871444,
+   "last_ts": "2026-10-24T12:00:29+00:00",
    "move_pct": -6.11,
-   "closed": false,
+   "closed": true,
    "rsi": 69.4,
    "trade_on": "On-chain spot (Base DEX)",
    "market_reason": "not listed on OKX; buy on a DEX, small size, no leverage",
    "chart": "charts/ELSA-DEX-base-0x29cc30f9-1792836000.png",
    "setup": null
-  }
- ],
- "closed": [
+  },
   {
    "id": "LIGHT-PERP-1792796400",
    "kind": "TA",
@@ -806,13 +806,13 @@
  ],
  "stats": {
   "all": {
-   "trades": 13,
-   "wins": 8,
+   "trades": 14,
+   "wins": 9,
    "losses": 5,
-   "win_rate": 61.5,
-   "total_r": 7.61,
-   "avg_r": 0.585,
-   "total_pct": 30.3
+   "win_rate": 64.3,
+   "total_r": 8.61,
+   "avg_r": 0.615,
+   "total_pct": 37.94
   },
   "SPOT": {
    "trades": 2,
@@ -833,23 +833,23 @@
    "total_pct": 7.96
   },
   "DEX": {
-   "trades": 2,
-   "wins": 1,
+   "trades": 3,
+   "wins": 2,
    "losses": 1,
-   "win_rate": 50.0,
-   "total_r": 1.0,
-   "avg_r": 0.5,
-   "total_pct": 11.95
+   "win_rate": 66.7,
+   "total_r": 2.0,
+   "avg_r": 0.667,
+   "total_pct": 19.59
   },
   "kinds": {
    "ONCHAIN": {
-    "trades": 2,
-    "wins": 1,
+    "trades": 3,
+    "wins": 2,
     "losses": 1,
-    "win_rate": 50.0,
-    "total_r": 1.0,
-    "avg_r": 0.5,
-    "total_pct": 11.95
+    "win_rate": 66.7,
+    "total_r": 2.0,
+    "avg_r": 0.667,
+    "total_pct": 19.59
    },
    "TA": {
     "trades": 11,
@@ -906,6 +906,15 @@
     "total_r": 1.61,
     "avg_r": 1.606,
     "total_pct": 2.54
+   },
+   "ELSA": {
+    "trades": 1,
+    "wins": 1,
+    "losses": 0,
+    "win_rate": 100.0,
+    "total_r": 1.0,
+    "avg_r": 1.0,
+    "total_pct": 7.64
    },
    "IRYS": {
     "trades": 1,
@@ -971,7 +980,7 @@
     "total_pct": -2.95
    }
   },
-  "open": 6
+  "open": 5
  },
  "backtest": {
   "from": "2026-07-24",
@@ -4152,7 +4161,7 @@
    {
     "id": "meme-token",
     "name": "Meme Token",
-    "chg7d": -1.92,
+    "chg7d": -2.35,
     "top": [
      "DOGE",
      "SHIB",
@@ -4710,7 +4719,7 @@
   "updated": {
    "unlocks": 1792832428,
    "onchain": 1792842023,
-   "sectors": 1792842322,
+   "sectors": 1792843229,
    "listings": 1792840822,
    "fundamentals": 1792832428
   }
@@ -4746,6 +4755,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "09cea0261488dcb1def1a24310a4cecb469b5a2c7989dfe9200fe68a61ea8627",
- "generated": "2026-10-24T11:55:24+00:00"
+ "digest": "f26f2503e7affd258bcbdd705eb04bc10e03e0cbec0a3275413b19a82c6309e9",
+ "generated": "2026-10-24T12:00:57+00:00"
 }
