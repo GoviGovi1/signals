@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.01744,
-   "last_ts": "2026-10-25T21:10:23+00:00",
-   "move_pct": -1.87,
+   "last": 0.01738,
+   "last_ts": "2026-10-25T21:15:23+00:00",
+   "move_pct": -1.52,
    "closed": false,
    "rsi": 35.3,
    "trade_on": "Perps 1x",
@@ -70,7 +70,7 @@
     0.025107359135744602
    ],
    "lev": 1,
-   "funding_pct": -0.0046,
+   "funding_pct": -0.005,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-24T16:00:00+00:00",
@@ -78,9 +78,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0289,
-   "last_ts": "2026-10-25T21:10:23+00:00",
-   "move_pct": -0.21,
+   "last": 0.02891,
+   "last_ts": "2026-10-25T21:15:23+00:00",
+   "move_pct": -0.24,
    "closed": false,
    "rsi": 31.9,
    "trade_on": "Perps 1x",
@@ -123,7 +123,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.002621,
-   "last_ts": "2026-10-25T21:10:23+00:00",
+   "last_ts": "2026-10-25T21:15:23+00:00",
    "move_pct": 1.31,
    "closed": false,
    "rsi": 54.2,
@@ -158,7 +158,7 @@
     0.13080556756015782
    ],
    "lev": 1,
-   "funding_pct": -0.0108,
+   "funding_pct": -0.0107,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-25T11:00:00+00:00",
@@ -167,7 +167,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.1512,
-   "last_ts": "2026-10-25T21:10:23+00:00",
+   "last_ts": "2026-10-25T21:15:23+00:00",
    "move_pct": -1.48,
    "closed": false,
    "rsi": 35.9,
@@ -211,9 +211,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.7029,
-   "last_ts": "2026-10-25T21:10:23+00:00",
-   "move_pct": -0.56,
+   "last": 0.7025,
+   "last_ts": "2026-10-25T21:15:23+00:00",
+   "move_pct": -0.5,
    "closed": false,
    "rsi": 42.7,
    "trade_on": "Perps 1x",
@@ -5419,6 +5419,23 @@
     ]
    },
    {
+    "id": "storage",
+    "name": "Storage",
+    "chg7d": -2.67,
+    "top": [
+     "FIL",
+     "BTT",
+     "AR",
+     "AIOZ",
+     "WAL"
+    ],
+    "tracked": [
+     "FIL",
+     "AR",
+     "WAL"
+    ]
+   },
+   {
     "id": "privacy-coins",
     "name": "Privacy Coins",
     "chg7d": -3.83,
@@ -5431,23 +5448,6 @@
     ],
     "tracked": [
      "ZEC"
-    ]
-   },
-   {
-    "id": "storage",
-    "name": "Storage",
-    "chg7d": -4.11,
-    "top": [
-     "FIL",
-     "BTT",
-     "AR",
-     "AIOZ",
-     "WAL"
-    ],
-    "tracked": [
-     "FIL",
-     "AR",
-     "WAL"
     ]
    },
    {
@@ -5635,7 +5635,7 @@
   "updated": {
    "unlocks": 1792941324,
    "onchain": 1792960823,
-   "sectors": 1792962029,
+   "sectors": 1792962923,
    "listings": 1792961126,
    "fundamentals": 1792941324
   }
@@ -5674,6 +5674,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "ce92805011e74a71ac6c95163b87ad76c009c9d3b9a327a2b7982481548dda68",
- "generated": "2026-10-25T21:10:26+00:00"
+ "digest": "1f089038661726553d48d029986ac79f329b1a107885372681de95677c5f392b",
+ "generated": "2026-10-25T21:15:27+00:00"
 }
