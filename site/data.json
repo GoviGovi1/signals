@@ -27,7 +27,7 @@
     6.31391444155267
    ],
    "lev": 2,
-   "funding_pct": -0.0125,
+   "funding_pct": -0.0134,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-23T17:00:00+00:00",
@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 7.677,
-   "last_ts": "2026-10-25T03:20:25+00:00",
-   "move_pct": 1.43,
+   "last": 7.664,
+   "last_ts": "2026-10-25T03:25:20+00:00",
+   "move_pct": 1.59,
    "closed": false,
    "rsi": 30.0,
    "trade_on": "Perps 2x",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2307,
-   "last_ts": "2026-10-25T03:20:25+00:00",
-   "move_pct": 3.07,
+   "last": 0.2299,
+   "last_ts": "2026-10-25T03:25:20+00:00",
+   "move_pct": 3.4,
    "closed": false,
    "rsi": 27.5,
    "trade_on": "Perps 2x",
@@ -123,9 +123,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.01792,
-   "last_ts": "2026-10-25T03:20:25+00:00",
-   "move_pct": -4.67,
+   "last": 0.01786,
+   "last_ts": "2026-10-25T03:25:20+00:00",
+   "move_pct": -4.32,
    "closed": false,
    "rsi": 35.3,
    "trade_on": "Perps 1x",
@@ -167,60 +167,15 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.02904,
-   "last_ts": "2026-10-25T03:20:25+00:00",
-   "move_pct": -0.69,
+   "last": 0.029,
+   "last_ts": "2026-10-25T03:25:20+00:00",
+   "move_pct": -0.55,
    "closed": false,
    "rsi": 31.9,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": "charts/2Z-PERP-1792854000.png",
    "setup": "BREAKOUT20"
-  },
-  {
-   "id": "BASED-SPOT-1792893600",
-   "kind": "TA",
-   "score": 1,
-   "reasons": [
-    "Chart: Broke out of a 2-day range at 0.05372 (range 0.05006\u20130.05372) on 4.0x volume",
-    "Timeframes: 1d down, 4h down, 4h structure mixed",
-    "Next resistance 0.056952 (2.6R away, 4h swing/swing)",
-    "Stop 0.053185 (below the breakout level); targets at the next 3 level(s)",
-    "BTC 4h trend down",
-    "Stronger than BTC by 5.8% over 7d",
-    "OI +7% 24h with breakout",
-    "Sector: Decentralized Perpetuals -2.8% 7d (middle, #6 of 20)",
-    "Track record: +2.6R on BASED in the last 45 days (backtest)"
-   ],
-   "coin": "BASED",
-   "market": "SPOT",
-   "side": "LONG",
-   "entry": 0.0543,
-   "sl0": 0.053263224601137076,
-   "sl": 0.053263224601137076,
-   "tps": [
-    0.056902021568948975,
-    0.057689181288609614,
-    0.05831209903114005
-   ],
-   "lev": null,
-   "funding_pct": null,
-   "status": "open",
-   "hits": 0,
-   "opened": "2026-10-25T03:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.05346,
-   "last_ts": "2026-10-25T03:20:25+00:00",
-   "move_pct": -1.55,
-   "closed": false,
-   "rsi": 71.7,
-   "trade_on": "Spot",
-   "market_reason": "thin perp market: spot is safer",
-   "chart": "charts/BASED-SPOT-1792893600.png",
-   "setup": "RANGE_BREAK"
   },
   {
    "id": "CAP-PERP-HOT-20751",
@@ -252,9 +207,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.08108,
-   "last_ts": "2026-10-25T03:20:25+00:00",
-   "move_pct": -3.81,
+   "last": 0.08172,
+   "last_ts": "2026-10-25T03:25:20+00:00",
+   "move_pct": -3.05,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -264,6 +219,51 @@
   }
  ],
  "closed": [
+  {
+   "id": "BASED-SPOT-1792893600",
+   "kind": "TA",
+   "score": 1,
+   "reasons": [
+    "Chart: Broke out of a 2-day range at 0.05372 (range 0.05006\u20130.05372) on 4.0x volume",
+    "Timeframes: 1d down, 4h down, 4h structure mixed",
+    "Next resistance 0.056952 (2.6R away, 4h swing/swing)",
+    "Stop 0.053185 (below the breakout level); targets at the next 3 level(s)",
+    "BTC 4h trend down",
+    "Stronger than BTC by 5.8% over 7d",
+    "OI +7% 24h with breakout",
+    "Sector: Decentralized Perpetuals -2.8% 7d (middle, #6 of 20)",
+    "Track record: +2.6R on BASED in the last 45 days (backtest)"
+   ],
+   "coin": "BASED",
+   "market": "SPOT",
+   "side": "LONG",
+   "entry": 0.0543,
+   "sl0": 0.053263224601137076,
+   "sl": 0.053263224601137076,
+   "tps": [
+    0.056902021568948975,
+    0.057689181288609614,
+    0.05831209903114005
+   ],
+   "lev": null,
+   "funding_pct": null,
+   "status": "stopped",
+   "hits": 0,
+   "opened": "2026-10-25T03:00:00+00:00",
+   "closed_at": "2026-10-25T03:25:20+00:00",
+   "exit_price": 0.053263224601137076,
+   "result_r": -1.0,
+   "result_pct": -1.91,
+   "last": 0.05323,
+   "last_ts": "2026-10-25T03:25:20+00:00",
+   "move_pct": -1.55,
+   "closed": true,
+   "rsi": 71.7,
+   "trade_on": "Spot",
+   "market_reason": "thin perp market: spot is safer",
+   "chart": "charts/BASED-SPOT-1792893600.png",
+   "setup": "RANGE_BREAK"
+  },
   {
    "id": "T-SPOT-HOT-20751",
    "kind": "HOT",
@@ -1230,22 +1230,22 @@
  ],
  "stats": {
   "all": {
-   "trades": 23,
+   "trades": 24,
    "wins": 14,
-   "losses": 9,
-   "win_rate": 60.9,
-   "total_r": 8.59,
-   "avg_r": 0.374,
-   "total_pct": 30.51
+   "losses": 10,
+   "win_rate": 58.3,
+   "total_r": 7.59,
+   "avg_r": 0.316,
+   "total_pct": 28.6
   },
   "SPOT": {
-   "trades": 7,
+   "trades": 8,
    "wins": 5,
-   "losses": 2,
-   "win_rate": 71.4,
-   "total_r": 5.99,
-   "avg_r": 0.855,
-   "total_pct": 18.01
+   "losses": 3,
+   "win_rate": 62.5,
+   "total_r": 4.99,
+   "avg_r": 0.623,
+   "total_pct": 16.1
   },
   "PERP": {
    "trades": 13,
@@ -1285,13 +1285,13 @@
     "total_pct": 19.59
    },
    "TA": {
-    "trades": 16,
+    "trades": 17,
     "wins": 9,
-    "losses": 7,
-    "win_rate": 56.2,
-    "total_r": 6.34,
-    "avg_r": 0.396,
-    "total_pct": 11.71
+    "losses": 8,
+    "win_rate": 52.9,
+    "total_r": 5.34,
+    "avg_r": 0.314,
+    "total_pct": 9.8
    }
   },
   "coins": {
@@ -1330,6 +1330,15 @@
     "total_r": -1.0,
     "avg_r": -1.0,
     "total_pct": -2.29
+   },
+   "BASED": {
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate": 0.0,
+    "total_r": -1.0,
+    "avg_r": -1.0,
+    "total_pct": -1.91
    },
    "BNB": {
     "trades": 1,
@@ -1476,7 +1485,7 @@
     "total_pct": -5.43
    }
   },
-  "open": 6
+  "open": 5
  },
  "backtest": {
   "from": "2026-07-24",
@@ -5409,6 +5418,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "3a8eec5e34a6ec4ab9bd276d0738a91bc6ea86353165199e199c52a9737222d0",
- "generated": "2026-10-25T03:20:28+00:00"
+ "digest": "41be2fdec73e3d510c1604377d729f45b0939d9b2c153b71f0ebebaae6750fd0",
+ "generated": "2026-10-25T03:25:24+00:00"
 }
