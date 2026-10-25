@@ -27,7 +27,7 @@
     6.31391444155267
    ],
    "lev": 2,
-   "funding_pct": -0.0099,
+   "funding_pct": -0.0097,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-23T17:00:00+00:00",
@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 7.741,
-   "last_ts": "2026-10-25T01:15:23+00:00",
-   "move_pct": 0.6,
+   "last": 7.744,
+   "last_ts": "2026-10-25T01:20:22+00:00",
+   "move_pct": 0.56,
    "closed": false,
    "rsi": 30.0,
    "trade_on": "Perps 2x",
@@ -79,60 +79,15 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2319,
-   "last_ts": "2026-10-25T01:15:23+00:00",
-   "move_pct": 2.56,
+   "last": 0.2325,
+   "last_ts": "2026-10-25T01:20:22+00:00",
+   "move_pct": 2.31,
    "closed": false,
    "rsi": 27.5,
    "trade_on": "Perps 2x",
    "market_reason": "shorts need perps; 2x keeps liquidation 3x+ further away than the stop",
    "chart": "charts/PONS-PERP-1792792800.png",
    "setup": "BREAKOUT20"
-  },
-  {
-   "id": "ZIL-PERP-1792850400",
-   "kind": "TA",
-   "score": -1,
-   "reasons": [
-    "Chart: Broke down from a 2-day range at 0.002017 (range 0.002017\u20130.002171) on 5.3x volume",
-    "Timeframes: 1d down, 4h down, 4h structure mixed",
-    "No support below in the last 50 days",
-    "Stop 0.0020321 (structure); targets at 1R/2R/3R",
-    "BTC 4h trend flat",
-    "Weaker than BTC by 13.2% over 7d",
-    "OI +0% 24h",
-    "funding -0.074%/8h: shorts crowded",
-    "Track record: +3.0R on ZIL in the last 45 days (backtest)"
-   ],
-   "coin": "ZIL",
-   "market": "PERP",
-   "side": "SHORT",
-   "entry": 0.001983,
-   "sl0": 0.0020321131668480656,
-   "sl": 0.0020321131668480656,
-   "tps": [
-    0.0019338868331519343,
-    0.0018847736663038686,
-    0.001835660499455803
-   ],
-   "lev": 1,
-   "funding_pct": -0.0192,
-   "status": "open",
-   "hits": 0,
-   "opened": "2026-10-24T15:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.002017,
-   "last_ts": "2026-10-25T01:15:23+00:00",
-   "move_pct": -1.71,
-   "closed": false,
-   "rsi": 28.8,
-   "trade_on": "Perps 1x",
-   "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": "charts/ZIL-PERP-1792850400.png",
-   "setup": "RANGE_BREAK"
   },
   {
    "id": "CORE-PERP-1792850400",
@@ -168,9 +123,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.01778,
-   "last_ts": "2026-10-25T01:15:23+00:00",
-   "move_pct": -3.86,
+   "last": 0.01784,
+   "last_ts": "2026-10-25T01:20:22+00:00",
+   "move_pct": -4.21,
    "closed": false,
    "rsi": 35.3,
    "trade_on": "Perps 1x",
@@ -212,9 +167,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.02886,
-   "last_ts": "2026-10-25T01:15:23+00:00",
-   "move_pct": -0.07,
+   "last": 0.0289,
+   "last_ts": "2026-10-25T01:20:22+00:00",
+   "move_pct": -0.21,
    "closed": false,
    "rsi": 31.9,
    "trade_on": "Perps 1x",
@@ -252,9 +207,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.3193,
-   "last_ts": "2026-10-25T01:15:23+00:00",
-   "move_pct": 18.08,
+   "last": 0.323,
+   "last_ts": "2026-10-25T01:20:22+00:00",
+   "move_pct": 19.45,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -292,9 +247,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.007111,
-   "last_ts": "2026-10-25T01:15:23+00:00",
-   "move_pct": 1.18,
+   "last": 0.007466,
+   "last_ts": "2026-10-25T01:20:22+00:00",
+   "move_pct": 6.23,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -304,6 +259,51 @@
   }
  ],
  "closed": [
+  {
+   "id": "ZIL-PERP-1792850400",
+   "kind": "TA",
+   "score": -1,
+   "reasons": [
+    "Chart: Broke down from a 2-day range at 0.002017 (range 0.002017\u20130.002171) on 5.3x volume",
+    "Timeframes: 1d down, 4h down, 4h structure mixed",
+    "No support below in the last 50 days",
+    "Stop 0.0020321 (structure); targets at 1R/2R/3R",
+    "BTC 4h trend flat",
+    "Weaker than BTC by 13.2% over 7d",
+    "OI +0% 24h",
+    "funding -0.074%/8h: shorts crowded",
+    "Track record: +3.0R on ZIL in the last 45 days (backtest)"
+   ],
+   "coin": "ZIL",
+   "market": "PERP",
+   "side": "SHORT",
+   "entry": 0.001983,
+   "sl0": 0.0020321131668480656,
+   "sl": 0.0020321131668480656,
+   "tps": [
+    0.0019338868331519343,
+    0.0018847736663038686,
+    0.001835660499455803
+   ],
+   "lev": 1,
+   "funding_pct": -0.0192,
+   "status": "stopped",
+   "hits": 0,
+   "opened": "2026-10-24T15:00:00+00:00",
+   "closed_at": "2026-10-25T01:20:22+00:00",
+   "exit_price": 0.0020321131668480656,
+   "result_r": -1.0,
+   "result_pct": -2.48,
+   "last": 0.002034,
+   "last_ts": "2026-10-25T01:20:22+00:00",
+   "move_pct": -1.71,
+   "closed": true,
+   "rsi": 28.8,
+   "trade_on": "Perps 1x",
+   "market_reason": "shorts need perps; thin perp market, so 1x",
+   "chart": "charts/ZIL-PERP-1792850400.png",
+   "setup": "RANGE_BREAK"
+  },
   {
    "id": "ANIME-SPOT-HOT-20750",
    "kind": "HOT",
@@ -1145,13 +1145,13 @@
  ],
  "stats": {
   "all": {
-   "trades": 20,
+   "trades": 21,
    "wins": 12,
-   "losses": 8,
-   "win_rate": 60.0,
-   "total_r": 9.09,
-   "avg_r": 0.455,
-   "total_pct": 27.96
+   "losses": 9,
+   "win_rate": 57.1,
+   "total_r": 8.09,
+   "avg_r": 0.385,
+   "total_pct": 25.48
   },
   "SPOT": {
    "trades": 6,
@@ -1163,13 +1163,13 @@
    "total_pct": 15.98
   },
   "PERP": {
-   "trades": 11,
+   "trades": 12,
    "wins": 6,
-   "losses": 5,
-   "win_rate": 54.5,
-   "total_r": 1.36,
-   "avg_r": 0.123,
-   "total_pct": -7.61
+   "losses": 6,
+   "win_rate": 50.0,
+   "total_r": 0.36,
+   "avg_r": 0.03,
+   "total_pct": -10.09
   },
   "DEX": {
    "trades": 3,
@@ -1200,13 +1200,13 @@
     "total_pct": 19.59
    },
    "TA": {
-    "trades": 15,
+    "trades": 16,
     "wins": 9,
-    "losses": 6,
-    "win_rate": 60.0,
-    "total_r": 7.34,
-    "avg_r": 0.49,
-    "total_pct": 14.19
+    "losses": 7,
+    "win_rate": 56.2,
+    "total_r": 6.34,
+    "avg_r": 0.396,
+    "total_pct": 11.71
    }
   },
   "coins": {
@@ -1373,16 +1373,16 @@
     "total_pct": -3.57
    },
    "ZIL": {
-    "trades": 1,
+    "trades": 2,
     "wins": 0,
-    "losses": 1,
+    "losses": 2,
     "win_rate": 0.0,
-    "total_r": -1.0,
+    "total_r": -2.0,
     "avg_r": -1.0,
-    "total_pct": -2.95
+    "total_pct": -5.43
    }
   },
-  "open": 7
+  "open": 6
  },
  "backtest": {
   "from": "2026-07-24",
@@ -5353,6 +5353,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "acd5623cd41333690308b63110abb138ffc6637721ab4c13b3e6447bcdb95858",
- "generated": "2026-10-25T01:15:29+00:00"
+ "digest": "f896b19faa71fc0643150904715074183578a098d686ac40177d6ab8ec2f4038",
+ "generated": "2026-10-25T01:20:26+00:00"
 }
