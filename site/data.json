@@ -27,7 +27,7 @@
     6.31391444155267
    ],
    "lev": 2,
-   "funding_pct": -0.0014,
+   "funding_pct": -0.0015,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-23T17:00:00+00:00",
@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 7.732,
-   "last_ts": "2026-10-25T13:41:23+00:00",
-   "move_pct": 0.72,
+   "last": 7.688,
+   "last_ts": "2026-10-25T13:45:23+00:00",
+   "move_pct": 1.28,
    "closed": false,
    "rsi": 30.0,
    "trade_on": "Perps 2x",
@@ -71,7 +71,7 @@
     0.013727069924070783
    ],
    "lev": 1,
-   "funding_pct": 0.007,
+   "funding_pct": 0.0072,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-24T15:00:00+00:00",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.01726,
-   "last_ts": "2026-10-25T13:41:23+00:00",
-   "move_pct": -0.82,
+   "last": 0.01724,
+   "last_ts": "2026-10-25T13:45:23+00:00",
+   "move_pct": -0.7,
    "closed": false,
    "rsi": 35.3,
    "trade_on": "Perps 1x",
@@ -115,7 +115,7 @@
     0.025107359135744602
    ],
    "lev": 1,
-   "funding_pct": 0.005,
+   "funding_pct": 0.0049,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-24T16:00:00+00:00",
@@ -123,9 +123,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.02907,
-   "last_ts": "2026-10-25T13:41:23+00:00",
-   "move_pct": -0.8,
+   "last": 0.02901,
+   "last_ts": "2026-10-25T13:45:23+00:00",
+   "move_pct": -0.59,
    "closed": false,
    "rsi": 31.9,
    "trade_on": "Perps 1x",
@@ -167,9 +167,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002615,
-   "last_ts": "2026-10-25T13:41:23+00:00",
-   "move_pct": 1.08,
+   "last": 0.002614,
+   "last_ts": "2026-10-25T13:45:23+00:00",
+   "move_pct": 1.04,
    "closed": false,
    "rsi": 54.2,
    "trade_on": "Perps 1x",
@@ -204,7 +204,7 @@
     0.2295663912705981
    ],
    "lev": 1,
-   "funding_pct": 0.0006,
+   "funding_pct": 0.0003,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-25T09:00:00+00:00",
@@ -212,9 +212,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2525,
-   "last_ts": "2026-10-25T13:41:23+00:00",
-   "move_pct": -1.0,
+   "last": 0.2522,
+   "last_ts": "2026-10-25T13:45:23+00:00",
+   "move_pct": -0.88,
    "closed": false,
    "rsi": 32.8,
    "trade_on": "Perps 1x",
@@ -248,7 +248,7 @@
     0.13080556756015782
    ],
    "lev": 1,
-   "funding_pct": -0.0063,
+   "funding_pct": -0.0061,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-25T11:00:00+00:00",
@@ -256,9 +256,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1514,
-   "last_ts": "2026-10-25T13:41:23+00:00",
-   "move_pct": -1.61,
+   "last": 0.151,
+   "last_ts": "2026-10-25T13:45:23+00:00",
+   "move_pct": -1.34,
    "closed": false,
    "rsi": 35.9,
    "trade_on": "Perps 1x",
@@ -5068,28 +5068,6 @@
     ]
    },
    {
-    "id": "decentralized-finance-defi",
-    "name": "Decentralized Finance DeFi",
-    "chg7d": -2.1,
-    "top": [
-     "STETH",
-     "HYPE",
-     "WSTETH",
-     "LINK",
-     "RAIN"
-    ],
-    "tracked": [
-     "LINK",
-     "HYPE",
-     "UNI",
-     "PUMP",
-     "ENA",
-     "LIT",
-     "AAVE",
-     "ONDO"
-    ]
-   },
-   {
     "id": "lending-borrowing",
     "name": "Lending Borrowing",
     "chg7d": -2.37,
@@ -5107,6 +5085,28 @@
      "KMNO",
      "COMP",
      "SPK"
+    ]
+   },
+   {
+    "id": "decentralized-finance-defi",
+    "name": "Decentralized Finance DeFi",
+    "chg7d": -2.56,
+    "top": [
+     "STETH",
+     "HYPE",
+     "WSTETH",
+     "LINK",
+     "RAIN"
+    ],
+    "tracked": [
+     "LINK",
+     "HYPE",
+     "UNI",
+     "PUMP",
+     "ENA",
+     "LIT",
+     "AAVE",
+     "ONDO"
     ]
    },
    {
@@ -5589,7 +5589,7 @@
   "updated": {
    "unlocks": 1792919723,
    "onchain": 1792935622,
-   "sectors": 1792935024,
+   "sectors": 1792935923,
    "listings": 1792934721,
    "fundamentals": 1792919723
   }
@@ -5628,6 +5628,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "881ff5c58fe0dc884bc7aead5153d81aa7f17e0945dc0436f8c3e80b2d597870",
- "generated": "2026-10-25T13:41:26+00:00"
+ "digest": "5ff1c4368f40537451b192ea9b03b3106dda56cf124dde97bc9d2dfc62f9e7f4",
+ "generated": "2026-10-25T13:45:27+00:00"
 }
