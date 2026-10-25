@@ -27,7 +27,7 @@
     6.31391444155267
    ],
    "lev": 2,
-   "funding_pct": -0.0008,
+   "funding_pct": -0.0013,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-23T17:00:00+00:00",
@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 7.611,
-   "last_ts": "2026-10-25T12:41:25+00:00",
-   "move_pct": 2.27,
+   "last": 7.59,
+   "last_ts": "2026-10-25T12:45:23+00:00",
+   "move_pct": 2.54,
    "closed": false,
    "rsi": 30.0,
    "trade_on": "Perps 2x",
@@ -71,7 +71,7 @@
     0.013727069924070783
    ],
    "lev": 1,
-   "funding_pct": 0.0053,
+   "funding_pct": 0.0057,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-24T15:00:00+00:00",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.01731,
-   "last_ts": "2026-10-25T12:41:25+00:00",
-   "move_pct": -1.11,
+   "last": 0.01725,
+   "last_ts": "2026-10-25T12:45:23+00:00",
+   "move_pct": -0.76,
    "closed": false,
    "rsi": 35.3,
    "trade_on": "Perps 1x",
@@ -115,7 +115,7 @@
     0.025107359135744602
    ],
    "lev": 1,
-   "funding_pct": 0.0016,
+   "funding_pct": 0.0017,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-24T16:00:00+00:00",
@@ -123,9 +123,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.02899,
-   "last_ts": "2026-10-25T12:41:25+00:00",
-   "move_pct": -0.52,
+   "last": 0.02898,
+   "last_ts": "2026-10-25T12:45:23+00:00",
+   "move_pct": -0.49,
    "closed": false,
    "rsi": 31.9,
    "trade_on": "Perps 1x",
@@ -167,9 +167,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.00264,
-   "last_ts": "2026-10-25T12:41:25+00:00",
-   "move_pct": 2.05,
+   "last": 0.002634,
+   "last_ts": "2026-10-25T12:45:23+00:00",
+   "move_pct": 1.82,
    "closed": false,
    "rsi": 54.2,
    "trade_on": "Perps 1x",
@@ -204,7 +204,7 @@
     0.2295663912705981
    ],
    "lev": 1,
-   "funding_pct": -0.0025,
+   "funding_pct": -0.0016,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-25T09:00:00+00:00",
@@ -213,7 +213,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.2515,
-   "last_ts": "2026-10-25T12:41:25+00:00",
+   "last_ts": "2026-10-25T12:45:23+00:00",
    "move_pct": -0.6,
    "closed": false,
    "rsi": 32.8,
@@ -248,7 +248,7 @@
     0.13080556756015782
    ],
    "lev": 1,
-   "funding_pct": 0.0047,
+   "funding_pct": 0.0046,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-25T11:00:00+00:00",
@@ -256,9 +256,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.15,
-   "last_ts": "2026-10-25T12:41:25+00:00",
-   "move_pct": -0.67,
+   "last": 0.1502,
+   "last_ts": "2026-10-25T12:45:23+00:00",
+   "move_pct": -0.81,
    "closed": false,
    "rsi": 35.9,
    "trade_on": "Perps 1x",
@@ -5154,28 +5154,6 @@
     ]
    },
    {
-    "id": "layer-2",
-    "name": "Layer 2",
-    "chg7d": -3.56,
-    "top": [
-     "OKB",
-     "MNT",
-     "ARB",
-     "POL",
-     "STX"
-    ],
-    "tracked": [
-     "ORDER",
-     "STRK",
-     "ARB",
-     "OKB",
-     "KAT",
-     "OP",
-     "ZORA",
-     "SOON"
-    ]
-   },
-   {
     "id": "privacy-coins",
     "name": "Privacy Coins",
     "chg7d": -3.6,
@@ -5319,6 +5297,28 @@
      "AXS",
      "APE",
      "ONE"
+    ]
+   },
+   {
+    "id": "layer-2",
+    "name": "Layer 2",
+    "chg7d": -4.22,
+    "top": [
+     "OKB",
+     "MNT",
+     "ARB",
+     "POL",
+     "STX"
+    ],
+    "tracked": [
+     "ORDER",
+     "STRK",
+     "ARB",
+     "OKB",
+     "KAT",
+     "OP",
+     "ZORA",
+     "SOON"
     ]
    },
    {
@@ -5589,7 +5589,7 @@
   "updated": {
    "unlocks": 1792919723,
    "onchain": 1792932021,
-   "sectors": 1792931424,
+   "sectors": 1792932323,
    "listings": 1792931120,
    "fundamentals": 1792919723
   }
@@ -5628,6 +5628,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "c99e679b798fc86f041c806b9bb71507753c1272c28029149bd9c7b9d6e0a88b",
- "generated": "2026-10-25T12:41:28+00:00"
+ "digest": "da1d85fabc9b57ea5b441593853d21132e320be3fb9ff831376249f6008ce0be",
+ "generated": "2026-10-25T12:45:26+00:00"
 }
