@@ -27,7 +27,7 @@
     6.31391444155267
    ],
    "lev": 2,
-   "funding_pct": -0.0082,
+   "funding_pct": -0.0073,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-23T17:00:00+00:00",
@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 7.551,
-   "last_ts": "2026-10-25T09:41:24+00:00",
-   "move_pct": 3.04,
+   "last": 7.573,
+   "last_ts": "2026-10-25T09:45:23+00:00",
+   "move_pct": 2.76,
    "closed": false,
    "rsi": 30.0,
    "trade_on": "Perps 2x",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2245,
-   "last_ts": "2026-10-25T09:41:24+00:00",
-   "move_pct": 5.67,
+   "last": 0.2248,
+   "last_ts": "2026-10-25T09:45:23+00:00",
+   "move_pct": 5.55,
    "closed": false,
    "rsi": 27.5,
    "trade_on": "Perps 2x",
@@ -123,9 +123,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.01718,
-   "last_ts": "2026-10-25T09:41:24+00:00",
-   "move_pct": -0.35,
+   "last": 0.01722,
+   "last_ts": "2026-10-25T09:45:23+00:00",
+   "move_pct": -0.58,
    "closed": false,
    "rsi": 35.3,
    "trade_on": "Perps 1x",
@@ -159,7 +159,7 @@
     0.025107359135744602
    ],
    "lev": 1,
-   "funding_pct": 0.0001,
+   "funding_pct": 0.0006,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-24T16:00:00+00:00",
@@ -167,9 +167,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.02841,
-   "last_ts": "2026-10-25T09:41:24+00:00",
-   "move_pct": 1.49,
+   "last": 0.0285,
+   "last_ts": "2026-10-25T09:45:23+00:00",
+   "move_pct": 1.18,
    "closed": false,
    "rsi": 31.9,
    "trade_on": "Perps 1x",
@@ -207,9 +207,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.09365,
-   "last_ts": "2026-10-25T09:41:24+00:00",
-   "move_pct": 11.1,
+   "last": 0.09389,
+   "last_ts": "2026-10-25T09:45:23+00:00",
+   "move_pct": 11.39,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -251,9 +251,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002556,
-   "last_ts": "2026-10-25T09:41:24+00:00",
-   "move_pct": -1.2,
+   "last": 0.002568,
+   "last_ts": "2026-10-25T09:45:23+00:00",
+   "move_pct": -0.73,
    "closed": false,
    "rsi": 54.2,
    "trade_on": "Perps 1x",
@@ -288,7 +288,7 @@
     0.2295663912705981
    ],
    "lev": 1,
-   "funding_pct": -0.0072,
+   "funding_pct": -0.0063,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-25T09:00:00+00:00",
@@ -296,9 +296,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2497,
-   "last_ts": "2026-10-25T09:41:24+00:00",
-   "move_pct": 0.12,
+   "last": 0.2503,
+   "last_ts": "2026-10-25T09:45:23+00:00",
+   "move_pct": -0.12,
    "closed": false,
    "rsi": 32.8,
    "trade_on": "Perps 1x",
@@ -5092,21 +5092,6 @@
     ]
    },
    {
-    "id": "privacy-coins",
-    "name": "Privacy Coins",
-    "chg7d": -2.98,
-    "top": [
-     "ZEC",
-     "XMR",
-     "DCR",
-     "ZANO",
-     "ARRR"
-    ],
-    "tracked": [
-     "ZEC"
-    ]
-   },
-   {
     "id": "gaming",
     "name": "Gaming",
     "chg7d": -3.19,
@@ -5192,6 +5177,21 @@
      "OP",
      "ZORA",
      "SOON"
+    ]
+   },
+   {
+    "id": "privacy-coins",
+    "name": "Privacy Coins",
+    "chg7d": -3.6,
+    "top": [
+     "ZEC",
+     "XMR",
+     "DCR",
+     "ZANO",
+     "NOCK"
+    ],
+    "tracked": [
+     "ZEC"
     ]
    },
    {
@@ -5527,7 +5527,7 @@
   "updated": {
    "unlocks": 1792919723,
    "onchain": 1792921220,
-   "sectors": 1792920625,
+   "sectors": 1792921523,
    "listings": 1792919731,
    "fundamentals": 1792919723
   }
@@ -5566,6 +5566,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "f623f0de1c064cf7c327a64fbbfe2fa3391016884f914ebf6da4963c3df87545",
- "generated": "2026-10-25T09:41:28+00:00"
+ "digest": "b8d0bb36c122f667ab12b4ca0a540ca4882f018611b68eba55ce6be4b3ca0b11",
+ "generated": "2026-10-25T09:45:27+00:00"
 }
