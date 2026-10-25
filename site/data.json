@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.01744,
-   "last_ts": "2026-10-25T20:10:23+00:00",
-   "move_pct": -1.87,
+   "last": 0.01746,
+   "last_ts": "2026-10-25T20:15:23+00:00",
+   "move_pct": -1.99,
    "closed": false,
    "rsi": 35.3,
    "trade_on": "Perps 1x",
@@ -70,7 +70,7 @@
     0.025107359135744602
    ],
    "lev": 1,
-   "funding_pct": -0.0012,
+   "funding_pct": -0.0008,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-24T16:00:00+00:00",
@@ -78,9 +78,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.02892,
-   "last_ts": "2026-10-25T20:10:23+00:00",
-   "move_pct": -0.28,
+   "last": 0.02902,
+   "last_ts": "2026-10-25T20:15:23+00:00",
+   "move_pct": -0.62,
    "closed": false,
    "rsi": 31.9,
    "trade_on": "Perps 1x",
@@ -122,9 +122,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002649,
-   "last_ts": "2026-10-25T20:10:23+00:00",
-   "move_pct": 2.4,
+   "last": 0.00264,
+   "last_ts": "2026-10-25T20:15:23+00:00",
+   "move_pct": 2.05,
    "closed": false,
    "rsi": 54.2,
    "trade_on": "Perps 1x",
@@ -158,7 +158,7 @@
     0.13080556756015782
    ],
    "lev": 1,
-   "funding_pct": -0.0203,
+   "funding_pct": -0.0198,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-25T11:00:00+00:00",
@@ -166,9 +166,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1517,
-   "last_ts": "2026-10-25T20:10:23+00:00",
-   "move_pct": -1.81,
+   "last": 0.1522,
+   "last_ts": "2026-10-25T20:15:23+00:00",
+   "move_pct": -2.15,
    "closed": false,
    "rsi": 35.9,
    "trade_on": "Perps 1x",
@@ -211,9 +211,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.7012,
-   "last_ts": "2026-10-25T20:10:23+00:00",
-   "move_pct": -0.31,
+   "last": 0.7015,
+   "last_ts": "2026-10-25T20:15:23+00:00",
+   "move_pct": -0.36,
    "closed": false,
    "rsi": 42.7,
    "trade_on": "Perps 1x",
@@ -5378,6 +5378,27 @@
     ]
    },
    {
+    "id": "oracle",
+    "name": "Oracle",
+    "chg7d": -2.52,
+    "top": [
+     "LINK",
+     "PYTH",
+     "RED",
+     "WIN",
+     "TRB"
+    ],
+    "tracked": [
+     "LINK",
+     "PYTH",
+     "TRB",
+     "ZKP",
+     "API3",
+     "AT",
+     "BAND"
+    ]
+   },
+   {
     "id": "zero-knowledge-zk",
     "name": "Zero Knowledge ZK",
     "chg7d": -2.73,
@@ -5412,27 +5433,6 @@
     ],
     "tracked": [
      "ZEC"
-    ]
-   },
-   {
-    "id": "oracle",
-    "name": "Oracle",
-    "chg7d": -3.98,
-    "top": [
-     "LINK",
-     "PYTH",
-     "RED",
-     "WIN",
-     "TRB"
-    ],
-    "tracked": [
-     "LINK",
-     "PYTH",
-     "TRB",
-     "ZKP",
-     "API3",
-     "AT",
-     "BAND"
     ]
    },
    {
@@ -5637,7 +5637,7 @@
   "updated": {
    "unlocks": 1792941324,
    "onchain": 1792957223,
-   "sectors": 1792958429,
+   "sectors": 1792959323,
    "listings": 1792957525,
    "fundamentals": 1792941324
   }
@@ -5676,6 +5676,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "d29e23829cff53f69150868d110ef7ebc8cc035ed0ea30d8a86297c8c6334531",
- "generated": "2026-10-25T20:10:25+00:00"
+ "digest": "ece41d9d61bbe6dd17a77d8d8f35eaad3f65ebe34f83cd0f8b12189bd40b4449",
+ "generated": "2026-10-25T20:15:27+00:00"
 }
