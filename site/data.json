@@ -35,59 +35,15 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 7.583,
-   "last_ts": "2026-10-25T12:35:17+00:00",
-   "move_pct": 2.63,
+   "last": 7.611,
+   "last_ts": "2026-10-25T12:41:25+00:00",
+   "move_pct": 2.27,
    "closed": false,
    "rsi": 30.0,
    "trade_on": "Perps 2x",
    "market_reason": "shorts need perps; 2x keeps liquidation 3x+ further away than the stop",
    "chart": "charts/INJ-PERP-1792771200.png",
    "setup": "BOS"
-  },
-  {
-   "id": "PONS-PERP-1792792800",
-   "kind": "TA",
-   "score": 0,
-   "reasons": [
-    "Chart: Broke the 20-hour low on 3.3x volume",
-    "Timeframes: 1d down, 4h down, 4h structure lower highs/lows",
-    "No support below in the last 50 days",
-    "Stop 0.24519 (structure); targets at 1R/2R/3R",
-    "BTC 4h trend flat",
-    "Weaker than BTC by 24.6% over 7d",
-    "OI +2% 24h",
-    "Track record: +3.5R on PONS in the last 45 days (backtest)"
-   ],
-   "coin": "PONS",
-   "market": "PERP",
-   "side": "SHORT",
-   "entry": 0.238,
-   "sl0": 0.24519072213655796,
-   "sl": 0.238,
-   "tps": [
-    0.23080927786344202,
-    0.22361855572688405,
-    0.21642783359032608
-   ],
-   "lev": 2,
-   "funding_pct": 0.005,
-   "status": "tp2",
-   "hits": 2,
-   "opened": "2026-10-23T23:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.2333,
-   "last_ts": "2026-10-25T12:35:17+00:00",
-   "move_pct": 1.97,
-   "closed": false,
-   "rsi": 27.5,
-   "trade_on": "Perps 2x",
-   "market_reason": "shorts need perps; 2x keeps liquidation 3x+ further away than the stop",
-   "chart": "charts/PONS-PERP-1792792800.png",
-   "setup": "BREAKOUT20"
   },
   {
    "id": "CORE-PERP-1792850400",
@@ -115,7 +71,7 @@
     0.013727069924070783
    ],
    "lev": 1,
-   "funding_pct": 0.0041,
+   "funding_pct": 0.0053,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-24T15:00:00+00:00",
@@ -123,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.01728,
-   "last_ts": "2026-10-25T12:35:17+00:00",
-   "move_pct": -0.93,
+   "last": 0.01731,
+   "last_ts": "2026-10-25T12:41:25+00:00",
+   "move_pct": -1.11,
    "closed": false,
    "rsi": 35.3,
    "trade_on": "Perps 1x",
@@ -159,7 +115,7 @@
     0.025107359135744602
    ],
    "lev": 1,
-   "funding_pct": 0.0003,
+   "funding_pct": 0.0016,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-24T16:00:00+00:00",
@@ -167,9 +123,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.02876,
-   "last_ts": "2026-10-25T12:35:17+00:00",
-   "move_pct": 0.28,
+   "last": 0.02899,
+   "last_ts": "2026-10-25T12:41:25+00:00",
+   "move_pct": -0.52,
    "closed": false,
    "rsi": 31.9,
    "trade_on": "Perps 1x",
@@ -211,9 +167,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002604,
-   "last_ts": "2026-10-25T12:35:17+00:00",
-   "move_pct": 0.66,
+   "last": 0.00264,
+   "last_ts": "2026-10-25T12:41:25+00:00",
+   "move_pct": 2.05,
    "closed": false,
    "rsi": 54.2,
    "trade_on": "Perps 1x",
@@ -248,7 +204,7 @@
     0.2295663912705981
    ],
    "lev": 1,
-   "funding_pct": -0.0031,
+   "funding_pct": -0.0025,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-25T09:00:00+00:00",
@@ -256,9 +212,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2503,
-   "last_ts": "2026-10-25T12:35:17+00:00",
-   "move_pct": -0.12,
+   "last": 0.2515,
+   "last_ts": "2026-10-25T12:41:25+00:00",
+   "move_pct": -0.6,
    "closed": false,
    "rsi": 32.8,
    "trade_on": "Perps 1x",
@@ -292,7 +248,7 @@
     0.13080556756015782
    ],
    "lev": 1,
-   "funding_pct": 0.0033,
+   "funding_pct": 0.0047,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-25T11:00:00+00:00",
@@ -300,9 +256,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1496,
-   "last_ts": "2026-10-25T12:35:17+00:00",
-   "move_pct": -0.4,
+   "last": 0.15,
+   "last_ts": "2026-10-25T12:41:25+00:00",
+   "move_pct": -0.67,
    "closed": false,
    "rsi": 35.9,
    "trade_on": "Perps 1x",
@@ -312,6 +268,50 @@
   }
  ],
  "closed": [
+  {
+   "id": "PONS-PERP-1792792800",
+   "kind": "TA",
+   "score": 0,
+   "reasons": [
+    "Chart: Broke the 20-hour low on 3.3x volume",
+    "Timeframes: 1d down, 4h down, 4h structure lower highs/lows",
+    "No support below in the last 50 days",
+    "Stop 0.24519 (structure); targets at 1R/2R/3R",
+    "BTC 4h trend flat",
+    "Weaker than BTC by 24.6% over 7d",
+    "OI +2% 24h",
+    "Track record: +3.5R on PONS in the last 45 days (backtest)"
+   ],
+   "coin": "PONS",
+   "market": "PERP",
+   "side": "SHORT",
+   "entry": 0.238,
+   "sl0": 0.24519072213655796,
+   "sl": 0.238,
+   "tps": [
+    0.23080927786344202,
+    0.22361855572688405,
+    0.21642783359032608
+   ],
+   "lev": 2,
+   "funding_pct": 0.005,
+   "status": "stopped_be",
+   "hits": 2,
+   "opened": "2026-10-23T23:00:00+00:00",
+   "closed_at": "2026-10-25T12:41:25+00:00",
+   "exit_price": 0.238,
+   "result_r": 0.75,
+   "result_pct": 2.27,
+   "last": 0.2382,
+   "last_ts": "2026-10-25T12:41:25+00:00",
+   "move_pct": 1.97,
+   "closed": true,
+   "rsi": 27.5,
+   "trade_on": "Perps 2x",
+   "market_reason": "shorts need perps; 2x keeps liquidation 3x+ further away than the stop",
+   "chart": "charts/PONS-PERP-1792792800.png",
+   "setup": "BREAKOUT20"
+  },
   {
    "id": "CAP-PERP-HOT-20751",
    "kind": "HOT",
@@ -1403,13 +1403,13 @@
  ],
  "stats": {
   "all": {
-   "trades": 26,
-   "wins": 15,
+   "trades": 27,
+   "wins": 16,
    "losses": 11,
-   "win_rate": 57.7,
-   "total_r": 8.84,
-   "avg_r": 0.34,
-   "total_pct": 34.89
+   "win_rate": 59.3,
+   "total_r": 9.59,
+   "avg_r": 0.355,
+   "total_pct": 37.16
   },
   "SPOT": {
    "trades": 8,
@@ -1421,13 +1421,13 @@
    "total_pct": 16.1
   },
   "PERP": {
-   "trades": 15,
-   "wins": 8,
+   "trades": 16,
+   "wins": 9,
    "losses": 7,
-   "win_rate": 53.3,
-   "total_r": 1.86,
-   "avg_r": 0.124,
-   "total_pct": -0.8
+   "win_rate": 56.2,
+   "total_r": 2.61,
+   "avg_r": 0.163,
+   "total_pct": 1.47
   },
   "DEX": {
    "trades": 3,
@@ -1458,13 +1458,13 @@
     "total_pct": 19.59
    },
    "TA": {
-    "trades": 17,
-    "wins": 9,
+    "trades": 18,
+    "wins": 10,
     "losses": 8,
-    "win_rate": 52.9,
-    "total_r": 5.34,
-    "avg_r": 0.314,
-    "total_pct": 9.8
+    "win_rate": 55.6,
+    "total_r": 6.09,
+    "avg_r": 0.339,
+    "total_pct": 12.07
    }
   },
   "coins": {
@@ -1621,6 +1621,15 @@
     "avg_r": -1.0,
     "total_pct": -12.0
    },
+   "PONS": {
+    "trades": 1,
+    "wins": 1,
+    "losses": 0,
+    "win_rate": 100.0,
+    "total_r": 0.75,
+    "avg_r": 0.75,
+    "total_pct": 2.27
+   },
    "SLX": {
     "trades": 1,
     "wins": 1,
@@ -1676,7 +1685,7 @@
     "total_pct": -5.43
    }
   },
-  "open": 7
+  "open": 6
  },
  "backtest": {
   "from": "2026-07-24",
@@ -4953,41 +4962,43 @@
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
   "onchain": [
    {
-    "chain": "BSC",
-    "symbol": "TAG",
-    "name": "Tagger",
-    "token": "0x208bf3e7da9639f1eaefa2de78c23396b0682025",
-    "price": 0.000530146276789783,
-    "liq": 1892085,
-    "vol24h": 6726314,
-    "age_d": 667.7,
-    "chg24h": 18.091,
-    "chg7d": -2.4,
-    "mcap": 57714271.1058348,
-    "safety": "ok",
-    "safety_notes": [],
+    "chain": "Base",
+    "symbol": "ELSA",
+    "name": "Elsa",
+    "token": "0x29cc30f9d113b356ce408667aa6433589cecbdca",
+    "price": 0.0754537603778742,
+    "liq": 503612,
+    "vol24h": 5404210,
+    "age_d": 278.2,
+    "chg24h": 3.989,
+    "chg7d": 19.5,
+    "mcap": 17277402.0518124,
+    "safety": "unknown",
+    "safety_notes": [
+     "safety not checked"
+    ],
     "trigger": false,
     "trend_up": true,
-    "rsi": 52.4,
-    "url": "https://www.geckoterminal.com/bsc/pools/0xf0750c373ebbb3baeef7e03d8300caad1983d67c"
+    "rsi": 58.7,
+    "url": "https://www.geckoterminal.com/base/pools/0x83f3aca29bc79b048b99c56013475570acc97ccf"
    },
    {
     "chain": "BSC",
     "symbol": "B13B",
     "name": "B13B",
     "token": "0x4902c5ebc598265ed2212b559b042de8a5eeec3f",
-    "price": 5.592921107012,
-    "liq": 270090,
-    "vol24h": 3818458,
+    "price": 5.57547891282559,
+    "liq": 274367,
+    "vol24h": 3906069,
     "age_d": 41.0,
-    "chg24h": 3.36,
-    "chg7d": 21.7,
-    "mcap": 35886708.5004156,
+    "chg24h": 3.578,
+    "chg7d": 24.0,
+    "mcap": 35807803.0675856,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": true,
-    "rsi": 54.1,
+    "rsi": 63.7,
     "url": "https://www.geckoterminal.com/bsc/pools/0xb754f10cebf50b8862444cf4d6c1cc31a3b71c18"
    }
   ],
@@ -5577,7 +5588,7 @@
   ],
   "updated": {
    "unlocks": 1792919723,
-   "onchain": 1792928423,
+   "onchain": 1792932021,
    "sectors": 1792931424,
    "listings": 1792931120,
    "fundamentals": 1792919723
@@ -5617,6 +5628,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "003712814646ab021d9f3cae1c216dfafbd25c4eba64f1878ad13e8e40378cec",
- "generated": "2026-10-25T12:35:21+00:00"
+ "digest": "c99e679b798fc86f041c806b9bb71507753c1272c28029149bd9c7b9d6e0a88b",
+ "generated": "2026-10-25T12:41:28+00:00"
 }
