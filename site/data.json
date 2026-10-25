@@ -27,7 +27,7 @@
     6.31391444155267
    ],
    "lev": 2,
-   "funding_pct": -0.003,
+   "funding_pct": -0.0023,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-23T17:00:00+00:00",
@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 7.533,
-   "last_ts": "2026-10-25T10:55:21+00:00",
-   "move_pct": 3.27,
+   "last": 7.548,
+   "last_ts": "2026-10-25T11:00:30+00:00",
+   "move_pct": 3.08,
    "closed": false,
    "rsi": 30.0,
    "trade_on": "Perps 2x",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2233,
-   "last_ts": "2026-10-25T10:55:21+00:00",
-   "move_pct": 6.18,
+   "last": 0.2254,
+   "last_ts": "2026-10-25T11:00:30+00:00",
+   "move_pct": 5.29,
    "closed": false,
    "rsi": 27.5,
    "trade_on": "Perps 2x",
@@ -115,7 +115,7 @@
     0.013727069924070783
    ],
    "lev": 1,
-   "funding_pct": 0.003,
+   "funding_pct": 0.0031,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-24T15:00:00+00:00",
@@ -123,9 +123,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.01706,
-   "last_ts": "2026-10-25T10:55:21+00:00",
-   "move_pct": 0.35,
+   "last": 0.01711,
+   "last_ts": "2026-10-25T11:00:30+00:00",
+   "move_pct": 0.06,
    "closed": false,
    "rsi": 35.3,
    "trade_on": "Perps 1x",
@@ -159,7 +159,7 @@
     0.025107359135744602
    ],
    "lev": 1,
-   "funding_pct": -0.0084,
+   "funding_pct": -0.0077,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-24T16:00:00+00:00",
@@ -167,9 +167,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.02845,
-   "last_ts": "2026-10-25T10:55:21+00:00",
-   "move_pct": 1.35,
+   "last": 0.02868,
+   "last_ts": "2026-10-25T11:00:30+00:00",
+   "move_pct": 0.55,
    "closed": false,
    "rsi": 31.9,
    "trade_on": "Perps 1x",
@@ -207,9 +207,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.09495,
-   "last_ts": "2026-10-25T10:55:21+00:00",
-   "move_pct": 12.65,
+   "last": 0.09509,
+   "last_ts": "2026-10-25T11:00:30+00:00",
+   "move_pct": 12.81,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -251,9 +251,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002542,
-   "last_ts": "2026-10-25T10:55:21+00:00",
-   "move_pct": -1.74,
+   "last": 0.002549,
+   "last_ts": "2026-10-25T11:00:30+00:00",
+   "move_pct": -1.47,
    "closed": false,
    "rsi": 54.2,
    "trade_on": "Perps 1x",
@@ -288,7 +288,7 @@
     0.2295663912705981
    ],
    "lev": 1,
-   "funding_pct": -0.0046,
+   "funding_pct": -0.005,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-25T09:00:00+00:00",
@@ -296,15 +296,59 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2494,
-   "last_ts": "2026-10-25T10:55:21+00:00",
-   "move_pct": 0.24,
+   "last": 0.25,
+   "last_ts": "2026-10-25T11:00:30+00:00",
+   "move_pct": -0.0,
    "closed": false,
    "rsi": 32.8,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": "charts/API3-PERP-1792915200.png",
    "setup": "BOS"
+  },
+  {
+   "id": "BERA-PERP-1792922400",
+   "kind": "TA",
+   "score": 1,
+   "reasons": [
+    "Chart: Broke the 20-hour low on 0.9x volume",
+    "Timeframes: 1d down, 4h down, 4h structure lower highs/lows",
+    "No support below in the last 50 days",
+    "Stop 0.15506 (structure); targets at 1R/2R/3R",
+    "BTC 4h trend down",
+    "Weaker than BTC by 12.0% over 7d",
+    "OI +13% 24h with breakout",
+    "Track record: +1.4R on BERA in the last 45 days (backtest)"
+   ],
+   "coin": "BERA",
+   "market": "PERP",
+   "side": "SHORT",
+   "entry": 0.149,
+   "sl0": 0.15506481081328072,
+   "sl": 0.15506481081328072,
+   "tps": [
+    0.14293518918671927,
+    0.13687037837343854,
+    0.13080556756015782
+   ],
+   "lev": 1,
+   "funding_pct": -0.0034,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-10-25T11:00:00+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.1496,
+   "last_ts": "2026-10-25T11:00:30+00:00",
+   "move_pct": -0.4,
+   "closed": false,
+   "rsi": 35.9,
+   "trade_on": "Perps 1x",
+   "market_reason": "shorts need perps; thin perp market, so 1x",
+   "chart": "charts/BERA-PERP-1792922400.png",
+   "setup": "BREAKOUT20"
   }
  ],
  "closed": [
@@ -1623,7 +1667,7 @@
     "total_pct": -5.43
    }
   },
-  "open": 7
+  "open": 8
  },
  "backtest": {
   "from": "2026-07-24",
@@ -5381,7 +5425,7 @@
    {
     "id": "interoperability",
     "name": "Interoperability",
-    "chg7d": -9.01,
+    "chg7d": -9.06,
     "top": [
      "TRAC",
      "W",
@@ -5563,7 +5607,7 @@
   "updated": {
    "unlocks": 1792919723,
    "onchain": 1792924725,
-   "sectors": 1792925123,
+   "sectors": 1792926029,
    "listings": 1792923623,
    "fundamentals": 1792919723
   }
@@ -5602,6 +5646,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "b01c40efcefb566fcb74b6896ec5fb1b3338c4865f1b2efb626c8f3ee587afaf",
- "generated": "2026-10-25T10:55:26+00:00"
+ "digest": "2ea64b472908d49f8254bc1197bf72cfe31b5eae06a678fa9e186f504bb5a9cd",
+ "generated": "2026-10-25T11:01:14+00:00"
 }
