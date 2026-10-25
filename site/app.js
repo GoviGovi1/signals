@@ -54,7 +54,7 @@
       kv("Move", (s.move_pct == null ? "–" : sg(s.move_pct) + "%"), cls(s.move_pct)) + '</div>' +
       '<div class="grid">' + tps + '</div>' +
       (s.trade_on ? '<p class="tradeon"><b>Trade on: ' + esc(s.trade_on) + '</b>' + (s.market_reason ? ' <span class="muted">— ' + esc(s.market_reason) + '</span>' : "") + '</p>' : "") +
-      (s.chart ? '<a href="' + esc(s.chart) + '" target="_blank" rel="noopener"><img class="sigchart" loading="lazy" src="' + esc(s.chart) + '" alt="' + esc(s.coin) + ' signal chart"></a>' : "") +
+      (s.chart ? '<a href="' + esc(chartUrl(s.chart)) + '" target="_blank" rel="noopener"><img class="sigchart" loading="lazy" src="' + esc(chartUrl(s.chart)) + '" alt="' + esc(s.coin) + ' signal chart"></a>' : "") +
       why(s) + (s.market === "DEX" && s.token ? copyBtn(s.token) : "") +
       '<div class="bottom">' + st + '<span class="chip kind">' + esc(KIND[s.kind] || "Chart breakout") + '</span>' +
       (s.score != null ? '<span class="score ' + cls(s.score) + '">Catalyst ' + sg(s.score, 0) + '</span>' : "") + '<span class="muted lvl" style="margin-left:auto">' + (s.market === "PERP" ? "Price " + px(s.last) + " · " : "") + 'checked ' + ago(s.last_ts) + '</span></div></article>';
@@ -75,7 +75,7 @@
   function renderOpen() {
     var list = data.open.filter(function (s) { return s.market === tab; });
     $("open").innerHTML = list.length ? list.map(openCard).join("") :
-      '<p class="card muted empty">No open ' + (tab === "PERP" ? "perps" : tab === "DEX" ? "on-chain" : "spot") + ' signals right now. New ones appear when a setup forms (checked every 15 minutes).</p>';
+      '<p class="card muted empty">No open ' + (tab === "PERP" ? "perps" : tab === "DEX" ? "on-chain" : "spot") + ' signals right now. New ones appear when a setup forms (checked about every 5 minutes).</p>';
   }
   function renderCat() {
     var c = data.catalysts || {}, h = "";
@@ -195,9 +195,71 @@
       (v.ml_kept === false ? '. The machine-learning score did not beat the rules out-of-sample, so it is off' : "") +
       '. The coin gate row is walk-forward: coins picked on one half, tested on the other. Past results do not predict future ones.</p>';
   }
-  function load() {
-    fetch("data.json?t=" + Date.now()).then(function (r) { return r.json(); }).then(function (d) { data = d; render(); })
-      .catch(function () { $("open").innerHTML = '<p class="muted">Could not load data. Pull to refresh.</p>'; });
+  // GitHub Pages (Fastly) serves data.json with Cache-Control: max-age=600 and ignores
+  // ?t=, so the old fetch stayed up to 10 minutes behind the commit. raw.githubusercontent.com
+  // is the same idea with max-age=300, and ?t= does not bust that cache either.
+  // The git refs API is public, sends CORS *, and is cached for about 60s. A raw URL pinned
+  // to that commit SHA is a cache miss the first time, and the bytes are exactly that commit.
+  var REPO = "GoviGovi1/signals";
+  var REF_URL = "https://api.github.com/repos/" + REPO + "/git/refs/heads/main";
+  var dataSha = "";
+  var apiBlockedUntil = 0;
+  var loadGen = 0;
+  function chartUrl(p) {
+    if (!p) return "";
+    if (/^https?:\/\//i.test(p)) return p;
+    if (!dataSha || /[^A-Za-z0-9._/-]|\.\./.test(p)) return p;
+    return "https://raw.githubusercontent.com/" + REPO + "/" + dataSha + "/site/" + String(p).replace(/^\//, "");
   }
-  load(); setInterval(load, 120000);
+  function fetchJson(url) {
+    return fetch(url, { cache: "no-store" }).then(function (r) {
+      if (!r.ok) {
+        var err = new Error(String(r.status));
+        err.status = r.status;
+        throw err;
+      }
+      return r.json();
+    });
+  }
+  function pack(p, sha) {
+    return p.then(function (d) { return { data: d, sha: sha || "" }; });
+  }
+  function loadRaw(ref) {
+    return pack(fetchJson("https://raw.githubusercontent.com/" + REPO + "/" + ref + "/site/data.json"), ref);
+  }
+  function loadPages() {
+    return pack(fetchJson("data.json?t=" + Date.now()), "");
+  }
+  function loadStale() {
+    return loadRaw("main").catch(function () { return loadPages(); });
+  }
+  function loadFresh() {
+    if (Date.now() < apiBlockedUntil) return loadStale();
+    return fetchJson(REF_URL).then(function (ref) {
+      var sha = ref && ref.object && String(ref.object.sha || "");
+      if (!/^[0-9a-f]{40}$/.test(sha)) throw new Error("sha");
+      return loadRaw(sha);
+    }).catch(function (err) {
+      if (err && (err.status === 403 || err.status === 429)) apiBlockedUntil = Date.now() + 10 * 60 * 1000;
+      return loadStale();
+    });
+  }
+  function load() {
+    var gen = ++loadGen;
+    loadFresh().then(function (got) {
+      if (gen !== loadGen || !got || !got.data) return;
+      var same = data && data.generated && got.data.generated === data.generated && got.sha === dataSha;
+      dataSha = got.sha || "";
+      if (same) return;
+      data = got.data;
+      render();
+    }).catch(function () {
+      if (gen === loadGen && !data) $("open").innerHTML = '<p class="muted">Could not load data. Pull to refresh.</p>';
+    });
+  }
+  load();
+  setInterval(function () { if (document.visibilityState === "visible") load(); }, 60000);
+  document.addEventListener("visibilitychange", function () {
+    if (document.visibilityState === "visible") load();
+  });
 })();
