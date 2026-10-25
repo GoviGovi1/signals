@@ -27,7 +27,7 @@
     6.31391444155267
    ],
    "lev": 2,
-   "funding_pct": 0.0001,
+   "funding_pct": 0.0,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-23T17:00:00+00:00",
@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 7.637,
-   "last_ts": "2026-10-25T11:55:22+00:00",
-   "move_pct": 1.94,
+   "last": 7.65,
+   "last_ts": "2026-10-25T12:00:31+00:00",
+   "move_pct": 1.77,
    "closed": false,
    "rsi": 30.0,
    "trade_on": "Perps 2x",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2333,
-   "last_ts": "2026-10-25T11:55:22+00:00",
-   "move_pct": 1.97,
+   "last": 0.2351,
+   "last_ts": "2026-10-25T12:00:31+00:00",
+   "move_pct": 1.22,
    "closed": false,
    "rsi": 27.5,
    "trade_on": "Perps 2x",
@@ -115,7 +115,7 @@
     0.013727069924070783
    ],
    "lev": 1,
-   "funding_pct": 0.0063,
+   "funding_pct": 0.0071,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-24T15:00:00+00:00",
@@ -123,9 +123,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.01749,
-   "last_ts": "2026-10-25T11:55:22+00:00",
-   "move_pct": -2.16,
+   "last": 0.0175,
+   "last_ts": "2026-10-25T12:00:31+00:00",
+   "move_pct": -2.22,
    "closed": false,
    "rsi": 35.3,
    "trade_on": "Perps 1x",
@@ -159,7 +159,7 @@
     0.025107359135744602
    ],
    "lev": 1,
-   "funding_pct": -0.0005,
+   "funding_pct": 0.0,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-24T16:00:00+00:00",
@@ -167,9 +167,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.02923,
-   "last_ts": "2026-10-25T11:55:22+00:00",
-   "move_pct": -1.35,
+   "last": 0.02916,
+   "last_ts": "2026-10-25T12:00:31+00:00",
+   "move_pct": -1.11,
    "closed": false,
    "rsi": 31.9,
    "trade_on": "Perps 1x",
@@ -211,9 +211,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002609,
-   "last_ts": "2026-10-25T11:55:22+00:00",
-   "move_pct": 0.85,
+   "last": 0.002605,
+   "last_ts": "2026-10-25T12:00:31+00:00",
+   "move_pct": 0.7,
    "closed": false,
    "rsi": 54.2,
    "trade_on": "Perps 1x",
@@ -248,7 +248,7 @@
     0.2295663912705981
    ],
    "lev": 1,
-   "funding_pct": 0.0021,
+   "funding_pct": 0.003,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-25T09:00:00+00:00",
@@ -256,9 +256,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2514,
-   "last_ts": "2026-10-25T11:55:22+00:00",
-   "move_pct": -0.56,
+   "last": 0.2512,
+   "last_ts": "2026-10-25T12:00:31+00:00",
+   "move_pct": -0.48,
    "closed": false,
    "rsi": 32.8,
    "trade_on": "Perps 1x",
@@ -292,7 +292,7 @@
     0.13080556756015782
    ],
    "lev": 1,
-   "funding_pct": 0.0029,
+   "funding_pct": 0.0037,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-25T11:00:00+00:00",
@@ -300,9 +300,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1502,
-   "last_ts": "2026-10-25T11:55:22+00:00",
-   "move_pct": -0.81,
+   "last": 0.1504,
+   "last_ts": "2026-10-25T12:00:31+00:00",
+   "move_pct": -0.94,
    "closed": false,
    "rsi": 35.9,
    "trade_on": "Perps 1x",
@@ -5246,6 +5246,28 @@
     ]
    },
    {
+    "id": "solana-meme-coins",
+    "name": "Solana Meme Coins",
+    "chg7d": -3.88,
+    "top": [
+     "TRUMP",
+     "PENGU",
+     "BONK",
+     "WIF",
+     "USELESS"
+    ],
+    "tracked": [
+     "TRUMP",
+     "USELESS",
+     "PENGU",
+     "FARTCOIN",
+     "BONK",
+     "WIF",
+     "MEW",
+     "MOODENG"
+    ]
+   },
+   {
     "id": "oracle",
     "name": "Oracle",
     "chg7d": -4.14,
@@ -5286,28 +5308,6 @@
      "AXS",
      "APE",
      "ONE"
-    ]
-   },
-   {
-    "id": "solana-meme-coins",
-    "name": "Solana Meme Coins",
-    "chg7d": -4.26,
-    "top": [
-     "PENGU",
-     "TRUMP",
-     "BONK",
-     "USELESS",
-     "WIF"
-    ],
-    "tracked": [
-     "TRUMP",
-     "USELESS",
-     "PENGU",
-     "FARTCOIN",
-     "BONK",
-     "WIF",
-     "MEW",
-     "MOODENG"
     ]
    },
    {
@@ -5578,7 +5578,7 @@
   "updated": {
    "unlocks": 1792919723,
    "onchain": 1792928423,
-   "sectors": 1792928722,
+   "sectors": 1792929631,
    "listings": 1792927225,
    "fundamentals": 1792919723
   }
@@ -5617,6 +5617,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "c85830987b77231d0acde45f00b17a0c4b3eab71f4b2dc706dafb3224971e547",
- "generated": "2026-10-25T11:55:25+00:00"
+ "digest": "9e9918fbe2d0e21f6a7b0ae45495ae203e0d3def1d024786a5a37a97fbd8d36f",
+ "generated": "2026-10-25T12:01:08+00:00"
 }
