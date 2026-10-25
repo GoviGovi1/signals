@@ -35,7 +35,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.01744,
-   "last_ts": "2026-10-25T20:41:27+00:00",
+   "last_ts": "2026-10-25T20:45:26+00:00",
    "move_pct": -1.87,
    "closed": false,
    "rsi": 35.3,
@@ -70,7 +70,7 @@
     0.025107359135744602
    ],
    "lev": 1,
-   "funding_pct": -0.0037,
+   "funding_pct": -0.0051,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-24T16:00:00+00:00",
@@ -78,9 +78,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0289,
-   "last_ts": "2026-10-25T20:41:27+00:00",
-   "move_pct": -0.21,
+   "last": 0.02886,
+   "last_ts": "2026-10-25T20:45:26+00:00",
+   "move_pct": -0.07,
    "closed": false,
    "rsi": 31.9,
    "trade_on": "Perps 1x",
@@ -122,9 +122,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.00263,
-   "last_ts": "2026-10-25T20:41:27+00:00",
-   "move_pct": 1.66,
+   "last": 0.002625,
+   "last_ts": "2026-10-25T20:45:26+00:00",
+   "move_pct": 1.47,
    "closed": false,
    "rsi": 54.2,
    "trade_on": "Perps 1x",
@@ -166,9 +166,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1515,
-   "last_ts": "2026-10-25T20:41:27+00:00",
-   "move_pct": -1.68,
+   "last": 0.1513,
+   "last_ts": "2026-10-25T20:45:26+00:00",
+   "move_pct": -1.54,
    "closed": false,
    "rsi": 35.9,
    "trade_on": "Perps 1x",
@@ -211,9 +211,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.7026,
-   "last_ts": "2026-10-25T20:41:27+00:00",
-   "move_pct": -0.52,
+   "last": 0.7027,
+   "last_ts": "2026-10-25T20:45:26+00:00",
+   "move_pct": -0.53,
    "closed": false,
    "rsi": 42.7,
    "trade_on": "Perps 1x",
@@ -5332,6 +5332,28 @@
     ]
    },
    {
+    "id": "depin",
+    "name": "DePIN",
+    "chg7d": -1.95,
+    "top": [
+     "TAO",
+     "RENDER",
+     "FIL",
+     "BDX",
+     "GRASS"
+    ],
+    "tracked": [
+     "FIL",
+     "TAO",
+     "GRASS",
+     "RENDER",
+     "AR",
+     "LPT",
+     "ACU",
+     "GLM"
+    ]
+   },
+   {
     "id": "ai-agents",
     "name": "AI Agents",
     "chg7d": -2.08,
@@ -5373,28 +5395,6 @@
      "DATA",
      "VVV",
      "ICP"
-    ]
-   },
-   {
-    "id": "depin",
-    "name": "DePIN",
-    "chg7d": -2.41,
-    "top": [
-     "TAO",
-     "RENDER",
-     "FIL",
-     "BDX",
-     "GRASS"
-    ],
-    "tracked": [
-     "FIL",
-     "TAO",
-     "GRASS",
-     "RENDER",
-     "AR",
-     "LPT",
-     "ACU",
-     "GLM"
     ]
    },
    {
@@ -5635,8 +5635,8 @@
   "updated": {
    "unlocks": 1792941324,
    "onchain": 1792960823,
-   "sectors": 1792960227,
-   "listings": 1792957525,
+   "sectors": 1792961126,
+   "listings": 1792961126,
    "fundamentals": 1792941324
   }
  },
@@ -5674,6 +5674,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "cd84443e6ca7e802d83575eae96861e4c8d268ee758e710a405aef0178c145e1",
- "generated": "2026-10-25T20:41:31+00:00"
+ "digest": "07aa024343e9bc9eceb9bb4833f7cbab36709e0a40f600c34aed96aad2a8ddbc",
+ "generated": "2026-10-25T20:45:30+00:00"
 }
