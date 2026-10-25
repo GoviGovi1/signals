@@ -27,7 +27,7 @@
     6.31391444155267
    ],
    "lev": 2,
-   "funding_pct": -0.0018,
+   "funding_pct": -0.002,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-23T17:00:00+00:00",
@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 7.616,
-   "last_ts": "2026-10-25T13:25:21+00:00",
-   "move_pct": 2.21,
+   "last": 7.646,
+   "last_ts": "2026-10-25T13:30:25+00:00",
+   "move_pct": 1.82,
    "closed": false,
    "rsi": 30.0,
    "trade_on": "Perps 2x",
@@ -71,7 +71,7 @@
     0.013727069924070783
    ],
    "lev": 1,
-   "funding_pct": 0.007,
+   "funding_pct": 0.0076,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-24T15:00:00+00:00",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0172,
-   "last_ts": "2026-10-25T13:25:21+00:00",
-   "move_pct": -0.47,
+   "last": 0.01716,
+   "last_ts": "2026-10-25T13:30:25+00:00",
+   "move_pct": -0.23,
    "closed": false,
    "rsi": 35.3,
    "trade_on": "Perps 1x",
@@ -123,9 +123,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.02902,
-   "last_ts": "2026-10-25T13:25:21+00:00",
-   "move_pct": -0.62,
+   "last": 0.029,
+   "last_ts": "2026-10-25T13:30:25+00:00",
+   "move_pct": -0.55,
    "closed": false,
    "rsi": 31.9,
    "trade_on": "Perps 1x",
@@ -167,9 +167,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002628,
-   "last_ts": "2026-10-25T13:25:21+00:00",
-   "move_pct": 1.58,
+   "last": 0.00263,
+   "last_ts": "2026-10-25T13:30:25+00:00",
+   "move_pct": 1.66,
    "closed": false,
    "rsi": 54.2,
    "trade_on": "Perps 1x",
@@ -204,7 +204,7 @@
     0.2295663912705981
    ],
    "lev": 1,
-   "funding_pct": 0.0004,
+   "funding_pct": -0.0004,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-25T09:00:00+00:00",
@@ -213,7 +213,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.2513,
-   "last_ts": "2026-10-25T13:25:21+00:00",
+   "last_ts": "2026-10-25T13:30:25+00:00",
    "move_pct": -0.52,
    "closed": false,
    "rsi": 32.8,
@@ -248,7 +248,7 @@
     0.13080556756015782
    ],
    "lev": 1,
-   "funding_pct": -0.0008,
+   "funding_pct": -0.0031,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-25T11:00:00+00:00",
@@ -256,9 +256,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1512,
-   "last_ts": "2026-10-25T13:25:21+00:00",
-   "move_pct": -1.48,
+   "last": 0.1506,
+   "last_ts": "2026-10-25T13:30:25+00:00",
+   "move_pct": -1.07,
    "closed": false,
    "rsi": 35.9,
    "trade_on": "Perps 1x",
@@ -5322,28 +5322,6 @@
     ]
    },
    {
-    "id": "ai-agents",
-    "name": "AI Agents",
-    "chg7d": -5.27,
-    "top": [
-     "VVV",
-     "FET",
-     "VIRTUAL",
-     "KITE",
-     "TRAC"
-    ],
-    "tracked": [
-     "VVV",
-     "MAGIC",
-     "VIRTUAL",
-     "AEON",
-     "FET",
-     "PIPPIN",
-     "AIXBT",
-     "KITE"
-    ]
-   },
-   {
     "id": "zero-knowledge-zk",
     "name": "Zero Knowledge ZK",
     "chg7d": -5.28,
@@ -5402,6 +5380,28 @@
      "DATA",
      "VVV",
      "ICP"
+    ]
+   },
+   {
+    "id": "ai-agents",
+    "name": "AI Agents",
+    "chg7d": -6.19,
+    "top": [
+     "VVV",
+     "VIRTUAL",
+     "FET",
+     "KITE",
+     "TRAC"
+    ],
+    "tracked": [
+     "VVV",
+     "MAGIC",
+     "VIRTUAL",
+     "AEON",
+     "FET",
+     "PROMPT",
+     "PIPPIN",
+     "AIXBT"
     ]
    },
    {
@@ -5589,7 +5589,7 @@
   "updated": {
    "unlocks": 1792919723,
    "onchain": 1792932021,
-   "sectors": 1792934124,
+   "sectors": 1792935024,
    "listings": 1792934721,
    "fundamentals": 1792919723
   }
@@ -5628,6 +5628,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "a4cc7472745e4174d3a68af3765e997e827eed075ada6793a936ba4b4f49018d",
- "generated": "2026-10-25T13:25:24+00:00"
+ "digest": "231d5fce8a4d191a77c7144600e46da14c1d1dfb8d8c8e3ad27e7d7da3029a88",
+ "generated": "2026-10-25T13:30:28+00:00"
 }
