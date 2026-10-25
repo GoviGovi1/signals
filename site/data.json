@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.01754,
-   "last_ts": "2026-10-25T22:55:19+00:00",
-   "move_pct": -2.45,
+   "last": 0.01751,
+   "last_ts": "2026-10-25T23:00:32+00:00",
+   "move_pct": -2.28,
    "closed": false,
    "rsi": 35.3,
    "trade_on": "Perps 1x",
@@ -70,7 +70,7 @@
     0.025107359135744602
    ],
    "lev": 1,
-   "funding_pct": -0.0034,
+   "funding_pct": -0.0052,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-24T16:00:00+00:00",
@@ -79,7 +79,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.02889,
-   "last_ts": "2026-10-25T22:55:19+00:00",
+   "last_ts": "2026-10-25T23:00:32+00:00",
    "move_pct": -0.17,
    "closed": false,
    "rsi": 31.9,
@@ -122,9 +122,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002607,
-   "last_ts": "2026-10-25T22:55:19+00:00",
-   "move_pct": 0.77,
+   "last": 0.002603,
+   "last_ts": "2026-10-25T23:00:32+00:00",
+   "move_pct": 0.62,
    "closed": false,
    "rsi": 54.2,
    "trade_on": "Perps 1x",
@@ -158,7 +158,7 @@
     0.13080556756015782
    ],
    "lev": 1,
-   "funding_pct": -0.0063,
+   "funding_pct": -0.0082,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-25T11:00:00+00:00",
@@ -166,9 +166,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1516,
-   "last_ts": "2026-10-25T22:55:19+00:00",
-   "move_pct": -1.74,
+   "last": 0.1513,
+   "last_ts": "2026-10-25T23:00:32+00:00",
+   "move_pct": -1.54,
    "closed": false,
    "rsi": 35.9,
    "trade_on": "Perps 1x",
@@ -211,9 +211,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.7034,
-   "last_ts": "2026-10-25T22:55:19+00:00",
-   "move_pct": -0.63,
+   "last": 0.7031,
+   "last_ts": "2026-10-25T23:00:32+00:00",
+   "move_pct": -0.59,
    "closed": false,
    "rsi": 42.7,
    "trade_on": "Perps 1x",
@@ -5054,28 +5054,6 @@
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
-    "id": "meme-token",
-    "name": "Meme Token",
-    "chg7d": 0.56,
-    "top": [
-     "DOGE",
-     "SHIB",
-     "M",
-     "PUMP",
-     "PEPE"
-    ],
-    "tracked": [
-     "DOGE",
-     "PEPE",
-     "PUMP",
-     "TRUMP",
-     "USELESS",
-     "PENGU",
-     "SHIB",
-     "FARTCOIN"
-    ]
-   },
-   {
     "id": "exchange-based-tokens",
     "name": "Exchange Based Tokens",
     "chg7d": 0.01,
@@ -5117,6 +5095,28 @@
      "PLUME",
      "RSR",
      "CARDS"
+    ]
+   },
+   {
+    "id": "meme-token",
+    "name": "Meme Token",
+    "chg7d": -0.06,
+    "top": [
+     "DOGE",
+     "SHIB",
+     "M",
+     "PUMP",
+     "PEPE"
+    ],
+    "tracked": [
+     "DOGE",
+     "PEPE",
+     "PUMP",
+     "TRUMP",
+     "USELESS",
+     "PENGU",
+     "SHIB",
+     "FARTCOIN"
     ]
    },
    {
@@ -5637,7 +5637,7 @@
   "updated": {
    "unlocks": 1792963224,
    "onchain": 1792968026,
-   "sectors": 1792968324,
+   "sectors": 1792969232,
    "listings": 1792968624,
    "fundamentals": 1792963224
   }
@@ -5676,6 +5676,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "079ff9148e3a17e26552bae6e0edaa37cb7573abd98638652216b5afa14baec2",
- "generated": "2026-10-25T22:55:22+00:00"
+ "digest": "a8f78994b604eb6cf1669c38c59de2457d67955e242fe4063dc586ea48202c74",
+ "generated": "2026-10-25T23:01:00+00:00"
 }
