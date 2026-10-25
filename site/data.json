@@ -27,7 +27,7 @@
     6.31391444155267
    ],
    "lev": 2,
-   "funding_pct": -0.0129,
+   "funding_pct": -0.0127,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-23T17:00:00+00:00",
@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 7.676,
-   "last_ts": "2026-10-25T04:55:24+00:00",
-   "move_pct": 1.44,
+   "last": 7.668,
+   "last_ts": "2026-10-25T05:00:29+00:00",
+   "move_pct": 1.54,
    "closed": false,
    "rsi": 30.0,
    "trade_on": "Perps 2x",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.231,
-   "last_ts": "2026-10-25T04:55:24+00:00",
-   "move_pct": 2.94,
+   "last": 0.23,
+   "last_ts": "2026-10-25T05:00:29+00:00",
+   "move_pct": 3.36,
    "closed": false,
    "rsi": 27.5,
    "trade_on": "Perps 2x",
@@ -123,9 +123,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.01786,
-   "last_ts": "2026-10-25T04:55:24+00:00",
-   "move_pct": -4.32,
+   "last": 0.01785,
+   "last_ts": "2026-10-25T05:00:29+00:00",
+   "move_pct": -4.26,
    "closed": false,
    "rsi": 35.3,
    "trade_on": "Perps 1x",
@@ -167,9 +167,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.02925,
-   "last_ts": "2026-10-25T04:55:24+00:00",
-   "move_pct": -1.42,
+   "last": 0.02927,
+   "last_ts": "2026-10-25T05:00:29+00:00",
+   "move_pct": -1.49,
    "closed": false,
    "rsi": 31.9,
    "trade_on": "Perps 1x",
@@ -207,9 +207,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.08303,
-   "last_ts": "2026-10-25T04:55:24+00:00",
-   "move_pct": -1.49,
+   "last": 0.08329,
+   "last_ts": "2026-10-25T05:00:29+00:00",
+   "move_pct": -1.19,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -247,15 +247,59 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1608,
-   "last_ts": "2026-10-25T04:55:24+00:00",
-   "move_pct": -3.42,
+   "last": 0.16053,
+   "last_ts": "2026-10-25T05:00:29+00:00",
+   "move_pct": -3.59,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
    "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
    "chart": "charts/INIT-PERP-HOT-20751.png",
    "setup": "HOT24"
+  },
+  {
+   "id": "TRIA-PERP-1792900800",
+   "kind": "TA",
+   "score": 0,
+   "reasons": [
+    "Chart: Break of structure: closed above the last swing high 0.002573, after a higher low",
+    "Timeframes: 1d down, 4h down, 4h structure higher highs/lows",
+    "Next resistance 0.002755 (2.4R away, 4h swing/swing/volume node)",
+    "Stop 0.0025157 (structure); targets at the next 3 level(s)",
+    "BTC 4h trend down",
+    "Stronger than BTC by 2.2% over 7d",
+    "OI +2% 24h",
+    "Track record: +1.4R on TRIA in the last 45 days (backtest)"
+   ],
+   "coin": "TRIA",
+   "market": "PERP",
+   "side": "LONG",
+   "entry": 0.002587,
+   "sl0": 0.0025157370227905525,
+   "sl": 0.0025157370227905525,
+   "tps": [
+    0.0027474487861093287,
+    0.0028369987861093285,
+    0.0028959554037563872
+   ],
+   "lev": 1,
+   "funding_pct": 0.005,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-10-25T05:00:00+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.002589,
+   "last_ts": "2026-10-25T05:00:29+00:00",
+   "move_pct": 0.08,
+   "closed": false,
+   "rsi": 54.2,
+   "trade_on": "Perps 1x",
+   "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
+   "chart": "charts/TRIA-PERP-1792900800.png",
+   "setup": "BOS"
   }
  ],
  "closed": [
@@ -1525,7 +1569,7 @@
     "total_pct": -5.43
    }
   },
-  "open": 6
+  "open": 7
  },
  "backtest": {
   "from": "2026-07-24",
@@ -5025,7 +5069,7 @@
    {
     "id": "gaming",
     "name": "Gaming",
-    "chg7d": -3.16,
+    "chg7d": -3.19,
     "top": [
      "FLOKI",
      "AXS",
@@ -5419,7 +5463,7 @@
   "updated": {
    "unlocks": 1792897824,
    "onchain": 1792903222,
-   "sectors": 1792903522,
+   "sectors": 1792904429,
    "listings": 1792901119,
    "fundamentals": 1792897825
   }
@@ -5458,6 +5502,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "09fc22877885f479f37b3f7f2e01213304fae07968766ce0f4dc30c5dfbf9f39",
- "generated": "2026-10-25T04:55:28+00:00"
+ "digest": "3b4cb7777ca97d7540fc8152a565f56ae4d92dcd98834a0efb86fcdb4324346b",
+ "generated": "2026-10-25T05:01:01+00:00"
 }
