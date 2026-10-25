@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.01763,
-   "last_ts": "2026-10-25T17:41:25+00:00",
-   "move_pct": -2.98,
+   "last": 0.01765,
+   "last_ts": "2026-10-25T17:45:24+00:00",
+   "move_pct": -3.1,
    "closed": false,
    "rsi": 35.3,
    "trade_on": "Perps 1x",
@@ -70,7 +70,7 @@
     0.025107359135744602
    ],
    "lev": 1,
-   "funding_pct": -0.0008,
+   "funding_pct": -0.0001,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-24T16:00:00+00:00",
@@ -78,9 +78,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.02918,
-   "last_ts": "2026-10-25T17:41:25+00:00",
-   "move_pct": -1.18,
+   "last": 0.02923,
+   "last_ts": "2026-10-25T17:45:24+00:00",
+   "move_pct": -1.35,
    "closed": false,
    "rsi": 31.9,
    "trade_on": "Perps 1x",
@@ -122,9 +122,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002658,
-   "last_ts": "2026-10-25T17:41:25+00:00",
-   "move_pct": 2.74,
+   "last": 0.00266,
+   "last_ts": "2026-10-25T17:45:24+00:00",
+   "move_pct": 2.82,
    "closed": false,
    "rsi": 54.2,
    "trade_on": "Perps 1x",
@@ -158,7 +158,7 @@
     0.13080556756015782
    ],
    "lev": 1,
-   "funding_pct": -0.0075,
+   "funding_pct": -0.0067,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-25T11:00:00+00:00",
@@ -166,9 +166,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1519,
-   "last_ts": "2026-10-25T17:41:25+00:00",
-   "move_pct": -1.95,
+   "last": 0.1524,
+   "last_ts": "2026-10-25T17:45:24+00:00",
+   "move_pct": -2.28,
    "closed": false,
    "rsi": 35.9,
    "trade_on": "Perps 1x",
@@ -5155,6 +5155,28 @@
     ]
    },
    {
+    "id": "layer-2",
+    "name": "Layer 2",
+    "chg7d": -1.85,
+    "top": [
+     "OKB",
+     "MNT",
+     "ARB",
+     "POL",
+     "STX"
+    ],
+    "tracked": [
+     "ORDER",
+     "STRK",
+     "ARB",
+     "OKB",
+     "KAT",
+     "OP",
+     "ZORA",
+     "SOON"
+    ]
+   },
+   {
     "id": "depin",
     "name": "DePIN",
     "chg7d": -2.41,
@@ -5337,28 +5359,6 @@
      "FIL",
      "AR",
      "WAL"
-    ]
-   },
-   {
-    "id": "layer-2",
-    "name": "Layer 2",
-    "chg7d": -4.22,
-    "top": [
-     "OKB",
-     "MNT",
-     "ARB",
-     "POL",
-     "STX"
-    ],
-    "tracked": [
-     "ORDER",
-     "STRK",
-     "ARB",
-     "OKB",
-     "KAT",
-     "OP",
-     "ZORA",
-     "SOON"
     ]
    },
    {
@@ -5590,7 +5590,7 @@
   "updated": {
    "unlocks": 1792941324,
    "onchain": 1792950022,
-   "sectors": 1792949428,
+   "sectors": 1792950324,
    "listings": 1792949720,
    "fundamentals": 1792941324
   }
@@ -5629,6 +5629,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "48826bc4aad16fd67ab5febdacf27a139ead226a028eead6ca5c28cafaf39654",
- "generated": "2026-10-25T17:41:29+00:00"
+ "digest": "a6384ce91bd92f14d8df2c7f06fe19f0cb7a1942eb2620bba5f8ac2294c47a29",
+ "generated": "2026-10-25T17:45:28+00:00"
 }
