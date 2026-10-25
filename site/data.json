@@ -27,7 +27,7 @@
     6.31391444155267
    ],
    "lev": 2,
-   "funding_pct": -0.0124,
+   "funding_pct": -0.0119,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-23T17:00:00+00:00",
@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 7.675,
-   "last_ts": "2026-10-25T05:10:29+00:00",
-   "move_pct": 1.45,
+   "last": 7.697,
+   "last_ts": "2026-10-25T05:15:20+00:00",
+   "move_pct": 1.17,
    "closed": false,
    "rsi": 30.0,
    "trade_on": "Perps 2x",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2298,
-   "last_ts": "2026-10-25T05:10:29+00:00",
-   "move_pct": 3.45,
+   "last": 0.2296,
+   "last_ts": "2026-10-25T05:15:20+00:00",
+   "move_pct": 3.53,
    "closed": false,
    "rsi": 27.5,
    "trade_on": "Perps 2x",
@@ -123,9 +123,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0178,
-   "last_ts": "2026-10-25T05:10:29+00:00",
-   "move_pct": -3.97,
+   "last": 0.01776,
+   "last_ts": "2026-10-25T05:15:20+00:00",
+   "move_pct": -3.74,
    "closed": false,
    "rsi": 35.3,
    "trade_on": "Perps 1x",
@@ -167,9 +167,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.02919,
-   "last_ts": "2026-10-25T05:10:29+00:00",
-   "move_pct": -1.21,
+   "last": 0.02918,
+   "last_ts": "2026-10-25T05:15:20+00:00",
+   "move_pct": -1.18,
    "closed": false,
    "rsi": 31.9,
    "trade_on": "Perps 1x",
@@ -207,54 +207,14 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.08452,
-   "last_ts": "2026-10-25T05:10:29+00:00",
-   "move_pct": 0.27,
+   "last": 0.08488,
+   "last_ts": "2026-10-25T05:15:20+00:00",
+   "move_pct": 0.7,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
    "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
    "chart": "charts/CAP-PERP-HOT-20751.png",
-   "setup": "HOT24"
-  },
-  {
-   "id": "INIT-PERP-HOT-20751",
-   "kind": "HOT",
-   "score": 291.96,
-   "reasons": [
-    "24h hot mover +21% with volume spike (2.0x the prior 3 days)",
-    "24h volume $9.2M on the OKX perp book, listed 549 days",
-    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
-    "Stop 0.15591 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
-   ],
-   "coin": "INIT",
-   "market": "PERP",
-   "side": "LONG",
-   "entry": 0.1665,
-   "sl0": 0.15591444466798215,
-   "sl": 0.15591444466798215,
-   "tps": [
-    0.17708555533201786,
-    0.18767111066403575,
-    0.1982566659960536
-   ],
-   "lev": 1,
-   "funding_pct": 0.005,
-   "status": "open",
-   "hits": 0,
-   "opened": "2026-10-25T03:41:27+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.16015,
-   "last_ts": "2026-10-25T05:10:29+00:00",
-   "move_pct": -3.81,
-   "closed": false,
-   "rsi": null,
-   "trade_on": "Perps 1x",
-   "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
-   "chart": "charts/INIT-PERP-HOT-20751.png",
    "setup": "HOT24"
   },
   {
@@ -291,9 +251,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002585,
-   "last_ts": "2026-10-25T05:10:29+00:00",
-   "move_pct": -0.08,
+   "last": 0.002587,
+   "last_ts": "2026-10-25T05:15:20+00:00",
+   "move_pct": 0.0,
    "closed": false,
    "rsi": 54.2,
    "trade_on": "Perps 1x",
@@ -303,6 +263,46 @@
   }
  ],
  "closed": [
+  {
+   "id": "INIT-PERP-HOT-20751",
+   "kind": "HOT",
+   "score": 291.96,
+   "reasons": [
+    "24h hot mover +21% with volume spike (2.0x the prior 3 days)",
+    "24h volume $9.2M on the OKX perp book, listed 549 days",
+    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
+    "Stop 0.15591 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
+   ],
+   "coin": "INIT",
+   "market": "PERP",
+   "side": "LONG",
+   "entry": 0.1665,
+   "sl0": 0.15591444466798215,
+   "sl": 0.15591444466798215,
+   "tps": [
+    0.17708555533201786,
+    0.18767111066403575,
+    0.1982566659960536
+   ],
+   "lev": 1,
+   "funding_pct": 0.005,
+   "status": "stopped",
+   "hits": 0,
+   "opened": "2026-10-25T03:41:27+00:00",
+   "closed_at": "2026-10-25T05:15:20+00:00",
+   "exit_price": 0.15591444466798215,
+   "result_r": -1.0,
+   "result_pct": -6.36,
+   "last": 0.15696,
+   "last_ts": "2026-10-25T05:15:20+00:00",
+   "move_pct": -3.81,
+   "closed": true,
+   "rsi": null,
+   "trade_on": "Perps 1x",
+   "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
+   "chart": "charts/INIT-PERP-HOT-20751.png",
+   "setup": "HOT24"
+  },
   {
    "id": "BASED-SPOT-1792893600",
    "kind": "TA",
@@ -1314,13 +1314,13 @@
  ],
  "stats": {
   "all": {
-   "trades": 24,
+   "trades": 25,
    "wins": 14,
-   "losses": 10,
-   "win_rate": 58.3,
-   "total_r": 7.59,
-   "avg_r": 0.316,
-   "total_pct": 28.6
+   "losses": 11,
+   "win_rate": 56.0,
+   "total_r": 6.59,
+   "avg_r": 0.264,
+   "total_pct": 22.24
   },
   "SPOT": {
    "trades": 8,
@@ -1332,13 +1332,13 @@
    "total_pct": 16.1
   },
   "PERP": {
-   "trades": 13,
+   "trades": 14,
    "wins": 7,
-   "losses": 6,
-   "win_rate": 53.8,
-   "total_r": 0.61,
-   "avg_r": 0.047,
-   "total_pct": -7.09
+   "losses": 7,
+   "win_rate": 50.0,
+   "total_r": -0.39,
+   "avg_r": -0.028,
+   "total_pct": -13.45
   },
   "DEX": {
    "trades": 3,
@@ -1351,13 +1351,13 @@
   },
   "kinds": {
    "HOT": {
-    "trades": 4,
+    "trades": 5,
     "wins": 3,
-    "losses": 1,
-    "win_rate": 75.0,
-    "total_r": 0.25,
-    "avg_r": 0.062,
-    "total_pct": -0.79
+    "losses": 2,
+    "win_rate": 60.0,
+    "total_r": -0.75,
+    "avg_r": -0.15,
+    "total_pct": -7.15
    },
    "ONCHAIN": {
     "trades": 3,
@@ -1459,6 +1459,15 @@
     "total_r": 1.0,
     "avg_r": 1.0,
     "total_pct": 7.64
+   },
+   "INIT": {
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate": 0.0,
+    "total_r": -1.0,
+    "avg_r": -1.0,
+    "total_pct": -6.36
    },
    "IRYS": {
     "trades": 1,
@@ -1569,7 +1578,7 @@
     "total_pct": -5.43
    }
   },
-  "open": 7
+  "open": 6
  },
  "backtest": {
   "from": "2026-07-24",
@@ -5177,6 +5186,28 @@
     ]
    },
    {
+    "id": "oracle",
+    "name": "Oracle",
+    "chg7d": -3.82,
+    "top": [
+     "LINK",
+     "PYTH",
+     "RED",
+     "WIN",
+     "TRB"
+    ],
+    "tracked": [
+     "LINK",
+     "PYTH",
+     "TRB",
+     "ZKP",
+     "API3",
+     "PHA",
+     "AT",
+     "BAND"
+    ]
+   },
+   {
     "id": "zero-knowledge-zk",
     "name": "Zero Knowledge ZK",
     "chg7d": -4.03,
@@ -5196,28 +5227,6 @@
      "ZK",
      "POL",
      "MINA"
-    ]
-   },
-   {
-    "id": "oracle",
-    "name": "Oracle",
-    "chg7d": -4.08,
-    "top": [
-     "LINK",
-     "PYTH",
-     "RED",
-     "WIN",
-     "TRB"
-    ],
-    "tracked": [
-     "LINK",
-     "PYTH",
-     "TRB",
-     "ZKP",
-     "API3",
-     "PHA",
-     "AT",
-     "BAND"
     ]
    },
    {
@@ -5463,7 +5472,7 @@
   "updated": {
    "unlocks": 1792897824,
    "onchain": 1792903222,
-   "sectors": 1792904429,
+   "sectors": 1792905320,
    "listings": 1792904720,
    "fundamentals": 1792897825
   }
@@ -5502,6 +5511,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "38099b9e36fe005a0e432aad3be6f1033eb40aabe2d4ac656ffbb9e7d8d6ebe1",
- "generated": "2026-10-25T05:10:32+00:00"
+ "digest": "03d10af28d982d9b6865feb8ce4f7ef9262a726f0cf57662f89573cb2d9a6693",
+ "generated": "2026-10-25T05:15:24+00:00"
 }
