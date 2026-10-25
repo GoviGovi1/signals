@@ -1,51 +1,6 @@
 {
  "open": [
   {
-   "id": "INJ-PERP-1792771200",
-   "kind": "TA",
-   "score": -1,
-   "reasons": [
-    "Chart: Break of structure: closed below the last swing low 7.8410, after a lower high",
-    "Timeframes: 1d flat, 4h up, 4h structure lower highs/lows",
-    "Next support 6.8260 (3.9R away, 4h swing)",
-    "Stop 8.0324 (2 ATR); targets at the next 2 level(s)",
-    "BTC 4h trend flat",
-    "Weaker than BTC by 10.6% over 7d",
-    "OI +1% 24h",
-    "Sector: Real World Assets RWA +0.0% 7d (leading, #1 of 20)",
-    "Track record: +7.0R on INJ in the last 45 days (backtest)"
-   ],
-   "coin": "INJ",
-   "market": "PERP",
-   "side": "SHORT",
-   "entry": 7.788,
-   "sl0": 8.03241681994306,
-   "sl": 8.03241681994306,
-   "tps": [
-    6.8443312614957295,
-    6.55833126149573,
-    6.31391444155267
-   ],
-   "lev": 2,
-   "funding_pct": -0.0027,
-   "status": "open",
-   "hits": 0,
-   "opened": "2026-10-23T17:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 7.735,
-   "last_ts": "2026-10-25T16:55:31+00:00",
-   "move_pct": 0.68,
-   "closed": false,
-   "rsi": 30.0,
-   "trade_on": "Perps 2x",
-   "market_reason": "shorts need perps; 2x keeps liquidation 3x+ further away than the stop",
-   "chart": "charts/INJ-PERP-1792771200.png",
-   "setup": "BOS"
-  },
-  {
    "id": "CORE-PERP-1792850400",
    "kind": "TA",
    "score": 0,
@@ -79,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.01756,
-   "last_ts": "2026-10-25T16:55:31+00:00",
-   "move_pct": -2.57,
+   "last": 0.01762,
+   "last_ts": "2026-10-25T17:00:30+00:00",
+   "move_pct": -2.92,
    "closed": false,
    "rsi": 35.3,
    "trade_on": "Perps 1x",
@@ -115,7 +70,7 @@
     0.025107359135744602
    ],
    "lev": 1,
-   "funding_pct": -0.0012,
+   "funding_pct": -0.002,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-24T16:00:00+00:00",
@@ -123,9 +78,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.02925,
-   "last_ts": "2026-10-25T16:55:31+00:00",
-   "move_pct": -1.42,
+   "last": 0.02918,
+   "last_ts": "2026-10-25T17:00:30+00:00",
+   "move_pct": -1.18,
    "closed": false,
    "rsi": 31.9,
    "trade_on": "Perps 1x",
@@ -167,9 +122,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002691,
-   "last_ts": "2026-10-25T16:55:31+00:00",
-   "move_pct": 4.02,
+   "last": 0.002671,
+   "last_ts": "2026-10-25T17:00:30+00:00",
+   "move_pct": 3.25,
    "closed": false,
    "rsi": 54.2,
    "trade_on": "Perps 1x",
@@ -204,7 +159,7 @@
     0.2295663912705981
    ],
    "lev": 1,
-   "funding_pct": -0.0019,
+   "funding_pct": -0.0008,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-25T09:00:00+00:00",
@@ -213,7 +168,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.2531,
-   "last_ts": "2026-10-25T16:55:31+00:00",
+   "last_ts": "2026-10-25T17:00:30+00:00",
    "move_pct": -1.24,
    "closed": false,
    "rsi": 32.8,
@@ -248,7 +203,7 @@
     0.13080556756015782
    ],
    "lev": 1,
-   "funding_pct": -0.0139,
+   "funding_pct": -0.0138,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-25T11:00:00+00:00",
@@ -256,9 +211,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1522,
-   "last_ts": "2026-10-25T16:55:31+00:00",
-   "move_pct": -2.15,
+   "last": 0.1521,
+   "last_ts": "2026-10-25T17:00:30+00:00",
+   "move_pct": -2.08,
    "closed": false,
    "rsi": 35.9,
    "trade_on": "Perps 1x",
@@ -268,6 +223,51 @@
   }
  ],
  "closed": [
+  {
+   "id": "INJ-PERP-1792771200",
+   "kind": "TA",
+   "score": -1,
+   "reasons": [
+    "Chart: Break of structure: closed below the last swing low 7.8410, after a lower high",
+    "Timeframes: 1d flat, 4h up, 4h structure lower highs/lows",
+    "Next support 6.8260 (3.9R away, 4h swing)",
+    "Stop 8.0324 (2 ATR); targets at the next 2 level(s)",
+    "BTC 4h trend flat",
+    "Weaker than BTC by 10.6% over 7d",
+    "OI +1% 24h",
+    "Sector: Real World Assets RWA +0.0% 7d (leading, #1 of 20)",
+    "Track record: +7.0R on INJ in the last 45 days (backtest)"
+   ],
+   "coin": "INJ",
+   "market": "PERP",
+   "side": "SHORT",
+   "entry": 7.788,
+   "sl0": 8.03241681994306,
+   "sl": 8.03241681994306,
+   "tps": [
+    6.8443312614957295,
+    6.55833126149573,
+    6.31391444155267
+   ],
+   "lev": 2,
+   "funding_pct": -0.0027,
+   "status": "expired",
+   "hits": 0,
+   "opened": "2026-10-23T17:00:00+00:00",
+   "closed_at": "2026-10-25T17:00:30+00:00",
+   "exit_price": 7.768,
+   "result_r": 0.082,
+   "result_pct": 0.26,
+   "last": 7.768,
+   "last_ts": "2026-10-25T17:00:30+00:00",
+   "move_pct": 0.68,
+   "closed": true,
+   "rsi": 30.0,
+   "trade_on": "Perps 2x",
+   "market_reason": "shorts need perps; 2x keeps liquidation 3x+ further away than the stop",
+   "chart": "charts/INJ-PERP-1792771200.png",
+   "setup": "BOS"
+  },
   {
    "id": "PONS-PERP-1792792800",
    "kind": "TA",
@@ -1403,13 +1403,13 @@
  ],
  "stats": {
   "all": {
-   "trades": 27,
-   "wins": 16,
+   "trades": 28,
+   "wins": 17,
    "losses": 11,
-   "win_rate": 59.3,
-   "total_r": 9.59,
-   "avg_r": 0.355,
-   "total_pct": 37.16
+   "win_rate": 60.7,
+   "total_r": 9.68,
+   "avg_r": 0.346,
+   "total_pct": 37.42
   },
   "SPOT": {
    "trades": 8,
@@ -1421,13 +1421,13 @@
    "total_pct": 16.1
   },
   "PERP": {
-   "trades": 16,
-   "wins": 9,
+   "trades": 17,
+   "wins": 10,
    "losses": 7,
-   "win_rate": 56.2,
-   "total_r": 2.61,
-   "avg_r": 0.163,
-   "total_pct": 1.47
+   "win_rate": 58.8,
+   "total_r": 2.69,
+   "avg_r": 0.158,
+   "total_pct": 1.73
   },
   "DEX": {
    "trades": 3,
@@ -1458,13 +1458,13 @@
     "total_pct": 19.59
    },
    "TA": {
-    "trades": 18,
-    "wins": 10,
+    "trades": 19,
+    "wins": 11,
     "losses": 8,
-    "win_rate": 55.6,
-    "total_r": 6.09,
-    "avg_r": 0.339,
-    "total_pct": 12.07
+    "win_rate": 57.9,
+    "total_r": 6.17,
+    "avg_r": 0.325,
+    "total_pct": 12.33
    }
   },
   "coins": {
@@ -1566,6 +1566,15 @@
     "total_r": -1.0,
     "avg_r": -1.0,
     "total_pct": -6.36
+   },
+   "INJ": {
+    "trades": 1,
+    "wins": 1,
+    "losses": 0,
+    "win_rate": 100.0,
+    "total_r": 0.08,
+    "avg_r": 0.082,
+    "total_pct": 0.26
    },
    "IRYS": {
     "trades": 1,
@@ -1685,7 +1694,7 @@
     "total_pct": -5.43
    }
   },
-  "open": 6
+  "open": 5
  },
  "backtest": {
   "from": "2026-07-24",
@@ -5093,6 +5102,28 @@
     ]
    },
    {
+    "id": "solana-meme-coins",
+    "name": "Solana Meme Coins",
+    "chg7d": -1.71,
+    "top": [
+     "PENGU",
+     "TRUMP",
+     "BONK",
+     "WIF",
+     "USELESS"
+    ],
+    "tracked": [
+     "TRUMP",
+     "USELESS",
+     "PENGU",
+     "FARTCOIN",
+     "BONK",
+     "WIF",
+     "MEW",
+     "MOODENG"
+    ]
+   },
+   {
     "id": "depin",
     "name": "DePIN",
     "chg7d": -2.41,
@@ -5244,28 +5275,6 @@
      "BNB",
      "AVAX",
      "ZEC"
-    ]
-   },
-   {
-    "id": "solana-meme-coins",
-    "name": "Solana Meme Coins",
-    "chg7d": -3.88,
-    "top": [
-     "TRUMP",
-     "PENGU",
-     "BONK",
-     "WIF",
-     "USELESS"
-    ],
-    "tracked": [
-     "TRUMP",
-     "USELESS",
-     "PENGU",
-     "FARTCOIN",
-     "BONK",
-     "WIF",
-     "MEW",
-     "MOODENG"
     ]
    },
    {
@@ -5572,7 +5581,7 @@
   "updated": {
    "unlocks": 1792941324,
    "onchain": 1792946420,
-   "sectors": 1792946724,
+   "sectors": 1792947630,
    "listings": 1792945830,
    "fundamentals": 1792941324
   }
@@ -5611,6 +5620,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "0a4cfbd9f6f629531ba1c365cf788485c03cf0c4cf8341383ca2977eabe1fd75",
- "generated": "2026-10-25T16:55:35+00:00"
+ "digest": "0f9a7eeed093091c58e71fe8ec982b67ffdb7605737cafb05fe9fff71bfc3ff4",
+ "generated": "2026-10-25T17:01:06+00:00"
 }
