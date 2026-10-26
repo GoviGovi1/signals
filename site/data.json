@@ -26,7 +26,7 @@
     0.013727069924070783
    ],
    "lev": 1,
-   "funding_pct": 0.0098,
+   "funding_pct": 0.01,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-24T15:00:00+00:00",
@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.01743,
-   "last_ts": "2026-10-26T08:41:27+00:00",
-   "move_pct": -1.81,
+   "last": 0.01747,
+   "last_ts": "2026-10-26T08:45:26+00:00",
+   "move_pct": -2.04,
    "closed": false,
    "rsi": 35.3,
    "trade_on": "Perps 1x",
@@ -79,7 +79,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.02812,
-   "last_ts": "2026-10-26T08:41:27+00:00",
+   "last_ts": "2026-10-26T08:45:26+00:00",
    "move_pct": 2.5,
    "closed": false,
    "rsi": 31.9,
@@ -122,9 +122,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002627,
-   "last_ts": "2026-10-26T08:41:27+00:00",
-   "move_pct": 1.55,
+   "last": 0.002626,
+   "last_ts": "2026-10-26T08:45:26+00:00",
+   "move_pct": 1.51,
    "closed": false,
    "rsi": 54.2,
    "trade_on": "Perps 1x",
@@ -158,7 +158,7 @@
     0.13080556756015782
    ],
    "lev": 1,
-   "funding_pct": -0.0251,
+   "funding_pct": -0.0254,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-25T11:00:00+00:00",
@@ -166,9 +166,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1502,
-   "last_ts": "2026-10-26T08:41:27+00:00",
-   "move_pct": -0.81,
+   "last": 0.1498,
+   "last_ts": "2026-10-26T08:45:26+00:00",
+   "move_pct": -0.54,
    "closed": false,
    "rsi": 35.9,
    "trade_on": "Perps 1x",
@@ -5529,6 +5529,28 @@
     ]
    },
    {
+    "id": "layer-2",
+    "name": "Layer 2",
+    "chg7d": -5.47,
+    "top": [
+     "OKB",
+     "MNT",
+     "ARB",
+     "POL",
+     "STX"
+    ],
+    "tracked": [
+     "ORDER",
+     "STRK",
+     "ARB",
+     "OKB",
+     "KAT",
+     "OP",
+     "ZORA",
+     "SOON"
+    ]
+   },
+   {
     "id": "layer-1",
     "name": "Layer 1",
     "chg7d": -5.59,
@@ -5548,28 +5570,6 @@
      "BNB",
      "AVAX",
      "ZEC"
-    ]
-   },
-   {
-    "id": "layer-2",
-    "name": "Layer 2",
-    "chg7d": -6.08,
-    "top": [
-     "OKB",
-     "MNT",
-     "ARB",
-     "POL",
-     "STX"
-    ],
-    "tracked": [
-     "ORDER",
-     "STRK",
-     "ARB",
-     "OKB",
-     "KAT",
-     "OP",
-     "ZORA",
-     "SOON"
     ]
    },
    {
@@ -5801,7 +5801,7 @@
   "updated": {
    "unlocks": 1792984824,
    "onchain": 1793004024,
-   "sectors": 1793003434,
+   "sectors": 1793004326,
    "listings": 1793002226,
    "fundamentals": 1792984825
   }
@@ -5840,6 +5840,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "444a66f88cf2c4cd948e08f9af69fb791bf0c2f0eef5aca31ad3409dae9e4287",
- "generated": "2026-10-26T08:41:30+00:00"
+ "digest": "b652ca1c786ff4f0c89d8fcb9d4f6442a44899583554220264dba89aca1da492",
+ "generated": "2026-10-26T08:45:29+00:00"
 }
