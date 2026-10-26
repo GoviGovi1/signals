@@ -1,14 +1,7 @@
 {
- "checked": 90,
+ "checked": 89,
  "errors": [],
  "rejected": [
-  {
-   "chain": "Solana",
-   "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "BTC"
-  },
   {
    "chain": "Solana",
    "fails": [
@@ -30,14 +23,6 @@
     "liquidity under $250k",
     "pool younger than 7 days"
    ],
-   "symbol": "MARVIN"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "liquidity under $250k",
-    "pool younger than 7 days"
-   ],
    "symbol": "LAUNCH"
   },
   {
@@ -46,7 +31,7 @@
     "liquidity under $250k",
     "pool younger than 7 days"
    ],
-   "symbol": "REMUS"
+   "symbol": "MARVIN"
   },
   {
    "chain": "Solana",
@@ -61,14 +46,15 @@
     "liquidity under $250k",
     "pool younger than 7 days"
    ],
-   "symbol": "GME"
+   "symbol": "REMUS"
   },
   {
    "chain": "Solana",
    "fails": [
-    "no DEX candles"
+    "liquidity under $250k",
+    "pool younger than 7 days"
    ],
-   "symbol": "PUMP"
+   "symbol": "GME"
   },
   {
    "chain": "Solana",
@@ -76,6 +62,13 @@
     "liquidity under $250k"
    ],
    "symbol": "GOON"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "no DEX candles"
+   ],
+   "symbol": "PUMP"
   },
   {
    "chain": "Solana",
@@ -110,13 +103,6 @@
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "USELESS"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "no DEX candles"
-   ],
    "symbol": "CATE"
   },
   {
@@ -142,6 +128,14 @@
     "pool younger than 7 days"
    ],
    "symbol": "BUNNETT"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "liquidity under $250k",
+    "pool younger than 7 days"
+   ],
+   "symbol": "\u2588\u2588\u2588"
   },
   {
    "chain": "Base",
@@ -189,6 +183,13 @@
   {
    "chain": "Base",
    "fails": [
+    "no DEX candles"
+   ],
+   "symbol": "ELSA"
+  },
+  {
+   "chain": "Base",
+   "fails": [
     "24h volume under $250k"
    ],
    "symbol": "NOCK"
@@ -226,13 +227,6 @@
   {
    "chain": "Base",
    "fails": [
-    "24h volume under $250k"
-   ],
-   "symbol": "SURPLUS"
-  },
-  {
-   "chain": "Base",
-   "fails": [
     "liquidity under $250k",
     "pool younger than 7 days"
    ],
@@ -243,14 +237,21 @@
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "CTR"
+   "symbol": "POD"
+  },
+  {
+   "chain": "Base",
+   "fails": [
+    "24h volume under $250k"
+   ],
+   "symbol": "SURPLUS"
   },
   {
    "chain": "Base",
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "POD"
+   "symbol": "CTR"
   },
   {
    "chain": "Base",
@@ -271,13 +272,6 @@
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "IRYS"
-  },
-  {
-   "chain": "BSC",
-   "fails": [
-    "no DEX candles"
-   ],
    "symbol": "JCT"
   },
   {
@@ -292,67 +286,74 @@
    "fails": [
     "no DEX candles"
    ],
+   "symbol": "IRYS"
+  },
+  {
+   "chain": "BSC",
+   "fails": [
+    "no DEX candles"
+   ],
    "symbol": "SKYAI"
   }
  ],
  "rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
- "updated": 1792989620,
+ "updated": 1792993224,
  "watchlist": [
   {
-   "age_d": 122.6,
-   "atr": 0.009018481084560992,
-   "bar_ts": 1792983600000,
+   "age_d": 229.0,
+   "atr": 0.0029356839195164527,
+   "bar_ts": 1792987200000,
    "chain": "BSC",
-   "chg24h": 40.39,
-   "chg7d": 49.6,
-   "close": 0.111129609647479,
-   "ema20": 0.10469101076505935,
-   "ema50": 0.09265128592954595,
+   "chg24h": 1.325,
+   "chg7d": 19.4,
+   "close": 0.162508325204959,
+   "ema20": 0.16200206132332443,
+   "ema50": 0.15626202813541631,
    "fails": [],
-   "gecko_id": "cap-4",
-   "liq": 1252759,
-   "mcap": 180105022.968,
-   "name": "Cap",
+   "gecko_id": "unitas",
+   "liq": 1037046,
+   "mcap": 34990949.0422475,
+   "name": "Unitas",
    "net": "bsc",
-   "pool": "0x3bca91b9b847cff6f4b666fa1d966981678975e13fd69d647bd11bed99f5fa14",
-   "price": 0.115451937752246,
-   "rsi": 65.1,
+   "pool": "0x97ef267d87abd28dd5070d485efc7cdd960e1b3045a4e2dc0b2e9abbdc9b1837",
+   "price": 0.161995220272326,
+   "rsi": 54.2,
    "safety": "ok",
    "safety_notes": [],
-   "symbol": "CAP",
-   "token": "0x99991c6aabba5a096f24f250b73580f5179b9999",
+   "symbol": "UP",
+   "token": "0x000008d2175f9aeaddb2430c26f8a6f73c5a0000",
    "trend_up": true,
    "trigger": false,
-   "url": "https://www.geckoterminal.com/bsc/pools/0x3bca91b9b847cff6f4b666fa1d966981678975e13fd69d647bd11bed99f5fa14",
-   "vol24h": 8176439
+   "url": "https://www.geckoterminal.com/bsc/pools/0x97ef267d87abd28dd5070d485efc7cdd960e1b3045a4e2dc0b2e9abbdc9b1837",
+   "vol24h": 9944902
   },
   {
-   "age_d": 278.8,
-   "atr": 0.002324817006441133,
-   "bar_ts": 1792983600000,
-   "chain": "Base",
-   "chg24h": 0.327,
-   "chg7d": 13.9,
-   "close": 0.074561810118223,
-   "ema20": 0.07565834928125487,
-   "ema50": 0.07467510623098372,
+   "age_d": 42.4,
+   "atr": 0.0021665774689868427,
+   "bar_ts": 1792987200000,
+   "chain": "Solana",
+   "chg24h": -31.967,
+   "chg7d": 5202.6,
+   "close": 0.009304382103705464,
+   "ema20": 0.010675387686854727,
+   "ema50": 0.008849516065326246,
    "fails": [],
-   "gecko_id": "elsa",
-   "liq": 507378,
-   "mcap": 17411041.0309664,
-   "name": "Elsa",
-   "net": "base",
-   "pool": "0x83f3aca29bc79b048b99c56013475570acc97ccf",
-   "price": 0.0760373876774461,
-   "rsi": 46.1,
+   "gecko_id": null,
+   "liq": 350679,
+   "mcap": 8746735.522,
+   "name": "Big Titty Coin",
+   "net": "solana",
+   "pool": "3M9sVgL4u6ATKaiExf3XhQqNfMB6ijvzk3meMcQaen1w",
+   "price": 0.008746735522345695,
+   "rsi": 46.0,
    "safety": "ok",
    "safety_notes": [],
-   "symbol": "ELSA",
-   "token": "0x29cc30f9d113b356ce408667aa6433589cecbdca",
-   "trend_up": false,
+   "symbol": "BTC",
+   "token": "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump",
+   "trend_up": true,
    "trigger": false,
-   "url": "https://www.geckoterminal.com/base/pools/0x83f3aca29bc79b048b99c56013475570acc97ccf",
-   "vol24h": 4555438
+   "url": "https://www.geckoterminal.com/solana/pools/3M9sVgL4u6ATKaiExf3XhQqNfMB6ijvzk3meMcQaen1w",
+   "vol24h": 6212992
   }
  ]
 }
