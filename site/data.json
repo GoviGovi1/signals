@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.00279,
-   "last_ts": "2026-10-26T17:55:21+00:00",
-   "move_pct": 7.85,
+   "last": 0.002796,
+   "last_ts": "2026-10-26T18:00:35+00:00",
+   "move_pct": 8.08,
    "closed": false,
    "rsi": 54.2,
    "trade_on": "Perps 1x",
@@ -70,7 +70,7 @@
     0.13080556756015782
    ],
    "lev": 1,
-   "funding_pct": 0.001,
+   "funding_pct": 0.0001,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-25T11:00:00+00:00",
@@ -78,9 +78,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1517,
-   "last_ts": "2026-10-26T17:55:21+00:00",
-   "move_pct": -1.81,
+   "last": 0.1513,
+   "last_ts": "2026-10-26T18:00:35+00:00",
+   "move_pct": -1.54,
    "closed": false,
    "rsi": 35.9,
    "trade_on": "Perps 1x",
@@ -122,15 +122,60 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.07185,
-   "last_ts": "2026-10-26T17:55:21+00:00",
-   "move_pct": 0.0,
+   "last": 0.07181,
+   "last_ts": "2026-10-26T18:00:35+00:00",
+   "move_pct": -0.06,
    "closed": false,
    "rsi": 63.9,
    "trade_on": "Spot",
    "market_reason": "thin perp market: spot is safer",
    "chart": "charts/ZAMA-SPOT-1793023200.png",
    "setup": "RANGE_BREAK"
+  },
+  {
+   "id": "BCH-SPOT-1793034000",
+   "kind": "TA",
+   "score": 0,
+   "reasons": [
+    "Chart: Break of structure: closed above the last swing high 280.86, after a higher low",
+    "Timeframes: 1d down, 4h down, 4h structure higher highs/lows",
+    "Next resistance 295.70 (3.2R away, 4h swing)",
+    "Stop 276.54 (structure); targets at the next 2 level(s)",
+    "BTC 4h trend down",
+    "Stronger than BTC by 3.9% over 7d",
+    "OI +1% 24h",
+    "Sector: Layer 1 -3.9% 7d (middle, #14 of 20)",
+    "Track record: +6.4R on BCH in the last 45 days (backtest)"
+   ],
+   "coin": "BCH",
+   "market": "SPOT",
+   "side": "LONG",
+   "entry": 281.31,
+   "sl0": 276.7501822897654,
+   "sl": 276.7501822897654,
+   "tps": [
+    295.41845413188815,
+    302.2235341745776,
+    306.7833518848122
+   ],
+   "lev": null,
+   "funding_pct": null,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-10-26T18:00:00+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 281.2,
+   "last_ts": "2026-10-26T18:00:35+00:00",
+   "move_pct": -0.04,
+   "closed": false,
+   "rsi": 56.6,
+   "trade_on": "Spot",
+   "market_reason": "trend not strong enough for leverage: spot has no liquidation or funding",
+   "chart": "charts/BCH-SPOT-1793034000.png",
+   "setup": "BOS"
   }
  ],
  "closed": [
@@ -2011,7 +2056,7 @@
     "total_pct": -5.43
    }
   },
-  "open": 3
+  "open": 4
  },
  "backtest": {
   "from": "2026-07-24",
@@ -5343,28 +5388,6 @@
     ]
    },
    {
-    "id": "solana-meme-coins",
-    "name": "Solana Meme Coins",
-    "chg7d": -2.67,
-    "top": [
-     "PENGU",
-     "TRUMP",
-     "BONK",
-     "WIF",
-     "USELESS"
-    ],
-    "tracked": [
-     "TRUMP",
-     "USELESS",
-     "PENGU",
-     "WIF",
-     "MOODENG",
-     "BOME",
-     "MEW",
-     "FARTCOIN"
-    ]
-   },
-   {
     "id": "meme-token",
     "name": "Meme Token",
     "chg7d": -2.77,
@@ -5488,6 +5511,28 @@
      "MORPHO",
      "KMNO",
      "SPK"
+    ]
+   },
+   {
+    "id": "solana-meme-coins",
+    "name": "Solana Meme Coins",
+    "chg7d": -3.28,
+    "top": [
+     "TRUMP",
+     "PENGU",
+     "BONK",
+     "WIF",
+     "USELESS"
+    ],
+    "tracked": [
+     "TRUMP",
+     "USELESS",
+     "PENGU",
+     "WIF",
+     "MOODENG",
+     "BOME",
+     "MEW",
+     "FARTCOIN"
     ]
    },
    {
@@ -5884,7 +5929,7 @@
   "updated": {
    "unlocks": 1793028325,
    "onchain": 1793036425,
-   "sectors": 1793036724,
+   "sectors": 1793037635,
    "listings": 1793035830,
    "fundamentals": 1793028326
   }
@@ -5923,6 +5968,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "f7a96d5a6db80b2a79073715f6dabba79d4161c4662b22bb30c2714151d717f8",
- "generated": "2026-10-26T17:55:24+00:00"
+ "digest": "f21c40d9415a0e57a6ab2d54faae74823b929b79c784d0bf999d5c84accfa98e",
+ "generated": "2026-10-26T18:01:13+00:00"
 }
