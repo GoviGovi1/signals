@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002774,
-   "last_ts": "2026-10-26T18:55:22+00:00",
-   "move_pct": 7.23,
+   "last": 0.002777,
+   "last_ts": "2026-10-26T19:00:34+00:00",
+   "move_pct": 7.34,
    "closed": false,
    "rsi": 54.2,
    "trade_on": "Perps 1x",
@@ -70,7 +70,7 @@
     0.13080556756015782
    ],
    "lev": 1,
-   "funding_pct": -0.0001,
+   "funding_pct": 0.0,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-25T11:00:00+00:00",
@@ -78,9 +78,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1494,
-   "last_ts": "2026-10-26T18:55:22+00:00",
-   "move_pct": -0.27,
+   "last": 0.1493,
+   "last_ts": "2026-10-26T19:00:34+00:00",
+   "move_pct": -0.2,
    "closed": false,
    "rsi": 35.9,
    "trade_on": "Perps 1x",
@@ -122,9 +122,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.07103,
-   "last_ts": "2026-10-26T18:55:22+00:00",
-   "move_pct": -1.14,
+   "last": 0.071,
+   "last_ts": "2026-10-26T19:00:34+00:00",
+   "move_pct": -1.18,
    "closed": false,
    "rsi": 63.9,
    "trade_on": "Spot",
@@ -167,9 +167,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 277.77,
-   "last_ts": "2026-10-26T18:55:22+00:00",
-   "move_pct": -1.26,
+   "last": 277.67,
+   "last_ts": "2026-10-26T19:00:34+00:00",
+   "move_pct": -1.29,
    "closed": false,
    "rsi": 56.6,
    "trade_on": "Spot",
@@ -5347,6 +5347,28 @@
     ]
    },
    {
+    "id": "meme-token",
+    "name": "Meme Token",
+    "chg7d": -0.36,
+    "top": [
+     "DOGE",
+     "SHIB",
+     "M",
+     "PUMP",
+     "PEPE"
+    ],
+    "tracked": [
+     "DOGE",
+     "PEPE",
+     "PUMP",
+     "TRUMP",
+     "USELESS",
+     "PENGU",
+     "AI",
+     "SHIB"
+    ]
+   },
+   {
     "id": "zero-knowledge-zk",
     "name": "Zero Knowledge ZK",
     "chg7d": -1.62,
@@ -5366,28 +5388,6 @@
      "NIGHT",
      "POL",
      "LA"
-    ]
-   },
-   {
-    "id": "meme-token",
-    "name": "Meme Token",
-    "chg7d": -2.77,
-    "top": [
-     "DOGE",
-     "SHIB",
-     "M",
-     "PUMP",
-     "PEPE"
-    ],
-    "tracked": [
-     "DOGE",
-     "PEPE",
-     "PUMP",
-     "TRUMP",
-     "USELESS",
-     "PENGU",
-     "AI",
-     "SHIB"
     ]
    },
    {
@@ -5910,7 +5910,7 @@
   "updated": {
    "unlocks": 1793028325,
    "onchain": 1793040026,
-   "sectors": 1793040326,
+   "sectors": 1793041234,
    "listings": 1793039431,
    "fundamentals": 1793028326
   }
@@ -5949,6 +5949,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "2d88fbd645b6ed13ddd06c09efea724f504b9b5b286cca1fcc6f588b3d58a500",
- "generated": "2026-10-26T18:55:25+00:00"
+ "digest": "399643d1966628df82adbf0e7993d45226917d5974a7ce6947f3eb2ab3da204f",
+ "generated": "2026-10-26T19:01:09+00:00"
 }
