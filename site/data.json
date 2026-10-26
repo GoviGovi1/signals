@@ -26,7 +26,7 @@
     0.025107359135744602
    ],
    "lev": 1,
-   "funding_pct": 0.005,
+   "funding_pct": 0.0048,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-24T16:00:00+00:00",
@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0285,
-   "last_ts": "2026-10-26T15:10:37+00:00",
-   "move_pct": 1.18,
+   "last": 0.02849,
+   "last_ts": "2026-10-26T15:15:23+00:00",
+   "move_pct": 1.21,
    "closed": false,
    "rsi": 31.9,
    "trade_on": "Perps 1x",
@@ -78,9 +78,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002863,
-   "last_ts": "2026-10-26T15:10:37+00:00",
-   "move_pct": 10.67,
+   "last": 0.002846,
+   "last_ts": "2026-10-26T15:15:23+00:00",
+   "move_pct": 10.01,
    "closed": false,
    "rsi": 54.2,
    "trade_on": "Perps 1x",
@@ -114,7 +114,7 @@
     0.13080556756015782
    ],
    "lev": 1,
-   "funding_pct": -0.0041,
+   "funding_pct": -0.0049,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-25T11:00:00+00:00",
@@ -122,9 +122,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.154,
-   "last_ts": "2026-10-26T15:10:37+00:00",
-   "move_pct": -3.36,
+   "last": 0.1531,
+   "last_ts": "2026-10-26T15:15:23+00:00",
+   "move_pct": -2.75,
    "closed": false,
    "rsi": 35.9,
    "trade_on": "Perps 1x",
@@ -166,9 +166,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.07249,
-   "last_ts": "2026-10-26T15:10:37+00:00",
-   "move_pct": 0.89,
+   "last": 0.07255,
+   "last_ts": "2026-10-26T15:15:23+00:00",
+   "move_pct": 0.97,
    "closed": false,
    "rsi": 63.9,
    "trade_on": "Spot",
@@ -5401,6 +5401,28 @@
     ]
    },
    {
+    "id": "decentralized-perpetuals",
+    "name": "Decentralized Perpetuals",
+    "chg7d": -2.8,
+    "top": [
+     "HYPE",
+     "ASTER",
+     "JUP",
+     "LIT",
+     "CAKE"
+    ],
+    "tracked": [
+     "HYPE",
+     "ORDER",
+     "LIT",
+     "GRVT",
+     "ASTER",
+     "RAY",
+     "BASED",
+     "DYDX"
+    ]
+   },
+   {
     "id": "bitcoin-ecosystem",
     "name": "Bitcoin Ecosystem",
     "chg7d": -2.94,
@@ -5583,28 +5605,6 @@
     ],
     "tracked": [
      "ZEC"
-    ]
-   },
-   {
-    "id": "decentralized-perpetuals",
-    "name": "Decentralized Perpetuals",
-    "chg7d": -4.43,
-    "top": [
-     "HYPE",
-     "ASTER",
-     "JUP",
-     "LIT",
-     "CAKE"
-    ],
-    "tracked": [
-     "HYPE",
-     "ORDER",
-     "LIT",
-     "GRVT",
-     "ASTER",
-     "RAY",
-     "BASED",
-     "DYDX"
     ]
    },
    {
@@ -5898,7 +5898,7 @@
   "updated": {
    "unlocks": 1793006426,
    "onchain": 1793025624,
-   "sectors": 1793026832,
+   "sectors": 1793027723,
    "listings": 1793024723,
    "fundamentals": 1793006427
   }
@@ -5937,6 +5937,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "83faa9d596a009786a600217f0d5e1baa6e8376d3859f6b782a0e777aaf8f455",
- "generated": "2026-10-26T15:10:42+00:00"
+ "digest": "9ec7e09606a811f4ab463e9d18db05ee6ddc69552ff56df6ed12bc94a16274c9",
+ "generated": "2026-10-26T15:15:27+00:00"
 }
