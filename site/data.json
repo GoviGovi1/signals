@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002765,
-   "last_ts": "2026-10-26T16:41:27+00:00",
-   "move_pct": 6.88,
+   "last": 0.00277,
+   "last_ts": "2026-10-26T16:45:24+00:00",
+   "move_pct": 7.07,
    "closed": false,
    "rsi": 54.2,
    "trade_on": "Perps 1x",
@@ -78,9 +78,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1504,
-   "last_ts": "2026-10-26T16:41:27+00:00",
-   "move_pct": -0.94,
+   "last": 0.1505,
+   "last_ts": "2026-10-26T16:45:24+00:00",
+   "move_pct": -1.01,
    "closed": false,
    "rsi": 35.9,
    "trade_on": "Perps 1x",
@@ -122,9 +122,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.07107,
-   "last_ts": "2026-10-26T16:41:27+00:00",
-   "move_pct": -1.09,
+   "last": 0.07117,
+   "last_ts": "2026-10-26T16:45:24+00:00",
+   "move_pct": -0.95,
    "closed": false,
    "rsi": 63.9,
    "trade_on": "Spot",
@@ -5493,6 +5493,28 @@
     ]
    },
    {
+    "id": "depin",
+    "name": "DePIN",
+    "chg7d": -3.53,
+    "top": [
+     "TAO",
+     "RENDER",
+     "FIL",
+     "BDX",
+     "GRASS"
+    ],
+    "tracked": [
+     "FIL",
+     "TAO",
+     "GRASS",
+     "RENDER",
+     "AR",
+     "LPT",
+     "IOTA",
+     "THETA"
+    ]
+   },
+   {
     "id": "exchange-based-tokens",
     "name": "Exchange Based Tokens",
     "chg7d": -3.82,
@@ -5630,28 +5652,6 @@
     ],
     "tracked": [
      "ZEC"
-    ]
-   },
-   {
-    "id": "depin",
-    "name": "DePIN",
-    "chg7d": -5.31,
-    "top": [
-     "TAO",
-     "RENDER",
-     "FIL",
-     "BDX",
-     "GRASS"
-    ],
-    "tracked": [
-     "FIL",
-     "TAO",
-     "GRASS",
-     "RENDER",
-     "AR",
-     "LPT",
-     "IOTA",
-     "THETA"
     ]
    },
    {
@@ -5884,7 +5884,7 @@
   "updated": {
    "unlocks": 1793028325,
    "onchain": 1793032827,
-   "sectors": 1793032228,
+   "sectors": 1793033124,
    "listings": 1793032227,
    "fundamentals": 1793028326
   }
@@ -5923,6 +5923,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "beab52cb5ff2f5f2d64d5aebbaf4f09e3b113fb66cf03fea7c42136640168d04",
- "generated": "2026-10-26T16:41:29+00:00"
+ "digest": "3d02466958606c75fbf74892127d4b571e90ab0d8ed2e863e7a441dab535993f",
+ "generated": "2026-10-26T16:45:28+00:00"
 }
