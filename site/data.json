@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002796,
-   "last_ts": "2026-10-26T23:10:25+00:00",
-   "move_pct": 8.08,
+   "last": 0.002801,
+   "last_ts": "2026-10-26T23:15:24+00:00",
+   "move_pct": 8.27,
    "closed": false,
    "rsi": 54.2,
    "trade_on": "Perps 1x",
@@ -70,7 +70,7 @@
     0.13080556756015782
    ],
    "lev": 1,
-   "funding_pct": 0.0032,
+   "funding_pct": 0.0035,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-25T11:00:00+00:00",
@@ -78,9 +78,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1483,
-   "last_ts": "2026-10-26T23:10:25+00:00",
-   "move_pct": 0.47,
+   "last": 0.1484,
+   "last_ts": "2026-10-26T23:15:24+00:00",
+   "move_pct": 0.4,
    "closed": false,
    "rsi": 35.9,
    "trade_on": "Perps 1x",
@@ -122,9 +122,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.07103,
-   "last_ts": "2026-10-26T23:10:25+00:00",
-   "move_pct": -1.14,
+   "last": 0.07106,
+   "last_ts": "2026-10-26T23:15:24+00:00",
+   "move_pct": -1.1,
    "closed": false,
    "rsi": 63.9,
    "trade_on": "Spot",
@@ -167,9 +167,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 278.2,
-   "last_ts": "2026-10-26T23:10:25+00:00",
-   "move_pct": -1.11,
+   "last": 278.8,
+   "last_ts": "2026-10-26T23:15:24+00:00",
+   "move_pct": -0.89,
    "closed": false,
    "rsi": 56.6,
    "trade_on": "Spot",
@@ -5470,6 +5470,24 @@
     ]
    },
    {
+    "id": "bitcoin-ecosystem",
+    "name": "Bitcoin Ecosystem",
+    "chg7d": -2.86,
+    "top": [
+     "BTC",
+     "DOG",
+     "ORDI",
+     "USTBL",
+     "LOBO"
+    ],
+    "tracked": [
+     "BTC",
+     "PEPE",
+     "ORDI",
+     "SATS"
+    ]
+   },
+   {
     "id": "exchange-based-tokens",
     "name": "Exchange Based Tokens",
     "chg7d": -2.91,
@@ -5489,24 +5507,6 @@
      "CRV",
      "ASTER",
      "AERO"
-    ]
-   },
-   {
-    "id": "bitcoin-ecosystem",
-    "name": "Bitcoin Ecosystem",
-    "chg7d": -3.07,
-    "top": [
-     "BTC",
-     "DOG",
-     "ORDI",
-     "USTBL",
-     "LOBO"
-    ],
-    "tracked": [
-     "BTC",
-     "PEPE",
-     "ORDI",
-     "SATS"
     ]
    },
    {
@@ -5925,7 +5925,7 @@
   "updated": {
    "unlocks": 1793050227,
    "onchain": 1793054425,
-   "sectors": 1793055634,
+   "sectors": 1793056523,
    "listings": 1793054425,
    "fundamentals": 1793050228
   }
@@ -5964,6 +5964,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "1ba7339fa3780e2812cb214f5b6423dffca7553c30ee3e1addae5851000b6221",
- "generated": "2026-10-26T23:10:27+00:00"
+ "digest": "8a533cd9a89663bfe992e4850b96b451413aafaf5c6322d3cf06ed58abb36f88",
+ "generated": "2026-10-26T23:15:27+00:00"
 }
