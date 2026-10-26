@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002825,
-   "last_ts": "2026-10-26T16:10:22+00:00",
-   "move_pct": 9.2,
+   "last": 0.002776,
+   "last_ts": "2026-10-26T16:15:27+00:00",
+   "move_pct": 7.31,
    "closed": false,
    "rsi": 54.2,
    "trade_on": "Perps 1x",
@@ -70,7 +70,7 @@
     0.13080556756015782
    ],
    "lev": 1,
-   "funding_pct": -0.0008,
+   "funding_pct": 0.0001,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-25T11:00:00+00:00",
@@ -78,9 +78,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1522,
-   "last_ts": "2026-10-26T16:10:22+00:00",
-   "move_pct": -2.15,
+   "last": 0.1528,
+   "last_ts": "2026-10-26T16:15:27+00:00",
+   "move_pct": -2.55,
    "closed": false,
    "rsi": 35.9,
    "trade_on": "Perps 1x",
@@ -122,9 +122,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0723,
-   "last_ts": "2026-10-26T16:10:22+00:00",
-   "move_pct": 0.63,
+   "last": 0.07215,
+   "last_ts": "2026-10-26T16:15:27+00:00",
+   "move_pct": 0.42,
    "closed": false,
    "rsi": 63.9,
    "trade_on": "Spot",
@@ -5430,28 +5430,6 @@
     ]
    },
    {
-    "id": "oracle",
-    "name": "Oracle",
-    "chg7d": -3.35,
-    "top": [
-     "LINK",
-     "PYTH",
-     "RED",
-     "WIN",
-     "TRB"
-    ],
-    "tracked": [
-     "LINK",
-     "PYTH",
-     "TRB",
-     "AT",
-     "API3",
-     "ZKP",
-     "BAND",
-     "WIN"
-    ]
-   },
-   {
     "id": "layer-2",
     "name": "Layer 2",
     "chg7d": -3.48,
@@ -5557,6 +5535,28 @@
      "MORPHO",
      "KMNO",
      "SPK"
+    ]
+   },
+   {
+    "id": "oracle",
+    "name": "Oracle",
+    "chg7d": -4.26,
+    "top": [
+     "LINK",
+     "PYTH",
+     "RED",
+     "WIN",
+     "TRB"
+    ],
+    "tracked": [
+     "LINK",
+     "PYTH",
+     "TRB",
+     "AT",
+     "API3",
+     "ZKP",
+     "BAND",
+     "WIN"
     ]
    },
    {
@@ -5865,7 +5865,7 @@
   "updated": {
    "unlocks": 1793028325,
    "onchain": 1793029224,
-   "sectors": 1793030433,
+   "sectors": 1793031327,
    "listings": 1793028339,
    "fundamentals": 1793028326
   }
@@ -5904,6 +5904,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "b1254c7e71763793dd22f0d1373dbda7eb49057da7534a2d6e0cb2a48ae1baec",
- "generated": "2026-10-26T16:10:24+00:00"
+ "digest": "29d045f74574e20cb14003a109b32817e6a43e0e03cd7ee44f47e4f5428a92e7",
+ "generated": "2026-10-26T16:15:30+00:00"
 }
