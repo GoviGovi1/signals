@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.01746,
-   "last_ts": "2026-10-26T14:41:25+00:00",
-   "move_pct": -1.99,
+   "last": 0.01748,
+   "last_ts": "2026-10-26T14:45:24+00:00",
+   "move_pct": -2.1,
    "closed": false,
    "rsi": 35.3,
    "trade_on": "Perps 1x",
@@ -70,7 +70,7 @@
     0.025107359135744602
    ],
    "lev": 1,
-   "funding_pct": 0.0049,
+   "funding_pct": 0.005,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-24T16:00:00+00:00",
@@ -79,7 +79,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.0281,
-   "last_ts": "2026-10-26T14:41:25+00:00",
+   "last_ts": "2026-10-26T14:45:24+00:00",
    "move_pct": 2.57,
    "closed": false,
    "rsi": 31.9,
@@ -122,9 +122,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.00282,
-   "last_ts": "2026-10-26T14:41:25+00:00",
-   "move_pct": 9.01,
+   "last": 0.002827,
+   "last_ts": "2026-10-26T14:45:24+00:00",
+   "move_pct": 9.28,
    "closed": false,
    "rsi": 54.2,
    "trade_on": "Perps 1x",
@@ -158,7 +158,7 @@
     0.13080556756015782
    ],
    "lev": 1,
-   "funding_pct": -0.007,
+   "funding_pct": -0.0069,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-25T11:00:00+00:00",
@@ -166,9 +166,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1518,
-   "last_ts": "2026-10-26T14:41:25+00:00",
-   "move_pct": -1.88,
+   "last": 0.152,
+   "last_ts": "2026-10-26T14:45:24+00:00",
+   "move_pct": -2.01,
    "closed": false,
    "rsi": 35.9,
    "trade_on": "Perps 1x",
@@ -211,9 +211,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.07311,
-   "last_ts": "2026-10-26T14:41:25+00:00",
-   "move_pct": 3.78,
+   "last": 0.07319,
+   "last_ts": "2026-10-26T14:45:24+00:00",
+   "move_pct": 3.89,
    "closed": false,
    "rsi": 75.9,
    "trade_on": "Perps 1x",
@@ -5423,6 +5423,28 @@
     ]
    },
    {
+    "id": "decentralized-finance-defi",
+    "name": "Decentralized Finance DeFi",
+    "chg7d": -3.88,
+    "top": [
+     "STETH",
+     "HYPE",
+     "WSTETH",
+     "LINK",
+     "RAIN"
+    ],
+    "tracked": [
+     "LINK",
+     "HYPE",
+     "ENA",
+     "PUMP",
+     "UNI",
+     "LIT",
+     "ONDO",
+     "INJ"
+    ]
+   },
+   {
     "id": "layer-1",
     "name": "Layer 1",
     "chg7d": -3.9,
@@ -5484,28 +5506,6 @@
      "ASTER",
      "AERO",
      "RAY"
-    ]
-   },
-   {
-    "id": "decentralized-finance-defi",
-    "name": "Decentralized Finance DeFi",
-    "chg7d": -4.15,
-    "top": [
-     "STETH",
-     "HYPE",
-     "WSTETH",
-     "LINK",
-     "RAIN"
-    ],
-    "tracked": [
-     "LINK",
-     "HYPE",
-     "ENA",
-     "PUMP",
-     "UNI",
-     "LIT",
-     "ONDO",
-     "INJ"
     ]
    },
    {
@@ -5836,7 +5836,7 @@
   "updated": {
    "unlocks": 1793006426,
    "onchain": 1793025624,
-   "sectors": 1793025028,
+   "sectors": 1793025924,
    "listings": 1793024723,
    "fundamentals": 1793006427
   }
@@ -5875,6 +5875,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "91b8d2475a231d66e3f641e4da20f8d7a3c93aa6508064e55490f921ff52ff0b",
- "generated": "2026-10-26T14:41:28+00:00"
+ "digest": "3561e8a54e24582ff4cfbe0c1e1e017809c1212456abe769c06b533c0cf33e65",
+ "generated": "2026-10-26T14:45:28+00:00"
 }
