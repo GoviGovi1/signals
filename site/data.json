@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002786,
-   "last_ts": "2026-10-26T18:41:28+00:00",
-   "move_pct": 7.69,
+   "last": 0.002784,
+   "last_ts": "2026-10-26T18:45:26+00:00",
+   "move_pct": 7.61,
    "closed": false,
    "rsi": 54.2,
    "trade_on": "Perps 1x",
@@ -70,7 +70,7 @@
     0.13080556756015782
    ],
    "lev": 1,
-   "funding_pct": -0.0001,
+   "funding_pct": -0.0008,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-25T11:00:00+00:00",
@@ -78,9 +78,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1501,
-   "last_ts": "2026-10-26T18:41:28+00:00",
-   "move_pct": -0.74,
+   "last": 0.1496,
+   "last_ts": "2026-10-26T18:45:26+00:00",
+   "move_pct": -0.4,
    "closed": false,
    "rsi": 35.9,
    "trade_on": "Perps 1x",
@@ -122,9 +122,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.07134,
-   "last_ts": "2026-10-26T18:41:28+00:00",
-   "move_pct": -0.71,
+   "last": 0.07127,
+   "last_ts": "2026-10-26T18:45:26+00:00",
+   "move_pct": -0.81,
    "closed": false,
    "rsi": 63.9,
    "trade_on": "Spot",
@@ -167,9 +167,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 279.33,
-   "last_ts": "2026-10-26T18:41:28+00:00",
-   "move_pct": -0.7,
+   "last": 278.46,
+   "last_ts": "2026-10-26T18:45:26+00:00",
+   "move_pct": -1.01,
    "closed": false,
    "rsi": 56.6,
    "trade_on": "Spot",
@@ -5517,28 +5517,6 @@
     ]
    },
    {
-    "id": "layer-2",
-    "name": "Layer 2",
-    "chg7d": -3.48,
-    "top": [
-     "OKB",
-     "MNT",
-     "ARB",
-     "POL",
-     "STX"
-    ],
-    "tracked": [
-     "ORDER",
-     "ARB",
-     "STRK",
-     "OKB",
-     "SOON",
-     "KAT",
-     "STX",
-     "OP"
-    ]
-   },
-   {
     "id": "depin",
     "name": "DePIN",
     "chg7d": -3.53,
@@ -5580,6 +5558,28 @@
      "CRV",
      "ASTER",
      "AERO"
+    ]
+   },
+   {
+    "id": "layer-2",
+    "name": "Layer 2",
+    "chg7d": -3.59,
+    "top": [
+     "OKB",
+     "MNT",
+     "ARB",
+     "POL",
+     "STX"
+    ],
+    "tracked": [
+     "ORDER",
+     "ARB",
+     "STRK",
+     "OKB",
+     "SOON",
+     "KAT",
+     "STX",
+     "OP"
     ]
    },
    {
@@ -5910,7 +5910,7 @@
   "updated": {
    "unlocks": 1793028325,
    "onchain": 1793040026,
-   "sectors": 1793039432,
+   "sectors": 1793040326,
    "listings": 1793039431,
    "fundamentals": 1793028326
   }
@@ -5949,6 +5949,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "307ab8f9a21c2b2e7d4976f88826ef617df11dcd576d921e1d3b08526928e683",
- "generated": "2026-10-26T18:41:30+00:00"
+ "digest": "873687c5e5c2cca4ccf138520c65096ac7f36ce56290a12571cf6617a3d0fe2e",
+ "generated": "2026-10-26T18:45:29+00:00"
 }
