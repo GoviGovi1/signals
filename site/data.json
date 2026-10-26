@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002804,
-   "last_ts": "2026-10-26T17:25:21+00:00",
-   "move_pct": 8.39,
+   "last": 0.002787,
+   "last_ts": "2026-10-26T17:30:31+00:00",
+   "move_pct": 7.73,
    "closed": false,
    "rsi": 54.2,
    "trade_on": "Perps 1x",
@@ -70,7 +70,7 @@
     0.13080556756015782
    ],
    "lev": 1,
-   "funding_pct": 0.0009,
+   "funding_pct": 0.0006,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-25T11:00:00+00:00",
@@ -78,9 +78,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1523,
-   "last_ts": "2026-10-26T17:25:21+00:00",
-   "move_pct": -2.21,
+   "last": 0.1515,
+   "last_ts": "2026-10-26T17:30:31+00:00",
+   "move_pct": -1.68,
    "closed": false,
    "rsi": 35.9,
    "trade_on": "Perps 1x",
@@ -122,9 +122,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.07171,
-   "last_ts": "2026-10-26T17:25:21+00:00",
-   "move_pct": -0.19,
+   "last": 0.07148,
+   "last_ts": "2026-10-26T17:30:31+00:00",
+   "move_pct": -0.51,
    "closed": false,
    "rsi": 63.9,
    "trade_on": "Spot",
@@ -5471,6 +5471,26 @@
     ]
    },
    {
+    "id": "lending-borrowing",
+    "name": "Lending Borrowing",
+    "chg7d": -3.03,
+    "top": [
+     "AAVE",
+     "MORPHO",
+     "OHM",
+     "KMNO",
+     "COMP"
+    ],
+    "tracked": [
+     "CAP",
+     "AAVE",
+     "COMP",
+     "MORPHO",
+     "KMNO",
+     "SPK"
+    ]
+   },
+   {
     "id": "layer-2",
     "name": "Layer 2",
     "chg7d": -3.48,
@@ -5578,26 +5598,6 @@
      "BNB",
      "AVAX",
      "ZEC"
-    ]
-   },
-   {
-    "id": "lending-borrowing",
-    "name": "Lending Borrowing",
-    "chg7d": -3.91,
-    "top": [
-     "AAVE",
-     "MORPHO",
-     "OHM",
-     "KMNO",
-     "COMP"
-    ],
-    "tracked": [
-     "CAP",
-     "AAVE",
-     "COMP",
-     "MORPHO",
-     "KMNO",
-     "SPK"
     ]
    },
    {
@@ -5884,8 +5884,8 @@
   "updated": {
    "unlocks": 1793028325,
    "onchain": 1793032827,
-   "sectors": 1793034925,
-   "listings": 1793032227,
+   "sectors": 1793035831,
+   "listings": 1793035830,
    "fundamentals": 1793028326
   }
  },
@@ -5923,6 +5923,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "2bbb2ee946423c27a030c718cd57447bf63a8536755d636cd2ca196f5e691ab4",
- "generated": "2026-10-26T17:25:25+00:00"
+ "digest": "8dabb0e0f4d7733e61fa39ee0c98f96e90b4444e01992795c2075b3fc6259557",
+ "generated": "2026-10-26T17:30:34+00:00"
 }
