@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.01749,
-   "last_ts": "2026-10-26T13:25:22+00:00",
-   "move_pct": -2.16,
+   "last": 0.01745,
+   "last_ts": "2026-10-26T13:30:28+00:00",
+   "move_pct": -1.93,
    "closed": false,
    "rsi": 35.3,
    "trade_on": "Perps 1x",
@@ -78,9 +78,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0281,
-   "last_ts": "2026-10-26T13:25:22+00:00",
-   "move_pct": 2.57,
+   "last": 0.02805,
+   "last_ts": "2026-10-26T13:30:28+00:00",
+   "move_pct": 2.74,
    "closed": false,
    "rsi": 31.9,
    "trade_on": "Perps 1x",
@@ -122,9 +122,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002813,
-   "last_ts": "2026-10-26T13:25:22+00:00",
-   "move_pct": 8.74,
+   "last": 0.002786,
+   "last_ts": "2026-10-26T13:30:28+00:00",
+   "move_pct": 7.69,
    "closed": false,
    "rsi": 54.2,
    "trade_on": "Perps 1x",
@@ -158,7 +158,7 @@
     0.13080556756015782
    ],
    "lev": 1,
-   "funding_pct": -0.0081,
+   "funding_pct": -0.0071,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-25T11:00:00+00:00",
@@ -166,9 +166,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.149,
-   "last_ts": "2026-10-26T13:25:22+00:00",
-   "move_pct": -0.0,
+   "last": 0.1492,
+   "last_ts": "2026-10-26T13:30:28+00:00",
+   "move_pct": -0.13,
    "closed": false,
    "rsi": 35.9,
    "trade_on": "Perps 1x",
@@ -212,7 +212,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.07059,
-   "last_ts": "2026-10-26T13:25:22+00:00",
+   "last_ts": "2026-10-26T13:30:28+00:00",
    "move_pct": 0.2,
    "closed": false,
    "rsi": 75.9,
@@ -5477,6 +5477,28 @@
     ]
    },
    {
+    "id": "layer-1",
+    "name": "Layer 1",
+    "chg7d": -3.9,
+    "top": [
+     "BTC",
+     "ETH",
+     "BNB",
+     "XRP",
+     "SOL"
+    ],
+    "tracked": [
+     "ETH",
+     "BTC",
+     "SOL",
+     "XRP",
+     "SUI",
+     "BNB",
+     "AVAX",
+     "ZEC"
+    ]
+   },
+   {
     "id": "lending-borrowing",
     "name": "Lending Borrowing",
     "chg7d": -3.91,
@@ -5658,28 +5680,6 @@
      "KAT",
      "STX",
      "OP"
-    ]
-   },
-   {
-    "id": "layer-1",
-    "name": "Layer 1",
-    "chg7d": -5.59,
-    "top": [
-     "BTC",
-     "ETH",
-     "BNB",
-     "XRP",
-     "SOL"
-    ],
-    "tracked": [
-     "ETH",
-     "BTC",
-     "SOL",
-     "XRP",
-     "SUI",
-     "BNB",
-     "AVAX",
-     "ZEC"
     ]
    },
    {
@@ -5912,7 +5912,7 @@
   "updated": {
    "unlocks": 1793006426,
    "onchain": 1793018421,
-   "sectors": 1793020529,
+   "sectors": 1793021428,
    "listings": 1793021122,
    "fundamentals": 1793006427
   }
@@ -5951,6 +5951,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "e23a92d32f01d78c40f3fb08d9231e87f5d1d565270db6824a37ae2f6b9e74ab",
- "generated": "2026-10-26T13:25:24+00:00"
+ "digest": "ad5774718ec33751e189642593e5396b00b01fd80274b4b32496d80f485d6c03",
+ "generated": "2026-10-26T13:30:31+00:00"
 }
