@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.02846,
-   "last_ts": "2026-10-26T15:35:20+00:00",
-   "move_pct": 1.32,
+   "last": 0.02851,
+   "last_ts": "2026-10-26T15:41:30+00:00",
+   "move_pct": 1.14,
    "closed": false,
    "rsi": 31.9,
    "trade_on": "Perps 1x",
@@ -78,9 +78,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002824,
-   "last_ts": "2026-10-26T15:35:20+00:00",
-   "move_pct": 9.16,
+   "last": 0.00282,
+   "last_ts": "2026-10-26T15:41:30+00:00",
+   "move_pct": 9.01,
    "closed": false,
    "rsi": 54.2,
    "trade_on": "Perps 1x",
@@ -114,7 +114,7 @@
     0.13080556756015782
    ],
    "lev": 1,
-   "funding_pct": -0.0026,
+   "funding_pct": -0.0027,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-25T11:00:00+00:00",
@@ -122,9 +122,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1532,
-   "last_ts": "2026-10-26T15:35:20+00:00",
-   "move_pct": -2.82,
+   "last": 0.153,
+   "last_ts": "2026-10-26T15:41:30+00:00",
+   "move_pct": -2.68,
    "closed": false,
    "rsi": 35.9,
    "trade_on": "Perps 1x",
@@ -166,9 +166,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.07275,
-   "last_ts": "2026-10-26T15:35:20+00:00",
-   "move_pct": 1.25,
+   "last": 0.07329,
+   "last_ts": "2026-10-26T15:41:30+00:00",
+   "move_pct": 2.0,
    "closed": false,
    "rsi": 63.9,
    "trade_on": "Spot",
@@ -5267,7 +5267,7 @@
     "url": "https://www.geckoterminal.com/solana/pools/3M9sVgL4u6ATKaiExf3XhQqNfMB6ijvzk3meMcQaen1w"
    }
   ],
-  "onchain_checked": 86,
+  "onchain_checked": 68,
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
@@ -5855,7 +5855,7 @@
   ],
   "updated": {
    "unlocks": 1793028325,
-   "onchain": 1793025624,
+   "onchain": 1793029224,
    "sectors": 1793028627,
    "listings": 1793028339,
    "fundamentals": 1793028326
@@ -5895,6 +5895,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "e357ba98565d21a6c015aff2deb88d01df615259830ea8ba66d0c11ad679e5a7",
- "generated": "2026-10-26T15:35:23+00:00"
+ "digest": "4528464d35c0325cb1dd340f5e8aff33534c9d292c085c77a11d87796fe8d816",
+ "generated": "2026-10-26T15:41:33+00:00"
 }
