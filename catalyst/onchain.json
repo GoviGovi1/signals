@@ -75,14 +75,21 @@
    "fails": [
     "liquidity under $250k"
    ],
-   "symbol": "DOPE"
+   "symbol": "GOON"
   },
   {
    "chain": "Solana",
    "fails": [
     "liquidity under $250k"
    ],
-   "symbol": "GOON"
+   "symbol": "DOPE"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "no DEX candles"
+   ],
+   "symbol": "LMAO!"
   },
   {
    "chain": "Solana",
@@ -103,7 +110,7 @@
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "LMAO!"
+   "symbol": "USELESS"
   },
   {
    "chain": "Solana",
@@ -126,7 +133,7 @@
     "liquidity under $250k",
     "pool younger than 7 days"
    ],
-   "symbol": "\u2588\u2588\u2588"
+   "symbol": "PMUP"
   },
   {
    "chain": "Solana",
@@ -135,13 +142,6 @@
     "pool younger than 7 days"
    ],
    "symbol": "BUNNETT"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "USELESS"
   },
   {
    "chain": "Base",
@@ -184,14 +184,44 @@
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "ELSA"
+   "symbol": "AERO"
   },
   {
    "chain": "Base",
    "fails": [
-    "no DEX candles"
+    "24h volume under $250k"
    ],
-   "symbol": "AERO"
+   "symbol": "NOCK"
+  },
+  {
+   "chain": "Base",
+   "fails": [
+    "24h volume under $250k"
+   ],
+   "symbol": "TIBBIR"
+  },
+  {
+   "chain": "Base",
+   "fails": [
+    "liquidity under $250k",
+    "pool younger than 7 days"
+   ],
+   "symbol": "PANGEA"
+  },
+  {
+   "chain": "Base",
+   "fails": [
+    "liquidity under $250k",
+    "24h volume under $250k"
+   ],
+   "symbol": "FLOWER"
+  },
+  {
+   "chain": "Base",
+   "fails": [
+    "24h volume under $250k"
+   ],
+   "symbol": "KTA"
   },
   {
    "chain": "Base",
@@ -206,29 +236,7 @@
     "liquidity under $250k",
     "pool younger than 7 days"
    ],
-   "symbol": "PANGEA"
-  },
-  {
-   "chain": "Base",
-   "fails": [
-    "24h volume under $250k"
-   ],
-   "symbol": "TIBBIR"
-  },
-  {
-   "chain": "Base",
-   "fails": [
-    "24h volume under $250k"
-   ],
-   "symbol": "NOCK"
-  },
-  {
-   "chain": "Base",
-   "fails": [
-    "liquidity under $250k",
-    "24h volume under $250k"
-   ],
-   "symbol": "FLOWER"
+   "symbol": "ZRO"
   },
   {
    "chain": "Base",
@@ -240,17 +248,9 @@
   {
    "chain": "Base",
    "fails": [
-    "24h volume under $250k"
+    "no DEX candles"
    ],
-   "symbol": "KTA"
-  },
-  {
-   "chain": "Base",
-   "fails": [
-    "liquidity under $250k",
-    "pool younger than 7 days"
-   ],
-   "symbol": "ZRO"
+   "symbol": "POD"
   },
   {
    "chain": "Base",
@@ -258,13 +258,6 @@
     "no DEX candles"
    ],
    "symbol": "VELVET"
-  },
-  {
-   "chain": "Base",
-   "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "POD"
   },
   {
    "chain": "Base",
@@ -278,13 +271,6 @@
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "JCT"
-  },
-  {
-   "chain": "BSC",
-   "fails": [
-    "no DEX candles"
-   ],
    "symbol": "IRYS"
   },
   {
@@ -292,69 +278,81 @@
    "fails": [
     "no DEX candles"
    ],
+   "symbol": "JCT"
+  },
+  {
+   "chain": "BSC",
+   "fails": [
+    "no DEX candles"
+   ],
    "symbol": "Q"
+  },
+  {
+   "chain": "BSC",
+   "fails": [
+    "no DEX candles"
+   ],
+   "symbol": "SKYAI"
   }
  ],
  "rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
- "updated": 1792986024,
+ "updated": 1792989620,
  "watchlist": [
   {
-   "age_d": 228.9,
-   "atr": 0.003052410016436726,
-   "bar_ts": 1792980000000,
+   "age_d": 122.6,
+   "atr": 0.009018481084560992,
+   "bar_ts": 1792983600000,
    "chain": "BSC",
-   "chg24h": 4.093,
-   "chg7d": 16.9,
-   "close": 0.160510118170189,
-   "ema20": 0.16212348077099412,
-   "ema50": 0.1558324618698286,
+   "chg24h": 40.39,
+   "chg7d": 49.6,
+   "close": 0.111129609647479,
+   "ema20": 0.10469101076505935,
+   "ema50": 0.09265128592954595,
    "fails": [],
-   "gecko_id": "unitas",
-   "liq": 1028057,
-   "mcap": 34655228.5633539,
-   "name": "Unitas",
+   "gecko_id": "cap-4",
+   "liq": 1252759,
+   "mcap": 180105022.968,
+   "name": "Cap",
    "net": "bsc",
-   "pool": "0x97ef267d87abd28dd5070d485efc7cdd960e1b3045a4e2dc0b2e9abbdc9b1837",
-   "price": 0.160441871381146,
-   "rsi": 49.9,
-   "safety": "unknown",
-   "safety_notes": [
-    "safety not checked"
-   ],
-   "symbol": "UP",
-   "token": "0x000008d2175f9aeaddb2430c26f8a6f73c5a0000",
-   "trend_up": true,
-   "trigger": false,
-   "url": "https://www.geckoterminal.com/bsc/pools/0x97ef267d87abd28dd5070d485efc7cdd960e1b3045a4e2dc0b2e9abbdc9b1837",
-   "vol24h": 10691757
-  },
-  {
-   "age_d": 554.0,
-   "atr": 0.0012354595116528633,
-   "bar_ts": 1792980000000,
-   "chain": "BSC",
-   "chg24h": -0.973,
-   "chg7d": 18.3,
-   "close": 0.0334482633505755,
-   "ema20": 0.034724991538858906,
-   "ema50": 0.03411369882606239,
-   "fails": [],
-   "gecko_id": "skyai",
-   "liq": 5209349,
-   "mcap": 33564273.8460169,
-   "name": "SKYAI",
-   "net": "bsc",
-   "pool": "0xbc42145d5a574ede9b8860fca2a49eb7b239efa5",
-   "price": 0.0336185980640236,
-   "rsi": 41.5,
+   "pool": "0x3bca91b9b847cff6f4b666fa1d966981678975e13fd69d647bd11bed99f5fa14",
+   "price": 0.115451937752246,
+   "rsi": 65.1,
    "safety": "ok",
    "safety_notes": [],
-   "symbol": "SKYAI",
-   "token": "0x92aa03137385f18539301349dcfc9ebc923ffb10",
+   "symbol": "CAP",
+   "token": "0x99991c6aabba5a096f24f250b73580f5179b9999",
+   "trend_up": true,
+   "trigger": false,
+   "url": "https://www.geckoterminal.com/bsc/pools/0x3bca91b9b847cff6f4b666fa1d966981678975e13fd69d647bd11bed99f5fa14",
+   "vol24h": 8176439
+  },
+  {
+   "age_d": 278.8,
+   "atr": 0.002324817006441133,
+   "bar_ts": 1792983600000,
+   "chain": "Base",
+   "chg24h": 0.327,
+   "chg7d": 13.9,
+   "close": 0.074561810118223,
+   "ema20": 0.07565834928125487,
+   "ema50": 0.07467510623098372,
+   "fails": [],
+   "gecko_id": "elsa",
+   "liq": 507378,
+   "mcap": 17411041.0309664,
+   "name": "Elsa",
+   "net": "base",
+   "pool": "0x83f3aca29bc79b048b99c56013475570acc97ccf",
+   "price": 0.0760373876774461,
+   "rsi": 46.1,
+   "safety": "ok",
+   "safety_notes": [],
+   "symbol": "ELSA",
+   "token": "0x29cc30f9d113b356ce408667aa6433589cecbdca",
    "trend_up": false,
    "trigger": false,
-   "url": "https://www.geckoterminal.com/bsc/pools/0xbc42145d5a574ede9b8860fca2a49eb7b239efa5",
-   "vol24h": 4871259
+   "url": "https://www.geckoterminal.com/base/pools/0x83f3aca29bc79b048b99c56013475570acc97ccf",
+   "vol24h": 4555438
   }
  ]
 }
