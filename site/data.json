@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.01759,
-   "last_ts": "2026-10-26T12:56:02+00:00",
-   "move_pct": -2.75,
+   "last": 0.0176,
+   "last_ts": "2026-10-26T13:00:33+00:00",
+   "move_pct": -2.8,
    "closed": false,
    "rsi": 35.3,
    "trade_on": "Perps 1x",
@@ -78,9 +78,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.02825,
-   "last_ts": "2026-10-26T12:56:02+00:00",
-   "move_pct": 2.05,
+   "last": 0.0282,
+   "last_ts": "2026-10-26T13:00:33+00:00",
+   "move_pct": 2.22,
    "closed": false,
    "rsi": 31.9,
    "trade_on": "Perps 1x",
@@ -122,9 +122,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002763,
-   "last_ts": "2026-10-26T12:56:02+00:00",
-   "move_pct": 6.8,
+   "last": 0.002777,
+   "last_ts": "2026-10-26T13:00:33+00:00",
+   "move_pct": 7.34,
    "closed": false,
    "rsi": 54.2,
    "trade_on": "Perps 1x",
@@ -158,7 +158,7 @@
     0.13080556756015782
    ],
    "lev": 1,
-   "funding_pct": -0.0066,
+   "funding_pct": -0.0059,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-25T11:00:00+00:00",
@@ -166,15 +166,60 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1495,
-   "last_ts": "2026-10-26T12:56:02+00:00",
-   "move_pct": -0.34,
+   "last": 0.15,
+   "last_ts": "2026-10-26T13:00:33+00:00",
+   "move_pct": -0.67,
    "closed": false,
    "rsi": 35.9,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": "charts/BERA-PERP-1792922400.png",
    "setup": "BREAKOUT20"
+  },
+  {
+   "id": "BEAT-PERP-1793016000",
+   "kind": "TA",
+   "score": 1,
+   "reasons": [
+    "Chart: Broke out of a 2-day range at 0.06996 (range 0.06509\u20130.06996) on 2.2x volume",
+    "Timeframes: 1d down, 4h down, 4h structure lower highs/lows",
+    "Next resistance 0.074045 (3.4R away, 4h swing/swing/volume node)",
+    "Stop 0.069406 (below the breakout level); targets at the next 1 level(s)",
+    "BTC 4h trend down",
+    "Weaker than BTC by 1.5% over 7d",
+    "OI +3% 24h",
+    "Sector: Gaming -3.0% 7d (leading, #4 of 20)",
+    "Track record: +3.0R on BEAT in the last 45 days (backtest)"
+   ],
+   "coin": "BEAT",
+   "market": "PERP",
+   "side": "LONG",
+   "entry": 0.07045,
+   "sl0": 0.06940602910325747,
+   "sl": 0.06940602910325747,
+   "tps": [
+    0.07390695007242457,
+    0.0749509209691671,
+    0.07599489186590963
+   ],
+   "lev": 1,
+   "funding_pct": 0.005,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-10-26T13:00:00+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.0705,
+   "last_ts": "2026-10-26T13:00:33+00:00",
+   "move_pct": 0.07,
+   "closed": false,
+   "rsi": 75.9,
+   "trade_on": "Perps 1x",
+   "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
+   "chart": "charts/BEAT-PERP-1793016000.png",
+   "setup": "RANGE_BREAK"
   }
  ],
  "closed": [
@@ -1895,7 +1940,7 @@
     "total_pct": -5.43
    }
   },
-  "open": 4
+  "open": 5
  },
  "backtest": {
   "from": "2026-07-24",
@@ -5326,6 +5371,28 @@
     ]
    },
    {
+    "id": "solana-meme-coins",
+    "name": "Solana Meme Coins",
+    "chg7d": -2.67,
+    "top": [
+     "PENGU",
+     "TRUMP",
+     "BONK",
+     "WIF",
+     "USELESS"
+    ],
+    "tracked": [
+     "TRUMP",
+     "USELESS",
+     "PENGU",
+     "WIF",
+     "MOODENG",
+     "BOME",
+     "MEW",
+     "FARTCOIN"
+    ]
+   },
+   {
     "id": "gaming",
     "name": "Gaming",
     "chg7d": -3.01,
@@ -5547,28 +5614,6 @@
      "FIL",
      "AR",
      "WAL"
-    ]
-   },
-   {
-    "id": "solana-meme-coins",
-    "name": "Solana Meme Coins",
-    "chg7d": -5.02,
-    "top": [
-     "PENGU",
-     "TRUMP",
-     "BONK",
-     "WIF",
-     "USELESS"
-    ],
-    "tracked": [
-     "TRUMP",
-     "USELESS",
-     "PENGU",
-     "WIF",
-     "MOODENG",
-     "BOME",
-     "MEW",
-     "FARTCOIN"
     ]
    },
    {
@@ -5867,7 +5912,7 @@
   "updated": {
    "unlocks": 1793006426,
    "onchain": 1793018421,
-   "sectors": 1793018723,
+   "sectors": 1793019633,
    "listings": 1793017226,
    "fundamentals": 1793006427
   }
@@ -5906,6 +5951,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "436bf5c519294b2f4fd38a8c0e6d9aedd30a14412fecc5b00b91dd45fd4385c3",
- "generated": "2026-10-26T12:56:06+00:00"
+ "digest": "2e068cc649b499b5960eb65f6ededd89ed547d07cd7a1b07bfe6243f59ef0404",
+ "generated": "2026-10-26T13:01:11+00:00"
 }
