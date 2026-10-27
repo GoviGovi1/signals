@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 289.2,
-   "last_ts": "2026-10-27T18:55:24+00:00",
-   "move_pct": 2.8,
+   "last": 288.83,
+   "last_ts": "2026-10-27T19:00:35+00:00",
+   "move_pct": 2.67,
    "closed": false,
    "rsi": 56.6,
    "trade_on": "Spot",
@@ -75,9 +75,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.05359,
-   "last_ts": "2026-10-27T18:55:24+00:00",
-   "move_pct": 3.96,
+   "last": 0.05349,
+   "last_ts": "2026-10-27T19:00:35+00:00",
+   "move_pct": 3.76,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -119,9 +119,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.06439,
-   "last_ts": "2026-10-27T18:55:24+00:00",
-   "move_pct": -0.58,
+   "last": 0.06447,
+   "last_ts": "2026-10-27T19:00:35+00:00",
+   "move_pct": -0.7,
    "closed": false,
    "rsi": 40.8,
    "trade_on": "Perps 1x",
@@ -164,9 +164,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.02224,
-   "last_ts": "2026-10-27T18:55:24+00:00",
-   "move_pct": 3.15,
+   "last": 0.02234,
+   "last_ts": "2026-10-27T19:00:35+00:00",
+   "move_pct": 3.62,
    "closed": false,
    "rsi": 64.2,
    "trade_on": "Spot",
@@ -209,15 +209,60 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2596,
-   "last_ts": "2026-10-27T18:55:24+00:00",
-   "move_pct": 1.05,
+   "last": 0.2595,
+   "last_ts": "2026-10-27T19:00:35+00:00",
+   "move_pct": 1.01,
    "closed": false,
    "rsi": 68.7,
    "trade_on": "Spot",
    "market_reason": "thin perp market: spot is safer",
    "chart": "charts/API3-SPOT-1793113200.png",
    "setup": "RANGE_BREAK"
+  },
+  {
+   "id": "PENGU-SPOT-1793124000",
+   "kind": "TA",
+   "score": 1,
+   "reasons": [
+    "Chart: Retest of the 0.007658 breakout level held (2h after the break)",
+    "Timeframes: 1d down, 4h down, 4h structure higher highs/lows",
+    "Next resistance 0.0079987 (2.4R away, 4h swing/swing/volume node)",
+    "Stop 0.0076006 (below the breakout level); targets at the next 3 level(s)",
+    "BTC 4h trend down",
+    "Weaker than BTC by 2.9% over 7d",
+    "OI +4% 24h",
+    "Sector: Meme Token -1.8% 7d (leading, #2 of 20)",
+    "Track record: +0.0R on PENGU in the last 45 days (backtest)"
+   ],
+   "coin": "PENGU",
+   "market": "SPOT",
+   "side": "LONG",
+   "entry": 0.007724,
+   "sl0": 0.007606554040454992,
+   "sl": 0.007606554040454992,
+   "tps": [
+    0.007990554274793052,
+    0.008204034208481203,
+    0.008364558903998174
+   ],
+   "lev": null,
+   "funding_pct": null,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-10-27T19:00:00+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.007724,
+   "last_ts": "2026-10-27T19:00:35+00:00",
+   "move_pct": 0.0,
+   "closed": false,
+   "rsi": 64.2,
+   "trade_on": "Spot",
+   "market_reason": "thin perp market: spot is safer",
+   "chart": "charts/PENGU-SPOT-1793124000.png",
+   "setup": "RETEST"
   }
  ],
  "closed": [
@@ -2453,7 +2498,7 @@
     "total_pct": -5.43
    }
   },
-  "open": 5
+  "open": 6
  },
  "backtest": {
   "from": "2026-07-24",
@@ -5958,28 +6003,6 @@
     ]
    },
    {
-    "id": "solana-meme-coins",
-    "name": "Solana Meme Coins",
-    "chg7d": -4.8,
-    "top": [
-     "TRUMP",
-     "PENGU",
-     "BONK",
-     "WIF",
-     "USELESS"
-    ],
-    "tracked": [
-     "TRUMP",
-     "USELESS",
-     "PENGU",
-     "WIF",
-     "FARTCOIN",
-     "BONK",
-     "MEW",
-     "PNUT"
-    ]
-   },
-   {
     "id": "privacy-coins",
     "name": "Privacy Coins",
     "chg7d": -4.96,
@@ -6075,6 +6098,28 @@
      "VVV",
      "ICP",
      "DATA"
+    ]
+   },
+   {
+    "id": "solana-meme-coins",
+    "name": "Solana Meme Coins",
+    "chg7d": -5.71,
+    "top": [
+     "PENGU",
+     "TRUMP",
+     "BONK",
+     "WIF",
+     "USELESS"
+    ],
+    "tracked": [
+     "TRUMP",
+     "USELESS",
+     "PENGU",
+     "WIF",
+     "FARTCOIN",
+     "BONK",
+     "MEW",
+     "PNUT"
     ]
    },
    {
@@ -6328,7 +6373,7 @@
   "updated": {
    "unlocks": 1793115627,
    "onchain": 1793126426,
-   "sectors": 1793126723,
+   "sectors": 1793127635,
    "listings": 1793126723,
    "fundamentals": 1793115628
   }
@@ -6367,6 +6412,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "6633a76bf11a5cf5081e481df1fc6f5a7767a13aa850b15bc8fa5b6321798a23",
- "generated": "2026-10-27T18:55:28+00:00"
+ "digest": "ca05f1636ed2d7cdbb7e104c892a98375acedc34b278cad38458eec87ea4c2d9",
+ "generated": "2026-10-27T19:01:21+00:00"
 }
