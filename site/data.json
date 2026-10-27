@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002825,
-   "last_ts": "2026-10-27T01:41:23+00:00",
-   "move_pct": 9.2,
+   "last": 0.002821,
+   "last_ts": "2026-10-27T01:45:24+00:00",
+   "move_pct": 9.05,
    "closed": false,
    "rsi": 54.2,
    "trade_on": "Perps 1x",
@@ -78,9 +78,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1489,
-   "last_ts": "2026-10-27T01:41:23+00:00",
-   "move_pct": 0.07,
+   "last": 0.149,
+   "last_ts": "2026-10-27T01:45:24+00:00",
+   "move_pct": -0.0,
    "closed": false,
    "rsi": 35.9,
    "trade_on": "Perps 1x",
@@ -122,9 +122,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.07115,
-   "last_ts": "2026-10-27T01:41:23+00:00",
-   "move_pct": -0.97,
+   "last": 0.0712,
+   "last_ts": "2026-10-27T01:45:24+00:00",
+   "move_pct": -0.9,
    "closed": false,
    "rsi": 63.9,
    "trade_on": "Spot",
@@ -167,9 +167,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 283.42,
-   "last_ts": "2026-10-27T01:41:23+00:00",
-   "move_pct": 0.75,
+   "last": 283.88,
+   "last_ts": "2026-10-27T01:45:24+00:00",
+   "move_pct": 0.91,
    "closed": false,
    "rsi": 56.6,
    "trade_on": "Spot",
@@ -207,9 +207,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002216,
-   "last_ts": "2026-10-27T01:41:23+00:00",
-   "move_pct": 13.52,
+   "last": 0.00231,
+   "last_ts": "2026-10-27T01:45:24+00:00",
+   "move_pct": 18.34,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -252,15 +252,55 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.08036,
-   "last_ts": "2026-10-27T01:41:23+00:00",
-   "move_pct": -1.54,
+   "last": 0.0798,
+   "last_ts": "2026-10-27T01:45:24+00:00",
+   "move_pct": -2.23,
    "closed": false,
    "rsi": 56.3,
    "trade_on": "Spot",
    "market_reason": "thin perp market: spot is safer",
    "chart": "charts/BREV-SPOT-1793059200.png",
    "setup": "BOS"
+  },
+  {
+   "id": "CHIP-SPOT-HOT-20753",
+   "kind": "HOT",
+   "score": 570.09,
+   "reasons": [
+    "24h hot mover +21% with volume spike (4.2x the prior 3 days)",
+    "24h volume $2.7M on the OKX spot book, listed 186 days",
+    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
+    "Stop 0.0482 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
+   ],
+   "coin": "CHIP",
+   "market": "SPOT",
+   "side": "LONG",
+   "entry": 0.05155,
+   "sl0": 0.04819969498818433,
+   "sl": 0.04819969498818433,
+   "tps": [
+    0.05490030501181567,
+    0.058250610023631334,
+    0.061600915035447006
+   ],
+   "lev": null,
+   "funding_pct": null,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-10-27T01:45:24+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.05155,
+   "last_ts": "2026-10-27T01:45:24+00:00",
+   "move_pct": 0.0,
+   "closed": false,
+   "rsi": null,
+   "trade_on": "Spot",
+   "market_reason": "very volatile coin: spot avoids liquidation",
+   "chart": "charts/CHIP-SPOT-HOT-20753.png",
+   "setup": "HOT24"
   }
  ],
  "closed": [
@@ -2141,7 +2181,7 @@
     "total_pct": -5.43
    }
   },
-  "open": 6
+  "open": 7
  },
  "backtest": {
   "from": "2026-07-24",
@@ -5812,7 +5852,7 @@
    {
     "id": "privacy-coins",
     "name": "Privacy Coins",
-    "chg7d": -6.62,
+    "chg7d": -6.07,
     "top": [
      "ZEC",
      "XMR",
@@ -6010,7 +6050,7 @@
   "updated": {
    "unlocks": 1793050227,
    "onchain": 1793065224,
-   "sectors": 1793064627,
+   "sectors": 1793065524,
    "listings": 1793062224,
    "fundamentals": 1793050228
   }
@@ -6049,6 +6089,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "6e1a219d1f86f5da381f2c7a1b9a14ad2054106b3611b25893190e3b37d1c06a",
- "generated": "2026-10-27T01:41:25+00:00"
+ "digest": "cbc32b8737c175eb474058b8a0caad9bcd636b54267e9954bc16ea2b569d7b7a",
+ "generated": "2026-10-27T01:45:29+00:00"
 }
