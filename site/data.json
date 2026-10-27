@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 290.8,
-   "last_ts": "2026-10-27T17:10:23+00:00",
-   "move_pct": 3.37,
+   "last": 290.88,
+   "last_ts": "2026-10-27T17:16:15+00:00",
+   "move_pct": 3.4,
    "closed": false,
    "rsi": 56.6,
    "trade_on": "Spot",
@@ -75,9 +75,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0536,
-   "last_ts": "2026-10-27T17:10:23+00:00",
-   "move_pct": 3.98,
+   "last": 0.0538,
+   "last_ts": "2026-10-27T17:16:15+00:00",
+   "move_pct": 4.36,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -119,9 +119,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.06473,
-   "last_ts": "2026-10-27T17:10:23+00:00",
-   "move_pct": -1.11,
+   "last": 0.0645,
+   "last_ts": "2026-10-27T17:16:15+00:00",
+   "move_pct": -0.75,
    "closed": false,
    "rsi": 40.8,
    "trade_on": "Perps 1x",
@@ -164,9 +164,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.02233,
-   "last_ts": "2026-10-27T17:10:23+00:00",
-   "move_pct": 3.57,
+   "last": 0.02225,
+   "last_ts": "2026-10-27T17:16:15+00:00",
+   "move_pct": 3.2,
    "closed": false,
    "rsi": 64.2,
    "trade_on": "Spot",
@@ -209,9 +209,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2579,
-   "last_ts": "2026-10-27T17:10:23+00:00",
-   "move_pct": 0.39,
+   "last": 0.2578,
+   "last_ts": "2026-10-27T17:16:15+00:00",
+   "move_pct": 0.35,
    "closed": false,
    "rsi": 68.7,
    "trade_on": "Spot",
@@ -5828,6 +5828,26 @@
     ]
    },
    {
+    "id": "oracle",
+    "name": "Oracle",
+    "chg7d": -3.25,
+    "top": [
+     "LINK",
+     "PYTH",
+     "RED",
+     "WIN",
+     "TRB"
+    ],
+    "tracked": [
+     "LINK",
+     "PYTH",
+     "TRB",
+     "API3",
+     "AT",
+     "ZKP"
+    ]
+   },
+   {
     "id": "layer-2",
     "name": "Layer 2",
     "chg7d": -3.37,
@@ -5847,26 +5867,6 @@
      "OKB",
      "OP",
      "POL"
-    ]
-   },
-   {
-    "id": "oracle",
-    "name": "Oracle",
-    "chg7d": -3.46,
-    "top": [
-     "LINK",
-     "PYTH",
-     "RED",
-     "WIN",
-     "TRB"
-    ],
-    "tracked": [
-     "LINK",
-     "PYTH",
-     "TRB",
-     "API3",
-     "AT",
-     "ZKP"
     ]
    },
    {
@@ -6328,7 +6328,7 @@
   "updated": {
    "unlocks": 1793115627,
    "onchain": 1793119225,
-   "sectors": 1793120431,
+   "sectors": 1793121375,
    "listings": 1793118925,
    "fundamentals": 1793115628
   }
@@ -6367,6 +6367,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "14d0842e5d1da3a027c1774321b0918892909a471396269a4537c4af236a2456",
- "generated": "2026-10-27T17:10:26+00:00"
+ "digest": "35e22265209d7a0319070ef61c1ee93b37259bf8e4280f234a685a071555d8c1",
+ "generated": "2026-10-27T17:16:18+00:00"
 }
