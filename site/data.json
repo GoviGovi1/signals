@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 288.3,
-   "last_ts": "2026-10-27T15:20:24+00:00",
-   "move_pct": 2.48,
+   "last": 289.6,
+   "last_ts": "2026-10-27T15:25:46+00:00",
+   "move_pct": 2.95,
    "closed": false,
    "rsi": 56.6,
    "trade_on": "Spot",
@@ -75,9 +75,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.05331,
-   "last_ts": "2026-10-27T15:20:24+00:00",
-   "move_pct": 3.41,
+   "last": 0.05346,
+   "last_ts": "2026-10-27T15:25:46+00:00",
+   "move_pct": 3.71,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -119,9 +119,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.06434,
-   "last_ts": "2026-10-27T15:20:24+00:00",
-   "move_pct": -0.5,
+   "last": 0.0647,
+   "last_ts": "2026-10-27T15:25:46+00:00",
+   "move_pct": -1.06,
    "closed": false,
    "rsi": 40.8,
    "trade_on": "Perps 1x",
@@ -164,16 +164,18 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.02256,
-   "last_ts": "2026-10-27T15:20:24+00:00",
-   "move_pct": 4.64,
+   "last": 0.02262,
+   "last_ts": "2026-10-27T15:25:46+00:00",
+   "move_pct": 4.92,
    "closed": false,
    "rsi": 64.2,
    "trade_on": "Spot",
    "market_reason": "thin perp market: spot is safer",
    "chart": "charts/SENT-SPOT-1793088000.png",
    "setup": "BREAKOUT20"
-  },
+  }
+ ],
+ "closed": [
   {
    "id": "BARD-PERP-1793091600",
    "kind": "TA",
@@ -201,25 +203,23 @@
    ],
    "lev": 1,
    "funding_pct": 0.005,
-   "status": "open",
+   "status": "stopped",
    "hits": 0,
    "opened": "2026-10-27T10:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.1101,
-   "last_ts": "2026-10-27T15:20:24+00:00",
+   "closed_at": "2026-10-27T15:25:46+00:00",
+   "exit_price": 0.1103300307262798,
+   "result_r": -1.0,
+   "result_pct": -1.97,
+   "last": 0.1107,
+   "last_ts": "2026-10-27T15:25:46+00:00",
    "move_pct": -1.76,
-   "closed": false,
+   "closed": true,
    "rsi": 36.8,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": "charts/BARD-PERP-1793091600.png",
    "setup": "BREAKOUT20"
-  }
- ],
- "closed": [
+  },
   {
    "id": "BEAT-PERP-HOT-20753",
    "kind": "HOT",
@@ -2000,13 +2000,13 @@
  ],
  "stats": {
   "all": {
-   "trades": 42,
+   "trades": 43,
    "wins": 24,
-   "losses": 18,
-   "win_rate": 57.1,
-   "total_r": 17.08,
-   "avg_r": 0.407,
-   "total_pct": 73.64
+   "losses": 19,
+   "win_rate": 55.8,
+   "total_r": 16.08,
+   "avg_r": 0.374,
+   "total_pct": 71.67
   },
   "SPOT": {
    "trades": 11,
@@ -2018,13 +2018,13 @@
    "total_pct": 37.3
   },
   "PERP": {
-   "trades": 28,
+   "trades": 29,
    "wins": 16,
-   "losses": 12,
-   "win_rate": 57.1,
-   "total_r": 9.84,
-   "avg_r": 0.351,
-   "total_pct": 16.75
+   "losses": 13,
+   "win_rate": 55.2,
+   "total_r": 8.84,
+   "avg_r": 0.305,
+   "total_pct": 14.78
   },
   "DEX": {
    "trades": 3,
@@ -2055,13 +2055,13 @@
     "total_pct": 19.59
    },
    "TA": {
-    "trades": 28,
+    "trades": 29,
     "wins": 15,
-    "losses": 13,
-    "win_rate": 53.6,
-    "total_r": 10.33,
-    "avg_r": 0.369,
-    "total_pct": 19.39
+    "losses": 14,
+    "win_rate": 51.7,
+    "total_r": 9.33,
+    "avg_r": 0.322,
+    "total_pct": 17.42
    }
   },
   "coins": {
@@ -2136,6 +2136,15 @@
     "total_r": -1.0,
     "avg_r": -1.0,
     "total_pct": -2.29
+   },
+   "BARD": {
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate": 0.0,
+    "total_r": -1.0,
+    "avg_r": -1.0,
+    "total_pct": -1.97
    },
    "BASED": {
     "trades": 1,
@@ -2399,7 +2408,7 @@
     "total_pct": -5.43
    }
   },
-  "open": 5
+  "open": 4
  },
  "backtest": {
   "from": "2026-07-24",
@@ -6361,6 +6370,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "b72e8c5c7e4b5d55c72360e8604d5e37faadd67dab18ac5579172cbe2775834e",
- "generated": "2026-10-27T15:20:28+00:00"
+ "digest": "6702a4fec76ea01c043d6cb82556779ba091ab73b5f76206c69d5c7000a0b787",
+ "generated": "2026-10-27T15:25:50+00:00"
 }
