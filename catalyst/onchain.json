@@ -1,5 +1,5 @@
 {
- "checked": 86,
+ "checked": 87,
  "errors": [],
  "rejected": [
   {
@@ -37,17 +37,17 @@
   {
    "chain": "Solana",
    "fails": [
-    "no DEX candles"
+    "liquidity under $250k",
+    "pool younger than 7 days"
    ],
-   "symbol": "STONK"
+   "symbol": "FRONGUS"
   },
   {
    "chain": "Solana",
    "fails": [
-    "liquidity under $250k",
-    "pool younger than 7 days"
+    "no DEX candles"
    ],
-   "symbol": "\u2588\u2588\u2588"
+   "symbol": "STONK"
   },
   {
    "chain": "Solana",
@@ -63,7 +63,7 @@
     "liquidity under $250k",
     "pool younger than 7 days"
    ],
-   "symbol": "FRONGUS"
+   "symbol": "CHICO"
   },
   {
    "chain": "Solana",
@@ -75,17 +75,17 @@
   {
    "chain": "Solana",
    "fails": [
-    "no DEX candles"
+    "liquidity under $250k",
+    "pool younger than 7 days"
    ],
-   "symbol": "LMAO!"
+   "symbol": "\u2588\u2588\u2588"
   },
   {
    "chain": "Solana",
    "fails": [
-    "liquidity under $250k",
-    "pool younger than 7 days"
+    "no DEX candles"
    ],
-   "symbol": "CHICO"
+   "symbol": "LMAO!"
   },
   {
    "chain": "Solana",
@@ -197,7 +197,7 @@
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "WIRON"
+   "symbol": "VVV"
   },
   {
    "chain": "Base",
@@ -205,13 +205,6 @@
     "no DEX candles"
    ],
    "symbol": "KTA"
-  },
-  {
-   "chain": "Base",
-   "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "VVV"
   },
   {
    "chain": "Base",
@@ -271,6 +264,13 @@
    "symbol": "FLOWER"
   },
   {
+   "chain": "Base",
+   "fails": [
+    "liquidity under $250k"
+   ],
+   "symbol": "WIRON"
+  },
+  {
    "chain": "BSC",
    "fails": [
     "no DEX candles"
@@ -300,27 +300,27 @@
   }
  ],
  "rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
- "updated": 1793137223,
+ "updated": 1793140825,
  "watchlist": [
   {
    "age_d": 124.3,
-   "atr": 0.0048290833605356106,
-   "bar_ts": 1793131200000,
+   "atr": 0.004741591295115036,
+   "bar_ts": 1793134800000,
    "chain": "BSC",
-   "chg24h": -1.009,
-   "chg7d": 46.6,
-   "close": 0.099535156362744,
-   "ema20": 0.09810279446598746,
-   "ema50": 0.09619670945531424,
+   "chg24h": -3.863,
+   "chg7d": 42.5,
+   "close": 0.0974269148421868,
+   "ema20": 0.09803842497452143,
+   "ema50": 0.09624478599838002,
    "fails": [],
    "gecko_id": "cap-4",
-   "liq": 1245284,
-   "mcap": 154590237.8592,
+   "liq": 1239680,
+   "mcap": 149021867.5608,
    "name": "Cap",
    "net": "bsc",
    "pool": "0x3bca91b9b847cff6f4b666fa1d966981678975e13fd69d647bd11bed99f5fa14",
-   "price": 0.0990963063246715,
-   "rsi": 54.4,
+   "price": 0.0955142116817745,
+   "rsi": 49.0,
    "safety": "ok",
    "safety_notes": [],
    "symbol": "CAP",
@@ -328,27 +328,27 @@
    "trend_up": true,
    "trigger": false,
    "url": "https://www.geckoterminal.com/bsc/pools/0x3bca91b9b847cff6f4b666fa1d966981678975e13fd69d647bd11bed99f5fa14",
-   "vol24h": 10507075
+   "vol24h": 10467245
   },
   {
-   "age_d": 280.5,
-   "atr": 0.002283407532050954,
-   "bar_ts": 1793131200000,
+   "age_d": 280.6,
+   "atr": 0.002217777429490979,
+   "bar_ts": 1793134800000,
    "chain": "Base",
-   "chg24h": 3.21,
-   "chg7d": 22.5,
-   "close": 0.079595362288046,
-   "ema20": 0.07960101395977996,
-   "ema50": 0.07769777148459366,
+   "chg24h": 1.713,
+   "chg7d": 22.1,
+   "close": 0.0789277189227827,
+   "ema20": 0.07953689062834028,
+   "ema50": 0.07774607797129869,
    "fails": [],
    "gecko_id": "elsa",
-   "liq": 524752,
-   "mcap": 18222980.5947204,
+   "liq": 518964,
+   "mcap": 17960564.4886094,
    "name": "Elsa",
    "net": "base",
    "pool": "0x83f3aca29bc79b048b99c56013475570acc97ccf",
-   "price": 0.0795832849778143,
-   "rsi": 52.0,
+   "price": 0.0784519851806625,
+   "rsi": 49.6,
    "safety": "ok",
    "safety_notes": [],
    "symbol": "ELSA",
@@ -356,7 +356,7 @@
    "trend_up": true,
    "trigger": false,
    "url": "https://www.geckoterminal.com/base/pools/0x83f3aca29bc79b048b99c56013475570acc97ccf",
-   "vol24h": 5047367
+   "vol24h": 4947942
   }
  ]
 }
