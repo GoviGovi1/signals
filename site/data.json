@@ -1,50 +1,6 @@
 {
  "open": [
   {
-   "id": "BERA-PERP-1792922400",
-   "kind": "TA",
-   "score": 1,
-   "reasons": [
-    "Chart: Broke the 20-hour low on 0.9x volume",
-    "Timeframes: 1d down, 4h down, 4h structure lower highs/lows",
-    "No support below in the last 50 days",
-    "Stop 0.15506 (structure); targets at 1R/2R/3R",
-    "BTC 4h trend down",
-    "Weaker than BTC by 12.0% over 7d",
-    "OI +13% 24h with breakout",
-    "Track record: +1.4R on BERA in the last 45 days (backtest)"
-   ],
-   "coin": "BERA",
-   "market": "PERP",
-   "side": "SHORT",
-   "entry": 0.149,
-   "sl0": 0.15506481081328072,
-   "sl": 0.15506481081328072,
-   "tps": [
-    0.14293518918671927,
-    0.13687037837343854,
-    0.13080556756015782
-   ],
-   "lev": 1,
-   "funding_pct": -0.0262,
-   "status": "open",
-   "hits": 0,
-   "opened": "2026-10-25T11:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.1483,
-   "last_ts": "2026-10-27T10:55:20+00:00",
-   "move_pct": 0.47,
-   "closed": false,
-   "rsi": 35.9,
-   "trade_on": "Perps 1x",
-   "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": "charts/BERA-PERP-1792922400.png",
-   "setup": "BREAKOUT20"
-  },
-  {
    "id": "BCH-SPOT-1793034000",
    "kind": "TA",
    "score": 0,
@@ -79,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 281.01,
-   "last_ts": "2026-10-27T10:55:20+00:00",
-   "move_pct": -0.11,
+   "last": 280.79,
+   "last_ts": "2026-10-27T11:00:30+00:00",
+   "move_pct": -0.18,
    "closed": false,
    "rsi": 56.6,
    "trade_on": "Spot",
@@ -119,9 +75,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.05071,
-   "last_ts": "2026-10-27T10:55:20+00:00",
-   "move_pct": -1.63,
+   "last": 0.05185,
+   "last_ts": "2026-10-27T11:00:30+00:00",
+   "move_pct": 0.58,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -163,9 +119,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.06248,
-   "last_ts": "2026-10-27T10:55:20+00:00",
-   "move_pct": 2.41,
+   "last": 0.06287,
+   "last_ts": "2026-10-27T11:00:30+00:00",
+   "move_pct": 1.8,
    "closed": false,
    "rsi": 40.8,
    "trade_on": "Perps 1x",
@@ -203,9 +159,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0813,
-   "last_ts": "2026-10-27T10:55:20+00:00",
-   "move_pct": 2.91,
+   "last": 0.08215,
+   "last_ts": "2026-10-27T11:00:30+00:00",
+   "move_pct": 3.99,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -248,9 +204,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.02151,
-   "last_ts": "2026-10-27T10:55:20+00:00",
-   "move_pct": -0.23,
+   "last": 0.02144,
+   "last_ts": "2026-10-27T11:00:30+00:00",
+   "move_pct": -0.56,
    "closed": false,
    "rsi": 64.2,
    "trade_on": "Spot",
@@ -292,9 +248,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1088,
-   "last_ts": "2026-10-27T10:55:20+00:00",
-   "move_pct": -0.55,
+   "last": 0.1089,
+   "last_ts": "2026-10-27T11:00:30+00:00",
+   "move_pct": -0.65,
    "closed": false,
    "rsi": 36.8,
    "trade_on": "Perps 1x",
@@ -304,6 +260,50 @@
   }
  ],
  "closed": [
+  {
+   "id": "BERA-PERP-1792922400",
+   "kind": "TA",
+   "score": 1,
+   "reasons": [
+    "Chart: Broke the 20-hour low on 0.9x volume",
+    "Timeframes: 1d down, 4h down, 4h structure lower highs/lows",
+    "No support below in the last 50 days",
+    "Stop 0.15506 (structure); targets at 1R/2R/3R",
+    "BTC 4h trend down",
+    "Weaker than BTC by 12.0% over 7d",
+    "OI +13% 24h with breakout",
+    "Track record: +1.4R on BERA in the last 45 days (backtest)"
+   ],
+   "coin": "BERA",
+   "market": "PERP",
+   "side": "SHORT",
+   "entry": 0.149,
+   "sl0": 0.15506481081328072,
+   "sl": 0.15506481081328072,
+   "tps": [
+    0.14293518918671927,
+    0.13687037837343854,
+    0.13080556756015782
+   ],
+   "lev": 1,
+   "funding_pct": -0.0262,
+   "status": "expired",
+   "hits": 0,
+   "opened": "2026-10-25T11:00:00+00:00",
+   "closed_at": "2026-10-27T11:00:30+00:00",
+   "exit_price": 0.1487,
+   "result_r": 0.05,
+   "result_pct": 0.2,
+   "last": 0.1487,
+   "last_ts": "2026-10-27T11:00:30+00:00",
+   "move_pct": 0.47,
+   "closed": true,
+   "rsi": 35.9,
+   "trade_on": "Perps 1x",
+   "market_reason": "shorts need perps; thin perp market, so 1x",
+   "chart": "charts/BERA-PERP-1792922400.png",
+   "setup": "BREAKOUT20"
+  },
   {
    "id": "TRIA-PERP-1792900800",
    "kind": "TA",
@@ -2000,13 +2000,13 @@
  ],
  "stats": {
   "all": {
-   "trades": 40,
-   "wins": 22,
+   "trades": 41,
+   "wins": 23,
    "losses": 18,
-   "win_rate": 55.0,
-   "total_r": 14.78,
-   "avg_r": 0.369,
-   "total_pct": 58.24
+   "win_rate": 56.1,
+   "total_r": 14.83,
+   "avg_r": 0.362,
+   "total_pct": 58.44
   },
   "SPOT": {
    "trades": 11,
@@ -2018,13 +2018,13 @@
    "total_pct": 37.3
   },
   "PERP": {
-   "trades": 26,
-   "wins": 14,
+   "trades": 27,
+   "wins": 15,
    "losses": 12,
-   "win_rate": 53.8,
-   "total_r": 7.54,
-   "avg_r": 0.29,
-   "total_pct": 1.35
+   "win_rate": 55.6,
+   "total_r": 7.59,
+   "avg_r": 0.281,
+   "total_pct": 1.55
   },
   "DEX": {
    "trades": 3,
@@ -2055,13 +2055,13 @@
     "total_pct": 19.59
    },
    "TA": {
-    "trades": 27,
-    "wins": 14,
+    "trades": 28,
+    "wins": 15,
     "losses": 13,
-    "win_rate": 51.9,
-    "total_r": 10.28,
-    "avg_r": 0.381,
-    "total_pct": 19.19
+    "win_rate": 53.6,
+    "total_r": 10.33,
+    "avg_r": 0.369,
+    "total_pct": 19.39
    }
   },
   "coins": {
@@ -2154,6 +2154,15 @@
     "total_r": 4.56,
     "avg_r": 4.561,
     "total_pct": 6.76
+   },
+   "BERA": {
+    "trades": 1,
+    "wins": 1,
+    "losses": 0,
+    "win_rate": 100.0,
+    "total_r": 0.05,
+    "avg_r": 0.05,
+    "total_pct": 0.2
    },
    "BNB": {
     "trades": 1,
@@ -2390,7 +2399,7 @@
     "total_pct": -5.43
    }
   },
-  "open": 7
+  "open": 6
  },
  "backtest": {
   "from": "2026-07-24",
@@ -5869,6 +5878,28 @@
     ]
    },
    {
+    "id": "decentralized-exchange",
+    "name": "Decentralized Exchange",
+    "chg7d": -4.33,
+    "top": [
+     "HYPE",
+     "UNI",
+     "PUMP",
+     "ASTER",
+     "JUP"
+    ],
+    "tracked": [
+     "HYPE",
+     "PUMP",
+     "UNI",
+     "LIT",
+     "CRV",
+     "ASTER",
+     "RAY",
+     "AERO"
+    ]
+   },
+   {
     "id": "layer-2",
     "name": "Layer 2",
     "chg7d": -4.51,
@@ -5903,28 +5934,6 @@
     ],
     "tracked": [
      "ZEC"
-    ]
-   },
-   {
-    "id": "decentralized-exchange",
-    "name": "Decentralized Exchange",
-    "chg7d": -4.85,
-    "top": [
-     "HYPE",
-     "UNI",
-     "PUMP",
-     "ASTER",
-     "JUP"
-    ],
-    "tracked": [
-     "HYPE",
-     "PUMP",
-     "UNI",
-     "LIT",
-     "CRV",
-     "ASTER",
-     "RAY",
-     "AERO"
     ]
    },
    {
@@ -6239,7 +6248,7 @@
   "updated": {
    "unlocks": 1793094023,
    "onchain": 1793097620,
-   "sectors": 1793097927,
+   "sectors": 1793098830,
    "listings": 1793096125,
    "fundamentals": 1793094024
   }
@@ -6278,6 +6287,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "07fa9cdb743e884443d7535aaa884c98c8014f884f02f667c3a7d0e33e3bbfd7",
- "generated": "2026-10-27T10:55:23+00:00"
+ "digest": "c7b040bba9cdbb2215e518d22cc2b124d875831573aee36801fc67475dee0f17",
+ "generated": "2026-10-27T11:01:03+00:00"
 }
