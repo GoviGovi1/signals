@@ -26,7 +26,7 @@
     0.13080556756015782
    ],
    "lev": 1,
-   "funding_pct": -0.0125,
+   "funding_pct": -0.0128,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-25T11:00:00+00:00",
@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1492,
-   "last_ts": "2026-10-27T07:10:22+00:00",
-   "move_pct": -0.13,
+   "last": 0.1488,
+   "last_ts": "2026-10-27T07:15:26+00:00",
+   "move_pct": 0.13,
    "closed": false,
    "rsi": 35.9,
    "trade_on": "Perps 1x",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 280.65,
-   "last_ts": "2026-10-27T07:10:22+00:00",
-   "move_pct": -0.23,
+   "last": 280.13,
+   "last_ts": "2026-10-27T07:15:26+00:00",
+   "move_pct": -0.42,
    "closed": false,
    "rsi": 56.6,
    "trade_on": "Spot",
@@ -119,9 +119,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.05108,
-   "last_ts": "2026-10-27T07:10:22+00:00",
-   "move_pct": -0.91,
+   "last": 0.05118,
+   "last_ts": "2026-10-27T07:15:26+00:00",
+   "move_pct": -0.72,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -155,7 +155,7 @@
     0.05559159783668399
    ],
    "lev": 1,
-   "funding_pct": 0.0026,
+   "funding_pct": -0.0,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-27T02:00:00+00:00",
@@ -163,9 +163,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.06325,
-   "last_ts": "2026-10-27T07:10:22+00:00",
-   "move_pct": 1.2,
+   "last": 0.06326,
+   "last_ts": "2026-10-27T07:15:26+00:00",
+   "move_pct": 1.19,
    "closed": false,
    "rsi": 40.8,
    "trade_on": "Perps 1x",
@@ -203,9 +203,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.08176,
-   "last_ts": "2026-10-27T07:10:22+00:00",
-   "move_pct": 3.49,
+   "last": 0.0818,
+   "last_ts": "2026-10-27T07:15:26+00:00",
+   "move_pct": 3.54,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -5676,28 +5676,6 @@
     ]
    },
    {
-    "id": "oracle",
-    "name": "Oracle",
-    "chg7d": -3.7,
-    "top": [
-     "LINK",
-     "PYTH",
-     "RED",
-     "WIN",
-     "TRB"
-    ],
-    "tracked": [
-     "LINK",
-     "PYTH",
-     "TRB",
-     "AT",
-     "API3",
-     "ZKP",
-     "BAND",
-     "WIN"
-    ]
-   },
-   {
     "id": "exchange-based-tokens",
     "name": "Exchange Based Tokens",
     "chg7d": -3.9,
@@ -5737,6 +5715,28 @@
      "MORPHO",
      "KMNO",
      "SPK"
+    ]
+   },
+   {
+    "id": "oracle",
+    "name": "Oracle",
+    "chg7d": -3.94,
+    "top": [
+     "LINK",
+     "PYTH",
+     "RED",
+     "WIN",
+     "TRB"
+    ],
+    "tracked": [
+     "LINK",
+     "PYTH",
+     "TRB",
+     "AT",
+     "API3",
+     "ZKP",
+     "BAND",
+     "WIN"
     ]
    },
    {
@@ -6155,7 +6155,7 @@
   "updated": {
    "unlocks": 1793072121,
    "onchain": 1793083224,
-   "sectors": 1793084428,
+   "sectors": 1793085325,
    "listings": 1793084724,
    "fundamentals": 1793072121
   }
@@ -6194,6 +6194,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "0349f1d31b73df62b77115b323de714538afe1211b11b93cdb53ff61e5359f8f",
- "generated": "2026-10-27T07:10:25+00:00"
+ "digest": "ceb17e3afc5ab945b81ab18e4309645f8fcaad14a9d68dcedb44f7866abcf31c",
+ "generated": "2026-10-27T07:15:28+00:00"
 }
