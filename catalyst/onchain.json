@@ -1,5 +1,5 @@
 {
- "checked": 85,
+ "checked": 87,
  "errors": [],
  "rejected": [
   {
@@ -39,6 +39,14 @@
     "liquidity under $250k",
     "pool younger than 7 days"
    ],
+   "symbol": "\u2588\u2588\u2588"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "liquidity under $250k",
+    "pool younger than 7 days"
+   ],
    "symbol": "RAYPAD"
   },
   {
@@ -55,7 +63,7 @@
     "liquidity under $250k",
     "pool younger than 7 days"
    ],
-   "symbol": "\u2588\u2588\u2588"
+   "symbol": "NOTHING"
   },
   {
    "chain": "Solana",
@@ -67,17 +75,16 @@
   {
    "chain": "Solana",
    "fails": [
-    "liquidity under $250k",
     "pool younger than 7 days"
    ],
-   "symbol": "NOTHING"
+   "symbol": "KIMCHI"
   },
   {
    "chain": "Solana",
    "fails": [
-    "pool younger than 7 days"
+    "no DEX candles"
    ],
-   "symbol": "KIMCHI"
+   "symbol": "CATE"
   },
   {
    "chain": "Solana",
@@ -92,13 +99,6 @@
     "liquidity under $250k"
    ],
    "symbol": "SWORDCAT"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "CATE"
   },
   {
    "chain": "Solana",
@@ -255,6 +255,20 @@
   {
    "chain": "Base",
    "fails": [
+    "no DEX candles"
+   ],
+   "symbol": "ELSA"
+  },
+  {
+   "chain": "Base",
+   "fails": [
+    "24h volume under $250k"
+   ],
+   "symbol": "BNKR"
+  },
+  {
+   "chain": "Base",
+   "fails": [
     "liquidity under $250k",
     "24h volume under $250k"
    ],
@@ -268,20 +282,6 @@
    "symbol": "GULD"
   },
   {
-   "chain": "Base",
-   "fails": [
-    "24h volume under $250k"
-   ],
-   "symbol": "BNKR"
-  },
-  {
-   "chain": "BSC",
-   "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "JCT"
-  },
-  {
    "chain": "BSC",
    "fails": [
     "no DEX candles"
@@ -293,31 +293,31 @@
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "ARIA"
+   "symbol": "JCT"
   }
  ],
  "rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
- "updated": 1793072425,
+ "updated": 1793076025,
  "watchlist": [
   {
    "age_d": 75.7,
-   "atr": 0.003205245187070489,
-   "bar_ts": 1793066400000,
+   "atr": 0.0031051597358546573,
+   "bar_ts": 1793070000000,
    "chain": "Solana",
-   "chg24h": 3.019,
-   "chg7d": 10.8,
-   "close": 0.12639062806937099,
-   "ema20": 0.12837193394674262,
-   "ema50": 0.1260926063754184,
+   "chg24h": -1.028,
+   "chg7d": 15.5,
+   "close": 0.12696627783702286,
+   "ema20": 0.12823806194156023,
+   "ema50": 0.1261267939455879,
    "fails": [],
    "gecko_id": "stonk-3",
-   "liq": 2478259,
-   "mcap": 99596325.0564218,
+   "liq": 2411630,
+   "mcap": 97906988.0558042,
    "name": "STONK",
    "net": "solana",
    "pool": "zxTpi4BtaWX3mgdAPoezkMD1hxx8CdeCfrqXMWvSCLX",
-   "price": 0.12711497408870717,
-   "rsi": 45.8,
+   "price": 0.12497641305472167,
+   "rsi": 47.3,
    "safety": "ok",
    "safety_notes": [],
    "symbol": "STONK",
@@ -325,27 +325,27 @@
    "trend_up": true,
    "trigger": false,
    "url": "https://www.geckoterminal.com/solana/pools/zxTpi4BtaWX3mgdAPoezkMD1hxx8CdeCfrqXMWvSCLX",
-   "vol24h": 4953222
+   "vol24h": 5015649
   },
   {
-   "age_d": 312.6,
-   "atr": 0.002719867127195614,
-   "bar_ts": 1793066400000,
+   "age_d": 312.7,
+   "atr": 0.0027788303100280097,
+   "bar_ts": 1793070000000,
    "chain": "BSC",
-   "chg24h": -17.488,
-   "chg7d": 153.3,
-   "close": 0.0322033688815468,
-   "ema20": 0.030116701096663447,
-   "ema50": 0.03476133818313396,
+   "chg24h": -13.57,
+   "chg7d": 135.2,
+   "close": 0.0299851235904611,
+   "ema20": 0.030104169905786654,
+   "ema50": 0.03457404568747372,
    "fails": [],
    "gecko_id": "irys",
-   "liq": 554106,
-   "mcap": 61692100.62,
+   "liq": 553362,
+   "mcap": 61367008.9,
    "name": "Irys",
    "net": "bsc",
    "pool": "0x73de8b8d37fac1afe156f6533788a0eff197d636",
-   "price": 0.0308826745464574,
-   "rsi": 53.7,
+   "price": 0.0306974559749218,
+   "rsi": 46.8,
    "safety": "ok",
    "safety_notes": [],
    "symbol": "IRYS",
@@ -353,35 +353,7 @@
    "trend_up": false,
    "trigger": false,
    "url": "https://www.geckoterminal.com/bsc/pools/0x73de8b8d37fac1afe156f6533788a0eff197d636",
-   "vol24h": 7755445
-  },
-  {
-   "age_d": 7.2,
-   "atr": 0.002386697403843815,
-   "bar_ts": 1793066400000,
-   "chain": "Ethereum",
-   "chg24h": 20.296,
-   "chg7d": 702.3,
-   "close": 0.0156423907124936,
-   "ema20": 0.01370025874159013,
-   "ema50": 0.014994312603669567,
-   "fails": [],
-   "gecko_id": "dacity-coin-3",
-   "liq": 357266,
-   "mcap": 13696655.52,
-   "name": "Dacity Coin",
-   "net": "eth",
-   "pool": "0x8d5288b22eaef3084df16159d5491de6140e95ea",
-   "price": 0.0142359053077882,
-   "rsi": 55.1,
-   "safety": "ok",
-   "safety_notes": [],
-   "symbol": "DACITY",
-   "token": "0x54ce4b27caabba24926865f035d432dbde2901f7",
-   "trend_up": false,
-   "trigger": false,
-   "url": "https://www.geckoterminal.com/eth/pools/0x8d5288b22eaef3084df16159d5491de6140e95ea",
-   "vol24h": 3382505
+   "vol24h": 7592033
   }
  ]
 }
