@@ -26,7 +26,7 @@
     0.13080556756015782
    ],
    "lev": 1,
-   "funding_pct": -0.0203,
+   "funding_pct": -0.0205,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-25T11:00:00+00:00",
@@ -35,7 +35,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.1485,
-   "last_ts": "2026-10-27T04:25:23+00:00",
+   "last_ts": "2026-10-27T04:30:27+00:00",
    "move_pct": 0.34,
    "closed": false,
    "rsi": 35.9,
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 281.14,
-   "last_ts": "2026-10-27T04:25:23+00:00",
-   "move_pct": -0.06,
+   "last": 280.9,
+   "last_ts": "2026-10-27T04:30:27+00:00",
+   "move_pct": -0.15,
    "closed": false,
    "rsi": 56.6,
    "trade_on": "Spot",
@@ -119,9 +119,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.05113,
-   "last_ts": "2026-10-27T04:25:23+00:00",
-   "move_pct": -0.81,
+   "last": 0.05116,
+   "last_ts": "2026-10-27T04:30:27+00:00",
+   "move_pct": -0.76,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -163,9 +163,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.06283,
-   "last_ts": "2026-10-27T04:25:23+00:00",
-   "move_pct": 1.86,
+   "last": 0.06304,
+   "last_ts": "2026-10-27T04:30:27+00:00",
+   "move_pct": 1.53,
    "closed": false,
    "rsi": 40.8,
    "trade_on": "Perps 1x",
@@ -203,9 +203,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.07959,
-   "last_ts": "2026-10-27T04:25:23+00:00",
-   "move_pct": 0.75,
+   "last": 0.07961,
+   "last_ts": "2026-10-27T04:30:27+00:00",
+   "move_pct": 0.77,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -5891,9 +5891,26 @@
     ]
    },
    {
+    "id": "storage",
+    "name": "Storage",
+    "chg7d": -4.92,
+    "top": [
+     "FIL",
+     "BTT",
+     "AR",
+     "AIOZ",
+     "WAL"
+    ],
+    "tracked": [
+     "FIL",
+     "AR",
+     "WAL"
+    ]
+   },
+   {
     "id": "layer-1",
     "name": "Layer 1",
-    "chg7d": -4.91,
+    "chg7d": -5.02,
     "top": [
      "BTC",
      "ETH",
@@ -5910,23 +5927,6 @@
      "BNB",
      "AVAX",
      "ZEC"
-    ]
-   },
-   {
-    "id": "storage",
-    "name": "Storage",
-    "chg7d": -4.92,
-    "top": [
-     "FIL",
-     "BTT",
-     "AR",
-     "AIOZ",
-     "WAL"
-    ],
-    "tracked": [
-     "FIL",
-     "AR",
-     "WAL"
     ]
    },
    {
@@ -6174,7 +6174,7 @@
   "updated": {
    "unlocks": 1793072121,
    "onchain": 1793072425,
-   "sectors": 1793074521,
+   "sectors": 1793075427,
    "listings": 1793073325,
    "fundamentals": 1793072121
   }
@@ -6213,6 +6213,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "4905f42d1814e44d36cdac54d6ea15d4459e59bfc944d5bd27a3a0bf290c49d8",
- "generated": "2026-10-27T04:25:26+00:00"
+ "digest": "c1085586a0979ffdcaf0e41224666a3aa9c0fb5946e47252e75352391a3c1de6",
+ "generated": "2026-10-27T04:30:30+00:00"
 }
