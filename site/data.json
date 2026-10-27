@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 284.02,
-   "last_ts": "2026-10-27T13:25:20+00:00",
-   "move_pct": 0.96,
+   "last": 283.6,
+   "last_ts": "2026-10-27T13:30:31+00:00",
+   "move_pct": 0.81,
    "closed": false,
    "rsi": 56.6,
    "trade_on": "Spot",
@@ -75,9 +75,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.05242,
-   "last_ts": "2026-10-27T13:25:20+00:00",
-   "move_pct": 1.69,
+   "last": 0.05264,
+   "last_ts": "2026-10-27T13:30:31+00:00",
+   "move_pct": 2.11,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -119,9 +119,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.06481,
-   "last_ts": "2026-10-27T13:25:20+00:00",
-   "move_pct": -1.23,
+   "last": 0.06524,
+   "last_ts": "2026-10-27T13:30:31+00:00",
+   "move_pct": -1.91,
    "closed": false,
    "rsi": 40.8,
    "trade_on": "Perps 1x",
@@ -164,9 +164,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.02306,
-   "last_ts": "2026-10-27T13:25:20+00:00",
-   "move_pct": 6.96,
+   "last": 0.02305,
+   "last_ts": "2026-10-27T13:30:31+00:00",
+   "move_pct": 6.91,
    "closed": false,
    "rsi": 64.2,
    "trade_on": "Spot",
@@ -208,9 +208,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1088,
-   "last_ts": "2026-10-27T13:25:20+00:00",
-   "move_pct": -0.55,
+   "last": 0.1086,
+   "last_ts": "2026-10-27T13:30:31+00:00",
+   "move_pct": -0.37,
    "closed": false,
    "rsi": 36.8,
    "trade_on": "Perps 1x",
@@ -5727,6 +5727,26 @@
     ]
    },
    {
+    "id": "lending-borrowing",
+    "name": "Lending Borrowing",
+    "chg7d": -2.29,
+    "top": [
+     "AAVE",
+     "MORPHO",
+     "OHM",
+     "KMNO",
+     "COMP"
+    ],
+    "tracked": [
+     "CAP",
+     "AAVE",
+     "MORPHO",
+     "COMP",
+     "KMNO",
+     "SPK"
+    ]
+   },
+   {
     "id": "bitcoin-ecosystem",
     "name": "Bitcoin Ecosystem",
     "chg7d": -2.75,
@@ -5764,26 +5784,6 @@
      "LIT",
      "ONDO",
      "AAVE"
-    ]
-   },
-   {
-    "id": "lending-borrowing",
-    "name": "Lending Borrowing",
-    "chg7d": -3.14,
-    "top": [
-     "AAVE",
-     "MORPHO",
-     "OHM",
-     "KMNO",
-     "COMP"
-    ],
-    "tracked": [
-     "CAP",
-     "AAVE",
-     "MORPHO",
-     "COMP",
-     "KMNO",
-     "SPK"
     ]
    },
    {
@@ -6265,8 +6265,8 @@
   "updated": {
    "unlocks": 1793094023,
    "onchain": 1793104835,
-   "sectors": 1793106923,
-   "listings": 1793103928,
+   "sectors": 1793107830,
+   "listings": 1793107830,
    "fundamentals": 1793094024
   }
  },
@@ -6304,6 +6304,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "dbda11f6e6c349124f7b28bc013b52c52e58fc497c7b5c32f84bb09cf1773375",
- "generated": "2026-10-27T13:25:24+00:00"
+ "digest": "843b8b6c0d363107fbe9c864dfc135f410840543b82ae3b29e5acd335bd7e903",
+ "generated": "2026-10-27T13:30:33+00:00"
 }
