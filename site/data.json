@@ -1,50 +1,6 @@
 {
  "open": [
   {
-   "id": "TRIA-PERP-1792900800",
-   "kind": "TA",
-   "score": 0,
-   "reasons": [
-    "Chart: Break of structure: closed above the last swing high 0.002573, after a higher low",
-    "Timeframes: 1d down, 4h down, 4h structure higher highs/lows",
-    "Next resistance 0.002755 (2.4R away, 4h swing/swing/volume node)",
-    "Stop 0.0025157 (structure); targets at the next 3 level(s)",
-    "BTC 4h trend down",
-    "Stronger than BTC by 2.2% over 7d",
-    "OI +2% 24h",
-    "Track record: +1.4R on TRIA in the last 45 days (backtest)"
-   ],
-   "coin": "TRIA",
-   "market": "PERP",
-   "side": "LONG",
-   "entry": 0.002587,
-   "sl0": 0.0025157370227905525,
-   "sl": 0.002587,
-   "tps": [
-    0.0027474487861093287,
-    0.0028369987861093285,
-    0.0028959554037563872
-   ],
-   "lev": 1,
-   "funding_pct": 0.005,
-   "status": "tp2",
-   "hits": 2,
-   "opened": "2026-10-25T05:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.002883,
-   "last_ts": "2026-10-27T03:05:22+00:00",
-   "move_pct": 11.44,
-   "closed": false,
-   "rsi": 54.2,
-   "trade_on": "Perps 1x",
-   "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
-   "chart": "charts/TRIA-PERP-1792900800.png",
-   "setup": "BOS"
-  },
-  {
    "id": "BERA-PERP-1792922400",
    "kind": "TA",
    "score": 1,
@@ -78,59 +34,15 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1475,
-   "last_ts": "2026-10-27T03:05:22+00:00",
-   "move_pct": 1.01,
+   "last": 0.1476,
+   "last_ts": "2026-10-27T03:10:25+00:00",
+   "move_pct": 0.94,
    "closed": false,
    "rsi": 35.9,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": "charts/BERA-PERP-1792922400.png",
    "setup": "BREAKOUT20"
-  },
-  {
-   "id": "ZAMA-SPOT-1793023200",
-   "kind": "TA",
-   "score": 1,
-   "reasons": [
-    "Chart: Broke out of a 2-day range at 0.0713 (range 0.06639\u20130.0713) on 1.2x volume",
-    "Timeframes: 1d down, 4h down, 4h structure higher highs/lows",
-    "Next resistance 0.074498 (2.2R away, 4h swing/swing/volume node)",
-    "Stop 0.070611 (below the breakout level); targets at the next 1 level(s)",
-    "BTC 4h trend down",
-    "Stronger than BTC by 2.5% over 7d",
-    "OI +8% 24h with breakout",
-    "Track record: +2.6R on ZAMA in the last 45 days (backtest)"
-   ],
-   "coin": "ZAMA",
-   "market": "SPOT",
-   "side": "LONG",
-   "entry": 0.07185,
-   "sl0": 0.0706405764599394,
-   "sl": 0.0706405764599394,
-   "tps": [
-    0.07435695894329711,
-    0.07556638248335772,
-    0.07677580602341831
-   ],
-   "lev": null,
-   "funding_pct": null,
-   "status": "open",
-   "hits": 0,
-   "opened": "2026-10-26T15:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.07069,
-   "last_ts": "2026-10-27T03:05:22+00:00",
-   "move_pct": -1.61,
-   "closed": false,
-   "rsi": 63.9,
-   "trade_on": "Spot",
-   "market_reason": "thin perp market: spot is safer",
-   "chart": "charts/ZAMA-SPOT-1793023200.png",
-   "setup": "RANGE_BREAK"
   },
   {
    "id": "BCH-SPOT-1793034000",
@@ -167,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 280.81,
-   "last_ts": "2026-10-27T03:05:22+00:00",
-   "move_pct": -0.18,
+   "last": 280.66,
+   "last_ts": "2026-10-27T03:10:25+00:00",
+   "move_pct": -0.23,
    "closed": false,
    "rsi": 56.6,
    "trade_on": "Spot",
@@ -207,9 +119,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.05066,
-   "last_ts": "2026-10-27T03:05:22+00:00",
-   "move_pct": -1.73,
+   "last": 0.05053,
+   "last_ts": "2026-10-27T03:10:25+00:00",
+   "move_pct": -1.98,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -251,9 +163,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.06279,
-   "last_ts": "2026-10-27T03:05:22+00:00",
-   "move_pct": 1.92,
+   "last": 0.06284,
+   "last_ts": "2026-10-27T03:10:25+00:00",
+   "move_pct": 1.84,
    "closed": false,
    "rsi": 40.8,
    "trade_on": "Perps 1x",
@@ -263,6 +175,94 @@
   }
  ],
  "closed": [
+  {
+   "id": "TRIA-PERP-1792900800",
+   "kind": "TA",
+   "score": 0,
+   "reasons": [
+    "Chart: Break of structure: closed above the last swing high 0.002573, after a higher low",
+    "Timeframes: 1d down, 4h down, 4h structure higher highs/lows",
+    "Next resistance 0.002755 (2.4R away, 4h swing/swing/volume node)",
+    "Stop 0.0025157 (structure); targets at the next 3 level(s)",
+    "BTC 4h trend down",
+    "Stronger than BTC by 2.2% over 7d",
+    "OI +2% 24h",
+    "Track record: +1.4R on TRIA in the last 45 days (backtest)"
+   ],
+   "coin": "TRIA",
+   "market": "PERP",
+   "side": "LONG",
+   "entry": 0.002587,
+   "sl0": 0.0025157370227905525,
+   "sl": 0.002587,
+   "tps": [
+    0.0027474487861093287,
+    0.0028369987861093285,
+    0.0028959554037563872
+   ],
+   "lev": 1,
+   "funding_pct": 0.005,
+   "status": "tp3",
+   "hits": 3,
+   "opened": "2026-10-25T05:00:00+00:00",
+   "closed_at": "2026-10-27T03:10:25+00:00",
+   "exit_price": 0.0028959554037563872,
+   "result_r": 3.608,
+   "result_pct": 9.94,
+   "last": 0.002893,
+   "last_ts": "2026-10-27T03:10:25+00:00",
+   "move_pct": 11.44,
+   "closed": true,
+   "rsi": 54.2,
+   "trade_on": "Perps 1x",
+   "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
+   "chart": "charts/TRIA-PERP-1792900800.png",
+   "setup": "BOS"
+  },
+  {
+   "id": "ZAMA-SPOT-1793023200",
+   "kind": "TA",
+   "score": 1,
+   "reasons": [
+    "Chart: Broke out of a 2-day range at 0.0713 (range 0.06639\u20130.0713) on 1.2x volume",
+    "Timeframes: 1d down, 4h down, 4h structure higher highs/lows",
+    "Next resistance 0.074498 (2.2R away, 4h swing/swing/volume node)",
+    "Stop 0.070611 (below the breakout level); targets at the next 1 level(s)",
+    "BTC 4h trend down",
+    "Stronger than BTC by 2.5% over 7d",
+    "OI +8% 24h with breakout",
+    "Track record: +2.6R on ZAMA in the last 45 days (backtest)"
+   ],
+   "coin": "ZAMA",
+   "market": "SPOT",
+   "side": "LONG",
+   "entry": 0.07185,
+   "sl0": 0.0706405764599394,
+   "sl": 0.0706405764599394,
+   "tps": [
+    0.07435695894329711,
+    0.07556638248335772,
+    0.07677580602341831
+   ],
+   "lev": null,
+   "funding_pct": null,
+   "status": "stopped",
+   "hits": 0,
+   "opened": "2026-10-26T15:00:00+00:00",
+   "closed_at": "2026-10-27T03:10:25+00:00",
+   "exit_price": 0.0706405764599394,
+   "result_r": -1.0,
+   "result_pct": -1.68,
+   "last": 0.07069,
+   "last_ts": "2026-10-27T03:10:25+00:00",
+   "move_pct": -1.61,
+   "closed": true,
+   "rsi": 63.9,
+   "trade_on": "Spot",
+   "market_reason": "thin perp market: spot is safer",
+   "chart": "charts/ZAMA-SPOT-1793023200.png",
+   "setup": "RANGE_BREAK"
+  },
   {
    "id": "BREV-SPOT-1793059200",
    "kind": "TA",
@@ -1871,31 +1871,31 @@
  ],
  "stats": {
   "all": {
-   "trades": 38,
-   "wins": 21,
-   "losses": 17,
-   "win_rate": 55.3,
-   "total_r": 12.17,
-   "avg_r": 0.32,
-   "total_pct": 49.98
+   "trades": 40,
+   "wins": 22,
+   "losses": 18,
+   "win_rate": 55.0,
+   "total_r": 14.78,
+   "avg_r": 0.369,
+   "total_pct": 58.24
   },
   "SPOT": {
-   "trades": 10,
+   "trades": 11,
    "wins": 6,
-   "losses": 4,
-   "win_rate": 60.0,
-   "total_r": 6.24,
-   "avg_r": 0.624,
-   "total_pct": 38.98
+   "losses": 5,
+   "win_rate": 54.5,
+   "total_r": 5.24,
+   "avg_r": 0.476,
+   "total_pct": 37.3
   },
   "PERP": {
-   "trades": 25,
-   "wins": 13,
+   "trades": 26,
+   "wins": 14,
    "losses": 12,
-   "win_rate": 52.0,
-   "total_r": 3.93,
-   "avg_r": 0.157,
-   "total_pct": -8.59
+   "win_rate": 53.8,
+   "total_r": 7.54,
+   "avg_r": 0.29,
+   "total_pct": 1.35
   },
   "DEX": {
    "trades": 3,
@@ -1926,13 +1926,13 @@
     "total_pct": 19.59
    },
    "TA": {
-    "trades": 25,
-    "wins": 13,
-    "losses": 12,
-    "win_rate": 52.0,
-    "total_r": 7.67,
-    "avg_r": 0.307,
-    "total_pct": 10.93
+    "trades": 27,
+    "wins": 14,
+    "losses": 13,
+    "win_rate": 51.9,
+    "total_r": 10.28,
+    "avg_r": 0.381,
+    "total_pct": 19.19
    }
   },
   "coins": {
@@ -2215,6 +2215,15 @@
     "avg_r": 0.25,
     "total_pct": 2.03
    },
+   "TRIA": {
+    "trades": 1,
+    "wins": 1,
+    "losses": 0,
+    "win_rate": 100.0,
+    "total_r": 3.61,
+    "avg_r": 3.608,
+    "total_pct": 9.94
+   },
    "XRP": {
     "trades": 1,
     "wins": 1,
@@ -2223,6 +2232,15 @@
     "total_r": 0.33,
     "avg_r": 0.333,
     "total_pct": 0.56
+   },
+   "ZAMA": {
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate": 0.0,
+    "total_r": -1.0,
+    "avg_r": -1.0,
+    "total_pct": -1.68
    },
    "ZBT": {
     "trades": 1,
@@ -2243,7 +2261,7 @@
     "total_pct": -5.43
    }
   },
-  "open": 6
+  "open": 4
  },
  "backtest": {
   "from": "2026-07-24",
@@ -6151,6 +6169,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "0b27eb22720bb411f9e736cc702abe9bc5a446b23f9f10a86358e85de806af9f",
- "generated": "2026-10-27T03:05:24+00:00"
+ "digest": "3c33e3d00f169b9b95461546256734c8046ae35f9acf052d34ae166324ff593b",
+ "generated": "2026-10-27T03:10:29+00:00"
 }
