@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 285.29,
-   "last_ts": "2026-10-27T12:55:24+00:00",
-   "move_pct": 1.41,
+   "last": 284.68,
+   "last_ts": "2026-10-27T13:00:32+00:00",
+   "move_pct": 1.2,
    "closed": false,
    "rsi": 56.6,
    "trade_on": "Spot",
@@ -75,9 +75,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.05345,
-   "last_ts": "2026-10-27T12:55:24+00:00",
-   "move_pct": 3.69,
+   "last": 0.05333,
+   "last_ts": "2026-10-27T13:00:32+00:00",
+   "move_pct": 3.45,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -119,55 +119,15 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.06391,
-   "last_ts": "2026-10-27T12:55:24+00:00",
-   "move_pct": 0.17,
+   "last": 0.06408,
+   "last_ts": "2026-10-27T13:00:32+00:00",
+   "move_pct": -0.09,
    "closed": false,
    "rsi": 40.8,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": "charts/YB-PERP-1793062800.png",
    "setup": "BREAKOUT20"
-  },
-  {
-   "id": "BEAT-PERP-HOT-20753",
-   "kind": "HOT",
-   "score": 907.51,
-   "reasons": [
-    "24h hot mover +20% with volume spike (7.1x the prior 3 days)",
-    "24h volume $29.2M on the OKX perp book, listed 349 days",
-    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
-    "Stop 0.073662 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
-   ],
-   "coin": "BEAT",
-   "market": "PERP",
-   "side": "LONG",
-   "entry": 0.079,
-   "sl0": 0.07366164514904062,
-   "sl": 0.079,
-   "tps": [
-    0.08433835485095938,
-    0.08967670970191874,
-    0.09501506455287811
-   ],
-   "lev": 1,
-   "funding_pct": 0.005,
-   "status": "tp2",
-   "hits": 2,
-   "opened": "2026-10-27T04:20:24+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.09441,
-   "last_ts": "2026-10-27T12:55:24+00:00",
-   "move_pct": 19.51,
-   "closed": false,
-   "rsi": null,
-   "trade_on": "Perps 1x",
-   "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
-   "chart": "charts/BEAT-PERP-HOT-20753.png",
-   "setup": "HOT24"
   },
   {
    "id": "SENT-SPOT-1793088000",
@@ -204,9 +164,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.02285,
-   "last_ts": "2026-10-27T12:55:24+00:00",
-   "move_pct": 5.98,
+   "last": 0.02273,
+   "last_ts": "2026-10-27T13:00:32+00:00",
+   "move_pct": 5.43,
    "closed": false,
    "rsi": 64.2,
    "trade_on": "Spot",
@@ -248,9 +208,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1094,
-   "last_ts": "2026-10-27T12:55:24+00:00",
-   "move_pct": -1.11,
+   "last": 0.1092,
+   "last_ts": "2026-10-27T13:00:32+00:00",
+   "move_pct": -0.92,
    "closed": false,
    "rsi": 36.8,
    "trade_on": "Perps 1x",
@@ -260,6 +220,46 @@
   }
  ],
  "closed": [
+  {
+   "id": "BEAT-PERP-HOT-20753",
+   "kind": "HOT",
+   "score": 907.51,
+   "reasons": [
+    "24h hot mover +20% with volume spike (7.1x the prior 3 days)",
+    "24h volume $29.2M on the OKX perp book, listed 349 days",
+    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
+    "Stop 0.073662 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
+   ],
+   "coin": "BEAT",
+   "market": "PERP",
+   "side": "LONG",
+   "entry": 0.079,
+   "sl0": 0.07366164514904062,
+   "sl": 0.079,
+   "tps": [
+    0.08433835485095938,
+    0.08967670970191874,
+    0.09501506455287811
+   ],
+   "lev": 1,
+   "funding_pct": 0.005,
+   "status": "tp3",
+   "hits": 3,
+   "opened": "2026-10-27T04:20:24+00:00",
+   "closed_at": "2026-10-27T13:00:32+00:00",
+   "exit_price": 0.09501506455287811,
+   "result_r": 2.25,
+   "result_pct": 15.2,
+   "last": 0.09749,
+   "last_ts": "2026-10-27T13:00:32+00:00",
+   "move_pct": 19.51,
+   "closed": true,
+   "rsi": null,
+   "trade_on": "Perps 1x",
+   "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
+   "chart": "charts/BEAT-PERP-HOT-20753.png",
+   "setup": "HOT24"
+  },
   {
    "id": "BERA-PERP-1792922400",
    "kind": "TA",
@@ -2000,13 +2000,13 @@
  ],
  "stats": {
   "all": {
-   "trades": 41,
-   "wins": 23,
+   "trades": 42,
+   "wins": 24,
    "losses": 18,
-   "win_rate": 56.1,
-   "total_r": 14.83,
-   "avg_r": 0.362,
-   "total_pct": 58.44
+   "win_rate": 57.1,
+   "total_r": 17.08,
+   "avg_r": 0.407,
+   "total_pct": 73.64
   },
   "SPOT": {
    "trades": 11,
@@ -2018,13 +2018,13 @@
    "total_pct": 37.3
   },
   "PERP": {
-   "trades": 27,
-   "wins": 15,
+   "trades": 28,
+   "wins": 16,
    "losses": 12,
-   "win_rate": 55.6,
-   "total_r": 7.59,
-   "avg_r": 0.281,
-   "total_pct": 1.55
+   "win_rate": 57.1,
+   "total_r": 9.84,
+   "avg_r": 0.351,
+   "total_pct": 16.75
   },
   "DEX": {
    "trades": 3,
@@ -2037,13 +2037,13 @@
   },
   "kinds": {
    "HOT": {
-    "trades": 10,
-    "wins": 6,
+    "trades": 11,
+    "wins": 7,
     "losses": 4,
-    "win_rate": 60.0,
-    "total_r": 2.5,
-    "avg_r": 0.25,
-    "total_pct": 19.46
+    "win_rate": 63.6,
+    "total_r": 4.75,
+    "avg_r": 0.432,
+    "total_pct": 34.66
    },
    "ONCHAIN": {
     "trades": 3,
@@ -2147,13 +2147,13 @@
     "total_pct": -1.91
    },
    "BEAT": {
-    "trades": 1,
-    "wins": 1,
+    "trades": 2,
+    "wins": 2,
     "losses": 0,
     "win_rate": 100.0,
-    "total_r": 4.56,
-    "avg_r": 4.561,
-    "total_pct": 6.76
+    "total_r": 6.81,
+    "avg_r": 3.405,
+    "total_pct": 21.96
    },
    "BERA": {
     "trades": 1,
@@ -2399,7 +2399,7 @@
     "total_pct": -5.43
    }
   },
-  "open": 6
+  "open": 5
  },
  "backtest": {
   "from": "2026-07-24",
@@ -6083,7 +6083,7 @@
    {
     "id": "interoperability",
     "name": "Interoperability",
-    "chg7d": -9.52,
+    "chg7d": -6.3,
     "top": [
      "TRAC",
      "W",
@@ -6265,7 +6265,7 @@
   "updated": {
    "unlocks": 1793094023,
    "onchain": 1793104835,
-   "sectors": 1793105124,
+   "sectors": 1793106032,
    "listings": 1793103928,
    "fundamentals": 1793094024
   }
@@ -6304,6 +6304,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "d5362db4b095ee3273b80988c9ff9eb025747fecca359143b42b30d2d9cf426f",
- "generated": "2026-10-27T12:55:26+00:00"
+ "digest": "40b47075b49a97a2f9cd59b1eeb44c706c6ff5560df033fb7475eea6de6a452f",
+ "generated": "2026-10-27T13:01:06+00:00"
 }
