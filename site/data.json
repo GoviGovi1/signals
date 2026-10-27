@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002831,
-   "last_ts": "2026-10-27T00:55:24+00:00",
-   "move_pct": 9.43,
+   "last": 0.002825,
+   "last_ts": "2026-10-27T01:00:29+00:00",
+   "move_pct": 9.2,
    "closed": false,
    "rsi": 54.2,
    "trade_on": "Perps 1x",
@@ -70,7 +70,7 @@
     0.13080556756015782
    ],
    "lev": 1,
-   "funding_pct": 0.0,
+   "funding_pct": -0.0012,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-25T11:00:00+00:00",
@@ -78,9 +78,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1492,
-   "last_ts": "2026-10-27T00:55:24+00:00",
-   "move_pct": -0.13,
+   "last": 0.1489,
+   "last_ts": "2026-10-27T01:00:29+00:00",
+   "move_pct": 0.07,
    "closed": false,
    "rsi": 35.9,
    "trade_on": "Perps 1x",
@@ -122,9 +122,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.07164,
-   "last_ts": "2026-10-27T00:55:24+00:00",
-   "move_pct": -0.29,
+   "last": 0.07143,
+   "last_ts": "2026-10-27T01:00:29+00:00",
+   "move_pct": -0.58,
    "closed": false,
    "rsi": 63.9,
    "trade_on": "Spot",
@@ -167,9 +167,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 282.28,
-   "last_ts": "2026-10-27T00:55:24+00:00",
-   "move_pct": 0.34,
+   "last": 281.71,
+   "last_ts": "2026-10-27T01:00:29+00:00",
+   "move_pct": 0.14,
    "closed": false,
    "rsi": 56.6,
    "trade_on": "Spot",
@@ -207,15 +207,60 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.001934,
-   "last_ts": "2026-10-27T00:55:24+00:00",
-   "move_pct": -0.92,
+   "last": 0.002024,
+   "last_ts": "2026-10-27T01:00:29+00:00",
+   "move_pct": 3.69,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
    "market_reason": "very volatile coin: spot avoids liquidation",
    "chart": "charts/DOOD-SPOT-HOT-20753.png",
    "setup": "HOT24"
+  },
+  {
+   "id": "BREV-SPOT-1793059200",
+   "kind": "TA",
+   "score": 2,
+   "reasons": [
+    "Chart: Break of structure: closed above the last swing high 0.0804, after a higher low",
+    "Timeframes: 1d up, 4h down, 4h structure higher highs/lows",
+    "Next resistance 0.092072 (3.3R away, 4h swing/swing)",
+    "Stop 0.077837 (2 ATR); targets at the next 1 level(s)",
+    "BTC 4h trend down",
+    "Stronger than BTC by 12.4% over 7d",
+    "OI +39% 24h with breakout",
+    "Sector: Zero Knowledge ZK -2.2% 7d (leading, #3 of 20)",
+    "Track record: +0.8R on BREV in the last 45 days (backtest)"
+   ],
+   "coin": "BREV",
+   "market": "SPOT",
+   "side": "LONG",
+   "entry": 0.08162,
+   "sl0": 0.07825919039218823,
+   "sl": 0.07825919039218823,
+   "tps": [
+    0.09231905829477093,
+    0.09567986790258269,
+    0.09904067751039447
+   ],
+   "lev": null,
+   "funding_pct": null,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-10-27T01:00:00+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.08162,
+   "last_ts": "2026-10-27T01:00:29+00:00",
+   "move_pct": 0.0,
+   "closed": false,
+   "rsi": 56.3,
+   "trade_on": "Spot",
+   "market_reason": "thin perp market: spot is safer",
+   "chart": "charts/BREV-SPOT-1793059200.png",
+   "setup": "BOS"
   }
  ],
  "closed": [
@@ -2096,7 +2141,7 @@
     "total_pct": -5.43
    }
   },
-  "open": 5
+  "open": 6
  },
  "backtest": {
   "from": "2026-07-24",
@@ -5594,28 +5639,6 @@
     ]
    },
    {
-    "id": "decentralized-exchange",
-    "name": "Decentralized Exchange",
-    "chg7d": -3.76,
-    "top": [
-     "HYPE",
-     "UNI",
-     "PUMP",
-     "ASTER",
-     "JUP"
-    ],
-    "tracked": [
-     "HYPE",
-     "PUMP",
-     "UNI",
-     "LIT",
-     "CRV",
-     "ASTER",
-     "AERO",
-     "RAY"
-    ]
-   },
-   {
     "id": "oracle",
     "name": "Oracle",
     "chg7d": -3.93,
@@ -5679,6 +5702,28 @@
      "LPT",
      "IOTA",
      "THETA"
+    ]
+   },
+   {
+    "id": "decentralized-exchange",
+    "name": "Decentralized Exchange",
+    "chg7d": -4.36,
+    "top": [
+     "HYPE",
+     "UNI",
+     "PUMP",
+     "ASTER",
+     "JUP"
+    ],
+    "tracked": [
+     "HYPE",
+     "PUMP",
+     "UNI",
+     "LIT",
+     "CRV",
+     "ASTER",
+     "AERO",
+     "RAY"
     ]
    },
    {
@@ -5965,7 +6010,7 @@
   "updated": {
    "unlocks": 1793050227,
    "onchain": 1793061625,
-   "sectors": 1793061919,
+   "sectors": 1793062829,
    "listings": 1793062224,
    "fundamentals": 1793050228
   }
@@ -6004,6 +6049,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "f05c23c5bf36e8b9fb5ca4b8f23b09bec14b5679c58fc727f82c864bd06a367f",
- "generated": "2026-10-27T00:55:27+00:00"
+ "digest": "9ad0ca517f5b38b86f6564b38bb469a865186ee4631ecf3d297d8bc644ff2ca0",
+ "generated": "2026-10-27T01:01:07+00:00"
 }
