@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 292.96,
-   "last_ts": "2026-10-27T23:25:23+00:00",
-   "move_pct": 4.14,
+   "last": 293.4,
+   "last_ts": "2026-10-27T23:30:27+00:00",
+   "move_pct": 4.3,
    "closed": false,
    "rsi": 56.6,
    "trade_on": "Spot",
@@ -75,9 +75,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.05403,
-   "last_ts": "2026-10-27T23:25:23+00:00",
-   "move_pct": 4.81,
+   "last": 0.05397,
+   "last_ts": "2026-10-27T23:30:27+00:00",
+   "move_pct": 4.69,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -119,9 +119,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.06378,
-   "last_ts": "2026-10-27T23:25:23+00:00",
-   "move_pct": 0.37,
+   "last": 0.06376,
+   "last_ts": "2026-10-27T23:30:27+00:00",
+   "move_pct": 0.41,
    "closed": false,
    "rsi": 40.8,
    "trade_on": "Perps 1x",
@@ -164,9 +164,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.02185,
-   "last_ts": "2026-10-27T23:25:23+00:00",
-   "move_pct": 1.35,
+   "last": 0.02193,
+   "last_ts": "2026-10-27T23:30:27+00:00",
+   "move_pct": 1.72,
    "closed": false,
    "rsi": 64.2,
    "trade_on": "Spot",
@@ -209,9 +209,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2644,
-   "last_ts": "2026-10-27T23:25:23+00:00",
-   "move_pct": 2.92,
+   "last": 0.2649,
+   "last_ts": "2026-10-27T23:30:27+00:00",
+   "move_pct": 3.11,
    "closed": false,
    "rsi": 68.7,
    "trade_on": "Spot",
@@ -254,9 +254,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.007724,
-   "last_ts": "2026-10-27T23:25:23+00:00",
-   "move_pct": 0.0,
+   "last": 0.007732,
+   "last_ts": "2026-10-27T23:30:27+00:00",
+   "move_pct": 0.1,
    "closed": false,
    "rsi": 64.2,
    "trade_on": "Spot",
@@ -299,9 +299,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.041961,
-   "last_ts": "2026-10-27T23:25:23+00:00",
-   "move_pct": 2.88,
+   "last": 0.042054,
+   "last_ts": "2026-10-27T23:30:27+00:00",
+   "move_pct": 3.11,
    "closed": false,
    "rsi": 65.5,
    "trade_on": "Spot",
@@ -343,9 +343,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2624,
-   "last_ts": "2026-10-27T23:25:23+00:00",
-   "move_pct": -1.06,
+   "last": 0.2636,
+   "last_ts": "2026-10-27T23:30:27+00:00",
+   "move_pct": -0.6,
    "closed": false,
    "rsi": 70.1,
    "trade_on": "Spot",
@@ -5924,6 +5924,26 @@
     ]
    },
    {
+    "id": "lending-borrowing",
+    "name": "Lending Borrowing",
+    "chg7d": -2.77,
+    "top": [
+     "AAVE",
+     "MORPHO",
+     "OHM",
+     "KMNO",
+     "COMP"
+    ],
+    "tracked": [
+     "CAP",
+     "AAVE",
+     "MORPHO",
+     "COMP",
+     "KMNO",
+     "SPK"
+    ]
+   },
+   {
     "id": "bitcoin-ecosystem",
     "name": "Bitcoin Ecosystem",
     "chg7d": -2.91,
@@ -5939,26 +5959,6 @@
      "PEPE",
      "ORDI",
      "SATS"
-    ]
-   },
-   {
-    "id": "lending-borrowing",
-    "name": "Lending Borrowing",
-    "chg7d": -3.21,
-    "top": [
-     "AAVE",
-     "MORPHO",
-     "OHM",
-     "KMNO",
-     "COMP"
-    ],
-    "tracked": [
-     "CAP",
-     "AAVE",
-     "MORPHO",
-     "COMP",
-     "KMNO",
-     "SPK"
     ]
    },
    {
@@ -6462,7 +6462,7 @@
   "updated": {
    "unlocks": 1793137522,
    "onchain": 1793140825,
-   "sectors": 1793142922,
+   "sectors": 1793143827,
    "listings": 1793141723,
    "fundamentals": 1793137523
   }
@@ -6501,6 +6501,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "2b3dec3b8b5950830690c85665b3460e8af46b3211729f47da5a732f044202ed",
- "generated": "2026-10-27T23:25:26+00:00"
+ "digest": "9c65b5277936dd2e5830f00fb4f850fd36ab35954cf6db76e7a788e276fe9963",
+ "generated": "2026-10-27T23:30:30+00:00"
 }
