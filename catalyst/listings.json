@@ -1,9 +1,33 @@
 {
  "new": [
   {
+   "coin": "MPWR",
+   "list_ts": 1793097000,
+   "market": "PERP",
+   "state": "preopen"
+  },
+  {
+   "coin": "IBKR",
+   "list_ts": 1793097000,
+   "market": "PERP",
+   "state": "preopen"
+  },
+  {
+   "coin": "BAC",
+   "list_ts": 1793096100,
+   "market": "PERP",
+   "state": "preopen"
+  },
+  {
    "coin": "XXOM",
    "list_ts": 1793095200,
    "market": "SPOT",
+   "state": "preopen"
+  },
+  {
+   "coin": "CEG",
+   "list_ts": 1793095200,
+   "market": "PERP",
    "state": "preopen"
   },
   {
@@ -28,13 +52,13 @@
    "coin": "XTXN",
    "list_ts": 1793088000,
    "market": "SPOT",
-   "state": "preopen"
+   "state": "live"
   },
   {
    "coin": "XTEM",
    "list_ts": 1793086200,
    "market": "SPOT",
-   "state": "preopen"
+   "state": "live"
   },
   {
    "coin": "XTEAM",
@@ -215,32 +239,8 @@
    "list_ts": 1792489500,
    "market": "PERP",
    "state": "live"
-  },
-  {
-   "coin": "CVNA",
-   "list_ts": 1792488600,
-   "market": "PERP",
-   "state": "live"
-  },
-  {
-   "coin": "CRML",
-   "list_ts": 1792487700,
-   "market": "PERP",
-   "state": "live"
-  },
-  {
-   "coin": "RUM",
-   "list_ts": 1792486800,
-   "market": "PERP",
-   "state": "live"
-  },
-  {
-   "coin": "DNA",
-   "list_ts": 1792152000,
-   "market": "PERP",
-   "state": "live"
   }
  ],
  "rule": "New on OKX. Chart signals need the universe rules (volume rank, 30+ days on the chart market). Hot-mover signals can fire from day 2 when the 24h move and volume spike pass hot.py.",
- "updated": 1793084724
+ "updated": 1793088624
 }
