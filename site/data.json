@@ -26,7 +26,7 @@
     0.13080556756015782
    ],
    "lev": 1,
-   "funding_pct": -0.011,
+   "funding_pct": -0.0114,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-25T11:00:00+00:00",
@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1487,
-   "last_ts": "2026-10-27T08:55:20+00:00",
-   "move_pct": 0.2,
+   "last": 0.149,
+   "last_ts": "2026-10-27T09:00:30+00:00",
+   "move_pct": -0.0,
    "closed": false,
    "rsi": 35.9,
    "trade_on": "Perps 1x",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 281.65,
-   "last_ts": "2026-10-27T08:55:20+00:00",
-   "move_pct": 0.12,
+   "last": 282.12,
+   "last_ts": "2026-10-27T09:00:30+00:00",
+   "move_pct": 0.29,
    "closed": false,
    "rsi": 56.6,
    "trade_on": "Spot",
@@ -119,9 +119,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.05139,
-   "last_ts": "2026-10-27T08:55:20+00:00",
-   "move_pct": -0.31,
+   "last": 0.0516,
+   "last_ts": "2026-10-27T09:00:30+00:00",
+   "move_pct": 0.1,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -155,7 +155,7 @@
     0.05559159783668399
    ],
    "lev": 1,
-   "funding_pct": 0.0006,
+   "funding_pct": 0.0001,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-27T02:00:00+00:00",
@@ -163,9 +163,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.06232,
-   "last_ts": "2026-10-27T08:55:20+00:00",
-   "move_pct": 2.66,
+   "last": 0.0627,
+   "last_ts": "2026-10-27T09:00:30+00:00",
+   "move_pct": 2.06,
    "closed": false,
    "rsi": 40.8,
    "trade_on": "Perps 1x",
@@ -203,15 +203,60 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0821,
-   "last_ts": "2026-10-27T08:55:20+00:00",
-   "move_pct": 3.92,
+   "last": 0.08187,
+   "last_ts": "2026-10-27T09:00:30+00:00",
+   "move_pct": 3.63,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
    "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
    "chart": "charts/BEAT-PERP-HOT-20753.png",
    "setup": "HOT24"
+  },
+  {
+   "id": "SENT-SPOT-1793088000",
+   "kind": "TA",
+   "score": 0,
+   "reasons": [
+    "Chart: Broke the 20-hour high on 1.3x volume",
+    "Timeframes: 1d down, 4h up, 4h structure mixed",
+    "Next resistance 0.023024 (2.3R away, 4h swing/swing/volume node)",
+    "Stop 0.020826 (2 ATR); targets at the next 3 level(s)",
+    "BTC 4h trend down",
+    "Stronger than BTC by 0.2% over 7d",
+    "OI +5% 24h with breakout",
+    "Sector: Artificial Intelligence -6.5% 7d (lagging, #18 of 20)",
+    "Track record: +7.5R on SENT in the last 45 days (backtest)"
+   ],
+   "coin": "SENT",
+   "market": "SPOT",
+   "side": "LONG",
+   "entry": 0.02156,
+   "sl0": 0.020884111682181176,
+   "sl": 0.020884111682181176,
+   "tps": [
+    0.023037291709496924,
+    0.0234848060505822,
+    0.024036340934303124
+   ],
+   "lev": null,
+   "funding_pct": null,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-10-27T09:00:00+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.02154,
+   "last_ts": "2026-10-27T09:00:30+00:00",
+   "move_pct": -0.09,
+   "closed": false,
+   "rsi": 64.2,
+   "trade_on": "Spot",
+   "market_reason": "thin perp market: spot is safer",
+   "chart": "charts/SENT-SPOT-1793088000.png",
+   "setup": "BREAKOUT20"
   }
  ],
  "closed": [
@@ -2301,7 +2346,7 @@
     "total_pct": -5.43
    }
   },
-  "open": 5
+  "open": 6
  },
  "backtest": {
   "from": "2026-07-24",
@@ -5887,26 +5932,9 @@
     ]
    },
    {
-    "id": "storage",
-    "name": "Storage",
-    "chg7d": -5.15,
-    "top": [
-     "FIL",
-     "BTT",
-     "AR",
-     "AIOZ",
-     "WAL"
-    ],
-    "tracked": [
-     "FIL",
-     "AR",
-     "WAL"
-    ]
-   },
-   {
     "id": "solana-meme-coins",
     "name": "Solana Meme Coins",
-    "chg7d": -5.5,
+    "chg7d": -5.15,
     "top": [
      "TRUMP",
      "PENGU",
@@ -5923,6 +5951,23 @@
      "BOME",
      "MEW",
      "FARTCOIN"
+    ]
+   },
+   {
+    "id": "storage",
+    "name": "Storage",
+    "chg7d": -5.15,
+    "top": [
+     "FIL",
+     "BTT",
+     "AR",
+     "AIOZ",
+     "WAL"
+    ],
+    "tracked": [
+     "FIL",
+     "AR",
+     "WAL"
     ]
    },
    {
@@ -6155,7 +6200,7 @@
   "updated": {
    "unlocks": 1793072121,
    "onchain": 1793090425,
-   "sectors": 1793090721,
+   "sectors": 1793091630,
    "listings": 1793088624,
    "fundamentals": 1793072121
   }
@@ -6194,6 +6239,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "2e5867920251b144f2477b25bbea2fa5669b4686ee5395f26bdd3a7a2339db04",
- "generated": "2026-10-27T08:55:23+00:00"
+ "digest": "dbb1ea8e8465939bbb5440e6051826b10a09b380e450af282456597eb467e608",
+ "generated": "2026-10-27T09:01:06+00:00"
 }
