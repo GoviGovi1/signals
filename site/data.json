@@ -26,7 +26,7 @@
     0.13080556756015782
    ],
    "lev": 1,
-   "funding_pct": -0.0127,
+   "funding_pct": -0.0121,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-25T11:00:00+00:00",
@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1494,
-   "last_ts": "2026-10-27T08:10:24+00:00",
-   "move_pct": -0.27,
+   "last": 0.1493,
+   "last_ts": "2026-10-27T08:15:24+00:00",
+   "move_pct": -0.2,
    "closed": false,
    "rsi": 35.9,
    "trade_on": "Perps 1x",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 282.4,
-   "last_ts": "2026-10-27T08:10:24+00:00",
-   "move_pct": 0.39,
+   "last": 282.75,
+   "last_ts": "2026-10-27T08:15:24+00:00",
+   "move_pct": 0.51,
    "closed": false,
    "rsi": 56.6,
    "trade_on": "Spot",
@@ -119,9 +119,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0516,
-   "last_ts": "2026-10-27T08:10:24+00:00",
-   "move_pct": 0.1,
+   "last": 0.05151,
+   "last_ts": "2026-10-27T08:15:24+00:00",
+   "move_pct": -0.08,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -155,7 +155,7 @@
     0.05559159783668399
    ],
    "lev": 1,
-   "funding_pct": -0.003,
+   "funding_pct": -0.0017,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-27T02:00:00+00:00",
@@ -163,9 +163,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.06315,
-   "last_ts": "2026-10-27T08:10:24+00:00",
-   "move_pct": 1.36,
+   "last": 0.06306,
+   "last_ts": "2026-10-27T08:15:24+00:00",
+   "move_pct": 1.5,
    "closed": false,
    "rsi": 40.8,
    "trade_on": "Perps 1x",
@@ -203,9 +203,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.08167,
-   "last_ts": "2026-10-27T08:10:24+00:00",
-   "move_pct": 3.38,
+   "last": 0.08242,
+   "last_ts": "2026-10-27T08:15:24+00:00",
+   "move_pct": 4.33,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -5845,23 +5845,6 @@
     ]
    },
    {
-    "id": "storage",
-    "name": "Storage",
-    "chg7d": -4.92,
-    "top": [
-     "FIL",
-     "BTT",
-     "AR",
-     "AIOZ",
-     "WAL"
-    ],
-    "tracked": [
-     "FIL",
-     "AR",
-     "WAL"
-    ]
-   },
-   {
     "id": "layer-1",
     "name": "Layer 1",
     "chg7d": -5.02,
@@ -5903,6 +5886,23 @@
      "LPT",
      "IOTA",
      "THETA"
+    ]
+   },
+   {
+    "id": "storage",
+    "name": "Storage",
+    "chg7d": -5.15,
+    "top": [
+     "FIL",
+     "BTT",
+     "AR",
+     "AIOZ",
+     "WAL"
+    ],
+    "tracked": [
+     "FIL",
+     "AR",
+     "WAL"
     ]
    },
    {
@@ -6157,7 +6157,7 @@
   "updated": {
    "unlocks": 1793072121,
    "onchain": 1793086824,
-   "sectors": 1793088030,
+   "sectors": 1793088924,
    "listings": 1793088624,
    "fundamentals": 1793072121
   }
@@ -6196,6 +6196,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "2d2bda2265b2710f53d47483b86c1ff76f44489289d390019367edf521fc5d21",
- "generated": "2026-10-27T08:10:27+00:00"
+ "digest": "ef691ebbceb29ac9753494438c0c4becf827680b5a355c906b6b2c8635d14f99",
+ "generated": "2026-10-27T08:15:26+00:00"
 }
