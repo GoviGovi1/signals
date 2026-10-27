@@ -26,7 +26,7 @@
     0.13080556756015782
    ],
    "lev": 1,
-   "funding_pct": -0.0102,
+   "funding_pct": -0.0101,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-25T11:00:00+00:00",
@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1496,
-   "last_ts": "2026-10-27T08:25:21+00:00",
-   "move_pct": -0.4,
+   "last": 0.1491,
+   "last_ts": "2026-10-27T08:30:28+00:00",
+   "move_pct": -0.07,
    "closed": false,
    "rsi": 35.9,
    "trade_on": "Perps 1x",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 282.2,
-   "last_ts": "2026-10-27T08:25:21+00:00",
-   "move_pct": 0.32,
+   "last": 281.36,
+   "last_ts": "2026-10-27T08:30:28+00:00",
+   "move_pct": 0.02,
    "closed": false,
    "rsi": 56.6,
    "trade_on": "Spot",
@@ -119,9 +119,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.05188,
-   "last_ts": "2026-10-27T08:25:21+00:00",
-   "move_pct": 0.64,
+   "last": 0.05183,
+   "last_ts": "2026-10-27T08:30:28+00:00",
+   "move_pct": 0.54,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -155,7 +155,7 @@
     0.05559159783668399
    ],
    "lev": 1,
-   "funding_pct": 0.0001,
+   "funding_pct": 0.0012,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-27T02:00:00+00:00",
@@ -163,9 +163,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.063,
-   "last_ts": "2026-10-27T08:25:21+00:00",
-   "move_pct": 1.59,
+   "last": 0.0629,
+   "last_ts": "2026-10-27T08:30:28+00:00",
+   "move_pct": 1.75,
    "closed": false,
    "rsi": 40.8,
    "trade_on": "Perps 1x",
@@ -203,9 +203,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.08304,
-   "last_ts": "2026-10-27T08:25:21+00:00",
-   "move_pct": 5.11,
+   "last": 0.08141,
+   "last_ts": "2026-10-27T08:30:28+00:00",
+   "move_pct": 3.05,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -5634,6 +5634,26 @@
     ]
    },
    {
+    "id": "lending-borrowing",
+    "name": "Lending Borrowing",
+    "chg7d": -3.14,
+    "top": [
+     "AAVE",
+     "MORPHO",
+     "OHM",
+     "KMNO",
+     "COMP"
+    ],
+    "tracked": [
+     "CAP",
+     "AAVE",
+     "COMP",
+     "MORPHO",
+     "KMNO",
+     "SPK"
+    ]
+   },
+   {
     "id": "gaming",
     "name": "Gaming",
     "chg7d": -3.67,
@@ -5675,26 +5695,6 @@
      "CRV",
      "ASTER",
      "AERO"
-    ]
-   },
-   {
-    "id": "lending-borrowing",
-    "name": "Lending Borrowing",
-    "chg7d": -3.93,
-    "top": [
-     "AAVE",
-     "MORPHO",
-     "OHM",
-     "KMNO",
-     "COMP"
-    ],
-    "tracked": [
-     "CAP",
-     "AAVE",
-     "COMP",
-     "MORPHO",
-     "KMNO",
-     "SPK"
     ]
    },
    {
@@ -6157,7 +6157,7 @@
   "updated": {
    "unlocks": 1793072121,
    "onchain": 1793086824,
-   "sectors": 1793088924,
+   "sectors": 1793089828,
    "listings": 1793088624,
    "fundamentals": 1793072121
   }
@@ -6196,6 +6196,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "4ac47613975f07f4965ccb73fbccc6aa63b4a80eca10fe25439e712e96148925",
- "generated": "2026-10-27T08:25:24+00:00"
+ "digest": "ca407f8d15702fbca8869fd42cd93227317d049c4e96530d948f52fb895e3b4d",
+ "generated": "2026-10-27T08:30:31+00:00"
 }
