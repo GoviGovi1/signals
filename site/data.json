@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 286.27,
-   "last_ts": "2026-10-27T14:25:22+00:00",
-   "move_pct": 1.76,
+   "last": 286.94,
+   "last_ts": "2026-10-27T14:30:32+00:00",
+   "move_pct": 2.0,
    "closed": false,
    "rsi": 56.6,
    "trade_on": "Spot",
@@ -75,9 +75,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.05242,
-   "last_ts": "2026-10-27T14:25:22+00:00",
-   "move_pct": 1.69,
+   "last": 0.05266,
+   "last_ts": "2026-10-27T14:30:32+00:00",
+   "move_pct": 2.15,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -119,9 +119,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.06463,
-   "last_ts": "2026-10-27T14:25:22+00:00",
-   "move_pct": -0.95,
+   "last": 0.0647,
+   "last_ts": "2026-10-27T14:30:32+00:00",
+   "move_pct": -1.06,
    "closed": false,
    "rsi": 40.8,
    "trade_on": "Perps 1x",
@@ -164,9 +164,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.02268,
-   "last_ts": "2026-10-27T14:25:22+00:00",
-   "move_pct": 5.19,
+   "last": 0.0227,
+   "last_ts": "2026-10-27T14:30:32+00:00",
+   "move_pct": 5.29,
    "closed": false,
    "rsi": 64.2,
    "trade_on": "Spot",
@@ -208,9 +208,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1096,
-   "last_ts": "2026-10-27T14:25:22+00:00",
-   "move_pct": -1.29,
+   "last": 0.1098,
+   "last_ts": "2026-10-27T14:30:32+00:00",
+   "move_pct": -1.48,
    "closed": false,
    "rsi": 36.8,
    "trade_on": "Perps 1x",
@@ -5876,6 +5876,28 @@
     ]
    },
    {
+    "id": "layer-1",
+    "name": "Layer 1",
+    "chg7d": -4.08,
+    "top": [
+     "BTC",
+     "ETH",
+     "BNB",
+     "XRP",
+     "SOL"
+    ],
+    "tracked": [
+     "BTC",
+     "ETH",
+     "SOL",
+     "XRP",
+     "SUI",
+     "BNB",
+     "AVAX",
+     "ZEC"
+    ]
+   },
+   {
     "id": "storage",
     "name": "Storage",
     "chg7d": -4.27,
@@ -5971,28 +5993,6 @@
      "BONK",
      "MEW",
      "PNUT"
-    ]
-   },
-   {
-    "id": "layer-1",
-    "name": "Layer 1",
-    "chg7d": -4.89,
-    "top": [
-     "BTC",
-     "ETH",
-     "BNB",
-     "XRP",
-     "SOL"
-    ],
-    "tracked": [
-     "BTC",
-     "ETH",
-     "SOL",
-     "XRP",
-     "SUI",
-     "BNB",
-     "AVAX",
-     "ZEC"
     ]
    },
    {
@@ -6246,8 +6246,8 @@
   "updated": {
    "unlocks": 1793094023,
    "onchain": 1793108422,
-   "sectors": 1793110525,
-   "listings": 1793107830,
+   "sectors": 1793111431,
+   "listings": 1793111431,
    "fundamentals": 1793094024
   }
  },
@@ -6285,6 +6285,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "0356f9eda026804c7da9524e601cae9da53f86d6d31e4634bfa84cddddbfb508",
- "generated": "2026-10-27T14:25:26+00:00"
+ "digest": "7c77eac27f77036fe7b8b13fb2ea31114d1efff788e608778f3996674c847c2b",
+ "generated": "2026-10-27T14:30:35+00:00"
 }

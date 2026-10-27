@@ -127,12 +127,6 @@
    "state": "live"
   },
   {
-   "coin": "TEST002",
-   "list_ts": 1792749300,
-   "market": "SPOT",
-   "state": "live"
-  },
-  {
    "coin": "XJPM",
    "list_ts": 1792747800,
    "market": "SPOT",
@@ -239,8 +233,14 @@
    "list_ts": 1792489500,
    "market": "PERP",
    "state": "live"
+  },
+  {
+   "coin": "CVNA",
+   "list_ts": 1792488600,
+   "market": "PERP",
+   "state": "live"
   }
  ],
  "rule": "New on OKX. Chart signals need the universe rules (volume rank, 30+ days on the chart market). Hot-mover signals can fire from day 2 when the 24h move and volume spike pass hot.py.",
- "updated": 1793107830
+ "updated": 1793111431
 }
