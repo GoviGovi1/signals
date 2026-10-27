@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1489,
-   "last_ts": "2026-10-27T06:41:25+00:00",
-   "move_pct": 0.07,
+   "last": 0.149,
+   "last_ts": "2026-10-27T06:45:27+00:00",
+   "move_pct": -0.0,
    "closed": false,
    "rsi": 35.9,
    "trade_on": "Perps 1x",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 280.74,
-   "last_ts": "2026-10-27T06:41:25+00:00",
-   "move_pct": -0.2,
+   "last": 280.71,
+   "last_ts": "2026-10-27T06:45:27+00:00",
+   "move_pct": -0.21,
    "closed": false,
    "rsi": 56.6,
    "trade_on": "Spot",
@@ -119,9 +119,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.05159,
-   "last_ts": "2026-10-27T06:41:25+00:00",
-   "move_pct": 0.08,
+   "last": 0.05153,
+   "last_ts": "2026-10-27T06:45:27+00:00",
+   "move_pct": -0.04,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -155,7 +155,7 @@
     0.05559159783668399
    ],
    "lev": 1,
-   "funding_pct": 0.0048,
+   "funding_pct": 0.005,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-27T02:00:00+00:00",
@@ -163,9 +163,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.06315,
-   "last_ts": "2026-10-27T06:41:25+00:00",
-   "move_pct": 1.36,
+   "last": 0.06322,
+   "last_ts": "2026-10-27T06:45:27+00:00",
+   "move_pct": 1.25,
    "closed": false,
    "rsi": 40.8,
    "trade_on": "Perps 1x",
@@ -203,9 +203,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.08128,
-   "last_ts": "2026-10-27T06:41:25+00:00",
-   "move_pct": 2.89,
+   "last": 0.08158,
+   "last_ts": "2026-10-27T06:45:27+00:00",
+   "move_pct": 3.27,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -5828,6 +5828,21 @@
     ]
    },
    {
+    "id": "privacy-coins",
+    "name": "Privacy Coins",
+    "chg7d": -4.78,
+    "top": [
+     "ZEC",
+     "XMR",
+     "DCR",
+     "ZANO",
+     "NOCK"
+    ],
+    "tracked": [
+     "ZEC"
+    ]
+   },
+   {
     "id": "decentralized-exchange",
     "name": "Decentralized Exchange",
     "chg7d": -4.85,
@@ -5908,21 +5923,6 @@
      "BOME",
      "MEW",
      "FARTCOIN"
-    ]
-   },
-   {
-    "id": "privacy-coins",
-    "name": "Privacy Coins",
-    "chg7d": -6.07,
-    "top": [
-     "ZEC",
-     "XMR",
-     "DCR",
-     "ZANO",
-     "NOCK"
-    ],
-    "tracked": [
-     "ZEC"
     ]
    },
    {
@@ -6155,7 +6155,7 @@
   "updated": {
    "unlocks": 1793072121,
    "onchain": 1793083224,
-   "sectors": 1793082627,
+   "sectors": 1793083527,
    "listings": 1793080830,
    "fundamentals": 1793072121
   }
@@ -6194,6 +6194,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "9cfc9349ca21eadf71e38cd7072cfd0d523124f04d298d975f8a140ef781dd8f",
- "generated": "2026-10-27T06:41:28+00:00"
+ "digest": "dd92e8155e682643333d0764beeb62e97f85d6a527707ed2a7f4c9303d8ca7d5",
+ "generated": "2026-10-27T06:45:30+00:00"
 }
