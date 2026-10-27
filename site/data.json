@@ -26,7 +26,7 @@
     0.13080556756015782
    ],
    "lev": 1,
-   "funding_pct": -0.0227,
+   "funding_pct": -0.021,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-25T11:00:00+00:00",
@@ -35,7 +35,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.1486,
-   "last_ts": "2026-10-27T04:15:21+00:00",
+   "last_ts": "2026-10-27T04:20:24+00:00",
    "move_pct": 0.27,
    "closed": false,
    "rsi": 35.9,
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 280.66,
-   "last_ts": "2026-10-27T04:15:21+00:00",
-   "move_pct": -0.23,
+   "last": 281.2,
+   "last_ts": "2026-10-27T04:20:24+00:00",
+   "move_pct": -0.04,
    "closed": false,
    "rsi": 56.6,
    "trade_on": "Spot",
@@ -119,9 +119,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.05126,
-   "last_ts": "2026-10-27T04:15:21+00:00",
-   "move_pct": -0.56,
+   "last": 0.05139,
+   "last_ts": "2026-10-27T04:20:24+00:00",
+   "move_pct": -0.31,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -163,15 +163,55 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.06286,
-   "last_ts": "2026-10-27T04:15:21+00:00",
-   "move_pct": 1.81,
+   "last": 0.06279,
+   "last_ts": "2026-10-27T04:20:24+00:00",
+   "move_pct": 1.92,
    "closed": false,
    "rsi": 40.8,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": "charts/YB-PERP-1793062800.png",
    "setup": "BREAKOUT20"
+  },
+  {
+   "id": "BEAT-PERP-HOT-20753",
+   "kind": "HOT",
+   "score": 907.51,
+   "reasons": [
+    "24h hot mover +20% with volume spike (7.1x the prior 3 days)",
+    "24h volume $29.2M on the OKX perp book, listed 349 days",
+    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
+    "Stop 0.073662 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
+   ],
+   "coin": "BEAT",
+   "market": "PERP",
+   "side": "LONG",
+   "entry": 0.079,
+   "sl0": 0.07366164514904062,
+   "sl": 0.07366164514904062,
+   "tps": [
+    0.08433835485095938,
+    0.08967670970191874,
+    0.09501506455287811
+   ],
+   "lev": 1,
+   "funding_pct": 0.005,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-10-27T04:20:24+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.079,
+   "last_ts": "2026-10-27T04:20:24+00:00",
+   "move_pct": 0.0,
+   "closed": false,
+   "rsi": null,
+   "trade_on": "Perps 1x",
+   "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
+   "chart": "charts/BEAT-PERP-HOT-20753.png",
+   "setup": "HOT24"
   }
  ],
  "closed": [
@@ -2261,7 +2301,7 @@
     "total_pct": -5.43
    }
   },
-  "open": 4
+  "open": 5
  },
  "backtest": {
   "from": "2026-07-24",
@@ -6188,6 +6228,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "8bcb594d799ddb5bfd4597dd10c0e945a8ee5a9c661caa3ee6f233053cd2d60e",
- "generated": "2026-10-27T04:15:24+00:00"
+ "digest": "f0c6390d4e0279c1bbb9e463c72e56719aa98eb981b59b33481f2e6a6891d793",
+ "generated": "2026-10-27T04:20:30+00:00"
 }
