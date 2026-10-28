@@ -1,5 +1,5 @@
 {
- "checked": 86,
+ "checked": 87,
  "errors": [],
  "rejected": [
   {
@@ -21,6 +21,14 @@
   {
    "chain": "Solana",
    "fails": [
+    "liquidity under $250k",
+    "pool younger than 7 days"
+   ],
+   "symbol": "MOONX"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
     "no DEX candles"
    ],
    "symbol": "STONK"
@@ -32,14 +40,6 @@
     "pool younger than 7 days"
    ],
    "symbol": "JOB"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "liquidity under $250k",
-    "pool younger than 7 days"
-   ],
-   "symbol": "MOONX"
   },
   {
    "chain": "Solana",
@@ -71,6 +71,14 @@
     "liquidity under $250k",
     "pool younger than 7 days"
    ],
+   "symbol": "ROBOTAXI"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "liquidity under $250k",
+    "pool younger than 7 days"
+   ],
    "symbol": "MOGZ"
   },
   {
@@ -79,7 +87,7 @@
     "liquidity under $250k",
     "pool younger than 7 days"
    ],
-   "symbol": "ROBOTAXI"
+   "symbol": "LAUNCH"
   },
   {
    "chain": "Solana",
@@ -108,7 +116,7 @@
     "liquidity under $250k",
     "pool younger than 7 days"
    ],
-   "symbol": "RAPPORT"
+   "symbol": "\u2588\u2588\u2588"
   },
   {
    "chain": "Solana",
@@ -116,19 +124,12 @@
     "liquidity under $250k",
     "pool younger than 7 days"
    ],
-   "symbol": "\u2588\u2588\u2588"
+   "symbol": "RAPPORT"
   },
   {
    "chain": "Solana",
    "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "LMAO!"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "no DEX candles"
+    "24h volume under $250k"
    ],
    "symbol": "TROLL"
   },
@@ -143,9 +144,10 @@
   {
    "chain": "Solana",
    "fails": [
-    "liquidity under $250k"
+    "liquidity under $250k",
+    "pool younger than 7 days"
    ],
-   "symbol": "SIB"
+   "symbol": "ROBOTAXI"
   },
   {
    "chain": "Base",
@@ -214,17 +216,17 @@
   {
    "chain": "Base",
    "fails": [
-    "hidden owner",
-    "owner can change balances"
+    "24h volume under $250k"
    ],
-   "symbol": "POD"
+   "symbol": "TIBBIR"
   },
   {
    "chain": "Base",
    "fails": [
-    "24h volume under $250k"
+    "hidden owner",
+    "owner can change balances"
    ],
-   "symbol": "TIBBIR"
+   "symbol": "POD"
   },
   {
    "chain": "Base",
@@ -238,21 +240,14 @@
    "fails": [
     "24h volume under $250k"
    ],
-   "symbol": "WIRON"
+   "symbol": "KTA"
   },
   {
    "chain": "Base",
    "fails": [
     "24h volume under $250k"
    ],
-   "symbol": "KTA"
-  },
-  {
-   "chain": "Base",
-   "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "ELSA"
+   "symbol": "SURPLUS"
   },
   {
    "chain": "Base",
@@ -265,23 +260,23 @@
   {
    "chain": "Base",
    "fails": [
-    "24h volume under $250k"
-   ],
-   "symbol": "SURPLUS"
-  },
-  {
-   "chain": "Base",
-   "fails": [
     "pool younger than 7 days"
    ],
    "symbol": "SNDKC"
   },
   {
-   "chain": "BSC",
+   "chain": "Base",
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "AKE"
+   "symbol": "ELSA"
+  },
+  {
+   "chain": "Base",
+   "fails": [
+    "24h volume under $250k"
+   ],
+   "symbol": "TOSHI"
   },
   {
    "chain": "BSC",
@@ -295,31 +290,38 @@
    "fails": [
     "no DEX candles"
    ],
+   "symbol": "AKE"
+  },
+  {
+   "chain": "BSC",
+   "fails": [
+    "no DEX candles"
+   ],
    "symbol": "Q"
   }
  ],
  "rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
- "updated": 1793202025,
+ "updated": 1793205625,
  "watchlist": [
   {
-   "age_d": 481.1,
-   "atr": 0.02256706018499758,
-   "bar_ts": 1793196000000,
+   "age_d": 481.2,
+   "atr": 0.022159179955256188,
+   "bar_ts": 1793199600000,
    "chain": "BSC",
-   "chg24h": -6.156,
-   "chg7d": 259.8,
-   "close": 0.143100887816068,
-   "ema20": 0.1440708234536892,
-   "ema50": 0.12197495518160915,
+   "chg24h": -8.955,
+   "chg7d": 271.2,
+   "close": 0.14883080834359,
+   "ema20": 0.14452415535018318,
+   "ema50": 0.12302825768032372,
    "fails": [],
    "gecko_id": "infinity-ground",
-   "liq": 705877,
-   "mcap": 27199355.87391,
+   "liq": 698468,
+   "mcap": 26929868.35814,
    "name": "Infinity Ground AI",
    "net": "bsc",
    "pool": "0xf4262c4dbf524f53851a5176bdc7d6c1e0fa82d8",
-   "price": 0.146785514664726,
-   "rsi": 52.8,
+   "price": 0.145331183786834,
+   "rsi": 57.0,
    "safety": "ok",
    "safety_notes": [],
    "symbol": "AIN",
@@ -327,35 +329,35 @@
    "trend_up": true,
    "trigger": false,
    "url": "https://www.geckoterminal.com/bsc/pools/0xf4262c4dbf524f53851a5176bdc7d6c1e0fa82d8",
-   "vol24h": 5432402
+   "vol24h": 5252865
   },
   {
-   "age_d": 428.2,
-   "atr": 0.09292128480889782,
-   "bar_ts": 1793196000000,
-   "chain": "BSC",
-   "chg24h": 0.284,
-   "chg7d": -0.3,
-   "close": 6.37466331100941,
-   "ema20": 6.352275777107463,
-   "ema50": 6.348052434225441,
+   "age_d": 1321.6,
+   "atr": 0.0019349333544480894,
+   "bar_ts": 1793199600000,
+   "chain": "Arbitrum",
+   "chg24h": -1.753,
+   "chg7d": -14.7,
+   "close": 0.167599442603389,
+   "ema20": 0.16747795065639368,
+   "ema50": 0.16792914349681026,
    "fails": [],
-   "gecko_id": "ark-3",
-   "liq": 58001646,
-   "mcap": 0.0,
-   "name": "ARK",
-   "net": "bsc",
-   "pool": "0xcaaf3c41a40103a23eeaa4bba468af3cf5b0e0d8",
-   "price": 6.3528457998562,
-   "rsi": 53.6,
+   "gecko_id": "arbitrum",
+   "liq": 1872470,
+   "mcap": 1142328462.91686,
+   "name": "Arbitrum",
+   "net": "arbitrum",
+   "pool": "0xc6f780497a95e246eb9449f5e4770916dcd6396a",
+   "price": 0.165744253823,
+   "rsi": 50.0,
    "safety": "ok",
    "safety_notes": [],
-   "symbol": "ARK",
-   "token": "0xcae117ca6bc8a341d2e7207f30e180f0e5618b9d",
-   "trend_up": true,
+   "symbol": "ARB",
+   "token": "0x912ce59144191c1204e64559fe8253a0e49e6548",
+   "trend_up": false,
    "trigger": false,
-   "url": "https://www.geckoterminal.com/bsc/pools/0xcaaf3c41a40103a23eeaa4bba468af3cf5b0e0d8",
-   "vol24h": 2865096
+   "url": "https://www.geckoterminal.com/arbitrum/pools/0xc6f780497a95e246eb9449f5e4770916dcd6396a",
+   "vol24h": 2525650
   }
  ]
 }
