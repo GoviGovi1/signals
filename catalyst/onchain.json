@@ -52,14 +52,6 @@
   {
    "chain": "Solana",
    "fails": [
-    "liquidity under $250k",
-    "pool younger than 7 days"
-   ],
-   "symbol": "CHICO"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
     "no DEX candles"
    ],
    "symbol": "OTC"
@@ -70,7 +62,24 @@
     "liquidity under $250k",
     "pool younger than 7 days"
    ],
+   "symbol": "CHICO"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "liquidity under $250k",
+    "pool younger than 7 days",
+    "24h volume under $250k"
+   ],
    "symbol": "XD"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "liquidity under $250k",
+    "pool younger than 7 days"
+   ],
+   "symbol": "MOONX"
   },
   {
    "chain": "Solana",
@@ -78,6 +87,14 @@
     "no DEX candles"
    ],
    "symbol": "LMAO!"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "liquidity under $250k",
+    "pool younger than 7 days"
+   ],
+   "symbol": "MOGZ"
   },
   {
    "chain": "Solana",
@@ -108,16 +125,15 @@
     "liquidity under $250k",
     "pool younger than 7 days"
    ],
-   "symbol": "MOGZ"
+   "symbol": "JOB"
   },
   {
    "chain": "Solana",
    "fails": [
     "liquidity under $250k",
-    "pool younger than 7 days",
-    "24h volume under $250k"
+    "pool younger than 7 days"
    ],
-   "symbol": "MOONX"
+   "symbol": "SOMETHING"
   },
   {
    "chain": "Solana",
@@ -136,20 +152,6 @@
    "symbol": "SI"
   },
   {
-   "chain": "Solana",
-   "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "PUMP"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "CARDS"
-  },
-  {
    "chain": "Base",
    "fails": [
     "liquidity under $250k"
@@ -166,16 +168,16 @@
   {
    "chain": "Base",
    "fails": [
-    "no DEX candles"
+    "24h volume under $250k"
    ],
-   "symbol": "XDP"
+   "symbol": "BASECAT"
   },
   {
    "chain": "Base",
    "fails": [
-    "24h volume under $250k"
+    "no DEX candles"
    ],
-   "symbol": "BASECAT"
+   "symbol": "XDP"
   },
   {
    "chain": "Base",
@@ -191,20 +193,6 @@
     "owner can change balances"
    ],
    "symbol": "POD"
-  },
-  {
-   "chain": "Base",
-   "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "WIRON"
-  },
-  {
-   "chain": "Base",
-   "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "ELSA"
   },
   {
    "chain": "Base",
@@ -230,9 +218,9 @@
   {
    "chain": "Base",
    "fails": [
-    "24h volume under $250k"
+    "no DEX candles"
    ],
-   "symbol": "DOT"
+   "symbol": "ELSA"
   },
   {
    "chain": "Base",
@@ -244,10 +232,24 @@
   {
    "chain": "Base",
    "fails": [
+    "24h volume under $250k"
+   ],
+   "symbol": "DOT"
+  },
+  {
+   "chain": "Base",
+   "fails": [
     "liquidity under $250k",
     "24h volume under $250k"
    ],
    "symbol": "OWB"
+  },
+  {
+   "chain": "Base",
+   "fails": [
+    "no DEX candles"
+   ],
+   "symbol": "WIRON"
   },
   {
    "chain": "Base",
@@ -266,16 +268,17 @@
   {
    "chain": "Base",
    "fails": [
-    "24h volume under $250k"
+    "no DEX candles"
    ],
-   "symbol": "SURPLUS"
+   "symbol": "MORPHO"
   },
   {
    "chain": "Base",
    "fails": [
-    "no DEX candles"
+    "liquidity under $250k",
+    "24h volume under $250k"
    ],
-   "symbol": "MORPHO"
+   "symbol": "FLOWER"
   },
   {
    "chain": "BSC",
@@ -289,66 +292,66 @@
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "AIN"
+   "symbol": "Q"
   },
   {
    "chain": "BSC",
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "Q"
+   "symbol": "AKE"
   }
  ],
  "rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
- "updated": 1793158824,
+ "updated": 1793162423,
  "watchlist": [
   {
-   "age_d": 370.5,
-   "atr": 0.0063096632954791915,
-   "bar_ts": 1793152800000,
+   "age_d": 480.7,
+   "atr": 0.024681117745916848,
+   "bar_ts": 1793156400000,
    "chain": "BSC",
-   "chg24h": 46.286,
-   "chg7d": 52.1,
-   "close": 0.0465953730578978,
-   "ema20": 0.04407443864943574,
-   "ema50": 0.03934986717322775,
+   "chg24h": 90.891,
+   "chg7d": 283.7,
+   "close": 0.154833572254713,
+   "ema20": 0.14066185978368417,
+   "ema50": 0.10826439714542006,
    "fails": [],
-   "gecko_id": "apriori",
-   "liq": 281914,
-   "mcap": 19750261.4044821,
-   "name": "aPriori",
+   "gecko_id": "infinity-ground",
+   "liq": 783948,
+   "mcap": 28680806.71172,
+   "name": "Infinity Ground AI",
    "net": "bsc",
-   "pool": "0xff84bf0ab4772bfa399b42b2633617a08506dfd8ba6fb3b7a782b3c021c0bba1",
-   "price": 0.0496638338649903,
-   "rsi": 56.5,
+   "pool": "0xf4262c4dbf524f53851a5176bdc7d6c1e0fa82d8",
+   "price": 0.154780392371099,
+   "rsi": 65.6,
    "safety": "ok",
    "safety_notes": [],
-   "symbol": "APR",
-   "token": "0x299ad4299da5b2b93fba4c96967b040c7f611099",
+   "symbol": "AIN",
+   "token": "0x9558a9254890b2a8b057a789f413631b9084f4a3",
    "trend_up": true,
    "trigger": false,
-   "url": "https://www.geckoterminal.com/bsc/pools/0xff84bf0ab4772bfa399b42b2633617a08506dfd8ba6fb3b7a782b3c021c0bba1",
-   "vol24h": 8357708
+   "url": "https://www.geckoterminal.com/bsc/pools/0xf4262c4dbf524f53851a5176bdc7d6c1e0fa82d8",
+   "vol24h": 7109873
   },
   {
-   "age_d": 313.6,
-   "atr": 0.0015007931571943984,
-   "bar_ts": 1793152800000,
+   "age_d": 313.7,
+   "atr": 0.0014318950859651177,
+   "bar_ts": 1793156400000,
    "chain": "BSC",
-   "chg24h": -25.129,
-   "chg7d": 78.4,
-   "close": 0.0232710164493147,
-   "ema20": 0.025351450959739463,
-   "ema50": 0.028924884568566258,
+   "chg24h": -25.035,
+   "chg7d": 77.6,
+   "close": 0.0229882954648317,
+   "ema20": 0.025126388531571623,
+   "ema50": 0.028691963789978535,
    "fails": [],
    "gecko_id": "irys",
-   "liq": 482873,
-   "mcap": 46421381.4,
+   "liq": 477029,
+   "mcap": 45600400.38,
    "name": "Irys",
    "net": "bsc",
    "pool": "0x73de8b8d37fac1afe156f6533788a0eff197d636",
-   "price": 0.0233326563802219,
-   "rsi": 34.3,
+   "price": 0.0228002001917556,
+   "rsi": 33.2,
    "safety": "ok",
    "safety_notes": [],
    "symbol": "IRYS",
@@ -356,7 +359,7 @@
    "trend_up": false,
    "trigger": false,
    "url": "https://www.geckoterminal.com/bsc/pools/0x73de8b8d37fac1afe156f6533788a0eff197d636",
-   "vol24h": 3842117
+   "vol24h": 3673015
   }
  ]
 }
