@@ -36,7 +36,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 296.28,
-   "last_ts": "2026-10-27T23:55:21+00:00",
+   "last_ts": "2026-10-28T00:00:35+00:00",
    "move_pct": 5.32,
    "closed": false,
    "rsi": 56.6,
@@ -75,9 +75,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.05411,
-   "last_ts": "2026-10-27T23:55:21+00:00",
-   "move_pct": 4.97,
+   "last": 0.05408,
+   "last_ts": "2026-10-28T00:00:35+00:00",
+   "move_pct": 4.91,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -119,9 +119,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.06397,
-   "last_ts": "2026-10-27T23:55:21+00:00",
-   "move_pct": 0.08,
+   "last": 0.06386,
+   "last_ts": "2026-10-28T00:00:35+00:00",
+   "move_pct": 0.25,
    "closed": false,
    "rsi": 40.8,
    "trade_on": "Perps 1x",
@@ -164,9 +164,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.02193,
-   "last_ts": "2026-10-27T23:55:21+00:00",
-   "move_pct": 1.72,
+   "last": 0.02195,
+   "last_ts": "2026-10-28T00:00:35+00:00",
+   "move_pct": 1.81,
    "closed": false,
    "rsi": 64.2,
    "trade_on": "Spot",
@@ -209,9 +209,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2673,
-   "last_ts": "2026-10-27T23:55:21+00:00",
-   "move_pct": 4.05,
+   "last": 0.2659,
+   "last_ts": "2026-10-28T00:00:35+00:00",
+   "move_pct": 3.5,
    "closed": false,
    "rsi": 68.7,
    "trade_on": "Spot",
@@ -254,9 +254,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.007749,
-   "last_ts": "2026-10-27T23:55:21+00:00",
-   "move_pct": 0.32,
+   "last": 0.007739,
+   "last_ts": "2026-10-28T00:00:35+00:00",
+   "move_pct": 0.19,
    "closed": false,
    "rsi": 64.2,
    "trade_on": "Spot",
@@ -299,9 +299,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.041531,
-   "last_ts": "2026-10-27T23:55:21+00:00",
-   "move_pct": 1.82,
+   "last": 0.041511,
+   "last_ts": "2026-10-28T00:00:35+00:00",
+   "move_pct": 1.78,
    "closed": false,
    "rsi": 65.5,
    "trade_on": "Spot",
@@ -343,15 +343,142 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2675,
-   "last_ts": "2026-10-27T23:55:21+00:00",
-   "move_pct": 0.87,
+   "last": 0.2671,
+   "last_ts": "2026-10-28T00:00:35+00:00",
+   "move_pct": 0.72,
    "closed": false,
    "rsi": 70.1,
    "trade_on": "Spot",
    "market_reason": "trend not strong enough for leverage: spot has no liquidation or funding",
    "chart": "charts/PONS-SPOT-1793138400.png",
    "setup": "RANGE_BREAK"
+  },
+  {
+   "id": "ATH-SPOT-1793142000",
+   "kind": "TA",
+   "score": 0,
+   "reasons": [
+    "Chart: Broke out of a 2-day range at 0.005835 (range 0.005417\u20130.005835) on 0.6x volume",
+    "Timeframes: 1d down, 4h flat, 4h structure lower highs/lows",
+    "Next resistance 0.00648 (4.1R away, 4h swing)",
+    "Stop 0.0057035 (2 ATR); targets at the next 3 level(s)",
+    "BTC 4h trend down",
+    "Stronger than BTC by 6.6% over 7d",
+    "OI +5% 24h",
+    "Fees +1887% 7d",
+    "price only +4% 7d",
+    "Sector: DePIN -6.4% 7d (lagging, #18 of 20)",
+    "Track record: +0.2R on ATH in the last 45 days (backtest)"
+   ],
+   "coin": "ATH",
+   "market": "SPOT",
+   "side": "LONG",
+   "entry": 0.005861,
+   "sl0": 0.005708346498293931,
+   "sl": 0.005708346498293931,
+   "tps": [
+    0.0064740837742572905,
+    0.006643228070705378,
+    0.006727299792016853
+   ],
+   "lev": null,
+   "funding_pct": null,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-10-28T00:00:00+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.005871,
+   "last_ts": "2026-10-28T00:00:35+00:00",
+   "move_pct": 0.17,
+   "closed": false,
+   "rsi": 70.3,
+   "trade_on": "Spot",
+   "market_reason": "thin perp market: spot is safer",
+   "chart": "charts/ATH-SPOT-1793142000.png",
+   "setup": "RANGE_BREAK"
+  },
+  {
+   "id": "BTW-PERP-HOT-20754",
+   "kind": "HOT",
+   "score": 1110.97,
+   "reasons": [
+    "24h hot mover +46% with volume spike (3.0x the prior 3 days)",
+    "24h volume $129.0M on the OKX perp book, listed 6 days",
+    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
+    "Stop 1.5490 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
+   ],
+   "coin": "BTW",
+   "market": "PERP",
+   "side": "LONG",
+   "entry": 1.7438,
+   "sl0": 1.5489732861385328,
+   "sl": 1.5489732861385328,
+   "tps": [
+    1.9386267138614672,
+    2.1334534277229347,
+    2.328280141584402
+   ],
+   "lev": 1,
+   "funding_pct": 0.005,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-10-28T00:00:35+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 1.7442,
+   "last_ts": "2026-10-28T00:00:35+00:00",
+   "move_pct": 0.02,
+   "closed": false,
+   "rsi": null,
+   "trade_on": "Perps 1x",
+   "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
+   "chart": "charts/BTW-PERP-HOT-20754.png",
+   "setup": "HOT24"
+  },
+  {
+   "id": "ACU-PERP-HOT-20754",
+   "kind": "HOT",
+   "score": 948.61,
+   "reasons": [
+    "24h hot mover +23% with volume spike (6.8x the prior 3 days)",
+    "24h volume $6.1M on the OKX perp book, listed 278 days",
+    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
+    "Stop 0.13423 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
+   ],
+   "coin": "ACU",
+   "market": "PERP",
+   "side": "LONG",
+   "entry": 0.14447,
+   "sl0": 0.1342343274133534,
+   "sl": 0.1342343274133534,
+   "tps": [
+    0.15470567258664658,
+    0.1649413451732932,
+    0.17517701775993982
+   ],
+   "lev": 1,
+   "funding_pct": 0.005,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-10-28T00:00:35+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.14485,
+   "last_ts": "2026-10-28T00:00:35+00:00",
+   "move_pct": 0.26,
+   "closed": false,
+   "rsi": null,
+   "trade_on": "Perps 1x",
+   "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
+   "chart": "charts/ACU-PERP-HOT-20754.png",
+   "setup": "HOT24"
   }
  ],
  "closed": [
@@ -2587,7 +2714,7 @@
     "total_pct": -5.43
    }
   },
-  "open": 8
+  "open": 11
  },
  "backtest": {
   "from": "2026-07-24",
@@ -5207,21 +5334,6 @@
   "unlocks": [
    {
     "big": false,
-    "coin": "IOTA",
-    "insider_pct": 23,
-    "pct": 0.26,
-    "tokens": 12328169,
-    "tracked": true,
-    "ts": 1793145600,
-    "usd": 518348,
-    "who": [
-     "Tangle Ecosystem Association",
-     "IOTA DLT Foundation",
-     "IOTA Foundation"
-    ]
-   },
-   {
-    "big": false,
     "coin": "GRASS",
     "insider_pct": 48,
     "pct": 1.44,
@@ -6106,6 +6218,28 @@
     ]
    },
    {
+    "id": "solana-meme-coins",
+    "name": "Solana Meme Coins",
+    "chg7d": -4.5,
+    "top": [
+     "PENGU",
+     "TRUMP",
+     "BONK",
+     "WIF",
+     "USELESS"
+    ],
+    "tracked": [
+     "TRUMP",
+     "USELESS",
+     "PENGU",
+     "WIF",
+     "FARTCOIN",
+     "BONK",
+     "MEW",
+     "PNUT"
+    ]
+   },
+   {
     "id": "storage",
     "name": "Storage",
     "chg7d": -4.75,
@@ -6186,28 +6320,6 @@
      "BNB",
      "AVAX",
      "ZEC"
-    ]
-   },
-   {
-    "id": "solana-meme-coins",
-    "name": "Solana Meme Coins",
-    "chg7d": -5.71,
-    "top": [
-     "PENGU",
-     "TRUMP",
-     "BONK",
-     "WIF",
-     "USELESS"
-    ],
-    "tracked": [
-     "TRUMP",
-     "USELESS",
-     "PENGU",
-     "WIF",
-     "FARTCOIN",
-     "BONK",
-     "MEW",
-     "PNUT"
     ]
    },
    {
@@ -6483,8 +6595,8 @@
   "updated": {
    "unlocks": 1793137522,
    "onchain": 1793144422,
-   "sectors": 1793144725,
-   "listings": 1793141723,
+   "sectors": 1793145635,
+   "listings": 1793145634,
    "fundamentals": 1793137523
   }
  },
@@ -6522,6 +6634,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "da52cf9b9eb6db5a6157ff0ff08037d6b066e5a513695f40a3dbe674304149da",
- "generated": "2026-10-27T23:55:24+00:00"
+ "digest": "9d67df632b883d56e4b55a8de168c3f325d9b652ff4ed2877b1eed8fff318fea",
+ "generated": "2026-10-28T00:01:15+00:00"
 }
