@@ -35,55 +35,15 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 298.86,
-   "last_ts": "2026-10-28T11:45:25+00:00",
-   "move_pct": 6.24,
+   "last": 298.72,
+   "last_ts": "2026-10-28T11:50:25+00:00",
+   "move_pct": 6.19,
    "closed": false,
    "rsi": 56.6,
    "trade_on": "Spot",
    "market_reason": "trend not strong enough for leverage: spot has no liquidation or funding",
    "chart": "charts/BCH-SPOT-1793034000.png",
    "setup": "BOS"
-  },
-  {
-   "id": "CHIP-SPOT-HOT-20753",
-   "kind": "HOT",
-   "score": 570.09,
-   "reasons": [
-    "24h hot mover +21% with volume spike (4.2x the prior 3 days)",
-    "24h volume $2.7M on the OKX spot book, listed 186 days",
-    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
-    "Stop 0.0482 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
-   ],
-   "coin": "CHIP",
-   "market": "SPOT",
-   "side": "LONG",
-   "entry": 0.05155,
-   "sl0": 0.04819969498818433,
-   "sl": 0.05155,
-   "tps": [
-    0.05490030501181567,
-    0.058250610023631334,
-    0.061600915035447006
-   ],
-   "lev": null,
-   "funding_pct": null,
-   "status": "tp1",
-   "hits": 1,
-   "opened": "2026-10-27T01:45:24+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.05285,
-   "last_ts": "2026-10-28T11:45:25+00:00",
-   "move_pct": 2.52,
-   "closed": false,
-   "rsi": null,
-   "trade_on": "Spot",
-   "market_reason": "very volatile coin: spot avoids liquidation",
-   "chart": "charts/CHIP-SPOT-HOT-20753.png",
-   "setup": "HOT24"
   },
   {
    "id": "YB-PERP-1793062800",
@@ -119,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.06475,
-   "last_ts": "2026-10-28T11:45:25+00:00",
-   "move_pct": -1.14,
+   "last": 0.06469,
+   "last_ts": "2026-10-28T11:50:25+00:00",
+   "move_pct": -1.05,
    "closed": false,
    "rsi": 40.8,
    "trade_on": "Perps 1x",
@@ -165,7 +125,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.02214,
-   "last_ts": "2026-10-28T11:45:25+00:00",
+   "last_ts": "2026-10-28T11:50:25+00:00",
    "move_pct": 2.69,
    "closed": false,
    "rsi": 64.2,
@@ -210,7 +170,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.2621,
-   "last_ts": "2026-10-28T11:45:25+00:00",
+   "last_ts": "2026-10-28T11:50:25+00:00",
    "move_pct": 2.02,
    "closed": false,
    "rsi": 68.7,
@@ -254,9 +214,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.007834,
-   "last_ts": "2026-10-28T11:45:25+00:00",
-   "move_pct": 1.42,
+   "last": 0.00784,
+   "last_ts": "2026-10-28T11:50:25+00:00",
+   "move_pct": 1.5,
    "closed": false,
    "rsi": 64.2,
    "trade_on": "Spot",
@@ -299,9 +259,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.040586,
-   "last_ts": "2026-10-28T11:45:25+00:00",
-   "move_pct": -0.49,
+   "last": 0.040633,
+   "last_ts": "2026-10-28T11:50:25+00:00",
+   "move_pct": -0.38,
    "closed": false,
    "rsi": 65.5,
    "trade_on": "Spot",
@@ -346,9 +306,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.005867,
-   "last_ts": "2026-10-28T11:45:25+00:00",
-   "move_pct": 0.1,
+   "last": 0.005861,
+   "last_ts": "2026-10-28T11:50:25+00:00",
+   "move_pct": 0.0,
    "closed": false,
    "rsi": 70.3,
    "trade_on": "Spot",
@@ -386,9 +346,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.7331,
-   "last_ts": "2026-10-28T11:45:25+00:00",
-   "move_pct": -0.61,
+   "last": 1.7405,
+   "last_ts": "2026-10-28T11:50:25+00:00",
+   "move_pct": -0.19,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -432,7 +392,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.0003891,
-   "last_ts": "2026-10-28T11:45:25+00:00",
+   "last_ts": "2026-10-28T11:50:25+00:00",
    "move_pct": 1.33,
    "closed": false,
    "rsi": 74.4,
@@ -476,9 +436,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.007051,
-   "last_ts": "2026-10-28T11:45:25+00:00",
-   "move_pct": -0.16,
+   "last": 0.007048,
+   "last_ts": "2026-10-28T11:50:25+00:00",
+   "move_pct": -0.2,
    "closed": false,
    "rsi": 69.9,
    "trade_on": "Spot",
@@ -488,6 +448,46 @@
   }
  ],
  "closed": [
+  {
+   "id": "CHIP-SPOT-HOT-20753",
+   "kind": "HOT",
+   "score": 570.09,
+   "reasons": [
+    "24h hot mover +21% with volume spike (4.2x the prior 3 days)",
+    "24h volume $2.7M on the OKX spot book, listed 186 days",
+    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
+    "Stop 0.0482 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
+   ],
+   "coin": "CHIP",
+   "market": "SPOT",
+   "side": "LONG",
+   "entry": 0.05155,
+   "sl0": 0.04819969498818433,
+   "sl": 0.05155,
+   "tps": [
+    0.05490030501181567,
+    0.058250610023631334,
+    0.061600915035447006
+   ],
+   "lev": null,
+   "funding_pct": null,
+   "status": "stopped_be",
+   "hits": 1,
+   "opened": "2026-10-27T01:45:24+00:00",
+   "closed_at": "2026-10-28T11:50:25+00:00",
+   "exit_price": 0.05155,
+   "result_r": 0.25,
+   "result_pct": 1.62,
+   "last": 0.0521,
+   "last_ts": "2026-10-28T11:50:25+00:00",
+   "move_pct": 2.52,
+   "closed": true,
+   "rsi": null,
+   "trade_on": "Spot",
+   "market_reason": "very volatile coin: spot avoids liquidation",
+   "chart": "charts/CHIP-SPOT-HOT-20753.png",
+   "setup": "HOT24"
+  },
   {
    "id": "PONS-SPOT-HOT-20754",
    "kind": "HOT",
@@ -2188,7 +2188,7 @@
    "rsi": 29.2,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": "charts/ZIL-PERP-1792681200.png",
+   "chart": null,
    "setup": "RANGE_BREAK"
   },
   {
@@ -2436,22 +2436,22 @@
  ],
  "stats": {
   "all": {
-   "trades": 46,
-   "wins": 25,
+   "trades": 47,
+   "wins": 26,
    "losses": 21,
-   "win_rate": 54.3,
-   "total_r": 18.12,
-   "avg_r": 0.394,
-   "total_pct": 71.89
+   "win_rate": 55.3,
+   "total_r": 18.37,
+   "avg_r": 0.391,
+   "total_pct": 73.51
   },
   "SPOT": {
-   "trades": 13,
-   "wins": 7,
+   "trades": 14,
+   "wins": 8,
    "losses": 6,
-   "win_rate": 53.8,
-   "total_r": 8.28,
-   "avg_r": 0.637,
-   "total_pct": 44.6
+   "win_rate": 57.1,
+   "total_r": 8.53,
+   "avg_r": 0.61,
+   "total_pct": 46.22
   },
   "PERP": {
    "trades": 30,
@@ -2473,13 +2473,13 @@
   },
   "kinds": {
    "HOT": {
-    "trades": 13,
-    "wins": 7,
+    "trades": 14,
+    "wins": 8,
     "losses": 6,
-    "win_rate": 53.8,
-    "total_r": 2.75,
-    "avg_r": 0.212,
-    "total_pct": 21.69
+    "win_rate": 57.1,
+    "total_r": 3.0,
+    "avg_r": 0.214,
+    "total_pct": 23.31
    },
    "ONCHAIN": {
     "trades": 3,
@@ -2644,6 +2644,15 @@
     "total_r": 1.25,
     "avg_r": 0.625,
     "total_pct": 2.61
+   },
+   "CHIP": {
+    "trades": 1,
+    "wins": 1,
+    "losses": 0,
+    "win_rate": 100.0,
+    "total_r": 0.25,
+    "avg_r": 0.25,
+    "total_pct": 1.62
    },
    "CHZ": {
     "trades": 1,
@@ -2853,7 +2862,7 @@
     "total_pct": -5.43
    }
   },
-  "open": 11
+  "open": 10
  },
  "backtest": {
   "from": "2026-07-24",
@@ -6772,6 +6781,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "a8e21a28222394a8efd5065b8f6d1e26c19d3c9cef2178a8cafbbe5d1d2fc100",
- "generated": "2026-10-28T11:45:28+00:00"
+ "digest": "6f2ddf5a8aeab7afbdaebf6ed54b556225aaace5756aa5ffe535ac1d832cd003",
+ "generated": "2026-10-28T11:50:29+00:00"
 }
