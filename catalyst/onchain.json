@@ -29,17 +29,17 @@
   {
    "chain": "Solana",
    "fails": [
-    "liquidity under $250k",
-    "pool younger than 7 days"
+    "no DEX candles"
    ],
-   "symbol": "FRONGUS"
+   "symbol": "STONK"
   },
   {
    "chain": "Solana",
    "fails": [
-    "no DEX candles"
+    "liquidity under $250k",
+    "pool younger than 7 days"
    ],
-   "symbol": "STONK"
+   "symbol": "FRONGUS"
   },
   {
    "chain": "Solana",
@@ -105,13 +105,6 @@
   {
    "chain": "Solana",
    "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "CATE"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
     "liquidity under $250k",
     "pool younger than 7 days"
    ],
@@ -130,6 +123,13 @@
     "no DEX candles"
    ],
    "symbol": "GTA6"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "no DEX candles"
+   ],
+   "symbol": "CATE"
   },
   {
    "chain": "Solana",
@@ -192,16 +192,16 @@
   {
    "chain": "Base",
    "fails": [
-    "24h volume under $250k"
+    "liquidity under $250k"
    ],
-   "symbol": "BNKR"
+   "symbol": "LMTS"
   },
   {
    "chain": "Base",
    "fails": [
-    "liquidity under $250k"
+    "24h volume under $250k"
    ],
-   "symbol": "LMTS"
+   "symbol": "BNKR"
   },
   {
    "chain": "Base",
@@ -235,7 +235,8 @@
   {
    "chain": "Base",
    "fails": [
-    "no DEX candles"
+    "hidden owner",
+    "owner can change balances"
    ],
    "symbol": "POD"
   },
@@ -251,21 +252,14 @@
    "fails": [
     "24h volume under $250k"
    ],
-   "symbol": "BASECAT"
+   "symbol": "TOSHI"
   },
   {
    "chain": "Base",
    "fails": [
-    "pool younger than 7 days"
+    "24h volume under $250k"
    ],
-   "symbol": "SNDKC"
-  },
-  {
-   "chain": "BSC",
-   "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "Q"
+   "symbol": "BASECAT"
   },
   {
    "chain": "BSC",
@@ -286,6 +280,13 @@
    "fails": [
     "no DEX candles"
    ],
+   "symbol": "AKE"
+  },
+  {
+   "chain": "BSC",
+   "fails": [
+    "no DEX candles"
+   ],
    "symbol": "TART"
   },
   {
@@ -297,27 +298,57 @@
   }
  ],
  "rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
- "updated": 1793223623,
+ "updated": 1793227220,
  "watchlist": [
   {
-   "age_d": 401.6,
-   "atr": 0.0009252788901942105,
-   "bar_ts": 1793217600000,
+   "age_d": 44.4,
+   "atr": 0.0805222984341609,
+   "bar_ts": 1793221200000,
    "chain": "BSC",
-   "chg24h": 26.046,
-   "chg7d": 35.7,
-   "close": 0.011111511451019,
-   "ema20": 0.010771313601066368,
-   "ema50": 0.009796503522594329,
+   "chg24h": -1.111,
+   "chg7d": -1.7,
+   "close": 5.59942819559052,
+   "ema20": 5.625428819389042,
+   "ema50": 5.593877127180589,
+   "fails": [],
+   "gecko_id": "cea-industries-bstocks-tokenized-stock",
+   "liq": 5905925,
+   "mcap": 40348504.2704055,
+   "name": "B13B",
+   "net": "bsc",
+   "pool": "0x320e8096e5e7a46e43446141a5b15d801fc596f5",
+   "price": 5.61854967400256,
+   "rsi": 48.0,
+   "safety": "unknown",
+   "safety_notes": [
+    "safety not checked"
+   ],
+   "symbol": "B13B",
+   "token": "0x4902c5ebc598265ed2212b559b042de8a5eeec3f",
+   "trend_up": true,
+   "trigger": false,
+   "url": "https://www.geckoterminal.com/bsc/pools/0x320e8096e5e7a46e43446141a5b15d801fc596f5",
+   "vol24h": 6023999
+  },
+  {
+   "age_d": 401.6,
+   "atr": 0.0008881142063206217,
+   "bar_ts": 1793221200000,
+   "chain": "BSC",
+   "chg24h": 25.306,
+   "chg7d": 34.2,
+   "close": 0.0109647484999627,
+   "ema20": 0.01078973597246757,
+   "ema50": 0.009842339828560372,
    "fails": [],
    "gecko_id": "bless-2",
-   "liq": 267477,
-   "mcap": 20284743.2053381,
+   "liq": 265517,
+   "mcap": 19934141.8437747,
    "name": "Bless Token",
    "net": "bsc",
    "pool": "0x49986efbeedea3ab962ca95caf86919860ecc9db",
-   "price": 0.0110167751334711,
-   "rsi": 57.1,
+   "price": 0.0108293421610957,
+   "rsi": 55.3,
    "safety": "ok",
    "safety_notes": [],
    "symbol": "BLESS",
@@ -325,37 +356,91 @@
    "trend_up": true,
    "trigger": false,
    "url": "https://www.geckoterminal.com/bsc/pools/0x49986efbeedea3ab962ca95caf86919860ecc9db",
-   "vol24h": 4630238
+   "vol24h": 4628587
   },
   {
-   "age_d": 434.6,
-   "atr": 0.0013054283754846967,
-   "bar_ts": 1793217600000,
-   "chain": "BSC",
-   "chg24h": 3.163,
-   "chg7d": -7.9,
-   "close": 0.0235210211738463,
-   "ema20": 0.021949094699908717,
-   "ema50": 0.02420064781326264,
+   "age_d": 371.4,
+   "atr": 20.904165965518192,
+   "bar_ts": 1793221200000,
+   "chain": "Ethereum",
+   "chg24h": -0.006,
+   "chg7d": -1.4,
+   "close": 4080.84754438044,
+   "ema20": 4052.206402197301,
+   "ema50": 4041.995971853732,
    "fails": [],
-   "gecko_id": "akedo",
-   "liq": 2452184,
-   "mcap": 522733428.008137,
-   "name": "AKE",
+   "gecko_id": "pax-gold",
+   "liq": 6608700,
+   "mcap": 1814722535.99776,
+   "name": "Paxos Gold",
+   "net": "eth",
+   "pool": "0xc756bba710d45647715079ce50aa16aab36ded42",
+   "price": 4047.65651923073,
+   "rsi": 59.2,
+   "safety": "ok",
+   "safety_notes": [],
+   "symbol": "PAXG",
+   "token": "0x45804880de22913dafe09f4980848ece6ecbaf78",
+   "trend_up": true,
+   "trigger": false,
+   "url": "https://www.geckoterminal.com/eth/pools/0xc756bba710d45647715079ce50aa16aab36ded42",
+   "vol24h": 3696392
+  },
+  {
+   "age_d": 9.2,
+   "atr": 0.0005000923921860621,
+   "bar_ts": 1793221200000,
+   "chain": "BSC",
+   "chg24h": -0.71,
+   "chg7d": -12.5,
+   "close": 0.0420480262621577,
+   "ema20": 0.04211304803783363,
+   "ema50": 0.04205545287601877,
+   "fails": [],
+   "gecko_id": "zignaly",
+   "liq": 1221649,
+   "mcap": 59204821.1801331,
+   "name": "ZigCoin",
    "net": "bsc",
-   "pool": "0x4d3bf29ba30f8bfe4624e7678709afa195689c5d",
-   "price": 0.0229306762301479,
-   "rsi": 57.8,
-   "safety": "unknown",
-   "safety_notes": [
-    "safety not checked"
-   ],
-   "symbol": "AKE",
-   "token": "0x2c3a8ee94ddd97244a93bc48298f97d2c412f7db",
+   "pool": "0x9fac151b7f1dbbb9d14ccd1ca5b990bc4da5cd1f",
+   "price": 0.0420124417890809,
+   "rsi": 49.2,
+   "safety": "ok",
+   "safety_notes": [],
+   "symbol": "ZIG",
+   "token": "0x8c907e0a72c3d55627e853f4ec6a96b0c8771145",
    "trend_up": false,
    "trigger": false,
-   "url": "https://www.geckoterminal.com/bsc/pools/0x4d3bf29ba30f8bfe4624e7678709afa195689c5d",
-   "vol24h": 7218180
+   "url": "https://www.geckoterminal.com/bsc/pools/0x9fac151b7f1dbbb9d14ccd1ca5b990bc4da5cd1f",
+   "vol24h": 48190675
+  },
+  {
+   "age_d": 423.6,
+   "atr": 0.009716783203386283,
+   "bar_ts": 1793221200000,
+   "chain": "BSC",
+   "chg24h": 26.888,
+   "chg7d": -39.1,
+   "close": 0.0697671247856468,
+   "ema20": 0.06506550941823634,
+   "ema50": 0.07255283377227954,
+   "fails": [],
+   "gecko_id": "quack-ai",
+   "liq": 1375824,
+   "mcap": 322766199.026306,
+   "name": "Quack AI Token",
+   "net": "bsc",
+   "pool": "0x8bafe0bdd3eb9ae0539f5b32e771c1a72a189b7f",
+   "price": 0.0689114488150247,
+   "rsi": 52.8,
+   "safety": "ok",
+   "safety_notes": [],
+   "symbol": "Q",
+   "token": "0xc07e1300dc138601fa6b0b59f8d0fa477e690589",
+   "trend_up": false,
+   "trigger": false,
+   "url": "https://www.geckoterminal.com/bsc/pools/0x8bafe0bdd3eb9ae0539f5b32e771c1a72a189b7f",
+   "vol24h": 43667812
   }
  ]
 }
