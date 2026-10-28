@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.06478,
-   "last_ts": "2026-10-28T20:25:22+00:00",
-   "move_pct": -1.19,
+   "last": 0.06475,
+   "last_ts": "2026-10-28T20:30:26+00:00",
+   "move_pct": -1.14,
    "closed": false,
    "rsi": 40.8,
    "trade_on": "Perps 1x",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.262,
-   "last_ts": "2026-10-28T20:25:22+00:00",
-   "move_pct": 1.99,
+   "last": 0.2615,
+   "last_ts": "2026-10-28T20:30:26+00:00",
+   "move_pct": 1.79,
    "closed": false,
    "rsi": 68.7,
    "trade_on": "Spot",
@@ -124,9 +124,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.007861,
-   "last_ts": "2026-10-28T20:25:22+00:00",
-   "move_pct": 1.77,
+   "last": 0.007846,
+   "last_ts": "2026-10-28T20:30:26+00:00",
+   "move_pct": 1.58,
    "closed": false,
    "rsi": 64.2,
    "trade_on": "Spot",
@@ -169,9 +169,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.040868,
-   "last_ts": "2026-10-28T20:25:22+00:00",
-   "move_pct": 0.2,
+   "last": 0.040981,
+   "last_ts": "2026-10-28T20:30:26+00:00",
+   "move_pct": 0.48,
    "closed": false,
    "rsi": 65.5,
    "trade_on": "Spot",
@@ -216,9 +216,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.00593,
-   "last_ts": "2026-10-28T20:25:22+00:00",
-   "move_pct": 1.18,
+   "last": 0.005892,
+   "last_ts": "2026-10-28T20:30:26+00:00",
+   "move_pct": 0.53,
    "closed": false,
    "rsi": 70.3,
    "trade_on": "Spot",
@@ -248,7 +248,7 @@
     2.328280141584402
    ],
    "lev": 1,
-   "funding_pct": 0.0134,
+   "funding_pct": 0.013,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-28T00:00:35+00:00",
@@ -256,8 +256,8 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.7338,
-   "last_ts": "2026-10-28T20:25:22+00:00",
+   "last": 1.7339,
+   "last_ts": "2026-10-28T20:30:26+00:00",
    "move_pct": -0.57,
    "closed": false,
    "rsi": null,
@@ -301,9 +301,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.000388,
-   "last_ts": "2026-10-28T20:25:22+00:00",
-   "move_pct": 1.04,
+   "last": 0.0003869,
+   "last_ts": "2026-10-28T20:30:26+00:00",
+   "move_pct": 0.76,
    "closed": false,
    "rsi": 74.4,
    "trade_on": "Spot",
@@ -346,9 +346,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 59.0,
-   "last_ts": "2026-10-28T20:25:22+00:00",
-   "move_pct": 1.43,
+   "last": 58.86,
+   "last_ts": "2026-10-28T20:30:26+00:00",
+   "move_pct": 1.19,
    "closed": false,
    "rsi": 65.5,
    "trade_on": "Spot",
@@ -6727,6 +6727,28 @@
     ]
    },
    {
+    "id": "layer-1",
+    "name": "Layer 1",
+    "chg7d": -6.2,
+    "top": [
+     "BTC",
+     "ETH",
+     "BNB",
+     "XRP",
+     "SOL"
+    ],
+    "tracked": [
+     "ETH",
+     "BTC",
+     "SOL",
+     "XRP",
+     "SUI",
+     "BNB",
+     "AVAX",
+     "ZEC"
+    ]
+   },
+   {
     "id": "decentralized-finance-defi",
     "name": "Decentralized Finance DeFi",
     "chg7d": -6.61,
@@ -6811,28 +6833,6 @@
      "AXS",
      "IMX",
      "ONE"
-    ]
-   },
-   {
-    "id": "layer-1",
-    "name": "Layer 1",
-    "chg7d": -7.26,
-    "top": [
-     "BTC",
-     "ETH",
-     "BNB",
-     "XRP",
-     "SOL"
-    ],
-    "tracked": [
-     "ETH",
-     "BTC",
-     "SOL",
-     "XRP",
-     "SUI",
-     "BNB",
-     "AVAX",
-     "ZEC"
     ]
    },
    {
@@ -7108,7 +7108,7 @@
   "updated": {
    "unlocks": 1793202323,
    "onchain": 1793216425,
-   "sectors": 1793218528,
+   "sectors": 1793219426,
    "listings": 1793216992,
    "fundamentals": 1793202324
   }
@@ -7147,6 +7147,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "884b47fe9ed04dcfcc020671c85570883cdaf41945916cd722e326e5f0d60a17",
- "generated": "2026-10-28T20:25:25+00:00"
+ "digest": "6cf746ba598c613439f5b4acbd2d2610682293b8c9ea0b8225e8998a94dd67a9",
+ "generated": "2026-10-28T20:30:29+00:00"
 }
