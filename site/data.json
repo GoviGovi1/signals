@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0647,
-   "last_ts": "2026-10-28T19:20:25+00:00",
-   "move_pct": -1.06,
+   "last": 0.0646,
+   "last_ts": "2026-10-28T19:25:23+00:00",
+   "move_pct": -0.91,
    "closed": false,
    "rsi": 40.8,
    "trade_on": "Perps 1x",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2609,
-   "last_ts": "2026-10-28T19:20:25+00:00",
-   "move_pct": 1.56,
+   "last": 0.2608,
+   "last_ts": "2026-10-28T19:25:23+00:00",
+   "move_pct": 1.52,
    "closed": false,
    "rsi": 68.7,
    "trade_on": "Spot",
@@ -124,9 +124,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.007795,
-   "last_ts": "2026-10-28T19:20:25+00:00",
-   "move_pct": 0.92,
+   "last": 0.007792,
+   "last_ts": "2026-10-28T19:25:23+00:00",
+   "move_pct": 0.88,
    "closed": false,
    "rsi": 64.2,
    "trade_on": "Spot",
@@ -169,9 +169,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.040929,
-   "last_ts": "2026-10-28T19:20:25+00:00",
-   "move_pct": 0.35,
+   "last": 0.040854,
+   "last_ts": "2026-10-28T19:25:23+00:00",
+   "move_pct": 0.16,
    "closed": false,
    "rsi": 65.5,
    "trade_on": "Spot",
@@ -216,9 +216,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.005899,
-   "last_ts": "2026-10-28T19:20:25+00:00",
-   "move_pct": 0.65,
+   "last": 0.005914,
+   "last_ts": "2026-10-28T19:25:23+00:00",
+   "move_pct": 0.9,
    "closed": false,
    "rsi": 70.3,
    "trade_on": "Spot",
@@ -248,7 +248,7 @@
     2.328280141584402
    ],
    "lev": 1,
-   "funding_pct": 0.0189,
+   "funding_pct": 0.0185,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-28T00:00:35+00:00",
@@ -256,9 +256,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.72,
-   "last_ts": "2026-10-28T19:20:25+00:00",
-   "move_pct": -1.36,
+   "last": 1.7267,
+   "last_ts": "2026-10-28T19:25:23+00:00",
+   "move_pct": -0.98,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -301,9 +301,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0003875,
-   "last_ts": "2026-10-28T19:20:25+00:00",
-   "move_pct": 0.91,
+   "last": 0.0003882,
+   "last_ts": "2026-10-28T19:25:23+00:00",
+   "move_pct": 1.09,
    "closed": false,
    "rsi": 74.4,
    "trade_on": "Spot",
@@ -338,7 +338,7 @@
     0.1864303736140059
    ],
    "lev": 3,
-   "funding_pct": -0.0062,
+   "funding_pct": -0.0064,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-28T13:00:00+00:00",
@@ -347,58 +347,13 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.2044,
-   "last_ts": "2026-10-28T19:20:25+00:00",
+   "last_ts": "2026-10-28T19:25:23+00:00",
    "move_pct": -0.89,
    "closed": false,
    "rsi": 36.0,
    "trade_on": "Perps 3x",
    "market_reason": "shorts need perps; 3x keeps liquidation 3x+ further away than the stop",
    "chart": "charts/ADA-PERP-1793188800.png",
-   "setup": "BREAKOUT20"
-  },
-  {
-   "id": "KITE-PERP-1793188800",
-   "kind": "TA",
-   "score": 0,
-   "reasons": [
-    "Chart: Broke the 20-hour low on 2.8x volume",
-    "Timeframes: 1d down, 4h down, 4h structure mixed",
-    "Next support 0.11089 (2.0R away, 4h swing/swing)",
-    "Stop 0.11712 (2 ATR); targets at the next 3 level(s)",
-    "BTC 4h trend down",
-    "Weaker than BTC by 2.5% over 7d",
-    "OI +4% 24h",
-    "Sector: Layer 1 -5.4% 7d (middle, #13 of 20)",
-    "Track record: +0.4R on KITE in the last 45 days (backtest)"
-   ],
-   "coin": "KITE",
-   "market": "PERP",
-   "side": "SHORT",
-   "entry": 0.11507,
-   "sl0": 0.11712428646363278,
-   "sl": 0.11712428646363278,
-   "tps": [
-    0.1110453535360545,
-    0.10592407148477247,
-    0.10462073815143913
-   ],
-   "lev": 1,
-   "funding_pct": 0.005,
-   "status": "open",
-   "hits": 0,
-   "opened": "2026-10-28T13:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.1171,
-   "last_ts": "2026-10-28T19:20:25+00:00",
-   "move_pct": -1.76,
-   "closed": false,
-   "rsi": 37.8,
-   "trade_on": "Perps 1x",
-   "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": "charts/KITE-PERP-1793188800.png",
    "setup": "BREAKOUT20"
   },
   {
@@ -436,9 +391,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 58.96,
-   "last_ts": "2026-10-28T19:20:25+00:00",
-   "move_pct": 1.36,
+   "last": 59.14,
+   "last_ts": "2026-10-28T19:25:23+00:00",
+   "move_pct": 1.67,
    "closed": false,
    "rsi": 65.5,
    "trade_on": "Spot",
@@ -448,6 +403,51 @@
   }
  ],
  "closed": [
+  {
+   "id": "KITE-PERP-1793188800",
+   "kind": "TA",
+   "score": 0,
+   "reasons": [
+    "Chart: Broke the 20-hour low on 2.8x volume",
+    "Timeframes: 1d down, 4h down, 4h structure mixed",
+    "Next support 0.11089 (2.0R away, 4h swing/swing)",
+    "Stop 0.11712 (2 ATR); targets at the next 3 level(s)",
+    "BTC 4h trend down",
+    "Weaker than BTC by 2.5% over 7d",
+    "OI +4% 24h",
+    "Sector: Layer 1 -5.4% 7d (middle, #13 of 20)",
+    "Track record: +0.4R on KITE in the last 45 days (backtest)"
+   ],
+   "coin": "KITE",
+   "market": "PERP",
+   "side": "SHORT",
+   "entry": 0.11507,
+   "sl0": 0.11712428646363278,
+   "sl": 0.11712428646363278,
+   "tps": [
+    0.1110453535360545,
+    0.10592407148477247,
+    0.10462073815143913
+   ],
+   "lev": 1,
+   "funding_pct": 0.005,
+   "status": "stopped",
+   "hits": 0,
+   "opened": "2026-10-28T13:00:00+00:00",
+   "closed_at": "2026-10-28T19:25:23+00:00",
+   "exit_price": 0.11712428646363278,
+   "result_r": -1.0,
+   "result_pct": -1.79,
+   "last": 0.11719,
+   "last_ts": "2026-10-28T19:25:23+00:00",
+   "move_pct": -1.76,
+   "closed": true,
+   "rsi": 37.8,
+   "trade_on": "Perps 1x",
+   "market_reason": "shorts need perps; thin perp market, so 1x",
+   "chart": "charts/KITE-PERP-1793188800.png",
+   "setup": "BREAKOUT20"
+  },
   {
    "id": "BIGTIME-SPOT-1793192400",
    "kind": "TA",
@@ -2166,7 +2166,7 @@
    "rsi": 65.3,
    "trade_on": "Perps 1x",
    "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
-   "chart": "charts/LIGHT-PERP-1792796400.png",
+   "chart": null,
    "setup": "RANGE_BREAK"
   },
   {
@@ -2662,13 +2662,13 @@
  ],
  "stats": {
   "all": {
-   "trades": 52,
+   "trades": 53,
    "wins": 28,
-   "losses": 24,
-   "win_rate": 53.8,
-   "total_r": 18.3,
-   "avg_r": 0.352,
-   "total_pct": 74.84
+   "losses": 25,
+   "win_rate": 52.8,
+   "total_r": 17.3,
+   "avg_r": 0.326,
+   "total_pct": 73.05
   },
   "SPOT": {
    "trades": 19,
@@ -2680,13 +2680,13 @@
    "total_pct": 47.55
   },
   "PERP": {
-   "trades": 30,
+   "trades": 31,
    "wins": 16,
-   "losses": 14,
-   "win_rate": 53.3,
-   "total_r": 7.84,
-   "avg_r": 0.261,
-   "total_pct": 7.7
+   "losses": 15,
+   "win_rate": 51.6,
+   "total_r": 6.84,
+   "avg_r": 0.221,
+   "total_pct": 5.91
   },
   "DEX": {
    "trades": 3,
@@ -2717,13 +2717,13 @@
     "total_pct": 19.59
    },
    "TA": {
-    "trades": 35,
+    "trades": 36,
     "wins": 18,
-    "losses": 17,
-    "win_rate": 51.4,
-    "total_r": 13.3,
-    "avg_r": 0.38,
-    "total_pct": 31.94
+    "losses": 18,
+    "win_rate": 50.0,
+    "total_r": 12.3,
+    "avg_r": 0.342,
+    "total_pct": 30.15
    }
   },
   "coins": {
@@ -2988,6 +2988,15 @@
     "avg_r": 4.253,
     "total_pct": 12.68
    },
+   "KITE": {
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate": 0.0,
+    "total_r": -1.0,
+    "avg_r": -1.0,
+    "total_pct": -1.79
+   },
    "KMNO": {
     "trades": 1,
     "wins": 1,
@@ -3133,7 +3142,7 @@
     "total_pct": -5.43
    }
   },
-  "open": 10
+  "open": 9
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7053,6 +7062,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "e3dfaea04221f4dd3673f328ee71f0d13fcf47714d2f86b44f48f01055c28bed",
- "generated": "2026-10-28T19:20:28+00:00"
+ "digest": "73198f8e070474c0aba6439ebae159357d5c88c8ee23768f224469c4e28501b0",
+ "generated": "2026-10-28T19:25:28+00:00"
 }
