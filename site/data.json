@@ -1,50 +1,6 @@
 {
  "open": [
   {
-   "id": "YB-PERP-1793062800",
-   "kind": "TA",
-   "score": 1,
-   "reasons": [
-    "Chart: Broke the 20-hour low on 1.6x volume",
-    "Timeframes: 1d down, 4h down, 4h structure higher highs/lows",
-    "Next support 0.059622 (2.1R away, 4h swing/swing)",
-    "Stop 0.066114 (2 ATR); targets at the next 1 level(s)",
-    "BTC 4h trend down",
-    "Stronger than BTC by 6.7% over 7d",
-    "OI +6% 24h with breakout",
-    "Track record: +3.1R on YB in the last 45 days (backtest)"
-   ],
-   "coin": "YB",
-   "market": "PERP",
-   "side": "SHORT",
-   "entry": 0.06402,
-   "sl0": 0.06611354224934164,
-   "sl": 0.06611354224934164,
-   "tps": [
-    0.05977868233536729,
-    0.05768514008602564,
-    0.05559159783668399
-   ],
-   "lev": 1,
-   "funding_pct": 0.005,
-   "status": "open",
-   "hits": 0,
-   "opened": "2026-10-27T02:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.06593,
-   "last_ts": "2026-10-28T21:35:22+00:00",
-   "move_pct": -2.98,
-   "closed": false,
-   "rsi": 40.8,
-   "trade_on": "Perps 1x",
-   "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": "charts/YB-PERP-1793062800.png",
-   "setup": "BREAKOUT20"
-  },
-  {
    "id": "API3-SPOT-1793113200",
    "kind": "TA",
    "score": 1,
@@ -79,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2627,
-   "last_ts": "2026-10-28T21:35:22+00:00",
-   "move_pct": 2.26,
+   "last": 0.2631,
+   "last_ts": "2026-10-28T21:41:23+00:00",
+   "move_pct": 2.41,
    "closed": false,
    "rsi": 68.7,
    "trade_on": "Spot",
@@ -124,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.007919,
-   "last_ts": "2026-10-28T21:35:22+00:00",
-   "move_pct": 2.52,
+   "last": 0.007958,
+   "last_ts": "2026-10-28T21:41:23+00:00",
+   "move_pct": 3.03,
    "closed": false,
    "rsi": 64.2,
    "trade_on": "Spot",
@@ -169,9 +125,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.040886,
-   "last_ts": "2026-10-28T21:35:22+00:00",
-   "move_pct": 0.24,
+   "last": 0.041011,
+   "last_ts": "2026-10-28T21:41:23+00:00",
+   "move_pct": 0.55,
    "closed": false,
    "rsi": 65.5,
    "trade_on": "Spot",
@@ -216,9 +172,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.005957,
-   "last_ts": "2026-10-28T21:35:22+00:00",
-   "move_pct": 1.64,
+   "last": 0.005975,
+   "last_ts": "2026-10-28T21:41:23+00:00",
+   "move_pct": 1.95,
    "closed": false,
    "rsi": 70.3,
    "trade_on": "Spot",
@@ -248,7 +204,7 @@
     2.328280141584402
    ],
    "lev": 1,
-   "funding_pct": 0.0125,
+   "funding_pct": 0.0122,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-28T00:00:35+00:00",
@@ -257,7 +213,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 1.7432,
-   "last_ts": "2026-10-28T21:35:22+00:00",
+   "last_ts": "2026-10-28T21:41:23+00:00",
    "move_pct": -0.03,
    "closed": false,
    "rsi": null,
@@ -301,9 +257,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0003892,
-   "last_ts": "2026-10-28T21:35:22+00:00",
-   "move_pct": 1.35,
+   "last": 0.0003899,
+   "last_ts": "2026-10-28T21:41:23+00:00",
+   "move_pct": 1.54,
    "closed": false,
    "rsi": 74.4,
    "trade_on": "Spot",
@@ -346,9 +302,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 59.1,
-   "last_ts": "2026-10-28T21:35:22+00:00",
-   "move_pct": 1.6,
+   "last": 59.36,
+   "last_ts": "2026-10-28T21:41:23+00:00",
+   "move_pct": 2.05,
    "closed": false,
    "rsi": 65.5,
    "trade_on": "Spot",
@@ -358,6 +314,50 @@
   }
  ],
  "closed": [
+  {
+   "id": "YB-PERP-1793062800",
+   "kind": "TA",
+   "score": 1,
+   "reasons": [
+    "Chart: Broke the 20-hour low on 1.6x volume",
+    "Timeframes: 1d down, 4h down, 4h structure higher highs/lows",
+    "Next support 0.059622 (2.1R away, 4h swing/swing)",
+    "Stop 0.066114 (2 ATR); targets at the next 1 level(s)",
+    "BTC 4h trend down",
+    "Stronger than BTC by 6.7% over 7d",
+    "OI +6% 24h with breakout",
+    "Track record: +3.1R on YB in the last 45 days (backtest)"
+   ],
+   "coin": "YB",
+   "market": "PERP",
+   "side": "SHORT",
+   "entry": 0.06402,
+   "sl0": 0.06611354224934164,
+   "sl": 0.06611354224934164,
+   "tps": [
+    0.05977868233536729,
+    0.05768514008602564,
+    0.05559159783668399
+   ],
+   "lev": 1,
+   "funding_pct": 0.005,
+   "status": "stopped",
+   "hits": 0,
+   "opened": "2026-10-27T02:00:00+00:00",
+   "closed_at": "2026-10-28T21:41:23+00:00",
+   "exit_price": 0.06611354224934164,
+   "result_r": -1.0,
+   "result_pct": -3.27,
+   "last": 0.06642,
+   "last_ts": "2026-10-28T21:41:23+00:00",
+   "move_pct": -2.98,
+   "closed": true,
+   "rsi": 40.8,
+   "trade_on": "Perps 1x",
+   "market_reason": "shorts need perps; thin perp market, so 1x",
+   "chart": "charts/YB-PERP-1793062800.png",
+   "setup": "BREAKOUT20"
+  },
   {
    "id": "ADA-PERP-1793188800",
    "kind": "TA",
@@ -2078,7 +2078,7 @@
    "rsi": 59.7,
    "trade_on": "Spot",
    "market_reason": "thin perp market: spot is safer",
-   "chart": "charts/KMNO-SPOT-1792767600.png",
+   "chart": null,
    "setup": "BREAKOUT20"
   },
   {
@@ -2662,13 +2662,13 @@
  ],
  "stats": {
   "all": {
-   "trades": 54,
+   "trades": 55,
    "wins": 28,
-   "losses": 26,
-   "win_rate": 51.9,
-   "total_r": 16.3,
-   "avg_r": 0.302,
-   "total_pct": 71.31
+   "losses": 27,
+   "win_rate": 50.9,
+   "total_r": 15.3,
+   "avg_r": 0.278,
+   "total_pct": 68.04
   },
   "SPOT": {
    "trades": 19,
@@ -2680,13 +2680,13 @@
    "total_pct": 47.55
   },
   "PERP": {
-   "trades": 32,
+   "trades": 33,
    "wins": 16,
-   "losses": 16,
-   "win_rate": 50.0,
-   "total_r": 5.84,
-   "avg_r": 0.182,
-   "total_pct": 4.17
+   "losses": 17,
+   "win_rate": 48.5,
+   "total_r": 4.84,
+   "avg_r": 0.147,
+   "total_pct": 0.9
   },
   "DEX": {
    "trades": 3,
@@ -2717,13 +2717,13 @@
     "total_pct": 19.59
    },
    "TA": {
-    "trades": 37,
+    "trades": 38,
     "wins": 18,
-    "losses": 19,
-    "win_rate": 48.6,
-    "total_r": 11.3,
-    "avg_r": 0.306,
-    "total_pct": 28.41
+    "losses": 20,
+    "win_rate": 47.4,
+    "total_r": 10.3,
+    "avg_r": 0.271,
+    "total_pct": 25.14
    }
   },
   "coins": {
@@ -3123,6 +3123,15 @@
     "avg_r": 0.333,
     "total_pct": 0.56
    },
+   "YB": {
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate": 0.0,
+    "total_r": -1.0,
+    "avg_r": -1.0,
+    "total_pct": -3.27
+   },
    "ZAMA": {
     "trades": 1,
     "wins": 0,
@@ -3151,7 +3160,7 @@
     "total_pct": -5.43
    }
   },
-  "open": 8
+  "open": 7
  },
  "backtest": {
   "from": "2026-07-24",
@@ -6411,56 +6420,39 @@
     "symbol": "BLESS",
     "name": "Bless Token",
     "token": "0x7c8217517ed4711fe2deccdfeffe8d906b9ae11f",
-    "price": 0.0111220335681094,
-    "liq": 268421,
-    "vol24h": 4601122,
-    "age_d": 401.5,
-    "chg24h": 34.638,
-    "chg7d": 36.2,
-    "mcap": 20483078.495124,
+    "price": 0.0110167751334711,
+    "liq": 267477,
+    "vol24h": 4630238,
+    "age_d": 401.6,
+    "chg24h": 26.046,
+    "chg7d": 35.7,
+    "mcap": 20284743.2053381,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": true,
-    "rsi": 57.6,
+    "rsi": 57.1,
     "url": "https://www.geckoterminal.com/bsc/pools/0x49986efbeedea3ab962ca95caf86919860ecc9db"
-   },
-   {
-    "chain": "BSC",
-    "symbol": "DOS",
-    "name": "DAPPOS",
-    "token": "0xb0f09ea9ae0515c3551080d4a745c8115aa30e37",
-    "price": 0.233144786651557,
-    "liq": 861712,
-    "vol24h": 16823994,
-    "age_d": 79.3,
-    "chg24h": -13.28,
-    "chg7d": 7.7,
-    "mcap": 46628957.34,
-    "safety": "ok",
-    "safety_notes": [],
-    "trigger": false,
-    "trend_up": false,
-    "rsi": 29.2,
-    "url": "https://www.geckoterminal.com/bsc/pools/0xcbeaad783ffd2cea125e9d9b2ec21e639d20fa59"
    },
    {
     "chain": "BSC",
     "symbol": "AKE",
     "name": "AKE",
     "token": "0x2c3a8ee94ddd97244a93bc48298f97d2c412f7db",
-    "price": 0.0237743470314265,
-    "liq": 2474192,
-    "vol24h": 6996932,
-    "age_d": 434.5,
-    "chg24h": 4.949,
-    "chg7d": -9.0,
-    "mcap": 541965958.482638,
-    "safety": "ok",
-    "safety_notes": [],
+    "price": 0.0229306762301479,
+    "liq": 2452184,
+    "vol24h": 7218180,
+    "age_d": 434.6,
+    "chg24h": 3.163,
+    "chg7d": -7.9,
+    "mcap": 522733428.008137,
+    "safety": "unknown",
+    "safety_notes": [
+     "safety not checked"
+    ],
     "trigger": false,
     "trend_up": false,
-    "rsi": 56.4,
+    "rsi": 57.8,
     "url": "https://www.geckoterminal.com/bsc/pools/0x4d3bf29ba30f8bfe4624e7678709afa195689c5d"
    }
   ],
@@ -7050,7 +7042,7 @@
   ],
   "updated": {
    "unlocks": 1793202323,
-   "onchain": 1793220038,
+   "onchain": 1793223623,
    "sectors": 1793223030,
    "listings": 1793220624,
    "fundamentals": 1793202324
@@ -7090,6 +7082,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "2ea2b03d389349ae0ef06bf9a97db373d6f226f52bfc2a33c71a6bd90053161d",
- "generated": "2026-10-28T21:35:25+00:00"
+ "digest": "bc930322665cae852674577f25ee91fdf20e219f61c11aedd6a7b565eebb821b",
+ "generated": "2026-10-28T21:41:27+00:00"
 }
