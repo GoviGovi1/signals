@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.822,
-   "last_ts": "2026-10-29T09:05:21+00:00",
-   "move_pct": 4.48,
+   "last": 1.8385,
+   "last_ts": "2026-10-29T09:10:23+00:00",
+   "move_pct": 5.43,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -67,7 +67,7 @@
     0.0021992358304069935
    ],
    "lev": 1,
-   "funding_pct": -0.0291,
+   "funding_pct": -0.0287,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-29T00:00:00+00:00",
@@ -75,9 +75,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.00282,
-   "last_ts": "2026-10-29T09:05:21+00:00",
-   "move_pct": 2.62,
+   "last": 0.002825,
+   "last_ts": "2026-10-29T09:10:23+00:00",
+   "move_pct": 2.45,
    "closed": false,
    "rsi": 38.0,
    "trade_on": "Perps 1x",
@@ -107,7 +107,7 @@
     0.3040008
    ],
    "lev": 1,
-   "funding_pct": 0.0015,
+   "funding_pct": 0.0021,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-29T00:00:31+00:00",
@@ -115,9 +115,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2176,
-   "last_ts": "2026-10-29T09:05:21+00:00",
-   "move_pct": -2.65,
+   "last": 0.21942,
+   "last_ts": "2026-10-29T09:10:23+00:00",
+   "move_pct": -1.84,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -155,61 +155,15 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.007219,
-   "last_ts": "2026-10-29T09:05:21+00:00",
-   "move_pct": 0.1,
+   "last": 0.007209,
+   "last_ts": "2026-10-29T09:10:23+00:00",
+   "move_pct": -0.04,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
    "market_reason": "very volatile coin: spot avoids liquidation",
    "chart": "charts/OL-SPOT-HOT-20755.png",
    "setup": "HOT24"
-  },
-  {
-   "id": "WAL-PERP-1793235600",
-   "kind": "TA",
-   "score": 1,
-   "reasons": [
-    "Chart: Broke down from a 4-day range at 0.03254 (range 0.03254\u20130.03499) on 1.8x volume",
-    "Timeframes: 1d down, 4h down, 4h structure mixed",
-    "Next support 0.03087 (2.5R away, 4h swing)",
-    "Stop 0.032869 (above the breakdown level); targets at the next 2 level(s)",
-    "BTC 4h trend down",
-    "Weaker than BTC by 14.1% over 7d",
-    "Unlock: 0.8% of supply ($696k) in 10 h",
-    "OI +15% 24h with breakout",
-    "Sector: Storage -6.1% 7d (middle, #12 of 20)",
-    "Track record: +3.5R on WAL in the last 45 days (backtest)"
-   ],
-   "coin": "WAL",
-   "market": "PERP",
-   "side": "SHORT",
-   "entry": 0.0323,
-   "sl0": 0.032868806759333284,
-   "sl": 0.032868806759333284,
-   "tps": [
-    0.03095220168983332,
-    0.02944220168983332,
-    0.02887339493050004
-   ],
-   "lev": 1,
-   "funding_pct": 0.005,
-   "status": "open",
-   "hits": 0,
-   "opened": "2026-10-29T02:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.03261,
-   "last_ts": "2026-10-29T09:05:21+00:00",
-   "move_pct": -0.96,
-   "closed": false,
-   "rsi": 33.8,
-   "trade_on": "Perps 1x",
-   "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": "charts/WAL-PERP-1793235600.png",
-   "setup": "RANGE_BREAK"
   },
   {
    "id": "BIGTIME-PERP-1793242800",
@@ -246,9 +200,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.006716,
-   "last_ts": "2026-10-29T09:05:21+00:00",
-   "move_pct": 0.5,
+   "last": 0.00674,
+   "last_ts": "2026-10-29T09:10:23+00:00",
+   "move_pct": 0.15,
    "closed": false,
    "rsi": 36.8,
    "trade_on": "Perps 1x",
@@ -290,9 +244,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04399,
-   "last_ts": "2026-10-29T09:05:21+00:00",
-   "move_pct": 0.43,
+   "last": 0.04414,
+   "last_ts": "2026-10-29T09:10:23+00:00",
+   "move_pct": 0.09,
    "closed": false,
    "rsi": 29.8,
    "trade_on": "Perps 1x",
@@ -335,9 +289,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.137,
-   "last_ts": "2026-10-29T09:05:21+00:00",
-   "move_pct": 0.51,
+   "last": 0.1377,
+   "last_ts": "2026-10-29T09:10:23+00:00",
+   "move_pct": -0.0,
    "closed": false,
    "rsi": 36.7,
    "trade_on": "Perps 1x",
@@ -380,9 +334,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.01559,
-   "last_ts": "2026-10-29T09:05:21+00:00",
-   "move_pct": -0.58,
+   "last": 0.01566,
+   "last_ts": "2026-10-29T09:10:23+00:00",
+   "move_pct": -1.03,
    "closed": false,
    "rsi": 38.1,
    "trade_on": "Perps 1x",
@@ -392,6 +346,52 @@
   }
  ],
  "closed": [
+  {
+   "id": "WAL-PERP-1793235600",
+   "kind": "TA",
+   "score": 1,
+   "reasons": [
+    "Chart: Broke down from a 4-day range at 0.03254 (range 0.03254\u20130.03499) on 1.8x volume",
+    "Timeframes: 1d down, 4h down, 4h structure mixed",
+    "Next support 0.03087 (2.5R away, 4h swing)",
+    "Stop 0.032869 (above the breakdown level); targets at the next 2 level(s)",
+    "BTC 4h trend down",
+    "Weaker than BTC by 14.1% over 7d",
+    "Unlock: 0.8% of supply ($696k) in 10 h",
+    "OI +15% 24h with breakout",
+    "Sector: Storage -6.1% 7d (middle, #12 of 20)",
+    "Track record: +3.5R on WAL in the last 45 days (backtest)"
+   ],
+   "coin": "WAL",
+   "market": "PERP",
+   "side": "SHORT",
+   "entry": 0.0323,
+   "sl0": 0.032868806759333284,
+   "sl": 0.032868806759333284,
+   "tps": [
+    0.03095220168983332,
+    0.02944220168983332,
+    0.02887339493050004
+   ],
+   "lev": 1,
+   "funding_pct": 0.005,
+   "status": "stopped",
+   "hits": 0,
+   "opened": "2026-10-29T02:00:00+00:00",
+   "closed_at": "2026-10-29T09:10:23+00:00",
+   "exit_price": 0.032868806759333284,
+   "result_r": -1.0,
+   "result_pct": -1.76,
+   "last": 0.0329,
+   "last_ts": "2026-10-29T09:10:23+00:00",
+   "move_pct": -0.96,
+   "closed": true,
+   "rsi": 33.8,
+   "trade_on": "Perps 1x",
+   "market_reason": "shorts need perps; thin perp market, so 1x",
+   "chart": "charts/WAL-PERP-1793235600.png",
+   "setup": "RANGE_BREAK"
+  },
   {
    "id": "SLX-PERP-1793235600",
    "kind": "TA",
@@ -2127,7 +2127,7 @@
    "rsi": null,
    "trade_on": "Spot",
    "market_reason": "only spot is listed",
-   "chart": "charts/T-SPOT-HOT-20751.png",
+   "chart": null,
    "setup": "HOT24"
   },
   {
@@ -2942,57 +2942,17 @@
    "market_reason": "not listed on OKX; buy on a DEX, small size, no leverage",
    "chart": null,
    "setup": null
-  },
-  {
-   "id": "XRP-PERP-1792656000",
-   "kind": "TA",
-   "score": -1,
-   "reasons": [
-    "Chart: 20-hour breakdown below EMA50, 4h downtrend, RSI 31",
-    "OI +3% 24h",
-    "Sector: Layer 1 +1.2% 7d (leading, #4 of 20)",
-    "Track record: +3.7R on XRP in the last 45 days (backtest)"
-   ],
-   "coin": "XRP",
-   "market": "PERP",
-   "side": "SHORT",
-   "entry": 1.327,
-   "sl0": 1.349439112428932,
-   "sl": 1.327,
-   "tps": [
-    1.304560887571068,
-    1.2821217751421357,
-    1.2596826627132036
-   ],
-   "lev": 3,
-   "funding_pct": 0.01,
-   "status": "stopped_be",
-   "hits": 1,
-   "opened": "2026-10-22T09:00:00+00:00",
-   "closed_at": "2026-10-23T05:37:43+00:00",
-   "exit_price": 1.327,
-   "result_r": 0.333,
-   "result_pct": 0.56,
-   "last": 1.3264,
-   "last_ts": "2026-10-23T05:37:43+00:00",
-   "move_pct": 0.24,
-   "closed": true,
-   "rsi": 31.0,
-   "trade_on": null,
-   "market_reason": null,
-   "chart": null,
-   "setup": null
   }
  ],
  "stats": {
   "all": {
-   "trades": 62,
+   "trades": 63,
    "wins": 29,
-   "losses": 33,
-   "win_rate": 46.8,
-   "total_r": 9.87,
-   "avg_r": 0.159,
-   "total_pct": 56.78
+   "losses": 34,
+   "win_rate": 46.0,
+   "total_r": 8.87,
+   "avg_r": 0.141,
+   "total_pct": 55.02
   },
   "SPOT": {
    "trades": 25,
@@ -3004,13 +2964,13 @@
    "total_pct": 38.46
   },
   "PERP": {
-   "trades": 34,
+   "trades": 35,
    "wins": 16,
-   "losses": 18,
-   "win_rate": 47.1,
-   "total_r": 3.84,
-   "avg_r": 0.113,
-   "total_pct": -1.27
+   "losses": 19,
+   "win_rate": 45.7,
+   "total_r": 2.84,
+   "avg_r": 0.081,
+   "total_pct": -3.03
   },
   "DEX": {
    "trades": 3,
@@ -3041,13 +3001,13 @@
     "total_pct": 19.59
    },
    "TA": {
-    "trades": 45,
+    "trades": 46,
     "wins": 19,
-    "losses": 26,
-    "win_rate": 42.2,
-    "total_r": 4.87,
-    "avg_r": 0.108,
-    "total_pct": 13.88
+    "losses": 27,
+    "win_rate": 41.3,
+    "total_r": 3.87,
+    "avg_r": 0.084,
+    "total_pct": 12.12
    }
   },
   "coins": {
@@ -3474,6 +3434,15 @@
     "avg_r": 3.608,
     "total_pct": 9.94
    },
+   "WAL": {
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate": 0.0,
+    "total_r": -1.0,
+    "avg_r": -1.0,
+    "total_pct": -1.76
+   },
    "XPL": {
     "trades": 1,
     "wins": 0,
@@ -3529,7 +3498,7 @@
     "total_pct": -5.43
    }
   },
-  "open": 9
+  "open": 8
  },
  "backtest": {
   "from": "2026-07-24",
@@ -6923,6 +6892,28 @@
     ]
    },
    {
+    "id": "gaming",
+    "name": "Gaming",
+    "chg7d": -4.74,
+    "top": [
+     "FLOKI",
+     "GEOD",
+     "BEAM",
+     "AXS",
+     "GOMINING"
+    ],
+    "tracked": [
+     "BEAT",
+     "SAND",
+     "APE",
+     "GALA",
+     "FLOKI",
+     "AXS",
+     "IMX",
+     "ONE"
+    ]
+   },
+   {
     "id": "bitcoin-ecosystem",
     "name": "Bitcoin Ecosystem",
     "chg7d": -4.79,
@@ -7067,28 +7058,6 @@
      "PIPPIN",
      "KITE",
      "AIXBT"
-    ]
-   },
-   {
-    "id": "gaming",
-    "name": "Gaming",
-    "chg7d": -5.79,
-    "top": [
-     "FLOKI",
-     "BEAM",
-     "AXS",
-     "GOMINING",
-     "MANA"
-    ],
-    "tracked": [
-     "BEAT",
-     "SAND",
-     "APE",
-     "GALA",
-     "FLOKI",
-     "AXS",
-     "IMX",
-     "ONE"
     ]
    },
    {
@@ -7425,7 +7394,7 @@
   "updated": {
    "unlocks": 1793245822,
    "onchain": 1793263225,
-   "sectors": 1793264120,
+   "sectors": 1793265023,
    "listings": 1793262323,
    "fundamentals": 1793245823
   }
@@ -7464,6 +7433,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "8918f8dbad7cb0c6a2656091b7a67d086d00075c63c6a2e34b9d3071ed9a81d5",
- "generated": "2026-10-29T09:05:25+00:00"
+ "digest": "42a12c2d2f1cff24158960209b95a215fc60ec59ab9146513a64d2048b38c8e0",
+ "generated": "2026-10-29T09:10:27+00:00"
 }
