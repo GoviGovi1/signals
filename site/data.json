@@ -22,7 +22,7 @@
     2.328280141584402
    ],
    "lev": 1,
-   "funding_pct": 0.0079,
+   "funding_pct": 0.0075,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-28T00:00:35+00:00",
@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.7933,
-   "last_ts": "2026-10-29T05:50:22+00:00",
-   "move_pct": 2.84,
+   "last": 1.7999,
+   "last_ts": "2026-10-29T05:55:19+00:00",
+   "move_pct": 3.22,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -67,7 +67,7 @@
     0.0021992358304069935
    ],
    "lev": 1,
-   "funding_pct": -0.0168,
+   "funding_pct": -0.0177,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-29T00:00:00+00:00",
@@ -75,9 +75,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.00284,
-   "last_ts": "2026-10-29T05:50:22+00:00",
-   "move_pct": 1.93,
+   "last": 0.002838,
+   "last_ts": "2026-10-29T05:55:19+00:00",
+   "move_pct": 2.0,
    "closed": false,
    "rsi": 38.0,
    "trade_on": "Perps 1x",
@@ -107,7 +107,7 @@
     0.3040008
    ],
    "lev": 1,
-   "funding_pct": -0.031,
+   "funding_pct": -0.0303,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-29T00:00:31+00:00",
@@ -115,9 +115,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.22087,
-   "last_ts": "2026-10-29T05:50:22+00:00",
-   "move_pct": -1.19,
+   "last": 0.21745,
+   "last_ts": "2026-10-29T05:55:19+00:00",
+   "move_pct": -2.72,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -155,9 +155,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.00725,
-   "last_ts": "2026-10-29T05:50:22+00:00",
-   "move_pct": 0.53,
+   "last": 0.007275,
+   "last_ts": "2026-10-29T05:55:19+00:00",
+   "move_pct": 0.87,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -201,9 +201,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.03246,
-   "last_ts": "2026-10-29T05:50:22+00:00",
-   "move_pct": -0.5,
+   "last": 0.03241,
+   "last_ts": "2026-10-29T05:55:19+00:00",
+   "move_pct": -0.34,
    "closed": false,
    "rsi": 33.8,
    "trade_on": "Perps 1x",
@@ -246,9 +246,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.006777,
-   "last_ts": "2026-10-29T05:50:22+00:00",
-   "move_pct": -0.4,
+   "last": 0.00676,
+   "last_ts": "2026-10-29T05:55:19+00:00",
+   "move_pct": -0.15,
    "closed": false,
    "rsi": 36.8,
    "trade_on": "Perps 1x",
@@ -6796,6 +6796,28 @@
     ]
    },
    {
+    "id": "exchange-based-tokens",
+    "name": "Exchange Based Tokens",
+    "chg7d": -5.06,
+    "top": [
+     "BNB",
+     "HYPE",
+     "WBT",
+     "LEO",
+     "UNI"
+    ],
+    "tracked": [
+     "BNB",
+     "HYPE",
+     "PUMP",
+     "UNI",
+     "OKB",
+     "CRV",
+     "ASTER",
+     "AERO"
+    ]
+   },
+   {
     "id": "bitcoin-ecosystem",
     "name": "Bitcoin Ecosystem",
     "chg7d": -5.15,
@@ -6876,28 +6898,6 @@
      "CASHCAT",
      "SHIB",
      "USELESS"
-    ]
-   },
-   {
-    "id": "exchange-based-tokens",
-    "name": "Exchange Based Tokens",
-    "chg7d": -5.44,
-    "top": [
-     "BNB",
-     "HYPE",
-     "WBT",
-     "LEO",
-     "UNI"
-    ],
-    "tracked": [
-     "BNB",
-     "HYPE",
-     "PUMP",
-     "UNI",
-     "OKB",
-     "CRV",
-     "ASTER",
-     "AERO"
     ]
    },
    {
@@ -7293,7 +7293,7 @@
   "updated": {
    "unlocks": 1793245822,
    "onchain": 1793252423,
-   "sectors": 1793252423,
+   "sectors": 1793253319,
    "listings": 1793250922,
    "fundamentals": 1793245823
   }
@@ -7332,6 +7332,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "5f3d55cdcc9ec9628669112f15b84ade944138a66288ee658cd23f0fdb89f411",
- "generated": "2026-10-29T05:50:25+00:00"
+ "digest": "2ce690cc95476943925376f937fd8e3a97a535b0f6df68e98385a1a003825d13",
+ "generated": "2026-10-29T05:55:22+00:00"
 }
