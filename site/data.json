@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.8628,
-   "last_ts": "2026-10-29T09:20:20+00:00",
-   "move_pct": 6.82,
+   "last": 1.868,
+   "last_ts": "2026-10-29T09:25:24+00:00",
+   "move_pct": 7.12,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -75,9 +75,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002813,
-   "last_ts": "2026-10-29T09:20:20+00:00",
-   "move_pct": 2.87,
+   "last": 0.002817,
+   "last_ts": "2026-10-29T09:25:24+00:00",
+   "move_pct": 2.73,
    "closed": false,
    "rsi": 38.0,
    "trade_on": "Perps 1x",
@@ -107,7 +107,7 @@
     0.3040008
    ],
    "lev": 1,
-   "funding_pct": -0.0022,
+   "funding_pct": -0.005,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-29T00:00:31+00:00",
@@ -115,9 +115,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2195,
-   "last_ts": "2026-10-29T09:20:20+00:00",
-   "move_pct": -1.8,
+   "last": 0.2167,
+   "last_ts": "2026-10-29T09:25:24+00:00",
+   "move_pct": -3.06,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -155,9 +155,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.007216,
-   "last_ts": "2026-10-29T09:20:20+00:00",
-   "move_pct": 0.06,
+   "last": 0.00725,
+   "last_ts": "2026-10-29T09:25:24+00:00",
+   "move_pct": 0.53,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -200,9 +200,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.006727,
-   "last_ts": "2026-10-29T09:20:20+00:00",
-   "move_pct": 0.34,
+   "last": 0.006728,
+   "last_ts": "2026-10-29T09:25:24+00:00",
+   "move_pct": 0.33,
    "closed": false,
    "rsi": 36.8,
    "trade_on": "Perps 1x",
@@ -244,9 +244,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04409,
-   "last_ts": "2026-10-29T09:20:20+00:00",
-   "move_pct": 0.2,
+   "last": 0.04414,
+   "last_ts": "2026-10-29T09:25:24+00:00",
+   "move_pct": 0.09,
    "closed": false,
    "rsi": 29.8,
    "trade_on": "Perps 1x",
@@ -289,9 +289,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1376,
-   "last_ts": "2026-10-29T09:20:20+00:00",
-   "move_pct": 0.07,
+   "last": 0.1382,
+   "last_ts": "2026-10-29T09:25:24+00:00",
+   "move_pct": -0.36,
    "closed": false,
    "rsi": 36.7,
    "trade_on": "Perps 1x",
@@ -334,9 +334,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.01565,
-   "last_ts": "2026-10-29T09:20:20+00:00",
-   "move_pct": -0.97,
+   "last": 0.01562,
+   "last_ts": "2026-10-29T09:25:24+00:00",
+   "move_pct": -0.77,
    "closed": false,
    "rsi": 38.1,
    "trade_on": "Perps 1x",
@@ -7018,27 +7018,6 @@
     ]
    },
    {
-    "id": "oracle",
-    "name": "Oracle",
-    "chg7d": -5.23,
-    "top": [
-     "LINK",
-     "PYTH",
-     "RED",
-     "WIN",
-     "TRB"
-    ],
-    "tracked": [
-     "LINK",
-     "PYTH",
-     "API3",
-     "TRB",
-     "ZKP",
-     "BAND",
-     "UMA"
-    ]
-   },
-   {
     "id": "ai-agents",
     "name": "AI Agents",
     "chg7d": -5.79,
@@ -7058,6 +7037,27 @@
      "PIPPIN",
      "KITE",
      "AIXBT"
+    ]
+   },
+   {
+    "id": "oracle",
+    "name": "Oracle",
+    "chg7d": -5.85,
+    "top": [
+     "LINK",
+     "PYTH",
+     "RED",
+     "WIN",
+     "TRB"
+    ],
+    "tracked": [
+     "LINK",
+     "PYTH",
+     "API3",
+     "TRB",
+     "ZKP",
+     "BAND",
+     "UMA"
     ]
    },
    {
@@ -7394,8 +7394,8 @@
   "updated": {
    "unlocks": 1793245822,
    "onchain": 1793263225,
-   "sectors": 1793265023,
-   "listings": 1793262323,
+   "sectors": 1793265924,
+   "listings": 1793265924,
    "fundamentals": 1793245823
   }
  },
@@ -7433,6 +7433,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "68484a3de12c756a84624aaf26fd15d549059ed2083f1fe993ee034ef6646162",
- "generated": "2026-10-29T09:20:24+00:00"
+ "digest": "fc0c841994be36498144dddf1f11ccbe0e27740d9d394954a40771b10f74aebe",
+ "generated": "2026-10-29T09:25:27+00:00"
 }
