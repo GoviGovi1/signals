@@ -27,7 +27,7 @@
     0.0021992358304069935
    ],
    "lev": 1,
-   "funding_pct": -0.0387,
+   "funding_pct": -0.0386,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-29T00:00:00+00:00",
@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002918,
-   "last_ts": "2026-10-29T17:05:22+00:00",
-   "move_pct": -0.76,
+   "last": 0.002917,
+   "last_ts": "2026-10-29T17:10:26+00:00",
+   "move_pct": -0.73,
    "closed": false,
    "rsi": 38.0,
    "trade_on": "Perps 1x",
@@ -67,7 +67,7 @@
     0.3040008
    ],
    "lev": 1,
-   "funding_pct": -0.005,
+   "funding_pct": -0.0045,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-29T00:00:31+00:00",
@@ -75,9 +75,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.21976,
-   "last_ts": "2026-10-29T17:05:22+00:00",
-   "move_pct": -1.69,
+   "last": 0.2169,
+   "last_ts": "2026-10-29T17:10:26+00:00",
+   "move_pct": -2.97,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -115,9 +115,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.007437,
-   "last_ts": "2026-10-29T17:05:22+00:00",
-   "move_pct": 3.12,
+   "last": 0.007478,
+   "last_ts": "2026-10-29T17:10:26+00:00",
+   "move_pct": 3.69,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -160,9 +160,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1403,
-   "last_ts": "2026-10-29T17:05:22+00:00",
-   "move_pct": -1.89,
+   "last": 0.1405,
+   "last_ts": "2026-10-29T17:10:26+00:00",
+   "move_pct": -2.03,
    "closed": false,
    "rsi": 36.7,
    "trade_on": "Perps 1x",
@@ -205,9 +205,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 6.015,
-   "last_ts": "2026-10-29T17:05:22+00:00",
-   "move_pct": -1.13,
+   "last": 6.02,
+   "last_ts": "2026-10-29T17:10:26+00:00",
+   "move_pct": -1.05,
    "closed": false,
    "rsi": 72.2,
    "trade_on": "Spot",
@@ -245,9 +245,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.21161,
-   "last_ts": "2026-10-29T17:05:22+00:00",
-   "move_pct": 2.1,
+   "last": 0.21563,
+   "last_ts": "2026-10-29T17:10:26+00:00",
+   "move_pct": 4.04,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -6804,6 +6804,28 @@
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
+    "id": "meme-token",
+    "name": "Meme Token",
+    "chg7d": 0.45,
+    "top": [
+     "DOGE",
+     "SHIB",
+     "M",
+     "PEPE",
+     "PUMP"
+    ],
+    "tracked": [
+     "DOGE",
+     "PEPE",
+     "PUMP",
+     "TRUMP",
+     "PENGU",
+     "USELESS",
+     "SHIB",
+     "CASHCAT"
+    ]
+   },
+   {
     "id": "real-world-assets-rwa",
     "name": "Real World Assets RWA",
     "chg7d": -0.18,
@@ -6889,28 +6911,6 @@
      "FARTCOIN",
      "BOME",
      "MEW"
-    ]
-   },
-   {
-    "id": "meme-token",
-    "name": "Meme Token",
-    "chg7d": -2.2,
-    "top": [
-     "DOGE",
-     "SHIB",
-     "M",
-     "PEPE",
-     "PUMP"
-    ],
-    "tracked": [
-     "DOGE",
-     "PEPE",
-     "PUMP",
-     "TRUMP",
-     "PENGU",
-     "USELESS",
-     "SHIB",
-     "CASHCAT"
     ]
    },
    {
@@ -7387,7 +7387,7 @@
   "updated": {
    "unlocks": 1793289027,
    "onchain": 1793292023,
-   "sectors": 1793292924,
+   "sectors": 1793293825,
    "listings": 1793292325,
    "fundamentals": 1793289028
   }
@@ -7426,6 +7426,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "7ea0c2ca0026fa49525acea39e7538cf05166fe354e5bf87805f5b8b0e08ef1c",
- "generated": "2026-10-29T17:05:26+00:00"
+ "digest": "71c37fe7d56c1a118e19673cdb23926d31dfa1a40cafc9b70795cb91a0cd4cd5",
+ "generated": "2026-10-29T17:10:29+00:00"
 }
