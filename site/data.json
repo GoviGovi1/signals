@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.7995,
-   "last_ts": "2026-10-29T06:35:20+00:00",
-   "move_pct": 3.19,
+   "last": 1.8005,
+   "last_ts": "2026-10-29T06:41:25+00:00",
+   "move_pct": 3.25,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -67,7 +67,7 @@
     0.0021992358304069935
    ],
    "lev": 1,
-   "funding_pct": -0.0236,
+   "funding_pct": -0.024,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-29T00:00:00+00:00",
@@ -75,9 +75,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002823,
-   "last_ts": "2026-10-29T06:35:20+00:00",
-   "move_pct": 2.52,
+   "last": 0.002831,
+   "last_ts": "2026-10-29T06:41:25+00:00",
+   "move_pct": 2.24,
    "closed": false,
    "rsi": 38.0,
    "trade_on": "Perps 1x",
@@ -107,7 +107,7 @@
     0.3040008
    ],
    "lev": 1,
-   "funding_pct": -0.0383,
+   "funding_pct": -0.0379,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-29T00:00:31+00:00",
@@ -115,9 +115,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2165,
-   "last_ts": "2026-10-29T06:35:20+00:00",
-   "move_pct": -3.14,
+   "last": 0.21631,
+   "last_ts": "2026-10-29T06:41:25+00:00",
+   "move_pct": -3.23,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -155,9 +155,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.007175,
-   "last_ts": "2026-10-29T06:35:20+00:00",
-   "move_pct": -0.51,
+   "last": 0.007201,
+   "last_ts": "2026-10-29T06:41:25+00:00",
+   "move_pct": -0.15,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -201,9 +201,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.03216,
-   "last_ts": "2026-10-29T06:35:20+00:00",
-   "move_pct": 0.43,
+   "last": 0.03217,
+   "last_ts": "2026-10-29T06:41:25+00:00",
+   "move_pct": 0.4,
    "closed": false,
    "rsi": 33.8,
    "trade_on": "Perps 1x",
@@ -246,9 +246,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.006737,
-   "last_ts": "2026-10-29T06:35:20+00:00",
-   "move_pct": 0.19,
+   "last": 0.006731,
+   "last_ts": "2026-10-29T06:41:25+00:00",
+   "move_pct": 0.28,
    "closed": false,
    "rsi": 36.8,
    "trade_on": "Perps 1x",
@@ -6666,44 +6666,44 @@
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
   "onchain": [
    {
-    "chain": "BSC",
-    "symbol": "AKE",
-    "name": "AKE",
-    "token": "0x2c3a8ee94ddd97244a93bc48298f97d2c412f7db",
-    "price": 0.0211028952916691,
-    "liq": 2396055,
-    "vol24h": 6197977,
-    "age_d": 434.9,
-    "chg24h": -1.762,
-    "chg7d": -5.4,
-    "mcap": 481036058.048362,
+    "chain": "Ethereum",
+    "symbol": "PEPE",
+    "name": "Pepe",
+    "token": "0x6982508145454ce325ddbe47a25d4ec3d2311933",
+    "price": 5.07303261068057e-06,
+    "liq": 31966906,
+    "vol24h": 5880611,
+    "age_d": 1293.6,
+    "chg24h": 6.56,
+    "chg7d": 11.7,
+    "mcap": 2121396832.28292,
     "safety": "unknown",
     "safety_notes": [
      "safety not checked"
     ],
     "trigger": false,
-    "trend_up": false,
-    "rsi": 43.2,
-    "url": "https://www.geckoterminal.com/bsc/pools/0x4d3bf29ba30f8bfe4624e7678709afa195689c5d"
+    "trend_up": true,
+    "rsi": 59.1,
+    "url": "https://www.geckoterminal.com/eth/pools/0xa43fe16908251ee70ef74718545e4fe6c5ccec9f"
    },
    {
     "chain": "Solana",
-    "symbol": "PUMP",
-    "name": "Pump",
-    "token": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-    "price": 0.004297784771921975,
-    "liq": 23230055,
-    "vol24h": 4326315,
-    "age_d": 471.5,
-    "chg24h": -1.084,
-    "chg7d": -13.6,
-    "mcap": 1979168425.20549,
+    "symbol": "GTA6",
+    "name": "GTA VI",
+    "token": "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz",
+    "price": 0.01384166143555992,
+    "liq": 579094,
+    "vol24h": 4386254,
+    "age_d": 62.5,
+    "chg24h": 155.149,
+    "chg7d": 342.1,
+    "mcap": 13841462.18,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
-    "trend_up": false,
-    "rsi": 44.6,
-    "url": "https://www.geckoterminal.com/solana/pools/2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd"
+    "trend_up": true,
+    "rsi": 75.5,
+    "url": "https://www.geckoterminal.com/solana/pools/xg71xrhn7MEj5akrZGteuYeiTLbBzyNCpBn69bRYd5a"
    }
   ],
   "onchain_checked": 85,
@@ -6933,6 +6933,28 @@
     ]
    },
    {
+    "id": "layer-1",
+    "name": "Layer 1",
+    "chg7d": -6.06,
+    "top": [
+     "BTC",
+     "ETH",
+     "BNB",
+     "XRP",
+     "SOL"
+    ],
+    "tracked": [
+     "ETH",
+     "BTC",
+     "SOL",
+     "XRP",
+     "SUI",
+     "BNB",
+     "AVAX",
+     "ZEC"
+    ]
+   },
+   {
     "id": "decentralized-perpetuals",
     "name": "Decentralized Perpetuals",
     "chg7d": -6.17,
@@ -6974,28 +6996,6 @@
      "FARTCOIN",
      "PNUT",
      "BOME"
-    ]
-   },
-   {
-    "id": "layer-1",
-    "name": "Layer 1",
-    "chg7d": -6.49,
-    "top": [
-     "BTC",
-     "ETH",
-     "BNB",
-     "XRP",
-     "SOL"
-    ],
-    "tracked": [
-     "ETH",
-     "BTC",
-     "SOL",
-     "XRP",
-     "SUI",
-     "BNB",
-     "AVAX",
-     "ZEC"
     ]
    },
    {
@@ -7292,8 +7292,8 @@
   ],
   "updated": {
    "unlocks": 1793245822,
-   "onchain": 1793252423,
-   "sectors": 1793255120,
+   "onchain": 1793256024,
+   "sectors": 1793256024,
    "listings": 1793254525,
    "fundamentals": 1793245823
   }
@@ -7332,6 +7332,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "c76462ff6750b1b8cd546e8c3ad5dc94e8dd06a54fcb720993bd738fa65f9961",
- "generated": "2026-10-29T06:35:23+00:00"
+ "digest": "d45db958c00064c979c0e2347cb4b469cd111fa8bbabfb064a6fd16550c80968",
+ "generated": "2026-10-29T06:41:28+00:00"
 }
