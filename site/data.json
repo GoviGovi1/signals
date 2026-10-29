@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.7749,
-   "last_ts": "2026-10-29T11:50:23+00:00",
-   "move_pct": 1.78,
+   "last": 1.7916,
+   "last_ts": "2026-10-29T11:55:22+00:00",
+   "move_pct": 2.74,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -67,7 +67,7 @@
     0.0021992358304069935
    ],
    "lev": 1,
-   "funding_pct": -0.0332,
+   "funding_pct": -0.0339,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-29T00:00:00+00:00",
@@ -75,9 +75,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002824,
-   "last_ts": "2026-10-29T11:50:23+00:00",
-   "move_pct": 2.49,
+   "last": 0.002821,
+   "last_ts": "2026-10-29T11:55:22+00:00",
+   "move_pct": 2.59,
    "closed": false,
    "rsi": 38.0,
    "trade_on": "Perps 1x",
@@ -107,7 +107,7 @@
     0.3040008
    ],
    "lev": 1,
-   "funding_pct": -0.0228,
+   "funding_pct": -0.0243,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-29T00:00:31+00:00",
@@ -115,9 +115,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2356,
-   "last_ts": "2026-10-29T11:50:23+00:00",
-   "move_pct": 5.4,
+   "last": 0.22724,
+   "last_ts": "2026-10-29T11:55:22+00:00",
+   "move_pct": 1.66,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -155,9 +155,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.007288,
-   "last_ts": "2026-10-29T11:50:23+00:00",
-   "move_pct": 1.05,
+   "last": 0.007252,
+   "last_ts": "2026-10-29T11:55:22+00:00",
+   "move_pct": 0.55,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -200,9 +200,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.006822,
-   "last_ts": "2026-10-29T11:50:23+00:00",
-   "move_pct": -1.07,
+   "last": 0.006815,
+   "last_ts": "2026-10-29T11:55:22+00:00",
+   "move_pct": -0.96,
    "closed": false,
    "rsi": 36.8,
    "trade_on": "Perps 1x",
@@ -244,9 +244,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04416,
-   "last_ts": "2026-10-29T11:50:23+00:00",
-   "move_pct": 0.05,
+   "last": 0.04413,
+   "last_ts": "2026-10-29T11:55:22+00:00",
+   "move_pct": 0.11,
    "closed": false,
    "rsi": 29.8,
    "trade_on": "Perps 1x",
@@ -289,9 +289,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1362,
-   "last_ts": "2026-10-29T11:50:23+00:00",
-   "move_pct": 1.09,
+   "last": 0.1358,
+   "last_ts": "2026-10-29T11:55:22+00:00",
+   "move_pct": 1.38,
    "closed": false,
    "rsi": 36.7,
    "trade_on": "Perps 1x",
@@ -6096,19 +6096,6 @@
   "unlocks": [
    {
     "big": false,
-    "coin": "WAL",
-    "insider_pct": 100,
-    "pct": 0.8,
-    "tokens": 20833333,
-    "tracked": true,
-    "ts": 1793274744,
-    "usd": 666479,
-    "who": [
-     "Early Contributor"
-    ]
-   },
-   {
-    "big": false,
     "coin": "W",
     "insider_pct": 100,
     "pct": 0.76,
@@ -6849,6 +6836,28 @@
     ]
    },
    {
+    "id": "layer-2",
+    "name": "Layer 2",
+    "chg7d": -3.33,
+    "top": [
+     "OKB",
+     "MNT",
+     "ARB",
+     "POL",
+     "STX"
+    ],
+    "tracked": [
+     "ARB",
+     "STRK",
+     "OKB",
+     "KAT",
+     "OP",
+     "STX",
+     "SOON",
+     "ZK"
+    ]
+   },
+   {
     "id": "lending-borrowing",
     "name": "Lending Borrowing",
     "chg7d": -3.37,
@@ -7013,28 +7022,6 @@
      "BNB",
      "AVAX",
      "ZEC"
-    ]
-   },
-   {
-    "id": "layer-2",
-    "name": "Layer 2",
-    "chg7d": -5.23,
-    "top": [
-     "OKB",
-     "MNT",
-     "ARB",
-     "POL",
-     "STX"
-    ],
-    "tracked": [
-     "ARB",
-     "STRK",
-     "OKB",
-     "KAT",
-     "OP",
-     "STX",
-     "SOON",
-     "ZK"
     ]
    },
    {
@@ -7388,7 +7375,7 @@
   "updated": {
    "unlocks": 1793267425,
    "onchain": 1793274024,
-   "sectors": 1793274024,
+   "sectors": 1793274922,
    "listings": 1793273721,
    "fundamentals": 1793267426
   }
@@ -7427,6 +7414,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "3aa6420a0e871adbb3d3a7f05a942aa4fe9ecb9c5d13fb692b8147eddcf9dc54",
- "generated": "2026-10-29T11:50:26+00:00"
+ "digest": "ed69fd50edd6020bb6305b3af87fd5c0d2941fcd8f0b23817048463cb0d86a22",
+ "generated": "2026-10-29T11:55:26+00:00"
 }
