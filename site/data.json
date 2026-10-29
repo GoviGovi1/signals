@@ -27,7 +27,7 @@
     0.0021992358304069935
    ],
    "lev": 1,
-   "funding_pct": -0.0117,
+   "funding_pct": -0.0125,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-29T00:00:00+00:00",
@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002716,
-   "last_ts": "2026-10-29T22:05:21+00:00",
-   "move_pct": 6.22,
+   "last": 0.002733,
+   "last_ts": "2026-10-29T22:10:26+00:00",
+   "move_pct": 5.63,
    "closed": false,
    "rsi": 38.0,
    "trade_on": "Perps 1x",
@@ -67,7 +67,7 @@
     0.3040008
    ],
    "lev": 1,
-   "funding_pct": -0.009,
+   "funding_pct": -0.0074,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-29T00:00:31+00:00",
@@ -75,9 +75,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.21483,
-   "last_ts": "2026-10-29T22:05:21+00:00",
-   "move_pct": -3.89,
+   "last": 0.21512,
+   "last_ts": "2026-10-29T22:10:26+00:00",
+   "move_pct": -3.76,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -120,9 +120,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.131,
-   "last_ts": "2026-10-29T22:05:21+00:00",
-   "move_pct": 4.87,
+   "last": 0.1309,
+   "last_ts": "2026-10-29T22:10:26+00:00",
+   "move_pct": 4.94,
    "closed": false,
    "rsi": 36.7,
    "trade_on": "Perps 1x",
@@ -6632,28 +6632,6 @@
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
-    "id": "meme-token",
-    "name": "Meme Token",
-    "chg7d": 0.45,
-    "top": [
-     "DOGE",
-     "SHIB",
-     "M",
-     "PEPE",
-     "PUMP"
-    ],
-    "tracked": [
-     "DOGE",
-     "PEPE",
-     "PUMP",
-     "TRUMP",
-     "PENGU",
-     "USELESS",
-     "SHIB",
-     "CASHCAT"
-    ]
-   },
-   {
     "id": "real-world-assets-rwa",
     "name": "Real World Assets RWA",
     "chg7d": -0.01,
@@ -6927,6 +6905,28 @@
      "BAND",
      "ZKP",
      "AT"
+    ]
+   },
+   {
+    "id": "meme-token",
+    "name": "Meme Token",
+    "chg7d": -4.51,
+    "top": [
+     "DOGE",
+     "SHIB",
+     "M",
+     "PEPE",
+     "PUMP"
+    ],
+    "tracked": [
+     "DOGE",
+     "PEPE",
+     "PUMP",
+     "TRUMP",
+     "PENGU",
+     "USELESS",
+     "SHIB",
+     "CASHCAT"
     ]
    },
    {
@@ -7215,8 +7215,8 @@
   "updated": {
    "unlocks": 1793310628,
    "onchain": 1793310024,
-   "sectors": 1793310920,
-   "listings": 1793307921,
+   "sectors": 1793311826,
+   "listings": 1793311825,
    "fundamentals": 1793310630
   }
  },
@@ -7254,6 +7254,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "272651955a0b7015ee791df075e58efc1fa6fe5f4ab509daef1e32992b808edf",
- "generated": "2026-10-29T22:05:24+00:00"
+ "digest": "e8ca36cddfb87de8216268cca9f99e7225e8eebe37deb473b700b83389650747",
+ "generated": "2026-10-29T22:10:29+00:00"
 }
