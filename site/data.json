@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.7888,
-   "last_ts": "2026-10-29T12:35:22+00:00",
-   "move_pct": 2.58,
+   "last": 1.7774,
+   "last_ts": "2026-10-29T12:41:24+00:00",
+   "move_pct": 1.93,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -67,7 +67,7 @@
     0.0021992358304069935
    ],
    "lev": 1,
-   "funding_pct": -0.033,
+   "funding_pct": -0.0318,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-29T00:00:00+00:00",
@@ -75,9 +75,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002812,
-   "last_ts": "2026-10-29T12:35:22+00:00",
-   "move_pct": 2.9,
+   "last": 0.002817,
+   "last_ts": "2026-10-29T12:41:24+00:00",
+   "move_pct": 2.73,
    "closed": false,
    "rsi": 38.0,
    "trade_on": "Perps 1x",
@@ -107,7 +107,7 @@
     0.3040008
    ],
    "lev": 1,
-   "funding_pct": -0.0208,
+   "funding_pct": -0.0206,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-29T00:00:31+00:00",
@@ -115,9 +115,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.22919,
-   "last_ts": "2026-10-29T12:35:22+00:00",
-   "move_pct": 2.53,
+   "last": 0.2301,
+   "last_ts": "2026-10-29T12:41:24+00:00",
+   "move_pct": 2.94,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -155,9 +155,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.007251,
-   "last_ts": "2026-10-29T12:35:22+00:00",
-   "move_pct": 0.54,
+   "last": 0.007291,
+   "last_ts": "2026-10-29T12:41:24+00:00",
+   "move_pct": 1.1,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -200,9 +200,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.006865,
-   "last_ts": "2026-10-29T12:35:22+00:00",
-   "move_pct": -1.7,
+   "last": 0.006894,
+   "last_ts": "2026-10-29T12:41:24+00:00",
+   "move_pct": -2.13,
    "closed": false,
    "rsi": 36.8,
    "trade_on": "Perps 1x",
@@ -244,9 +244,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04383,
-   "last_ts": "2026-10-29T12:35:22+00:00",
-   "move_pct": 0.79,
+   "last": 0.04396,
+   "last_ts": "2026-10-29T12:41:24+00:00",
+   "move_pct": 0.5,
    "closed": false,
    "rsi": 29.8,
    "trade_on": "Perps 1x",
@@ -289,9 +289,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1364,
-   "last_ts": "2026-10-29T12:35:22+00:00",
-   "move_pct": 0.94,
+   "last": 0.1367,
+   "last_ts": "2026-10-29T12:41:24+00:00",
+   "move_pct": 0.73,
    "closed": false,
    "rsi": 36.7,
    "trade_on": "Perps 1x",
@@ -6731,64 +6731,47 @@
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
   "onchain": [
    {
-    "chain": "Solana",
-    "symbol": "PUMP",
-    "name": "Pump",
-    "token": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-    "price": 0.004348890512137035,
-    "liq": 23434848,
-    "vol24h": 4700521,
-    "age_d": 471.8,
-    "chg24h": 0.301,
-    "chg7d": -8.9,
-    "mcap": 2002573773.96575,
-    "safety": "ok",
-    "safety_notes": [],
-    "trigger": false,
-    "trend_up": true,
-    "rsi": 54.0,
-    "url": "https://www.geckoterminal.com/solana/pools/2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd"
-   },
-   {
-    "chain": "BSC",
-    "symbol": "Q",
-    "name": "Quack AI Token",
-    "token": "0xc07e1300dc138601fa6b0b59f8d0fa477e690589",
-    "price": 0.0413204775249116,
-    "liq": 1215244,
-    "vol24h": 54167181,
-    "age_d": 424.1,
-    "chg24h": -24.945,
-    "chg7d": -63.6,
-    "mcap": 194752031.954094,
-    "safety": "ok",
-    "safety_notes": [],
-    "trigger": false,
-    "trend_up": false,
-    "rsi": 36.3,
-    "url": "https://www.geckoterminal.com/bsc/pools/0x8bafe0bdd3eb9ae0539f5b32e771c1a72a189b7f"
-   },
-   {
     "chain": "BSC",
     "symbol": "AKE",
     "name": "AKE",
     "token": "0x2c3a8ee94ddd97244a93bc48298f97d2c412f7db",
-    "price": 0.0204720415970755,
-    "liq": 2332278,
-    "vol24h": 5721597,
+    "price": 0.0206553144635021,
+    "liq": 2343034,
+    "vol24h": 5642414,
     "age_d": 435.2,
-    "chg24h": 2.701,
-    "chg7d": -29.7,
-    "mcap": 465710378.078062,
+    "chg24h": 4.791,
+    "chg7d": -28.7,
+    "mcap": 469225660.131562,
+    "safety": "unknown",
+    "safety_notes": [
+     "safety not checked"
+    ],
+    "trigger": false,
+    "trend_up": false,
+    "rsi": 39.4,
+    "url": "https://www.geckoterminal.com/bsc/pools/0x4d3bf29ba30f8bfe4624e7678709afa195689c5d"
+   },
+   {
+    "chain": "BSC",
+    "symbol": "XPIN",
+    "name": "XPIN Token",
+    "token": "0xd955c9ba56fb1ab30e34766e252a97ccce3d31a6",
+    "price": 0.00074313447878034,
+    "liq": 587754,
+    "vol24h": 4107361,
+    "age_d": 435.2,
+    "chg24h": 2.594,
+    "chg7d": 6.2,
+    "mcap": 32434319.8489068,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 37.1,
-    "url": "https://www.geckoterminal.com/bsc/pools/0x4d3bf29ba30f8bfe4624e7678709afa195689c5d"
+    "rsi": 42.1,
+    "url": "https://www.geckoterminal.com/bsc/pools/0x08debfc510a2eb0148107da7ab8e96531323f4d4"
    }
   ],
-  "onchain_checked": 84,
+  "onchain_checked": 85,
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
@@ -7025,27 +7008,9 @@
     ]
    },
    {
-    "id": "bitcoin-ecosystem",
-    "name": "Bitcoin Ecosystem",
-    "chg7d": -5.38,
-    "top": [
-     "BTC",
-     "DOG",
-     "ORDI",
-     "USTBL",
-     "LOBO"
-    ],
-    "tracked": [
-     "BTC",
-     "PEPE",
-     "ORDI",
-     "SATS"
-    ]
-   },
-   {
     "id": "ai-agents",
     "name": "AI Agents",
-    "chg7d": -5.79,
+    "chg7d": -5.37,
     "top": [
      "VVV",
      "FET",
@@ -7062,6 +7027,24 @@
      "PIPPIN",
      "AIXBT",
      "RECALL"
+    ]
+   },
+   {
+    "id": "bitcoin-ecosystem",
+    "name": "Bitcoin Ecosystem",
+    "chg7d": -5.38,
+    "top": [
+     "BTC",
+     "DOG",
+     "ORDI",
+     "USTBL",
+     "LOBO"
+    ],
+    "tracked": [
+     "BTC",
+     "PEPE",
+     "ORDI",
+     "SATS"
     ]
    },
    {
@@ -7374,8 +7357,8 @@
   ],
   "updated": {
    "unlocks": 1793267425,
-   "onchain": 1793274024,
-   "sectors": 1793276719,
+   "onchain": 1793277623,
+   "sectors": 1793277623,
    "listings": 1793277322,
    "fundamentals": 1793267426
   }
@@ -7414,6 +7397,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "bc844cc0b0896853c9d584c811f335cbec88f926e5d842c3cb2857f37d0cac34",
- "generated": "2026-10-29T12:35:25+00:00"
+ "digest": "8c1b4eda2e61b5d65876c19a995eba5a4b906aa317b0881dc6259eac07fedf1f",
+ "generated": "2026-10-29T12:41:28+00:00"
 }
