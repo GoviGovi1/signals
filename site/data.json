@@ -27,7 +27,7 @@
     0.0021992358304069935
    ],
    "lev": 1,
-   "funding_pct": -0.0329,
+   "funding_pct": -0.0313,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-29T00:00:00+00:00",
@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002869,
-   "last_ts": "2026-10-29T18:50:23+00:00",
-   "move_pct": 0.93,
+   "last": 0.002874,
+   "last_ts": "2026-10-29T18:55:23+00:00",
+   "move_pct": 0.76,
    "closed": false,
    "rsi": 38.0,
    "trade_on": "Perps 1x",
@@ -67,7 +67,7 @@
     0.3040008
    ],
    "lev": 1,
-   "funding_pct": -0.0017,
+   "funding_pct": -0.0039,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-29T00:00:31+00:00",
@@ -75,9 +75,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.22368,
-   "last_ts": "2026-10-29T18:50:23+00:00",
-   "move_pct": 0.07,
+   "last": 0.22201,
+   "last_ts": "2026-10-29T18:55:23+00:00",
+   "move_pct": -0.68,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -115,9 +115,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.007547,
-   "last_ts": "2026-10-29T18:50:23+00:00",
-   "move_pct": 4.65,
+   "last": 0.007525,
+   "last_ts": "2026-10-29T18:55:23+00:00",
+   "move_pct": 4.34,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -160,9 +160,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1388,
-   "last_ts": "2026-10-29T18:50:23+00:00",
-   "move_pct": -0.8,
+   "last": 0.1391,
+   "last_ts": "2026-10-29T18:55:23+00:00",
+   "move_pct": -1.02,
    "closed": false,
    "rsi": 36.7,
    "trade_on": "Perps 1x",
@@ -6821,6 +6821,21 @@
     ]
    },
    {
+    "id": "privacy-coins",
+    "name": "Privacy Coins",
+    "chg7d": -2.13,
+    "top": [
+     "ZEC",
+     "XMR",
+     "DCR",
+     "ZANO",
+     "XVG"
+    ],
+    "tracked": [
+     "ZEC"
+    ]
+   },
+   {
     "id": "layer-1",
     "name": "Layer 1",
     "chg7d": -2.25,
@@ -6902,21 +6917,6 @@
      "PIPPIN",
      "AIXBT",
      "RECALL"
-    ]
-   },
-   {
-    "id": "privacy-coins",
-    "name": "Privacy Coins",
-    "chg7d": -2.77,
-    "top": [
-     "ZEC",
-     "XMR",
-     "DCR",
-     "ZANO",
-     "ARRR"
-    ],
-    "tracked": [
-     "ZEC"
     ]
    },
    {
@@ -7250,8 +7250,8 @@
   "updated": {
    "unlocks": 1793289027,
    "onchain": 1793299225,
-   "sectors": 1793299225,
-   "listings": 1793296225,
+   "sectors": 1793300123,
+   "listings": 1793300122,
    "fundamentals": 1793289028
   }
  },
@@ -7289,6 +7289,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "6addcbf5bdf93bc001c0101cc9fc482a4902176fa3a131c222e262f5df219220",
- "generated": "2026-10-29T18:50:27+00:00"
+ "digest": "5d24c2fc27f5c9a2c02991c35c6625645a4d4d3e4a7c72f0acce6a5b1ad01062",
+ "generated": "2026-10-29T18:55:26+00:00"
 }
