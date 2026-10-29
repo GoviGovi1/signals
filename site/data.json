@@ -27,7 +27,7 @@
     0.0021992358304069935
    ],
    "lev": 1,
-   "funding_pct": -0.0241,
+   "funding_pct": -0.0228,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-29T00:00:00+00:00",
@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.00285,
-   "last_ts": "2026-10-29T19:50:23+00:00",
-   "move_pct": 1.59,
+   "last": 0.002848,
+   "last_ts": "2026-10-29T19:55:20+00:00",
+   "move_pct": 1.66,
    "closed": false,
    "rsi": 38.0,
    "trade_on": "Perps 1x",
@@ -67,7 +67,7 @@
     0.3040008
    ],
    "lev": 1,
-   "funding_pct": -0.0161,
+   "funding_pct": -0.0139,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-29T00:00:31+00:00",
@@ -75,9 +75,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.21791,
-   "last_ts": "2026-10-29T19:50:23+00:00",
-   "move_pct": -2.51,
+   "last": 0.21901,
+   "last_ts": "2026-10-29T19:55:20+00:00",
+   "move_pct": -2.02,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -115,9 +115,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.00741,
-   "last_ts": "2026-10-29T19:50:23+00:00",
-   "move_pct": 2.75,
+   "last": 0.007386,
+   "last_ts": "2026-10-29T19:55:20+00:00",
+   "move_pct": 2.41,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -160,9 +160,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1388,
-   "last_ts": "2026-10-29T19:50:23+00:00",
-   "move_pct": -0.8,
+   "last": 0.1387,
+   "last_ts": "2026-10-29T19:55:20+00:00",
+   "move_pct": -0.73,
    "closed": false,
    "rsi": 36.7,
    "trade_on": "Perps 1x",
@@ -7006,6 +7006,28 @@
     ]
    },
    {
+    "id": "depin",
+    "name": "DePIN",
+    "chg7d": -3.1,
+    "top": [
+     "TAO",
+     "RENDER",
+     "FIL",
+     "BDX",
+     "GRASS"
+    ],
+    "tracked": [
+     "FIL",
+     "TAO",
+     "GRASS",
+     "RENDER",
+     "AR",
+     "ACU",
+     "ATH",
+     "LPT"
+    ]
+   },
+   {
     "id": "oracle",
     "name": "Oracle",
     "chg7d": -3.4,
@@ -7041,28 +7063,6 @@
      "FIL",
      "AR",
      "WAL"
-    ]
-   },
-   {
-    "id": "depin",
-    "name": "DePIN",
-    "chg7d": -5.17,
-    "top": [
-     "TAO",
-     "RENDER",
-     "FIL",
-     "BDX",
-     "GRASS"
-    ],
-    "tracked": [
-     "FIL",
-     "TAO",
-     "GRASS",
-     "RENDER",
-     "AR",
-     "ACU",
-     "ATH",
-     "LPT"
     ]
    },
    {
@@ -7250,7 +7250,7 @@
   "updated": {
    "unlocks": 1793289027,
    "onchain": 1793302824,
-   "sectors": 1793302824,
+   "sectors": 1793303720,
    "listings": 1793300122,
    "fundamentals": 1793289028
   }
@@ -7289,6 +7289,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "17ed1aa0021150b1f99866ef0e7d5b16f0d52d0952253faa7af7ff39bbd8efc1",
- "generated": "2026-10-29T19:50:26+00:00"
+ "digest": "8a0a541486d55f8969fe29d35f3e32f26974a9b74f37941c9285b711ac8acc3e",
+ "generated": "2026-10-29T19:55:23+00:00"
 }
