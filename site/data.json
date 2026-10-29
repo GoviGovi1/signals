@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.8035,
-   "last_ts": "2026-10-29T11:05:20+00:00",
-   "move_pct": 3.42,
+   "last": 1.7956,
+   "last_ts": "2026-10-29T11:10:21+00:00",
+   "move_pct": 2.97,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -67,7 +67,7 @@
     0.0021992358304069935
    ],
    "lev": 1,
-   "funding_pct": -0.0305,
+   "funding_pct": -0.03,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-29T00:00:00+00:00",
@@ -75,9 +75,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002824,
-   "last_ts": "2026-10-29T11:05:20+00:00",
-   "move_pct": 2.49,
+   "last": 0.002826,
+   "last_ts": "2026-10-29T11:10:21+00:00",
+   "move_pct": 2.42,
    "closed": false,
    "rsi": 38.0,
    "trade_on": "Perps 1x",
@@ -107,7 +107,7 @@
     0.3040008
    ],
    "lev": 1,
-   "funding_pct": -0.0163,
+   "funding_pct": -0.0165,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-29T00:00:31+00:00",
@@ -115,9 +115,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.23197,
-   "last_ts": "2026-10-29T11:05:20+00:00",
-   "move_pct": 3.78,
+   "last": 0.234,
+   "last_ts": "2026-10-29T11:10:21+00:00",
+   "move_pct": 4.68,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -155,9 +155,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.007304,
-   "last_ts": "2026-10-29T11:05:20+00:00",
-   "move_pct": 1.28,
+   "last": 0.007295,
+   "last_ts": "2026-10-29T11:10:21+00:00",
+   "move_pct": 1.15,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -200,9 +200,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.006787,
-   "last_ts": "2026-10-29T11:05:20+00:00",
-   "move_pct": -0.55,
+   "last": 0.006789,
+   "last_ts": "2026-10-29T11:10:21+00:00",
+   "move_pct": -0.58,
    "closed": false,
    "rsi": 36.8,
    "trade_on": "Perps 1x",
@@ -244,9 +244,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04429,
-   "last_ts": "2026-10-29T11:05:20+00:00",
-   "move_pct": -0.25,
+   "last": 0.04435,
+   "last_ts": "2026-10-29T11:10:21+00:00",
+   "move_pct": -0.38,
    "closed": false,
    "rsi": 29.8,
    "trade_on": "Perps 1x",
@@ -289,9 +289,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1363,
-   "last_ts": "2026-10-29T11:05:20+00:00",
-   "move_pct": 1.02,
+   "last": 0.1364,
+   "last_ts": "2026-10-29T11:10:21+00:00",
+   "move_pct": 0.94,
    "closed": false,
    "rsi": 36.7,
    "trade_on": "Perps 1x",
@@ -6887,6 +6887,28 @@
     ]
    },
    {
+    "id": "solana-meme-coins",
+    "name": "Solana Meme Coins",
+    "chg7d": -4.66,
+    "top": [
+     "PENGU",
+     "TRUMP",
+     "BONK",
+     "WIF",
+     "USELESS"
+    ],
+    "tracked": [
+     "TRUMP",
+     "PENGU",
+     "USELESS",
+     "WIF",
+     "BONK",
+     "FARTCOIN",
+     "BOME",
+     "MEW"
+    ]
+   },
+   {
     "id": "exchange-based-tokens",
     "name": "Exchange Based Tokens",
     "chg7d": -4.74,
@@ -7094,28 +7116,6 @@
      "ORDER",
      "BASED",
      "DYDX"
-    ]
-   },
-   {
-    "id": "solana-meme-coins",
-    "name": "Solana Meme Coins",
-    "chg7d": -6.27,
-    "top": [
-     "PENGU",
-     "TRUMP",
-     "BONK",
-     "WIF",
-     "USELESS"
-    ],
-    "tracked": [
-     "TRUMP",
-     "PENGU",
-     "USELESS",
-     "WIF",
-     "BONK",
-     "FARTCOIN",
-     "BOME",
-     "MEW"
     ]
    },
    {
@@ -7369,7 +7369,7 @@
   "updated": {
    "unlocks": 1793267425,
    "onchain": 1793270422,
-   "sectors": 1793271322,
+   "sectors": 1793272220,
    "listings": 1793269826,
    "fundamentals": 1793267426
   }
@@ -7408,6 +7408,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "8e19643d4674bd34d13dd59056072ebfc3164045ee96bdd40238400f9cfb206c",
- "generated": "2026-10-29T11:05:23+00:00"
+ "digest": "1ea60032d7525897c86c2633cb4ee7be1c38e97254329cb5bd111563585d110f",
+ "generated": "2026-10-29T11:10:25+00:00"
 }
