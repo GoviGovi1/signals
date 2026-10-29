@@ -22,7 +22,7 @@
     2.328280141584402
    ],
    "lev": 1,
-   "funding_pct": 0.0213,
+   "funding_pct": 0.0207,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-28T00:00:35+00:00",
@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.7685,
-   "last_ts": "2026-10-29T04:50:28+00:00",
-   "move_pct": 1.42,
+   "last": 1.7725,
+   "last_ts": "2026-10-29T04:55:20+00:00",
+   "move_pct": 1.65,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -67,7 +67,7 @@
     0.0021992358304069935
    ],
    "lev": 1,
-   "funding_pct": -0.0149,
+   "funding_pct": -0.0143,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-29T00:00:00+00:00",
@@ -75,9 +75,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002813,
-   "last_ts": "2026-10-29T04:50:28+00:00",
-   "move_pct": 2.87,
+   "last": 0.002816,
+   "last_ts": "2026-10-29T04:55:20+00:00",
+   "move_pct": 2.76,
    "closed": false,
    "rsi": 38.0,
    "trade_on": "Perps 1x",
@@ -107,7 +107,7 @@
     0.3040008
    ],
    "lev": 1,
-   "funding_pct": -0.0358,
+   "funding_pct": -0.036,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-29T00:00:31+00:00",
@@ -115,9 +115,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.22029,
-   "last_ts": "2026-10-29T04:50:28+00:00",
-   "move_pct": -1.45,
+   "last": 0.21853,
+   "last_ts": "2026-10-29T04:55:20+00:00",
+   "move_pct": -2.24,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -155,9 +155,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.007184,
-   "last_ts": "2026-10-29T04:50:28+00:00",
-   "move_pct": -0.39,
+   "last": 0.007256,
+   "last_ts": "2026-10-29T04:55:20+00:00",
+   "move_pct": 0.61,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -193,7 +193,7 @@
     0.02887339493050004
    ],
    "lev": 1,
-   "funding_pct": 0.0015,
+   "funding_pct": 0.0024,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-29T02:00:00+00:00",
@@ -201,9 +201,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.03214,
-   "last_ts": "2026-10-29T04:50:28+00:00",
-   "move_pct": 0.5,
+   "last": 0.03215,
+   "last_ts": "2026-10-29T04:55:20+00:00",
+   "move_pct": 0.46,
    "closed": false,
    "rsi": 33.8,
    "trade_on": "Perps 1x",
@@ -245,9 +245,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.05014,
-   "last_ts": "2026-10-29T04:50:28+00:00",
-   "move_pct": -1.05,
+   "last": 0.05013,
+   "last_ts": "2026-10-29T04:55:20+00:00",
+   "move_pct": -1.03,
    "closed": false,
    "rsi": 33.3,
    "trade_on": "Perps 1x",
@@ -290,9 +290,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.00676,
-   "last_ts": "2026-10-29T04:50:28+00:00",
-   "move_pct": -0.15,
+   "last": 0.006754,
+   "last_ts": "2026-10-29T04:55:20+00:00",
+   "move_pct": -0.06,
    "closed": false,
    "rsi": 36.8,
    "trade_on": "Perps 1x",
@@ -7076,6 +7076,28 @@
     ]
    },
    {
+    "id": "depin",
+    "name": "DePIN",
+    "chg7d": -8.03,
+    "top": [
+     "TAO",
+     "RENDER",
+     "FIL",
+     "BDX",
+     "GRASS"
+    ],
+    "tracked": [
+     "FIL",
+     "GRASS",
+     "TAO",
+     "ACU",
+     "RENDER",
+     "AR",
+     "ATH",
+     "SPACE"
+    ]
+   },
+   {
     "id": "ai-agents",
     "name": "AI Agents",
     "chg7d": -8.07,
@@ -7095,28 +7117,6 @@
      "PIPPIN",
      "KITE",
      "AIXBT"
-    ]
-   },
-   {
-    "id": "depin",
-    "name": "DePIN",
-    "chg7d": -8.24,
-    "top": [
-     "TAO",
-     "RENDER",
-     "FIL",
-     "BDX",
-     "GRASS"
-    ],
-    "tracked": [
-     "FIL",
-     "GRASS",
-     "TAO",
-     "ACU",
-     "RENDER",
-     "AR",
-     "ATH",
-     "SPACE"
     ]
    },
    {
@@ -7326,7 +7326,7 @@
   "updated": {
    "unlocks": 1793245822,
    "onchain": 1793248824,
-   "sectors": 1793248824,
+   "sectors": 1793249720,
    "listings": 1793247025,
    "fundamentals": 1793245823
   }
@@ -7365,6 +7365,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "8f81dffe951318bc6b9d7be658ef08d852a31bbe9fcee3183d3b6e9fd03b26ed",
- "generated": "2026-10-29T04:50:31+00:00"
+ "digest": "4fba51d4b2d962624332a4d1a7a66d89b9955ee38739a4c7853c36abc7e249fc",
+ "generated": "2026-10-29T04:55:24+00:00"
 }
