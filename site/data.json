@@ -27,7 +27,7 @@
     0.0021992358304069935
    ],
    "lev": 1,
-   "funding_pct": -0.0195,
+   "funding_pct": -0.0194,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-29T00:00:00+00:00",
@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002807,
-   "last_ts": "2026-10-29T20:35:23+00:00",
-   "move_pct": 3.07,
+   "last": 0.002789,
+   "last_ts": "2026-10-29T20:41:24+00:00",
+   "move_pct": 3.69,
    "closed": false,
    "rsi": 38.0,
    "trade_on": "Perps 1x",
@@ -67,7 +67,7 @@
     0.3040008
    ],
    "lev": 1,
-   "funding_pct": -0.0137,
+   "funding_pct": -0.0123,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-29T00:00:31+00:00",
@@ -75,9 +75,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.21797,
-   "last_ts": "2026-10-29T20:35:23+00:00",
-   "move_pct": -2.49,
+   "last": 0.21825,
+   "last_ts": "2026-10-29T20:41:24+00:00",
+   "move_pct": -2.36,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -115,9 +115,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.007304,
-   "last_ts": "2026-10-29T20:35:23+00:00",
-   "move_pct": 1.28,
+   "last": 0.007302,
+   "last_ts": "2026-10-29T20:41:24+00:00",
+   "move_pct": 1.25,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -160,9 +160,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1362,
-   "last_ts": "2026-10-29T20:35:23+00:00",
-   "move_pct": 1.09,
+   "last": 0.1355,
+   "last_ts": "2026-10-29T20:41:24+00:00",
+   "move_pct": 1.6,
    "closed": false,
    "rsi": 36.7,
    "trade_on": "Perps 1x",
@@ -6625,42 +6625,42 @@
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
   "onchain": [
    {
+    "chain": "Solana",
+    "symbol": "STONK",
+    "name": "STONK",
+    "token": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
+    "price": 0.14046774851403546,
+    "liq": 2820021,
+    "vol24h": 3061051,
+    "age_d": 78.4,
+    "chg24h": -7.188,
+    "chg7d": 33.6,
+    "mcap": 110280390.866092,
+    "safety": "ok",
+    "safety_notes": [],
+    "trigger": false,
+    "trend_up": true,
+    "rsi": 51.8,
+    "url": "https://www.geckoterminal.com/solana/pools/zxTpi4BtaWX3mgdAPoezkMD1hxx8CdeCfrqXMWvSCLX"
+   },
+   {
     "chain": "BSC",
     "symbol": "CAP",
     "name": "Cap",
     "token": "0x99991c6aabba5a096f24f250b73580f5179b9999",
-    "price": 0.0754342329586885,
-    "liq": 1217176,
-    "vol24h": 5588979,
+    "price": 0.0749736459154737,
+    "liq": 1200519,
+    "vol24h": 5574011,
     "age_d": 126.2,
-    "chg24h": 3.601,
-    "chg7d": 8.9,
-    "mcap": 117677403.4176,
+    "chg24h": 1.944,
+    "chg7d": 8.8,
+    "mcap": 116113764.6084,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 47.8,
+    "rsi": 47.3,
     "url": "https://www.geckoterminal.com/bsc/pools/0x3bca91b9b847cff6f4b666fa1d966981678975e13fd69d647bd11bed99f5fa14"
-   },
-   {
-    "chain": "BSC",
-    "symbol": "AKE",
-    "name": "AKE",
-    "token": "0x2c3a8ee94ddd97244a93bc48298f97d2c412f7db",
-    "price": 0.0203112086614656,
-    "liq": 2342706,
-    "vol24h": 3386730,
-    "age_d": 435.5,
-    "chg24h": -10.954,
-    "chg7d": -35.5,
-    "mcap": 463019390.415525,
-    "safety": "ok",
-    "safety_notes": [],
-    "trigger": false,
-    "trend_up": false,
-    "rsi": 38.6,
-    "url": "https://www.geckoterminal.com/bsc/pools/0x4d3bf29ba30f8bfe4624e7678709afa195689c5d"
    }
   ],
   "onchain_checked": 85,
@@ -6858,6 +6858,26 @@
     ]
    },
    {
+    "id": "lending-borrowing",
+    "name": "Lending Borrowing",
+    "chg7d": -2.26,
+    "top": [
+     "AAVE",
+     "MORPHO",
+     "OHM",
+     "COMP",
+     "KMNO"
+    ],
+    "tracked": [
+     "CAP",
+     "AAVE",
+     "MORPHO",
+     "COMP",
+     "KMNO",
+     "SPK"
+    ]
+   },
+   {
     "id": "bitcoin-ecosystem",
     "name": "Bitcoin Ecosystem",
     "chg7d": -2.28,
@@ -6961,26 +6981,6 @@
      "AXS",
      "ONE",
      "IMX"
-    ]
-   },
-   {
-    "id": "lending-borrowing",
-    "name": "Lending Borrowing",
-    "chg7d": -2.85,
-    "top": [
-     "AAVE",
-     "MORPHO",
-     "OHM",
-     "KMNO",
-     "COMP"
-    ],
-    "tracked": [
-     "CAP",
-     "AAVE",
-     "MORPHO",
-     "COMP",
-     "KMNO",
-     "SPK"
     ]
    },
    {
@@ -7249,8 +7249,8 @@
   ],
   "updated": {
    "unlocks": 1793289027,
-   "onchain": 1793302824,
-   "sectors": 1793305521,
+   "onchain": 1793306423,
+   "sectors": 1793306423,
    "listings": 1793304031,
    "fundamentals": 1793289028
   }
@@ -7289,6 +7289,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "bf716c702f5a80e8b4d989fea160140a9d22e2813b21267b604bff72188c81e6",
- "generated": "2026-10-29T20:35:27+00:00"
+ "digest": "0f298c6ed1340908cc191791bc49b249e49099708cfbe7b02605f3b225af7fbf",
+ "generated": "2026-10-29T20:41:27+00:00"
 }
