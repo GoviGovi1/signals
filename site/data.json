@@ -27,7 +27,7 @@
     0.0021992358304069935
    ],
    "lev": 1,
-   "funding_pct": -0.0249,
+   "funding_pct": -0.0253,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-29T00:00:00+00:00",
@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002852,
-   "last_ts": "2026-10-29T19:35:22+00:00",
-   "move_pct": 1.52,
+   "last": 0.00285,
+   "last_ts": "2026-10-29T19:41:24+00:00",
+   "move_pct": 1.59,
    "closed": false,
    "rsi": 38.0,
    "trade_on": "Perps 1x",
@@ -67,7 +67,7 @@
     0.3040008
    ],
    "lev": 1,
-   "funding_pct": -0.0114,
+   "funding_pct": -0.0137,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-29T00:00:31+00:00",
@@ -75,9 +75,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.21921,
-   "last_ts": "2026-10-29T19:35:22+00:00",
-   "move_pct": -1.93,
+   "last": 0.21938,
+   "last_ts": "2026-10-29T19:41:24+00:00",
+   "move_pct": -1.86,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -115,9 +115,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.007349,
-   "last_ts": "2026-10-29T19:35:22+00:00",
-   "move_pct": 1.9,
+   "last": 0.007383,
+   "last_ts": "2026-10-29T19:41:24+00:00",
+   "move_pct": 2.37,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -160,9 +160,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.139,
-   "last_ts": "2026-10-29T19:35:22+00:00",
-   "move_pct": -0.94,
+   "last": 0.1388,
+   "last_ts": "2026-10-29T19:41:24+00:00",
+   "move_pct": -0.8,
    "closed": false,
    "rsi": 36.7,
    "trade_on": "Perps 1x",
@@ -6625,45 +6625,45 @@
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
   "onchain": [
    {
-    "chain": "Solana",
-    "symbol": "GTA6",
-    "name": "GTA VI",
-    "token": "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz",
-    "price": 0.015530202341790342,
-    "liq": 417747,
-    "vol24h": 8215485,
-    "age_d": 63.0,
-    "chg24h": 82.233,
-    "chg7d": 650.1,
-    "mcap": 15520645.22,
+    "chain": "BSC",
+    "symbol": "CAP",
+    "name": "Cap",
+    "token": "0x99991c6aabba5a096f24f250b73580f5179b9999",
+    "price": 0.0754342329586885,
+    "liq": 1217176,
+    "vol24h": 5588979,
+    "age_d": 126.2,
+    "chg24h": 3.601,
+    "chg7d": 8.9,
+    "mcap": 117677403.4176,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
-    "trend_up": true,
-    "rsi": 54.0,
-    "url": "https://www.geckoterminal.com/solana/pools/xg71xrhn7MEj5akrZGteuYeiTLbBzyNCpBn69bRYd5a"
+    "trend_up": false,
+    "rsi": 47.8,
+    "url": "https://www.geckoterminal.com/bsc/pools/0x3bca91b9b847cff6f4b666fa1d966981678975e13fd69d647bd11bed99f5fa14"
    },
    {
     "chain": "BSC",
     "symbol": "AKE",
     "name": "AKE",
     "token": "0x2c3a8ee94ddd97244a93bc48298f97d2c412f7db",
-    "price": 0.0203627497334461,
-    "liq": 2342309,
-    "vol24h": 3888154,
+    "price": 0.0203112086614656,
+    "liq": 2342706,
+    "vol24h": 3386730,
     "age_d": 435.5,
-    "chg24h": -8.724,
-    "chg7d": -34.0,
-    "mcap": 464194333.532513,
+    "chg24h": -10.954,
+    "chg7d": -35.5,
+    "mcap": 463019390.415525,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 39.8,
+    "rsi": 38.6,
     "url": "https://www.geckoterminal.com/bsc/pools/0x4d3bf29ba30f8bfe4624e7678709afa195689c5d"
    }
   ],
-  "onchain_checked": 86,
+  "onchain_checked": 85,
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
@@ -6711,6 +6711,28 @@
     ]
    },
    {
+    "id": "zero-knowledge-zk",
+    "name": "Zero Knowledge ZK",
+    "chg7d": -0.43,
+    "top": [
+     "ZEC",
+     "POL",
+     "NIGHT",
+     "STRK",
+     "RAIL"
+    ],
+    "tracked": [
+     "ZEC",
+     "STRK",
+     "TRUTH",
+     "NIGHT",
+     "ZK",
+     "MAGIC",
+     "POL",
+     "MINA"
+    ]
+   },
+   {
     "id": "decentralized-perpetuals",
     "name": "Decentralized Perpetuals",
     "chg7d": -0.75,
@@ -6752,28 +6774,6 @@
      "STX",
      "SOON",
      "ZK"
-    ]
-   },
-   {
-    "id": "zero-knowledge-zk",
-    "name": "Zero Knowledge ZK",
-    "chg7d": -1.44,
-    "top": [
-     "ZEC",
-     "POL",
-     "NIGHT",
-     "STRK",
-     "RAIL"
-    ],
-    "tracked": [
-     "ZEC",
-     "STRK",
-     "TRUTH",
-     "NIGHT",
-     "ZK",
-     "MAGIC",
-     "POL",
-     "MINA"
     ]
    },
    {
@@ -7249,8 +7249,8 @@
   ],
   "updated": {
    "unlocks": 1793289027,
-   "onchain": 1793299225,
-   "sectors": 1793301919,
+   "onchain": 1793302824,
+   "sectors": 1793302824,
    "listings": 1793300122,
    "fundamentals": 1793289028
   }
@@ -7289,6 +7289,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "46aa82f280b26fdb5403892ff599402efa12df4e2e30e8a35b194e99739ccd79",
- "generated": "2026-10-29T19:35:25+00:00"
+ "digest": "d279623fff51805863ec1157fad579a18cf83c54e28dfe4c30b7eb2970a275a0",
+ "generated": "2026-10-29T19:41:27+00:00"
 }
