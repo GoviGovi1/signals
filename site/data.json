@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.8003,
-   "last_ts": "2026-10-29T10:50:24+00:00",
-   "move_pct": 3.24,
+   "last": 1.7913,
+   "last_ts": "2026-10-29T10:55:23+00:00",
+   "move_pct": 2.72,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -67,7 +67,7 @@
     0.0021992358304069935
    ],
    "lev": 1,
-   "funding_pct": -0.0306,
+   "funding_pct": -0.0305,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-29T00:00:00+00:00",
@@ -75,9 +75,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002822,
-   "last_ts": "2026-10-29T10:50:24+00:00",
-   "move_pct": 2.56,
+   "last": 0.002826,
+   "last_ts": "2026-10-29T10:55:23+00:00",
+   "move_pct": 2.42,
    "closed": false,
    "rsi": 38.0,
    "trade_on": "Perps 1x",
@@ -107,7 +107,7 @@
     0.3040008
    ],
    "lev": 1,
-   "funding_pct": -0.0182,
+   "funding_pct": -0.0181,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-29T00:00:31+00:00",
@@ -115,9 +115,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2272,
-   "last_ts": "2026-10-29T10:50:24+00:00",
-   "move_pct": 1.64,
+   "last": 0.23189,
+   "last_ts": "2026-10-29T10:55:23+00:00",
+   "move_pct": 3.74,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -155,9 +155,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.00734,
-   "last_ts": "2026-10-29T10:50:24+00:00",
-   "move_pct": 1.77,
+   "last": 0.007343,
+   "last_ts": "2026-10-29T10:55:23+00:00",
+   "move_pct": 1.82,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -200,9 +200,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.006811,
-   "last_ts": "2026-10-29T10:50:24+00:00",
-   "move_pct": -0.9,
+   "last": 0.006817,
+   "last_ts": "2026-10-29T10:55:23+00:00",
+   "move_pct": -0.99,
    "closed": false,
    "rsi": 36.8,
    "trade_on": "Perps 1x",
@@ -244,9 +244,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04444,
-   "last_ts": "2026-10-29T10:50:24+00:00",
-   "move_pct": -0.59,
+   "last": 0.04448,
+   "last_ts": "2026-10-29T10:55:23+00:00",
+   "move_pct": -0.68,
    "closed": false,
    "rsi": 29.8,
    "trade_on": "Perps 1x",
@@ -289,16 +289,18 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1373,
-   "last_ts": "2026-10-29T10:50:24+00:00",
-   "move_pct": 0.29,
+   "last": 0.1374,
+   "last_ts": "2026-10-29T10:55:23+00:00",
+   "move_pct": 0.22,
    "closed": false,
    "rsi": 36.7,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": "charts/DATA-PERP-1793257200.png",
    "setup": "BREAKOUT20"
-  },
+  }
+ ],
+ "closed": [
   {
    "id": "PIPPIN-PERP-1793257200",
    "kind": "TA",
@@ -327,25 +329,23 @@
    ],
    "lev": 1,
    "funding_pct": 0.005,
-   "status": "open",
+   "status": "stopped",
    "hits": 0,
    "opened": "2026-10-29T08:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.01572,
-   "last_ts": "2026-10-29T10:50:24+00:00",
+   "closed_at": "2026-10-29T10:55:23+00:00",
+   "exit_price": 0.01573716191952406,
+   "result_r": -1.0,
+   "result_pct": -1.53,
+   "last": 0.01575,
+   "last_ts": "2026-10-29T10:55:23+00:00",
    "move_pct": -1.42,
-   "closed": false,
+   "closed": true,
    "rsi": 38.1,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": "charts/PIPPIN-PERP-1793257200.png",
    "setup": "BREAKOUT20"
-  }
- ],
- "closed": [
+  },
   {
    "id": "WAL-PERP-1793235600",
    "kind": "TA",
@@ -2087,7 +2087,7 @@
    "rsi": 71.7,
    "trade_on": "Spot",
    "market_reason": "thin perp market: spot is safer",
-   "chart": "charts/BASED-SPOT-1792893600.png",
+   "chart": null,
    "setup": "RANGE_BREAK"
   },
   {
@@ -2898,61 +2898,17 @@
    "market_reason": "thin perp market: spot is safer",
    "chart": null,
    "setup": "RETEST"
-  },
-  {
-   "id": "IRYS-DEX-bsc-0x91152b4e-1792720800",
-   "kind": "ONCHAIN",
-   "score": null,
-   "reasons": [
-    "Trending on BSC (GeckoTerminal), $6.3M volume 24h",
-    "Liquidity $490k, pool 309 days old",
-    "Safety: GoPlus OK",
-    "Chart: 20-hour breakout above EMA50 on the DEX, RSI 73",
-    "Untested: no free history to backtest on-chain signals"
-   ],
-   "chain": "BSC",
-   "token": "0x91152b4ef635403efbae860edd0f8c321d7c035d",
-   "url": "https://www.geckoterminal.com/bsc/pools/0x73de8b8d37fac1afe156f6533788a0eff197d636",
-   "coin": "IRYS",
-   "market": "DEX",
-   "side": "LONG",
-   "entry": 0.0275642877607695,
-   "sl0": 0.023763503003756237,
-   "sl": 0.0275642877607695,
-   "tps": [
-    0.03136507251778276,
-    0.03516585727479602,
-    0.03896664203180929
-   ],
-   "lev": null,
-   "funding_pct": null,
-   "status": "tp3",
-   "hits": 3,
-   "opened": "2026-10-23T03:00:00+00:00",
-   "closed_at": "2026-10-23T10:52:38+00:00",
-   "exit_price": 0.03896664203180929,
-   "result_r": 2.0,
-   "result_pct": 27.58,
-   "last": 0.040304154086253,
-   "last_ts": "2026-10-23T10:52:38+00:00",
-   "move_pct": 35.51,
-   "closed": true,
-   "rsi": 73.0,
-   "trade_on": "On-chain spot (BSC DEX)",
-   "market_reason": "not listed on OKX; buy on a DEX, small size, no leverage",
-   "chart": null,
-   "setup": null
   }
  ],
  "stats": {
   "all": {
-   "trades": 63,
+   "trades": 64,
    "wins": 29,
-   "losses": 34,
-   "win_rate": 46.0,
-   "total_r": 8.87,
-   "avg_r": 0.141,
-   "total_pct": 55.02
+   "losses": 35,
+   "win_rate": 45.3,
+   "total_r": 7.87,
+   "avg_r": 0.123,
+   "total_pct": 53.49
   },
   "SPOT": {
    "trades": 25,
@@ -2964,13 +2920,13 @@
    "total_pct": 38.46
   },
   "PERP": {
-   "trades": 35,
+   "trades": 36,
    "wins": 16,
-   "losses": 19,
-   "win_rate": 45.7,
-   "total_r": 2.84,
-   "avg_r": 0.081,
-   "total_pct": -3.03
+   "losses": 20,
+   "win_rate": 44.4,
+   "total_r": 1.84,
+   "avg_r": 0.051,
+   "total_pct": -4.56
   },
   "DEX": {
    "trades": 3,
@@ -3001,13 +2957,13 @@
     "total_pct": 19.59
    },
    "TA": {
-    "trades": 46,
+    "trades": 47,
     "wins": 19,
-    "losses": 27,
-    "win_rate": 41.3,
-    "total_r": 3.87,
-    "avg_r": 0.084,
-    "total_pct": 12.12
+    "losses": 28,
+    "win_rate": 40.4,
+    "total_r": 2.87,
+    "avg_r": 0.061,
+    "total_pct": 10.59
    }
   },
   "coins": {
@@ -3371,6 +3327,15 @@
     "avg_r": 0.567,
     "total_pct": 0.86
    },
+   "PIPPIN": {
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate": 0.0,
+    "total_r": -1.0,
+    "avg_r": -1.0,
+    "total_pct": -1.53
+   },
    "PONS": {
     "trades": 3,
     "wins": 2,
@@ -3498,7 +3463,7 @@
     "total_pct": -5.43
    }
   },
-  "open": 8
+  "open": 7
  },
  "backtest": {
   "from": "2026-07-24",
@@ -6922,6 +6887,28 @@
     ]
    },
    {
+    "id": "exchange-based-tokens",
+    "name": "Exchange Based Tokens",
+    "chg7d": -4.74,
+    "top": [
+     "BNB",
+     "HYPE",
+     "WBT",
+     "LEO",
+     "UNI"
+    ],
+    "tracked": [
+     "BNB",
+     "HYPE",
+     "PUMP",
+     "UNI",
+     "OKB",
+     "CRV",
+     "RAY",
+     "ASTER"
+    ]
+   },
+   {
     "id": "gaming",
     "name": "Gaming",
     "chg7d": -4.74,
@@ -6959,28 +6946,6 @@
      "PEPE",
      "ORDI",
      "SATS"
-    ]
-   },
-   {
-    "id": "exchange-based-tokens",
-    "name": "Exchange Based Tokens",
-    "chg7d": -5.06,
-    "top": [
-     "BNB",
-     "HYPE",
-     "WBT",
-     "LEO",
-     "UNI"
-    ],
-    "tracked": [
-     "BNB",
-     "HYPE",
-     "PUMP",
-     "UNI",
-     "OKB",
-     "CRV",
-     "RAY",
-     "ASTER"
     ]
    },
    {
@@ -7404,7 +7369,7 @@
   "updated": {
    "unlocks": 1793267425,
    "onchain": 1793270422,
-   "sectors": 1793270422,
+   "sectors": 1793271322,
    "listings": 1793269826,
    "fundamentals": 1793267426
   }
@@ -7443,6 +7408,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "53de791ec18a742e1a5e0fc7fa9476d1cf7650d4008fdf43c1c5a9ee6314e45f",
- "generated": "2026-10-29T10:50:28+00:00"
+ "digest": "a14cbbb0150fafd85a85fb830f3d616ab31b09a3f4c9e6eabc7743e64b3c172c",
+ "generated": "2026-10-29T10:55:26+00:00"
 }
