@@ -27,7 +27,7 @@
     0.0021992358304069935
    ],
    "lev": 1,
-   "funding_pct": -0.0063,
+   "funding_pct": -0.0052,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-29T00:00:00+00:00",
@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002786,
-   "last_ts": "2026-10-30T11:25:21+00:00",
-   "move_pct": 3.8,
+   "last": 0.00279,
+   "last_ts": "2026-10-30T11:30:29+00:00",
+   "move_pct": 3.66,
    "closed": false,
    "rsi": 38.0,
    "trade_on": "Perps 1x",
@@ -75,9 +75,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.22142,
-   "last_ts": "2026-10-30T11:25:21+00:00",
-   "move_pct": -0.94,
+   "last": 0.22095,
+   "last_ts": "2026-10-30T11:30:29+00:00",
+   "move_pct": -1.15,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -120,9 +120,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1292,
-   "last_ts": "2026-10-30T11:25:21+00:00",
-   "move_pct": 6.17,
+   "last": 0.1294,
+   "last_ts": "2026-10-30T11:30:29+00:00",
+   "move_pct": 6.03,
    "closed": false,
    "rsi": 36.7,
    "trade_on": "Perps 1x",
@@ -167,9 +167,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 92.971,
-   "last_ts": "2026-10-30T11:25:21+00:00",
-   "move_pct": 1.29,
+   "last": 93.094,
+   "last_ts": "2026-10-30T11:30:29+00:00",
+   "move_pct": 1.42,
    "closed": false,
    "rsi": 61.1,
    "trade_on": "Spot",
@@ -212,9 +212,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.07946,
-   "last_ts": "2026-10-30T11:25:21+00:00",
-   "move_pct": -0.56,
+   "last": 0.07954,
+   "last_ts": "2026-10-30T11:30:29+00:00",
+   "move_pct": -0.66,
    "closed": false,
    "rsi": 33.2,
    "trade_on": "Perps 1x",
@@ -6993,6 +6993,23 @@
     ]
    },
    {
+    "id": "storage",
+    "name": "Storage",
+    "chg7d": -8.78,
+    "top": [
+     "FIL",
+     "BTT",
+     "AR",
+     "AIOZ",
+     "WAL"
+    ],
+    "tracked": [
+     "FIL",
+     "AR",
+     "WAL"
+    ]
+   },
+   {
     "id": "decentralized-perpetuals",
     "name": "Decentralized Perpetuals",
     "chg7d": -8.81,
@@ -7034,23 +7051,6 @@
      "ATH",
      "LPT",
      "IOTA"
-    ]
-   },
-   {
-    "id": "storage",
-    "name": "Storage",
-    "chg7d": -9.25,
-    "top": [
-     "FIL",
-     "BTT",
-     "AR",
-     "AIOZ",
-     "WAL"
-    ],
-    "tracked": [
-     "FIL",
-     "AR",
-     "WAL"
     ]
    },
    {
@@ -7367,7 +7367,7 @@
   "updated": {
    "unlocks": 1793354429,
    "onchain": 1793356825,
-   "sectors": 1793358920,
+   "sectors": 1793359828,
    "listings": 1793357127,
    "fundamentals": 1793354430
   }
@@ -7406,6 +7406,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "9a0f554100487a56fe92702ed95b93b964173f2a0660a57cfdbcea63a887b528",
- "generated": "2026-10-30T11:25:24+00:00"
+ "digest": "6cf2cd0c7a6fced5fa376a1c5fc0d9cd7d7e435673edd9011120dc76636902ea",
+ "generated": "2026-10-30T11:30:31+00:00"
 }
