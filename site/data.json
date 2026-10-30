@@ -27,7 +27,7 @@
     0.0021992358304069935
    ],
    "lev": 1,
-   "funding_pct": 0.0032,
+   "funding_pct": 0.0044,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-29T00:00:00+00:00",
@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.00277,
-   "last_ts": "2026-10-30T07:50:20+00:00",
-   "move_pct": 4.35,
+   "last": 0.002771,
+   "last_ts": "2026-10-30T07:55:19+00:00",
+   "move_pct": 4.32,
    "closed": false,
    "rsi": 38.0,
    "trade_on": "Perps 1x",
@@ -75,9 +75,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.21569,
-   "last_ts": "2026-10-30T07:50:20+00:00",
-   "move_pct": -3.51,
+   "last": 0.21679,
+   "last_ts": "2026-10-30T07:55:19+00:00",
+   "move_pct": -3.02,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -120,9 +120,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.129,
-   "last_ts": "2026-10-30T07:50:20+00:00",
-   "move_pct": 6.32,
+   "last": 0.1291,
+   "last_ts": "2026-10-30T07:55:19+00:00",
+   "move_pct": 6.25,
    "closed": false,
    "rsi": 36.7,
    "trade_on": "Perps 1x",
@@ -167,9 +167,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 91.77,
-   "last_ts": "2026-10-30T07:50:20+00:00",
-   "move_pct": -0.02,
+   "last": 91.101,
+   "last_ts": "2026-10-30T07:55:19+00:00",
+   "move_pct": -0.75,
    "closed": false,
    "rsi": 61.1,
    "trade_on": "Spot",
@@ -212,9 +212,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1827,
-   "last_ts": "2026-10-30T07:50:20+00:00",
-   "move_pct": -1.11,
+   "last": 0.1824,
+   "last_ts": "2026-10-30T07:55:19+00:00",
+   "move_pct": -0.94,
    "closed": false,
    "rsi": 29.4,
    "trade_on": "Perps 1x",
@@ -6877,6 +6877,28 @@
     ]
    },
    {
+    "id": "layer-2",
+    "name": "Layer 2",
+    "chg7d": -8.09,
+    "top": [
+     "OKB",
+     "MNT",
+     "ARB",
+     "POL",
+     "STX"
+    ],
+    "tracked": [
+     "ARB",
+     "STRK",
+     "OKB",
+     "KAT",
+     "OP",
+     "STX",
+     "SOON",
+     "ZK"
+    ]
+   },
+   {
     "id": "layer-1",
     "name": "Layer 1",
     "chg7d": -8.13,
@@ -7001,28 +7023,6 @@
      "FIL",
      "AR",
      "WAL"
-    ]
-   },
-   {
-    "id": "layer-2",
-    "name": "Layer 2",
-    "chg7d": -9.3,
-    "top": [
-     "OKB",
-     "MNT",
-     "ARB",
-     "POL",
-     "STX"
-    ],
-    "tracked": [
-     "ARB",
-     "STRK",
-     "OKB",
-     "KAT",
-     "OP",
-     "STX",
-     "SOON",
-     "ZK"
     ]
    },
    {
@@ -7338,7 +7338,7 @@
   "updated": {
    "unlocks": 1793332525,
    "onchain": 1793346023,
-   "sectors": 1793346023,
+   "sectors": 1793346919,
    "listings": 1793345721,
    "fundamentals": 1793332526
   }
@@ -7377,6 +7377,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "1a1dcff0aa25e2814ce0269c422178cab2deda27889730a18c7878fb286e4860",
- "generated": "2026-10-30T07:50:23+00:00"
+ "digest": "ba3e02baecdede897be899a284c3b9bcf706ca1ea3e95dc03102f66370ad4021",
+ "generated": "2026-10-30T07:55:22+00:00"
 }
