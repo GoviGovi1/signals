@@ -27,7 +27,7 @@
     0.0021992358304069935
    ],
    "lev": 1,
-   "funding_pct": -0.0041,
+   "funding_pct": -0.003,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-29T00:00:00+00:00",
@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002807,
-   "last_ts": "2026-10-30T23:15:23+00:00",
-   "move_pct": 3.07,
+   "last": 0.002811,
+   "last_ts": "2026-10-30T23:20:24+00:00",
+   "move_pct": 2.94,
    "closed": false,
    "rsi": 38.0,
    "trade_on": "Perps 1x",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1328,
-   "last_ts": "2026-10-30T23:15:23+00:00",
-   "move_pct": 3.56,
+   "last": 0.1327,
+   "last_ts": "2026-10-30T23:20:24+00:00",
+   "move_pct": 3.63,
    "closed": false,
    "rsi": 36.7,
    "trade_on": "Perps 1x",
@@ -127,9 +127,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 89.207,
-   "last_ts": "2026-10-30T23:15:23+00:00",
-   "move_pct": -2.82,
+   "last": 89.096,
+   "last_ts": "2026-10-30T23:20:24+00:00",
+   "move_pct": -2.94,
    "closed": false,
    "rsi": 61.1,
    "trade_on": "Spot",
@@ -172,9 +172,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.07982,
-   "last_ts": "2026-10-30T23:15:23+00:00",
-   "move_pct": -1.01,
+   "last": 0.08001,
+   "last_ts": "2026-10-30T23:20:24+00:00",
+   "move_pct": -1.25,
    "closed": false,
    "rsi": 33.2,
    "trade_on": "Perps 1x",
@@ -6854,6 +6854,28 @@
     ]
    },
    {
+    "id": "layer-2",
+    "name": "Layer 2",
+    "chg7d": -6.41,
+    "top": [
+     "OKB",
+     "MNT",
+     "ARB",
+     "POL",
+     "STX"
+    ],
+    "tracked": [
+     "ARB",
+     "OKB",
+     "STRK",
+     "OP",
+     "POL",
+     "SOPH",
+     "MAGIC",
+     "MERL"
+    ]
+   },
+   {
     "id": "exchange-based-tokens",
     "name": "Exchange Based Tokens",
     "chg7d": -6.52,
@@ -6932,28 +6954,6 @@
      "TRUTH",
      "ZK",
      "ZEN"
-    ]
-   },
-   {
-    "id": "layer-2",
-    "name": "Layer 2",
-    "chg7d": -7.57,
-    "top": [
-     "OKB",
-     "MNT",
-     "ARB",
-     "POL",
-     "STX"
-    ],
-    "tracked": [
-     "ARB",
-     "OKB",
-     "STRK",
-     "OP",
-     "POL",
-     "SOPH",
-     "MAGIC",
-     "MERL"
     ]
    },
    {
@@ -7397,7 +7397,7 @@
   "updated": {
    "unlocks": 1793397917,
    "onchain": 1793400921,
-   "sectors": 1793401519,
+   "sectors": 1793402423,
    "listings": 1793398825,
    "fundamentals": 1793397918
   }
@@ -7436,6 +7436,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "8a08093483f2be845acde510615c23aac5b080bb566cd03128e0b494549edd7b",
- "generated": "2026-10-30T23:15:26+00:00"
+ "digest": "e6d9d2874a7e22655cc7cc49df4f03dd0c96aa73e418e72a25bba0c5cb5d6125",
+ "generated": "2026-10-30T23:20:27+00:00"
 }
