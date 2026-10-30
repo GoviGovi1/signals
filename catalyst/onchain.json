@@ -36,17 +36,17 @@
   {
    "chain": "Solana",
    "fails": [
-    "liquidity under $250k",
-    "pool younger than 7 days"
+    "transfer fee"
    ],
-   "symbol": "PODCAT"
+   "symbol": "PURR"
   },
   {
    "chain": "Solana",
    "fails": [
-    "transfer fee"
+    "liquidity under $250k",
+    "pool younger than 7 days"
    ],
-   "symbol": "PURR"
+   "symbol": "PODCAT"
   },
   {
    "chain": "Solana",
@@ -88,14 +88,6 @@
   {
    "chain": "Solana",
    "fails": [
-    "liquidity under $250k",
-    "pool younger than 7 days"
-   ],
-   "symbol": "HOUSECOIN"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
     "no DEX candles"
    ],
    "symbol": "CATE"
@@ -106,7 +98,7 @@
     "liquidity under $250k",
     "pool younger than 7 days"
    ],
-   "symbol": "BITCOIN"
+   "symbol": "HOUSECOIN"
   },
   {
    "chain": "Solana",
@@ -125,9 +117,10 @@
   {
    "chain": "Solana",
    "fails": [
-    "no DEX candles"
+    "liquidity under $250k",
+    "pool younger than 7 days"
    ],
-   "symbol": "CARDS"
+   "symbol": "BITCOIN"
   },
   {
    "chain": "Solana",
@@ -139,10 +132,9 @@
   {
    "chain": "Solana",
    "fails": [
-    "liquidity under $250k",
-    "pool younger than 7 days"
+    "24h volume under $250k"
    ],
-   "symbol": "REMUS"
+   "symbol": "FONE"
   },
   {
    "chain": "Base",
@@ -203,24 +195,9 @@
   {
    "chain": "Base",
    "fails": [
-    "liquidity under $250k",
-    "24h volume under $250k"
-   ],
-   "symbol": "OWB"
-  },
-  {
-   "chain": "Base",
-   "fails": [
     "liquidity under $250k"
    ],
    "symbol": "LMTS"
-  },
-  {
-   "chain": "Base",
-   "fails": [
-    "liquidity under $250k"
-   ],
-   "symbol": "WORTH"
   },
   {
    "chain": "Base",
@@ -236,6 +213,21 @@
     "24h volume under $250k"
    ],
    "symbol": "TOBY"
+  },
+  {
+   "chain": "Base",
+   "fails": [
+    "liquidity under $250k"
+   ],
+   "symbol": "WORTH"
+  },
+  {
+   "chain": "Base",
+   "fails": [
+    "liquidity under $250k",
+    "24h volume under $250k"
+   ],
+   "symbol": "OWB"
   },
   {
    "chain": "Base",
@@ -293,30 +285,37 @@
     "no DEX candles"
    ],
    "symbol": "TART"
+  },
+  {
+   "chain": "BSC",
+   "fails": [
+    "no DEX candles"
+   ],
+   "symbol": "COLLECT"
   }
  ],
  "rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
- "updated": 1793328026,
+ "updated": 1793331624,
  "watchlist": [
   {
-   "age_d": 372.5,
-   "atr": 0.009820959516264046,
-   "bar_ts": 1793322000000,
+   "age_d": 372.6,
+   "atr": 0.009572066083468233,
+   "bar_ts": 1793325600000,
    "chain": "BSC",
-   "chg24h": -1.124,
-   "chg7d": 54.6,
-   "close": 0.180626872563327,
-   "ema20": 0.1811661344663058,
-   "ema50": 0.1729388131920338,
+   "chg24h": 0.968,
+   "chg7d": 49.6,
+   "close": 0.181330273301374,
+   "ema20": 0.18118176673727918,
+   "ema50": 0.17326763995701785,
    "fails": [],
    "gecko_id": "orochi-network",
-   "liq": 791094,
-   "mcap": 25957558.0264175,
+   "liq": 787728,
+   "mcap": 25764111.812445,
    "name": "Orochi Network Token",
    "net": "bsc",
    "pool": "0x4620f5c127a6055fbebb1f71327d60ff079c9060",
-   "price": 0.179917227704915,
-   "rsi": 50.8,
+   "price": 0.179386235916234,
+   "rsi": 51.5,
    "safety": "unknown",
    "safety_notes": [
     "safety not checked"
@@ -326,35 +325,35 @@
    "trend_up": true,
    "trigger": false,
    "url": "https://www.geckoterminal.com/bsc/pools/0x4620f5c127a6055fbebb1f71327d60ff079c9060",
-   "vol24h": 9509910
+   "vol24h": 9164934
   },
   {
-   "age_d": 126.5,
-   "atr": 0.003170359881549536,
-   "bar_ts": 1793322000000,
-   "chain": "BSC",
-   "chg24h": 7.171,
-   "chg7d": 16.8,
-   "close": 0.0791063296668346,
-   "ema20": 0.0756737893697242,
-   "ema50": 0.07893827928586096,
+   "age_d": 426.4,
+   "atr": 0.011469893229572032,
+   "bar_ts": 1793325600000,
+   "chain": "Solana",
+   "chg24h": -8.698,
+   "chg7d": -23.7,
+   "close": 0.27189577024401135,
+   "ema20": 0.27344629307970375,
+   "ema50": 0.2856772236403581,
    "fails": [],
-   "gecko_id": "cap-4",
-   "liq": 1220168,
-   "mcap": 121572063.9744,
-   "name": "Cap",
-   "net": "bsc",
-   "pool": "0x3bca91b9b847cff6f4b666fa1d966981678975e13fd69d647bd11bed99f5fa14",
-   "price": 0.0779308102357072,
-   "rsi": 58.0,
+   "gecko_id": "collector-crypt",
+   "liq": 4176062,
+   "mcap": 241745523.924229,
+   "name": "Collector Crypt",
+   "net": "solana",
+   "pool": "HnhpJPJgBG2KwniMTNW8cVBHvk1hFog3RC3kjnyc23tD",
+   "price": 0.2728823530787572,
+   "rsi": 46.5,
    "safety": "ok",
    "safety_notes": [],
-   "symbol": "CAP",
-   "token": "0x99991c6aabba5a096f24f250b73580f5179b9999",
+   "symbol": "CARDS",
+   "token": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
    "trend_up": false,
    "trigger": false,
-   "url": "https://www.geckoterminal.com/bsc/pools/0x3bca91b9b847cff6f4b666fa1d966981678975e13fd69d647bd11bed99f5fa14",
-   "vol24h": 5236312
+   "url": "https://www.geckoterminal.com/solana/pools/HnhpJPJgBG2KwniMTNW8cVBHvk1hFog3RC3kjnyc23tD",
+   "vol24h": 4908749
   }
  ]
 }
