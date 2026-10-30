@@ -27,7 +27,7 @@
     0.0021992358304069935
    ],
    "lev": 1,
-   "funding_pct": -0.0105,
+   "funding_pct": -0.0098,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-29T00:00:00+00:00",
@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002797,
-   "last_ts": "2026-10-30T22:15:27+00:00",
-   "move_pct": 3.42,
+   "last": 0.002796,
+   "last_ts": "2026-10-30T22:20:26+00:00",
+   "move_pct": 3.45,
    "closed": false,
    "rsi": 38.0,
    "trade_on": "Perps 1x",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1329,
-   "last_ts": "2026-10-30T22:15:27+00:00",
-   "move_pct": 3.49,
+   "last": 0.1323,
+   "last_ts": "2026-10-30T22:20:26+00:00",
+   "move_pct": 3.92,
    "closed": false,
    "rsi": 36.7,
    "trade_on": "Perps 1x",
@@ -127,9 +127,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 89.418,
-   "last_ts": "2026-10-30T22:15:27+00:00",
-   "move_pct": -2.59,
+   "last": 89.161,
+   "last_ts": "2026-10-30T22:20:26+00:00",
+   "move_pct": -2.87,
    "closed": false,
    "rsi": 61.1,
    "trade_on": "Spot",
@@ -164,7 +164,7 @@
     0.07310544323776039
    ],
    "lev": 1,
-   "funding_pct": 0.0066,
+   "funding_pct": 0.0072,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-30T08:00:00+00:00",
@@ -172,9 +172,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.07923,
-   "last_ts": "2026-10-30T22:15:27+00:00",
-   "move_pct": -0.27,
+   "last": 0.07913,
+   "last_ts": "2026-10-30T22:20:26+00:00",
+   "move_pct": -0.14,
    "closed": false,
    "rsi": 33.2,
    "trade_on": "Perps 1x",
@@ -6854,6 +6854,28 @@
     ]
    },
    {
+    "id": "exchange-based-tokens",
+    "name": "Exchange Based Tokens",
+    "chg7d": -6.52,
+    "top": [
+     "BNB",
+     "HYPE",
+     "WBT",
+     "LEO",
+     "UNI"
+    ],
+    "tracked": [
+     "BNB",
+     "HYPE",
+     "UNI",
+     "PUMP",
+     "OKB",
+     "CRV",
+     "ASTER",
+     "RAY"
+    ]
+   },
+   {
     "id": "oracle",
     "name": "Oracle",
     "chg7d": -6.82,
@@ -6932,28 +6954,6 @@
      "SOPH",
      "MAGIC",
      "MERL"
-    ]
-   },
-   {
-    "id": "exchange-based-tokens",
-    "name": "Exchange Based Tokens",
-    "chg7d": -7.6,
-    "top": [
-     "BNB",
-     "HYPE",
-     "WBT",
-     "LEO",
-     "UNI"
-    ],
-    "tracked": [
-     "BNB",
-     "HYPE",
-     "UNI",
-     "PUMP",
-     "OKB",
-     "CRV",
-     "ASTER",
-     "RAY"
     ]
    },
    {
@@ -7397,8 +7397,8 @@
   "updated": {
    "unlocks": 1793397917,
    "onchain": 1793397323,
-   "sectors": 1793397935,
-   "listings": 1793395223,
+   "sectors": 1793398826,
+   "listings": 1793398825,
    "fundamentals": 1793397918
   }
  },
@@ -7436,6 +7436,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "b040dbf0cb45517b0cda0819f06bf016b09d3d3f6c90f69929158103cf03d89d",
- "generated": "2026-10-30T22:15:30+00:00"
+ "digest": "e495eb6e83893fb392ba2d7382142622095f19fd361e444d14f69a244060444a",
+ "generated": "2026-10-30T22:20:30+00:00"
 }
