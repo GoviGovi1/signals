@@ -1,6 +1,42 @@
 {
  "new": [
   {
+   "coin": "PFE",
+   "list_ts": 1793351700,
+   "market": "PERP",
+   "state": "preopen"
+  },
+  {
+   "coin": "GILD",
+   "list_ts": 1793350800,
+   "market": "PERP",
+   "state": "preopen"
+  },
+  {
+   "coin": "BIDU",
+   "list_ts": 1793349900,
+   "market": "PERP",
+   "state": "preopen"
+  },
+  {
+   "coin": "PDD",
+   "list_ts": 1793349000,
+   "market": "PERP",
+   "state": "preopen"
+  },
+  {
+   "coin": "GIGADEV",
+   "list_ts": 1793344500,
+   "market": "PERP",
+   "state": "preopen"
+  },
+  {
+   "coin": "WUXIBIO",
+   "list_ts": 1793343600,
+   "market": "PERP",
+   "state": "preopen"
+  },
+  {
    "coin": "MPWR",
    "list_ts": 1793097900,
    "market": "PERP",
@@ -203,44 +239,8 @@
    "list_ts": 1792658700,
    "market": "PERP",
    "state": "live"
-  },
-  {
-   "coin": "VST",
-   "list_ts": 1792657800,
-   "market": "PERP",
-   "state": "live"
-  },
-  {
-   "coin": "BTW",
-   "list_ts": 1792656000,
-   "market": "PERP",
-   "state": "live"
-  },
-  {
-   "coin": "AXIS",
-   "list_ts": 1792591200,
-   "market": "PERP",
-   "state": "live"
-  },
-  {
-   "coin": "TWST",
-   "list_ts": 1792490400,
-   "market": "PERP",
-   "state": "live"
-  },
-  {
-   "coin": "MP",
-   "list_ts": 1792489500,
-   "market": "PERP",
-   "state": "live"
-  },
-  {
-   "coin": "CVNA",
-   "list_ts": 1792488600,
-   "market": "PERP",
-   "state": "live"
   }
  ],
  "rule": "New on OKX. Chart signals need the universe rules (volume rank, 30+ days on the chart market). Hot-mover signals can fire from day 2 when the 24h move and volume spike pass hot.py.",
- "updated": 1793330720
+ "updated": 1793334322
 }
