@@ -27,7 +27,7 @@
     0.0021992358304069935
    ],
    "lev": 1,
-   "funding_pct": 0.0013,
+   "funding_pct": 0.0008,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-29T00:00:00+00:00",
@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002788,
-   "last_ts": "2026-10-30T07:10:25+00:00",
-   "move_pct": 3.73,
+   "last": 0.002794,
+   "last_ts": "2026-10-30T07:15:22+00:00",
+   "move_pct": 3.52,
    "closed": false,
    "rsi": 38.0,
    "trade_on": "Perps 1x",
@@ -75,9 +75,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.21586,
-   "last_ts": "2026-10-30T07:10:25+00:00",
-   "move_pct": -3.43,
+   "last": 0.21597,
+   "last_ts": "2026-10-30T07:15:22+00:00",
+   "move_pct": -3.38,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -120,9 +120,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1301,
-   "last_ts": "2026-10-30T07:10:25+00:00",
-   "move_pct": 5.52,
+   "last": 0.13,
+   "last_ts": "2026-10-30T07:15:22+00:00",
+   "move_pct": 5.59,
    "closed": false,
    "rsi": 36.7,
    "trade_on": "Perps 1x",
@@ -167,9 +167,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 93.558,
-   "last_ts": "2026-10-30T07:10:25+00:00",
-   "move_pct": 1.93,
+   "last": 93.252,
+   "last_ts": "2026-10-30T07:15:22+00:00",
+   "move_pct": 1.59,
    "closed": false,
    "rsi": 61.1,
    "trade_on": "Spot",
@@ -212,16 +212,18 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1827,
-   "last_ts": "2026-10-30T07:10:25+00:00",
-   "move_pct": -1.11,
+   "last": 0.1825,
+   "last_ts": "2026-10-30T07:15:22+00:00",
+   "move_pct": -1.0,
    "closed": false,
    "rsi": 29.4,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": "charts/SNX-PERP-1793336400.png",
    "setup": "RETEST"
-  },
+  }
+ ],
+ "closed": [
   {
    "id": "SOPH-SPOT-HOT-20756",
    "kind": "HOT",
@@ -245,25 +247,23 @@
    ],
    "lev": null,
    "funding_pct": null,
-   "status": "open",
+   "status": "stopped",
    "hits": 0,
    "opened": "2026-10-30T06:30:27+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.001668,
-   "last_ts": "2026-10-30T07:10:25+00:00",
+   "closed_at": "2026-10-30T07:15:22+00:00",
+   "exit_price": 0.001637302388801994,
+   "result_r": -1.0,
+   "result_pct": -8.33,
+   "last": 0.001618,
+   "last_ts": "2026-10-30T07:15:22+00:00",
    "move_pct": -6.61,
-   "closed": false,
+   "closed": true,
    "rsi": null,
    "trade_on": "Spot",
    "market_reason": "very volatile coin: spot avoids liquidation",
    "chart": "charts/SOPH-SPOT-HOT-20756.png",
    "setup": "HOT24"
-  }
- ],
- "closed": [
+  },
   {
    "id": "ESP-PERP-1793318400",
    "kind": "TA",
@@ -2011,7 +2011,7 @@
    "rsi": null,
    "trade_on": "Spot",
    "market_reason": "very volatile coin: spot avoids liquidation",
-   "chart": "charts/DOOD-SPOT-HOT-20753.png",
+   "chart": null,
    "setup": "HOT24"
   },
   {
@@ -2821,70 +2821,26 @@
    "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
    "chart": null,
    "setup": "RANGE_BREAK"
-  },
-  {
-   "id": "SLX-SPOT-1792720800",
-   "kind": "TA",
-   "score": 0,
-   "reasons": [
-    "Chart: Break of structure: closed above the last swing high 0.04922, after a higher low",
-    "Timeframes: 1d down, 4h down, 4h structure higher highs/lows",
-    "Next resistance 0.05347 (3.3R away, 4h swing/swing)",
-    "Stop 0.048849 (2 ATR); targets at the next 2 level(s)",
-    "BTC 4h trend flat",
-    "Weaker than BTC by 4.6% over 7d",
-    "OI +1% 24h",
-    "Track record: +9.6R on SLX in the last 45 days (backtest)"
-   ],
-   "coin": "SLX",
-   "market": "SPOT",
-   "side": "LONG",
-   "entry": 0.04992,
-   "sl0": 0.048839626060705306,
-   "sl": 0.04992,
-   "tps": [
-    0.05337826296196327,
-    0.056067724207707316,
-    0.05714809814700201
-   ],
-   "lev": null,
-   "funding_pct": null,
-   "status": "stopped_be",
-   "hits": 1,
-   "opened": "2026-10-23T03:00:00+00:00",
-   "closed_at": "2026-10-24T14:20:23+00:00",
-   "exit_price": 0.04992,
-   "result_r": 1.067,
-   "result_pct": 2.31,
-   "last": 0.05079,
-   "last_ts": "2026-10-24T14:20:23+00:00",
-   "move_pct": 1.4,
-   "closed": true,
-   "rsi": 63.0,
-   "trade_on": "Spot",
-   "market_reason": "thin perp market: spot is safer",
-   "chart": null,
-   "setup": "BOS"
   }
  ],
  "stats": {
   "all": {
-   "trades": 76,
+   "trades": 77,
    "wins": 32,
-   "losses": 44,
-   "win_rate": 42.1,
-   "total_r": 1.62,
-   "avg_r": 0.021,
-   "total_pct": 18.32
+   "losses": 45,
+   "win_rate": 41.6,
+   "total_r": 0.62,
+   "avg_r": 0.008,
+   "total_pct": 9.99
   },
   "SPOT": {
-   "trades": 29,
+   "trades": 30,
    "wins": 13,
-   "losses": 16,
-   "win_rate": 44.8,
-   "total_r": 2.53,
-   "avg_r": 0.087,
-   "total_pct": 27.7
+   "losses": 17,
+   "win_rate": 43.3,
+   "total_r": 1.53,
+   "avg_r": 0.051,
+   "total_pct": 19.37
   },
   "PERP": {
    "trades": 44,
@@ -2906,13 +2862,13 @@
   },
   "kinds": {
    "HOT": {
-    "trades": 18,
+    "trades": 19,
     "wins": 10,
-    "losses": 8,
-    "win_rate": 55.6,
-    "total_r": 1.5,
-    "avg_r": 0.083,
-    "total_pct": 3.43
+    "losses": 9,
+    "win_rate": 52.6,
+    "total_r": 0.5,
+    "avg_r": 0.026,
+    "total_pct": -4.9
    },
    "ONCHAIN": {
     "trades": 3,
@@ -3420,6 +3376,15 @@
     "avg_r": 1.501,
     "total_pct": 2.6
    },
+   "SOPH": {
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate": 0.0,
+    "total_r": -1.0,
+    "avg_r": -1.0,
+    "total_pct": -8.33
+   },
    "T": {
     "trades": 1,
     "wins": 1,
@@ -3511,7 +3476,7 @@
     "total_pct": -5.43
    }
   },
-  "open": 6
+  "open": 5
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7450,6 +7415,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "cf3bf9512c11b68c62e1a2d8fad0ffb5e9adc451ce176ccccbd87aeaa166a78f",
- "generated": "2026-10-30T07:10:28+00:00"
+ "digest": "381d4995cd3b59852a7655538c2b4f7d5c63e0391181761cc2386c4cff5735fa",
+ "generated": "2026-10-30T07:15:26+00:00"
 }
