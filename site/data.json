@@ -27,7 +27,7 @@
     0.0021992358304069935
    ],
    "lev": 1,
-   "funding_pct": -0.0065,
+   "funding_pct": -0.0058,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-29T00:00:00+00:00",
@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002818,
-   "last_ts": "2026-10-30T16:10:26+00:00",
-   "move_pct": 2.69,
+   "last": 0.00282,
+   "last_ts": "2026-10-30T16:15:26+00:00",
+   "move_pct": 2.62,
    "closed": false,
    "rsi": 38.0,
    "trade_on": "Perps 1x",
@@ -81,7 +81,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.1322,
-   "last_ts": "2026-10-30T16:10:26+00:00",
+   "last_ts": "2026-10-30T16:15:26+00:00",
    "move_pct": 3.99,
    "closed": false,
    "rsi": 36.7,
@@ -127,9 +127,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 91.831,
-   "last_ts": "2026-10-30T16:10:26+00:00",
-   "move_pct": 0.04,
+   "last": 91.79,
+   "last_ts": "2026-10-30T16:15:26+00:00",
+   "move_pct": -0.0,
    "closed": false,
    "rsi": 61.1,
    "trade_on": "Spot",
@@ -172,9 +172,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.07825,
-   "last_ts": "2026-10-30T16:10:26+00:00",
-   "move_pct": 0.97,
+   "last": 0.07844,
+   "last_ts": "2026-10-30T16:15:26+00:00",
+   "move_pct": 0.73,
    "closed": false,
    "rsi": 33.2,
    "trade_on": "Perps 1x",
@@ -7148,6 +7148,22 @@
     ]
    },
    {
+    "id": "interoperability",
+    "name": "Interoperability",
+    "chg7d": -10.0,
+    "top": [
+     "TRAC",
+     "W",
+     "CKB",
+     "AXL",
+     "PHA"
+    ],
+    "tracked": [
+     "W",
+     "PHA"
+    ]
+   },
+   {
     "id": "ai-agents",
     "name": "AI Agents",
     "chg7d": -10.06,
@@ -7211,22 +7227,6 @@
      "BOME",
      "FARTCOIN",
      "PNUT"
-    ]
-   },
-   {
-    "id": "interoperability",
-    "name": "Interoperability",
-    "chg7d": -11.53,
-    "top": [
-     "TRAC",
-     "W",
-     "CKB",
-     "AXL",
-     "PHA"
-    ],
-    "tracked": [
-     "W",
-     "PHA"
     ]
    }
   ],
@@ -7399,7 +7399,7 @@
   "updated": {
    "unlocks": 1793376030,
    "onchain": 1793374825,
-   "sectors": 1793376041,
+   "sectors": 1793376925,
    "listings": 1793376040,
    "fundamentals": 1793376031
   }
@@ -7438,6 +7438,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "4f472ff67067fc3f64d23695ab8102f51fffc177e5547d748021f638a664dbbb",
- "generated": "2026-10-30T16:10:28+00:00"
+ "digest": "b4e4f6cef07a9883c1f2d1743cfec989236d3e125570d5696b1ce2898e9090b8",
+ "generated": "2026-10-30T16:15:29+00:00"
 }
