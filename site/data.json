@@ -27,7 +27,7 @@
     0.0021992358304069935
    ],
    "lev": 1,
-   "funding_pct": -0.0076,
+   "funding_pct": -0.0087,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-29T00:00:00+00:00",
@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002814,
-   "last_ts": "2026-10-30T17:35:21+00:00",
-   "move_pct": 2.83,
+   "last": 0.002812,
+   "last_ts": "2026-10-30T17:58:02+00:00",
+   "move_pct": 2.9,
    "closed": false,
    "rsi": 38.0,
    "trade_on": "Perps 1x",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1309,
-   "last_ts": "2026-10-30T17:35:21+00:00",
-   "move_pct": 4.94,
+   "last": 0.133,
+   "last_ts": "2026-10-30T17:58:02+00:00",
+   "move_pct": 3.41,
    "closed": false,
    "rsi": 36.7,
    "trade_on": "Perps 1x",
@@ -127,9 +127,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 90.863,
-   "last_ts": "2026-10-30T17:35:21+00:00",
-   "move_pct": -1.01,
+   "last": 90.95,
+   "last_ts": "2026-10-30T17:58:02+00:00",
+   "move_pct": -0.92,
    "closed": false,
    "rsi": 61.1,
    "trade_on": "Spot",
@@ -164,7 +164,7 @@
     0.07310544323776039
    ],
    "lev": 1,
-   "funding_pct": 0.01,
+   "funding_pct": 0.0099,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-30T08:00:00+00:00",
@@ -173,7 +173,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.07835,
-   "last_ts": "2026-10-30T17:35:21+00:00",
+   "last_ts": "2026-10-30T17:58:02+00:00",
    "move_pct": 0.85,
    "closed": false,
    "rsi": 33.2,
@@ -6771,42 +6771,99 @@
   "onchain": [
    {
     "chain": "BSC",
-    "symbol": "B13B",
-    "name": "B13B",
-    "token": "0x4902c5ebc598265ed2212b559b042de8a5eeec3f",
-    "price": 4.9860865406233,
-    "liq": 5338965,
-    "vol24h": 7627182,
-    "age_d": 46.2,
-    "chg24h": -9.405,
-    "chg7d": -9.3,
-    "mcap": 36724863.2761923,
+    "symbol": "Q",
+    "name": "Quack AI Token",
+    "token": "0xc07e1300dc138601fa6b0b59f8d0fa477e690589",
+    "price": 0.0468523081007579,
+    "liq": 1269928,
+    "vol24h": 30357858,
+    "age_d": 425.4,
+    "chg24h": 21.711,
+    "chg7d": -56.1,
+    "mcap": 220413912.236293,
+    "safety": "ok",
+    "safety_notes": [],
+    "trigger": false,
+    "trend_up": false,
+    "rsi": 48.3,
+    "url": "https://www.geckoterminal.com/bsc/pools/0x8bafe0bdd3eb9ae0539f5b32e771c1a72a189b7f"
+   },
+   {
+    "chain": "Base",
+    "symbol": "XDP",
+    "name": "Doppler Finance",
+    "token": "0x07b3d902783c3c12b077508c3b5c00113d1291d0",
+    "price": 0.0172875123828585,
+    "liq": 1710767,
+    "vol24h": 22875409,
+    "age_d": 32.2,
+    "chg24h": -7.059,
+    "chg7d": -1.8,
+    "mcap": 17292086.99,
+    "safety": "ok",
+    "safety_notes": [],
+    "trigger": false,
+    "trend_up": false,
+    "rsi": 39.1,
+    "url": "https://www.geckoterminal.com/base/pools/0x2df380544b88adb3ad0a94100dcc45fd705aae2d"
+   },
+   {
+    "chain": "Ethereum",
+    "symbol": "REUSD",
+    "name": "Re Protocol Deposit Token",
+    "token": "0x5086bf358635b81d8c47c66d1c8b9e567db70c72",
+    "price": 1.10421230590442,
+    "liq": 25104554,
+    "vol24h": 22448833,
+    "age_d": 232.1,
+    "chg24h": 9.769,
+    "chg7d": -0.2,
+    "mcap": 367383490.542471,
+    "safety": "ok",
+    "safety_notes": [],
+    "trigger": false,
+    "trend_up": false,
+    "rsi": 51.2,
+    "url": "https://www.geckoterminal.com/eth/pools/0xb96cee75211700bc148b95b1c907d726791f4457"
+   },
+   {
+    "chain": "Ethereum",
+    "symbol": "SHIB",
+    "name": "SHIBA INU",
+    "token": "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce",
+    "price": 4.70414240036888e-06,
+    "liq": 2583103,
+    "vol24h": 5518467,
+    "age_d": 1760.3,
+    "chg24h": -5.65,
+    "chg7d": -5.1,
+    "mcap": 2771860671.61555,
     "safety": "unknown",
     "safety_notes": [
      "safety not checked"
     ],
     "trigger": false,
     "trend_up": false,
-    "rsi": 32.3,
-    "url": "https://www.geckoterminal.com/bsc/pools/0x320e8096e5e7a46e43446141a5b15d801fc596f5"
+    "rsi": 47.0,
+    "url": "https://www.geckoterminal.com/eth/pools/0xcf6daab95c476106eca715d48de4b13287ffdeaa"
    },
    {
     "chain": "Solana",
     "symbol": "STONK",
     "name": "STONK",
     "token": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
-    "price": 0.1315708717126306,
-    "liq": 2514818,
-    "vol24h": 4141695,
-    "age_d": 79.2,
-    "chg24h": -14.959,
-    "chg7d": 6.7,
-    "mcap": 102761152.937561,
+    "price": 0.1292081585131673,
+    "liq": 2486534,
+    "vol24h": 3928861,
+    "age_d": 79.3,
+    "chg24h": -11.412,
+    "chg7d": 6.1,
+    "mcap": 101428629.590213,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 41.0,
+    "rsi": 41.5,
     "url": "https://www.geckoterminal.com/solana/pools/zxTpi4BtaWX3mgdAPoezkMD1hxx8CdeCfrqXMWvSCLX"
    }
   ],
@@ -6981,28 +7038,6 @@
     ]
    },
    {
-    "id": "layer-1",
-    "name": "Layer 1",
-    "chg7d": -8.42,
-    "top": [
-     "BTC",
-     "ETH",
-     "BNB",
-     "XRP",
-     "SOL"
-    ],
-    "tracked": [
-     "BTC",
-     "ETH",
-     "SOL",
-     "XRP",
-     "BNB",
-     "SUI",
-     "AVAX",
-     "ZEC"
-    ]
-   },
-   {
     "id": "decentralized-finance-defi",
     "name": "Decentralized Finance DeFi",
     "chg7d": -8.45,
@@ -7066,6 +7101,28 @@
      "IMX",
      "FLOKI",
      "YGG"
+    ]
+   },
+   {
+    "id": "layer-1",
+    "name": "Layer 1",
+    "chg7d": -9.28,
+    "top": [
+     "BTC",
+     "ETH",
+     "BNB",
+     "XRP",
+     "SOL"
+    ],
+    "tracked": [
+     "BTC",
+     "ETH",
+     "SOL",
+     "XRP",
+     "BNB",
+     "SUI",
+     "AVAX",
+     "ZEC"
     ]
    },
    {
@@ -7398,8 +7455,8 @@
   ],
   "updated": {
    "unlocks": 1793376030,
-   "onchain": 1793378424,
-   "sectors": 1793381428,
+   "onchain": 1793383020,
+   "sectors": 1793383020,
    "listings": 1793379925,
    "fundamentals": 1793376031
   }
@@ -7438,6 +7495,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "e74b70c60e5bcd8b5d3bda96901a6b31d8f51c9883971121e9c0bd4e106a149f",
- "generated": "2026-10-30T17:35:24+00:00"
+ "digest": "64e9a8ba0bbdee0d72aeff22f92054979a3e5cbf1088c445bec7adbdc73ccc9e",
+ "generated": "2026-10-30T17:58:05+00:00"
 }
