@@ -27,7 +27,7 @@
     0.0021992358304069935
    ],
    "lev": 1,
-   "funding_pct": -0.0046,
+   "funding_pct": -0.004,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-29T00:00:00+00:00",
@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002754,
-   "last_ts": "2026-10-30T05:35:21+00:00",
-   "move_pct": 4.9,
+   "last": 0.002761,
+   "last_ts": "2026-10-30T05:41:26+00:00",
+   "move_pct": 4.66,
    "closed": false,
    "rsi": 38.0,
    "trade_on": "Perps 1x",
@@ -75,9 +75,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.22547,
-   "last_ts": "2026-10-30T05:35:21+00:00",
-   "move_pct": 0.87,
+   "last": 0.22315,
+   "last_ts": "2026-10-30T05:41:26+00:00",
+   "move_pct": -0.17,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -120,9 +120,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1297,
-   "last_ts": "2026-10-30T05:35:21+00:00",
-   "move_pct": 5.81,
+   "last": 0.1301,
+   "last_ts": "2026-10-30T05:41:26+00:00",
+   "move_pct": 5.52,
    "closed": false,
    "rsi": 36.7,
    "trade_on": "Perps 1x",
@@ -167,9 +167,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 93.557,
-   "last_ts": "2026-10-30T05:35:21+00:00",
-   "move_pct": 1.92,
+   "last": 93.064,
+   "last_ts": "2026-10-30T05:41:26+00:00",
+   "move_pct": 1.39,
    "closed": false,
    "rsi": 61.1,
    "trade_on": "Spot",
@@ -211,9 +211,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.07984,
-   "last_ts": "2026-10-30T05:35:21+00:00",
-   "move_pct": -2.41,
+   "last": 0.07959,
+   "last_ts": "2026-10-30T05:41:26+00:00",
+   "move_pct": -2.09,
    "closed": false,
    "rsi": 26.3,
    "trade_on": "Perps 1x",
@@ -256,9 +256,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.07873,
-   "last_ts": "2026-10-30T05:35:21+00:00",
-   "move_pct": -2.98,
+   "last": 0.07878,
+   "last_ts": "2026-10-30T05:41:26+00:00",
+   "move_pct": -3.05,
    "closed": false,
    "rsi": 15.2,
    "trade_on": "Perps 1x",
@@ -6744,41 +6744,60 @@
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
   "onchain": [
    {
-    "chain": "Solana",
-    "symbol": "PUMP",
-    "name": "Pump",
-    "token": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-    "price": 0.004024847851049836,
-    "liq": 22542150,
-    "vol24h": 7788220,
-    "age_d": 472.5,
-    "chg24h": -5.183,
-    "chg7d": -13.4,
-    "mcap": 1852976520.34149,
+    "chain": "BSC",
+    "symbol": "ON",
+    "name": "Orochi Network Token",
+    "token": "0x0e4f6209ed984b21edea43ace6e09559ed051d48",
+    "price": 0.179431909491487,
+    "liq": 787602,
+    "vol24h": 8347628,
+    "age_d": 372.6,
+    "chg24h": -3.368,
+    "chg7d": 48.3,
+    "mcap": 25887538.7431125,
+    "safety": "ok",
+    "safety_notes": [],
+    "trigger": false,
+    "trend_up": true,
+    "rsi": 54.2,
+    "url": "https://www.geckoterminal.com/bsc/pools/0x4620f5c127a6055fbebb1f71327d60ff079c9060"
+   },
+   {
+    "chain": "Ethereum",
+    "symbol": "ENA",
+    "name": "ENA",
+    "token": "0x57e114b691db790c35207b2e685d4a43181e6061",
+    "price": 0.187976533218274,
+    "liq": 3000818,
+    "vol24h": 49674479,
+    "age_d": 940.8,
+    "chg24h": -5.555,
+    "chg7d": -5.8,
+    "mcap": 2520060398.2125,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 41.0,
-    "url": "https://www.geckoterminal.com/solana/pools/2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd"
+    "rsi": 45.9,
+    "url": "https://www.geckoterminal.com/eth/pools/0xc3db44adc1fcdfd5671f555236eae49f4a8eea18"
    },
    {
     "chain": "Solana",
     "symbol": "STONK",
     "name": "STONK",
     "token": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
-    "price": 0.13619286209361323,
-    "liq": 2683644,
-    "vol24h": 4627851,
-    "age_d": 78.7,
-    "chg24h": -3.262,
-    "chg7d": 18.7,
-    "mcap": 106394449.402708,
+    "price": 0.14063278084307138,
+    "liq": 2732022,
+    "vol24h": 4595422,
+    "age_d": 78.8,
+    "chg24h": -2.019,
+    "chg7d": 19.2,
+    "mcap": 109402102.250094,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 46.7,
+    "rsi": 47.7,
     "url": "https://www.geckoterminal.com/solana/pools/zxTpi4BtaWX3mgdAPoezkMD1hxx8CdeCfrqXMWvSCLX"
    }
   ],
@@ -6808,9 +6827,24 @@
     ]
    },
    {
+    "id": "privacy-coins",
+    "name": "Privacy Coins",
+    "chg7d": -5.85,
+    "top": [
+     "ZEC",
+     "XMR",
+     "DCR",
+     "ZANO",
+     "ARRR"
+    ],
+    "tracked": [
+     "ZEC"
+    ]
+   },
+   {
     "id": "zero-knowledge-zk",
     "name": "Zero Knowledge ZK",
-    "chg7d": -4.5,
+    "chg7d": -5.88,
     "top": [
      "ZEC",
      "POL",
@@ -6827,21 +6861,6 @@
      "MAGIC",
      "POL",
      "MINA"
-    ]
-   },
-   {
-    "id": "privacy-coins",
-    "name": "Privacy Coins",
-    "chg7d": -5.85,
-    "top": [
-     "ZEC",
-     "XMR",
-     "DCR",
-     "ZANO",
-     "ARRR"
-    ],
-    "tracked": [
-     "ZEC"
     ]
    },
    {
@@ -7368,8 +7387,8 @@
   ],
   "updated": {
    "unlocks": 1793332525,
-   "onchain": 1793335220,
-   "sectors": 1793337921,
+   "onchain": 1793338824,
+   "sectors": 1793338824,
    "listings": 1793338225,
    "fundamentals": 1793332526
   }
@@ -7408,6 +7427,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "fddf36b6720d5e4a9665257feafe6cfbc413ed5d9477bacde2cc3f59d47a8370",
- "generated": "2026-10-30T05:35:24+00:00"
+ "digest": "35d493a00607d097302263cd324714a20e5f1c3a466a02d3317639de61114e8d",
+ "generated": "2026-10-30T05:41:29+00:00"
 }
