@@ -27,7 +27,7 @@
     0.0021992358304069935
    ],
    "lev": 1,
-   "funding_pct": -0.0229,
+   "funding_pct": -0.0217,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-29T00:00:00+00:00",
@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002673,
-   "last_ts": "2026-10-30T00:35:20+00:00",
-   "move_pct": 7.7,
+   "last": 0.002687,
+   "last_ts": "2026-10-30T00:41:26+00:00",
+   "move_pct": 7.22,
    "closed": false,
    "rsi": 38.0,
    "trade_on": "Perps 1x",
@@ -75,9 +75,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.22126,
-   "last_ts": "2026-10-30T00:35:20+00:00",
-   "move_pct": -1.02,
+   "last": 0.22143,
+   "last_ts": "2026-10-30T00:41:26+00:00",
+   "move_pct": -0.94,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -120,9 +120,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1287,
-   "last_ts": "2026-10-30T00:35:20+00:00",
-   "move_pct": 6.54,
+   "last": 0.1291,
+   "last_ts": "2026-10-30T00:41:26+00:00",
+   "move_pct": 6.25,
    "closed": false,
    "rsi": 36.7,
    "trade_on": "Perps 1x",
@@ -160,9 +160,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.05824,
-   "last_ts": "2026-10-30T00:35:20+00:00",
-   "move_pct": -3.82,
+   "last": 0.05806,
+   "last_ts": "2026-10-30T00:41:26+00:00",
+   "move_pct": -4.11,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -6601,47 +6601,47 @@
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
   "onchain": [
    {
-    "chain": "BSC",
-    "symbol": "ON",
-    "name": "Orochi Network Token",
-    "token": "0x0e4f6209ed984b21edea43ace6e09559ed051d48",
-    "price": 0.17992451075353,
-    "liq": 789048,
-    "vol24h": 9682805,
-    "age_d": 372.4,
-    "chg24h": -1.118,
-    "chg7d": 55.7,
-    "mcap": 25958608.79567,
+    "chain": "Arbitrum",
+    "symbol": "ARB",
+    "name": "Arbitrum",
+    "token": "0x912ce59144191c1204e64559fe8253a0e49e6548",
+    "price": 0.150693542465636,
+    "liq": 1571260,
+    "vol24h": 9378998,
+    "age_d": 1323.0,
+    "chg24h": -11.989,
+    "chg7d": -13.9,
+    "mcap": 1041091946.16189,
     "safety": "unknown",
     "safety_notes": [
      "safety not checked"
     ],
     "trigger": false,
-    "trend_up": true,
-    "rsi": 50.5,
-    "url": "https://www.geckoterminal.com/bsc/pools/0x4620f5c127a6055fbebb1f71327d60ff079c9060"
+    "trend_up": false,
+    "rsi": 31.2,
+    "url": "https://www.geckoterminal.com/arbitrum/pools/0xc6f780497a95e246eb9449f5e4770916dcd6396a"
    },
    {
-    "chain": "BSC",
-    "symbol": "CAP",
-    "name": "Cap",
-    "token": "0x99991c6aabba5a096f24f250b73580f5179b9999",
-    "price": 0.0769886911452631,
-    "liq": 1210831,
-    "vol24h": 6010555,
-    "age_d": 126.3,
-    "chg24h": 5.567,
-    "chg7d": 13.8,
-    "mcap": 119634510.7464,
+    "chain": "Solana",
+    "symbol": "CARDS",
+    "name": "Collector Crypt",
+    "token": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
+    "price": 0.2663412664884119,
+    "liq": 4126568,
+    "vol24h": 4769164,
+    "age_d": 426.2,
+    "chg24h": -12.586,
+    "chg7d": -23.1,
+    "mcap": 235866773.706819,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 54.5,
-    "url": "https://www.geckoterminal.com/bsc/pools/0x3bca91b9b847cff6f4b666fa1d966981678975e13fd69d647bd11bed99f5fa14"
+    "rsi": 39.4,
+    "url": "https://www.geckoterminal.com/solana/pools/HnhpJPJgBG2KwniMTNW8cVBHvk1hFog3RC3kjnyc23tD"
    }
   ],
-  "onchain_checked": 83,
+  "onchain_checked": 81,
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
@@ -6664,28 +6664,6 @@
      "PLUME",
      "ZBCN",
      "CARDS"
-    ]
-   },
-   {
-    "id": "zero-knowledge-zk",
-    "name": "Zero Knowledge ZK",
-    "chg7d": -0.43,
-    "top": [
-     "ZEC",
-     "POL",
-     "NIGHT",
-     "STRK",
-     "RAIL"
-    ],
-    "tracked": [
-     "ZEC",
-     "STRK",
-     "TRUTH",
-     "NIGHT",
-     "ZK",
-     "MAGIC",
-     "POL",
-     "MINA"
     ]
    },
    {
@@ -6750,6 +6728,28 @@
      "ACU",
      "ATH",
      "LPT"
+    ]
+   },
+   {
+    "id": "zero-knowledge-zk",
+    "name": "Zero Knowledge ZK",
+    "chg7d": -4.5,
+    "top": [
+     "ZEC",
+     "POL",
+     "NIGHT",
+     "STRK",
+     "RAIL"
+    ],
+    "tracked": [
+     "ZEC",
+     "STRK",
+     "TRUTH",
+     "NIGHT",
+     "ZK",
+     "MAGIC",
+     "POL",
+     "MINA"
     ]
    },
    {
@@ -7227,8 +7227,8 @@
   ],
   "updated": {
    "unlocks": 1793310628,
-   "onchain": 1793317222,
-   "sectors": 1793319921,
+   "onchain": 1793320824,
+   "sectors": 1793320824,
    "listings": 1793319326,
    "fundamentals": 1793310630
   }
@@ -7267,6 +7267,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "4ed0564e90a672b2a6392f866eddda6ed1b62620f2bbd41dd1327c7674e9d4d7",
- "generated": "2026-10-30T00:35:23+00:00"
+ "digest": "723e4c0a91bee68173961c95bccea62b7f9921fd6d146f84ba8dd9b98de48d07",
+ "generated": "2026-10-30T00:41:29+00:00"
 }
