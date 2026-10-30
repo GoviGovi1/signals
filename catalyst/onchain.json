@@ -85,6 +85,13 @@
   {
    "chain": "Solana",
    "fails": [
+    "no DEX candles"
+   ],
+   "symbol": "PUMP"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
     "liquidity under $250k",
     "pool younger than 7 days"
    ],
@@ -96,6 +103,14 @@
     "no DEX candles"
    ],
    "symbol": "CATE"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "liquidity under $250k",
+    "pool younger than 7 days"
+   ],
+   "symbol": "HYPERCHAN"
   },
   {
    "chain": "Solana",
@@ -122,16 +137,10 @@
   {
    "chain": "Solana",
    "fails": [
-    "24h volume under $250k"
+    "liquidity under $250k",
+    "pool younger than 7 days"
    ],
-   "symbol": "JEANPHIL"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "liquidity under $250k"
-   ],
-   "symbol": "GATO"
+   "symbol": "OREN"
   },
   {
    "chain": "Base",
@@ -195,20 +204,6 @@
    "fails": [
     "liquidity under $250k"
    ],
-   "symbol": "WORTH"
-  },
-  {
-   "chain": "Base",
-   "fails": [
-    "liquidity under $250k"
-   ],
-   "symbol": "LMTS"
-  },
-  {
-   "chain": "Base",
-   "fails": [
-    "liquidity under $250k"
-   ],
    "symbol": "ZRO"
   },
   {
@@ -222,9 +217,16 @@
   {
    "chain": "Base",
    "fails": [
-    "no DEX candles"
+    "liquidity under $250k"
    ],
-   "symbol": "GOOGLC"
+   "symbol": "WORTH"
+  },
+  {
+   "chain": "Base",
+   "fails": [
+    "liquidity under $250k"
+   ],
+   "symbol": "LMTS"
   },
   {
    "chain": "Base",
@@ -236,9 +238,9 @@
   {
    "chain": "Base",
    "fails": [
-    "24h volume under $250k"
+    "no DEX candles"
    ],
-   "symbol": "BNKR"
+   "symbol": "GOOGLC"
   },
   {
    "chain": "Base",
@@ -250,9 +252,9 @@
   {
    "chain": "Base",
    "fails": [
-    "no DEX candles"
+    "24h volume under $250k"
    ],
-   "symbol": "AERO"
+   "symbol": "BNKR"
   },
   {
    "chain": "BSC",
@@ -291,55 +293,55 @@
   }
  ],
  "rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
- "updated": 1793353224,
+ "updated": 1793356825,
  "watchlist": [
   {
-   "age_d": 472.7,
-   "atr": 0.00011657260237786663,
-   "bar_ts": 1793347200000,
-   "chain": "Solana",
-   "chg24h": -5.174,
-   "chg7d": -12.6,
-   "close": 0.00406780239204708,
-   "ema20": 0.004135447290788221,
-   "ema50": 0.004221399738809416,
+   "age_d": 148.8,
+   "atr": 0.00043747698254155036,
+   "bar_ts": 1793350800000,
+   "chain": "BSC",
+   "chg24h": 10.478,
+   "chg7d": 45.6,
+   "close": 0.0059710882303417,
+   "ema20": 0.006004263648272332,
+   "ema50": 0.006363113386811803,
    "fails": [],
-   "gecko_id": "pump-fun",
-   "liq": 22545193,
-   "mcap": 1861236698.76309,
-   "name": "Pump",
-   "net": "solana",
-   "pool": "2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd",
-   "price": 0.004043480172400667,
-   "rsi": 43.2,
+   "gecko_id": "janction",
+   "liq": 901944,
+   "mcap": 65229912.1044934,
+   "name": "JANCTION",
+   "net": "bsc",
+   "pool": "0x7bb2f6dab157e444ad8717b0178035c1b1cf24958b37c2a205e61a3582283249",
+   "price": 0.00567629434544945,
+   "rsi": 47.0,
    "safety": "ok",
    "safety_notes": [],
-   "symbol": "PUMP",
-   "token": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+   "symbol": "JCT",
+   "token": "0xea37a8de1de2d9d10772eeb569e28bfa5cb17707",
    "trend_up": false,
    "trigger": false,
-   "url": "https://www.geckoterminal.com/solana/pools/2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd",
-   "vol24h": 7956648
+   "url": "https://www.geckoterminal.com/bsc/pools/0x7bb2f6dab157e444ad8717b0178035c1b1cf24958b37c2a205e61a3582283249",
+   "vol24h": 10513847
   },
   {
    "age_d": 1760.0,
-   "atr": 1.7901183455239836e-07,
-   "bar_ts": 1793347200000,
+   "atr": 1.6770993430446664e-07,
+   "bar_ts": 1793350800000,
    "chain": "Ethereum",
-   "chg24h": -4.205,
-   "chg7d": -6.0,
-   "close": 4.68511418068574e-06,
-   "ema20": 4.718251942868774e-06,
-   "ema50": 4.800187660668256e-06,
+   "chg24h": -3.975,
+   "chg7d": -7.1,
+   "close": 4.66432893935859e-06,
+   "ema20": 4.713116418688767e-06,
+   "ema50": 4.794850129963944e-06,
    "fails": [],
    "gecko_id": "shiba-inu",
-   "liq": 2559802,
-   "mcap": 2760648517.00539,
+   "liq": 2580822,
+   "mcap": 2767277777.96686,
    "name": "SHIBA INU",
    "net": "eth",
    "pool": "0xcf6daab95c476106eca715d48de4b13287ffdeaa",
-   "price": 4.68511418068574e-06,
-   "rsi": 46.4,
+   "price": 4.69636474178865e-06,
+   "rsi": 45.3,
    "safety": "ok",
    "safety_notes": [],
    "symbol": "SHIB",
@@ -347,7 +349,7 @@
    "trend_up": false,
    "trigger": false,
    "url": "https://www.geckoterminal.com/eth/pools/0xcf6daab95c476106eca715d48de4b13287ffdeaa",
-   "vol24h": 5493580
+   "vol24h": 5495654
   }
  ]
 }
