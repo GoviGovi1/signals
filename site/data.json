@@ -35,14 +35,59 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.041262,
-   "last_ts": "2026-10-31T19:56:19+00:00",
-   "move_pct": 1.55,
+   "last": 0.041233,
+   "last_ts": "2026-10-31T20:00:29+00:00",
+   "move_pct": 1.48,
    "closed": false,
    "rsi": 64.4,
    "trade_on": "Spot",
    "market_reason": "thin perp market: spot is safer",
    "chart": "charts/NIGHT-SPOT-1793462400.png",
+   "setup": "BREAKOUT20"
+  },
+  {
+   "id": "BASED-PERP-1793473200",
+   "kind": "TA",
+   "score": 1,
+   "reasons": [
+    "Chart: Broke the 20-hour low on 0.4x volume",
+    "Timeframes: 1d down, 4h down, 4h structure mixed",
+    "Next support 0.04835 (2.1R away, 4h swing/swing)",
+    "Stop 0.05328 (2 ATR); targets at the next 3 level(s)",
+    "BTC 4h trend down",
+    "Stronger than BTC by 5.2% over 7d",
+    "OI +3% 24h",
+    "Sector: Decentralized Perpetuals -5.5% 7d (lagging, #17 of 20)",
+    "Track record: +1.5R on BASED in the last 45 days (backtest)"
+   ],
+   "coin": "BASED",
+   "market": "PERP",
+   "side": "SHORT",
+   "entry": 0.0517,
+   "sl0": 0.053279901547649305,
+   "sl": 0.053279901547649305,
+   "tps": [
+    0.0484684926160737,
+    0.0471441176160737,
+    0.0442734926160737
+   ],
+   "lev": 1,
+   "funding_pct": -0.0027,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-10-31T20:00:00+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.05174,
+   "last_ts": "2026-10-31T20:00:29+00:00",
+   "move_pct": -0.08,
+   "closed": false,
+   "rsi": 41.1,
+   "trade_on": "Perps 1x",
+   "market_reason": "shorts need perps; thin perp market, so 1x",
+   "chart": "charts/BASED-PERP-1793473200.png",
    "setup": "BREAKOUT20"
   }
  ],
@@ -3362,7 +3407,7 @@
     "total_pct": -5.43
    }
   },
-  "open": 1
+  "open": 2
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7277,6 +7322,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "e73cf960202b10ad2377b809bfbe06e94f7ee5852526d2209c1a74d7d4c29d80",
- "generated": "2026-10-31T19:56:21+00:00"
+ "digest": "063a00fc67a9b1ab37d3331fbe33f18ee5a0934fe616162da38f1ba245cbbf11",
+ "generated": "2026-10-31T20:01:05+00:00"
 }
