@@ -27,7 +27,7 @@
     0.07310544323776039
    ],
    "lev": 1,
-   "funding_pct": 0.0084,
+   "funding_pct": 0.0089,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-30T08:00:00+00:00",
@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.07929,
-   "last_ts": "2026-10-31T09:15:22+00:00",
-   "move_pct": -0.34,
+   "last": 0.07931,
+   "last_ts": "2026-10-31T09:20:28+00:00",
+   "move_pct": -0.37,
    "closed": false,
    "rsi": 33.2,
    "trade_on": "Perps 1x",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0861844368975337,
-   "last_ts": "2026-10-31T09:15:22+00:00",
-   "move_pct": 1.46,
+   "last": 0.0862204646125409,
+   "last_ts": "2026-10-31T09:20:28+00:00",
+   "move_pct": 1.5,
    "closed": false,
    "rsi": 64.5,
    "trade_on": "On-chain spot (BSC DEX)",
@@ -6841,28 +6841,6 @@
     ]
    },
    {
-    "id": "layer-2",
-    "name": "Layer 2",
-    "chg7d": -5.16,
-    "top": [
-     "OKB",
-     "MNT",
-     "ARB",
-     "POL",
-     "STX"
-    ],
-    "tracked": [
-     "ARB",
-     "OKB",
-     "STRK",
-     "OP",
-     "POL",
-     "MAGIC",
-     "MERL",
-     "STX"
-    ]
-   },
-   {
     "id": "exchange-based-tokens",
     "name": "Exchange Based Tokens",
     "chg7d": -5.24,
@@ -7044,6 +7022,28 @@
     ],
     "tracked": [
      "ZEC"
+    ]
+   },
+   {
+    "id": "layer-2",
+    "name": "Layer 2",
+    "chg7d": -7.22,
+    "top": [
+     "OKB",
+     "MNT",
+     "ARB",
+     "POL",
+     "STX"
+    ],
+    "tracked": [
+     "ARB",
+     "OKB",
+     "STRK",
+     "OP",
+     "POL",
+     "MAGIC",
+     "MERL",
+     "STX"
     ]
    },
    {
@@ -7360,7 +7360,7 @@
   "updated": {
    "unlocks": 1793419533,
    "onchain": 1793436924,
-   "sectors": 1793437521,
+   "sectors": 1793438427,
    "listings": 1793436924,
    "fundamentals": 1793419533
   }
@@ -7399,6 +7399,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "3a1b3cb0f648d7e538844506ba254e23389ab536e8ea1e2ee64d871a038c61e4",
- "generated": "2026-10-31T09:15:26+00:00"
+ "digest": "a7aa59f682f9ee58b037ae3d3a196965a8afb4188fad569b81b3bcf86c968205",
+ "generated": "2026-10-31T09:20:32+00:00"
 }
