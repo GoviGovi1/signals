@@ -6609,44 +6609,44 @@
   "onchain": [
    {
     "chain": "BSC",
-    "symbol": "ON",
-    "name": "Orochi Network Token",
-    "token": "0x0e4f6209ed984b21edea43ace6e09559ed051d48",
-    "price": 0.193958624440224,
-    "liq": 817680,
-    "vol24h": 3823551,
-    "age_d": 374.0,
-    "chg24h": -11.461,
-    "chg7d": 50.3,
-    "mcap": 27827234.559455,
+    "symbol": "XPIN",
+    "name": "XPIN Token",
+    "token": "0xd955c9ba56fb1ab30e34766e252a97ccce3d31a6",
+    "price": 0.000799253292406275,
+    "liq": 614508,
+    "vol24h": 1678730,
+    "age_d": 437.3,
+    "chg24h": 4.059,
+    "chg7d": 14.0,
+    "mcap": 34724393.8414313,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": true,
-    "rsi": 47.3,
-    "url": "https://www.geckoterminal.com/bsc/pools/0x4620f5c127a6055fbebb1f71327d60ff079c9060"
+    "rsi": 50.6,
+    "url": "https://www.geckoterminal.com/bsc/pools/0x08debfc510a2eb0148107da7ab8e96531323f4d4"
    },
    {
     "chain": "Arbitrum",
-    "symbol": "SUSDAI",
-    "name": "Staked USDai",
-    "token": "0x0b2b2b2076d95dda7817e785989fe353fe955ef9",
-    "price": 1.11790809498656,
-    "liq": 5259147,
-    "vol24h": 1822449,
-    "age_d": 259.8,
-    "chg24h": 0.054,
-    "chg7d": 0.3,
-    "mcap": 384158438.052446,
+    "symbol": "ARB",
+    "name": "Arbitrum",
+    "token": "0x912ce59144191c1204e64559fe8253a0e49e6548",
+    "price": 0.164557573970835,
+    "liq": 1830984,
+    "vol24h": 3433045,
+    "age_d": 1324.6,
+    "chg24h": 1.754,
+    "chg7d": -2.4,
+    "mcap": 1134149729.23029,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
-    "trend_up": true,
-    "rsi": 50.2,
-    "url": "https://www.geckoterminal.com/arbitrum/pools/0xe8c831687ce8c9d015eb10b430d1a54faa0cb4ed"
+    "trend_up": false,
+    "rsi": 54.1,
+    "url": "https://www.geckoterminal.com/arbitrum/pools/0xc6f780497a95e246eb9449f5e4770916dcd6396a"
    }
   ],
-  "onchain_checked": 83,
+  "onchain_checked": 84,
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
@@ -7232,7 +7232,7 @@
   ],
   "updated": {
    "unlocks": 1793441422,
-   "onchain": 1793458520,
+   "onchain": 1793462117,
    "sectors": 1793461824,
    "listings": 1793460025,
    "fundamentals": 1793441422
@@ -7272,6 +7272,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "363eed1218f79aefd3948a43961f39292c003a95399d83d72f57dd448176ef4c",
- "generated": "2026-10-31T15:50:26+00:00"
+ "digest": "472b87e2460b6cdd60a88c0789d28cd6837059ca5346fe80e83b058e0444077e",
+ "generated": "2026-10-31T15:56:19+00:00"
 }
