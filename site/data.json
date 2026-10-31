@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.131,
-   "last_ts": "2026-10-31T04:30:25+00:00",
-   "move_pct": 4.87,
+   "last": 0.1306,
+   "last_ts": "2026-10-31T04:35:20+00:00",
+   "move_pct": 5.16,
    "closed": false,
    "rsi": 36.7,
    "trade_on": "Perps 1x",
@@ -82,9 +82,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 89.04,
-   "last_ts": "2026-10-31T04:30:25+00:00",
-   "move_pct": -3.0,
+   "last": 88.858,
+   "last_ts": "2026-10-31T04:35:20+00:00",
+   "move_pct": -3.2,
    "closed": false,
    "rsi": 61.1,
    "trade_on": "Spot",
@@ -127,55 +127,15 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.07943,
-   "last_ts": "2026-10-31T04:30:25+00:00",
-   "move_pct": -0.52,
+   "last": 0.07916,
+   "last_ts": "2026-10-31T04:35:20+00:00",
+   "move_pct": -0.18,
    "closed": false,
    "rsi": 33.2,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": "charts/1INCH-PERP-1793343600.png",
    "setup": "RETEST"
-  },
-  {
-   "id": "OP-SPOT-HOT-20757",
-   "kind": "HOT",
-   "score": 356.39,
-   "reasons": [
-    "24h hot mover +20% with volume spike (2.6x the prior 3 days)",
-    "24h volume $5.1M on the OKX spot book, listed 1613 days",
-    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
-    "Stop 0.1157 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
-   ],
-   "coin": "OP",
-   "market": "SPOT",
-   "side": "LONG",
-   "entry": 0.12141,
-   "sl0": 0.11569974506428118,
-   "sl": 0.11569974506428118,
-   "tps": [
-    0.12712025493571882,
-    0.13283050987143766,
-    0.13854076480715646
-   ],
-   "lev": null,
-   "funding_pct": null,
-   "status": "open",
-   "hits": 0,
-   "opened": "2026-10-31T00:05:22+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.11638,
-   "last_ts": "2026-10-31T04:30:25+00:00",
-   "move_pct": -4.14,
-   "closed": false,
-   "rsi": null,
-   "trade_on": "Spot",
-   "market_reason": "trend not strong enough for leverage: spot has no liquidation or funding",
-   "chart": "charts/OP-SPOT-HOT-20757.png",
-   "setup": "HOT24"
   },
   {
    "id": "LSK-SPOT-HOT-20757",
@@ -207,9 +167,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.22422,
-   "last_ts": "2026-10-31T04:30:25+00:00",
-   "move_pct": -4.51,
+   "last": 0.22509,
+   "last_ts": "2026-10-31T04:35:20+00:00",
+   "move_pct": -4.14,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -251,9 +211,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0853449792645617,
-   "last_ts": "2026-10-31T04:30:25+00:00",
-   "move_pct": 0.47,
+   "last": 0.0849393394972102,
+   "last_ts": "2026-10-31T04:35:20+00:00",
+   "move_pct": -0.01,
    "closed": false,
    "rsi": 64.5,
    "trade_on": "On-chain spot (BSC DEX)",
@@ -295,9 +255,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1902,
-   "last_ts": "2026-10-31T04:30:25+00:00",
-   "move_pct": -0.78,
+   "last": 0.1898,
+   "last_ts": "2026-10-31T04:35:20+00:00",
+   "move_pct": -0.99,
    "closed": false,
    "rsi": 75.6,
    "trade_on": "Spot",
@@ -307,6 +267,46 @@
   }
  ],
  "closed": [
+  {
+   "id": "OP-SPOT-HOT-20757",
+   "kind": "HOT",
+   "score": 356.39,
+   "reasons": [
+    "24h hot mover +20% with volume spike (2.6x the prior 3 days)",
+    "24h volume $5.1M on the OKX spot book, listed 1613 days",
+    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
+    "Stop 0.1157 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
+   ],
+   "coin": "OP",
+   "market": "SPOT",
+   "side": "LONG",
+   "entry": 0.12141,
+   "sl0": 0.11569974506428118,
+   "sl": 0.11569974506428118,
+   "tps": [
+    0.12712025493571882,
+    0.13283050987143766,
+    0.13854076480715646
+   ],
+   "lev": null,
+   "funding_pct": null,
+   "status": "stopped",
+   "hits": 0,
+   "opened": "2026-10-31T00:05:22+00:00",
+   "closed_at": "2026-10-31T04:35:20+00:00",
+   "exit_price": 0.11569974506428118,
+   "result_r": -1.0,
+   "result_pct": -4.7,
+   "last": 0.11566,
+   "last_ts": "2026-10-31T04:35:20+00:00",
+   "move_pct": -4.14,
+   "closed": true,
+   "rsi": null,
+   "trade_on": "Spot",
+   "market_reason": "trend not strong enough for leverage: spot has no liquidation or funding",
+   "chart": "charts/OP-SPOT-HOT-20757.png",
+   "setup": "HOT24"
+  },
   {
    "id": "WOO-PERP-HOT-20757",
    "kind": "HOT",
@@ -2047,7 +2047,7 @@
    "rsi": null,
    "trade_on": "Perps 1x",
    "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
-   "chart": "charts/BEAT-PERP-HOT-20753.png",
+   "chart": null,
    "setup": "HOT24"
   },
   {
@@ -2863,66 +2863,26 @@
    "market_reason": "only spot is listed",
    "chart": null,
    "setup": "HOT24"
-  },
-  {
-   "id": "LIGHT-PERP-HOT-20750",
-   "kind": "HOT",
-   "score": 946.52,
-   "reasons": [
-    "24h hot mover +21% with volume spike (20x+ the prior 3 days)",
-    "24h volume $23.2M on the OKX perp book, listed 312 days",
-    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
-    "Stop 0.23795 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
-   ],
-   "coin": "LIGHT",
-   "market": "PERP",
-   "side": "LONG",
-   "entry": 0.2704,
-   "sl0": 0.23795199999999997,
-   "sl": 0.2704,
-   "tps": [
-    0.30284799999999995,
-    0.335296,
-    0.36774399999999996
-   ],
-   "lev": 1,
-   "funding_pct": 0.005,
-   "status": "stopped_be",
-   "hits": 1,
-   "opened": "2026-10-24T16:33:19+00:00",
-   "closed_at": "2026-10-25T02:45:23+00:00",
-   "exit_price": 0.2704,
-   "result_r": 0.25,
-   "result_pct": 3.0,
-   "last": 0.2717,
-   "last_ts": "2026-10-25T02:45:23+00:00",
-   "move_pct": 9.43,
-   "closed": true,
-   "rsi": null,
-   "trade_on": "Perps 1x",
-   "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
-   "chart": null,
-   "setup": "HOT24"
   }
  ],
  "stats": {
   "all": {
-   "trades": 81,
+   "trades": 82,
    "wins": 33,
-   "losses": 48,
-   "win_rate": 40.7,
-   "total_r": -1.91,
-   "avg_r": -0.024,
-   "total_pct": -6.85
+   "losses": 49,
+   "win_rate": 40.2,
+   "total_r": -2.91,
+   "avg_r": -0.036,
+   "total_pct": -11.55
   },
   "SPOT": {
-   "trades": 30,
+   "trades": 31,
    "wins": 13,
-   "losses": 17,
-   "win_rate": 43.3,
-   "total_r": 1.53,
-   "avg_r": 0.051,
-   "total_pct": 19.37
+   "losses": 18,
+   "win_rate": 41.9,
+   "total_r": 0.53,
+   "avg_r": 0.017,
+   "total_pct": 14.67
   },
   "PERP": {
    "trades": 48,
@@ -2944,13 +2904,13 @@
   },
   "kinds": {
    "HOT": {
-    "trades": 21,
+    "trades": 22,
     "wins": 10,
-    "losses": 11,
-    "win_rate": 47.6,
-    "total_r": -1.5,
-    "avg_r": -0.071,
-    "total_pct": -21.81
+    "losses": 12,
+    "win_rate": 45.5,
+    "total_r": -2.5,
+    "avg_r": -0.114,
+    "total_pct": -26.51
    },
    "ONCHAIN": {
     "trades": 3,
@@ -3368,6 +3328,15 @@
     "avg_r": 0.25,
     "total_pct": 1.66
    },
+   "OP": {
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate": 0.0,
+    "total_r": -1.0,
+    "avg_r": -1.0,
+    "total_pct": -4.7
+   },
    "ORDER": {
     "trades": 1,
     "wins": 0,
@@ -3576,7 +3545,7 @@
     "total_pct": -5.43
    }
   },
-  "open": 7
+  "open": 6
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7030,6 +6999,28 @@
     ]
    },
    {
+    "id": "meme-token",
+    "name": "Meme Token",
+    "chg7d": -4.91,
+    "top": [
+     "DOGE",
+     "SHIB",
+     "M",
+     "PEPE",
+     "PUMP"
+    ],
+    "tracked": [
+     "DOGE",
+     "PEPE",
+     "PUMP",
+     "TRUMP",
+     "PENGU",
+     "SHIB",
+     "USELESS",
+     "WIF"
+    ]
+   },
+   {
     "id": "layer-2",
     "name": "Layer 2",
     "chg7d": -5.16,
@@ -7093,28 +7084,6 @@
      "GRVT",
      "DYDX",
      "ORDER"
-    ]
-   },
-   {
-    "id": "meme-token",
-    "name": "Meme Token",
-    "chg7d": -5.51,
-    "top": [
-     "DOGE",
-     "SHIB",
-     "M",
-     "PEPE",
-     "PUMP"
-    ],
-    "tracked": [
-     "DOGE",
-     "PEPE",
-     "PUMP",
-     "TRUMP",
-     "PENGU",
-     "SHIB",
-     "USELESS",
-     "WIF"
     ]
    },
    {
@@ -7529,7 +7498,7 @@
   "updated": {
    "unlocks": 1793419533,
    "onchain": 1793418920,
-   "sectors": 1793420423,
+   "sectors": 1793421320,
    "listings": 1793418025,
    "fundamentals": 1793419533
   }
@@ -7568,6 +7537,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "76986f5bb65b8ec954a06bf77cede701b2c106b11418c2be4983c946525c4009",
- "generated": "2026-10-31T04:30:30+00:00"
+ "digest": "3fe358b194442e042795f76ad2107c3b2477e9258aabf750e6055134cacba03b",
+ "generated": "2026-10-31T04:35:26+00:00"
 }
