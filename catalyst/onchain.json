@@ -1,5 +1,5 @@
 {
- "checked": 85,
+ "checked": 84,
  "errors": [],
  "rejected": [
   {
@@ -22,7 +22,7 @@
     "liquidity under $250k",
     "pool younger than 7 days"
    ],
-   "symbol": "HI"
+   "symbol": "ICOIN"
   },
   {
    "chain": "Solana",
@@ -30,7 +30,7 @@
     "liquidity under $250k",
     "pool younger than 7 days"
    ],
-   "symbol": "ICOIN"
+   "symbol": "LEVERHEDGE"
   },
   {
    "chain": "Solana",
@@ -44,6 +44,21 @@
    "chain": "Solana",
    "fails": [
     "liquidity under $250k",
+    "pool younger than 7 days"
+   ],
+   "symbol": "VAMPCAT"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "pool younger than 7 days"
+   ],
+   "symbol": "DESSA"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "liquidity under $250k",
     "pool younger than 7 days",
     "24h volume under $250k"
    ],
@@ -52,17 +67,17 @@
   {
    "chain": "Solana",
    "fails": [
-    "liquidity under $250k",
-    "pool younger than 7 days"
+    "no DEX candles"
    ],
-   "symbol": "VAMPCAT"
+   "symbol": "PUMP"
   },
   {
    "chain": "Solana",
    "fails": [
-    "no DEX candles"
+    "liquidity under $250k",
+    "pool younger than 7 days"
    ],
-   "symbol": "PUMP"
+   "symbol": "HI"
   },
   {
    "chain": "Solana",
@@ -81,17 +96,9 @@
   {
    "chain": "Solana",
    "fails": [
-    "liquidity under $250k",
-    "24h volume under $250k"
+    "liquidity under $250k"
    ],
-   "symbol": "TYGR"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "pool younger than 7 days"
-   ],
-   "symbol": "DESSA"
+   "symbol": "FOCO"
   },
   {
    "chain": "Solana",
@@ -122,22 +129,7 @@
     "liquidity under $250k",
     "24h volume under $250k"
    ],
-   "symbol": "THREE"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "liquidity under $250k",
-    "24h volume under $250k"
-   ],
    "symbol": "SWORDCAT"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "liquidity under $250k"
-   ],
-   "symbol": "SATURWEEN"
   },
   {
    "chain": "Solana",
@@ -145,6 +137,14 @@
     "no DEX candles"
    ],
    "symbol": "GATO"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "liquidity under $250k",
+    "24h volume under $250k"
+   ],
+   "symbol": "THREE"
   },
   {
    "chain": "Base",
@@ -164,6 +164,13 @@
   {
    "chain": "Base",
    "fails": [
+    "no DEX candles"
+   ],
+   "symbol": "XDP"
+  },
+  {
+   "chain": "Base",
+   "fails": [
     "24h volume under $250k"
    ],
    "symbol": "TIBBIR"
@@ -171,9 +178,9 @@
   {
    "chain": "Base",
    "fails": [
-    "no DEX candles"
+    "24h volume under $250k"
    ],
-   "symbol": "XDP"
+   "symbol": "BNKR"
   },
   {
    "chain": "Base",
@@ -187,14 +194,14 @@
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "TRUE"
+   "symbol": "AERO"
   },
   {
    "chain": "Base",
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "AERO"
+   "symbol": "TRUE"
   },
   {
    "chain": "Base",
@@ -206,24 +213,24 @@
   {
    "chain": "Base",
    "fails": [
+    "no DEX candles"
+   ],
+   "symbol": "VVV"
+  },
+  {
+   "chain": "Base",
+   "fails": [
+    "pool younger than 7 days"
+   ],
+   "symbol": "ANTHROPIC"
+  },
+  {
+   "chain": "Base",
+   "fails": [
     "liquidity under $250k",
     "24h volume under $250k"
    ],
    "symbol": "FLOWER"
-  },
-  {
-   "chain": "Base",
-   "fails": [
-    "24h volume under $250k"
-   ],
-   "symbol": "BNKR"
-  },
-  {
-   "chain": "Base",
-   "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "VVV"
   },
   {
    "chain": "Base",
@@ -243,24 +250,17 @@
   {
    "chain": "Base",
    "fails": [
+    "no DEX candles"
+   ],
+   "symbol": "GOOGLC"
+  },
+  {
+   "chain": "Base",
+   "fails": [
     "liquidity under $250k",
     "24h volume under $250k"
    ],
-   "symbol": "WORTH"
-  },
-  {
-   "chain": "Base",
-   "fails": [
-    "liquidity under $250k"
-   ],
    "symbol": "LMTS"
-  },
-  {
-   "chain": "Base",
-   "fails": [
-    "24h volume under $250k"
-   ],
-   "symbol": "REPPO"
   },
   {
    "chain": "Base",
@@ -272,9 +272,9 @@
   {
    "chain": "Base",
    "fails": [
-    "no DEX candles"
+    "24h volume under $250k"
    ],
-   "symbol": "GOOGLC"
+   "symbol": "REPPO"
   },
   {
    "chain": "BSC",
@@ -299,6 +299,65 @@
   }
  ],
  "rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
- "updated": 1793472839,
- "watchlist": []
+ "updated": 1793476518,
+ "watchlist": [
+  {
+   "age_d": 401.7,
+   "atr": 0.0005621771862150318,
+   "bar_ts": 1793469600000,
+   "chain": "BSC",
+   "chg24h": 15.115,
+   "chg7d": 27.8,
+   "close": 0.0157392971614844,
+   "ema20": 0.01528328503989686,
+   "ema50": 0.014682268788394725,
+   "fails": [],
+   "gecko_id": "hana-network",
+   "liq": 987089,
+   "mcap": 3719739.4008,
+   "name": "Hana Token",
+   "net": "bsc",
+   "pool": "0xd21bc2291c1aef340f5265e257b18aa5dafed759",
+   "price": 0.0154989141679998,
+   "rsi": 58.9,
+   "safety": "unknown",
+   "safety_notes": [
+    "safety not checked"
+   ],
+   "symbol": "HANA",
+   "token": "0x6261963ebe9ff014aad10ecc3b0238d4d04e8353",
+   "trend_up": true,
+   "trigger": false,
+   "url": "https://www.geckoterminal.com/bsc/pools/0xd21bc2291c1aef340f5265e257b18aa5dafed759",
+   "vol24h": 3101510
+  },
+  {
+   "age_d": 942.4,
+   "atr": 0.0035581484976547383,
+   "bar_ts": 1793469600000,
+   "chain": "Ethereum",
+   "chg24h": 0.976,
+   "chg7d": 1.5,
+   "close": 0.190681357374528,
+   "ema20": 0.19124328835827906,
+   "ema50": 0.19201751099690376,
+   "fails": [],
+   "gecko_id": "ethena",
+   "liq": 3066586,
+   "mcap": 2534063675.44688,
+   "name": "ENA",
+   "net": "eth",
+   "pool": "0xc3db44adc1fcdfd5671f555236eae49f4a8eea18",
+   "price": 0.189021066708608,
+   "rsi": 49.0,
+   "safety": "ok",
+   "safety_notes": [],
+   "symbol": "ENA",
+   "token": "0x57e114b691db790c35207b2e685d4a43181e6061",
+   "trend_up": false,
+   "trigger": false,
+   "url": "https://www.geckoterminal.com/eth/pools/0xc3db44adc1fcdfd5671f555236eae49f4a8eea18",
+   "vol24h": 1481273
+  }
+ ]
 }
