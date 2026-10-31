@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.08045,
-   "last_ts": "2026-10-31T13:00:30+00:00",
-   "move_pct": -1.81,
+   "last": 0.08052,
+   "last_ts": "2026-10-31T13:05:21+00:00",
+   "move_pct": -1.9,
    "closed": false,
    "rsi": 33.2,
    "trade_on": "Perps 1x",
@@ -6754,6 +6754,26 @@
     ]
    },
    {
+    "id": "lending-borrowing",
+    "name": "Lending Borrowing",
+    "chg7d": -4.75,
+    "top": [
+     "AAVE",
+     "MORPHO",
+     "OHM",
+     "COMP",
+     "KMNO"
+    ],
+    "tracked": [
+     "AAVE",
+     "CAP",
+     "SPK",
+     "MORPHO",
+     "COMP",
+     "KMNO"
+    ]
+   },
+   {
     "id": "decentralized-finance-defi",
     "name": "Decentralized Finance DeFi",
     "chg7d": -4.98,
@@ -6795,26 +6815,6 @@
      "CRV",
      "ASTER",
      "PENDLE"
-    ]
-   },
-   {
-    "id": "lending-borrowing",
-    "name": "Lending Borrowing",
-    "chg7d": -5.24,
-    "top": [
-     "AAVE",
-     "MORPHO",
-     "OHM",
-     "COMP",
-     "KMNO"
-    ],
-    "tracked": [
-     "AAVE",
-     "CAP",
-     "SPK",
-     "MORPHO",
-     "COMP",
-     "KMNO"
     ]
    },
    {
@@ -7293,7 +7293,7 @@
   "updated": {
    "unlocks": 1793441422,
    "onchain": 1793451319,
-   "sectors": 1793451024,
+   "sectors": 1793451921,
    "listings": 1793448333,
    "fundamentals": 1793441422
   }
@@ -7332,6 +7332,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "486b92a05d7fe6c529ceb06997ea1df3831f2ef133d5d640f5b03d595158abef",
- "generated": "2026-10-31T13:01:04+00:00"
+ "digest": "10a0ba4be16bbc82c5733643187cd3b98a3eb95dd990c95fd3f1d0be3f70a99c",
+ "generated": "2026-10-31T13:05:23+00:00"
 }
