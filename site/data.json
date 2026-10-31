@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0798,
-   "last_ts": "2026-10-31T11:45:23+00:00",
-   "move_pct": -0.99,
+   "last": 0.07971,
+   "last_ts": "2026-10-31T11:50:24+00:00",
+   "move_pct": -0.87,
    "closed": false,
    "rsi": 33.2,
    "trade_on": "Perps 1x",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0811774096253097,
-   "last_ts": "2026-10-31T11:45:23+00:00",
-   "move_pct": -4.44,
+   "last": 0.0810984760530457,
+   "last_ts": "2026-10-31T11:50:24+00:00",
+   "move_pct": -4.53,
    "closed": false,
    "rsi": 64.5,
    "trade_on": "On-chain spot (BSC DEX)",
@@ -6929,6 +6929,26 @@
     ]
    },
    {
+    "id": "oracle",
+    "name": "Oracle",
+    "chg7d": -6.34,
+    "top": [
+     "LINK",
+     "PYTH",
+     "RED",
+     "WIN",
+     "TRB"
+    ],
+    "tracked": [
+     "LINK",
+     "PYTH",
+     "TRB",
+     "API3",
+     "ZKP",
+     "PHA"
+    ]
+   },
+   {
     "id": "gaming",
     "name": "Gaming",
     "chg7d": -6.36,
@@ -7002,26 +7022,6 @@
      "FIL",
      "AR",
      "WAL"
-    ]
-   },
-   {
-    "id": "oracle",
-    "name": "Oracle",
-    "chg7d": -6.86,
-    "top": [
-     "LINK",
-     "PYTH",
-     "RED",
-     "WIN",
-     "TRB"
-    ],
-    "tracked": [
-     "LINK",
-     "PYTH",
-     "TRB",
-     "API3",
-     "ZKP",
-     "PHA"
     ]
    },
    {
@@ -7338,7 +7338,7 @@
   "updated": {
    "unlocks": 1793441422,
    "onchain": 1793444122,
-   "sectors": 1793446520,
+   "sectors": 1793447424,
    "listings": 1793444434,
    "fundamentals": 1793441422
   }
@@ -7377,6 +7377,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "5e8e8a135fedcbbaca40e1495326a87be3bb37af093e1940e48a597ab9bf8f75",
- "generated": "2026-10-31T11:45:27+00:00"
+ "digest": "52e7832b11a910c8ef2db0d28344731a32355b749410377aca24ab4bedeb63ba",
+ "generated": "2026-10-31T11:50:28+00:00"
 }
