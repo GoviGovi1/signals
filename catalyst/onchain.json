@@ -1,5 +1,5 @@
 {
- "checked": 82,
+ "checked": 83,
  "errors": [],
  "rejected": [
   {
@@ -45,7 +45,7 @@
     "liquidity under $250k",
     "pool younger than 7 days"
    ],
-   "symbol": "AGENC"
+   "symbol": "LUMI"
   },
   {
    "chain": "Solana",
@@ -53,7 +53,7 @@
     "liquidity under $250k",
     "pool younger than 7 days"
    ],
-   "symbol": "LUMI"
+   "symbol": "AGENC"
   },
   {
    "chain": "Solana",
@@ -94,9 +94,10 @@
   {
    "chain": "Solana",
    "fails": [
-    "liquidity under $250k"
+    "liquidity under $250k",
+    "pool younger than 7 days"
    ],
-   "symbol": "CLAUDIA"
+   "symbol": "VAMPCAT"
   },
   {
    "chain": "Solana",
@@ -109,17 +110,17 @@
    "chain": "Solana",
    "fails": [
     "liquidity under $250k",
-    "pool younger than 7 days"
+    "24h volume under $250k"
    ],
-   "symbol": "JEFF"
+   "symbol": "THREE"
   },
   {
    "chain": "Solana",
    "fails": [
     "liquidity under $250k",
-    "24h volume under $250k"
+    "pool younger than 7 days"
    ],
-   "symbol": "THREE"
+   "symbol": "JEFF"
   },
   {
    "chain": "Solana",
@@ -146,6 +147,7 @@
   {
    "chain": "Base",
    "fails": [
+    "liquidity under $250k",
     "pool younger than 7 days"
    ],
    "symbol": "RSGP"
@@ -170,14 +172,6 @@
     "24h volume under $250k"
    ],
    "symbol": "SURPLUS"
-  },
-  {
-   "chain": "Base",
-   "fails": [
-    "liquidity under $250k",
-    "24h volume under $250k"
-   ],
-   "symbol": "OWB"
   },
   {
    "chain": "Base",
@@ -218,6 +212,21 @@
   {
    "chain": "Base",
    "fails": [
+    "liquidity under $250k",
+    "24h volume under $250k"
+   ],
+   "symbol": "OWB"
+  },
+  {
+   "chain": "Base",
+   "fails": [
+    "24h volume under $250k"
+   ],
+   "symbol": "TRUE"
+  },
+  {
+   "chain": "Base",
+   "fails": [
     "24h volume under $250k"
    ],
    "symbol": "BNKR"
@@ -229,13 +238,6 @@
     "24h volume under $250k"
    ],
    "symbol": "FLOWER"
-  },
-  {
-   "chain": "Base",
-   "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "TRUE"
   },
   {
    "chain": "Base",
@@ -268,20 +270,6 @@
   {
    "chain": "BSC",
    "fails": [
-    "pool younger than 7 days"
-   ],
-   "symbol": "JAGENT"
-  },
-  {
-   "chain": "BSC",
-   "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "IDOL"
-  },
-  {
-   "chain": "BSC",
-   "fails": [
     "no DEX candles"
    ],
    "symbol": "Q"
@@ -289,69 +277,83 @@
   {
    "chain": "BSC",
    "fails": [
+    "pool younger than 7 days"
+   ],
+   "symbol": "JAGENT"
+  },
+  {
+   "chain": "BSC",
+   "fails": [
     "liquidity under $250k"
    ],
    "symbol": "GANG"
+  },
+  {
+   "chain": "BSC",
+   "fails": [
+    "no DEX candles"
+   ],
+   "symbol": "IDOL"
   }
  ],
  "rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
- "updated": 1793454917,
+ "updated": 1793458520,
  "watchlist": [
   {
-   "age_d": 1324.5,
-   "atr": 0.0020188687346978603,
-   "bar_ts": 1793448000000,
-   "chain": "Arbitrum",
-   "chg24h": -0.805,
-   "chg7d": -5.2,
-   "close": 0.161864940592388,
-   "ema20": 0.16182642645441644,
-   "ema50": 0.16292260751369114,
+   "age_d": 374.0,
+   "atr": 0.008950057265131126,
+   "bar_ts": 1793451600000,
+   "chain": "BSC",
+   "chg24h": -11.461,
+   "chg7d": 50.3,
+   "close": 0.194310522487346,
+   "ema20": 0.19700977662146166,
+   "ema50": 0.19301649139738103,
    "fails": [],
-   "gecko_id": "arbitrum",
-   "liq": 1812709,
-   "mcap": 1113880477.24977,
-   "name": "Arbitrum",
-   "net": "arbitrum",
-   "pool": "0xc6f780497a95e246eb9449f5e4770916dcd6396a",
-   "price": 0.161616640495284,
-   "rsi": 49.3,
+   "gecko_id": "orochi-network",
+   "liq": 817680,
+   "mcap": 27827234.559455,
+   "name": "Orochi Network Token",
+   "net": "bsc",
+   "pool": "0x4620f5c127a6055fbebb1f71327d60ff079c9060",
+   "price": 0.193958624440224,
+   "rsi": 47.3,
    "safety": "ok",
    "safety_notes": [],
-   "symbol": "ARB",
-   "token": "0x912ce59144191c1204e64559fe8253a0e49e6548",
-   "trend_up": false,
+   "symbol": "ON",
+   "token": "0x0e4f6209ed984b21edea43ace6e09559ed051d48",
+   "trend_up": true,
    "trigger": false,
-   "url": "https://www.geckoterminal.com/arbitrum/pools/0xc6f780497a95e246eb9449f5e4770916dcd6396a",
-   "vol24h": 3644159
+   "url": "https://www.geckoterminal.com/bsc/pools/0x4620f5c127a6055fbebb1f71327d60ff079c9060",
+   "vol24h": 3823551
   },
   {
-   "age_d": 404.2,
-   "atr": 0.0007077494206050711,
-   "bar_ts": 1793448000000,
-   "chain": "BSC",
-   "chg24h": -21.707,
-   "chg7d": 28.3,
-   "close": 0.0103652626011933,
-   "ema20": 0.010330967329431843,
-   "ema50": 0.01064841195927851,
+   "age_d": 259.8,
+   "atr": 0.002181962244647465,
+   "bar_ts": 1793451600000,
+   "chain": "Arbitrum",
+   "chg24h": 0.054,
+   "chg7d": 0.3,
+   "close": 1.11790809498656,
+   "ema20": 1.1179641468430097,
+   "ema50": 1.1175476040345897,
    "fails": [],
-   "gecko_id": "bless-2",
-   "liq": 255425,
-   "mcap": 19756468.1939092,
-   "name": "Bless Token",
-   "net": "bsc",
-   "pool": "0x49986efbeedea3ab962ca95caf86919860ecc9db",
-   "price": 0.0107686100714095,
-   "rsi": 48.8,
+   "gecko_id": "susdai",
+   "liq": 5259147,
+   "mcap": 384158438.052446,
+   "name": "Staked USDai",
+   "net": "arbitrum",
+   "pool": "0xe8c831687ce8c9d015eb10b430d1a54faa0cb4ed",
+   "price": 1.11790809498656,
+   "rsi": 50.2,
    "safety": "ok",
    "safety_notes": [],
-   "symbol": "BLESS",
-   "token": "0x7c8217517ed4711fe2deccdfeffe8d906b9ae11f",
-   "trend_up": false,
+   "symbol": "SUSDAI",
+   "token": "0x0b2b2b2076d95dda7817e785989fe353fe955ef9",
+   "trend_up": true,
    "trigger": false,
-   "url": "https://www.geckoterminal.com/bsc/pools/0x49986efbeedea3ab962ca95caf86919860ecc9db",
-   "vol24h": 2341850
+   "url": "https://www.geckoterminal.com/arbitrum/pools/0xe8c831687ce8c9d015eb10b430d1a54faa0cb4ed",
+   "vol24h": 1822449
   }
  ]
 }
