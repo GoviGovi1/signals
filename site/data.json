@@ -1,53 +1,6 @@
 {
  "open": [
   {
-   "id": "HYPE-SPOT-1793318400",
-   "kind": "TA",
-   "score": 2,
-   "reasons": [
-    "Chart: Retest of the 88.033 breakout level held (12h after the break)",
-    "News (neutral, CryptoSlate, 5h ago): NYSE owner takes Trade[XYZ] stake as it plans US Hyperliquid futures https://cryptoslate.com/nyse-owner-takes-tradexyz-stake-as-it-plans-us-hyperliquid-futures/",
-    "Timeframes: 1d up, 4h flat, 4h structure lower highs/lows",
-    "No resistance overhead in the last 50 days",
-    "Stop 87.233 (2 ATR); targets at 1R/2R/3R",
-    "BTC 4h trend down",
-    "Stronger than BTC by 23.1% over 7d",
-    "OI +26% 24h with breakout",
-    "DEX volume -24% 7d",
-    "Sector: Exchange Based Tokens -2.4% 7d (leading, #3 of 20)",
-    "Track record: +0.1R on HYPE in the last 45 days (backtest)"
-   ],
-   "coin": "HYPE",
-   "market": "SPOT",
-   "side": "LONG",
-   "entry": 91.791,
-   "sl0": 87.28733199214321,
-   "sl": 87.28733199214321,
-   "tps": [
-    96.29466800785677,
-    100.79833601571356,
-    105.30200402357033
-   ],
-   "lev": null,
-   "funding_pct": null,
-   "status": "open",
-   "hits": 0,
-   "opened": "2026-10-30T01:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 87.466,
-   "last_ts": "2026-10-31T08:15:36+00:00",
-   "move_pct": -4.71,
-   "closed": false,
-   "rsi": 61.1,
-   "trade_on": "Spot",
-   "market_reason": "trend not strong enough for leverage: spot has no liquidation or funding",
-   "chart": "charts/HYPE-SPOT-1793318400.png",
-   "setup": "RETEST"
-  },
-  {
    "id": "1INCH-PERP-1793343600",
    "kind": "TA",
    "score": 0,
@@ -74,7 +27,7 @@
     0.07310544323776039
    ],
    "lev": 1,
-   "funding_pct": 0.0014,
+   "funding_pct": 0.0023,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-30T08:00:00+00:00",
@@ -82,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.07898,
-   "last_ts": "2026-10-31T08:15:36+00:00",
-   "move_pct": 0.05,
+   "last": 0.07897,
+   "last_ts": "2026-10-31T08:20:25+00:00",
+   "move_pct": 0.06,
    "closed": false,
    "rsi": 33.2,
    "trade_on": "Perps 1x",
@@ -126,15 +79,64 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0877029561287054,
-   "last_ts": "2026-10-31T08:15:36+00:00",
-   "move_pct": 3.24,
+   "last": 0.0880074982846596,
+   "last_ts": "2026-10-31T08:20:25+00:00",
+   "move_pct": 3.6,
    "closed": false,
    "rsi": 64.5,
    "trade_on": "On-chain spot (BSC DEX)",
    "market_reason": "not listed on OKX; buy on a DEX, small size, no leverage",
    "chart": "charts/CAP-DEX-bsc-0x99991c6a-1793408400.png",
    "setup": null
+  }
+ ],
+ "closed": [
+  {
+   "id": "HYPE-SPOT-1793318400",
+   "kind": "TA",
+   "score": 2,
+   "reasons": [
+    "Chart: Retest of the 88.033 breakout level held (12h after the break)",
+    "News (neutral, CryptoSlate, 5h ago): NYSE owner takes Trade[XYZ] stake as it plans US Hyperliquid futures https://cryptoslate.com/nyse-owner-takes-tradexyz-stake-as-it-plans-us-hyperliquid-futures/",
+    "Timeframes: 1d up, 4h flat, 4h structure lower highs/lows",
+    "No resistance overhead in the last 50 days",
+    "Stop 87.233 (2 ATR); targets at 1R/2R/3R",
+    "BTC 4h trend down",
+    "Stronger than BTC by 23.1% over 7d",
+    "OI +26% 24h with breakout",
+    "DEX volume -24% 7d",
+    "Sector: Exchange Based Tokens -2.4% 7d (leading, #3 of 20)",
+    "Track record: +0.1R on HYPE in the last 45 days (backtest)"
+   ],
+   "coin": "HYPE",
+   "market": "SPOT",
+   "side": "LONG",
+   "entry": 91.791,
+   "sl0": 87.28733199214321,
+   "sl": 87.28733199214321,
+   "tps": [
+    96.29466800785677,
+    100.79833601571356,
+    105.30200402357033
+   ],
+   "lev": null,
+   "funding_pct": null,
+   "status": "stopped",
+   "hits": 0,
+   "opened": "2026-10-30T01:00:00+00:00",
+   "closed_at": "2026-10-31T08:20:25+00:00",
+   "exit_price": 87.28733199214321,
+   "result_r": -1.0,
+   "result_pct": -4.91,
+   "last": 87.445,
+   "last_ts": "2026-10-31T08:20:25+00:00",
+   "move_pct": -4.71,
+   "closed": true,
+   "rsi": 61.1,
+   "trade_on": "Spot",
+   "market_reason": "trend not strong enough for leverage: spot has no liquidation or funding",
+   "chart": "charts/HYPE-SPOT-1793318400.png",
+   "setup": "RETEST"
   },
   {
    "id": "AGLD-SPOT-1793426400",
@@ -163,25 +165,23 @@
    ],
    "lev": null,
    "funding_pct": null,
-   "status": "open",
+   "status": "stopped",
    "hits": 0,
    "opened": "2026-10-31T07:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.1867,
-   "last_ts": "2026-10-31T08:15:36+00:00",
+   "closed_at": "2026-10-31T08:20:25+00:00",
+   "exit_price": 0.18518659493331607,
+   "result_r": -1.0,
+   "result_pct": -2.79,
+   "last": 0.185,
+   "last_ts": "2026-10-31T08:20:25+00:00",
    "move_pct": -1.99,
-   "closed": false,
+   "closed": true,
    "rsi": 68.7,
    "trade_on": "Spot",
    "market_reason": "thin perp market: spot is safer",
    "chart": "charts/AGLD-SPOT-1793426400.png",
    "setup": "RETEST"
-  }
- ],
- "closed": [
+  },
   {
    "id": "DATA-PERP-1793257200",
    "kind": "TA",
@@ -1883,7 +1883,7 @@
    "rsi": null,
    "trade_on": "Spot",
    "market_reason": "very volatile coin: spot avoids liquidation",
-   "chart": "charts/CHIP-SPOT-HOT-20753.png",
+   "chart": null,
    "setup": "HOT24"
   },
   {
@@ -1923,7 +1923,7 @@
    "rsi": null,
    "trade_on": "Spot",
    "market_reason": "trend not strong enough for leverage: spot has no liquidation or funding",
-   "chart": "charts/PONS-SPOT-HOT-20754.png",
+   "chart": null,
    "setup": "HOT24"
   },
   {
@@ -2698,110 +2698,26 @@
    "market_reason": "shorts need perps; 2x keeps liquidation 3x+ further away than the stop",
    "chart": null,
    "setup": "BOS"
-  },
-  {
-   "id": "PONS-PERP-1792792800",
-   "kind": "TA",
-   "score": 0,
-   "reasons": [
-    "Chart: Broke the 20-hour low on 3.3x volume",
-    "Timeframes: 1d down, 4h down, 4h structure lower highs/lows",
-    "No support below in the last 50 days",
-    "Stop 0.24519 (structure); targets at 1R/2R/3R",
-    "BTC 4h trend flat",
-    "Weaker than BTC by 24.6% over 7d",
-    "OI +2% 24h",
-    "Track record: +3.5R on PONS in the last 45 days (backtest)"
-   ],
-   "coin": "PONS",
-   "market": "PERP",
-   "side": "SHORT",
-   "entry": 0.238,
-   "sl0": 0.24519072213655796,
-   "sl": 0.238,
-   "tps": [
-    0.23080927786344202,
-    0.22361855572688405,
-    0.21642783359032608
-   ],
-   "lev": 2,
-   "funding_pct": 0.005,
-   "status": "stopped_be",
-   "hits": 2,
-   "opened": "2026-10-23T23:00:00+00:00",
-   "closed_at": "2026-10-25T12:41:25+00:00",
-   "exit_price": 0.238,
-   "result_r": 0.75,
-   "result_pct": 2.27,
-   "last": 0.2382,
-   "last_ts": "2026-10-25T12:41:25+00:00",
-   "move_pct": 1.97,
-   "closed": true,
-   "rsi": 27.5,
-   "trade_on": "Perps 2x",
-   "market_reason": "shorts need perps; 2x keeps liquidation 3x+ further away than the stop",
-   "chart": null,
-   "setup": "BREAKOUT20"
-  },
-  {
-   "id": "CAP-PERP-HOT-20751",
-   "kind": "HOT",
-   "score": 281.39,
-   "reasons": [
-    "24h hot mover +21% with volume spike (1.9x the prior 3 days)",
-    "24h volume $15.6M on the OKX perp book, listed 121 days",
-    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
-    "Stop 0.07955 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
-   ],
-   "coin": "CAP",
-   "market": "PERP",
-   "side": "LONG",
-   "entry": 0.08429,
-   "sl0": 0.07954992809068852,
-   "sl": 0.08429,
-   "tps": [
-    0.08903007190931149,
-    0.09377014381862298,
-    0.09851021572793446
-   ],
-   "lev": 1,
-   "funding_pct": 0.005,
-   "status": "tp3",
-   "hits": 3,
-   "opened": "2026-10-25T03:00:32+00:00",
-   "closed_at": "2026-10-25T11:20:25+00:00",
-   "exit_price": 0.09851021572793446,
-   "result_r": 2.25,
-   "result_pct": 12.65,
-   "last": 0.09887,
-   "last_ts": "2026-10-25T11:20:25+00:00",
-   "move_pct": 13.32,
-   "closed": true,
-   "rsi": null,
-   "trade_on": "Perps 1x",
-   "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
-   "chart": null,
-   "setup": "HOT24"
   }
  ],
  "stats": {
   "all": {
-   "trades": 85,
+   "trades": 87,
    "wins": 34,
-   "losses": 51,
-   "win_rate": 40.0,
-   "total_r": -4.01,
-   "avg_r": -0.047,
-   "total_pct": -16.27
+   "losses": 53,
+   "win_rate": 39.1,
+   "total_r": -6.01,
+   "avg_r": -0.069,
+   "total_pct": -23.97
   },
   "SPOT": {
-   "trades": 33,
+   "trades": 35,
    "wins": 13,
-   "losses": 20,
-   "win_rate": 39.4,
-   "total_r": -1.47,
-   "avg_r": -0.044,
-   "total_pct": 3.77
+   "losses": 22,
+   "win_rate": 37.1,
+   "total_r": -3.47,
+   "avg_r": -0.099,
+   "total_pct": -3.93
   },
   "PERP": {
    "trades": 49,
@@ -2841,13 +2757,13 @@
     "total_pct": 19.59
    },
    "TA": {
-    "trades": 59,
+    "trades": 61,
     "wins": 22,
-    "losses": 37,
-    "win_rate": 37.3,
-    "total_r": -2.51,
-    "avg_r": -0.043,
-    "total_pct": -1.39
+    "losses": 39,
+    "win_rate": 36.1,
+    "total_r": -4.51,
+    "avg_r": -0.074,
+    "total_pct": -9.09
    }
   },
   "coins": {
@@ -2888,13 +2804,13 @@
     "total_pct": -1.74
    },
    "AGLD": {
-    "trades": 1,
+    "trades": 2,
     "wins": 0,
-    "losses": 1,
+    "losses": 2,
     "win_rate": 0.0,
-    "total_r": -1.0,
+    "total_r": -2.0,
     "avg_r": -1.0,
-    "total_pct": -2.94
+    "total_pct": -5.73
    },
    "AGT": {
     "trades": 1,
@@ -3147,6 +3063,15 @@
     "total_r": -1.0,
     "avg_r": -1.0,
     "total_pct": -0.96
+   },
+   "HYPE": {
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate": 0.0,
+    "total_r": -1.0,
+    "avg_r": -1.0,
+    "total_pct": -4.91
    },
    "INIT": {
     "trades": 2,
@@ -3482,7 +3407,7 @@
     "total_pct": -5.43
    }
   },
-  "open": 4
+  "open": 2
  },
  "backtest": {
   "from": "2026-07-24",
@@ -6899,6 +6824,28 @@
     ]
    },
    {
+    "id": "exchange-based-tokens",
+    "name": "Exchange Based Tokens",
+    "chg7d": -5.24,
+    "top": [
+     "BNB",
+     "HYPE",
+     "WBT",
+     "LEO",
+     "UNI"
+    ],
+    "tracked": [
+     "BNB",
+     "HYPE",
+     "UNI",
+     "PUMP",
+     "OKB",
+     "CRV",
+     "ASTER",
+     "RAY"
+    ]
+   },
+   {
     "id": "lending-borrowing",
     "name": "Lending Borrowing",
     "chg7d": -5.24,
@@ -6916,28 +6863,6 @@
      "COMP",
      "SPK",
      "KMNO"
-    ]
-   },
-   {
-    "id": "exchange-based-tokens",
-    "name": "Exchange Based Tokens",
-    "chg7d": -5.29,
-    "top": [
-     "BNB",
-     "HYPE",
-     "WBT",
-     "LEO",
-     "UNI"
-    ],
-    "tracked": [
-     "BNB",
-     "HYPE",
-     "UNI",
-     "PUMP",
-     "OKB",
-     "CRV",
-     "ASTER",
-     "RAY"
     ]
    },
    {
@@ -7396,7 +7321,7 @@
   "updated": {
    "unlocks": 1793419533,
    "onchain": 1793433322,
-   "sectors": 1793433920,
+   "sectors": 1793434825,
    "listings": 1793433322,
    "fundamentals": 1793419533
   }
@@ -7435,6 +7360,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "f8cfb0d54d955fb2e6a8ab3100adda90a7e0cecf1f247d4f29af7e25f56e8f5a",
- "generated": "2026-10-31T08:15:40+00:00"
+ "digest": "c0ac328bea2881861d486bfa210e71e5b1f752c0268e2a9e0475efa94ceb5125",
+ "generated": "2026-10-31T08:20:32+00:00"
 }
