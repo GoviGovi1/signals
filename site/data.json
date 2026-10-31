@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.041581,
-   "last_ts": "2026-10-31T18:50:25+00:00",
-   "move_pct": 2.34,
+   "last": 0.041596,
+   "last_ts": "2026-10-31T18:54:59+00:00",
+   "move_pct": 2.38,
    "closed": false,
    "rsi": 64.4,
    "trade_on": "Spot",
@@ -6609,66 +6609,8 @@
    }
   ],
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
-  "onchain": [
-   {
-    "chain": "BSC",
-    "symbol": "HANA",
-    "name": "Hana Token",
-    "token": "0x6261963ebe9ff014aad10ecc3b0238d4d04e8353",
-    "price": 0.0159162160114855,
-    "liq": 997838,
-    "vol24h": 3070209,
-    "age_d": 401.7,
-    "chg24h": 16.443,
-    "chg7d": 31.7,
-    "mcap": 3819891.8424,
-    "safety": "ok",
-    "safety_notes": [],
-    "trigger": false,
-    "trend_up": true,
-    "rsi": 61.6,
-    "url": "https://www.geckoterminal.com/bsc/pools/0xd21bc2291c1aef340f5265e257b18aa5dafed759"
-   },
-   {
-    "chain": "Solana",
-    "symbol": "BTC",
-    "name": "Big Titty Coin",
-    "token": "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump",
-    "price": 0.011911988867642637,
-    "liq": 406234,
-    "vol24h": 1602187,
-    "age_d": 47.9,
-    "chg24h": 79.791,
-    "chg7d": 282.0,
-    "mcap": 11910828.13,
-    "safety": "ok",
-    "safety_notes": [],
-    "trigger": false,
-    "trend_up": true,
-    "rsi": 69.4,
-    "url": "https://www.geckoterminal.com/solana/pools/3M9sVgL4u6ATKaiExf3XhQqNfMB6ijvzk3meMcQaen1w"
-   },
-   {
-    "chain": "BSC",
-    "symbol": "IDOL",
-    "name": "MEET48 Token",
-    "token": "0x3b4de3c7855c03bb9f50ea252cd2c9fa1125ab07",
-    "price": 0.0175564129934089,
-    "liq": 1121225,
-    "vol24h": 37539249,
-    "age_d": 508.2,
-    "chg24h": -42.549,
-    "chg7d": 132.0,
-    "mcap": 38452179.1623944,
-    "safety": "ok",
-    "safety_notes": [],
-    "trigger": false,
-    "trend_up": false,
-    "rsi": 44.0,
-    "url": "https://www.geckoterminal.com/bsc/pools/0xfff4857a955b2b460c27fd431aa5a85fabca5559"
-   }
-  ],
-  "onchain_checked": 84,
+  "onchain": [],
+  "onchain_checked": 85,
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
@@ -7254,7 +7196,7 @@
   ],
   "updated": {
    "unlocks": 1793463026,
-   "onchain": 1793469320,
+   "onchain": 1793472839,
    "sectors": 1793472625,
    "listings": 1793471426,
    "fundamentals": 1793463027
@@ -7294,6 +7236,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "2148dc74f335d5c753a8c79545dd3436f031a8efffc8f9d6d546187fcbba0b30",
- "generated": "2026-10-31T18:50:26+00:00"
+ "digest": "88f19cdbb5b463a05b7c2873070d90eb13da057c81e79d14354b6c1fb03efcad",
+ "generated": "2026-10-31T18:55:01+00:00"
 }
