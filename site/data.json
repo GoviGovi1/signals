@@ -35,16 +35,18 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.07989,
-   "last_ts": "2026-10-31T12:15:24+00:00",
-   "move_pct": -1.1,
+   "last": 0.08002,
+   "last_ts": "2026-10-31T12:20:24+00:00",
+   "move_pct": -1.27,
    "closed": false,
    "rsi": 33.2,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": "charts/1INCH-PERP-1793343600.png",
    "setup": "RETEST"
-  },
+  }
+ ],
+ "closed": [
   {
    "id": "CAP-DEX-bsc-0x99991c6a-1793408400",
    "kind": "ONCHAIN",
@@ -72,25 +74,23 @@
    ],
    "lev": null,
    "funding_pct": null,
-   "status": "open",
+   "status": "stopped",
    "hits": 0,
    "opened": "2026-10-31T02:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.0812802107616369,
-   "last_ts": "2026-10-31T12:15:24+00:00",
+   "closed_at": "2026-10-31T12:20:24+00:00",
+   "exit_price": 0.07985037828382094,
+   "result_r": -1.0,
+   "result_pct": -6.0,
+   "last": 0.0791398112779619,
+   "last_ts": "2026-10-31T12:20:24+00:00",
    "move_pct": -4.32,
-   "closed": false,
+   "closed": true,
    "rsi": 64.5,
    "trade_on": "On-chain spot (BSC DEX)",
    "market_reason": "not listed on OKX; buy on a DEX, small size, no leverage",
    "chart": "charts/CAP-DEX-bsc-0x99991c6a-1793408400.png",
    "setup": null
-  }
- ],
- "closed": [
+  },
   {
    "id": "HYPE-SPOT-1793318400",
    "kind": "TA",
@@ -1843,7 +1843,7 @@
    "rsi": 69.9,
    "trade_on": "Spot",
    "market_reason": "thin perp market: spot is safer",
-   "chart": "charts/GMT-SPOT-1793181600.png",
+   "chart": null,
    "setup": "RANGE_BREAK"
   },
   {
@@ -2653,62 +2653,17 @@
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": null,
    "setup": "BOS"
-  },
-  {
-   "id": "INJ-PERP-1792771200",
-   "kind": "TA",
-   "score": -1,
-   "reasons": [
-    "Chart: Break of structure: closed below the last swing low 7.8410, after a lower high",
-    "Timeframes: 1d flat, 4h up, 4h structure lower highs/lows",
-    "Next support 6.8260 (3.9R away, 4h swing)",
-    "Stop 8.0324 (2 ATR); targets at the next 2 level(s)",
-    "BTC 4h trend flat",
-    "Weaker than BTC by 10.6% over 7d",
-    "OI +1% 24h",
-    "Sector: Real World Assets RWA +0.0% 7d (leading, #1 of 20)",
-    "Track record: +7.0R on INJ in the last 45 days (backtest)"
-   ],
-   "coin": "INJ",
-   "market": "PERP",
-   "side": "SHORT",
-   "entry": 7.788,
-   "sl0": 8.03241681994306,
-   "sl": 8.03241681994306,
-   "tps": [
-    6.8443312614957295,
-    6.55833126149573,
-    6.31391444155267
-   ],
-   "lev": 2,
-   "funding_pct": -0.0027,
-   "status": "expired",
-   "hits": 0,
-   "opened": "2026-10-23T17:00:00+00:00",
-   "closed_at": "2026-10-25T17:00:30+00:00",
-   "exit_price": 7.768,
-   "result_r": 0.082,
-   "result_pct": 0.26,
-   "last": 7.768,
-   "last_ts": "2026-10-25T17:00:30+00:00",
-   "move_pct": 0.68,
-   "closed": true,
-   "rsi": 30.0,
-   "trade_on": "Perps 2x",
-   "market_reason": "shorts need perps; 2x keeps liquidation 3x+ further away than the stop",
-   "chart": null,
-   "setup": "BOS"
   }
  ],
  "stats": {
   "all": {
-   "trades": 87,
+   "trades": 88,
    "wins": 34,
-   "losses": 53,
-   "win_rate": 39.1,
-   "total_r": -6.01,
-   "avg_r": -0.069,
-   "total_pct": -23.97
+   "losses": 54,
+   "win_rate": 38.6,
+   "total_r": -7.01,
+   "avg_r": -0.08,
+   "total_pct": -29.97
   },
   "SPOT": {
    "trades": 35,
@@ -2729,13 +2684,13 @@
    "total_pct": -39.63
   },
   "DEX": {
-   "trades": 3,
+   "trades": 4,
    "wins": 2,
-   "losses": 1,
-   "win_rate": 66.7,
-   "total_r": 2.0,
-   "avg_r": 0.667,
-   "total_pct": 19.59
+   "losses": 2,
+   "win_rate": 50.0,
+   "total_r": 1.0,
+   "avg_r": 0.25,
+   "total_pct": 13.59
   },
   "kinds": {
    "HOT": {
@@ -2748,13 +2703,13 @@
     "total_pct": -34.47
    },
    "ONCHAIN": {
-    "trades": 3,
+    "trades": 4,
     "wins": 2,
-    "losses": 1,
-    "win_rate": 66.7,
-    "total_r": 2.0,
-    "avg_r": 0.667,
-    "total_pct": 19.59
+    "losses": 2,
+    "win_rate": 50.0,
+    "total_r": 1.0,
+    "avg_r": 0.25,
+    "total_pct": 13.59
    },
    "TA": {
     "trades": 61,
@@ -2966,13 +2921,13 @@
     "total_pct": -11.17
    },
    "CAP": {
-    "trades": 2,
+    "trades": 3,
     "wins": 1,
-    "losses": 1,
-    "win_rate": 50.0,
-    "total_r": 1.25,
-    "avg_r": 0.625,
-    "total_pct": 2.61
+    "losses": 2,
+    "win_rate": 33.3,
+    "total_r": 0.25,
+    "avg_r": 0.083,
+    "total_pct": -3.39
    },
    "CHIP": {
     "trades": 1,
@@ -3407,7 +3362,7 @@
     "total_pct": -5.43
    }
   },
-  "open": 2
+  "open": 1
  },
  "backtest": {
   "from": "2026-07-24",
@@ -6929,6 +6884,28 @@
     ]
    },
    {
+    "id": "depin",
+    "name": "DePIN",
+    "chg7d": -6.11,
+    "top": [
+     "TAO",
+     "RENDER",
+     "FIL",
+     "BDX",
+     "GRASS"
+    ],
+    "tracked": [
+     "FIL",
+     "TAO",
+     "GRASS",
+     "RENDER",
+     "AR",
+     "ATH",
+     "GRT",
+     "LPT"
+    ]
+   },
+   {
     "id": "oracle",
     "name": "Oracle",
     "chg7d": -6.34,
@@ -7088,28 +7065,6 @@
      "STX",
      "SOON",
      "MAGIC"
-    ]
-   },
-   {
-    "id": "depin",
-    "name": "DePIN",
-    "chg7d": -7.84,
-    "top": [
-     "TAO",
-     "RENDER",
-     "FIL",
-     "BDX",
-     "GRASS"
-    ],
-    "tracked": [
-     "FIL",
-     "TAO",
-     "GRASS",
-     "RENDER",
-     "AR",
-     "ATH",
-     "GRT",
-     "LPT"
     ]
    },
    {
@@ -7338,7 +7293,7 @@
   "updated": {
    "unlocks": 1793441422,
    "onchain": 1793447721,
-   "sectors": 1793448333,
+   "sectors": 1793449224,
    "listings": 1793448333,
    "fundamentals": 1793441422
   }
@@ -7377,6 +7332,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "c668e9cf19e088df76416c00e5909fdeb0bc1e8d9cbf3e371e7c90f5c8fa6d54",
- "generated": "2026-10-31T12:15:29+00:00"
+ "digest": "bd2d9ddb32c98e459eadf87a6b6c0a70f3933f9fd2942253f1c8b24fae12cfbe",
+ "generated": "2026-10-31T12:20:29+00:00"
 }
