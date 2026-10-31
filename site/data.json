@@ -27,7 +27,7 @@
     0.07310544323776039
    ],
    "lev": 1,
-   "funding_pct": 0.008,
+   "funding_pct": 0.0085,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-30T08:00:00+00:00",
@@ -36,7 +36,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.07922,
-   "last_ts": "2026-10-31T09:00:26+00:00",
+   "last_ts": "2026-10-31T09:05:21+00:00",
    "move_pct": -0.25,
    "closed": false,
    "rsi": 33.2,
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0874213374831396,
-   "last_ts": "2026-10-31T09:00:26+00:00",
-   "move_pct": 2.91,
+   "last": 0.0866967689782348,
+   "last_ts": "2026-10-31T09:05:21+00:00",
+   "move_pct": 2.06,
    "closed": false,
    "rsi": 64.5,
    "trade_on": "On-chain spot (BSC DEX)",
@@ -6905,6 +6905,28 @@
     ]
    },
    {
+    "id": "layer-1",
+    "name": "Layer 1",
+    "chg7d": -5.82,
+    "top": [
+     "BTC",
+     "ETH",
+     "BNB",
+     "XRP",
+     "SOL"
+    ],
+    "tracked": [
+     "BTC",
+     "ETH",
+     "SOL",
+     "XRP",
+     "BNB",
+     "SUI",
+     "AVAX",
+     "ZEC"
+    ]
+   },
+   {
     "id": "decentralized-finance-defi",
     "name": "Decentralized Finance DeFi",
     "chg7d": -5.99,
@@ -6924,28 +6946,6 @@
      "LIT",
      "AAVE",
      "ONDO"
-    ]
-   },
-   {
-    "id": "layer-1",
-    "name": "Layer 1",
-    "chg7d": -6.34,
-    "top": [
-     "BTC",
-     "ETH",
-     "BNB",
-     "XRP",
-     "SOL"
-    ],
-    "tracked": [
-     "BTC",
-     "ETH",
-     "SOL",
-     "XRP",
-     "BNB",
-     "SUI",
-     "AVAX",
-     "ZEC"
     ]
    },
    {
@@ -7360,7 +7360,7 @@
   "updated": {
    "unlocks": 1793419533,
    "onchain": 1793436924,
-   "sectors": 1793436622,
+   "sectors": 1793437521,
    "listings": 1793436924,
    "fundamentals": 1793419533
   }
@@ -7399,6 +7399,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "7eaef0a10993e413a485b7460a1160a79bbb26929365a21520ebffe1c8bf4d04",
- "generated": "2026-10-31T09:01:00+00:00"
+ "digest": "a82f4f534669f28c2567721eef979995893e90a31bacf26f99a5bef0972733fb",
+ "generated": "2026-10-31T09:05:25+00:00"
 }
