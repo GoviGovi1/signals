@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1303,
-   "last_ts": "2026-10-31T05:00:29+00:00",
-   "move_pct": 5.37,
+   "last": 0.13,
+   "last_ts": "2026-10-31T05:05:20+00:00",
+   "move_pct": 5.59,
    "closed": false,
    "rsi": 36.7,
    "trade_on": "Perps 1x",
@@ -82,9 +82,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 88.431,
-   "last_ts": "2026-10-31T05:00:29+00:00",
-   "move_pct": -3.66,
+   "last": 88.618,
+   "last_ts": "2026-10-31T05:05:20+00:00",
+   "move_pct": -3.46,
    "closed": false,
    "rsi": 61.1,
    "trade_on": "Spot",
@@ -119,7 +119,7 @@
     0.07310544323776039
    ],
    "lev": 1,
-   "funding_pct": 0.0098,
+   "funding_pct": 0.01,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-30T08:00:00+00:00",
@@ -127,9 +127,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.07942,
-   "last_ts": "2026-10-31T05:00:29+00:00",
-   "move_pct": -0.51,
+   "last": 0.07945,
+   "last_ts": "2026-10-31T05:05:20+00:00",
+   "move_pct": -0.54,
    "closed": false,
    "rsi": 33.2,
    "trade_on": "Perps 1x",
@@ -167,9 +167,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.22348,
-   "last_ts": "2026-10-31T05:00:29+00:00",
-   "move_pct": -4.83,
+   "last": 0.2231,
+   "last_ts": "2026-10-31T05:05:20+00:00",
+   "move_pct": -4.99,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -211,9 +211,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0850244146319819,
-   "last_ts": "2026-10-31T05:00:29+00:00",
-   "move_pct": 0.09,
+   "last": 0.0852823116715029,
+   "last_ts": "2026-10-31T05:05:20+00:00",
+   "move_pct": 0.39,
    "closed": false,
    "rsi": 64.5,
    "trade_on": "On-chain spot (BSC DEX)",
@@ -256,7 +256,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.1897,
-   "last_ts": "2026-10-31T05:00:29+00:00",
+   "last_ts": "2026-10-31T05:05:20+00:00",
    "move_pct": -1.04,
    "closed": false,
    "rsi": 75.6,
@@ -7229,9 +7229,27 @@
     ]
    },
    {
+    "id": "bitcoin-ecosystem",
+    "name": "Bitcoin Ecosystem",
+    "chg7d": -7.53,
+    "top": [
+     "BTC",
+     "DOG",
+     "ORDI",
+     "USTBL",
+     "LOBO"
+    ],
+    "tracked": [
+     "BTC",
+     "PEPE",
+     "ORDI",
+     "SATS"
+    ]
+   },
+   {
     "id": "ai-agents",
     "name": "AI Agents",
-    "chg7d": -7.13,
+    "chg7d": -8.09,
     "top": [
      "VVV",
      "VIRTUAL",
@@ -7248,24 +7266,6 @@
      "PIPPIN",
      "AIXBT",
      "KITE"
-    ]
-   },
-   {
-    "id": "bitcoin-ecosystem",
-    "name": "Bitcoin Ecosystem",
-    "chg7d": -7.53,
-    "top": [
-     "BTC",
-     "DOG",
-     "ORDI",
-     "USTBL",
-     "LOBO"
-    ],
-    "tracked": [
-     "BTC",
-     "PEPE",
-     "ORDI",
-     "SATS"
     ]
    },
    {
@@ -7498,7 +7498,7 @@
   "updated": {
    "unlocks": 1793419533,
    "onchain": 1793422518,
-   "sectors": 1793422224,
+   "sectors": 1793423120,
    "listings": 1793421924,
    "fundamentals": 1793419533
   }
@@ -7537,6 +7537,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "b924d1355452b5640ebe23df7935e2283f89f7c65999302eb949599151303f52",
- "generated": "2026-10-31T05:01:02+00:00"
+ "digest": "c5477bfc127d715ad4166e05836504fd81b1615f89a3d47a2b4a3aeb2787dc2c",
+ "generated": "2026-10-31T05:05:25+00:00"
 }
