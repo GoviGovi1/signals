@@ -1,5 +1,6 @@
 {
- "open": [
+ "open": [],
+ "closed": [
   {
    "id": "1INCH-PERP-1793343600",
    "kind": "TA",
@@ -28,25 +29,23 @@
    ],
    "lev": 1,
    "funding_pct": 0.01,
-   "status": "open",
+   "status": "stopped",
    "hits": 0,
    "opened": "2026-10-30T08:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.08083,
-   "last_ts": "2026-10-31T14:30:28+00:00",
+   "closed_at": "2026-10-31T14:35:21+00:00",
+   "exit_price": 0.08099151892074655,
+   "result_r": -1.0,
+   "result_pct": -2.49,
+   "last": 0.08118,
+   "last_ts": "2026-10-31T14:35:21+00:00",
    "move_pct": -2.29,
-   "closed": false,
+   "closed": true,
    "rsi": 33.2,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": "charts/1INCH-PERP-1793343600.png",
    "setup": "RETEST"
-  }
- ],
- "closed": [
+  },
   {
    "id": "CAP-DEX-bsc-0x99991c6a-1793408400",
    "kind": "ONCHAIN",
@@ -1798,7 +1797,7 @@
    "rsi": 64.2,
    "trade_on": "Spot",
    "market_reason": "thin perp market: spot is safer",
-   "chart": "charts/SENT-SPOT-1793088000.png",
+   "chart": null,
    "setup": "BREAKOUT20"
   },
   {
@@ -2608,62 +2607,17 @@
    "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
    "chart": null,
    "setup": "HOT24"
-  },
-  {
-   "id": "API3-PERP-1792915200",
-   "kind": "TA",
-   "score": 0,
-   "reasons": [
-    "Chart: Break of structure: closed below the last swing low 0.2506, after a lower high",
-    "Timeframes: 1d down, 4h down, 4h structure lower highs/lows",
-    "Next support 0.24044 (2.2R away, 4h swing)",
-    "Stop 0.25427 (structure); targets at the next 3 level(s)",
-    "BTC 4h trend down",
-    "Weaker than BTC by 4.6% over 7d",
-    "OI +2% 24h",
-    "Sector: Oracle -3.8% 7d (middle, #14 of 20)",
-    "Track record: +6.8R on API3 in the last 45 days (backtest)"
-   ],
-   "coin": "API3",
-   "market": "PERP",
-   "side": "SHORT",
-   "entry": 0.25,
-   "sl0": 0.25427278254119623,
-   "sl": 0.25427278254119623,
-   "tps": [
-    0.2408538912705981,
-    0.23338305793726477,
-    0.2295663912705981
-   ],
-   "lev": 1,
-   "funding_pct": 0.0018,
-   "status": "stopped",
-   "hits": 0,
-   "opened": "2026-10-25T09:00:00+00:00",
-   "closed_at": "2026-10-25T17:25:20+00:00",
-   "exit_price": 0.25427278254119623,
-   "result_r": -1.0,
-   "result_pct": -1.71,
-   "last": 0.2546,
-   "last_ts": "2026-10-25T17:25:20+00:00",
-   "move_pct": -1.48,
-   "closed": true,
-   "rsi": 32.8,
-   "trade_on": "Perps 1x",
-   "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": null,
-   "setup": "BOS"
   }
  ],
  "stats": {
   "all": {
-   "trades": 88,
+   "trades": 89,
    "wins": 34,
-   "losses": 54,
-   "win_rate": 38.6,
-   "total_r": -7.01,
-   "avg_r": -0.08,
-   "total_pct": -29.97
+   "losses": 55,
+   "win_rate": 38.2,
+   "total_r": -8.01,
+   "avg_r": -0.09,
+   "total_pct": -32.46
   },
   "SPOT": {
    "trades": 35,
@@ -2675,13 +2629,13 @@
    "total_pct": -3.93
   },
   "PERP": {
-   "trades": 49,
+   "trades": 50,
    "wins": 19,
-   "losses": 30,
-   "win_rate": 38.8,
-   "total_r": -4.55,
-   "avg_r": -0.093,
-   "total_pct": -39.63
+   "losses": 31,
+   "win_rate": 38.0,
+   "total_r": -5.55,
+   "avg_r": -0.111,
+   "total_pct": -42.12
   },
   "DEX": {
    "trades": 4,
@@ -2712,24 +2666,24 @@
     "total_pct": 13.59
    },
    "TA": {
-    "trades": 61,
+    "trades": 62,
     "wins": 22,
-    "losses": 39,
-    "win_rate": 36.1,
-    "total_r": -4.51,
-    "avg_r": -0.074,
-    "total_pct": -9.09
+    "losses": 40,
+    "win_rate": 35.5,
+    "total_r": -5.51,
+    "avg_r": -0.089,
+    "total_pct": -11.58
    }
   },
   "coins": {
    "1INCH": {
-    "trades": 2,
+    "trades": 3,
     "wins": 1,
-    "losses": 1,
-    "win_rate": 50.0,
-    "total_r": 1.25,
-    "avg_r": 0.625,
-    "total_pct": 0.16
+    "losses": 2,
+    "win_rate": 33.3,
+    "total_r": 0.25,
+    "avg_r": 0.083,
+    "total_pct": -2.33
    },
    "2Z": {
     "trades": 1,
@@ -3362,7 +3316,7 @@
     "total_pct": -5.43
    }
   },
-  "open": 1
+  "open": 0
  },
  "backtest": {
   "from": "2026-07-24",
@@ -6742,12 +6696,12 @@
    {
     "id": "meme-token",
     "name": "Meme Token",
-    "chg7d": -4.38,
+    "chg7d": -4.49,
     "top": [
      "DOGE",
      "SHIB",
-     "M",
      "PEPE",
+     "M",
      "PUMP"
     ],
     "tracked": [
@@ -7279,7 +7233,7 @@
   "updated": {
    "unlocks": 1793441422,
    "onchain": 1793454917,
-   "sectors": 1793456424,
+   "sectors": 1793457321,
    "listings": 1793456127,
    "fundamentals": 1793441422
   }
@@ -7318,6 +7272,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "19fe83bc4c83a7b3c9ef50358655f56d40ce0038b62d840f56fbfa7df79885b8",
- "generated": "2026-10-31T14:30:30+00:00"
+ "digest": "0f056467e7c8068884ce0616d4f6b4b36d43a51473ed8eb1c0813296dc9963cb",
+ "generated": "2026-10-31T14:35:25+00:00"
 }
