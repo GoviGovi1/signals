@@ -1,5 +1,51 @@
 {
- "open": [],
+ "open": [
+  {
+   "id": "NIGHT-SPOT-1793462400",
+   "kind": "TA",
+   "score": 0,
+   "reasons": [
+    "Chart: Broke the 20-hour high on 2.1x volume",
+    "Timeframes: 1d flat, 4h up, 4h structure mixed",
+    "Next resistance 0.04332 (2.1R away, 4h swing/swing)",
+    "Stop 0.039309 (structure); targets at the next 3 level(s)",
+    "BTC 4h trend down",
+    "Stronger than BTC by 13.0% over 7d",
+    "OI +2% 24h",
+    "Sector: Layer 1 -5.5% 7d (middle, #10 of 20)",
+    "Track record: +5.9R on NIGHT in the last 45 days (backtest)"
+   ],
+   "coin": "NIGHT",
+   "market": "SPOT",
+   "side": "LONG",
+   "entry": 0.040631,
+   "sl0": 0.039328024511464055,
+   "sl": 0.039328024511464055,
+   "tps": [
+    0.04325977163711284,
+    0.04508933888079887,
+    0.04588673138529273
+   ],
+   "lev": null,
+   "funding_pct": null,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-10-31T17:00:00+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.040629,
+   "last_ts": "2026-10-31T17:00:30+00:00",
+   "move_pct": -0.0,
+   "closed": false,
+   "rsi": 64.4,
+   "trade_on": "Spot",
+   "market_reason": "thin perp market: spot is safer",
+   "chart": "charts/NIGHT-SPOT-1793462400.png",
+   "setup": "BREAKOUT20"
+  }
+ ],
  "closed": [
   {
    "id": "1INCH-PERP-1793343600",
@@ -3316,7 +3362,7 @@
     "total_pct": -5.43
    }
   },
-  "open": 0
+  "open": 1
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7229,6 +7275,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "a8e32d4ea61431185544dd1cb6236ff0ac9a50ed9930b0607768a497236dcd8d",
- "generated": "2026-10-31T16:56:19+00:00"
+ "digest": "e50f82088eaabd5939fdb23ea92d0996b8d818f382b82da4acc525875a0dd2d3",
+ "generated": "2026-10-31T17:01:01+00:00"
 }
