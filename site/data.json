@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1343,
-   "last_ts": "2026-10-31T00:15:32+00:00",
-   "move_pct": 2.47,
+   "last": 0.1356,
+   "last_ts": "2026-10-31T00:20:24+00:00",
+   "move_pct": 1.53,
    "closed": false,
    "rsi": 36.7,
    "trade_on": "Perps 1x",
@@ -82,9 +82,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 89.539,
-   "last_ts": "2026-10-31T00:15:32+00:00",
-   "move_pct": -2.45,
+   "last": 89.64,
+   "last_ts": "2026-10-31T00:20:24+00:00",
+   "move_pct": -2.34,
    "closed": false,
    "rsi": 61.1,
    "trade_on": "Spot",
@@ -127,9 +127,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0803,
-   "last_ts": "2026-10-31T00:15:32+00:00",
-   "move_pct": -1.62,
+   "last": 0.08035,
+   "last_ts": "2026-10-31T00:20:24+00:00",
+   "move_pct": -1.68,
    "closed": false,
    "rsi": 33.2,
    "trade_on": "Perps 1x",
@@ -167,9 +167,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.12037,
-   "last_ts": "2026-10-31T00:15:32+00:00",
-   "move_pct": -0.86,
+   "last": 0.12023,
+   "last_ts": "2026-10-31T00:20:24+00:00",
+   "move_pct": -0.97,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -207,14 +207,54 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.24193,
-   "last_ts": "2026-10-31T00:15:32+00:00",
-   "move_pct": 3.03,
+   "last": 0.24501,
+   "last_ts": "2026-10-31T00:20:24+00:00",
+   "move_pct": 4.34,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
    "market_reason": "only spot is listed",
    "chart": "charts/LSK-SPOT-HOT-20757.png",
+   "setup": "HOT24"
+  },
+  {
+   "id": "WOO-PERP-HOT-20757",
+   "kind": "HOT",
+   "score": 420.47,
+   "reasons": [
+    "24h hot mover +20% with volume spike (3.5x the prior 3 days)",
+    "24h volume $962k on the OKX perp book, listed 1355 days",
+    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
+    "Stop 0.011001 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
+   ],
+   "coin": "WOO",
+   "market": "PERP",
+   "side": "LONG",
+   "entry": 0.01157,
+   "sl0": 0.01100135476912354,
+   "sl": 0.01100135476912354,
+   "tps": [
+    0.01213864523087646,
+    0.01270729046175292,
+    0.01327593569262938
+   ],
+   "lev": 1,
+   "funding_pct": 0.01,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-10-31T00:20:24+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.01157,
+   "last_ts": "2026-10-31T00:20:24+00:00",
+   "move_pct": 0.0,
+   "closed": false,
+   "rsi": null,
+   "trade_on": "Perps 1x",
+   "market_reason": "the perp book is where the 24h move and volume are; thin perp market, so 1x",
+   "chart": "charts/WOO-PERP-HOT-20757.png",
    "setup": "HOT24"
   }
  ],
@@ -3484,7 +3524,7 @@
     "total_pct": -5.43
    }
   },
-  "open": 5
+  "open": 6
  },
  "backtest": {
   "from": "2026-07-24",
@@ -6874,6 +6914,28 @@
     ]
    },
    {
+    "id": "decentralized-finance-defi",
+    "name": "Decentralized Finance DeFi",
+    "chg7d": -4.9,
+    "top": [
+     "STETH",
+     "HYPE",
+     "WSTETH",
+     "LINK",
+     "DAI"
+    ],
+    "tracked": [
+     "LINK",
+     "HYPE",
+     "UNI",
+     "ENA",
+     "PUMP",
+     "LIT",
+     "AAVE",
+     "ONDO"
+    ]
+   },
+   {
     "id": "lending-borrowing",
     "name": "Lending Borrowing",
     "chg7d": -5.04,
@@ -7060,28 +7122,6 @@
      "SUI",
      "AVAX",
      "ZEC"
-    ]
-   },
-   {
-    "id": "decentralized-finance-defi",
-    "name": "Decentralized Finance DeFi",
-    "chg7d": -8.35,
-    "top": [
-     "STETH",
-     "HYPE",
-     "WSTETH",
-     "LINK",
-     "DAI"
-    ],
-    "tracked": [
-     "LINK",
-     "HYPE",
-     "UNI",
-     "ENA",
-     "PUMP",
-     "LIT",
-     "AAVE",
-     "ONDO"
     ]
    },
    {
@@ -7437,7 +7477,7 @@
   "updated": {
    "unlocks": 1793397917,
    "onchain": 1793404518,
-   "sectors": 1793405122,
+   "sectors": 1793406024,
    "listings": 1793402723,
    "fundamentals": 1793397918
   }
@@ -7476,6 +7516,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "11e1a212438cc164c90f26182567c898190f28f84520fba290b863e90a7bb147",
- "generated": "2026-10-31T00:15:34+00:00"
+ "digest": "891fc9791518cc88b3648951ccb7e01e198fa02157dcfbb68636f8eef595f1ac",
+ "generated": "2026-10-31T00:20:29+00:00"
 }
