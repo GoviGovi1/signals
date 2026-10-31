@@ -27,7 +27,7 @@
     0.07310544323776039
    ],
    "lev": 1,
-   "funding_pct": 0.0072,
+   "funding_pct": 0.0075,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-30T08:00:00+00:00",
@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0792,
-   "last_ts": "2026-10-31T08:50:22+00:00",
-   "move_pct": -0.23,
+   "last": 0.07925,
+   "last_ts": "2026-10-31T08:56:22+00:00",
+   "move_pct": -0.29,
    "closed": false,
    "rsi": 33.2,
    "trade_on": "Perps 1x",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0872511804247593,
-   "last_ts": "2026-10-31T08:50:22+00:00",
-   "move_pct": 2.71,
+   "last": 0.0872588812425462,
+   "last_ts": "2026-10-31T08:56:22+00:00",
+   "move_pct": 2.72,
    "closed": false,
    "rsi": 64.5,
    "trade_on": "On-chain spot (BSC DEX)",
@@ -6731,7 +6731,46 @@
    }
   ],
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
-  "onchain": [],
+  "onchain": [
+   {
+    "chain": "BSC",
+    "symbol": "COLLECT",
+    "name": "Collect on Fanable",
+    "token": "0x4b3d30992f003c8167699735f5ab2831b2a087d3",
+    "price": 0.0251890931814526,
+    "liq": 2364121,
+    "vol24h": 3517607,
+    "age_d": 308.9,
+    "chg24h": 9.359,
+    "chg7d": 7.7,
+    "mcap": 13531033.17927,
+    "safety": "ok",
+    "safety_notes": [],
+    "trigger": false,
+    "trend_up": true,
+    "rsi": 68.5,
+    "url": "https://www.geckoterminal.com/bsc/pools/0xef470f9ae8512d2762e4f1cd91ae58caea17143afa61b8d56e9b20c8f87688c4"
+   },
+   {
+    "chain": "Arbitrum",
+    "symbol": "ARB",
+    "name": "Arbitrum",
+    "token": "0x912ce59144191c1204e64559fe8253a0e49e6548",
+    "price": 0.161353942265824,
+    "liq": 1805523,
+    "vol24h": 4898501,
+    "age_d": 1324.3,
+    "chg24h": -1.248,
+    "chg7d": -4.4,
+    "mcap": 1112069931.03694,
+    "safety": "ok",
+    "safety_notes": [],
+    "trigger": false,
+    "trend_up": false,
+    "rsi": 45.9,
+    "url": "https://www.geckoterminal.com/arbitrum/pools/0xc6f780497a95e246eb9449f5e4770916dcd6396a"
+   }
+  ],
   "onchain_checked": 81,
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
@@ -7320,9 +7359,9 @@
   ],
   "updated": {
    "unlocks": 1793419533,
-   "onchain": 1793433322,
+   "onchain": 1793436924,
    "sectors": 1793436622,
-   "listings": 1793433322,
+   "listings": 1793436924,
    "fundamentals": 1793419533
   }
  },
@@ -7360,6 +7399,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "eadb9a128c130b750acff6811b83203eac499481e754663829040e9a29745e07",
- "generated": "2026-10-31T08:50:26+00:00"
+ "digest": "a1ee22ca2bdd91bae1fab1b2a8a77a45b9aecb7063c6ef1030dfa34173c6864d",
+ "generated": "2026-10-31T08:56:27+00:00"
 }
