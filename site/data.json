@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1339,
-   "last_ts": "2026-10-31T00:05:22+00:00",
-   "move_pct": 2.76,
+   "last": 0.1341,
+   "last_ts": "2026-10-31T00:10:27+00:00",
+   "move_pct": 2.61,
    "closed": false,
    "rsi": 36.7,
    "trade_on": "Perps 1x",
@@ -82,9 +82,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 89.861,
-   "last_ts": "2026-10-31T00:05:22+00:00",
-   "move_pct": -2.1,
+   "last": 89.728,
+   "last_ts": "2026-10-31T00:10:27+00:00",
+   "move_pct": -2.25,
    "closed": false,
    "rsi": 61.1,
    "trade_on": "Spot",
@@ -127,9 +127,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.08002,
-   "last_ts": "2026-10-31T00:05:22+00:00",
-   "move_pct": -1.27,
+   "last": 0.08015,
+   "last_ts": "2026-10-31T00:10:27+00:00",
+   "move_pct": -1.43,
    "closed": false,
    "rsi": 33.2,
    "trade_on": "Perps 1x",
@@ -167,14 +167,54 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.12141,
-   "last_ts": "2026-10-31T00:05:22+00:00",
-   "move_pct": 0.0,
+   "last": 0.11956,
+   "last_ts": "2026-10-31T00:10:27+00:00",
+   "move_pct": -1.52,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
    "market_reason": "trend not strong enough for leverage: spot has no liquidation or funding",
    "chart": "charts/OP-SPOT-HOT-20757.png",
+   "setup": "HOT24"
+  },
+  {
+   "id": "LSK-SPOT-HOT-20757",
+   "kind": "HOT",
+   "score": 408.68,
+   "reasons": [
+    "24h hot mover +24% with volume spike (2.7x the prior 3 days)",
+    "24h volume $2.0M on the OKX spot book, listed 2101 days",
+    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
+    "Stop 0.21613 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
+   ],
+   "coin": "LSK",
+   "market": "SPOT",
+   "side": "LONG",
+   "entry": 0.23482,
+   "sl0": 0.21612956515790965,
+   "sl": 0.21612956515790965,
+   "tps": [
+    0.25351043484209035,
+    0.27220086968418067,
+    0.29089130452627104
+   ],
+   "lev": null,
+   "funding_pct": null,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-10-31T00:10:27+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.23453,
+   "last_ts": "2026-10-31T00:10:27+00:00",
+   "move_pct": -0.12,
+   "closed": false,
+   "rsi": null,
+   "trade_on": "Spot",
+   "market_reason": "only spot is listed",
+   "chart": "charts/LSK-SPOT-HOT-20757.png",
    "setup": "HOT24"
   }
  ],
@@ -3444,7 +3484,7 @@
     "total_pct": -5.43
    }
   },
-  "open": 4
+  "open": 5
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7436,6 +7476,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "eda0e00ee26321e77faaa60ff25bc90cb7d65f4c82cadebf5e292b132749c8c7",
- "generated": "2026-10-31T00:05:27+00:00"
+ "digest": "d2cd322765212dc48f575468eb41d4ca59b92cd6c8e0282c2d88f4f4bb09e5f1",
+ "generated": "2026-10-31T00:10:32+00:00"
 }
