@@ -36,7 +36,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.1297,
-   "last_ts": "2026-10-31T05:40:23+00:00",
+   "last_ts": "2026-10-31T05:45:23+00:00",
    "move_pct": 5.81,
    "closed": false,
    "rsi": 36.7,
@@ -82,9 +82,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 88.386,
-   "last_ts": "2026-10-31T05:40:23+00:00",
-   "move_pct": -3.71,
+   "last": 88.612,
+   "last_ts": "2026-10-31T05:45:23+00:00",
+   "move_pct": -3.46,
    "closed": false,
    "rsi": 61.1,
    "trade_on": "Spot",
@@ -119,7 +119,7 @@
     0.07310544323776039
    ],
    "lev": 1,
-   "funding_pct": 0.008,
+   "funding_pct": 0.0087,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-30T08:00:00+00:00",
@@ -127,55 +127,15 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.07928,
-   "last_ts": "2026-10-31T05:40:23+00:00",
-   "move_pct": -0.33,
+   "last": 0.07939,
+   "last_ts": "2026-10-31T05:45:23+00:00",
+   "move_pct": -0.47,
    "closed": false,
    "rsi": 33.2,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": "charts/1INCH-PERP-1793343600.png",
    "setup": "RETEST"
-  },
-  {
-   "id": "LSK-SPOT-HOT-20757",
-   "kind": "HOT",
-   "score": 408.68,
-   "reasons": [
-    "24h hot mover +24% with volume spike (2.7x the prior 3 days)",
-    "24h volume $2.0M on the OKX spot book, listed 2101 days",
-    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
-    "Stop 0.21613 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
-   ],
-   "coin": "LSK",
-   "market": "SPOT",
-   "side": "LONG",
-   "entry": 0.23482,
-   "sl0": 0.21612956515790965,
-   "sl": 0.21612956515790965,
-   "tps": [
-    0.25351043484209035,
-    0.27220086968418067,
-    0.29089130452627104
-   ],
-   "lev": null,
-   "funding_pct": null,
-   "status": "open",
-   "hits": 0,
-   "opened": "2026-10-31T00:10:27+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.22026,
-   "last_ts": "2026-10-31T05:40:23+00:00",
-   "move_pct": -6.2,
-   "closed": false,
-   "rsi": null,
-   "trade_on": "Spot",
-   "market_reason": "only spot is listed",
-   "chart": "charts/LSK-SPOT-HOT-20757.png",
-   "setup": "HOT24"
   },
   {
    "id": "CAP-DEX-bsc-0x99991c6a-1793408400",
@@ -211,9 +171,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0868409867391125,
-   "last_ts": "2026-10-31T05:40:23+00:00",
-   "move_pct": 2.23,
+   "last": 0.0873655266511283,
+   "last_ts": "2026-10-31T05:45:23+00:00",
+   "move_pct": 2.85,
    "closed": false,
    "rsi": 64.5,
    "trade_on": "On-chain spot (BSC DEX)",
@@ -255,9 +215,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1887,
-   "last_ts": "2026-10-31T05:40:23+00:00",
-   "move_pct": -1.56,
+   "last": 0.1871,
+   "last_ts": "2026-10-31T05:45:23+00:00",
+   "move_pct": -2.4,
    "closed": false,
    "rsi": 75.6,
    "trade_on": "Spot",
@@ -267,6 +227,46 @@
   }
  ],
  "closed": [
+  {
+   "id": "LSK-SPOT-HOT-20757",
+   "kind": "HOT",
+   "score": 408.68,
+   "reasons": [
+    "24h hot mover +24% with volume spike (2.7x the prior 3 days)",
+    "24h volume $2.0M on the OKX spot book, listed 2101 days",
+    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
+    "Stop 0.21613 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
+   ],
+   "coin": "LSK",
+   "market": "SPOT",
+   "side": "LONG",
+   "entry": 0.23482,
+   "sl0": 0.21612956515790965,
+   "sl": 0.21612956515790965,
+   "tps": [
+    0.25351043484209035,
+    0.27220086968418067,
+    0.29089130452627104
+   ],
+   "lev": null,
+   "funding_pct": null,
+   "status": "stopped",
+   "hits": 0,
+   "opened": "2026-10-31T00:10:27+00:00",
+   "closed_at": "2026-10-31T05:45:23+00:00",
+   "exit_price": 0.21612956515790965,
+   "result_r": -1.0,
+   "result_pct": -7.96,
+   "last": 0.21753,
+   "last_ts": "2026-10-31T05:45:23+00:00",
+   "move_pct": -6.2,
+   "closed": true,
+   "rsi": null,
+   "trade_on": "Spot",
+   "market_reason": "only spot is listed",
+   "chart": "charts/LSK-SPOT-HOT-20757.png",
+   "setup": "HOT24"
+  },
   {
    "id": "OP-SPOT-HOT-20757",
    "kind": "HOT",
@@ -2007,7 +2007,7 @@
    "rsi": 36.8,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": "charts/BARD-PERP-1793091600.png",
+   "chart": null,
    "setup": "BREAKOUT20"
   },
   {
@@ -2823,66 +2823,26 @@
    "market_reason": "thin perp market: spot is safer",
    "chart": null,
    "setup": "RANGE_BREAK"
-  },
-  {
-   "id": "T-SPOT-HOT-20751",
-   "kind": "HOT",
-   "score": 1696.92,
-   "reasons": [
-    "24h hot mover +49% with volume spike (20x+ the prior 3 days)",
-    "24h volume $548k on the OKX spot book, listed 1669 days",
-    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
-    "Stop 0.006456 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
-   ],
-   "coin": "T",
-   "market": "SPOT",
-   "side": "LONG",
-   "entry": 0.007028,
-   "sl0": 0.006456029862155572,
-   "sl": 0.007028,
-   "tps": [
-    0.007599970137844429,
-    0.008171940275688856,
-    0.008743910413533285
-   ],
-   "lev": null,
-   "funding_pct": null,
-   "status": "stopped_be",
-   "hits": 1,
-   "opened": "2026-10-25T01:15:23+00:00",
-   "closed_at": "2026-10-25T03:00:32+00:00",
-   "exit_price": 0.007028,
-   "result_r": 0.25,
-   "result_pct": 2.03,
-   "last": 0.006965,
-   "last_ts": "2026-10-25T03:00:32+00:00",
-   "move_pct": -1.98,
-   "closed": true,
-   "rsi": null,
-   "trade_on": "Spot",
-   "market_reason": "only spot is listed",
-   "chart": null,
-   "setup": "HOT24"
   }
  ],
  "stats": {
   "all": {
-   "trades": 82,
+   "trades": 83,
    "wins": 33,
-   "losses": 49,
-   "win_rate": 40.2,
-   "total_r": -2.91,
-   "avg_r": -0.036,
-   "total_pct": -11.55
+   "losses": 50,
+   "win_rate": 39.8,
+   "total_r": -3.91,
+   "avg_r": -0.047,
+   "total_pct": -19.51
   },
   "SPOT": {
-   "trades": 31,
+   "trades": 32,
    "wins": 13,
-   "losses": 18,
-   "win_rate": 41.9,
-   "total_r": 0.53,
-   "avg_r": 0.017,
-   "total_pct": 14.67
+   "losses": 19,
+   "win_rate": 40.6,
+   "total_r": -0.47,
+   "avg_r": -0.015,
+   "total_pct": 6.71
   },
   "PERP": {
    "trades": 48,
@@ -2904,13 +2864,13 @@
   },
   "kinds": {
    "HOT": {
-    "trades": 22,
+    "trades": 23,
     "wins": 10,
-    "losses": 12,
-    "win_rate": 45.5,
-    "total_r": -2.5,
-    "avg_r": -0.114,
-    "total_pct": -26.51
+    "losses": 13,
+    "win_rate": 43.5,
+    "total_r": -3.5,
+    "avg_r": -0.152,
+    "total_pct": -34.47
    },
    "ONCHAIN": {
     "trades": 3,
@@ -3284,13 +3244,13 @@
     "total_pct": 0.7
    },
    "LSK": {
-    "trades": 1,
+    "trades": 2,
     "wins": 1,
-    "losses": 0,
-    "win_rate": 100.0,
-    "total_r": 0.25,
-    "avg_r": 0.25,
-    "total_pct": 1.63
+    "losses": 1,
+    "win_rate": 50.0,
+    "total_r": -0.75,
+    "avg_r": -0.375,
+    "total_pct": -6.33
    },
    "LTC": {
     "trades": 1,
@@ -3545,7 +3505,7 @@
     "total_pct": -5.43
    }
   },
-  "open": 6
+  "open": 5
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7537,6 +7497,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "25faf668e709351f05d9ad7c2ed0a5f2cb90b923e1d3005770c7eaf791657b4b",
- "generated": "2026-10-31T05:40:28+00:00"
+ "digest": "8d8b364d2430c8a51178ff78f7c2bfad8980c253a0aad0b0adf90d96bc97bc1a",
+ "generated": "2026-10-31T05:45:29+00:00"
 }
