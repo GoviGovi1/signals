@@ -1,51 +1,6 @@
 {
  "open": [
   {
-   "id": "ANIME-PERP-1793228400",
-   "kind": "TA",
-   "score": 0,
-   "reasons": [
-    "Chart: Broke the 20-hour low on 1.0x volume",
-    "Timeframes: 1d down, 4h down, 4h structure mixed",
-    "Next support 0.002543 (2.0R away, 4h swing/swing)",
-    "Stop 0.0030724 (structure); targets at the next 1 level(s)",
-    "BTC 4h trend down",
-    "Stronger than BTC by 4.2% over 7d",
-    "OI +6% 24h with breakout",
-    "funding -0.098%/8h: shorts crowded",
-    "Track record: +1.5R on ANIME in the last 45 days (backtest)"
-   ],
-   "coin": "ANIME",
-   "market": "PERP",
-   "side": "SHORT",
-   "entry": 0.002896,
-   "sl0": 0.003072351996318533,
-   "sl": 0.003072351996318533,
-   "tps": [
-    0.002551939823044059,
-    0.0023755878267255263,
-    0.0021992358304069935
-   ],
-   "lev": 1,
-   "funding_pct": 0.0002,
-   "status": "open",
-   "hits": 0,
-   "opened": "2026-10-29T00:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.002816,
-   "last_ts": "2026-10-30T23:56:20+00:00",
-   "move_pct": 2.76,
-   "closed": false,
-   "rsi": 38.0,
-   "trade_on": "Perps 1x",
-   "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": "charts/ANIME-PERP-1793228400.png",
-   "setup": "BREAKOUT20"
-  },
-  {
    "id": "DATA-PERP-1793257200",
    "kind": "TA",
    "score": 2,
@@ -81,7 +36,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.1345,
-   "last_ts": "2026-10-30T23:56:20+00:00",
+   "last_ts": "2026-10-31T00:00:32+00:00",
    "move_pct": 2.32,
    "closed": false,
    "rsi": 36.7,
@@ -127,9 +82,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 90.157,
-   "last_ts": "2026-10-30T23:56:20+00:00",
-   "move_pct": -1.78,
+   "last": 89.975,
+   "last_ts": "2026-10-31T00:00:32+00:00",
+   "move_pct": -1.98,
    "closed": false,
    "rsi": 61.1,
    "trade_on": "Spot",
@@ -172,9 +127,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.07991,
-   "last_ts": "2026-10-30T23:56:20+00:00",
-   "move_pct": -1.13,
+   "last": 0.07992,
+   "last_ts": "2026-10-31T00:00:32+00:00",
+   "move_pct": -1.14,
    "closed": false,
    "rsi": 33.2,
    "trade_on": "Perps 1x",
@@ -184,6 +139,51 @@
   }
  ],
  "closed": [
+  {
+   "id": "ANIME-PERP-1793228400",
+   "kind": "TA",
+   "score": 0,
+   "reasons": [
+    "Chart: Broke the 20-hour low on 1.0x volume",
+    "Timeframes: 1d down, 4h down, 4h structure mixed",
+    "Next support 0.002543 (2.0R away, 4h swing/swing)",
+    "Stop 0.0030724 (structure); targets at the next 1 level(s)",
+    "BTC 4h trend down",
+    "Stronger than BTC by 4.2% over 7d",
+    "OI +6% 24h with breakout",
+    "funding -0.098%/8h: shorts crowded",
+    "Track record: +1.5R on ANIME in the last 45 days (backtest)"
+   ],
+   "coin": "ANIME",
+   "market": "PERP",
+   "side": "SHORT",
+   "entry": 0.002896,
+   "sl0": 0.003072351996318533,
+   "sl": 0.003072351996318533,
+   "tps": [
+    0.002551939823044059,
+    0.0023755878267255263,
+    0.0021992358304069935
+   ],
+   "lev": 1,
+   "funding_pct": 0.0002,
+   "status": "expired",
+   "hits": 0,
+   "opened": "2026-10-29T00:00:00+00:00",
+   "closed_at": "2026-10-31T00:00:32+00:00",
+   "exit_price": 0.002814,
+   "result_r": 0.465,
+   "result_pct": 2.83,
+   "last": 0.002814,
+   "last_ts": "2026-10-31T00:00:32+00:00",
+   "move_pct": 2.76,
+   "closed": true,
+   "rsi": 38.0,
+   "trade_on": "Perps 1x",
+   "market_reason": "shorts need perps; thin perp market, so 1x",
+   "chart": "charts/ANIME-PERP-1793228400.png",
+   "setup": "BREAKOUT20"
+  },
   {
    "id": "INIT-PERP-HOT-20755",
    "kind": "HOT",
@@ -1927,7 +1927,7 @@
    "rsi": 54.2,
    "trade_on": "Perps 1x",
    "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
-   "chart": "charts/TRIA-PERP-1792900800.png",
+   "chart": null,
    "setup": "BOS"
   },
   {
@@ -2740,57 +2740,17 @@
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": null,
    "setup": "RANGE_BREAK"
-  },
-  {
-   "id": "ANIME-SPOT-HOT-20750",
-   "kind": "HOT",
-   "score": 790.02,
-   "reasons": [
-    "24h hot mover +22% with volume spike (8.7x the prior 3 days)",
-    "24h volume $942k on the OKX spot book, listed 639 days",
-    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
-    "Stop 0.0032005 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
-   ],
-   "coin": "ANIME",
-   "market": "SPOT",
-   "side": "LONG",
-   "entry": 0.003488,
-   "sl0": 0.003200459127156733,
-   "sl": 0.003488,
-   "tps": [
-    0.0037755408728432673,
-    0.004063081745686534,
-    0.004350622618529801
-   ],
-   "lev": null,
-   "funding_pct": null,
-   "status": "stopped_be",
-   "hits": 2,
-   "opened": "2026-10-24T18:10:23+00:00",
-   "closed_at": "2026-10-24T22:55:19+00:00",
-   "exit_price": 0.003488,
-   "result_r": 0.75,
-   "result_pct": 6.18,
-   "last": 0.003442,
-   "last_ts": "2026-10-24T22:55:19+00:00",
-   "move_pct": 4.13,
-   "closed": true,
-   "rsi": null,
-   "trade_on": "Spot",
-   "market_reason": "very volatile coin: spot avoids liquidation",
-   "chart": null,
-   "setup": "HOT24"
   }
  ],
  "stats": {
   "all": {
-   "trades": 79,
-   "wins": 32,
+   "trades": 80,
+   "wins": 33,
    "losses": 47,
-   "win_rate": 40.5,
-   "total_r": -1.38,
-   "avg_r": -0.017,
-   "total_pct": -4.77
+   "win_rate": 41.2,
+   "total_r": -0.91,
+   "avg_r": -0.011,
+   "total_pct": -1.94
   },
   "SPOT": {
    "trades": 30,
@@ -2802,13 +2762,13 @@
    "total_pct": 19.37
   },
   "PERP": {
-   "trades": 46,
-   "wins": 17,
+   "trades": 47,
+   "wins": 18,
    "losses": 29,
-   "win_rate": 37.0,
-   "total_r": -4.91,
-   "avg_r": -0.107,
-   "total_pct": -43.73
+   "win_rate": 38.3,
+   "total_r": -4.45,
+   "avg_r": -0.095,
+   "total_pct": -40.9
   },
   "DEX": {
    "trades": 3,
@@ -2839,13 +2799,13 @@
     "total_pct": 19.59
    },
    "TA": {
-    "trades": 56,
-    "wins": 20,
+    "trades": 57,
+    "wins": 21,
     "losses": 36,
-    "win_rate": 35.7,
-    "total_r": -2.88,
-    "avg_r": -0.051,
-    "total_pct": -7.46
+    "win_rate": 36.8,
+    "total_r": -2.41,
+    "avg_r": -0.042,
+    "total_pct": -4.63
    }
   },
   "coins": {
@@ -2895,13 +2855,13 @@
     "total_pct": -15.63
    },
    "ANIME": {
-    "trades": 1,
-    "wins": 1,
+    "trades": 2,
+    "wins": 2,
     "losses": 0,
     "win_rate": 100.0,
-    "total_r": 0.75,
-    "avg_r": 0.75,
-    "total_pct": 6.18
+    "total_r": 1.22,
+    "avg_r": 0.608,
+    "total_pct": 9.01
    },
    "API3": {
     "trades": 2,
@@ -3444,7 +3404,7 @@
     "total_pct": -5.43
    }
   },
-  "open": 4
+  "open": 3
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7436,6 +7396,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "e6d428fb001392bd0e3b2b1ce3a4f6dc01e5eb9669bc8d4885f2bb20edb659a4",
- "generated": "2026-10-30T23:56:23+00:00"
+ "digest": "ba8d68bb1fcbbe8be04bcb4bf0b33e0dce6a5f733d2025070534187aabf516f7",
+ "generated": "2026-10-31T00:01:08+00:00"
 }
