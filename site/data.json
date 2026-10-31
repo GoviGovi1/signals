@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.08046,
-   "last_ts": "2026-10-31T13:15:23+00:00",
-   "move_pct": -1.82,
+   "last": 0.0806,
+   "last_ts": "2026-10-31T13:20:21+00:00",
+   "move_pct": -2.0,
    "closed": false,
    "rsi": 33.2,
    "trade_on": "Perps 1x",
@@ -5994,20 +5994,6 @@
   "unlocks": [
    {
     "big": true,
-    "coin": "EIGEN",
-    "insider_pct": 100,
-    "pct": 4.08,
-    "tokens": 36820227,
-    "tracked": true,
-    "ts": 1793452545,
-    "usd": 6857893,
-    "who": [
-     "Investors",
-     "Early Contributors"
-    ]
-   },
-   {
-    "big": true,
     "coin": "ZETA",
     "insider_pct": 51,
     "pct": 2.68,
@@ -6732,6 +6718,28 @@
     ]
    },
    {
+    "id": "exchange-based-tokens",
+    "name": "Exchange Based Tokens",
+    "chg7d": -4.1,
+    "top": [
+     "BNB",
+     "HYPE",
+     "WBT",
+     "LEO",
+     "UNI"
+    ],
+    "tracked": [
+     "BNB",
+     "HYPE",
+     "UNI",
+     "PUMP",
+     "OKB",
+     "CRV",
+     "ASTER",
+     "PENDLE"
+    ]
+   },
+   {
     "id": "meme-token",
     "name": "Meme Token",
     "chg7d": -4.38,
@@ -6793,28 +6801,6 @@
      "LIT",
      "AAVE",
      "ONDO"
-    ]
-   },
-   {
-    "id": "exchange-based-tokens",
-    "name": "Exchange Based Tokens",
-    "chg7d": -5.24,
-    "top": [
-     "BNB",
-     "HYPE",
-     "WBT",
-     "LEO",
-     "UNI"
-    ],
-    "tracked": [
-     "BNB",
-     "HYPE",
-     "UNI",
-     "PUMP",
-     "OKB",
-     "CRV",
-     "ASTER",
-     "PENDLE"
     ]
    },
    {
@@ -7293,7 +7279,7 @@
   "updated": {
    "unlocks": 1793441422,
    "onchain": 1793451319,
-   "sectors": 1793451921,
+   "sectors": 1793452821,
    "listings": 1793452238,
    "fundamentals": 1793441422
   }
@@ -7332,6 +7318,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "0668ebe9d41cd466ebf85c7adbac21903b178e991c6aa6aa55cd8a3f51502a6a",
- "generated": "2026-10-31T13:15:25+00:00"
+ "digest": "eb4932f0cf55ba8a13a7a2034786560f579351cc60bbb73f93f3dbd9c9323889",
+ "generated": "2026-10-31T13:20:23+00:00"
 }
