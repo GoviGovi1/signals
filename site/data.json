@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04089,
-   "last_ts": "2026-10-31T22:50:23+00:00",
-   "move_pct": 0.64,
+   "last": 0.04087,
+   "last_ts": "2026-10-31T22:56:20+00:00",
+   "move_pct": 0.59,
    "closed": false,
    "rsi": 64.4,
    "trade_on": "Spot",
@@ -72,7 +72,7 @@
     0.0442734926160737
    ],
    "lev": 1,
-   "funding_pct": -0.0013,
+   "funding_pct": 0.0002,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-31T20:00:00+00:00",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.05156,
-   "last_ts": "2026-10-31T22:50:23+00:00",
-   "move_pct": 0.27,
+   "last": 0.05167,
+   "last_ts": "2026-10-31T22:56:20+00:00",
+   "move_pct": 0.06,
    "closed": false,
    "rsi": 41.1,
    "trade_on": "Perps 1x",
@@ -6656,47 +6656,47 @@
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
   "onchain": [
    {
-    "chain": "BSC",
-    "symbol": "HANA",
-    "name": "Hana Token",
-    "token": "0x6261963ebe9ff014aad10ecc3b0238d4d04e8353",
-    "price": 0.0156381187877868,
-    "liq": 988677,
-    "vol24h": 3141419,
-    "age_d": 401.8,
-    "chg24h": 14.947,
-    "chg7d": 24.6,
-    "mcap": 3748690.6512,
+    "chain": "Ethereum",
+    "symbol": "PAXG",
+    "name": "Paxos Gold",
+    "token": "0x45804880de22913dafe09f4980848ece6ecbaf78",
+    "price": 3905.42204858711,
+    "liq": 6419836,
+    "vol24h": 3819977,
+    "age_d": 374.4,
+    "chg24h": 0.028,
+    "chg7d": -2.8,
+    "mcap": 1742252456.82916,
     "safety": "unknown",
     "safety_notes": [
      "safety not checked"
     ],
     "trigger": false,
-    "trend_up": true,
-    "rsi": 58.8,
-    "url": "https://www.geckoterminal.com/bsc/pools/0xd21bc2291c1aef340f5265e257b18aa5dafed759"
+    "trend_up": false,
+    "rsi": 44.5,
+    "url": "https://www.geckoterminal.com/eth/pools/0xc756bba710d45647715079ce50aa16aab36ded42"
    },
    {
     "chain": "Solana",
     "symbol": "CARDS",
     "name": "Collector Crypt",
     "token": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
-    "price": 0.23945900874432927,
-    "liq": 3620449,
-    "vol24h": 1702402,
-    "age_d": 428.1,
-    "chg24h": -3.817,
-    "chg7d": -27.0,
-    "mcap": 211989083.492678,
+    "price": 0.239542384591476,
+    "liq": 3614722,
+    "vol24h": 1671857,
+    "age_d": 428.2,
+    "chg24h": -4.318,
+    "chg7d": -24.8,
+    "mcap": 212062894.79225,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 33.7,
+    "rsi": 39.1,
     "url": "https://www.geckoterminal.com/solana/pools/HnhpJPJgBG2KwniMTNW8cVBHvk1hFog3RC3kjnyc23tD"
    }
   ],
-  "onchain_checked": 85,
+  "onchain_checked": 86,
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
@@ -7282,7 +7282,7 @@
   ],
   "updated": {
    "unlocks": 1793484626,
-   "onchain": 1793483718,
+   "onchain": 1793487320,
    "sectors": 1793487023,
    "listings": 1793486724,
    "fundamentals": 1793484628
@@ -7322,6 +7322,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "437cc87fbbc34f486c016b49c20c6aee90ff58cf4059820c7ff091a8e02c120f",
- "generated": "2026-10-31T22:50:25+00:00"
+ "digest": "e8d648a6f5884724b7548faa7a64f03d4e2dee2e0479f490765a88244cf2575d",
+ "generated": "2026-10-31T22:56:22+00:00"
 }
