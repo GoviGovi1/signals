@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0794,
-   "last_ts": "2026-10-31T09:50:20+00:00",
-   "move_pct": -0.48,
+   "last": 0.07942,
+   "last_ts": "2026-10-31T09:56:19+00:00",
+   "move_pct": -0.51,
    "closed": false,
    "rsi": 33.2,
    "trade_on": "Perps 1x",
@@ -6734,44 +6734,44 @@
   "onchain": [
    {
     "chain": "BSC",
-    "symbol": "COLLECT",
-    "name": "Collect on Fanable",
-    "token": "0x4b3d30992f003c8167699735f5ab2831b2a087d3",
-    "price": 0.0251890931814526,
-    "liq": 2364121,
-    "vol24h": 3517607,
-    "age_d": 308.9,
-    "chg24h": 9.359,
-    "chg7d": 7.7,
-    "mcap": 13531033.17927,
+    "symbol": "ARK",
+    "name": "ARK",
+    "token": "0xcae117ca6bc8a341d2e7207f30e180f0e5618b9d",
+    "price": 6.48420738232164,
+    "liq": 58232903,
+    "vol24h": 3927571,
+    "age_d": 430.9,
+    "chg24h": 3.096,
+    "chg7d": 1.4,
+    "mcap": 0.0,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": true,
-    "rsi": 68.5,
-    "url": "https://www.geckoterminal.com/bsc/pools/0xef470f9ae8512d2762e4f1cd91ae58caea17143afa61b8d56e9b20c8f87688c4"
+    "rsi": 57.1,
+    "url": "https://www.geckoterminal.com/bsc/pools/0xcaaf3c41a40103a23eeaa4bba468af3cf5b0e0d8"
    },
    {
-    "chain": "Arbitrum",
-    "symbol": "ARB",
-    "name": "Arbitrum",
-    "token": "0x912ce59144191c1204e64559fe8253a0e49e6548",
-    "price": 0.161353942265824,
-    "liq": 1805523,
-    "vol24h": 4898501,
-    "age_d": 1324.3,
-    "chg24h": -1.248,
-    "chg7d": -4.4,
-    "mcap": 1112069931.03694,
+    "chain": "Solana",
+    "symbol": "STONK",
+    "name": "STONK",
+    "token": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
+    "price": 0.1297815958086331,
+    "liq": 2515463,
+    "vol24h": 1421198,
+    "age_d": 80.0,
+    "chg24h": -3.325,
+    "chg7d": 18.4,
+    "mcap": 101337490.535522,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 45.9,
-    "url": "https://www.geckoterminal.com/arbitrum/pools/0xc6f780497a95e246eb9449f5e4770916dcd6396a"
+    "rsi": 41.9,
+    "url": "https://www.geckoterminal.com/solana/pools/zxTpi4BtaWX3mgdAPoezkMD1hxx8CdeCfrqXMWvSCLX"
    }
   ],
-  "onchain_checked": 81,
+  "onchain_checked": 80,
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
@@ -7359,7 +7359,7 @@
   ],
   "updated": {
    "unlocks": 1793419533,
-   "onchain": 1793436924,
+   "onchain": 1793440520,
    "sectors": 1793440220,
    "listings": 1793436924,
    "fundamentals": 1793419533
@@ -7399,6 +7399,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "e230ca5cfe3748561b6d06e19eac1e8714fcdd024cd91c20f5356b4b11962ed4",
- "generated": "2026-10-31T09:50:25+00:00"
+ "digest": "7159fcb9fa70a5cd7ec25425d293da9bd2de5d2b8cf5699258f4096e4ed85ae7",
+ "generated": "2026-10-31T09:56:23+00:00"
 }
