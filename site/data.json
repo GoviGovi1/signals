@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04071,
-   "last_ts": "2026-11-01T00:56:22+00:00",
-   "move_pct": 0.19,
+   "last": 0.040735,
+   "last_ts": "2026-11-01T01:00:30+00:00",
+   "move_pct": 0.26,
    "closed": false,
    "rsi": 64.4,
    "trade_on": "Spot",
@@ -80,14 +80,58 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.05158,
-   "last_ts": "2026-11-01T00:56:22+00:00",
-   "move_pct": 0.23,
+   "last": 0.05162,
+   "last_ts": "2026-11-01T01:00:30+00:00",
+   "move_pct": 0.15,
    "closed": false,
    "rsi": 41.1,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": "charts/BASED-PERP-1793473200.png",
+   "setup": "BREAKOUT20"
+  },
+  {
+   "id": "TRUST-PERP-1793491200",
+   "kind": "TA",
+   "score": 1,
+   "reasons": [
+    "Chart: Broke the 20-hour low on 2.9x volume",
+    "Timeframes: 1d down, 4h down, 4h structure mixed",
+    "Next support 0.0447 (3.5R away, 4h swing)",
+    "Stop 0.051342 (structure); targets at the next 1 level(s)",
+    "BTC 4h trend down",
+    "Stronger than BTC by 3.8% over 7d",
+    "OI +58% 24h with breakout",
+    "Track record: +0.7R on TRUST in the last 45 days (backtest)"
+   ],
+   "coin": "TRUST",
+   "market": "PERP",
+   "side": "SHORT",
+   "entry": 0.04986,
+   "sl0": 0.05134180662114061,
+   "sl": 0.05134180662114061,
+   "tps": [
+    0.04481947878226841,
+    0.043337672161127806,
+    0.0418558655399872
+   ],
+   "lev": 1,
+   "funding_pct": 0.005,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-11-01T01:00:00+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.04987,
+   "last_ts": "2026-11-01T01:00:30+00:00",
+   "move_pct": -0.02,
+   "closed": false,
+   "rsi": 35.4,
+   "trade_on": "Perps 1x",
+   "market_reason": "shorts need perps; thin perp market, so 1x",
+   "chart": "charts/TRUST-PERP-1793491200.png",
    "setup": "BREAKOUT20"
   }
  ],
@@ -3407,7 +3451,7 @@
     "total_pct": -5.43
    }
   },
-  "open": 2
+  "open": 3
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7320,6 +7364,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "1517f0ed7ec0e07818ea772e287a337484c38a3d25fe9dd39fd3dfeb9a27f92a",
- "generated": "2026-11-01T00:56:24+00:00"
+ "digest": "9d9a431c575765f93ae3fe0fe4cd44c9857476d05f80486cb6eeab37ed4dff30",
+ "generated": "2026-11-01T01:01:01+00:00"
 }
