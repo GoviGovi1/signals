@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.041018,
-   "last_ts": "2026-11-01T04:00:34+00:00",
-   "move_pct": 0.95,
+   "last": 0.041157,
+   "last_ts": "2026-11-01T04:05:22+00:00",
+   "move_pct": 1.29,
    "closed": false,
    "rsi": 64.4,
    "trade_on": "Spot",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.05156,
-   "last_ts": "2026-11-01T04:00:34+00:00",
-   "move_pct": 0.27,
+   "last": 0.05153,
+   "last_ts": "2026-11-01T04:05:22+00:00",
+   "move_pct": 0.33,
    "closed": false,
    "rsi": 41.1,
    "trade_on": "Perps 1x",
@@ -124,9 +124,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04991,
-   "last_ts": "2026-11-01T04:00:34+00:00",
-   "move_pct": -0.1,
+   "last": 0.04992,
+   "last_ts": "2026-11-01T04:05:22+00:00",
+   "move_pct": -0.12,
    "closed": false,
    "rsi": 35.4,
    "trade_on": "Perps 1x",
@@ -161,7 +161,7 @@
     0.0033691924291815744
    ],
    "lev": 1,
-   "funding_pct": -0.0035,
+   "funding_pct": -0.0037,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-01T03:00:00+00:00",
@@ -169,9 +169,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.004025,
-   "last_ts": "2026-11-01T04:00:34+00:00",
-   "move_pct": -1.28,
+   "last": 0.004024,
+   "last_ts": "2026-11-01T04:05:22+00:00",
+   "move_pct": -1.26,
    "closed": false,
    "rsi": 34.0,
    "trade_on": "Perps 1x",
@@ -6853,26 +6853,6 @@
     ]
    },
    {
-    "id": "lending-borrowing",
-    "name": "Lending Borrowing",
-    "chg7d": -3.93,
-    "top": [
-     "AAVE",
-     "MORPHO",
-     "OHM",
-     "COMP",
-     "KMNO"
-    ],
-    "tracked": [
-     "AAVE",
-     "CAP",
-     "SPK",
-     "MORPHO",
-     "COMP",
-     "KMNO"
-    ]
-   },
-   {
     "id": "meme-token",
     "name": "Meme Token",
     "chg7d": -3.99,
@@ -6914,6 +6894,26 @@
      "CRV",
      "ASTER",
      "PENDLE"
+    ]
+   },
+   {
+    "id": "lending-borrowing",
+    "name": "Lending Borrowing",
+    "chg7d": -4.17,
+    "top": [
+     "AAVE",
+     "MORPHO",
+     "OHM",
+     "COMP",
+     "KMNO"
+    ],
+    "tracked": [
+     "AAVE",
+     "CAP",
+     "SPK",
+     "MORPHO",
+     "COMP",
+     "KMNO"
     ]
    },
    {
@@ -7370,7 +7370,7 @@
   "updated": {
    "unlocks": 1793484626,
    "onchain": 1793505320,
-   "sectors": 1793505024,
+   "sectors": 1793505922,
    "listings": 1793505634,
    "fundamentals": 1793484628
   }
@@ -7409,6 +7409,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "18c688186f0654db4d55838459e60051ca1f5399c1fb8c10c9304fe2a339d355",
- "generated": "2026-11-01T04:01:07+00:00"
+ "digest": "6f072f9e7645e3d92472452d96751d877ed4b5bf4c3aa3a4434035613983346a",
+ "generated": "2026-11-01T04:05:25+00:00"
 }
