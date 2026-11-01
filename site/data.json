@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.041417,
-   "last_ts": "2026-11-01T05:56:21+00:00",
-   "move_pct": 1.93,
+   "last": 0.041542,
+   "last_ts": "2026-11-01T06:00:30+00:00",
+   "move_pct": 2.24,
    "closed": false,
    "rsi": 64.4,
    "trade_on": "Spot",
@@ -72,7 +72,7 @@
     0.0442734926160737
    ],
    "lev": 1,
-   "funding_pct": -0.0001,
+   "funding_pct": 0.0003,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-31T20:00:00+00:00",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.05187,
-   "last_ts": "2026-11-01T05:56:21+00:00",
-   "move_pct": -0.33,
+   "last": 0.05191,
+   "last_ts": "2026-11-01T06:00:30+00:00",
+   "move_pct": -0.41,
    "closed": false,
    "rsi": 41.1,
    "trade_on": "Perps 1x",
@@ -124,9 +124,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04994,
-   "last_ts": "2026-11-01T05:56:21+00:00",
-   "move_pct": -0.16,
+   "last": 0.05004,
+   "last_ts": "2026-11-01T06:00:30+00:00",
+   "move_pct": -0.36,
    "closed": false,
    "rsi": 35.4,
    "trade_on": "Perps 1x",
@@ -161,7 +161,7 @@
     0.0033691924291815744
    ],
    "lev": 1,
-   "funding_pct": 0.0008,
+   "funding_pct": 0.0014,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-01T03:00:00+00:00",
@@ -169,14 +169,58 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.004023,
-   "last_ts": "2026-11-01T05:56:21+00:00",
-   "move_pct": -1.23,
+   "last": 0.004016,
+   "last_ts": "2026-11-01T06:00:30+00:00",
+   "move_pct": -1.06,
    "closed": false,
    "rsi": 34.0,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": "charts/KAT-PERP-1793498400.png",
+   "setup": "BREAKOUT20"
+  },
+  {
+   "id": "OFC-PERP-1793509200",
+   "kind": "TA",
+   "score": 0,
+   "reasons": [
+    "Chart: Broke the 20-hour low on 0.8x volume",
+    "Timeframes: 1d down, 4h down, 4h structure lower highs/lows",
+    "Next support 0.0058065 (3.0R away, 4h swing/swing)",
+    "Stop 0.0062065 (structure); targets at the next 3 level(s)",
+    "BTC 4h trend down",
+    "Stronger than BTC by 6.3% over 7d",
+    "OI +0% 24h",
+    "Track record: +3.3R on OFC in the last 45 days (backtest)"
+   ],
+   "coin": "OFC",
+   "market": "PERP",
+   "side": "SHORT",
+   "entry": 0.006107,
+   "sl0": 0.0062064821362278946,
+   "sl": 0.0062064821362278946,
+   "tps": [
+    0.005815920616044233,
+    0.005648602097525711,
+    0.0055754020975257125
+   ],
+   "lev": 1,
+   "funding_pct": 0.005,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-11-01T06:00:00+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.0061,
+   "last_ts": "2026-11-01T06:00:30+00:00",
+   "move_pct": 0.11,
+   "closed": false,
+   "rsi": 37.6,
+   "trade_on": "Perps 1x",
+   "market_reason": "shorts need perps; thin perp market, so 1x",
+   "chart": "charts/OFC-PERP-1793509200.png",
    "setup": "BREAKOUT20"
   }
  ],
@@ -3496,7 +3540,7 @@
     "total_pct": -5.43
    }
   },
-  "open": 4
+  "open": 5
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7425,6 +7469,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "ca0cab5e582c643eaad81829ba2188bde08ca8ef7e2a9229898b221502b6360d",
- "generated": "2026-11-01T05:56:23+00:00"
+ "digest": "b2c6d4ae065f5ad8d03e980fc23606ad744deaea90033d1562a64c603e023e22",
+ "generated": "2026-11-01T06:01:06+00:00"
 }
