@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.041632,
-   "last_ts": "2026-11-01T13:00:30+00:00",
-   "move_pct": 2.46,
+   "last": 0.041683,
+   "last_ts": "2026-11-01T13:05:21+00:00",
+   "move_pct": 2.59,
    "closed": false,
    "rsi": 64.4,
    "trade_on": "Spot",
@@ -72,7 +72,7 @@
     0.0442734926160737
    ],
    "lev": 1,
-   "funding_pct": 0.0007,
+   "funding_pct": 0.0008,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-31T20:00:00+00:00",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.05145,
-   "last_ts": "2026-11-01T13:00:30+00:00",
-   "move_pct": 0.48,
+   "last": 0.05171,
+   "last_ts": "2026-11-01T13:05:21+00:00",
+   "move_pct": -0.02,
    "closed": false,
    "rsi": 41.1,
    "trade_on": "Perps 1x",
@@ -124,9 +124,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04981,
-   "last_ts": "2026-11-01T13:00:30+00:00",
-   "move_pct": 0.1,
+   "last": 0.0499,
+   "last_ts": "2026-11-01T13:05:21+00:00",
+   "move_pct": -0.08,
    "closed": false,
    "rsi": 35.4,
    "trade_on": "Perps 1x",
@@ -168,9 +168,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.005845,
-   "last_ts": "2026-11-01T13:00:30+00:00",
-   "move_pct": 4.29,
+   "last": 0.005859,
+   "last_ts": "2026-11-01T13:05:21+00:00",
+   "move_pct": 4.06,
    "closed": false,
    "rsi": 37.6,
    "trade_on": "Perps 1x",
@@ -213,9 +213,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04237,
-   "last_ts": "2026-11-01T13:00:30+00:00",
-   "move_pct": -2.1,
+   "last": 0.04236,
+   "last_ts": "2026-11-01T13:05:21+00:00",
+   "move_pct": -2.13,
    "closed": false,
    "rsi": 55.5,
    "trade_on": "Perps 1x",
@@ -258,9 +258,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.07051,
-   "last_ts": "2026-11-01T13:00:30+00:00",
-   "move_pct": -0.17,
+   "last": 0.07057,
+   "last_ts": "2026-11-01T13:05:21+00:00",
+   "move_pct": -0.26,
    "closed": false,
    "rsi": 39.5,
    "trade_on": "Perps 1x",
@@ -290,7 +290,7 @@
     0.05145710271297898
    ],
    "lev": 1,
-   "funding_pct": -0.5243,
+   "funding_pct": -0.5614,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-01T12:15:25+00:00",
@@ -298,9 +298,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04504,
-   "last_ts": "2026-11-01T13:00:30+00:00",
-   "move_pct": 1.33,
+   "last": 0.04538,
+   "last_ts": "2026-11-01T13:05:21+00:00",
+   "move_pct": 2.09,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -6925,28 +6925,6 @@
     ]
    },
    {
-    "id": "zero-knowledge-zk",
-    "name": "Zero Knowledge ZK",
-    "chg7d": -2.15,
-    "top": [
-     "ZEC",
-     "POL",
-     "NIGHT",
-     "STRK",
-     "RAIL"
-    ],
-    "tracked": [
-     "ZEC",
-     "STRK",
-     "LA",
-     "NIGHT",
-     "POL",
-     "ZK",
-     "PROVE",
-     "MAGIC"
-    ]
-   },
-   {
     "id": "decentralized-exchange",
     "name": "Decentralized Exchange",
     "chg7d": -2.45,
@@ -7010,6 +6988,28 @@
      "AXS",
      "FLOKI",
      "IMX"
+    ]
+   },
+   {
+    "id": "zero-knowledge-zk",
+    "name": "Zero Knowledge ZK",
+    "chg7d": -2.8,
+    "top": [
+     "ZEC",
+     "POL",
+     "NIGHT",
+     "STRK",
+     "RAIL"
+    ],
+    "tracked": [
+     "ZEC",
+     "STRK",
+     "LA",
+     "NIGHT",
+     "POL",
+     "ZK",
+     "PROVE",
+     "MAGIC"
     ]
    },
    {
@@ -7486,7 +7486,7 @@
   "updated": {
    "unlocks": 1793528123,
    "onchain": 1793537721,
-   "sectors": 1793537422,
+   "sectors": 1793538321,
    "listings": 1793535920,
    "fundamentals": 1793528123
   }
@@ -7525,6 +7525,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "aa37a12548b74f6c068558e083feb373ca774bf7f191997131443a2ade13c4d1",
- "generated": "2026-11-01T13:00:57+00:00"
+ "digest": "4fbab1769c119fe746b485104d84392b56d945fa9a49a5ffecc7b60427e6b049",
+ "generated": "2026-11-01T13:05:25+00:00"
 }
