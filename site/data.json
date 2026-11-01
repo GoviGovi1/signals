@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.041781,
-   "last_ts": "2026-11-01T14:20:25+00:00",
-   "move_pct": 2.83,
+   "last": 0.041727,
+   "last_ts": "2026-11-01T14:25:20+00:00",
+   "move_pct": 2.7,
    "closed": false,
    "rsi": 64.4,
    "trade_on": "Spot",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.05194,
-   "last_ts": "2026-11-01T14:20:25+00:00",
-   "move_pct": -0.46,
+   "last": 0.05178,
+   "last_ts": "2026-11-01T14:25:20+00:00",
+   "move_pct": -0.15,
    "closed": false,
    "rsi": 41.1,
    "trade_on": "Perps 1x",
@@ -124,9 +124,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.05002,
-   "last_ts": "2026-11-01T14:20:25+00:00",
-   "move_pct": -0.32,
+   "last": 0.04987,
+   "last_ts": "2026-11-01T14:25:20+00:00",
+   "move_pct": -0.02,
    "closed": false,
    "rsi": 35.4,
    "trade_on": "Perps 1x",
@@ -160,7 +160,7 @@
     0.0055754020975257125
    ],
    "lev": 1,
-   "funding_pct": 0.0266,
+   "funding_pct": 0.0388,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-01T06:00:00+00:00",
@@ -168,60 +168,15 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.005965,
-   "last_ts": "2026-11-01T14:20:25+00:00",
-   "move_pct": 2.33,
+   "last": 0.005935,
+   "last_ts": "2026-11-01T14:25:20+00:00",
+   "move_pct": 2.82,
    "closed": false,
    "rsi": 37.6,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": "charts/OFC-PERP-1793509200.png",
    "setup": "BREAKOUT20"
-  },
-  {
-   "id": "ZKP-PERP-1793516400",
-   "kind": "TA",
-   "score": 1,
-   "reasons": [
-    "Chart: Break of structure: closed above the last swing high 0.0428, after a higher low",
-    "Timeframes: 1d down, 4h down, 4h structure higher highs/lows",
-    "Next resistance 0.047638 (3.2R away, 4h swing)",
-    "Stop 0.041897 (2 ATR); targets at the next 2 level(s)",
-    "BTC 4h trend down",
-    "Stronger than BTC by 7.0% over 7d",
-    "OI +4% 24h",
-    "Sector: Zero Knowledge ZK -3.5% 7d (leading, #2 of 20)",
-    "Track record: +0.5R on ZKP in the last 45 days (backtest)"
-   ],
-   "coin": "ZKP",
-   "market": "PERP",
-   "side": "LONG",
-   "entry": 0.04328,
-   "sl0": 0.04189709996511561,
-   "sl": 0.04189709996511561,
-   "tps": [
-    0.04753413964024081,
-    0.04983275308561898,
-    0.051215653120503364
-   ],
-   "lev": 1,
-   "funding_pct": 0.005,
-   "status": "open",
-   "hits": 0,
-   "opened": "2026-11-01T08:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.04212,
-   "last_ts": "2026-11-01T14:20:25+00:00",
-   "move_pct": -2.68,
-   "closed": false,
-   "rsi": 55.5,
-   "trade_on": "Perps 1x",
-   "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
-   "chart": "charts/ZKP-PERP-1793516400.png",
-   "setup": "BOS"
   },
   {
    "id": "ZBT-PERP-1793530800",
@@ -258,9 +213,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.07057,
-   "last_ts": "2026-11-01T14:20:25+00:00",
-   "move_pct": -0.26,
+   "last": 0.07055,
+   "last_ts": "2026-11-01T14:25:20+00:00",
+   "move_pct": -0.23,
    "closed": false,
    "rsi": 39.5,
    "trade_on": "Perps 1x",
@@ -270,6 +225,51 @@
   }
  ],
  "closed": [
+  {
+   "id": "ZKP-PERP-1793516400",
+   "kind": "TA",
+   "score": 1,
+   "reasons": [
+    "Chart: Break of structure: closed above the last swing high 0.0428, after a higher low",
+    "Timeframes: 1d down, 4h down, 4h structure higher highs/lows",
+    "Next resistance 0.047638 (3.2R away, 4h swing)",
+    "Stop 0.041897 (2 ATR); targets at the next 2 level(s)",
+    "BTC 4h trend down",
+    "Stronger than BTC by 7.0% over 7d",
+    "OI +4% 24h",
+    "Sector: Zero Knowledge ZK -3.5% 7d (leading, #2 of 20)",
+    "Track record: +0.5R on ZKP in the last 45 days (backtest)"
+   ],
+   "coin": "ZKP",
+   "market": "PERP",
+   "side": "LONG",
+   "entry": 0.04328,
+   "sl0": 0.04189709996511561,
+   "sl": 0.04189709996511561,
+   "tps": [
+    0.04753413964024081,
+    0.04983275308561898,
+    0.051215653120503364
+   ],
+   "lev": 1,
+   "funding_pct": 0.005,
+   "status": "stopped",
+   "hits": 0,
+   "opened": "2026-11-01T08:00:00+00:00",
+   "closed_at": "2026-11-01T14:25:20+00:00",
+   "exit_price": 0.04189709996511561,
+   "result_r": -1.0,
+   "result_pct": -3.2,
+   "last": 0.04211,
+   "last_ts": "2026-11-01T14:25:20+00:00",
+   "move_pct": -2.68,
+   "closed": true,
+   "rsi": 55.5,
+   "trade_on": "Perps 1x",
+   "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
+   "chart": "charts/ZKP-PERP-1793516400.png",
+   "setup": "BOS"
+  },
   {
    "id": "FLOCK-PERP-HOT-20758",
    "kind": "HOT",
@@ -2010,7 +2010,7 @@
    "rsi": 37.8,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": "charts/KITE-PERP-1793188800.png",
+   "chart": null,
    "setup": "BREAKOUT20"
   },
   {
@@ -2836,57 +2836,17 @@
    "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
    "chart": null,
    "setup": "RANGE_BREAK"
-  },
-  {
-   "id": "RLS-PERP-HOT-20752",
-   "kind": "HOT",
-   "score": 965.32,
-   "reasons": [
-    "24h hot mover +22% with volume spike (20x+ the prior 3 days)",
-    "24h volume $25.3M on the OKX perp book, listed 327 days",
-    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
-    "Stop 0.0021102 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
-   ],
-   "coin": "RLS",
-   "market": "PERP",
-   "side": "LONG",
-   "entry": 0.002398,
-   "sl0": 0.00211024,
-   "sl": 0.002398,
-   "tps": [
-    0.0026857599999999997,
-    0.00297352,
-    0.00326128
-   ],
-   "lev": 1,
-   "funding_pct": -0.0128,
-   "status": "stopped_be",
-   "hits": 2,
-   "opened": "2026-10-26T01:00:30+00:00",
-   "closed_at": "2026-10-26T08:30:34+00:00",
-   "exit_price": 0.002398,
-   "result_r": 0.75,
-   "result_pct": 9.0,
-   "last": 0.00242,
-   "last_ts": "2026-10-26T08:30:34+00:00",
-   "move_pct": 2.88,
-   "closed": true,
-   "rsi": null,
-   "trade_on": "Perps 1x",
-   "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
-   "chart": null,
-   "setup": "HOT24"
   }
  ],
  "stats": {
   "all": {
-   "trades": 92,
+   "trades": 93,
    "wins": 35,
-   "losses": 57,
-   "win_rate": 38.0,
-   "total_r": -9.26,
-   "avg_r": -0.101,
-   "total_pct": -36.75
+   "losses": 58,
+   "win_rate": 37.6,
+   "total_r": -10.26,
+   "avg_r": -0.11,
+   "total_pct": -39.95
   },
   "SPOT": {
    "trades": 36,
@@ -2898,13 +2858,13 @@
    "total_pct": 0.52
   },
   "PERP": {
-   "trades": 52,
+   "trades": 53,
    "wins": 19,
-   "losses": 33,
-   "win_rate": 36.5,
-   "total_r": -7.55,
-   "avg_r": -0.145,
-   "total_pct": -50.86
+   "losses": 34,
+   "win_rate": 35.8,
+   "total_r": -8.55,
+   "avg_r": -0.161,
+   "total_pct": -54.06
   },
   "DEX": {
    "trades": 4,
@@ -2935,13 +2895,13 @@
     "total_pct": 13.59
    },
    "TA": {
-    "trades": 63,
+    "trades": 64,
     "wins": 22,
-    "losses": 41,
-    "win_rate": 34.9,
-    "total_r": -6.51,
-    "avg_r": -0.103,
-    "total_pct": -15.07
+    "losses": 42,
+    "win_rate": 34.4,
+    "total_r": -7.51,
+    "avg_r": -0.117,
+    "total_pct": -18.27
    }
   },
   "coins": {
@@ -3601,9 +3561,18 @@
     "total_r": -2.0,
     "avg_r": -1.0,
     "total_pct": -5.43
+   },
+   "ZKP": {
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate": 0.0,
+    "total_r": -1.0,
+    "avg_r": -1.0,
+    "total_pct": -3.2
    }
   },
-  "open": 6
+  "open": 5
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7494,6 +7463,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "d127fdaf43c1e5c73cb650b5fdfb601fb24313073f274d5593ef10191f08af52",
- "generated": "2026-11-01T14:20:30+00:00"
+ "digest": "e4836c7ed883ac50c1ac08fd065113bbc5406c732cd72274ba073d9870384001",
+ "generated": "2026-11-01T14:25:24+00:00"
 }
