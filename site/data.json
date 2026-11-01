@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.041341,
-   "last_ts": "2026-11-01T05:45:20+00:00",
-   "move_pct": 1.75,
+   "last": 0.041351,
+   "last_ts": "2026-11-01T05:50:23+00:00",
+   "move_pct": 1.77,
    "closed": false,
    "rsi": 64.4,
    "trade_on": "Spot",
@@ -72,7 +72,7 @@
     0.0442734926160737
    ],
    "lev": 1,
-   "funding_pct": -0.0008,
+   "funding_pct": -0.0003,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-31T20:00:00+00:00",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.05162,
-   "last_ts": "2026-11-01T05:45:20+00:00",
-   "move_pct": 0.15,
+   "last": 0.05174,
+   "last_ts": "2026-11-01T05:50:23+00:00",
+   "move_pct": -0.08,
    "closed": false,
    "rsi": 41.1,
    "trade_on": "Perps 1x",
@@ -124,9 +124,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04993,
-   "last_ts": "2026-11-01T05:45:20+00:00",
-   "move_pct": -0.14,
+   "last": 0.04996,
+   "last_ts": "2026-11-01T05:50:23+00:00",
+   "move_pct": -0.2,
    "closed": false,
    "rsi": 35.4,
    "trade_on": "Perps 1x",
@@ -161,7 +161,7 @@
     0.0033691924291815744
    ],
    "lev": 1,
-   "funding_pct": -0.0024,
+   "funding_pct": -0.0015,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-01T03:00:00+00:00",
@@ -169,9 +169,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.00401,
-   "last_ts": "2026-11-01T05:45:20+00:00",
-   "move_pct": -0.91,
+   "last": 0.004019,
+   "last_ts": "2026-11-01T05:50:23+00:00",
+   "move_pct": -1.13,
    "closed": false,
    "rsi": 34.0,
    "trade_on": "Perps 1x",
@@ -7032,9 +7032,25 @@
     ]
    },
    {
+    "id": "interoperability",
+    "name": "Interoperability",
+    "chg7d": -5.62,
+    "top": [
+     "TRAC",
+     "W",
+     "CKB",
+     "AXL",
+     "PHA"
+    ],
+    "tracked": [
+     "W",
+     "PHA"
+    ]
+   },
+   {
     "id": "artificial-intelligence",
     "name": "Artificial Intelligence",
-    "chg7d": -5.19,
+    "chg7d": -5.8,
     "top": [
      "NEAR",
      "TAO",
@@ -7051,22 +7067,6 @@
      "VVV",
      "VIRTUAL",
      "EIGEN"
-    ]
-   },
-   {
-    "id": "interoperability",
-    "name": "Interoperability",
-    "chg7d": -5.62,
-    "top": [
-     "TRAC",
-     "W",
-     "CKB",
-     "AXL",
-     "PHA"
-    ],
-    "tracked": [
-     "W",
-     "PHA"
     ]
    },
    {
@@ -7384,7 +7384,7 @@
   "updated": {
    "unlocks": 1793506522,
    "onchain": 1793508922,
-   "sectors": 1793511321,
+   "sectors": 1793512223,
    "listings": 1793509521,
    "fundamentals": 1793506523
   }
@@ -7423,6 +7423,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "a0f1a3cfb17bd2e65fe363b42c133d156e2eba948c3c3b3529f1a81482cbd34d",
- "generated": "2026-11-01T05:45:23+00:00"
+ "digest": "55e8430a7a938161b7d735e00d5bad61acf4e0fbeefef6eb14f65c16f3cf8f6e",
+ "generated": "2026-11-01T05:50:26+00:00"
 }
