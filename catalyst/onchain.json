@@ -1,5 +1,5 @@
 {
- "checked": 86,
+ "checked": 87,
  "errors": [],
  "rejected": [
   {
@@ -12,17 +12,17 @@
   {
    "chain": "Solana",
    "fails": [
-    "liquidity under $250k"
-   ],
-   "symbol": "FOCO"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
     "liquidity under $250k",
     "pool younger than 7 days"
    ],
    "symbol": "KIM"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "liquidity under $250k"
+   ],
+   "symbol": "FOCO"
   },
   {
    "chain": "Solana",
@@ -66,7 +66,7 @@
     "liquidity under $250k",
     "pool younger than 7 days"
    ],
-   "symbol": "VAMPCAT"
+   "symbol": "AAPLCAT"
   },
   {
    "chain": "Solana",
@@ -74,7 +74,7 @@
     "liquidity under $250k",
     "pool younger than 7 days"
    ],
-   "symbol": "AAPLCAT"
+   "symbol": "BLUE"
   },
   {
    "chain": "Solana",
@@ -97,7 +97,7 @@
     "liquidity under $250k",
     "pool younger than 7 days"
    ],
-   "symbol": "BLUE"
+   "symbol": "VAMPCAT"
   },
   {
    "chain": "Solana",
@@ -125,6 +125,13 @@
   {
    "chain": "Solana",
    "fails": [
+    "24h volume under $250k"
+   ],
+   "symbol": "JEANPHIL"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
     "liquidity under $250k",
     "pool younger than 7 days",
     "24h volume under $250k"
@@ -139,13 +146,6 @@
    "symbol": "ANSEM"
   },
   {
-   "chain": "Solana",
-   "fails": [
-    "24h volume under $250k"
-   ],
-   "symbol": "JEANPHIL"
-  },
-  {
    "chain": "Base",
    "fails": [
     "24h volume under $250k"
@@ -155,16 +155,16 @@
   {
    "chain": "Base",
    "fails": [
-    "24h volume under $250k"
+    "no DEX candles"
    ],
-   "symbol": "BNKR"
+   "symbol": "XDP"
   },
   {
    "chain": "Base",
    "fails": [
-    "no DEX candles"
+    "24h volume under $250k"
    ],
-   "symbol": "XDP"
+   "symbol": "BNKR"
   },
   {
    "chain": "Base",
@@ -177,16 +177,16 @@
   {
    "chain": "Base",
    "fails": [
-    "no DEX candles"
+    "24h volume under $250k"
    ],
-   "symbol": "TRUE"
+   "symbol": "KTA"
   },
   {
    "chain": "Base",
    "fails": [
-    "24h volume under $250k"
+    "no DEX candles"
    ],
-   "symbol": "KTA"
+   "symbol": "TRUE"
   },
   {
    "chain": "Base",
@@ -219,6 +219,13 @@
   {
    "chain": "Base",
    "fails": [
+    "liquidity under $250k"
+   ],
+   "symbol": "LMTS"
+  },
+  {
+   "chain": "Base",
+   "fails": [
     "no DEX candles"
    ],
    "symbol": "GULD"
@@ -226,9 +233,9 @@
   {
    "chain": "Base",
    "fails": [
-    "liquidity under $250k"
+    "24h volume under $250k"
    ],
-   "symbol": "LMTS"
+   "symbol": "GITLAWB"
   },
   {
    "chain": "Base",
@@ -247,13 +254,6 @@
   {
    "chain": "Base",
    "fails": [
-    "24h volume under $250k"
-   ],
-   "symbol": "GITLAWB"
-  },
-  {
-   "chain": "Base",
-   "fails": [
     "no DEX candles"
    ],
    "symbol": "RATSPEAK"
@@ -264,6 +264,14 @@
     "no DEX candles"
    ],
    "symbol": "SPCXC"
+  },
+  {
+   "chain": "Base",
+   "fails": [
+    "liquidity under $250k",
+    "24h volume under $250k"
+   ],
+   "symbol": "FLOWER"
   },
   {
    "chain": "BSC",
@@ -285,75 +293,66 @@
     "no DEX candles"
    ],
    "symbol": "AKE"
-  },
-  {
-   "chain": "BSC",
-   "fails": [
-    "transfers can be paused"
-   ],
-   "symbol": "GANG"
   }
  ],
  "rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
- "updated": 1793526920,
+ "updated": 1793530521,
  "watchlist": [
   {
-   "age_d": 1296.7,
-   "atr": 9.243853009336451e-08,
-   "bar_ts": 1793520000000,
-   "chain": "Ethereum",
-   "chg24h": -0.496,
-   "chg7d": 15.2,
-   "close": 5.00768569854783e-06,
-   "ema20": 4.99353996894182e-06,
-   "ema50": 4.974573386180469e-06,
-   "fails": [],
-   "gecko_id": "pepe",
-   "liq": 31745003,
-   "mcap": 2087994918.79398,
-   "name": "Pepe",
-   "net": "eth",
-   "pool": "0xa43fe16908251ee70ef74718545e4fe6c5ccec9f",
-   "price": 4.96326254150383e-06,
-   "rsi": 51.5,
-   "safety": "unknown",
-   "safety_notes": [
-    "safety not checked"
-   ],
-   "symbol": "PEPE",
-   "token": "0x6982508145454ce325ddbe47a25d4ec3d2311933",
-   "trend_up": true,
-   "trigger": false,
-   "url": "https://www.geckoterminal.com/eth/pools/0xa43fe16908251ee70ef74718545e4fe6c5ccec9f",
-   "vol24h": 3435562
-  },
-  {
-   "age_d": 310.0,
-   "atr": 0.0004525129441052248,
-   "bar_ts": 1793520000000,
+   "age_d": 432.0,
+   "atr": 0.0889016998935973,
+   "bar_ts": 1793523600000,
    "chain": "BSC",
-   "chg24h": -4.556,
-   "chg7d": 6.5,
-   "close": 0.0243398304427018,
-   "ema20": 0.024599958938713345,
-   "ema50": 0.024419688372120104,
+   "chg24h": -0.469,
+   "chg7d": 1.0,
+   "close": 6.40439916537164,
+   "ema20": 6.4183584353477245,
+   "ema50": 6.3888252006731365,
    "fails": [],
-   "gecko_id": "collect-on-fanable",
-   "liq": 2336250,
-   "mcap": 13045706.47683,
-   "name": "Collect on Fanable",
+   "gecko_id": "ark-3",
+   "liq": 58198336,
+   "mcap": 0.0,
+   "name": "ARK",
    "net": "bsc",
-   "pool": "0xef470f9ae8512d2762e4f1cd91ae58caea17143afa61b8d56e9b20c8f87688c4",
-   "price": 0.0242936805864342,
-   "rsi": 46.1,
+   "pool": "0xcaaf3c41a40103a23eeaa4bba468af3cf5b0e0d8",
+   "price": 6.4149063193371,
+   "rsi": 49.1,
    "safety": "ok",
    "safety_notes": [],
-   "symbol": "COLLECT",
-   "token": "0x4b3d30992f003c8167699735f5ab2831b2a087d3",
-   "trend_up": false,
+   "symbol": "ARK",
+   "token": "0xcae117ca6bc8a341d2e7207f30e180f0e5618b9d",
+   "trend_up": true,
    "trigger": false,
-   "url": "https://www.geckoterminal.com/bsc/pools/0xef470f9ae8512d2762e4f1cd91ae58caea17143afa61b8d56e9b20c8f87688c4",
-   "vol24h": 2465158
+   "url": "https://www.geckoterminal.com/bsc/pools/0xcaaf3c41a40103a23eeaa4bba468af3cf5b0e0d8",
+   "vol24h": 3569514
+  },
+  {
+   "age_d": 470.6,
+   "atr": 0.0015775682016844017,
+   "bar_ts": 1793512800000,
+   "chain": "Arbitrum",
+   "chg24h": 0.07,
+   "chg7d": 0.4,
+   "close": 1.11979268099695,
+   "ema20": 1.118737986453681,
+   "ema50": 1.1179060003218686,
+   "fails": [],
+   "gecko_id": "susdai",
+   "liq": 9294862,
+   "mcap": 362237784.302611,
+   "name": "Staked USDai",
+   "net": "arbitrum",
+   "pool": "0x86f874212335af27c41cdb855c2255543d1499ce",
+   "price": 1.11979588486254,
+   "rsi": 55.4,
+   "safety": "ok",
+   "safety_notes": [],
+   "symbol": "SUSDAI",
+   "token": "0x0b2b2b2076d95dda7817e785989fe353fe955ef9",
+   "trend_up": true,
+   "trigger": false,
+   "url": "https://www.geckoterminal.com/arbitrum/pools/0x86f874212335af27c41cdb855c2255543d1499ce",
+   "vol24h": 2432625
   }
  ]
 }
