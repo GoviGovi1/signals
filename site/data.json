@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.041134,
-   "last_ts": "2026-11-01T03:45:22+00:00",
-   "move_pct": 1.24,
+   "last": 0.04115,
+   "last_ts": "2026-11-01T03:50:24+00:00",
+   "move_pct": 1.28,
    "closed": false,
    "rsi": 64.4,
    "trade_on": "Spot",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.05176,
-   "last_ts": "2026-11-01T03:45:22+00:00",
-   "move_pct": -0.12,
+   "last": 0.05166,
+   "last_ts": "2026-11-01T03:50:24+00:00",
+   "move_pct": 0.08,
    "closed": false,
    "rsi": 41.1,
    "trade_on": "Perps 1x",
@@ -124,9 +124,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.05021,
-   "last_ts": "2026-11-01T03:45:22+00:00",
-   "move_pct": -0.7,
+   "last": 0.05001,
+   "last_ts": "2026-11-01T03:50:24+00:00",
+   "move_pct": -0.3,
    "closed": false,
    "rsi": 35.4,
    "trade_on": "Perps 1x",
@@ -161,7 +161,7 @@
     0.0033691924291815744
    ],
    "lev": 1,
-   "funding_pct": 0.0018,
+   "funding_pct": 0.0001,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-01T03:00:00+00:00",
@@ -169,9 +169,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.004037,
-   "last_ts": "2026-11-01T03:45:22+00:00",
-   "move_pct": -1.59,
+   "last": 0.004043,
+   "last_ts": "2026-11-01T03:50:24+00:00",
+   "move_pct": -1.74,
    "closed": false,
    "rsi": 34.0,
    "trade_on": "Perps 1x",
@@ -6834,23 +6834,6 @@
     ]
    },
    {
-    "id": "storage",
-    "name": "Storage",
-    "chg7d": -3.91,
-    "top": [
-     "FIL",
-     "BTT",
-     "AR",
-     "AIOZ",
-     "WAL"
-    ],
-    "tracked": [
-     "FIL",
-     "AR",
-     "WAL"
-    ]
-   },
-   {
     "id": "lending-borrowing",
     "name": "Lending Borrowing",
     "chg7d": -3.93,
@@ -6978,6 +6961,23 @@
      "ASTER",
      "PENDLE",
      "EDGE"
+    ]
+   },
+   {
+    "id": "storage",
+    "name": "Storage",
+    "chg7d": -5.02,
+    "top": [
+     "FIL",
+     "BTT",
+     "AR",
+     "AIOZ",
+     "WAL"
+    ],
+    "tracked": [
+     "FIL",
+     "AR",
+     "WAL"
     ]
    },
    {
@@ -7351,7 +7351,7 @@
   "updated": {
    "unlocks": 1793484626,
    "onchain": 1793501717,
-   "sectors": 1793504122,
+   "sectors": 1793505024,
    "listings": 1793502032,
    "fundamentals": 1793484628
   }
@@ -7390,6 +7390,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "96ec88659fea109a7d6efbecc8e2ed802c4fae74c8e38191da3d896f479316ab",
- "generated": "2026-11-01T03:45:25+00:00"
+ "digest": "9daec3fbafe5beb3e7f1bc0eab7f2e219df9e6036b745880cf2302d0e72f9af6",
+ "generated": "2026-11-01T03:50:27+00:00"
 }
