@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.041164,
-   "last_ts": "2026-11-01T05:15:24+00:00",
-   "move_pct": 1.31,
+   "last": 0.041254,
+   "last_ts": "2026-11-01T05:20:20+00:00",
+   "move_pct": 1.53,
    "closed": false,
    "rsi": 64.4,
    "trade_on": "Spot",
@@ -72,7 +72,7 @@
     0.0442734926160737
    ],
    "lev": 1,
-   "funding_pct": -0.0003,
+   "funding_pct": -0.0004,
    "status": "open",
    "hits": 0,
    "opened": "2026-10-31T20:00:00+00:00",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.05156,
-   "last_ts": "2026-11-01T05:15:24+00:00",
-   "move_pct": 0.27,
+   "last": 0.05166,
+   "last_ts": "2026-11-01T05:20:20+00:00",
+   "move_pct": 0.08,
    "closed": false,
    "rsi": 41.1,
    "trade_on": "Perps 1x",
@@ -125,7 +125,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.04987,
-   "last_ts": "2026-11-01T05:15:24+00:00",
+   "last_ts": "2026-11-01T05:20:20+00:00",
    "move_pct": -0.02,
    "closed": false,
    "rsi": 35.4,
@@ -161,7 +161,7 @@
     0.0033691924291815744
    ],
    "lev": 1,
-   "funding_pct": -0.0069,
+   "funding_pct": -0.0056,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-01T03:00:00+00:00",
@@ -170,7 +170,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.004014,
-   "last_ts": "2026-11-01T05:15:24+00:00",
+   "last_ts": "2026-11-01T05:20:20+00:00",
    "move_pct": -1.01,
    "closed": false,
    "rsi": 34.0,
@@ -6909,28 +6909,6 @@
     ]
    },
    {
-    "id": "layer-2",
-    "name": "Layer 2",
-    "chg7d": -4.53,
-    "top": [
-     "OKB",
-     "MNT",
-     "ARB",
-     "POL",
-     "STX"
-    ],
-    "tracked": [
-     "OP",
-     "ARB",
-     "OKB",
-     "STRK",
-     "POL",
-     "STX",
-     "SOON",
-     "MAGIC"
-    ]
-   },
-   {
     "id": "layer-1",
     "name": "Layer 1",
     "chg7d": -4.62,
@@ -6972,6 +6950,28 @@
      "CRV",
      "ASTER",
      "PENDLE"
+    ]
+   },
+   {
+    "id": "layer-2",
+    "name": "Layer 2",
+    "chg7d": -4.78,
+    "top": [
+     "OKB",
+     "MNT",
+     "ARB",
+     "POL",
+     "STX"
+    ],
+    "tracked": [
+     "OP",
+     "ARB",
+     "OKB",
+     "STRK",
+     "POL",
+     "STX",
+     "SOON",
+     "MAGIC"
     ]
    },
    {
@@ -7384,7 +7384,7 @@
   "updated": {
    "unlocks": 1793506522,
    "onchain": 1793508922,
-   "sectors": 1793509522,
+   "sectors": 1793510420,
    "listings": 1793509521,
    "fundamentals": 1793506523
   }
@@ -7423,6 +7423,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "9fb897a21b04f8da237ce92dd8a445c7f7597d72bc3de79d4e76e352d81f3b57",
- "generated": "2026-11-01T05:15:27+00:00"
+ "digest": "29ef62058f8fb32852176c22613db0dccf8aac4f42b8ecbea9a3a7d8291d6672",
+ "generated": "2026-11-01T05:20:22+00:00"
 }
