@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.040528,
-   "last_ts": "2026-11-01T02:56:18+00:00",
-   "move_pct": -0.25,
+   "last": 0.040605,
+   "last_ts": "2026-11-01T03:00:32+00:00",
+   "move_pct": -0.06,
    "closed": false,
    "rsi": 64.4,
    "trade_on": "Spot",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.05146,
-   "last_ts": "2026-11-01T02:56:18+00:00",
-   "move_pct": 0.46,
+   "last": 0.05151,
+   "last_ts": "2026-11-01T03:00:32+00:00",
+   "move_pct": 0.37,
    "closed": false,
    "rsi": 41.1,
    "trade_on": "Perps 1x",
@@ -124,14 +124,59 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04962,
-   "last_ts": "2026-11-01T02:56:18+00:00",
-   "move_pct": 0.48,
+   "last": 0.04973,
+   "last_ts": "2026-11-01T03:00:32+00:00",
+   "move_pct": 0.26,
    "closed": false,
    "rsi": 35.4,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": "charts/TRUST-PERP-1793491200.png",
+   "setup": "BREAKOUT20"
+  },
+  {
+   "id": "KAT-PERP-1793498400",
+   "kind": "TA",
+   "score": 0,
+   "reasons": [
+    "Chart: Broke the 20-hour low on 2.6x volume",
+    "Timeframes: 1d down, 4h down, 4h structure mixed",
+    "Next support 0.003639 (2.4R away, 4h swing)",
+    "Stop 0.0041129 (structure); targets at the next 1 level(s)",
+    "BTC 4h trend down",
+    "Weaker than BTC by 1.1% over 7d",
+    "OI +3% 24h",
+    "Sector: Layer 2 -4.5% 7d (middle, #8 of 20)",
+    "Track record: +5.4R on KAT in the last 45 days (backtest)"
+   ],
+   "coin": "KAT",
+   "market": "PERP",
+   "side": "SHORT",
+   "entry": 0.003974,
+   "sl0": 0.004112886333761991,
+   "sl": 0.004112886333761991,
+   "tps": [
+    0.0036469650967055557,
+    0.003508078762943565,
+    0.0033691924291815744
+   ],
+   "lev": 1,
+   "funding_pct": -0.0014,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-11-01T03:00:00+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.00397,
+   "last_ts": "2026-11-01T03:00:32+00:00",
+   "move_pct": 0.1,
+   "closed": false,
+   "rsi": 34.0,
+   "trade_on": "Perps 1x",
+   "market_reason": "shorts need perps; thin perp market, so 1x",
+   "chart": "charts/KAT-PERP-1793498400.png",
    "setup": "BREAKOUT20"
   }
  ],
@@ -3451,7 +3496,7 @@
     "total_pct": -5.43
    }
   },
-  "open": 3
+  "open": 4
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7307,7 +7352,7 @@
    "unlocks": 1793484626,
    "onchain": 1793501717,
    "sectors": 1793501420,
-   "listings": 1793498431,
+   "listings": 1793502032,
    "fundamentals": 1793484628
   }
  },
@@ -7345,6 +7390,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "4245e258c11bb6c7ee8b1c7afa4dcfddcb220060e4957bfd961680d92f71bad2",
- "generated": "2026-11-01T02:56:20+00:00"
+ "digest": "e65da7c9ad33935e16fcde73bbc9bbdd341646f1909c309f3f77b4a06bd947c3",
+ "generated": "2026-11-01T03:01:15+00:00"
 }
