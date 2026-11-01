@@ -1,5 +1,5 @@
 {
- "checked": 86,
+ "checked": 87,
  "errors": [],
  "rejected": [
   {
@@ -12,17 +12,17 @@
   {
    "chain": "Solana",
    "fails": [
-    "liquidity under $250k",
-    "pool younger than 7 days"
+    "liquidity under $250k"
    ],
-   "symbol": "LEVERHEDGE"
+   "symbol": "FOCO"
   },
   {
    "chain": "Solana",
    "fails": [
-    "liquidity under $250k"
+    "liquidity under $250k",
+    "pool younger than 7 days"
    ],
-   "symbol": "FOCO"
+   "symbol": "LEVERHEDGE"
   },
   {
    "chain": "Solana",
@@ -71,21 +71,6 @@
   {
    "chain": "Solana",
    "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "PUMP"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "liquidity under $250k",
-    "pool younger than 7 days"
-   ],
-   "symbol": "LUMI"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
     "24h volume under $250k"
    ],
    "symbol": "BONK"
@@ -105,7 +90,7 @@
     "liquidity under $250k",
     "pool younger than 7 days"
    ],
-   "symbol": "ICOIN"
+   "symbol": "AAPLCAT"
   },
   {
    "chain": "Solana",
@@ -118,10 +103,9 @@
   {
    "chain": "Solana",
    "fails": [
-    "liquidity under $250k",
-    "pool younger than 7 days"
+    "24h volume under $250k"
    ],
-   "symbol": "AAPLCAT"
+   "symbol": "JEANPHIL"
   },
   {
    "chain": "Solana",
@@ -134,16 +118,25 @@
   {
    "chain": "Solana",
    "fails": [
-    "24h volume under $250k"
+    "no DEX candles"
    ],
-   "symbol": "JEANPHIL"
+   "symbol": "CARDS"
   },
   {
    "chain": "Solana",
    "fails": [
-    "no DEX candles"
+    "liquidity under $250k",
+    "pool younger than 7 days"
    ],
-   "symbol": "CARDS"
+   "symbol": "ICOIN"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "liquidity under $250k",
+    "pool younger than 7 days"
+   ],
+   "symbol": "LUMI"
   },
   {
    "chain": "Base",
@@ -191,16 +184,16 @@
   {
    "chain": "Base",
    "fails": [
-    "liquidity under $250k"
+    "24h volume under $250k"
    ],
-   "symbol": "ATLAS"
+   "symbol": "KTA"
   },
   {
    "chain": "Base",
    "fails": [
-    "24h volume under $250k"
+    "liquidity under $250k"
    ],
-   "symbol": "KTA"
+   "symbol": "ATLAS"
   },
   {
    "chain": "Base",
@@ -219,13 +212,6 @@
   {
    "chain": "Base",
    "fails": [
-    "24h volume under $250k"
-   ],
-   "symbol": "SURPLUS"
-  },
-  {
-   "chain": "Base",
-   "fails": [
     "no DEX candles"
    ],
    "symbol": "VVV"
@@ -240,10 +226,9 @@
   {
    "chain": "Base",
    "fails": [
-    "liquidity under $250k",
     "24h volume under $250k"
    ],
-   "symbol": "FLOWER"
+   "symbol": "SURPLUS"
   },
   {
    "chain": "Base",
@@ -255,17 +240,17 @@
   {
    "chain": "Base",
    "fails": [
-    "no DEX candles"
+    "liquidity under $250k",
+    "24h volume under $250k"
    ],
-   "symbol": "GOOGLC"
+   "symbol": "FLOWER"
   },
   {
    "chain": "Base",
    "fails": [
-    "liquidity under $250k",
-    "24h volume under $250k"
+    "no DEX candles"
    ],
-   "symbol": "OWB"
+   "symbol": "GOOGLC"
   },
   {
    "chain": "Base",
@@ -279,7 +264,15 @@
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "ELSA"
+   "symbol": "GULD"
+  },
+  {
+   "chain": "Base",
+   "fails": [
+    "liquidity under $250k",
+    "24h volume under $250k"
+   ],
+   "symbol": "OWB"
   },
   {
    "chain": "BSC",
@@ -294,38 +287,73 @@
     "liquidity under $250k"
    ],
    "symbol": "AIN"
+  },
+  {
+   "chain": "BSC",
+   "fails": [
+    "no DEX candles"
+   ],
+   "symbol": "AKE"
   }
  ],
  "rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
- "updated": 1793501717,
+ "updated": 1793505320,
  "watchlist": [
   {
-   "age_d": 402.0,
-   "atr": 0.0005185018261037844,
-   "bar_ts": 1793494800000,
-   "chain": "BSC",
-   "chg24h": 5.676,
-   "chg7d": 19.4,
-   "close": 0.0154542068753229,
-   "ema20": 0.015484013853700022,
-   "ema50": 0.014927646950824193,
+   "age_d": 474.5,
+   "atr": 6.0945606479990184e-05,
+   "bar_ts": 1793498400000,
+   "chain": "Solana",
+   "chg24h": 2.839,
+   "chg7d": -2.5,
+   "close": 0.004193458326171233,
+   "ema20": 0.0041858855121425596,
+   "ema50": 0.004169345794193728,
    "fails": [],
-   "gecko_id": "hana-network",
-   "liq": 971008,
-   "mcap": 3630592.8,
-   "name": "Hana Token",
-   "net": "bsc",
-   "pool": "0xd21bc2291c1aef340f5265e257b18aa5dafed759",
-   "price": 0.0151274700000583,
-   "rsi": 52.1,
+   "gecko_id": "pump-fun",
+   "liq": 23029874,
+   "mcap": 1938318249.83415,
+   "name": "Pump",
+   "net": "solana",
+   "pool": "2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd",
+   "price": 0.004213400856559877,
+   "rsi": 53.0,
    "safety": "ok",
    "safety_notes": [],
-   "symbol": "HANA",
-   "token": "0x6261963ebe9ff014aad10ecc3b0238d4d04e8353",
+   "symbol": "PUMP",
+   "token": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
    "trend_up": true,
    "trigger": false,
-   "url": "https://www.geckoterminal.com/bsc/pools/0xd21bc2291c1aef340f5265e257b18aa5dafed759",
-   "vol24h": 3283423
+   "url": "https://www.geckoterminal.com/solana/pools/2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd",
+   "vol24h": 1848738
+  },
+  {
+   "age_d": 309.7,
+   "atr": 0.0004996337780278072,
+   "bar_ts": 1793498400000,
+   "chain": "BSC",
+   "chg24h": -2.714,
+   "chg7d": 5.8,
+   "close": 0.0240193531850516,
+   "ema20": 0.02478354367759221,
+   "ema50": 0.02443174458452975,
+   "fails": [],
+   "gecko_id": "collect-on-fanable",
+   "liq": 2327116,
+   "mcap": 13087699.31835,
+   "name": "Collect on Fanable",
+   "net": "bsc",
+   "pool": "0xef470f9ae8512d2762e4f1cd91ae58caea17143afa61b8d56e9b20c8f87688c4",
+   "price": 0.0243912490337879,
+   "rsi": 39.7,
+   "safety": "ok",
+   "safety_notes": [],
+   "symbol": "COLLECT",
+   "token": "0x4b3d30992f003c8167699735f5ab2831b2a087d3",
+   "trend_up": false,
+   "trigger": false,
+   "url": "https://www.geckoterminal.com/bsc/pools/0xef470f9ae8512d2762e4f1cd91ae58caea17143afa61b8d56e9b20c8f87688c4",
+   "vol24h": 3313560
   }
  ]
 }
