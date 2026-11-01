@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.042178,
-   "last_ts": "2026-11-01T20:00:34+00:00",
-   "move_pct": 3.81,
+   "last": 0.042318,
+   "last_ts": "2026-11-01T20:05:22+00:00",
+   "move_pct": 4.15,
    "closed": false,
    "rsi": 64.4,
    "trade_on": "Spot",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.05031,
-   "last_ts": "2026-11-01T20:00:34+00:00",
-   "move_pct": -0.9,
+   "last": 0.0504,
+   "last_ts": "2026-11-01T20:05:22+00:00",
+   "move_pct": -1.08,
    "closed": false,
    "rsi": 35.4,
    "trade_on": "Perps 1x",
@@ -115,7 +115,7 @@
     0.0055754020975257125
    ],
    "lev": 1,
-   "funding_pct": 0.0009,
+   "funding_pct": 0.002,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-01T06:00:00+00:00",
@@ -123,9 +123,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.005825,
-   "last_ts": "2026-11-01T20:00:34+00:00",
-   "move_pct": 4.62,
+   "last": 0.005804,
+   "last_ts": "2026-11-01T20:05:22+00:00",
+   "move_pct": 4.96,
    "closed": false,
    "rsi": 37.6,
    "trade_on": "Perps 1x",
@@ -168,9 +168,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.07056,
-   "last_ts": "2026-11-01T20:00:34+00:00",
-   "move_pct": -0.24,
+   "last": 0.07046,
+   "last_ts": "2026-11-01T20:05:22+00:00",
+   "move_pct": -0.1,
    "closed": false,
    "rsi": 39.5,
    "trade_on": "Perps 1x",
@@ -204,7 +204,7 @@
     0.03706741716411631
    ],
    "lev": 1,
-   "funding_pct": -0.0132,
+   "funding_pct": -0.0142,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-01T18:00:00+00:00",
@@ -212,9 +212,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04108,
-   "last_ts": "2026-11-01T20:00:34+00:00",
-   "move_pct": 1.93,
+   "last": 0.04093,
+   "last_ts": "2026-11-01T20:05:22+00:00",
+   "move_pct": 2.29,
    "closed": false,
    "rsi": 27.5,
    "trade_on": "Perps 1x",
@@ -249,7 +249,7 @@
     0.04422685697393408
    ],
    "lev": 1,
-   "funding_pct": -0.0024,
+   "funding_pct": -0.0027,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-01T19:00:00+00:00",
@@ -257,9 +257,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04746,
-   "last_ts": "2026-11-01T20:00:34+00:00",
-   "move_pct": -0.27,
+   "last": 0.04749,
+   "last_ts": "2026-11-01T20:05:22+00:00",
+   "move_pct": -0.34,
    "closed": false,
    "rsi": 37.3,
    "trade_on": "Perps 1x",
@@ -302,9 +302,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.11037,
-   "last_ts": "2026-11-01T20:00:34+00:00",
-   "move_pct": 0.02,
+   "last": 0.11038,
+   "last_ts": "2026-11-01T20:05:22+00:00",
+   "move_pct": 0.01,
    "closed": false,
    "rsi": 28.0,
    "trade_on": "Perps 1x",
@@ -7038,28 +7038,6 @@
     ]
    },
    {
-    "id": "layer-1",
-    "name": "Layer 1",
-    "chg7d": -3.68,
-    "top": [
-     "BTC",
-     "ETH",
-     "BNB",
-     "XRP",
-     "SOL"
-    ],
-    "tracked": [
-     "ETH",
-     "BTC",
-     "SOL",
-     "XRP",
-     "BNB",
-     "SUI",
-     "AVAX",
-     "ZEC"
-    ]
-   },
-   {
     "id": "oracle",
     "name": "Oracle",
     "chg7d": -3.71,
@@ -7224,6 +7202,28 @@
      "SPK",
      "KMNO",
      "COMP"
+    ]
+   },
+   {
+    "id": "layer-1",
+    "name": "Layer 1",
+    "chg7d": -5.94,
+    "top": [
+     "BTC",
+     "ETH",
+     "BNB",
+     "XRP",
+     "SOL"
+    ],
+    "tracked": [
+     "ETH",
+     "BTC",
+     "SOL",
+     "XRP",
+     "BNB",
+     "SUI",
+     "AVAX",
+     "ZEC"
     ]
    },
    {
@@ -7511,7 +7511,7 @@
   "updated": {
    "unlocks": 1793549724,
    "onchain": 1793562922,
-   "sectors": 1793562622,
+   "sectors": 1793563522,
    "listings": 1793562622,
    "fundamentals": 1793549725
   }
@@ -7550,6 +7550,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "bb1fe1b4817fb62bc1909a31d0f48b4b8ee25a418efae14544bde1dae32af2b7",
- "generated": "2026-11-01T20:01:09+00:00"
+ "digest": "d5ecf7928bdf38ac662a9f7904954dabe3cb4706908c0f820eefcef026be7960",
+ "generated": "2026-11-01T20:05:26+00:00"
 }
