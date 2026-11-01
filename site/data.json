@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.042092,
-   "last_ts": "2026-11-01T15:15:23+00:00",
-   "move_pct": 3.6,
+   "last": 0.04227,
+   "last_ts": "2026-11-01T15:20:24+00:00",
+   "move_pct": 4.03,
    "closed": false,
    "rsi": 64.4,
    "trade_on": "Spot",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.05147,
-   "last_ts": "2026-11-01T15:15:23+00:00",
-   "move_pct": 0.44,
+   "last": 0.05145,
+   "last_ts": "2026-11-01T15:20:24+00:00",
+   "move_pct": 0.48,
    "closed": false,
    "rsi": 41.1,
    "trade_on": "Perps 1x",
@@ -124,9 +124,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04958,
-   "last_ts": "2026-11-01T15:15:23+00:00",
-   "move_pct": 0.56,
+   "last": 0.04952,
+   "last_ts": "2026-11-01T15:20:24+00:00",
+   "move_pct": 0.68,
    "closed": false,
    "rsi": 35.4,
    "trade_on": "Perps 1x",
@@ -160,7 +160,7 @@
     0.0055754020975257125
    ],
    "lev": 1,
-   "funding_pct": 0.0793,
+   "funding_pct": 0.0772,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-01T06:00:00+00:00",
@@ -169,7 +169,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.005991,
-   "last_ts": "2026-11-01T15:15:23+00:00",
+   "last_ts": "2026-11-01T15:20:24+00:00",
    "move_pct": 1.9,
    "closed": false,
    "rsi": 37.6,
@@ -213,9 +213,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.07006,
-   "last_ts": "2026-11-01T15:15:23+00:00",
-   "move_pct": 0.47,
+   "last": 0.07003,
+   "last_ts": "2026-11-01T15:20:24+00:00",
+   "move_pct": 0.51,
    "closed": false,
    "rsi": 39.5,
    "trade_on": "Perps 1x",
@@ -6971,28 +6971,6 @@
     ]
    },
    {
-    "id": "layer-2",
-    "name": "Layer 2",
-    "chg7d": -3.12,
-    "top": [
-     "OKB",
-     "MNT",
-     "ARB",
-     "POL",
-     "STX"
-    ],
-    "tracked": [
-     "STX",
-     "STRK",
-     "ARB",
-     "OP",
-     "OKB",
-     "LSK",
-     "SOON",
-     "POL"
-    ]
-   },
-   {
     "id": "exchange-based-tokens",
     "name": "Exchange Based Tokens",
     "chg7d": -3.32,
@@ -7076,6 +7054,28 @@
      "ZKP",
      "API3",
      "PHA"
+    ]
+   },
+   {
+    "id": "layer-2",
+    "name": "Layer 2",
+    "chg7d": -4.17,
+    "top": [
+     "OKB",
+     "MNT",
+     "ARB",
+     "POL",
+     "STX"
+    ],
+    "tracked": [
+     "STX",
+     "STRK",
+     "ARB",
+     "OP",
+     "OKB",
+     "LSK",
+     "SOON",
+     "POL"
     ]
    },
    {
@@ -7422,7 +7422,7 @@
   "updated": {
    "unlocks": 1793528123,
    "onchain": 1793544921,
-   "sectors": 1793545525,
+   "sectors": 1793546423,
    "listings": 1793543442,
    "fundamentals": 1793528123
   }
@@ -7461,6 +7461,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "b5fb71aace207f5d72beec1a1397dd9ce1898ce05455f01a14d9d113325b9c24",
- "generated": "2026-11-01T15:15:26+00:00"
+ "digest": "c393b1fb655d70d8109a9b679e9097edab14831dbf18baceeccb72d80ff1f5dd",
+ "generated": "2026-11-01T15:20:27+00:00"
 }
