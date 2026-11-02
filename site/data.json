@@ -35,58 +35,14 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.042055,
-   "last_ts": "2026-11-02T03:35:23+00:00",
-   "move_pct": 3.5,
+   "last": 0.042091,
+   "last_ts": "2026-11-02T03:40:22+00:00",
+   "move_pct": 3.59,
    "closed": false,
    "rsi": 64.4,
    "trade_on": "Spot",
    "market_reason": "thin perp market: spot is safer",
    "chart": "charts/NIGHT-SPOT-1793462400.png",
-   "setup": "BREAKOUT20"
-  },
-  {
-   "id": "OFC-PERP-1793509200",
-   "kind": "TA",
-   "score": 0,
-   "reasons": [
-    "Chart: Broke the 20-hour low on 0.8x volume",
-    "Timeframes: 1d down, 4h down, 4h structure lower highs/lows",
-    "Next support 0.0058065 (3.0R away, 4h swing/swing)",
-    "Stop 0.0062065 (structure); targets at the next 3 level(s)",
-    "BTC 4h trend down",
-    "Stronger than BTC by 6.3% over 7d",
-    "OI +0% 24h",
-    "Track record: +3.3R on OFC in the last 45 days (backtest)"
-   ],
-   "coin": "OFC",
-   "market": "PERP",
-   "side": "SHORT",
-   "entry": 0.006107,
-   "sl0": 0.0062064821362278946,
-   "sl": 0.006107,
-   "tps": [
-    0.005815920616044233,
-    0.005648602097525711,
-    0.0055754020975257125
-   ],
-   "lev": 1,
-   "funding_pct": 0.005,
-   "status": "tp1",
-   "hits": 1,
-   "opened": "2026-11-01T06:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.00599,
-   "last_ts": "2026-11-02T03:35:23+00:00",
-   "move_pct": 1.92,
-   "closed": false,
-   "rsi": 37.6,
-   "trade_on": "Perps 1x",
-   "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": "charts/OFC-PERP-1793509200.png",
    "setup": "BREAKOUT20"
   },
   {
@@ -124,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0701,
-   "last_ts": "2026-11-02T03:35:23+00:00",
-   "move_pct": 0.41,
+   "last": 0.07036,
+   "last_ts": "2026-11-02T03:40:22+00:00",
+   "move_pct": 0.04,
    "closed": false,
    "rsi": 39.5,
    "trade_on": "Perps 1x",
@@ -169,9 +125,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.181,
-   "last_ts": "2026-11-02T03:35:23+00:00",
-   "move_pct": -0.89,
+   "last": 0.1813,
+   "last_ts": "2026-11-02T03:40:22+00:00",
+   "move_pct": -1.06,
    "closed": false,
    "rsi": 35.4,
    "trade_on": "Perps 1x",
@@ -181,6 +137,50 @@
   }
  ],
  "closed": [
+  {
+   "id": "OFC-PERP-1793509200",
+   "kind": "TA",
+   "score": 0,
+   "reasons": [
+    "Chart: Broke the 20-hour low on 0.8x volume",
+    "Timeframes: 1d down, 4h down, 4h structure lower highs/lows",
+    "Next support 0.0058065 (3.0R away, 4h swing/swing)",
+    "Stop 0.0062065 (structure); targets at the next 3 level(s)",
+    "BTC 4h trend down",
+    "Stronger than BTC by 6.3% over 7d",
+    "OI +0% 24h",
+    "Track record: +3.3R on OFC in the last 45 days (backtest)"
+   ],
+   "coin": "OFC",
+   "market": "PERP",
+   "side": "SHORT",
+   "entry": 0.006107,
+   "sl0": 0.0062064821362278946,
+   "sl": 0.006107,
+   "tps": [
+    0.005815920616044233,
+    0.005648602097525711,
+    0.0055754020975257125
+   ],
+   "lev": 1,
+   "funding_pct": 0.005,
+   "status": "stopped_be",
+   "hits": 1,
+   "opened": "2026-11-01T06:00:00+00:00",
+   "closed_at": "2026-11-02T03:40:22+00:00",
+   "exit_price": 0.006107,
+   "result_r": 0.732,
+   "result_pct": 1.19,
+   "last": 0.006204,
+   "last_ts": "2026-11-02T03:40:22+00:00",
+   "move_pct": 1.92,
+   "closed": true,
+   "rsi": 37.6,
+   "trade_on": "Perps 1x",
+   "market_reason": "shorts need perps; thin perp market, so 1x",
+   "chart": "charts/OFC-PERP-1793509200.png",
+   "setup": "BREAKOUT20"
+  },
   {
    "id": "APE-PERP-1793559600",
    "kind": "TA",
@@ -1918,7 +1918,7 @@
    "rsi": 65.5,
    "trade_on": "Spot",
    "market_reason": "thin perp market: spot is safer",
-   "chart": "charts/NIGHT-SPOT-1793131200.png",
+   "chart": null,
    "setup": "BOS"
   },
   {
@@ -2753,61 +2753,17 @@
    "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
    "chart": null,
    "setup": "BOS"
-  },
-  {
-   "id": "ZAMA-SPOT-1793023200",
-   "kind": "TA",
-   "score": 1,
-   "reasons": [
-    "Chart: Broke out of a 2-day range at 0.0713 (range 0.06639\u20130.0713) on 1.2x volume",
-    "Timeframes: 1d down, 4h down, 4h structure higher highs/lows",
-    "Next resistance 0.074498 (2.2R away, 4h swing/swing/volume node)",
-    "Stop 0.070611 (below the breakout level); targets at the next 1 level(s)",
-    "BTC 4h trend down",
-    "Stronger than BTC by 2.5% over 7d",
-    "OI +8% 24h with breakout",
-    "Track record: +2.6R on ZAMA in the last 45 days (backtest)"
-   ],
-   "coin": "ZAMA",
-   "market": "SPOT",
-   "side": "LONG",
-   "entry": 0.07185,
-   "sl0": 0.0706405764599394,
-   "sl": 0.0706405764599394,
-   "tps": [
-    0.07435695894329711,
-    0.07556638248335772,
-    0.07677580602341831
-   ],
-   "lev": null,
-   "funding_pct": null,
-   "status": "stopped",
-   "hits": 0,
-   "opened": "2026-10-26T15:00:00+00:00",
-   "closed_at": "2026-10-27T03:10:25+00:00",
-   "exit_price": 0.0706405764599394,
-   "result_r": -1.0,
-   "result_pct": -1.68,
-   "last": 0.07069,
-   "last_ts": "2026-10-27T03:10:25+00:00",
-   "move_pct": -1.61,
-   "closed": true,
-   "rsi": 63.9,
-   "trade_on": "Spot",
-   "market_reason": "thin perp market: spot is safer",
-   "chart": null,
-   "setup": "RANGE_BREAK"
   }
  ],
  "stats": {
   "all": {
-   "trades": 98,
-   "wins": 36,
+   "trades": 99,
+   "wins": 37,
    "losses": 62,
-   "win_rate": 36.7,
-   "total_r": -14.01,
-   "avg_r": -0.143,
-   "total_pct": -47.96
+   "win_rate": 37.4,
+   "total_r": -13.28,
+   "avg_r": -0.134,
+   "total_pct": -46.77
   },
   "SPOT": {
    "trades": 36,
@@ -2819,13 +2775,13 @@
    "total_pct": 0.52
   },
   "PERP": {
-   "trades": 58,
-   "wins": 20,
+   "trades": 59,
+   "wins": 21,
    "losses": 38,
-   "win_rate": 34.5,
-   "total_r": -12.3,
-   "avg_r": -0.212,
-   "total_pct": -62.07
+   "win_rate": 35.6,
+   "total_r": -11.56,
+   "avg_r": -0.196,
+   "total_pct": -60.88
   },
   "DEX": {
    "trades": 4,
@@ -2856,13 +2812,13 @@
     "total_pct": 13.59
    },
    "TA": {
-    "trades": 69,
-    "wins": 23,
+    "trades": 70,
+    "wins": 24,
     "losses": 46,
-    "win_rate": 33.3,
-    "total_r": -11.26,
-    "avg_r": -0.163,
-    "total_pct": -26.28
+    "win_rate": 34.3,
+    "total_r": -10.53,
+    "avg_r": -0.15,
+    "total_pct": -25.09
    }
   },
   "coins": {
@@ -3307,6 +3263,15 @@
     "avg_r": -1.0,
     "total_pct": -1.11
    },
+   "OFC": {
+    "trades": 1,
+    "wins": 1,
+    "losses": 0,
+    "win_rate": 100.0,
+    "total_r": 0.73,
+    "avg_r": 0.732,
+    "total_pct": 1.19
+   },
    "OL": {
     "trades": 1,
     "wins": 1,
@@ -3560,7 +3525,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 4
+  "open": 3
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7466,6 +7431,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "3060858f7e1b64a7d71174d9a5c80f84d5d8013577368afad9120da025e1c313",
- "generated": "2026-11-02T03:35:25+00:00"
+ "digest": "ce8502a79955298fc40ba6a085fb0fd354708702117d53ce77eec2130b6ac879",
+ "generated": "2026-11-02T03:40:25+00:00"
 }
