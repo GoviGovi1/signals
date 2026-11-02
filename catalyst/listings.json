@@ -1,6 +1,36 @@
 {
  "new": [
   {
+   "coin": "UMC",
+   "list_ts": 1793622600,
+   "market": "PERP",
+   "state": "preopen"
+  },
+  {
+   "coin": "PEP",
+   "list_ts": 1793621700,
+   "market": "PERP",
+   "state": "preopen"
+  },
+  {
+   "coin": "MELI",
+   "list_ts": 1793620800,
+   "market": "PERP",
+   "state": "preopen"
+  },
+  {
+   "coin": "FLEX",
+   "list_ts": 1793619900,
+   "market": "PERP",
+   "state": "preopen"
+  },
+  {
+   "coin": "ADI",
+   "list_ts": 1793619000,
+   "market": "PERP",
+   "state": "preopen"
+  },
+  {
    "coin": "PFE",
    "list_ts": 1793351700,
    "market": "PERP",
@@ -209,38 +239,8 @@
    "list_ts": 1792735200,
    "market": "SPOT",
    "state": "live"
-  },
-  {
-   "coin": "PANW",
-   "list_ts": 1792662300,
-   "market": "PERP",
-   "state": "live"
-  },
-  {
-   "coin": "AMGN",
-   "list_ts": 1792661400,
-   "market": "PERP",
-   "state": "live"
-  },
-  {
-   "coin": "ABBV",
-   "list_ts": 1792660500,
-   "market": "PERP",
-   "state": "live"
-  },
-  {
-   "coin": "NVO",
-   "list_ts": 1792659600,
-   "market": "PERP",
-   "state": "live"
-  },
-  {
-   "coin": "GE",
-   "list_ts": 1792658700,
-   "market": "PERP",
-   "state": "live"
   }
  ],
  "rule": "New on OKX. Chart signals need the universe rules (volume rank, 30+ days on the chart market). Hot-mover signals can fire from day 2 when the 24h move and volume spike pass hot.py.",
- "updated": 1793611225
+ "updated": 1793615141
 }
