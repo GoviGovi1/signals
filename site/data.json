@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04159,
-   "last_ts": "2026-11-02T05:15:26+00:00",
-   "move_pct": 2.36,
+   "last": 0.04155,
+   "last_ts": "2026-11-02T05:20:25+00:00",
+   "move_pct": 2.26,
    "closed": false,
    "rsi": 64.4,
    "trade_on": "Spot",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.06929,
-   "last_ts": "2026-11-02T05:15:26+00:00",
-   "move_pct": 1.56,
+   "last": 0.06923,
+   "last_ts": "2026-11-02T05:20:25+00:00",
+   "move_pct": 1.65,
    "closed": false,
    "rsi": 39.5,
    "trade_on": "Perps 1x",
@@ -125,9 +125,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1793,
-   "last_ts": "2026-11-02T05:15:26+00:00",
-   "move_pct": 0.06,
+   "last": 0.1788,
+   "last_ts": "2026-11-02T05:20:25+00:00",
+   "move_pct": 0.33,
    "closed": false,
    "rsi": 35.4,
    "trade_on": "Perps 1x",
@@ -6937,6 +6937,28 @@
     ]
    },
    {
+    "id": "exchange-based-tokens",
+    "name": "Exchange Based Tokens",
+    "chg7d": -3.49,
+    "top": [
+     "BNB",
+     "HYPE",
+     "WBT",
+     "LEO",
+     "UNI"
+    ],
+    "tracked": [
+     "BNB",
+     "HYPE",
+     "UNI",
+     "PUMP",
+     "OKB",
+     "ASTER",
+     "CRV",
+     "PENDLE"
+    ]
+   },
+   {
     "id": "lending-borrowing",
     "name": "Lending Borrowing",
     "chg7d": -3.57,
@@ -7038,28 +7060,6 @@
      "FIL",
      "AR",
      "WAL"
-    ]
-   },
-   {
-    "id": "exchange-based-tokens",
-    "name": "Exchange Based Tokens",
-    "chg7d": -4.8,
-    "top": [
-     "BNB",
-     "HYPE",
-     "WBT",
-     "LEO",
-     "UNI"
-    ],
-    "tracked": [
-     "BNB",
-     "HYPE",
-     "UNI",
-     "PUMP",
-     "OKB",
-     "ASTER",
-     "CRV",
-     "PENDLE"
     ]
    },
    {
@@ -7391,7 +7391,7 @@
   "updated": {
    "unlocks": 1793593224,
    "onchain": 1793595322,
-   "sectors": 1793595921,
+   "sectors": 1793596825,
    "listings": 1793596526,
    "fundamentals": 1793593225
   }
@@ -7430,6 +7430,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "4fa0b39b742a56b39826c09f3b65034c7b235054b412ffb7665cbcad9ce1ac21",
- "generated": "2026-11-02T05:15:28+00:00"
+ "digest": "185116c3d5fd14bd4a6941947ed9d1433dcfa5a97c6b562a4da4a07346a9f7df",
+ "generated": "2026-11-02T05:20:28+00:00"
 }
