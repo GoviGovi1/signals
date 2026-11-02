@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.041779,
-   "last_ts": "2026-11-02T03:15:26+00:00",
-   "move_pct": 2.83,
+   "last": 0.041789,
+   "last_ts": "2026-11-02T03:20:24+00:00",
+   "move_pct": 2.85,
    "closed": false,
    "rsi": 64.4,
    "trade_on": "Spot",
@@ -80,7 +80,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.00594,
-   "last_ts": "2026-11-02T03:15:26+00:00",
+   "last_ts": "2026-11-02T03:20:24+00:00",
    "move_pct": 2.73,
    "closed": false,
    "rsi": 37.6,
@@ -124,58 +124,14 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0699,
-   "last_ts": "2026-11-02T03:15:26+00:00",
-   "move_pct": 0.7,
+   "last": 0.06992,
+   "last_ts": "2026-11-02T03:20:24+00:00",
+   "move_pct": 0.67,
    "closed": false,
    "rsi": 39.5,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": "charts/ZBT-PERP-1793530800.png",
-   "setup": "BREAKOUT20"
-  },
-  {
-   "id": "SLX-PERP-1793552400",
-   "kind": "TA",
-   "score": 0,
-   "reasons": [
-    "Chart: Broke the 20-hour low on 2.0x volume",
-    "Timeframes: 1d down, 4h down, 4h structure mixed",
-    "No support below in the last 50 days",
-    "Stop 0.043498 (structure); targets at 1R/2R/3R",
-    "BTC 4h trend down",
-    "Weaker than BTC by 15.2% over 7d",
-    "OI +4% 24h",
-    "Track record: +9.9R on SLX in the last 45 days (backtest)"
-   ],
-   "coin": "SLX",
-   "market": "PERP",
-   "side": "SHORT",
-   "entry": 0.04189,
-   "sl0": 0.043497527611961226,
-   "sl": 0.04189,
-   "tps": [
-    0.04028247238803877,
-    0.03867494477607754,
-    0.03706741716411631
-   ],
-   "lev": 1,
-   "funding_pct": 0.005,
-   "status": "tp1",
-   "hits": 1,
-   "opened": "2026-11-01T18:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.04146,
-   "last_ts": "2026-11-02T03:15:26+00:00",
-   "move_pct": 1.03,
-   "closed": false,
-   "rsi": 27.5,
-   "trade_on": "Perps 1x",
-   "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": "charts/SLX-PERP-1793552400.png",
    "setup": "BREAKOUT20"
   },
   {
@@ -205,7 +161,7 @@
     0.10198250415643703
    ],
    "lev": 1,
-   "funding_pct": 0.0099,
+   "funding_pct": 0.0093,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-01T20:00:00+00:00",
@@ -213,9 +169,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.11142,
-   "last_ts": "2026-11-02T03:15:26+00:00",
-   "move_pct": -0.93,
+   "last": 0.11143,
+   "last_ts": "2026-11-02T03:20:24+00:00",
+   "move_pct": -0.94,
    "closed": false,
    "rsi": 28.0,
    "trade_on": "Perps 1x",
@@ -259,7 +215,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.1801,
-   "last_ts": "2026-11-02T03:15:26+00:00",
+   "last_ts": "2026-11-02T03:20:24+00:00",
    "move_pct": -0.39,
    "closed": false,
    "rsi": 35.4,
@@ -270,6 +226,50 @@
   }
  ],
  "closed": [
+  {
+   "id": "SLX-PERP-1793552400",
+   "kind": "TA",
+   "score": 0,
+   "reasons": [
+    "Chart: Broke the 20-hour low on 2.0x volume",
+    "Timeframes: 1d down, 4h down, 4h structure mixed",
+    "No support below in the last 50 days",
+    "Stop 0.043498 (structure); targets at 1R/2R/3R",
+    "BTC 4h trend down",
+    "Weaker than BTC by 15.2% over 7d",
+    "OI +4% 24h",
+    "Track record: +9.9R on SLX in the last 45 days (backtest)"
+   ],
+   "coin": "SLX",
+   "market": "PERP",
+   "side": "SHORT",
+   "entry": 0.04189,
+   "sl0": 0.043497527611961226,
+   "sl": 0.04189,
+   "tps": [
+    0.04028247238803877,
+    0.03867494477607754,
+    0.03706741716411631
+   ],
+   "lev": 1,
+   "funding_pct": 0.005,
+   "status": "stopped_be",
+   "hits": 1,
+   "opened": "2026-11-01T18:00:00+00:00",
+   "closed_at": "2026-11-02T03:20:24+00:00",
+   "exit_price": 0.04189,
+   "result_r": 0.25,
+   "result_pct": 0.96,
+   "last": 0.04192,
+   "last_ts": "2026-11-02T03:20:24+00:00",
+   "move_pct": 1.03,
+   "closed": true,
+   "rsi": 27.5,
+   "trade_on": "Perps 1x",
+   "market_reason": "shorts need perps; thin perp market, so 1x",
+   "chart": "charts/SLX-PERP-1793552400.png",
+   "setup": "BREAKOUT20"
+  },
   {
    "id": "TRUST-PERP-1793491200",
    "kind": "TA",
@@ -2010,7 +2010,7 @@
    "rsi": 64.2,
    "trade_on": "Spot",
    "market_reason": "thin perp market: spot is safer",
-   "chart": "charts/PENGU-SPOT-1793124000.png",
+   "chart": null,
    "setup": "RETEST"
   },
   {
@@ -2842,57 +2842,17 @@
    "market_reason": "thin perp market: spot is safer",
    "chart": null,
    "setup": "BOS"
-  },
-  {
-   "id": "DOOD-SPOT-HOT-20753",
-   "kind": "HOT",
-   "score": 1676.58,
-   "reasons": [
-    "24h hot mover +40% with volume spike (6.4x the prior 3 days)",
-    "24h volume $10.8M on the OKX spot book, listed 375 days",
-    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
-    "Stop 0.0017178 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
-   ],
-   "coin": "DOOD",
-   "market": "SPOT",
-   "side": "LONG",
-   "entry": 0.001952,
-   "sl0": 0.00171776,
-   "sl": 0.001952,
-   "tps": [
-    0.00218624,
-    0.00242048,
-    0.00265472
-   ],
-   "lev": null,
-   "funding_pct": null,
-   "status": "tp3",
-   "hits": 3,
-   "opened": "2026-10-27T00:00:32+00:00",
-   "closed_at": "2026-10-27T01:50:25+00:00",
-   "exit_price": 0.00265472,
-   "result_r": 2.25,
-   "result_pct": 27.0,
-   "last": 0.002674,
-   "last_ts": "2026-10-27T01:50:25+00:00",
-   "move_pct": 18.34,
-   "closed": true,
-   "rsi": null,
-   "trade_on": "Spot",
-   "market_reason": "very volatile coin: spot avoids liquidation",
-   "chart": null,
-   "setup": "HOT24"
   }
  ],
  "stats": {
   "all": {
-   "trades": 96,
-   "wins": 35,
+   "trades": 97,
+   "wins": 36,
    "losses": 61,
-   "win_rate": 36.5,
-   "total_r": -13.26,
-   "avg_r": -0.138,
-   "total_pct": -47.3
+   "win_rate": 37.1,
+   "total_r": -13.01,
+   "avg_r": -0.134,
+   "total_pct": -46.34
   },
   "SPOT": {
    "trades": 36,
@@ -2904,13 +2864,13 @@
    "total_pct": 0.52
   },
   "PERP": {
-   "trades": 56,
-   "wins": 19,
+   "trades": 57,
+   "wins": 20,
    "losses": 37,
-   "win_rate": 33.9,
-   "total_r": -11.55,
-   "avg_r": -0.206,
-   "total_pct": -61.41
+   "win_rate": 35.1,
+   "total_r": -11.3,
+   "avg_r": -0.198,
+   "total_pct": -60.45
   },
   "DEX": {
    "trades": 4,
@@ -2941,13 +2901,13 @@
     "total_pct": 13.59
    },
    "TA": {
-    "trades": 67,
-    "wins": 22,
+    "trades": 68,
+    "wins": 23,
     "losses": 45,
-    "win_rate": 32.8,
-    "total_r": -10.51,
-    "avg_r": -0.157,
-    "total_pct": -25.62
+    "win_rate": 33.8,
+    "total_r": -10.26,
+    "avg_r": -0.151,
+    "total_pct": -24.66
    }
   },
   "coins": {
@@ -3483,13 +3443,13 @@
     "total_pct": 1.71
    },
    "SLX": {
-    "trades": 2,
-    "wins": 1,
+    "trades": 3,
+    "wins": 2,
     "losses": 1,
-    "win_rate": 50.0,
-    "total_r": 0.07,
-    "avg_r": 0.033,
-    "total_pct": 0.14
+    "win_rate": 66.7,
+    "total_r": 0.32,
+    "avg_r": 0.106,
+    "total_pct": 1.1
    },
    "SNX": {
     "trades": 1,
@@ -3636,7 +3596,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 6
+  "open": 5
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7255,7 +7215,7 @@
    {
     "id": "privacy-coins",
     "name": "Privacy Coins",
-    "chg7d": -6.44,
+    "chg7d": -6.22,
     "top": [
      "ZEC",
      "XMR",
@@ -7503,7 +7463,7 @@
   "updated": {
    "unlocks": 1793571622,
    "onchain": 1793588121,
-   "sectors": 1793588721,
+   "sectors": 1793589624,
    "listings": 1793589026,
    "fundamentals": 1793571623
   }
@@ -7542,6 +7502,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "bcc25cb4fc29b1da3c25efe5f9de1c69e8cbc85d1effa876688b8bb0a433094f",
- "generated": "2026-11-02T03:15:29+00:00"
+ "digest": "673cf8fa3984ed3a2306715406323e05c134c4929a81e7ca4c662f254fe68ea5",
+ "generated": "2026-11-02T03:20:28+00:00"
 }
