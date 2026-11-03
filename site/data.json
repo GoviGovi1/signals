@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1778,
-   "last_ts": "2026-11-03T15:10:25+00:00",
-   "move_pct": 0.89,
+   "last": 0.1775,
+   "last_ts": "2026-11-03T15:15:24+00:00",
+   "move_pct": 1.06,
    "closed": false,
    "rsi": 35.4,
    "trade_on": "Perps 1x",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1197,
-   "last_ts": "2026-11-03T15:10:25+00:00",
-   "move_pct": 4.09,
+   "last": 0.1195,
+   "last_ts": "2026-11-03T15:15:24+00:00",
+   "move_pct": 4.25,
    "closed": false,
    "rsi": 32.0,
    "trade_on": "Perps 1x",
@@ -125,9 +125,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1568,
-   "last_ts": "2026-11-03T15:10:25+00:00",
-   "move_pct": 1.01,
+   "last": 0.1566,
+   "last_ts": "2026-11-03T15:15:24+00:00",
+   "move_pct": 1.14,
    "closed": false,
    "rsi": 36.2,
    "trade_on": "Perps 1x",
@@ -162,7 +162,7 @@
     0.06354952549497415
    ],
    "lev": 1,
-   "funding_pct": 0.0003,
+   "funding_pct": 0.0002,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-02T07:00:00+00:00",
@@ -170,9 +170,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.07018,
-   "last_ts": "2026-11-03T15:10:25+00:00",
-   "move_pct": 0.75,
+   "last": 0.07005,
+   "last_ts": "2026-11-03T15:15:24+00:00",
+   "move_pct": 0.93,
    "closed": false,
    "rsi": 37.5,
    "trade_on": "Perps 1x",
@@ -208,7 +208,7 @@
     0.005938584890526714
    ],
    "lev": 1,
-   "funding_pct": 0.0002,
+   "funding_pct": 0.0001,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-02T07:00:00+00:00",
@@ -216,9 +216,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.006388,
-   "last_ts": "2026-11-03T15:10:25+00:00",
-   "move_pct": 0.71,
+   "last": 0.006382,
+   "last_ts": "2026-11-03T15:15:24+00:00",
+   "move_pct": 0.81,
    "closed": false,
    "rsi": 33.0,
    "trade_on": "Perps 1x",
@@ -248,7 +248,7 @@
     0.027288865267202624
    ],
    "lev": 1,
-   "funding_pct": -0.0037,
+   "funding_pct": -0.0044,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-03T10:35:21+00:00",
@@ -256,60 +256,15 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.02206,
-   "last_ts": "2026-11-03T15:10:25+00:00",
-   "move_pct": -4.0,
+   "last": 0.02193,
+   "last_ts": "2026-11-03T15:15:24+00:00",
+   "move_pct": -4.57,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
    "market_reason": "the perp book is where the 24h move and volume are; very volatile, so 1x",
    "chart": "charts/IRYS-PERP-HOT-20760.png",
    "setup": "HOT24"
-  },
-  {
-   "id": "MUBARAK-PERP-1793710800",
-   "kind": "TA",
-   "score": 0,
-   "reasons": [
-    "Chart: Broke the 20-hour low on 1.4x volume",
-    "Timeframes: 1d down, 4h down, 4h structure lower highs/lows",
-    "Next support 0.035557 (2.3R away, 4h swing)",
-    "Stop 0.03997 (2 ATR); targets at the next 3 level(s)",
-    "BTC 4h trend down",
-    "Weaker than BTC by 22.1% over 7d",
-    "OI +2% 24h",
-    "Sector: Meme Token -5.5% 7d (middle, #8 of 20)",
-    "Track record: +0.5R on MUBARAK in the last 45 days (backtest)"
-   ],
-   "coin": "MUBARAK",
-   "market": "PERP",
-   "side": "SHORT",
-   "entry": 0.038638,
-   "sl0": 0.03997047394887058,
-   "sl": 0.03997047394887058,
-   "tps": [
-    0.035656935546165294,
-    0.032959435546165296,
-    0.031662185546165296
-   ],
-   "lev": 1,
-   "funding_pct": 0.005,
-   "status": "open",
-   "hits": 0,
-   "opened": "2026-11-03T14:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.039405,
-   "last_ts": "2026-11-03T15:10:25+00:00",
-   "move_pct": -1.99,
-   "closed": false,
-   "rsi": 28.1,
-   "trade_on": "Perps 1x",
-   "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": "charts/MUBARAK-PERP-1793710800.png",
-   "setup": "BREAKOUT20"
   },
   {
    "id": "DGAI-PERP-1793714400",
@@ -338,7 +293,7 @@
     0.6207042267339201
    ],
    "lev": 3,
-   "funding_pct": -0.0331,
+   "funding_pct": -0.035,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-03T15:00:00+00:00",
@@ -346,9 +301,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.6515,
-   "last_ts": "2026-11-03T15:10:25+00:00",
-   "move_pct": 1.11,
+   "last": 0.6501,
+   "last_ts": "2026-11-03T15:15:24+00:00",
+   "move_pct": 1.32,
    "closed": false,
    "rsi": 35.3,
    "trade_on": "Perps 3x",
@@ -358,6 +313,51 @@
   }
  ],
  "closed": [
+  {
+   "id": "MUBARAK-PERP-1793710800",
+   "kind": "TA",
+   "score": 0,
+   "reasons": [
+    "Chart: Broke the 20-hour low on 1.4x volume",
+    "Timeframes: 1d down, 4h down, 4h structure lower highs/lows",
+    "Next support 0.035557 (2.3R away, 4h swing)",
+    "Stop 0.03997 (2 ATR); targets at the next 3 level(s)",
+    "BTC 4h trend down",
+    "Weaker than BTC by 22.1% over 7d",
+    "OI +2% 24h",
+    "Sector: Meme Token -5.5% 7d (middle, #8 of 20)",
+    "Track record: +0.5R on MUBARAK in the last 45 days (backtest)"
+   ],
+   "coin": "MUBARAK",
+   "market": "PERP",
+   "side": "SHORT",
+   "entry": 0.038638,
+   "sl0": 0.03997047394887058,
+   "sl": 0.03997047394887058,
+   "tps": [
+    0.035656935546165294,
+    0.032959435546165296,
+    0.031662185546165296
+   ],
+   "lev": 1,
+   "funding_pct": 0.005,
+   "status": "stopped",
+   "hits": 0,
+   "opened": "2026-11-03T14:00:00+00:00",
+   "closed_at": "2026-11-03T15:15:24+00:00",
+   "exit_price": 0.03997047394887058,
+   "result_r": -1.0,
+   "result_pct": -3.45,
+   "last": 0.039808,
+   "last_ts": "2026-11-03T15:15:24+00:00",
+   "move_pct": -1.99,
+   "closed": true,
+   "rsi": 28.1,
+   "trade_on": "Perps 1x",
+   "market_reason": "shorts need perps; thin perp market, so 1x",
+   "chart": "charts/MUBARAK-PERP-1793710800.png",
+   "setup": "BREAKOUT20"
+  },
   {
    "id": "CARDS-SPOT-1793710800",
    "kind": "TA",
@@ -2102,7 +2102,7 @@
    "rsi": 72.2,
    "trade_on": "Spot",
    "market_reason": "thin perp market: spot is safer",
-   "chart": "charts/ZEN-SPOT-1793286000.png",
+   "chart": null,
    "setup": "RANGE_BREAK"
   },
   {
@@ -2955,62 +2955,17 @@
    "market_reason": "thin perp market: spot is safer",
    "chart": null,
    "setup": "BREAKOUT20"
-  },
-  {
-   "id": "GMT-SPOT-1793181600",
-   "kind": "TA",
-   "score": 1,
-   "reasons": [
-    "Chart: Broke out of a 2-day range at 0.007024 (range 0.006739\u20130.007024) on 3.7x volume",
-    "Timeframes: 1d down, 4h down, 4h structure lower highs/lows",
-    "Next resistance 0.0072606 (3.0R away, 4h swing/swing/volume node)",
-    "Stop 0.0069901 (below the breakout level); targets at the next 1 level(s)",
-    "BTC 4h trend down",
-    "Weaker than BTC by 2.0% over 7d",
-    "OI +8% 24h with breakout",
-    "Sector: Gaming -5.6% 7d (middle, #15 of 20)",
-    "Track record: +4.1R on GMT in the last 45 days (backtest)"
-   ],
-   "coin": "GMT",
-   "market": "SPOT",
-   "side": "LONG",
-   "entry": 0.007062,
-   "sl0": 0.00699407434765023,
-   "sl": 0.00699407434765023,
-   "tps": [
-    0.007256266778112695,
-    0.007324192430462465,
-    0.007392118082812236
-   ],
-   "lev": null,
-   "funding_pct": null,
-   "status": "stopped",
-   "hits": 0,
-   "opened": "2026-10-28T11:00:00+00:00",
-   "closed_at": "2026-10-28T12:10:24+00:00",
-   "exit_price": 0.00699407434765023,
-   "result_r": -1.0,
-   "result_pct": -0.96,
-   "last": 0.007004,
-   "last_ts": "2026-10-28T12:10:24+00:00",
-   "move_pct": -0.55,
-   "closed": true,
-   "rsi": 69.9,
-   "trade_on": "Spot",
-   "market_reason": "thin perp market: spot is safer",
-   "chart": null,
-   "setup": "RANGE_BREAK"
   }
  ],
  "stats": {
   "all": {
-   "trades": 107,
+   "trades": 108,
    "wins": 39,
-   "losses": 68,
-   "win_rate": 36.4,
-   "total_r": -13.33,
-   "avg_r": -0.125,
-   "total_pct": -42.93
+   "losses": 69,
+   "win_rate": 36.1,
+   "total_r": -14.33,
+   "avg_r": -0.133,
+   "total_pct": -46.38
   },
   "SPOT": {
    "trades": 38,
@@ -3022,13 +2977,13 @@
    "total_pct": -4.55
   },
   "PERP": {
-   "trades": 65,
+   "trades": 66,
    "wins": 23,
-   "losses": 42,
-   "win_rate": 35.4,
-   "total_r": -10.37,
-   "avg_r": -0.16,
-   "total_pct": -51.97
+   "losses": 43,
+   "win_rate": 34.8,
+   "total_r": -11.37,
+   "avg_r": -0.172,
+   "total_pct": -55.42
   },
   "DEX": {
    "trades": 4,
@@ -3059,13 +3014,13 @@
     "total_pct": 13.59
    },
    "TA": {
-    "trades": 78,
+    "trades": 79,
     "wins": 26,
-    "losses": 52,
-    "win_rate": 33.3,
-    "total_r": -10.58,
-    "avg_r": -0.136,
-    "total_pct": -21.25
+    "losses": 53,
+    "win_rate": 32.9,
+    "total_r": -11.58,
+    "avg_r": -0.147,
+    "total_pct": -24.7
    }
   },
   "coins": {
@@ -3510,6 +3465,15 @@
     "avg_r": -1.0,
     "total_pct": -1.5
    },
+   "MUBARAK": {
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate": 0.0,
+    "total_r": -1.0,
+    "avg_r": -1.0,
+    "total_pct": -3.45
+   },
    "NIGHT": {
     "trades": 2,
     "wins": 0,
@@ -3808,7 +3772,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 8
+  "open": 7
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7848,6 +7812,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "74731548eca0336a6a6cc297df0442fc030338a44eb6e2bfb446c37ba95cf5cf",
- "generated": "2026-11-03T15:10:29+00:00"
+ "digest": "a68caea1714d1eb522dfb922f836c0a3b612c7e941a590a590ba6790418430c2",
+ "generated": "2026-11-03T15:15:28+00:00"
 }
