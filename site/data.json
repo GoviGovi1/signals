@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1776,
-   "last_ts": "2026-11-03T14:20:29+00:00",
-   "move_pct": 1.0,
+   "last": 0.1773,
+   "last_ts": "2026-11-03T14:25:35+00:00",
+   "move_pct": 1.17,
    "closed": false,
    "rsi": 35.4,
    "trade_on": "Perps 1x",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1199,
-   "last_ts": "2026-11-03T14:20:29+00:00",
-   "move_pct": 3.93,
+   "last": 0.1201,
+   "last_ts": "2026-11-03T14:25:35+00:00",
+   "move_pct": 3.77,
    "closed": false,
    "rsi": 32.0,
    "trade_on": "Perps 1x",
@@ -126,7 +126,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.1563,
-   "last_ts": "2026-11-03T14:20:29+00:00",
+   "last_ts": "2026-11-03T14:25:35+00:00",
    "move_pct": 1.33,
    "closed": false,
    "rsi": 36.2,
@@ -162,7 +162,7 @@
     0.06354952549497415
    ],
    "lev": 1,
-   "funding_pct": -0.002,
+   "funding_pct": -0.0014,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-02T07:00:00+00:00",
@@ -170,9 +170,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.07006,
-   "last_ts": "2026-11-03T14:20:29+00:00",
-   "move_pct": 0.92,
+   "last": 0.07011,
+   "last_ts": "2026-11-03T14:25:35+00:00",
+   "move_pct": 0.85,
    "closed": false,
    "rsi": 37.5,
    "trade_on": "Perps 1x",
@@ -208,7 +208,7 @@
     0.005938584890526714
    ],
    "lev": 1,
-   "funding_pct": 0.001,
+   "funding_pct": 0.0014,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-02T07:00:00+00:00",
@@ -216,9 +216,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.00638,
-   "last_ts": "2026-11-03T14:20:29+00:00",
-   "move_pct": 0.84,
+   "last": 0.006373,
+   "last_ts": "2026-11-03T14:25:35+00:00",
+   "move_pct": 0.95,
    "closed": false,
    "rsi": 33.0,
    "trade_on": "Perps 1x",
@@ -248,7 +248,7 @@
     0.027288865267202624
    ],
    "lev": 1,
-   "funding_pct": 0.002,
+   "funding_pct": 0.0022,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-03T10:35:21+00:00",
@@ -256,9 +256,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0222,
-   "last_ts": "2026-11-03T14:20:29+00:00",
-   "move_pct": -3.39,
+   "last": 0.02231,
+   "last_ts": "2026-11-03T14:25:35+00:00",
+   "move_pct": -2.92,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -301,9 +301,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.038999,
-   "last_ts": "2026-11-03T14:20:29+00:00",
-   "move_pct": -0.93,
+   "last": 0.038664,
+   "last_ts": "2026-11-03T14:25:35+00:00",
+   "move_pct": -0.07,
    "closed": false,
    "rsi": 28.1,
    "trade_on": "Perps 1x",
@@ -347,9 +347,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2438,
-   "last_ts": "2026-11-03T14:20:29+00:00",
-   "move_pct": -1.18,
+   "last": 0.244,
+   "last_ts": "2026-11-03T14:25:35+00:00",
+   "move_pct": -1.09,
    "closed": false,
    "rsi": 66.9,
    "trade_on": "Spot",
@@ -7295,6 +7295,21 @@
     ]
    },
    {
+    "id": "privacy-coins",
+    "name": "Privacy Coins",
+    "chg7d": -4.84,
+    "top": [
+     "ZEC",
+     "XMR",
+     "DCR",
+     "ZANO",
+     "ARRR"
+    ],
+    "tracked": [
+     "ZEC"
+    ]
+   },
+   {
     "id": "decentralized-exchange",
     "name": "Decentralized Exchange",
     "chg7d": -4.97,
@@ -7314,21 +7329,6 @@
      "ASTER",
      "RAY",
      "AERO"
-    ]
-   },
-   {
-    "id": "privacy-coins",
-    "name": "Privacy Coins",
-    "chg7d": -5.07,
-    "top": [
-     "ZEC",
-     "XMR",
-     "DCR",
-     "ZANO",
-     "ARRR"
-    ],
-    "tracked": [
-     "ZEC"
     ]
    },
    {
@@ -7795,7 +7795,7 @@
   "updated": {
    "unlocks": 1793702422,
    "onchain": 1793714431,
-   "sectors": 1793715025,
+   "sectors": 1793715934,
    "listings": 1793713825,
    "fundamentals": 1793702422
   }
@@ -7834,6 +7834,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "2713fb052dee836da26a5b7c50aaafd2b552ea5cf1112b2aa54f405e8a01d857",
- "generated": "2026-11-03T14:20:32+00:00"
+ "digest": "75fb27b40480b599a558d59c931e279954bbc3a3101d0d2c65645481362e5438",
+ "generated": "2026-11-03T14:25:38+00:00"
 }
