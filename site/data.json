@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.06617,
-   "last_ts": "2026-11-03T05:50:23+00:00",
-   "move_pct": 6.0,
+   "last": 0.06621,
+   "last_ts": "2026-11-03T05:56:24+00:00",
+   "move_pct": 5.94,
    "closed": false,
    "rsi": 39.5,
    "trade_on": "Perps 1x",
@@ -72,7 +72,7 @@
     0.16378800540348684
    ],
    "lev": 1,
-   "funding_pct": -0.005,
+   "funding_pct": -0.0069,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-02T01:00:00+00:00",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1748,
-   "last_ts": "2026-11-03T05:50:23+00:00",
-   "move_pct": 2.56,
+   "last": 0.1747,
+   "last_ts": "2026-11-03T05:56:24+00:00",
+   "move_pct": 2.62,
    "closed": false,
    "rsi": 35.4,
    "trade_on": "Perps 1x",
@@ -125,9 +125,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1172,
-   "last_ts": "2026-11-03T05:50:23+00:00",
-   "move_pct": 6.09,
+   "last": 0.1174,
+   "last_ts": "2026-11-03T05:56:24+00:00",
+   "move_pct": 5.93,
    "closed": false,
    "rsi": 32.0,
    "trade_on": "Perps 1x",
@@ -162,7 +162,7 @@
     0.14563536982168096
    ],
    "lev": 1,
-   "funding_pct": 0.0025,
+   "funding_pct": 0.0028,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-02T07:00:00+00:00",
@@ -170,9 +170,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1543,
-   "last_ts": "2026-11-03T05:50:23+00:00",
-   "move_pct": 2.59,
+   "last": 0.1545,
+   "last_ts": "2026-11-03T05:56:24+00:00",
+   "move_pct": 2.46,
    "closed": false,
    "rsi": 36.2,
    "trade_on": "Perps 1x",
@@ -207,7 +207,7 @@
     0.06354952549497415
    ],
    "lev": 1,
-   "funding_pct": -0.0182,
+   "funding_pct": -0.0184,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-02T07:00:00+00:00",
@@ -215,9 +215,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0695,
-   "last_ts": "2026-11-03T05:50:23+00:00",
-   "move_pct": 1.71,
+   "last": 0.06951,
+   "last_ts": "2026-11-03T05:56:24+00:00",
+   "move_pct": 1.7,
    "closed": false,
    "rsi": 37.5,
    "trade_on": "Perps 1x",
@@ -252,7 +252,7 @@
     0.0752978841182915
    ],
    "lev": 1,
-   "funding_pct": -0.003,
+   "funding_pct": -0.0048,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-02T07:00:00+00:00",
@@ -260,9 +260,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.07951,
-   "last_ts": "2026-11-03T05:50:23+00:00",
-   "move_pct": 0.77,
+   "last": 0.07948,
+   "last_ts": "2026-11-03T05:56:24+00:00",
+   "move_pct": 0.81,
    "closed": false,
    "rsi": 35.6,
    "trade_on": "Perps 1x",
@@ -298,7 +298,7 @@
     0.005938584890526714
    ],
    "lev": 1,
-   "funding_pct": -0.0001,
+   "funding_pct": -0.0002,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-02T07:00:00+00:00",
@@ -306,9 +306,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.006248,
-   "last_ts": "2026-11-03T05:50:23+00:00",
-   "move_pct": 2.89,
+   "last": 0.006246,
+   "last_ts": "2026-11-03T05:56:24+00:00",
+   "move_pct": 2.92,
    "closed": false,
    "rsi": 33.0,
    "trade_on": "Perps 1x",
@@ -353,7 +353,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.1876,
-   "last_ts": "2026-11-03T05:50:23+00:00",
+   "last_ts": "2026-11-03T05:56:24+00:00",
    "move_pct": 1.37,
    "closed": false,
    "rsi": 37.1,
@@ -7032,36 +7032,17 @@
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
   "onchain": [
    {
-    "chain": "BSC",
-    "symbol": "ARK",
-    "name": "ARK",
-    "token": "0xcae117ca6bc8a341d2e7207f30e180f0e5618b9d",
-    "price": 6.42221503761856,
-    "liq": 58390079,
-    "vol24h": 2924000,
-    "age_d": 433.7,
-    "chg24h": 0.717,
-    "chg7d": 0.4,
-    "mcap": 0.0,
-    "safety": "ok",
-    "safety_notes": [],
-    "trigger": false,
-    "trend_up": true,
-    "rsi": 50.4,
-    "url": "https://www.geckoterminal.com/bsc/pools/0xcaaf3c41a40103a23eeaa4bba468af3cf5b0e0d8"
-   },
-   {
-    "chain": "Arbitrum",
-    "symbol": "USDG",
-    "name": "Global Dollar",
-    "token": "0x004b506865409877c9fa29bfb1eba929984b9bbc",
-    "price": 0.999426440218967,
-    "liq": 865509,
-    "vol24h": 5234064,
-    "age_d": 8.1,
-    "chg24h": -0.142,
-    "chg7d": -0.2,
-    "mcap": 2879226870.6769,
+    "chain": "Base",
+    "symbol": "TSLAC",
+    "name": "Tesla Inc.",
+    "token": "0xb2000000000000000000001e800a7f5189430cd0",
+    "price": 400.185448860198,
+    "liq": 494977,
+    "vol24h": 7257736,
+    "age_d": 12.1,
+    "chg24h": -0.507,
+    "chg7d": 2.9,
+    "mcap": 2167517.52657468,
     "safety": "unknown",
     "safety_notes": [
      "safety not checked"
@@ -7069,7 +7050,26 @@
     "trigger": false,
     "trend_up": false,
     "rsi": 46.6,
-    "url": "https://www.geckoterminal.com/arbitrum/pools/0x81659867a8ce20bb57be82fd9184f2ff1f887605"
+    "url": "https://www.geckoterminal.com/base/pools/0x7a33000372f3f028f074182ccb9d16cbeefbf920"
+   },
+   {
+    "chain": "BSC",
+    "symbol": "COLLECT",
+    "name": "Collect on Fanable",
+    "token": "0x4b3d30992f003c8167699735f5ab2831b2a087d3",
+    "price": 0.0239905988126764,
+    "liq": 2294878,
+    "vol24h": 3069157,
+    "age_d": 311.8,
+    "chg24h": -2.953,
+    "chg7d": 6.9,
+    "mcap": 12882951.56097,
+    "safety": "ok",
+    "safety_notes": [],
+    "trigger": false,
+    "trend_up": false,
+    "rsi": 42.1,
+    "url": "https://www.geckoterminal.com/bsc/pools/0xef470f9ae8512d2762e4f1cd91ae58caea17143afa61b8d56e9b20c8f87688c4"
    }
   ],
   "onchain_checked": 89,
@@ -7098,23 +7098,6 @@
     ]
    },
    {
-    "id": "storage",
-    "name": "Storage",
-    "chg7d": -4.65,
-    "top": [
-     "FIL",
-     "BTT",
-     "AR",
-     "AIOZ",
-     "HOT"
-    ],
-    "tracked": [
-     "FIL",
-     "AR",
-     "WAL"
-    ]
-   },
-   {
     "id": "zero-knowledge-zk",
     "name": "Zero Knowledge ZK",
     "chg7d": -4.89,
@@ -7134,6 +7117,23 @@
      "POL",
      "ZK",
      "TRUTH"
+    ]
+   },
+   {
+    "id": "storage",
+    "name": "Storage",
+    "chg7d": -5.1,
+    "top": [
+     "FIL",
+     "BTT",
+     "AR",
+     "AIOZ",
+     "HOT"
+    ],
+    "tracked": [
+     "FIL",
+     "AR",
+     "WAL"
     ]
    },
    {
@@ -7657,8 +7657,8 @@
   ],
   "updated": {
    "unlocks": 1793680527,
-   "onchain": 1793681721,
-   "sectors": 1793684424,
+   "onchain": 1793685322,
+   "sectors": 1793685322,
    "listings": 1793683527,
    "fundamentals": 1793680528
   }
@@ -7697,6 +7697,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "4b2940d50aac0bc4d9dd6dc744945774b22fd26fc411f8fed813ae91e157ce9f",
- "generated": "2026-11-03T05:50:27+00:00"
+ "digest": "53e79e3761569c6828d2a72afd22b6236078a68e48ffb58325b0ffc2075c0e33",
+ "generated": "2026-11-03T05:56:27+00:00"
 }
