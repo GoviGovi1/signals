@@ -1,5 +1,5 @@
 {
- "checked": 88,
+ "checked": 89,
  "errors": [],
  "rejected": [
   {
@@ -8,7 +8,7 @@
     "liquidity under $250k",
     "pool younger than 7 days"
    ],
-   "symbol": "ANAKIN"
+   "symbol": "MAMESUKE"
   },
   {
    "chain": "Solana",
@@ -16,7 +16,7 @@
     "liquidity under $250k",
     "pool younger than 7 days"
    ],
-   "symbol": "MAMESUKE"
+   "symbol": "ANAKIN"
   },
   {
    "chain": "Solana",
@@ -60,14 +60,14 @@
   {
    "chain": "Solana",
    "fails": [
-    "not checked this hour"
+    "no DEX candles"
    ],
    "symbol": "GATO"
   },
   {
    "chain": "Solana",
    "fails": [
-    "not checked this hour"
+    "no DEX candles"
    ],
    "symbol": "CYBERLEEK"
   },
@@ -82,9 +82,17 @@
   {
    "chain": "Solana",
    "fails": [
-    "not checked this hour"
+    "no DEX candles"
    ],
    "symbol": "JEANPHIL"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "liquidity under $250k",
+    "pool younger than 7 days"
+   ],
+   "symbol": "MOVEMBER"
   },
   {
    "chain": "Solana",
@@ -97,10 +105,9 @@
   {
    "chain": "Solana",
    "fails": [
-    "liquidity under $250k",
-    "pool younger than 7 days"
+    "no DEX candles"
    ],
-   "symbol": "GTA6"
+   "symbol": "ANSEM"
   },
   {
    "chain": "Solana",
@@ -113,21 +120,21 @@
   {
    "chain": "Solana",
    "fails": [
-    "not checked this hour"
+    "no DEX candles"
    ],
-   "symbol": "ANSEM"
+   "symbol": "STONK"
   },
   {
    "chain": "Solana",
    "fails": [
-    "not checked this hour"
+    "no DEX candles"
    ],
    "symbol": "DACITY"
   },
   {
    "chain": "Solana",
    "fails": [
-    "not checked this hour"
+    "no DEX candles"
    ],
    "symbol": "CATE"
   },
@@ -142,17 +149,9 @@
   {
    "chain": "Solana",
    "fails": [
-    "liquidity under $250k",
-    "pool younger than 7 days"
-   ],
-   "symbol": "MOVEMBER"
-  },
-  {
-   "chain": "Base",
-   "fails": [
     "no DEX candles"
    ],
-   "symbol": "XDP"
+   "symbol": "PUMP"
   },
   {
    "chain": "Base",
@@ -164,9 +163,23 @@
   {
    "chain": "Base",
    "fails": [
+    "no DEX candles"
+   ],
+   "symbol": "XDP"
+  },
+  {
+   "chain": "Base",
+   "fails": [
     "24h volume under $250k"
    ],
    "symbol": "DRB"
+  },
+  {
+   "chain": "Base",
+   "fails": [
+    "no DEX candles"
+   ],
+   "symbol": "AERO"
   },
   {
    "chain": "Base",
@@ -178,23 +191,16 @@
   {
    "chain": "Base",
    "fails": [
-    "not checked this hour"
+    "no DEX candles"
    ],
-   "symbol": "AERO"
+   "symbol": "SNDKC"
   },
   {
    "chain": "Base",
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "AXIS"
-  },
-  {
-   "chain": "Base",
-   "fails": [
-    "24h volume under $250k"
-   ],
-   "symbol": "TRUE"
+   "symbol": "VVV"
   },
   {
    "chain": "Base",
@@ -207,16 +213,9 @@
   {
    "chain": "Base",
    "fails": [
-    "not checked this hour"
+    "24h volume under $250k"
    ],
-   "symbol": "VVV"
-  },
-  {
-   "chain": "Base",
-   "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "SNDKC"
+   "symbol": "TRUE"
   },
   {
    "chain": "Base",
@@ -224,6 +223,13 @@
     "24h volume under $250k"
    ],
    "symbol": "TIBBIR"
+  },
+  {
+   "chain": "Base",
+   "fails": [
+    "no DEX candles"
+   ],
+   "symbol": "MSTRC"
   },
   {
    "chain": "Base",
@@ -252,6 +258,21 @@
    "fails": [
     "no DEX candles"
    ],
+   "symbol": "NVDAC"
+  },
+  {
+   "chain": "Base",
+   "fails": [
+    "hidden owner",
+    "owner can change balances"
+   ],
+   "symbol": "POD"
+  },
+  {
+   "chain": "Base",
+   "fails": [
+    "no DEX candles"
+   ],
    "symbol": "GOOGLC"
   },
   {
@@ -274,51 +295,30 @@
     "no DEX candles"
    ],
    "symbol": "IDOL"
-  },
-  {
-   "chain": "BSC",
-   "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "UAI"
-  },
-  {
-   "chain": "BSC",
-   "fails": [
-    "pool younger than 7 days"
-   ],
-   "symbol": "JAGENT"
-  },
-  {
-   "chain": "BSC",
-   "fails": [
-    "liquidity under $250k"
-   ],
-   "symbol": "AIN"
   }
  ],
  "rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
- "updated": 1793667318,
+ "updated": 1793670919,
  "watchlist": [
   {
-   "age_d": 11.9,
-   "atr": 6.0510806723389186,
-   "bar_ts": 1793660400000,
+   "age_d": 12.0,
+   "atr": 6.18675028386655,
+   "bar_ts": 1793664000000,
    "chain": "Base",
-   "chg24h": 0.926,
-   "chg7d": 3.3,
-   "close": 405.455061412517,
-   "ema20": 404.1022613532336,
-   "ema50": 402.35772384191955,
+   "chg24h": 1.22,
+   "chg7d": 2.5,
+   "close": 403.486116057939,
+   "ema20": 404.043580836577,
+   "ema50": 402.40172155982475,
    "fails": [],
    "gecko_id": "tesla-coinbase-tokenized-stocks",
-   "liq": 481748,
-   "mcap": 2197315.92444604,
+   "liq": 490906,
+   "mcap": 2203257.80558876,
    "name": "Tesla Inc.",
    "net": "base",
    "pool": "0x7a33000372f3f028f074182ccb9d16cbeefbf920",
-   "price": 405.701206776888,
-   "rsi": 53.0,
+   "price": 406.811514268689,
+   "rsi": 49.9,
    "safety": "unknown",
    "safety_notes": [
     "safety not checked"
@@ -328,149 +328,35 @@
    "trend_up": true,
    "trigger": false,
    "url": "https://www.geckoterminal.com/base/pools/0x7a33000372f3f028f074182ccb9d16cbeefbf920",
-   "vol24h": 7824007
+   "vol24h": 7551766
   },
   {
-   "age_d": 376.5,
-   "atr": 24.380796986772367,
-   "bar_ts": 1793660400000,
-   "chain": "Ethereum",
-   "chg24h": 1.733,
-   "chg7d": -2.6,
-   "close": 3932.82356317975,
-   "ema20": 3934.8723225470044,
-   "ema50": 3922.2146140442665,
-   "fails": [],
-   "gecko_id": "pax-gold",
-   "liq": 6512230,
-   "mcap": 1773790024.28614,
-   "name": "Paxos Gold",
-   "net": "eth",
-   "pool": "0xc756bba710d45647715079ce50aa16aab36ded42",
-   "price": 3965.48107710762,
-   "rsi": 51.0,
-   "safety": "ok",
-   "safety_notes": [],
-   "symbol": "PAXG",
-   "token": "0x45804880de22913dafe09f4980848ece6ecbaf78",
-   "trend_up": true,
-   "trigger": false,
-   "url": "https://www.geckoterminal.com/eth/pools/0xc756bba710d45647715079ce50aa16aab36ded42",
-   "vol24h": 3161733
-  },
-  {
-   "age_d": 14.3,
-   "atr": 0.0005485841768701596,
-   "bar_ts": 1793660400000,
-   "chain": "BSC",
-   "chg24h": -0.726,
-   "chg7d": -2.5,
-   "close": 0.0413792059209205,
-   "ema20": 0.04155281516473565,
-   "ema50": 0.04169678820313205,
-   "fails": [],
-   "gecko_id": "zignaly",
-   "liq": 1136457,
-   "mcap": 58077126.2736061,
-   "name": "ZigCoin",
-   "net": "bsc",
-   "pool": "0x9fac151b7f1dbbb9d14ccd1ca5b990bc4da5cd1f",
-   "price": 0.0412204165131361,
-   "rsi": 45.9,
-   "safety": "ok",
-   "safety_notes": [],
-   "symbol": "ZIG",
-   "token": "0x8c907e0a72c3d55627e853f4ec6a96b0c8771145",
-   "trend_up": false,
-   "trigger": false,
-   "url": "https://www.geckoterminal.com/bsc/pools/0x9fac151b7f1dbbb9d14ccd1ca5b990bc4da5cd1f",
-   "vol24h": 79985958
-  },
-  {
-   "age_d": 11.9,
-   "atr": 2.5245248930615114,
-   "bar_ts": 1793660400000,
+   "age_d": 14.8,
+   "atr": 0.003575296569985856,
+   "bar_ts": 1793664000000,
    "chain": "Base",
-   "chg24h": -2.135,
-   "chg7d": -6.3,
-   "close": 131.38562147593,
-   "ema20": 132.72728031578487,
-   "ema50": 133.49343861211563,
+   "chg24h": -4.887,
+   "chg7d": -52.0,
+   "close": 0.123318756606985,
+   "ema20": 0.12305131051742618,
+   "ema50": 0.12712580418260566,
    "fails": [],
-   "gecko_id": "microstrategy-coinbase-tokenized-stock",
-   "liq": 1015001,
-   "mcap": 1980707.95346951,
-   "name": "Strategy Inc.",
+   "gecko_id": "axis-robotics",
+   "liq": 2423760,
+   "mcap": 20161268.358,
+   "name": "Axis Token",
    "net": "base",
-   "pool": "0x66dcd42e6314b287110922ae36cb2a8bdeecc153",
-   "price": 131.893394319431,
-   "rsi": 41.4,
+   "pool": "0xc19d91d99afc0332e5013a569c9721cd9ecb51a14c851f7a189a140950a627fa",
+   "price": 0.122189505249452,
+   "rsi": 48.5,
    "safety": "ok",
    "safety_notes": [],
-   "symbol": "MSTRC",
-   "token": "0xb2000000000000000000004884b426556b92883d",
+   "symbol": "AXIS",
+   "token": "0x5be75e3b0aff5d1a042a5363ae36acb1d6d755ea",
    "trend_up": false,
    "trigger": false,
-   "url": "https://www.geckoterminal.com/base/pools/0x66dcd42e6314b287110922ae36cb2a8bdeecc153",
-   "vol24h": 22153376
-  },
-  {
-   "age_d": 11.9,
-   "atr": 2.803676853474122,
-   "bar_ts": 1793660400000,
-   "chain": "Base",
-   "chg24h": -0.84,
-   "chg7d": -5.6,
-   "close": 204.326165946945,
-   "ema20": 205.3285758323083,
-   "ema50": 205.69339139828972,
-   "fails": [],
-   "gecko_id": "nvidia-coinbase-tokenized-stock",
-   "liq": 979749,
-   "mcap": 6526005.99897898,
-   "name": "NVIDIA Corporation",
-   "net": "base",
-   "pool": "0xf668e21993f0acd7ab00bb1cfbaed0df28a3c8ec",
-   "price": 204.633801423017,
-   "rsi": 45.1,
-   "safety": "unknown",
-   "safety_notes": [
-    "safety not checked"
-   ],
-   "symbol": "NVDAC",
-   "token": "0xb20000000000000000000078ee7ce2fe4908108c",
-   "trend_up": false,
-   "trigger": false,
-   "url": "https://www.geckoterminal.com/base/pools/0xf668e21993f0acd7ab00bb1cfbaed0df28a3c8ec",
-   "vol24h": 7920102
-  },
-  {
-   "age_d": 82.6,
-   "atr": 0.003319321413065346,
-   "bar_ts": 1793660400000,
-   "chain": "Solana",
-   "chg24h": -12.857,
-   "chg7d": -14.8,
-   "close": 0.10682398387971409,
-   "ema20": 0.11284680777351493,
-   "ema50": 0.11926538969953515,
-   "fails": [],
-   "gecko_id": "stonk-3",
-   "liq": 2246392,
-   "mcap": 82692877.8243924,
-   "name": "STONK",
-   "net": "solana",
-   "pool": "zxTpi4BtaWX3mgdAPoezkMD1hxx8CdeCfrqXMWvSCLX",
-   "price": 0.10599212657181328,
-   "rsi": 31.6,
-   "safety": "ok",
-   "safety_notes": [],
-   "symbol": "STONK",
-   "token": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
-   "trend_up": false,
-   "trigger": false,
-   "url": "https://www.geckoterminal.com/solana/pools/zxTpi4BtaWX3mgdAPoezkMD1hxx8CdeCfrqXMWvSCLX",
-   "vol24h": 4501360
+   "url": "https://www.geckoterminal.com/base/pools/0xc19d91d99afc0332e5013a569c9721cd9ecb51a14c851f7a189a140950a627fa",
+   "vol24h": 3190624
   }
  ]
 }
