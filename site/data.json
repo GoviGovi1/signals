@@ -22,7 +22,7 @@
     0.17439159982844082
    ],
    "lev": 1,
-   "funding_pct": -0.183,
+   "funding_pct": -0.1665,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-04T02:01:29+00:00",
@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1441,
-   "last_ts": "2026-11-04T16:25:04+00:00",
-   "move_pct": -0.62,
+   "last": 0.144,
+   "last_ts": "2026-11-04T16:34:21+00:00",
+   "move_pct": -0.69,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -76,9 +76,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.01249,
-   "last_ts": "2026-11-04T16:25:04+00:00",
-   "move_pct": 3.57,
+   "last": 0.01247,
+   "last_ts": "2026-11-04T16:34:21+00:00",
+   "move_pct": 3.4,
    "closed": false,
    "rsi": 56.1,
    "trade_on": "Spot",
@@ -120,9 +120,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 4043.4025121184,
-   "last_ts": "2026-11-04T16:25:04+00:00",
-   "move_pct": 0.59,
+   "last": 4035.21691540975,
+   "last_ts": "2026-11-04T16:34:21+00:00",
+   "move_pct": 0.39,
    "closed": false,
    "rsi": 64.1,
    "trade_on": "On-chain spot (Ethereum DEX)",
@@ -165,9 +165,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.02076,
-   "last_ts": "2026-11-04T16:25:04+00:00",
-   "move_pct": 2.72,
+   "last": 0.02084,
+   "last_ts": "2026-11-04T16:34:21+00:00",
+   "move_pct": 3.12,
    "closed": false,
    "rsi": 64.9,
    "trade_on": "Spot",
@@ -197,7 +197,7 @@
     0.295792
    ],
    "lev": 1,
-   "funding_pct": 0.005,
+   "funding_pct": 0.0025,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-11-04T14:50:24+00:00",
@@ -205,9 +205,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.276,
-   "last_ts": "2026-11-04T16:25:04+00:00",
-   "move_pct": 4.51,
+   "last": 0.2733,
+   "last_ts": "2026-11-04T16:34:21+00:00",
+   "move_pct": 3.48,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -237,7 +237,7 @@
     0.111126490277914
    ],
    "lev": 1,
-   "funding_pct": 0.042,
+   "funding_pct": 0.0418,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-04T15:01:39+00:00",
@@ -245,9 +245,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.09506,
-   "last_ts": "2026-11-04T16:25:04+00:00",
-   "move_pct": 1.31,
+   "last": 0.09426,
+   "last_ts": "2026-11-04T16:34:21+00:00",
+   "move_pct": 0.46,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -289,9 +289,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.13222662560497442,
-   "last_ts": "2026-11-04T16:25:04+00:00",
-   "move_pct": -1.78,
+   "last": 0.13149413270945806,
+   "last_ts": "2026-11-04T16:34:21+00:00",
+   "move_pct": -2.32,
    "closed": false,
    "rsi": 72.8,
    "trade_on": "On-chain spot (Solana DEX)",
@@ -7296,6 +7296,26 @@
     ]
    },
    {
+    "id": "oracle",
+    "name": "Oracle",
+    "chg7d": -3.81,
+    "top": [
+     "LINK",
+     "PYTH",
+     "RED",
+     "WIN",
+     "TRB"
+    ],
+    "tracked": [
+     "LINK",
+     "PYTH",
+     "TRB",
+     "API3",
+     "BAND",
+     "ZKP"
+    ]
+   },
+   {
     "id": "bitcoin-ecosystem",
     "name": "Bitcoin Ecosystem",
     "chg7d": -4.04,
@@ -7354,26 +7374,6 @@
      "CRV",
      "ASTER",
      "AERO"
-    ]
-   },
-   {
-    "id": "oracle",
-    "name": "Oracle",
-    "chg7d": -5.38,
-    "top": [
-     "LINK",
-     "PYTH",
-     "RED",
-     "WIN",
-     "TRB"
-    ],
-    "tracked": [
-     "LINK",
-     "PYTH",
-     "TRB",
-     "API3",
-     "BAND",
-     "ZKP"
     ]
    },
    {
@@ -7813,7 +7813,7 @@
   "updated": {
    "unlocks": 1793790030,
    "onchain": 1793808941,
-   "sectors": 1793808941,
+   "sectors": 1793810060,
    "listings": 1793808941,
    "fundamentals": 1793790031
   }
@@ -7852,6 +7852,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "076bf11a407cd0d8a169dff24896870796fd715a8e9614ddc69e8f5e3065ede0",
- "generated": "2026-11-04T16:25:12+00:00"
+ "digest": "a0be7c2f4fa4797c26cbf948fa031570a7ed8da02f0f133a15a2e152d0aba042",
+ "generated": "2026-11-04T16:34:28+00:00"
 }
