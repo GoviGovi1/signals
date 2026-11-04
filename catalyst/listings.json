@@ -1,6 +1,24 @@
 {
  "new": [
   {
+   "coin": "SMR",
+   "list_ts": 1793781900,
+   "market": "PERP",
+   "state": "preopen"
+  },
+  {
+   "coin": "OXY",
+   "list_ts": 1793781000,
+   "market": "PERP",
+   "state": "preopen"
+  },
+  {
+   "coin": "MURATA",
+   "list_ts": 1793770200,
+   "market": "PERP",
+   "state": "preopen"
+  },
+  {
    "coin": "UMC",
    "list_ts": 1793622600,
    "market": "PERP",
@@ -221,26 +239,8 @@
    "list_ts": 1792740600,
    "market": "SPOT",
    "state": "live"
-  },
-  {
-   "coin": "XCOST",
-   "list_ts": 1792738800,
-   "market": "SPOT",
-   "state": "live"
-  },
-  {
-   "coin": "XAXTI",
-   "list_ts": 1792737000,
-   "market": "SPOT",
-   "state": "live"
-  },
-  {
-   "coin": "XACN",
-   "list_ts": 1792735200,
-   "market": "SPOT",
-   "state": "live"
   }
  ],
  "rule": "New on OKX. Chart signals need the universe rules (volume rank, 30+ days on the chart market). Hot-mover signals can fire from day 2 when the 24h move and volume spike pass hot.py.",
- "updated": 1793758828
+ "updated": 1793762719
 }
