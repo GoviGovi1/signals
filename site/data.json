@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.06401,
-   "last_ts": "2026-11-04T12:10:24+00:00",
-   "move_pct": 1.23,
+   "last": 0.06383,
+   "last_ts": "2026-11-04T12:15:24+00:00",
+   "move_pct": 1.51,
    "closed": false,
    "rsi": 33.6,
    "trade_on": "Perps 1x",
@@ -67,7 +67,7 @@
     0.17439159982844082
    ],
    "lev": 1,
-   "funding_pct": -0.1907,
+   "funding_pct": -0.1844,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-04T02:01:29+00:00",
@@ -75,9 +75,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1466,
-   "last_ts": "2026-11-04T12:10:24+00:00",
-   "move_pct": 1.1,
+   "last": 0.1476,
+   "last_ts": "2026-11-04T12:15:24+00:00",
+   "move_pct": 1.79,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -121,9 +121,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.01212,
-   "last_ts": "2026-11-04T12:10:24+00:00",
-   "move_pct": 0.5,
+   "last": 0.01203,
+   "last_ts": "2026-11-04T12:15:24+00:00",
+   "move_pct": -0.25,
    "closed": false,
    "rsi": 56.1,
    "trade_on": "Spot",
@@ -157,7 +157,7 @@
     0.14571003173029937
    ],
    "lev": 1,
-   "funding_pct": 0.005,
+   "funding_pct": 0.0042,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-04T05:00:00+00:00",
@@ -165,9 +165,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1602,
-   "last_ts": "2026-11-04T12:10:24+00:00",
-   "move_pct": 0.31,
+   "last": 0.1592,
+   "last_ts": "2026-11-04T12:15:24+00:00",
+   "move_pct": 0.93,
    "closed": false,
    "rsi": 32.2,
    "trade_on": "Perps 1x",
@@ -209,9 +209,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 4045.78330845609,
-   "last_ts": "2026-11-04T12:10:24+00:00",
-   "move_pct": 0.65,
+   "last": 4033.43476985911,
+   "last_ts": "2026-11-04T12:15:24+00:00",
+   "move_pct": 0.34,
    "closed": false,
    "rsi": 64.1,
    "trade_on": "On-chain spot (Ethereum DEX)",
@@ -254,9 +254,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.02012,
-   "last_ts": "2026-11-04T12:10:24+00:00",
-   "move_pct": -0.45,
+   "last": 0.02,
+   "last_ts": "2026-11-04T12:15:24+00:00",
+   "move_pct": -1.04,
    "closed": false,
    "rsi": 64.9,
    "trade_on": "Spot",
@@ -7193,6 +7193,27 @@
     ]
    },
    {
+    "id": "lending-borrowing",
+    "name": "Lending Borrowing",
+    "chg7d": -4.96,
+    "top": [
+     "AAVE",
+     "MORPHO",
+     "OHM",
+     "COMP",
+     "KMNO"
+    ],
+    "tracked": [
+     "AAVE",
+     "CAP",
+     "CT",
+     "MORPHO",
+     "KMNO",
+     "COMP",
+     "SPK"
+    ]
+   },
+   {
     "id": "oracle",
     "name": "Oracle",
     "chg7d": -5.38,
@@ -7232,27 +7253,6 @@
      "BNB",
      "AVAX",
      "ZEC"
-    ]
-   },
-   {
-    "id": "lending-borrowing",
-    "name": "Lending Borrowing",
-    "chg7d": -5.47,
-    "top": [
-     "AAVE",
-     "MORPHO",
-     "OHM",
-     "COMP",
-     "KMNO"
-    ],
-    "tracked": [
-     "AAVE",
-     "CAP",
-     "CT",
-     "MORPHO",
-     "KMNO",
-     "COMP",
-     "SPK"
     ]
    },
    {
@@ -7710,7 +7710,7 @@
   "updated": {
    "unlocks": 1793790030,
    "onchain": 1793793635,
-   "sectors": 1793793635,
+   "sectors": 1793794524,
    "listings": 1793792431,
    "fundamentals": 1793790031
   }
@@ -7749,6 +7749,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "ca9f7eadd6362d7b14ba7a95609c7a5e5f10e59af2955e2e6576f555d0f92007",
- "generated": "2026-11-04T12:10:36+00:00"
+ "digest": "01ce8a13ec0306d7a7cbab5af96478f955e7872c3f3fe1f1aed0cf1b60cfbdc3",
+ "generated": "2026-11-04T12:15:30+00:00"
 }
