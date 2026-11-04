@@ -22,7 +22,7 @@
     0.17439159982844082
    ],
    "lev": 1,
-   "funding_pct": -0.0316,
+   "funding_pct": -0.0294,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-04T02:01:29+00:00",
@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.147,
-   "last_ts": "2026-11-04T19:45:24+00:00",
-   "move_pct": 1.38,
+   "last": 0.1468,
+   "last_ts": "2026-11-04T19:50:25+00:00",
+   "move_pct": 1.24,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -76,9 +76,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.01226,
-   "last_ts": "2026-11-04T19:45:24+00:00",
-   "move_pct": 1.66,
+   "last": 0.01221,
+   "last_ts": "2026-11-04T19:50:25+00:00",
+   "move_pct": 1.24,
    "closed": false,
    "rsi": 56.1,
    "trade_on": "Spot",
@@ -120,60 +120,15 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 4062.48791030706,
-   "last_ts": "2026-11-04T19:45:24+00:00",
-   "move_pct": 1.07,
+   "last": 4060.45359807106,
+   "last_ts": "2026-11-04T19:50:25+00:00",
+   "move_pct": 1.02,
    "closed": false,
    "rsi": 64.1,
    "trade_on": "On-chain spot (Ethereum DEX)",
    "market_reason": "not listed on OKX; buy on a DEX, small size, no leverage",
    "chart": "charts/PAXG-DEX-eth-0x45804880-1793772000.png",
    "setup": null
-  },
-  {
-   "id": "GRT-SPOT-1793779200",
-   "kind": "TA",
-   "score": 0,
-   "reasons": [
-    "Chart: Broke out of a 2-day range at 0.02009 (range 0.01885\u20130.02009) on 1.2x volume",
-    "Timeframes: 1d down, 4h down, 4h structure lower highs/lows",
-    "Next resistance 0.020921 (2.1R away, 4h swing/swing/volume node)",
-    "Stop 0.01977 (structure); targets at the next 2 level(s)",
-    "BTC 4h trend down",
-    "Weaker than BTC by 6.8% over 7d",
-    "OI +0% 24h",
-    "Sector: Artificial Intelligence -8.6% 7d (middle, #15 of 20)",
-    "Track record: +1.3R on GRT in the last 45 days (backtest)"
-   ],
-   "coin": "GRT",
-   "market": "SPOT",
-   "side": "LONG",
-   "entry": 0.02021,
-   "sl0": 0.019838937481947875,
-   "sl": 0.02021,
-   "tps": [
-    0.020952667856384992,
-    0.021334249797139538,
-    0.021705312315191662
-   ],
-   "lev": null,
-   "funding_pct": null,
-   "status": "tp1",
-   "hits": 1,
-   "opened": "2026-11-04T09:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.02028,
-   "last_ts": "2026-11-04T19:45:24+00:00",
-   "move_pct": 0.35,
-   "closed": false,
-   "rsi": 64.9,
-   "trade_on": "Spot",
-   "market_reason": "thin perp market: spot is safer",
-   "chart": "charts/GRT-SPOT-1793779200.png",
-   "setup": "RANGE_BREAK"
   },
   {
    "id": "STONK-DEX-solana-6GmAFSYs4g-1793804400",
@@ -209,9 +164,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1278237136432453,
-   "last_ts": "2026-11-04T19:45:24+00:00",
-   "move_pct": -5.05,
+   "last": 0.12703546021629364,
+   "last_ts": "2026-11-04T19:50:25+00:00",
+   "move_pct": -5.64,
    "closed": false,
    "rsi": 72.8,
    "trade_on": "On-chain spot (Solana DEX)",
@@ -221,6 +176,51 @@
   }
  ],
  "closed": [
+  {
+   "id": "GRT-SPOT-1793779200",
+   "kind": "TA",
+   "score": 0,
+   "reasons": [
+    "Chart: Broke out of a 2-day range at 0.02009 (range 0.01885\u20130.02009) on 1.2x volume",
+    "Timeframes: 1d down, 4h down, 4h structure lower highs/lows",
+    "Next resistance 0.020921 (2.1R away, 4h swing/swing/volume node)",
+    "Stop 0.01977 (structure); targets at the next 2 level(s)",
+    "BTC 4h trend down",
+    "Weaker than BTC by 6.8% over 7d",
+    "OI +0% 24h",
+    "Sector: Artificial Intelligence -8.6% 7d (middle, #15 of 20)",
+    "Track record: +1.3R on GRT in the last 45 days (backtest)"
+   ],
+   "coin": "GRT",
+   "market": "SPOT",
+   "side": "LONG",
+   "entry": 0.02021,
+   "sl0": 0.019838937481947875,
+   "sl": 0.02021,
+   "tps": [
+    0.020952667856384992,
+    0.021334249797139538,
+    0.021705312315191662
+   ],
+   "lev": null,
+   "funding_pct": null,
+   "status": "stopped_be",
+   "hits": 1,
+   "opened": "2026-11-04T09:00:00+00:00",
+   "closed_at": "2026-11-04T19:50:25+00:00",
+   "exit_price": 0.02021,
+   "result_r": 0.5,
+   "result_pct": 0.92,
+   "last": 0.02016,
+   "last_ts": "2026-11-04T19:50:25+00:00",
+   "move_pct": 0.35,
+   "closed": true,
+   "rsi": 64.9,
+   "trade_on": "Spot",
+   "market_reason": "thin perp market: spot is safer",
+   "chart": "charts/GRT-SPOT-1793779200.png",
+   "setup": "RANGE_BREAK"
+  },
   {
    "id": "CAP-PERP-HOT-20761",
    "kind": "HOT",
@@ -1993,7 +1993,7 @@
    "rsi": 68.7,
    "trade_on": "Spot",
    "market_reason": "thin perp market: spot is safer",
-   "chart": "charts/AGLD-SPOT-1793426400.png",
+   "chart": null,
    "setup": "RETEST"
   },
   {
@@ -2803,70 +2803,26 @@
    "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
    "chart": null,
    "setup": "HOT24"
-  },
-  {
-   "id": "S-PERP-1793253600",
-   "kind": "TA",
-   "score": 1,
-   "reasons": [
-    "Chart: Retest of the 0.0448 breakoutdown level held (4h after the break)",
-    "Timeframes: 1d down, 4h flat, 4h structure lower highs/lows",
-    "Next support 0.041797 (2.5R away, 4h swing)",
-    "Stop 0.045145 (above the breakdown level); targets at the next 3 level(s)",
-    "BTC 4h trend down",
-    "Weaker than BTC by 14.0% over 7d",
-    "OI +6% 24h with breakout",
-    "Track record: +4.4R on S in the last 45 days (backtest)"
-   ],
-   "coin": "S",
-   "market": "PERP",
-   "side": "SHORT",
-   "entry": 0.04418,
-   "sl0": 0.04514485146053351,
-   "sl": 0.04514485146053351,
-   "tps": [
-    0.0418834855924061,
-    0.04076121286513338,
-    0.03992121286513337
-   ],
-   "lev": 1,
-   "funding_pct": 0.005,
-   "status": "stopped",
-   "hits": 0,
-   "opened": "2026-10-29T07:00:00+00:00",
-   "closed_at": "2026-10-29T16:00:30+00:00",
-   "exit_price": 0.04514485146053351,
-   "result_r": -1.0,
-   "result_pct": -2.18,
-   "last": 0.04525,
-   "last_ts": "2026-10-29T16:00:30+00:00",
-   "move_pct": -2.11,
-   "closed": true,
-   "rsi": 29.8,
-   "trade_on": "Perps 1x",
-   "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": null,
-   "setup": "RETEST"
   }
  ],
  "stats": {
   "all": {
-   "trades": 125,
-   "wins": 49,
+   "trades": 126,
+   "wins": 50,
    "losses": 76,
-   "win_rate": 39.2,
-   "total_r": -13.39,
-   "avg_r": -0.107,
-   "total_pct": -50.39
+   "win_rate": 39.7,
+   "total_r": -12.89,
+   "avg_r": -0.102,
+   "total_pct": -49.47
   },
   "SPOT": {
-   "trades": 40,
-   "wins": 15,
+   "trades": 41,
+   "wins": 16,
    "losses": 25,
-   "win_rate": 37.5,
-   "total_r": -3.72,
-   "avg_r": -0.093,
-   "total_pct": -1.63
+   "win_rate": 39.0,
+   "total_r": -3.22,
+   "avg_r": -0.079,
+   "total_pct": -0.71
   },
   "PERP": {
    "trades": 81,
@@ -2906,13 +2862,13 @@
     "total_pct": 13.59
    },
    "TA": {
-    "trades": 93,
-    "wins": 35,
+    "trades": 94,
+    "wins": 36,
     "losses": 58,
-    "win_rate": 37.6,
-    "total_r": -9.39,
-    "avg_r": -0.101,
-    "total_pct": -19.32
+    "win_rate": 38.3,
+    "total_r": -8.89,
+    "avg_r": -0.095,
+    "total_pct": -18.4
    }
   },
   "coins": {
@@ -3302,6 +3258,15 @@
     "total_r": 0.29,
     "avg_r": 0.146,
     "total_pct": 1.38
+   },
+   "GRT": {
+    "trades": 1,
+    "wins": 1,
+    "losses": 0,
+    "win_rate": 100.0,
+    "total_r": 0.5,
+    "avg_r": 0.5,
+    "total_pct": 0.92
    },
    "HBAR": {
     "trades": 1,
@@ -3727,7 +3692,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 5
+  "open": 4
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7765,6 +7730,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "d4405199bd65c1a6aca12a146bc83fa5ba791d442ffdb8c93165e648085c3345",
- "generated": "2026-11-04T19:45:31+00:00"
+ "digest": "0561ebf1e2a660a87615af07a2af57f7358e029ac180da504ca88b33df50830e",
+ "generated": "2026-11-04T19:50:32+00:00"
 }
