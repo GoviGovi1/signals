@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.06461,
-   "last_ts": "2026-11-04T11:55:21+00:00",
-   "move_pct": 0.31,
+   "last": 0.06467,
+   "last_ts": "2026-11-04T12:01:34+00:00",
+   "move_pct": 0.22,
    "closed": false,
    "rsi": 33.6,
    "trade_on": "Perps 1x",
@@ -67,7 +67,7 @@
     0.17439159982844082
    ],
    "lev": 1,
-   "funding_pct": -0.2037,
+   "funding_pct": -0.1957,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-04T02:01:29+00:00",
@@ -75,9 +75,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1458,
-   "last_ts": "2026-11-04T11:55:21+00:00",
-   "move_pct": 0.55,
+   "last": 0.1444,
+   "last_ts": "2026-11-04T12:01:34+00:00",
+   "move_pct": -0.41,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -122,7 +122,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.01212,
-   "last_ts": "2026-11-04T11:55:21+00:00",
+   "last_ts": "2026-11-04T12:01:34+00:00",
    "move_pct": 0.5,
    "closed": false,
    "rsi": 56.1,
@@ -165,9 +165,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1614,
-   "last_ts": "2026-11-04T11:55:21+00:00",
-   "move_pct": -0.44,
+   "last": 0.1617,
+   "last_ts": "2026-11-04T12:01:34+00:00",
+   "move_pct": -0.62,
    "closed": false,
    "rsi": 32.2,
    "trade_on": "Perps 1x",
@@ -209,9 +209,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 4033.63652801418,
-   "last_ts": "2026-11-04T11:55:21+00:00",
-   "move_pct": 0.35,
+   "last": 4045.78330845609,
+   "last_ts": "2026-11-04T12:01:34+00:00",
+   "move_pct": 0.65,
    "closed": false,
    "rsi": 64.1,
    "trade_on": "On-chain spot (Ethereum DEX)",
@@ -254,9 +254,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.02023,
-   "last_ts": "2026-11-04T11:55:21+00:00",
-   "move_pct": 0.1,
+   "last": 0.0202,
+   "last_ts": "2026-11-04T12:01:34+00:00",
+   "move_pct": -0.05,
    "closed": false,
    "rsi": 64.9,
    "trade_on": "Spot",
@@ -7066,45 +7066,64 @@
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
   "onchain": [
    {
-    "chain": "BSC",
-    "symbol": "ZIG",
-    "name": "ZigCoin",
-    "token": "0x8c907e0a72c3d55627e853f4ec6a96b0c8771145",
-    "price": 0.0405872258828573,
-    "liq": 1030011,
-    "vol24h": 93083432,
-    "age_d": 15.7,
-    "chg24h": -1.377,
-    "chg7d": -5.1,
-    "mcap": 57175813.7741571,
+    "chain": "Solana",
+    "symbol": "CATE",
+    "name": "Catecoin",
+    "token": "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump",
+    "price": 0.03940928945723993,
+    "liq": 2172242,
+    "vol24h": 1659600,
+    "age_d": 100.8,
+    "chg24h": 15.315,
+    "chg7d": -21.8,
+    "mcap": 38021759.6797779,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
-    "trend_up": false,
-    "rsi": 39.5,
-    "url": "https://www.geckoterminal.com/bsc/pools/0x9fac151b7f1dbbb9d14ccd1ca5b990bc4da5cd1f"
+    "trend_up": true,
+    "rsi": 59.1,
+    "url": "https://www.geckoterminal.com/solana/pools/HMzvsEEmtzHhvZNw9uwbaG85HCTmFnkbhzUx16cy7ca3"
    },
    {
     "chain": "BSC",
-    "symbol": "Q",
-    "name": "Quack AI Token",
-    "token": "0xc07e1300dc138601fa6b0b59f8d0fa477e690589",
-    "price": 0.0288887009425693,
-    "liq": 1089329,
-    "vol24h": 6453437,
-    "age_d": 430.1,
-    "chg24h": -1.663,
-    "chg7d": -49.8,
-    "mcap": 141472785.512063,
+    "symbol": "JCT",
+    "name": "JANCTION",
+    "token": "0xea37a8de1de2d9d10772eeb569e28bfa5cb17707",
+    "price": 0.00496028987075465,
+    "liq": 847244,
+    "vol24h": 8009373,
+    "age_d": 153.9,
+    "chg24h": 12.484,
+    "chg7d": -32.9,
+    "mcap": 56997768.0429973,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 55.7,
-    "url": "https://www.geckoterminal.com/bsc/pools/0x8bafe0bdd3eb9ae0539f5b32e771c1a72a189b7f"
+    "rsi": 66.5,
+    "url": "https://www.geckoterminal.com/bsc/pools/0x7bb2f6dab157e444ad8717b0178035c1b1cf24958b37c2a205e61a3582283249"
+   },
+   {
+    "chain": "BSC",
+    "symbol": "UAI",
+    "name": "UnifAI",
+    "token": "0x3e5d4f8aee0d9b3082d5f6da5d6e225d17ba9ea0",
+    "price": 0.0891774908291887,
+    "liq": 552732,
+    "vol24h": 4242705,
+    "age_d": 365.2,
+    "chg24h": -44.168,
+    "chg7d": -62.8,
+    "mcap": 21313420.30837,
+    "safety": "ok",
+    "safety_notes": [],
+    "trigger": false,
+    "trend_up": false,
+    "rsi": 29.9,
+    "url": "https://www.geckoterminal.com/bsc/pools/0x57004a34731b96d9e86b706cd629f24456ca2c7bdfcc5aae2417496d65090eb7"
    }
   ],
-  "onchain_checked": 89,
+  "onchain_checked": 88,
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
@@ -7259,6 +7278,23 @@
     ]
    },
    {
+    "id": "storage",
+    "name": "Storage",
+    "chg7d": -5.58,
+    "top": [
+     "FIL",
+     "BTT",
+     "AR",
+     "AIOZ",
+     "HOT"
+    ],
+    "tracked": [
+     "FIL",
+     "AR",
+     "WAL"
+    ]
+   },
+   {
     "id": "gaming",
     "name": "Gaming",
     "chg7d": -5.72,
@@ -7300,23 +7336,6 @@
      "ASTER",
      "RAY",
      "AERO"
-    ]
-   },
-   {
-    "id": "storage",
-    "name": "Storage",
-    "chg7d": -6.7,
-    "top": [
-     "FIL",
-     "BTT",
-     "AR",
-     "AIOZ",
-     "HOT"
-    ],
-    "tracked": [
-     "FIL",
-     "AR",
-     "WAL"
     ]
    },
    {
@@ -7690,8 +7709,8 @@
   ],
   "updated": {
    "unlocks": 1793790030,
-   "onchain": 1793790054,
-   "sectors": 1793792722,
+   "onchain": 1793793635,
+   "sectors": 1793793635,
    "listings": 1793792431,
    "fundamentals": 1793790031
   }
@@ -7730,6 +7749,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "186b27aed1f32059150c9c819324100f1f7f6fc82936598ee2612898e0532dd8",
- "generated": "2026-11-04T11:55:27+00:00"
+ "digest": "ec6eb183bd7969c79b03298f11afe85a0f063a01ba3f5a3d22ae22a26a64c49b",
+ "generated": "2026-11-04T12:02:08+00:00"
 }
