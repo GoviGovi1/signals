@@ -22,7 +22,7 @@
     0.17439159982844082
    ],
    "lev": 1,
-   "funding_pct": -0.0535,
+   "funding_pct": -0.054,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-04T02:01:29+00:00",
@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1434,
-   "last_ts": "2026-11-04T18:55:23+00:00",
-   "move_pct": -1.1,
+   "last": 0.1437,
+   "last_ts": "2026-11-04T19:00:32+00:00",
+   "move_pct": -0.9,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -77,7 +77,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.01226,
-   "last_ts": "2026-11-04T18:55:23+00:00",
+   "last_ts": "2026-11-04T19:00:32+00:00",
    "move_pct": 1.66,
    "closed": false,
    "rsi": 56.1,
@@ -120,9 +120,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 4043.86028795939,
-   "last_ts": "2026-11-04T18:55:23+00:00",
-   "move_pct": 0.6,
+   "last": 4040.30663198933,
+   "last_ts": "2026-11-04T19:00:32+00:00",
+   "move_pct": 0.51,
    "closed": false,
    "rsi": 64.1,
    "trade_on": "On-chain spot (Ethereum DEX)",
@@ -166,7 +166,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.02032,
-   "last_ts": "2026-11-04T18:55:23+00:00",
+   "last_ts": "2026-11-04T19:00:32+00:00",
    "move_pct": 0.54,
    "closed": false,
    "rsi": 64.9,
@@ -209,9 +209,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.130337596338556,
-   "last_ts": "2026-11-04T18:55:23+00:00",
-   "move_pct": -3.18,
+   "last": 0.12862345598165595,
+   "last_ts": "2026-11-04T19:00:32+00:00",
+   "move_pct": -4.46,
    "closed": false,
    "rsi": 72.8,
    "trade_on": "On-chain spot (Solana DEX)",
@@ -7152,6 +7152,28 @@
     ]
    },
    {
+    "id": "layer-1",
+    "name": "Layer 1",
+    "chg7d": -2.57,
+    "top": [
+     "BTC",
+     "ETH",
+     "BNB",
+     "XRP",
+     "SOL"
+    ],
+    "tracked": [
+     "BTC",
+     "ETH",
+     "SOL",
+     "XRP",
+     "SUI",
+     "BNB",
+     "AVAX",
+     "ZEC"
+    ]
+   },
+   {
     "id": "exchange-based-tokens",
     "name": "Exchange Based Tokens",
     "chg7d": -2.81,
@@ -7349,28 +7371,6 @@
      "ARRR"
     ],
     "tracked": [
-     "ZEC"
-    ]
-   },
-   {
-    "id": "layer-1",
-    "name": "Layer 1",
-    "chg7d": -5.94,
-    "top": [
-     "BTC",
-     "ETH",
-     "BNB",
-     "XRP",
-     "SOL"
-    ],
-    "tracked": [
-     "BTC",
-     "ETH",
-     "SOL",
-     "XRP",
-     "SUI",
-     "BNB",
-     "AVAX",
      "ZEC"
     ]
    },
@@ -7669,7 +7669,7 @@
   "updated": {
    "unlocks": 1793811681,
    "onchain": 1793816124,
-   "sectors": 1793817924,
+   "sectors": 1793818832,
    "listings": 1793816426,
    "fundamentals": 1793811683
   }
@@ -7708,6 +7708,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "ad42c180f00a3616d67dfbbf05e54c636a7d3113111848a5941773b543d1bd60",
- "generated": "2026-11-04T18:55:29+00:00"
+ "digest": "21e467eaac5b3192940ec9118ed47068715ba855042b64f46c58c652ad06196d",
+ "generated": "2026-11-04T19:01:04+00:00"
 }
