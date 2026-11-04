@@ -22,7 +22,7 @@
     0.17439159982844082
    ],
    "lev": 1,
-   "funding_pct": -0.0529,
+   "funding_pct": -0.0479,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-04T02:01:29+00:00",
@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1452,
-   "last_ts": "2026-11-04T18:10:31+00:00",
-   "move_pct": 0.14,
+   "last": 0.1444,
+   "last_ts": "2026-11-04T18:16:28+00:00",
+   "move_pct": -0.41,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -76,9 +76,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.01233,
-   "last_ts": "2026-11-04T18:10:31+00:00",
-   "move_pct": 2.24,
+   "last": 0.01235,
+   "last_ts": "2026-11-04T18:16:28+00:00",
+   "move_pct": 2.4,
    "closed": false,
    "rsi": 56.1,
    "trade_on": "Spot",
@@ -120,9 +120,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 4079.36203876747,
-   "last_ts": "2026-11-04T18:10:31+00:00",
-   "move_pct": 1.49,
+   "last": 4083.04043844503,
+   "last_ts": "2026-11-04T18:16:28+00:00",
+   "move_pct": 1.58,
    "closed": false,
    "rsi": 64.1,
    "trade_on": "On-chain spot (Ethereum DEX)",
@@ -165,9 +165,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0206,
-   "last_ts": "2026-11-04T18:10:31+00:00",
-   "move_pct": 1.93,
+   "last": 0.02069,
+   "last_ts": "2026-11-04T18:16:28+00:00",
+   "move_pct": 2.38,
    "closed": false,
    "rsi": 64.9,
    "trade_on": "Spot",
@@ -7045,22 +7045,41 @@
   "onchain": [
    {
     "chain": "Base",
-    "symbol": "ELSA",
-    "name": "Elsa",
-    "token": "0x29cc30f9d113b356ce408667aa6433589cecbdca",
-    "price": 0.0795208213978073,
-    "liq": 524228,
-    "vol24h": 3377816,
-    "age_d": 288.3,
-    "chg24h": 23.729,
-    "chg7d": 2.0,
-    "mcap": 18192244.1811278,
+    "symbol": "AXIS",
+    "name": "Axis Token",
+    "token": "0x5be75e3b0aff5d1a042a5363ae36acb1d6d755ea",
+    "price": 0.145572550335814,
+    "liq": 2451978,
+    "vol24h": 5469780,
+    "age_d": 16.5,
+    "chg24h": 10.165,
+    "chg7d": -14.9,
+    "mcap": 24012719.9235,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": true,
-    "rsi": 78.7,
-    "url": "https://www.geckoterminal.com/base/pools/0x83f3aca29bc79b048b99c56013475570acc97ccf"
+    "rsi": 58.6,
+    "url": "https://www.geckoterminal.com/base/pools/0xc19d91d99afc0332e5013a569c9721cd9ecb51a14c851f7a189a140950a627fa"
+   },
+   {
+    "chain": "BSC",
+    "symbol": "ARK",
+    "name": "ARK",
+    "token": "0xcae117ca6bc8a341d2e7207f30e180f0e5618b9d",
+    "price": 6.4515561686566,
+    "liq": 58205447,
+    "vol24h": 3823234,
+    "age_d": 435.3,
+    "chg24h": -0.126,
+    "chg7d": 1.6,
+    "mcap": 0.0,
+    "safety": "ok",
+    "safety_notes": [],
+    "trigger": false,
+    "trend_up": true,
+    "rsi": 51.6,
+    "url": "https://www.geckoterminal.com/bsc/pools/0xcaaf3c41a40103a23eeaa4bba468af3cf5b0e0d8"
    }
   ],
   "onchain_checked": 87,
@@ -7130,6 +7149,28 @@
      "ENA",
      "AAVE",
      "ONDO"
+    ]
+   },
+   {
+    "id": "exchange-based-tokens",
+    "name": "Exchange Based Tokens",
+    "chg7d": -2.81,
+    "top": [
+     "BNB",
+     "HYPE",
+     "WBT",
+     "LEO",
+     "UNI"
+    ],
+    "tracked": [
+     "BNB",
+     "HYPE",
+     "PUMP",
+     "UNI",
+     "OKB",
+     "CRV",
+     "ASTER",
+     "AERO"
     ]
    },
    {
@@ -7228,28 +7269,6 @@
      "ATH",
      "IOTA",
      "LPT"
-    ]
-   },
-   {
-    "id": "exchange-based-tokens",
-    "name": "Exchange Based Tokens",
-    "chg7d": -5.13,
-    "top": [
-     "BNB",
-     "HYPE",
-     "WBT",
-     "LEO",
-     "UNI"
-    ],
-    "tracked": [
-     "BNB",
-     "HYPE",
-     "PUMP",
-     "UNI",
-     "OKB",
-     "CRV",
-     "ASTER",
-     "AERO"
     ]
    },
    {
@@ -7649,8 +7668,8 @@
   ],
   "updated": {
    "unlocks": 1793811681,
-   "onchain": 1793812572,
-   "sectors": 1793815164,
+   "onchain": 1793816124,
+   "sectors": 1793816124,
    "listings": 1793812572,
    "fundamentals": 1793811683
   }
@@ -7689,6 +7708,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "6deaa4fcd479a7be3e328e14ff4ac6042abe2e3667e8134b3d1e426537fa046c",
- "generated": "2026-11-04T18:10:40+00:00"
+ "digest": "ec064d23bdfa658d7cc655f62a2db2ce694bbf5d55697ba95b14d226b14b5635",
+ "generated": "2026-11-04T18:16:34+00:00"
 }
