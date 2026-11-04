@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1211,
-   "last_ts": "2026-11-04T05:35:25+00:00",
-   "move_pct": 2.96,
+   "last": 0.1216,
+   "last_ts": "2026-11-04T05:40:23+00:00",
+   "move_pct": 2.56,
    "closed": false,
    "rsi": 32.0,
    "trade_on": "Perps 1x",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1548,
-   "last_ts": "2026-11-04T05:35:25+00:00",
-   "move_pct": 2.27,
+   "last": 0.1566,
+   "last_ts": "2026-11-04T05:40:23+00:00",
+   "move_pct": 1.14,
    "closed": false,
    "rsi": 36.2,
    "trade_on": "Perps 1x",
@@ -125,9 +125,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.06902,
-   "last_ts": "2026-11-04T05:35:25+00:00",
-   "move_pct": 2.39,
+   "last": 0.06938,
+   "last_ts": "2026-11-04T05:40:23+00:00",
+   "move_pct": 1.88,
    "closed": false,
    "rsi": 37.5,
    "trade_on": "Perps 1x",
@@ -163,7 +163,7 @@
     0.005938584890526714
    ],
    "lev": 1,
-   "funding_pct": -0.0023,
+   "funding_pct": -0.0014,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-02T07:00:00+00:00",
@@ -171,59 +171,15 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.006264,
-   "last_ts": "2026-11-04T05:35:25+00:00",
-   "move_pct": 2.64,
+   "last": 0.006306,
+   "last_ts": "2026-11-04T05:40:23+00:00",
+   "move_pct": 1.99,
    "closed": false,
    "rsi": 33.0,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": "charts/GMT-PERP-1793599200.png",
    "setup": "BREAKOUT20"
-  },
-  {
-   "id": "DGAI-PERP-1793754000",
-   "kind": "TA",
-   "score": 1,
-   "reasons": [
-    "Chart: Break of structure: closed below the last swing low 0.6419, after a lower high",
-    "Timeframes: 1d down, 4h down, 4h structure lower highs/lows",
-    "No support below in the last 50 days",
-    "Stop 0.67346 (structure); targets at 1R/2R/3R",
-    "BTC 4h trend down",
-    "Weaker than BTC by 14.7% over 7d",
-    "OI +20% 24h with breakout",
-    "Track record: +2.4R on DGAI in the last 45 days (backtest)"
-   ],
-   "coin": "DGAI",
-   "market": "PERP",
-   "side": "SHORT",
-   "entry": 0.6416,
-   "sl0": 0.6734591554048438,
-   "sl": 0.6416,
-   "tps": [
-    0.6097408445951561,
-    0.5778816891903122,
-    0.5460225337854684
-   ],
-   "lev": 1,
-   "funding_pct": -0.0093,
-   "status": "tp1",
-   "hits": 1,
-   "opened": "2026-11-04T02:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.6334,
-   "last_ts": "2026-11-04T05:35:25+00:00",
-   "move_pct": 1.28,
-   "closed": false,
-   "rsi": 33.5,
-   "trade_on": "Perps 1x",
-   "market_reason": "shorts need perps; 1x keeps liquidation 3x+ further away than the stop",
-   "chart": "charts/DGAI-PERP-1793754000.png",
-   "setup": "BOS"
   },
   {
    "id": "ZBT-PERP-1793754000",
@@ -260,9 +216,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.06479,
-   "last_ts": "2026-11-04T05:35:25+00:00",
-   "move_pct": 0.03,
+   "last": 0.06507,
+   "last_ts": "2026-11-04T05:40:23+00:00",
+   "move_pct": -0.4,
    "closed": false,
    "rsi": 33.6,
    "trade_on": "Perps 1x",
@@ -292,7 +248,7 @@
     0.17439159982844082
    ],
    "lev": 1,
-   "funding_pct": -0.3994,
+   "funding_pct": -0.4055,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-04T02:01:29+00:00",
@@ -300,9 +256,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1407,
-   "last_ts": "2026-11-04T05:35:25+00:00",
-   "move_pct": -2.97,
+   "last": 0.1399,
+   "last_ts": "2026-11-04T05:40:23+00:00",
+   "move_pct": -3.52,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -338,7 +294,7 @@
     82.55522157260688
    ],
    "lev": 2,
-   "funding_pct": 0.0055,
+   "funding_pct": 0.0056,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-04T03:00:00+00:00",
@@ -346,9 +302,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 92.48,
-   "last_ts": "2026-11-04T05:35:25+00:00",
-   "move_pct": -1.83,
+   "last": 92.86,
+   "last_ts": "2026-11-04T05:40:23+00:00",
+   "move_pct": -2.25,
    "closed": false,
    "rsi": 28.9,
    "trade_on": "Perps 2x",
@@ -392,9 +348,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.01227,
-   "last_ts": "2026-11-04T05:35:25+00:00",
-   "move_pct": 1.74,
+   "last": 0.01233,
+   "last_ts": "2026-11-04T05:40:23+00:00",
+   "move_pct": 2.24,
    "closed": false,
    "rsi": 56.1,
    "trade_on": "Spot",
@@ -428,7 +384,7 @@
     0.14571003173029937
    ],
    "lev": 1,
-   "funding_pct": -0.0135,
+   "funding_pct": -0.0121,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-04T05:00:00+00:00",
@@ -436,9 +392,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1609,
-   "last_ts": "2026-11-04T05:35:25+00:00",
-   "move_pct": -0.12,
+   "last": 0.1612,
+   "last_ts": "2026-11-04T05:40:23+00:00",
+   "move_pct": -0.31,
    "closed": false,
    "rsi": 32.2,
    "trade_on": "Perps 1x",
@@ -448,6 +404,50 @@
   }
  ],
  "closed": [
+  {
+   "id": "DGAI-PERP-1793754000",
+   "kind": "TA",
+   "score": 1,
+   "reasons": [
+    "Chart: Break of structure: closed below the last swing low 0.6419, after a lower high",
+    "Timeframes: 1d down, 4h down, 4h structure lower highs/lows",
+    "No support below in the last 50 days",
+    "Stop 0.67346 (structure); targets at 1R/2R/3R",
+    "BTC 4h trend down",
+    "Weaker than BTC by 14.7% over 7d",
+    "OI +20% 24h with breakout",
+    "Track record: +2.4R on DGAI in the last 45 days (backtest)"
+   ],
+   "coin": "DGAI",
+   "market": "PERP",
+   "side": "SHORT",
+   "entry": 0.6416,
+   "sl0": 0.6734591554048438,
+   "sl": 0.6416,
+   "tps": [
+    0.6097408445951561,
+    0.5778816891903122,
+    0.5460225337854684
+   ],
+   "lev": 1,
+   "funding_pct": -0.0093,
+   "status": "stopped_be",
+   "hits": 1,
+   "opened": "2026-11-04T02:00:00+00:00",
+   "closed_at": "2026-11-04T05:40:23+00:00",
+   "exit_price": 0.6416,
+   "result_r": 0.25,
+   "result_pct": 1.24,
+   "last": 0.6561,
+   "last_ts": "2026-11-04T05:40:23+00:00",
+   "move_pct": 1.28,
+   "closed": true,
+   "rsi": 33.5,
+   "trade_on": "Perps 1x",
+   "market_reason": "shorts need perps; 1x keeps liquidation 3x+ further away than the stop",
+   "chart": "charts/DGAI-PERP-1793754000.png",
+   "setup": "BOS"
+  },
   {
    "id": "ORDI-PERP-1793757600",
    "kind": "TA",
@@ -2203,7 +2203,7 @@
    "rsi": 26.3,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": "charts/ESP-PERP-1793318400.png",
+   "chart": null,
    "setup": "RANGE_BREAK"
   },
   {
@@ -3041,62 +3041,17 @@
    "market_reason": "thin perp market: spot is safer",
    "chart": null,
    "setup": "RETEST"
-  },
-  {
-   "id": "NOT-SPOT-1793149200",
-   "kind": "TA",
-   "score": -1,
-   "reasons": [
-    "Chart: Broke out of a 2-day range at 0.0003814 (range 0.0003632\u20130.0003814) on 0.6x volume",
-    "Timeframes: 1d down, 4h down, 4h structure mixed",
-    "Next resistance 0.0003964 (3.0R away, 4h swing/swing/volume node)",
-    "Stop 0.00037934 (below the breakout level); targets at the next 3 level(s)",
-    "BTC 4h trend down",
-    "Weaker than BTC by 3.0% over 7d",
-    "OI +0% 24h",
-    "Sector: Gaming -5.9% 7d (lagging, #17 of 20)",
-    "Track record: +1.4R on NOT in the last 45 days (backtest)"
-   ],
-   "coin": "NOT",
-   "market": "SPOT",
-   "side": "LONG",
-   "entry": 0.000384,
-   "sl0": 0.00037973140521171457,
-   "sl": 0.00037973140521171457,
-   "tps": [
-    0.0003962950109599788,
-    0.00040270344567206313,
-    0.0004061352347380546
-   ],
-   "lev": null,
-   "funding_pct": null,
-   "status": "stopped",
-   "hits": 0,
-   "opened": "2026-10-28T02:00:00+00:00",
-   "closed_at": "2026-10-29T01:50:26+00:00",
-   "exit_price": 0.00037973140521171457,
-   "result_r": -1.0,
-   "result_pct": -1.11,
-   "last": 0.0003797,
-   "last_ts": "2026-10-29T01:50:26+00:00",
-   "move_pct": -0.26,
-   "closed": true,
-   "rsi": 74.4,
-   "trade_on": "Spot",
-   "market_reason": "thin perp market: spot is safer",
-   "chart": null,
-   "setup": "RANGE_BREAK"
   }
  ],
  "stats": {
   "all": {
-   "trades": 115,
-   "wins": 42,
+   "trades": 116,
+   "wins": 43,
    "losses": 73,
-   "win_rate": 36.5,
-   "total_r": -15.31,
-   "avg_r": -0.133,
-   "total_pct": -51.37
+   "win_rate": 37.1,
+   "total_r": -15.06,
+   "avg_r": -0.13,
+   "total_pct": -50.13
   },
   "SPOT": {
    "trades": 40,
@@ -3108,13 +3063,13 @@
    "total_pct": -1.63
   },
   "PERP": {
-   "trades": 71,
-   "wins": 25,
+   "trades": 72,
+   "wins": 26,
    "losses": 46,
-   "win_rate": 35.2,
-   "total_r": -12.58,
-   "avg_r": -0.177,
-   "total_pct": -63.33
+   "win_rate": 36.1,
+   "total_r": -12.33,
+   "avg_r": -0.171,
+   "total_pct": -62.09
   },
   "DEX": {
    "trades": 4,
@@ -3145,13 +3100,13 @@
     "total_pct": 13.59
    },
    "TA": {
-    "trades": 85,
-    "wins": 29,
+    "trades": 86,
+    "wins": 30,
     "losses": 56,
-    "win_rate": 34.1,
-    "total_r": -11.56,
-    "avg_r": -0.136,
-    "total_pct": -23.44
+    "win_rate": 34.9,
+    "total_r": -11.31,
+    "avg_r": -0.131,
+    "total_pct": -22.2
    }
   },
   "coins": {
@@ -3435,13 +3390,13 @@
     "total_pct": 6.18
    },
    "DGAI": {
-    "trades": 1,
-    "wins": 1,
+    "trades": 2,
+    "wins": 2,
     "losses": 0,
     "win_rate": 100.0,
-    "total_r": 0.25,
+    "total_r": 0.5,
     "avg_r": 0.25,
-    "total_pct": 0.48
+    "total_pct": 1.72
    },
    "DOGE": {
     "trades": 1,
@@ -3930,7 +3885,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 10
+  "open": 9
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7334,28 +7289,6 @@
     ]
    },
    {
-    "id": "gaming",
-    "name": "Gaming",
-    "chg7d": -5.2,
-    "top": [
-     "FLOKI",
-     "BEAM",
-     "GEOD",
-     "GOMINING",
-     "AXS"
-    ],
-    "tracked": [
-     "BEAT",
-     "SAND",
-     "APE",
-     "AXS",
-     "GALA",
-     "IMX",
-     "YGG",
-     "ONE"
-    ]
-   },
-   {
     "id": "oracle",
     "name": "Oracle",
     "chg7d": -5.86,
@@ -7373,6 +7306,28 @@
      "API3",
      "BAND",
      "ZKP"
+    ]
+   },
+   {
+    "id": "gaming",
+    "name": "Gaming",
+    "chg7d": -6.19,
+    "top": [
+     "FLOKI",
+     "BEAM",
+     "GEOD",
+     "GOMINING",
+     "AXS"
+    ],
+    "tracked": [
+     "BEAT",
+     "SAND",
+     "APE",
+     "AXS",
+     "GALA",
+     "IMX",
+     "YGG",
+     "ONE"
     ]
    },
    {
@@ -7895,7 +7850,7 @@
   "updated": {
    "unlocks": 1793767827,
    "onchain": 1793768445,
-   "sectors": 1793769923,
+   "sectors": 1793770823,
    "listings": 1793770227,
    "fundamentals": 1793767828
   }
@@ -7934,6 +7889,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "c5480a401254a83555d3b355929294bffdf2361588bc1bab61a497ea3c51a269",
- "generated": "2026-11-04T05:35:28+00:00"
+ "digest": "57b73884e41f02dbbf2febd7dc7227c48de225a4a36ea82231e9af55ee4e9de5",
+ "generated": "2026-11-04T05:40:28+00:00"
 }
