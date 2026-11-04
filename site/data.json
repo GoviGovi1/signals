@@ -22,7 +22,7 @@
     0.17439159982844082
    ],
    "lev": 1,
-   "funding_pct": -0.0294,
+   "funding_pct": -0.0269,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-04T02:01:29+00:00",
@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1468,
-   "last_ts": "2026-11-04T19:50:25+00:00",
-   "move_pct": 1.24,
+   "last": 0.1476,
+   "last_ts": "2026-11-04T19:55:23+00:00",
+   "move_pct": 1.79,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -76,9 +76,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.01221,
-   "last_ts": "2026-11-04T19:50:25+00:00",
-   "move_pct": 1.24,
+   "last": 0.01219,
+   "last_ts": "2026-11-04T19:55:23+00:00",
+   "move_pct": 1.08,
    "closed": false,
    "rsi": 56.1,
    "trade_on": "Spot",
@@ -120,16 +120,18 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 4060.45359807106,
-   "last_ts": "2026-11-04T19:50:25+00:00",
-   "move_pct": 1.02,
+   "last": 4053.11769156303,
+   "last_ts": "2026-11-04T19:55:23+00:00",
+   "move_pct": 0.83,
    "closed": false,
    "rsi": 64.1,
    "trade_on": "On-chain spot (Ethereum DEX)",
    "market_reason": "not listed on OKX; buy on a DEX, small size, no leverage",
    "chart": "charts/PAXG-DEX-eth-0x45804880-1793772000.png",
    "setup": null
-  },
+  }
+ ],
+ "closed": [
   {
    "id": "STONK-DEX-solana-6GmAFSYs4g-1793804400",
    "kind": "ONCHAIN",
@@ -157,25 +159,23 @@
    ],
    "lev": null,
    "funding_pct": null,
-   "status": "open",
+   "status": "stopped",
    "hits": 0,
    "opened": "2026-11-04T16:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.12703546021629364,
-   "last_ts": "2026-11-04T19:50:25+00:00",
+   "closed_at": "2026-11-04T19:55:23+00:00",
+   "exit_price": 0.12658861451595632,
+   "result_r": -1.0,
+   "result_pct": -5.97,
+   "last": 0.12600798782093586,
+   "last_ts": "2026-11-04T19:55:23+00:00",
    "move_pct": -5.64,
-   "closed": false,
+   "closed": true,
    "rsi": 72.8,
    "trade_on": "On-chain spot (Solana DEX)",
    "market_reason": "not listed on OKX; buy on a DEX, small size, no leverage",
    "chart": null,
    "setup": null
-  }
- ],
- "closed": [
+  },
   {
    "id": "GRT-SPOT-1793779200",
    "kind": "TA",
@@ -1949,7 +1949,7 @@
    "rsi": 61.1,
    "trade_on": "Spot",
    "market_reason": "trend not strong enough for leverage: spot has no liquidation or funding",
-   "chart": "charts/HYPE-SPOT-1793318400.png",
+   "chart": null,
    "setup": "RETEST"
   },
   {
@@ -2763,57 +2763,17 @@
    "market_reason": "thin perp market: spot is safer",
    "chart": null,
    "setup": "RANGE_BREAK"
-  },
-  {
-   "id": "BTW-PERP-HOT-20754",
-   "kind": "HOT",
-   "score": 1110.97,
-   "reasons": [
-    "24h hot mover +46% with volume spike (3.0x the prior 3 days)",
-    "24h volume $129.0M on the OKX perp book, listed 6 days",
-    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
-    "Stop 1.5490 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
-   ],
-   "coin": "BTW",
-   "market": "PERP",
-   "side": "LONG",
-   "entry": 1.7438,
-   "sl0": 1.5489732861385328,
-   "sl": 1.5489732861385328,
-   "tps": [
-    1.9386267138614672,
-    2.1334534277229347,
-    2.328280141584402
-   ],
-   "lev": 1,
-   "funding_pct": 0.005,
-   "status": "stopped",
-   "hits": 0,
-   "opened": "2026-10-28T00:00:35+00:00",
-   "closed_at": "2026-10-29T16:55:24+00:00",
-   "exit_price": 1.5489732861385328,
-   "result_r": -1.0,
-   "result_pct": -11.17,
-   "last": 1.5478,
-   "last_ts": "2026-10-29T16:55:24+00:00",
-   "move_pct": -9.54,
-   "closed": true,
-   "rsi": null,
-   "trade_on": "Perps 1x",
-   "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
-   "chart": null,
-   "setup": "HOT24"
   }
  ],
  "stats": {
   "all": {
-   "trades": 126,
+   "trades": 127,
    "wins": 50,
-   "losses": 76,
-   "win_rate": 39.7,
-   "total_r": -12.89,
-   "avg_r": -0.102,
-   "total_pct": -49.47
+   "losses": 77,
+   "win_rate": 39.4,
+   "total_r": -13.89,
+   "avg_r": -0.109,
+   "total_pct": -55.44
   },
   "SPOT": {
    "trades": 41,
@@ -2834,13 +2794,13 @@
    "total_pct": -62.35
   },
   "DEX": {
-   "trades": 4,
+   "trades": 5,
    "wins": 2,
-   "losses": 2,
-   "win_rate": 50.0,
-   "total_r": 1.0,
-   "avg_r": 0.25,
-   "total_pct": 13.59
+   "losses": 3,
+   "win_rate": 40.0,
+   "total_r": 0.0,
+   "avg_r": 0.0,
+   "total_pct": 7.62
   },
   "kinds": {
    "HOT": {
@@ -2853,13 +2813,13 @@
     "total_pct": -44.66
    },
    "ONCHAIN": {
-    "trades": 4,
+    "trades": 5,
     "wins": 2,
-    "losses": 2,
-    "win_rate": 50.0,
-    "total_r": 1.0,
-    "avg_r": 0.25,
-    "total_pct": 13.59
+    "losses": 3,
+    "win_rate": 40.0,
+    "total_r": 0.0,
+    "avg_r": 0.0,
+    "total_pct": 7.62
    },
    "TA": {
     "trades": 94,
@@ -3565,6 +3525,15 @@
     "avg_r": -1.0,
     "total_pct": -2.36
    },
+   "STONK": {
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate": 0.0,
+    "total_r": -1.0,
+    "avg_r": -1.0,
+    "total_pct": -5.97
+   },
    "T": {
     "trades": 1,
     "wins": 1,
@@ -3692,7 +3661,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 4
+  "open": 3
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7730,6 +7699,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "0561ebf1e2a660a87615af07a2af57f7358e029ac180da504ca88b33df50830e",
- "generated": "2026-11-04T19:50:32+00:00"
+ "digest": "208290e42725b0af8af70d9b393e8f809f74132984514b9cb1de7b0733af44c4",
+ "generated": "2026-11-04T19:55:31+00:00"
 }
