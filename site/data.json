@@ -22,7 +22,7 @@
     0.17439159982844082
    ],
    "lev": 1,
-   "funding_pct": -0.0227,
+   "funding_pct": -0.022,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-04T02:01:29+00:00",
@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1475,
-   "last_ts": "2026-11-04T20:10:27+00:00",
-   "move_pct": 1.72,
+   "last": 0.1472,
+   "last_ts": "2026-11-04T20:16:26+00:00",
+   "move_pct": 1.52,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -76,9 +76,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.01218,
-   "last_ts": "2026-11-04T20:10:27+00:00",
-   "move_pct": 1.0,
+   "last": 0.01215,
+   "last_ts": "2026-11-04T20:16:26+00:00",
+   "move_pct": 0.75,
    "closed": false,
    "rsi": 56.1,
    "trade_on": "Spot",
@@ -120,9 +120,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 4066.90975623245,
-   "last_ts": "2026-11-04T20:10:27+00:00",
-   "move_pct": 1.18,
+   "last": 4064.12578485138,
+   "last_ts": "2026-11-04T20:16:26+00:00",
+   "move_pct": 1.11,
    "closed": false,
    "rsi": 64.1,
    "trade_on": "On-chain spot (Ethereum DEX)",
@@ -6978,102 +6978,45 @@
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
   "onchain": [
    {
-    "chain": "BSC",
-    "symbol": "ARIA",
-    "name": "ARIA.AI",
-    "token": "0x5d3a12c42e5372b2cc3264ab3cdcf660a1555238",
-    "price": 0.12750999634563,
-    "liq": 1734186,
-    "vol24h": 3457035,
-    "age_d": 442.4,
-    "chg24h": 5.567,
-    "chg7d": 55.0,
-    "mcap": 23334329.3229,
-    "safety": "ok",
-    "safety_notes": [],
-    "trigger": false,
-    "trend_up": true,
-    "rsi": 57.9,
-    "url": "https://www.geckoterminal.com/bsc/pools/0xa5dbeaf16fc031eae92175974f8d0a439be4ad17"
-   },
-   {
-    "chain": "Ethereum",
-    "symbol": "PAXG",
-    "name": "Paxos Gold",
-    "token": "0x45804880de22913dafe09f4980848ece6ecbaf78",
-    "price": 4074.48151046948,
-    "liq": 6700019,
-    "vol24h": 3410006,
-    "age_d": 378.2,
-    "chg24h": 4.08,
-    "chg7d": -0.4,
-    "mcap": 1824155466.69587,
+    "chain": "Base",
+    "symbol": "AXIS",
+    "name": "Axis Token",
+    "token": "0x5be75e3b0aff5d1a042a5363ae36acb1d6d755ea",
+    "price": 0.148436057925062,
+    "liq": 2443980,
+    "vol24h": 5487575,
+    "age_d": 16.6,
+    "chg24h": 11.772,
+    "chg7d": -14.5,
+    "mcap": 24487690.1775,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": true,
     "rsi": 58.4,
-    "url": "https://www.geckoterminal.com/eth/pools/0xc756bba710d45647715079ce50aa16aab36ded42"
+    "url": "https://www.geckoterminal.com/base/pools/0xc19d91d99afc0332e5013a569c9721cd9ecb51a14c851f7a189a140950a627fa"
    },
    {
     "chain": "BSC",
-    "symbol": "AGT",
-    "name": "Alaya Governance Token",
-    "token": "0x5dbde81fce337ff4bcaaee4ca3466c00aecae274",
-    "price": 0.0322946929877902,
-    "liq": 1902675,
-    "vol24h": 16053618,
-    "age_d": 538.3,
-    "chg24h": -30.485,
-    "chg7d": -31.6,
-    "mcap": 0.0,
+    "symbol": "Q",
+    "name": "Quack AI Token",
+    "token": "0xc07e1300dc138601fa6b0b59f8d0fa477e690589",
+    "price": 0.0292229453748321,
+    "liq": 1093986,
+    "vol24h": 4767019,
+    "age_d": 430.5,
+    "chg24h": 1.332,
+    "chg7d": -56.9,
+    "mcap": 143109636.218926,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 36.8,
-    "url": "https://www.geckoterminal.com/bsc/pools/0xd3cffc6b02a34dfc72f1350339031043a854599f"
-   },
-   {
-    "chain": "BSC",
-    "symbol": "AKE",
-    "name": "AKE",
-    "token": "0x2c3a8ee94ddd97244a93bc48298f97d2c412f7db",
-    "price": 0.00263843751705087,
-    "liq": 763154,
-    "vol24h": 9455700,
-    "age_d": 441.5,
-    "chg24h": -33.646,
-    "chg7d": -88.4,
-    "mcap": 60146481.2469113,
-    "safety": "ok",
-    "safety_notes": [],
-    "trigger": false,
-    "trend_up": false,
-    "rsi": 23.9,
-    "url": "https://www.geckoterminal.com/bsc/pools/0x4d3bf29ba30f8bfe4624e7678709afa195689c5d"
-   },
-   {
-    "chain": "Solana",
-    "symbol": "TRUMP",
-    "name": "OFFICIAL TRUMP",
-    "token": "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN",
-    "price": 1.2877496428508337,
-    "liq": 6109086,
-    "vol24h": 7506423,
-    "age_d": 655.5,
-    "chg24h": -18.631,
-    "chg7d": -24.7,
-    "mcap": 363282042.068164,
-    "safety": "ok",
-    "safety_notes": [],
-    "trigger": false,
-    "trend_up": false,
-    "rsi": 23.0,
-    "url": "https://www.geckoterminal.com/solana/pools/3C5YE97HADPDxZehYq9Cis8AXr9aNyrUsczKzE1nDbW9"
+    "rsi": 54.3,
+    "url": "https://www.geckoterminal.com/bsc/pools/0x8bafe0bdd3eb9ae0539f5b32e771c1a72a189b7f"
    }
   ],
-  "onchain_checked": 87,
+  "onchain_checked": 86,
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
@@ -7121,28 +7064,6 @@
     ]
    },
    {
-    "id": "decentralized-finance-defi",
-    "name": "Decentralized Finance DeFi",
-    "chg7d": -2.48,
-    "top": [
-     "STETH",
-     "HYPE",
-     "WSTETH",
-     "LINK",
-     "DAI"
-    ],
-    "tracked": [
-     "LINK",
-     "HYPE",
-     "PUMP",
-     "LIT",
-     "UNI",
-     "ENA",
-     "AAVE",
-     "ONDO"
-    ]
-   },
-   {
     "id": "layer-1",
     "name": "Layer 1",
     "chg7d": -2.57,
@@ -7184,6 +7105,28 @@
      "CRV",
      "ASTER",
      "AERO"
+    ]
+   },
+   {
+    "id": "decentralized-finance-defi",
+    "name": "Decentralized Finance DeFi",
+    "chg7d": -2.94,
+    "top": [
+     "STETH",
+     "HYPE",
+     "WSTETH",
+     "LINK",
+     "UNI"
+    ],
+    "tracked": [
+     "LINK",
+     "HYPE",
+     "PUMP",
+     "LIT",
+     "UNI",
+     "ENA",
+     "AAVE",
+     "ONDO"
     ]
    },
    {
@@ -7659,8 +7602,8 @@
   ],
   "updated": {
    "unlocks": 1793811681,
-   "onchain": 1793819725,
-   "sectors": 1793822434,
+   "onchain": 1793823323,
+   "sectors": 1793823323,
    "listings": 1793820320,
    "fundamentals": 1793811683
   }
@@ -7699,6 +7642,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "7f3631fe16f5627eccd616786a496a42b16159a406e9324c8b88579e33d00e30",
- "generated": "2026-11-04T20:10:31+00:00"
+ "digest": "8c17f123e563f41152f3935bfabaf146670b31b8ac2057e930c71298d3615326",
+ "generated": "2026-11-04T20:16:31+00:00"
 }
