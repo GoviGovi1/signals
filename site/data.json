@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.06958,
-   "last_ts": "2026-11-04T06:20:24+00:00",
-   "move_pct": 1.6,
+   "last": 0.06956,
+   "last_ts": "2026-11-04T06:25:21+00:00",
+   "move_pct": 1.63,
    "closed": false,
    "rsi": 37.5,
    "trade_on": "Perps 1x",
@@ -81,9 +81,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.006305,
-   "last_ts": "2026-11-04T06:20:24+00:00",
-   "move_pct": 2.0,
+   "last": 0.006307,
+   "last_ts": "2026-11-04T06:25:21+00:00",
+   "move_pct": 1.97,
    "closed": false,
    "rsi": 33.0,
    "trade_on": "Perps 1x",
@@ -126,9 +126,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.06522,
-   "last_ts": "2026-11-04T06:20:24+00:00",
-   "move_pct": -0.63,
+   "last": 0.06513,
+   "last_ts": "2026-11-04T06:25:21+00:00",
+   "move_pct": -0.49,
    "closed": false,
    "rsi": 33.6,
    "trade_on": "Perps 1x",
@@ -158,7 +158,7 @@
     0.17439159982844082
    ],
    "lev": 1,
-   "funding_pct": -0.4198,
+   "funding_pct": -0.4206,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-04T02:01:29+00:00",
@@ -166,9 +166,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1422,
-   "last_ts": "2026-11-04T06:20:24+00:00",
-   "move_pct": -1.93,
+   "last": 0.1421,
+   "last_ts": "2026-11-04T06:25:21+00:00",
+   "move_pct": -2.0,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -204,7 +204,7 @@
     82.55522157260688
    ],
    "lev": 2,
-   "funding_pct": 0.0061,
+   "funding_pct": 0.0063,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-04T03:00:00+00:00",
@@ -212,9 +212,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 92.87,
-   "last_ts": "2026-11-04T06:20:24+00:00",
-   "move_pct": -2.26,
+   "last": 92.74,
+   "last_ts": "2026-11-04T06:25:21+00:00",
+   "move_pct": -2.11,
    "closed": false,
    "rsi": 28.9,
    "trade_on": "Perps 2x",
@@ -258,9 +258,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.01232,
-   "last_ts": "2026-11-04T06:20:24+00:00",
-   "move_pct": 2.16,
+   "last": 0.01238,
+   "last_ts": "2026-11-04T06:25:21+00:00",
+   "move_pct": 2.65,
    "closed": false,
    "rsi": 56.1,
    "trade_on": "Spot",
@@ -294,7 +294,7 @@
     0.14571003173029937
    ],
    "lev": 1,
-   "funding_pct": -0.0025,
+   "funding_pct": -0.0011,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-04T05:00:00+00:00",
@@ -302,9 +302,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1603,
-   "last_ts": "2026-11-04T06:20:24+00:00",
-   "move_pct": 0.25,
+   "last": 0.1601,
+   "last_ts": "2026-11-04T06:25:21+00:00",
+   "move_pct": 0.37,
    "closed": false,
    "rsi": 32.2,
    "trade_on": "Perps 1x",
@@ -7430,6 +7430,28 @@
     ]
    },
    {
+    "id": "depin",
+    "name": "DePIN",
+    "chg7d": -9.02,
+    "top": [
+     "TAO",
+     "RENDER",
+     "FIL",
+     "BDX",
+     "GRASS"
+    ],
+    "tracked": [
+     "FIL",
+     "TAO",
+     "GRASS",
+     "RENDER",
+     "AR",
+     "IOTA",
+     "ATH",
+     "LPT"
+    ]
+   },
+   {
     "id": "decentralized-exchange",
     "name": "Decentralized Exchange",
     "chg7d": -9.09,
@@ -7471,28 +7493,6 @@
      "STX",
      "SOON",
      "POL"
-    ]
-   },
-   {
-    "id": "depin",
-    "name": "DePIN",
-    "chg7d": -9.93,
-    "top": [
-     "TAO",
-     "RENDER",
-     "FIL",
-     "BDX",
-     "GRASS"
-    ],
-    "tracked": [
-     "FIL",
-     "TAO",
-     "GRASS",
-     "RENDER",
-     "AR",
-     "IOTA",
-     "ATH",
-     "LPT"
     ]
    },
    {
@@ -7746,7 +7746,7 @@
   "updated": {
    "unlocks": 1793767827,
    "onchain": 1793772033,
-   "sectors": 1793772625,
+   "sectors": 1793773521,
    "listings": 1793770227,
    "fundamentals": 1793767828
   }
@@ -7785,6 +7785,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "19f52a3880c6fed281eeacc64662298b71526d7167de9df50794384dc70c1df2",
- "generated": "2026-11-04T06:20:28+00:00"
+ "digest": "52eb9b6f980a52ede26885a0a1a941b9ae80d72715cc377cd694197148ac80f1",
+ "generated": "2026-11-04T06:25:24+00:00"
 }
