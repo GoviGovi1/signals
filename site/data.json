@@ -22,7 +22,7 @@
     0.17439159982844082
    ],
    "lev": 1,
-   "funding_pct": -0.1525,
+   "funding_pct": -0.1418,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-04T02:01:29+00:00",
@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1442,
-   "last_ts": "2026-11-04T16:45:24+00:00",
-   "move_pct": -0.55,
+   "last": 0.1443,
+   "last_ts": "2026-11-04T16:50:25+00:00",
+   "move_pct": -0.48,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -77,7 +77,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.01249,
-   "last_ts": "2026-11-04T16:45:24+00:00",
+   "last_ts": "2026-11-04T16:50:25+00:00",
    "move_pct": 3.57,
    "closed": false,
    "rsi": 56.1,
@@ -120,9 +120,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 4044.41533442921,
-   "last_ts": "2026-11-04T16:45:24+00:00",
-   "move_pct": 0.62,
+   "last": 4042.07422056324,
+   "last_ts": "2026-11-04T16:50:25+00:00",
+   "move_pct": 0.56,
    "closed": false,
    "rsi": 64.1,
    "trade_on": "On-chain spot (Ethereum DEX)",
@@ -165,9 +165,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.02084,
-   "last_ts": "2026-11-04T16:45:24+00:00",
-   "move_pct": 3.12,
+   "last": 0.02092,
+   "last_ts": "2026-11-04T16:50:25+00:00",
+   "move_pct": 3.51,
    "closed": false,
    "rsi": 64.9,
    "trade_on": "Spot",
@@ -197,7 +197,7 @@
     0.295792
    ],
    "lev": 1,
-   "funding_pct": 0.003,
+   "funding_pct": 0.0031,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-11-04T14:50:24+00:00",
@@ -205,9 +205,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2718,
-   "last_ts": "2026-11-04T16:45:24+00:00",
-   "move_pct": 2.92,
+   "last": 0.2716,
+   "last_ts": "2026-11-04T16:50:25+00:00",
+   "move_pct": 2.84,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -237,7 +237,7 @@
     0.111126490277914
    ],
    "lev": 1,
-   "funding_pct": 0.0407,
+   "funding_pct": 0.0409,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-04T15:01:39+00:00",
@@ -245,9 +245,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.09347,
-   "last_ts": "2026-11-04T16:45:24+00:00",
-   "move_pct": -0.38,
+   "last": 0.09315,
+   "last_ts": "2026-11-04T16:50:25+00:00",
+   "move_pct": -0.72,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -289,9 +289,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.13189123180764148,
-   "last_ts": "2026-11-04T16:45:24+00:00",
-   "move_pct": -2.03,
+   "last": 0.13171736121179045,
+   "last_ts": "2026-11-04T16:50:25+00:00",
+   "move_pct": -2.16,
    "closed": false,
    "rsi": 72.8,
    "trade_on": "On-chain spot (Solana DEX)",
@@ -7438,6 +7438,28 @@
     ]
    },
    {
+    "id": "zero-knowledge-zk",
+    "name": "Zero Knowledge ZK",
+    "chg7d": -5.62,
+    "top": [
+     "ZEC",
+     "POL",
+     "NIGHT",
+     "STRK",
+     "RAIL"
+    ],
+    "tracked": [
+     "ZEC",
+     "STRK",
+     "NIGHT",
+     "POL",
+     "MAGIC",
+     "TRUTH",
+     "ZK",
+     "MINA"
+    ]
+   },
+   {
     "id": "privacy-coins",
     "name": "Privacy Coins",
     "chg7d": -5.66,
@@ -7538,28 +7560,6 @@
      "MEGA",
      "STX",
      "SOON"
-    ]
-   },
-   {
-    "id": "zero-knowledge-zk",
-    "name": "Zero Knowledge ZK",
-    "chg7d": -8.06,
-    "top": [
-     "ZEC",
-     "POL",
-     "NIGHT",
-     "STRK",
-     "RAIL"
-    ],
-    "tracked": [
-     "ZEC",
-     "STRK",
-     "NIGHT",
-     "POL",
-     "MAGIC",
-     "TRUTH",
-     "ZK",
-     "MINA"
     ]
    },
    {
@@ -7813,7 +7813,7 @@
   "updated": {
    "unlocks": 1793790030,
    "onchain": 1793808941,
-   "sectors": 1793810060,
+   "sectors": 1793811025,
    "listings": 1793808941,
    "fundamentals": 1793790031
   }
@@ -7852,6 +7852,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "5e8b76d1b5a3a392944913ea4e435682a7962a86d9d4038d8877a62a9e9d46e6",
- "generated": "2026-11-04T16:45:31+00:00"
+ "digest": "1ff818c16eb8dcdaec3ef2f9ce7b81f86c53c454568663f72507a3b00d30aeb0",
+ "generated": "2026-11-04T16:50:32+00:00"
 }
