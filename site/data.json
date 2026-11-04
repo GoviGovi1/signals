@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.06494,
-   "last_ts": "2026-11-04T08:15:24+00:00",
-   "move_pct": -0.2,
+   "last": 0.06483,
+   "last_ts": "2026-11-04T08:20:24+00:00",
+   "move_pct": -0.03,
    "closed": false,
    "rsi": 33.6,
    "trade_on": "Perps 1x",
@@ -67,7 +67,7 @@
     0.17439159982844082
    ],
    "lev": 1,
-   "funding_pct": -0.5094,
+   "funding_pct": -0.5121,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-04T02:01:29+00:00",
@@ -75,61 +75,15 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1461,
-   "last_ts": "2026-11-04T08:15:24+00:00",
-   "move_pct": 0.76,
+   "last": 0.1447,
+   "last_ts": "2026-11-04T08:20:24+00:00",
+   "move_pct": -0.21,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
    "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
    "chart": "charts/AXIS-PERP-HOT-20761.png",
    "setup": "HOT24"
-  },
-  {
-   "id": "SOL-PERP-1793757600",
-   "kind": "TA",
-   "score": -1,
-   "reasons": [
-    "Chart: Broke the 20-hour low on 1.4x volume",
-    "News (neutral, CryptoSlate, 20h ago): Solana study finds wider spreads outside aggregators at five of six sampled pools https://cryptoslate.com/solana-study-finds-wider-spreads-outside-aggregators-at-five-of-six-sampled-pools/",
-    "Timeframes: 1d down, 4h down, 4h structure lower highs/lows",
-    "No support below in the last 50 days",
-    "Stop 93.575 (structure); targets at 1R/2R/3R",
-    "BTC 4h trend down",
-    "Weaker than BTC by 4.7% over 7d",
-    "OI +2% 24h",
-    "Sector: Layer 1 -5.1% 7d (leading, #4 of 20)",
-    "Track record: +0.2R on SOL in the last 45 days (backtest)"
-   ],
-   "coin": "SOL",
-   "market": "PERP",
-   "side": "SHORT",
-   "entry": 90.82,
-   "sl0": 93.57492614246436,
-   "sl": 93.57492614246436,
-   "tps": [
-    88.06507385753562,
-    85.31014771507125,
-    82.55522157260688
-   ],
-   "lev": 2,
-   "funding_pct": 0.01,
-   "status": "open",
-   "hits": 0,
-   "opened": "2026-11-04T03:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 93.48,
-   "last_ts": "2026-11-04T08:15:24+00:00",
-   "move_pct": -2.93,
-   "closed": false,
-   "rsi": 28.9,
-   "trade_on": "Perps 2x",
-   "market_reason": "shorts need perps; 2x keeps liquidation 3x+ further away than the stop",
-   "chart": "charts/SOL-PERP-1793757600.png",
-   "setup": "BREAKOUT20"
   },
   {
    "id": "WOO-SPOT-1793761200",
@@ -167,9 +121,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.01231,
-   "last_ts": "2026-11-04T08:15:24+00:00",
-   "move_pct": 2.07,
+   "last": 0.01236,
+   "last_ts": "2026-11-04T08:20:24+00:00",
+   "move_pct": 2.49,
    "closed": false,
    "rsi": 56.1,
    "trade_on": "Spot",
@@ -211,9 +165,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1623,
-   "last_ts": "2026-11-04T08:15:24+00:00",
-   "move_pct": -1.0,
+   "last": 0.1624,
+   "last_ts": "2026-11-04T08:20:24+00:00",
+   "move_pct": -1.06,
    "closed": false,
    "rsi": 32.2,
    "trade_on": "Perps 1x",
@@ -255,9 +209,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 4021.38400092436,
-   "last_ts": "2026-11-04T08:15:24+00:00",
-   "move_pct": 0.04,
+   "last": 4029.2730491389,
+   "last_ts": "2026-11-04T08:20:24+00:00",
+   "move_pct": 0.24,
    "closed": false,
    "rsi": 64.1,
    "trade_on": "On-chain spot (Ethereum DEX)",
@@ -267,6 +221,52 @@
   }
  ],
  "closed": [
+  {
+   "id": "SOL-PERP-1793757600",
+   "kind": "TA",
+   "score": -1,
+   "reasons": [
+    "Chart: Broke the 20-hour low on 1.4x volume",
+    "News (neutral, CryptoSlate, 20h ago): Solana study finds wider spreads outside aggregators at five of six sampled pools https://cryptoslate.com/solana-study-finds-wider-spreads-outside-aggregators-at-five-of-six-sampled-pools/",
+    "Timeframes: 1d down, 4h down, 4h structure lower highs/lows",
+    "No support below in the last 50 days",
+    "Stop 93.575 (structure); targets at 1R/2R/3R",
+    "BTC 4h trend down",
+    "Weaker than BTC by 4.7% over 7d",
+    "OI +2% 24h",
+    "Sector: Layer 1 -5.1% 7d (leading, #4 of 20)",
+    "Track record: +0.2R on SOL in the last 45 days (backtest)"
+   ],
+   "coin": "SOL",
+   "market": "PERP",
+   "side": "SHORT",
+   "entry": 90.82,
+   "sl0": 93.57492614246436,
+   "sl": 93.57492614246436,
+   "tps": [
+    88.06507385753562,
+    85.31014771507125,
+    82.55522157260688
+   ],
+   "lev": 2,
+   "funding_pct": 0.01,
+   "status": "stopped",
+   "hits": 0,
+   "opened": "2026-11-04T03:00:00+00:00",
+   "closed_at": "2026-11-04T08:20:24+00:00",
+   "exit_price": 93.57492614246436,
+   "result_r": -1.0,
+   "result_pct": -3.03,
+   "last": 93.37,
+   "last_ts": "2026-11-04T08:20:24+00:00",
+   "move_pct": -2.93,
+   "closed": true,
+   "rsi": 28.9,
+   "trade_on": "Perps 2x",
+   "market_reason": "shorts need perps; 2x keeps liquidation 3x+ further away than the stop",
+   "chart": "charts/SOL-PERP-1793757600.png",
+   "setup": "BREAKOUT20"
+  },
   {
    "id": "HBAR-PERP-1793599200",
    "kind": "TA",
@@ -2033,7 +2033,7 @@
    "rsi": null,
    "trade_on": "Perps 1x",
    "market_reason": "the perp book is where the 24h move and volume are; thin perp market, so 1x",
-   "chart": "charts/WOO-PERP-HOT-20757.png",
+   "chart": null,
    "setup": "HOT24"
   },
   {
@@ -2858,62 +2858,17 @@
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": null,
    "setup": "BREAKOUT20"
-  },
-  {
-   "id": "LTC-SPOT-1793196000",
-   "kind": "TA",
-   "score": 0,
-   "reasons": [
-    "Chart: Broke out of a 4-day range at 58.000 (range 55.040\u201358.000) on 4.6x volume",
-    "Timeframes: 1d down, 4h down, 4h structure lower highs/lows",
-    "Next resistance 60.779 (3.1R away, 4h swing/swing)",
-    "Stop 57.251 (2 ATR); targets at the next 3 level(s)",
-    "BTC 4h trend down",
-    "Weaker than BTC by 1.1% over 7d",
-    "OI +4% 24h",
-    "Sector: Layer 1 -5.4% 7d (middle, #11 of 20)",
-    "Track record: +5.6R on LTC in the last 45 days (backtest)"
-   ],
-   "coin": "LTC",
-   "market": "SPOT",
-   "side": "LONG",
-   "entry": 58.17,
-   "sl0": 57.30021765990313,
-   "sl": 57.30021765990313,
-   "tps": [
-    60.766053833095626,
-    61.60777733619266,
-    62.27460050377698
-   ],
-   "lev": null,
-   "funding_pct": null,
-   "status": "stopped",
-   "hits": 0,
-   "opened": "2026-10-28T15:00:00+00:00",
-   "closed_at": "2026-10-29T03:25:20+00:00",
-   "exit_price": 57.30021765990313,
-   "result_r": -1.0,
-   "result_pct": -1.5,
-   "last": 57.31,
-   "last_ts": "2026-10-29T03:25:20+00:00",
-   "move_pct": -0.62,
-   "closed": true,
-   "rsi": 65.5,
-   "trade_on": "Spot",
-   "market_reason": "trend not strong enough for leverage: spot has no liquidation or funding",
-   "chart": null,
-   "setup": "RANGE_BREAK"
   }
  ],
  "stats": {
   "all": {
-   "trades": 120,
+   "trades": 121,
    "wins": 47,
-   "losses": 73,
-   "win_rate": 39.2,
-   "total_r": -11.39,
-   "avg_r": -0.095,
-   "total_pct": -41.81
+   "losses": 74,
+   "win_rate": 38.8,
+   "total_r": -12.39,
+   "avg_r": -0.102,
+   "total_pct": -44.84
   },
   "SPOT": {
    "trades": 40,
@@ -2925,13 +2880,13 @@
    "total_pct": -1.63
   },
   "PERP": {
-   "trades": 76,
+   "trades": 77,
    "wins": 30,
-   "losses": 46,
-   "win_rate": 39.5,
-   "total_r": -8.67,
-   "avg_r": -0.114,
-   "total_pct": -53.77
+   "losses": 47,
+   "win_rate": 39.0,
+   "total_r": -9.67,
+   "avg_r": -0.126,
+   "total_pct": -56.8
   },
   "DEX": {
    "trades": 4,
@@ -2962,13 +2917,13 @@
     "total_pct": 13.59
    },
    "TA": {
-    "trades": 90,
+    "trades": 91,
     "wins": 34,
-    "losses": 56,
-    "win_rate": 37.8,
-    "total_r": -7.64,
-    "avg_r": -0.085,
-    "total_pct": -13.88
+    "losses": 57,
+    "win_rate": 37.4,
+    "total_r": -8.64,
+    "avg_r": -0.095,
+    "total_pct": -16.91
    }
   },
   "coins": {
@@ -3612,13 +3567,13 @@
     "total_pct": -0.42
    },
    "SOL": {
-    "trades": 1,
+    "trades": 2,
     "wins": 1,
-    "losses": 0,
-    "win_rate": 100.0,
-    "total_r": 1.5,
-    "avg_r": 1.501,
-    "total_pct": 2.6
+    "losses": 1,
+    "win_rate": 50.0,
+    "total_r": 0.5,
+    "avg_r": 0.25,
+    "total_pct": -0.43
    },
    "SOPH": {
     "trades": 1,
@@ -3765,7 +3720,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 6
+  "open": 5
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7748,6 +7703,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "212c046ed9048d440f904e1eb8c89c5e3ee04a1aa600905d0ba83f5065da8c92",
- "generated": "2026-11-04T08:15:29+00:00"
+ "digest": "1e8d5192f38b742910a1546d0f9242f44403dd535976e5257c4b937fe5660983",
+ "generated": "2026-11-04T08:20:31+00:00"
 }
