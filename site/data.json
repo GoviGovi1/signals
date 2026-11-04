@@ -22,7 +22,7 @@
     0.17439159982844082
    ],
    "lev": 1,
-   "funding_pct": -0.0699,
+   "funding_pct": -0.0648,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-04T02:01:29+00:00",
@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1454,
-   "last_ts": "2026-11-04T17:55:23+00:00",
-   "move_pct": 0.28,
+   "last": 0.1455,
+   "last_ts": "2026-11-04T17:59:24+00:00",
+   "move_pct": 0.34,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -77,7 +77,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.01237,
-   "last_ts": "2026-11-04T17:55:23+00:00",
+   "last_ts": "2026-11-04T17:59:24+00:00",
    "move_pct": 2.57,
    "closed": false,
    "rsi": 56.1,
@@ -121,7 +121,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 4074.22235702621,
-   "last_ts": "2026-11-04T17:55:23+00:00",
+   "last_ts": "2026-11-04T17:59:24+00:00",
    "move_pct": 1.36,
    "closed": false,
    "rsi": 64.1,
@@ -165,9 +165,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.02045,
-   "last_ts": "2026-11-04T17:55:23+00:00",
-   "move_pct": 1.19,
+   "last": 0.02044,
+   "last_ts": "2026-11-04T17:59:24+00:00",
+   "move_pct": 1.14,
    "closed": false,
    "rsi": 64.9,
    "trade_on": "Spot",
@@ -209,9 +209,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.13015155567962033,
-   "last_ts": "2026-11-04T17:55:23+00:00",
-   "move_pct": -3.32,
+   "last": 0.1297102941656692,
+   "last_ts": "2026-11-04T17:59:24+00:00",
+   "move_pct": -3.65,
    "closed": false,
    "rsi": 72.8,
    "trade_on": "On-chain spot (Solana DEX)",
@@ -7133,6 +7133,27 @@
     ]
    },
    {
+    "id": "lending-borrowing",
+    "name": "Lending Borrowing",
+    "chg7d": -3.34,
+    "top": [
+     "AAVE",
+     "MORPHO",
+     "OHM",
+     "KMNO",
+     "COMP"
+    ],
+    "tracked": [
+     "AAVE",
+     "CAP",
+     "CT",
+     "KMNO",
+     "MORPHO",
+     "COMP",
+     "SPK"
+    ]
+   },
+   {
     "id": "oracle",
     "name": "Oracle",
     "chg7d": -3.81,
@@ -7207,27 +7228,6 @@
      "ATH",
      "IOTA",
      "LPT"
-    ]
-   },
-   {
-    "id": "lending-borrowing",
-    "name": "Lending Borrowing",
-    "chg7d": -4.96,
-    "top": [
-     "AAVE",
-     "MORPHO",
-     "OHM",
-     "COMP",
-     "KMNO"
-    ],
-    "tracked": [
-     "AAVE",
-     "CAP",
-     "CT",
-     "KMNO",
-     "MORPHO",
-     "COMP",
-     "SPK"
     ]
    },
    {
@@ -7650,7 +7650,7 @@
   "updated": {
    "unlocks": 1793811681,
    "onchain": 1793812572,
-   "sectors": 1793814138,
+   "sectors": 1793815164,
    "listings": 1793812572,
    "fundamentals": 1793811683
   }
@@ -7689,6 +7689,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "3adf80ec421e4b309ba8bc98c957b6f069b2e58993f191b4f0d2449da00f7c80",
- "generated": "2026-11-04T17:55:30+00:00"
+ "digest": "6620696af8ede9864c5e556fb52b2e506bcdb45b8bce0697449d43a09c6cffe6",
+ "generated": "2026-11-04T17:59:32+00:00"
 }
