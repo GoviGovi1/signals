@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.06483,
-   "last_ts": "2026-11-04T08:20:24+00:00",
-   "move_pct": -0.03,
+   "last": 0.06472,
+   "last_ts": "2026-11-04T08:25:24+00:00",
+   "move_pct": 0.14,
    "closed": false,
    "rsi": 33.6,
    "trade_on": "Perps 1x",
@@ -67,7 +67,7 @@
     0.17439159982844082
    ],
    "lev": 1,
-   "funding_pct": -0.5121,
+   "funding_pct": -0.5147,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-04T02:01:29+00:00",
@@ -75,9 +75,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1447,
-   "last_ts": "2026-11-04T08:20:24+00:00",
-   "move_pct": -0.21,
+   "last": 0.1441,
+   "last_ts": "2026-11-04T08:25:24+00:00",
+   "move_pct": -0.62,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -122,7 +122,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.01236,
-   "last_ts": "2026-11-04T08:20:24+00:00",
+   "last_ts": "2026-11-04T08:25:24+00:00",
    "move_pct": 2.49,
    "closed": false,
    "rsi": 56.1,
@@ -165,9 +165,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1624,
-   "last_ts": "2026-11-04T08:20:24+00:00",
-   "move_pct": -1.06,
+   "last": 0.1626,
+   "last_ts": "2026-11-04T08:25:24+00:00",
+   "move_pct": -1.18,
    "closed": false,
    "rsi": 32.2,
    "trade_on": "Perps 1x",
@@ -210,7 +210,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 4029.2730491389,
-   "last_ts": "2026-11-04T08:20:24+00:00",
+   "last_ts": "2026-11-04T08:25:24+00:00",
    "move_pct": 0.24,
    "closed": false,
    "rsi": 64.1,
@@ -7229,6 +7229,28 @@
     ]
    },
    {
+    "id": "layer-2",
+    "name": "Layer 2",
+    "chg7d": -6.93,
+    "top": [
+     "OKB",
+     "MNT",
+     "ARB",
+     "POL",
+     "STX"
+    ],
+    "tracked": [
+     "STRK",
+     "ARB",
+     "OKB",
+     "OP",
+     "MEGA",
+     "STX",
+     "SOON",
+     "POL"
+    ]
+   },
+   {
     "id": "oracle",
     "name": "Oracle",
     "chg7d": -6.99,
@@ -7411,28 +7433,6 @@
      "BONK",
      "ACT",
      "FARTCOIN"
-    ]
-   },
-   {
-    "id": "layer-2",
-    "name": "Layer 2",
-    "chg7d": -9.82,
-    "top": [
-     "OKB",
-     "MNT",
-     "ARB",
-     "POL",
-     "STX"
-    ],
-    "tracked": [
-     "STRK",
-     "ARB",
-     "OKB",
-     "OP",
-     "MEGA",
-     "STX",
-     "SOON",
-     "POL"
     ]
    },
    {
@@ -7664,7 +7664,7 @@
   "updated": {
    "unlocks": 1793767827,
    "onchain": 1793779233,
-   "sectors": 1793779828,
+   "sectors": 1793780724,
    "listings": 1793777434,
    "fundamentals": 1793767828
   }
@@ -7703,6 +7703,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "1e8d5192f38b742910a1546d0f9242f44403dd535976e5257c4b937fe5660983",
- "generated": "2026-11-04T08:20:31+00:00"
+ "digest": "3ca5c3ce36f85cc6a1a9347d478a8aa2265010ab07042f35fa09af2714267980",
+ "generated": "2026-11-04T08:25:30+00:00"
 }
