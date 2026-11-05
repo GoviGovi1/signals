@@ -21,9 +21,6 @@ on:
         description: "Remove the Telegram webhook and send broadcasts only. Also delete SIGNALS_WEBHOOK_URL and SIGNALS_WEBHOOK_SECRET or the next run turns the webhook back on."
         type: boolean
         default: false
-  push:
-    branches: [main]
-    paths: ["site/**", ".github/workflows/signals.yml"]
 
 concurrency:
   group: signals
@@ -37,9 +34,6 @@ jobs:
   run:
     runs-on: ubuntu-latest
     timeout-minutes: 12
-    outputs:
-      site: ${{ steps.commit.outputs.site }}
-      sha: ${{ steps.commit.outputs.sha }}
     env:
       SIGNALS_TG_TOKEN: ${{ secrets.SIGNALS_TG_TOKEN }}
       SIGNALS_STATE_KEY: ${{ secrets.SIGNALS_STATE_KEY }}
@@ -103,24 +97,3 @@ jobs:
             gh api -X PUT "repos/${{ github.repository }}/actions/workflows/signals.yml/enable" >/dev/null && echo "schedule enabled"
           fi
 
-  deploy:
-    needs: run
-    if: always() && needs.run.outputs.site == 'true'
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-    permissions:
-      pages: write
-      id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: ${{ needs.run.outputs.sha }}
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: site
-      - id: deployment
-        uses: actions/deploy-pages@v4
