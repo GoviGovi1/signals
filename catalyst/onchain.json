@@ -1,5 +1,5 @@
 {
- "checked": 85,
+ "checked": 86,
  "errors": [],
  "rejected": [
   {
@@ -43,17 +43,17 @@
   {
    "chain": "Solana",
    "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "STONK"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
     "liquidity under $250k",
     "pool younger than 7 days"
    ],
    "symbol": "IMPEACH"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "no DEX candles"
+   ],
+   "symbol": "STONK"
   },
   {
    "chain": "Solana",
@@ -88,21 +88,7 @@
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "TRUMP"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "no DEX candles"
-   ],
    "symbol": "DACITY"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "liquidity under $250k"
-   ],
-   "symbol": "DOPE"
   },
   {
    "chain": "Solana",
@@ -115,32 +101,47 @@
   {
    "chain": "Solana",
    "fails": [
+    "liquidity under $250k"
+   ],
+   "symbol": "DOPE"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "no DEX candles"
+   ],
+   "symbol": "CARDS"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "no DEX candles"
+   ],
+   "symbol": "PUMP"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "liquidity under $250k",
+    "pool younger than 7 days"
+   ],
+   "symbol": "MAMESUKE"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "liquidity under $250k",
+    "pool younger than 7 days"
+   ],
+   "symbol": "DEMOCAT"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
     "liquidity under $250k",
     "pool younger than 7 days"
    ],
    "symbol": "STONKS"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "liquidity under $250k",
-    "pool younger than 7 days"
-   ],
-   "symbol": "GEORGE"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "BTC"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "BATON"
   },
   {
    "chain": "Base",
@@ -188,13 +189,6 @@
   {
    "chain": "Base",
    "fails": [
-    "pool younger than 7 days"
-   ],
-   "symbol": "REBOOT"
-  },
-  {
-   "chain": "Base",
-   "fails": [
     "24h volume under $250k"
    ],
    "symbol": "DRB"
@@ -205,6 +199,13 @@
     "no DEX candles"
    ],
    "symbol": "XDP"
+  },
+  {
+   "chain": "Base",
+   "fails": [
+    "pool younger than 7 days"
+   ],
+   "symbol": "REBOOT"
   },
   {
    "chain": "Base",
@@ -277,13 +278,6 @@
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "AKE"
-  },
-  {
-   "chain": "BSC",
-   "fails": [
-    "no DEX candles"
-   ],
    "symbol": "JCT"
   },
   {
@@ -291,67 +285,74 @@
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "ZIG"
+   "symbol": "TART"
+  },
+  {
+   "chain": "BSC",
+   "fails": [
+    "no DEX candles"
+   ],
+   "symbol": "DGAI"
   }
  ],
  "rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
- "updated": 1793859325,
+ "updated": 1793862924,
  "watchlist": [
   {
-   "age_d": 1329.2,
-   "atr": 0.0023487802710728226,
-   "bar_ts": 1793854800000,
-   "chain": "Arbitrum",
-   "chg24h": 2.652,
-   "chg7d": -2.1,
-   "close": 0.163073613899159,
-   "ema20": 0.16275430842156383,
-   "ema50": 0.1611985373834031,
+   "age_d": 656.0,
+   "atr": 0.03817232689562816,
+   "bar_ts": 1793858400000,
+   "chain": "Solana",
+   "chg24h": -17.143,
+   "chg7d": -23.5,
+   "close": 1.2784140459438982,
+   "ema20": 1.3190332954452522,
+   "ema50": 1.421578330615115,
    "fails": [],
-   "gecko_id": "arbitrum",
-   "liq": 1716512,
-   "mcap": 1125605690.0139,
-   "name": "Arbitrum",
-   "net": "arbitrum",
-   "pool": "0xc6f780497a95e246eb9449f5e4770916dcd6396a",
-   "price": 0.163317890834764,
-   "rsi": 53.0,
+   "gecko_id": "official-trump",
+   "liq": 5875958,
+   "mcap": 355071055.584152,
+   "name": "OFFICIAL TRUMP",
+   "net": "solana",
+   "pool": "3C5YE97HADPDxZehYq9Cis8AXr9aNyrUsczKzE1nDbW9",
+   "price": 1.2597071559281512,
+   "rsi": 33.5,
    "safety": "ok",
    "safety_notes": [],
-   "symbol": "ARB",
-   "token": "0x912ce59144191c1204e64559fe8253a0e49e6548",
-   "trend_up": true,
+   "symbol": "TRUMP",
+   "token": "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN",
+   "trend_up": false,
    "trigger": false,
-   "url": "https://www.geckoterminal.com/arbitrum/pools/0xc6f780497a95e246eb9449f5e4770916dcd6396a",
-   "vol24h": 5570487
+   "url": "https://www.geckoterminal.com/solana/pools/3C5YE97HADPDxZehYq9Cis8AXr9aNyrUsczKzE1nDbW9",
+   "vol24h": 8155579
   },
   {
-   "age_d": 478.6,
-   "atr": 9.130999095047396e-05,
-   "bar_ts": 1793854800000,
-   "chain": "Solana",
-   "chg24h": -0.673,
-   "chg7d": 0.8,
-   "close": 0.004300262411584906,
-   "ema20": 0.004296366569163934,
-   "ema50": 0.004256512484174558,
+   "age_d": 442.0,
+   "atr": 0.00028688681168191415,
+   "bar_ts": 1793858400000,
+   "chain": "BSC",
+   "chg24h": -17.97,
+   "chg7d": -88.1,
+   "close": 0.00244593597780755,
+   "ema20": 0.0027262661543471876,
+   "ema50": 0.0036321969628507933,
    "fails": [],
-   "gecko_id": "pump-fun",
-   "liq": 23242075,
-   "mcap": 1964198514.2651,
-   "name": "Pump",
-   "net": "solana",
-   "pool": "2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd",
-   "price": 0.004275625658614073,
-   "rsi": 51.0,
+   "gecko_id": "akedo",
+   "liq": 740274,
+   "mcap": 57881992.7061525,
+   "name": "AKE",
+   "net": "bsc",
+   "pool": "0x4d3bf29ba30f8bfe4624e7678709afa195689c5d",
+   "price": 0.00253910150639399,
+   "rsi": 33.7,
    "safety": "ok",
    "safety_notes": [],
-   "symbol": "PUMP",
-   "token": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-   "trend_up": true,
+   "symbol": "AKE",
+   "token": "0x2c3a8ee94ddd97244a93bc48298f97d2c412f7db",
+   "trend_up": false,
    "trigger": false,
-   "url": "https://www.geckoterminal.com/solana/pools/2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd",
-   "vol24h": 4168188
+   "url": "https://www.geckoterminal.com/bsc/pools/0x4d3bf29ba30f8bfe4624e7678709afa195689c5d",
+   "vol24h": 5227656
   }
  ]
 }
