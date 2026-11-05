@@ -22,7 +22,7 @@
     0.17439159982844082
    ],
    "lev": 1,
-   "funding_pct": -0.0221,
+   "funding_pct": -0.0212,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-04T02:01:29+00:00",
@@ -31,7 +31,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.1469,
-   "last_ts": "2026-11-05T03:55:21+00:00",
+   "last_ts": "2026-11-05T04:00:35+00:00",
    "move_pct": 1.31,
    "closed": false,
    "rsi": null,
@@ -77,7 +77,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.0124,
-   "last_ts": "2026-11-05T03:55:21+00:00",
+   "last_ts": "2026-11-05T04:00:35+00:00",
    "move_pct": 2.82,
    "closed": false,
    "rsi": 56.1,
@@ -120,9 +120,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 4131.88844181868,
-   "last_ts": "2026-11-05T03:55:21+00:00",
-   "move_pct": 2.79,
+   "last": 4133.42563497732,
+   "last_ts": "2026-11-05T04:00:35+00:00",
+   "move_pct": 2.83,
    "closed": false,
    "rsi": 64.1,
    "trade_on": "On-chain spot (Ethereum DEX)",
@@ -160,9 +160,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 2.691,
-   "last_ts": "2026-11-05T03:55:21+00:00",
-   "move_pct": 6.92,
+   "last": 2.6641,
+   "last_ts": "2026-11-05T04:00:35+00:00",
+   "move_pct": 5.85,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -192,7 +192,7 @@
     0.9309878998815339
    ],
    "lev": 1,
-   "funding_pct": -0.0281,
+   "funding_pct": -0.0261,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-05T02:16:29+00:00",
@@ -200,9 +200,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.7869,
-   "last_ts": "2026-11-05T03:55:21+00:00",
-   "move_pct": 2.05,
+   "last": 0.7971,
+   "last_ts": "2026-11-05T04:00:35+00:00",
+   "move_pct": 3.37,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -7144,6 +7144,27 @@
     ]
    },
    {
+    "id": "lending-borrowing",
+    "name": "Lending Borrowing",
+    "chg7d": -2.42,
+    "top": [
+     "AAVE",
+     "MORPHO",
+     "OHM",
+     "KMNO",
+     "COMP"
+    ],
+    "tracked": [
+     "AAVE",
+     "CAP",
+     "CT",
+     "KMNO",
+     "MORPHO",
+     "COMP",
+     "SPK"
+    ]
+   },
+   {
     "id": "storage",
     "name": "Storage",
     "chg7d": -3.12,
@@ -7308,27 +7329,6 @@
      "TRUTH",
      "ZK",
      "MINA"
-    ]
-   },
-   {
-    "id": "lending-borrowing",
-    "name": "Lending Borrowing",
-    "chg7d": -4.54,
-    "top": [
-     "AAVE",
-     "MORPHO",
-     "OHM",
-     "KMNO",
-     "COMP"
-    ],
-    "tracked": [
-     "AAVE",
-     "CAP",
-     "CT",
-     "KMNO",
-     "MORPHO",
-     "COMP",
-     "SPK"
     ]
    },
    {
@@ -7683,7 +7683,7 @@
   "updated": {
    "unlocks": 1793833521,
    "onchain": 1793848525,
-   "sectors": 1793850324,
+   "sectors": 1793851235,
    "listings": 1793850166,
    "fundamentals": 1793833522
   }
@@ -7722,6 +7722,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "639602bf6a3301f49fa769b07744eb6f9046b402b2885898a901befb158e01b6",
- "generated": "2026-11-05T03:55:26+00:00"
+ "digest": "1a15307819838443401a66ac3b2e8e7567d62d2e2c2c6a7d9c5446a902e71edc",
+ "generated": "2026-11-05T04:01:11+00:00"
 }
