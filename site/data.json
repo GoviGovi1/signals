@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1431,
-   "last_ts": "2026-11-05T08:55:20+00:00",
-   "move_pct": -1.31,
+   "last": 0.1421,
+   "last_ts": "2026-11-05T09:00:38+00:00",
+   "move_pct": -2.0,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -77,7 +77,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.01228,
-   "last_ts": "2026-11-05T08:55:20+00:00",
+   "last_ts": "2026-11-05T09:00:38+00:00",
    "move_pct": 1.82,
    "closed": false,
    "rsi": 56.1,
@@ -121,7 +121,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 4104.49054969656,
-   "last_ts": "2026-11-05T08:55:20+00:00",
+   "last_ts": "2026-11-05T09:00:38+00:00",
    "move_pct": 2.11,
    "closed": false,
    "rsi": 64.1,
@@ -160,9 +160,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 2.6439,
-   "last_ts": "2026-11-05T08:55:20+00:00",
-   "move_pct": 5.05,
+   "last": 2.649,
+   "last_ts": "2026-11-05T09:00:38+00:00",
+   "move_pct": 5.25,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -192,7 +192,7 @@
     0.9309878998815339
    ],
    "lev": 1,
-   "funding_pct": -0.0008,
+   "funding_pct": 0.0016,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-05T02:16:29+00:00",
@@ -200,15 +200,60 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.8024,
-   "last_ts": "2026-11-05T08:55:20+00:00",
-   "move_pct": 4.06,
+   "last": 0.8104,
+   "last_ts": "2026-11-05T09:00:38+00:00",
+   "move_pct": 5.1,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
    "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
    "chart": "charts/DGAI-PERP-HOT-20762.png",
    "setup": "HOT24"
+  },
+  {
+   "id": "BCH-SPOT-1793865600",
+   "kind": "TA",
+   "score": 1,
+   "reasons": [
+    "Chart: Broke out of a 4-day range at 286.71 (range 265.01\u2013286.71) on 3.0x volume",
+    "Timeframes: 1d down, 4h down, 4h structure mixed",
+    "Next resistance 302.91 (3.1R away, 4h swing/swing)",
+    "Stop 284.67 (below the breakout level); targets at the next 2 level(s)",
+    "BTC 4h trend down",
+    "Stronger than BTC by 2.8% over 7d",
+    "OI +1% 24h",
+    "Sector: Layer 1 -0.2% 7d (leading, #3 of 20)",
+    "Track record: +8.6R on BCH in the last 45 days (backtest)"
+   ],
+   "coin": "BCH",
+   "market": "SPOT",
+   "side": "LONG",
+   "entry": 289.32,
+   "sl0": 284.8522943486815,
+   "sl": 284.8522943486815,
+   "tps": [
+    302.5934062484402,
+    312.79422289716933,
+    317.26192854848784
+   ],
+   "lev": null,
+   "funding_pct": null,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-11-05T09:00:00+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 288.92,
+   "last_ts": "2026-11-05T09:00:38+00:00",
+   "move_pct": -0.14,
+   "closed": false,
+   "rsi": 67.8,
+   "trade_on": "Spot",
+   "market_reason": "trend not strong enough for leverage: spot has no liquidation or funding",
+   "chart": "charts/BCH-SPOT-1793865600.png",
+   "setup": "RANGE_BREAK"
   }
  ],
  "closed": [
@@ -3741,7 +3786,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 5
+  "open": 6
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7228,27 +7273,6 @@
     ]
    },
    {
-    "id": "lending-borrowing",
-    "name": "Lending Borrowing",
-    "chg7d": -2.42,
-    "top": [
-     "AAVE",
-     "MORPHO",
-     "OHM",
-     "KMNO",
-     "COMP"
-    ],
-    "tracked": [
-     "AAVE",
-     "CAP",
-     "CT",
-     "KMNO",
-     "MORPHO",
-     "COMP",
-     "SPK"
-    ]
-   },
-   {
     "id": "meme-token",
     "name": "Meme Token",
     "chg7d": -2.83,
@@ -7312,6 +7336,27 @@
      "MEGA",
      "STX",
      "SOON"
+    ]
+   },
+   {
+    "id": "lending-borrowing",
+    "name": "Lending Borrowing",
+    "chg7d": -3.11,
+    "top": [
+     "AAVE",
+     "MORPHO",
+     "OHM",
+     "KMNO",
+     "COMP"
+    ],
+    "tracked": [
+     "AAVE",
+     "CAP",
+     "CT",
+     "KMNO",
+     "MORPHO",
+     "COMP",
+     "SPK"
     ]
    },
    {
@@ -7683,7 +7728,7 @@
   "updated": {
    "unlocks": 1793855121,
    "onchain": 1793866522,
-   "sectors": 1793868325,
+   "sectors": 1793869238,
    "listings": 1793868623,
    "fundamentals": 1793855123
   }
@@ -7722,6 +7767,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "582edd4b7d5e2bf55b23f97a7b6db087d99b97de63e5636809b128131e4e7620",
- "generated": "2026-11-05T08:55:25+00:00"
+ "digest": "168d5ec4cab424e19e89f80748adf62fcdbdb7a21f9523ef900e0246585887ab",
+ "generated": "2026-11-05T09:01:19+00:00"
 }
