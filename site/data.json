@@ -22,7 +22,7 @@
     0.17439159982844082
    ],
    "lev": 1,
-   "funding_pct": -0.0977,
+   "funding_pct": -0.0998,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-04T02:01:29+00:00",
@@ -30,61 +30,15 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1384,
-   "last_ts": "2026-11-05T15:00:31+00:00",
-   "move_pct": -4.55,
+   "last": 0.137,
+   "last_ts": "2026-11-05T15:05:26+00:00",
+   "move_pct": -5.52,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
    "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
    "chart": "charts/AXIS-PERP-HOT-20761.png",
    "setup": "HOT24"
-  },
-  {
-   "id": "WOO-SPOT-1793761200",
-   "kind": "TA",
-   "score": 2,
-   "reasons": [
-    "Chart: Retest of the 0.011822 breakout level held (15h after the break)",
-    "Timeframes: 1d up, 4h flat, 4h structure higher highs/lows",
-    "Next resistance 0.01308 (2.5R away, 4h swing/swing)",
-    "Stop 0.011693 (below the breakout level); targets at the next 2 level(s)",
-    "BTC 4h trend down",
-    "Stronger than BTC by 21.5% over 7d",
-    "OI +15% 24h with breakout",
-    "DEX volume +71% 7d",
-    "Sector: Decentralized Exchange -5.6% 7d (leading, #4 of 20)",
-    "Track record: +0.6R on WOO in the last 45 days (backtest)"
-   ],
-   "coin": "WOO",
-   "market": "SPOT",
-   "side": "LONG",
-   "entry": 0.01206,
-   "sl0": 0.011663530625999079,
-   "sl": 0.011663530625999079,
-   "tps": [
-    0.013014866440094638,
-    0.014032728810345925,
-    0.014429198184346846
-   ],
-   "lev": null,
-   "funding_pct": null,
-   "status": "open",
-   "hits": 0,
-   "opened": "2026-11-04T04:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.01179,
-   "last_ts": "2026-11-05T15:00:31+00:00",
-   "move_pct": -2.24,
-   "closed": false,
-   "rsi": 56.1,
-   "trade_on": "Spot",
-   "market_reason": "thin perp market: spot is safer",
-   "chart": "charts/WOO-SPOT-1793761200.png",
-   "setup": "RETEST"
   },
   {
    "id": "PAXG-DEX-eth-0x45804880-1793772000",
@@ -120,9 +74,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 4104.47277345309,
-   "last_ts": "2026-11-05T15:00:31+00:00",
-   "move_pct": 2.11,
+   "last": 4102.12269033849,
+   "last_ts": "2026-11-05T15:05:26+00:00",
+   "move_pct": 2.05,
    "closed": false,
    "rsi": 64.1,
    "trade_on": "On-chain spot (Ethereum DEX)",
@@ -160,9 +114,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 2.5813,
-   "last_ts": "2026-11-05T15:00:31+00:00",
-   "move_pct": 2.56,
+   "last": 2.5466,
+   "last_ts": "2026-11-05T15:05:26+00:00",
+   "move_pct": 1.18,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -205,9 +159,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 107.89,
-   "last_ts": "2026-11-05T15:00:31+00:00",
-   "move_pct": 1.72,
+   "last": 107.39,
+   "last_ts": "2026-11-05T15:05:26+00:00",
+   "move_pct": 2.18,
    "closed": false,
    "rsi": 44.1,
    "trade_on": "Perps 3x",
@@ -242,7 +196,7 @@
     0.0006399390978465877
    ],
    "lev": 1,
-   "funding_pct": -0.0367,
+   "funding_pct": -0.0368,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-05T15:00:00+00:00",
@@ -250,9 +204,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0006766,
-   "last_ts": "2026-11-05T15:00:31+00:00",
-   "move_pct": 0.16,
+   "last": 0.0006697,
+   "last_ts": "2026-11-05T15:05:26+00:00",
+   "move_pct": 1.18,
    "closed": false,
    "rsi": 34.9,
    "trade_on": "Perps 1x",
@@ -295,9 +249,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.005177,
-   "last_ts": "2026-11-05T15:00:31+00:00",
-   "move_pct": -0.12,
+   "last": 0.00514,
+   "last_ts": "2026-11-05T15:05:26+00:00",
+   "move_pct": 0.6,
    "closed": false,
    "rsi": 43.0,
    "trade_on": "Perps 1x",
@@ -340,9 +294,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.546,
-   "last_ts": "2026-11-05T15:00:31+00:00",
-   "move_pct": -0.0,
+   "last": 1.537,
+   "last_ts": "2026-11-05T15:05:26+00:00",
+   "move_pct": 0.58,
    "closed": false,
    "rsi": 40.2,
    "trade_on": "Perps 1x",
@@ -385,9 +339,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.5781,
-   "last_ts": "2026-11-05T15:00:31+00:00",
-   "move_pct": 0.07,
+   "last": 0.5746,
+   "last_ts": "2026-11-05T15:05:26+00:00",
+   "move_pct": 0.67,
    "closed": false,
    "rsi": 35.5,
    "trade_on": "Perps 1x",
@@ -397,6 +351,52 @@
   }
  ],
  "closed": [
+  {
+   "id": "WOO-SPOT-1793761200",
+   "kind": "TA",
+   "score": 2,
+   "reasons": [
+    "Chart: Retest of the 0.011822 breakout level held (15h after the break)",
+    "Timeframes: 1d up, 4h flat, 4h structure higher highs/lows",
+    "Next resistance 0.01308 (2.5R away, 4h swing/swing)",
+    "Stop 0.011693 (below the breakout level); targets at the next 2 level(s)",
+    "BTC 4h trend down",
+    "Stronger than BTC by 21.5% over 7d",
+    "OI +15% 24h with breakout",
+    "DEX volume +71% 7d",
+    "Sector: Decentralized Exchange -5.6% 7d (leading, #4 of 20)",
+    "Track record: +0.6R on WOO in the last 45 days (backtest)"
+   ],
+   "coin": "WOO",
+   "market": "SPOT",
+   "side": "LONG",
+   "entry": 0.01206,
+   "sl0": 0.011663530625999079,
+   "sl": 0.011663530625999079,
+   "tps": [
+    0.013014866440094638,
+    0.014032728810345925,
+    0.014429198184346846
+   ],
+   "lev": null,
+   "funding_pct": null,
+   "status": "stopped",
+   "hits": 0,
+   "opened": "2026-11-04T04:00:00+00:00",
+   "closed_at": "2026-11-05T15:05:26+00:00",
+   "exit_price": 0.011663530625999079,
+   "result_r": -1.0,
+   "result_pct": -3.29,
+   "last": 0.01165,
+   "last_ts": "2026-11-05T15:05:26+00:00",
+   "move_pct": -2.24,
+   "closed": true,
+   "rsi": 56.1,
+   "trade_on": "Spot",
+   "market_reason": "thin perp market: spot is safer",
+   "chart": "charts/WOO-SPOT-1793761200.png",
+   "setup": "RETEST"
+  },
   {
    "id": "BCH-SPOT-1793865600",
    "kind": "TA",
@@ -2163,7 +2163,7 @@
    "rsi": 34.0,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": "charts/KAT-PERP-1793498400.png",
+   "chart": null,
    "setup": "BREAKOUT20"
   },
   {
@@ -2983,71 +2983,26 @@
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": null,
    "setup": "RANGE_BREAK"
-  },
-  {
-   "id": "1INCH-PERP-1793318400",
-   "kind": "TA",
-   "score": 0,
-   "reasons": [
-    "Chart: Broke down from a 10-day range at 0.0824 (range 0.0824\u20130.09617) on 7.7x volume",
-    "Timeframes: 1d down, 4h down, 4h structure mixed",
-    "No support below in the last 50 days",
-    "Stop 0.083203 (above the breakdown level); targets at 1R/2R/3R",
-    "BTC 4h trend down",
-    "Weaker than BTC by 5.3% over 7d",
-    "OI +9% 24h with breakout",
-    "Sector: Exchange Based Tokens -2.4% 7d (leading, #3 of 20)",
-    "Track record: +1.2R on 1INCH in the last 45 days (backtest)"
-   ],
-   "coin": "1INCH",
-   "market": "PERP",
-   "side": "SHORT",
-   "entry": 0.08179,
-   "sl0": 0.08320277610598746,
-   "sl": 0.08179,
-   "tps": [
-    0.08037722389401254,
-    0.07896444778802508,
-    0.07755167168203762
-   ],
-   "lev": 1,
-   "funding_pct": 0.01,
-   "status": "tp3",
-   "hits": 3,
-   "opened": "2026-10-30T01:00:00+00:00",
-   "closed_at": "2026-10-30T02:45:24+00:00",
-   "exit_price": 0.07755167168203762,
-   "result_r": 2.25,
-   "result_pct": 3.89,
-   "last": 0.0774,
-   "last_ts": "2026-10-30T02:45:24+00:00",
-   "move_pct": 4.63,
-   "closed": true,
-   "rsi": 24.5,
-   "trade_on": "Perps 1x",
-   "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": null,
-   "setup": "RANGE_BREAK"
   }
  ],
  "stats": {
   "all": {
-   "trades": 130,
+   "trades": 131,
    "wins": 51,
-   "losses": 79,
-   "win_rate": 39.2,
-   "total_r": -15.64,
-   "avg_r": -0.12,
-   "total_pct": -61.97
+   "losses": 80,
+   "win_rate": 38.9,
+   "total_r": -16.64,
+   "avg_r": -0.127,
+   "total_pct": -65.26
   },
   "SPOT": {
-   "trades": 43,
+   "trades": 44,
    "wins": 16,
-   "losses": 27,
-   "win_rate": 37.2,
-   "total_r": -5.22,
-   "avg_r": -0.121,
-   "total_pct": -8.97
+   "losses": 28,
+   "win_rate": 36.4,
+   "total_r": -6.22,
+   "avg_r": -0.141,
+   "total_pct": -12.26
   },
   "PERP": {
    "trades": 82,
@@ -3087,13 +3042,13 @@
     "total_pct": 7.62
    },
    "TA": {
-    "trades": 95,
+    "trades": 96,
     "wins": 36,
-    "losses": 59,
-    "win_rate": 37.9,
-    "total_r": -9.89,
-    "avg_r": -0.104,
-    "total_pct": -19.94
+    "losses": 60,
+    "win_rate": 37.5,
+    "total_r": -10.89,
+    "avg_r": -0.113,
+    "total_pct": -23.23
    }
   },
   "coins": {
@@ -3845,13 +3800,13 @@
     "total_pct": -1.76
    },
    "WOO": {
-    "trades": 2,
+    "trades": 3,
     "wins": 0,
-    "losses": 2,
+    "losses": 3,
     "win_rate": 0.0,
-    "total_r": -2.0,
+    "total_r": -3.0,
     "avg_r": -1.0,
-    "total_pct": -7.19
+    "total_pct": -10.48
    },
    "XPL": {
     "trades": 1,
@@ -3935,7 +3890,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 9
+  "open": 8
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7883,7 +7838,7 @@
    "unlocks": 1793877026,
    "onchain": 1793888124,
    "sectors": 1793890831,
-   "listings": 1793887235,
+   "listings": 1793891126,
    "fundamentals": 1793877027
   }
  },
@@ -7921,6 +7876,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "9efa5b67c63233ded4faa5ac795f4fbfbe2d94627ffe15e2a1aabf1b4445ecee",
- "generated": "2026-11-05T15:01:39+00:00"
+ "digest": "da2cb61f3ea586a2fb663098aebe5f9168f49fd9e6659d80cc30e6d97d2f09f9",
+ "generated": "2026-11-05T15:05:32+00:00"
 }
