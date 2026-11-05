@@ -22,7 +22,7 @@
     0.17439159982844082
    ],
    "lev": 1,
-   "funding_pct": -0.0104,
+   "funding_pct": -0.0096,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-04T02:01:29+00:00",
@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1456,
-   "last_ts": "2026-11-05T02:10:30+00:00",
-   "move_pct": 0.41,
+   "last": 0.1451,
+   "last_ts": "2026-11-05T02:16:29+00:00",
+   "move_pct": 0.07,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -77,7 +77,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.01239,
-   "last_ts": "2026-11-05T02:10:30+00:00",
+   "last_ts": "2026-11-05T02:16:29+00:00",
    "move_pct": 2.74,
    "closed": false,
    "rsi": 56.1,
@@ -120,9 +120,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 4112.79348070363,
-   "last_ts": "2026-11-05T02:10:30+00:00",
-   "move_pct": 2.32,
+   "last": 4114.7216935735,
+   "last_ts": "2026-11-05T02:16:29+00:00",
+   "move_pct": 2.37,
    "closed": false,
    "rsi": 64.1,
    "trade_on": "On-chain spot (Ethereum DEX)",
@@ -160,14 +160,54 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 2.5881,
-   "last_ts": "2026-11-05T02:10:30+00:00",
-   "move_pct": 2.83,
+   "last": 2.6132,
+   "last_ts": "2026-11-05T02:16:29+00:00",
+   "move_pct": 3.83,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
    "market_reason": "only spot is listed",
    "chart": "charts/FLUID-SPOT-HOT-20762.png",
+   "setup": "HOT24"
+  },
+  {
+   "id": "DGAI-PERP-HOT-20762",
+   "kind": "HOT",
+   "score": 293.76,
+   "reasons": [
+    "24h hot mover +20% with volume spike (1.9x the prior 3 days)",
+    "24h volume $33.7M on the OKX perp book, listed 63 days",
+    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
+    "Stop 0.7178 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
+   ],
+   "coin": "DGAI",
+   "market": "PERP",
+   "side": "LONG",
+   "entry": 0.7711,
+   "sl0": 0.7178040333728221,
+   "sl": 0.7178040333728221,
+   "tps": [
+    0.824395966627178,
+    0.8776919332543559,
+    0.9309878998815339
+   ],
+   "lev": 1,
+   "funding_pct": -0.0405,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-11-05T02:16:29+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.7711,
+   "last_ts": "2026-11-05T02:16:29+00:00",
+   "move_pct": 0.0,
+   "closed": false,
+   "rsi": null,
+   "trade_on": "Perps 1x",
+   "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
+   "chart": "charts/DGAI-PERP-HOT-20762.png",
    "setup": "HOT24"
   }
  ],
@@ -3701,7 +3741,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 4
+  "open": 5
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7018,45 +7058,45 @@
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
   "onchain": [
    {
-    "chain": "Arbitrum",
-    "symbol": "ARB",
-    "name": "Arbitrum",
-    "token": "0x912ce59144191c1204e64559fe8253a0e49e6548",
-    "price": 0.162284134934285,
-    "liq": 1721617,
-    "vol24h": 6216764,
-    "age_d": 1329.0,
-    "chg24h": 4.449,
-    "chg7d": -5.0,
-    "mcap": 1118518113.22219,
+    "chain": "Solana",
+    "symbol": "PUMP",
+    "name": "Pump",
+    "token": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+    "price": 0.004288562058795864,
+    "liq": 23252678,
+    "vol24h": 4785363,
+    "age_d": 478.4,
+    "chg24h": 2.065,
+    "chg7d": -0.9,
+    "mcap": 1970272661.11398,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": true,
-    "rsi": 52.6,
-    "url": "https://www.geckoterminal.com/arbitrum/pools/0xc6f780497a95e246eb9449f5e4770916dcd6396a"
+    "rsi": 50.0,
+    "url": "https://www.geckoterminal.com/solana/pools/2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd"
    },
    {
     "chain": "BSC",
-    "symbol": "Q",
-    "name": "Quack AI Token",
-    "token": "0xc07e1300dc138601fa6b0b59f8d0fa477e690589",
-    "price": 0.028086797580879,
-    "liq": 1082826,
-    "vol24h": 4329246,
-    "age_d": 430.7,
-    "chg24h": -2.263,
-    "chg7d": -55.0,
-    "mcap": 138461360.237451,
+    "symbol": "AKE",
+    "name": "AKE",
+    "token": "0x2c3a8ee94ddd97244a93bc48298f97d2c412f7db",
+    "price": 0.00254031548094161,
+    "liq": 738981,
+    "vol24h": 7821766,
+    "age_d": 441.8,
+    "chg24h": -31.992,
+    "chg7d": -88.4,
+    "mcap": 57909666.7837462,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 46.8,
-    "url": "https://www.geckoterminal.com/bsc/pools/0x8bafe0bdd3eb9ae0539f5b32e771c1a72a189b7f"
+    "rsi": 26.2,
+    "url": "https://www.geckoterminal.com/bsc/pools/0x4d3bf29ba30f8bfe4624e7678709afa195689c5d"
    }
   ],
-  "onchain_checked": 86,
+  "onchain_checked": 87,
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
@@ -7229,6 +7269,21 @@
     ]
    },
    {
+    "id": "privacy-coins",
+    "name": "Privacy Coins",
+    "chg7d": -4.56,
+    "top": [
+     "ZEC",
+     "XMR",
+     "DCR",
+     "ZANO",
+     "ARRR"
+    ],
+    "tracked": [
+     "ZEC"
+    ]
+   },
+   {
     "id": "meme-token",
     "name": "Meme Token",
     "chg7d": -4.72,
@@ -7287,21 +7342,6 @@
      "IMX",
      "FLOKI",
      "YGG"
-    ]
-   },
-   {
-    "id": "privacy-coins",
-    "name": "Privacy Coins",
-    "chg7d": -5.0,
-    "top": [
-     "ZEC",
-     "XMR",
-     "DCR",
-     "ZANO",
-     "ARRR"
-    ],
-    "tracked": [
-     "ZEC"
     ]
    },
    {
@@ -7642,8 +7682,8 @@
   ],
   "updated": {
    "unlocks": 1793833521,
-   "onchain": 1793841325,
-   "sectors": 1793844035,
+   "onchain": 1793844927,
+   "sectors": 1793844927,
    "listings": 1793842526,
    "fundamentals": 1793833522
   }
@@ -7682,6 +7722,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "ac5b5362cf15331e6476e112c91d76c1281937030ea3a45bf59fab074b2ac951",
- "generated": "2026-11-05T02:10:36+00:00"
+ "digest": "15730910d553987e7b8e16e5b0cb1988451fdc9ba0fe666ab56236a389f1a9ca",
+ "generated": "2026-11-05T02:16:36+00:00"
 }
