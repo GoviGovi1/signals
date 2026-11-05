@@ -22,7 +22,7 @@
     0.17439159982844082
    ],
    "lev": 1,
-   "funding_pct": -0.093,
+   "funding_pct": -0.0944,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-04T02:01:29+00:00",
@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1381,
-   "last_ts": "2026-11-05T14:40:27+00:00",
-   "move_pct": -4.76,
+   "last": 0.1373,
+   "last_ts": "2026-11-05T14:45:24+00:00",
+   "move_pct": -5.31,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -76,9 +76,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.01201,
-   "last_ts": "2026-11-05T14:40:27+00:00",
-   "move_pct": -0.41,
+   "last": 0.01195,
+   "last_ts": "2026-11-05T14:45:24+00:00",
+   "move_pct": -0.91,
    "closed": false,
    "rsi": 56.1,
    "trade_on": "Spot",
@@ -120,9 +120,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 4126.74140671148,
-   "last_ts": "2026-11-05T14:40:27+00:00",
-   "move_pct": 2.66,
+   "last": 4090.33417858957,
+   "last_ts": "2026-11-05T14:45:24+00:00",
+   "move_pct": 1.76,
    "closed": false,
    "rsi": 64.1,
    "trade_on": "On-chain spot (Ethereum DEX)",
@@ -160,60 +160,15 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 2.6202,
-   "last_ts": "2026-11-05T14:40:27+00:00",
-   "move_pct": 4.11,
+   "last": 2.5758,
+   "last_ts": "2026-11-05T14:45:24+00:00",
+   "move_pct": 2.34,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
    "market_reason": "only spot is listed",
    "chart": "charts/FLUID-SPOT-HOT-20762.png",
    "setup": "HOT24"
-  },
-  {
-   "id": "BCH-SPOT-1793865600",
-   "kind": "TA",
-   "score": 1,
-   "reasons": [
-    "Chart: Broke out of a 4-day range at 286.71 (range 265.01\u2013286.71) on 3.0x volume",
-    "Timeframes: 1d down, 4h down, 4h structure mixed",
-    "Next resistance 302.91 (3.1R away, 4h swing/swing)",
-    "Stop 284.67 (below the breakout level); targets at the next 2 level(s)",
-    "BTC 4h trend down",
-    "Stronger than BTC by 2.8% over 7d",
-    "OI +1% 24h",
-    "Sector: Layer 1 -0.2% 7d (leading, #3 of 20)",
-    "Track record: +8.6R on BCH in the last 45 days (backtest)"
-   ],
-   "coin": "BCH",
-   "market": "SPOT",
-   "side": "LONG",
-   "entry": 289.32,
-   "sl0": 284.8522943486815,
-   "sl": 284.8522943486815,
-   "tps": [
-    302.5934062484402,
-    312.79422289716933,
-    317.26192854848784
-   ],
-   "lev": null,
-   "funding_pct": null,
-   "status": "open",
-   "hits": 0,
-   "opened": "2026-11-05T09:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 285.05,
-   "last_ts": "2026-11-05T14:40:27+00:00",
-   "move_pct": -1.48,
-   "closed": false,
-   "rsi": 67.8,
-   "trade_on": "Spot",
-   "market_reason": "trend not strong enough for leverage: spot has no liquidation or funding",
-   "chart": "charts/BCH-SPOT-1793865600.png",
-   "setup": "RANGE_BREAK"
   },
   {
    "id": "OKB-PERP-1793880000",
@@ -250,9 +205,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 108.37,
-   "last_ts": "2026-11-05T14:40:27+00:00",
-   "move_pct": 1.28,
+   "last": 108.34,
+   "last_ts": "2026-11-05T14:45:24+00:00",
+   "move_pct": 1.31,
    "closed": false,
    "rsi": 44.1,
    "trade_on": "Perps 3x",
@@ -262,6 +217,51 @@
   }
  ],
  "closed": [
+  {
+   "id": "BCH-SPOT-1793865600",
+   "kind": "TA",
+   "score": 1,
+   "reasons": [
+    "Chart: Broke out of a 4-day range at 286.71 (range 265.01\u2013286.71) on 3.0x volume",
+    "Timeframes: 1d down, 4h down, 4h structure mixed",
+    "Next resistance 302.91 (3.1R away, 4h swing/swing)",
+    "Stop 284.67 (below the breakout level); targets at the next 2 level(s)",
+    "BTC 4h trend down",
+    "Stronger than BTC by 2.8% over 7d",
+    "OI +1% 24h",
+    "Sector: Layer 1 -0.2% 7d (leading, #3 of 20)",
+    "Track record: +8.6R on BCH in the last 45 days (backtest)"
+   ],
+   "coin": "BCH",
+   "market": "SPOT",
+   "side": "LONG",
+   "entry": 289.32,
+   "sl0": 284.8522943486815,
+   "sl": 284.8522943486815,
+   "tps": [
+    302.5934062484402,
+    312.79422289716933,
+    317.26192854848784
+   ],
+   "lev": null,
+   "funding_pct": null,
+   "status": "stopped",
+   "hits": 0,
+   "opened": "2026-11-05T09:00:00+00:00",
+   "closed_at": "2026-11-05T14:45:24+00:00",
+   "exit_price": 284.8522943486815,
+   "result_r": -1.0,
+   "result_pct": -1.54,
+   "last": 287.04,
+   "last_ts": "2026-11-05T14:45:24+00:00",
+   "move_pct": -1.48,
+   "closed": true,
+   "rsi": 67.8,
+   "trade_on": "Spot",
+   "market_reason": "trend not strong enough for leverage: spot has no liquidation or funding",
+   "chart": "charts/BCH-SPOT-1793865600.png",
+   "setup": "RANGE_BREAK"
+  },
   {
    "id": "PROMPT-SPOT-HOT-20762",
    "kind": "HOT",
@@ -2023,7 +2023,7 @@
    "rsi": null,
    "trade_on": "Spot",
    "market_reason": "only spot is listed",
-   "chart": "charts/G-SPOT-HOT-20758.png",
+   "chart": null,
    "setup": "HOT24"
   },
   {
@@ -2848,66 +2848,26 @@
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": null,
    "setup": "RANGE_BREAK"
-  },
-  {
-   "id": "OL-SPOT-HOT-20755",
-   "kind": "HOT",
-   "score": 319.35,
-   "reasons": [
-    "24h hot mover +21% with volume spike (2.6x the prior 3 days)",
-    "24h volume $1.1M on the OKX spot book, listed 709 days",
-    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
-    "Stop 0.0067336 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
-   ],
-   "coin": "OL",
-   "market": "SPOT",
-   "side": "LONG",
-   "entry": 0.007212,
-   "sl0": 0.006733588166919807,
-   "sl": 0.007212,
-   "tps": [
-    0.007690411833080192,
-    0.008168823666160384,
-    0.008647235499240577
-   ],
-   "lev": null,
-   "funding_pct": null,
-   "status": "stopped_be",
-   "hits": 1,
-   "opened": "2026-10-29T00:00:31+00:00",
-   "closed_at": "2026-10-29T20:45:23+00:00",
-   "exit_price": 0.007212,
-   "result_r": 0.25,
-   "result_pct": 1.66,
-   "last": 0.007225,
-   "last_ts": "2026-10-29T20:45:23+00:00",
-   "move_pct": 1.25,
-   "closed": true,
-   "rsi": null,
-   "trade_on": "Spot",
-   "market_reason": "very volatile coin: spot avoids liquidation",
-   "chart": null,
-   "setup": "HOT24"
   }
  ],
  "stats": {
   "all": {
-   "trades": 129,
+   "trades": 130,
    "wins": 51,
-   "losses": 78,
-   "win_rate": 39.5,
-   "total_r": -14.64,
-   "avg_r": -0.114,
-   "total_pct": -60.43
+   "losses": 79,
+   "win_rate": 39.2,
+   "total_r": -15.64,
+   "avg_r": -0.12,
+   "total_pct": -61.97
   },
   "SPOT": {
-   "trades": 42,
+   "trades": 43,
    "wins": 16,
-   "losses": 26,
-   "win_rate": 38.1,
-   "total_r": -4.22,
-   "avg_r": -0.101,
-   "total_pct": -7.43
+   "losses": 27,
+   "win_rate": 37.2,
+   "total_r": -5.22,
+   "avg_r": -0.121,
+   "total_pct": -8.97
   },
   "PERP": {
    "trades": 82,
@@ -2947,13 +2907,13 @@
     "total_pct": 7.62
    },
    "TA": {
-    "trades": 94,
+    "trades": 95,
     "wins": 36,
-    "losses": 58,
-    "win_rate": 38.3,
-    "total_r": -8.89,
-    "avg_r": -0.095,
-    "total_pct": -18.4
+    "losses": 59,
+    "win_rate": 37.9,
+    "total_r": -9.89,
+    "avg_r": -0.104,
+    "total_pct": -19.94
    }
   },
   "coins": {
@@ -3120,13 +3080,13 @@
     "total_pct": 3.72
    },
    "BCH": {
-    "trades": 1,
+    "trades": 2,
     "wins": 1,
-    "losses": 0,
-    "win_rate": 100.0,
-    "total_r": 2.39,
-    "avg_r": 2.386,
-    "total_pct": 3.87
+    "losses": 1,
+    "win_rate": 50.0,
+    "total_r": 1.39,
+    "avg_r": 0.693,
+    "total_pct": 2.33
    },
    "BEAT": {
     "trades": 2,
@@ -3795,7 +3755,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 6
+  "open": 5
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7249,7 +7209,7 @@
    {
     "id": "bitcoin-ecosystem",
     "name": "Bitcoin Ecosystem",
-    "chg7d": -1.72,
+    "chg7d": -2.06,
     "top": [
      "BTC",
      "DOG",
@@ -7742,7 +7702,7 @@
   "updated": {
    "unlocks": 1793877026,
    "onchain": 1793888124,
-   "sectors": 1793889033,
+   "sectors": 1793889924,
    "listings": 1793887235,
    "fundamentals": 1793877027
   }
@@ -7781,6 +7741,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "6dd7219ee344bee3fc7630ed428571a5a9262f5ab1f2267af43809896294d4bd",
- "generated": "2026-11-05T14:40:33+00:00"
+ "digest": "b40fc81d7e6e08aa83888d14daa2bed8d1dc42fe06ee1cdfefca925ddae4e289",
+ "generated": "2026-11-05T14:45:31+00:00"
 }
