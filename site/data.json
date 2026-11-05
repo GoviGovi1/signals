@@ -22,7 +22,7 @@
     0.17439159982844082
    ],
    "lev": 1,
-   "funding_pct": -0.0138,
+   "funding_pct": -0.0168,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-04T02:01:29+00:00",
@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1485,
-   "last_ts": "2026-11-05T03:10:22+00:00",
-   "move_pct": 2.41,
+   "last": 0.1471,
+   "last_ts": "2026-11-05T03:16:30+00:00",
+   "move_pct": 1.45,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -76,9 +76,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.01237,
-   "last_ts": "2026-11-05T03:10:22+00:00",
-   "move_pct": 2.57,
+   "last": 0.01235,
+   "last_ts": "2026-11-05T03:16:30+00:00",
+   "move_pct": 2.4,
    "closed": false,
    "rsi": 56.1,
    "trade_on": "Spot",
@@ -120,9 +120,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 4128.92949119236,
-   "last_ts": "2026-11-05T03:10:22+00:00",
-   "move_pct": 2.72,
+   "last": 4129.19031643039,
+   "last_ts": "2026-11-05T03:16:30+00:00",
+   "move_pct": 2.73,
    "closed": false,
    "rsi": 64.1,
    "trade_on": "On-chain spot (Ethereum DEX)",
@@ -160,9 +160,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 2.6746,
-   "last_ts": "2026-11-05T03:10:22+00:00",
-   "move_pct": 6.27,
+   "last": 2.6578,
+   "last_ts": "2026-11-05T03:16:30+00:00",
+   "move_pct": 5.6,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -192,7 +192,7 @@
     0.9309878998815339
    ],
    "lev": 1,
-   "funding_pct": -0.034,
+   "funding_pct": -0.0326,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-05T02:16:29+00:00",
@@ -200,9 +200,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.7726,
-   "last_ts": "2026-11-05T03:10:22+00:00",
-   "move_pct": 0.19,
+   "last": 0.7757,
+   "last_ts": "2026-11-05T03:16:30+00:00",
+   "move_pct": 0.6,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -7058,41 +7058,41 @@
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
   "onchain": [
    {
-    "chain": "Solana",
-    "symbol": "PUMP",
-    "name": "Pump",
-    "token": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-    "price": 0.004288562058795864,
-    "liq": 23252678,
-    "vol24h": 4785363,
-    "age_d": 478.4,
-    "chg24h": 2.065,
-    "chg7d": -0.9,
-    "mcap": 1970272661.11398,
+    "chain": "Ethereum",
+    "symbol": "XAUT",
+    "name": "Tether Gold",
+    "token": "0x68749665ff8d2d112fa859aa293f07a622782f38",
+    "price": 4114.84563017111,
+    "liq": 8517510,
+    "vol24h": 4776911,
+    "age_d": 1771.5,
+    "chg24h": 4.996,
+    "chg7d": 1.5,
+    "mcap": 3328888018.08739,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": true,
-    "rsi": 50.0,
-    "url": "https://www.geckoterminal.com/solana/pools/2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd"
+    "rsi": 78.4,
+    "url": "https://www.geckoterminal.com/eth/pools/0xc5c7c21f4e60770ca5991a8832127a40f5236f73"
    },
    {
     "chain": "BSC",
     "symbol": "AKE",
     "name": "AKE",
     "token": "0x2c3a8ee94ddd97244a93bc48298f97d2c412f7db",
-    "price": 0.00254031548094161,
-    "liq": 738981,
-    "vol24h": 7821766,
+    "price": 0.00248685628852453,
+    "liq": 732435,
+    "vol24h": 7600186,
     "age_d": 441.8,
-    "chg24h": -31.992,
-    "chg7d": -88.4,
-    "mcap": 57909666.7837462,
+    "chg24h": -27.768,
+    "chg7d": -88.5,
+    "mcap": 57007823.0609063,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 26.2,
+    "rsi": 27.0,
     "url": "https://www.geckoterminal.com/bsc/pools/0x4d3bf29ba30f8bfe4624e7678709afa195689c5d"
    }
   ],
@@ -7247,6 +7247,28 @@
      "IMX",
      "FLOKI",
      "YGG"
+    ]
+   },
+   {
+    "id": "depin",
+    "name": "DePIN",
+    "chg7d": -3.65,
+    "top": [
+     "TAO",
+     "RENDER",
+     "FIL",
+     "BDX",
+     "GRASS"
+    ],
+    "tracked": [
+     "FIL",
+     "TAO",
+     "GRASS",
+     "RENDER",
+     "AR",
+     "ATH",
+     "IOTA",
+     "LPT"
     ]
    },
    {
@@ -7430,28 +7452,6 @@
      "BASED",
      "DYDX",
      "ORDER"
-    ]
-   },
-   {
-    "id": "depin",
-    "name": "DePIN",
-    "chg7d": -6.72,
-    "top": [
-     "TAO",
-     "RENDER",
-     "FIL",
-     "BDX",
-     "GRASS"
-    ],
-    "tracked": [
-     "FIL",
-     "TAO",
-     "GRASS",
-     "RENDER",
-     "AR",
-     "ATH",
-     "IOTA",
-     "LPT"
     ]
    },
    {
@@ -7682,8 +7682,8 @@
   ],
   "updated": {
    "unlocks": 1793833521,
-   "onchain": 1793844927,
-   "sectors": 1793847630,
+   "onchain": 1793848525,
+   "sectors": 1793848525,
    "listings": 1793846426,
    "fundamentals": 1793833522
   }
@@ -7722,6 +7722,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "292746ca4f20d690482be7c2865f304f221a4e8d020ed9fc824d7ac36844c058",
- "generated": "2026-11-05T03:10:28+00:00"
+ "digest": "31d49f0e0135317f0b9eb52d5f5b8c679e580083e2f9094df3dca6990d781ec4",
+ "generated": "2026-11-05T03:16:34+00:00"
 }
