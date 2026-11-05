@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 4084.74271542917,
-   "last_ts": "2026-11-05T17:45:26+00:00",
-   "move_pct": 1.62,
+   "last": 4086.45018634733,
+   "last_ts": "2026-11-05T17:50:26+00:00",
+   "move_pct": 1.66,
    "closed": false,
    "rsi": 64.1,
    "trade_on": "On-chain spot (Ethereum DEX)",
@@ -71,7 +71,7 @@
     102.35798123144535
    ],
    "lev": 3,
-   "funding_pct": 0.0006,
+   "funding_pct": 0.0012,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-11-05T13:00:00+00:00",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 105.83,
-   "last_ts": "2026-11-05T17:45:26+00:00",
-   "move_pct": 3.6,
+   "last": 105.84,
+   "last_ts": "2026-11-05T17:50:26+00:00",
+   "move_pct": 3.59,
    "closed": false,
    "rsi": 44.1,
    "trade_on": "Perps 3x",
@@ -124,9 +124,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.004874,
-   "last_ts": "2026-11-05T17:45:26+00:00",
-   "move_pct": 5.74,
+   "last": 0.004866,
+   "last_ts": "2026-11-05T17:50:26+00:00",
+   "move_pct": 5.9,
    "closed": false,
    "rsi": 43.0,
    "trade_on": "Perps 1x",
@@ -161,7 +161,7 @@
     1.3479784888946402
    ],
    "lev": 1,
-   "funding_pct": -0.0132,
+   "funding_pct": -0.0129,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-05T15:00:00+00:00",
@@ -169,9 +169,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.503,
-   "last_ts": "2026-11-05T17:45:26+00:00",
-   "move_pct": 2.78,
+   "last": 1.502,
+   "last_ts": "2026-11-05T17:50:26+00:00",
+   "move_pct": 2.85,
    "closed": false,
    "rsi": 40.2,
    "trade_on": "Perps 1x",
@@ -206,7 +206,7 @@
     0.5111879175555537
    ],
    "lev": 1,
-   "funding_pct": -0.0015,
+   "funding_pct": -0.0019,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-05T15:00:00+00:00",
@@ -214,9 +214,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.5581,
-   "last_ts": "2026-11-05T17:45:26+00:00",
-   "move_pct": 3.53,
+   "last": 0.5594,
+   "last_ts": "2026-11-05T17:50:26+00:00",
+   "move_pct": 3.3,
    "closed": false,
    "rsi": 35.5,
    "trade_on": "Perps 1x",
@@ -258,9 +258,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.00123,
-   "last_ts": "2026-11-05T17:45:26+00:00",
-   "move_pct": -0.16,
+   "last": 0.001234,
+   "last_ts": "2026-11-05T17:50:26+00:00",
+   "move_pct": -0.49,
    "closed": false,
    "rsi": 23.8,
    "trade_on": "Perps 1x",
@@ -7234,26 +7234,6 @@
     ]
    },
    {
-    "id": "oracle",
-    "name": "Oracle",
-    "chg7d": -3.0,
-    "top": [
-     "LINK",
-     "PYTH",
-     "RED",
-     "WIN",
-     "TRB"
-    ],
-    "tracked": [
-     "LINK",
-     "PYTH",
-     "TRB",
-     "API3",
-     "AT",
-     "BAND"
-    ]
-   },
-   {
     "id": "exchange-based-tokens",
     "name": "Exchange Based Tokens",
     "chg7d": -3.54,
@@ -7414,6 +7394,26 @@
     ],
     "tracked": [
      "ZEC"
+    ]
+   },
+   {
+    "id": "oracle",
+    "name": "Oracle",
+    "chg7d": -6.81,
+    "top": [
+     "LINK",
+     "PYTH",
+     "RED",
+     "WIN",
+     "TRB"
+    ],
+    "tracked": [
+     "LINK",
+     "PYTH",
+     "TRB",
+     "API3",
+     "AT",
+     "BAND"
     ]
    },
    {
@@ -7777,7 +7777,7 @@
   "updated": {
    "unlocks": 1793898626,
    "onchain": 1793899225,
-   "sectors": 1793900123,
+   "sectors": 1793901026,
    "listings": 1793898638,
    "fundamentals": 1793898628
   }
@@ -7816,6 +7816,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "2e368c4c8f1e3f5a050484360fc55b2dd86a095bdb39e1add646974d80305cf7",
- "generated": "2026-11-05T17:45:32+00:00"
+ "digest": "61c1954e32145af8d6eee5a6100b5a3ed7426dd3097f0de69689d7d303b587bb",
+ "generated": "2026-11-05T17:50:32+00:00"
 }
