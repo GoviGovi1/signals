@@ -31,7 +31,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.1498,
-   "last_ts": "2026-11-04T23:55:21+00:00",
+   "last_ts": "2026-11-05T00:00:35+00:00",
    "move_pct": 3.31,
    "closed": false,
    "rsi": null,
@@ -76,9 +76,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.01226,
-   "last_ts": "2026-11-04T23:55:21+00:00",
-   "move_pct": 1.66,
+   "last": 0.01223,
+   "last_ts": "2026-11-05T00:00:35+00:00",
+   "move_pct": 1.41,
    "closed": false,
    "rsi": 56.1,
    "trade_on": "Spot",
@@ -120,15 +120,55 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 4069.12164992692,
-   "last_ts": "2026-11-04T23:55:21+00:00",
-   "move_pct": 1.23,
+   "last": 4062.71844145138,
+   "last_ts": "2026-11-05T00:00:35+00:00",
+   "move_pct": 1.07,
    "closed": false,
    "rsi": 64.1,
    "trade_on": "On-chain spot (Ethereum DEX)",
    "market_reason": "not listed on OKX; buy on a DEX, small size, no leverage",
    "chart": "charts/PAXG-DEX-eth-0x45804880-1793772000.png",
    "setup": null
+  },
+  {
+   "id": "FLUID-SPOT-HOT-20762",
+   "kind": "HOT",
+   "score": 361.54,
+   "reasons": [
+    "24h hot mover +22% with volume spike (2.9x the prior 3 days)",
+    "24h volume $614k on the OKX spot book, listed 588 days",
+    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
+    "Stop 2.3740 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
+   ],
+   "coin": "FLUID",
+   "market": "SPOT",
+   "side": "LONG",
+   "entry": 2.5168,
+   "sl0": 2.37402864507864,
+   "sl": 2.37402864507864,
+   "tps": [
+    2.65957135492136,
+    2.80234270984272,
+    2.9451140647640797
+   ],
+   "lev": null,
+   "funding_pct": null,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-11-05T00:00:35+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 2.5168,
+   "last_ts": "2026-11-05T00:00:35+00:00",
+   "move_pct": 0.0,
+   "closed": false,
+   "rsi": null,
+   "trade_on": "Spot",
+   "market_reason": "only spot is listed",
+   "chart": "charts/FLUID-SPOT-HOT-20762.png",
+   "setup": "HOT24"
   }
  ],
  "closed": [
@@ -3661,7 +3701,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 3
+  "open": 4
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7118,28 +7158,6 @@
     ]
    },
    {
-    "id": "layer-1",
-    "name": "Layer 1",
-    "chg7d": -2.57,
-    "top": [
-     "BTC",
-     "ETH",
-     "BNB",
-     "XRP",
-     "SOL"
-    ],
-    "tracked": [
-     "BTC",
-     "ETH",
-     "SOL",
-     "XRP",
-     "SUI",
-     "BNB",
-     "AVAX",
-     "ZEC"
-    ]
-   },
-   {
     "id": "decentralized-finance-defi",
     "name": "Decentralized Finance DeFi",
     "chg7d": -2.94,
@@ -7199,6 +7217,28 @@
      "CRV",
      "ASTER",
      "AERO"
+    ]
+   },
+   {
+    "id": "layer-1",
+    "name": "Layer 1",
+    "chg7d": -3.35,
+    "top": [
+     "BTC",
+     "ETH",
+     "BNB",
+     "XRP",
+     "SOL"
+    ],
+    "tracked": [
+     "BTC",
+     "ETH",
+     "SOL",
+     "XRP",
+     "SUI",
+     "BNB",
+     "AVAX",
+     "ZEC"
     ]
    },
    {
@@ -7679,7 +7719,7 @@
   "updated": {
    "unlocks": 1793833521,
    "onchain": 1793834126,
-   "sectors": 1793835924,
+   "sectors": 1793836834,
    "listings": 1793835299,
    "fundamentals": 1793833522
   }
@@ -7718,6 +7758,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "4f8ecde85bfa27c7d43c8556b1ed8538040d1d00cec721c65067a5e9eb4295b0",
- "generated": "2026-11-04T23:55:26+00:00"
+ "digest": "c057f77fb05224b89194483f1fd964b89fa28793f57402a210aa93ecac3883a9",
+ "generated": "2026-11-05T00:01:14+00:00"
 }
