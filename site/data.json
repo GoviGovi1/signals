@@ -22,7 +22,7 @@
     0.17439159982844082
    ],
    "lev": 1,
-   "funding_pct": -0.013,
+   "funding_pct": -0.0122,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-04T02:01:29+00:00",
@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1446,
-   "last_ts": "2026-11-05T01:25:21+00:00",
-   "move_pct": -0.28,
+   "last": 0.1451,
+   "last_ts": "2026-11-05T01:30:26+00:00",
+   "move_pct": 0.07,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -76,9 +76,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.01226,
-   "last_ts": "2026-11-05T01:25:21+00:00",
-   "move_pct": 1.66,
+   "last": 0.01228,
+   "last_ts": "2026-11-05T01:30:26+00:00",
+   "move_pct": 1.82,
    "closed": false,
    "rsi": 56.1,
    "trade_on": "Spot",
@@ -120,9 +120,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 4110.26869862566,
-   "last_ts": "2026-11-05T01:25:21+00:00",
-   "move_pct": 2.26,
+   "last": 4117.36334785328,
+   "last_ts": "2026-11-05T01:30:26+00:00",
+   "move_pct": 2.43,
    "closed": false,
    "rsi": 64.1,
    "trade_on": "On-chain spot (Ethereum DEX)",
@@ -160,9 +160,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 2.5596,
-   "last_ts": "2026-11-05T01:25:21+00:00",
-   "move_pct": 1.7,
+   "last": 2.5421,
+   "last_ts": "2026-11-05T01:30:26+00:00",
+   "move_pct": 1.01,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -7166,6 +7166,28 @@
     ]
    },
    {
+    "id": "decentralized-exchange",
+    "name": "Decentralized Exchange",
+    "chg7d": -3.45,
+    "top": [
+     "HYPE",
+     "UNI",
+     "PUMP",
+     "ASTER",
+     "JUP"
+    ],
+    "tracked": [
+     "HYPE",
+     "PUMP",
+     "LIT",
+     "UNI",
+     "CRV",
+     "ASTER",
+     "AERO",
+     "RAY"
+    ]
+   },
+   {
     "id": "oracle",
     "name": "Oracle",
     "chg7d": -4.16,
@@ -7243,28 +7265,6 @@
      "FIL",
      "AR",
      "WAL"
-    ]
-   },
-   {
-    "id": "decentralized-exchange",
-    "name": "Decentralized Exchange",
-    "chg7d": -4.76,
-    "top": [
-     "HYPE",
-     "UNI",
-     "PUMP",
-     "ASTER",
-     "JUP"
-    ],
-    "tracked": [
-     "HYPE",
-     "PUMP",
-     "LIT",
-     "UNI",
-     "CRV",
-     "ASTER",
-     "AERO",
-     "RAY"
     ]
    },
    {
@@ -7643,7 +7643,7 @@
   "updated": {
    "unlocks": 1793833521,
    "onchain": 1793841325,
-   "sectors": 1793841325,
+   "sectors": 1793842226,
    "listings": 1793838919,
    "fundamentals": 1793833522
   }
@@ -7682,6 +7682,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "e47e396e17d4c2756e9a99fd0e9507c643acce26a742e4291283dca0bfbcbd8d",
- "generated": "2026-11-05T01:25:25+00:00"
+ "digest": "b9d9b7deeef792f9831cdbb770d1cffae8e53fb5764e206ff45e7a015778edbb",
+ "generated": "2026-11-05T01:30:31+00:00"
 }
