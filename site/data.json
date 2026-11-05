@@ -22,7 +22,7 @@
     0.17439159982844082
    ],
    "lev": 1,
-   "funding_pct": -0.0172,
+   "funding_pct": -0.0154,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-04T02:01:29+00:00",
@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1478,
-   "last_ts": "2026-11-05T04:10:26+00:00",
-   "move_pct": 1.93,
+   "last": 0.1475,
+   "last_ts": "2026-11-05T04:16:33+00:00",
+   "move_pct": 1.72,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -77,7 +77,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.0124,
-   "last_ts": "2026-11-05T04:10:26+00:00",
+   "last_ts": "2026-11-05T04:16:33+00:00",
    "move_pct": 2.82,
    "closed": false,
    "rsi": 56.1,
@@ -160,9 +160,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 2.634,
-   "last_ts": "2026-11-05T04:10:26+00:00",
-   "move_pct": 4.66,
+   "last": 2.6538,
+   "last_ts": "2026-11-05T04:16:33+00:00",
+   "move_pct": 5.44,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -192,7 +192,7 @@
     0.9309878998815339
    ],
    "lev": 1,
-   "funding_pct": -0.0283,
+   "funding_pct": -0.0268,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-05T02:16:29+00:00",
@@ -200,9 +200,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.7909,
-   "last_ts": "2026-11-05T04:10:26+00:00",
-   "move_pct": 2.57,
+   "last": 0.7948,
+   "last_ts": "2026-11-05T04:16:33+00:00",
+   "move_pct": 3.07,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -7058,45 +7058,64 @@
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
   "onchain": [
    {
-    "chain": "Ethereum",
-    "symbol": "XAUT",
-    "name": "Tether Gold",
-    "token": "0x68749665ff8d2d112fa859aa293f07a622782f38",
-    "price": 4114.84563017111,
-    "liq": 8517510,
-    "vol24h": 4776911,
-    "age_d": 1771.5,
-    "chg24h": 4.996,
-    "chg7d": 1.5,
-    "mcap": 3328888018.08739,
+    "chain": "BSC",
+    "symbol": "IDOL",
+    "name": "MEET48 Token",
+    "token": "0x3b4de3c7855c03bb9f50ea252cd2c9fa1125ab07",
+    "price": 0.0210622825197787,
+    "liq": 1242212,
+    "vol24h": 10578809,
+    "age_d": 512.6,
+    "chg24h": -1.777,
+    "chg7d": 44.6,
+    "mcap": 46192531.0662475,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": true,
-    "rsi": 78.4,
-    "url": "https://www.geckoterminal.com/eth/pools/0xc5c7c21f4e60770ca5991a8832127a40f5236f73"
+    "rsi": 47.9,
+    "url": "https://www.geckoterminal.com/bsc/pools/0xfff4857a955b2b460c27fd431aa5a85fabca5559"
+   },
+   {
+    "chain": "Base",
+    "symbol": "AXIS",
+    "name": "Axis Token",
+    "token": "0x5be75e3b0aff5d1a042a5363ae36acb1d6d755ea",
+    "price": 0.147748632517846,
+    "liq": 2441298,
+    "vol24h": 5365880,
+    "age_d": 16.9,
+    "chg24h": 4.926,
+    "chg7d": -2.0,
+    "mcap": 24360729.822,
+    "safety": "ok",
+    "safety_notes": [],
+    "trigger": false,
+    "trend_up": true,
+    "rsi": 53.9,
+    "url": "https://www.geckoterminal.com/base/pools/0xc19d91d99afc0332e5013a569c9721cd9ecb51a14c851f7a189a140950a627fa"
    },
    {
     "chain": "BSC",
-    "symbol": "AKE",
-    "name": "AKE",
-    "token": "0x2c3a8ee94ddd97244a93bc48298f97d2c412f7db",
-    "price": 0.00248685628852453,
-    "liq": 732435,
-    "vol24h": 7600186,
-    "age_d": 441.8,
-    "chg24h": -27.768,
-    "chg7d": -88.5,
-    "mcap": 57007823.0609063,
+    "symbol": "Q",
+    "name": "Quack AI Token",
+    "token": "0xc07e1300dc138601fa6b0b59f8d0fa477e690589",
+    "price": 0.0279513888217973,
+    "liq": 1080063,
+    "vol24h": 3858422,
+    "age_d": 430.8,
+    "chg24h": -0.096,
+    "chg7d": -55.7,
+    "mcap": 137119401.681705,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 27.0,
-    "url": "https://www.geckoterminal.com/bsc/pools/0x4d3bf29ba30f8bfe4624e7678709afa195689c5d"
+    "rsi": 44.4,
+    "url": "https://www.geckoterminal.com/bsc/pools/0x8bafe0bdd3eb9ae0539f5b32e771c1a72a189b7f"
    }
   ],
-  "onchain_checked": 87,
+  "onchain_checked": 88,
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
@@ -7119,6 +7138,28 @@
      "PLUME",
      "CARDS",
      "ZBCN"
+    ]
+   },
+   {
+    "id": "exchange-based-tokens",
+    "name": "Exchange Based Tokens",
+    "chg7d": -0.82,
+    "top": [
+     "BNB",
+     "HYPE",
+     "WBT",
+     "LEO",
+     "UNI"
+    ],
+    "tracked": [
+     "BNB",
+     "HYPE",
+     "PUMP",
+     "UNI",
+     "OKB",
+     "CRV",
+     "ASTER",
+     "AERO"
     ]
    },
    {
@@ -7197,28 +7238,6 @@
      "PEPE",
      "ORDI",
      "SATS"
-    ]
-   },
-   {
-    "id": "exchange-based-tokens",
-    "name": "Exchange Based Tokens",
-    "chg7d": -3.27,
-    "top": [
-     "BNB",
-     "HYPE",
-     "WBT",
-     "LEO",
-     "UNI"
-    ],
-    "tracked": [
-     "BNB",
-     "HYPE",
-     "PUMP",
-     "UNI",
-     "OKB",
-     "CRV",
-     "ASTER",
-     "AERO"
     ]
    },
    {
@@ -7682,8 +7701,8 @@
   ],
   "updated": {
    "unlocks": 1793833521,
-   "onchain": 1793848525,
-   "sectors": 1793851235,
+   "onchain": 1793852130,
+   "sectors": 1793852130,
    "listings": 1793850166,
    "fundamentals": 1793833522
   }
@@ -7722,6 +7741,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "2346356a10d4c44f2828b248a7642f76a6e1a6f0ca744ba4ec741c2914d7ffee",
- "generated": "2026-11-05T04:10:31+00:00"
+ "digest": "03397f53406214fca0351ceb6428f3b8356b47dc7c11fbf3179d4929cabc401a",
+ "generated": "2026-11-05T04:16:37+00:00"
 }
