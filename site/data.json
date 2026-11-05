@@ -22,7 +22,7 @@
     0.17439159982844082
    ],
    "lev": 1,
-   "funding_pct": -0.0133,
+   "funding_pct": -0.0159,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-04T02:01:29+00:00",
@@ -31,7 +31,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.1463,
-   "last_ts": "2026-11-05T04:55:22+00:00",
+   "last_ts": "2026-11-05T05:00:32+00:00",
    "move_pct": 0.9,
    "closed": false,
    "rsi": null,
@@ -76,9 +76,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.01239,
-   "last_ts": "2026-11-05T04:55:22+00:00",
-   "move_pct": 2.74,
+   "last": 0.01235,
+   "last_ts": "2026-11-05T05:00:32+00:00",
+   "move_pct": 2.4,
    "closed": false,
    "rsi": 56.1,
    "trade_on": "Spot",
@@ -120,9 +120,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 4149.43055806455,
-   "last_ts": "2026-11-05T04:55:22+00:00",
-   "move_pct": 3.23,
+   "last": 4143.77498524533,
+   "last_ts": "2026-11-05T05:00:32+00:00",
+   "move_pct": 3.09,
    "closed": false,
    "rsi": 64.1,
    "trade_on": "On-chain spot (Ethereum DEX)",
@@ -160,9 +160,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 2.7208,
-   "last_ts": "2026-11-05T04:55:22+00:00",
-   "move_pct": 8.11,
+   "last": 2.6778,
+   "last_ts": "2026-11-05T05:00:32+00:00",
+   "move_pct": 6.4,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -192,7 +192,7 @@
     0.9309878998815339
    ],
    "lev": 1,
-   "funding_pct": -0.0265,
+   "funding_pct": -0.0301,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-05T02:16:29+00:00",
@@ -200,9 +200,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.7906,
-   "last_ts": "2026-11-05T04:55:22+00:00",
-   "move_pct": 2.53,
+   "last": 0.792,
+   "last_ts": "2026-11-05T05:00:32+00:00",
+   "move_pct": 2.71,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -7141,6 +7141,28 @@
     ]
    },
    {
+    "id": "layer-1",
+    "name": "Layer 1",
+    "chg7d": -0.18,
+    "top": [
+     "BTC",
+     "ETH",
+     "BNB",
+     "XRP",
+     "SOL"
+    ],
+    "tracked": [
+     "BTC",
+     "ETH",
+     "SOL",
+     "XRP",
+     "SUI",
+     "BNB",
+     "AVAX",
+     "ZEC"
+    ]
+   },
+   {
     "id": "bitcoin-ecosystem",
     "name": "Bitcoin Ecosystem",
     "chg7d": -0.66,
@@ -7238,28 +7260,6 @@
      "FIL",
      "AR",
      "WAL"
-    ]
-   },
-   {
-    "id": "layer-1",
-    "name": "Layer 1",
-    "chg7d": -3.35,
-    "top": [
-     "BTC",
-     "ETH",
-     "BNB",
-     "XRP",
-     "SOL"
-    ],
-    "tracked": [
-     "BTC",
-     "ETH",
-     "SOL",
-     "XRP",
-     "SUI",
-     "BNB",
-     "AVAX",
-     "ZEC"
     ]
    },
    {
@@ -7702,7 +7702,7 @@
   "updated": {
    "unlocks": 1793833521,
    "onchain": 1793852130,
-   "sectors": 1793853925,
+   "sectors": 1793854832,
    "listings": 1793853924,
    "fundamentals": 1793833522
   }
@@ -7741,6 +7741,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "2ff4d1e4a59500aafc3db01eb4ef9d84c8ca0f2b839a55b2f41f475f4c37ee7f",
- "generated": "2026-11-05T04:55:26+00:00"
+ "digest": "f05897b104f680cec5eb972622fb14afcbb8f22f80a5b4dea223de7f36af77a4",
+ "generated": "2026-11-05T05:01:08+00:00"
 }
