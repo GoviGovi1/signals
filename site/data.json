@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 4110.38931828483,
-   "last_ts": "2026-11-05T15:25:22+00:00",
-   "move_pct": 2.26,
+   "last": 4086.80323805779,
+   "last_ts": "2026-11-05T15:30:31+00:00",
+   "move_pct": 1.67,
    "closed": false,
    "rsi": 64.1,
    "trade_on": "On-chain spot (Ethereum DEX)",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 106.44,
-   "last_ts": "2026-11-05T15:25:22+00:00",
-   "move_pct": 3.04,
+   "last": 106.64,
+   "last_ts": "2026-11-05T15:30:31+00:00",
+   "move_pct": 2.86,
    "closed": false,
    "rsi": 44.1,
    "trade_on": "Perps 3x",
@@ -116,7 +116,7 @@
     0.0006399390978465877
    ],
    "lev": 1,
-   "funding_pct": -0.0483,
+   "funding_pct": -0.0506,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-11-05T15:00:00+00:00",
@@ -124,9 +124,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0006555,
-   "last_ts": "2026-11-05T15:25:22+00:00",
-   "move_pct": 3.28,
+   "last": 0.0006595,
+   "last_ts": "2026-11-05T15:30:31+00:00",
+   "move_pct": 2.69,
    "closed": false,
    "rsi": 34.9,
    "trade_on": "Perps 1x",
@@ -169,9 +169,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.004881,
-   "last_ts": "2026-11-05T15:25:22+00:00",
-   "move_pct": 5.61,
+   "last": 0.004903,
+   "last_ts": "2026-11-05T15:30:31+00:00",
+   "move_pct": 5.18,
    "closed": false,
    "rsi": 43.0,
    "trade_on": "Perps 1x",
@@ -206,7 +206,7 @@
     1.3479784888946402
    ],
    "lev": 1,
-   "funding_pct": 0.0036,
+   "funding_pct": 0.0023,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-05T15:00:00+00:00",
@@ -214,9 +214,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.49,
-   "last_ts": "2026-11-05T15:25:22+00:00",
-   "move_pct": 3.62,
+   "last": 1.492,
+   "last_ts": "2026-11-05T15:30:31+00:00",
+   "move_pct": 3.49,
    "closed": false,
    "rsi": 40.2,
    "trade_on": "Perps 1x",
@@ -251,7 +251,7 @@
     0.5111879175555537
    ],
    "lev": 1,
-   "funding_pct": 0.0048,
+   "funding_pct": 0.0046,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-05T15:00:00+00:00",
@@ -259,9 +259,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.5558,
-   "last_ts": "2026-11-05T15:25:22+00:00",
-   "move_pct": 3.92,
+   "last": 0.5564,
+   "last_ts": "2026-11-05T15:30:31+00:00",
+   "move_pct": 3.82,
    "closed": false,
    "rsi": 35.5,
    "trade_on": "Perps 1x",
@@ -7308,28 +7308,6 @@
     ]
    },
    {
-    "id": "meme-token",
-    "name": "Meme Token",
-    "chg7d": -3.02,
-    "top": [
-     "DOGE",
-     "SHIB",
-     "PEPE",
-     "PUMP",
-     "M"
-    ],
-    "tracked": [
-     "DOGE",
-     "TRUMP",
-     "PEPE",
-     "PUMP",
-     "USELESS",
-     "PENGU",
-     "SHIB",
-     "FARTCOIN"
-    ]
-   },
-   {
     "id": "exchange-based-tokens",
     "name": "Exchange Based Tokens",
     "chg7d": -3.54,
@@ -7559,6 +7537,28 @@
     ]
    },
    {
+    "id": "meme-token",
+    "name": "Meme Token",
+    "chg7d": -7.26,
+    "top": [
+     "DOGE",
+     "SHIB",
+     "PEPE",
+     "M",
+     "PUMP"
+    ],
+    "tracked": [
+     "DOGE",
+     "TRUMP",
+     "PEPE",
+     "PUMP",
+     "USELESS",
+     "PENGU",
+     "SHIB",
+     "FARTCOIN"
+    ]
+   },
+   {
     "id": "layer-2",
     "name": "Layer 2",
     "chg7d": -7.3,
@@ -7765,7 +7765,7 @@
   "updated": {
    "unlocks": 1793877026,
    "onchain": 1793891727,
-   "sectors": 1793891727,
+   "sectors": 1793892631,
    "listings": 1793891126,
    "fundamentals": 1793877027
   }
@@ -7804,6 +7804,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "b4aa675d74804d981f7b21dfcc6fcc6f53994ed8954d13ff7b7868c75940676b",
- "generated": "2026-11-05T15:25:29+00:00"
+ "digest": "b07718b9d419e9f70e62e1ad49ab526b9253c7b742f9e7eeae1dce178d32a62c",
+ "generated": "2026-11-05T15:30:37+00:00"
 }
