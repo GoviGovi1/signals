@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 105.2,
-   "last_ts": "2026-11-06T23:25:21+00:00",
-   "move_pct": 4.17,
+   "last": 105.11,
+   "last_ts": "2026-11-06T23:31:31+00:00",
+   "move_pct": 4.25,
    "closed": false,
    "rsi": 44.1,
    "trade_on": "Perps 3x",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.004972,
-   "last_ts": "2026-11-06T23:25:21+00:00",
-   "move_pct": 3.85,
+   "last": 0.004963,
+   "last_ts": "2026-11-06T23:31:31+00:00",
+   "move_pct": 4.02,
    "closed": false,
    "rsi": 43.0,
    "trade_on": "Perps 1x",
@@ -117,7 +117,7 @@
     0.5111879175555537
    ],
    "lev": 1,
-   "funding_pct": 0.0048,
+   "funding_pct": 0.0042,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-05T15:00:00+00:00",
@@ -125,9 +125,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.5673,
-   "last_ts": "2026-11-06T23:25:21+00:00",
-   "move_pct": 1.94,
+   "last": 0.567,
+   "last_ts": "2026-11-06T23:31:31+00:00",
+   "move_pct": 1.99,
    "closed": false,
    "rsi": 35.5,
    "trade_on": "Perps 1x",
@@ -162,7 +162,7 @@
     236.38478146375465
    ],
    "lev": 3,
-   "funding_pct": -0.0161,
+   "funding_pct": -0.0163,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-05T18:00:00+00:00",
@@ -170,9 +170,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 264.14,
-   "last_ts": "2026-11-06T23:25:21+00:00",
-   "move_pct": 3.41,
+   "last": 262.92,
+   "last_ts": "2026-11-06T23:31:31+00:00",
+   "move_pct": 3.85,
    "closed": false,
    "rsi": 35.6,
    "trade_on": "Perps 3x",
@@ -216,7 +216,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.05006,
-   "last_ts": "2026-11-06T23:25:21+00:00",
+   "last_ts": "2026-11-06T23:31:31+00:00",
    "move_pct": -0.85,
    "closed": false,
    "rsi": 39.0,
@@ -259,9 +259,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.16495245256354998,
-   "last_ts": "2026-11-06T23:25:21+00:00",
-   "move_pct": -2.78,
+   "last": 0.16498487036844797,
+   "last_ts": "2026-11-06T23:31:31+00:00",
+   "move_pct": -2.76,
    "closed": false,
    "rsi": 67.0,
    "trade_on": "On-chain spot (Arbitrum DEX)",
@@ -299,9 +299,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.02175,
-   "last_ts": "2026-11-06T23:25:21+00:00",
-   "move_pct": 9.85,
+   "last": 0.02126,
+   "last_ts": "2026-11-06T23:31:31+00:00",
+   "move_pct": 7.37,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -7244,42 +7244,42 @@
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
   "onchain": [
    {
-    "chain": "Base",
-    "symbol": "XDP",
-    "name": "Doppler Finance",
-    "token": "0x07b3d902783c3c12b077508c3b5c00113d1291d0",
-    "price": 0.0162282244970739,
-    "liq": 1622977,
-    "vol24h": 12270972,
-    "age_d": 39.4,
-    "chg24h": -1.001,
-    "chg7d": -6.3,
-    "mcap": 16228224.5,
+    "chain": "Solana",
+    "symbol": "BIRB",
+    "name": "Moonbirds",
+    "token": "G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG",
+    "price": 0.09931255065235857,
+    "liq": 1713443,
+    "vol24h": 10270935,
+    "age_d": 283.0,
+    "chg24h": 8.655,
+    "chg7d": 8.4,
+    "mcap": 28316916.1425,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
-    "trend_up": false,
-    "rsi": 35.3,
-    "url": "https://www.geckoterminal.com/base/pools/0x2df380544b88adb3ad0a94100dcc45fd705aae2d"
+    "trend_up": true,
+    "rsi": 52.0,
+    "url": "https://www.geckoterminal.com/solana/pools/GUWFT7bbLphGrcpAPnnEnBbe1uErv9e6LLC2qPx2wZy1"
    },
    {
-    "chain": "Base",
-    "symbol": "ELSA",
-    "name": "Elsa",
-    "token": "0x29cc30f9d113b356ce408667aa6433589cecbdca",
-    "price": 0.0785502103334314,
-    "liq": 524751,
-    "vol24h": 8036503,
-    "age_d": 290.6,
-    "chg24h": -7.345,
-    "chg7d": 16.9,
-    "mcap": 17986427.1613634,
+    "chain": "BSC",
+    "symbol": "B13B",
+    "name": "B13B",
+    "token": "0x4902c5ebc598265ed2212b559b042de8a5eeec3f",
+    "price": 4.88020986745106,
+    "liq": 3516134,
+    "vol24h": 6724879,
+    "age_d": 53.5,
+    "chg24h": 6.74,
+    "chg7d": -2.4,
+    "mcap": 38606759.5438786,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 44.5,
-    "url": "https://www.geckoterminal.com/base/pools/0x83f3aca29bc79b048b99c56013475570acc97ccf"
+    "rsi": 60.5,
+    "url": "https://www.geckoterminal.com/bsc/pools/0x320e8096e5e7a46e43446141a5b15d801fc596f5"
    }
   ],
   "onchain_checked": 84,
@@ -7478,6 +7478,21 @@
     ]
    },
    {
+    "id": "privacy-coins",
+    "name": "Privacy Coins",
+    "chg7d": -3.41,
+    "top": [
+     "ZEC",
+     "XMR",
+     "DCR",
+     "ZANO",
+     "ARRR"
+    ],
+    "tracked": [
+     "ZEC"
+    ]
+   },
+   {
     "id": "storage",
     "name": "Storage",
     "chg7d": -3.44,
@@ -7639,21 +7654,6 @@
     ],
     "tracked": [
      "W"
-    ]
-   },
-   {
-    "id": "privacy-coins",
-    "name": "Privacy Coins",
-    "chg7d": -4.05,
-    "top": [
-     "ZEC",
-     "XMR",
-     "DCR",
-     "ZANO",
-     "ARRR"
-    ],
-    "tracked": [
-     "ZEC"
     ]
    },
    {
@@ -7868,8 +7868,8 @@
   ],
   "updated": {
    "unlocks": 1794006926,
-   "onchain": 1794004230,
-   "sectors": 1794006939,
+   "onchain": 1794007826,
+   "sectors": 1794007826,
    "listings": 1794006939,
    "fundamentals": 1794006927
   }
@@ -7908,6 +7908,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "b111dde65786a3add7c2d20386ef29c3000a483792e50ce60e512bcf6b554a47",
- "generated": "2026-11-06T23:25:27+00:00"
+ "digest": "18b1f9779cf36a8e9ebdb1f35c90e5aaf73f7d1414da5cadf9c24042cba01b94",
+ "generated": "2026-11-06T23:31:37+00:00"
 }
