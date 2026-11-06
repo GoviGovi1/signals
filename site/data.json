@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 4081.94751234298,
-   "last_ts": "2026-11-06T00:40:27+00:00",
-   "move_pct": 1.55,
+   "last": 4088.82930063802,
+   "last_ts": "2026-11-06T00:45:25+00:00",
+   "move_pct": 1.72,
    "closed": false,
    "rsi": 64.1,
    "trade_on": "On-chain spot (Ethereum DEX)",
@@ -71,7 +71,7 @@
     102.35798123144535
    ],
    "lev": 3,
-   "funding_pct": 0.0029,
+   "funding_pct": 0.0025,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-11-05T13:00:00+00:00",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 106.93,
-   "last_ts": "2026-11-06T00:40:27+00:00",
-   "move_pct": 2.6,
+   "last": 107.02,
+   "last_ts": "2026-11-06T00:45:25+00:00",
+   "move_pct": 2.51,
    "closed": false,
    "rsi": 44.1,
    "trade_on": "Perps 3x",
@@ -124,9 +124,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.004858,
-   "last_ts": "2026-11-06T00:40:27+00:00",
-   "move_pct": 6.05,
+   "last": 0.004875,
+   "last_ts": "2026-11-06T00:45:25+00:00",
+   "move_pct": 5.72,
    "closed": false,
    "rsi": 43.0,
    "trade_on": "Perps 1x",
@@ -170,7 +170,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 1.547,
-   "last_ts": "2026-11-06T00:40:27+00:00",
+   "last_ts": "2026-11-06T00:45:25+00:00",
    "move_pct": -0.06,
    "closed": false,
    "rsi": 40.2,
@@ -214,9 +214,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.5693,
-   "last_ts": "2026-11-06T00:40:27+00:00",
-   "move_pct": 1.59,
+   "last": 0.5707,
+   "last_ts": "2026-11-06T00:45:25+00:00",
+   "move_pct": 1.35,
    "closed": false,
    "rsi": 35.5,
    "trade_on": "Perps 1x",
@@ -251,7 +251,7 @@
     236.38478146375465
    ],
    "lev": 3,
-   "funding_pct": 0.0025,
+   "funding_pct": 0.0031,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-05T18:00:00+00:00",
@@ -259,9 +259,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 278.02,
-   "last_ts": "2026-11-06T00:40:27+00:00",
-   "move_pct": -1.67,
+   "last": 278.13,
+   "last_ts": "2026-11-06T00:45:25+00:00",
+   "move_pct": -1.71,
    "closed": false,
    "rsi": 35.6,
    "trade_on": "Perps 3x",
@@ -305,7 +305,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.05019,
-   "last_ts": "2026-11-06T00:40:27+00:00",
+   "last_ts": "2026-11-06T00:45:25+00:00",
    "move_pct": -1.11,
    "closed": false,
    "rsi": 39.0,
@@ -7334,6 +7334,28 @@
     ]
    },
    {
+    "id": "solana-meme-coins",
+    "name": "Solana Meme Coins",
+    "chg7d": -5.46,
+    "top": [
+     "PENGU",
+     "TRUMP",
+     "BONK",
+     "WIF",
+     "USELESS"
+    ],
+    "tracked": [
+     "TRUMP",
+     "USELESS",
+     "PENGU",
+     "FARTCOIN",
+     "WIF",
+     "PNUT",
+     "BONK",
+     "BOME"
+    ]
+   },
+   {
     "id": "decentralized-finance-defi",
     "name": "Decentralized Finance DeFi",
     "chg7d": -5.61,
@@ -7643,28 +7665,6 @@
      "ICP",
      "VIRTUAL"
     ]
-   },
-   {
-    "id": "solana-meme-coins",
-    "name": "Solana Meme Coins",
-    "chg7d": -10.66,
-    "top": [
-     "PENGU",
-     "TRUMP",
-     "BONK",
-     "WIF",
-     "USELESS"
-    ],
-    "tracked": [
-     "TRUMP",
-     "USELESS",
-     "PENGU",
-     "FARTCOIN",
-     "WIF",
-     "PNUT",
-     "BONK",
-     "BOME"
-    ]
    }
   ],
   "listings": [
@@ -7836,7 +7836,7 @@
   "updated": {
    "unlocks": 1793920227,
    "onchain": 1793925032,
-   "sectors": 1793925032,
+   "sectors": 1793925925,
    "listings": 1793925032,
    "fundamentals": 1793920228
   }
@@ -7875,6 +7875,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "8a8cd64fe477a95a708ed6c09f7484483ce5b2421421648e8f8614c9eb6891b7",
- "generated": "2026-11-06T00:40:33+00:00"
+ "digest": "25f9327566fd73a004319cdab1d7d92684f570664b371032a97de931c1cdd045",
+ "generated": "2026-11-06T00:45:30+00:00"
 }
