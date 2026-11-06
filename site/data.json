@@ -36,7 +36,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 105.57,
-   "last_ts": "2026-11-06T14:40:26+00:00",
+   "last_ts": "2026-11-06T14:45:27+00:00",
    "move_pct": 3.83,
    "closed": false,
    "rsi": 44.1,
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.005108,
-   "last_ts": "2026-11-06T14:40:26+00:00",
-   "move_pct": 1.22,
+   "last": 0.00509,
+   "last_ts": "2026-11-06T14:45:27+00:00",
+   "move_pct": 1.57,
    "closed": false,
    "rsi": 43.0,
    "trade_on": "Perps 1x",
@@ -126,7 +126,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 1.584,
-   "last_ts": "2026-11-06T14:40:26+00:00",
+   "last_ts": "2026-11-06T14:45:27+00:00",
    "move_pct": -2.46,
    "closed": false,
    "rsi": 40.2,
@@ -170,9 +170,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.5843,
-   "last_ts": "2026-11-06T14:40:26+00:00",
-   "move_pct": -1.0,
+   "last": 0.5847,
+   "last_ts": "2026-11-06T14:45:27+00:00",
+   "move_pct": -1.07,
    "closed": false,
    "rsi": 35.5,
    "trade_on": "Perps 1x",
@@ -207,7 +207,7 @@
     236.38478146375465
    ],
    "lev": 3,
-   "funding_pct": -0.0016,
+   "funding_pct": -0.0015,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-05T18:00:00+00:00",
@@ -215,9 +215,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 267.93,
-   "last_ts": "2026-11-06T14:40:26+00:00",
-   "move_pct": 2.02,
+   "last": 267.6,
+   "last_ts": "2026-11-06T14:45:27+00:00",
+   "move_pct": 2.14,
    "closed": false,
    "rsi": 35.6,
    "trade_on": "Perps 3x",
@@ -252,7 +252,7 @@
     0.04363089943881729
    ],
    "lev": 1,
-   "funding_pct": -0.0007,
+   "funding_pct": 0.0008,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-06T00:00:00+00:00",
@@ -260,9 +260,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.05033,
-   "last_ts": "2026-11-06T14:40:26+00:00",
-   "move_pct": -1.39,
+   "last": 0.05044,
+   "last_ts": "2026-11-06T14:45:27+00:00",
+   "move_pct": -1.61,
    "closed": false,
    "rsi": 39.0,
    "trade_on": "Perps 1x",
@@ -304,9 +304,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.09839,
-   "last_ts": "2026-11-06T14:40:26+00:00",
-   "move_pct": 5.01,
+   "last": 0.09732,
+   "last_ts": "2026-11-06T14:45:27+00:00",
+   "move_pct": 3.86,
    "closed": false,
    "rsi": 69.8,
    "trade_on": "Perps 1x",
@@ -348,9 +348,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.16993029182477398,
-   "last_ts": "2026-11-06T14:40:26+00:00",
-   "move_pct": 0.16,
+   "last": 0.17107871913235,
+   "last_ts": "2026-11-06T14:45:27+00:00",
+   "move_pct": 0.83,
    "closed": false,
    "rsi": 67.0,
    "trade_on": "On-chain spot (Arbitrum DEX)",
@@ -7654,21 +7654,6 @@
     ]
    },
    {
-    "id": "interoperability",
-    "name": "Interoperability",
-    "chg7d": -3.48,
-    "top": [
-     "TRAC",
-     "W",
-     "CKB",
-     "AXL",
-     "PHA"
-    ],
-    "tracked": [
-     "W"
-    ]
-   },
-   {
     "id": "storage",
     "name": "Storage",
     "chg7d": -3.53,
@@ -7701,6 +7686,21 @@
      "PEPE",
      "ORDI",
      "SATS"
+    ]
+   },
+   {
+    "id": "interoperability",
+    "name": "Interoperability",
+    "chg7d": -3.61,
+    "top": [
+     "TRAC",
+     "W",
+     "CKB",
+     "AXL",
+     "PHA"
+    ],
+    "tracked": [
+     "W"
     ]
    },
    {
@@ -7916,7 +7916,7 @@
   "updated": {
    "unlocks": 1793963726,
    "onchain": 1793975427,
-   "sectors": 1793975427,
+   "sectors": 1793976326,
    "listings": 1793973634,
    "fundamentals": 1793963727
   }
@@ -7955,6 +7955,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "a8b03f771eed0d6e6b470715214735b7097980b3924f0f32ef4cb3d6e7c84dce",
- "generated": "2026-11-06T14:40:31+00:00"
+ "digest": "8eb166ce310fc8a59d2723691eff2f258247da15e00011efc806d4d22ac26586",
+ "generated": "2026-11-06T14:45:32+00:00"
 }
