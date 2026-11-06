@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 104.71,
-   "last_ts": "2026-11-06T06:25:22+00:00",
-   "move_pct": 4.62,
+   "last": 104.73,
+   "last_ts": "2026-11-06T06:31:30+00:00",
+   "move_pct": 4.6,
    "closed": false,
    "rsi": 44.1,
    "trade_on": "Perps 3x",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.004863,
-   "last_ts": "2026-11-06T06:25:22+00:00",
-   "move_pct": 5.96,
+   "last": 0.004874,
+   "last_ts": "2026-11-06T06:31:30+00:00",
+   "move_pct": 5.74,
    "closed": false,
    "rsi": 43.0,
    "trade_on": "Perps 1x",
@@ -125,9 +125,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.535,
-   "last_ts": "2026-11-06T06:25:22+00:00",
-   "move_pct": 0.71,
+   "last": 1.534,
+   "last_ts": "2026-11-06T06:31:30+00:00",
+   "move_pct": 0.78,
    "closed": false,
    "rsi": 40.2,
    "trade_on": "Perps 1x",
@@ -170,9 +170,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.5693,
-   "last_ts": "2026-11-06T06:25:22+00:00",
-   "move_pct": 1.59,
+   "last": 0.5697,
+   "last_ts": "2026-11-06T06:31:30+00:00",
+   "move_pct": 1.52,
    "closed": false,
    "rsi": 35.5,
    "trade_on": "Perps 1x",
@@ -215,9 +215,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 276.19,
-   "last_ts": "2026-11-06T06:25:22+00:00",
-   "move_pct": -1.0,
+   "last": 276.26,
+   "last_ts": "2026-11-06T06:31:30+00:00",
+   "move_pct": -1.02,
    "closed": false,
    "rsi": 35.6,
    "trade_on": "Perps 3x",
@@ -252,7 +252,7 @@
     0.04363089943881729
    ],
    "lev": 1,
-   "funding_pct": 0.005,
+   "funding_pct": 0.0058,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-06T00:00:00+00:00",
@@ -260,9 +260,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04963,
-   "last_ts": "2026-11-06T06:25:22+00:00",
-   "move_pct": 0.02,
+   "last": 0.04975,
+   "last_ts": "2026-11-06T06:31:30+00:00",
+   "move_pct": -0.22,
    "closed": false,
    "rsi": 39.0,
    "trade_on": "Perps 1x",
@@ -7166,45 +7166,45 @@
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
   "onchain": [
    {
-    "chain": "BSC",
-    "symbol": "ON",
-    "name": "Orochi Network Token",
-    "token": "0x0e4f6209ed984b21edea43ace6e09559ed051d48",
-    "price": 0.169997096453793,
-    "liq": 766912,
-    "vol24h": 10714035,
-    "age_d": 379.6,
-    "chg24h": 8.006,
-    "chg7d": -7.6,
-    "mcap": 24526331.0975375,
+    "chain": "Base",
+    "symbol": "XDP",
+    "name": "Doppler Finance",
+    "token": "0x07b3d902783c3c12b077508c3b5c00113d1291d0",
+    "price": 0.0163896154134854,
+    "liq": 1633009,
+    "vol24h": 12733164,
+    "age_d": 38.7,
+    "chg24h": -9.785,
+    "chg7d": -9.3,
+    "mcap": 16389615.41,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
-    "trend_up": true,
-    "rsi": 51.0,
-    "url": "https://www.geckoterminal.com/bsc/pools/0x4620f5c127a6055fbebb1f71327d60ff079c9060"
+    "trend_up": false,
+    "rsi": 35.0,
+    "url": "https://www.geckoterminal.com/base/pools/0x2df380544b88adb3ad0a94100dcc45fd705aae2d"
    },
    {
     "chain": "Solana",
     "symbol": "CARDS",
     "name": "Collector Crypt",
     "token": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
-    "price": 0.2440769988777866,
-    "liq": 3778306,
-    "vol24h": 15778872,
-    "age_d": 433.4,
-    "chg24h": -5.899,
-    "chg7d": -16.4,
-    "mcap": 217451116.428505,
+    "price": 0.24113758507443475,
+    "liq": 3744702,
+    "vol24h": 10391662,
+    "age_d": 433.5,
+    "chg24h": -22.735,
+    "chg7d": -15.9,
+    "mcap": 214828178.093445,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 39.6,
+    "rsi": 40.8,
     "url": "https://www.geckoterminal.com/solana/pools/HnhpJPJgBG2KwniMTNW8cVBHvk1hFog3RC3kjnyc23tD"
    }
   ],
-  "onchain_checked": 86,
+  "onchain_checked": 87,
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
@@ -7577,6 +7577,28 @@
     ]
    },
    {
+    "id": "layer-2",
+    "name": "Layer 2",
+    "chg7d": -4.0,
+    "top": [
+     "OKB",
+     "MNT",
+     "ARB",
+     "POL",
+     "STX"
+    ],
+    "tracked": [
+     "OKB",
+     "ARB",
+     "STRK",
+     "STX",
+     "OP",
+     "POL",
+     "MAGIC",
+     "MERL"
+    ]
+   },
+   {
     "id": "meme-token",
     "name": "Meme Token",
     "chg7d": -4.1,
@@ -7596,28 +7618,6 @@
      "PENGU",
      "SHIB",
      "FARTCOIN"
-    ]
-   },
-   {
-    "id": "layer-2",
-    "name": "Layer 2",
-    "chg7d": -4.48,
-    "top": [
-     "OKB",
-     "MNT",
-     "ARB",
-     "POL",
-     "STX"
-    ],
-    "tracked": [
-     "OKB",
-     "ARB",
-     "STRK",
-     "STX",
-     "OP",
-     "POL",
-     "MAGIC",
-     "MERL"
     ]
    }
   ],
@@ -7789,8 +7789,8 @@
   ],
   "updated": {
    "unlocks": 1793942125,
-   "onchain": 1793943028,
-   "sectors": 1793945723,
+   "onchain": 1793946626,
+   "sectors": 1793946626,
    "listings": 1793943323,
    "fundamentals": 1793942126
   }
@@ -7829,6 +7829,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "4612f2c42d72f3d95379dbf28eaa967457442ce269c160ca1dd7984afd3d0cbb",
- "generated": "2026-11-06T06:25:26+00:00"
+ "digest": "17417dff3d627877f18cd2c12d1a1a228d7b9968598b09b658efe75fcc3db9b4",
+ "generated": "2026-11-06T06:31:33+00:00"
 }
