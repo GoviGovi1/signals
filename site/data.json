@@ -1,50 +1,6 @@
 {
  "open": [
   {
-   "id": "PAXG-DEX-eth-0x45804880-1793772000",
-   "kind": "ONCHAIN",
-   "score": null,
-   "reasons": [
-    "Trending on Ethereum (GeckoTerminal), $7.5M volume 24h",
-    "Liquidity $6.6M, pool 378 days old",
-    "Safety: GoPlus OK",
-    "Chart: 20-hour breakout above EMA50 on the DEX, RSI 64",
-    "Untested: no free history to backtest on-chain signals"
-   ],
-   "chain": "Ethereum",
-   "token": "0x45804880de22913dafe09f4980848ece6ecbaf78",
-   "url": "https://www.geckoterminal.com/eth/pools/0xc756bba710d45647715079ce50aa16aab36ded42",
-   "coin": "PAXG",
-   "market": "DEX",
-   "side": "LONG",
-   "entry": 4019.61895100271,
-   "sl0": 3960.424992202122,
-   "sl": 4019.61895100271,
-   "tps": [
-    4078.812909803298,
-    4138.006868603887,
-    4197.200827404475
-   ],
-   "lev": null,
-   "funding_pct": null,
-   "status": "tp2",
-   "hits": 2,
-   "opened": "2026-11-04T07:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 4028.53137454345,
-   "last_ts": "2026-11-06T03:35:23+00:00",
-   "move_pct": 0.22,
-   "closed": false,
-   "rsi": 64.1,
-   "trade_on": "On-chain spot (Ethereum DEX)",
-   "market_reason": "not listed on OKX; buy on a DEX, small size, no leverage",
-   "chart": "charts/PAXG-DEX-eth-0x45804880-1793772000.png",
-   "setup": null
-  },
-  {
    "id": "OKB-PERP-1793880000",
    "kind": "TA",
    "score": -1,
@@ -79,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 105.57,
-   "last_ts": "2026-11-06T03:35:23+00:00",
-   "move_pct": 3.83,
+   "last": 105.6,
+   "last_ts": "2026-11-06T03:40:28+00:00",
+   "move_pct": 3.81,
    "closed": false,
    "rsi": 44.1,
    "trade_on": "Perps 3x",
@@ -116,7 +72,7 @@
     0.0041569856788117605
    ],
    "lev": 1,
-   "funding_pct": -0.0025,
+   "funding_pct": -0.0022,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-05T15:00:00+00:00",
@@ -124,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.004855,
-   "last_ts": "2026-11-06T03:35:23+00:00",
-   "move_pct": 6.11,
+   "last": 0.004868,
+   "last_ts": "2026-11-06T03:40:28+00:00",
+   "move_pct": 5.86,
    "closed": false,
    "rsi": 43.0,
    "trade_on": "Perps 1x",
@@ -169,9 +125,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.53,
-   "last_ts": "2026-11-06T03:35:23+00:00",
-   "move_pct": 1.03,
+   "last": 1.533,
+   "last_ts": "2026-11-06T03:40:28+00:00",
+   "move_pct": 0.84,
    "closed": false,
    "rsi": 40.2,
    "trade_on": "Perps 1x",
@@ -206,7 +162,7 @@
     0.5111879175555537
    ],
    "lev": 1,
-   "funding_pct": 0.0031,
+   "funding_pct": 0.0034,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-05T15:00:00+00:00",
@@ -214,9 +170,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.5692,
-   "last_ts": "2026-11-06T03:35:23+00:00",
-   "move_pct": 1.61,
+   "last": 0.5706,
+   "last_ts": "2026-11-06T03:40:28+00:00",
+   "move_pct": 1.37,
    "closed": false,
    "rsi": 35.5,
    "trade_on": "Perps 1x",
@@ -259,9 +215,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 274.62,
-   "last_ts": "2026-11-06T03:35:23+00:00",
-   "move_pct": -0.42,
+   "last": 275.68,
+   "last_ts": "2026-11-06T03:40:28+00:00",
+   "move_pct": -0.81,
    "closed": false,
    "rsi": 35.6,
    "trade_on": "Perps 3x",
@@ -304,9 +260,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04906,
-   "last_ts": "2026-11-06T03:35:23+00:00",
-   "move_pct": 1.17,
+   "last": 0.04917,
+   "last_ts": "2026-11-06T03:40:28+00:00",
+   "move_pct": 0.95,
    "closed": false,
    "rsi": 39.0,
    "trade_on": "Perps 1x",
@@ -336,7 +292,7 @@
     0.0033564800000000002
    ],
    "lev": 1,
-   "funding_pct": -0.0242,
+   "funding_pct": -0.0173,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-06T03:31:30+00:00",
@@ -344,9 +300,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002862,
-   "last_ts": "2026-11-06T03:35:23+00:00",
-   "move_pct": 15.96,
+   "last": 0.003113,
+   "last_ts": "2026-11-06T03:40:28+00:00",
+   "move_pct": 26.13,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -356,6 +312,50 @@
   }
  ],
  "closed": [
+  {
+   "id": "PAXG-DEX-eth-0x45804880-1793772000",
+   "kind": "ONCHAIN",
+   "score": null,
+   "reasons": [
+    "Trending on Ethereum (GeckoTerminal), $7.5M volume 24h",
+    "Liquidity $6.6M, pool 378 days old",
+    "Safety: GoPlus OK",
+    "Chart: 20-hour breakout above EMA50 on the DEX, RSI 64",
+    "Untested: no free history to backtest on-chain signals"
+   ],
+   "chain": "Ethereum",
+   "token": "0x45804880de22913dafe09f4980848ece6ecbaf78",
+   "url": "https://www.geckoterminal.com/eth/pools/0xc756bba710d45647715079ce50aa16aab36ded42",
+   "coin": "PAXG",
+   "market": "DEX",
+   "side": "LONG",
+   "entry": 4019.61895100271,
+   "sl0": 3960.424992202122,
+   "sl": 4019.61895100271,
+   "tps": [
+    4078.812909803298,
+    4138.006868603887,
+    4197.200827404475
+   ],
+   "lev": null,
+   "funding_pct": null,
+   "status": "stopped_be",
+   "hits": 2,
+   "opened": "2026-11-04T07:00:00+00:00",
+   "closed_at": "2026-11-06T03:40:28+00:00",
+   "exit_price": 4019.61895100271,
+   "result_r": 1.0,
+   "result_pct": 1.47,
+   "last": 4018.6824584432,
+   "last_ts": "2026-11-06T03:40:28+00:00",
+   "move_pct": 0.22,
+   "closed": true,
+   "rsi": 64.1,
+   "trade_on": "On-chain spot (Ethereum DEX)",
+   "market_reason": "not listed on OKX; buy on a DEX, small size, no leverage",
+   "chart": "charts/PAXG-DEX-eth-0x45804880-1793772000.png",
+   "setup": null
+  },
   {
    "id": "RVN-PERP-1793890800",
    "kind": "TA",
@@ -2117,7 +2117,7 @@
    "rsi": 35.4,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": "charts/TRUST-PERP-1793491200.png",
+   "chart": null,
    "setup": "BREAKOUT20"
   },
   {
@@ -2938,61 +2938,17 @@
    "market_reason": "very volatile coin: spot avoids liquidation",
    "chart": null,
    "setup": "HOT24"
-  },
-  {
-   "id": "ESP-PERP-1793318400",
-   "kind": "TA",
-   "score": 0,
-   "reasons": [
-    "Chart: Broke down from a 10-day range at 0.0785 (range 0.0785\u20130.09093) on 2.8x volume",
-    "Timeframes: 1d down, 4h down, 4h structure lower highs/lows",
-    "No support below in the last 50 days",
-    "Stop 0.080463 (structure); targets at 1R/2R/3R",
-    "BTC 4h trend down",
-    "Weaker than BTC by 6.0% over 7d",
-    "OI +1% 24h",
-    "Track record: +0.2R on ESP in the last 45 days (backtest)"
-   ],
-   "coin": "ESP",
-   "market": "PERP",
-   "side": "SHORT",
-   "entry": 0.07796,
-   "sl0": 0.08046323100421865,
-   "sl": 0.08046323100421865,
-   "tps": [
-    0.07545676899578135,
-    0.0729535379915627,
-    0.07045030698734406
-   ],
-   "lev": 1,
-   "funding_pct": 0.005,
-   "status": "stopped",
-   "hits": 0,
-   "opened": "2026-10-30T01:00:00+00:00",
-   "closed_at": "2026-10-30T07:00:31+00:00",
-   "exit_price": 0.08046323100421865,
-   "result_r": -1.0,
-   "result_pct": -3.21,
-   "last": 0.08033,
-   "last_ts": "2026-10-30T07:00:31+00:00",
-   "move_pct": -2.96,
-   "closed": true,
-   "rsi": 26.3,
-   "trade_on": "Perps 1x",
-   "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": null,
-   "setup": "RANGE_BREAK"
   }
  ],
  "stats": {
   "all": {
-   "trades": 135,
-   "wins": 53,
+   "trades": 136,
+   "wins": 54,
    "losses": 82,
-   "win_rate": 39.3,
-   "total_r": -17.64,
-   "avg_r": -0.131,
-   "total_pct": -73.02
+   "win_rate": 39.7,
+   "total_r": -16.64,
+   "avg_r": -0.122,
+   "total_pct": -71.55
   },
   "SPOT": {
    "trades": 45,
@@ -3013,13 +2969,13 @@
    "total_pct": -69.8
   },
   "DEX": {
-   "trades": 5,
-   "wins": 2,
+   "trades": 6,
+   "wins": 3,
    "losses": 3,
-   "win_rate": 40.0,
-   "total_r": 0.0,
-   "avg_r": 0.0,
-   "total_pct": 7.62
+   "win_rate": 50.0,
+   "total_r": 1.0,
+   "avg_r": 0.167,
+   "total_pct": 9.09
   },
   "kinds": {
    "HOT": {
@@ -3032,13 +2988,13 @@
     "total_pct": -54.99
    },
    "ONCHAIN": {
-    "trades": 5,
-    "wins": 2,
+    "trades": 6,
+    "wins": 3,
     "losses": 3,
-    "win_rate": 40.0,
-    "total_r": 0.0,
-    "avg_r": 0.0,
-    "total_pct": 7.62
+    "win_rate": 50.0,
+    "total_r": 1.0,
+    "avg_r": 0.167,
+    "total_pct": 9.09
    },
    "TA": {
     "trades": 98,
@@ -3663,6 +3619,15 @@
     "avg_r": -1.0,
     "total_pct": -12.0
    },
+   "PAXG": {
+    "trades": 1,
+    "wins": 1,
+    "losses": 0,
+    "win_rate": 100.0,
+    "total_r": 1.0,
+    "avg_r": 1.0,
+    "total_pct": 1.47
+   },
    "PENGU": {
     "trades": 1,
     "wins": 1,
@@ -3925,7 +3890,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 8
+  "open": 7
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7896,6 +7861,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "d4a7ddeff3f66a4584957a40b879faea052999e1a9c6f85665895f431c4ce996",
- "generated": "2026-11-06T03:35:29+00:00"
+ "digest": "8cf9f244a5cd57ae84f2bdde1ee59b3fb638c7f58a9072ac9f6669bc675adf98",
+ "generated": "2026-11-06T03:40:35+00:00"
 }
