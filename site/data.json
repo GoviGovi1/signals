@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 105.32,
-   "last_ts": "2026-11-06T11:40:26+00:00",
-   "move_pct": 4.06,
+   "last": 105.49,
+   "last_ts": "2026-11-06T11:45:25+00:00",
+   "move_pct": 3.91,
    "closed": false,
    "rsi": 44.1,
    "trade_on": "Perps 3x",
@@ -72,7 +72,7 @@
     0.0041569856788117605
    ],
    "lev": 1,
-   "funding_pct": -0.0018,
+   "funding_pct": -0.0013,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-05T15:00:00+00:00",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.00497,
-   "last_ts": "2026-11-06T11:40:26+00:00",
-   "move_pct": 3.89,
+   "last": 0.004966,
+   "last_ts": "2026-11-06T11:45:25+00:00",
+   "move_pct": 3.96,
    "closed": false,
    "rsi": 43.0,
    "trade_on": "Perps 1x",
@@ -126,7 +126,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 1.567,
-   "last_ts": "2026-11-06T11:40:26+00:00",
+   "last_ts": "2026-11-06T11:45:25+00:00",
    "move_pct": -1.36,
    "closed": false,
    "rsi": 40.2,
@@ -170,9 +170,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.5792,
-   "last_ts": "2026-11-06T11:40:26+00:00",
-   "move_pct": -0.12,
+   "last": 0.58,
+   "last_ts": "2026-11-06T11:45:25+00:00",
+   "move_pct": -0.26,
    "closed": false,
    "rsi": 35.5,
    "trade_on": "Perps 1x",
@@ -207,7 +207,7 @@
     236.38478146375465
    ],
    "lev": 3,
-   "funding_pct": -0.0061,
+   "funding_pct": -0.0059,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-05T18:00:00+00:00",
@@ -215,9 +215,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 267.05,
-   "last_ts": "2026-11-06T11:40:26+00:00",
-   "move_pct": 2.34,
+   "last": 267.22,
+   "last_ts": "2026-11-06T11:45:25+00:00",
+   "move_pct": 2.28,
    "closed": false,
    "rsi": 35.6,
    "trade_on": "Perps 3x",
@@ -260,9 +260,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0503,
-   "last_ts": "2026-11-06T11:40:26+00:00",
-   "move_pct": -1.33,
+   "last": 0.05038,
+   "last_ts": "2026-11-06T11:45:25+00:00",
+   "move_pct": -1.49,
    "closed": false,
    "rsi": 39.0,
    "trade_on": "Perps 1x",
@@ -300,9 +300,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.001394,
-   "last_ts": "2026-11-06T11:40:26+00:00",
-   "move_pct": 4.26,
+   "last": 0.001391,
+   "last_ts": "2026-11-06T11:45:25+00:00",
+   "move_pct": 4.04,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -344,9 +344,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0941,
-   "last_ts": "2026-11-06T11:40:26+00:00",
-   "move_pct": 0.43,
+   "last": 0.09404,
+   "last_ts": "2026-11-06T11:45:25+00:00",
+   "move_pct": 0.36,
    "closed": false,
    "rsi": 69.8,
    "trade_on": "Perps 1x",
@@ -388,9 +388,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.16856811756631299,
-   "last_ts": "2026-11-06T11:40:26+00:00",
-   "move_pct": -0.65,
+   "last": 0.168383919948952,
+   "last_ts": "2026-11-06T11:45:25+00:00",
+   "move_pct": -0.76,
    "closed": false,
    "rsi": 67.0,
    "trade_on": "On-chain spot (Arbitrum DEX)",
@@ -7527,6 +7527,28 @@
     ]
    },
    {
+    "id": "meme-token",
+    "name": "Meme Token",
+    "chg7d": -3.08,
+    "top": [
+     "DOGE",
+     "SHIB",
+     "PEPE",
+     "M",
+     "PUMP"
+    ],
+    "tracked": [
+     "DOGE",
+     "TRUMP",
+     "PEPE",
+     "PUMP",
+     "USELESS",
+     "PENGU",
+     "SHIB",
+     "FARTCOIN"
+    ]
+   },
+   {
     "id": "depin",
     "name": "DePIN",
     "chg7d": -3.12,
@@ -7684,28 +7706,6 @@
      "BASED",
      "DYDX",
      "ORDER"
-    ]
-   },
-   {
-    "id": "meme-token",
-    "name": "Meme Token",
-    "chg7d": -4.59,
-    "top": [
-     "DOGE",
-     "SHIB",
-     "PEPE",
-     "M",
-     "PUMP"
-    ],
-    "tracked": [
-     "DOGE",
-     "TRUMP",
-     "PEPE",
-     "PUMP",
-     "USELESS",
-     "PENGU",
-     "SHIB",
-     "FARTCOIN"
     ]
    },
    {
@@ -7937,7 +7937,7 @@
   "updated": {
    "unlocks": 1793963726,
    "onchain": 1793964631,
-   "sectors": 1793964631,
+   "sectors": 1793965525,
    "listings": 1793962227,
    "fundamentals": 1793963727
   }
@@ -7976,6 +7976,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "18901e87146bef8216429bcc309134abd1301de28e77c2bd4874c8fbd58272d2",
- "generated": "2026-11-06T11:40:32+00:00"
+ "digest": "7341de757d84256647d287ea1b17e0c4cafac5d0010f0fba8726d74be3380f81",
+ "generated": "2026-11-06T11:45:32+00:00"
 }
