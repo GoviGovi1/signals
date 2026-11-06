@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 4084.67589313743,
-   "last_ts": "2026-11-06T00:55:25+00:00",
-   "move_pct": 1.62,
+   "last": 4084.07366730557,
+   "last_ts": "2026-11-06T01:00:33+00:00",
+   "move_pct": 1.6,
    "closed": false,
    "rsi": 64.1,
    "trade_on": "On-chain spot (Ethereum DEX)",
@@ -71,7 +71,7 @@
     102.35798123144535
    ],
    "lev": 3,
-   "funding_pct": 0.001,
+   "funding_pct": 0.0003,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-11-05T13:00:00+00:00",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 106.71,
-   "last_ts": "2026-11-06T00:55:25+00:00",
-   "move_pct": 2.8,
+   "last": 106.63,
+   "last_ts": "2026-11-06T01:00:33+00:00",
+   "move_pct": 2.87,
    "closed": false,
    "rsi": 44.1,
    "trade_on": "Perps 3x",
@@ -124,9 +124,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.004852,
-   "last_ts": "2026-11-06T00:55:25+00:00",
-   "move_pct": 6.17,
+   "last": 0.004854,
+   "last_ts": "2026-11-06T01:00:33+00:00",
+   "move_pct": 6.13,
    "closed": false,
    "rsi": 43.0,
    "trade_on": "Perps 1x",
@@ -169,9 +169,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.539,
-   "last_ts": "2026-11-06T00:55:25+00:00",
-   "move_pct": 0.45,
+   "last": 1.538,
+   "last_ts": "2026-11-06T01:00:33+00:00",
+   "move_pct": 0.52,
    "closed": false,
    "rsi": 40.2,
    "trade_on": "Perps 1x",
@@ -214,9 +214,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.5695,
-   "last_ts": "2026-11-06T00:55:25+00:00",
-   "move_pct": 1.56,
+   "last": 0.5694,
+   "last_ts": "2026-11-06T01:00:33+00:00",
+   "move_pct": 1.57,
    "closed": false,
    "rsi": 35.5,
    "trade_on": "Perps 1x",
@@ -251,7 +251,7 @@
     236.38478146375465
    ],
    "lev": 3,
-   "funding_pct": 0.0036,
+   "funding_pct": 0.0041,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-05T18:00:00+00:00",
@@ -259,9 +259,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 277.88,
-   "last_ts": "2026-11-06T00:55:25+00:00",
-   "move_pct": -1.62,
+   "last": 278.56,
+   "last_ts": "2026-11-06T01:00:33+00:00",
+   "move_pct": -1.86,
    "closed": false,
    "rsi": 35.6,
    "trade_on": "Perps 3x",
@@ -304,9 +304,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.05036,
-   "last_ts": "2026-11-06T00:55:25+00:00",
-   "move_pct": -1.45,
+   "last": 0.05053,
+   "last_ts": "2026-11-06T01:00:33+00:00",
+   "move_pct": -1.79,
    "closed": false,
    "rsi": 39.0,
    "trade_on": "Perps 1x",
@@ -7275,6 +7275,24 @@
     ]
    },
    {
+    "id": "bitcoin-ecosystem",
+    "name": "Bitcoin Ecosystem",
+    "chg7d": -4.6,
+    "top": [
+     "BTC",
+     "DOG",
+     "ORDI",
+     "USTBL",
+     "LOBO"
+    ],
+    "tracked": [
+     "BTC",
+     "PEPE",
+     "ORDI",
+     "SATS"
+    ]
+   },
+   {
     "id": "exchange-based-tokens",
     "name": "Exchange Based Tokens",
     "chg7d": -4.7,
@@ -7477,24 +7495,6 @@
      "MORPHO",
      "COMP",
      "SPK"
-    ]
-   },
-   {
-    "id": "bitcoin-ecosystem",
-    "name": "Bitcoin Ecosystem",
-    "chg7d": -7.18,
-    "top": [
-     "BTC",
-     "DOG",
-     "ORDI",
-     "USTBL",
-     "LOBO"
-    ],
-    "tracked": [
-     "BTC",
-     "PEPE",
-     "ORDI",
-     "SATS"
     ]
    },
    {
@@ -7836,7 +7836,7 @@
   "updated": {
    "unlocks": 1793920227,
    "onchain": 1793925032,
-   "sectors": 1793925925,
+   "sectors": 1793926833,
    "listings": 1793925032,
    "fundamentals": 1793920228
   }
@@ -7875,6 +7875,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "73e976c3115dfda1d2a235bd096f6d47b3d91a5885e0b46c8e2053739883f2c0",
- "generated": "2026-11-06T00:55:31+00:00"
+ "digest": "7e5a6e6116c7c840c6160c33885c04db362a61aa474bf669fa8997a1d924212f",
+ "generated": "2026-11-06T01:01:08+00:00"
 }
