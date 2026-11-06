@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 4030.11874563653,
-   "last_ts": "2026-11-06T03:25:22+00:00",
-   "move_pct": 0.26,
+   "last": 4028.53137454345,
+   "last_ts": "2026-11-06T03:31:30+00:00",
+   "move_pct": 0.22,
    "closed": false,
    "rsi": 64.1,
    "trade_on": "On-chain spot (Ethereum DEX)",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 105.69,
-   "last_ts": "2026-11-06T03:25:22+00:00",
-   "move_pct": 3.73,
+   "last": 105.63,
+   "last_ts": "2026-11-06T03:31:30+00:00",
+   "move_pct": 3.78,
    "closed": false,
    "rsi": 44.1,
    "trade_on": "Perps 3x",
@@ -116,7 +116,7 @@
     0.0041569856788117605
    ],
    "lev": 1,
-   "funding_pct": -0.0013,
+   "funding_pct": -0.0022,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-05T15:00:00+00:00",
@@ -124,9 +124,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.00489,
-   "last_ts": "2026-11-06T03:25:22+00:00",
-   "move_pct": 5.43,
+   "last": 0.004884,
+   "last_ts": "2026-11-06T03:31:30+00:00",
+   "move_pct": 5.55,
    "closed": false,
    "rsi": 43.0,
    "trade_on": "Perps 1x",
@@ -169,9 +169,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.537,
-   "last_ts": "2026-11-06T03:25:22+00:00",
-   "move_pct": 0.58,
+   "last": 1.534,
+   "last_ts": "2026-11-06T03:31:30+00:00",
+   "move_pct": 0.78,
    "closed": false,
    "rsi": 40.2,
    "trade_on": "Perps 1x",
@@ -206,7 +206,7 @@
     0.5111879175555537
    ],
    "lev": 1,
-   "funding_pct": 0.0038,
+   "funding_pct": 0.0029,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-05T15:00:00+00:00",
@@ -214,9 +214,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.5712,
-   "last_ts": "2026-11-06T03:25:22+00:00",
-   "move_pct": 1.26,
+   "last": 0.5702,
+   "last_ts": "2026-11-06T03:31:30+00:00",
+   "move_pct": 1.43,
    "closed": false,
    "rsi": 35.5,
    "trade_on": "Perps 1x",
@@ -259,9 +259,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 276.1,
-   "last_ts": "2026-11-06T03:25:22+00:00",
-   "move_pct": -0.97,
+   "last": 275.31,
+   "last_ts": "2026-11-06T03:31:30+00:00",
+   "move_pct": -0.68,
    "closed": false,
    "rsi": 35.6,
    "trade_on": "Perps 3x",
@@ -304,15 +304,55 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04941,
-   "last_ts": "2026-11-06T03:25:22+00:00",
-   "move_pct": 0.46,
+   "last": 0.04905,
+   "last_ts": "2026-11-06T03:31:30+00:00",
+   "move_pct": 1.19,
    "closed": false,
    "rsi": 39.0,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": "charts/BLEND-PERP-1793919600.png",
    "setup": "BREAKOUT20"
+  },
+  {
+   "id": "AKE-PERP-HOT-20763",
+   "kind": "HOT",
+   "score": 492.42,
+   "reasons": [
+    "24h hot mover +27% with volume spike (2.2x the prior 3 days)",
+    "24h volume $174.4M on the OKX perp book, listed 51 days",
+    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
+    "Stop 0.0021718 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
+   ],
+   "coin": "AKE",
+   "market": "PERP",
+   "side": "LONG",
+   "entry": 0.002468,
+   "sl0": 0.00217184,
+   "sl": 0.00217184,
+   "tps": [
+    0.0027641600000000003,
+    0.00306032,
+    0.0033564800000000002
+   ],
+   "lev": 1,
+   "funding_pct": -0.0317,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-11-06T03:31:30+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.003198,
+   "last_ts": "2026-11-06T03:31:30+00:00",
+   "move_pct": 29.58,
+   "closed": false,
+   "rsi": null,
+   "trade_on": "Perps 1x",
+   "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
+   "chart": "charts/AKE-PERP-HOT-20763.png",
+   "setup": "HOT24"
   }
  ],
  "closed": [
@@ -3885,7 +3925,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 7
+  "open": 8
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7197,38 +7237,38 @@
     "symbol": "IDOL",
     "name": "MEET48 Token",
     "token": "0x3b4de3c7855c03bb9f50ea252cd2c9fa1125ab07",
-    "price": 0.0209097065117248,
-    "liq": 1220091,
-    "vol24h": 10300389,
-    "age_d": 513.5,
-    "chg24h": -2.196,
-    "chg7d": 48.8,
-    "mcap": 45777493.1025521,
+    "price": 0.0212349754081899,
+    "liq": 1228534,
+    "vol24h": 10511157,
+    "age_d": 513.6,
+    "chg24h": 0.118,
+    "chg7d": 44.0,
+    "mcap": 46556185.1270624,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": true,
-    "rsi": 53.5,
+    "rsi": 56.6,
     "url": "https://www.geckoterminal.com/bsc/pools/0xfff4857a955b2b460c27fd431aa5a85fabca5559"
    },
    {
-    "chain": "Solana",
-    "symbol": "CARDS",
-    "name": "Collector Crypt",
-    "token": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
-    "price": 0.24962814861036328,
-    "liq": 3828896,
-    "vol24h": 15559753,
-    "age_d": 433.3,
-    "chg24h": -3.044,
-    "chg7d": -3.1,
-    "mcap": 224184304.844476,
+    "chain": "Base",
+    "symbol": "XDP",
+    "name": "Doppler Finance",
+    "token": "0x07b3d902783c3c12b077508c3b5c00113d1291d0",
+    "price": 0.0163900514803683,
+    "liq": 1631510,
+    "vol24h": 12696667,
+    "age_d": 38.6,
+    "chg24h": -9.372,
+    "chg7d": -7.9,
+    "mcap": 16390051.48,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 44.3,
-    "url": "https://www.geckoterminal.com/solana/pools/HnhpJPJgBG2KwniMTNW8cVBHvk1hFog3RC3kjnyc23tD"
+    "rsi": 31.8,
+    "url": "https://www.geckoterminal.com/base/pools/0x2df380544b88adb3ad0a94100dcc45fd705aae2d"
    }
   ],
   "onchain_checked": 87,
@@ -7318,6 +7358,21 @@
      "SUI",
      "BNB",
      "AVAX",
+     "ZEC"
+    ]
+   },
+   {
+    "id": "privacy-coins",
+    "name": "Privacy Coins",
+    "chg7d": -2.63,
+    "top": [
+     "ZEC",
+     "XMR",
+     "DCR",
+     "ZANO",
+     "ARRR"
+    ],
+    "tracked": [
      "ZEC"
     ]
    },
@@ -7491,21 +7546,6 @@
      "IMX",
      "ONE",
      "FLOKI"
-    ]
-   },
-   {
-    "id": "privacy-coins",
-    "name": "Privacy Coins",
-    "chg7d": -5.37,
-    "top": [
-     "ZEC",
-     "XMR",
-     "DCR",
-     "ZANO",
-     "ARRR"
-    ],
-    "tracked": [
-     "ZEC"
     ]
    },
    {
@@ -7816,8 +7856,8 @@
   ],
   "updated": {
    "unlocks": 1793920227,
-   "onchain": 1793932228,
-   "sectors": 1793934924,
+   "onchain": 1793935827,
+   "sectors": 1793935827,
    "listings": 1793932521,
    "fundamentals": 1793920228
   }
@@ -7856,6 +7896,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "6caa4eec1387e056e51a1e3d1c0de028b22aaf16ba89ee4bfec627f979162c7a",
- "generated": "2026-11-06T03:25:28+00:00"
+ "digest": "48d63be55b0d3bab7b1c355aad05f8928f8af513038ac25ff463c9852b2af8ed",
+ "generated": "2026-11-06T03:31:38+00:00"
 }
