@@ -27,7 +27,7 @@
     102.35798123144535
    ],
    "lev": 3,
-   "funding_pct": 0.004,
+   "funding_pct": 0.0041,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-11-05T13:00:00+00:00",
@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 105.08,
-   "last_ts": "2026-11-06T14:57:56+00:00",
-   "move_pct": 4.28,
+   "last": 105.14,
+   "last_ts": "2026-11-06T15:00:36+00:00",
+   "move_pct": 4.23,
    "closed": false,
    "rsi": 44.1,
    "trade_on": "Perps 3x",
@@ -72,7 +72,7 @@
     0.0041569856788117605
    ],
    "lev": 1,
-   "funding_pct": 0.0017,
+   "funding_pct": 0.0019,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-05T15:00:00+00:00",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.005035,
-   "last_ts": "2026-11-06T14:57:56+00:00",
-   "move_pct": 2.63,
+   "last": 0.005039,
+   "last_ts": "2026-11-06T15:00:36+00:00",
+   "move_pct": 2.55,
    "closed": false,
    "rsi": 43.0,
    "trade_on": "Perps 1x",
@@ -125,9 +125,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.572,
-   "last_ts": "2026-11-06T14:57:56+00:00",
-   "move_pct": -1.68,
+   "last": 1.573,
+   "last_ts": "2026-11-06T15:00:36+00:00",
+   "move_pct": -1.75,
    "closed": false,
    "rsi": 40.2,
    "trade_on": "Perps 1x",
@@ -170,9 +170,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.58,
-   "last_ts": "2026-11-06T14:57:56+00:00",
-   "move_pct": -0.26,
+   "last": 0.5802,
+   "last_ts": "2026-11-06T15:00:36+00:00",
+   "move_pct": -0.29,
    "closed": false,
    "rsi": 35.5,
    "trade_on": "Perps 1x",
@@ -207,7 +207,7 @@
     236.38478146375465
    ],
    "lev": 3,
-   "funding_pct": -0.002,
+   "funding_pct": -0.0021,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-05T18:00:00+00:00",
@@ -215,9 +215,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 267.07,
-   "last_ts": "2026-11-06T14:57:56+00:00",
-   "move_pct": 2.34,
+   "last": 267.41,
+   "last_ts": "2026-11-06T15:00:36+00:00",
+   "move_pct": 2.21,
    "closed": false,
    "rsi": 35.6,
    "trade_on": "Perps 3x",
@@ -252,7 +252,7 @@
     0.04363089943881729
    ],
    "lev": 1,
-   "funding_pct": 0.0025,
+   "funding_pct": 0.0022,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-06T00:00:00+00:00",
@@ -260,9 +260,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.05019,
-   "last_ts": "2026-11-06T14:57:56+00:00",
-   "move_pct": -1.11,
+   "last": 0.05021,
+   "last_ts": "2026-11-06T15:00:36+00:00",
+   "move_pct": -1.15,
    "closed": false,
    "rsi": 39.0,
    "trade_on": "Perps 1x",
@@ -304,9 +304,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.09711,
-   "last_ts": "2026-11-06T14:57:56+00:00",
-   "move_pct": 3.64,
+   "last": 0.0972,
+   "last_ts": "2026-11-06T15:00:36+00:00",
+   "move_pct": 3.74,
    "closed": false,
    "rsi": 69.8,
    "trade_on": "Perps 1x",
@@ -348,9 +348,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.17005936375961597,
-   "last_ts": "2026-11-06T14:57:56+00:00",
-   "move_pct": 0.23,
+   "last": 0.169448650497112,
+   "last_ts": "2026-11-06T15:00:36+00:00",
+   "move_pct": -0.13,
    "closed": false,
    "rsi": 67.0,
    "trade_on": "On-chain spot (Arbitrum DEX)",
@@ -7485,6 +7485,23 @@
     ]
    },
    {
+    "id": "storage",
+    "name": "Storage",
+    "chg7d": -3.06,
+    "top": [
+     "FIL",
+     "BTT",
+     "AR",
+     "AIOZ",
+     "WAL"
+    ],
+    "tracked": [
+     "FIL",
+     "AR",
+     "WAL"
+    ]
+   },
+   {
     "id": "depin",
     "name": "DePIN",
     "chg7d": -3.08,
@@ -7651,23 +7668,6 @@
     ],
     "tracked": [
      "ZEC"
-    ]
-   },
-   {
-    "id": "storage",
-    "name": "Storage",
-    "chg7d": -3.53,
-    "top": [
-     "FIL",
-     "BTT",
-     "AR",
-     "AIOZ",
-     "WAL"
-    ],
-    "tracked": [
-     "FIL",
-     "AR",
-     "WAL"
     ]
    },
    {
@@ -7916,8 +7916,8 @@
   "updated": {
    "unlocks": 1793963726,
    "onchain": 1793975427,
-   "sectors": 1793976326,
-   "listings": 1793973634,
+   "sectors": 1793977236,
+   "listings": 1793977235,
    "fundamentals": 1793963727
   }
  },
@@ -7955,6 +7955,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "00a7372099e2dd58f1e50313e3b7495972b366b944025954a4372b8472609f35",
- "generated": "2026-11-06T14:58:03+00:00"
+ "digest": "0ef5909b5e4a40afa38357a114ec4ece64872f6f37e9e67dd28cf60aef611fdc",
+ "generated": "2026-11-06T15:01:13+00:00"
 }
