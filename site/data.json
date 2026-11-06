@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 105.17,
-   "last_ts": "2026-11-06T19:55:21+00:00",
-   "move_pct": 4.2,
+   "last": 105.34,
+   "last_ts": "2026-11-06T20:00:33+00:00",
+   "move_pct": 4.04,
    "closed": false,
    "rsi": 44.1,
    "trade_on": "Perps 3x",
@@ -72,7 +72,7 @@
     0.0041569856788117605
    ],
    "lev": 1,
-   "funding_pct": 0.0042,
+   "funding_pct": 0.0045,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-05T15:00:00+00:00",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.004999,
-   "last_ts": "2026-11-06T19:55:21+00:00",
-   "move_pct": 3.33,
+   "last": 0.00503,
+   "last_ts": "2026-11-06T20:00:33+00:00",
+   "move_pct": 2.73,
    "closed": false,
    "rsi": 43.0,
    "trade_on": "Perps 1x",
@@ -125,9 +125,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.5725,
-   "last_ts": "2026-11-06T19:55:21+00:00",
-   "move_pct": 1.04,
+   "last": 0.5742,
+   "last_ts": "2026-11-06T20:00:33+00:00",
+   "move_pct": 0.74,
    "closed": false,
    "rsi": 35.5,
    "trade_on": "Perps 1x",
@@ -162,7 +162,7 @@
     236.38478146375465
    ],
    "lev": 3,
-   "funding_pct": -0.0113,
+   "funding_pct": -0.0115,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-05T18:00:00+00:00",
@@ -170,9 +170,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 263.72,
-   "last_ts": "2026-11-06T19:55:21+00:00",
-   "move_pct": 3.56,
+   "last": 265.27,
+   "last_ts": "2026-11-06T20:00:33+00:00",
+   "move_pct": 2.99,
    "closed": false,
    "rsi": 35.6,
    "trade_on": "Perps 3x",
@@ -215,9 +215,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.05001,
-   "last_ts": "2026-11-06T19:55:21+00:00",
-   "move_pct": -0.75,
+   "last": 0.04997,
+   "last_ts": "2026-11-06T20:00:33+00:00",
+   "move_pct": -0.66,
    "closed": false,
    "rsi": 39.0,
    "trade_on": "Perps 1x",
@@ -259,9 +259,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.09379,
-   "last_ts": "2026-11-06T19:55:21+00:00",
-   "move_pct": 0.1,
+   "last": 0.09392,
+   "last_ts": "2026-11-06T20:00:33+00:00",
+   "move_pct": 0.23,
    "closed": false,
    "rsi": 69.8,
    "trade_on": "Perps 1x",
@@ -303,9 +303,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.166023581575907,
-   "last_ts": "2026-11-06T19:55:21+00:00",
-   "move_pct": -2.15,
+   "last": 0.16617136954892597,
+   "last_ts": "2026-11-06T20:00:33+00:00",
+   "move_pct": -2.06,
    "closed": false,
    "rsi": 67.0,
    "trade_on": "On-chain spot (Arbitrum DEX)",
@@ -343,9 +343,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.02029,
-   "last_ts": "2026-11-06T19:55:21+00:00",
-   "move_pct": 2.47,
+   "last": 0.02052,
+   "last_ts": "2026-11-06T20:00:33+00:00",
+   "move_pct": 3.64,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -7579,23 +7579,6 @@
     ]
    },
    {
-    "id": "storage",
-    "name": "Storage",
-    "chg7d": -3.06,
-    "top": [
-     "FIL",
-     "BTT",
-     "AR",
-     "AIOZ",
-     "WAL"
-    ],
-    "tracked": [
-     "FIL",
-     "AR",
-     "WAL"
-    ]
-   },
-   {
     "id": "lending-borrowing",
     "name": "Lending Borrowing",
     "chg7d": -3.17,
@@ -7614,6 +7597,23 @@
      "KMNO",
      "COMP",
      "SPK"
+    ]
+   },
+   {
+    "id": "storage",
+    "name": "Storage",
+    "chg7d": -3.44,
+    "top": [
+     "FIL",
+     "BTT",
+     "AR",
+     "AIOZ",
+     "WAL"
+    ],
+    "tracked": [
+     "FIL",
+     "AR",
+     "WAL"
     ]
    },
    {
@@ -7943,7 +7943,7 @@
   "updated": {
    "unlocks": 1793985326,
    "onchain": 1793993430,
-   "sectors": 1793994327,
+   "sectors": 1793995233,
    "listings": 1793992227,
    "fundamentals": 1793985327
   }
@@ -7982,6 +7982,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "f702dc6283ba6f0e2985c0510a21b3780ba53b9a6a29a0755552770367103c84",
- "generated": "2026-11-06T19:55:27+00:00"
+ "digest": "e2b766b6df3236d85db5231378ec541078a041013a3b1dc10c204eacd717e2b1",
+ "generated": "2026-11-06T20:01:12+00:00"
 }
