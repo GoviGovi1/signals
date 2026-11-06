@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 105.57,
-   "last_ts": "2026-11-06T04:55:20+00:00",
-   "move_pct": 3.83,
+   "last": 105.64,
+   "last_ts": "2026-11-06T05:00:34+00:00",
+   "move_pct": 3.77,
    "closed": false,
    "rsi": 44.1,
    "trade_on": "Perps 3x",
@@ -72,7 +72,7 @@
     0.0041569856788117605
    ],
    "lev": 1,
-   "funding_pct": 0.0014,
+   "funding_pct": 0.002,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-05T15:00:00+00:00",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.004905,
-   "last_ts": "2026-11-06T04:55:20+00:00",
-   "move_pct": 5.14,
+   "last": 0.004898,
+   "last_ts": "2026-11-06T05:00:34+00:00",
+   "move_pct": 5.28,
    "closed": false,
    "rsi": 43.0,
    "trade_on": "Perps 1x",
@@ -125,9 +125,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.531,
-   "last_ts": "2026-11-06T04:55:20+00:00",
-   "move_pct": 0.97,
+   "last": 1.529,
+   "last_ts": "2026-11-06T05:00:34+00:00",
+   "move_pct": 1.1,
    "closed": false,
    "rsi": 40.2,
    "trade_on": "Perps 1x",
@@ -170,9 +170,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.5727,
-   "last_ts": "2026-11-06T04:55:20+00:00",
-   "move_pct": 1.0,
+   "last": 0.5724,
+   "last_ts": "2026-11-06T05:00:34+00:00",
+   "move_pct": 1.05,
    "closed": false,
    "rsi": 35.5,
    "trade_on": "Perps 1x",
@@ -215,8 +215,8 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 276.05,
-   "last_ts": "2026-11-06T04:55:20+00:00",
+   "last": 276.07,
+   "last_ts": "2026-11-06T05:00:34+00:00",
    "move_pct": -0.95,
    "closed": false,
    "rsi": 35.6,
@@ -260,9 +260,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04947,
-   "last_ts": "2026-11-06T04:55:20+00:00",
-   "move_pct": 0.34,
+   "last": 0.04945,
+   "last_ts": "2026-11-06T05:00:34+00:00",
+   "move_pct": 0.38,
    "closed": false,
    "rsi": 39.0,
    "trade_on": "Perps 1x",
@@ -7497,6 +7497,23 @@
     ]
    },
    {
+    "id": "storage",
+    "name": "Storage",
+    "chg7d": -3.79,
+    "top": [
+     "FIL",
+     "BTT",
+     "AR",
+     "AIOZ",
+     "WAL"
+    ],
+    "tracked": [
+     "FIL",
+     "AR",
+     "WAL"
+    ]
+   },
+   {
     "id": "meme-token",
     "name": "Meme Token",
     "chg7d": -4.1,
@@ -7600,23 +7617,6 @@
      "PNUT",
      "BONK",
      "BOME"
-    ]
-   },
-   {
-    "id": "storage",
-    "name": "Storage",
-    "chg7d": -5.72,
-    "top": [
-     "FIL",
-     "BTT",
-     "AR",
-     "AIOZ",
-     "WAL"
-    ],
-    "tracked": [
-     "FIL",
-     "AR",
-     "WAL"
     ]
    },
    {
@@ -7810,7 +7810,7 @@
   "updated": {
    "unlocks": 1793920227,
    "onchain": 1793939430,
-   "sectors": 1793940328,
+   "sectors": 1793941234,
    "listings": 1793939723,
    "fundamentals": 1793920228
   }
@@ -7849,6 +7849,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "423317a60a0871f1f1d78bf86e539b42017403a640cc85db9e1f38fd3edb005c",
- "generated": "2026-11-06T04:55:24+00:00"
+ "digest": "d9d30d5a50267800eba9d6bba7e55568403211979212d49f431c868a735fe3c7",
+ "generated": "2026-11-06T05:01:05+00:00"
 }
