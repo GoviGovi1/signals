@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 105.32,
-   "last_ts": "2026-11-06T20:55:19+00:00",
-   "move_pct": 4.06,
+   "last": 105.36,
+   "last_ts": "2026-11-06T21:00:37+00:00",
+   "move_pct": 4.03,
    "closed": false,
    "rsi": 44.1,
    "trade_on": "Perps 3x",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.004995,
-   "last_ts": "2026-11-06T20:55:19+00:00",
-   "move_pct": 3.4,
+   "last": 0.004999,
+   "last_ts": "2026-11-06T21:00:37+00:00",
+   "move_pct": 3.33,
    "closed": false,
    "rsi": 43.0,
    "trade_on": "Perps 1x",
@@ -125,9 +125,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.5706,
-   "last_ts": "2026-11-06T20:55:19+00:00",
-   "move_pct": 1.37,
+   "last": 0.571,
+   "last_ts": "2026-11-06T21:00:37+00:00",
+   "move_pct": 1.3,
    "closed": false,
    "rsi": 35.5,
    "trade_on": "Perps 1x",
@@ -162,7 +162,7 @@
     236.38478146375465
    ],
    "lev": 3,
-   "funding_pct": -0.0136,
+   "funding_pct": -0.0146,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-05T18:00:00+00:00",
@@ -170,9 +170,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 263.94,
-   "last_ts": "2026-11-06T20:55:19+00:00",
-   "move_pct": 3.48,
+   "last": 264.04,
+   "last_ts": "2026-11-06T21:00:37+00:00",
+   "move_pct": 3.44,
    "closed": false,
    "rsi": 35.6,
    "trade_on": "Perps 3x",
@@ -207,7 +207,7 @@
     0.04363089943881729
    ],
    "lev": 1,
-   "funding_pct": 0.0024,
+   "funding_pct": 0.0032,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-06T00:00:00+00:00",
@@ -215,9 +215,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04994,
-   "last_ts": "2026-11-06T20:55:19+00:00",
-   "move_pct": -0.6,
+   "last": 0.04982,
+   "last_ts": "2026-11-06T21:00:37+00:00",
+   "move_pct": -0.36,
    "closed": false,
    "rsi": 39.0,
    "trade_on": "Perps 1x",
@@ -259,9 +259,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.09241,
-   "last_ts": "2026-11-06T20:55:19+00:00",
-   "move_pct": -1.38,
+   "last": 0.09252,
+   "last_ts": "2026-11-06T21:00:37+00:00",
+   "move_pct": -1.26,
    "closed": false,
    "rsi": 69.8,
    "trade_on": "Perps 1x",
@@ -303,9 +303,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.165639414629166,
-   "last_ts": "2026-11-06T20:55:19+00:00",
-   "move_pct": -2.37,
+   "last": 0.165870349284026,
+   "last_ts": "2026-11-06T21:00:37+00:00",
+   "move_pct": -2.24,
    "closed": false,
    "rsi": 67.0,
    "trade_on": "On-chain spot (Arbitrum DEX)",
@@ -343,9 +343,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.02003,
-   "last_ts": "2026-11-06T20:55:19+00:00",
-   "move_pct": 1.16,
+   "last": 0.02005,
+   "last_ts": "2026-11-06T21:00:37+00:00",
+   "move_pct": 1.26,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -7494,6 +7494,24 @@
     ]
    },
    {
+    "id": "bitcoin-ecosystem",
+    "name": "Bitcoin Ecosystem",
+    "chg7d": -2.45,
+    "top": [
+     "BTC",
+     "DOG",
+     "ORDI",
+     "USTBL",
+     "LOBO"
+    ],
+    "tracked": [
+     "BTC",
+     "PEPE",
+     "ORDI",
+     "SATS"
+    ]
+   },
+   {
     "id": "depin",
     "name": "DePIN",
     "chg7d": -2.76,
@@ -7683,24 +7701,6 @@
      "MERL",
      "MAGIC",
      "POL"
-    ]
-   },
-   {
-    "id": "bitcoin-ecosystem",
-    "name": "Bitcoin Ecosystem",
-    "chg7d": -3.7,
-    "top": [
-     "BTC",
-     "DOG",
-     "ORDI",
-     "USTBL",
-     "LOBO"
-    ],
-    "tracked": [
-     "BTC",
-     "PEPE",
-     "ORDI",
-     "SATS"
     ]
    },
    {
@@ -7924,7 +7924,7 @@
   "updated": {
    "unlocks": 1793985326,
    "onchain": 1793997030,
-   "sectors": 1793997925,
+   "sectors": 1793998836,
    "listings": 1793995836,
    "fundamentals": 1793985327
   }
@@ -7963,6 +7963,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "b924892bb8dac4d7853e487479c032036ca2201919ef2aac863bb2984ab7237a",
- "generated": "2026-11-06T20:55:25+00:00"
+ "digest": "47fffc0450ab5d83d8c03db74eb70a8154fbedd94d2042b28d192934dcadf81a",
+ "generated": "2026-11-06T21:01:17+00:00"
 }
