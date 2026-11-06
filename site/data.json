@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 105.32,
-   "last_ts": "2026-11-06T04:31:35+00:00",
-   "move_pct": 4.06,
+   "last": 105.62,
+   "last_ts": "2026-11-06T04:35:23+00:00",
+   "move_pct": 3.79,
    "closed": false,
    "rsi": 44.1,
    "trade_on": "Perps 3x",
@@ -72,7 +72,7 @@
     0.0041569856788117605
    ],
    "lev": 1,
-   "funding_pct": -0.0017,
+   "funding_pct": -0.0011,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-05T15:00:00+00:00",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.004853,
-   "last_ts": "2026-11-06T04:31:35+00:00",
-   "move_pct": 6.15,
+   "last": 0.004894,
+   "last_ts": "2026-11-06T04:35:23+00:00",
+   "move_pct": 5.36,
    "closed": false,
    "rsi": 43.0,
    "trade_on": "Perps 1x",
@@ -125,9 +125,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.529,
-   "last_ts": "2026-11-06T04:31:35+00:00",
-   "move_pct": 1.1,
+   "last": 1.536,
+   "last_ts": "2026-11-06T04:35:23+00:00",
+   "move_pct": 0.65,
    "closed": false,
    "rsi": 40.2,
    "trade_on": "Perps 1x",
@@ -162,7 +162,7 @@
     0.5111879175555537
    ],
    "lev": 1,
-   "funding_pct": 0.0038,
+   "funding_pct": 0.0047,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-05T15:00:00+00:00",
@@ -170,9 +170,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.569,
-   "last_ts": "2026-11-06T04:31:35+00:00",
-   "move_pct": 1.64,
+   "last": 0.5707,
+   "last_ts": "2026-11-06T04:35:23+00:00",
+   "move_pct": 1.35,
    "closed": false,
    "rsi": 35.5,
    "trade_on": "Perps 1x",
@@ -215,9 +215,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 273.95,
-   "last_ts": "2026-11-06T04:31:35+00:00",
-   "move_pct": -0.18,
+   "last": 274.67,
+   "last_ts": "2026-11-06T04:35:23+00:00",
+   "move_pct": -0.44,
    "closed": false,
    "rsi": 35.6,
    "trade_on": "Perps 3x",
@@ -260,9 +260,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04942,
-   "last_ts": "2026-11-06T04:31:35+00:00",
-   "move_pct": 0.44,
+   "last": 0.04945,
+   "last_ts": "2026-11-06T04:35:23+00:00",
+   "move_pct": 0.38,
    "closed": false,
    "rsi": 39.0,
    "trade_on": "Perps 1x",
@@ -7643,6 +7643,24 @@
   ],
   "listings": [
    {
+    "coin": "EWZS",
+    "list_ts": 1793957400,
+    "market": "PERP",
+    "state": "preopen"
+   },
+   {
+    "coin": "EIDO",
+    "list_ts": 1793956500,
+    "market": "PERP",
+    "state": "preopen"
+   },
+   {
+    "coin": "XLV",
+    "list_ts": 1793955600,
+    "market": "PERP",
+    "state": "preopen"
+   },
+   {
     "coin": "SMR",
     "list_ts": 1793781900,
     "market": "PERP",
@@ -7711,24 +7729,6 @@
    {
     "coin": "PDD",
     "list_ts": 1793349000,
-    "market": "PERP",
-    "state": "live"
-   },
-   {
-    "coin": "GIGADEV",
-    "list_ts": 1793344500,
-    "market": "PERP",
-    "state": "live"
-   },
-   {
-    "coin": "WUXIBIO",
-    "list_ts": 1793343600,
-    "market": "PERP",
-    "state": "live"
-   },
-   {
-    "coin": "MPWR",
-    "list_ts": 1793097900,
     "market": "PERP",
     "state": "live"
    }
@@ -7811,7 +7811,7 @@
    "unlocks": 1793920227,
    "onchain": 1793939430,
    "sectors": 1793939430,
-   "listings": 1793936123,
+   "listings": 1793939723,
    "fundamentals": 1793920228
   }
  },
@@ -7849,6 +7849,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "512d6e391a40a9dd0d8bdda78d825cf22e97054acfe9fc6d904cc8974fd6511c",
- "generated": "2026-11-06T04:31:39+00:00"
+ "digest": "22644212e0e31727a89313758900ef59b142afca2c5f5a720a3d6a81e5b454f7",
+ "generated": "2026-11-06T04:35:28+00:00"
 }
