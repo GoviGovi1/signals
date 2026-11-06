@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 104.95,
-   "last_ts": "2026-11-06T10:55:23+00:00",
-   "move_pct": 4.4,
+   "last": 104.96,
+   "last_ts": "2026-11-06T11:00:33+00:00",
+   "move_pct": 4.39,
    "closed": false,
    "rsi": 44.1,
    "trade_on": "Perps 3x",
@@ -72,7 +72,7 @@
     0.0041569856788117605
    ],
    "lev": 1,
-   "funding_pct": 0.0022,
+   "funding_pct": 0.0007,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-05T15:00:00+00:00",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.004945,
-   "last_ts": "2026-11-06T10:55:23+00:00",
-   "move_pct": 4.37,
+   "last": 0.004937,
+   "last_ts": "2026-11-06T11:00:33+00:00",
+   "move_pct": 4.53,
    "closed": false,
    "rsi": 43.0,
    "trade_on": "Perps 1x",
@@ -125,9 +125,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.549,
-   "last_ts": "2026-11-06T10:55:23+00:00",
-   "move_pct": -0.19,
+   "last": 1.548,
+   "last_ts": "2026-11-06T11:00:33+00:00",
+   "move_pct": -0.13,
    "closed": false,
    "rsi": 40.2,
    "trade_on": "Perps 1x",
@@ -170,9 +170,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.5763,
-   "last_ts": "2026-11-06T10:55:23+00:00",
-   "move_pct": 0.38,
+   "last": 0.5759,
+   "last_ts": "2026-11-06T11:00:33+00:00",
+   "move_pct": 0.45,
    "closed": false,
    "rsi": 35.5,
    "trade_on": "Perps 1x",
@@ -207,7 +207,7 @@
     236.38478146375465
    ],
    "lev": 3,
-   "funding_pct": -0.0058,
+   "funding_pct": -0.0059,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-05T18:00:00+00:00",
@@ -215,9 +215,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 266.68,
-   "last_ts": "2026-11-06T10:55:23+00:00",
-   "move_pct": 2.48,
+   "last": 266.58,
+   "last_ts": "2026-11-06T11:00:33+00:00",
+   "move_pct": 2.52,
    "closed": false,
    "rsi": 35.6,
    "trade_on": "Perps 3x",
@@ -260,9 +260,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.05041,
-   "last_ts": "2026-11-06T10:55:23+00:00",
-   "move_pct": -1.55,
+   "last": 0.05027,
+   "last_ts": "2026-11-06T11:00:33+00:00",
+   "move_pct": -1.27,
    "closed": false,
    "rsi": 39.0,
    "trade_on": "Perps 1x",
@@ -300,15 +300,59 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.001335,
-   "last_ts": "2026-11-06T10:55:23+00:00",
-   "move_pct": -0.15,
+   "last": 0.001329,
+   "last_ts": "2026-11-06T11:00:33+00:00",
+   "move_pct": -0.6,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
    "market_reason": "thin perp market: spot is safer",
    "chart": "charts/ONE-SPOT-HOT-20763.png",
    "setup": "HOT24"
+  },
+  {
+   "id": "BSB-PERP-1793959200",
+   "kind": "TA",
+   "score": 1,
+   "reasons": [
+    "Chart: Broke out of a 4-day range at 0.09293 (range 0.08376\u20130.09293) on 1.3x volume",
+    "Timeframes: 1d down, 4h down, 4h structure lower highs/lows",
+    "Next resistance 0.099572 (3.4R away, 4h swing/swing/volume node)",
+    "Stop 0.09196 (below the breakout level); targets at the next 1 level(s)",
+    "BTC 4h trend down",
+    "Weaker than BTC by 3.6% over 7d",
+    "OI +10% 24h with breakout",
+    "Track record: +0.4R on BSB in the last 45 days (backtest)"
+   ],
+   "coin": "BSB",
+   "market": "PERP",
+   "side": "LONG",
+   "entry": 0.0937,
+   "sl0": 0.09196019003171274,
+   "sl": 0.09196019003171274,
+   "tps": [
+    0.09932991681087726,
+    0.10106972677916452,
+    0.10280953674745179
+   ],
+   "lev": 1,
+   "funding_pct": 0.005,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-11-06T11:00:00+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.09371,
+   "last_ts": "2026-11-06T11:00:33+00:00",
+   "move_pct": 0.01,
+   "closed": false,
+   "rsi": 69.8,
+   "trade_on": "Perps 1x",
+   "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
+   "chart": "charts/BSB-PERP-1793959200.png",
+   "setup": "RANGE_BREAK"
   }
  ],
  "closed": [
@@ -3899,7 +3943,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 7
+  "open": 8
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7354,24 +7398,6 @@
     ]
    },
    {
-    "id": "bitcoin-ecosystem",
-    "name": "Bitcoin Ecosystem",
-    "chg7d": -2.45,
-    "top": [
-     "BTC",
-     "DOG",
-     "ORDI",
-     "USTBL",
-     "LOBO"
-    ],
-    "tracked": [
-     "BTC",
-     "PEPE",
-     "ORDI",
-     "SATS"
-    ]
-   },
-   {
     "id": "decentralized-exchange",
     "name": "Decentralized Exchange",
     "chg7d": -2.55,
@@ -7530,6 +7556,24 @@
      "FIL",
      "AR",
      "WAL"
+    ]
+   },
+   {
+    "id": "bitcoin-ecosystem",
+    "name": "Bitcoin Ecosystem",
+    "chg7d": -3.55,
+    "top": [
+     "BTC",
+     "DOG",
+     "ORDI",
+     "USTBL",
+     "LOBO"
+    ],
+    "tracked": [
+     "BTC",
+     "PEPE",
+     "ORDI",
+     "SATS"
     ]
    },
    {
@@ -7849,7 +7893,7 @@
   "updated": {
    "unlocks": 1793942125,
    "onchain": 1793961030,
-   "sectors": 1793961926,
+   "sectors": 1793962833,
    "listings": 1793962227,
    "fundamentals": 1793942126
   }
@@ -7888,6 +7932,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "1104576eede876e7dc0103130df4d548f452be4a1c4a945618f27a17c6d7bdf1",
- "generated": "2026-11-06T10:55:28+00:00"
+ "digest": "f789a80f6161896b1c2aa9691dbf5f3f504c58b5f11ccb2f5b2b6061a4d5808f",
+ "generated": "2026-11-06T11:01:09+00:00"
 }
