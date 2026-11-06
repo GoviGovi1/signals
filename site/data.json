@@ -27,7 +27,7 @@
     102.35798123144535
    ],
    "lev": 3,
-   "funding_pct": 0.0032,
+   "funding_pct": 0.0031,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-11-05T13:00:00+00:00",
@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 104.79,
-   "last_ts": "2026-11-06T16:40:26+00:00",
-   "move_pct": 4.55,
+   "last": 104.84,
+   "last_ts": "2026-11-06T16:45:26+00:00",
+   "move_pct": 4.5,
    "closed": false,
    "rsi": 44.1,
    "trade_on": "Perps 3x",
@@ -72,7 +72,7 @@
     0.0041569856788117605
    ],
    "lev": 1,
-   "funding_pct": 0.0016,
+   "funding_pct": 0.0015,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-05T15:00:00+00:00",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.005008,
-   "last_ts": "2026-11-06T16:40:26+00:00",
-   "move_pct": 3.15,
+   "last": 0.004998,
+   "last_ts": "2026-11-06T16:45:26+00:00",
+   "move_pct": 3.35,
    "closed": false,
    "rsi": 43.0,
    "trade_on": "Perps 1x",
@@ -125,9 +125,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.5768,
-   "last_ts": "2026-11-06T16:40:26+00:00",
-   "move_pct": 0.29,
+   "last": 0.5766,
+   "last_ts": "2026-11-06T16:45:26+00:00",
+   "move_pct": 0.33,
    "closed": false,
    "rsi": 35.5,
    "trade_on": "Perps 1x",
@@ -162,7 +162,7 @@
     236.38478146375465
    ],
    "lev": 3,
-   "funding_pct": -0.0033,
+   "funding_pct": -0.0036,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-05T18:00:00+00:00",
@@ -170,9 +170,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 266.8,
-   "last_ts": "2026-11-06T16:40:26+00:00",
-   "move_pct": 2.44,
+   "last": 266.45,
+   "last_ts": "2026-11-06T16:45:26+00:00",
+   "move_pct": 2.56,
    "closed": false,
    "rsi": 35.6,
    "trade_on": "Perps 3x",
@@ -216,7 +216,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.05029,
-   "last_ts": "2026-11-06T16:40:26+00:00",
+   "last_ts": "2026-11-06T16:45:26+00:00",
    "move_pct": -1.31,
    "closed": false,
    "rsi": 39.0,
@@ -259,9 +259,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.09358,
-   "last_ts": "2026-11-06T16:40:26+00:00",
-   "move_pct": -0.13,
+   "last": 0.09362,
+   "last_ts": "2026-11-06T16:45:26+00:00",
+   "move_pct": -0.09,
    "closed": false,
    "rsi": 69.8,
    "trade_on": "Perps 1x",
@@ -303,9 +303,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.167247033785011,
-   "last_ts": "2026-11-06T16:40:26+00:00",
-   "move_pct": -1.43,
+   "last": 0.16761047052836398,
+   "last_ts": "2026-11-06T16:45:26+00:00",
+   "move_pct": -1.21,
    "closed": false,
    "rsi": 67.0,
    "trade_on": "On-chain spot (Arbitrum DEX)",
@@ -7455,6 +7455,28 @@
     ]
    },
    {
+    "id": "meme-token",
+    "name": "Meme Token",
+    "chg7d": -3.01,
+    "top": [
+     "DOGE",
+     "SHIB",
+     "PEPE",
+     "M",
+     "PUMP"
+    ],
+    "tracked": [
+     "DOGE",
+     "PEPE",
+     "TRUMP",
+     "PUMP",
+     "PENGU",
+     "SHIB",
+     "USELESS",
+     "WIF"
+    ]
+   },
+   {
     "id": "storage",
     "name": "Storage",
     "chg7d": -3.06,
@@ -7491,28 +7513,6 @@
      "ATH",
      "LPT",
      "IOTA"
-    ]
-   },
-   {
-    "id": "meme-token",
-    "name": "Meme Token",
-    "chg7d": -3.08,
-    "top": [
-     "DOGE",
-     "SHIB",
-     "PEPE",
-     "M",
-     "PUMP"
-    ],
-    "tracked": [
-     "DOGE",
-     "PEPE",
-     "TRUMP",
-     "PUMP",
-     "PENGU",
-     "SHIB",
-     "USELESS",
-     "WIF"
     ]
    },
    {
@@ -7885,7 +7885,7 @@
   "updated": {
    "unlocks": 1793963726,
    "onchain": 1793982630,
-   "sectors": 1793982630,
+   "sectors": 1793983526,
    "listings": 1793981126,
    "fundamentals": 1793963727
   }
@@ -7924,6 +7924,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "f1e656089a4f6bad8ebdd3bbfb75ac7030bafb679bec55872db4b4b62bb0bf6c",
- "generated": "2026-11-06T16:40:31+00:00"
+ "digest": "ddfd3e5739c2fd768742303abd674bd1b420e0624a09e913625e5ffe035aea3f",
+ "generated": "2026-11-06T16:45:32+00:00"
 }
