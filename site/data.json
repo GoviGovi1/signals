@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 105.38,
-   "last_ts": "2026-11-06T21:40:23+00:00",
-   "move_pct": 4.01,
+   "last": 105.39,
+   "last_ts": "2026-11-06T21:45:23+00:00",
+   "move_pct": 4.0,
    "closed": false,
    "rsi": 44.1,
    "trade_on": "Perps 3x",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.00499,
-   "last_ts": "2026-11-06T21:40:23+00:00",
-   "move_pct": 3.5,
+   "last": 0.005003,
+   "last_ts": "2026-11-06T21:45:23+00:00",
+   "move_pct": 3.25,
    "closed": false,
    "rsi": 43.0,
    "trade_on": "Perps 1x",
@@ -125,9 +125,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.57,
-   "last_ts": "2026-11-06T21:40:23+00:00",
-   "move_pct": 1.47,
+   "last": 0.5707,
+   "last_ts": "2026-11-06T21:45:23+00:00",
+   "move_pct": 1.35,
    "closed": false,
    "rsi": 35.5,
    "trade_on": "Perps 1x",
@@ -162,7 +162,7 @@
     236.38478146375465
    ],
    "lev": 3,
-   "funding_pct": -0.017,
+   "funding_pct": -0.0171,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-05T18:00:00+00:00",
@@ -170,9 +170,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 262.42,
-   "last_ts": "2026-11-06T21:40:23+00:00",
-   "move_pct": 4.04,
+   "last": 262.83,
+   "last_ts": "2026-11-06T21:45:23+00:00",
+   "move_pct": 3.89,
    "closed": false,
    "rsi": 35.6,
    "trade_on": "Perps 3x",
@@ -216,7 +216,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.05019,
-   "last_ts": "2026-11-06T21:40:23+00:00",
+   "last_ts": "2026-11-06T21:45:23+00:00",
    "move_pct": -1.11,
    "closed": false,
    "rsi": 39.0,
@@ -259,9 +259,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.09247,
-   "last_ts": "2026-11-06T21:40:23+00:00",
-   "move_pct": -1.31,
+   "last": 0.09248,
+   "last_ts": "2026-11-06T21:45:23+00:00",
+   "move_pct": -1.3,
    "closed": false,
    "rsi": 69.8,
    "trade_on": "Perps 1x",
@@ -303,9 +303,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.16655073268538897,
-   "last_ts": "2026-11-06T21:40:23+00:00",
-   "move_pct": -1.84,
+   "last": 0.166982478783173,
+   "last_ts": "2026-11-06T21:45:23+00:00",
+   "move_pct": -1.58,
    "closed": false,
    "rsi": 67.0,
    "trade_on": "On-chain spot (Arbitrum DEX)",
@@ -343,9 +343,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.02014,
-   "last_ts": "2026-11-06T21:40:23+00:00",
-   "move_pct": 1.72,
+   "last": 0.02015,
+   "last_ts": "2026-11-06T21:45:23+00:00",
+   "move_pct": 1.77,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -7555,9 +7555,26 @@
     ]
    },
    {
+    "id": "storage",
+    "name": "Storage",
+    "chg7d": -3.44,
+    "top": [
+     "FIL",
+     "BTT",
+     "AR",
+     "AIOZ",
+     "WAL"
+    ],
+    "tracked": [
+     "FIL",
+     "AR",
+     "WAL"
+    ]
+   },
+   {
     "id": "meme-token",
     "name": "Meme Token",
-    "chg7d": -3.01,
+    "chg7d": -3.47,
     "top": [
      "DOGE",
      "SHIB",
@@ -7574,23 +7591,6 @@
      "SHIB",
      "USELESS",
      "WIF"
-    ]
-   },
-   {
-    "id": "storage",
-    "name": "Storage",
-    "chg7d": -3.44,
-    "top": [
-     "FIL",
-     "BTT",
-     "AR",
-     "AIOZ",
-     "WAL"
-    ],
-    "tracked": [
-     "FIL",
-     "AR",
-     "WAL"
     ]
    },
    {
@@ -7924,7 +7924,7 @@
   "updated": {
    "unlocks": 1793985326,
    "onchain": 1794000628,
-   "sectors": 1794000628,
+   "sectors": 1794001522,
    "listings": 1793999724,
    "fundamentals": 1793985327
   }
@@ -7963,6 +7963,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "e9542294f06d212e983cc4edc66306b76fa1a7fd97d233c34e6a2a5680856441",
- "generated": "2026-11-06T21:40:29+00:00"
+ "digest": "d865ad3b033c86c08dd50a034100b84531b5586bbf6c30ed27f1f14b3699cfde",
+ "generated": "2026-11-06T21:45:28+00:00"
 }
