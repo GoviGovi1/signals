@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 104.2,
-   "last_ts": "2026-11-06T14:10:26+00:00",
-   "move_pct": 5.08,
+   "last": 104.16,
+   "last_ts": "2026-11-06T14:15:25+00:00",
+   "move_pct": 5.12,
    "closed": false,
    "rsi": 44.1,
    "trade_on": "Perps 3x",
@@ -72,7 +72,7 @@
     0.0041569856788117605
    ],
    "lev": 1,
-   "funding_pct": 0.0001,
+   "funding_pct": -0.0005,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-05T15:00:00+00:00",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.004937,
-   "last_ts": "2026-11-06T14:10:26+00:00",
-   "move_pct": 4.53,
+   "last": 0.004945,
+   "last_ts": "2026-11-06T14:15:25+00:00",
+   "move_pct": 4.37,
    "closed": false,
    "rsi": 43.0,
    "trade_on": "Perps 1x",
@@ -126,7 +126,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 1.551,
-   "last_ts": "2026-11-06T14:10:26+00:00",
+   "last_ts": "2026-11-06T14:15:25+00:00",
    "move_pct": -0.32,
    "closed": false,
    "rsi": 40.2,
@@ -170,9 +170,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.5779,
-   "last_ts": "2026-11-06T14:10:26+00:00",
-   "move_pct": 0.1,
+   "last": 0.5784,
+   "last_ts": "2026-11-06T14:15:25+00:00",
+   "move_pct": 0.02,
    "closed": false,
    "rsi": 35.5,
    "trade_on": "Perps 1x",
@@ -215,9 +215,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 264.01,
-   "last_ts": "2026-11-06T14:10:26+00:00",
-   "move_pct": 3.46,
+   "last": 264.04,
+   "last_ts": "2026-11-06T14:15:25+00:00",
+   "move_pct": 3.44,
    "closed": false,
    "rsi": 35.6,
    "trade_on": "Perps 3x",
@@ -252,7 +252,7 @@
     0.04363089943881729
    ],
    "lev": 1,
-   "funding_pct": 0.0012,
+   "funding_pct": -0.0001,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-06T00:00:00+00:00",
@@ -260,9 +260,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0499,
-   "last_ts": "2026-11-06T14:10:26+00:00",
-   "move_pct": -0.52,
+   "last": 0.04983,
+   "last_ts": "2026-11-06T14:15:25+00:00",
+   "move_pct": -0.38,
    "closed": false,
    "rsi": 39.0,
    "trade_on": "Perps 1x",
@@ -304,9 +304,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.09591,
-   "last_ts": "2026-11-06T14:10:26+00:00",
-   "move_pct": 2.36,
+   "last": 0.09583,
+   "last_ts": "2026-11-06T14:15:25+00:00",
+   "move_pct": 2.27,
    "closed": false,
    "rsi": 69.8,
    "trade_on": "Perps 1x",
@@ -348,9 +348,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.16850891665572298,
-   "last_ts": "2026-11-06T14:10:26+00:00",
-   "move_pct": -0.68,
+   "last": 0.16861573539350297,
+   "last_ts": "2026-11-06T14:15:25+00:00",
+   "move_pct": -0.62,
    "closed": false,
    "rsi": 67.0,
    "trade_on": "On-chain spot (Arbitrum DEX)",
@@ -7595,6 +7595,28 @@
     ]
    },
    {
+    "id": "zero-knowledge-zk",
+    "name": "Zero Knowledge ZK",
+    "chg7d": -3.35,
+    "top": [
+     "ZEC",
+     "POL",
+     "NIGHT",
+     "STRK",
+     "RAIL"
+    ],
+    "tracked": [
+     "ZEC",
+     "STRK",
+     "MAGIC",
+     "NIGHT",
+     "POL",
+     "ZK",
+     "TRUTH",
+     "H"
+    ]
+   },
+   {
     "id": "layer-2",
     "name": "Layer 2",
     "chg7d": -3.41,
@@ -7701,28 +7723,6 @@
      "GRVT",
      "DYDX",
      "ORDER"
-    ]
-   },
-   {
-    "id": "zero-knowledge-zk",
-    "name": "Zero Knowledge ZK",
-    "chg7d": -4.7,
-    "top": [
-     "ZEC",
-     "POL",
-     "NIGHT",
-     "STRK",
-     "RAIL"
-    ],
-    "tracked": [
-     "ZEC",
-     "STRK",
-     "MAGIC",
-     "NIGHT",
-     "POL",
-     "ZK",
-     "TRUTH",
-     "H"
     ]
    },
    {
@@ -7916,7 +7916,7 @@
   "updated": {
    "unlocks": 1793963726,
    "onchain": 1793971830,
-   "sectors": 1793973635,
+   "sectors": 1793974524,
    "listings": 1793973634,
    "fundamentals": 1793963727
   }
@@ -7955,6 +7955,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "c1d056680e8ca5c6d2a5fe52e395116896c8621924f505fe73e5067861635554",
- "generated": "2026-11-06T14:10:33+00:00"
+ "digest": "fd3cb1a20a6ab86a74453fb07985d37a2721ac5553214cdede3401da6ed5b09e",
+ "generated": "2026-11-06T14:15:30+00:00"
 }
