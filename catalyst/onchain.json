@@ -20,17 +20,17 @@
   {
    "chain": "Solana",
    "fails": [
-    "liquidity under $250k",
     "pool younger than 7 days"
    ],
-   "symbol": "DIAMOND"
+   "symbol": "COGE"
   },
   {
    "chain": "Solana",
    "fails": [
+    "liquidity under $250k",
     "pool younger than 7 days"
    ],
-   "symbol": "COGE"
+   "symbol": "DIAMOND"
   },
   {
    "chain": "Solana",
@@ -51,6 +51,14 @@
   {
    "chain": "Solana",
    "fails": [
+    "liquidity under $250k",
+    "pool younger than 7 days"
+   ],
+   "symbol": "ALICE"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
     "no DEX candles"
    ],
    "symbol": "BIRB"
@@ -58,9 +66,10 @@
   {
    "chain": "Solana",
    "fails": [
-    "no DEX candles"
+    "liquidity under $250k",
+    "pool younger than 7 days"
    ],
-   "symbol": "PUMP"
+   "symbol": "AMD"
   },
   {
    "chain": "Solana",
@@ -76,22 +85,21 @@
     "liquidity under $250k",
     "pool younger than 7 days"
    ],
-   "symbol": "AMD"
+   "symbol": "RM"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "liquidity under $250k"
+   ],
+   "symbol": "STANK"
   },
   {
    "chain": "Solana",
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "TRUMP"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "liquidity under $250k",
-    "pool younger than 7 days"
-   ],
-   "symbol": "RM"
+   "symbol": "PUMP"
   },
   {
    "chain": "Solana",
@@ -112,6 +120,13 @@
    "fails": [
     "no DEX candles"
    ],
+   "symbol": "TRUMP"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "no DEX candles"
+   ],
    "symbol": "FLOAT"
   },
   {
@@ -120,14 +135,7 @@
     "liquidity under $250k",
     "pool younger than 7 days"
    ],
-   "symbol": "ALICE"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "liquidity under $250k"
-   ],
-   "symbol": "STANK"
+   "symbol": "WEALTH"
   },
   {
    "chain": "Solana",
@@ -139,16 +147,10 @@
   {
    "chain": "Solana",
    "fails": [
-    "no DEX candles"
+    "liquidity under $250k",
+    "pool younger than 7 days"
    ],
-   "symbol": "CATE"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "RAY"
+   "symbol": "ROCCO"
   },
   {
    "chain": "Base",
@@ -169,13 +171,6 @@
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "ELSA"
-  },
-  {
-   "chain": "Base",
-   "fails": [
-    "no DEX candles"
-   ],
    "symbol": "SNDKC"
   },
   {
@@ -190,14 +185,14 @@
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "VVV"
+   "symbol": "XDP"
   },
   {
    "chain": "Base",
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "XDP"
+   "symbol": "VVV"
   },
   {
    "chain": "Base",
@@ -216,9 +211,9 @@
   {
    "chain": "Base",
    "fails": [
-    "24h volume under $250k"
+    "no DEX candles"
    ],
-   "symbol": "TIBBIR"
+   "symbol": "ELSA"
   },
   {
    "chain": "Base",
@@ -226,6 +221,13 @@
     "24h volume under $250k"
    ],
    "symbol": "KTA"
+  },
+  {
+   "chain": "Base",
+   "fails": [
+    "24h volume under $250k"
+   ],
+   "symbol": "TIBBIR"
   },
   {
    "chain": "Base",
@@ -244,7 +246,7 @@
   {
    "chain": "Base",
    "fails": [
-    "no DEX candles"
+    "liquidity under $250k"
    ],
    "symbol": "RSGP"
   },
@@ -293,55 +295,55 @@
   }
  ],
  "rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
- "updated": 1794040226,
+ "updated": 1794043824,
  "watchlist": [
   {
-   "age_d": 53.8,
-   "atr": 0.04638129367003647,
-   "bar_ts": 1794034800000,
+   "age_d": 433.1,
+   "atr": 0.0008528342384077995,
+   "bar_ts": 1794038400000,
    "chain": "BSC",
-   "chg24h": 1.79,
-   "chg7d": -3.1,
-   "close": 4.90227345250053,
-   "ema20": 4.857747880208575,
-   "ema50": 4.843919319708549,
+   "chg24h": -2.495,
+   "chg7d": -16.7,
+   "close": 0.027699079292573696,
+   "ema20": 0.027703914236032117,
+   "ema50": 0.027680016598411863,
    "fails": [],
-   "gecko_id": "cea-industries-bstocks-tokenized-stock",
-   "liq": 3552562,
-   "mcap": 38323124.4595026,
-   "name": "B13B",
+   "gecko_id": "quack-ai",
+   "liq": 1075851,
+   "mcap": 135302208.499999,
+   "name": "Quack AI Token",
    "net": "bsc",
-   "pool": "0x320e8096e5e7a46e43446141a5b15d801fc596f5",
-   "price": 4.90440788467999,
-   "rsi": 59.9,
+   "pool": "0x8bafe0bdd3eb9ae0539f5b32e771c1a72a189b7f",
+   "price": 0.0276380977857512,
+   "rsi": 50.5,
    "safety": "ok",
    "safety_notes": [],
-   "symbol": "B13B",
-   "token": "0x4902c5ebc598265ed2212b559b042de8a5eeec3f",
+   "symbol": "Q",
+   "token": "0xc07e1300dc138601fa6b0b59f8d0fa477e690589",
    "trend_up": true,
    "trigger": false,
-   "url": "https://www.geckoterminal.com/bsc/pools/0x320e8096e5e7a46e43446141a5b15d801fc596f5",
-   "vol24h": 3894676
+   "url": "https://www.geckoterminal.com/bsc/pools/0x8bafe0bdd3eb9ae0539f5b32e771c1a72a189b7f",
+   "vol24h": 3716749
   },
   {
-   "age_d": 12.2,
-   "atr": 0.0031893752784735788,
-   "bar_ts": 1794034800000,
+   "age_d": 12.3,
+   "atr": 0.003051819902641918,
+   "bar_ts": 1794038400000,
    "chain": "Arbitrum",
-   "chg24h": -0.062,
-   "chg7d": -0.0,
-   "close": 0.9994221109824789,
-   "ema20": 0.9998877100563865,
-   "ema50": 0.9999331815282797,
+   "chg24h": 0.124,
+   "chg7d": -0.1,
+   "close": 0.99989933170435,
+   "ema20": 0.9998888168803903,
+   "ema50": 0.9999319686047108,
    "fails": [],
    "gecko_id": "global-dollar",
-   "liq": 1296808,
-   "mcap": 2723057165.18765,
+   "liq": 1297927,
+   "mcap": 2724828148.67766,
    "name": "Global Dollar",
    "net": "arbitrum",
    "pool": "0x09328be718d89228a985471bb470988a34d0b162",
-   "price": 0.99963268751244,
-   "rsi": 47.9,
+   "price": 1.00028281448578,
+   "rsi": 50.0,
    "safety": "ok",
    "safety_notes": [],
    "symbol": "USDG",
@@ -349,7 +351,7 @@
    "trend_up": false,
    "trigger": false,
    "url": "https://www.geckoterminal.com/arbitrum/pools/0x09328be718d89228a985471bb470988a34d0b162",
-   "vol24h": 7592994
+   "vol24h": 7481082
   }
  ]
 }
