@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 105.44,
-   "last_ts": "2026-11-07T02:55:21+00:00",
-   "move_pct": 3.95,
+   "last": 105.45,
+   "last_ts": "2026-11-07T03:00:31+00:00",
+   "move_pct": 3.94,
    "closed": false,
    "rsi": 44.1,
    "trade_on": "Perps 3x",
@@ -72,7 +72,7 @@
     0.0041569856788117605
    ],
    "lev": 1,
-   "funding_pct": 0.0031,
+   "funding_pct": 0.0033,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-05T15:00:00+00:00",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.004966,
-   "last_ts": "2026-11-07T02:55:21+00:00",
-   "move_pct": 3.96,
+   "last": 0.004975,
+   "last_ts": "2026-11-07T03:00:31+00:00",
+   "move_pct": 3.79,
    "closed": false,
    "rsi": 43.0,
    "trade_on": "Perps 1x",
@@ -126,7 +126,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.5661,
-   "last_ts": "2026-11-07T02:55:21+00:00",
+   "last_ts": "2026-11-07T03:00:31+00:00",
    "move_pct": 2.14,
    "closed": false,
    "rsi": 35.5,
@@ -162,7 +162,7 @@
     236.38478146375465
    ],
    "lev": 3,
-   "funding_pct": -0.0118,
+   "funding_pct": -0.0114,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-05T18:00:00+00:00",
@@ -170,59 +170,15 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 262.18,
-   "last_ts": "2026-11-07T02:55:21+00:00",
-   "move_pct": 4.12,
+   "last": 262.4,
+   "last_ts": "2026-11-07T03:00:31+00:00",
+   "move_pct": 4.04,
    "closed": false,
    "rsi": 35.6,
    "trade_on": "Perps 3x",
    "market_reason": "shorts need perps; 3x keeps liquidation 3x+ further away than the stop",
    "chart": "charts/BCH-PERP-1793898000.png",
    "setup": "BREAKOUT20"
-  },
-  {
-   "id": "ARB-DEX-arbitrum-0x912ce591-1793959200",
-   "kind": "ONCHAIN",
-   "score": null,
-   "reasons": [
-    "Trending on Arbitrum (GeckoTerminal), $7.1M volume 24h",
-    "Liquidity $1.8M, pool 1330 days old",
-    "Safety: GoPlus OK",
-    "Chart: 20-hour breakout above EMA50 on the DEX, RSI 67",
-    "Untested: no free history to backtest on-chain signals"
-   ],
-   "chain": "Arbitrum",
-   "token": "0x912ce59144191c1204e64559fe8253a0e49e6548",
-   "url": "https://www.geckoterminal.com/arbitrum/pools/0xc6f780497a95e246eb9449f5e4770916dcd6396a",
-   "coin": "ARB",
-   "market": "DEX",
-   "side": "LONG",
-   "entry": 0.16966573694537998,
-   "sl0": 0.16396589590712712,
-   "sl": 0.16396589590712712,
-   "tps": [
-    0.17536557798363284,
-    0.1810654190218857,
-    0.18676526006013855
-   ],
-   "lev": null,
-   "funding_pct": null,
-   "status": "open",
-   "hits": 0,
-   "opened": "2026-11-06T11:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.16402813431896598,
-   "last_ts": "2026-11-07T02:55:21+00:00",
-   "move_pct": -3.32,
-   "closed": false,
-   "rsi": 67.0,
-   "trade_on": "On-chain spot (Arbitrum DEX)",
-   "market_reason": "not listed on OKX; buy on a DEX, small size, no leverage",
-   "chart": "charts/ARB-DEX-arbitrum-0x912ce591-1793959200.png",
-   "setup": null
   },
   {
    "id": "PROMPT-SPOT-HOT-20763",
@@ -254,18 +210,107 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.02046,
-   "last_ts": "2026-11-07T02:55:21+00:00",
-   "move_pct": 3.33,
+   "last": 0.02036,
+   "last_ts": "2026-11-07T03:00:31+00:00",
+   "move_pct": 2.83,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
    "market_reason": "only spot is listed",
    "chart": "charts/PROMPT-SPOT-HOT-20763.png",
    "setup": "HOT24"
+  },
+  {
+   "id": "EIGEN-PERP-1794016800",
+   "kind": "TA",
+   "score": 0,
+   "reasons": [
+    "Chart: Break of structure: closed below the last swing low 0.1715, after a lower high",
+    "Timeframes: 1d down, 4h down, 4h structure lower highs/lows",
+    "Next support 0.16409 (2.2R away, 4h swing/swing/volume node)",
+    "Stop 0.17416 (structure); targets at the next 2 level(s)",
+    "BTC 4h trend down",
+    "Weaker than BTC by 6.5% over 7d",
+    "OI +4% 24h",
+    "Sector: Artificial Intelligence -3.6% 7d (middle, #11 of 20)",
+    "Track record: +4.1R on EIGEN in the last 45 days (backtest)"
+   ],
+   "coin": "EIGEN",
+   "market": "PERP",
+   "side": "SHORT",
+   "entry": 0.171,
+   "sl0": 0.17416238410002288,
+   "sl": 0.17416238410002288,
+   "tps": [
+    0.16444596477728415,
+    0.15935119205001144,
+    0.15618880794998857
+   ],
+   "lev": 1,
+   "funding_pct": 0.005,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-11-07T03:00:00+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.1709,
+   "last_ts": "2026-11-07T03:00:31+00:00",
+   "move_pct": 0.06,
+   "closed": false,
+   "rsi": 40.6,
+   "trade_on": "Perps 1x",
+   "market_reason": "shorts need perps; thin perp market, so 1x",
+   "chart": "charts/EIGEN-PERP-1794016800.png",
+   "setup": "BOS"
   }
  ],
  "closed": [
+  {
+   "id": "ARB-DEX-arbitrum-0x912ce591-1793959200",
+   "kind": "ONCHAIN",
+   "score": null,
+   "reasons": [
+    "Trending on Arbitrum (GeckoTerminal), $7.1M volume 24h",
+    "Liquidity $1.8M, pool 1330 days old",
+    "Safety: GoPlus OK",
+    "Chart: 20-hour breakout above EMA50 on the DEX, RSI 67",
+    "Untested: no free history to backtest on-chain signals"
+   ],
+   "chain": "Arbitrum",
+   "token": "0x912ce59144191c1204e64559fe8253a0e49e6548",
+   "url": "https://www.geckoterminal.com/arbitrum/pools/0xc6f780497a95e246eb9449f5e4770916dcd6396a",
+   "coin": "ARB",
+   "market": "DEX",
+   "side": "LONG",
+   "entry": 0.16966573694537998,
+   "sl0": 0.16396589590712712,
+   "sl": 0.16396589590712712,
+   "tps": [
+    0.17536557798363284,
+    0.1810654190218857,
+    0.18676526006013855
+   ],
+   "lev": null,
+   "funding_pct": null,
+   "status": "stopped",
+   "hits": 0,
+   "opened": "2026-11-06T11:00:00+00:00",
+   "closed_at": "2026-11-07T03:00:31+00:00",
+   "exit_price": 0.16396589590712712,
+   "result_r": -1.0,
+   "result_pct": -3.36,
+   "last": 0.164038580366535,
+   "last_ts": "2026-11-07T03:00:31+00:00",
+   "move_pct": -3.32,
+   "closed": true,
+   "rsi": 67.0,
+   "trade_on": "On-chain spot (Arbitrum DEX)",
+   "market_reason": "not listed on OKX; buy on a DEX, small size, no leverage",
+   "chart": "charts/ARB-DEX-arbitrum-0x912ce591-1793959200.png",
+   "setup": null
+  },
   {
    "id": "BLEND-PERP-1793919600",
    "kind": "TA",
@@ -2018,7 +2063,7 @@
    "rsi": 26.5,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": "charts/ZK-PERP-1793671200.png",
+   "chart": null,
    "setup": "RANGE_BREAK"
   },
   {
@@ -2856,57 +2901,17 @@
    "market_reason": "only spot is listed",
    "chart": null,
    "setup": "HOT24"
-  },
-  {
-   "id": "OP-SPOT-HOT-20757",
-   "kind": "HOT",
-   "score": 356.39,
-   "reasons": [
-    "24h hot mover +20% with volume spike (2.6x the prior 3 days)",
-    "24h volume $5.1M on the OKX spot book, listed 1613 days",
-    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
-    "Stop 0.1157 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
-   ],
-   "coin": "OP",
-   "market": "SPOT",
-   "side": "LONG",
-   "entry": 0.12141,
-   "sl0": 0.11569974506428118,
-   "sl": 0.11569974506428118,
-   "tps": [
-    0.12712025493571882,
-    0.13283050987143766,
-    0.13854076480715646
-   ],
-   "lev": null,
-   "funding_pct": null,
-   "status": "stopped",
-   "hits": 0,
-   "opened": "2026-10-31T00:05:22+00:00",
-   "closed_at": "2026-10-31T04:35:20+00:00",
-   "exit_price": 0.11569974506428118,
-   "result_r": -1.0,
-   "result_pct": -4.7,
-   "last": 0.11566,
-   "last_ts": "2026-10-31T04:35:20+00:00",
-   "move_pct": -4.14,
-   "closed": true,
-   "rsi": null,
-   "trade_on": "Spot",
-   "market_reason": "trend not strong enough for leverage: spot has no liquidation or funding",
-   "chart": null,
-   "setup": "HOT24"
   }
  ],
  "stats": {
   "all": {
-   "trades": 141,
+   "trades": 142,
    "wins": 56,
-   "losses": 85,
-   "win_rate": 39.7,
-   "total_r": -16.64,
-   "avg_r": -0.118,
-   "total_pct": -49.89
+   "losses": 86,
+   "win_rate": 39.4,
+   "total_r": -17.64,
+   "avg_r": -0.124,
+   "total_pct": -53.25
   },
   "SPOT": {
    "trades": 46,
@@ -2927,13 +2932,13 @@
    "total_pct": -51.94
   },
   "DEX": {
-   "trades": 6,
+   "trades": 7,
    "wins": 3,
-   "losses": 3,
-   "win_rate": 50.0,
-   "total_r": 1.0,
-   "avg_r": 0.167,
-   "total_pct": 9.09
+   "losses": 4,
+   "win_rate": 42.9,
+   "total_r": 0.0,
+   "avg_r": 0.0,
+   "total_pct": 5.73
   },
   "kinds": {
    "HOT": {
@@ -2946,13 +2951,13 @@
     "total_pct": -24.19
    },
    "ONCHAIN": {
-    "trades": 6,
+    "trades": 7,
     "wins": 3,
-    "losses": 3,
-    "win_rate": 50.0,
-    "total_r": 1.0,
-    "avg_r": 0.167,
-    "total_pct": 9.09
+    "losses": 4,
+    "win_rate": 42.9,
+    "total_r": 0.0,
+    "avg_r": 0.0,
+    "total_pct": 5.73
    },
    "TA": {
     "trades": 101,
@@ -3072,6 +3077,15 @@
     "total_r": -1.0,
     "avg_r": -1.0,
     "total_pct": -12.0
+   },
+   "ARB": {
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate": 0.0,
+    "total_r": -1.0,
+    "avg_r": -1.0,
+    "total_pct": -3.36
    },
    "ARKM": {
     "trades": 1,
@@ -7877,6 +7891,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "099af3afdfe8468a7a4419d3a4c97e88f43b6c89abb259363be352aa53f9bc76",
- "generated": "2026-11-07T02:55:26+00:00"
+ "digest": "c15d48e034d089209601d6ab00dcb3a3ede6f758649d9e9c50111f9af7730e90",
+ "generated": "2026-11-07T03:01:14+00:00"
 }
