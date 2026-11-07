@@ -1,5 +1,5 @@
 {
- "checked": 85,
+ "checked": 84,
  "errors": [],
  "rejected": [
   {
@@ -13,6 +13,13 @@
   {
    "chain": "Solana",
    "fails": [
+    "no DEX candles"
+   ],
+   "symbol": "ANSEM"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
     "liquidity under $250k",
     "pool younger than 7 days"
    ],
@@ -21,9 +28,9 @@
   {
    "chain": "Solana",
    "fails": [
-    "no DEX candles"
+    "pool younger than 7 days"
    ],
-   "symbol": "ANSEM"
+   "symbol": "COGE"
   },
   {
    "chain": "Solana",
@@ -36,9 +43,10 @@
   {
    "chain": "Solana",
    "fails": [
+    "liquidity under $250k",
     "pool younger than 7 days"
    ],
-   "symbol": "COGE"
+   "symbol": "RM"
   },
   {
    "chain": "Solana",
@@ -60,22 +68,7 @@
     "liquidity under $250k",
     "pool younger than 7 days"
    ],
-   "symbol": "RM"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "liquidity under $250k",
-    "pool younger than 7 days"
-   ],
    "symbol": "AMD"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "TRUMP"
   },
   {
    "chain": "Solana",
@@ -90,7 +83,7 @@
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "STONK"
+   "symbol": "TRUMP"
   },
   {
    "chain": "Solana",
@@ -103,9 +96,9 @@
   {
    "chain": "Solana",
    "fails": [
-    "mint authority on"
+    "no DEX candles"
    ],
-   "symbol": "ZEC"
+   "symbol": "STONK"
   },
   {
    "chain": "Solana",
@@ -131,9 +124,9 @@
   {
    "chain": "Solana",
    "fails": [
-    "no DEX candles"
+    "mint authority on"
    ],
-   "symbol": "CARDS"
+   "symbol": "ZEC"
   },
   {
    "chain": "Solana",
@@ -142,6 +135,13 @@
     "pool younger than 7 days"
    ],
    "symbol": "AMD"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "no DEX candles"
+   ],
+   "symbol": "CARDS"
   },
   {
    "chain": "Solana",
@@ -163,6 +163,13 @@
     "liquidity under $250k"
    ],
    "symbol": "ICNT"
+  },
+  {
+   "chain": "Base",
+   "fails": [
+    "no DEX candles"
+   ],
+   "symbol": "ELSA"
   },
   {
    "chain": "Base",
@@ -195,16 +202,16 @@
   {
    "chain": "Base",
    "fails": [
-    "24h volume under $250k"
+    "pool younger than 7 days"
    ],
-   "symbol": "TIBBIR"
+   "symbol": "REBOOT"
   },
   {
    "chain": "Base",
    "fails": [
-    "pool younger than 7 days"
+    "24h volume under $250k"
    ],
-   "symbol": "REBOOT"
+   "symbol": "TIBBIR"
   },
   {
    "chain": "Base",
@@ -253,15 +260,14 @@
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "HIMSC"
+   "symbol": "AERO"
   },
   {
    "chain": "Base",
    "fails": [
-    "liquidity under $250k",
-    "24h volume under $250k"
+    "liquidity under $250k"
    ],
-   "symbol": "FLOWER"
+   "symbol": "HIMSC"
   },
   {
    "chain": "BSC",
@@ -273,15 +279,6 @@
   {
    "chain": "BSC",
    "fails": [
-    "liquidity under $250k",
-    "pool younger than 7 days",
-    "24h volume under $250k"
-   ],
-   "symbol": "\u8774\u8776\u91d1\u5e93"
-  },
-  {
-   "chain": "BSC",
-   "fails": [
     "no DEX candles"
    ],
    "symbol": "AKE"
@@ -289,97 +286,71 @@
   {
    "chain": "BSC",
    "fails": [
-    "no DEX candles"
+    "liquidity under $250k",
+    "pool younger than 7 days",
+    "24h volume under $250k"
    ],
-   "symbol": "UAI"
+   "symbol": "\u8774\u8776\u91d1\u5e93"
   }
  ],
  "rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
- "updated": 1794033030,
+ "updated": 1794036625,
  "watchlist": [
   {
-   "age_d": 444.9,
-   "atr": 0.007347163183612532,
-   "bar_ts": 1794027600000,
-   "chain": "BSC",
-   "chg24h": 7.888,
-   "chg7d": 84.5,
-   "close": 0.15648400599124998,
-   "ema20": 0.14626398813068414,
-   "ema50": 0.14148284775787898,
-   "fails": [],
-   "gecko_id": "aria-ai",
-   "liq": 1842358,
-   "mcap": 28896237.2331,
-   "name": "ARIA.AI",
-   "net": "bsc",
-   "pool": "0xa5dbeaf16fc031eae92175974f8d0a439be4ad17",
-   "price": 0.157098978973179,
-   "rsi": 63.8,
-   "safety": "ok",
-   "safety_notes": [],
-   "symbol": "ARIA",
-   "token": "0x5d3a12c42e5372b2cc3264ab3cdcf660a1555238",
-   "trend_up": true,
-   "trigger": true,
-   "url": "https://www.geckoterminal.com/bsc/pools/0xa5dbeaf16fc031eae92175974f8d0a439be4ad17",
-   "vol24h": 11323240
-  },
-  {
-   "age_d": 1331.2,
-   "atr": 0.0020330272405334566,
-   "bar_ts": 1794027600000,
+   "age_d": 12.2,
+   "atr": 0.0033194660703420578,
+   "bar_ts": 1794031200000,
    "chain": "Arbitrum",
-   "chg24h": -0.775,
-   "chg7d": 3.3,
-   "close": 0.166719461158343,
-   "ema20": 0.16565187321045158,
-   "ema50": 0.16446592685942657,
+   "chg24h": -0.11,
+   "chg7d": -0.1,
+   "close": 0.999832543440085,
+   "ema20": 0.9999367204847616,
+   "ema50": 0.9999539999506718,
    "fails": [],
-   "gecko_id": "arbitrum",
-   "liq": 1862000,
-   "mcap": 1145878388.74114,
-   "name": "Arbitrum",
+   "gecko_id": "global-dollar",
+   "liq": 1298162,
+   "mcap": 2725160725.20775,
+   "name": "Global Dollar",
    "net": "arbitrum",
-   "pool": "0xc6f780497a95e246eb9449f5e4770916dcd6396a",
-   "price": 0.166307174397487,
-   "rsi": 55.1,
+   "pool": "0x09328be718d89228a985471bb470988a34d0b162",
+   "price": 1.00045836059613,
+   "rsi": 49.5,
    "safety": "ok",
    "safety_notes": [],
-   "symbol": "ARB",
-   "token": "0x912ce59144191c1204e64559fe8253a0e49e6548",
-   "trend_up": true,
-   "trigger": false,
-   "url": "https://www.geckoterminal.com/arbitrum/pools/0xc6f780497a95e246eb9449f5e4770916dcd6396a",
-   "vol24h": 3979627
-  },
-  {
-   "age_d": 290.9,
-   "atr": 0.002868426525012835,
-   "bar_ts": 1794027600000,
-   "chain": "Base",
-   "chg24h": 2.123,
-   "chg7d": 12.8,
-   "close": 0.0792182340795206,
-   "ema20": 0.07911770230685151,
-   "ema50": 0.08030136664531327,
-   "fails": [],
-   "gecko_id": "elsa",
-   "liq": 528285,
-   "mcap": 18179321.5391214,
-   "name": "Elsa",
-   "net": "base",
-   "pool": "0x83f3aca29bc79b048b99c56013475570acc97ccf",
-   "price": 0.0793926174318771,
-   "rsi": 49.1,
-   "safety": "ok",
-   "safety_notes": [],
-   "symbol": "ELSA",
-   "token": "0x29cc30f9d113b356ce408667aa6433589cecbdca",
+   "symbol": "USDG",
+   "token": "0x004b506865409877c9fa29bfb1eba929984b9bbc",
    "trend_up": false,
    "trigger": false,
-   "url": "https://www.geckoterminal.com/base/pools/0x83f3aca29bc79b048b99c56013475570acc97ccf",
-   "vol24h": 6125746
+   "url": "https://www.geckoterminal.com/arbitrum/pools/0x09328be718d89228a985471bb470988a34d0b162",
+   "vol24h": 7935147
+  },
+  {
+   "age_d": 437.8,
+   "atr": 0.08575411661003454,
+   "bar_ts": 1794031200000,
+   "chain": "BSC",
+   "chg24h": 0.54,
+   "chg7d": 0.2,
+   "close": 6.417645254181799,
+   "ema20": 6.415309549099149,
+   "ema50": 6.422553191872317,
+   "fails": [],
+   "gecko_id": "ark-3",
+   "liq": 58341335,
+   "mcap": 0.0,
+   "name": "ARK",
+   "net": "bsc",
+   "pool": "0xcaaf3c41a40103a23eeaa4bba468af3cf5b0e0d8",
+   "price": 6.40359334269125,
+   "rsi": 50.0,
+   "safety": "ok",
+   "safety_notes": [],
+   "symbol": "ARK",
+   "token": "0xcae117ca6bc8a341d2e7207f30e180f0e5618b9d",
+   "trend_up": false,
+   "trigger": false,
+   "url": "https://www.geckoterminal.com/bsc/pools/0xcaaf3c41a40103a23eeaa4bba468af3cf5b0e0d8",
+   "vol24h": 4186773
   }
  ]
 }
