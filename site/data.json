@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 105.67,
-   "last_ts": "2026-11-07T01:45:26+00:00",
-   "move_pct": 3.74,
+   "last": 105.68,
+   "last_ts": "2026-11-07T01:50:25+00:00",
+   "move_pct": 3.73,
    "closed": false,
    "rsi": 44.1,
    "trade_on": "Perps 3x",
@@ -72,7 +72,7 @@
     0.0041569856788117605
    ],
    "lev": 1,
-   "funding_pct": 0.005,
+   "funding_pct": 0.0046,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-05T15:00:00+00:00",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.005007,
-   "last_ts": "2026-11-07T01:45:26+00:00",
-   "move_pct": 3.17,
+   "last": 0.005004,
+   "last_ts": "2026-11-07T01:50:25+00:00",
+   "move_pct": 3.23,
    "closed": false,
    "rsi": 43.0,
    "trade_on": "Perps 1x",
@@ -125,9 +125,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.5685,
-   "last_ts": "2026-11-07T01:45:26+00:00",
-   "move_pct": 1.73,
+   "last": 0.5688,
+   "last_ts": "2026-11-07T01:50:25+00:00",
+   "move_pct": 1.68,
    "closed": false,
    "rsi": 35.5,
    "trade_on": "Perps 1x",
@@ -162,7 +162,7 @@
     236.38478146375465
    ],
    "lev": 3,
-   "funding_pct": -0.0126,
+   "funding_pct": -0.0124,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-05T18:00:00+00:00",
@@ -170,9 +170,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 264.29,
-   "last_ts": "2026-11-07T01:45:26+00:00",
-   "move_pct": 3.35,
+   "last": 264.17,
+   "last_ts": "2026-11-07T01:50:25+00:00",
+   "move_pct": 3.4,
    "closed": false,
    "rsi": 35.6,
    "trade_on": "Perps 3x",
@@ -207,7 +207,7 @@
     0.04363089943881729
    ],
    "lev": 1,
-   "funding_pct": 0.0013,
+   "funding_pct": 0.0018,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-06T00:00:00+00:00",
@@ -216,7 +216,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.05081,
-   "last_ts": "2026-11-07T01:45:26+00:00",
+   "last_ts": "2026-11-07T01:50:25+00:00",
    "move_pct": -2.36,
    "closed": false,
    "rsi": 39.0,
@@ -259,9 +259,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.16418678831697198,
-   "last_ts": "2026-11-07T01:45:26+00:00",
-   "move_pct": -3.23,
+   "last": 0.16412348200198099,
+   "last_ts": "2026-11-07T01:50:25+00:00",
+   "move_pct": -3.27,
    "closed": false,
    "rsi": 67.0,
    "trade_on": "On-chain spot (Arbitrum DEX)",
@@ -299,9 +299,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.02026,
-   "last_ts": "2026-11-07T01:45:26+00:00",
-   "move_pct": 2.32,
+   "last": 0.02069,
+   "last_ts": "2026-11-07T01:50:25+00:00",
+   "move_pct": 4.49,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -7348,28 +7348,6 @@
     ]
    },
    {
-    "id": "solana-meme-coins",
-    "name": "Solana Meme Coins",
-    "chg7d": -1.93,
-    "top": [
-     "PENGU",
-     "TRUMP",
-     "BONK",
-     "WIF",
-     "USELESS"
-    ],
-    "tracked": [
-     "TRUMP",
-     "PENGU",
-     "USELESS",
-     "WIF",
-     "BOME",
-     "FARTCOIN",
-     "BONK",
-     "ACT"
-    ]
-   },
-   {
     "id": "decentralized-exchange",
     "name": "Decentralized Exchange",
     "chg7d": -2.41,
@@ -7618,6 +7596,28 @@
      "BNB",
      "AVAX",
      "ZEC"
+    ]
+   },
+   {
+    "id": "solana-meme-coins",
+    "name": "Solana Meme Coins",
+    "chg7d": -3.74,
+    "top": [
+     "PENGU",
+     "TRUMP",
+     "BONK",
+     "WIF",
+     "USELESS"
+    ],
+    "tracked": [
+     "TRUMP",
+     "PENGU",
+     "USELESS",
+     "WIF",
+     "BOME",
+     "FARTCOIN",
+     "BONK",
+     "ACT"
     ]
    },
    {
@@ -7888,7 +7888,7 @@
   "updated": {
    "unlocks": 1794006926,
    "onchain": 1794015035,
-   "sectors": 1794015322,
+   "sectors": 1794016225,
    "listings": 1794014423,
    "fundamentals": 1794006927
   }
@@ -7927,6 +7927,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "596f1e80e329d56a014b9dc1fb16b3946adf1e770c4b5f5c3f901fff6a3d1704",
- "generated": "2026-11-07T01:45:31+00:00"
+ "digest": "48f60f0965a3574ccfab9767f2518f1b86dd3a05939f4eed4729e5fc042c25c2",
+ "generated": "2026-11-07T01:50:31+00:00"
 }
