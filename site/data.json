@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 105.35,
-   "last_ts": "2026-11-07T03:31:29+00:00",
-   "move_pct": 4.04,
+   "last": 105.18,
+   "last_ts": "2026-11-07T03:35:19+00:00",
+   "move_pct": 4.19,
    "closed": false,
    "rsi": 44.1,
    "trade_on": "Perps 3x",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.004977,
-   "last_ts": "2026-11-07T03:31:29+00:00",
-   "move_pct": 3.75,
+   "last": 0.00496,
+   "last_ts": "2026-11-07T03:35:19+00:00",
+   "move_pct": 4.08,
    "closed": false,
    "rsi": 43.0,
    "trade_on": "Perps 1x",
@@ -117,7 +117,7 @@
     0.5111879175555537
    ],
    "lev": 1,
-   "funding_pct": 0.0017,
+   "funding_pct": 0.0011,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-05T15:00:00+00:00",
@@ -125,9 +125,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.5654,
-   "last_ts": "2026-11-07T03:31:29+00:00",
-   "move_pct": 2.26,
+   "last": 0.5633,
+   "last_ts": "2026-11-07T03:35:19+00:00",
+   "move_pct": 2.63,
    "closed": false,
    "rsi": 35.5,
    "trade_on": "Perps 1x",
@@ -162,7 +162,7 @@
     236.38478146375465
    ],
    "lev": 3,
-   "funding_pct": -0.0102,
+   "funding_pct": -0.0103,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-05T18:00:00+00:00",
@@ -170,9 +170,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 262.46,
-   "last_ts": "2026-11-07T03:31:29+00:00",
-   "move_pct": 4.02,
+   "last": 261.52,
+   "last_ts": "2026-11-07T03:35:19+00:00",
+   "move_pct": 4.37,
    "closed": false,
    "rsi": 35.6,
    "trade_on": "Perps 3x",
@@ -210,9 +210,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.02008,
-   "last_ts": "2026-11-07T03:31:29+00:00",
-   "move_pct": 1.41,
+   "last": 0.02016,
+   "last_ts": "2026-11-07T03:35:19+00:00",
+   "move_pct": 1.82,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -255,15 +255,55 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1707,
-   "last_ts": "2026-11-07T03:31:29+00:00",
-   "move_pct": 0.18,
+   "last": 0.1696,
+   "last_ts": "2026-11-07T03:35:19+00:00",
+   "move_pct": 0.82,
    "closed": false,
    "rsi": 40.6,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": "charts/EIGEN-PERP-1794016800.png",
    "setup": "BOS"
+  },
+  {
+   "id": "AKE-PERP-HOT-20764",
+   "kind": "HOT",
+   "score": 2667.54,
+   "reasons": [
+    "24h hot mover +103% with volume spike (3.0x the prior 3 days)",
+    "24h volume $570.5M on the OKX perp book, listed 52 days",
+    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
+    "Stop 0.0052782 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
+   ],
+   "coin": "AKE",
+   "market": "PERP",
+   "side": "LONG",
+   "entry": 0.005998,
+   "sl0": 0.00527824,
+   "sl": 0.00527824,
+   "tps": [
+    0.00671776,
+    0.0074375199999999995,
+    0.00815728
+   ],
+   "lev": 1,
+   "funding_pct": 0.0582,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-11-07T03:35:19+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.006,
+   "last_ts": "2026-11-07T03:35:19+00:00",
+   "move_pct": 0.03,
+   "closed": false,
+   "rsi": null,
+   "trade_on": "Perps 1x",
+   "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
+   "chart": "charts/AKE-PERP-HOT-20764.png",
+   "setup": "HOT24"
   }
  ],
  "closed": [
@@ -3907,7 +3947,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 6
+  "open": 7
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7292,7 +7332,7 @@
    {
     "id": "decentralized-finance-defi",
     "name": "Decentralized Finance DeFi",
-    "chg7d": -0.19,
+    "chg7d": -1.42,
     "top": [
      "STETH",
      "HYPE",
@@ -7852,7 +7892,7 @@
   "updated": {
    "unlocks": 1794006926,
    "onchain": 1794022227,
-   "sectors": 1794021626,
+   "sectors": 1794022519,
    "listings": 1794021626,
    "fundamentals": 1794006927
   }
@@ -7891,6 +7931,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "bf353c23ccd308d9852459fd5c4b5a2a7af525562dfa083217f08ba18a15f6b8",
- "generated": "2026-11-07T03:31:32+00:00"
+ "digest": "d5945e334ae61f2c33f89c7f0f8c4726ce4615e4656a26b0bbf28778d4d0b063",
+ "generated": "2026-11-07T03:35:25+00:00"
 }
