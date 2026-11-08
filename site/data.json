@@ -19,24 +19,24 @@
    "side": "SHORT",
    "entry": 0.3696,
    "sl0": 0.37548584272672386,
-   "sl": 0.37548584272672386,
+   "sl": 0.3696,
    "tps": [
     0.3518414382045043,
     0.34844143820450435,
     0.3425555954777805
    ],
    "lev": 1,
-   "funding_pct": -0.0238,
-   "status": "open",
-   "hits": 0,
+   "funding_pct": -0.0221,
+   "status": "tp2",
+   "hits": 2,
    "opened": "2026-11-08T03:00:00+00:00",
    "closed_at": null,
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.3568,
-   "last_ts": "2026-11-08T21:55:22+00:00",
-   "move_pct": 3.46,
+   "last": 0.3559,
+   "last_ts": "2026-11-08T22:00:32+00:00",
+   "move_pct": 3.71,
    "closed": false,
    "rsi": 36.9,
    "trade_on": "Perps 1x",
@@ -63,24 +63,24 @@
    "side": "SHORT",
    "entry": 0.002054,
    "sl0": 0.0022197634201950797,
-   "sl": 0.0022197634201950797,
+   "sl": 0.002054,
    "tps": [
     0.00188823657980492,
     0.00172247315960984,
     0.0015567097394147602
    ],
    "lev": 1,
-   "funding_pct": 0.0041,
-   "status": "open",
-   "hits": 0,
+   "funding_pct": 0.002,
+   "status": "tp1",
+   "hits": 1,
    "opened": "2026-11-08T10:00:00+00:00",
    "closed_at": null,
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.001924,
-   "last_ts": "2026-11-08T21:55:22+00:00",
-   "move_pct": 6.33,
+   "last": 0.001941,
+   "last_ts": "2026-11-08T22:00:32+00:00",
+   "move_pct": 5.5,
    "closed": false,
    "rsi": 25.4,
    "trade_on": "Perps 1x",
@@ -88,6 +88,55 @@
    "chart": "charts/FOGO-PERP-1794128400.png",
    "setup": "BREAKOUT20"
   },
+  {
+   "id": "UNI-PERP-1794139200",
+   "kind": "TA",
+   "score": -1,
+   "reasons": [
+    "Chart: Broke the 20-hour low on 1.2x volume",
+    "Timeframes: 1d flat, 4h down, 4h structure higher highs/lows",
+    "Next support 6.6238 (3.4R away, 4h swing/swing)",
+    "Stop 7.0924 (structure); targets at the next 2 level(s)",
+    "BTC 4h trend down",
+    "Weaker than BTC by 1.1% over 7d",
+    "OI +0% 24h",
+    "Fees -46% 7d",
+    "DEX volume -25% 7d",
+    "Sector: Decentralized Finance DeFi -3.4% 7d (leading, #2 of 20)",
+    "Track record: +1.4R on UNI in the last 45 days (backtest)"
+   ],
+   "coin": "UNI",
+   "market": "PERP",
+   "side": "SHORT",
+   "entry": 6.986,
+   "sl0": 7.0924388472578626,
+   "sl": 6.986,
+   "tps": [
+    6.633800299097097,
+    6.5229669657637634,
+    6.416528118505901
+   ],
+   "lev": 3,
+   "funding_pct": 0.0021,
+   "status": "tp1",
+   "hits": 1,
+   "opened": "2026-11-08T13:00:00+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 6.743,
+   "last_ts": "2026-11-08T22:00:32+00:00",
+   "move_pct": 3.48,
+   "closed": false,
+   "rsi": 40.6,
+   "trade_on": "Perps 3x",
+   "market_reason": "shorts need perps; 3x keeps liquidation 3x+ further away than the stop",
+   "chart": "charts/UNI-PERP-1794139200.png",
+   "setup": "BREAKOUT20"
+  }
+ ],
+ "closed": [
   {
    "id": "APE-PERP-1794128400",
    "kind": "TA",
@@ -116,72 +165,23 @@
    ],
    "lev": 1,
    "funding_pct": -0.0132,
-   "status": "tp2",
-   "hits": 2,
+   "status": "tp3",
+   "hits": 3,
    "opened": "2026-11-08T10:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.09978,
-   "last_ts": "2026-11-08T21:55:22+00:00",
+   "closed_at": "2026-11-08T22:00:32+00:00",
+   "exit_price": 0.09926654532228742,
+   "result_r": 2.25,
+   "result_pct": 4.13,
+   "last": 0.10032,
+   "last_ts": "2026-11-08T22:00:32+00:00",
    "move_pct": 5.02,
-   "closed": false,
+   "closed": true,
    "rsi": 35.6,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": "charts/APE-PERP-1794128400.png",
    "setup": "BOS"
   },
-  {
-   "id": "UNI-PERP-1794139200",
-   "kind": "TA",
-   "score": -1,
-   "reasons": [
-    "Chart: Broke the 20-hour low on 1.2x volume",
-    "Timeframes: 1d flat, 4h down, 4h structure higher highs/lows",
-    "Next support 6.6238 (3.4R away, 4h swing/swing)",
-    "Stop 7.0924 (structure); targets at the next 2 level(s)",
-    "BTC 4h trend down",
-    "Weaker than BTC by 1.1% over 7d",
-    "OI +0% 24h",
-    "Fees -46% 7d",
-    "DEX volume -25% 7d",
-    "Sector: Decentralized Finance DeFi -3.4% 7d (leading, #2 of 20)",
-    "Track record: +1.4R on UNI in the last 45 days (backtest)"
-   ],
-   "coin": "UNI",
-   "market": "PERP",
-   "side": "SHORT",
-   "entry": 6.986,
-   "sl0": 7.0924388472578626,
-   "sl": 7.0924388472578626,
-   "tps": [
-    6.633800299097097,
-    6.5229669657637634,
-    6.416528118505901
-   ],
-   "lev": 3,
-   "funding_pct": 0.0022,
-   "status": "open",
-   "hits": 0,
-   "opened": "2026-11-08T13:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 6.712,
-   "last_ts": "2026-11-08T21:55:22+00:00",
-   "move_pct": 3.92,
-   "closed": false,
-   "rsi": 40.6,
-   "trade_on": "Perps 3x",
-   "market_reason": "shorts need perps; 3x keeps liquidation 3x+ further away than the stop",
-   "chart": "charts/UNI-PERP-1794139200.png",
-   "setup": "BREAKOUT20"
-  }
- ],
- "closed": [
   {
    "id": "EIGEN-PERP-1794016800",
    "kind": "TA",
@@ -1908,7 +1908,7 @@
    "rsi": null,
    "trade_on": "Perps 1x",
    "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
-   "chart": "charts/ARX-PERP-HOT-20761.png",
+   "chart": null,
    "setup": "HOT24"
   },
   {
@@ -2763,62 +2763,17 @@
    "market_reason": "shorts need perps; 3x keeps liquidation 3x+ further away than the stop",
    "chart": null,
    "setup": "RANGE_BREAK"
-  },
-  {
-   "id": "ZBT-PERP-1793530800",
-   "kind": "TA",
-   "score": -1,
-   "reasons": [
-    "Chart: Broke the 20-hour low on 0.8x volume",
-    "Timeframes: 1d down, 4h down, 4h structure higher highs/lows",
-    "Next support 0.066223 (2.4R away, 4h swing/swing)",
-    "Stop 0.072125 (2 ATR); targets at the next 2 level(s)",
-    "BTC 4h trend down",
-    "Stronger than BTC by 8.0% over 7d",
-    "OI +5% 24h",
-    "Sector: Zero Knowledge ZK -2.1% 7d (leading, #2 of 20)",
-    "Track record: +0.5R on ZBT in the last 45 days (backtest)"
-   ],
-   "coin": "ZBT",
-   "market": "PERP",
-   "side": "SHORT",
-   "entry": 0.07039,
-   "sl0": 0.07212460381288371,
-   "sl": 0.07039,
-   "tps": [
-    0.06635295242882343,
-    0.06471009528596627,
-    0.06297549147308255
-   ],
-   "lev": 1,
-   "funding_pct": 0.005,
-   "status": "expired",
-   "hits": 1,
-   "opened": "2026-11-01T12:00:00+00:00",
-   "closed_at": "2026-11-03T12:00:31+00:00",
-   "exit_price": 0.06603,
-   "result_r": 2.467,
-   "result_pct": 6.08,
-   "last": 0.06603,
-   "last_ts": "2026-11-03T12:00:31+00:00",
-   "move_pct": 6.14,
-   "closed": true,
-   "rsi": 39.5,
-   "trade_on": "Perps 1x",
-   "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": null,
-   "setup": "BREAKOUT20"
   }
  ],
  "stats": {
   "all": {
-   "trades": 163,
-   "wins": 73,
+   "trades": 164,
+   "wins": 74,
    "losses": 90,
-   "win_rate": 44.8,
-   "total_r": 13.97,
-   "avg_r": 0.086,
-   "total_pct": 6.58
+   "win_rate": 45.1,
+   "total_r": 16.22,
+   "avg_r": 0.099,
+   "total_pct": 10.71
   },
   "SPOT": {
    "trades": 49,
@@ -2830,13 +2785,13 @@
    "total_pct": 2.44
   },
   "PERP": {
-   "trades": 106,
-   "wins": 49,
+   "trades": 107,
+   "wins": 50,
    "losses": 57,
-   "win_rate": 46.2,
-   "total_r": 18.86,
-   "avg_r": 0.178,
-   "total_pct": -4.72
+   "win_rate": 46.7,
+   "total_r": 21.11,
+   "avg_r": 0.197,
+   "total_pct": -0.59
   },
   "DEX": {
    "trades": 8,
@@ -2867,13 +2822,13 @@
     "total_pct": 8.86
    },
    "TA": {
-    "trades": 117,
-    "wins": 50,
+    "trades": 118,
+    "wins": 51,
     "losses": 67,
-    "win_rate": 42.7,
-    "total_r": 16.88,
-    "avg_r": 0.144,
-    "total_pct": 20.34
+    "win_rate": 43.2,
+    "total_r": 19.13,
+    "avg_r": 0.162,
+    "total_pct": 24.47
    }
   },
   "coins": {
@@ -2968,13 +2923,13 @@
     "total_pct": 9.01
    },
    "APE": {
-    "trades": 1,
-    "wins": 0,
+    "trades": 2,
+    "wins": 1,
     "losses": 1,
-    "win_rate": 0.0,
-    "total_r": -1.0,
-    "avg_r": -1.0,
-    "total_pct": -1.62
+    "win_rate": 50.0,
+    "total_r": 1.25,
+    "avg_r": 0.625,
+    "total_pct": 2.51
    },
    "API3": {
     "trades": 2,
@@ -3922,7 +3877,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 4
+  "open": 3
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7764,6 +7719,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "4a30900ffca6a93d37e0502161d45550d275aaefac1065a8a215fbd93a075d84",
- "generated": "2026-11-08T21:55:32+00:00"
+ "digest": "4839431f50ae41a2fa4cd0bff0ff509ac03cab356a419827fc2ecd6d34893739",
+ "generated": "2026-11-08T22:01:05+00:00"
 }
