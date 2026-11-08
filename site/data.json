@@ -26,7 +26,7 @@
     0.3425555954777805
    ],
    "lev": 1,
-   "funding_pct": -0.0131,
+   "funding_pct": -0.0127,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-11-08T03:00:00+00:00",
@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.3609,
-   "last_ts": "2026-11-08T23:30:40+00:00",
-   "move_pct": 2.35,
+   "last": 0.3602,
+   "last_ts": "2026-11-08T23:36:23+00:00",
+   "move_pct": 2.54,
    "closed": false,
    "rsi": 36.9,
    "trade_on": "Perps 1x",
@@ -78,9 +78,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.001975,
-   "last_ts": "2026-11-08T23:30:40+00:00",
-   "move_pct": 3.85,
+   "last": 0.001977,
+   "last_ts": "2026-11-08T23:36:23+00:00",
+   "move_pct": 3.75,
    "closed": false,
    "rsi": 25.4,
    "trade_on": "Perps 1x",
@@ -117,7 +117,7 @@
     6.416528118505901
    ],
    "lev": 3,
-   "funding_pct": -0.0004,
+   "funding_pct": -0.0005,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-08T13:00:00+00:00",
@@ -125,9 +125,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 6.866,
-   "last_ts": "2026-11-08T23:30:40+00:00",
-   "move_pct": 1.72,
+   "last": 6.824,
+   "last_ts": "2026-11-08T23:36:23+00:00",
+   "move_pct": 2.32,
    "closed": false,
    "rsi": 40.6,
    "trade_on": "Perps 3x",
@@ -7056,79 +7056,43 @@
   "onchain": [
    {
     "chain": "BSC",
-    "symbol": "AIOT",
-    "name": "OKZOO",
-    "token": "0x55ad16bd573b3365f43a9daeb0cc66a73821b4a5",
-    "price": 0.161225785211632,
-    "liq": 4299005,
-    "vol24h": 8708044,
-    "age_d": 558.5,
-    "chg24h": 40.998,
-    "chg7d": 84.3,
-    "mcap": 84683843.5150742,
-    "safety": "ok",
-    "safety_notes": [],
+    "symbol": "ARIA",
+    "name": "ARIA.AI",
+    "token": "0x5d3a12c42e5372b2cc3264ab3cdcf660a1555238",
+    "price": 0.157465410956492,
+    "liq": 1834208,
+    "vol24h": 8088839,
+    "age_d": 446.6,
+    "chg24h": 1.017,
+    "chg7d": 88.9,
+    "mcap": 28779316.7214,
+    "safety": "unknown",
+    "safety_notes": [
+     "safety not checked"
+    ],
     "trigger": false,
     "trend_up": true,
-    "rsi": 67.4,
-    "url": "https://www.geckoterminal.com/bsc/pools/0xb433ae7e7011a2fb9a4bbb86140e0f653dcfcfba"
-   },
-   {
-    "chain": "Solana",
-    "symbol": "ANSEM",
-    "name": "The Black Bull",
-    "token": "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump",
-    "price": 0.054594696134814914,
-    "liq": 1343372,
-    "vol24h": 6714786,
-    "age_d": 145.1,
-    "chg24h": 27.629,
-    "chg7d": 13.5,
-    "mcap": 54450708.4092651,
-    "safety": "ok",
-    "safety_notes": [],
-    "trigger": false,
-    "trend_up": true,
-    "rsi": 56.6,
-    "url": "https://www.geckoterminal.com/solana/pools/FnzKY6x7entQ1eR3D225dQyT7ybfka4PskBMQhb8L3CC"
+    "rsi": 51.3,
+    "url": "https://www.geckoterminal.com/bsc/pools/0xa5dbeaf16fc031eae92175974f8d0a439be4ad17"
    },
    {
     "chain": "BSC",
-    "symbol": "SKYAI",
-    "name": "SKYAI",
-    "token": "0x92aa03137385f18539301349dcfc9ebc923ffb10",
-    "price": 0.0345815379226283,
-    "liq": 5115933,
-    "vol24h": 6039838,
-    "age_d": 567.8,
-    "chg24h": 11.465,
-    "chg7d": 10.4,
-    "mcap": 34525657.6936869,
-    "safety": "ok",
-    "safety_notes": [],
-    "trigger": false,
-    "trend_up": true,
-    "rsi": 49.7,
-    "url": "https://www.geckoterminal.com/bsc/pools/0xbc42145d5a574ede9b8860fca2a49eb7b239efa5"
-   },
-   {
-    "chain": "Solana",
-    "symbol": "STONK",
-    "name": "STONK",
-    "token": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
-    "price": 0.04508362331707076,
-    "liq": 1486027,
-    "vol24h": 9981066,
-    "age_d": 88.5,
-    "chg24h": -35.754,
-    "chg7d": -63.1,
-    "mcap": 35266951.3619019,
+    "symbol": "Q",
+    "name": "Quack AI Token",
+    "token": "0xc07e1300dc138601fa6b0b59f8d0fa477e690589",
+    "price": 0.026884071508842,
+    "liq": 1066814,
+    "vol24h": 6069601,
+    "age_d": 434.6,
+    "chg24h": -2.303,
+    "chg7d": -13.6,
+    "mcap": 132305503.86376,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 14.8,
-    "url": "https://www.geckoterminal.com/solana/pools/zxTpi4BtaWX3mgdAPoezkMD1hxx8CdeCfrqXMWvSCLX"
+    "rsi": 41.6,
+    "url": "https://www.geckoterminal.com/bsc/pools/0x8bafe0bdd3eb9ae0539f5b32e771c1a72a189b7f"
    }
   ],
   "onchain_checked": 83,
@@ -7466,28 +7430,6 @@
     ]
    },
    {
-    "id": "layer-2",
-    "name": "Layer 2",
-    "chg7d": -8.28,
-    "top": [
-     "OKB",
-     "MNT",
-     "ARB",
-     "POL",
-     "STX"
-    ],
-    "tracked": [
-     "ARB",
-     "OKB",
-     "STRK",
-     "STX",
-     "MEGA",
-     "OP",
-     "BLEND",
-     "MAGIC"
-    ]
-   },
-   {
     "id": "storage",
     "name": "Storage",
     "chg7d": -8.36,
@@ -7546,6 +7488,28 @@
      "FARTCOIN",
      "BOME",
      "WIF"
+    ]
+   },
+   {
+    "id": "layer-2",
+    "name": "Layer 2",
+    "chg7d": -8.63,
+    "top": [
+     "OKB",
+     "MNT",
+     "ARB",
+     "POL",
+     "STX"
+    ],
+    "tracked": [
+     "ARB",
+     "OKB",
+     "STRK",
+     "STX",
+     "MEGA",
+     "OP",
+     "BLEND",
+     "MAGIC"
     ]
    }
   ],
@@ -7717,8 +7681,8 @@
   ],
   "updated": {
    "unlocks": 1794159323,
-   "onchain": 1794177027,
-   "sectors": 1794180026,
+   "onchain": 1794180921,
+   "sectors": 1794180921,
    "listings": 1794180325,
    "fundamentals": 1794159324
   }
@@ -7757,6 +7721,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "ac245ae9269167808753971ff8bac252617e38e6e2254d0ac25d13506da75a02",
- "generated": "2026-11-08T23:30:43+00:00"
+ "digest": "6425a049ca448578a8416400e212dc25a7c35948faf3ff9ae52845a658c2dde7",
+ "generated": "2026-11-08T23:36:25+00:00"
 }
