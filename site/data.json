@@ -26,7 +26,7 @@
     0.3425555954777805
    ],
    "lev": 1,
-   "funding_pct": -0.0221,
+   "funding_pct": -0.0209,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-11-08T03:00:00+00:00",
@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.3559,
-   "last_ts": "2026-11-08T22:00:32+00:00",
-   "move_pct": 3.71,
+   "last": 0.3582,
+   "last_ts": "2026-11-08T22:05:23+00:00",
+   "move_pct": 3.08,
    "closed": false,
    "rsi": 36.9,
    "trade_on": "Perps 1x",
@@ -70,7 +70,7 @@
     0.0015567097394147602
    ],
    "lev": 1,
-   "funding_pct": 0.002,
+   "funding_pct": 0.0027,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-08T10:00:00+00:00",
@@ -78,9 +78,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.001941,
-   "last_ts": "2026-11-08T22:00:32+00:00",
-   "move_pct": 5.5,
+   "last": 0.00194,
+   "last_ts": "2026-11-08T22:05:23+00:00",
+   "move_pct": 5.55,
    "closed": false,
    "rsi": 25.4,
    "trade_on": "Perps 1x",
@@ -117,7 +117,7 @@
     6.416528118505901
    ],
    "lev": 3,
-   "funding_pct": 0.0021,
+   "funding_pct": 0.0016,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-08T13:00:00+00:00",
@@ -125,9 +125,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 6.743,
-   "last_ts": "2026-11-08T22:00:32+00:00",
-   "move_pct": 3.48,
+   "last": 6.762,
+   "last_ts": "2026-11-08T22:05:23+00:00",
+   "move_pct": 3.21,
    "closed": false,
    "rsi": 40.6,
    "trade_on": "Perps 3x",
@@ -7326,23 +7326,6 @@
     ]
    },
    {
-    "id": "storage",
-    "name": "Storage",
-    "chg7d": -6.35,
-    "top": [
-     "FIL",
-     "BTT",
-     "AR",
-     "AIOZ",
-     "ICNT"
-    ],
-    "tracked": [
-     "FIL",
-     "AR",
-     "WAL"
-    ]
-   },
-   {
     "id": "gaming",
     "name": "Gaming",
     "chg7d": -6.36,
@@ -7508,6 +7491,23 @@
      "OP",
      "BLEND",
      "MAGIC"
+    ]
+   },
+   {
+    "id": "storage",
+    "name": "Storage",
+    "chg7d": -8.36,
+    "top": [
+     "FIL",
+     "BTT",
+     "AR",
+     "AIOZ",
+     "ICNT"
+    ],
+    "tracked": [
+     "FIL",
+     "AR",
+     "WAL"
     ]
    }
   ],
@@ -7680,7 +7680,7 @@
   "updated": {
    "unlocks": 1794159323,
    "onchain": 1794173428,
-   "sectors": 1794174622,
+   "sectors": 1794175523,
    "listings": 1794172826,
    "fundamentals": 1794159324
   }
@@ -7719,6 +7719,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "4839431f50ae41a2fa4cd0bff0ff509ac03cab356a419827fc2ecd6d34893739",
- "generated": "2026-11-08T22:01:05+00:00"
+ "digest": "dc24832dcd64b3b72eabce71682ec0bb0318a2b8096b8701aa744d9e116505d0",
+ "generated": "2026-11-08T22:05:26+00:00"
 }
