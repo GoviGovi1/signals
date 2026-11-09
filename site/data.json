@@ -26,7 +26,7 @@
     0.0015567097394147602
    ],
    "lev": 1,
-   "funding_pct": 0.0039,
+   "funding_pct": 0.0031,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-08T10:00:00+00:00",
@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.001914,
-   "last_ts": "2026-11-09T23:20:27+00:00",
-   "move_pct": 6.82,
+   "last": 0.001906,
+   "last_ts": "2026-11-09T23:25:22+00:00",
+   "move_pct": 7.21,
    "closed": false,
    "rsi": 25.4,
    "trade_on": "Perps 1x",
@@ -78,9 +78,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1045,
-   "last_ts": "2026-11-09T23:20:27+00:00",
-   "move_pct": 0.1,
+   "last": 0.1046,
+   "last_ts": "2026-11-09T23:25:22+00:00",
+   "move_pct": -0.0,
    "closed": false,
    "rsi": 42.5,
    "trade_on": "Perps 1x",
@@ -123,9 +123,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.12094,
-   "last_ts": "2026-11-09T23:20:27+00:00",
-   "move_pct": -0.11,
+   "last": 0.12071,
+   "last_ts": "2026-11-09T23:25:22+00:00",
+   "move_pct": -0.3,
    "closed": false,
    "rsi": 67.9,
    "trade_on": "Perps 1x",
@@ -7518,6 +7518,27 @@
     ]
    },
    {
+    "id": "lending-borrowing",
+    "name": "Lending Borrowing",
+    "chg7d": -4.71,
+    "top": [
+     "AAVE",
+     "MORPHO",
+     "OHM",
+     "COMP",
+     "KMNO"
+    ],
+    "tracked": [
+     "AAVE",
+     "CAP",
+     "CT",
+     "MORPHO",
+     "COMP",
+     "KMNO",
+     "SPK"
+    ]
+   },
+   {
     "id": "meme-token",
     "name": "Meme Token",
     "chg7d": -4.81,
@@ -7537,27 +7558,6 @@
      "USELESS",
      "SHIB",
      "CASHCAT"
-    ]
-   },
-   {
-    "id": "lending-borrowing",
-    "name": "Lending Borrowing",
-    "chg7d": -4.94,
-    "top": [
-     "AAVE",
-     "MORPHO",
-     "OHM",
-     "COMP",
-     "KMNO"
-    ],
-    "tracked": [
-     "AAVE",
-     "CAP",
-     "CT",
-     "MORPHO",
-     "COMP",
-     "KMNO",
-     "SPK"
     ]
    },
    {
@@ -7893,7 +7893,7 @@
   "updated": {
    "unlocks": 1794246027,
    "onchain": 1794263721,
-   "sectors": 1794265826,
+   "sectors": 1794266722,
    "listings": 1794263721,
    "fundamentals": 1794246027
   }
@@ -7932,6 +7932,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "215b286cee0b1c7d9a812ccb44fa46ab41aaae1f64379726909eb3e68bbb70bc",
- "generated": "2026-11-09T23:20:30+00:00"
+ "digest": "542ef914d45f06bfcfa8cbbc67e6fa1244795a0f3c8db59ebabf77da6e02de11",
+ "generated": "2026-11-09T23:25:25+00:00"
 }
