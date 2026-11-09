@@ -34,59 +34,15 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.00197,
-   "last_ts": "2026-11-09T18:30:35+00:00",
-   "move_pct": 4.09,
+   "last": 0.001966,
+   "last_ts": "2026-11-09T18:36:29+00:00",
+   "move_pct": 4.28,
    "closed": false,
    "rsi": 25.4,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": "charts/FOGO-PERP-1794128400.png",
    "setup": "BREAKOUT20"
-  },
-  {
-   "id": "RE-SPOT-1794236400",
-   "kind": "TA",
-   "score": 1,
-   "reasons": [
-    "Chart: Broke out of a 2-day range at 0.29791 (range 0.27439\u20130.29791) on 0.9x volume",
-    "Timeframes: 1d down, 4h down, 4h structure lower highs/lows",
-    "Next resistance 0.31396 (2.0R away, 4h swing/swing/volume node)",
-    "Stop 0.29499 (below the breakout level); targets at the next 2 level(s)",
-    "BTC 4h trend down",
-    "Weaker than BTC by 4.9% over 7d",
-    "OI +9% 24h with breakout",
-    "Track record: +0.2R on RE in the last 45 days (backtest)"
-   ],
-   "coin": "RE",
-   "market": "SPOT",
-   "side": "LONG",
-   "entry": 0.30142,
-   "sl0": 0.29515155412275235,
-   "sl": 0.29515155412275235,
-   "tps": [
-    0.3134034228843945,
-    0.3314597146883644,
-    0.33772816056561206
-   ],
-   "lev": null,
-   "funding_pct": null,
-   "status": "open",
-   "hits": 0,
-   "opened": "2026-11-09T16:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.29566,
-   "last_ts": "2026-11-09T18:30:35+00:00",
-   "move_pct": -1.91,
-   "closed": false,
-   "rsi": 64.1,
-   "trade_on": "Spot",
-   "market_reason": "thin perp market: spot is safer",
-   "chart": "charts/RE-SPOT-1794236400.png",
-   "setup": "RANGE_BREAK"
   },
   {
    "id": "DATA-PERP-1794243600",
@@ -122,9 +78,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1046,
-   "last_ts": "2026-11-09T18:30:35+00:00",
-   "move_pct": -0.0,
+   "last": 0.1045,
+   "last_ts": "2026-11-09T18:36:29+00:00",
+   "move_pct": 0.1,
    "closed": false,
    "rsi": 42.5,
    "trade_on": "Perps 1x",
@@ -134,6 +90,50 @@
   }
  ],
  "closed": [
+  {
+   "id": "RE-SPOT-1794236400",
+   "kind": "TA",
+   "score": 1,
+   "reasons": [
+    "Chart: Broke out of a 2-day range at 0.29791 (range 0.27439\u20130.29791) on 0.9x volume",
+    "Timeframes: 1d down, 4h down, 4h structure lower highs/lows",
+    "Next resistance 0.31396 (2.0R away, 4h swing/swing/volume node)",
+    "Stop 0.29499 (below the breakout level); targets at the next 2 level(s)",
+    "BTC 4h trend down",
+    "Weaker than BTC by 4.9% over 7d",
+    "OI +9% 24h with breakout",
+    "Track record: +0.2R on RE in the last 45 days (backtest)"
+   ],
+   "coin": "RE",
+   "market": "SPOT",
+   "side": "LONG",
+   "entry": 0.30142,
+   "sl0": 0.29515155412275235,
+   "sl": 0.29515155412275235,
+   "tps": [
+    0.3134034228843945,
+    0.3314597146883644,
+    0.33772816056561206
+   ],
+   "lev": null,
+   "funding_pct": null,
+   "status": "stopped",
+   "hits": 0,
+   "opened": "2026-11-09T16:00:00+00:00",
+   "closed_at": "2026-11-09T18:36:29+00:00",
+   "exit_price": 0.29515155412275235,
+   "result_r": -1.0,
+   "result_pct": -2.08,
+   "last": 0.29531,
+   "last_ts": "2026-11-09T18:36:29+00:00",
+   "move_pct": -1.91,
+   "closed": true,
+   "rsi": 64.1,
+   "trade_on": "Spot",
+   "market_reason": "thin perp market: spot is safer",
+   "chart": "charts/RE-SPOT-1794236400.png",
+   "setup": "RANGE_BREAK"
+  },
   {
    "id": "MERL-SPOT-HOT-20766",
    "kind": "HOT",
@@ -1867,7 +1867,7 @@
    "rsi": 67.8,
    "trade_on": "Spot",
    "market_reason": "trend not strong enough for leverage: spot has no liquidation or funding",
-   "chart": "charts/BCH-SPOT-1793865600.png",
+   "chart": null,
    "setup": "RANGE_BREAK"
   },
   {
@@ -2704,71 +2704,26 @@
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": null,
    "setup": "RETEST"
-  },
-  {
-   "id": "DGAI-PERP-1793714400",
-   "kind": "TA",
-   "score": -1,
-   "reasons": [
-    "Chart: Break of structure: closed below the last swing low 0.6617, after a lower high",
-    "Timeframes: 1d down, 4h down, 4h structure lower highs/lows",
-    "No support below in the last 50 days",
-    "Stop 0.6715 (structure); targets at 1R/2R/3R",
-    "BTC 4h trend down",
-    "Weaker than BTC by 14.3% over 7d",
-    "OI +0% 24h",
-    "funding -0.077%/8h: shorts crowded",
-    "Track record: +2.4R on DGAI in the last 45 days (backtest)"
-   ],
-   "coin": "DGAI",
-   "market": "PERP",
-   "side": "SHORT",
-   "entry": 0.6588,
-   "sl0": 0.6714985910886934,
-   "sl": 0.6588,
-   "tps": [
-    0.6461014089113067,
-    0.6334028178226134,
-    0.6207042267339201
-   ],
-   "lev": 3,
-   "funding_pct": -0.0286,
-   "status": "stopped_be",
-   "hits": 1,
-   "opened": "2026-11-03T15:00:00+00:00",
-   "closed_at": "2026-11-03T20:30:46+00:00",
-   "exit_price": 0.6588,
-   "result_r": 0.25,
-   "result_pct": 0.48,
-   "last": 0.6583,
-   "last_ts": "2026-11-03T20:30:46+00:00",
-   "move_pct": 1.08,
-   "closed": true,
-   "rsi": 35.3,
-   "trade_on": "Perps 3x",
-   "market_reason": "shorts need perps; 3x keeps liquidation 3x+ further away than the stop",
-   "chart": null,
-   "setup": "BOS"
   }
  ],
  "stats": {
   "all": {
-   "trades": 169,
+   "trades": 170,
    "wins": 78,
-   "losses": 91,
-   "win_rate": 46.2,
-   "total_r": 20.2,
-   "avg_r": 0.119,
-   "total_pct": 22.28
+   "losses": 92,
+   "win_rate": 45.9,
+   "total_r": 19.2,
+   "avg_r": 0.113,
+   "total_pct": 20.2
   },
   "SPOT": {
-   "trades": 51,
+   "trades": 52,
    "wins": 21,
-   "losses": 30,
-   "win_rate": 41.2,
-   "total_r": -5.97,
-   "avg_r": -0.117,
-   "total_pct": -1.37
+   "losses": 31,
+   "win_rate": 40.4,
+   "total_r": -6.97,
+   "avg_r": -0.134,
+   "total_pct": -3.45
   },
   "PERP": {
    "trades": 110,
@@ -2808,13 +2763,13 @@
     "total_pct": 8.86
    },
    "TA": {
-    "trades": 120,
+    "trades": 121,
     "wins": 53,
-    "losses": 67,
-    "win_rate": 44.2,
-    "total_r": 21.61,
-    "avg_r": 0.18,
-    "total_pct": 28.36
+    "losses": 68,
+    "win_rate": 43.8,
+    "total_r": 20.61,
+    "avg_r": 0.17,
+    "total_pct": 26.28
    }
   },
   "coins": {
@@ -3655,6 +3610,15 @@
     "avg_r": -0.375,
     "total_pct": -3.72
    },
+   "RE": {
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate": 0.0,
+    "total_r": -1.0,
+    "avg_r": -1.0,
+    "total_pct": -2.08
+   },
    "RENDER": {
     "trades": 1,
     "wins": 0,
@@ -3908,7 +3872,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 3
+  "open": 2
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7257,63 +7221,63 @@
   "onchain": [
    {
     "chain": "BSC",
-    "symbol": "JCT",
-    "name": "JANCTION",
-    "token": "0xea37a8de1de2d9d10772eeb569e28bfa5cb17707",
-    "price": 0.0106051005621046,
-    "liq": 1239320,
-    "vol24h": 81719155,
-    "age_d": 159.1,
-    "chg24h": -14.07,
-    "chg7d": 130.5,
-    "mcap": 122317759.865902,
+    "symbol": "AKE",
+    "name": "AKE",
+    "token": "0x2c3a8ee94ddd97244a93bc48298f97d2c412f7db",
+    "price": 0.00487232125787022,
+    "liq": 1215320,
+    "vol24h": 26028420,
+    "age_d": 446.5,
+    "chg24h": -5.955,
+    "chg7d": -13.6,
+    "mcap": 111070653.477682,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
-    "trend_up": true,
-    "rsi": 56.1,
-    "url": "https://www.geckoterminal.com/bsc/pools/0x7bb2f6dab157e444ad8717b0178035c1b1cf24958b37c2a205e61a3582283249"
+    "trend_up": false,
+    "rsi": 45.6,
+    "url": "https://www.geckoterminal.com/bsc/pools/0x4d3bf29ba30f8bfe4624e7678709afa195689c5d"
    },
    {
-    "chain": "BSC",
-    "symbol": "HANA",
-    "name": "Hana Token",
-    "token": "0x6261963ebe9ff014aad10ecc3b0238d4d04e8353",
-    "price": 0.0166516842132618,
-    "liq": 1032247,
-    "vol24h": 8652315,
-    "age_d": 410.6,
-    "chg24h": 9.916,
-    "chg7d": 7.0,
-    "mcap": 4020347.9136,
+    "chain": "Base",
+    "symbol": "NVDAC",
+    "name": "NVIDIA Corporation",
+    "token": "0xb20000000000000000000078ee7ce2fe4908108c",
+    "price": 175.865918906639,
+    "liq": 1101568,
+    "vol24h": 9441349,
+    "age_d": 18.7,
+    "chg24h": -6.188,
+    "chg7d": -13.8,
+    "mcap": 6498483.11293963,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
-    "trend_up": true,
-    "rsi": 59.2,
-    "url": "https://www.geckoterminal.com/bsc/pools/0xd21bc2291c1aef340f5265e257b18aa5dafed759"
+    "trend_up": false,
+    "rsi": 45.4,
+    "url": "https://www.geckoterminal.com/base/pools/0xf668e21993f0acd7ab00bb1cfbaed0df28a3c8ec"
    },
    {
-    "chain": "Solana",
-    "symbol": "ANSEM",
-    "name": "The Black Bull",
-    "token": "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump",
-    "price": 0.05293890243992534,
-    "liq": 1329518,
-    "vol24h": 4316384,
-    "age_d": 145.9,
-    "chg24h": -8.748,
-    "chg7d": 26.3,
-    "mcap": 52799281.6995091,
+    "chain": "Base",
+    "symbol": "XDP",
+    "name": "Doppler Finance",
+    "token": "0x07b3d902783c3c12b077508c3b5c00113d1291d0",
+    "price": 0.0156463685460398,
+    "liq": 1572034,
+    "vol24h": 7987867,
+    "age_d": 42.2,
+    "chg24h": 2.829,
+    "chg7d": -11.2,
+    "mcap": 15646368.55,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
-    "trend_up": true,
-    "rsi": 53.2,
-    "url": "https://www.geckoterminal.com/solana/pools/FnzKY6x7entQ1eR3D225dQyT7ybfka4PskBMQhb8L3CC"
+    "trend_up": false,
+    "rsi": 58.0,
+    "url": "https://www.geckoterminal.com/base/pools/0x2df380544b88adb3ad0a94100dcc45fd705aae2d"
    }
   ],
-  "onchain_checked": 82,
+  "onchain_checked": 83,
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
@@ -7900,7 +7864,7 @@
   ],
   "updated": {
    "unlocks": 1794246027,
-   "onchain": 1794245728,
+   "onchain": 1794249326,
    "sectors": 1794248724,
    "listings": 1794248723,
    "fundamentals": 1794246027
@@ -7940,6 +7904,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "30db9b74847218fd6981f5d5c4c1ccac9454369959af708561cf0f9231087b34",
- "generated": "2026-11-09T18:30:37+00:00"
+ "digest": "44f9ce0ed314b408b555bebcec0cc1bccbeee1f9afc1d52e98da24902638fdaa",
+ "generated": "2026-11-09T18:36:32+00:00"
 }
