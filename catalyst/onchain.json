@@ -21,6 +21,13 @@
    "fails": [
     "no DEX candles"
    ],
+   "symbol": "ANSEM"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "no DEX candles"
+   ],
    "symbol": "STONK"
   },
   {
@@ -30,13 +37,6 @@
     "pool younger than 7 days"
    ],
    "symbol": "YARL"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "ANSEM"
   },
   {
    "chain": "Solana",
@@ -63,10 +63,9 @@
   {
    "chain": "Solana",
    "fails": [
-    "liquidity under $250k",
-    "pool younger than 7 days"
+    "liquidity under $250k"
    ],
-   "symbol": "MAGGIE"
+   "symbol": "STANK"
   },
   {
    "chain": "Solana",
@@ -79,16 +78,10 @@
   {
    "chain": "Solana",
    "fails": [
-    "liquidity under $250k"
+    "liquidity under $250k",
+    "24h volume under $250k"
    ],
-   "symbol": "STANK"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "CATE"
+   "symbol": "PENGU"
   },
   {
    "chain": "Solana",
@@ -103,15 +96,45 @@
     "liquidity under $250k",
     "pool younger than 7 days"
    ],
+   "symbol": "MAGGIE"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "no DEX candles"
+   ],
+   "symbol": "CATE"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "liquidity under $250k",
+    "pool younger than 7 days"
+   ],
+   "symbol": "PUSSY"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "no DEX candles"
+   ],
+   "symbol": "DESSA"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "liquidity under $250k",
+    "pool younger than 7 days"
+   ],
    "symbol": "ELYSION"
   },
   {
    "chain": "Solana",
    "fails": [
     "liquidity under $250k",
-    "24h volume under $250k"
+    "pool younger than 7 days"
    ],
-   "symbol": "PENGU"
+   "symbol": "WEALTH"
   },
   {
    "chain": "Solana",
@@ -127,22 +150,7 @@
     "liquidity under $250k",
     "pool younger than 7 days"
    ],
-   "symbol": "PUSSY"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "liquidity under $250k",
-    "pool younger than 7 days"
-   ],
    "symbol": "STOKE"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "24h volume under $250k"
-   ],
-   "symbol": "JEANPHIL"
   },
   {
    "chain": "Base",
@@ -163,21 +171,14 @@
    "fails": [
     "24h volume under $250k"
    ],
-   "symbol": "DRB"
+   "symbol": "KTA"
   },
   {
    "chain": "Base",
    "fails": [
     "24h volume under $250k"
    ],
-   "symbol": "KTA"
-  },
-  {
-   "chain": "Base",
-   "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "ELSA"
+   "symbol": "DRB"
   },
   {
    "chain": "Base",
@@ -186,6 +187,13 @@
     "24h volume under $250k"
    ],
    "symbol": "FLOWER"
+  },
+  {
+   "chain": "Base",
+   "fails": [
+    "no DEX candles"
+   ],
+   "symbol": "ELSA"
   },
   {
    "chain": "Base",
@@ -233,10 +241,9 @@
   {
    "chain": "Base",
    "fails": [
-    "liquidity under $250k",
     "24h volume under $250k"
    ],
-   "symbol": "PROMPT"
+   "symbol": "DOT"
   },
   {
    "chain": "Base",
@@ -248,16 +255,10 @@
   {
    "chain": "Base",
    "fails": [
+    "liquidity under $250k",
     "24h volume under $250k"
    ],
-   "symbol": "DOT"
-  },
-  {
-   "chain": "Base",
-   "fails": [
-    "24h volume under $250k"
-   ],
-   "symbol": "ZEN"
+   "symbol": "PROMPT"
   },
   {
    "chain": "BSC",
@@ -296,55 +297,57 @@
   }
  ],
  "rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
- "updated": 1794191724,
+ "updated": 1794195322,
  "watchlist": [
   {
-   "age_d": 446.7,
-   "atr": 0.00580326647450798,
-   "bar_ts": 1794186000000,
+   "age_d": 446.8,
+   "atr": 0.005809616990912452,
+   "bar_ts": 1794189600000,
    "chain": "BSC",
-   "chg24h": 4.447,
-   "chg7d": 94.0,
-   "close": 0.16115323366563397,
-   "ema20": 0.15868946239210613,
-   "ema50": 0.15531835255546494,
+   "chg24h": 0.575,
+   "chg7d": 89.9,
+   "close": 0.159035315539727,
+   "ema20": 0.15872240078763217,
+   "ema50": 0.15546353242426125,
    "fails": [],
    "gecko_id": "aria-ai",
-   "liq": 1857024,
-   "mcap": 29781365.3379,
+   "liq": 1846003,
+   "mcap": 29248312.818,
    "name": "ARIA.AI",
    "net": "bsc",
    "pool": "0xa5dbeaf16fc031eae92175974f8d0a439be4ad17",
-   "price": 0.16273970130966,
-   "rsi": 55.2,
-   "safety": "ok",
-   "safety_notes": [],
+   "price": 0.159770477248881,
+   "rsi": 51.5,
+   "safety": "unknown",
+   "safety_notes": [
+    "safety not checked"
+   ],
    "symbol": "ARIA",
    "token": "0x5d3a12c42e5372b2cc3264ab3cdcf660a1555238",
    "trend_up": true,
    "trigger": false,
    "url": "https://www.geckoterminal.com/bsc/pools/0xa5dbeaf16fc031eae92175974f8d0a439be4ad17",
-   "vol24h": 8135195
+   "vol24h": 8115371
   },
   {
    "age_d": 568.0,
-   "atr": 0.0014840148605067933,
-   "bar_ts": 1794186000000,
+   "atr": 0.0014279048364460721,
+   "bar_ts": 1794189600000,
    "chain": "BSC",
-   "chg24h": 13.079,
-   "chg7d": 12.7,
-   "close": 0.0347254147318667,
-   "ema20": 0.03469940913382126,
-   "ema50": 0.03297453402228099,
+   "chg24h": 9.582,
+   "chg7d": 12.3,
+   "close": 0.0346545879298578,
+   "ema20": 0.03469514044785165,
+   "ema50": 0.033040450411986624,
    "fails": [],
    "gecko_id": "skyai",
-   "liq": 5132899,
-   "mcap": 34604634.6584416,
+   "liq": 5090709,
+   "mcap": 34158452.8095708,
    "name": "SKYAI",
    "net": "bsc",
    "pool": "0xbc42145d5a574ede9b8860fca2a49eb7b239efa5",
-   "price": 0.0346606427122095,
-   "rsi": 52.7,
+   "price": 0.0342137387055427,
+   "rsi": 52.3,
    "safety": "ok",
    "safety_notes": [],
    "symbol": "SKYAI",
@@ -352,7 +355,7 @@
    "trend_up": true,
    "trigger": false,
    "url": "https://www.geckoterminal.com/bsc/pools/0xbc42145d5a574ede9b8860fca2a49eb7b239efa5",
-   "vol24h": 6510019
+   "vol24h": 6509869
   }
  ]
 }

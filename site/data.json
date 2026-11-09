@@ -26,7 +26,7 @@
     0.3425555954777805
    ],
    "lev": 1,
-   "funding_pct": -0.0037,
+   "funding_pct": -0.0022,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-11-08T03:00:00+00:00",
@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.3609,
-   "last_ts": "2026-11-09T03:30:28+00:00",
-   "move_pct": 2.35,
+   "last": 0.3612,
+   "last_ts": "2026-11-09T03:36:22+00:00",
+   "move_pct": 2.27,
    "closed": false,
    "rsi": 36.9,
    "trade_on": "Perps 1x",
@@ -78,9 +78,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.001993,
-   "last_ts": "2026-11-09T03:30:28+00:00",
-   "move_pct": 2.97,
+   "last": 0.001983,
+   "last_ts": "2026-11-09T03:36:22+00:00",
+   "move_pct": 3.46,
    "closed": false,
    "rsi": 25.4,
    "trade_on": "Perps 1x",
@@ -7007,18 +7007,20 @@
     "symbol": "ARIA",
     "name": "ARIA.AI",
     "token": "0x5d3a12c42e5372b2cc3264ab3cdcf660a1555238",
-    "price": 0.16273970130966,
-    "liq": 1857024,
-    "vol24h": 8135195,
-    "age_d": 446.7,
-    "chg24h": 4.447,
-    "chg7d": 94.0,
-    "mcap": 29781365.3379,
-    "safety": "ok",
-    "safety_notes": [],
+    "price": 0.159770477248881,
+    "liq": 1846003,
+    "vol24h": 8115371,
+    "age_d": 446.8,
+    "chg24h": 0.575,
+    "chg7d": 89.9,
+    "mcap": 29248312.818,
+    "safety": "unknown",
+    "safety_notes": [
+     "safety not checked"
+    ],
     "trigger": false,
     "trend_up": true,
-    "rsi": 55.2,
+    "rsi": 51.5,
     "url": "https://www.geckoterminal.com/bsc/pools/0xa5dbeaf16fc031eae92175974f8d0a439be4ad17"
    },
    {
@@ -7026,18 +7028,18 @@
     "symbol": "SKYAI",
     "name": "SKYAI",
     "token": "0x92aa03137385f18539301349dcfc9ebc923ffb10",
-    "price": 0.0346606427122095,
-    "liq": 5132899,
-    "vol24h": 6510019,
+    "price": 0.0342137387055427,
+    "liq": 5090709,
+    "vol24h": 6509869,
     "age_d": 568.0,
-    "chg24h": 13.079,
-    "chg7d": 12.7,
-    "mcap": 34604634.6584416,
+    "chg24h": 9.582,
+    "chg7d": 12.3,
+    "mcap": 34158452.8095708,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": true,
-    "rsi": 52.7,
+    "rsi": 52.3,
     "url": "https://www.geckoterminal.com/bsc/pools/0xbc42145d5a574ede9b8860fca2a49eb7b239efa5"
    }
   ],
@@ -7079,6 +7081,28 @@
     ],
     "tracked": [
      "ZEC"
+    ]
+   },
+   {
+    "id": "exchange-based-tokens",
+    "name": "Exchange Based Tokens",
+    "chg7d": -5.67,
+    "top": [
+     "BNB",
+     "HYPE",
+     "WBT",
+     "LEO",
+     "UNI"
+    ],
+    "tracked": [
+     "BNB",
+     "PUMP",
+     "HYPE",
+     "UNI",
+     "MET",
+     "OKB",
+     "ASTER",
+     "AERO"
     ]
    },
    {
@@ -7164,28 +7188,6 @@
      "API3",
      "WIN",
      "AT"
-    ]
-   },
-   {
-    "id": "exchange-based-tokens",
-    "name": "Exchange Based Tokens",
-    "chg7d": -6.65,
-    "top": [
-     "BNB",
-     "HYPE",
-     "LEO",
-     "WBT",
-     "UNI"
-    ],
-    "tracked": [
-     "BNB",
-     "PUMP",
-     "HYPE",
-     "UNI",
-     "MET",
-     "OKB",
-     "ASTER",
-     "AERO"
     ]
    },
    {
@@ -7627,8 +7629,8 @@
   ],
   "updated": {
    "unlocks": 1794181223,
-   "onchain": 1794191724,
-   "sectors": 1794194426,
+   "onchain": 1794195322,
+   "sectors": 1794195322,
    "listings": 1794191723,
    "fundamentals": 1794181224
   }
@@ -7667,6 +7669,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "2b90d552d92d9d1caaae3931731823f496073d692263bf4e39340aad77f7b573",
- "generated": "2026-11-09T03:30:30+00:00"
+ "digest": "b99e274cff99b1d67c06e3a6892c7657af3f3d477f3d33c30cf2c102c402d164",
+ "generated": "2026-11-09T03:36:24+00:00"
 }
