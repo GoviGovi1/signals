@@ -34,55 +34,15 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.001973,
-   "last_ts": "2026-11-09T17:15:26+00:00",
-   "move_pct": 3.94,
+   "last": 0.001967,
+   "last_ts": "2026-11-09T17:20:29+00:00",
+   "move_pct": 4.24,
    "closed": false,
    "rsi": 25.4,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": "charts/FOGO-PERP-1794128400.png",
    "setup": "BREAKOUT20"
-  },
-  {
-   "id": "EDGE-SPOT-HOT-20766",
-   "kind": "HOT",
-   "score": 612.03,
-   "reasons": [
-    "24h hot mover +23% with volume spike (4.2x the prior 3 days)",
-    "24h volume $1.6M on the OKX spot book, listed 187 days",
-    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
-    "Stop 0.39398 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
-   ],
-   "coin": "EDGE",
-   "market": "SPOT",
-   "side": "LONG",
-   "entry": 0.4118,
-   "sl0": 0.3939764403893337,
-   "sl": 0.4118,
-   "tps": [
-    0.4296235596106663,
-    0.44744711922133257,
-    0.46527067883199885
-   ],
-   "lev": null,
-   "funding_pct": null,
-   "status": "tp1",
-   "hits": 1,
-   "opened": "2026-11-09T15:25:23+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.4325,
-   "last_ts": "2026-11-09T17:15:26+00:00",
-   "move_pct": 5.03,
-   "closed": false,
-   "rsi": null,
-   "trade_on": "Spot",
-   "market_reason": "trend not strong enough for leverage: spot has no liquidation or funding",
-   "chart": "charts/EDGE-SPOT-HOT-20766.png",
-   "setup": "HOT24"
   },
   {
    "id": "MERL-SPOT-HOT-20766",
@@ -114,9 +74,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.03428,
-   "last_ts": "2026-11-09T17:15:26+00:00",
-   "move_pct": -2.25,
+   "last": 0.0342,
+   "last_ts": "2026-11-09T17:20:29+00:00",
+   "move_pct": -2.48,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -158,9 +118,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.29936,
-   "last_ts": "2026-11-09T17:15:26+00:00",
-   "move_pct": -0.68,
+   "last": 0.29854,
+   "last_ts": "2026-11-09T17:20:29+00:00",
+   "move_pct": -0.96,
    "closed": false,
    "rsi": 64.1,
    "trade_on": "Spot",
@@ -170,6 +130,46 @@
   }
  ],
  "closed": [
+  {
+   "id": "EDGE-SPOT-HOT-20766",
+   "kind": "HOT",
+   "score": 612.03,
+   "reasons": [
+    "24h hot mover +23% with volume spike (4.2x the prior 3 days)",
+    "24h volume $1.6M on the OKX spot book, listed 187 days",
+    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
+    "Stop 0.39398 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
+   ],
+   "coin": "EDGE",
+   "market": "SPOT",
+   "side": "LONG",
+   "entry": 0.4118,
+   "sl0": 0.3939764403893337,
+   "sl": 0.4118,
+   "tps": [
+    0.4296235596106663,
+    0.44744711922133257,
+    0.46527067883199885
+   ],
+   "lev": null,
+   "funding_pct": null,
+   "status": "stopped_be",
+   "hits": 1,
+   "opened": "2026-11-09T15:25:23+00:00",
+   "closed_at": "2026-11-09T17:20:29+00:00",
+   "exit_price": 0.4118,
+   "result_r": 0.25,
+   "result_pct": 1.08,
+   "last": 0.4058,
+   "last_ts": "2026-11-09T17:20:29+00:00",
+   "move_pct": 5.03,
+   "closed": true,
+   "rsi": null,
+   "trade_on": "Spot",
+   "market_reason": "trend not strong enough for leverage: spot has no liquidation or funding",
+   "chart": "charts/EDGE-SPOT-HOT-20766.png",
+   "setup": "HOT24"
+  },
   {
    "id": "PIEVERSE-PERP-HOT-20766",
    "kind": "HOT",
@@ -1903,7 +1903,7 @@
    "rsi": null,
    "trade_on": "Perps 1x",
    "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
-   "chart": "charts/DGAI-PERP-HOT-20762.png",
+   "chart": null,
    "setup": "HOT24"
   },
   {
@@ -2745,71 +2745,26 @@
    "market_reason": "the perp book is where the 24h move and volume are; very volatile, so 1x",
    "chart": null,
    "setup": "HOT24"
-  },
-  {
-   "id": "MUBARAK-PERP-1793710800",
-   "kind": "TA",
-   "score": 0,
-   "reasons": [
-    "Chart: Broke the 20-hour low on 1.4x volume",
-    "Timeframes: 1d down, 4h down, 4h structure lower highs/lows",
-    "Next support 0.035557 (2.3R away, 4h swing)",
-    "Stop 0.03997 (2 ATR); targets at the next 3 level(s)",
-    "BTC 4h trend down",
-    "Weaker than BTC by 22.1% over 7d",
-    "OI +2% 24h",
-    "Sector: Meme Token -5.5% 7d (middle, #8 of 20)",
-    "Track record: +0.5R on MUBARAK in the last 45 days (backtest)"
-   ],
-   "coin": "MUBARAK",
-   "market": "PERP",
-   "side": "SHORT",
-   "entry": 0.038638,
-   "sl0": 0.03997047394887058,
-   "sl": 0.03997047394887058,
-   "tps": [
-    0.035656935546165294,
-    0.032959435546165296,
-    0.031662185546165296
-   ],
-   "lev": 1,
-   "funding_pct": 0.005,
-   "status": "stopped",
-   "hits": 0,
-   "opened": "2026-11-03T14:00:00+00:00",
-   "closed_at": "2026-11-03T15:15:24+00:00",
-   "exit_price": 0.03997047394887058,
-   "result_r": -1.0,
-   "result_pct": -3.45,
-   "last": 0.039808,
-   "last_ts": "2026-11-03T15:15:24+00:00",
-   "move_pct": -1.99,
-   "closed": true,
-   "rsi": 28.1,
-   "trade_on": "Perps 1x",
-   "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": null,
-   "setup": "BREAKOUT20"
   }
  ],
  "stats": {
   "all": {
-   "trades": 167,
-   "wins": 77,
+   "trades": 168,
+   "wins": 78,
    "losses": 90,
-   "win_rate": 46.1,
-   "total_r": 20.95,
-   "avg_r": 0.125,
-   "total_pct": 26.09
+   "win_rate": 46.4,
+   "total_r": 21.2,
+   "avg_r": 0.126,
+   "total_pct": 27.17
   },
   "SPOT": {
-   "trades": 49,
-   "wins": 20,
+   "trades": 50,
+   "wins": 21,
    "losses": 29,
-   "win_rate": 40.8,
-   "total_r": -5.22,
-   "avg_r": -0.107,
-   "total_pct": 2.44
+   "win_rate": 42.0,
+   "total_r": -4.97,
+   "avg_r": -0.099,
+   "total_pct": 3.52
   },
   "PERP": {
    "trades": 110,
@@ -2831,13 +2786,13 @@
   },
   "kinds": {
    "HOT": {
-    "trades": 39,
-    "wins": 20,
+    "trades": 40,
+    "wins": 21,
     "losses": 19,
-    "win_rate": 51.3,
-    "total_r": -1.0,
-    "avg_r": -0.026,
-    "total_pct": -11.13
+    "win_rate": 52.5,
+    "total_r": -0.75,
+    "avg_r": -0.019,
+    "total_pct": -10.05
    },
    "ONCHAIN": {
     "trades": 8,
@@ -3272,6 +3227,15 @@
     "total_r": 2.25,
     "avg_r": 2.25,
     "total_pct": 27.0
+   },
+   "EDGE": {
+    "trades": 1,
+    "wins": 1,
+    "losses": 0,
+    "win_rate": 100.0,
+    "total_r": 0.25,
+    "avg_r": 0.25,
+    "total_pct": 1.08
    },
    "EIGEN": {
     "trades": 1,
@@ -3931,7 +3895,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 4
+  "open": 3
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7697,26 +7661,9 @@
     ]
    },
    {
-    "id": "storage",
-    "name": "Storage",
-    "chg7d": -7.59,
-    "top": [
-     "FIL",
-     "BTT",
-     "AR",
-     "AIOZ",
-     "ICNT"
-    ],
-    "tracked": [
-     "FIL",
-     "AR",
-     "WAL"
-    ]
-   },
-   {
     "id": "zero-knowledge-zk",
     "name": "Zero Knowledge ZK",
-    "chg7d": -8.83,
+    "chg7d": -7.5,
     "top": [
      "ZEC",
      "POL",
@@ -7733,6 +7680,23 @@
      "H",
      "ZK",
      "MINA"
+    ]
+   },
+   {
+    "id": "storage",
+    "name": "Storage",
+    "chg7d": -7.59,
+    "top": [
+     "FIL",
+     "BTT",
+     "AR",
+     "AIOZ",
+     "ICNT"
+    ],
+    "tracked": [
+     "FIL",
+     "AR",
+     "WAL"
     ]
    }
   ],
@@ -7905,7 +7869,7 @@
   "updated": {
    "unlocks": 1794224426,
    "onchain": 1794242122,
-   "sectors": 1794243920,
+   "sectors": 1794244829,
    "listings": 1794244229,
    "fundamentals": 1794224426
   }
@@ -7944,6 +7908,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "3545b8deadc8b949b48b402d60ba1c0fca85ad54d09eecf21948b2179deaaaa2",
- "generated": "2026-11-09T17:15:28+00:00"
+ "digest": "f26bfc546cef51e6626b06f54f60d052d830c48610b064a402db99a7643ad20c",
+ "generated": "2026-11-09T17:20:34+00:00"
 }
