@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.365,
-   "last_ts": "2026-11-09T11:30:32+00:00",
-   "move_pct": 1.24,
+   "last": 0.3654,
+   "last_ts": "2026-11-09T11:36:25+00:00",
+   "move_pct": 1.14,
    "closed": false,
    "rsi": 36.9,
    "trade_on": "Perps 1x",
@@ -78,9 +78,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.001979,
-   "last_ts": "2026-11-09T11:30:32+00:00",
-   "move_pct": 3.65,
+   "last": 0.001987,
+   "last_ts": "2026-11-09T11:36:25+00:00",
+   "move_pct": 3.26,
    "closed": false,
    "rsi": 25.4,
    "trade_on": "Perps 1x",
@@ -7071,45 +7071,45 @@
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
   "onchain": [
    {
+    "chain": "Solana",
+    "symbol": "ANSEM",
+    "name": "The Black Bull",
+    "token": "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump",
+    "price": 0.05280950287519105,
+    "liq": 1330749,
+    "vol24h": 7392160,
+    "age_d": 145.6,
+    "chg24h": 23.5,
+    "chg7d": 15.2,
+    "mcap": 52889621.5975573,
+    "safety": "ok",
+    "safety_notes": [],
+    "trigger": false,
+    "trend_up": true,
+    "rsi": 49.7,
+    "url": "https://www.geckoterminal.com/solana/pools/FnzKY6x7entQ1eR3D225dQyT7ybfka4PskBMQhb8L3CC"
+   },
+   {
     "chain": "Base",
     "symbol": "XDP",
     "name": "Doppler Finance",
     "token": "0x07b3d902783c3c12b077508c3b5c00113d1291d0",
-    "price": 0.0155162506979014,
-    "liq": 1564273,
-    "vol24h": 8757691,
+    "price": 0.0155004985256212,
+    "liq": 1560764,
+    "vol24h": 8671638,
     "age_d": 41.9,
-    "chg24h": 0.889,
-    "chg7d": -12.1,
-    "mcap": 15516250.7,
+    "chg24h": -0.132,
+    "chg7d": -13.3,
+    "mcap": 15500498.53,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 56.8,
+    "rsi": 53.1,
     "url": "https://www.geckoterminal.com/base/pools/0x2df380544b88adb3ad0a94100dcc45fd705aae2d"
-   },
-   {
-    "chain": "BSC",
-    "symbol": "Q",
-    "name": "Quack AI Token",
-    "token": "0xc07e1300dc138601fa6b0b59f8d0fa477e690589",
-    "price": 0.0262842775019585,
-    "liq": 1055899,
-    "vol24h": 6707888,
-    "age_d": 435.1,
-    "chg24h": -6.392,
-    "chg7d": -5.5,
-    "mcap": 128663306.617334,
-    "safety": "ok",
-    "safety_notes": [],
-    "trigger": false,
-    "trend_up": false,
-    "rsi": 42.5,
-    "url": "https://www.geckoterminal.com/bsc/pools/0x8bafe0bdd3eb9ae0539f5b32e771c1a72a189b7f"
    }
   ],
-  "onchain_checked": 82,
+  "onchain_checked": 83,
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
@@ -7135,6 +7135,21 @@
     ]
    },
    {
+    "id": "privacy-coins",
+    "name": "Privacy Coins",
+    "chg7d": -4.95,
+    "top": [
+     "ZEC",
+     "XMR",
+     "DCR",
+     "ZANO",
+     "ARRR"
+    ],
+    "tracked": [
+     "ZEC"
+    ]
+   },
+   {
     "id": "decentralized-finance-defi",
     "name": "Decentralized Finance DeFi",
     "chg7d": -5.08,
@@ -7154,21 +7169,6 @@
      "ENA",
      "AAVE",
      "ONDO"
-    ]
-   },
-   {
-    "id": "privacy-coins",
-    "name": "Privacy Coins",
-    "chg7d": -6.07,
-    "top": [
-     "ZEC",
-     "XMR",
-     "DCR",
-     "ZANO",
-     "ARRR"
-    ],
-    "tracked": [
-     "ZEC"
     ]
    },
    {
@@ -7696,8 +7696,8 @@
   ],
   "updated": {
    "unlocks": 1794202824,
-   "onchain": 1794220524,
-   "sectors": 1794223225,
+   "onchain": 1794224123,
+   "sectors": 1794224123,
    "listings": 1794221720,
    "fundamentals": 1794202825
   }
@@ -7736,6 +7736,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "02a9db4fa361179f587f45263066fb8d513f10c96b7a4578ff1f86c398225076",
- "generated": "2026-11-09T11:30:34+00:00"
+ "digest": "04132b3b3a90f158824faa07ed26a646391655144783d29951d3da9f37c159f2",
+ "generated": "2026-11-09T11:36:28+00:00"
 }
