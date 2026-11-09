@@ -26,7 +26,7 @@
     0.3425555954777805
    ],
    "lev": 1,
-   "funding_pct": 0.0083,
+   "funding_pct": 0.0063,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-11-08T03:00:00+00:00",
@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.3591,
-   "last_ts": "2026-11-09T06:30:29+00:00",
-   "move_pct": 2.84,
+   "last": 0.3582,
+   "last_ts": "2026-11-09T06:36:24+00:00",
+   "move_pct": 3.08,
    "closed": false,
    "rsi": 36.9,
    "trade_on": "Perps 1x",
@@ -79,7 +79,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.001963,
-   "last_ts": "2026-11-09T06:30:29+00:00",
+   "last_ts": "2026-11-09T06:36:24+00:00",
    "move_pct": 4.43,
    "closed": false,
    "rsi": 25.4,
@@ -7031,47 +7031,47 @@
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
   "onchain": [
    {
-    "chain": "Ethereum",
-    "symbol": "PEPE",
-    "name": "Pepe",
-    "token": "0x6982508145454ce325ddbe47a25d4ec3d2311933",
-    "price": 5.0293811124384e-06,
-    "liq": 31024326,
-    "vol24h": 8182507,
-    "age_d": 1304.5,
-    "chg24h": 2.994,
-    "chg7d": 2.1,
-    "mcap": 2115810340.00728,
+    "chain": "BSC",
+    "symbol": "ARK",
+    "name": "ARK",
+    "token": "0xcae117ca6bc8a341d2e7207f30e180f0e5618b9d",
+    "price": 6.41108656204974,
+    "liq": 57993079,
+    "vol24h": 4921536,
+    "age_d": 439.8,
+    "chg24h": -0.333,
+    "chg7d": 0.3,
+    "mcap": 0.0,
+    "safety": "ok",
+    "safety_notes": [],
+    "trigger": false,
+    "trend_up": true,
+    "rsi": 53.8,
+    "url": "https://www.geckoterminal.com/bsc/pools/0xcaaf3c41a40103a23eeaa4bba468af3cf5b0e0d8"
+   },
+   {
+    "chain": "Arbitrum",
+    "symbol": "USDG",
+    "name": "Global Dollar",
+    "token": "0x004b506865409877c9fa29bfb1eba929984b9bbc",
+    "price": 1.00092939548892,
+    "liq": 1443843,
+    "vol24h": 7889746,
+    "age_d": 14.1,
+    "chg24h": 0.045,
+    "chg7d": -0.0,
+    "mcap": 2713946325.08506,
     "safety": "unknown",
     "safety_notes": [
      "safety not checked"
     ],
     "trigger": false,
-    "trend_up": true,
-    "rsi": 51.4,
-    "url": "https://www.geckoterminal.com/eth/pools/0xa43fe16908251ee70ef74718545e4fe6c5ccec9f"
-   },
-   {
-    "chain": "BSC",
-    "symbol": "ARK",
-    "name": "ARK",
-    "token": "0xcae117ca6bc8a341d2e7207f30e180f0e5618b9d",
-    "price": 6.38481415438862,
-    "liq": 58039534,
-    "vol24h": 5055645,
-    "age_d": 439.8,
-    "chg24h": -0.819,
-    "chg7d": 0.1,
-    "mcap": 0.0,
-    "safety": "ok",
-    "safety_notes": [],
-    "trigger": false,
     "trend_up": false,
-    "rsi": 49.5,
-    "url": "https://www.geckoterminal.com/bsc/pools/0xcaaf3c41a40103a23eeaa4bba468af3cf5b0e0d8"
+    "rsi": 51.9,
+    "url": "https://www.geckoterminal.com/arbitrum/pools/0x09328be718d89228a985471bb470988a34d0b162"
    }
   ],
-  "onchain_checked": 79,
+  "onchain_checked": 80,
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
@@ -7097,21 +7097,6 @@
     ]
    },
    {
-    "id": "privacy-coins",
-    "name": "Privacy Coins",
-    "chg7d": -4.21,
-    "top": [
-     "ZEC",
-     "XMR",
-     "DCR",
-     "ZANO",
-     "ARRR"
-    ],
-    "tracked": [
-     "ZEC"
-    ]
-   },
-   {
     "id": "exchange-based-tokens",
     "name": "Exchange Based Tokens",
     "chg7d": -5.67,
@@ -7131,6 +7116,21 @@
      "OKB",
      "ASTER",
      "AERO"
+    ]
+   },
+   {
+    "id": "privacy-coins",
+    "name": "Privacy Coins",
+    "chg7d": -6.07,
+    "top": [
+     "ZEC",
+     "XMR",
+     "DCR",
+     "ZANO",
+     "ARRR"
+    ],
+    "tracked": [
+     "ZEC"
     ]
    },
    {
@@ -7657,8 +7657,8 @@
   ],
   "updated": {
    "unlocks": 1794202824,
-   "onchain": 1794202521,
-   "sectors": 1794205226,
+   "onchain": 1794206123,
+   "sectors": 1794206123,
    "listings": 1794202839,
    "fundamentals": 1794202825
   }
@@ -7697,6 +7697,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "0721267d947d7aa45872dc32ca747f4a0edbbbe3535343e46a1d524c9f674864",
- "generated": "2026-11-09T06:30:31+00:00"
+ "digest": "0f6399fb0764e0ad8b0d6d0ccf6ebf4eba8581698cdb70ad18274a8c3945bb01",
+ "generated": "2026-11-09T06:36:26+00:00"
 }
