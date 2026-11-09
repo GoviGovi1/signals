@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.367,
-   "last_ts": "2026-11-09T12:30:28+00:00",
-   "move_pct": 0.7,
+   "last": 0.3686,
+   "last_ts": "2026-11-09T12:36:23+00:00",
+   "move_pct": 0.27,
    "closed": false,
    "rsi": 36.9,
    "trade_on": "Perps 1x",
@@ -78,9 +78,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.001966,
-   "last_ts": "2026-11-09T12:30:28+00:00",
-   "move_pct": 4.28,
+   "last": 0.001963,
+   "last_ts": "2026-11-09T12:36:23+00:00",
+   "move_pct": 4.43,
    "closed": false,
    "rsi": 25.4,
    "trade_on": "Perps 1x",
@@ -118,9 +118,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.7794,
-   "last_ts": "2026-11-09T12:30:28+00:00",
-   "move_pct": 0.37,
+   "last": 1.7637,
+   "last_ts": "2026-11-09T12:36:23+00:00",
+   "move_pct": -0.52,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -7226,45 +7226,47 @@
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
   "onchain": [
    {
+    "chain": "Ethereum",
+    "symbol": "PEPE",
+    "name": "Pepe",
+    "token": "0x6982508145454ce325ddbe47a25d4ec3d2311933",
+    "price": 5.08822624527548e-06,
+    "liq": 31054887,
+    "vol24h": 9198835,
+    "age_d": 1304.8,
+    "chg24h": 2.096,
+    "chg7d": 3.1,
+    "mcap": 2140565899.00905,
+    "safety": "unknown",
+    "safety_notes": [
+     "safety not checked"
+    ],
+    "trigger": false,
+    "trend_up": true,
+    "rsi": 48.4,
+    "url": "https://www.geckoterminal.com/eth/pools/0xa43fe16908251ee70ef74718545e4fe6c5ccec9f"
+   },
+   {
     "chain": "Solana",
     "symbol": "ANSEM",
     "name": "The Black Bull",
     "token": "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump",
-    "price": 0.05280950287519105,
-    "liq": 1330749,
-    "vol24h": 7392160,
+    "price": 0.05373457603917508,
+    "liq": 1337220,
+    "vol24h": 7433798,
     "age_d": 145.6,
-    "chg24h": 23.5,
-    "chg7d": 15.2,
-    "mcap": 52889621.5975573,
+    "chg24h": 25.032,
+    "chg7d": 16.4,
+    "mcap": 53497915.4346899,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": true,
-    "rsi": 49.7,
+    "rsi": 50.6,
     "url": "https://www.geckoterminal.com/solana/pools/FnzKY6x7entQ1eR3D225dQyT7ybfka4PskBMQhb8L3CC"
-   },
-   {
-    "chain": "Base",
-    "symbol": "XDP",
-    "name": "Doppler Finance",
-    "token": "0x07b3d902783c3c12b077508c3b5c00113d1291d0",
-    "price": 0.0155004985256212,
-    "liq": 1560764,
-    "vol24h": 8671638,
-    "age_d": 41.9,
-    "chg24h": -0.132,
-    "chg7d": -13.3,
-    "mcap": 15500498.53,
-    "safety": "ok",
-    "safety_notes": [],
-    "trigger": false,
-    "trend_up": false,
-    "rsi": 53.1,
-    "url": "https://www.geckoterminal.com/base/pools/0x2df380544b88adb3ad0a94100dcc45fd705aae2d"
    }
   ],
-  "onchain_checked": 83,
+  "onchain_checked": 84,
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
@@ -7324,6 +7326,28 @@
      "ENA",
      "AAVE",
      "ONDO"
+    ]
+   },
+   {
+    "id": "depin",
+    "name": "DePIN",
+    "chg7d": -5.48,
+    "top": [
+     "TAO",
+     "RENDER",
+     "FIL",
+     "BDX",
+     "GRASS"
+    ],
+    "tracked": [
+     "FIL",
+     "TAO",
+     "GRASS",
+     "RENDER",
+     "AR",
+     "ATH",
+     "LPT",
+     "IOTA"
     ]
    },
    {
@@ -7389,28 +7413,6 @@
      "KAITO",
      "ICP",
      "GRASS"
-    ]
-   },
-   {
-    "id": "depin",
-    "name": "DePIN",
-    "chg7d": -7.01,
-    "top": [
-     "TAO",
-     "RENDER",
-     "FIL",
-     "BDX",
-     "BTT"
-    ],
-    "tracked": [
-     "FIL",
-     "TAO",
-     "GRASS",
-     "RENDER",
-     "AR",
-     "ATH",
-     "LPT",
-     "IOTA"
     ]
    },
    {
@@ -7851,8 +7853,8 @@
   ],
   "updated": {
    "unlocks": 1794224426,
-   "onchain": 1794224123,
-   "sectors": 1794226826,
+   "onchain": 1794227720,
+   "sectors": 1794227720,
    "listings": 1794225325,
    "fundamentals": 1794224426
   }
@@ -7891,6 +7893,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "06f0afb64761eb19c94ec7aeab096721335d6854c00e70d791838c7c9e46082b",
- "generated": "2026-11-09T12:30:30+00:00"
+ "digest": "9a1b9d6d5d1c02ad50724a8e5456cea4c7fb2d225cc2d269bc875d3c9bac331c",
+ "generated": "2026-11-09T12:36:25+00:00"
 }
