@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.001966,
-   "last_ts": "2026-11-09T18:36:29+00:00",
-   "move_pct": 4.28,
+   "last": 0.001973,
+   "last_ts": "2026-11-09T18:40:26+00:00",
+   "move_pct": 3.94,
    "closed": false,
    "rsi": 25.4,
    "trade_on": "Perps 1x",
@@ -78,9 +78,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1045,
-   "last_ts": "2026-11-09T18:36:29+00:00",
-   "move_pct": 0.1,
+   "last": 0.105,
+   "last_ts": "2026-11-09T18:40:26+00:00",
+   "move_pct": -0.38,
    "closed": false,
    "rsi": 42.5,
    "trade_on": "Perps 1x",
@@ -7325,6 +7325,28 @@
     ]
    },
    {
+    "id": "exchange-based-tokens",
+    "name": "Exchange Based Tokens",
+    "chg7d": -3.67,
+    "top": [
+     "BNB",
+     "HYPE",
+     "LEO",
+     "WBT",
+     "UNI"
+    ],
+    "tracked": [
+     "BNB",
+     "HYPE",
+     "PUMP",
+     "UNI",
+     "OKB",
+     "ASTER",
+     "CRV",
+     "MET"
+    ]
+   },
+   {
     "id": "bitcoin-ecosystem",
     "name": "Bitcoin Ecosystem",
     "chg7d": -3.89,
@@ -7362,28 +7384,6 @@
      "ATH",
      "LPT",
      "IOTA"
-    ]
-   },
-   {
-    "id": "exchange-based-tokens",
-    "name": "Exchange Based Tokens",
-    "chg7d": -4.23,
-    "top": [
-     "BNB",
-     "HYPE",
-     "LEO",
-     "WBT",
-     "UNI"
-    ],
-    "tracked": [
-     "BNB",
-     "HYPE",
-     "PUMP",
-     "UNI",
-     "OKB",
-     "ASTER",
-     "CRV",
-     "MET"
     ]
    },
    {
@@ -7865,7 +7865,7 @@
   "updated": {
    "unlocks": 1794246027,
    "onchain": 1794249326,
-   "sectors": 1794248724,
+   "sectors": 1794249626,
    "listings": 1794248723,
    "fundamentals": 1794246027
   }
@@ -7904,6 +7904,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "44f9ce0ed314b408b555bebcec0cc1bccbeee1f9afc1d52e98da24902638fdaa",
- "generated": "2026-11-09T18:36:32+00:00"
+ "digest": "b59b56f752b0a348ec5ff4958e190b1a8dda24d53665081cb6e11448f34ed013",
+ "generated": "2026-11-09T18:40:29+00:00"
 }
