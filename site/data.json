@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.001981,
-   "last_ts": "2026-11-09T13:00:34+00:00",
-   "move_pct": 3.55,
+   "last": 0.001988,
+   "last_ts": "2026-11-09T13:05:23+00:00",
+   "move_pct": 3.21,
    "closed": false,
    "rsi": 25.4,
    "trade_on": "Perps 1x",
@@ -74,9 +74,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.8258,
-   "last_ts": "2026-11-09T13:00:34+00:00",
-   "move_pct": 2.98,
+   "last": 1.8114,
+   "last_ts": "2026-11-09T13:05:23+00:00",
+   "move_pct": 2.17,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -7501,6 +7501,23 @@
     ]
    },
    {
+    "id": "storage",
+    "name": "Storage",
+    "chg7d": -7.59,
+    "top": [
+     "FIL",
+     "BTT",
+     "AR",
+     "AIOZ",
+     "ICNT"
+    ],
+    "tracked": [
+     "FIL",
+     "AR",
+     "WAL"
+    ]
+   },
+   {
     "id": "lending-borrowing",
     "name": "Lending Borrowing",
     "chg7d": -7.76,
@@ -7563,23 +7580,6 @@
      "KITE",
      "PIPPIN",
      "AIXBT"
-    ]
-   },
-   {
-    "id": "storage",
-    "name": "Storage",
-    "chg7d": -8.05,
-    "top": [
-     "FIL",
-     "BTT",
-     "AR",
-     "AIOZ",
-     "HOT"
-    ],
-    "tracked": [
-     "FIL",
-     "AR",
-     "WAL"
     ]
    },
    {
@@ -7818,7 +7818,7 @@
   "updated": {
    "unlocks": 1794224426,
    "onchain": 1794227720,
-   "sectors": 1794228627,
+   "sectors": 1794229523,
    "listings": 1794229234,
    "fundamentals": 1794224426
   }
@@ -7857,6 +7857,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "b0aa9cdde9ad519456001f5aecb1c1dcabd516a5f605fa64d533af91b90246ff",
- "generated": "2026-11-09T13:01:10+00:00"
+ "digest": "01bf595eb91e8bfce6b79fb04c7d4af63f0b416ea405cfafb03a07cdba2836f7",
+ "generated": "2026-11-09T13:05:25+00:00"
 }
