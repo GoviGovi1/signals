@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.3659,
-   "last_ts": "2026-11-09T10:30:27+00:00",
-   "move_pct": 1.0,
+   "last": 0.3649,
+   "last_ts": "2026-11-09T10:36:27+00:00",
+   "move_pct": 1.27,
    "closed": false,
    "rsi": 36.9,
    "trade_on": "Perps 1x",
@@ -78,9 +78,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.001991,
-   "last_ts": "2026-11-09T10:30:27+00:00",
-   "move_pct": 3.07,
+   "last": 0.001993,
+   "last_ts": "2026-11-09T10:36:27+00:00",
+   "move_pct": 2.97,
    "closed": false,
    "rsi": 25.4,
    "trade_on": "Perps 1x",
@@ -7031,45 +7031,45 @@
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
   "onchain": [
    {
-    "chain": "BSC",
-    "symbol": "ARIA",
-    "name": "ARIA.AI",
-    "token": "0x5d3a12c42e5372b2cc3264ab3cdcf660a1555238",
-    "price": 0.155347320393365,
-    "liq": 1836933,
-    "vol24h": 7757884,
-    "age_d": 447.0,
-    "chg24h": -2.544,
-    "chg7d": 26.3,
-    "mcap": 28428559.6332,
+    "chain": "Base",
+    "symbol": "XDP",
+    "name": "Doppler Finance",
+    "token": "0x07b3d902783c3c12b077508c3b5c00113d1291d0",
+    "price": 0.0155162506979014,
+    "liq": 1564273,
+    "vol24h": 8757691,
+    "age_d": 41.9,
+    "chg24h": 0.889,
+    "chg7d": -12.1,
+    "mcap": 15516250.7,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 43.1,
-    "url": "https://www.geckoterminal.com/bsc/pools/0xa5dbeaf16fc031eae92175974f8d0a439be4ad17"
+    "rsi": 56.8,
+    "url": "https://www.geckoterminal.com/base/pools/0x2df380544b88adb3ad0a94100dcc45fd705aae2d"
    },
    {
     "chain": "BSC",
     "symbol": "Q",
     "name": "Quack AI Token",
     "token": "0xc07e1300dc138601fa6b0b59f8d0fa477e690589",
-    "price": 0.0264759908954941,
-    "liq": 1055928,
-    "vol24h": 6752410,
+    "price": 0.0262842775019585,
+    "liq": 1055899,
+    "vol24h": 6707888,
     "age_d": 435.1,
-    "chg24h": -4.863,
-    "chg7d": -7.0,
-    "mcap": 129657342.141984,
+    "chg24h": -6.392,
+    "chg7d": -5.5,
+    "mcap": 128663306.617334,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 42.9,
+    "rsi": 42.5,
     "url": "https://www.geckoterminal.com/bsc/pools/0x8bafe0bdd3eb9ae0539f5b32e771c1a72a189b7f"
    }
   ],
-  "onchain_checked": 81,
+  "onchain_checked": 82,
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
@@ -7095,24 +7095,9 @@
     ]
    },
    {
-    "id": "privacy-coins",
-    "name": "Privacy Coins",
-    "chg7d": -6.07,
-    "top": [
-     "ZEC",
-     "XMR",
-     "DCR",
-     "ZANO",
-     "ARRR"
-    ],
-    "tracked": [
-     "ZEC"
-    ]
-   },
-   {
     "id": "decentralized-finance-defi",
     "name": "Decentralized Finance DeFi",
-    "chg7d": -6.23,
+    "chg7d": -5.08,
     "top": [
      "STETH",
      "HYPE",
@@ -7129,6 +7114,21 @@
      "ENA",
      "AAVE",
      "INJ"
+    ]
+   },
+   {
+    "id": "privacy-coins",
+    "name": "Privacy Coins",
+    "chg7d": -6.07,
+    "top": [
+     "ZEC",
+     "XMR",
+     "DCR",
+     "ZANO",
+     "ARRR"
+    ],
+    "tracked": [
+     "ZEC"
     ]
    },
    {
@@ -7655,8 +7655,8 @@
   ],
   "updated": {
    "unlocks": 1794202824,
-   "onchain": 1794216922,
-   "sectors": 1794219632,
+   "onchain": 1794220524,
+   "sectors": 1794220524,
    "listings": 1794217829,
    "fundamentals": 1794202825
   }
@@ -7695,6 +7695,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "b54ec573a5b5c0eb0ed5c643b733a7385eb94b89e52bb510a740e592868dbf96",
- "generated": "2026-11-09T10:30:30+00:00"
+ "digest": "28ad38f0ebb21ba396d2f7e2ce0e154093f3bc5633ba15fd68d9e260632524cf",
+ "generated": "2026-11-09T10:36:29+00:00"
 }
