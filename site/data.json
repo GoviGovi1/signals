@@ -26,7 +26,7 @@
     0.3425555954777805
    ],
    "lev": 1,
-   "funding_pct": -0.0011,
+   "funding_pct": -0.0001,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-11-08T03:00:00+00:00",
@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.3536,
-   "last_ts": "2026-11-09T07:30:24+00:00",
-   "move_pct": 4.33,
+   "last": 0.355,
+   "last_ts": "2026-11-09T07:36:22+00:00",
+   "move_pct": 3.95,
    "closed": false,
    "rsi": 36.9,
    "trade_on": "Perps 1x",
@@ -78,9 +78,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.001941,
-   "last_ts": "2026-11-09T07:30:24+00:00",
-   "move_pct": 5.5,
+   "last": 0.001957,
+   "last_ts": "2026-11-09T07:36:22+00:00",
+   "move_pct": 4.72,
    "closed": false,
    "rsi": 25.4,
    "trade_on": "Perps 1x",
@@ -7032,43 +7032,41 @@
   "onchain": [
    {
     "chain": "BSC",
-    "symbol": "ARK",
-    "name": "ARK",
-    "token": "0xcae117ca6bc8a341d2e7207f30e180f0e5618b9d",
-    "price": 6.41108656204974,
-    "liq": 57993079,
-    "vol24h": 4921536,
-    "age_d": 439.8,
-    "chg24h": -0.333,
-    "chg7d": 0.3,
-    "mcap": 0.0,
+    "symbol": "SKYAI",
+    "name": "SKYAI",
+    "token": "0x92aa03137385f18539301349dcfc9ebc923ffb10",
+    "price": 0.0360715117857481,
+    "liq": 5241370,
+    "vol24h": 6702927,
+    "age_d": 568.2,
+    "chg24h": 12.649,
+    "chg7d": 18.6,
+    "mcap": 36109332.7849409,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": true,
-    "rsi": 53.8,
-    "url": "https://www.geckoterminal.com/bsc/pools/0xcaaf3c41a40103a23eeaa4bba468af3cf5b0e0d8"
+    "rsi": 59.5,
+    "url": "https://www.geckoterminal.com/bsc/pools/0xbc42145d5a574ede9b8860fca2a49eb7b239efa5"
    },
    {
-    "chain": "Arbitrum",
-    "symbol": "USDG",
-    "name": "Global Dollar",
-    "token": "0x004b506865409877c9fa29bfb1eba929984b9bbc",
-    "price": 1.00092939548892,
-    "liq": 1443843,
-    "vol24h": 7889746,
-    "age_d": 14.1,
-    "chg24h": 0.045,
-    "chg7d": -0.0,
-    "mcap": 2713946325.08506,
-    "safety": "unknown",
-    "safety_notes": [
-     "safety not checked"
-    ],
+    "chain": "BSC",
+    "symbol": "ARIA",
+    "name": "ARIA.AI",
+    "token": "0x5d3a12c42e5372b2cc3264ab3cdcf660a1555238",
+    "price": 0.150961672781797,
+    "liq": 1823674,
+    "vol24h": 8021542,
+    "age_d": 446.9,
+    "chg24h": -9.262,
+    "chg7d": 86.7,
+    "mcap": 27733216.4181,
+    "safety": "ok",
+    "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 51.9,
-    "url": "https://www.geckoterminal.com/arbitrum/pools/0x09328be718d89228a985471bb470988a34d0b162"
+    "rsi": 44.5,
+    "url": "https://www.geckoterminal.com/bsc/pools/0xa5dbeaf16fc031eae92175974f8d0a439be4ad17"
    }
   ],
   "onchain_checked": 80,
@@ -7177,28 +7175,6 @@
     ]
    },
    {
-    "id": "depin",
-    "name": "DePIN",
-    "chg7d": -6.34,
-    "top": [
-     "TAO",
-     "RENDER",
-     "FIL",
-     "BDX",
-     "GRASS"
-    ],
-    "tracked": [
-     "FIL",
-     "TAO",
-     "GRASS",
-     "RENDER",
-     "AR",
-     "ATH",
-     "IOTA",
-     "ZBCN"
-    ]
-   },
-   {
     "id": "oracle",
     "name": "Oracle",
     "chg7d": -6.59,
@@ -7255,6 +7231,28 @@
      "BNB",
      "AVAX",
      "ZEC"
+    ]
+   },
+   {
+    "id": "depin",
+    "name": "DePIN",
+    "chg7d": -7.01,
+    "top": [
+     "TAO",
+     "RENDER",
+     "FIL",
+     "BDX",
+     "BTT"
+    ],
+    "tracked": [
+     "FIL",
+     "TAO",
+     "GRASS",
+     "RENDER",
+     "AR",
+     "ATH",
+     "IOTA",
+     "ZBCN"
     ]
    },
    {
@@ -7657,8 +7655,8 @@
   ],
   "updated": {
    "unlocks": 1794202824,
-   "onchain": 1794206123,
-   "sectors": 1794208826,
+   "onchain": 1794209722,
+   "sectors": 1794209722,
    "listings": 1794206728,
    "fundamentals": 1794202825
   }
@@ -7697,6 +7695,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "79a0733bc9f1b8b2155a91fb8b6acc3a3c0f001fd3a43f7368c9d5c03b53ae07",
- "generated": "2026-11-09T07:30:27+00:00"
+ "digest": "7a84f91c4a567c838017d28c5b2ef4ad377a52a95e2a48862827f63ff24683a2",
+ "generated": "2026-11-09T07:36:24+00:00"
 }
