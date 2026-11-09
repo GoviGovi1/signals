@@ -26,7 +26,7 @@
     0.0015567097394147602
    ],
    "lev": 1,
-   "funding_pct": 0.0042,
+   "funding_pct": 0.0031,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-08T10:00:00+00:00",
@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.001908,
-   "last_ts": "2026-11-09T23:36:27+00:00",
-   "move_pct": 7.11,
+   "last": 0.001907,
+   "last_ts": "2026-11-09T23:40:25+00:00",
+   "move_pct": 7.16,
    "closed": false,
    "rsi": 25.4,
    "trade_on": "Perps 1x",
@@ -79,7 +79,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.1038,
-   "last_ts": "2026-11-09T23:36:27+00:00",
+   "last_ts": "2026-11-09T23:40:25+00:00",
    "move_pct": 0.76,
    "closed": false,
    "rsi": 42.5,
@@ -123,9 +123,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.12079,
-   "last_ts": "2026-11-09T23:36:27+00:00",
-   "move_pct": -0.23,
+   "last": 0.12096,
+   "last_ts": "2026-11-09T23:40:25+00:00",
+   "move_pct": -0.09,
    "closed": false,
    "rsi": 67.9,
    "trade_on": "Perps 1x",
@@ -7375,6 +7375,28 @@
     ]
    },
    {
+    "id": "exchange-based-tokens",
+    "name": "Exchange Based Tokens",
+    "chg7d": -2.97,
+    "top": [
+     "BNB",
+     "HYPE",
+     "WBT",
+     "LEO",
+     "UNI"
+    ],
+    "tracked": [
+     "BNB",
+     "HYPE",
+     "PUMP",
+     "UNI",
+     "OKB",
+     "ASTER",
+     "CRV",
+     "MET"
+    ]
+   },
+   {
     "id": "depin",
     "name": "DePIN",
     "chg7d": -3.12,
@@ -7456,28 +7478,6 @@
      "BNB",
      "AVAX",
      "ZEC"
-    ]
-   },
-   {
-    "id": "exchange-based-tokens",
-    "name": "Exchange Based Tokens",
-    "chg7d": -3.67,
-    "top": [
-     "BNB",
-     "HYPE",
-     "LEO",
-     "WBT",
-     "UNI"
-    ],
-    "tracked": [
-     "BNB",
-     "HYPE",
-     "PUMP",
-     "UNI",
-     "OKB",
-     "ASTER",
-     "CRV",
-     "MET"
     ]
    },
    {
@@ -7893,7 +7893,7 @@
   "updated": {
    "unlocks": 1794246027,
    "onchain": 1794267323,
-   "sectors": 1794266722,
+   "sectors": 1794267625,
    "listings": 1794267323,
    "fundamentals": 1794246027
   }
@@ -7932,6 +7932,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "6e26919baa8fb61e6f80f3d68acf4f1806ce6f7151335a4cb47468e78c633ba8",
- "generated": "2026-11-09T23:36:30+00:00"
+ "digest": "d065ff92f828e8d8cd92556ce0d4875501324e668171068ae4db48d698a94927",
+ "generated": "2026-11-09T23:40:27+00:00"
 }
