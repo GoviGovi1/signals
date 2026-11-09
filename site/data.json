@@ -35,7 +35,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.00198,
-   "last_ts": "2026-11-09T15:20:26+00:00",
+   "last_ts": "2026-11-09T15:25:23+00:00",
    "move_pct": 3.6,
    "closed": false,
    "rsi": 25.4,
@@ -66,22 +66,62 @@
     2.044413116057023
    ],
    "lev": 1,
-   "funding_pct": -0.0059,
-   "status": "tp1",
-   "hits": 1,
+   "funding_pct": -0.0042,
+   "status": "tp2",
+   "hits": 2,
    "opened": "2026-11-09T11:45:22+00:00",
    "closed_at": null,
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.8965,
-   "last_ts": "2026-11-09T15:20:26+00:00",
-   "move_pct": 6.97,
+   "last": 1.9278,
+   "last_ts": "2026-11-09T15:25:23+00:00",
+   "move_pct": 8.74,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
    "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
    "chart": "charts/PIEVERSE-PERP-HOT-20766.png",
+   "setup": "HOT24"
+  },
+  {
+   "id": "EDGE-SPOT-HOT-20766",
+   "kind": "HOT",
+   "score": 612.03,
+   "reasons": [
+    "24h hot mover +23% with volume spike (4.2x the prior 3 days)",
+    "24h volume $1.6M on the OKX spot book, listed 187 days",
+    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
+    "Stop 0.39398 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
+   ],
+   "coin": "EDGE",
+   "market": "SPOT",
+   "side": "LONG",
+   "entry": 0.4118,
+   "sl0": 0.3939764403893337,
+   "sl": 0.3939764403893337,
+   "tps": [
+    0.4296235596106663,
+    0.44744711922133257,
+    0.46527067883199885
+   ],
+   "lev": null,
+   "funding_pct": null,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-11-09T15:25:23+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.4118,
+   "last_ts": "2026-11-09T15:25:23+00:00",
+   "move_pct": 0.0,
+   "closed": false,
+   "rsi": null,
+   "trade_on": "Spot",
+   "market_reason": "trend not strong enough for leverage: spot has no liquidation or funding",
+   "chart": "charts/EDGE-SPOT-HOT-20766.png",
    "setup": "HOT24"
   }
  ],
@@ -3844,7 +3884,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 2
+  "open": 3
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7876,6 +7916,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "780ab3f717ddc16f669b312ed94c4676398a6fb526ad3b8cabcf54e16eb6fd6d",
- "generated": "2026-11-09T15:20:29+00:00"
+ "digest": "57adeb4937e9e4e1070c56168bf1cf211ec887b6b888d031f0ffea3c7582a2a3",
+ "generated": "2026-11-09T15:25:30+00:00"
 }
