@@ -35,7 +35,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.00192,
-   "last_ts": "2026-11-09T22:05:24+00:00",
+   "last_ts": "2026-11-09T22:10:25+00:00",
    "move_pct": 6.52,
    "closed": false,
    "rsi": 25.4,
@@ -78,9 +78,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1041,
-   "last_ts": "2026-11-09T22:05:24+00:00",
-   "move_pct": 0.48,
+   "last": 0.1039,
+   "last_ts": "2026-11-09T22:10:25+00:00",
+   "move_pct": 0.67,
    "closed": false,
    "rsi": 42.5,
    "trade_on": "Perps 1x",
@@ -123,9 +123,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.12177,
-   "last_ts": "2026-11-09T22:05:24+00:00",
-   "move_pct": 0.58,
+   "last": 0.12145,
+   "last_ts": "2026-11-09T22:10:25+00:00",
+   "move_pct": 0.31,
    "closed": false,
    "rsi": 67.9,
    "trade_on": "Perps 1x",
@@ -7581,6 +7581,27 @@
     ]
    },
    {
+    "id": "oracle",
+    "name": "Oracle",
+    "chg7d": -5.21,
+    "top": [
+     "LINK",
+     "PYTH",
+     "RED",
+     "WIN",
+     "TRB"
+    ],
+    "tracked": [
+     "LINK",
+     "PYTH",
+     "TRB",
+     "API3",
+     "ZKP",
+     "WIN",
+     "AT"
+    ]
+   },
+   {
     "id": "decentralized-perpetuals",
     "name": "Decentralized Perpetuals",
     "chg7d": -5.29,
@@ -7644,27 +7665,6 @@
      "FARTCOIN",
      "BONK",
      "BOME"
-    ]
-   },
-   {
-    "id": "oracle",
-    "name": "Oracle",
-    "chg7d": -6.09,
-    "top": [
-     "LINK",
-     "PYTH",
-     "RED",
-     "WIN",
-     "TRB"
-    ],
-    "tracked": [
-     "LINK",
-     "PYTH",
-     "TRB",
-     "API3",
-     "ZKP",
-     "WIN",
-     "AT"
     ]
    },
    {
@@ -7891,7 +7891,7 @@
   "updated": {
    "unlocks": 1794246027,
    "onchain": 1794260124,
-   "sectors": 1794261318,
+   "sectors": 1794262225,
    "listings": 1794259832,
    "fundamentals": 1794246027
   }
@@ -7930,6 +7930,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "f95594d1941c02d4e3b9f2d4ed834566bfeda424aa62a23edcd32bd9ce4d2374",
- "generated": "2026-11-09T22:05:27+00:00"
+ "digest": "40f9340f85394a677cccbcd3ea39f3e8e30544df1c74af86c3316c42d54d5f61",
+ "generated": "2026-11-09T22:10:28+00:00"
 }
