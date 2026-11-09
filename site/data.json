@@ -26,7 +26,7 @@
     0.3425555954777805
    ],
    "lev": 1,
-   "funding_pct": 0.0055,
+   "funding_pct": 0.0035,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-11-08T03:00:00+00:00",
@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.3585,
-   "last_ts": "2026-11-09T05:30:29+00:00",
-   "move_pct": 3.0,
+   "last": 0.358,
+   "last_ts": "2026-11-09T05:36:21+00:00",
+   "move_pct": 3.14,
    "closed": false,
    "rsi": 36.9,
    "trade_on": "Perps 1x",
@@ -78,9 +78,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.001973,
-   "last_ts": "2026-11-09T05:30:29+00:00",
-   "move_pct": 3.94,
+   "last": 0.00197,
+   "last_ts": "2026-11-09T05:36:21+00:00",
+   "move_pct": 4.09,
    "closed": false,
    "rsi": 25.4,
    "trade_on": "Perps 1x",
@@ -7003,45 +7003,47 @@
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
   "onchain": [
    {
-    "chain": "BSC",
-    "symbol": "ARIA",
-    "name": "ARIA.AI",
-    "token": "0x5d3a12c42e5372b2cc3264ab3cdcf660a1555238",
-    "price": 0.156950021510244,
-    "liq": 1837191,
-    "vol24h": 8083689,
-    "age_d": 446.8,
-    "chg24h": 0.372,
-    "chg7d": 91.1,
-    "mcap": 28721853.9345,
-    "safety": "ok",
-    "safety_notes": [],
+    "chain": "Ethereum",
+    "symbol": "PEPE",
+    "name": "Pepe",
+    "token": "0x6982508145454ce325ddbe47a25d4ec3d2311933",
+    "price": 5.0293811124384e-06,
+    "liq": 31024326,
+    "vol24h": 8182507,
+    "age_d": 1304.5,
+    "chg24h": 2.994,
+    "chg7d": 2.1,
+    "mcap": 2115810340.00728,
+    "safety": "unknown",
+    "safety_notes": [
+     "safety not checked"
+    ],
     "trigger": false,
     "trend_up": true,
-    "rsi": 50.2,
-    "url": "https://www.geckoterminal.com/bsc/pools/0xa5dbeaf16fc031eae92175974f8d0a439be4ad17"
+    "rsi": 51.4,
+    "url": "https://www.geckoterminal.com/eth/pools/0xa43fe16908251ee70ef74718545e4fe6c5ccec9f"
    },
    {
     "chain": "BSC",
-    "symbol": "SKYAI",
-    "name": "SKYAI",
-    "token": "0x92aa03137385f18539301349dcfc9ebc923ffb10",
-    "price": 0.0350524893374493,
-    "liq": 5153963,
-    "vol24h": 6485677,
-    "age_d": 568.0,
-    "chg24h": 7.816,
-    "chg7d": 11.5,
-    "mcap": 34995848.1043878,
+    "symbol": "ARK",
+    "name": "ARK",
+    "token": "0xcae117ca6bc8a341d2e7207f30e180f0e5618b9d",
+    "price": 6.38481415438862,
+    "liq": 58039534,
+    "vol24h": 5055645,
+    "age_d": 439.8,
+    "chg24h": -0.819,
+    "chg7d": 0.1,
+    "mcap": 0.0,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
-    "trend_up": true,
-    "rsi": 53.2,
-    "url": "https://www.geckoterminal.com/bsc/pools/0xbc42145d5a574ede9b8860fca2a49eb7b239efa5"
+    "trend_up": false,
+    "rsi": 49.5,
+    "url": "https://www.geckoterminal.com/bsc/pools/0xcaaf3c41a40103a23eeaa4bba468af3cf5b0e0d8"
    }
   ],
-  "onchain_checked": 82,
+  "onchain_checked": 79,
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
@@ -7104,28 +7106,6 @@
     ]
    },
    {
-    "id": "decentralized-finance-defi",
-    "name": "Decentralized Finance DeFi",
-    "chg7d": -5.9,
-    "top": [
-     "STETH",
-     "HYPE",
-     "WSTETH",
-     "LINK",
-     "DAI"
-    ],
-    "tracked": [
-     "LINK",
-     "PUMP",
-     "HYPE",
-     "UNI",
-     "LIT",
-     "ENA",
-     "AAVE",
-     "INJ"
-    ]
-   },
-   {
     "id": "lending-borrowing",
     "name": "Lending Borrowing",
     "chg7d": -6.13,
@@ -7144,6 +7124,28 @@
      "COMP",
      "KMNO",
      "SPK"
+    ]
+   },
+   {
+    "id": "decentralized-finance-defi",
+    "name": "Decentralized Finance DeFi",
+    "chg7d": -6.23,
+    "top": [
+     "STETH",
+     "HYPE",
+     "WSTETH",
+     "LINK",
+     "DAI"
+    ],
+    "tracked": [
+     "LINK",
+     "PUMP",
+     "HYPE",
+     "UNI",
+     "LIT",
+     "ENA",
+     "AAVE",
+     "INJ"
     ]
    },
    {
@@ -7627,8 +7629,8 @@
   ],
   "updated": {
    "unlocks": 1794181223,
-   "onchain": 1794198925,
-   "sectors": 1794201624,
+   "onchain": 1794202521,
+   "sectors": 1794202521,
    "listings": 1794199225,
    "fundamentals": 1794181224
   }
@@ -7667,6 +7669,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "66de20252f46809e3b054aee65ba27ea659c6ea99f3e32a0b7bd4817cb6fc312",
- "generated": "2026-11-09T05:30:31+00:00"
+ "digest": "3921ffb3f00dd1dc7e6bb80776828ac973d195c5a5fa76ad85a3cbfa90294e39",
+ "generated": "2026-11-09T05:36:24+00:00"
 }
