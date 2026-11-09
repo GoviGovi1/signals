@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.001995,
-   "last_ts": "2026-11-09T14:15:22+00:00",
-   "move_pct": 2.87,
+   "last": 0.002001,
+   "last_ts": "2026-11-09T14:20:22+00:00",
+   "move_pct": 2.58,
    "closed": false,
    "rsi": 25.4,
    "trade_on": "Perps 1x",
@@ -66,7 +66,7 @@
     2.044413116057023
    ],
    "lev": 1,
-   "funding_pct": 0.0002,
+   "funding_pct": -0.0005,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-09T11:45:22+00:00",
@@ -74,9 +74,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.8021,
-   "last_ts": "2026-11-09T14:15:22+00:00",
-   "move_pct": 1.65,
+   "last": 1.7934,
+   "last_ts": "2026-11-09T14:20:22+00:00",
+   "move_pct": 1.16,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -7389,6 +7389,28 @@
     ]
    },
    {
+    "id": "layer-1",
+    "name": "Layer 1",
+    "chg7d": -5.06,
+    "top": [
+     "BTC",
+     "ETH",
+     "BNB",
+     "XRP",
+     "SOL"
+    ],
+    "tracked": [
+     "ETH",
+     "BTC",
+     "SOL",
+     "XRP",
+     "SUI",
+     "BNB",
+     "AVAX",
+     "ZEC"
+    ]
+   },
+   {
     "id": "decentralized-finance-defi",
     "name": "Decentralized Finance DeFi",
     "chg7d": -5.08,
@@ -7538,28 +7560,6 @@
      "ICP",
      "VVV",
      "GRASS"
-    ]
-   },
-   {
-    "id": "layer-1",
-    "name": "Layer 1",
-    "chg7d": -7.13,
-    "top": [
-     "BTC",
-     "ETH",
-     "BNB",
-     "XRP",
-     "SOL"
-    ],
-    "tracked": [
-     "ETH",
-     "BTC",
-     "SOL",
-     "XRP",
-     "SUI",
-     "BNB",
-     "AVAX",
-     "ZEC"
     ]
    },
    {
@@ -7896,7 +7896,7 @@
   "updated": {
    "unlocks": 1794224426,
    "onchain": 1794231321,
-   "sectors": 1794233125,
+   "sectors": 1794234022,
    "listings": 1794233125,
    "fundamentals": 1794224426
   }
@@ -7935,6 +7935,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "7420a1f7a6a00d937bb51e20ddb7d960c3f8bf0e7c22ac1007b48d14c82b3f97",
- "generated": "2026-11-09T14:15:24+00:00"
+ "digest": "a9283870ae12ab846196c58cb8eff59a1b04d1cb230a813af64aba606aafb17b",
+ "generated": "2026-11-09T14:20:24+00:00"
 }
