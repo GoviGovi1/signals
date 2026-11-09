@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.001989,
-   "last_ts": "2026-11-09T13:15:23+00:00",
-   "move_pct": 3.16,
+   "last": 0.001993,
+   "last_ts": "2026-11-09T13:20:25+00:00",
+   "move_pct": 2.97,
    "closed": false,
    "rsi": 25.4,
    "trade_on": "Perps 1x",
@@ -74,9 +74,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.7892,
-   "last_ts": "2026-11-09T13:15:23+00:00",
-   "move_pct": 0.92,
+   "last": 1.7778,
+   "last_ts": "2026-11-09T13:20:25+00:00",
+   "move_pct": 0.28,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -7337,6 +7337,27 @@
     ]
    },
    {
+    "id": "lending-borrowing",
+    "name": "Lending Borrowing",
+    "chg7d": -6.39,
+    "top": [
+     "AAVE",
+     "MORPHO",
+     "OHM",
+     "COMP",
+     "KMNO"
+    ],
+    "tracked": [
+     "AAVE",
+     "CAP",
+     "CT",
+     "MORPHO",
+     "COMP",
+     "KMNO",
+     "SPK"
+    ]
+   },
+   {
     "id": "oracle",
     "name": "Oracle",
     "chg7d": -6.54,
@@ -7515,27 +7536,6 @@
      "FIL",
      "AR",
      "WAL"
-    ]
-   },
-   {
-    "id": "lending-borrowing",
-    "name": "Lending Borrowing",
-    "chg7d": -7.76,
-    "top": [
-     "AAVE",
-     "MORPHO",
-     "OHM",
-     "COMP",
-     "KMNO"
-    ],
-    "tracked": [
-     "AAVE",
-     "CAP",
-     "CT",
-     "MORPHO",
-     "COMP",
-     "KMNO",
-     "SPK"
     ]
    },
    {
@@ -7818,7 +7818,7 @@
   "updated": {
    "unlocks": 1794224426,
    "onchain": 1794227720,
-   "sectors": 1794229523,
+   "sectors": 1794230425,
    "listings": 1794229234,
    "fundamentals": 1794224426
   }
@@ -7857,6 +7857,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "135d54d653d0a50b4261d24f3fd754b2d616c78487918e2fe2faf66d2120053a",
- "generated": "2026-11-09T13:15:25+00:00"
+ "digest": "8a4fbcd915fb41fbacf968d6331250393ec42c0c20f8dee3d63a06825d06da70",
+ "generated": "2026-11-09T13:20:27+00:00"
 }
