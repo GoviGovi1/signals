@@ -26,7 +26,7 @@
     0.3425555954777805
    ],
    "lev": 1,
-   "funding_pct": -0.0058,
+   "funding_pct": -0.0045,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-11-08T03:00:00+00:00",
@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.3624,
-   "last_ts": "2026-11-09T03:00:34+00:00",
-   "move_pct": 1.95,
+   "last": 0.3625,
+   "last_ts": "2026-11-09T03:05:22+00:00",
+   "move_pct": 1.92,
    "closed": false,
    "rsi": 36.9,
    "trade_on": "Perps 1x",
@@ -78,9 +78,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.00201,
-   "last_ts": "2026-11-09T03:00:34+00:00",
-   "move_pct": 2.14,
+   "last": 0.001999,
+   "last_ts": "2026-11-09T03:05:22+00:00",
+   "move_pct": 2.68,
    "closed": false,
    "rsi": 25.4,
    "trade_on": "Perps 1x",
@@ -7168,6 +7168,23 @@
     ]
    },
    {
+    "id": "storage",
+    "name": "Storage",
+    "chg7d": -6.69,
+    "top": [
+     "FIL",
+     "BTT",
+     "AR",
+     "AIOZ",
+     "ICNT"
+    ],
+    "tracked": [
+     "FIL",
+     "AR",
+     "WAL"
+    ]
+   },
+   {
     "id": "bitcoin-ecosystem",
     "name": "Bitcoin Ecosystem",
     "chg7d": -7.25,
@@ -7292,23 +7309,6 @@
      "IMX",
      "AXS",
      "MANA"
-    ]
-   },
-   {
-    "id": "storage",
-    "name": "Storage",
-    "chg7d": -8.36,
-    "top": [
-     "FIL",
-     "BTT",
-     "AR",
-     "AIOZ",
-     "ICNT"
-    ],
-    "tracked": [
-     "FIL",
-     "AR",
-     "WAL"
     ]
    },
    {
@@ -7628,7 +7628,7 @@
   "updated": {
    "unlocks": 1794181223,
    "onchain": 1794191724,
-   "sectors": 1794192623,
+   "sectors": 1794193522,
    "listings": 1794191723,
    "fundamentals": 1794181224
   }
@@ -7667,6 +7667,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "278851e4f509ad10f615b4615e8e60c31bdcaf79239ce02684c6d81642de0f02",
- "generated": "2026-11-09T03:01:04+00:00"
+ "digest": "7e7e1e266a80a28cd8740ef260ec1791d79e4134f823cd01bc76b6e57bcc4010",
+ "generated": "2026-11-09T03:05:24+00:00"
 }
