@@ -26,7 +26,7 @@
     0.0015567097394147602
    ],
    "lev": 1,
-   "funding_pct": 0.0038,
+   "funding_pct": 0.0042,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-08T10:00:00+00:00",
@@ -35,7 +35,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.001908,
-   "last_ts": "2026-11-09T23:30:27+00:00",
+   "last_ts": "2026-11-09T23:36:27+00:00",
    "move_pct": 7.11,
    "closed": false,
    "rsi": 25.4,
@@ -78,9 +78,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.104,
-   "last_ts": "2026-11-09T23:30:27+00:00",
-   "move_pct": 0.57,
+   "last": 0.1038,
+   "last_ts": "2026-11-09T23:36:27+00:00",
+   "move_pct": 0.76,
    "closed": false,
    "rsi": 42.5,
    "trade_on": "Perps 1x",
@@ -123,9 +123,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.12075,
-   "last_ts": "2026-11-09T23:30:27+00:00",
-   "move_pct": -0.26,
+   "last": 0.12079,
+   "last_ts": "2026-11-09T23:36:27+00:00",
+   "move_pct": -0.23,
    "closed": false,
    "rsi": 67.9,
    "trade_on": "Perps 1x",
@@ -7266,46 +7266,46 @@
   "onchain": [
    {
     "chain": "BSC",
-    "symbol": "HANA",
-    "name": "Hana Token",
-    "token": "0x6261963ebe9ff014aad10ecc3b0238d4d04e8353",
-    "price": 0.0168536821896668,
-    "liq": 1035456,
-    "vol24h": 8810847,
-    "age_d": 410.8,
-    "chg24h": 18.133,
-    "chg7d": 5.7,
-    "mcap": 4057647.9936,
+    "symbol": "AIOT",
+    "name": "OKZOO",
+    "token": "0x55ad16bd573b3365f43a9daeb0cc66a73821b4a5",
+    "price": 0.161101130392895,
+    "liq": 4295501,
+    "vol24h": 9276749,
+    "age_d": 559.5,
+    "chg24h": -0.211,
+    "chg7d": 84.4,
+    "mcap": 84618368.5814989,
     "safety": "unknown",
     "safety_notes": [
      "safety not checked"
     ],
     "trigger": false,
     "trend_up": true,
-    "rsi": 56.6,
-    "url": "https://www.geckoterminal.com/bsc/pools/0xd21bc2291c1aef340f5265e257b18aa5dafed759"
+    "rsi": 53.7,
+    "url": "https://www.geckoterminal.com/bsc/pools/0xb433ae7e7011a2fb9a4bbb86140e0f653dcfcfba"
    },
    {
-    "chain": "BSC",
-    "symbol": "ARK",
-    "name": "ARK",
-    "token": "0xcae117ca6bc8a341d2e7207f30e180f0e5618b9d",
-    "price": 6.38755316496187,
-    "liq": 58135981,
-    "vol24h": 4760024,
-    "age_d": 440.5,
-    "chg24h": 0.434,
-    "chg7d": -0.1,
-    "mcap": 0.0,
+    "chain": "Arbitrum",
+    "symbol": "ARB",
+    "name": "Arbitrum",
+    "token": "0x912ce59144191c1204e64559fe8253a0e49e6548",
+    "price": 0.174040881881656,
+    "liq": 2039401,
+    "vol24h": 6917848,
+    "age_d": 1333.9,
+    "chg24h": 4.063,
+    "chg7d": 12.8,
+    "mcap": 1199509778.15149,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
-    "trend_up": false,
-    "rsi": 50.3,
-    "url": "https://www.geckoterminal.com/bsc/pools/0xcaaf3c41a40103a23eeaa4bba468af3cf5b0e0d8"
+    "trend_up": true,
+    "rsi": 50.4,
+    "url": "https://www.geckoterminal.com/arbitrum/pools/0xc6f780497a95e246eb9449f5e4770916dcd6396a"
    }
   ],
-  "onchain_checked": 85,
+  "onchain_checked": 84,
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
@@ -7892,9 +7892,9 @@
   ],
   "updated": {
    "unlocks": 1794246027,
-   "onchain": 1794263721,
+   "onchain": 1794267323,
    "sectors": 1794266722,
-   "listings": 1794263721,
+   "listings": 1794267323,
    "fundamentals": 1794246027
   }
  },
@@ -7932,6 +7932,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "0af599a6ea231fb319978378f623e698ca8c720725cb57ae43e593aa5ea2dae8",
- "generated": "2026-11-09T23:30:30+00:00"
+ "digest": "6e26919baa8fb61e6f80f3d68acf4f1806ce6f7151335a4cb47468e78c633ba8",
+ "generated": "2026-11-09T23:36:30+00:00"
 }
