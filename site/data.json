@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.3631,
-   "last_ts": "2026-11-09T09:45:31+00:00",
-   "move_pct": 1.76,
+   "last": 0.3633,
+   "last_ts": "2026-11-09T09:50:29+00:00",
+   "move_pct": 1.7,
    "closed": false,
    "rsi": 36.9,
    "trade_on": "Perps 1x",
@@ -78,9 +78,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.001978,
-   "last_ts": "2026-11-09T09:45:31+00:00",
-   "move_pct": 3.7,
+   "last": 0.001983,
+   "last_ts": "2026-11-09T09:50:29+00:00",
+   "move_pct": 3.46,
    "closed": false,
    "rsi": 25.4,
    "trade_on": "Perps 1x",
@@ -7280,28 +7280,6 @@
     ]
    },
    {
-    "id": "meme-token",
-    "name": "Meme Token",
-    "chg7d": -7.69,
-    "top": [
-     "DOGE",
-     "SHIB",
-     "PEPE",
-     "M",
-     "PUMP"
-    ],
-    "tracked": [
-     "DOGE",
-     "PEPE",
-     "PUMP",
-     "TRUMP",
-     "USELESS",
-     "PENGU",
-     "SHIB",
-     "CASHCAT"
-    ]
-   },
-   {
     "id": "lending-borrowing",
     "name": "Lending Borrowing",
     "chg7d": -7.76,
@@ -7320,6 +7298,28 @@
      "COMP",
      "KMNO",
      "SPK"
+    ]
+   },
+   {
+    "id": "meme-token",
+    "name": "Meme Token",
+    "chg7d": -7.81,
+    "top": [
+     "DOGE",
+     "SHIB",
+     "PEPE",
+     "M",
+     "PUMP"
+    ],
+    "tracked": [
+     "DOGE",
+     "PEPE",
+     "PUMP",
+     "TRUMP",
+     "USELESS",
+     "PENGU",
+     "SHIB",
+     "CASHCAT"
     ]
    },
    {
@@ -7489,6 +7489,54 @@
   ],
   "listings": [
    {
+    "coin": "XBIDU",
+    "list_ts": 1794382200,
+    "market": "SPOT",
+    "state": "preopen"
+   },
+   {
+    "coin": "XBAC",
+    "list_ts": 1794380400,
+    "market": "SPOT",
+    "state": "preopen"
+   },
+   {
+    "coin": "XAMGN",
+    "list_ts": 1794378600,
+    "market": "SPOT",
+    "state": "preopen"
+   },
+   {
+    "coin": "XADI",
+    "list_ts": 1794376800,
+    "market": "SPOT",
+    "state": "preopen"
+   },
+   {
+    "coin": "XABBV",
+    "list_ts": 1794295800,
+    "market": "SPOT",
+    "state": "preopen"
+   },
+   {
+    "coin": "XSKUU",
+    "list_ts": 1794294000,
+    "market": "SPOT",
+    "state": "preopen"
+   },
+   {
+    "coin": "XSKDD",
+    "list_ts": 1794292200,
+    "market": "SPOT",
+    "state": "preopen"
+   },
+   {
+    "coin": "XNVDL",
+    "list_ts": 1794290400,
+    "market": "SPOT",
+    "state": "preopen"
+   },
+   {
     "coin": "EWZS",
     "list_ts": 1793957400,
     "market": "PERP",
@@ -7527,54 +7575,6 @@
    {
     "coin": "UMC",
     "list_ts": 1793622600,
-    "market": "PERP",
-    "state": "live"
-   },
-   {
-    "coin": "PEP",
-    "list_ts": 1793621700,
-    "market": "PERP",
-    "state": "live"
-   },
-   {
-    "coin": "MELI",
-    "list_ts": 1793620800,
-    "market": "PERP",
-    "state": "live"
-   },
-   {
-    "coin": "FLEX",
-    "list_ts": 1793619900,
-    "market": "PERP",
-    "state": "live"
-   },
-   {
-    "coin": "ADI",
-    "list_ts": 1793619000,
-    "market": "PERP",
-    "state": "live"
-   },
-   {
-    "coin": "PFE",
-    "list_ts": 1793351700,
-    "market": "PERP",
-    "state": "live"
-   },
-   {
-    "coin": "GILD",
-    "list_ts": 1793350800,
-    "market": "PERP",
-    "state": "live"
-   },
-   {
-    "coin": "BIDU",
-    "list_ts": 1793349900,
-    "market": "PERP",
-    "state": "live"
-   },
-   {
-    "coin": "PDD",
-    "list_ts": 1793349000,
     "market": "PERP",
     "state": "live"
    }
@@ -7656,8 +7656,8 @@
   "updated": {
    "unlocks": 1794202824,
    "onchain": 1794216922,
-   "sectors": 1794216922,
-   "listings": 1794214226,
+   "sectors": 1794217829,
+   "listings": 1794217829,
    "fundamentals": 1794202825
   }
  },
@@ -7695,6 +7695,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "9e035505359bf88e971c9bbb687313694f3724d248e8ca0251cffd99402cb129",
- "generated": "2026-11-09T09:45:34+00:00"
+ "digest": "72d3f37ea48cd3deaaada23304f72255b48e5d11c3220bed8de373f581774c03",
+ "generated": "2026-11-09T09:50:31+00:00"
 }

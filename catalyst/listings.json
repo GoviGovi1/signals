@@ -1,6 +1,54 @@
 {
  "new": [
   {
+   "coin": "XBIDU",
+   "list_ts": 1794382200,
+   "market": "SPOT",
+   "state": "preopen"
+  },
+  {
+   "coin": "XBAC",
+   "list_ts": 1794380400,
+   "market": "SPOT",
+   "state": "preopen"
+  },
+  {
+   "coin": "XAMGN",
+   "list_ts": 1794378600,
+   "market": "SPOT",
+   "state": "preopen"
+  },
+  {
+   "coin": "XADI",
+   "list_ts": 1794376800,
+   "market": "SPOT",
+   "state": "preopen"
+  },
+  {
+   "coin": "XABBV",
+   "list_ts": 1794295800,
+   "market": "SPOT",
+   "state": "preopen"
+  },
+  {
+   "coin": "XSKUU",
+   "list_ts": 1794294000,
+   "market": "SPOT",
+   "state": "preopen"
+  },
+  {
+   "coin": "XSKDD",
+   "list_ts": 1794292200,
+   "market": "SPOT",
+   "state": "preopen"
+  },
+  {
+   "coin": "XNVDL",
+   "list_ts": 1794290400,
+   "market": "SPOT",
+   "state": "preopen"
+  },
+  {
    "coin": "EWZS",
    "list_ts": 1793957400,
    "market": "PERP",
@@ -179,20 +227,8 @@
    "list_ts": 1793080800,
    "market": "SPOT",
    "state": "live"
-  },
-  {
-   "coin": "XPYPL",
-   "list_ts": 1793007000,
-   "market": "SPOT",
-   "state": "live"
-  },
-  {
-   "coin": "XOKLO",
-   "list_ts": 1793005200,
-   "market": "SPOT",
-   "state": "live"
   }
  ],
  "rule": "New on OKX. Chart signals need the universe rules (volume rank, 30+ days on the chart market). Hot-mover signals can fire from day 2 when the 24h move and volume spike pass hot.py.",
- "updated": 1794214226
+ "updated": 1794217829
 }
