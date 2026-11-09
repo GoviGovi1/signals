@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.001972,
-   "last_ts": "2026-11-09T19:20:27+00:00",
-   "move_pct": 3.99,
+   "last": 0.001974,
+   "last_ts": "2026-11-09T19:25:25+00:00",
+   "move_pct": 3.89,
    "closed": false,
    "rsi": 25.4,
    "trade_on": "Perps 1x",
@@ -78,9 +78,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1052,
-   "last_ts": "2026-11-09T19:20:27+00:00",
-   "move_pct": -0.57,
+   "last": 0.1051,
+   "last_ts": "2026-11-09T19:25:25+00:00",
+   "move_pct": -0.48,
    "closed": false,
    "rsi": 42.5,
    "trade_on": "Perps 1x",
@@ -7343,6 +7343,28 @@
     ]
    },
    {
+    "id": "layer-1",
+    "name": "Layer 1",
+    "chg7d": -3.59,
+    "top": [
+     "BTC",
+     "ETH",
+     "BNB",
+     "XRP",
+     "SOL"
+    ],
+    "tracked": [
+     "ETH",
+     "BTC",
+     "SOL",
+     "XRP",
+     "SUI",
+     "BNB",
+     "AVAX",
+     "ZEC"
+    ]
+   },
+   {
     "id": "exchange-based-tokens",
     "name": "Exchange Based Tokens",
     "chg7d": -3.67,
@@ -7486,28 +7508,6 @@
      "DYDX",
      "BASED",
      "ORDER"
-    ]
-   },
-   {
-    "id": "layer-1",
-    "name": "Layer 1",
-    "chg7d": -5.06,
-    "top": [
-     "BTC",
-     "ETH",
-     "BNB",
-     "XRP",
-     "SOL"
-    ],
-    "tracked": [
-     "ETH",
-     "BTC",
-     "SOL",
-     "XRP",
-     "SUI",
-     "BNB",
-     "AVAX",
-     "ZEC"
     ]
    },
    {
@@ -7865,8 +7865,8 @@
   "updated": {
    "unlocks": 1794246027,
    "onchain": 1794249326,
-   "sectors": 1794251425,
-   "listings": 1794248723,
+   "sectors": 1794252325,
+   "listings": 1794252324,
    "fundamentals": 1794246027
   }
  },
@@ -7904,6 +7904,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "e577ac9780a50b7dbabd90b1b8749d059f4147e1d71f986ea804e059a6ce9b97",
- "generated": "2026-11-09T19:20:29+00:00"
+ "digest": "06349d055e50d6787c0eff590537f9cd9f35e87406e9f2f2b3e384f4648b8d92",
+ "generated": "2026-11-09T19:25:27+00:00"
 }
