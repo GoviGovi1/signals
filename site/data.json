@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.001974,
-   "last_ts": "2026-11-09T19:55:26+00:00",
-   "move_pct": 3.89,
+   "last": 0.001973,
+   "last_ts": "2026-11-09T20:00:36+00:00",
+   "move_pct": 3.94,
    "closed": false,
    "rsi": 25.4,
    "trade_on": "Perps 1x",
@@ -79,7 +79,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.1051,
-   "last_ts": "2026-11-09T19:55:26+00:00",
+   "last_ts": "2026-11-09T20:00:36+00:00",
    "move_pct": -0.48,
    "closed": false,
    "rsi": 42.5,
@@ -87,6 +87,51 @@
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": "charts/DATA-PERP-1794243600.png",
    "setup": "BOS"
+  },
+  {
+   "id": "ACU-PERP-1794250800",
+   "kind": "TA",
+   "score": 1,
+   "reasons": [
+    "Chart: Broke the 20-hour high on 1.1x volume",
+    "Timeframes: 1d flat, 4h up, 4h structure lower highs/lows",
+    "Next resistance 0.12749 (2.1R away, 4h swing/swing/volume node)",
+    "Stop 0.11808 (2 ATR); targets at the next 3 level(s)",
+    "BTC 4h trend down",
+    "Stronger than BTC by 4.0% over 7d",
+    "OI +9% 24h with breakout",
+    "Sector: DePIN -4.1% 7d (middle, #7 of 20)",
+    "Track record: +1.2R on ACU in the last 45 days (backtest)"
+   ],
+   "coin": "ACU",
+   "market": "PERP",
+   "side": "LONG",
+   "entry": 0.12107,
+   "sl0": 0.1180801687083758,
+   "sl": 0.1180801687083758,
+   "tps": [
+    0.12726618075657645,
+    0.1305834097119517,
+    0.1334190959864615
+   ],
+   "lev": 1,
+   "funding_pct": 0.005,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-11-09T20:00:00+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.12118,
+   "last_ts": "2026-11-09T20:00:36+00:00",
+   "move_pct": 0.09,
+   "closed": false,
+   "rsi": 67.9,
+   "trade_on": "Perps 1x",
+   "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
+   "chart": "charts/ACU-PERP-1794250800.png",
+   "setup": "BREAKOUT20"
   }
  ],
  "closed": [
@@ -3872,7 +3917,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 2
+  "open": 3
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7887,6 +7932,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "94e8c02cb6732378db099779bf81df429954f9ab02d4c560c4bc2606d05971c8",
- "generated": "2026-11-09T19:55:28+00:00"
+ "digest": "6cdf4f64e301b246c3659d1aae0072d6ea88ff2e5b43d2530476714dad27ae44",
+ "generated": "2026-11-09T20:01:14+00:00"
 }
