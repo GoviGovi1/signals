@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.001979,
-   "last_ts": "2026-11-09T17:00:33+00:00",
-   "move_pct": 3.65,
+   "last": 0.001983,
+   "last_ts": "2026-11-09T17:05:20+00:00",
+   "move_pct": 3.46,
    "closed": false,
    "rsi": 25.4,
    "trade_on": "Perps 1x",
@@ -74,9 +74,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.4408,
-   "last_ts": "2026-11-09T17:00:33+00:00",
-   "move_pct": 7.04,
+   "last": 0.4355,
+   "last_ts": "2026-11-09T17:05:20+00:00",
+   "move_pct": 5.76,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -114,9 +114,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.03523,
-   "last_ts": "2026-11-09T17:00:33+00:00",
-   "move_pct": 0.46,
+   "last": 0.03463,
+   "last_ts": "2026-11-09T17:05:20+00:00",
+   "move_pct": -1.25,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -158,9 +158,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.29857,
-   "last_ts": "2026-11-09T17:00:33+00:00",
-   "move_pct": -0.95,
+   "last": 0.29914,
+   "last_ts": "2026-11-09T17:05:20+00:00",
+   "move_pct": -0.76,
    "closed": false,
    "rsi": 64.1,
    "trade_on": "Spot",
@@ -7574,6 +7574,27 @@
     ]
    },
    {
+    "id": "oracle",
+    "name": "Oracle",
+    "chg7d": -6.09,
+    "top": [
+     "LINK",
+     "PYTH",
+     "RED",
+     "WIN",
+     "TRB"
+    ],
+    "tracked": [
+     "LINK",
+     "PYTH",
+     "TRB",
+     "API3",
+     "ZKP",
+     "WIN",
+     "AT"
+    ]
+   },
+   {
     "id": "lending-borrowing",
     "name": "Lending Borrowing",
     "chg7d": -6.39,
@@ -7636,27 +7657,6 @@
      "USELESS",
      "SHIB",
      "CASHCAT"
-    ]
-   },
-   {
-    "id": "oracle",
-    "name": "Oracle",
-    "chg7d": -6.54,
-    "top": [
-     "LINK",
-     "PYTH",
-     "RED",
-     "WIN",
-     "TRB"
-    ],
-    "tracked": [
-     "LINK",
-     "PYTH",
-     "TRB",
-     "API3",
-     "ZKP",
-     "WIN",
-     "AT"
     ]
    },
    {
@@ -7905,7 +7905,7 @@
   "updated": {
    "unlocks": 1794224426,
    "onchain": 1794242122,
-   "sectors": 1794243027,
+   "sectors": 1794243920,
    "listings": 1794240628,
    "fundamentals": 1794224426
   }
@@ -7944,6 +7944,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "5564b65e3e640aae7320827f594e7187269995a423f9ea3adbb3187bb9f732ca",
- "generated": "2026-11-09T17:01:09+00:00"
+ "digest": "975b8f4fcd9c14d5c93ef3c134fe9b69be14826b97e8bec2f5d4c5b464cd3fff",
+ "generated": "2026-11-09T17:05:22+00:00"
 }
