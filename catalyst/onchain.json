@@ -1,5 +1,5 @@
 {
- "checked": 83,
+ "checked": 82,
  "errors": [],
  "rejected": [
   {
@@ -74,7 +74,7 @@
     "liquidity under $250k",
     "pool younger than 7 days"
    ],
-   "symbol": "HEREWEGO"
+   "symbol": "JOS\u00c9"
   },
   {
    "chain": "Solana",
@@ -82,14 +82,6 @@
     "liquidity under $250k"
    ],
    "symbol": "STANK"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "liquidity under $250k",
-    "pool younger than 7 days"
-   ],
-   "symbol": "JOS\u00c9"
   },
   {
    "chain": "Solana",
@@ -135,7 +127,7 @@
     "liquidity under $250k",
     "pool younger than 7 days"
    ],
-   "symbol": "STOKE"
+   "symbol": "PUSSY"
   },
   {
    "chain": "Solana",
@@ -143,7 +135,14 @@
     "liquidity under $250k",
     "pool younger than 7 days"
    ],
-   "symbol": "COGE"
+   "symbol": "STOKE"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "24h volume under $250k"
+   ],
+   "symbol": "JEANPHIL"
   },
   {
    "chain": "Base",
@@ -176,17 +175,17 @@
   {
    "chain": "Base",
    "fails": [
-    "liquidity under $250k",
-    "24h volume under $250k"
+    "no DEX candles"
    ],
-   "symbol": "FLOWER"
+   "symbol": "ELSA"
   },
   {
    "chain": "Base",
    "fails": [
-    "no DEX candles"
+    "liquidity under $250k",
+    "24h volume under $250k"
    ],
-   "symbol": "ELSA"
+   "symbol": "FLOWER"
   },
   {
    "chain": "Base",
@@ -297,27 +296,27 @@
   }
  ],
  "rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
- "updated": 1794188122,
+ "updated": 1794191724,
  "watchlist": [
   {
    "age_d": 446.7,
-   "atr": 0.0059497743666626106,
-   "bar_ts": 1794182400000,
+   "atr": 0.00580326647450798,
+   "bar_ts": 1794186000000,
    "chain": "BSC",
-   "chg24h": 3.496,
-   "chg7d": 97.6,
-   "close": 0.16232141752350598,
-   "ema20": 0.1584301180482178,
-   "ema50": 0.15508080269931535,
+   "chg24h": 4.447,
+   "chg7d": 94.0,
+   "close": 0.16115323366563397,
+   "ema20": 0.15868946239210613,
+   "ema50": 0.15531835255546494,
    "fails": [],
    "gecko_id": "aria-ai",
-   "liq": 1852525,
-   "mcap": 29704581.4476,
+   "liq": 1857024,
+   "mcap": 29781365.3379,
    "name": "ARIA.AI",
    "net": "bsc",
    "pool": "0xa5dbeaf16fc031eae92175974f8d0a439be4ad17",
-   "price": 0.162320117158814,
-   "rsi": 57.3,
+   "price": 0.16273970130966,
+   "rsi": 55.2,
    "safety": "ok",
    "safety_notes": [],
    "symbol": "ARIA",
@@ -325,35 +324,35 @@
    "trend_up": true,
    "trigger": false,
    "url": "https://www.geckoterminal.com/bsc/pools/0xa5dbeaf16fc031eae92175974f8d0a439be4ad17",
-   "vol24h": 8127369
+   "vol24h": 8135195
   },
   {
-   "age_d": 434.7,
-   "atr": 0.0011873820625302699,
-   "bar_ts": 1794182400000,
+   "age_d": 568.0,
+   "atr": 0.0014840148605067933,
+   "bar_ts": 1794186000000,
    "chain": "BSC",
-   "chg24h": -1.795,
-   "chg7d": -11.0,
-   "close": 0.026782668650088,
-   "ema20": 0.027958855252387,
-   "ema50": 0.02797340517318152,
+   "chg24h": 13.079,
+   "chg7d": 12.7,
+   "close": 0.0347254147318667,
+   "ema20": 0.03469940913382126,
+   "ema50": 0.03297453402228099,
    "fails": [],
-   "gecko_id": "quack-ai",
-   "liq": 1059081,
-   "mcap": 130652632.026923,
-   "name": "Quack AI Token",
+   "gecko_id": "skyai",
+   "liq": 5132899,
+   "mcap": 34604634.6584416,
+   "name": "SKYAI",
    "net": "bsc",
-   "pool": "0x8bafe0bdd3eb9ae0539f5b32e771c1a72a189b7f",
-   "price": 0.0267042443596565,
-   "rsi": 40.4,
+   "pool": "0xbc42145d5a574ede9b8860fca2a49eb7b239efa5",
+   "price": 0.0346606427122095,
+   "rsi": 52.7,
    "safety": "ok",
    "safety_notes": [],
-   "symbol": "Q",
-   "token": "0xc07e1300dc138601fa6b0b59f8d0fa477e690589",
-   "trend_up": false,
+   "symbol": "SKYAI",
+   "token": "0x92aa03137385f18539301349dcfc9ebc923ffb10",
+   "trend_up": true,
    "trigger": false,
-   "url": "https://www.geckoterminal.com/bsc/pools/0x8bafe0bdd3eb9ae0539f5b32e771c1a72a189b7f",
-   "vol24h": 6203294
+   "url": "https://www.geckoterminal.com/bsc/pools/0xbc42145d5a574ede9b8860fca2a49eb7b239efa5",
+   "vol24h": 6510019
   }
  ]
 }
