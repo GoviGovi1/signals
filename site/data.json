@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.3651,
-   "last_ts": "2026-11-09T11:40:39+00:00",
-   "move_pct": 1.22,
+   "last": 0.3641,
+   "last_ts": "2026-11-09T11:45:22+00:00",
+   "move_pct": 1.49,
    "closed": false,
    "rsi": 36.9,
    "trade_on": "Perps 1x",
@@ -78,15 +78,55 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.001988,
-   "last_ts": "2026-11-09T11:40:39+00:00",
-   "move_pct": 3.21,
+   "last": 0.001979,
+   "last_ts": "2026-11-09T11:45:22+00:00",
+   "move_pct": 3.65,
    "closed": false,
    "rsi": 25.4,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": "charts/FOGO-PERP-1794128400.png",
    "setup": "BREAKOUT20"
+  },
+  {
+   "id": "PIEVERSE-PERP-HOT-20766",
+   "kind": "HOT",
+   "score": 461.06,
+   "reasons": [
+    "24h hot mover +21% with volume spike (2.8x the prior 3 days)",
+    "24h volume $52.9M on the OKX perp book, listed 358 days",
+    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
+    "Stop 1.6824 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
+   ],
+   "coin": "PIEVERSE",
+   "market": "PERP",
+   "side": "LONG",
+   "entry": 1.7729,
+   "sl0": 1.6823956279809922,
+   "sl": 1.6823956279809922,
+   "tps": [
+    1.8634043720190077,
+    1.9539087440380154,
+    2.044413116057023
+   ],
+   "lev": 1,
+   "funding_pct": 0.005,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-11-09T11:45:22+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 1.7727,
+   "last_ts": "2026-11-09T11:45:22+00:00",
+   "move_pct": -0.01,
+   "closed": false,
+   "rsi": null,
+   "trade_on": "Perps 1x",
+   "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
+   "chart": "charts/PIEVERSE-PERP-HOT-20766.png",
+   "setup": "HOT24"
   }
  ],
  "closed": [
@@ -3840,7 +3880,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 2
+  "open": 3
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7851,6 +7891,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "a69f44e3977c884cb94361f5c0055cd33fd7c5ada893f9f0062f8769cfe07e9f",
- "generated": "2026-11-09T11:40:41+00:00"
+ "digest": "dbbd9d2f51b15a6a4a11ee5b8d3f6b7d655652bd22a4fa3f1c75218de2f8075c",
+ "generated": "2026-11-09T11:45:28+00:00"
 }
