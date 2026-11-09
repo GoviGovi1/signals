@@ -26,7 +26,7 @@
     0.3425555954777805
    ],
    "lev": 1,
-   "funding_pct": -0.0052,
+   "funding_pct": -0.005,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-11-08T03:00:00+00:00",
@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.3601,
-   "last_ts": "2026-11-09T03:15:29+00:00",
-   "move_pct": 2.57,
+   "last": 0.3602,
+   "last_ts": "2026-11-09T03:20:26+00:00",
+   "move_pct": 2.54,
    "closed": false,
    "rsi": 36.9,
    "trade_on": "Perps 1x",
@@ -78,9 +78,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.001986,
-   "last_ts": "2026-11-09T03:15:29+00:00",
-   "move_pct": 3.31,
+   "last": 0.001991,
+   "last_ts": "2026-11-09T03:20:26+00:00",
+   "move_pct": 3.07,
    "closed": false,
    "rsi": 25.4,
    "trade_on": "Perps 1x",
@@ -7104,6 +7104,27 @@
     ]
    },
    {
+    "id": "lending-borrowing",
+    "name": "Lending Borrowing",
+    "chg7d": -6.13,
+    "top": [
+     "AAVE",
+     "MORPHO",
+     "OHM",
+     "COMP",
+     "KMNO"
+    ],
+    "tracked": [
+     "CAP",
+     "AAVE",
+     "CT",
+     "MORPHO",
+     "COMP",
+     "KMNO",
+     "SPK"
+    ]
+   },
+   {
     "id": "depin",
     "name": "DePIN",
     "chg7d": -6.34,
@@ -7266,27 +7287,6 @@
      "PENGU",
      "SHIB",
      "CASHCAT"
-    ]
-   },
-   {
-    "id": "lending-borrowing",
-    "name": "Lending Borrowing",
-    "chg7d": -7.96,
-    "top": [
-     "AAVE",
-     "MORPHO",
-     "OHM",
-     "COMP",
-     "KMNO"
-    ],
-    "tracked": [
-     "CAP",
-     "AAVE",
-     "CT",
-     "MORPHO",
-     "COMP",
-     "KMNO",
-     "SPK"
     ]
    },
    {
@@ -7628,7 +7628,7 @@
   "updated": {
    "unlocks": 1794181223,
    "onchain": 1794191724,
-   "sectors": 1794193522,
+   "sectors": 1794194426,
    "listings": 1794191723,
    "fundamentals": 1794181224
   }
@@ -7667,6 +7667,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "ab20b721f8947dbe2c070e48a24385c0385f57845a8d9971bb29d5015f151696",
- "generated": "2026-11-09T03:15:31+00:00"
+ "digest": "c0acf687b1eea31be3cd16d6221c1aad567aa26e69d22ed727e930eaf43483e4",
+ "generated": "2026-11-09T03:20:28+00:00"
 }
