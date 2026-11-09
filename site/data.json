@@ -26,7 +26,7 @@
     0.3425555954777805
    ],
    "lev": 1,
-   "funding_pct": 0.002,
+   "funding_pct": 0.0032,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-11-08T03:00:00+00:00",
@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.3594,
-   "last_ts": "2026-11-09T04:30:28+00:00",
-   "move_pct": 2.76,
+   "last": 0.3602,
+   "last_ts": "2026-11-09T04:36:25+00:00",
+   "move_pct": 2.54,
    "closed": false,
    "rsi": 36.9,
    "trade_on": "Perps 1x",
@@ -70,7 +70,7 @@
     0.0015567097394147602
    ],
    "lev": 1,
-   "funding_pct": 0.0043,
+   "funding_pct": 0.005,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-08T10:00:00+00:00",
@@ -78,9 +78,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.001977,
-   "last_ts": "2026-11-09T04:30:28+00:00",
-   "move_pct": 3.75,
+   "last": 0.001989,
+   "last_ts": "2026-11-09T04:36:25+00:00",
+   "move_pct": 3.16,
    "closed": false,
    "rsi": 25.4,
    "trade_on": "Perps 1x",
@@ -7007,20 +7007,18 @@
     "symbol": "ARIA",
     "name": "ARIA.AI",
     "token": "0x5d3a12c42e5372b2cc3264ab3cdcf660a1555238",
-    "price": 0.159770477248881,
-    "liq": 1846003,
-    "vol24h": 8115371,
+    "price": 0.156950021510244,
+    "liq": 1837191,
+    "vol24h": 8083689,
     "age_d": 446.8,
-    "chg24h": 0.575,
-    "chg7d": 89.9,
-    "mcap": 29248312.818,
-    "safety": "unknown",
-    "safety_notes": [
-     "safety not checked"
-    ],
+    "chg24h": 0.372,
+    "chg7d": 91.1,
+    "mcap": 28721853.9345,
+    "safety": "ok",
+    "safety_notes": [],
     "trigger": false,
     "trend_up": true,
-    "rsi": 51.5,
+    "rsi": 50.2,
     "url": "https://www.geckoterminal.com/bsc/pools/0xa5dbeaf16fc031eae92175974f8d0a439be4ad17"
    },
    {
@@ -7028,18 +7026,18 @@
     "symbol": "SKYAI",
     "name": "SKYAI",
     "token": "0x92aa03137385f18539301349dcfc9ebc923ffb10",
-    "price": 0.0342137387055427,
-    "liq": 5090709,
-    "vol24h": 6509869,
+    "price": 0.0350524893374493,
+    "liq": 5153963,
+    "vol24h": 6485677,
     "age_d": 568.0,
-    "chg24h": 9.582,
-    "chg7d": 12.3,
-    "mcap": 34158452.8095708,
+    "chg24h": 7.816,
+    "chg7d": 11.5,
+    "mcap": 34995848.1043878,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": true,
-    "rsi": 52.3,
+    "rsi": 53.2,
     "url": "https://www.geckoterminal.com/bsc/pools/0xbc42145d5a574ede9b8860fca2a49eb7b239efa5"
    }
   ],
@@ -7292,6 +7290,28 @@
     ]
    },
    {
+    "id": "layer-2",
+    "name": "Layer 2",
+    "chg7d": -7.92,
+    "top": [
+     "OKB",
+     "MNT",
+     "ARB",
+     "POL",
+     "STX"
+    ],
+    "tracked": [
+     "ARB",
+     "OKB",
+     "STRK",
+     "STX",
+     "MEGA",
+     "OP",
+     "BLEND",
+     "MAGIC"
+    ]
+   },
+   {
     "id": "solana-meme-coins",
     "name": "Solana Meme Coins",
     "chg7d": -7.92,
@@ -7355,28 +7375,6 @@
      "IMX",
      "AXS",
      "MANA"
-    ]
-   },
-   {
-    "id": "layer-2",
-    "name": "Layer 2",
-    "chg7d": -8.63,
-    "top": [
-     "OKB",
-     "MNT",
-     "ARB",
-     "POL",
-     "STX"
-    ],
-    "tracked": [
-     "ARB",
-     "OKB",
-     "STRK",
-     "STX",
-     "MEGA",
-     "OP",
-     "BLEND",
-     "MAGIC"
     ]
    },
    {
@@ -7629,8 +7627,8 @@
   ],
   "updated": {
    "unlocks": 1794181223,
-   "onchain": 1794195322,
-   "sectors": 1794198021,
+   "onchain": 1794198925,
+   "sectors": 1794198925,
    "listings": 1794195624,
    "fundamentals": 1794181224
   }
@@ -7669,6 +7667,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "c9334d3c2ccb30faaa71a397066a3c3d58bdc861d07d698a26e8a84eefc12a95",
- "generated": "2026-11-09T04:30:30+00:00"
+ "digest": "033a2be370225351ca7eca169c8d5a37aa1eeb10abf8a807b8ca63666b95e063",
+ "generated": "2026-11-09T04:36:27+00:00"
 }
