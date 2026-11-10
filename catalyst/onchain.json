@@ -1,5 +1,5 @@
 {
- "checked": 83,
+ "checked": 84,
  "errors": [],
  "rejected": [
   {
@@ -85,9 +85,10 @@
   {
    "chain": "Solana",
    "fails": [
-    "liquidity under $250k"
+    "liquidity under $250k",
+    "pool younger than 7 days"
    ],
-   "symbol": "GTA6"
+   "symbol": "AICOIN"
   },
   {
    "chain": "Solana",
@@ -95,6 +96,20 @@
     "no DEX candles"
    ],
    "symbol": "DESSA"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "no DEX candles"
+   ],
+   "symbol": "CARDS"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "liquidity under $250k"
+   ],
+   "symbol": "GTA6"
   },
   {
    "chain": "Solana",
@@ -114,9 +129,10 @@
    "chain": "Solana",
    "fails": [
     "liquidity under $250k",
-    "pool younger than 7 days"
+    "pool younger than 7 days",
+    "24h volume under $250k"
    ],
-   "symbol": "AICOIN"
+   "symbol": "MERLYN"
   },
   {
    "chain": "Solana",
@@ -170,16 +186,16 @@
   {
    "chain": "Base",
    "fails": [
-    "no DEX candles"
+    "liquidity under $250k"
    ],
-   "symbol": "AERO"
+   "symbol": "ICNT"
   },
   {
    "chain": "Base",
    "fails": [
-    "liquidity under $250k"
+    "no DEX candles"
    ],
-   "symbol": "ICNT"
+   "symbol": "AERO"
   },
   {
    "chain": "Base",
@@ -229,21 +245,15 @@
    "fails": [
     "24h volume under $250k"
    ],
-   "symbol": "VELVET"
-  },
-  {
-   "chain": "Base",
-   "fails": [
-    "24h volume under $250k"
-   ],
    "symbol": "BASECAT"
   },
   {
    "chain": "Base",
    "fails": [
+    "liquidity under $250k",
     "24h volume under $250k"
    ],
-   "symbol": "CLANKER"
+   "symbol": "DEGEN"
   },
   {
    "chain": "BSC",
@@ -281,75 +291,68 @@
     "no DEX candles"
    ],
    "symbol": "UAI"
-  },
-  {
-   "chain": "BSC",
-   "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "AKE"
   }
  ],
  "rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
- "updated": 1794303320,
+ "updated": 1794306921,
  "watchlist": [
   {
-   "age_d": 437.6,
-   "atr": 0.008564236050641855,
-   "bar_ts": 1794297600000,
-   "chain": "Solana",
-   "chg24h": 12.44,
-   "chg7d": 1.8,
-   "close": 0.2404888968904488,
-   "ema20": 0.23088431779177937,
-   "ema50": 0.2256672117153686,
+   "age_d": 19.3,
+   "atr": 14.231034219335674,
+   "bar_ts": 1794301200000,
+   "chain": "Base",
+   "chg24h": 10.729,
+   "chg7d": -11.0,
+   "close": 762.5057169120779,
+   "ema20": 728.9582356823541,
+   "ema50": 715.4712017936469,
    "fails": [],
-   "gecko_id": "collector-crypt",
-   "liq": 3622370,
-   "mcap": 211013625.560341,
-   "name": "Collector Crypt",
-   "net": "solana",
-   "pool": "HnhpJPJgBG2KwniMTNW8cVBHvk1hFog3RC3kjnyc23tD",
-   "price": 0.23685067055963885,
-   "rsi": 59.2,
-   "safety": "ok",
-   "safety_notes": [],
-   "symbol": "CARDS",
-   "token": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
-   "trend_up": true,
-   "trigger": false,
-   "url": "https://www.geckoterminal.com/solana/pools/HnhpJPJgBG2KwniMTNW8cVBHvk1hFog3RC3kjnyc23tD",
-   "vol24h": 3755896
-  },
-  {
-   "age_d": 1334.3,
-   "atr": 0.0025699271459458843,
-   "bar_ts": 1794297600000,
-   "chain": "Arbitrum",
-   "chg24h": -5.087,
-   "chg7d": 9.5,
-   "close": 0.168144977308585,
-   "ema20": 0.17288590347430036,
-   "ema50": 0.17232213154220083,
-   "fails": [],
-   "gecko_id": "arbitrum",
-   "liq": 2154086,
-   "mcap": 1163752196.54515,
-   "name": "Arbitrum",
-   "net": "arbitrum",
-   "pool": "0xc6f780497a95e246eb9449f5e4770916dcd6396a",
-   "price": 0.168635042876518,
-   "rsi": 38.1,
+   "gecko_id": "micron-technology-inc-coinbase-tokenized-stock",
+   "liq": 564962,
+   "mcap": 978497.841863845,
+   "name": "Micron Technology Inc.",
+   "net": "base",
+   "pool": "0x41e21950362b1014bc629252ecfff8fca5f1646c",
+   "price": 761.246573385387,
+   "rsi": 71.5,
    "safety": "unknown",
    "safety_notes": [
     "safety not checked"
    ],
-   "symbol": "ARB",
-   "token": "0x912ce59144191c1204e64559fe8253a0e49e6548",
+   "symbol": "MUC",
+   "token": "0xb200000000000000000000fd2f87532b90095211",
+   "trend_up": true,
+   "trigger": true,
+   "url": "https://www.geckoterminal.com/base/pools/0x41e21950362b1014bc629252ecfff8fca5f1646c",
+   "vol24h": 7859548
+  },
+  {
+   "age_d": 411.3,
+   "atr": 0.0007771933567483662,
+   "bar_ts": 1794301200000,
+   "chain": "BSC",
+   "chg24h": -9.656,
+   "chg7d": 10.7,
+   "close": 0.015524946599396199,
+   "ema20": 0.016285610308349782,
+   "ema50": 0.015812644538432653,
+   "fails": [],
+   "gecko_id": "hana-network",
+   "liq": 976493,
+   "mcap": 3645786.8952,
+   "name": "Hana Token",
+   "net": "bsc",
+   "pool": "0xd21bc2291c1aef340f5265e257b18aa5dafed759",
+   "price": 0.0151907787339669,
+   "rsi": 42.3,
+   "safety": "ok",
+   "safety_notes": [],
+   "symbol": "HANA",
+   "token": "0x6261963ebe9ff014aad10ecc3b0238d4d04e8353",
    "trend_up": false,
    "trigger": false,
-   "url": "https://www.geckoterminal.com/arbitrum/pools/0xc6f780497a95e246eb9449f5e4770916dcd6396a",
-   "vol24h": 6223121
+   "url": "https://www.geckoterminal.com/bsc/pools/0xd21bc2291c1aef340f5265e257b18aa5dafed759",
+   "vol24h": 4631021
   }
  ]
 }
