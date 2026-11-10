@@ -26,7 +26,7 @@
     0.0015567097394147602
    ],
    "lev": 1,
-   "funding_pct": 0.0043,
+   "funding_pct": 0.005,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-08T10:00:00+00:00",
@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.001895,
-   "last_ts": "2026-11-10T00:36:27+00:00",
-   "move_pct": 7.74,
+   "last": 0.001901,
+   "last_ts": "2026-11-10T00:40:26+00:00",
+   "move_pct": 7.45,
    "closed": false,
    "rsi": 25.4,
    "trade_on": "Perps 1x",
@@ -78,9 +78,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1031,
-   "last_ts": "2026-11-10T00:36:27+00:00",
-   "move_pct": 1.43,
+   "last": 0.1027,
+   "last_ts": "2026-11-10T00:40:26+00:00",
+   "move_pct": 1.82,
    "closed": false,
    "rsi": 42.5,
    "trade_on": "Perps 1x",
@@ -124,7 +124,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.12098,
-   "last_ts": "2026-11-10T00:36:27+00:00",
+   "last_ts": "2026-11-10T00:40:26+00:00",
    "move_pct": -0.07,
    "closed": false,
    "rsi": 67.9,
@@ -155,7 +155,7 @@
     0.2499561249407643
    ],
    "lev": 1,
-   "funding_pct": -0.5429,
+   "funding_pct": -0.5388,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-10T00:00:34+00:00",
@@ -163,9 +163,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.19234,
-   "last_ts": "2026-11-10T00:36:27+00:00",
-   "move_pct": 4.61,
+   "last": 0.195,
+   "last_ts": "2026-11-10T00:40:26+00:00",
+   "move_pct": 6.05,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -7497,28 +7497,6 @@
     ]
    },
    {
-    "id": "layer-2",
-    "name": "Layer 2",
-    "chg7d": -3.67,
-    "top": [
-     "OKB",
-     "MNT",
-     "ARB",
-     "POL",
-     "STX"
-    ],
-    "tracked": [
-     "ARB",
-     "OKB",
-     "STRK",
-     "MERL",
-     "OP",
-     "MEGA",
-     "STX",
-     "BLEND"
-    ]
-   },
-   {
     "id": "layer-1",
     "name": "Layer 1",
     "chg7d": -3.91,
@@ -7596,6 +7574,28 @@
      "COMP",
      "KMNO",
      "SPK"
+    ]
+   },
+   {
+    "id": "layer-2",
+    "name": "Layer 2",
+    "chg7d": -4.77,
+    "top": [
+     "OKB",
+     "MNT",
+     "ARB",
+     "POL",
+     "STX"
+    ],
+    "tracked": [
+     "ARB",
+     "OKB",
+     "STRK",
+     "MERL",
+     "OP",
+     "MEGA",
+     "STX",
+     "BLEND"
     ]
    },
    {
@@ -7931,7 +7931,7 @@
   "updated": {
    "unlocks": 1794267922,
    "onchain": 1794270924,
-   "sectors": 1794270326,
+   "sectors": 1794271226,
    "listings": 1794270924,
    "fundamentals": 1794267923
   }
@@ -7970,6 +7970,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "70cdc49b2c6041250c830a764a2360c82b95e3d202cce633742d179114bf9577",
- "generated": "2026-11-10T00:36:30+00:00"
+ "digest": "b56645f46f3c3c09279dc64f82abee7c5e3d7cc56316747ca183f0c6533f344c",
+ "generated": "2026-11-10T00:40:29+00:00"
 }
