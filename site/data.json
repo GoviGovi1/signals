@@ -26,7 +26,7 @@
     0.0015567097394147602
    ],
    "lev": 1,
-   "funding_pct": 0.003,
+   "funding_pct": 0.0031,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-08T10:00:00+00:00",
@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.001913,
-   "last_ts": "2026-11-10T03:36:22+00:00",
-   "move_pct": 6.86,
+   "last": 0.001912,
+   "last_ts": "2026-11-10T03:40:23+00:00",
+   "move_pct": 6.91,
    "closed": false,
    "rsi": 25.4,
    "trade_on": "Perps 1x",
@@ -79,7 +79,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.102,
-   "last_ts": "2026-11-10T03:36:22+00:00",
+   "last_ts": "2026-11-10T03:40:23+00:00",
    "move_pct": 2.49,
    "closed": false,
    "rsi": 42.5,
@@ -123,9 +123,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.12133,
-   "last_ts": "2026-11-10T03:36:22+00:00",
-   "move_pct": 0.21,
+   "last": 0.12157,
+   "last_ts": "2026-11-10T03:40:23+00:00",
+   "move_pct": 0.41,
    "closed": false,
    "rsi": 67.9,
    "trade_on": "Perps 1x",
@@ -7366,6 +7366,28 @@
     ]
    },
    {
+    "id": "depin",
+    "name": "DePIN",
+    "chg7d": -2.64,
+    "top": [
+     "TAO",
+     "RENDER",
+     "FIL",
+     "BDX",
+     "GRASS"
+    ],
+    "tracked": [
+     "FIL",
+     "TAO",
+     "GRASS",
+     "RENDER",
+     "AR",
+     "ATH",
+     "LPT",
+     "IOTA"
+    ]
+   },
+   {
     "id": "exchange-based-tokens",
     "name": "Exchange Based Tokens",
     "chg7d": -2.97,
@@ -7385,28 +7407,6 @@
      "ASTER",
      "CRV",
      "MET"
-    ]
-   },
-   {
-    "id": "depin",
-    "name": "DePIN",
-    "chg7d": -3.12,
-    "top": [
-     "TAO",
-     "RENDER",
-     "FIL",
-     "BDX",
-     "GRASS"
-    ],
-    "tracked": [
-     "FIL",
-     "TAO",
-     "GRASS",
-     "RENDER",
-     "AR",
-     "ATH",
-     "LPT",
-     "IOTA"
     ]
    },
    {
@@ -7888,7 +7888,7 @@
   "updated": {
    "unlocks": 1794267922,
    "onchain": 1794281722,
-   "sectors": 1794281123,
+   "sectors": 1794282023,
    "listings": 1794278426,
    "fundamentals": 1794267923
   }
@@ -7927,6 +7927,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "de3bde336246d1e30cb5c21ed4ca169b9bd2136e07d358c721d7843b5bc123d6",
- "generated": "2026-11-10T03:36:24+00:00"
+ "digest": "3bcd3c76a4d534fd1dda30f1762187478216bd505220171f50bba4cff4f0759b",
+ "generated": "2026-11-10T03:40:26+00:00"
 }
