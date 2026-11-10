@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.001912,
-   "last_ts": "2026-11-10T03:05:20+00:00",
-   "move_pct": 6.91,
+   "last": 0.001921,
+   "last_ts": "2026-11-10T03:10:23+00:00",
+   "move_pct": 6.48,
    "closed": false,
    "rsi": 25.4,
    "trade_on": "Perps 1x",
@@ -78,9 +78,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1019,
-   "last_ts": "2026-11-10T03:05:20+00:00",
-   "move_pct": 2.58,
+   "last": 0.102,
+   "last_ts": "2026-11-10T03:10:23+00:00",
+   "move_pct": 2.49,
    "closed": false,
    "rsi": 42.5,
    "trade_on": "Perps 1x",
@@ -123,9 +123,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.12095,
-   "last_ts": "2026-11-10T03:05:20+00:00",
-   "move_pct": -0.1,
+   "last": 0.1216,
+   "last_ts": "2026-11-10T03:10:23+00:00",
+   "move_pct": 0.44,
    "closed": false,
    "rsi": 67.9,
    "trade_on": "Perps 1x",
@@ -7578,27 +7578,6 @@
     ]
    },
    {
-    "id": "oracle",
-    "name": "Oracle",
-    "chg7d": -5.21,
-    "top": [
-     "LINK",
-     "PYTH",
-     "RED",
-     "WIN",
-     "TRB"
-    ],
-    "tracked": [
-     "LINK",
-     "PYTH",
-     "TRB",
-     "API3",
-     "ZKP",
-     "WIN",
-     "AT"
-    ]
-   },
-   {
     "id": "zero-knowledge-zk",
     "name": "Zero Knowledge ZK",
     "chg7d": -5.33,
@@ -7618,6 +7597,27 @@
      "H",
      "ZK",
      "MINA"
+    ]
+   },
+   {
+    "id": "oracle",
+    "name": "Oracle",
+    "chg7d": -5.88,
+    "top": [
+     "LINK",
+     "PYTH",
+     "RED",
+     "WIN",
+     "TRB"
+    ],
+    "tracked": [
+     "LINK",
+     "PYTH",
+     "TRB",
+     "API3",
+     "ZKP",
+     "WIN",
+     "AT"
     ]
    },
    {
@@ -7888,7 +7888,7 @@
   "updated": {
    "unlocks": 1794267922,
    "onchain": 1794278123,
-   "sectors": 1794279322,
+   "sectors": 1794280223,
    "listings": 1794278426,
    "fundamentals": 1794267923
   }
@@ -7927,6 +7927,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "8610caa05849bac5f00dbbb740e010791da9826f67c6b654c3dfcebfe9b28dab",
- "generated": "2026-11-10T03:05:23+00:00"
+ "digest": "fa824eef5eb1b7724fde7999e0f22b3174fd48b818bb8a5524c8464a614fc899",
+ "generated": "2026-11-10T03:10:26+00:00"
 }
