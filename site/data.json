@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.001898,
-   "last_ts": "2026-11-10T05:55:23+00:00",
-   "move_pct": 7.59,
+   "last": 0.001893,
+   "last_ts": "2026-11-10T06:00:32+00:00",
+   "move_pct": 7.84,
    "closed": false,
    "rsi": 25.4,
    "trade_on": "Perps 1x",
@@ -78,9 +78,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1029,
-   "last_ts": "2026-11-10T05:55:23+00:00",
-   "move_pct": 1.63,
+   "last": 0.1031,
+   "last_ts": "2026-11-10T06:00:32+00:00",
+   "move_pct": 1.43,
    "closed": false,
    "rsi": 42.5,
    "trade_on": "Perps 1x",
@@ -123,14 +123,59 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.12327,
-   "last_ts": "2026-11-10T05:55:23+00:00",
-   "move_pct": 1.82,
+   "last": 0.123,
+   "last_ts": "2026-11-10T06:00:32+00:00",
+   "move_pct": 1.59,
    "closed": false,
    "rsi": 67.9,
    "trade_on": "Perps 1x",
    "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
    "chart": "charts/ACU-PERP-1794250800.png",
+   "setup": "BREAKOUT20"
+  },
+  {
+   "id": "WIN-SPOT-1794286800",
+   "kind": "TA",
+   "score": -1,
+   "reasons": [
+    "Chart: Broke the 20-hour high on 1.3x volume",
+    "Timeframes: 1d up, 4h up, 4h structure mixed",
+    "Next resistance 7.0023e-05 (2.5R away, swing/volume node)",
+    "Stop 6.4939e-05 (2 ATR); targets at the next 3 level(s)",
+    "BTC 4h trend down",
+    "Stronger than BTC by 0.3% over 7d",
+    "OI / funding: no data this run",
+    "Sector: Oracle -5.9% 7d (lagging, #16 of 20)",
+    "Track record: +0.9R on WIN in the last 45 days (backtest)"
+   ],
+   "coin": "WIN",
+   "market": "SPOT",
+   "side": "LONG",
+   "entry": 6.64e-05,
+   "sl0": 6.493927602960236e-05,
+   "sl": 6.493927602960236e-05,
+   "tps": [
+    6.991299570222018e-05,
+    7.086711236888684e-05,
+    7.214044570222018e-05
+   ],
+   "lev": null,
+   "funding_pct": null,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-11-10T06:00:00+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 6.64e-05,
+   "last_ts": "2026-11-10T06:00:32+00:00",
+   "move_pct": 0.0,
+   "closed": false,
+   "rsi": 56.2,
+   "trade_on": "Spot",
+   "market_reason": "only spot is listed",
+   "chart": "charts/WIN-SPOT-1794286800.png",
    "setup": "BREAKOUT20"
   }
  ],
@@ -3912,7 +3957,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 3
+  "open": 4
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7927,6 +7972,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "59aebd9eafb28e9acbfa3c49a3ca9d1d62bcf424737d4b79f052248856410e66",
- "generated": "2026-11-10T05:55:26+00:00"
+ "digest": "5a35c8e39e2bb048d80e01374e7bdb66c5cef11fbdb3d170ccb73aed9f1e3b78",
+ "generated": "2026-11-10T06:01:09+00:00"
 }
