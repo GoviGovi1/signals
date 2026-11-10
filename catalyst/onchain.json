@@ -37,7 +37,7 @@
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "FLOAT"
+   "symbol": "ANSEM"
   },
   {
    "chain": "Solana",
@@ -50,9 +50,10 @@
   {
    "chain": "Solana",
    "fails": [
-    "no DEX candles"
+    "liquidity under $250k",
+    "pool younger than 7 days"
    ],
-   "symbol": "ANSEM"
+   "symbol": "AICOIN"
   },
   {
    "chain": "Solana",
@@ -64,10 +65,9 @@
   {
    "chain": "Solana",
    "fails": [
-    "liquidity under $250k",
-    "pool younger than 7 days"
+    "no DEX candles"
    ],
-   "symbol": "AICOIN"
+   "symbol": "FLOAT"
   },
   {
    "chain": "Solana",
@@ -101,6 +101,13 @@
   {
    "chain": "Solana",
    "fails": [
+    "no DEX candles"
+   ],
+   "symbol": "CARDS"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
     "liquidity under $250k"
    ],
    "symbol": "GTA6"
@@ -110,7 +117,7 @@
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "CARDS"
+   "symbol": "DACITY"
   },
   {
    "chain": "Solana",
@@ -122,16 +129,9 @@
   {
    "chain": "Solana",
    "fails": [
-    "no DEX candles"
+    "liquidity under $250k"
    ],
-   "symbol": "PUMP"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "HODL"
+   "symbol": "CBUCKS"
   },
   {
    "chain": "Base",
@@ -150,9 +150,17 @@
   {
    "chain": "Base",
    "fails": [
-    "pool younger than 7 days"
+    "no DEX candles"
    ],
-   "symbol": "KNTQ"
+   "symbol": "SNDKC"
+  },
+  {
+   "chain": "Base",
+   "fails": [
+    "liquidity under $250k",
+    "24h volume under $250k"
+   ],
+   "symbol": "STONKEX"
   },
   {
    "chain": "Base",
@@ -164,10 +172,9 @@
   {
    "chain": "Base",
    "fails": [
-    "liquidity under $250k",
-    "24h volume under $250k"
+    "pool younger than 7 days"
    ],
-   "symbol": "STONKEX"
+   "symbol": "KNTQ"
   },
   {
    "chain": "Base",
@@ -193,6 +200,14 @@
   {
    "chain": "Base",
    "fails": [
+    "liquidity under $250k",
+    "24h volume under $250k"
+   ],
+   "symbol": "VEIL"
+  },
+  {
+   "chain": "Base",
+   "fails": [
     "24h volume under $250k"
    ],
    "symbol": "DOT"
@@ -200,17 +215,16 @@
   {
    "chain": "Base",
    "fails": [
-    "liquidity under $250k"
+    "no DEX candles"
    ],
-   "symbol": "ICNT"
+   "symbol": "MUC"
   },
   {
    "chain": "Base",
    "fails": [
-    "liquidity under $250k",
-    "24h volume under $250k"
+    "liquidity under $250k"
    ],
-   "symbol": "VEIL"
+   "symbol": "ICNT"
   },
   {
    "chain": "Base",
@@ -237,9 +251,10 @@
    "chain": "Base",
    "fails": [
     "liquidity under $250k",
+    "pool younger than 7 days",
     "24h volume under $250k"
    ],
-   "symbol": "FLOWER"
+   "symbol": "BOOTR"
   },
   {
    "chain": "Base",
@@ -278,103 +293,30 @@
     "no DEX candles"
    ],
    "symbol": "JCT"
-  },
-  {
-   "chain": "BSC",
-   "fails": [
-    "liquidity under $250k",
-    "pool younger than 7 days"
-   ],
-   "symbol": "\u725b\u903c"
-  },
-  {
-   "chain": "BSC",
-   "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "UAI"
   }
  ],
  "rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
- "updated": 1794317720,
+ "updated": 1794321321,
  "watchlist": [
   {
-   "age_d": 19.4,
-   "atr": 18.256501181743193,
-   "bar_ts": 1794312000000,
-   "chain": "Base",
-   "chg24h": 4.452,
-   "chg7d": -22.5,
-   "close": 873.3931650485999,
-   "ema20": 877.9546255811897,
-   "ema50": 865.3201890853695,
-   "fails": [],
-   "gecko_id": "sandisk-coinbase-tokenized-stock",
-   "liq": 1627538,
-   "mcap": 1968111.83027173,
-   "name": "Sandisk Corporation",
-   "net": "base",
-   "pool": "0x2836e062a3fe75943a7f4a552e2365b98e414e75",
-   "price": 866.286586344148,
-   "rsi": 49.7,
-   "safety": "ok",
-   "safety_notes": [],
-   "symbol": "SNDKC",
-   "token": "0xb200000000000000000000397293cb8cda9a10c5",
-   "trend_up": true,
-   "trigger": false,
-   "url": "https://www.geckoterminal.com/base/pools/0x2836e062a3fe75943a7f4a552e2365b98e414e75",
-   "vol24h": 37307489
-  },
-  {
-   "age_d": 19.4,
-   "atr": 15.923657447014786,
-   "bar_ts": 1794312000000,
-   "chain": "Base",
-   "chg24h": 3.326,
-   "chg7d": -16.3,
-   "close": 722.9076565881429,
-   "ema20": 730.2159953093214,
-   "ema50": 717.6150862561137,
-   "fails": [],
-   "gecko_id": "micron-technology-inc-coinbase-tokenized-stock",
-   "liq": 517425,
-   "mcap": 925968.776895815,
-   "name": "Micron Technology Inc.",
-   "net": "base",
-   "pool": "0x41e21950362b1014bc629252ecfff8fca5f1646c",
-   "price": 724.476896599683,
-   "rsi": 48.4,
-   "safety": "unknown",
-   "safety_notes": [
-    "safety not checked"
-   ],
-   "symbol": "MUC",
-   "token": "0xb200000000000000000000fd2f87532b90095211",
-   "trend_up": true,
-   "trigger": false,
-   "url": "https://www.geckoterminal.com/base/pools/0x41e21950362b1014bc629252ecfff8fca5f1646c",
-   "vol24h": 7915637
-  },
-  {
-   "age_d": 15.4,
-   "atr": 0.0034839583173113526,
-   "bar_ts": 1794312000000,
+   "age_d": 15.5,
+   "atr": 0.0041876143777065025,
+   "bar_ts": 1794315600000,
    "chain": "Arbitrum",
-   "chg24h": -0.319,
+   "chg24h": -0.012,
    "chg7d": -0.1,
-   "close": 0.99962884237391,
-   "ema20": 0.9996633775812437,
-   "ema50": 0.9996427924962855,
+   "close": 0.999563575063372,
+   "ema20": 0.9996538725787432,
+   "ema50": 0.9996396768370699,
    "fails": [],
    "gecko_id": "global-dollar",
-   "liq": 1413856,
-   "mcap": 2708867229.67671,
+   "liq": 1427390,
+   "mcap": 2715241730.04634,
    "name": "Global Dollar",
    "net": "arbitrum",
    "pool": "0x09328be718d89228a985471bb470988a34d0b162",
-   "price": 0.99731986536137,
-   "rsi": 49.9,
+   "price": 0.999666756290396,
+   "rsi": 49.7,
    "safety": "ok",
    "safety_notes": [],
    "symbol": "USDG",
@@ -382,27 +324,27 @@
    "trend_up": false,
    "trigger": false,
    "url": "https://www.geckoterminal.com/arbitrum/pools/0x09328be718d89228a985471bb470988a34d0b162",
-   "vol24h": 7187594
+   "vol24h": 7730435
   },
   {
-   "age_d": 15.0,
-   "atr": 0.003669448806662579,
-   "bar_ts": 1794312000000,
+   "age_d": 15.1,
+   "atr": 0.003940187705933812,
+   "bar_ts": 1794315600000,
    "chain": "Solana",
-   "chg24h": -61.0,
-   "chg7d": 33.9,
-   "close": 0.02014644019328348,
-   "ema20": 0.025184151677271588,
-   "ema50": 0.030034448791195528,
+   "chg24h": -64.403,
+   "chg7d": 27.0,
+   "close": 0.014679004970226365,
+   "ema20": 0.02418366151471765,
+   "ema50": 0.029432235373840456,
    "fails": [],
    "gecko_id": "dessa",
-   "liq": 378200,
-   "mcap": 16088576.8340028,
+   "liq": 325165,
+   "mcap": 11787197.4896256,
    "name": "Dessa",
    "net": "solana",
    "pool": "DEXTCER4k9dwbxTMU8zNVVwGevVmvHMB183pF2xxZwvH",
-   "price": 0.01675203088422536,
-   "rsi": 37.6,
+   "price": 0.012241319466262448,
+   "rsi": 31.5,
    "safety": "ok",
    "safety_notes": [],
    "symbol": "DESSA",
@@ -410,7 +352,7 @@
    "trend_up": false,
    "trigger": false,
    "url": "https://www.geckoterminal.com/solana/pools/DEXTCER4k9dwbxTMU8zNVVwGevVmvHMB183pF2xxZwvH",
-   "vol24h": 3887001
+   "vol24h": 3817330
   }
  ]
 }
