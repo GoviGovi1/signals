@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0994,
-   "last_ts": "2026-11-10T11:20:24+00:00",
-   "move_pct": 4.97,
+   "last": 0.0995,
+   "last_ts": "2026-11-10T11:25:21+00:00",
+   "move_pct": 4.88,
    "closed": false,
    "rsi": 42.5,
    "trade_on": "Perps 1x",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.12233,
-   "last_ts": "2026-11-10T11:20:24+00:00",
-   "move_pct": 1.04,
+   "last": 0.1226,
+   "last_ts": "2026-11-10T11:25:21+00:00",
+   "move_pct": 1.26,
    "closed": false,
    "rsi": 67.9,
    "trade_on": "Perps 1x",
@@ -123,9 +123,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.016094835771860497,
-   "last_ts": "2026-11-10T11:20:24+00:00",
-   "move_pct": -1.39,
+   "last": 0.016040633192378,
+   "last_ts": "2026-11-10T11:25:21+00:00",
+   "move_pct": -1.72,
    "closed": false,
    "rsi": 72.1,
    "trade_on": "On-chain spot (Base DEX)",
@@ -160,7 +160,7 @@
     0.030269579590888156
    ],
    "lev": 1,
-   "funding_pct": 0.0004,
+   "funding_pct": -0.0001,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-10T10:00:00+00:00",
@@ -168,59 +168,15 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.03291,
-   "last_ts": "2026-11-10T11:20:24+00:00",
-   "move_pct": 0.45,
+   "last": 0.03289,
+   "last_ts": "2026-11-10T11:25:21+00:00",
+   "move_pct": 0.51,
    "closed": false,
    "rsi": 43.4,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": "charts/KMNO-PERP-1794301200.png",
    "setup": "BREAKOUT20"
-  },
-  {
-   "id": "MUC-DEX-base-0xb2000000-1794301200",
-   "kind": "ONCHAIN",
-   "score": null,
-   "reasons": [
-    "Trending on Base (GeckoTerminal), $7.9M volume 24h",
-    "Liquidity $565k, pool 19 days old",
-    "Safety: GoPlus had no data, be careful",
-    "Chart: 20-hour breakout above EMA50 on the DEX, RSI 72",
-    "Untested: no free history to backtest on-chain signals"
-   ],
-   "chain": "Base",
-   "token": "0xb200000000000000000000fd2f87532b90095211",
-   "url": "https://www.geckoterminal.com/base/pools/0x41e21950362b1014bc629252ecfff8fca5f1646c",
-   "coin": "MUC",
-   "market": "DEX",
-   "side": "LONG",
-   "entry": 762.5057169120779,
-   "sl0": 734.0436484734065,
-   "sl": 734.0436484734065,
-   "tps": [
-    790.9677853507493,
-    819.4298537894206,
-    847.891922228092
-   ],
-   "lev": null,
-   "funding_pct": null,
-   "status": "open",
-   "hits": 0,
-   "opened": "2026-11-10T10:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 758.2078782683759,
-   "last_ts": "2026-11-10T11:20:24+00:00",
-   "move_pct": -0.56,
-   "closed": false,
-   "rsi": 71.5,
-   "trade_on": "On-chain spot (Base DEX)",
-   "market_reason": "not listed on OKX; buy on a DEX, small size, no leverage",
-   "chart": null,
-   "setup": null
   },
   {
    "id": "FLOW-PERP-1794304800",
@@ -248,7 +204,7 @@
     0.018813788141107998
    ],
    "lev": 1,
-   "funding_pct": -0.0207,
+   "funding_pct": -0.0241,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-10T11:00:00+00:00",
@@ -257,7 +213,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.02014,
-   "last_ts": "2026-11-10T11:20:24+00:00",
+   "last_ts": "2026-11-10T11:25:21+00:00",
    "move_pct": 0.1,
    "closed": false,
    "rsi": 43.4,
@@ -293,7 +249,7 @@
     0.06481197026895691
    ],
    "lev": 3,
-   "funding_pct": 0.0081,
+   "funding_pct": 0.0083,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-10T11:00:00+00:00",
@@ -301,9 +257,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.06933,
-   "last_ts": "2026-11-10T11:20:24+00:00",
-   "move_pct": -0.03,
+   "last": 0.06935,
+   "last_ts": "2026-11-10T11:25:21+00:00",
+   "move_pct": -0.06,
    "closed": false,
    "rsi": 41.3,
    "trade_on": "Perps 3x",
@@ -313,6 +269,50 @@
   }
  ],
  "closed": [
+  {
+   "id": "MUC-DEX-base-0xb2000000-1794301200",
+   "kind": "ONCHAIN",
+   "score": null,
+   "reasons": [
+    "Trending on Base (GeckoTerminal), $7.9M volume 24h",
+    "Liquidity $565k, pool 19 days old",
+    "Safety: GoPlus had no data, be careful",
+    "Chart: 20-hour breakout above EMA50 on the DEX, RSI 72",
+    "Untested: no free history to backtest on-chain signals"
+   ],
+   "chain": "Base",
+   "token": "0xb200000000000000000000fd2f87532b90095211",
+   "url": "https://www.geckoterminal.com/base/pools/0x41e21950362b1014bc629252ecfff8fca5f1646c",
+   "coin": "MUC",
+   "market": "DEX",
+   "side": "LONG",
+   "entry": 762.5057169120779,
+   "sl0": 734.0436484734065,
+   "sl": 734.0436484734065,
+   "tps": [
+    790.9677853507493,
+    819.4298537894206,
+    847.891922228092
+   ],
+   "lev": null,
+   "funding_pct": null,
+   "status": "stopped",
+   "hits": 0,
+   "opened": "2026-11-10T10:00:00+00:00",
+   "closed_at": "2026-11-10T11:25:21+00:00",
+   "exit_price": 734.0436484734065,
+   "result_r": -1.0,
+   "result_pct": -3.73,
+   "last": 731.203111306879,
+   "last_ts": "2026-11-10T11:25:21+00:00",
+   "move_pct": -0.56,
+   "closed": true,
+   "rsi": 71.5,
+   "trade_on": "On-chain spot (Base DEX)",
+   "market_reason": "not listed on OKX; buy on a DEX, small size, no leverage",
+   "chart": null,
+   "setup": null
+  },
   {
    "id": "FOGO-PERP-1794128400",
    "kind": "TA",
@@ -2048,7 +2048,7 @@
    "rsi": 34.9,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": "charts/IOST-PERP-1793887200.png",
+   "chart": null,
    "setup": "BREAKOUT20"
   },
   {
@@ -2875,61 +2875,17 @@
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": null,
    "setup": "BREAKOUT20"
-  },
-  {
-   "id": "BICO-PERP-1793757600",
-   "kind": "TA",
-   "score": 0,
-   "reasons": [
-    "Chart: Broke the 20-hour low on 1.1x volume",
-    "Timeframes: 1d down, 4h down, 4h structure mixed",
-    "No support below in the last 50 days",
-    "Stop 0.014946 (2 ATR); targets at 1R/2R/3R",
-    "BTC 4h trend down",
-    "Weaker than BTC by 0.6% over 7d",
-    "OI +0% 24h",
-    "Track record: +1.3R on BICO in the last 45 days (backtest)"
-   ],
-   "coin": "BICO",
-   "market": "PERP",
-   "side": "SHORT",
-   "entry": 0.01459,
-   "sl0": 0.014946378559381284,
-   "sl": 0.014946378559381284,
-   "tps": [
-    0.014233621440618717,
-    0.013877242881237433,
-    0.01352086432185615
-   ],
-   "lev": 1,
-   "funding_pct": 0.005,
-   "status": "stopped",
-   "hits": 0,
-   "opened": "2026-11-04T03:00:00+00:00",
-   "closed_at": "2026-11-04T05:25:23+00:00",
-   "exit_price": 0.014946378559381284,
-   "result_r": -1.0,
-   "result_pct": -2.44,
-   "last": 0.01494,
-   "last_ts": "2026-11-04T05:25:23+00:00",
-   "move_pct": -2.12,
-   "closed": true,
-   "rsi": 30.5,
-   "trade_on": "Perps 1x",
-   "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": null,
-   "setup": "BREAKOUT20"
   }
  ],
  "stats": {
   "all": {
-   "trades": 173,
+   "trades": 174,
    "wins": 79,
-   "losses": 94,
-   "win_rate": 45.7,
-   "total_r": 18.13,
-   "avg_r": 0.105,
-   "total_pct": 13.55
+   "losses": 95,
+   "win_rate": 45.4,
+   "total_r": 17.13,
+   "avg_r": 0.098,
+   "total_pct": 9.82
   },
   "SPOT": {
    "trades": 53,
@@ -2950,13 +2906,13 @@
    "total_pct": 10.34
   },
   "DEX": {
-   "trades": 8,
+   "trades": 9,
    "wins": 4,
-   "losses": 4,
-   "win_rate": 50.0,
-   "total_r": 0.33,
-   "avg_r": 0.042,
-   "total_pct": 8.86
+   "losses": 5,
+   "win_rate": 44.4,
+   "total_r": -0.67,
+   "avg_r": -0.074,
+   "total_pct": 5.13
   },
   "kinds": {
    "HOT": {
@@ -2969,13 +2925,13 @@
     "total_pct": -26.92
    },
    "ONCHAIN": {
-    "trades": 8,
+    "trades": 9,
     "wins": 4,
-    "losses": 4,
-    "win_rate": 50.0,
-    "total_r": 0.33,
-    "avg_r": 0.042,
-    "total_pct": 8.86
+    "losses": 5,
+    "win_rate": 44.4,
+    "total_r": -0.67,
+    "avg_r": -0.074,
+    "total_pct": 5.13
    },
    "TA": {
     "trades": 123,
@@ -3681,6 +3637,15 @@
     "avg_r": -1.0,
     "total_pct": -3.45
    },
+   "MUC": {
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate": 0.0,
+    "total_r": -1.0,
+    "avg_r": -1.0,
+    "total_pct": -3.73
+   },
    "NIGHT": {
     "trades": 3,
     "wins": 0,
@@ -4105,7 +4070,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 7
+  "open": 6
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7860,9 +7825,24 @@
     ]
    },
    {
+    "id": "privacy-coins",
+    "name": "Privacy Coins",
+    "chg7d": -6.66,
+    "top": [
+     "ZEC",
+     "XMR",
+     "DCR",
+     "ZANO",
+     "ARRR"
+    ],
+    "tracked": [
+     "ZEC"
+    ]
+   },
+   {
     "id": "ai-agents",
     "name": "AI Agents",
-    "chg7d": -6.27,
+    "chg7d": -6.69,
     "top": [
      "VVV",
      "VIRTUAL",
@@ -7879,21 +7859,6 @@
      "KITE",
      "PIPPIN",
      "AIXBT"
-    ]
-   },
-   {
-    "id": "privacy-coins",
-    "name": "Privacy Coins",
-    "chg7d": -6.66,
-    "top": [
-     "ZEC",
-     "XMR",
-     "DCR",
-     "ZANO",
-     "ARRR"
-    ],
-    "tracked": [
-     "ZEC"
     ]
    },
    {
@@ -8081,7 +8046,7 @@
   "updated": {
    "unlocks": 1794289524,
    "onchain": 1794306921,
-   "sectors": 1794309024,
+   "sectors": 1794309921,
    "listings": 1794308434,
    "fundamentals": 1794289526
   }
@@ -8120,6 +8085,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "3fb22f6e2dc21ba67ec73b70c3743d4f546d2957bffd04340962de748daf4a25",
- "generated": "2026-11-10T11:20:32+00:00"
+ "digest": "5c6b797f5860daa022c0b1b7143e732a239cbce63517a98491d31812af4b2d40",
+ "generated": "2026-11-10T11:25:29+00:00"
 }
