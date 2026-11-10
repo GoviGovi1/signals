@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0991,
-   "last_ts": "2026-11-10T13:15:29+00:00",
-   "move_pct": 5.26,
+   "last": 0.0988,
+   "last_ts": "2026-11-10T13:23:51+00:00",
+   "move_pct": 5.54,
    "closed": false,
    "rsi": 42.5,
    "trade_on": "Perps 1x",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.12241,
-   "last_ts": "2026-11-10T13:15:29+00:00",
-   "move_pct": 1.11,
+   "last": 0.12228,
+   "last_ts": "2026-11-10T13:23:51+00:00",
+   "move_pct": 1.0,
    "closed": false,
    "rsi": 67.9,
    "trade_on": "Perps 1x",
@@ -123,9 +123,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0163733615507932,
-   "last_ts": "2026-11-10T13:15:29+00:00",
-   "move_pct": 0.32,
+   "last": 0.0163460311943586,
+   "last_ts": "2026-11-10T13:23:51+00:00",
+   "move_pct": 0.15,
    "closed": false,
    "rsi": 72.1,
    "trade_on": "On-chain spot (Base DEX)",
@@ -168,9 +168,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.03303,
-   "last_ts": "2026-11-10T13:15:29+00:00",
-   "move_pct": 0.09,
+   "last": 0.03304,
+   "last_ts": "2026-11-10T13:23:51+00:00",
+   "move_pct": 0.06,
    "closed": false,
    "rsi": 43.4,
    "trade_on": "Perps 1x",
@@ -205,7 +205,7 @@
     0.06481197026895691
    ],
    "lev": 3,
-   "funding_pct": 0.0085,
+   "funding_pct": 0.0083,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-10T11:00:00+00:00",
@@ -213,15 +213,55 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.06941,
-   "last_ts": "2026-11-10T13:15:29+00:00",
-   "move_pct": -0.14,
+   "last": 0.06944,
+   "last_ts": "2026-11-10T13:23:51+00:00",
+   "move_pct": -0.19,
    "closed": false,
    "rsi": 41.3,
    "trade_on": "Perps 3x",
    "market_reason": "shorts need perps; 3x keeps liquidation 3x+ further away than the stop",
    "chart": "charts/DOGE-PERP-1794304800.png",
    "setup": "BOS"
+  },
+  {
+   "id": "PIEVERSE-PERP-HOT-20767",
+   "kind": "HOT",
+   "score": 998.95,
+   "reasons": [
+    "24h hot mover +20% with volume spike (5.9x the prior 3 days)",
+    "24h volume $205.5M on the OKX perp book, listed 359 days",
+    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
+    "Stop 1.9058 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
+   ],
+   "coin": "PIEVERSE",
+   "market": "PERP",
+   "side": "LONG",
+   "entry": 2.1174,
+   "sl0": 1.9057642453498715,
+   "sl": 1.9057642453498715,
+   "tps": [
+    2.3290357546501284,
+    2.5406715093002568,
+    2.752307263950385
+   ],
+   "lev": 1,
+   "funding_pct": 0.005,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-11-10T13:23:51+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 2.1174,
+   "last_ts": "2026-11-10T13:23:51+00:00",
+   "move_pct": 0.0,
+   "closed": false,
+   "rsi": null,
+   "trade_on": "Perps 1x",
+   "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
+   "chart": "charts/PIEVERSE-PERP-HOT-20767.png",
+   "setup": "HOT24"
   }
  ],
  "closed": [
@@ -4034,7 +4074,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 5
+  "open": 6
  },
  "backtest": {
   "from": "2026-07-24",
@@ -8017,6 +8057,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "7926697e7c5cc1a322a5f04bff6216a1a4b92e2dfce7f3562582a058197b2d3b",
- "generated": "2026-11-10T13:15:34+00:00"
+ "digest": "bd8d2ef3c2326eed1c6047873cb159b3367d88ee3acc9b61871ee8f6ea62b680",
+ "generated": "2026-11-10T13:23:59+00:00"
 }
