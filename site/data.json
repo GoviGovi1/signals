@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0987,
-   "last_ts": "2026-11-10T22:36:26+00:00",
-   "move_pct": 5.64,
+   "last": 0.099,
+   "last_ts": "2026-11-10T22:40:24+00:00",
+   "move_pct": 5.35,
    "closed": false,
    "rsi": 42.5,
    "trade_on": "Perps 1x",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1231,
-   "last_ts": "2026-11-10T22:36:26+00:00",
-   "move_pct": 1.68,
+   "last": 0.12314,
+   "last_ts": "2026-11-10T22:40:24+00:00",
+   "move_pct": 1.71,
    "closed": false,
    "rsi": 67.9,
    "trade_on": "Perps 1x",
@@ -123,9 +123,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.016239806806239897,
-   "last_ts": "2026-11-10T22:36:26+00:00",
-   "move_pct": -0.5,
+   "last": 0.016243051514990097,
+   "last_ts": "2026-11-10T22:40:24+00:00",
+   "move_pct": -0.48,
    "closed": false,
    "rsi": 72.1,
    "trade_on": "On-chain spot (Base DEX)",
@@ -160,7 +160,7 @@
     0.030269579590888156
    ],
    "lev": 1,
-   "funding_pct": -0.0017,
+   "funding_pct": -0.0012,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-10T10:00:00+00:00",
@@ -168,9 +168,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.03214,
-   "last_ts": "2026-11-10T22:36:26+00:00",
-   "move_pct": 2.78,
+   "last": 0.03219,
+   "last_ts": "2026-11-10T22:40:24+00:00",
+   "move_pct": 2.63,
    "closed": false,
    "rsi": 43.4,
    "trade_on": "Perps 1x",
@@ -205,7 +205,7 @@
     0.06481197026895691
    ],
    "lev": 3,
-   "funding_pct": 0.0021,
+   "funding_pct": 0.0023,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-10T11:00:00+00:00",
@@ -213,9 +213,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0678,
-   "last_ts": "2026-11-10T22:36:26+00:00",
-   "move_pct": 2.18,
+   "last": 0.06785,
+   "last_ts": "2026-11-10T22:40:24+00:00",
+   "move_pct": 2.11,
    "closed": false,
    "rsi": 41.3,
    "trade_on": "Perps 3x",
@@ -250,7 +250,7 @@
     0.03518607703880438
    ],
    "lev": 1,
-   "funding_pct": -0.0042,
+   "funding_pct": -0.0059,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-10T14:00:00+00:00",
@@ -258,9 +258,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04067,
-   "last_ts": "2026-11-10T22:36:26+00:00",
-   "move_pct": -1.27,
+   "last": 0.04065,
+   "last_ts": "2026-11-10T22:40:24+00:00",
+   "move_pct": -1.22,
    "closed": false,
    "rsi": 30.5,
    "trade_on": "Perps 1x",
@@ -302,9 +302,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1036,
-   "last_ts": "2026-11-10T22:36:26+00:00",
-   "move_pct": -2.78,
+   "last": 0.1039,
+   "last_ts": "2026-11-10T22:40:24+00:00",
+   "move_pct": -3.08,
    "closed": false,
    "rsi": 40.4,
    "trade_on": "Perps 1x",
@@ -7795,21 +7795,6 @@
     ]
    },
    {
-    "id": "privacy-coins",
-    "name": "Privacy Coins",
-    "chg7d": -8.81,
-    "top": [
-     "ZEC",
-     "XMR",
-     "DCR",
-     "ZANO",
-     "ARRR"
-    ],
-    "tracked": [
-     "ZEC"
-    ]
-   },
-   {
     "id": "interoperability",
     "name": "Interoperability",
     "chg7d": -8.85,
@@ -7866,6 +7851,21 @@
      "MAGIC",
      "ZK",
      "SIGN"
+    ]
+   },
+   {
+    "id": "privacy-coins",
+    "name": "Privacy Coins",
+    "chg7d": -10.05,
+    "top": [
+     "ZEC",
+     "XMR",
+     "DCR",
+     "ZANO",
+     "ARRR"
+    ],
+    "tracked": [
+     "ZEC"
     ]
    }
   ],
@@ -8038,7 +8038,7 @@
   "updated": {
    "unlocks": 1794333322,
    "onchain": 1794350124,
-   "sectors": 1794349525,
+   "sectors": 1794350424,
    "listings": 1794350124,
    "fundamentals": 1794333324
   }
@@ -8077,6 +8077,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "36dfce8604d2d7fdcf334bf4543c23471f060bb34760a87115729a18cbb0e08c",
- "generated": "2026-11-10T22:36:32+00:00"
+ "digest": "6c607ab15277ea10d7af2a7c30c030316f318115d6aa6cfe990134e4cd8a9c01",
+ "generated": "2026-11-10T22:40:30+00:00"
 }
