@@ -26,7 +26,7 @@
     0.0015567097394147602
    ],
    "lev": 1,
-   "funding_pct": 0.0013,
+   "funding_pct": 0.0019,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-08T10:00:00+00:00",
@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.001905,
-   "last_ts": "2026-11-09T23:55:21+00:00",
-   "move_pct": 7.25,
+   "last": 0.001916,
+   "last_ts": "2026-11-10T00:00:34+00:00",
+   "move_pct": 6.72,
    "closed": false,
    "rsi": 25.4,
    "trade_on": "Perps 1x",
@@ -78,9 +78,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1042,
-   "last_ts": "2026-11-09T23:55:21+00:00",
-   "move_pct": 0.38,
+   "last": 0.1041,
+   "last_ts": "2026-11-10T00:00:34+00:00",
+   "move_pct": 0.48,
    "closed": false,
    "rsi": 42.5,
    "trade_on": "Perps 1x",
@@ -123,15 +123,55 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.12091,
-   "last_ts": "2026-11-09T23:55:21+00:00",
-   "move_pct": -0.13,
+   "last": 0.12138,
+   "last_ts": "2026-11-10T00:00:34+00:00",
+   "move_pct": 0.26,
    "closed": false,
    "rsi": 67.9,
    "trade_on": "Perps 1x",
    "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
    "chart": "charts/ACU-PERP-1794250800.png",
    "setup": "BREAKOUT20"
+  },
+  {
+   "id": "INIT-PERP-HOT-20767",
+   "kind": "HOT",
+   "score": 2444.77,
+   "reasons": [
+    "24h hot mover +53% with volume spike (14.6x the prior 3 days)",
+    "24h volume $42.1M on the OKX perp book, listed 565 days",
+    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
+    "Stop 0.16184 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
+   ],
+   "coin": "INIT",
+   "market": "PERP",
+   "side": "LONG",
+   "entry": 0.18387,
+   "sl0": 0.1618412916864119,
+   "sl": 0.1618412916864119,
+   "tps": [
+    0.2058987083135881,
+    0.2279274166271762,
+    0.2499561249407643
+   ],
+   "lev": 1,
+   "funding_pct": -0.586,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-11-10T00:00:34+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.18372,
+   "last_ts": "2026-11-10T00:00:34+00:00",
+   "move_pct": -0.08,
+   "closed": false,
+   "rsi": null,
+   "trade_on": "Perps 1x",
+   "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
+   "chart": "charts/INIT-PERP-HOT-20767.png",
+   "setup": "HOT24"
   }
  ],
  "closed": [
@@ -3917,7 +3957,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 3
+  "open": 4
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7932,6 +7972,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "d05754ce06e3d0fd9973bc4b1270cbaa1193e3297bbebebf1a1e457b0dcfc87b",
- "generated": "2026-11-09T23:55:23+00:00"
+ "digest": "2e3aa28b284a723275795ed7ebbc31f41306cdc40c2586cbd63257ba9121739c",
+ "generated": "2026-11-10T00:01:14+00:00"
 }
