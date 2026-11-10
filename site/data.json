@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.001898,
-   "last_ts": "2026-11-10T09:20:24+00:00",
-   "move_pct": 7.59,
+   "last": 0.001901,
+   "last_ts": "2026-11-10T09:25:22+00:00",
+   "move_pct": 7.45,
    "closed": false,
    "rsi": 25.4,
    "trade_on": "Perps 1x",
@@ -78,9 +78,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.101,
-   "last_ts": "2026-11-10T09:20:24+00:00",
-   "move_pct": 3.44,
+   "last": 0.1005,
+   "last_ts": "2026-11-10T09:25:22+00:00",
+   "move_pct": 3.92,
    "closed": false,
    "rsi": 42.5,
    "trade_on": "Perps 1x",
@@ -123,59 +123,14 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.12008,
-   "last_ts": "2026-11-10T09:20:24+00:00",
-   "move_pct": -0.82,
+   "last": 0.12007,
+   "last_ts": "2026-11-10T09:25:22+00:00",
+   "move_pct": -0.83,
    "closed": false,
    "rsi": 67.9,
    "trade_on": "Perps 1x",
    "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
    "chart": "charts/ACU-PERP-1794250800.png",
-   "setup": "BREAKOUT20"
-  },
-  {
-   "id": "WIN-SPOT-1794286800",
-   "kind": "TA",
-   "score": -1,
-   "reasons": [
-    "Chart: Broke the 20-hour high on 1.3x volume",
-    "Timeframes: 1d up, 4h up, 4h structure mixed",
-    "Next resistance 7.0023e-05 (2.5R away, swing/volume node)",
-    "Stop 6.4939e-05 (2 ATR); targets at the next 3 level(s)",
-    "BTC 4h trend down",
-    "Stronger than BTC by 0.3% over 7d",
-    "OI / funding: no data this run",
-    "Sector: Oracle -5.9% 7d (lagging, #16 of 20)",
-    "Track record: +0.9R on WIN in the last 45 days (backtest)"
-   ],
-   "coin": "WIN",
-   "market": "SPOT",
-   "side": "LONG",
-   "entry": 6.64e-05,
-   "sl0": 6.493927602960236e-05,
-   "sl": 6.493927602960236e-05,
-   "tps": [
-    6.991299570222018e-05,
-    7.086711236888684e-05,
-    7.214044570222018e-05
-   ],
-   "lev": null,
-   "funding_pct": null,
-   "status": "open",
-   "hits": 0,
-   "opened": "2026-11-10T06:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 6.549e-05,
-   "last_ts": "2026-11-10T09:20:24+00:00",
-   "move_pct": -1.37,
-   "closed": false,
-   "rsi": 56.2,
-   "trade_on": "Spot",
-   "market_reason": "only spot is listed",
-   "chart": "charts/WIN-SPOT-1794286800.png",
    "setup": "BREAKOUT20"
   },
   {
@@ -212,9 +167,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0160072089085905,
-   "last_ts": "2026-11-10T09:20:24+00:00",
-   "move_pct": -1.92,
+   "last": 0.015844915522212996,
+   "last_ts": "2026-11-10T09:25:22+00:00",
+   "move_pct": -2.92,
    "closed": false,
    "rsi": 72.1,
    "trade_on": "On-chain spot (Base DEX)",
@@ -224,6 +179,51 @@
   }
  ],
  "closed": [
+  {
+   "id": "WIN-SPOT-1794286800",
+   "kind": "TA",
+   "score": -1,
+   "reasons": [
+    "Chart: Broke the 20-hour high on 1.3x volume",
+    "Timeframes: 1d up, 4h up, 4h structure mixed",
+    "Next resistance 7.0023e-05 (2.5R away, swing/volume node)",
+    "Stop 6.4939e-05 (2 ATR); targets at the next 3 level(s)",
+    "BTC 4h trend down",
+    "Stronger than BTC by 0.3% over 7d",
+    "OI / funding: no data this run",
+    "Sector: Oracle -5.9% 7d (lagging, #16 of 20)",
+    "Track record: +0.9R on WIN in the last 45 days (backtest)"
+   ],
+   "coin": "WIN",
+   "market": "SPOT",
+   "side": "LONG",
+   "entry": 6.64e-05,
+   "sl0": 6.493927602960236e-05,
+   "sl": 6.493927602960236e-05,
+   "tps": [
+    6.991299570222018e-05,
+    7.086711236888684e-05,
+    7.214044570222018e-05
+   ],
+   "lev": null,
+   "funding_pct": null,
+   "status": "stopped",
+   "hits": 0,
+   "opened": "2026-11-10T06:00:00+00:00",
+   "closed_at": "2026-11-10T09:25:22+00:00",
+   "exit_price": 6.493927602960236e-05,
+   "result_r": -1.0,
+   "result_pct": -2.2,
+   "last": 6.487e-05,
+   "last_ts": "2026-11-10T09:25:22+00:00",
+   "move_pct": -1.37,
+   "closed": true,
+   "rsi": 56.2,
+   "trade_on": "Spot",
+   "market_reason": "only spot is listed",
+   "chart": "charts/WIN-SPOT-1794286800.png",
+   "setup": "BREAKOUT20"
+  },
   {
    "id": "INIT-PERP-HOT-20767",
    "kind": "HOT",
@@ -1950,7 +1950,7 @@
    "rsi": null,
    "trade_on": "Spot",
    "market_reason": "only spot is listed",
-   "chart": "charts/FLUID-SPOT-HOT-20762.png",
+   "chart": null,
    "setup": "HOT24"
   },
   {
@@ -2787,72 +2787,26 @@
    "market_reason": "only spot is listed",
    "chart": null,
    "setup": "BOS"
-  },
-  {
-   "id": "WOO-SPOT-1793728800",
-   "kind": "TA",
-   "score": 1,
-   "reasons": [
-    "Chart: Retest of the 0.012068 breakout level held (3h after the break)",
-    "Timeframes: 1d up, 4h flat, 4h structure higher highs/lows",
-    "Next resistance 0.012842 (2.2R away, 4h swing/swing)",
-    "Stop 0.011952 (below the breakout level); targets at the next 2 level(s)",
-    "BTC 4h trend down",
-    "Stronger than BTC by 23.8% over 7d",
-    "OI +22% 24h with breakout",
-    "DEX volume +71% 7d",
-    "Sector: Decentralized Perpetuals -5.6% 7d (middle, #8 of 20)",
-    "Track record: +0.6R on WOO in the last 45 days (backtest)"
-   ],
-   "coin": "WOO",
-   "market": "SPOT",
-   "side": "LONG",
-   "entry": 0.01227,
-   "sl0": 0.011990832352784662,
-   "sl": 0.011990832352784662,
-   "tps": [
-    0.012854883134502502,
-    0.013754775954099682,
-    0.014033943601315017
-   ],
-   "lev": null,
-   "funding_pct": null,
-   "status": "stopped",
-   "hits": 0,
-   "opened": "2026-11-03T19:00:00+00:00",
-   "closed_at": "2026-11-04T01:45:27+00:00",
-   "exit_price": 0.011990832352784662,
-   "result_r": -1.0,
-   "result_pct": -2.28,
-   "last": 0.01207,
-   "last_ts": "2026-11-04T01:45:27+00:00",
-   "move_pct": -1.87,
-   "closed": true,
-   "rsi": 68.9,
-   "trade_on": "Spot",
-   "market_reason": "thin perp market: spot is safer",
-   "chart": null,
-   "setup": "RETEST"
   }
  ],
  "stats": {
   "all": {
-   "trades": 171,
+   "trades": 172,
    "wins": 78,
-   "losses": 93,
-   "win_rate": 45.6,
-   "total_r": 18.2,
-   "avg_r": 0.106,
-   "total_pct": 8.22
+   "losses": 94,
+   "win_rate": 45.3,
+   "total_r": 17.2,
+   "avg_r": 0.1,
+   "total_pct": 6.02
   },
   "SPOT": {
-   "trades": 52,
+   "trades": 53,
    "wins": 21,
-   "losses": 31,
-   "win_rate": 40.4,
-   "total_r": -6.97,
-   "avg_r": -0.134,
-   "total_pct": -3.45
+   "losses": 32,
+   "win_rate": 39.6,
+   "total_r": -7.97,
+   "avg_r": -0.15,
+   "total_pct": -5.65
   },
   "PERP": {
    "trades": 111,
@@ -2892,13 +2846,13 @@
     "total_pct": 8.86
    },
    "TA": {
-    "trades": 121,
+    "trades": 122,
     "wins": 53,
-    "losses": 68,
-    "win_rate": 43.8,
-    "total_r": 20.61,
-    "avg_r": 0.17,
-    "total_pct": 26.28
+    "losses": 69,
+    "win_rate": 43.4,
+    "total_r": 19.61,
+    "avg_r": 0.161,
+    "total_pct": 24.08
    }
   },
   "coins": {
@@ -3910,6 +3864,15 @@
     "avg_r": -1.0,
     "total_pct": -1.76
    },
+   "WIN": {
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate": 0.0,
+    "total_r": -1.0,
+    "avg_r": -1.0,
+    "total_pct": -2.2
+   },
    "WOO": {
     "trades": 3,
     "wins": 0,
@@ -4001,7 +3964,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 5
+  "open": 4
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7497,6 +7460,27 @@
     ]
    },
    {
+    "id": "lending-borrowing",
+    "name": "Lending Borrowing",
+    "chg7d": -3.44,
+    "top": [
+     "AAVE",
+     "MORPHO",
+     "OHM",
+     "COMP",
+     "KMNO"
+    ],
+    "tracked": [
+     "AAVE",
+     "CAP",
+     "CT",
+     "MORPHO",
+     "COMP",
+     "KMNO",
+     "SPK"
+    ]
+   },
+   {
     "id": "exchange-based-tokens",
     "name": "Exchange Based Tokens",
     "chg7d": -3.54,
@@ -7582,27 +7566,6 @@
      "CRV",
      "MET",
      "AERO"
-    ]
-   },
-   {
-    "id": "lending-borrowing",
-    "name": "Lending Borrowing",
-    "chg7d": -4.13,
-    "top": [
-     "AAVE",
-     "MORPHO",
-     "OHM",
-     "COMP",
-     "KMNO"
-    ],
-    "tracked": [
-     "AAVE",
-     "CAP",
-     "CT",
-     "MORPHO",
-     "COMP",
-     "KMNO",
-     "SPK"
     ]
    },
    {
@@ -7975,7 +7938,7 @@
   "updated": {
    "unlocks": 1794289524,
    "onchain": 1794299721,
-   "sectors": 1794301824,
+   "sectors": 1794302722,
    "listings": 1794300926,
    "fundamentals": 1794289526
   }
@@ -8014,6 +7977,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "3e50d839aff288165a9eefe55a7a1b2349900adc5549d8133a4832f7b23e49f7",
- "generated": "2026-11-10T09:20:29+00:00"
+ "digest": "c84212b2f0624e21730e8d6474863a79b29725e8d2ac68ad3f8541115e607c29",
+ "generated": "2026-11-10T09:25:28+00:00"
 }
