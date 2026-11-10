@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0999,
-   "last_ts": "2026-11-10T11:50:46+00:00",
-   "move_pct": 4.49,
+   "last": 0.0997,
+   "last_ts": "2026-11-10T11:55:21+00:00",
+   "move_pct": 4.68,
    "closed": false,
    "rsi": 42.5,
    "trade_on": "Perps 1x",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.12248,
-   "last_ts": "2026-11-10T11:50:46+00:00",
-   "move_pct": 1.16,
+   "last": 0.12231,
+   "last_ts": "2026-11-10T11:55:21+00:00",
+   "move_pct": 1.02,
    "closed": false,
    "rsi": 67.9,
    "trade_on": "Perps 1x",
@@ -123,9 +123,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0162178226029571,
-   "last_ts": "2026-11-10T11:50:46+00:00",
-   "move_pct": -0.63,
+   "last": 0.016131124840518797,
+   "last_ts": "2026-11-10T11:55:21+00:00",
+   "move_pct": -1.16,
    "closed": false,
    "rsi": 72.1,
    "trade_on": "On-chain spot (Base DEX)",
@@ -160,7 +160,7 @@
     0.030269579590888156
    ],
    "lev": 1,
-   "funding_pct": 0.0002,
+   "funding_pct": -0.0005,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-10T10:00:00+00:00",
@@ -168,9 +168,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.03301,
-   "last_ts": "2026-11-10T11:50:46+00:00",
-   "move_pct": 0.15,
+   "last": 0.03295,
+   "last_ts": "2026-11-10T11:55:21+00:00",
+   "move_pct": 0.33,
    "closed": false,
    "rsi": 43.4,
    "trade_on": "Perps 1x",
@@ -204,7 +204,7 @@
     0.018813788141107998
    ],
    "lev": 1,
-   "funding_pct": -0.0291,
+   "funding_pct": -0.0289,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-10T11:00:00+00:00",
@@ -212,9 +212,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.02029,
-   "last_ts": "2026-11-10T11:50:46+00:00",
-   "move_pct": -0.64,
+   "last": 0.02027,
+   "last_ts": "2026-11-10T11:55:21+00:00",
+   "move_pct": -0.55,
    "closed": false,
    "rsi": 43.4,
    "trade_on": "Perps 1x",
@@ -249,7 +249,7 @@
     0.06481197026895691
    ],
    "lev": 3,
-   "funding_pct": 0.0082,
+   "funding_pct": 0.0083,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-10T11:00:00+00:00",
@@ -257,9 +257,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.06943,
-   "last_ts": "2026-11-10T11:50:46+00:00",
-   "move_pct": -0.17,
+   "last": 0.06938,
+   "last_ts": "2026-11-10T11:55:21+00:00",
+   "move_pct": -0.1,
    "closed": false,
    "rsi": 41.3,
    "trade_on": "Perps 3x",
@@ -7653,28 +7653,6 @@
     ]
    },
    {
-    "id": "decentralized-exchange",
-    "name": "Decentralized Exchange",
-    "chg7d": -3.88,
-    "top": [
-     "HYPE",
-     "UNI",
-     "ASTER",
-     "PUMP",
-     "JUP"
-    ],
-    "tracked": [
-     "HYPE",
-     "PUMP",
-     "UNI",
-     "LIT",
-     "ASTER",
-     "CRV",
-     "MET",
-     "AERO"
-    ]
-   },
-   {
     "id": "solana-meme-coins",
     "name": "Solana Meme Coins",
     "chg7d": -3.98,
@@ -7759,6 +7737,28 @@
      "ICP",
      "VVV",
      "GRASS"
+    ]
+   },
+   {
+    "id": "decentralized-exchange",
+    "name": "Decentralized Exchange",
+    "chg7d": -5.04,
+    "top": [
+     "HYPE",
+     "UNI",
+     "ASTER",
+     "PUMP",
+     "JUP"
+    ],
+    "tracked": [
+     "HYPE",
+     "PUMP",
+     "UNI",
+     "LIT",
+     "ASTER",
+     "CRV",
+     "MET",
+     "AERO"
     ]
    },
    {
@@ -8044,7 +8044,7 @@
   "updated": {
    "unlocks": 1794311425,
    "onchain": 1794310521,
-   "sectors": 1794310826,
+   "sectors": 1794311721,
    "listings": 1794308434,
    "fundamentals": 1794311426
   }
@@ -8083,6 +8083,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "ff21700d538c2c14783dc4342eadbf1f62e80077588f10e72edab07920556446",
- "generated": "2026-11-10T11:50:51+00:00"
+ "digest": "92e0b90ce8aaf58dfa5ec07f31fd7bdd763689558d389d0feb4f90b2c3b99181",
+ "generated": "2026-11-10T11:55:26+00:00"
 }
