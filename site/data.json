@@ -1,50 +1,6 @@
 {
  "open": [
   {
-   "id": "FOGO-PERP-1794128400",
-   "kind": "TA",
-   "score": 0,
-   "reasons": [
-    "Chart: Broke the 20-hour low on 1.3x volume",
-    "Timeframes: 1d down, 4h down, 4h structure mixed",
-    "No support below in the last 50 days",
-    "Stop 0.0022198 (structure); targets at 1R/2R/3R",
-    "BTC 4h trend down",
-    "Weaker than BTC by 17.5% over 7d",
-    "OI +1% 24h",
-    "Track record: +3.2R on FOGO in the last 45 days (backtest)"
-   ],
-   "coin": "FOGO",
-   "market": "PERP",
-   "side": "SHORT",
-   "entry": 0.002054,
-   "sl0": 0.0022197634201950797,
-   "sl": 0.002054,
-   "tps": [
-    0.00188823657980492,
-    0.00172247315960984,
-    0.0015567097394147602
-   ],
-   "lev": 1,
-   "funding_pct": 0.005,
-   "status": "tp1",
-   "hits": 1,
-   "opened": "2026-11-08T10:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.001905,
-   "last_ts": "2026-11-10T09:55:22+00:00",
-   "move_pct": 7.25,
-   "closed": false,
-   "rsi": 25.4,
-   "trade_on": "Perps 1x",
-   "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": "charts/FOGO-PERP-1794128400.png",
-   "setup": "BREAKOUT20"
-  },
-  {
    "id": "DATA-PERP-1794243600",
    "kind": "TA",
    "score": 1,
@@ -79,7 +35,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.1001,
-   "last_ts": "2026-11-10T09:55:22+00:00",
+   "last_ts": "2026-11-10T10:00:30+00:00",
    "move_pct": 4.3,
    "closed": false,
    "rsi": 42.5,
@@ -123,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.12056,
-   "last_ts": "2026-11-10T09:55:22+00:00",
-   "move_pct": -0.42,
+   "last": 0.12055,
+   "last_ts": "2026-11-10T10:00:30+00:00",
+   "move_pct": -0.43,
    "closed": false,
    "rsi": 67.9,
    "trade_on": "Perps 1x",
@@ -167,18 +123,107 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0159744118323828,
-   "last_ts": "2026-11-10T09:55:22+00:00",
-   "move_pct": -2.12,
+   "last": 0.016001937797438397,
+   "last_ts": "2026-11-10T10:00:30+00:00",
+   "move_pct": -1.95,
    "closed": false,
    "rsi": 72.1,
    "trade_on": "On-chain spot (Base DEX)",
    "market_reason": "not listed on OKX; buy on a DEX, small size, no leverage",
    "chart": "charts/XDP-DEX-base-0x07b3d902-1794290400.png",
    "setup": null
+  },
+  {
+   "id": "KMNO-PERP-1794301200",
+   "kind": "TA",
+   "score": -1,
+   "reasons": [
+    "Chart: Broke the 20-hour low on 0.5x volume",
+    "Timeframes: 1d down, 4h down, 4h structure mixed",
+    "Next support 0.031442 (2.6R away, 4h swing/swing)",
+    "Stop 0.033672 (structure); targets at the next 1 level(s)",
+    "BTC 4h trend down",
+    "Stronger than BTC by 9.1% over 7d",
+    "OI +4% 24h",
+    "Sector: Decentralized Finance DeFi -0.0% 7d (leading, #2 of 20)",
+    "Track record: +1.4R on KMNO in the last 45 days (backtest)"
+   ],
+   "coin": "KMNO",
+   "market": "PERP",
+   "side": "SHORT",
+   "entry": 0.03306,
+   "sl0": 0.03367189591899973,
+   "sl": 0.03367189591899973,
+   "tps": [
+    0.03149337142888762,
+    0.030881475509887887,
+    0.030269579590888156
+   ],
+   "lev": 1,
+   "funding_pct": 0.0017,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-11-10T10:00:00+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.03304,
+   "last_ts": "2026-11-10T10:00:30+00:00",
+   "move_pct": 0.06,
+   "closed": false,
+   "rsi": 43.4,
+   "trade_on": "Perps 1x",
+   "market_reason": "shorts need perps; thin perp market, so 1x",
+   "chart": "charts/KMNO-PERP-1794301200.png",
+   "setup": "BREAKOUT20"
   }
  ],
  "closed": [
+  {
+   "id": "FOGO-PERP-1794128400",
+   "kind": "TA",
+   "score": 0,
+   "reasons": [
+    "Chart: Broke the 20-hour low on 1.3x volume",
+    "Timeframes: 1d down, 4h down, 4h structure mixed",
+    "No support below in the last 50 days",
+    "Stop 0.0022198 (structure); targets at 1R/2R/3R",
+    "BTC 4h trend down",
+    "Weaker than BTC by 17.5% over 7d",
+    "OI +1% 24h",
+    "Track record: +3.2R on FOGO in the last 45 days (backtest)"
+   ],
+   "coin": "FOGO",
+   "market": "PERP",
+   "side": "SHORT",
+   "entry": 0.002054,
+   "sl0": 0.0022197634201950797,
+   "sl": 0.002054,
+   "tps": [
+    0.00188823657980492,
+    0.00172247315960984,
+    0.0015567097394147602
+   ],
+   "lev": 1,
+   "funding_pct": 0.005,
+   "status": "expired",
+   "hits": 1,
+   "opened": "2026-11-08T10:00:00+00:00",
+   "closed_at": "2026-11-10T10:00:30+00:00",
+   "exit_price": 0.001903,
+   "result_r": 0.933,
+   "result_pct": 7.53,
+   "last": 0.001903,
+   "last_ts": "2026-11-10T10:00:30+00:00",
+   "move_pct": 7.25,
+   "closed": true,
+   "rsi": 25.4,
+   "trade_on": "Perps 1x",
+   "market_reason": "shorts need perps; thin perp market, so 1x",
+   "chart": "charts/FOGO-PERP-1794128400.png",
+   "setup": "BREAKOUT20"
+  },
   {
    "id": "WIN-SPOT-1794286800",
    "kind": "TA",
@@ -1910,7 +1955,7 @@
    "rsi": null,
    "trade_on": "Perps 1x",
    "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
-   "chart": "charts/AXIS-PERP-HOT-20761.png",
+   "chart": null,
    "setup": "HOT24"
   },
   {
@@ -2741,63 +2786,17 @@
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": null,
    "setup": "BREAKOUT20"
-  },
-  {
-   "id": "CARDS-SPOT-1793739600",
-   "kind": "TA",
-   "score": 1,
-   "reasons": [
-    "Chart: Break of structure: closed above the last swing high 0.2474, after a higher low",
-    "Timeframes: 1d down, 4h down, 4h structure higher highs/lows",
-    "Next resistance 0.27243 (2.2R away, 4h swing/swing)",
-    "Stop 0.23852 (2 ATR); targets at the next 3 level(s)",
-    "BTC 4h trend down",
-    "Weaker than BTC by 16.5% over 7d",
-    "OI / funding: no data this run",
-    "Fees -46% 7d",
-    "Sector: Real World Assets RWA -0.5% 7d (leading, #1 of 20)",
-    "Track record: +0.8R on CARDS in the last 45 days (backtest)"
-   ],
-   "coin": "CARDS",
-   "market": "SPOT",
-   "side": "LONG",
-   "entry": 0.249,
-   "sl0": 0.23851673570369972,
-   "sl": 0.249,
-   "tps": [
-    0.2716423266063489,
-    0.2781137551777775,
-    0.29703575517777747
-   ],
-   "lev": null,
-   "funding_pct": null,
-   "status": "stopped_be",
-   "hits": 2,
-   "opened": "2026-11-03T22:00:00+00:00",
-   "closed_at": "2026-11-04T03:05:21+00:00",
-   "exit_price": 0.249,
-   "result_r": 1.234,
-   "result_pct": 5.2,
-   "last": 0.2446,
-   "last_ts": "2026-11-04T03:05:21+00:00",
-   "move_pct": 0.72,
-   "closed": true,
-   "rsi": 65.5,
-   "trade_on": "Spot",
-   "market_reason": "only spot is listed",
-   "chart": null,
-   "setup": "BOS"
   }
  ],
  "stats": {
   "all": {
-   "trades": 172,
-   "wins": 78,
+   "trades": 173,
+   "wins": 79,
    "losses": 94,
-   "win_rate": 45.3,
-   "total_r": 17.2,
-   "avg_r": 0.1,
-   "total_pct": 6.02
+   "win_rate": 45.7,
+   "total_r": 18.13,
+   "avg_r": 0.105,
+   "total_pct": 13.55
   },
   "SPOT": {
    "trades": 53,
@@ -2809,13 +2808,13 @@
    "total_pct": -5.65
   },
   "PERP": {
-   "trades": 111,
-   "wins": 53,
+   "trades": 112,
+   "wins": 54,
    "losses": 58,
-   "win_rate": 47.7,
-   "total_r": 24.84,
-   "avg_r": 0.224,
-   "total_pct": 2.81
+   "win_rate": 48.2,
+   "total_r": 25.77,
+   "avg_r": 0.23,
+   "total_pct": 10.34
   },
   "DEX": {
    "trades": 8,
@@ -2846,13 +2845,13 @@
     "total_pct": 8.86
    },
    "TA": {
-    "trades": 122,
-    "wins": 53,
+    "trades": 123,
+    "wins": 54,
     "losses": 69,
-    "win_rate": 43.4,
-    "total_r": 19.61,
-    "avg_r": 0.161,
-    "total_pct": 24.08
+    "win_rate": 43.9,
+    "total_r": 20.55,
+    "avg_r": 0.167,
+    "total_pct": 31.61
    }
   },
   "coins": {
@@ -3350,6 +3349,15 @@
     "total_r": 0.25,
     "avg_r": 0.25,
     "total_pct": 1.42
+   },
+   "FOGO": {
+    "trades": 1,
+    "wins": 1,
+    "losses": 0,
+    "win_rate": 100.0,
+    "total_r": 0.93,
+    "avg_r": 0.933,
+    "total_pct": 7.53
    },
    "G": {
     "trades": 1,
@@ -7941,7 +7949,7 @@
    "unlocks": 1794289524,
    "onchain": 1794303320,
    "sectors": 1794304522,
-   "listings": 1794300926,
+   "listings": 1794304829,
    "fundamentals": 1794289526
   }
  },
@@ -7979,6 +7987,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "ed248eabf9b188512837dc31c8bff45b4e7124b554c566dd8b328176caedec0b",
- "generated": "2026-11-10T09:55:27+00:00"
+ "digest": "c4f482157d945b922ffbbbf66bca96346820f328ec9009cfb9f12553feb5958c",
+ "generated": "2026-11-10T10:01:10+00:00"
 }
