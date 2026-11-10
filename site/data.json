@@ -26,7 +26,7 @@
     0.0015567097394147602
    ],
    "lev": 1,
-   "funding_pct": 0.002,
+   "funding_pct": 0.0027,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-08T10:00:00+00:00",
@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.001919,
-   "last_ts": "2026-11-10T00:05:23+00:00",
-   "move_pct": 6.57,
+   "last": 0.001923,
+   "last_ts": "2026-11-10T00:10:25+00:00",
+   "move_pct": 6.38,
    "closed": false,
    "rsi": 25.4,
    "trade_on": "Perps 1x",
@@ -78,9 +78,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1044,
-   "last_ts": "2026-11-10T00:05:23+00:00",
-   "move_pct": 0.19,
+   "last": 0.1055,
+   "last_ts": "2026-11-10T00:10:25+00:00",
+   "move_pct": -0.86,
    "closed": false,
    "rsi": 42.5,
    "trade_on": "Perps 1x",
@@ -123,9 +123,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.12106,
-   "last_ts": "2026-11-10T00:05:23+00:00",
-   "move_pct": -0.01,
+   "last": 0.12091,
+   "last_ts": "2026-11-10T00:10:25+00:00",
+   "move_pct": -0.13,
    "closed": false,
    "rsi": 67.9,
    "trade_on": "Perps 1x",
@@ -155,7 +155,7 @@
     0.2499561249407643
    ],
    "lev": 1,
-   "funding_pct": -0.581,
+   "funding_pct": -0.5761,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-10T00:00:34+00:00",
@@ -163,9 +163,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.18627,
-   "last_ts": "2026-11-10T00:05:23+00:00",
-   "move_pct": 1.31,
+   "last": 0.1863,
+   "last_ts": "2026-11-10T00:10:25+00:00",
+   "move_pct": 1.32,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -7393,6 +7393,24 @@
     ]
    },
    {
+    "id": "bitcoin-ecosystem",
+    "name": "Bitcoin Ecosystem",
+    "chg7d": -1.32,
+    "top": [
+     "BTC",
+     "DOG",
+     "ORDI",
+     "USTBL",
+     "LOBO"
+    ],
+    "tracked": [
+     "BTC",
+     "PEPE",
+     "ORDI",
+     "SATS"
+    ]
+   },
+   {
     "id": "artificial-intelligence",
     "name": "Artificial Intelligence",
     "chg7d": -2.6,
@@ -7456,24 +7474,6 @@
      "ATH",
      "LPT",
      "IOTA"
-    ]
-   },
-   {
-    "id": "bitcoin-ecosystem",
-    "name": "Bitcoin Ecosystem",
-    "chg7d": -3.21,
-    "top": [
-     "BTC",
-     "DOG",
-     "ORDI",
-     "USTBL",
-     "LOBO"
-    ],
-    "tracked": [
-     "BTC",
-     "PEPE",
-     "ORDI",
-     "SATS"
     ]
    },
    {
@@ -7933,7 +7933,7 @@
   "updated": {
    "unlocks": 1794267922,
    "onchain": 1794267323,
-   "sectors": 1794268521,
+   "sectors": 1794269425,
    "listings": 1794267323,
    "fundamentals": 1794267923
   }
@@ -7972,6 +7972,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "375c104846d7d598b998570831e3478cc110b4c4caacc93e9448f6526042bbd7",
- "generated": "2026-11-10T00:05:26+00:00"
+ "digest": "6f5fc6e877172c23bf42603cd768a78ef46797334e83eddc3a1b3aa769eec057",
+ "generated": "2026-11-10T00:10:28+00:00"
 }
