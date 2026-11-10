@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.001904,
-   "last_ts": "2026-11-10T05:20:25+00:00",
-   "move_pct": 7.3,
+   "last": 0.001896,
+   "last_ts": "2026-11-10T05:25:25+00:00",
+   "move_pct": 7.69,
    "closed": false,
    "rsi": 25.4,
    "trade_on": "Perps 1x",
@@ -78,9 +78,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1039,
-   "last_ts": "2026-11-10T05:20:25+00:00",
-   "move_pct": 0.67,
+   "last": 0.1037,
+   "last_ts": "2026-11-10T05:25:25+00:00",
+   "move_pct": 0.86,
    "closed": false,
    "rsi": 42.5,
    "trade_on": "Perps 1x",
@@ -123,9 +123,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.12492,
-   "last_ts": "2026-11-10T05:20:25+00:00",
-   "move_pct": 3.18,
+   "last": 0.12467,
+   "last_ts": "2026-11-10T05:25:25+00:00",
+   "move_pct": 2.97,
    "closed": false,
    "rsi": 67.9,
    "trade_on": "Perps 1x",
@@ -7388,6 +7388,28 @@
     ]
    },
    {
+    "id": "layer-1",
+    "name": "Layer 1",
+    "chg7d": -2.93,
+    "top": [
+     "BTC",
+     "ETH",
+     "BNB",
+     "XRP",
+     "SOL"
+    ],
+    "tracked": [
+     "ETH",
+     "BTC",
+     "SOL",
+     "XRP",
+     "SUI",
+     "BNB",
+     "AVAX",
+     "ZEC"
+    ]
+   },
+   {
     "id": "exchange-based-tokens",
     "name": "Exchange Based Tokens",
     "chg7d": -3.54,
@@ -7407,28 +7429,6 @@
      "ASTER",
      "CRV",
      "MET"
-    ]
-   },
-   {
-    "id": "layer-1",
-    "name": "Layer 1",
-    "chg7d": -3.91,
-    "top": [
-     "BTC",
-     "ETH",
-     "BNB",
-     "XRP",
-     "SOL"
-    ],
-    "tracked": [
-     "ETH",
-     "BTC",
-     "SOL",
-     "XRP",
-     "SUI",
-     "BNB",
-     "AVAX",
-     "ZEC"
     ]
    },
    {
@@ -7888,7 +7888,7 @@
   "updated": {
    "unlocks": 1794267922,
    "onchain": 1794285320,
-   "sectors": 1794287425,
+   "sectors": 1794288324,
    "listings": 1794286225,
    "fundamentals": 1794267923
   }
@@ -7927,6 +7927,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "935c9e2496228f6ed49882f2e8739e27acf59c61d6a1f2977720d8df94bdcba8",
- "generated": "2026-11-10T05:20:27+00:00"
+ "digest": "ef8dc01e1fc6b5c0a8651bcaaf0afe2a8069920f9cef780c5a38bf22d1c64a3b",
+ "generated": "2026-11-10T05:25:27+00:00"
 }
