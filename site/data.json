@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0019,
-   "last_ts": "2026-11-10T06:50:26+00:00",
-   "move_pct": 7.5,
+   "last": 0.001895,
+   "last_ts": "2026-11-10T06:55:20+00:00",
+   "move_pct": 7.74,
    "closed": false,
    "rsi": 25.4,
    "trade_on": "Perps 1x",
@@ -78,9 +78,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1022,
-   "last_ts": "2026-11-10T06:50:26+00:00",
-   "move_pct": 2.29,
+   "last": 0.1019,
+   "last_ts": "2026-11-10T06:55:20+00:00",
+   "move_pct": 2.58,
    "closed": false,
    "rsi": 42.5,
    "trade_on": "Perps 1x",
@@ -123,9 +123,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.12381,
-   "last_ts": "2026-11-10T06:50:26+00:00",
-   "move_pct": 2.26,
+   "last": 0.12415,
+   "last_ts": "2026-11-10T06:55:20+00:00",
+   "move_pct": 2.54,
    "closed": false,
    "rsi": 67.9,
    "trade_on": "Perps 1x",
@@ -169,7 +169,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 6.545e-05,
-   "last_ts": "2026-11-10T06:50:26+00:00",
+   "last_ts": "2026-11-10T06:55:20+00:00",
    "move_pct": -1.43,
    "closed": false,
    "rsi": 56.2,
@@ -7501,7 +7501,7 @@
    {
     "id": "decentralized-exchange",
     "name": "Decentralized Exchange",
-    "chg7d": -3.92,
+    "chg7d": -3.88,
     "top": [
      "HYPE",
      "UNI",
@@ -7766,6 +7766,12 @@
   ],
   "listings": [
    {
+    "coin": "AERO",
+    "list_ts": 1794430800,
+    "market": "SPOT",
+    "state": "preopen"
+   },
+   {
     "coin": "XBIDU",
     "list_ts": 1794382200,
     "market": "SPOT",
@@ -7805,13 +7811,13 @@
     "coin": "XSKDD",
     "list_ts": 1794292200,
     "market": "SPOT",
-    "state": "preopen"
+    "state": "live"
    },
    {
     "coin": "XNVDL",
     "list_ts": 1794290400,
     "market": "SPOT",
-    "state": "preopen"
+    "state": "live"
    },
    {
     "coin": "EWZS",
@@ -7846,12 +7852,6 @@
    {
     "coin": "MURATA",
     "list_ts": 1793770200,
-    "market": "PERP",
-    "state": "live"
-   },
-   {
-    "coin": "UMC",
-    "list_ts": 1793622600,
     "market": "PERP",
     "state": "live"
    }
@@ -7933,8 +7933,8 @@
   "updated": {
    "unlocks": 1794289524,
    "onchain": 1794292521,
-   "sectors": 1794292822,
-   "listings": 1794289830,
+   "sectors": 1794293720,
+   "listings": 1794293720,
    "fundamentals": 1794289526
   }
  },
@@ -7972,6 +7972,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "7e1b778db585c9a86cc46ed2d2efa256e1a3338752e66574513e11172379e2f6",
- "generated": "2026-11-10T06:50:29+00:00"
+ "digest": "ee9b17f94c53a96be75ef2feddca24170e6207f53db8eb14af05c969b5bf4c89",
+ "generated": "2026-11-10T06:55:22+00:00"
 }
