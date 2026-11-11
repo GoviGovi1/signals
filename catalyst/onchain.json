@@ -1,5 +1,5 @@
 {
- "checked": 88,
+ "checked": 87,
  "errors": [],
  "rejected": [
   {
@@ -19,6 +19,13 @@
   {
    "chain": "Solana",
    "fails": [
+    "no DEX candles"
+   ],
+   "symbol": "DACITYCOIN"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
     "liquidity under $250k"
    ],
    "symbol": "STANK"
@@ -34,13 +41,6 @@
   {
    "chain": "Solana",
    "fails": [
-    "liquidity under $250k"
-   ],
-   "symbol": "DACITYCOIN"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
     "no DEX candles"
    ],
    "symbol": "FLOAT"
@@ -51,22 +51,7 @@
     "liquidity under $250k",
     "pool younger than 7 days"
    ],
-   "symbol": "WEALTH"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "liquidity under $250k",
-    "pool younger than 7 days"
-   ],
    "symbol": "FAIR"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "DACITY"
   },
   {
    "chain": "Solana",
@@ -93,9 +78,10 @@
   {
    "chain": "Solana",
    "fails": [
-    "liquidity under $250k"
+    "liquidity under $250k",
+    "pool younger than 7 days"
    ],
-   "symbol": "GTA6"
+   "symbol": "NIHAO"
   },
   {
    "chain": "Solana",
@@ -108,6 +94,13 @@
   {
    "chain": "Solana",
    "fails": [
+    "liquidity under $250k"
+   ],
+   "symbol": "GTA6"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
     "no DEX candles"
    ],
    "symbol": "GATO"
@@ -115,7 +108,17 @@
   {
    "chain": "Solana",
    "fails": [
-    "no DEX candles"
+    "liquidity under $250k",
+    "pool younger than 7 days"
+   ],
+   "symbol": "WEALTH"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "mint authority on",
+    "freeze authority on",
+    "balances can be changed"
    ],
    "symbol": "TTWO"
   },
@@ -125,14 +128,6 @@
     "no DEX candles"
    ],
    "symbol": "ANSEM"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "liquidity under $250k",
-    "pool younger than 7 days"
-   ],
-   "symbol": "NIHAO"
   },
   {
    "chain": "Solana",
@@ -166,13 +161,6 @@
   {
    "chain": "Base",
    "fails": [
-    "24h volume under $250k"
-   ],
-   "symbol": "DOT"
-  },
-  {
-   "chain": "Base",
-   "fails": [
     "no DEX candles"
    ],
    "symbol": "VVV"
@@ -180,16 +168,9 @@
   {
    "chain": "Base",
    "fails": [
-    "liquidity under $250k"
+    "24h volume under $250k"
    ],
-   "symbol": "DEGEN"
-  },
-  {
-   "chain": "Base",
-   "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "ELSA"
+   "symbol": "DOT"
   },
   {
    "chain": "Base",
@@ -198,6 +179,13 @@
     "24h volume under $250k"
    ],
    "symbol": "OWB"
+  },
+  {
+   "chain": "Base",
+   "fails": [
+    "liquidity under $250k"
+   ],
+   "symbol": "DEGEN"
   },
   {
    "chain": "Base",
@@ -223,20 +211,6 @@
   {
    "chain": "Base",
    "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "MUC"
-  },
-  {
-   "chain": "Base",
-   "fails": [
-    "24h volume under $250k"
-   ],
-   "symbol": "KTA"
-  },
-  {
-   "chain": "Base",
-   "fails": [
     "liquidity under $250k",
     "24h volume under $250k"
    ],
@@ -245,9 +219,30 @@
   {
    "chain": "Base",
    "fails": [
+    "no DEX candles"
+   ],
+   "symbol": "MUC"
+  },
+  {
+   "chain": "Base",
+   "fails": [
     "liquidity under $250k"
    ],
    "symbol": "ICNT"
+  },
+  {
+   "chain": "Base",
+   "fails": [
+    "no DEX candles"
+   ],
+   "symbol": "ELSA"
+  },
+  {
+   "chain": "Base",
+   "fails": [
+    "24h volume under $250k"
+   ],
+   "symbol": "KTA"
   },
   {
    "chain": "Base",
@@ -267,16 +262,16 @@
   {
    "chain": "Base",
    "fails": [
-    "no DEX candles"
+    "24h volume under $250k"
    ],
-   "symbol": "SNDKC"
+   "symbol": "POD"
   },
   {
    "chain": "Base",
    "fails": [
-    "24h volume under $250k"
+    "no DEX candles"
    ],
-   "symbol": "POD"
+   "symbol": "NFLXC"
   },
   {
    "chain": "BSC",
@@ -291,9 +286,75 @@
     "no DEX candles"
    ],
    "symbol": "JCT"
+  },
+  {
+   "chain": "BSC",
+   "fails": [
+    "liquidity under $250k",
+    "pool younger than 7 days",
+    "24h volume under $250k"
+   ],
+   "symbol": "\u725b\u903c"
   }
  ],
  "rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
- "updated": 1794375331,
- "watchlist": []
+ "updated": 1794378922,
+ "watchlist": [
+  {
+   "age_d": 441.8,
+   "atr": 0.09014808539311481,
+   "bar_ts": 1794373200000,
+   "chain": "BSC",
+   "chg24h": 0.854,
+   "chg7d": -1.1,
+   "close": 6.392555373487039,
+   "ema20": 6.417667847450373,
+   "ema50": 6.4224708386946014,
+   "fails": [],
+   "gecko_id": "ark-3",
+   "liq": 58242359,
+   "mcap": 0.0,
+   "name": "ARK",
+   "net": "bsc",
+   "pool": "0xcaaf3c41a40103a23eeaa4bba468af3cf5b0e0d8",
+   "price": 6.45060579712162,
+   "rsi": 45.7,
+   "safety": "ok",
+   "safety_notes": [],
+   "symbol": "ARK",
+   "token": "0xcae117ca6bc8a341d2e7207f30e180f0e5618b9d",
+   "trend_up": false,
+   "trigger": false,
+   "url": "https://www.geckoterminal.com/bsc/pools/0xcaaf3c41a40103a23eeaa4bba468af3cf5b0e0d8",
+   "vol24h": 4802397
+  },
+  {
+   "age_d": 30.8,
+   "atr": 0.0007757381860437841,
+   "bar_ts": 1794373200000,
+   "chain": "Solana",
+   "chg24h": -22.885,
+   "chg7d": -13.4,
+   "close": 0.006844196555857557,
+   "ema20": 0.007423614838256451,
+   "ema50": 0.007785106957527965,
+   "fails": [],
+   "gecko_id": "dacity-coin-2",
+   "liq": 413611,
+   "mcap": 6640966.24425885,
+   "name": "Dacity Coin",
+   "net": "solana",
+   "pool": "G2UuRbmVDzDFP4qyoBJrSKBXSi7d6V4bPP9tHPs36y4b",
+   "price": 0.006773410754605631,
+   "rsi": 42.3,
+   "safety": "ok",
+   "safety_notes": [],
+   "symbol": "DACITY",
+   "token": "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump",
+   "trend_up": false,
+   "trigger": false,
+   "url": "https://www.geckoterminal.com/solana/pools/G2UuRbmVDzDFP4qyoBJrSKBXSi7d6V4bPP9tHPs36y4b",
+   "vol24h": 3054210
+  }
+ ]
 }

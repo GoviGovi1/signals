@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0982,
-   "last_ts": "2026-11-11T06:30:24+00:00",
-   "move_pct": 6.12,
+   "last": 0.0984,
+   "last_ts": "2026-11-11T06:36:22+00:00",
+   "move_pct": 5.93,
    "closed": false,
    "rsi": 42.5,
    "trade_on": "Perps 1x",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.12284,
-   "last_ts": "2026-11-11T06:30:24+00:00",
-   "move_pct": 1.46,
+   "last": 0.1229,
+   "last_ts": "2026-11-11T06:36:22+00:00",
+   "move_pct": 1.51,
    "closed": false,
    "rsi": 67.9,
    "trade_on": "Perps 1x",
@@ -123,9 +123,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0162127410289808,
-   "last_ts": "2026-11-11T06:30:24+00:00",
-   "move_pct": -0.66,
+   "last": 0.0161447789983333,
+   "last_ts": "2026-11-11T06:36:22+00:00",
+   "move_pct": -1.08,
    "closed": false,
    "rsi": 72.1,
    "trade_on": "On-chain spot (Base DEX)",
@@ -160,7 +160,7 @@
     0.030269579590888156
    ],
    "lev": 1,
-   "funding_pct": -0.0022,
+   "funding_pct": -0.0017,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-10T10:00:00+00:00",
@@ -168,9 +168,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0319,
-   "last_ts": "2026-11-11T06:30:24+00:00",
-   "move_pct": 3.51,
+   "last": 0.03193,
+   "last_ts": "2026-11-11T06:36:22+00:00",
+   "move_pct": 3.42,
    "closed": false,
    "rsi": 43.4,
    "trade_on": "Perps 1x",
@@ -213,9 +213,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.06801,
-   "last_ts": "2026-11-11T06:30:24+00:00",
-   "move_pct": 1.88,
+   "last": 0.06809,
+   "last_ts": "2026-11-11T06:36:22+00:00",
+   "move_pct": 1.76,
    "closed": false,
    "rsi": 41.3,
    "trade_on": "Perps 3x",
@@ -250,7 +250,7 @@
     0.03518607703880438
    ],
    "lev": 1,
-   "funding_pct": -0.0128,
+   "funding_pct": -0.0125,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-10T14:00:00+00:00",
@@ -258,9 +258,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0402,
-   "last_ts": "2026-11-11T06:30:24+00:00",
-   "move_pct": -0.1,
+   "last": 0.04037,
+   "last_ts": "2026-11-11T06:36:22+00:00",
+   "move_pct": -0.52,
    "closed": false,
    "rsi": 30.5,
    "trade_on": "Perps 1x",
@@ -302,9 +302,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002542,
-   "last_ts": "2026-11-11T06:30:24+00:00",
-   "move_pct": 0.08,
+   "last": 0.002537,
+   "last_ts": "2026-11-11T06:36:22+00:00",
+   "move_pct": -0.12,
    "closed": false,
    "rsi": 60.1,
    "trade_on": "Perps 1x",
@@ -7417,8 +7417,47 @@
    }
   ],
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
-  "onchain": [],
-  "onchain_checked": 88,
+  "onchain": [
+   {
+    "chain": "BSC",
+    "symbol": "ARK",
+    "name": "ARK",
+    "token": "0xcae117ca6bc8a341d2e7207f30e180f0e5618b9d",
+    "price": 6.45060579712162,
+    "liq": 58242359,
+    "vol24h": 4802397,
+    "age_d": 441.8,
+    "chg24h": 0.854,
+    "chg7d": -1.1,
+    "mcap": 0.0,
+    "safety": "ok",
+    "safety_notes": [],
+    "trigger": false,
+    "trend_up": false,
+    "rsi": 45.7,
+    "url": "https://www.geckoterminal.com/bsc/pools/0xcaaf3c41a40103a23eeaa4bba468af3cf5b0e0d8"
+   },
+   {
+    "chain": "Solana",
+    "symbol": "DACITY",
+    "name": "Dacity Coin",
+    "token": "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump",
+    "price": 0.006773410754605631,
+    "liq": 413611,
+    "vol24h": 3054210,
+    "age_d": 30.8,
+    "chg24h": -22.885,
+    "chg7d": -13.4,
+    "mcap": 6640966.24425885,
+    "safety": "ok",
+    "safety_notes": [],
+    "trigger": false,
+    "trend_up": false,
+    "rsi": 42.3,
+    "url": "https://www.geckoterminal.com/solana/pools/G2UuRbmVDzDFP4qyoBJrSKBXSi7d6V4bPP9tHPs36y4b"
+   }
+  ],
+  "onchain_checked": 87,
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
@@ -7531,6 +7570,28 @@
     ]
    },
    {
+    "id": "layer-1",
+    "name": "Layer 1",
+    "chg7d": -4.5,
+    "top": [
+     "BTC",
+     "ETH",
+     "BNB",
+     "XRP",
+     "SOL"
+    ],
+    "tracked": [
+     "BTC",
+     "ETH",
+     "SOL",
+     "XRP",
+     "AVAX",
+     "SUI",
+     "BNB",
+     "ZEC"
+    ]
+   },
+   {
     "id": "artificial-intelligence",
     "name": "Artificial Intelligence",
     "chg7d": -4.55,
@@ -7572,28 +7633,6 @@
      "OKB",
      "ASTER",
      "MET"
-    ]
-   },
-   {
-    "id": "layer-1",
-    "name": "Layer 1",
-    "chg7d": -5.27,
-    "top": [
-     "BTC",
-     "ETH",
-     "BNB",
-     "XRP",
-     "SOL"
-    ],
-    "tracked": [
-     "BTC",
-     "ETH",
-     "SOL",
-     "XRP",
-     "AVAX",
-     "SUI",
-     "BNB",
-     "ZEC"
     ]
    },
    {
@@ -8002,8 +8041,8 @@
   ],
   "updated": {
    "unlocks": 1794377120,
-   "onchain": 1794375331,
-   "sectors": 1794378021,
+   "onchain": 1794378922,
+   "sectors": 1794378922,
    "listings": 1794376525,
    "fundamentals": 1794377121
   }
@@ -8042,6 +8081,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "10e44a378c8ac65a09eac150fcc38fc762628dc8afbabdf88126ce27e99024c1",
- "generated": "2026-11-11T06:30:32+00:00"
+ "digest": "646eada10f0c559e1615542cd1b69326213668824e0ec196086c7f26d96f59d7",
+ "generated": "2026-11-11T06:36:27+00:00"
 }
