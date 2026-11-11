@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0987,
-   "last_ts": "2026-11-11T03:05:22+00:00",
-   "move_pct": 5.64,
+   "last": 0.0992,
+   "last_ts": "2026-11-11T03:10:23+00:00",
+   "move_pct": 5.16,
    "closed": false,
    "rsi": 42.5,
    "trade_on": "Perps 1x",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.12386,
-   "last_ts": "2026-11-11T03:05:22+00:00",
-   "move_pct": 2.3,
+   "last": 0.12401,
+   "last_ts": "2026-11-11T03:10:23+00:00",
+   "move_pct": 2.43,
    "closed": false,
    "rsi": 67.9,
    "trade_on": "Perps 1x",
@@ -123,9 +123,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0162098137147433,
-   "last_ts": "2026-11-11T03:05:22+00:00",
-   "move_pct": -0.68,
+   "last": 0.0162386533336002,
+   "last_ts": "2026-11-11T03:10:23+00:00",
+   "move_pct": -0.5,
    "closed": false,
    "rsi": 72.1,
    "trade_on": "On-chain spot (Base DEX)",
@@ -160,7 +160,7 @@
     0.030269579590888156
    ],
    "lev": 1,
-   "funding_pct": -0.0007,
+   "funding_pct": 0.0,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-10T10:00:00+00:00",
@@ -168,9 +168,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0322,
-   "last_ts": "2026-11-11T03:05:22+00:00",
-   "move_pct": 2.6,
+   "last": 0.03225,
+   "last_ts": "2026-11-11T03:10:23+00:00",
+   "move_pct": 2.45,
    "closed": false,
    "rsi": 43.4,
    "trade_on": "Perps 1x",
@@ -213,9 +213,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.06848,
-   "last_ts": "2026-11-11T03:05:22+00:00",
-   "move_pct": 1.2,
+   "last": 0.06862,
+   "last_ts": "2026-11-11T03:10:23+00:00",
+   "move_pct": 1.0,
    "closed": false,
    "rsi": 41.3,
    "trade_on": "Perps 3x",
@@ -258,9 +258,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04113,
-   "last_ts": "2026-11-11T03:05:22+00:00",
-   "move_pct": -2.42,
+   "last": 0.04105,
+   "last_ts": "2026-11-11T03:10:23+00:00",
+   "move_pct": -2.22,
    "closed": false,
    "rsi": 30.5,
    "trade_on": "Perps 1x",
@@ -303,7 +303,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.1049,
-   "last_ts": "2026-11-11T03:05:22+00:00",
+   "last_ts": "2026-11-11T03:10:23+00:00",
    "move_pct": -4.07,
    "closed": false,
    "rsi": 40.4,
@@ -334,7 +334,7 @@
     0.2886328
    ],
    "lev": 1,
-   "funding_pct": -0.8671,
+   "funding_pct": -0.9093,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-11T02:50:30+00:00",
@@ -342,9 +342,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.21654,
-   "last_ts": "2026-11-11T03:05:22+00:00",
-   "move_pct": 2.03,
+   "last": 0.22172,
+   "last_ts": "2026-11-11T03:10:23+00:00",
+   "move_pct": 4.47,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -7872,6 +7872,28 @@
     ]
    },
    {
+    "id": "decentralized-perpetuals",
+    "name": "Decentralized Perpetuals",
+    "chg7d": -7.28,
+    "top": [
+     "HYPE",
+     "ASTER",
+     "LIT",
+     "JUP",
+     "CAKE"
+    ],
+    "tracked": [
+     "HYPE",
+     "LIT",
+     "ASTER",
+     "RAY",
+     "BASED",
+     "GRVT",
+     "DYDX",
+     "ORDER"
+    ]
+   },
+   {
     "id": "oracle",
     "name": "Oracle",
     "chg7d": -7.32,
@@ -7926,28 +7948,6 @@
      "FIL",
      "AR",
      "WAL"
-    ]
-   },
-   {
-    "id": "decentralized-perpetuals",
-    "name": "Decentralized Perpetuals",
-    "chg7d": -8.92,
-    "top": [
-     "HYPE",
-     "ASTER",
-     "LIT",
-     "JUP",
-     "CAKE"
-    ],
-    "tracked": [
-     "HYPE",
-     "LIT",
-     "ASTER",
-     "RAY",
-     "BASED",
-     "GRVT",
-     "DYDX",
-     "ORDER"
     ]
    },
    {
@@ -8172,7 +8172,7 @@
   "updated": {
    "unlocks": 1794355233,
    "onchain": 1794364518,
-   "sectors": 1794365723,
+   "sectors": 1794366623,
    "listings": 1794365430,
    "fundamentals": 1794355233
   }
@@ -8211,6 +8211,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "7b918d410fb35af4f1ce15d93637ea021fce84da6e6c587fa60a48f2e69a207d",
- "generated": "2026-11-11T03:05:28+00:00"
+ "digest": "9c033448b4d4da5927f17540e18c29be6510171c5a74168504455627cf56d8d4",
+ "generated": "2026-11-11T03:10:29+00:00"
 }
