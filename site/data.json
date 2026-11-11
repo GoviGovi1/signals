@@ -35,7 +35,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.0991,
-   "last_ts": "2026-11-11T08:00:27+00:00",
+   "last_ts": "2026-11-11T08:05:18+00:00",
    "move_pct": 5.26,
    "closed": false,
    "rsi": 42.5,
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.12384,
-   "last_ts": "2026-11-11T08:00:27+00:00",
-   "move_pct": 2.29,
+   "last": 0.12496,
+   "last_ts": "2026-11-11T08:05:18+00:00",
+   "move_pct": 3.21,
    "closed": false,
    "rsi": 67.9,
    "trade_on": "Perps 1x",
@@ -123,9 +123,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0161972816102059,
-   "last_ts": "2026-11-11T08:00:27+00:00",
-   "move_pct": -0.76,
+   "last": 0.0161799891771607,
+   "last_ts": "2026-11-11T08:05:18+00:00",
+   "move_pct": -0.86,
    "closed": false,
    "rsi": 72.1,
    "trade_on": "On-chain spot (Base DEX)",
@@ -160,7 +160,7 @@
     0.030269579590888156
    ],
    "lev": 1,
-   "funding_pct": -0.0072,
+   "funding_pct": -0.0077,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-10T10:00:00+00:00",
@@ -168,9 +168,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.03233,
-   "last_ts": "2026-11-11T08:00:27+00:00",
-   "move_pct": 2.21,
+   "last": 0.03226,
+   "last_ts": "2026-11-11T08:05:18+00:00",
+   "move_pct": 2.42,
    "closed": false,
    "rsi": 43.4,
    "trade_on": "Perps 1x",
@@ -213,9 +213,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.06808,
-   "last_ts": "2026-11-11T08:00:27+00:00",
-   "move_pct": 1.77,
+   "last": 0.06796,
+   "last_ts": "2026-11-11T08:05:18+00:00",
+   "move_pct": 1.95,
    "closed": false,
    "rsi": 41.3,
    "trade_on": "Perps 3x",
@@ -258,9 +258,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0402,
-   "last_ts": "2026-11-11T08:00:27+00:00",
-   "move_pct": -0.1,
+   "last": 0.04014,
+   "last_ts": "2026-11-11T08:05:18+00:00",
+   "move_pct": 0.05,
    "closed": false,
    "rsi": 30.5,
    "trade_on": "Perps 1x",
@@ -302,9 +302,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.00252,
-   "last_ts": "2026-11-11T08:00:27+00:00",
-   "move_pct": -0.79,
+   "last": 0.002519,
+   "last_ts": "2026-11-11T08:05:18+00:00",
+   "move_pct": -0.83,
    "closed": false,
    "rsi": 60.1,
    "trade_on": "Perps 1x",
@@ -339,7 +339,7 @@
     0.006142383137778795
    ],
    "lev": 1,
-   "funding_pct": -0.0298,
+   "funding_pct": -0.0276,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-11T07:00:00+00:00",
@@ -347,9 +347,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.006523,
-   "last_ts": "2026-11-11T08:00:27+00:00",
-   "move_pct": -0.42,
+   "last": 0.006509,
+   "last_ts": "2026-11-11T08:05:18+00:00",
+   "move_pct": -0.2,
    "closed": false,
    "rsi": 35.9,
    "trade_on": "Perps 1x",
@@ -7869,28 +7869,6 @@
     ]
    },
    {
-    "id": "decentralized-exchange",
-    "name": "Decentralized Exchange",
-    "chg7d": -7.01,
-    "top": [
-     "HYPE",
-     "UNI",
-     "ASTER",
-     "PUMP",
-     "LIT"
-    ],
-    "tracked": [
-     "HYPE",
-     "UNI",
-     "PUMP",
-     "LIT",
-     "EDGE",
-     "ASTER",
-     "MET",
-     "CRV"
-    ]
-   },
-   {
     "id": "decentralized-perpetuals",
     "name": "Decentralized Perpetuals",
     "chg7d": -7.28,
@@ -7992,6 +7970,28 @@
     "tracked": [
      "ZEC"
     ]
+   },
+   {
+    "id": "decentralized-exchange",
+    "name": "Decentralized Exchange",
+    "chg7d": -8.83,
+    "top": [
+     "HYPE",
+     "UNI",
+     "ASTER",
+     "PUMP",
+     "LIT"
+    ],
+    "tracked": [
+     "HYPE",
+     "UNI",
+     "PUMP",
+     "LIT",
+     "EDGE",
+     "ASTER",
+     "MET",
+     "CRV"
+    ]
    }
   ],
   "listings": [
@@ -8005,7 +8005,7 @@
     "coin": "XBIDU",
     "list_ts": 1794382200,
     "market": "SPOT",
-    "state": "preopen"
+    "state": "live"
    },
    {
     "coin": "XBAC",
@@ -8163,8 +8163,8 @@
   "updated": {
    "unlocks": 1794377120,
    "onchain": 1794382520,
-   "sectors": 1794383424,
-   "listings": 1794380430,
+   "sectors": 1794384318,
+   "listings": 1794384317,
    "fundamentals": 1794377121
   }
  },
@@ -8202,6 +8202,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "cf91255399727ceb9bb3c11816b8c6eaf0447619ae609811190ffe328bade10c",
- "generated": "2026-11-11T08:01:04+00:00"
+ "digest": "8cad8a0a1cf32698542b7719a9ecb4799f74946614652c6d39327a9affe9e294",
+ "generated": "2026-11-11T08:05:24+00:00"
 }
