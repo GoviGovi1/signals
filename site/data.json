@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0993,
-   "last_ts": "2026-11-11T10:45:49+00:00",
-   "move_pct": 5.07,
+   "last": 0.0992,
+   "last_ts": "2026-11-11T10:50:21+00:00",
+   "move_pct": 5.16,
    "closed": false,
    "rsi": 42.5,
    "trade_on": "Perps 1x",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.12492,
-   "last_ts": "2026-11-11T10:45:49+00:00",
-   "move_pct": 3.18,
+   "last": 0.12496,
+   "last_ts": "2026-11-11T10:50:21+00:00",
+   "move_pct": 3.21,
    "closed": false,
    "rsi": 67.9,
    "trade_on": "Perps 1x",
@@ -123,9 +123,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.016179553482584798,
-   "last_ts": "2026-11-11T10:45:49+00:00",
-   "move_pct": -0.87,
+   "last": 0.0161067049529055,
+   "last_ts": "2026-11-11T10:50:21+00:00",
+   "move_pct": -1.31,
    "closed": false,
    "rsi": 72.1,
    "trade_on": "On-chain spot (Base DEX)",
@@ -160,7 +160,7 @@
     0.030269579590888156
    ],
    "lev": 1,
-   "funding_pct": -0.0031,
+   "funding_pct": -0.0041,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-10T10:00:00+00:00",
@@ -168,9 +168,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.03242,
-   "last_ts": "2026-11-11T10:45:49+00:00",
-   "move_pct": 1.94,
+   "last": 0.03235,
+   "last_ts": "2026-11-11T10:50:21+00:00",
+   "move_pct": 2.15,
    "closed": false,
    "rsi": 43.4,
    "trade_on": "Perps 1x",
@@ -205,7 +205,7 @@
     0.06481197026895691
    ],
    "lev": 3,
-   "funding_pct": 0.0018,
+   "funding_pct": 0.0016,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-10T11:00:00+00:00",
@@ -213,9 +213,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.06829,
-   "last_ts": "2026-11-11T10:45:49+00:00",
-   "move_pct": 1.47,
+   "last": 0.06818,
+   "last_ts": "2026-11-11T10:50:21+00:00",
+   "move_pct": 1.63,
    "closed": false,
    "rsi": 41.3,
    "trade_on": "Perps 3x",
@@ -258,9 +258,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04048,
-   "last_ts": "2026-11-11T10:45:49+00:00",
-   "move_pct": -0.8,
+   "last": 0.04042,
+   "last_ts": "2026-11-11T10:50:21+00:00",
+   "move_pct": -0.65,
    "closed": false,
    "rsi": 30.5,
    "trade_on": "Perps 1x",
@@ -302,9 +302,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002501,
-   "last_ts": "2026-11-11T10:45:49+00:00",
-   "move_pct": -1.54,
+   "last": 0.002493,
+   "last_ts": "2026-11-11T10:50:21+00:00",
+   "move_pct": -1.85,
    "closed": false,
    "rsi": 60.1,
    "trade_on": "Perps 1x",
@@ -7523,28 +7523,6 @@
     ]
    },
    {
-    "id": "exchange-based-tokens",
-    "name": "Exchange Based Tokens",
-    "chg7d": -4.88,
-    "top": [
-     "BNB",
-     "HYPE",
-     "LEO",
-     "WBT",
-     "UNI"
-    ],
-    "tracked": [
-     "BNB",
-     "HYPE",
-     "UNI",
-     "PUMP",
-     "EDGE",
-     "OKB",
-     "ASTER",
-     "MET"
-    ]
-   },
-   {
     "id": "bitcoin-ecosystem",
     "name": "Bitcoin Ecosystem",
     "chg7d": -5.68,
@@ -7643,6 +7621,28 @@
      "PYTH",
      "TRB",
      "API3"
+    ]
+   },
+   {
+    "id": "exchange-based-tokens",
+    "name": "Exchange Based Tokens",
+    "chg7d": -7.36,
+    "top": [
+     "BNB",
+     "HYPE",
+     "WBT",
+     "LEO",
+     "UNI"
+    ],
+    "tracked": [
+     "BNB",
+     "HYPE",
+     "UNI",
+     "PUMP",
+     "EDGE",
+     "OKB",
+     "ASTER",
+     "MET"
     ]
    },
    {
@@ -8038,7 +8038,7 @@
   "updated": {
    "unlocks": 1794377120,
    "onchain": 1794393321,
-   "sectors": 1794393321,
+   "sectors": 1794394221,
    "listings": 1794391822,
    "fundamentals": 1794377121
   }
@@ -8077,6 +8077,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "d55ad9230b44546f480da1b9d985c4d53601bed02aad295cd02409711b8a5319",
- "generated": "2026-11-11T10:45:54+00:00"
+ "digest": "ce6150184ec609edc897a8ce3c40cf428d737f87f47d38437f06eeae89ca648e",
+ "generated": "2026-11-11T10:50:27+00:00"
 }
