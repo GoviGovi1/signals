@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1013,
-   "last_ts": "2026-11-11T17:50:23+00:00",
-   "move_pct": 3.15,
+   "last": 0.1012,
+   "last_ts": "2026-11-11T17:55:20+00:00",
+   "move_pct": 3.25,
    "closed": false,
    "rsi": 42.5,
    "trade_on": "Perps 1x",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.12611,
-   "last_ts": "2026-11-11T17:50:23+00:00",
-   "move_pct": 4.16,
+   "last": 0.12644,
+   "last_ts": "2026-11-11T17:55:20+00:00",
+   "move_pct": 4.44,
    "closed": false,
    "rsi": 67.9,
    "trade_on": "Perps 1x",
@@ -123,9 +123,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0164087690689799,
-   "last_ts": "2026-11-11T17:50:23+00:00",
-   "move_pct": 0.54,
+   "last": 0.016278372189355298,
+   "last_ts": "2026-11-11T17:55:20+00:00",
+   "move_pct": -0.26,
    "closed": false,
    "rsi": 72.1,
    "trade_on": "On-chain spot (Base DEX)",
@@ -160,7 +160,7 @@
     0.030269579590888156
    ],
    "lev": 1,
-   "funding_pct": 0.0001,
+   "funding_pct": 0.0005,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-10T10:00:00+00:00",
@@ -169,7 +169,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.03239,
-   "last_ts": "2026-11-11T17:50:23+00:00",
+   "last_ts": "2026-11-11T17:55:20+00:00",
    "move_pct": 2.03,
    "closed": false,
    "rsi": 43.4,
@@ -213,9 +213,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04015,
-   "last_ts": "2026-11-11T17:50:23+00:00",
-   "move_pct": 0.02,
+   "last": 0.0401,
+   "last_ts": "2026-11-11T17:55:20+00:00",
+   "move_pct": 0.15,
    "closed": false,
    "rsi": 30.5,
    "trade_on": "Perps 1x",
@@ -257,9 +257,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002554,
-   "last_ts": "2026-11-11T17:50:23+00:00",
-   "move_pct": 0.55,
+   "last": 0.00255,
+   "last_ts": "2026-11-11T17:55:20+00:00",
+   "move_pct": 0.39,
    "closed": false,
    "rsi": 60.1,
    "trade_on": "Perps 1x",
@@ -302,9 +302,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.153,
-   "last_ts": "2026-11-11T17:50:23+00:00",
-   "move_pct": 0.26,
+   "last": 0.1533,
+   "last_ts": "2026-11-11T17:55:20+00:00",
+   "move_pct": 0.46,
    "closed": false,
    "rsi": 71.2,
    "trade_on": "Spot",
@@ -342,9 +342,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.08065,
-   "last_ts": "2026-11-11T17:50:23+00:00",
-   "move_pct": 0.14,
+   "last": 0.0804,
+   "last_ts": "2026-11-11T17:55:20+00:00",
+   "move_pct": -0.17,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -7554,28 +7554,6 @@
     ]
    },
    {
-    "id": "decentralized-finance-defi",
-    "name": "Decentralized Finance DeFi",
-    "chg7d": -5.68,
-    "top": [
-     "STETH",
-     "HYPE",
-     "WSTETH",
-     "LINK",
-     "DAI"
-    ],
-    "tracked": [
-     "LINK",
-     "HYPE",
-     "UNI",
-     "PUMP",
-     "LIT",
-     "ENA",
-     "AAVE",
-     "INJ"
-    ]
-   },
-   {
     "id": "lending-borrowing",
     "name": "Lending Borrowing",
     "chg7d": -5.92,
@@ -7638,6 +7616,28 @@
      "ATH",
      "LPT",
      "PHA"
+    ]
+   },
+   {
+    "id": "decentralized-finance-defi",
+    "name": "Decentralized Finance DeFi",
+    "chg7d": -6.91,
+    "top": [
+     "STETH",
+     "HYPE",
+     "WSTETH",
+     "LINK",
+     "DAI"
+    ],
+    "tracked": [
+     "LINK",
+     "HYPE",
+     "UNI",
+     "PUMP",
+     "LIT",
+     "ENA",
+     "AAVE",
+     "INJ"
     ]
    },
    {
@@ -8095,7 +8095,7 @@
   "updated": {
    "unlocks": 1794398725,
    "onchain": 1794418409,
-   "sectors": 1794418758,
+   "sectors": 1794419720,
    "listings": 1794418409,
    "fundamentals": 1794398725
   }
@@ -8134,6 +8134,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "37a8b75f63a9897cbfb7d01b7c82f1e98ef2a053d695d504cfdcc7695374e8e8",
- "generated": "2026-11-11T17:50:29+00:00"
+ "digest": "573567818eb616291d4a0d42eb0e9ce32dc93a3db978ee52e22ff5da25822b66",
+ "generated": "2026-11-11T17:55:26+00:00"
 }
