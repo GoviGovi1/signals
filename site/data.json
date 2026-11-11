@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0988,
-   "last_ts": "2026-11-11T09:15:22+00:00",
-   "move_pct": 5.54,
+   "last": 0.099,
+   "last_ts": "2026-11-11T09:20:22+00:00",
+   "move_pct": 5.35,
    "closed": false,
    "rsi": 42.5,
    "trade_on": "Perps 1x",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.126,
-   "last_ts": "2026-11-11T09:15:22+00:00",
-   "move_pct": 4.07,
+   "last": 0.12497,
+   "last_ts": "2026-11-11T09:20:22+00:00",
+   "move_pct": 3.22,
    "closed": false,
    "rsi": 67.9,
    "trade_on": "Perps 1x",
@@ -123,9 +123,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0162113618203154,
-   "last_ts": "2026-11-11T09:15:22+00:00",
-   "move_pct": -0.67,
+   "last": 0.0161947650801846,
+   "last_ts": "2026-11-11T09:20:22+00:00",
+   "move_pct": -0.77,
    "closed": false,
    "rsi": 72.1,
    "trade_on": "On-chain spot (Base DEX)",
@@ -160,7 +160,7 @@
     0.030269579590888156
    ],
    "lev": 1,
-   "funding_pct": -0.0085,
+   "funding_pct": -0.0093,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-10T10:00:00+00:00",
@@ -168,9 +168,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.03198,
-   "last_ts": "2026-11-11T09:15:22+00:00",
-   "move_pct": 3.27,
+   "last": 0.03201,
+   "last_ts": "2026-11-11T09:20:22+00:00",
+   "move_pct": 3.18,
    "closed": false,
    "rsi": 43.4,
    "trade_on": "Perps 1x",
@@ -205,7 +205,7 @@
     0.06481197026895691
    ],
    "lev": 3,
-   "funding_pct": 0.0023,
+   "funding_pct": 0.0022,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-10T11:00:00+00:00",
@@ -213,9 +213,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.06762,
-   "last_ts": "2026-11-11T09:15:22+00:00",
-   "move_pct": 2.44,
+   "last": 0.06764,
+   "last_ts": "2026-11-11T09:20:22+00:00",
+   "move_pct": 2.41,
    "closed": false,
    "rsi": 41.3,
    "trade_on": "Perps 3x",
@@ -258,9 +258,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04007,
-   "last_ts": "2026-11-11T09:15:22+00:00",
-   "move_pct": 0.22,
+   "last": 0.04004,
+   "last_ts": "2026-11-11T09:20:22+00:00",
+   "move_pct": 0.3,
    "closed": false,
    "rsi": 30.5,
    "trade_on": "Perps 1x",
@@ -302,9 +302,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002492,
-   "last_ts": "2026-11-11T09:15:22+00:00",
-   "move_pct": -1.89,
+   "last": 0.002489,
+   "last_ts": "2026-11-11T09:20:22+00:00",
+   "move_pct": -2.01,
    "closed": false,
    "rsi": 60.1,
    "trade_on": "Perps 1x",
@@ -339,7 +339,7 @@
     0.006142383137778795
    ],
    "lev": 1,
-   "funding_pct": -0.0174,
+   "funding_pct": -0.0168,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-11T07:00:00+00:00",
@@ -347,9 +347,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.006522,
-   "last_ts": "2026-11-11T09:15:22+00:00",
-   "move_pct": -0.4,
+   "last": 0.006539,
+   "last_ts": "2026-11-11T09:20:22+00:00",
+   "move_pct": -0.66,
    "closed": false,
    "rsi": 35.9,
    "trade_on": "Perps 1x",
@@ -7686,24 +7686,6 @@
     ]
    },
    {
-    "id": "oracle",
-    "name": "Oracle",
-    "chg7d": -5.95,
-    "top": [
-     "LINK",
-     "PYTH",
-     "RED",
-     "WIN",
-     "TRB"
-    ],
-    "tracked": [
-     "LINK",
-     "PYTH",
-     "TRB",
-     "API3"
-    ]
-   },
-   {
     "id": "layer-2",
     "name": "Layer 2",
     "chg7d": -6.02,
@@ -7767,6 +7749,24 @@
      "GRASS",
      "AR",
      "ICP"
+    ]
+   },
+   {
+    "id": "oracle",
+    "name": "Oracle",
+    "chg7d": -7.14,
+    "top": [
+     "LINK",
+     "PYTH",
+     "RED",
+     "WIN",
+     "TRB"
+    ],
+    "tracked": [
+     "LINK",
+     "PYTH",
+     "TRB",
+     "API3"
     ]
    },
    {
@@ -8086,7 +8086,7 @@
   "updated": {
    "unlocks": 1794377120,
    "onchain": 1794386122,
-   "sectors": 1794387922,
+   "sectors": 1794388822,
    "listings": 1794387922,
    "fundamentals": 1794377121
   }
@@ -8125,6 +8125,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "5716e828447764622ecd410d97642e8b84915f8ddec70eeac89f92a173f65b08",
- "generated": "2026-11-11T09:15:28+00:00"
+ "digest": "3a58365b877ecf3c914177c7cba75ad4ce4ebdf586ae01f1c9a0a15d60eddd14",
+ "generated": "2026-11-11T09:20:27+00:00"
 }
