@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.016344817766568397,
-   "last_ts": "2026-11-11T22:55:21+00:00",
-   "move_pct": 0.15,
+   "last": 0.0163327433259917,
+   "last_ts": "2026-11-11T23:01:36+00:00",
+   "move_pct": 0.07,
    "closed": false,
    "rsi": 72.1,
    "trade_on": "On-chain spot (Base DEX)",
@@ -71,7 +71,7 @@
     0.030269579590888156
    ],
    "lev": 1,
-   "funding_pct": -0.016,
+   "funding_pct": -0.0159,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-10T10:00:00+00:00",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.03122,
-   "last_ts": "2026-11-11T22:55:21+00:00",
-   "move_pct": 5.57,
+   "last": 0.03125,
+   "last_ts": "2026-11-11T23:01:36+00:00",
+   "move_pct": 5.47,
    "closed": false,
    "rsi": 43.4,
    "trade_on": "Perps 1x",
@@ -124,9 +124,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.03908,
-   "last_ts": "2026-11-11T22:55:21+00:00",
-   "move_pct": 2.69,
+   "last": 0.03915,
+   "last_ts": "2026-11-11T23:01:36+00:00",
+   "move_pct": 2.51,
    "closed": false,
    "rsi": 30.5,
    "trade_on": "Perps 1x",
@@ -164,9 +164,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.08133,
-   "last_ts": "2026-11-11T22:55:21+00:00",
-   "move_pct": 0.98,
+   "last": 0.08216,
+   "last_ts": "2026-11-11T23:01:36+00:00",
+   "move_pct": 2.01,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -201,7 +201,7 @@
     0.014844708032995563
    ],
    "lev": 1,
-   "funding_pct": 0.0022,
+   "funding_pct": 0.003,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-11T21:00:00+00:00",
@@ -209,9 +209,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.01582,
-   "last_ts": "2026-11-11T22:55:21+00:00",
-   "move_pct": 1.31,
+   "last": 0.01589,
+   "last_ts": "2026-11-11T23:01:36+00:00",
+   "move_pct": 0.87,
    "closed": false,
    "rsi": 38.3,
    "trade_on": "Perps 1x",
@@ -246,7 +246,7 @@
     1.1963185169308073
    ],
    "lev": 1,
-   "funding_pct": 0.0018,
+   "funding_pct": 0.0025,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-11T22:00:00+00:00",
@@ -254,15 +254,60 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.252,
-   "last_ts": "2026-11-11T22:55:21+00:00",
-   "move_pct": 0.87,
+   "last": 1.255,
+   "last_ts": "2026-11-11T23:01:36+00:00",
+   "move_pct": 0.63,
    "closed": false,
    "rsi": 33.9,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": "charts/LPT-PERP-1794430800.png",
    "setup": "BOS"
+  },
+  {
+   "id": "KAT-PERP-1794434400",
+   "kind": "TA",
+   "score": 0,
+   "reasons": [
+    "Chart: Broke the 20-hour low on 2.2x volume",
+    "Timeframes: 1d down, 4h down, 4h structure lower highs/lows",
+    "No support below in the last 50 days",
+    "Stop 0.0033535 (structure); targets at 1R/2R/3R",
+    "BTC 4h trend down",
+    "Weaker than BTC by 7.8% over 7d",
+    "OI +4% 24h",
+    "Sector: Layer 2 -9.2% 7d (middle, #13 of 20)",
+    "Track record: +1.1R on KAT in the last 45 days (backtest)"
+   ],
+   "coin": "KAT",
+   "market": "PERP",
+   "side": "SHORT",
+   "entry": 0.003227,
+   "sl0": 0.0033535074337732664,
+   "sl": 0.0033535074337732664,
+   "tps": [
+    0.0031004925662267333,
+    0.0029739851324534668,
+    0.0028474776986802002
+   ],
+   "lev": 1,
+   "funding_pct": -0.0111,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-11-11T23:00:00+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.003239,
+   "last_ts": "2026-11-11T23:01:36+00:00",
+   "move_pct": -0.37,
+   "closed": false,
+   "rsi": 33.9,
+   "trade_on": "Perps 1x",
+   "market_reason": "shorts need perps; thin perp market, so 1x",
+   "chart": "charts/KAT-PERP-1794434400.png",
+   "setup": "BREAKOUT20"
   }
  ],
  "closed": [
@@ -4110,7 +4155,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 6
+  "open": 7
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7419,40 +7464,42 @@
   "onchain": [
    {
     "chain": "BSC",
-    "symbol": "QQQB",
-    "name": "Invesqo QQQ",
-    "token": "0x205812cdbed920aff76c6580abd681a46d11efc7",
-    "price": 689.749637078466,
-    "liq": 1264896,
-    "vol24h": 4159814,
-    "age_d": 120.3,
-    "chg24h": 1.887,
-    "chg7d": -0.5,
-    "mcap": 1283853.19469947,
-    "safety": "ok",
-    "safety_notes": [],
+    "symbol": "KGEN",
+    "name": "KGEN",
+    "token": "0xf3d5b4c34ed623478cc5141861776e6cf7ae3a1e",
+    "price": 0.0814685075731146,
+    "liq": 620676,
+    "vol24h": 3746361,
+    "age_d": 401.6,
+    "chg24h": 23.082,
+    "chg7d": 9.4,
+    "mcap": 21592163.4049669,
+    "safety": "unknown",
+    "safety_notes": [
+     "safety not checked"
+    ],
     "trigger": false,
     "trend_up": true,
-    "rsi": 59.6,
-    "url": "https://www.geckoterminal.com/bsc/pools/0x47bc06722295ac316a569eef87ac32faa455f441"
+    "rsi": 79.1,
+    "url": "https://www.geckoterminal.com/bsc/pools/0xb9b436c3869da550f943d3493e262be84a20e53b22223810eb7aa12acb8b6d34"
    },
    {
     "chain": "Base",
     "symbol": "MSTRC",
     "name": "Strategy Inc.",
     "token": "0xb2000000000000000000004884b426556b92883d",
-    "price": 121.556136461989,
-    "liq": 802010,
-    "vol24h": 18610984,
+    "price": 119.710396790478,
+    "liq": 792768,
+    "vol24h": 19301340,
     "age_d": 20.8,
-    "chg24h": 0.622,
-    "chg7d": -15.0,
-    "mcap": 2454702.76827996,
+    "chg24h": -1.055,
+    "chg7d": -17.0,
+    "mcap": 2429497.46403321,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 46.4,
+    "rsi": 39.1,
     "url": "https://www.geckoterminal.com/base/pools/0x66dcd42e6314b287110922ae36cb2a8bdeecc153"
    },
    {
@@ -7460,22 +7507,22 @@
     "symbol": "AERO",
     "name": "Aero",
     "token": "0x3f5bf3edac59d650d8fdf9657a71f2f904a3a4ee",
-    "price": 0.551853708769447,
-    "liq": 2557202,
-    "vol24h": 6710146,
+    "price": 0.53980945808121,
+    "liq": 2373345,
+    "vol24h": 6930033,
     "age_d": 20.8,
-    "chg24h": 1.404,
-    "chg7d": -12.2,
-    "mcap": 390320049.086046,
+    "chg24h": -0.316,
+    "chg7d": -15.7,
+    "mcap": 382028212.808341,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 52.8,
+    "rsi": 41.7,
     "url": "https://www.geckoterminal.com/base/pools/0xc85d5cb72d1aad6f152a8decad228ae4a59ac9b3"
    }
   ],
-  "onchain_checked": 86,
+  "onchain_checked": 85,
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
@@ -7566,28 +7613,6 @@
     ]
    },
    {
-    "id": "artificial-intelligence",
-    "name": "Artificial Intelligence",
-    "chg7d": -7.12,
-    "top": [
-     "NEAR",
-     "TAO",
-     "SN0",
-     "ICP",
-     "VVV"
-    ],
-    "tracked": [
-     "NEAR",
-     "PIEVERSE",
-     "AKE",
-     "TAO",
-     "ICP",
-     "VVV",
-     "GRASS",
-     "RENDER"
-    ]
-   },
-   {
     "id": "oracle",
     "name": "Oracle",
     "chg7d": -7.19,
@@ -7667,6 +7692,28 @@
      "USELESS",
      "SHIB",
      "CASHCAT"
+    ]
+   },
+   {
+    "id": "artificial-intelligence",
+    "name": "Artificial Intelligence",
+    "chg7d": -8.34,
+    "top": [
+     "NEAR",
+     "TAO",
+     "SN0",
+     "ICP",
+     "VVV"
+    ],
+    "tracked": [
+     "NEAR",
+     "PIEVERSE",
+     "AKE",
+     "TAO",
+     "ICP",
+     "VVV",
+     "GRASS",
+     "RENDER"
     ]
    },
    {
@@ -8062,8 +8109,8 @@
   ],
   "updated": {
    "unlocks": 1794420538,
-   "onchain": 1794434433,
-   "sectors": 1794437124,
+   "onchain": 1794438033,
+   "sectors": 1794438033,
    "listings": 1794434433,
    "fundamentals": 1794420538
   }
@@ -8102,6 +8149,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "cf2c71330f0445b37918909a718e46f514574b4353a3451b25550521f396d28d",
- "generated": "2026-11-11T22:55:26+00:00"
+ "digest": "c9e740b09cd3cdfc156a0415be03df6ecb3292c15ccf42c6cb55ca7061599b1b",
+ "generated": "2026-11-11T23:02:17+00:00"
 }
