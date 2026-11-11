@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1004,
-   "last_ts": "2026-11-11T16:30:32+00:00",
-   "move_pct": 4.02,
+   "last": 0.1008,
+   "last_ts": "2026-11-11T16:36:25+00:00",
+   "move_pct": 3.63,
    "closed": false,
    "rsi": 42.5,
    "trade_on": "Perps 1x",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.12544,
-   "last_ts": "2026-11-11T16:30:32+00:00",
-   "move_pct": 3.61,
+   "last": 0.12551,
+   "last_ts": "2026-11-11T16:36:25+00:00",
+   "move_pct": 3.67,
    "closed": false,
    "rsi": 67.9,
    "trade_on": "Perps 1x",
@@ -123,9 +123,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0164078442549962,
-   "last_ts": "2026-11-11T16:30:32+00:00",
-   "move_pct": 0.53,
+   "last": 0.0164235323319461,
+   "last_ts": "2026-11-11T16:36:25+00:00",
+   "move_pct": 0.63,
    "closed": false,
    "rsi": 72.1,
    "trade_on": "On-chain spot (Base DEX)",
@@ -160,7 +160,7 @@
     0.030269579590888156
    ],
    "lev": 1,
-   "funding_pct": 0.0021,
+   "funding_pct": 0.0007,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-10T10:00:00+00:00",
@@ -168,9 +168,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0324,
-   "last_ts": "2026-11-11T16:30:32+00:00",
-   "move_pct": 2.0,
+   "last": 0.03237,
+   "last_ts": "2026-11-11T16:36:25+00:00",
+   "move_pct": 2.09,
    "closed": false,
    "rsi": 43.4,
    "trade_on": "Perps 1x",
@@ -213,9 +213,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04072,
-   "last_ts": "2026-11-11T16:30:32+00:00",
-   "move_pct": -1.39,
+   "last": 0.04065,
+   "last_ts": "2026-11-11T16:36:25+00:00",
+   "move_pct": -1.22,
    "closed": false,
    "rsi": 30.5,
    "trade_on": "Perps 1x",
@@ -257,9 +257,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002548,
-   "last_ts": "2026-11-11T16:30:32+00:00",
-   "move_pct": 0.31,
+   "last": 0.00254,
+   "last_ts": "2026-11-11T16:36:25+00:00",
+   "move_pct": 0.0,
    "closed": false,
    "rsi": 60.1,
    "trade_on": "Perps 1x",
@@ -289,7 +289,7 @@
     0.17755331712338446
    ],
    "lev": 1,
-   "funding_pct": -0.0006,
+   "funding_pct": -0.0019,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-11T15:36:23+00:00",
@@ -297,9 +297,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.15058,
-   "last_ts": "2026-11-11T16:30:32+00:00",
-   "move_pct": -3.8,
+   "last": 0.15018,
+   "last_ts": "2026-11-11T16:36:25+00:00",
+   "move_pct": -4.05,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -7415,46 +7415,44 @@
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
   "onchain": [
    {
-    "chain": "Solana",
-    "symbol": "ANSEM",
-    "name": "The Black Bull",
-    "token": "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump",
-    "price": 0.06342798278684847,
-    "liq": 1443306,
-    "vol24h": 2656593,
-    "age_d": 147.8,
-    "chg24h": 26.439,
-    "chg7d": 32.5,
-    "mcap": 63260698.2125568,
-    "safety": "unknown",
-    "safety_notes": [
-     "safety not checked"
-    ],
-    "trigger": false,
-    "trend_up": true,
-    "rsi": 64.8,
-    "url": "https://www.geckoterminal.com/solana/pools/FnzKY6x7entQ1eR3D225dQyT7ybfka4PskBMQhb8L3CC"
-   },
-   {
-    "chain": "Base",
-    "symbol": "AERO",
-    "name": "Aero",
-    "token": "0x3f5bf3edac59d650d8fdf9657a71f2f904a3a4ee",
-    "price": 0.546468059081892,
-    "liq": 1887071,
-    "vol24h": 6557645,
-    "age_d": 20.5,
-    "chg24h": -0.195,
-    "chg7d": -14.2,
-    "mcap": 385127918.161789,
+    "chain": "BSC",
+    "symbol": "IDOL",
+    "name": "MEET48 Token",
+    "token": "0x3b4de3c7855c03bb9f50ea252cd2c9fa1125ab07",
+    "price": 0.0259813118946898,
+    "liq": 1357492,
+    "vol24h": 7764968,
+    "age_d": 519.1,
+    "chg24h": -17.74,
+    "chg7d": 11.8,
+    "mcap": 59467015.7537056,
     "safety": "unknown",
     "safety_notes": [
      "safety not checked"
     ],
     "trigger": false,
     "trend_up": false,
-    "rsi": 48.0,
-    "url": "https://www.geckoterminal.com/base/pools/0xc85d5cb72d1aad6f152a8decad228ae4a59ac9b3"
+    "rsi": 26.8,
+    "url": "https://www.geckoterminal.com/bsc/pools/0xfff4857a955b2b460c27fd431aa5a85fabca5559"
+   },
+   {
+    "chain": "BSC",
+    "symbol": "ARK",
+    "name": "ARK",
+    "token": "0xcae117ca6bc8a341d2e7207f30e180f0e5618b9d",
+    "price": 6.41392418709391,
+    "liq": 58281473,
+    "vol24h": 4871959,
+    "age_d": 442.2,
+    "chg24h": 0.25,
+    "chg7d": -1.0,
+    "mcap": 0.0,
+    "safety": "ok",
+    "safety_notes": [],
+    "trigger": false,
+    "trend_up": false,
+    "rsi": 45.2,
+    "url": "https://www.geckoterminal.com/bsc/pools/0xcaaf3c41a40103a23eeaa4bba468af3cf5b0e0d8"
    }
   ],
   "onchain_checked": 85,
@@ -7547,6 +7545,28 @@
     ]
    },
    {
+    "id": "layer-1",
+    "name": "Layer 1",
+    "chg7d": -6.68,
+    "top": [
+     "BTC",
+     "ETH",
+     "BNB",
+     "XRP",
+     "SOL"
+    ],
+    "tracked": [
+     "BTC",
+     "ETH",
+     "SOL",
+     "XRP",
+     "SUI",
+     "BNB",
+     "AVAX",
+     "ZEC"
+    ]
+   },
+   {
     "id": "depin",
     "name": "DePIN",
     "chg7d": -6.81,
@@ -7566,28 +7586,6 @@
      "ATH",
      "LPT",
      "PHA"
-    ]
-   },
-   {
-    "id": "layer-1",
-    "name": "Layer 1",
-    "chg7d": -6.82,
-    "top": [
-     "BTC",
-     "ETH",
-     "BNB",
-     "XRP",
-     "SOL"
-    ],
-    "tracked": [
-     "BTC",
-     "ETH",
-     "SOL",
-     "XRP",
-     "SUI",
-     "BNB",
-     "AVAX",
-     "ZEC"
     ]
    },
    {
@@ -8044,8 +8042,8 @@
   ],
   "updated": {
    "unlocks": 1794398725,
-   "onchain": 1794411320,
-   "sectors": 1794414025,
+   "onchain": 1794414923,
+   "sectors": 1794414923,
    "listings": 1794414330,
    "fundamentals": 1794398725
   }
@@ -8084,6 +8082,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "0ce69ef365cfab7496c619baf4ed805d626ff5a99b843b17810f7c5f8ed56629",
- "generated": "2026-11-11T16:30:37+00:00"
+ "digest": "b9121e33f7b303247e73bf4faee6acded35a414a839cdb11bacc7be8bebbad4f",
+ "generated": "2026-11-11T16:36:30+00:00"
 }
