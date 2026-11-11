@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.12507,
-   "last_ts": "2026-11-11T19:20:23+00:00",
-   "move_pct": 3.3,
+   "last": 0.12536,
+   "last_ts": "2026-11-11T19:25:23+00:00",
+   "move_pct": 3.54,
    "closed": false,
    "rsi": 67.9,
    "trade_on": "Perps 1x",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.016221314805509,
-   "last_ts": "2026-11-11T19:20:23+00:00",
-   "move_pct": -0.61,
+   "last": 0.016139748226936097,
+   "last_ts": "2026-11-11T19:25:23+00:00",
+   "move_pct": -1.11,
    "closed": false,
    "rsi": 72.1,
    "trade_on": "On-chain spot (Base DEX)",
@@ -116,7 +116,7 @@
     0.030269579590888156
    ],
    "lev": 1,
-   "funding_pct": -0.0026,
+   "funding_pct": -0.0034,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-10T10:00:00+00:00",
@@ -124,9 +124,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0319,
-   "last_ts": "2026-11-11T19:20:23+00:00",
-   "move_pct": 3.51,
+   "last": 0.03182,
+   "last_ts": "2026-11-11T19:25:23+00:00",
+   "move_pct": 3.75,
    "closed": false,
    "rsi": 43.4,
    "trade_on": "Perps 1x",
@@ -161,7 +161,7 @@
     0.03518607703880438
    ],
    "lev": 1,
-   "funding_pct": 0.0013,
+   "funding_pct": 0.0005,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-10T14:00:00+00:00",
@@ -169,9 +169,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.03944,
-   "last_ts": "2026-11-11T19:20:23+00:00",
-   "move_pct": 1.79,
+   "last": 0.0395,
+   "last_ts": "2026-11-11T19:25:23+00:00",
+   "move_pct": 1.64,
    "closed": false,
    "rsi": 30.5,
    "trade_on": "Perps 1x",
@@ -213,9 +213,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002518,
-   "last_ts": "2026-11-11T19:20:23+00:00",
-   "move_pct": -0.87,
+   "last": 0.002526,
+   "last_ts": "2026-11-11T19:25:23+00:00",
+   "move_pct": -0.55,
    "closed": false,
    "rsi": 60.1,
    "trade_on": "Perps 1x",
@@ -258,9 +258,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1509,
-   "last_ts": "2026-11-11T19:20:23+00:00",
-   "move_pct": -1.11,
+   "last": 0.1505,
+   "last_ts": "2026-11-11T19:25:23+00:00",
+   "move_pct": -1.38,
    "closed": false,
    "rsi": 71.2,
    "trade_on": "Spot",
@@ -298,9 +298,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.07899,
-   "last_ts": "2026-11-11T19:20:23+00:00",
-   "move_pct": -1.92,
+   "last": 0.07924,
+   "last_ts": "2026-11-11T19:25:23+00:00",
+   "move_pct": -1.61,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -343,9 +343,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 98.31,
-   "last_ts": "2026-11-11T19:20:23+00:00",
-   "move_pct": -1.06,
+   "last": 98.27,
+   "last_ts": "2026-11-11T19:25:23+00:00",
+   "move_pct": -1.1,
    "closed": false,
    "rsi": 65.3,
    "trade_on": "Spot",
@@ -7693,27 +7693,6 @@
     ]
    },
    {
-    "id": "oracle",
-    "name": "Oracle",
-    "chg7d": -7.1,
-    "top": [
-     "LINK",
-     "PYTH",
-     "RED",
-     "WIN",
-     "TRB"
-    ],
-    "tracked": [
-     "LINK",
-     "PYTH",
-     "TRB",
-     "PHA",
-     "API3",
-     "WIN",
-     "ZKP"
-    ]
-   },
-   {
     "id": "artificial-intelligence",
     "name": "Artificial Intelligence",
     "chg7d": -7.12,
@@ -7733,6 +7712,27 @@
      "VVV",
      "GRASS",
      "RENDER"
+    ]
+   },
+   {
+    "id": "oracle",
+    "name": "Oracle",
+    "chg7d": -7.19,
+    "top": [
+     "LINK",
+     "PYTH",
+     "RED",
+     "WIN",
+     "TRB"
+    ],
+    "tracked": [
+     "LINK",
+     "PYTH",
+     "TRB",
+     "PHA",
+     "API3",
+     "WIN",
+     "ZKP"
     ]
    },
    {
@@ -8125,7 +8125,7 @@
   "updated": {
    "unlocks": 1794420538,
    "onchain": 1794422123,
-   "sectors": 1794424226,
+   "sectors": 1794425122,
    "listings": 1794422123,
    "fundamentals": 1794420538
   }
@@ -8164,6 +8164,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "27e109cc52f0b20260c262df0c6132d7462c810ef20af9d2ee31aef975cadc1e",
- "generated": "2026-11-11T19:20:29+00:00"
+ "digest": "816d7d8b7bd3a1f8a0fddef57b136be2604bfd1a45365f03842146b57fe9c479",
+ "generated": "2026-11-11T19:25:28+00:00"
 }
