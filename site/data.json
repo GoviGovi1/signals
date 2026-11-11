@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.101,
-   "last_ts": "2026-11-11T17:34:29+00:00",
-   "move_pct": 3.44,
+   "last": 0.1011,
+   "last_ts": "2026-11-11T17:39:18+00:00",
+   "move_pct": 3.35,
    "closed": false,
    "rsi": 42.5,
    "trade_on": "Perps 1x",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.12647,
-   "last_ts": "2026-11-11T17:34:29+00:00",
-   "move_pct": 4.46,
+   "last": 0.12575,
+   "last_ts": "2026-11-11T17:39:18+00:00",
+   "move_pct": 3.87,
    "closed": false,
    "rsi": 67.9,
    "trade_on": "Perps 1x",
@@ -123,9 +123,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.016371848909434997,
-   "last_ts": "2026-11-11T17:34:29+00:00",
-   "move_pct": 0.31,
+   "last": 0.0164076609066771,
+   "last_ts": "2026-11-11T17:39:18+00:00",
+   "move_pct": 0.53,
    "closed": false,
    "rsi": 72.1,
    "trade_on": "On-chain spot (Base DEX)",
@@ -160,7 +160,7 @@
     0.030269579590888156
    ],
    "lev": 1,
-   "funding_pct": -0.0023,
+   "funding_pct": -0.0015,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-10T10:00:00+00:00",
@@ -168,9 +168,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.03252,
-   "last_ts": "2026-11-11T17:34:29+00:00",
-   "move_pct": 1.63,
+   "last": 0.03247,
+   "last_ts": "2026-11-11T17:39:18+00:00",
+   "move_pct": 1.78,
    "closed": false,
    "rsi": 43.4,
    "trade_on": "Perps 1x",
@@ -213,9 +213,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04026,
-   "last_ts": "2026-11-11T17:34:29+00:00",
-   "move_pct": -0.25,
+   "last": 0.04017,
+   "last_ts": "2026-11-11T17:39:18+00:00",
+   "move_pct": -0.02,
    "closed": false,
    "rsi": 30.5,
    "trade_on": "Perps 1x",
@@ -257,9 +257,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002564,
-   "last_ts": "2026-11-11T17:34:29+00:00",
-   "move_pct": 0.94,
+   "last": 0.002553,
+   "last_ts": "2026-11-11T17:39:18+00:00",
+   "move_pct": 0.51,
    "closed": false,
    "rsi": 60.1,
    "trade_on": "Perps 1x",
@@ -302,15 +302,55 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1521,
-   "last_ts": "2026-11-11T17:34:29+00:00",
-   "move_pct": -0.33,
+   "last": 0.1526,
+   "last_ts": "2026-11-11T17:39:18+00:00",
+   "move_pct": 0.0,
    "closed": false,
    "rsi": 71.2,
    "trade_on": "Spot",
    "market_reason": "thin perp market: spot is safer",
    "chart": "charts/FET-SPOT-1794412800.png",
    "setup": "RANGE_BREAK"
+  },
+  {
+   "id": "KGEN-PERP-HOT-20768",
+   "kind": "HOT",
+   "score": 423.39,
+   "reasons": [
+    "24h hot mover +20% with volume spike (3.5x the prior 3 days)",
+    "24h volume $1.0M on the OKX perp book, listed 390 days",
+    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
+    "Stop 0.076074 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
+   ],
+   "coin": "KGEN",
+   "market": "PERP",
+   "side": "LONG",
+   "entry": 0.08054,
+   "sl0": 0.07607427010951999,
+   "sl": 0.07607427010951999,
+   "tps": [
+    0.08500572989048001,
+    0.08947145978096002,
+    0.09393718967144003
+   ],
+   "lev": 1,
+   "funding_pct": 0.005,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-11-11T17:39:18+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.08078,
+   "last_ts": "2026-11-11T17:39:18+00:00",
+   "move_pct": 0.3,
+   "closed": false,
+   "rsi": null,
+   "trade_on": "Perps 1x",
+   "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
+   "chart": "charts/KGEN-PERP-HOT-20768.png",
+   "setup": "HOT24"
   }
  ],
  "closed": [
@@ -4149,7 +4189,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 7
+  "open": 8
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7745,28 +7785,6 @@
     ]
    },
    {
-    "id": "ai-agents",
-    "name": "AI Agents",
-    "chg7d": -8.96,
-    "top": [
-     "VVV",
-     "VIRTUAL",
-     "FET",
-     "KITE",
-     "TRAC"
-    ],
-    "tracked": [
-     "VVV",
-     "FET",
-     "MAGIC",
-     "VIRTUAL",
-     "AEON",
-     "KITE",
-     "PHA",
-     "PIPPIN"
-    ]
-   },
-   {
     "id": "layer-2",
     "name": "Layer 2",
     "chg7d": -8.98,
@@ -7883,6 +7901,28 @@
     ],
     "tracked": [
      "ZEC"
+    ]
+   },
+   {
+    "id": "ai-agents",
+    "name": "AI Agents",
+    "chg7d": -9.84,
+    "top": [
+     "VVV",
+     "VIRTUAL",
+     "FET",
+     "KITE",
+     "TRAC"
+    ],
+    "tracked": [
+     "VVV",
+     "FET",
+     "MAGIC",
+     "VIRTUAL",
+     "AEON",
+     "KITE",
+     "PHA",
+     "PIPPIN"
     ]
    }
   ],
@@ -8055,7 +8095,7 @@
   "updated": {
    "unlocks": 1794398725,
    "onchain": 1794418409,
-   "sectors": 1794417624,
+   "sectors": 1794418758,
    "listings": 1794418409,
    "fundamentals": 1794398725
   }
@@ -8094,6 +8134,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "939bae185bd81975cc6c5472f3b7b79cec1fd85973dfb95ae6f61888083d9166",
- "generated": "2026-11-11T17:34:34+00:00"
+ "digest": "1e565d5f28a99e51b742dc03c46cf03104d277dc7cfec532c439c46b9abccb90",
+ "generated": "2026-11-11T17:39:27+00:00"
 }
