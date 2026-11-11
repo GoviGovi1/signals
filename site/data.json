@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.016366847564317298,
-   "last_ts": "2026-11-11T22:45:24+00:00",
-   "move_pct": 0.28,
+   "last": 0.0162813604327032,
+   "last_ts": "2026-11-11T22:50:25+00:00",
+   "move_pct": -0.24,
    "closed": false,
    "rsi": 72.1,
    "trade_on": "On-chain spot (Base DEX)",
@@ -71,7 +71,7 @@
     0.030269579590888156
    ],
    "lev": 1,
-   "funding_pct": -0.0167,
+   "funding_pct": -0.016,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-10T10:00:00+00:00",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.03127,
-   "last_ts": "2026-11-11T22:45:24+00:00",
-   "move_pct": 5.41,
+   "last": 0.03123,
+   "last_ts": "2026-11-11T22:50:25+00:00",
+   "move_pct": 5.54,
    "closed": false,
    "rsi": 43.4,
    "trade_on": "Perps 1x",
@@ -125,7 +125,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.03916,
-   "last_ts": "2026-11-11T22:45:24+00:00",
+   "last_ts": "2026-11-11T22:50:25+00:00",
    "move_pct": 2.49,
    "closed": false,
    "rsi": 30.5,
@@ -133,50 +133,6 @@
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": "charts/BASED-PERP-1794315600.png",
    "setup": "BREAKOUT20"
-  },
-  {
-   "id": "TRIA-PERP-1794373200",
-   "kind": "TA",
-   "score": 0,
-   "reasons": [
-    "Chart: Break of structure: closed above the last swing high 0.002533, after a higher low",
-    "Timeframes: 1d down, 4h down, 4h structure higher highs/lows",
-    "Next resistance 0.0027472 (2.8R away, 4h swing/swing)",
-    "Stop 0.0024655 (2 ATR); targets at the next 3 level(s)",
-    "BTC 4h trend down",
-    "Stronger than BTC by 6.1% over 7d",
-    "OI +0% 24h",
-    "Track record: +4.0R on TRIA in the last 45 days (backtest)"
-   ],
-   "coin": "TRIA",
-   "market": "PERP",
-   "side": "LONG",
-   "entry": 0.00254,
-   "sl0": 0.0024654809816542812,
-   "sl": 0.0024654809816542812,
-   "tps": [
-    0.0027415777402907374,
-    0.0028708110736240713,
-    0.0029374110736240713
-   ],
-   "lev": 1,
-   "funding_pct": 0.005,
-   "status": "open",
-   "hits": 0,
-   "opened": "2026-11-11T06:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.002475,
-   "last_ts": "2026-11-11T22:45:24+00:00",
-   "move_pct": -2.56,
-   "closed": false,
-   "rsi": 60.1,
-   "trade_on": "Perps 1x",
-   "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
-   "chart": "charts/TRIA-PERP-1794373200.png",
-   "setup": "BOS"
   },
   {
    "id": "KGEN-PERP-HOT-20768",
@@ -208,60 +164,15 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.08124,
-   "last_ts": "2026-11-11T22:45:24+00:00",
-   "move_pct": 0.87,
+   "last": 0.08145,
+   "last_ts": "2026-11-11T22:50:25+00:00",
+   "move_pct": 1.13,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
    "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
    "chart": "charts/KGEN-PERP-HOT-20768.png",
    "setup": "HOT24"
-  },
-  {
-   "id": "OKB-SPOT-1794416400",
-   "kind": "TA",
-   "score": 1,
-   "reasons": [
-    "Chart: Retest of the 98.540 breakout level held (4h after the break)",
-    "Timeframes: 1d down, 4h down, 4h structure lower highs/lows",
-    "Next resistance 104.71 (3.5R away, 4h swing/swing/volume node)",
-    "Stop 97.762 (below the breakout level); targets at the next 1 level(s)",
-    "BTC 4h trend down",
-    "Weaker than BTC by 3.1% over 7d",
-    "OI +7% 24h with breakout",
-    "Sector: Exchange Based Tokens -7.1% 7d (middle, #7 of 20)",
-    "Track record: +8.6R on OKB in the last 45 days (backtest)"
-   ],
-   "coin": "OKB",
-   "market": "SPOT",
-   "side": "LONG",
-   "entry": 99.36,
-   "sl0": 97.80095477969918,
-   "sl": 97.80095477969918,
-   "tps": [
-    104.55271683860956,
-    106.11176205891037,
-    107.67080727921119
-   ],
-   "lev": null,
-   "funding_pct": null,
-   "status": "open",
-   "hits": 0,
-   "opened": "2026-11-11T18:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 98.13,
-   "last_ts": "2026-11-11T22:45:24+00:00",
-   "move_pct": -1.24,
-   "closed": false,
-   "rsi": 65.3,
-   "trade_on": "Spot",
-   "market_reason": "funding +0.043%/8h is not cheap: spot avoids paying it",
-   "chart": "charts/OKB-SPOT-1794416400.png",
-   "setup": "RETEST"
   },
   {
    "id": "SENT-PERP-1794427200",
@@ -290,7 +201,7 @@
     0.014844708032995563
    ],
    "lev": 1,
-   "funding_pct": 0.001,
+   "funding_pct": 0.0021,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-11T21:00:00+00:00",
@@ -298,9 +209,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.01582,
-   "last_ts": "2026-11-11T22:45:24+00:00",
-   "move_pct": 1.31,
+   "last": 0.01583,
+   "last_ts": "2026-11-11T22:50:25+00:00",
+   "move_pct": 1.25,
    "closed": false,
    "rsi": 38.3,
    "trade_on": "Perps 1x",
@@ -335,7 +246,7 @@
     1.1963185169308073
    ],
    "lev": 1,
-   "funding_pct": -0.0003,
+   "funding_pct": 0.0008,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-11T22:00:00+00:00",
@@ -344,7 +255,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 1.252,
-   "last_ts": "2026-11-11T22:45:24+00:00",
+   "last_ts": "2026-11-11T22:50:25+00:00",
    "move_pct": 0.87,
    "closed": false,
    "rsi": 33.9,
@@ -355,6 +266,95 @@
   }
  ],
  "closed": [
+  {
+   "id": "TRIA-PERP-1794373200",
+   "kind": "TA",
+   "score": 0,
+   "reasons": [
+    "Chart: Break of structure: closed above the last swing high 0.002533, after a higher low",
+    "Timeframes: 1d down, 4h down, 4h structure higher highs/lows",
+    "Next resistance 0.0027472 (2.8R away, 4h swing/swing)",
+    "Stop 0.0024655 (2 ATR); targets at the next 3 level(s)",
+    "BTC 4h trend down",
+    "Stronger than BTC by 6.1% over 7d",
+    "OI +0% 24h",
+    "Track record: +4.0R on TRIA in the last 45 days (backtest)"
+   ],
+   "coin": "TRIA",
+   "market": "PERP",
+   "side": "LONG",
+   "entry": 0.00254,
+   "sl0": 0.0024654809816542812,
+   "sl": 0.0024654809816542812,
+   "tps": [
+    0.0027415777402907374,
+    0.0028708110736240713,
+    0.0029374110736240713
+   ],
+   "lev": 1,
+   "funding_pct": 0.005,
+   "status": "stopped",
+   "hits": 0,
+   "opened": "2026-11-11T06:00:00+00:00",
+   "closed_at": "2026-11-11T22:50:25+00:00",
+   "exit_price": 0.0024654809816542812,
+   "result_r": -1.0,
+   "result_pct": -2.93,
+   "last": 0.002474,
+   "last_ts": "2026-11-11T22:50:25+00:00",
+   "move_pct": -2.56,
+   "closed": true,
+   "rsi": 60.1,
+   "trade_on": "Perps 1x",
+   "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
+   "chart": "charts/TRIA-PERP-1794373200.png",
+   "setup": "BOS"
+  },
+  {
+   "id": "OKB-SPOT-1794416400",
+   "kind": "TA",
+   "score": 1,
+   "reasons": [
+    "Chart: Retest of the 98.540 breakout level held (4h after the break)",
+    "Timeframes: 1d down, 4h down, 4h structure lower highs/lows",
+    "Next resistance 104.71 (3.5R away, 4h swing/swing/volume node)",
+    "Stop 97.762 (below the breakout level); targets at the next 1 level(s)",
+    "BTC 4h trend down",
+    "Weaker than BTC by 3.1% over 7d",
+    "OI +7% 24h with breakout",
+    "Sector: Exchange Based Tokens -7.1% 7d (middle, #7 of 20)",
+    "Track record: +8.6R on OKB in the last 45 days (backtest)"
+   ],
+   "coin": "OKB",
+   "market": "SPOT",
+   "side": "LONG",
+   "entry": 99.36,
+   "sl0": 97.80095477969918,
+   "sl": 97.80095477969918,
+   "tps": [
+    104.55271683860956,
+    106.11176205891037,
+    107.67080727921119
+   ],
+   "lev": null,
+   "funding_pct": null,
+   "status": "stopped",
+   "hits": 0,
+   "opened": "2026-11-11T18:00:00+00:00",
+   "closed_at": "2026-11-11T22:50:25+00:00",
+   "exit_price": 97.80095477969918,
+   "result_r": -1.0,
+   "result_pct": -1.57,
+   "last": 97.98,
+   "last_ts": "2026-11-11T22:50:25+00:00",
+   "move_pct": -1.24,
+   "closed": true,
+   "rsi": 65.3,
+   "trade_on": "Spot",
+   "market_reason": "funding +0.043%/8h is not cheap: spot avoids paying it",
+   "chart": "charts/OKB-SPOT-1794416400.png",
+   "setup": "RETEST"
+  },
   {
    "id": "FET-SPOT-1794412800",
    "kind": "TA",
@@ -2052,7 +2052,7 @@
    "rsi": 35.6,
    "trade_on": "Perps 3x",
    "market_reason": "shorts need perps; 3x keeps liquidation 3x+ further away than the stop",
-   "chart": "charts/BCH-PERP-1793898000.png",
+   "chart": null,
    "setup": "BREAKOUT20"
   },
   {
@@ -2097,7 +2097,7 @@
    "rsi": 43.0,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": "charts/ATH-PERP-1793887200.png",
+   "chart": null,
    "setup": "BREAKOUT20"
   },
   {
@@ -2870,120 +2870,35 @@
    "market_reason": "thin perp market: spot is safer",
    "chart": null,
    "setup": "RETEST"
-  },
-  {
-   "id": "BCH-SPOT-1793865600",
-   "kind": "TA",
-   "score": 1,
-   "reasons": [
-    "Chart: Broke out of a 4-day range at 286.71 (range 265.01\u2013286.71) on 3.0x volume",
-    "Timeframes: 1d down, 4h down, 4h structure mixed",
-    "Next resistance 302.91 (3.1R away, 4h swing/swing)",
-    "Stop 284.67 (below the breakout level); targets at the next 2 level(s)",
-    "BTC 4h trend down",
-    "Stronger than BTC by 2.8% over 7d",
-    "OI +1% 24h",
-    "Sector: Layer 1 -0.2% 7d (leading, #3 of 20)",
-    "Track record: +8.6R on BCH in the last 45 days (backtest)"
-   ],
-   "coin": "BCH",
-   "market": "SPOT",
-   "side": "LONG",
-   "entry": 289.32,
-   "sl0": 284.8522943486815,
-   "sl": 284.8522943486815,
-   "tps": [
-    302.5934062484402,
-    312.79422289716933,
-    317.26192854848784
-   ],
-   "lev": null,
-   "funding_pct": null,
-   "status": "stopped",
-   "hits": 0,
-   "opened": "2026-11-05T09:00:00+00:00",
-   "closed_at": "2026-11-05T14:45:24+00:00",
-   "exit_price": 284.8522943486815,
-   "result_r": -1.0,
-   "result_pct": -1.54,
-   "last": 287.04,
-   "last_ts": "2026-11-05T14:45:24+00:00",
-   "move_pct": -1.48,
-   "closed": true,
-   "rsi": 67.8,
-   "trade_on": "Spot",
-   "market_reason": "trend not strong enough for leverage: spot has no liquidation or funding",
-   "chart": null,
-   "setup": "RANGE_BREAK"
-  },
-  {
-   "id": "PROMPT-SPOT-HOT-20762",
-   "kind": "HOT",
-   "score": 569.18,
-   "reasons": [
-    "24h hot mover +25% with volume spike (4.0x the prior 3 days)",
-    "24h volume $521k on the OKX spot book, listed 574 days",
-    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
-    "Stop 0.018871 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
-   ],
-   "coin": "PROMPT",
-   "market": "SPOT",
-   "side": "LONG",
-   "entry": 0.02023,
-   "sl0": 0.018871397583523606,
-   "sl": 0.018871397583523606,
-   "tps": [
-    0.021588602416476397,
-    0.022947204832952792,
-    0.024305807249429184
-   ],
-   "lev": null,
-   "funding_pct": null,
-   "status": "stopped",
-   "hits": 0,
-   "opened": "2026-11-05T13:20:24+00:00",
-   "closed_at": "2026-11-05T14:00:37+00:00",
-   "exit_price": 0.018871397583523606,
-   "result_r": -1.0,
-   "result_pct": -6.72,
-   "last": 0.01816,
-   "last_ts": "2026-11-05T14:00:37+00:00",
-   "move_pct": -11.37,
-   "closed": true,
-   "rsi": null,
-   "trade_on": "Spot",
-   "market_reason": "only spot is listed",
-   "chart": null,
-   "setup": "HOT24"
   }
  ],
  "stats": {
   "all": {
-   "trades": 188,
+   "trades": 190,
    "wins": 85,
-   "losses": 103,
-   "win_rate": 45.2,
-   "total_r": 14.13,
-   "avg_r": 0.075,
-   "total_pct": 0.81
+   "losses": 105,
+   "win_rate": 44.7,
+   "total_r": 12.13,
+   "avg_r": 0.064,
+   "total_pct": -3.69
   },
   "SPOT": {
-   "trades": 56,
+   "trades": 57,
    "wins": 21,
-   "losses": 35,
-   "win_rate": 37.5,
-   "total_r": -10.97,
-   "avg_r": -0.196,
-   "total_pct": -16.01
+   "losses": 36,
+   "win_rate": 36.8,
+   "total_r": -11.97,
+   "avg_r": -0.21,
+   "total_pct": -17.58
   },
   "PERP": {
-   "trades": 123,
+   "trades": 124,
    "wins": 60,
-   "losses": 63,
-   "win_rate": 48.8,
-   "total_r": 25.77,
-   "avg_r": 0.21,
-   "total_pct": 11.69
+   "losses": 64,
+   "win_rate": 48.4,
+   "total_r": 24.77,
+   "avg_r": 0.2,
+   "total_pct": 8.76
   },
   "DEX": {
    "trades": 9,
@@ -3014,13 +2929,13 @@
     "total_pct": 5.13
    },
    "TA": {
-    "trades": 133,
+    "trades": 135,
     "wins": 58,
-    "losses": 75,
-    "win_rate": 43.6,
-    "total_r": 18.55,
-    "avg_r": 0.139,
-    "total_pct": 28.29
+    "losses": 77,
+    "win_rate": 43.0,
+    "total_r": 16.55,
+    "avg_r": 0.123,
+    "total_pct": 23.79
    }
   },
   "coins": {
@@ -3790,13 +3705,13 @@
     "total_pct": 1.19
    },
    "OKB": {
-    "trades": 1,
+    "trades": 2,
     "wins": 1,
-    "losses": 0,
-    "win_rate": 100.0,
-    "total_r": 2.62,
-    "avg_r": 2.62,
-    "total_pct": 4.44
+    "losses": 1,
+    "win_rate": 50.0,
+    "total_r": 1.62,
+    "avg_r": 0.81,
+    "total_pct": 2.87
    },
    "OL": {
     "trades": 1,
@@ -4051,13 +3966,13 @@
     "total_pct": 2.03
    },
    "TRIA": {
-    "trades": 2,
+    "trades": 3,
     "wins": 1,
-    "losses": 1,
-    "win_rate": 50.0,
-    "total_r": 2.61,
-    "avg_r": 1.304,
-    "total_pct": 6.18
+    "losses": 2,
+    "win_rate": 33.3,
+    "total_r": 1.61,
+    "avg_r": 0.536,
+    "total_pct": 3.25
    },
    "TRUST": {
     "trades": 1,
@@ -4195,7 +4110,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 8
+  "open": 6
  },
  "backtest": {
   "from": "2026-07-24",
@@ -8187,6 +8102,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "7e368ce82a45b9271cf7f687ed2352e369f689adfd471d831ebdc7625584d41d",
- "generated": "2026-11-11T22:45:31+00:00"
+ "digest": "c219eeee914481b655d86914eb07c9cd55b5f2ec1830b4311220dd55df05adc9",
+ "generated": "2026-11-11T22:50:32+00:00"
 }
