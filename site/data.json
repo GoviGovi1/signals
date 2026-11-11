@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0983,
-   "last_ts": "2026-11-11T06:55:22+00:00",
-   "move_pct": 6.02,
+   "last": 0.0981,
+   "last_ts": "2026-11-11T07:00:30+00:00",
+   "move_pct": 6.21,
    "closed": false,
    "rsi": 42.5,
    "trade_on": "Perps 1x",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.12243,
-   "last_ts": "2026-11-11T06:55:22+00:00",
-   "move_pct": 1.12,
+   "last": 0.12238,
+   "last_ts": "2026-11-11T07:00:30+00:00",
+   "move_pct": 1.08,
    "closed": false,
    "rsi": 67.9,
    "trade_on": "Perps 1x",
@@ -123,9 +123,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0160622113269798,
-   "last_ts": "2026-11-11T06:55:22+00:00",
-   "move_pct": -1.59,
+   "last": 0.016181051944884,
+   "last_ts": "2026-11-11T07:00:30+00:00",
+   "move_pct": -0.86,
    "closed": false,
    "rsi": 72.1,
    "trade_on": "On-chain spot (Base DEX)",
@@ -160,7 +160,7 @@
     0.030269579590888156
    ],
    "lev": 1,
-   "funding_pct": -0.0041,
+   "funding_pct": -0.0049,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-10T10:00:00+00:00",
@@ -168,9 +168,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.03175,
-   "last_ts": "2026-11-11T06:55:22+00:00",
-   "move_pct": 3.96,
+   "last": 0.03173,
+   "last_ts": "2026-11-11T07:00:30+00:00",
+   "move_pct": 4.02,
    "closed": false,
    "rsi": 43.4,
    "trade_on": "Perps 1x",
@@ -205,7 +205,7 @@
     0.06481197026895691
    ],
    "lev": 3,
-   "funding_pct": 0.0041,
+   "funding_pct": 0.0047,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-10T11:00:00+00:00",
@@ -213,9 +213,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0677,
-   "last_ts": "2026-11-11T06:55:22+00:00",
-   "move_pct": 2.32,
+   "last": 0.06768,
+   "last_ts": "2026-11-11T07:00:30+00:00",
+   "move_pct": 2.35,
    "closed": false,
    "rsi": 41.3,
    "trade_on": "Perps 3x",
@@ -250,7 +250,7 @@
     0.03518607703880438
    ],
    "lev": 1,
-   "funding_pct": -0.0097,
+   "funding_pct": -0.0083,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-10T14:00:00+00:00",
@@ -258,9 +258,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04022,
-   "last_ts": "2026-11-11T06:55:22+00:00",
-   "move_pct": -0.15,
+   "last": 0.04003,
+   "last_ts": "2026-11-11T07:00:30+00:00",
+   "move_pct": 0.32,
    "closed": false,
    "rsi": 30.5,
    "trade_on": "Perps 1x",
@@ -302,14 +302,59 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002539,
-   "last_ts": "2026-11-11T06:55:22+00:00",
-   "move_pct": -0.04,
+   "last": 0.002524,
+   "last_ts": "2026-11-11T07:00:30+00:00",
+   "move_pct": -0.63,
    "closed": false,
    "rsi": 60.1,
    "trade_on": "Perps 1x",
    "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
    "chart": "charts/TRIA-PERP-1794373200.png",
+   "setup": "BOS"
+  },
+  {
+   "id": "BLUR-PERP-1794376800",
+   "kind": "TA",
+   "score": -1,
+   "reasons": [
+    "Chart: Break of structure: closed below the last swing low 0.006501, after a lower high",
+    "Timeframes: 1d down, 4h down, 4h structure lower highs/lows",
+    "No support below in the last 50 days",
+    "Stop 0.0066139 (structure); targets at 1R/2R/3R",
+    "BTC 4h trend down",
+    "Weaker than BTC by 9.8% over 7d",
+    "OI +0% 24h",
+    "funding -0.097%/8h: shorts crowded",
+    "Track record: +1.1R on BLUR in the last 45 days (backtest)"
+   ],
+   "coin": "BLUR",
+   "market": "PERP",
+   "side": "SHORT",
+   "entry": 0.006496,
+   "sl0": 0.0066138722874070684,
+   "sl": 0.0066138722874070684,
+   "tps": [
+    0.006378127712592932,
+    0.006260255425185863,
+    0.006142383137778795
+   ],
+   "lev": 1,
+   "funding_pct": -0.0483,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-11-11T07:00:00+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.00649,
+   "last_ts": "2026-11-11T07:00:30+00:00",
+   "move_pct": 0.09,
+   "closed": false,
+   "rsi": 35.9,
+   "trade_on": "Perps 1x",
+   "market_reason": "shorts need perps; thin perp market, so 1x",
+   "chart": "charts/BLUR-PERP-1794376800.png",
    "setup": "BOS"
   }
  ],
@@ -4126,7 +4171,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 7
+  "open": 8
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7890,19 +7935,19 @@
     "coin": "XBAC",
     "list_ts": 1794380400,
     "market": "SPOT",
-    "state": "preopen"
+    "state": "live"
    },
    {
     "coin": "XAMGN",
     "list_ts": 1794378600,
     "market": "SPOT",
-    "state": "preopen"
+    "state": "live"
    },
    {
     "coin": "XADI",
     "list_ts": 1794376800,
     "market": "SPOT",
-    "state": "preopen"
+    "state": "live"
    },
    {
     "coin": "XABBV",
@@ -8043,7 +8088,7 @@
    "unlocks": 1794377120,
    "onchain": 1794378922,
    "sectors": 1794379824,
-   "listings": 1794376525,
+   "listings": 1794380430,
    "fundamentals": 1794377121
   }
  },
@@ -8081,6 +8126,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "c4ceab0d795891eb2f4b8092e534b7360df88965ff12f4151e4a9d415ccb679f",
- "generated": "2026-11-11T06:55:27+00:00"
+ "digest": "c8d3eb287e1ee90e85376b1e4c5dd24642f423396dd70729a977eea6e9ca6a18",
+ "generated": "2026-11-11T07:01:10+00:00"
 }
