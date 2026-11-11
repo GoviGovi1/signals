@@ -19,9 +19,17 @@
   {
    "chain": "Solana",
    "fails": [
-    "liquidity under $250k"
+    "liquidity under $250k",
+    "pool younger than 7 days"
    ],
-   "symbol": "DACITYCOIN"
+   "symbol": "NIHAO"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "no DEX candles"
+   ],
+   "symbol": "CATE"
   },
   {
    "chain": "Solana",
@@ -35,23 +43,7 @@
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "CATE"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "liquidity under $250k",
-    "pool younger than 7 days"
-   ],
-   "symbol": "NIHAO"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "liquidity under $250k",
-    "pool younger than 7 days"
-   ],
-   "symbol": "AICOIN"
+   "symbol": "STONK"
   },
   {
    "chain": "Solana",
@@ -82,14 +74,22 @@
     "liquidity under $250k",
     "pool younger than 7 days"
    ],
-   "symbol": "FAIR"
+   "symbol": "AICOIN"
   },
   {
    "chain": "Solana",
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "STONK"
+   "symbol": "DACITY"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "liquidity under $250k",
+    "pool younger than 7 days"
+   ],
+   "symbol": "FAIR"
   },
   {
    "chain": "Solana",
@@ -101,18 +101,18 @@
   {
    "chain": "Solana",
    "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "ANSEM"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
     "mint authority on",
     "freeze authority on",
     "balances can be changed"
    ],
    "symbol": "TTWO"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "no DEX candles"
+   ],
+   "symbol": "ANSEM"
   },
   {
    "chain": "Solana",
@@ -139,17 +139,9 @@
   {
    "chain": "Solana",
    "fails": [
-    "liquidity under $250k",
-    "pool younger than 7 days"
-   ],
-   "symbol": "WEALTH"
-  },
-  {
-   "chain": "Base",
-   "fails": [
     "no DEX candles"
    ],
-   "symbol": "XDP"
+   "symbol": "ACT"
   },
   {
    "chain": "Base",
@@ -163,7 +155,7 @@
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "VVV"
+   "symbol": "XDP"
   },
   {
    "chain": "Base",
@@ -172,6 +164,20 @@
     "24h volume under $250k"
    ],
    "symbol": "OWB"
+  },
+  {
+   "chain": "Base",
+   "fails": [
+    "24h volume under $250k"
+   ],
+   "symbol": "TIBBIR"
+  },
+  {
+   "chain": "Base",
+   "fails": [
+    "24h volume under $250k"
+   ],
+   "symbol": "DRB"
   },
   {
    "chain": "Base",
@@ -187,20 +193,6 @@
     "24h volume under $250k"
    ],
    "symbol": "FLOWER"
-  },
-  {
-   "chain": "Base",
-   "fails": [
-    "24h volume under $250k"
-   ],
-   "symbol": "TIBBIR"
-  },
-  {
-   "chain": "Base",
-   "fails": [
-    "24h volume under $250k"
-   ],
-   "symbol": "DRB"
   },
   {
    "chain": "Base",
@@ -250,7 +242,7 @@
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "ELSA"
+   "symbol": "SNDKC"
   },
   {
    "chain": "Base",
@@ -262,16 +254,16 @@
   {
    "chain": "Base",
    "fails": [
-    "24h volume under $250k"
+    "no DEX candles"
    ],
-   "symbol": "POD"
+   "symbol": "ELSA"
   },
   {
    "chain": "Base",
    "fails": [
-    "no DEX candles"
+    "24h volume under $250k"
    ],
-   "symbol": "NFLXC"
+   "symbol": "POD"
   },
   {
    "chain": "BSC",
@@ -290,69 +282,76 @@
   {
    "chain": "BSC",
    "fails": [
+    "no DEX candles"
+   ],
+   "symbol": "ARK"
+  },
+  {
+   "chain": "BSC",
+   "fails": [
     "hidden owner"
    ],
    "symbol": "PIEVERSE"
   }
  ],
  "rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
- "updated": 1794386122,
+ "updated": 1794389724,
  "watchlist": [
   {
-   "age_d": 245.1,
-   "atr": 0.004971628565254016,
-   "bar_ts": 1794380400000,
-   "chain": "BSC",
-   "chg24h": -7.096,
-   "chg7d": 25.9,
-   "close": 0.13934813797008697,
-   "ema20": 0.12894304780810958,
-   "ema50": 0.12638414553494629,
+   "age_d": 26.8,
+   "atr": 0.0005641706345584985,
+   "bar_ts": 1794384000000,
+   "chain": "Solana",
+   "chg24h": 292.893,
+   "chg7d": 76.6,
+   "close": 0.00316830513153869,
+   "ema20": 0.002702020415675842,
+   "ema50": 0.002115817996133769,
    "fails": [],
-   "gecko_id": "unitas",
-   "liq": 815071,
-   "mcap": 29573186.2804513,
-   "name": "Unitas",
-   "net": "bsc",
-   "pool": "0x97ef267d87abd28dd5070d485efc7cdd960e1b3045a4e2dc0b2e9abbdc9b1837",
-   "price": 0.137766474387087,
-   "rsi": 63.5,
+   "gecko_id": "audacity",
+   "liq": 263529,
+   "mcap": 3512289.08217743,
+   "name": "AudaCity",
+   "net": "solana",
+   "pool": "7Te1wXcfeQjKLGHXFvxSCnGZTqunoZ9fxBn7KKjrkNEr",
+   "price": 0.0036197693135076366,
+   "rsi": 61.0,
    "safety": "ok",
    "safety_notes": [],
-   "symbol": "UP",
-   "token": "0x000008d2175f9aeaddb2430c26f8a6f73c5a0000",
+   "symbol": "DACITYCOIN",
+   "token": "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump",
    "trend_up": true,
    "trigger": false,
-   "url": "https://www.geckoterminal.com/bsc/pools/0x97ef267d87abd28dd5070d485efc7cdd960e1b3045a4e2dc0b2e9abbdc9b1837",
-   "vol24h": 5538989
+   "url": "https://www.geckoterminal.com/solana/pools/7Te1wXcfeQjKLGHXFvxSCnGZTqunoZ9fxBn7KKjrkNEr",
+   "vol24h": 4049485
   },
   {
-   "age_d": 30.9,
-   "atr": 0.0007251228331660856,
-   "bar_ts": 1794380400000,
-   "chain": "Solana",
-   "chg24h": -23.95,
-   "chg7d": -12.5,
-   "close": 0.006892789777350579,
-   "ema20": 0.007301544141089684,
-   "ema50": 0.007705097986510427,
+   "age_d": 20.3,
+   "atr": 0.3747790639914793,
+   "bar_ts": 1794384000000,
+   "chain": "Base",
+   "chg24h": -12.028,
+   "chg7d": -22.9,
+   "close": 18.926810512142698,
+   "ema20": 19.45383908204461,
+   "ema50": 20.01979847519644,
    "fails": [],
-   "gecko_id": "dacity-coin-2",
-   "liq": 420643,
-   "mcap": 6881987.29558534,
-   "name": "Dacity Coin",
-   "net": "solana",
-   "pool": "G2UuRbmVDzDFP4qyoBJrSKBXSi7d6V4bPP9tHPs36y4b",
-   "price": 0.007003210344781422,
-   "rsi": 43.8,
+   "gecko_id": "venice-token",
+   "liq": 2792533,
+   "mcap": 920744193.152825,
+   "name": "Venice Token",
+   "net": "base",
+   "pool": "0xdebaebe5b2729f7d62072b2ea40472d78d2c1626",
+   "price": 18.8162020809085,
+   "rsi": 38.2,
    "safety": "ok",
    "safety_notes": [],
-   "symbol": "DACITY",
-   "token": "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump",
+   "symbol": "VVV",
+   "token": "0xacfe6019ed1a7dc6f7b508c02d1b04ec88cc21bf",
    "trend_up": false,
    "trigger": false,
-   "url": "https://www.geckoterminal.com/solana/pools/G2UuRbmVDzDFP4qyoBJrSKBXSi7d6V4bPP9tHPs36y4b",
-   "vol24h": 3020854
+   "url": "https://www.geckoterminal.com/base/pools/0xdebaebe5b2729f7d62072b2ea40472d78d2c1626",
+   "vol24h": 6577780
   }
  ]
 }
