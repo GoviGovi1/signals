@@ -1,51 +1,6 @@
 {
  "open": [
   {
-   "id": "ACU-PERP-1794250800",
-   "kind": "TA",
-   "score": 1,
-   "reasons": [
-    "Chart: Broke the 20-hour high on 1.1x volume",
-    "Timeframes: 1d flat, 4h up, 4h structure lower highs/lows",
-    "Next resistance 0.12749 (2.1R away, 4h swing/swing/volume node)",
-    "Stop 0.11808 (2 ATR); targets at the next 3 level(s)",
-    "BTC 4h trend down",
-    "Stronger than BTC by 4.0% over 7d",
-    "OI +9% 24h with breakout",
-    "Sector: DePIN -4.1% 7d (middle, #7 of 20)",
-    "Track record: +1.2R on ACU in the last 45 days (backtest)"
-   ],
-   "coin": "ACU",
-   "market": "PERP",
-   "side": "LONG",
-   "entry": 0.12107,
-   "sl0": 0.1180801687083758,
-   "sl": 0.12107,
-   "tps": [
-    0.12726618075657645,
-    0.1305834097119517,
-    0.1334190959864615
-   ],
-   "lev": 1,
-   "funding_pct": 0.005,
-   "status": "tp2",
-   "hits": 2,
-   "opened": "2026-11-09T20:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.12539,
-   "last_ts": "2026-11-11T19:55:22+00:00",
-   "move_pct": 3.57,
-   "closed": false,
-   "rsi": 67.9,
-   "trade_on": "Perps 1x",
-   "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
-   "chart": "charts/ACU-PERP-1794250800.png",
-   "setup": "BREAKOUT20"
-  },
-  {
    "id": "XDP-DEX-base-0x07b3d902-1794290400",
    "kind": "ONCHAIN",
    "score": null,
@@ -79,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.016357413733323698,
-   "last_ts": "2026-11-11T19:55:22+00:00",
-   "move_pct": 0.22,
+   "last": 0.0163631287935994,
+   "last_ts": "2026-11-11T20:00:28+00:00",
+   "move_pct": 0.26,
    "closed": false,
    "rsi": 72.1,
    "trade_on": "On-chain spot (Base DEX)",
@@ -116,7 +71,7 @@
     0.030269579590888156
    ],
    "lev": 1,
-   "funding_pct": -0.0063,
+   "funding_pct": -0.0069,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-10T10:00:00+00:00",
@@ -124,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0319,
-   "last_ts": "2026-11-11T19:55:22+00:00",
-   "move_pct": 3.51,
+   "last": 0.03197,
+   "last_ts": "2026-11-11T20:00:28+00:00",
+   "move_pct": 3.3,
    "closed": false,
    "rsi": 43.4,
    "trade_on": "Perps 1x",
@@ -161,7 +116,7 @@
     0.03518607703880438
    ],
    "lev": 1,
-   "funding_pct": 0.0045,
+   "funding_pct": 0.005,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-10T14:00:00+00:00",
@@ -169,9 +124,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.03966,
-   "last_ts": "2026-11-11T19:55:22+00:00",
-   "move_pct": 1.25,
+   "last": 0.03985,
+   "last_ts": "2026-11-11T20:00:28+00:00",
+   "move_pct": 0.77,
    "closed": false,
    "rsi": 30.5,
    "trade_on": "Perps 1x",
@@ -213,9 +168,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002518,
-   "last_ts": "2026-11-11T19:55:22+00:00",
-   "move_pct": -0.87,
+   "last": 0.002522,
+   "last_ts": "2026-11-11T20:00:28+00:00",
+   "move_pct": -0.71,
    "closed": false,
    "rsi": 60.1,
    "trade_on": "Perps 1x",
@@ -258,9 +213,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1511,
-   "last_ts": "2026-11-11T19:55:22+00:00",
-   "move_pct": -0.98,
+   "last": 0.1512,
+   "last_ts": "2026-11-11T20:00:28+00:00",
+   "move_pct": -0.92,
    "closed": false,
    "rsi": 71.2,
    "trade_on": "Spot",
@@ -298,9 +253,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.08035,
-   "last_ts": "2026-11-11T19:55:22+00:00",
-   "move_pct": -0.24,
+   "last": 0.07964,
+   "last_ts": "2026-11-11T20:00:28+00:00",
+   "move_pct": -1.12,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -343,9 +298,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 98.29,
-   "last_ts": "2026-11-11T19:55:22+00:00",
-   "move_pct": -1.08,
+   "last": 98.45,
+   "last_ts": "2026-11-11T20:00:28+00:00",
+   "move_pct": -0.92,
    "closed": false,
    "rsi": 65.3,
    "trade_on": "Spot",
@@ -355,6 +310,51 @@
   }
  ],
  "closed": [
+  {
+   "id": "ACU-PERP-1794250800",
+   "kind": "TA",
+   "score": 1,
+   "reasons": [
+    "Chart: Broke the 20-hour high on 1.1x volume",
+    "Timeframes: 1d flat, 4h up, 4h structure lower highs/lows",
+    "Next resistance 0.12749 (2.1R away, 4h swing/swing/volume node)",
+    "Stop 0.11808 (2 ATR); targets at the next 3 level(s)",
+    "BTC 4h trend down",
+    "Stronger than BTC by 4.0% over 7d",
+    "OI +9% 24h with breakout",
+    "Sector: DePIN -4.1% 7d (middle, #7 of 20)",
+    "Track record: +1.2R on ACU in the last 45 days (backtest)"
+   ],
+   "coin": "ACU",
+   "market": "PERP",
+   "side": "LONG",
+   "entry": 0.12107,
+   "sl0": 0.1180801687083758,
+   "sl": 0.12107,
+   "tps": [
+    0.12726618075657645,
+    0.1305834097119517,
+    0.1334190959864615
+   ],
+   "lev": 1,
+   "funding_pct": 0.005,
+   "status": "expired",
+   "hits": 2,
+   "opened": "2026-11-09T20:00:00+00:00",
+   "closed_at": "2026-11-11T20:00:28+00:00",
+   "exit_price": 0.1256,
+   "result_r": 2.071,
+   "result_pct": 5.11,
+   "last": 0.1256,
+   "last_ts": "2026-11-11T20:00:28+00:00",
+   "move_pct": 3.57,
+   "closed": true,
+   "rsi": 67.9,
+   "trade_on": "Perps 1x",
+   "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
+   "chart": "charts/ACU-PERP-1794250800.png",
+   "setup": "BREAKOUT20"
+  },
   {
    "id": "DATA-PERP-1794243600",
    "kind": "TA",
@@ -2097,7 +2097,7 @@
    "rsi": 44.1,
    "trade_on": "Perps 3x",
    "market_reason": "shorts need perps; 3x keeps liquidation 3x+ further away than the stop",
-   "chart": "charts/OKB-PERP-1793880000.png",
+   "chart": null,
    "setup": "BREAKOUT20"
   },
   {
@@ -2905,61 +2905,17 @@
    "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
    "chart": null,
    "setup": "HOT24"
-  },
-  {
-   "id": "STONK-DEX-solana-6GmAFSYs4g-1793804400",
-   "kind": "ONCHAIN",
-   "score": null,
-   "reasons": [
-    "Trending on Solana (GeckoTerminal), $7.4M volume 24h",
-    "Liquidity $2.5M, pool 84 days old",
-    "Safety: GoPlus OK",
-    "Chart: 20-hour breakout above EMA50 on the DEX, RSI 73",
-    "Untested: no free history to backtest on-chain signals"
-   ],
-   "chain": "Solana",
-   "token": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
-   "url": "https://www.geckoterminal.com/solana/pools/zxTpi4BtaWX3mgdAPoezkMD1hxx8CdeCfrqXMWvSCLX",
-   "coin": "STONK",
-   "market": "DEX",
-   "side": "LONG",
-   "entry": 0.13462151215410081,
-   "sl0": 0.12658861451595632,
-   "sl": 0.12658861451595632,
-   "tps": [
-    0.1426544097922453,
-    0.1506873074303898,
-    0.1587202050685343
-   ],
-   "lev": null,
-   "funding_pct": null,
-   "status": "stopped",
-   "hits": 0,
-   "opened": "2026-11-04T16:00:00+00:00",
-   "closed_at": "2026-11-04T19:55:23+00:00",
-   "exit_price": 0.12658861451595632,
-   "result_r": -1.0,
-   "result_pct": -5.97,
-   "last": 0.12600798782093586,
-   "last_ts": "2026-11-04T19:55:23+00:00",
-   "move_pct": -5.64,
-   "closed": true,
-   "rsi": 72.8,
-   "trade_on": "On-chain spot (Solana DEX)",
-   "market_reason": "not listed on OKX; buy on a DEX, small size, no leverage",
-   "chart": null,
-   "setup": null
   }
  ],
  "stats": {
   "all": {
-   "trades": 186,
-   "wins": 84,
+   "trades": 187,
+   "wins": 85,
    "losses": 102,
-   "win_rate": 45.2,
-   "total_r": 13.06,
-   "avg_r": 0.07,
-   "total_pct": -2.49
+   "win_rate": 45.5,
+   "total_r": 15.13,
+   "avg_r": 0.081,
+   "total_pct": 2.62
   },
   "SPOT": {
    "trades": 55,
@@ -2971,13 +2927,13 @@
    "total_pct": -14.2
   },
   "PERP": {
-   "trades": 122,
-   "wins": 59,
+   "trades": 123,
+   "wins": 60,
    "losses": 63,
-   "win_rate": 48.4,
-   "total_r": 23.7,
-   "avg_r": 0.194,
-   "total_pct": 6.58
+   "win_rate": 48.8,
+   "total_r": 25.77,
+   "avg_r": 0.21,
+   "total_pct": 11.69
   },
   "DEX": {
    "trades": 9,
@@ -3008,13 +2964,13 @@
     "total_pct": 5.13
    },
    "TA": {
-    "trades": 131,
-    "wins": 57,
+    "trades": 132,
+    "wins": 58,
     "losses": 74,
-    "win_rate": 43.5,
-    "total_r": 17.48,
-    "avg_r": 0.133,
-    "total_pct": 24.99
+    "win_rate": 43.9,
+    "total_r": 19.55,
+    "avg_r": 0.148,
+    "total_pct": 30.1
    }
   },
   "coins": {
@@ -3064,13 +3020,13 @@
     "total_pct": 1.57
    },
    "ACU": {
-    "trades": 1,
-    "wins": 0,
+    "trades": 2,
+    "wins": 1,
     "losses": 1,
-    "win_rate": 0.0,
-    "total_r": -1.0,
-    "avg_r": -1.0,
-    "total_pct": -7.08
+    "win_rate": 50.0,
+    "total_r": 1.07,
+    "avg_r": 0.536,
+    "total_pct": -1.97
    },
    "ADA": {
     "trades": 2,
@@ -4189,7 +4145,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 8
+  "open": 7
  },
  "backtest": {
   "from": "2026-07-24",
@@ -8240,6 +8196,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "8552dc9491adaa84f5aae6a13fe773f4b8ace9e7a24f25d012449de9a6fa3a6f",
- "generated": "2026-11-11T19:55:27+00:00"
+ "digest": "8b44555365201c396dac7c6fae970e4216c6a0352eab8d1f8036b6c08e791808",
+ "generated": "2026-11-11T20:01:05+00:00"
 }
