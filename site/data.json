@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0985,
-   "last_ts": "2026-11-11T11:30:29+00:00",
-   "move_pct": 5.83,
+   "last": 0.0989,
+   "last_ts": "2026-11-11T11:36:22+00:00",
+   "move_pct": 5.45,
    "closed": false,
    "rsi": 42.5,
    "trade_on": "Perps 1x",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.12414,
-   "last_ts": "2026-11-11T11:30:29+00:00",
-   "move_pct": 2.54,
+   "last": 0.12431,
+   "last_ts": "2026-11-11T11:36:22+00:00",
+   "move_pct": 2.68,
    "closed": false,
    "rsi": 67.9,
    "trade_on": "Perps 1x",
@@ -123,9 +123,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0161621226406979,
-   "last_ts": "2026-11-11T11:30:29+00:00",
-   "move_pct": -0.97,
+   "last": 0.016137560983416198,
+   "last_ts": "2026-11-11T11:36:22+00:00",
+   "move_pct": -1.12,
    "closed": false,
    "rsi": 72.1,
    "trade_on": "On-chain spot (Base DEX)",
@@ -160,7 +160,7 @@
     0.030269579590888156
    ],
    "lev": 1,
-   "funding_pct": -0.0044,
+   "funding_pct": -0.0036,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-10T10:00:00+00:00",
@@ -168,9 +168,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.03266,
-   "last_ts": "2026-11-11T11:30:29+00:00",
-   "move_pct": 1.21,
+   "last": 0.03275,
+   "last_ts": "2026-11-11T11:36:22+00:00",
+   "move_pct": 0.94,
    "closed": false,
    "rsi": 43.4,
    "trade_on": "Perps 1x",
@@ -205,7 +205,7 @@
     0.06481197026895691
    ],
    "lev": 3,
-   "funding_pct": 0.0015,
+   "funding_pct": 0.0012,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-10T11:00:00+00:00",
@@ -213,9 +213,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.06806,
-   "last_ts": "2026-11-11T11:30:29+00:00",
-   "move_pct": 1.8,
+   "last": 0.06807,
+   "last_ts": "2026-11-11T11:36:22+00:00",
+   "move_pct": 1.79,
    "closed": false,
    "rsi": 41.3,
    "trade_on": "Perps 3x",
@@ -258,9 +258,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04049,
-   "last_ts": "2026-11-11T11:30:29+00:00",
-   "move_pct": -0.82,
+   "last": 0.04047,
+   "last_ts": "2026-11-11T11:36:22+00:00",
+   "move_pct": -0.77,
    "closed": false,
    "rsi": 30.5,
    "trade_on": "Perps 1x",
@@ -302,9 +302,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.00249,
-   "last_ts": "2026-11-11T11:30:29+00:00",
-   "move_pct": -1.97,
+   "last": 0.002485,
+   "last_ts": "2026-11-11T11:36:22+00:00",
+   "move_pct": -2.17,
    "closed": false,
    "rsi": 60.1,
    "trade_on": "Perps 1x",
@@ -7414,44 +7414,44 @@
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
   "onchain": [
    {
-    "chain": "Ethereum",
-    "symbol": "PEPE",
-    "name": "Pepe",
-    "token": "0x6982508145454ce325ddbe47a25d4ec3d2311933",
-    "price": 5.05890416639253e-06,
-    "liq": 30547964,
-    "vol24h": 5477564,
-    "age_d": 1306.7,
-    "chg24h": -5.282,
-    "chg7d": -0.4,
-    "mcap": 2115166067.57574,
+    "chain": "BSC",
+    "symbol": "AKE",
+    "name": "AKE",
+    "token": "0x2c3a8ee94ddd97244a93bc48298f97d2c412f7db",
+    "price": 0.00247669496746506,
+    "liq": 729571,
+    "vol24h": 4635305,
+    "age_d": 448.2,
+    "chg24h": -0.072,
+    "chg7d": -13.7,
+    "mcap": 56459357.6414737,
+    "safety": "ok",
+    "safety_notes": [],
+    "trigger": false,
+    "trend_up": false,
+    "rsi": 35.5,
+    "url": "https://www.geckoterminal.com/bsc/pools/0x4d3bf29ba30f8bfe4624e7678709afa195689c5d"
+   },
+   {
+    "chain": "Solana",
+    "symbol": "STONK",
+    "name": "STONK",
+    "token": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
+    "price": 0.050234693770310056,
+    "liq": 2256104,
+    "vol24h": 2381549,
+    "age_d": 91.0,
+    "chg24h": 2.029,
+    "chg7d": -59.9,
+    "mcap": 39013227.6428321,
     "safety": "unknown",
     "safety_notes": [
      "safety not checked"
     ],
     "trigger": false,
     "trend_up": false,
-    "rsi": 36.7,
-    "url": "https://www.geckoterminal.com/eth/pools/0xa43fe16908251ee70ef74718545e4fe6c5ccec9f"
-   },
-   {
-    "chain": "BSC",
-    "symbol": "UAI",
-    "name": "UnifAI",
-    "token": "0x3e5d4f8aee0d9b3082d5f6da5d6e225d17ba9ea0",
-    "price": 0.0378357820914859,
-    "liq": 310095,
-    "vol24h": 3274562,
-    "age_d": 372.1,
-    "chg24h": -5.78,
-    "chg7d": -58.4,
-    "mcap": 9042446.62091,
-    "safety": "ok",
-    "safety_notes": [],
-    "trigger": false,
-    "trend_up": false,
-    "rsi": 37.7,
-    "url": "https://www.geckoterminal.com/bsc/pools/0x57004a34731b96d9e86b706cd629f24456ca2c7bdfcc5aae2417496d65090eb7"
+    "rsi": 47.1,
+    "url": "https://www.geckoterminal.com/solana/pools/zxTpi4BtaWX3mgdAPoezkMD1hxx8CdeCfrqXMWvSCLX"
    }
   ],
   "onchain_checked": 86,
@@ -7476,28 +7476,6 @@
      "CARDS",
      "ALGO",
      "ZBCN"
-    ]
-   },
-   {
-    "id": "layer-1",
-    "name": "Layer 1",
-    "chg7d": -4.5,
-    "top": [
-     "BTC",
-     "ETH",
-     "BNB",
-     "XRP",
-     "SOL"
-    ],
-    "tracked": [
-     "BTC",
-     "ETH",
-     "SOL",
-     "XRP",
-     "AVAX",
-     "SUI",
-     "BNB",
-     "ZEC"
     ]
    },
    {
@@ -7585,6 +7563,28 @@
      "GRASS",
      "AR",
      "ICP"
+    ]
+   },
+   {
+    "id": "layer-1",
+    "name": "Layer 1",
+    "chg7d": -6.82,
+    "top": [
+     "BTC",
+     "ETH",
+     "BNB",
+     "XRP",
+     "SOL"
+    ],
+    "tracked": [
+     "BTC",
+     "ETH",
+     "SOL",
+     "XRP",
+     "AVAX",
+     "SUI",
+     "BNB",
+     "ZEC"
     ]
    },
    {
@@ -8037,8 +8037,8 @@
   ],
   "updated": {
    "unlocks": 1794377120,
-   "onchain": 1794393321,
-   "sectors": 1794396021,
+   "onchain": 1794396919,
+   "sectors": 1794396919,
    "listings": 1794395725,
    "fundamentals": 1794377121
   }
@@ -8077,6 +8077,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "7b772370c5affaeddc26acabf7657a4e9214c124ca8dfb8fd140e760592405bb",
- "generated": "2026-11-11T11:30:34+00:00"
+ "digest": "037e91dc40d1f8ea35b01ffad4fa84accd43ad87bae5ea2b50ffc52b44f4dbc6",
+ "generated": "2026-11-11T11:36:27+00:00"
 }
