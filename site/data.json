@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.003224,
-   "last_ts": "2026-11-12T17:55:30+00:00",
-   "move_pct": 0.09,
+   "last": 0.003215,
+   "last_ts": "2026-11-12T18:01:48+00:00",
+   "move_pct": 0.37,
    "closed": false,
    "rsi": 33.9,
    "trade_on": "Perps 1x",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.004301,
-   "last_ts": "2026-11-12T17:55:30+00:00",
-   "move_pct": 3.59,
+   "last": 0.004293,
+   "last_ts": "2026-11-12T18:01:48+00:00",
+   "move_pct": 3.77,
    "closed": false,
    "rsi": 29.2,
    "trade_on": "Perps 1x",
@@ -116,7 +116,7 @@
     0.17762323492937077
    ],
    "lev": 1,
-   "funding_pct": 0.0024,
+   "funding_pct": 0.0012,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-12T00:00:00+00:00",
@@ -124,9 +124,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.153,
-   "last_ts": "2026-11-12T17:55:30+00:00",
-   "move_pct": 1.66,
+   "last": 0.1521,
+   "last_ts": "2026-11-12T18:01:48+00:00",
+   "move_pct": 1.06,
    "closed": false,
    "rsi": 51.5,
    "trade_on": "Perps 1x",
@@ -161,7 +161,7 @@
     5.9822574901354
    ],
    "lev": 2,
-   "funding_pct": -0.0506,
+   "funding_pct": -0.0502,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-12T00:00:00+00:00",
@@ -169,9 +169,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 7.355,
-   "last_ts": "2026-11-12T17:55:30+00:00",
-   "move_pct": 2.21,
+   "last": 7.338,
+   "last_ts": "2026-11-12T18:01:48+00:00",
+   "move_pct": 2.43,
    "closed": false,
    "rsi": 28.8,
    "trade_on": "Perps 2x",
@@ -207,7 +207,7 @@
     0.05567406146881575
    ],
    "lev": 1,
-   "funding_pct": 0.0008,
+   "funding_pct": 0.0015,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-12T00:00:00+00:00",
@@ -215,9 +215,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.06466,
-   "last_ts": "2026-11-12T17:55:30+00:00",
-   "move_pct": -0.94,
+   "last": 0.06478,
+   "last_ts": "2026-11-12T18:01:48+00:00",
+   "move_pct": -1.12,
    "closed": false,
    "rsi": 34.4,
    "trade_on": "Perps 1x",
@@ -253,7 +253,7 @@
     0.22693203019089464
    ],
    "lev": 1,
-   "funding_pct": 0.0088,
+   "funding_pct": 0.0086,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-11-12T02:00:00+00:00",
@@ -261,9 +261,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2363,
-   "last_ts": "2026-11-12T17:55:30+00:00",
-   "move_pct": 1.29,
+   "last": 0.236,
+   "last_ts": "2026-11-12T18:01:48+00:00",
+   "move_pct": 1.42,
    "closed": false,
    "rsi": 35.8,
    "trade_on": "Perps 1x",
@@ -7478,66 +7478,64 @@
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
   "onchain": [
    {
+    "chain": "Base",
+    "symbol": "XDP",
+    "name": "Doppler Finance",
+    "token": "0x07b3d902783c3c12b077508c3b5c00113d1291d0",
+    "price": 0.0168750407295377,
+    "liq": 1655743,
+    "vol24h": 9342543,
+    "age_d": 45.2,
+    "chg24h": 3.74,
+    "chg7d": 1.8,
+    "mcap": 16875040.73,
+    "safety": "ok",
+    "safety_notes": [],
+    "trigger": false,
+    "trend_up": true,
+    "rsi": 60.6,
+    "url": "https://www.geckoterminal.com/base/pools/0x2df380544b88adb3ad0a94100dcc45fd705aae2d"
+   },
+   {
     "chain": "BSC",
-    "symbol": "JCT",
-    "name": "JANCTION",
-    "token": "0xea37a8de1de2d9d10772eeb569e28bfa5cb17707",
-    "price": 0.00239106266905122,
-    "liq": 630535,
-    "vol24h": 15503678,
-    "age_d": 162.1,
-    "chg24h": -56.358,
-    "chg7d": -22.0,
-    "mcap": 27482127.1104019,
+    "symbol": "ARIA",
+    "name": "ARIA.AI",
+    "token": "0x5d3a12c42e5372b2cc3264ab3cdcf660a1555238",
+    "price": 0.170363349532473,
+    "liq": 1886540,
+    "vol24h": 48178215,
+    "age_d": 450.4,
+    "chg24h": -34.05,
+    "chg7d": 14.8,
+    "mcap": 31176492.9585,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 22.7,
-    "url": "https://www.geckoterminal.com/bsc/pools/0x7bb2f6dab157e444ad8717b0178035c1b1cf24958b37c2a205e61a3582283249"
+    "rsi": 40.2,
+    "url": "https://www.geckoterminal.com/bsc/pools/0xa5dbeaf16fc031eae92175974f8d0a439be4ad17"
    },
    {
     "chain": "Base",
-    "symbol": "NVDAC",
-    "name": "NVIDIA Corporation",
-    "token": "0xb20000000000000000000078ee7ce2fe4908108c",
-    "price": 165.410365012603,
-    "liq": 1296274,
-    "vol24h": 9589810,
+    "symbol": "SPCXC",
+    "name": "Space Exploration Technologies Corp.",
+    "token": "0xb2000000000000000000007b9fcbd005511acbd5",
+    "price": 143.479495739798,
+    "liq": 1018258,
+    "vol24h": 14175323,
     "age_d": 21.6,
-    "chg24h": -5.996,
-    "chg7d": -11.3,
-    "mcap": 7302285.27157523,
+    "chg24h": 1.172,
+    "chg7d": 15.6,
+    "mcap": 3598546.20392246,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 50.1,
-    "url": "https://www.geckoterminal.com/base/pools/0xf668e21993f0acd7ab00bb1cfbaed0df28a3c8ec"
-   },
-   {
-    "chain": "BSC",
-    "symbol": "ARK",
-    "name": "ARK",
-    "token": "0xcae117ca6bc8a341d2e7207f30e180f0e5618b9d",
-    "price": 6.4177787270923,
-    "liq": 58383791,
-    "vol24h": 5087827,
-    "age_d": 443.2,
-    "chg24h": -0.24,
-    "chg7d": -0.7,
-    "mcap": 0.0,
-    "safety": "unknown",
-    "safety_notes": [
-     "safety not checked"
-    ],
-    "trigger": false,
-    "trend_up": false,
-    "rsi": 48.2,
-    "url": "https://www.geckoterminal.com/bsc/pools/0xcaaf3c41a40103a23eeaa4bba468af3cf5b0e0d8"
+    "rsi": 58.0,
+    "url": "https://www.geckoterminal.com/base/pools/0x880db7dda4407d99508574e680d067d1164b3cfe"
    }
   ],
-  "onchain_checked": 83,
+  "onchain_checked": 85,
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
@@ -7560,6 +7558,23 @@
      "RSR",
      "CARDS",
      "ZBCN"
+    ]
+   },
+   {
+    "id": "bitcoin-ecosystem",
+    "name": "Bitcoin Ecosystem",
+    "chg7d": -5.01,
+    "top": [
+     "BTC",
+     "DOG",
+     "ORDI",
+     "USTBL",
+     "LOBO"
+    ],
+    "tracked": [
+     "BTC",
+     "ORDI",
+     "SATS"
     ]
    },
    {
@@ -7684,23 +7699,6 @@
      "GALA",
      "AXS",
      "NOT"
-    ]
-   },
-   {
-    "id": "bitcoin-ecosystem",
-    "name": "Bitcoin Ecosystem",
-    "chg7d": -9.17,
-    "top": [
-     "BTC",
-     "DOG",
-     "ORDI",
-     "USTBL",
-     "LOBO"
-    ],
-    "tracked": [
-     "BTC",
-     "ORDI",
-     "SATS"
     ]
    },
    {
@@ -8122,8 +8120,8 @@
   ],
   "updated": {
    "unlocks": 1794485726,
-   "onchain": 1794502835,
-   "sectors": 1794505529,
+   "onchain": 1794506439,
+   "sectors": 1794506439,
    "listings": 1794506130,
    "fundamentals": 1794485726
   }
@@ -8162,6 +8160,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "d3ea0226c55209bda54e180bff10145796ca3fe24c7f2a3bd5b56f41714cabbd",
- "generated": "2026-11-12T17:55:33+00:00"
+ "digest": "e739e9cb8d6b63948f38f368e9145e37be3875f6a054922c4b3844eb980bce20",
+ "generated": "2026-11-12T18:02:16+00:00"
 }
