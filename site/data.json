@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.003239,
-   "last_ts": "2026-11-12T21:25:20+00:00",
-   "move_pct": -0.37,
+   "last": 0.003247,
+   "last_ts": "2026-11-12T21:30:30+00:00",
+   "move_pct": -0.62,
    "closed": false,
    "rsi": 33.9,
    "trade_on": "Perps 1x",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.004311,
-   "last_ts": "2026-11-12T21:25:20+00:00",
-   "move_pct": 3.36,
+   "last": 0.004322,
+   "last_ts": "2026-11-12T21:30:30+00:00",
+   "move_pct": 3.12,
    "closed": false,
    "rsi": 29.2,
    "trade_on": "Perps 1x",
@@ -116,7 +116,7 @@
     0.17762323492937077
    ],
    "lev": 1,
-   "funding_pct": -0.0021,
+   "funding_pct": -0.0015,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-12T00:00:00+00:00",
@@ -124,9 +124,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1532,
-   "last_ts": "2026-11-12T21:25:20+00:00",
-   "move_pct": 1.79,
+   "last": 0.1536,
+   "last_ts": "2026-11-12T21:30:30+00:00",
+   "move_pct": 2.06,
    "closed": false,
    "rsi": 51.5,
    "trade_on": "Perps 1x",
@@ -161,7 +161,7 @@
     5.9822574901354
    ],
    "lev": 2,
-   "funding_pct": -0.0539,
+   "funding_pct": -0.0542,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-12T00:00:00+00:00",
@@ -169,9 +169,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 7.449,
-   "last_ts": "2026-11-12T21:25:20+00:00",
-   "move_pct": 0.96,
+   "last": 7.494,
+   "last_ts": "2026-11-12T21:30:30+00:00",
+   "move_pct": 0.36,
    "closed": false,
    "rsi": 28.8,
    "trade_on": "Perps 2x",
@@ -7847,6 +7847,28 @@
     ]
    },
    {
+    "id": "depin",
+    "name": "DePIN",
+    "chg7d": -7.25,
+    "top": [
+     "TAO",
+     "RENDER",
+     "FIL",
+     "BDX",
+     "GRASS"
+    ],
+    "tracked": [
+     "FIL",
+     "TAO",
+     "GRASS",
+     "AR",
+     "RENDER",
+     "ATH",
+     "LPT",
+     "IOTA"
+    ]
+   },
+   {
     "id": "storage",
     "name": "Storage",
     "chg7d": -8.05,
@@ -7898,28 +7920,6 @@
     ],
     "tracked": [
      "ZEC"
-    ]
-   },
-   {
-    "id": "depin",
-    "name": "DePIN",
-    "chg7d": -9.88,
-    "top": [
-     "TAO",
-     "RENDER",
-     "FIL",
-     "BDX",
-     "GRASS"
-    ],
-    "tracked": [
-     "FIL",
-     "TAO",
-     "GRASS",
-     "AR",
-     "RENDER",
-     "ATH",
-     "LPT",
-     "IOTA"
     ]
    },
    {
@@ -8107,7 +8107,7 @@
   "updated": {
    "unlocks": 1794507622,
    "onchain": 1794517229,
-   "sectors": 1794518122,
+   "sectors": 1794519030,
    "listings": 1794517522,
    "fundamentals": 1794507623
   }
@@ -8146,6 +8146,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "73f94788959453318619ffa340cd140e404fb9d94432eccb808ec84a0ace279e",
- "generated": "2026-11-12T21:25:23+00:00"
+ "digest": "4539b4eefc2b869deaa31a6dbd64e270fd118c0c15d6bb1a5236b6f34c2ead1b",
+ "generated": "2026-11-12T21:30:34+00:00"
 }
