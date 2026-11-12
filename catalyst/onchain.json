@@ -69,16 +69,16 @@
   {
    "chain": "Solana",
    "fails": [
-    "no DEX candles"
+    "liquidity under $250k"
    ],
-   "symbol": "GATO"
+   "symbol": ":3"
   },
   {
    "chain": "Solana",
    "fails": [
-    "liquidity under $250k"
+    "no DEX candles"
    ],
-   "symbol": ":3"
+   "symbol": "GATO"
   },
   {
    "chain": "Solana",
@@ -106,17 +106,17 @@
   {
    "chain": "Solana",
    "fails": [
-    "liquidity under $250k",
-    "pool younger than 7 days"
+    "no DEX candles"
    ],
-   "symbol": "PAYDAY"
+   "symbol": "CLAUDIA"
   },
   {
    "chain": "Solana",
    "fails": [
-    "no DEX candles"
+    "liquidity under $250k",
+    "pool younger than 7 days"
    ],
-   "symbol": "CLAUDIA"
+   "symbol": "PAYDAY"
   },
   {
    "chain": "Solana",
@@ -208,6 +208,13 @@
   {
    "chain": "Base",
    "fails": [
+    "no DEX candles"
+   ],
+   "symbol": "GOOGLC"
+  },
+  {
+   "chain": "Base",
+   "fails": [
     "liquidity under $250k",
     "24h volume under $250k"
    ],
@@ -231,9 +238,10 @@
   {
    "chain": "Base",
    "fails": [
-    "no DEX candles"
+    "liquidity under $250k",
+    "24h volume under $250k"
    ],
-   "symbol": "GOOGLC"
+   "symbol": "RSGP"
   },
   {
    "chain": "Base",
@@ -241,14 +249,6 @@
     "24h volume under $250k"
    ],
    "symbol": "SURPLUS"
-  },
-  {
-   "chain": "Base",
-   "fails": [
-    "liquidity under $250k",
-    "24h volume under $250k"
-   ],
-   "symbol": "RSGP"
   },
   {
    "chain": "Base",
@@ -282,8 +282,7 @@
   {
    "chain": "BSC",
    "fails": [
-    "liquidity under $250k",
-    "24h volume under $250k"
+    "liquidity under $250k"
    ],
    "symbol": "SI"
   },
@@ -296,27 +295,27 @@
   }
  ],
  "rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
- "updated": 1794466829,
+ "updated": 1794470430,
  "watchlist": [
   {
    "age_d": 438.0,
-   "atr": 0.0012197757294754382,
-   "bar_ts": 1794463200000,
+   "atr": 0.0012515649662453163,
+   "bar_ts": 1794466800000,
    "chain": "BSC",
-   "chg24h": 14.13,
-   "chg7d": -1.9,
-   "close": 0.0274977714454001,
-   "ema20": 0.02706482797226375,
-   "ema50": 0.026411297800147844,
+   "chg24h": 13.784,
+   "chg7d": -1.1,
+   "close": 0.0273286128368007,
+   "ema20": 0.027089950339963694,
+   "ema50": 0.026447368054646373,
    "fails": [],
    "gecko_id": "quack-ai",
-   "liq": 1069944,
-   "mcap": 135209292.759231,
+   "liq": 1073892,
+   "mcap": 134871041.572974,
    "name": "Quack AI Token",
    "net": "bsc",
    "pool": "0x8bafe0bdd3eb9ae0539f5b32e771c1a72a189b7f",
-   "price": 0.0274977714454001,
-   "rsi": 55.5,
+   "price": 0.0273491399467211,
+   "rsi": 54.0,
    "safety": "ok",
    "safety_notes": [],
    "symbol": "Q",
@@ -324,27 +323,27 @@
    "trend_up": true,
    "trigger": false,
    "url": "https://www.geckoterminal.com/bsc/pools/0x8bafe0bdd3eb9ae0539f5b32e771c1a72a189b7f",
-   "vol24h": 8079305
+   "vol24h": 8422712
   },
   {
    "age_d": 21.2,
-   "atr": 3.5435725570926473,
-   "bar_ts": 1794463200000,
+   "atr": 3.4092677567789402,
+   "bar_ts": 1794466800000,
    "chain": "Base",
-   "chg24h": -6.422,
-   "chg7d": -18.4,
-   "close": 161.42940326374,
-   "ema20": 166.34267590766424,
-   "ema50": 170.9710819604286,
+   "chg24h": -6.175,
+   "chg7d": -18.3,
+   "close": 162.105894051455,
+   "ema20": 165.93917287615017,
+   "ema50": 170.6235802823329,
    "fails": [],
    "gecko_id": "nvidia-coinbase-tokenized-stock",
-   "liq": 1524531,
-   "mcap": 7077511.16739281,
+   "liq": 1487901,
+   "mcap": 7107006.94730247,
    "name": "NVIDIA Corporation",
    "net": "base",
    "pool": "0xf668e21993f0acd7ab00bb1cfbaed0df28a3c8ec",
-   "price": 161.429847929098,
-   "rsi": 34.1,
+   "price": 162.102612570905,
+   "rsi": 36.3,
    "safety": "ok",
    "safety_notes": [],
    "symbol": "NVDAC",
@@ -352,27 +351,27 @@
    "trend_up": false,
    "trigger": false,
    "url": "https://www.geckoterminal.com/base/pools/0xf668e21993f0acd7ab00bb1cfbaed0df28a3c8ec",
-   "vol24h": 10776606
+   "vol24h": 10561260
   },
   {
    "age_d": 102.7,
-   "atr": 1.9277654897922665,
-   "bar_ts": 1794463200000,
+   "atr": 1.86553679606406,
+   "bar_ts": 1794466800000,
    "chain": "BSC",
-   "chg24h": -4.452,
-   "chg7d": 3.7,
-   "close": 138.11491459257098,
-   "ema20": 140.33829730953005,
-   "ema50": 141.09513838946526,
+   "chg24h": -4.233,
+   "chg7d": 4.1,
+   "close": 138.380341020233,
+   "ema20": 140.151825278128,
+   "ema50": 140.9884911437944,
    "fails": [],
    "gecko_id": "spacex-bstocks-tokenized-stock",
-   "liq": 1922723,
-   "mcap": 213830174.036607,
+   "liq": 1930397,
+   "mcap": 214553128.394348,
    "name": "SpaceX",
    "net": "bsc",
    "pool": "0x66faad27cf481f82d0089ec8156b3aa3636010c7",
-   "price": 138.658472439654,
-   "rsi": 37.4,
+   "price": 139.093105036409,
+   "rsi": 38.9,
    "safety": "ok",
    "safety_notes": [],
    "symbol": "SPCXB",
@@ -380,7 +379,7 @@
    "trend_up": false,
    "trigger": false,
    "url": "https://www.geckoterminal.com/bsc/pools/0x66faad27cf481f82d0089ec8156b3aa3636010c7",
-   "vol24h": 3258661
+   "vol24h": 3216001
   }
  ]
 }
