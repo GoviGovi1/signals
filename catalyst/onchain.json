@@ -1,5 +1,5 @@
 {
- "checked": 86,
+ "checked": 85,
  "errors": [],
  "rejected": [
   {
@@ -43,13 +43,6 @@
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "CATE"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "no DEX candles"
-   ],
    "symbol": "STONK"
   },
   {
@@ -58,6 +51,13 @@
     "liquidity under $250k"
    ],
    "symbol": "BURNIE"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "no DEX candles"
+   ],
+   "symbol": "CATE"
   },
   {
    "chain": "Solana",
@@ -86,7 +86,30 @@
    "fails": [
     "no DEX candles"
    ],
+   "symbol": "PUMP"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "no DEX candles"
+   ],
    "symbol": "GATO"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "liquidity under $250k",
+    "pool younger than 7 days"
+   ],
+   "symbol": "UPDOG"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "liquidity under $250k",
+    "pool younger than 7 days"
+   ],
+   "symbol": "FLC"
   },
   {
    "chain": "Solana",
@@ -106,21 +129,6 @@
   {
    "chain": "Solana",
    "fails": [
-    "liquidity under $250k",
-    "pool younger than 7 days"
-   ],
-   "symbol": "UPDOG"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "PUMP"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
     "liquidity under $250k"
    ],
    "symbol": "PAWS"
@@ -132,14 +140,6 @@
     "pool younger than 7 days"
    ],
    "symbol": "HUNG"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "liquidity under $250k",
-    "pool younger than 7 days"
-   ],
-   "symbol": "FLC"
   },
   {
    "chain": "Solana",
@@ -227,10 +227,9 @@
   {
    "chain": "Base",
    "fails": [
-    "liquidity under $250k",
-    "24h volume under $250k"
+    "no DEX candles"
    ],
-   "symbol": "RSGP"
+   "symbol": "TSLAC"
   },
   {
    "chain": "Base",
@@ -244,14 +243,15 @@
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "TSLAC"
+   "symbol": "VVV"
   },
   {
    "chain": "Base",
    "fails": [
-    "no DEX candles"
+    "liquidity under $250k",
+    "24h volume under $250k"
    ],
-   "symbol": "VVV"
+   "symbol": "RSGP"
   },
   {
    "chain": "Base",
@@ -265,7 +265,7 @@
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "MSTRC"
+   "symbol": "METAC"
   },
   {
    "chain": "BSC",
@@ -298,27 +298,27 @@
   }
  ],
  "rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
- "updated": 1794488433,
+ "updated": 1794492032,
  "watchlist": [
   {
    "age_d": 45.0,
-   "atr": 0.00028307064776524185,
-   "bar_ts": 1794484800000,
+   "atr": 0.00028894762574831017,
+   "bar_ts": 1794488400000,
    "chain": "Base",
-   "chg24h": 3.677,
-   "chg7d": -3.9,
-   "close": 0.016806829280265598,
-   "ema20": 0.016535586285353048,
-   "ema50": 0.016340391157120413,
+   "chg24h": 1.163,
+   "chg7d": -4.4,
+   "close": 0.016541812415850697,
+   "ema20": 0.016536179250162347,
+   "ema50": 0.016348290030011797,
    "fails": [],
    "gecko_id": "doppler-finance",
-   "liq": 1646004,
-   "mcap": 16798550.3,
+   "liq": 1629159,
+   "mcap": 16539004.53,
    "name": "Doppler Finance",
    "net": "base",
    "pool": "0x2df380544b88adb3ad0a94100dcc45fd705aae2d",
-   "price": 0.0167628823253383,
-   "rsi": 60.1,
+   "price": 0.0165339527297717,
+   "rsi": 51.6,
    "safety": "ok",
    "safety_notes": [],
    "symbol": "XDP",
@@ -326,27 +326,55 @@
    "trend_up": true,
    "trigger": false,
    "url": "https://www.geckoterminal.com/base/pools/0x2df380544b88adb3ad0a94100dcc45fd705aae2d",
-   "vol24h": 9473447
+   "vol24h": 9651123
   },
   {
-   "age_d": 21.4,
-   "atr": 2.370245966619739,
-   "bar_ts": 1794484800000,
+   "age_d": 17.5,
+   "atr": 0.0037826327111229715,
+   "bar_ts": 1794488400000,
+   "chain": "Arbitrum",
+   "chg24h": 0.066,
+   "chg7d": 0.0,
+   "close": 1.0000598956795501,
+   "ema20": 1.0001233203797484,
+   "ema50": 0.9999276929743129,
+   "fails": [],
+   "gecko_id": "global-dollar",
+   "liq": 1359001,
+   "mcap": 2700308596.06481,
+   "name": "Global Dollar",
+   "net": "arbitrum",
+   "pool": "0x09328be718d89228a985471bb470988a34d0b162",
+   "price": 1.00005989567955,
+   "rsi": 50.0,
+   "safety": "ok",
+   "safety_notes": [],
+   "symbol": "USDG",
+   "token": "0x004b506865409877c9fa29bfb1eba929984b9bbc",
+   "trend_up": true,
+   "trigger": false,
+   "url": "https://www.geckoterminal.com/arbitrum/pools/0x09328be718d89228a985471bb470988a34d0b162",
+   "vol24h": 6061374
+  },
+  {
+   "age_d": 21.5,
+   "atr": 2.3878096707311163,
+   "bar_ts": 1794488400000,
    "chain": "Base",
-   "chg24h": -4.761,
-   "chg7d": 4.1,
-   "close": 137.997148817974,
-   "ema20": 139.85367746728997,
-   "ema50": 140.69503187334226,
+   "chg24h": -3.932,
+   "chg7d": 4.8,
+   "close": 137.743701539048,
+   "ema20": 139.65272737888597,
+   "ema50": 140.57929342886015,
    "fails": [],
    "gecko_id": "spacex-coinbase-tokenized-stock",
-   "liq": 929024,
-   "mcap": 3443971.07243061,
+   "liq": 914246,
+   "mcap": 3437645.83234603,
    "name": "Space Exploration Technologies Corp.",
    "net": "base",
    "pool": "0x880db7dda4407d99508574e680d067d1164b3cfe",
-   "price": 137.947139647968,
-   "rsi": 41.2,
+   "price": 137.743701539048,
+   "rsi": 40.5,
    "safety": "ok",
    "safety_notes": [],
    "symbol": "SPCXC",
@@ -354,35 +382,7 @@
    "trend_up": false,
    "trigger": false,
    "url": "https://www.geckoterminal.com/base/pools/0x880db7dda4407d99508574e680d067d1164b3cfe",
-   "vol24h": 13310367
-  },
-  {
-   "age_d": 17.4,
-   "atr": 0.002783441446439673,
-   "bar_ts": 1794484800000,
-   "chain": "Arbitrum",
-   "chg24h": -0.268,
-   "chg7d": -0.2,
-   "close": 0.9990816925202299,
-   "ema20": 0.9998892391515903,
-   "ema50": 0.9998353678836662,
-   "fails": [],
-   "gecko_id": "global-dollar",
-   "liq": 1074551,
-   "mcap": 2697661948.82594,
-   "name": "Global Dollar",
-   "net": "arbitrum",
-   "pool": "0x81659867a8ce20bb57be82fd9184f2ff1f887605",
-   "price": 1.00031750503518,
-   "rsi": 47.4,
-   "safety": "ok",
-   "safety_notes": [],
-   "symbol": "USDG",
-   "token": "0x004b506865409877c9fa29bfb1eba929984b9bbc",
-   "trend_up": false,
-   "trigger": false,
-   "url": "https://www.geckoterminal.com/arbitrum/pools/0x81659867a8ce20bb57be82fd9184f2ff1f887605",
-   "vol24h": 5425093
+   "vol24h": 13613161
   }
  ]
 }
