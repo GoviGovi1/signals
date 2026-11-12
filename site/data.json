@@ -27,7 +27,7 @@
     0.0028474776986802002
    ],
    "lev": 1,
-   "funding_pct": 0.0048,
+   "funding_pct": 0.0017,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-11T23:00:00+00:00",
@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.00321,
-   "last_ts": "2026-11-12T18:10:23+00:00",
-   "move_pct": 0.53,
+   "last": 0.003204,
+   "last_ts": "2026-11-12T18:15:23+00:00",
+   "move_pct": 0.71,
    "closed": false,
    "rsi": 33.9,
    "trade_on": "Perps 1x",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.004305,
-   "last_ts": "2026-11-12T18:10:23+00:00",
-   "move_pct": 3.5,
+   "last": 0.004298,
+   "last_ts": "2026-11-12T18:15:23+00:00",
+   "move_pct": 3.65,
    "closed": false,
    "rsi": 29.2,
    "trade_on": "Perps 1x",
@@ -116,7 +116,7 @@
     0.17762323492937077
    ],
    "lev": 1,
-   "funding_pct": 0.0017,
+   "funding_pct": 0.0013,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-12T00:00:00+00:00",
@@ -124,9 +124,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1526,
-   "last_ts": "2026-11-12T18:10:23+00:00",
-   "move_pct": 1.4,
+   "last": 0.1522,
+   "last_ts": "2026-11-12T18:15:23+00:00",
+   "move_pct": 1.13,
    "closed": false,
    "rsi": 51.5,
    "trade_on": "Perps 1x",
@@ -161,7 +161,7 @@
     5.9822574901354
    ],
    "lev": 2,
-   "funding_pct": -0.0517,
+   "funding_pct": -0.0518,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-12T00:00:00+00:00",
@@ -169,9 +169,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 7.337,
-   "last_ts": "2026-11-12T18:10:23+00:00",
-   "move_pct": 2.45,
+   "last": 7.334,
+   "last_ts": "2026-11-12T18:15:23+00:00",
+   "move_pct": 2.49,
    "closed": false,
    "rsi": 28.8,
    "trade_on": "Perps 2x",
@@ -207,7 +207,7 @@
     0.05567406146881575
    ],
    "lev": 1,
-   "funding_pct": 0.0032,
+   "funding_pct": 0.0036,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-12T00:00:00+00:00",
@@ -215,9 +215,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.06483,
-   "last_ts": "2026-11-12T18:10:23+00:00",
-   "move_pct": -1.2,
+   "last": 0.06497,
+   "last_ts": "2026-11-12T18:15:23+00:00",
+   "move_pct": -1.42,
    "closed": false,
    "rsi": 34.4,
    "trade_on": "Perps 1x",
@@ -253,7 +253,7 @@
     0.22693203019089464
    ],
    "lev": 1,
-   "funding_pct": 0.0082,
+   "funding_pct": 0.0085,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-11-12T02:00:00+00:00",
@@ -261,9 +261,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2362,
-   "last_ts": "2026-11-12T18:10:23+00:00",
-   "move_pct": 1.34,
+   "last": 0.2363,
+   "last_ts": "2026-11-12T18:15:23+00:00",
+   "move_pct": 1.29,
    "closed": false,
    "rsi": 35.8,
    "trade_on": "Perps 1x",
@@ -7600,6 +7600,28 @@
     ]
    },
    {
+    "id": "layer-1",
+    "name": "Layer 1",
+    "chg7d": -5.41,
+    "top": [
+     "BTC",
+     "ETH",
+     "BNB",
+     "XRP",
+     "SOL"
+    ],
+    "tracked": [
+     "BTC",
+     "ETH",
+     "SOL",
+     "XRP",
+     "SUI",
+     "BNB",
+     "AVAX",
+     "ZEC"
+    ]
+   },
+   {
     "id": "lending-borrowing",
     "name": "Lending Borrowing",
     "chg7d": -5.78,
@@ -7787,28 +7809,6 @@
      "MAGIC",
      "STX",
      "POL"
-    ]
-   },
-   {
-    "id": "layer-1",
-    "name": "Layer 1",
-    "chg7d": -10.67,
-    "top": [
-     "BTC",
-     "ETH",
-     "BNB",
-     "XRP",
-     "SOL"
-    ],
-    "tracked": [
-     "BTC",
-     "ETH",
-     "SOL",
-     "XRP",
-     "SUI",
-     "BNB",
-     "AVAX",
-     "ZEC"
     ]
    },
    {
@@ -8121,7 +8121,7 @@
   "updated": {
    "unlocks": 1794485726,
    "onchain": 1794506439,
-   "sectors": 1794506439,
+   "sectors": 1794507323,
    "listings": 1794506130,
    "fundamentals": 1794485726
   }
@@ -8160,6 +8160,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "0a2926a33758fcc04ffb2e382b759645709447028e5c4e2d1c9a0e15fb322e89",
- "generated": "2026-11-12T18:10:27+00:00"
+ "digest": "c4e70fde09587886acc5344cf55b90d06ab8ed2eab1bf13ee87c3e0f5b97bdf3",
+ "generated": "2026-11-12T18:15:31+00:00"
 }
