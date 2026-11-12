@@ -27,7 +27,7 @@
     0.0028474776986802002
    ],
    "lev": 1,
-   "funding_pct": -0.0037,
+   "funding_pct": -0.0029,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-11T23:00:00+00:00",
@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.003199,
-   "last_ts": "2026-11-12T18:25:21+00:00",
-   "move_pct": 0.87,
+   "last": 0.003203,
+   "last_ts": "2026-11-12T18:30:29+00:00",
+   "move_pct": 0.74,
    "closed": false,
    "rsi": 33.9,
    "trade_on": "Perps 1x",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.004294,
-   "last_ts": "2026-11-12T18:25:21+00:00",
-   "move_pct": 3.74,
+   "last": 0.00425,
+   "last_ts": "2026-11-12T18:30:29+00:00",
+   "move_pct": 4.73,
    "closed": false,
    "rsi": 29.2,
    "trade_on": "Perps 1x",
@@ -116,7 +116,7 @@
     0.17762323492937077
    ],
    "lev": 1,
-   "funding_pct": -0.0007,
+   "funding_pct": 0.0002,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-12T00:00:00+00:00",
@@ -124,9 +124,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.152,
-   "last_ts": "2026-11-12T18:25:21+00:00",
-   "move_pct": 1.0,
+   "last": 0.1526,
+   "last_ts": "2026-11-12T18:30:29+00:00",
+   "move_pct": 1.4,
    "closed": false,
    "rsi": 51.5,
    "trade_on": "Perps 1x",
@@ -161,7 +161,7 @@
     5.9822574901354
    ],
    "lev": 2,
-   "funding_pct": -0.052,
+   "funding_pct": -0.0527,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-12T00:00:00+00:00",
@@ -169,9 +169,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 7.35,
-   "last_ts": "2026-11-12T18:25:21+00:00",
-   "move_pct": 2.27,
+   "last": 7.373,
+   "last_ts": "2026-11-12T18:30:29+00:00",
+   "move_pct": 1.97,
    "closed": false,
    "rsi": 28.8,
    "trade_on": "Perps 2x",
@@ -207,7 +207,7 @@
     0.05567406146881575
    ],
    "lev": 1,
-   "funding_pct": 0.0047,
+   "funding_pct": 0.005,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-12T00:00:00+00:00",
@@ -215,9 +215,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0651,
-   "last_ts": "2026-11-12T18:25:21+00:00",
-   "move_pct": -1.62,
+   "last": 0.0655,
+   "last_ts": "2026-11-12T18:30:29+00:00",
+   "move_pct": -2.25,
    "closed": false,
    "rsi": 34.4,
    "trade_on": "Perps 1x",
@@ -253,7 +253,7 @@
     0.22693203019089464
    ],
    "lev": 1,
-   "funding_pct": 0.0086,
+   "funding_pct": 0.0091,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-11-12T02:00:00+00:00",
@@ -261,9 +261,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2364,
-   "last_ts": "2026-11-12T18:25:21+00:00",
-   "move_pct": 1.25,
+   "last": 0.2373,
+   "last_ts": "2026-11-12T18:30:29+00:00",
+   "move_pct": 0.88,
    "closed": false,
    "rsi": 35.8,
    "trade_on": "Perps 1x",
@@ -7623,6 +7623,28 @@
     ]
    },
    {
+    "id": "layer-2",
+    "name": "Layer 2",
+    "chg7d": -5.41,
+    "top": [
+     "OKB",
+     "MNT",
+     "ARB",
+     "POL",
+     "STX"
+    ],
+    "tracked": [
+     "OKB",
+     "ARB",
+     "STRK",
+     "OP",
+     "MEGA",
+     "MAGIC",
+     "STX",
+     "POL"
+    ]
+   },
+   {
     "id": "lending-borrowing",
     "name": "Lending Borrowing",
     "chg7d": -5.78,
@@ -7788,28 +7810,6 @@
      "ATH",
      "LPT",
      "IOTA"
-    ]
-   },
-   {
-    "id": "layer-2",
-    "name": "Layer 2",
-    "chg7d": -10.37,
-    "top": [
-     "OKB",
-     "MNT",
-     "ARB",
-     "POL",
-     "STX"
-    ],
-    "tracked": [
-     "OKB",
-     "ARB",
-     "STRK",
-     "OP",
-     "MEGA",
-     "MAGIC",
-     "STX",
-     "POL"
     ]
    },
    {
@@ -8122,7 +8122,7 @@
   "updated": {
    "unlocks": 1794507622,
    "onchain": 1794506439,
-   "sectors": 1794507323,
+   "sectors": 1794508229,
    "listings": 1794506130,
    "fundamentals": 1794507623
   }
@@ -8161,6 +8161,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "2c148d879562529b2deac1f09fc35c3f6acfed20652e16de4061a0fd271795d8",
- "generated": "2026-11-12T18:25:24+00:00"
+ "digest": "e15615a663fc3f0f6265384e5f9f2dd8509ece541b6ad3a6427713515ca9d383",
+ "generated": "2026-11-12T18:30:33+00:00"
 }
