@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.003246,
-   "last_ts": "2026-11-12T22:10:24+00:00",
-   "move_pct": -0.59,
+   "last": 0.003242,
+   "last_ts": "2026-11-12T22:15:26+00:00",
+   "move_pct": -0.46,
    "closed": false,
    "rsi": 33.9,
    "trade_on": "Perps 1x",
@@ -72,7 +72,7 @@
     0.17762323492937077
    ],
    "lev": 1,
-   "funding_pct": 0.0001,
+   "funding_pct": 0.0008,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-12T00:00:00+00:00",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1536,
-   "last_ts": "2026-11-12T22:10:24+00:00",
-   "move_pct": 2.06,
+   "last": 0.1541,
+   "last_ts": "2026-11-12T22:15:26+00:00",
+   "move_pct": 2.39,
    "closed": false,
    "rsi": 51.5,
    "trade_on": "Perps 1x",
@@ -117,7 +117,7 @@
     5.9822574901354
    ],
    "lev": 2,
-   "funding_pct": -0.0541,
+   "funding_pct": -0.0542,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-12T00:00:00+00:00",
@@ -125,9 +125,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 7.463,
-   "last_ts": "2026-11-12T22:10:24+00:00",
-   "move_pct": 0.77,
+   "last": 7.44,
+   "last_ts": "2026-11-12T22:15:26+00:00",
+   "move_pct": 1.08,
    "closed": false,
    "rsi": 28.8,
    "trade_on": "Perps 2x",
@@ -7621,27 +7621,6 @@
     ]
    },
    {
-    "id": "lending-borrowing",
-    "name": "Lending Borrowing",
-    "chg7d": -5.78,
-    "top": [
-     "AAVE",
-     "MORPHO",
-     "QFI",
-     "OHM",
-     "COMP"
-    ],
-    "tracked": [
-     "AAVE",
-     "CAP",
-     "CT",
-     "MORPHO",
-     "KMNO",
-     "COMP",
-     "SPK"
-    ]
-   },
-   {
     "id": "decentralized-perpetuals",
     "name": "Decentralized Perpetuals",
     "chg7d": -6.19,
@@ -7747,6 +7726,27 @@
      "ZKP",
      "API3",
      "WIN"
+    ]
+   },
+   {
+    "id": "lending-borrowing",
+    "name": "Lending Borrowing",
+    "chg7d": -7.17,
+    "top": [
+     "QFI",
+     "AAVE",
+     "MORPHO",
+     "OHM",
+     "COMP"
+    ],
+    "tracked": [
+     "AAVE",
+     "CAP",
+     "CT",
+     "MORPHO",
+     "KMNO",
+     "COMP",
+     "SPK"
     ]
    },
    {
@@ -8010,7 +8010,7 @@
   "updated": {
    "unlocks": 1794507622,
    "onchain": 1794520834,
-   "sectors": 1794520834,
+   "sectors": 1794521726,
    "listings": 1794521424,
    "fundamentals": 1794507623
   }
@@ -8049,6 +8049,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "aa77c5df6fb1cbca6c37c295da3e22e5d460bbbbd9babf52b8e09dedab16bd41",
- "generated": "2026-11-12T22:10:27+00:00"
+ "digest": "9a5f4ea18ad69a645b9ad107d6f2cd3cf3c8c7059a80c111b91e185f3949aa51",
+ "generated": "2026-11-12T22:15:29+00:00"
 }
