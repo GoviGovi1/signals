@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.003226,
-   "last_ts": "2026-11-12T16:25:29+00:00",
-   "move_pct": 0.03,
+   "last": 0.003222,
+   "last_ts": "2026-11-12T16:30:29+00:00",
+   "move_pct": 0.15,
    "closed": false,
    "rsi": 33.9,
    "trade_on": "Perps 1x",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.00437,
-   "last_ts": "2026-11-12T16:25:29+00:00",
-   "move_pct": 2.04,
+   "last": 0.004373,
+   "last_ts": "2026-11-12T16:30:29+00:00",
+   "move_pct": 1.97,
    "closed": false,
    "rsi": 29.2,
    "trade_on": "Perps 1x",
@@ -124,9 +124,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1509,
-   "last_ts": "2026-11-12T16:25:29+00:00",
-   "move_pct": 0.27,
+   "last": 0.1505,
+   "last_ts": "2026-11-12T16:30:29+00:00",
+   "move_pct": 0.0,
    "closed": false,
    "rsi": 51.5,
    "trade_on": "Perps 1x",
@@ -161,7 +161,7 @@
     5.9822574901354
    ],
    "lev": 2,
-   "funding_pct": -0.044,
+   "funding_pct": -0.0446,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-12T00:00:00+00:00",
@@ -169,9 +169,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 7.527,
-   "last_ts": "2026-11-12T16:25:29+00:00",
-   "move_pct": -0.08,
+   "last": 7.493,
+   "last_ts": "2026-11-12T16:30:29+00:00",
+   "move_pct": 0.37,
    "closed": false,
    "rsi": 28.8,
    "trade_on": "Perps 2x",
@@ -207,7 +207,7 @@
     0.05567406146881575
    ],
    "lev": 1,
-   "funding_pct": 0.001,
+   "funding_pct": 0.0007,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-12T00:00:00+00:00",
@@ -215,9 +215,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.06479,
-   "last_ts": "2026-11-12T16:25:29+00:00",
-   "move_pct": -1.14,
+   "last": 0.06466,
+   "last_ts": "2026-11-12T16:30:29+00:00",
+   "move_pct": -0.94,
    "closed": false,
    "rsi": 34.4,
    "trade_on": "Perps 1x",
@@ -253,7 +253,7 @@
     0.22693203019089464
    ],
    "lev": 1,
-   "funding_pct": 0.0092,
+   "funding_pct": 0.0096,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-11-12T02:00:00+00:00",
@@ -261,9 +261,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2376,
-   "last_ts": "2026-11-12T16:25:29+00:00",
-   "move_pct": 0.75,
+   "last": 0.2373,
+   "last_ts": "2026-11-12T16:30:29+00:00",
+   "move_pct": 0.88,
    "closed": false,
    "rsi": 35.8,
    "trade_on": "Perps 1x",
@@ -7669,28 +7669,6 @@
     ]
    },
    {
-    "id": "depin",
-    "name": "DePIN",
-    "chg7d": -9.74,
-    "top": [
-     "TAO",
-     "RENDER",
-     "FIL",
-     "BDX",
-     "BTT"
-    ],
-    "tracked": [
-     "FIL",
-     "TAO",
-     "GRASS",
-     "AR",
-     "RENDER",
-     "ATH",
-     "LPT",
-     "IOTA"
-    ]
-   },
-   {
     "id": "exchange-based-tokens",
     "name": "Exchange Based Tokens",
     "chg7d": -9.75,
@@ -7732,6 +7710,28 @@
      "GRASS",
      "VVV",
      "ALLO"
+    ]
+   },
+   {
+    "id": "depin",
+    "name": "DePIN",
+    "chg7d": -9.88,
+    "top": [
+     "TAO",
+     "RENDER",
+     "FIL",
+     "BDX",
+     "GRASS"
+    ],
+    "tracked": [
+     "FIL",
+     "TAO",
+     "GRASS",
+     "AR",
+     "RENDER",
+     "ATH",
+     "LPT",
+     "IOTA"
     ]
    },
    {
@@ -8127,7 +8127,7 @@
   "updated": {
    "unlocks": 1794485726,
    "onchain": 1794499234,
-   "sectors": 1794500126,
+   "sectors": 1794501029,
    "listings": 1794498623,
    "fundamentals": 1794485726
   }
@@ -8166,6 +8166,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "5f8c1848941190843cb18abaecc53002a9143ef4c6bf38102f19b3050cb83dec",
- "generated": "2026-11-12T16:25:32+00:00"
+ "digest": "7aba7f15ffd16a60966bb8a9e3b6b8faa62f90648eb8142ffebc521598fc1d03",
+ "generated": "2026-11-12T16:30:32+00:00"
 }
