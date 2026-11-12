@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.003248,
-   "last_ts": "2026-11-12T23:10:22+00:00",
-   "move_pct": -0.65,
+   "last": 0.003245,
+   "last_ts": "2026-11-12T23:15:24+00:00",
+   "move_pct": -0.56,
    "closed": false,
    "rsi": 33.9,
    "trade_on": "Perps 1x",
@@ -81,7 +81,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.1549,
-   "last_ts": "2026-11-12T23:10:22+00:00",
+   "last_ts": "2026-11-12T23:15:24+00:00",
    "move_pct": 2.92,
    "closed": false,
    "rsi": 51.5,
@@ -117,7 +117,7 @@
     5.9822574901354
    ],
    "lev": 2,
-   "funding_pct": -0.0495,
+   "funding_pct": -0.0498,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-12T00:00:00+00:00",
@@ -125,9 +125,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 7.468,
-   "last_ts": "2026-11-12T23:10:22+00:00",
-   "move_pct": 0.7,
+   "last": 7.448,
+   "last_ts": "2026-11-12T23:15:24+00:00",
+   "move_pct": 0.97,
    "closed": false,
    "rsi": 28.8,
    "trade_on": "Perps 2x",
@@ -7453,6 +7453,28 @@
     ]
    },
    {
+    "id": "layer-1",
+    "name": "Layer 1",
+    "chg7d": -4.51,
+    "top": [
+     "BTC",
+     "ETH",
+     "BNB",
+     "XRP",
+     "SOL"
+    ],
+    "tracked": [
+     "BTC",
+     "ETH",
+     "SOL",
+     "XRP",
+     "SUI",
+     "BNB",
+     "AVAX",
+     "ZEC"
+    ]
+   },
+   {
     "id": "gaming",
     "name": "Gaming",
     "chg7d": -4.89,
@@ -7494,28 +7516,6 @@
      "ENA",
      "AAVE",
      "ONDO"
-    ]
-   },
-   {
-    "id": "layer-1",
-    "name": "Layer 1",
-    "chg7d": -5.41,
-    "top": [
-     "BTC",
-     "ETH",
-     "BNB",
-     "XRP",
-     "SOL"
-    ],
-    "tracked": [
-     "BTC",
-     "ETH",
-     "SOL",
-     "XRP",
-     "SUI",
-     "BNB",
-     "AVAX",
-     "ZEC"
     ]
    },
    {
@@ -7991,8 +7991,8 @@
   "updated": {
    "unlocks": 1794507622,
    "onchain": 1794524427,
-   "sectors": 1794524427,
-   "listings": 1794521424,
+   "sectors": 1794525323,
+   "listings": 1794525323,
    "fundamentals": 1794507623
   }
  },
@@ -8030,6 +8030,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "0d6a0754b9579653350f436a154186c2774be68a65e8955dfc4ddf847eec05a6",
- "generated": "2026-11-12T23:10:25+00:00"
+ "digest": "668a8653ea6d3c627a183b5c670a6add30c6de2c12c5dbe954748a92a14938e2",
+ "generated": "2026-11-12T23:15:26+00:00"
 }
