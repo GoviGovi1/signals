@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.003246,
-   "last_ts": "2026-11-12T22:55:20+00:00",
-   "move_pct": -0.59,
+   "last": 0.00325,
+   "last_ts": "2026-11-12T23:01:32+00:00",
+   "move_pct": -0.71,
    "closed": false,
    "rsi": 33.9,
    "trade_on": "Perps 1x",
@@ -72,7 +72,7 @@
     0.17762323492937077
    ],
    "lev": 1,
-   "funding_pct": 0.0045,
+   "funding_pct": 0.005,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-12T00:00:00+00:00",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1549,
-   "last_ts": "2026-11-12T22:55:20+00:00",
-   "move_pct": 2.92,
+   "last": 0.1552,
+   "last_ts": "2026-11-12T23:01:32+00:00",
+   "move_pct": 3.12,
    "closed": false,
    "rsi": 51.5,
    "trade_on": "Perps 1x",
@@ -117,7 +117,7 @@
     5.9822574901354
    ],
    "lev": 2,
-   "funding_pct": -0.0507,
+   "funding_pct": -0.0501,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-12T00:00:00+00:00",
@@ -125,9 +125,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 7.476,
-   "last_ts": "2026-11-12T22:55:20+00:00",
-   "move_pct": 0.6,
+   "last": 7.496,
+   "last_ts": "2026-11-12T23:01:32+00:00",
+   "move_pct": 0.33,
    "closed": false,
    "rsi": 28.8,
    "trade_on": "Perps 2x",
@@ -7368,61 +7368,42 @@
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
   "onchain": [
    {
-    "chain": "BSC",
-    "symbol": "Q",
-    "name": "Quack AI Token",
-    "token": "0xc07e1300dc138601fa6b0b59f8d0fa477e690589",
-    "price": 0.0280952855124761,
-    "liq": 1079469,
-    "vol24h": 6121366,
-    "age_d": 438.6,
-    "chg24h": -3.163,
-    "chg7d": 4.3,
-    "mcap": 138581558.76657,
+    "chain": "Base",
+    "symbol": "TSLAC",
+    "name": "Tesla Inc.",
+    "token": "0xb2000000000000000000001e800a7f5189430cd0",
+    "price": 395.951555646927,
+    "liq": 502415,
+    "vol24h": 8972495,
+    "age_d": 21.8,
+    "chg24h": 2.001,
+    "chg7d": 17.5,
+    "mcap": 2463629.57872888,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": true,
-    "rsi": 60.7,
-    "url": "https://www.geckoterminal.com/bsc/pools/0x8bafe0bdd3eb9ae0539f5b32e771c1a72a189b7f"
+    "rsi": 59.4,
+    "url": "https://www.geckoterminal.com/base/pools/0x7a33000372f3f028f074182ccb9d16cbeefbf920"
    },
    {
-    "chain": "Base",
-    "symbol": "SPCXC",
-    "name": "Space Exploration Technologies Corp.",
-    "token": "0xb2000000000000000000007b9fcbd005511acbd5",
-    "price": 141.277223322776,
-    "liq": 1056658,
-    "vol24h": 14351505,
-    "age_d": 21.8,
-    "chg24h": 0.688,
-    "chg7d": 15.0,
-    "mcap": 3513675.71581406,
+    "chain": "Solana",
+    "symbol": "MIHAO",
+    "name": "ni hao cat",
+    "token": "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump",
+    "price": 0.014196614011644227,
+    "liq": 412812,
+    "vol24h": 11559538,
+    "age_d": 18.3,
+    "chg24h": -26.049,
+    "chg7d": 5222.5,
+    "mcap": 13335414.2959682,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 50.7,
-    "url": "https://www.geckoterminal.com/base/pools/0x880db7dda4407d99508574e680d067d1164b3cfe"
-   },
-   {
-    "chain": "Base",
-    "symbol": "NVDAC",
-    "name": "NVIDIA Corporation",
-    "token": "0xb20000000000000000000078ee7ce2fe4908108c",
-    "price": 167.689850591523,
-    "liq": 1361034,
-    "vol24h": 10541371,
-    "age_d": 21.8,
-    "chg24h": -0.555,
-    "chg7d": -7.5,
-    "mcap": 7863145.28916953,
-    "safety": "ok",
-    "safety_notes": [],
-    "trigger": false,
-    "trend_up": false,
-    "rsi": 56.1,
-    "url": "https://www.geckoterminal.com/base/pools/0xf668e21993f0acd7ab00bb1cfbaed0df28a3c8ec"
+    "rsi": 43.2,
+    "url": "https://www.geckoterminal.com/solana/pools/Ho1aSG6WGH1FfXdEHrK2f4Ggt1Hoxo9s5jcLMDqeyeBz"
    }
   ],
   "onchain_checked": 85,
@@ -7494,23 +7475,6 @@
     ]
    },
    {
-    "id": "bitcoin-ecosystem",
-    "name": "Bitcoin Ecosystem",
-    "chg7d": -5.01,
-    "top": [
-     "BTC",
-     "DOG",
-     "ORDI",
-     "USTBL",
-     "LOBO"
-    ],
-    "tracked": [
-     "BTC",
-     "ORDI",
-     "SATS"
-    ]
-   },
-   {
     "id": "decentralized-finance-defi",
     "name": "Decentralized Finance DeFi",
     "chg7d": -5.08,
@@ -7574,6 +7538,23 @@
      "MAGIC",
      "STX",
      "POL"
+    ]
+   },
+   {
+    "id": "bitcoin-ecosystem",
+    "name": "Bitcoin Ecosystem",
+    "chg7d": -5.54,
+    "top": [
+     "BTC",
+     "DOG",
+     "ORDI",
+     "USTBL",
+     "LOBO"
+    ],
+    "tracked": [
+     "BTC",
+     "ORDI",
+     "SATS"
     ]
    },
    {
@@ -8009,8 +7990,8 @@
   ],
   "updated": {
    "unlocks": 1794507622,
-   "onchain": 1794520834,
-   "sectors": 1794523521,
+   "onchain": 1794524427,
+   "sectors": 1794524427,
    "listings": 1794521424,
    "fundamentals": 1794507623
   }
@@ -8049,6 +8030,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "0656ea3f57f5eafc0dc455dd25cd174bc0ddcd3ff7110d3029273a6b31046ecf",
- "generated": "2026-11-12T22:55:22+00:00"
+ "digest": "ba9ddf86a089f7c1621751ddb3f9877199bc0646826ce23fbf4f50a1905afd51",
+ "generated": "2026-11-12T23:02:03+00:00"
 }
