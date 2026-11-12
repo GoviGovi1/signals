@@ -27,7 +27,7 @@
     0.0028474776986802002
    ],
    "lev": 1,
-   "funding_pct": -0.0076,
+   "funding_pct": -0.0067,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-11T23:00:00+00:00",
@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.003219,
-   "last_ts": "2026-11-12T18:55:21+00:00",
-   "move_pct": 0.25,
+   "last": 0.003211,
+   "last_ts": "2026-11-12T19:01:36+00:00",
+   "move_pct": 0.5,
    "closed": false,
    "rsi": 33.9,
    "trade_on": "Perps 1x",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.004264,
-   "last_ts": "2026-11-12T18:55:21+00:00",
-   "move_pct": 4.42,
+   "last": 0.004262,
+   "last_ts": "2026-11-12T19:01:36+00:00",
+   "move_pct": 4.46,
    "closed": false,
    "rsi": 29.2,
    "trade_on": "Perps 1x",
@@ -116,7 +116,7 @@
     0.17762323492937077
    ],
    "lev": 1,
-   "funding_pct": -0.0017,
+   "funding_pct": -0.0012,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-12T00:00:00+00:00",
@@ -124,9 +124,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1527,
-   "last_ts": "2026-11-12T18:55:21+00:00",
-   "move_pct": 1.46,
+   "last": 0.1523,
+   "last_ts": "2026-11-12T19:01:36+00:00",
+   "move_pct": 1.2,
    "closed": false,
    "rsi": 51.5,
    "trade_on": "Perps 1x",
@@ -161,7 +161,7 @@
     5.9822574901354
    ],
    "lev": 2,
-   "funding_pct": -0.0525,
+   "funding_pct": -0.0517,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-12T00:00:00+00:00",
@@ -169,9 +169,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 7.384,
-   "last_ts": "2026-11-12T18:55:21+00:00",
-   "move_pct": 1.82,
+   "last": 7.398,
+   "last_ts": "2026-11-12T19:01:36+00:00",
+   "move_pct": 1.64,
    "closed": false,
    "rsi": 28.8,
    "trade_on": "Perps 2x",
@@ -215,16 +215,18 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.06525,
-   "last_ts": "2026-11-12T18:55:21+00:00",
-   "move_pct": -1.86,
+   "last": 0.06515,
+   "last_ts": "2026-11-12T19:01:36+00:00",
+   "move_pct": -1.7,
    "closed": false,
    "rsi": 34.4,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": "charts/PYTH-PERP-1794438000.png",
    "setup": "BREAKOUT20"
-  },
+  }
+ ],
+ "closed": [
   {
    "id": "CRV-PERP-1794445200",
    "kind": "TA",
@@ -254,25 +256,23 @@
    ],
    "lev": 1,
    "funding_pct": 0.01,
-   "status": "tp2",
+   "status": "stopped_be",
    "hits": 2,
    "opened": "2026-11-12T02:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.2386,
-   "last_ts": "2026-11-12T18:55:21+00:00",
+   "closed_at": "2026-11-12T19:01:36+00:00",
+   "exit_price": 0.2394,
+   "result_r": 0.75,
+   "result_pct": 1.3,
+   "last": 0.2388,
+   "last_ts": "2026-11-12T19:01:36+00:00",
    "move_pct": 0.33,
-   "closed": false,
+   "closed": true,
    "rsi": 35.8,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": "charts/CRV-PERP-1794445200.png",
    "setup": "RETEST"
-  }
- ],
- "closed": [
+  },
   {
    "id": "BARD-PERP-HOT-20769",
    "kind": "HOT",
@@ -2012,7 +2012,7 @@
    "rsi": 36.1,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": "charts/BILL-PERP-1794042000.png",
+   "chart": null,
    "setup": "BREAKOUT20"
   },
   {
@@ -2842,62 +2842,17 @@
    "market_reason": "not listed on OKX; buy on a DEX, small size, no leverage",
    "chart": null,
    "setup": null
-  },
-  {
-   "id": "BLEND-PERP-1793919600",
-   "kind": "TA",
-   "score": 0,
-   "reasons": [
-    "Chart: Broke the 20-hour low on 1.0x volume",
-    "Timeframes: 1d down, 4h down, 4h structure mixed",
-    "No support below in the last 50 days",
-    "Stop 0.051643 (2 ATR); targets at 1R/2R/3R",
-    "BTC 4h trend down",
-    "Weaker than BTC by 3.2% over 7d",
-    "OI +1% 24h",
-    "Sector: Layer 2 -7.3% 7d (middle, #11 of 20)",
-    "Track record: +3.7R on BLEND in the last 45 days (backtest)"
-   ],
-   "coin": "BLEND",
-   "market": "PERP",
-   "side": "SHORT",
-   "entry": 0.04964,
-   "sl0": 0.05164303352039423,
-   "sl": 0.05164303352039423,
-   "tps": [
-    0.04763696647960576,
-    0.045633932959211525,
-    0.04363089943881729
-   ],
-   "lev": 1,
-   "funding_pct": 0.005,
-   "status": "stopped",
-   "hits": 0,
-   "opened": "2026-11-06T00:00:00+00:00",
-   "closed_at": "2026-11-07T02:40:25+00:00",
-   "exit_price": 0.05164303352039423,
-   "result_r": -1.0,
-   "result_pct": -4.04,
-   "last": 0.05195,
-   "last_ts": "2026-11-07T02:40:25+00:00",
-   "move_pct": -2.96,
-   "closed": true,
-   "rsi": 39.0,
-   "trade_on": "Perps 1x",
-   "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": null,
-   "setup": "BREAKOUT20"
   }
  ],
  "stats": {
   "all": {
-   "trades": 200,
-   "wins": 95,
+   "trades": 201,
+   "wins": 96,
    "losses": 105,
-   "win_rate": 47.5,
-   "total_r": 20.4,
-   "avg_r": 0.102,
-   "total_pct": 23.52
+   "win_rate": 47.8,
+   "total_r": 21.15,
+   "avg_r": 0.105,
+   "total_pct": 24.82
   },
   "SPOT": {
    "trades": 57,
@@ -2909,13 +2864,13 @@
    "total_pct": -17.58
   },
   "PERP": {
-   "trades": 133,
-   "wins": 69,
+   "trades": 134,
+   "wins": 70,
    "losses": 64,
-   "win_rate": 51.9,
-   "total_r": 32.94,
-   "avg_r": 0.248,
-   "total_pct": 35.68
+   "win_rate": 52.2,
+   "total_r": 33.69,
+   "avg_r": 0.251,
+   "total_pct": 36.98
   },
   "DEX": {
    "trades": 10,
@@ -2946,13 +2901,13 @@
     "total_pct": 5.42
    },
    "TA": {
-    "trades": 142,
-    "wins": 65,
+    "trades": 143,
+    "wins": 66,
     "losses": 77,
-    "win_rate": 45.8,
-    "total_r": 21.72,
-    "avg_r": 0.153,
-    "total_pct": 36.58
+    "win_rate": 46.2,
+    "total_r": 22.47,
+    "avg_r": 0.157,
+    "total_pct": 37.88
    }
   },
   "coins": {
@@ -3360,6 +3315,15 @@
     "total_r": -0.49,
     "avg_r": -0.486,
     "total_pct": -3.21
+   },
+   "CRV": {
+    "trades": 1,
+    "wins": 1,
+    "losses": 0,
+    "win_rate": 100.0,
+    "total_r": 0.75,
+    "avg_r": 0.75,
+    "total_pct": 1.3
    },
    "DATA": {
     "trades": 5,
@@ -4163,7 +4127,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 6
+  "open": 5
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7479,61 +7443,61 @@
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
   "onchain": [
    {
-    "chain": "Base",
-    "symbol": "XDP",
-    "name": "Doppler Finance",
-    "token": "0x07b3d902783c3c12b077508c3b5c00113d1291d0",
-    "price": 0.0168750407295377,
-    "liq": 1655743,
-    "vol24h": 9342543,
-    "age_d": 45.2,
-    "chg24h": 3.74,
-    "chg7d": 1.8,
-    "mcap": 16875040.73,
+    "chain": "BSC",
+    "symbol": "JCT",
+    "name": "JANCTION",
+    "token": "0xea37a8de1de2d9d10772eeb569e28bfa5cb17707",
+    "price": 0.0022725605840315,
+    "liq": 615344,
+    "vol24h": 15214668,
+    "age_d": 162.2,
+    "chg24h": -57.303,
+    "chg7d": -25.2,
+    "mcap": 26044369.086477,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
-    "trend_up": true,
-    "rsi": 60.6,
-    "url": "https://www.geckoterminal.com/base/pools/0x2df380544b88adb3ad0a94100dcc45fd705aae2d"
+    "trend_up": false,
+    "rsi": 22.1,
+    "url": "https://www.geckoterminal.com/bsc/pools/0x7bb2f6dab157e444ad8717b0178035c1b1cf24958b37c2a205e61a3582283249"
+   },
+   {
+    "chain": "Base",
+    "symbol": "NVDAC",
+    "name": "NVIDIA Corporation",
+    "token": "0xb20000000000000000000078ee7ce2fe4908108c",
+    "price": 165.514110830539,
+    "liq": 1356783,
+    "vol24h": 10165045,
+    "age_d": 21.7,
+    "chg24h": -6.987,
+    "chg7d": -10.8,
+    "mcap": 7558742.112498,
+    "safety": "ok",
+    "safety_notes": [],
+    "trigger": false,
+    "trend_up": false,
+    "rsi": 47.9,
+    "url": "https://www.geckoterminal.com/base/pools/0xf668e21993f0acd7ab00bb1cfbaed0df28a3c8ec"
    },
    {
     "chain": "BSC",
-    "symbol": "ARIA",
-    "name": "ARIA.AI",
-    "token": "0x5d3a12c42e5372b2cc3264ab3cdcf660a1555238",
-    "price": 0.170363349532473,
-    "liq": 1886540,
-    "vol24h": 48178215,
-    "age_d": 450.4,
-    "chg24h": -34.05,
-    "chg7d": 14.8,
-    "mcap": 31176492.9585,
+    "symbol": "ARK",
+    "name": "ARK",
+    "token": "0xcae117ca6bc8a341d2e7207f30e180f0e5618b9d",
+    "price": 6.42840045922788,
+    "liq": 58455868,
+    "vol24h": 5121646,
+    "age_d": 443.3,
+    "chg24h": -0.067,
+    "chg7d": 0.0,
+    "mcap": 0.0,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 40.2,
-    "url": "https://www.geckoterminal.com/bsc/pools/0xa5dbeaf16fc031eae92175974f8d0a439be4ad17"
-   },
-   {
-    "chain": "Base",
-    "symbol": "SPCXC",
-    "name": "Space Exploration Technologies Corp.",
-    "token": "0xb2000000000000000000007b9fcbd005511acbd5",
-    "price": 143.479495739798,
-    "liq": 1018258,
-    "vol24h": 14175323,
-    "age_d": 21.6,
-    "chg24h": 1.172,
-    "chg7d": 15.6,
-    "mcap": 3598546.20392246,
-    "safety": "ok",
-    "safety_notes": [],
-    "trigger": false,
-    "trend_up": false,
-    "rsi": 58.0,
-    "url": "https://www.geckoterminal.com/base/pools/0x880db7dda4407d99508574e680d067d1164b3cfe"
+    "rsi": 50.3,
+    "url": "https://www.geckoterminal.com/bsc/pools/0xcaaf3c41a40103a23eeaa4bba468af3cf5b0e0d8"
    }
   ],
   "onchain_checked": 85,
@@ -7559,6 +7523,28 @@
      "RSR",
      "CARDS",
      "ZBCN"
+    ]
+   },
+   {
+    "id": "artificial-intelligence",
+    "name": "Artificial Intelligence",
+    "chg7d": -3.34,
+    "top": [
+     "NEAR",
+     "TAO",
+     "SN0",
+     "ICP",
+     "VVV"
+    ],
+    "tracked": [
+     "NEAR",
+     "AKE",
+     "PIEVERSE",
+     "TAO",
+     "ICP",
+     "GRASS",
+     "VVV",
+     "ALLO"
     ]
    },
    {
@@ -7788,28 +7774,6 @@
      "ENA",
      "AAVE",
      "ONDO"
-    ]
-   },
-   {
-    "id": "artificial-intelligence",
-    "name": "Artificial Intelligence",
-    "chg7d": -9.78,
-    "top": [
-     "NEAR",
-     "TAO",
-     "SN0",
-     "ICP",
-     "VVV"
-    ],
-    "tracked": [
-     "NEAR",
-     "AKE",
-     "PIEVERSE",
-     "TAO",
-     "ICP",
-     "GRASS",
-     "VVV",
-     "ALLO"
     ]
    },
    {
@@ -8121,9 +8085,9 @@
   ],
   "updated": {
    "unlocks": 1794507622,
-   "onchain": 1794506439,
-   "sectors": 1794509125,
-   "listings": 1794506130,
+   "onchain": 1794510030,
+   "sectors": 1794510030,
+   "listings": 1794510029,
    "fundamentals": 1794507623
   }
  },
@@ -8161,6 +8125,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "2847f8fe311403f7ad913eb952b6b41a2e75576215bee9b2be1401e9f664a69b",
- "generated": "2026-11-12T18:55:24+00:00"
+ "digest": "8b8a54326dd3a8c958e0244618a91316e58b5e5d1ce10e1bf5fef43a199a3de6",
+ "generated": "2026-11-12T19:02:10+00:00"
 }
