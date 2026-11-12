@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.003209,
-   "last_ts": "2026-11-12T16:55:21+00:00",
-   "move_pct": 0.56,
+   "last": 0.003208,
+   "last_ts": "2026-11-12T17:01:40+00:00",
+   "move_pct": 0.59,
    "closed": false,
    "rsi": 33.9,
    "trade_on": "Perps 1x",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.004337,
-   "last_ts": "2026-11-12T16:55:21+00:00",
-   "move_pct": 2.78,
+   "last": 0.004318,
+   "last_ts": "2026-11-12T17:01:40+00:00",
+   "move_pct": 3.21,
    "closed": false,
    "rsi": 29.2,
    "trade_on": "Perps 1x",
@@ -125,7 +125,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.1507,
-   "last_ts": "2026-11-12T16:55:21+00:00",
+   "last_ts": "2026-11-12T17:01:40+00:00",
    "move_pct": 0.13,
    "closed": false,
    "rsi": 51.5,
@@ -161,7 +161,7 @@
     5.9822574901354
    ],
    "lev": 2,
-   "funding_pct": -0.0465,
+   "funding_pct": -0.0469,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-12T00:00:00+00:00",
@@ -169,9 +169,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 7.391,
-   "last_ts": "2026-11-12T16:55:21+00:00",
-   "move_pct": 1.73,
+   "last": 7.409,
+   "last_ts": "2026-11-12T17:01:40+00:00",
+   "move_pct": 1.49,
    "closed": false,
    "rsi": 28.8,
    "trade_on": "Perps 2x",
@@ -207,7 +207,7 @@
     0.05567406146881575
    ],
    "lev": 1,
-   "funding_pct": -0.0006,
+   "funding_pct": -0.0017,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-12T00:00:00+00:00",
@@ -215,9 +215,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.06424,
-   "last_ts": "2026-11-12T16:55:21+00:00",
-   "move_pct": -0.28,
+   "last": 0.06404,
+   "last_ts": "2026-11-12T17:01:40+00:00",
+   "move_pct": 0.03,
    "closed": false,
    "rsi": 34.4,
    "trade_on": "Perps 1x",
@@ -253,7 +253,7 @@
     0.22693203019089464
    ],
    "lev": 1,
-   "funding_pct": 0.0096,
+   "funding_pct": 0.0085,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-11-12T02:00:00+00:00",
@@ -261,9 +261,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2359,
-   "last_ts": "2026-11-12T16:55:21+00:00",
-   "move_pct": 1.46,
+   "last": 0.2352,
+   "last_ts": "2026-11-12T17:01:40+00:00",
+   "move_pct": 1.75,
    "closed": false,
    "rsi": 35.8,
    "trade_on": "Perps 1x",
@@ -286,24 +286,24 @@
    "side": "LONG",
    "entry": 0.1058,
    "sl0": 0.10111185558679844,
-   "sl": 0.10111185558679844,
+   "sl": 0.1058,
    "tps": [
     0.11048814441320157,
     0.11517628882640311,
     0.11986443323960466
    ],
    "lev": 1,
-   "funding_pct": -0.3748,
-   "status": "open",
-   "hits": 0,
+   "funding_pct": -0.4682,
+   "status": "tp1",
+   "hits": 1,
    "opened": "2026-11-12T16:45:25+00:00",
    "closed_at": null,
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1073,
-   "last_ts": "2026-11-12T16:55:21+00:00",
-   "move_pct": 1.42,
+   "last": 0.1116,
+   "last_ts": "2026-11-12T17:01:40+00:00",
+   "move_pct": 5.48,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -7522,43 +7522,22 @@
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
   "onchain": [
    {
-    "chain": "Base",
-    "symbol": "AAPLC",
-    "name": "Apple Inc.",
-    "token": "0xb200000000000000000000c2e324d24d7eecd1fb",
-    "price": 357.357330644505,
-    "liq": 497495,
-    "vol24h": 4713658,
-    "age_d": 21.5,
-    "chg24h": 1.294,
-    "chg7d": 3.5,
-    "mcap": 2186824.13396168,
-    "safety": "unknown",
-    "safety_notes": [
-     "safety not checked"
-    ],
-    "trigger": false,
-    "trend_up": true,
-    "rsi": 58.9,
-    "url": "https://www.geckoterminal.com/base/pools/0xf5fcb9cdafce67d50afef298f88e709d2b946ba6"
-   },
-   {
     "chain": "BSC",
     "symbol": "JCT",
     "name": "JANCTION",
     "token": "0xea37a8de1de2d9d10772eeb569e28bfa5cb17707",
-    "price": 0.00292203002254177,
-    "liq": 688020,
-    "vol24h": 15298751,
-    "age_d": 162.0,
-    "chg24h": -48.72,
-    "chg7d": -1.7,
-    "mcap": 33388026.7605929,
+    "price": 0.00239106266905122,
+    "liq": 630535,
+    "vol24h": 15503678,
+    "age_d": 162.1,
+    "chg24h": -56.358,
+    "chg7d": -22.0,
+    "mcap": 27482127.1104019,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 26.9,
+    "rsi": 22.7,
     "url": "https://www.geckoterminal.com/bsc/pools/0x7bb2f6dab157e444ad8717b0178035c1b1cf24958b37c2a205e61a3582283249"
    },
    {
@@ -7566,22 +7545,43 @@
     "symbol": "NVDAC",
     "name": "NVIDIA Corporation",
     "token": "0xb20000000000000000000078ee7ce2fe4908108c",
-    "price": 165.755615815065,
-    "liq": 1267609,
-    "vol24h": 9375972,
-    "age_d": 21.5,
-    "chg24h": -5.599,
-    "chg7d": -8.3,
-    "mcap": 7358460.33526869,
+    "price": 165.410365012603,
+    "liq": 1296274,
+    "vol24h": 9589810,
+    "age_d": 21.6,
+    "chg24h": -5.996,
+    "chg7d": -11.3,
+    "mcap": 7302285.27157523,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 53.0,
+    "rsi": 50.1,
     "url": "https://www.geckoterminal.com/base/pools/0xf668e21993f0acd7ab00bb1cfbaed0df28a3c8ec"
+   },
+   {
+    "chain": "BSC",
+    "symbol": "ARK",
+    "name": "ARK",
+    "token": "0xcae117ca6bc8a341d2e7207f30e180f0e5618b9d",
+    "price": 6.4177787270923,
+    "liq": 58383791,
+    "vol24h": 5087827,
+    "age_d": 443.2,
+    "chg24h": -0.24,
+    "chg7d": -0.7,
+    "mcap": 0.0,
+    "safety": "unknown",
+    "safety_notes": [
+     "safety not checked"
+    ],
+    "trigger": false,
+    "trend_up": false,
+    "rsi": 48.2,
+    "url": "https://www.geckoterminal.com/bsc/pools/0xcaaf3c41a40103a23eeaa4bba468af3cf5b0e0d8"
    }
   ],
-  "onchain_checked": 84,
+  "onchain_checked": 83,
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
@@ -7604,6 +7604,23 @@
      "RSR",
      "CARDS",
      "ZBCN"
+    ]
+   },
+   {
+    "id": "storage",
+    "name": "Storage",
+    "chg7d": -8.05,
+    "top": [
+     "FIL",
+     "BTT",
+     "AR",
+     "AIOZ",
+     "HOT"
+    ],
+    "tracked": [
+     "FIL",
+     "AR",
+     "WAL"
     ]
    },
    {
@@ -7816,23 +7833,6 @@
      "BNB",
      "AVAX",
      "ZEC"
-    ]
-   },
-   {
-    "id": "storage",
-    "name": "Storage",
-    "chg7d": -10.73,
-    "top": [
-     "FIL",
-     "BTT",
-     "AR",
-     "AIOZ",
-     "WAL"
-    ],
-    "tracked": [
-     "FIL",
-     "AR",
-     "WAL"
     ]
    },
    {
@@ -8166,8 +8166,8 @@
   ],
   "updated": {
    "unlocks": 1794485726,
-   "onchain": 1794499234,
-   "sectors": 1794501925,
+   "onchain": 1794502835,
+   "sectors": 1794502835,
    "listings": 1794502227,
    "fundamentals": 1794485726
   }
@@ -8206,6 +8206,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "34ba0183f08f547b9491515b6f9ecf79013b7da5b8acea32ee01127ee2cb0257",
- "generated": "2026-11-12T16:55:24+00:00"
+ "digest": "e2a9de3729565a115193c607121d1bc3aaad432ca7f027a3bb3a57a557e434e9",
+ "generated": "2026-11-12T17:02:14+00:00"
 }
