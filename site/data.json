@@ -27,7 +27,7 @@
     0.0028474776986802002
    ],
    "lev": 1,
-   "funding_pct": 0.0017,
+   "funding_pct": -0.0016,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-11T23:00:00+00:00",
@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.003204,
-   "last_ts": "2026-11-12T18:15:23+00:00",
-   "move_pct": 0.71,
+   "last": 0.003191,
+   "last_ts": "2026-11-12T18:20:33+00:00",
+   "move_pct": 1.12,
    "closed": false,
    "rsi": 33.9,
    "trade_on": "Perps 1x",
@@ -64,7 +64,7 @@
    "side": "SHORT",
    "entry": 0.004461,
    "sl0": 0.004632906906214757,
-   "sl": 0.004632906906214757,
+   "sl": 0.004461,
    "tps": [
     0.0042890930937852425,
     0.004117186187570485,
@@ -72,16 +72,16 @@
    ],
    "lev": 1,
    "funding_pct": 0.005,
-   "status": "open",
-   "hits": 0,
+   "status": "tp1",
+   "hits": 1,
    "opened": "2026-11-12T00:00:00+00:00",
    "closed_at": null,
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.004298,
-   "last_ts": "2026-11-12T18:15:23+00:00",
-   "move_pct": 3.65,
+   "last": 0.004288,
+   "last_ts": "2026-11-12T18:20:33+00:00",
+   "move_pct": 3.88,
    "closed": false,
    "rsi": 29.2,
    "trade_on": "Perps 1x",
@@ -116,7 +116,7 @@
     0.17762323492937077
    ],
    "lev": 1,
-   "funding_pct": 0.0013,
+   "funding_pct": -0.0009,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-12T00:00:00+00:00",
@@ -124,9 +124,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1522,
-   "last_ts": "2026-11-12T18:15:23+00:00",
-   "move_pct": 1.13,
+   "last": 0.1518,
+   "last_ts": "2026-11-12T18:20:33+00:00",
+   "move_pct": 0.86,
    "closed": false,
    "rsi": 51.5,
    "trade_on": "Perps 1x",
@@ -161,7 +161,7 @@
     5.9822574901354
    ],
    "lev": 2,
-   "funding_pct": -0.0518,
+   "funding_pct": -0.0522,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-12T00:00:00+00:00",
@@ -169,9 +169,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 7.334,
-   "last_ts": "2026-11-12T18:15:23+00:00",
-   "move_pct": 2.49,
+   "last": 7.322,
+   "last_ts": "2026-11-12T18:20:33+00:00",
+   "move_pct": 2.65,
    "closed": false,
    "rsi": 28.8,
    "trade_on": "Perps 2x",
@@ -207,7 +207,7 @@
     0.05567406146881575
    ],
    "lev": 1,
-   "funding_pct": 0.0036,
+   "funding_pct": 0.004,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-12T00:00:00+00:00",
@@ -215,9 +215,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.06497,
-   "last_ts": "2026-11-12T18:15:23+00:00",
-   "move_pct": -1.42,
+   "last": 0.06498,
+   "last_ts": "2026-11-12T18:20:33+00:00",
+   "move_pct": -1.44,
    "closed": false,
    "rsi": 34.4,
    "trade_on": "Perps 1x",
@@ -253,7 +253,7 @@
     0.22693203019089464
    ],
    "lev": 1,
-   "funding_pct": 0.0085,
+   "funding_pct": 0.0078,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-11-12T02:00:00+00:00",
@@ -261,9 +261,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2363,
-   "last_ts": "2026-11-12T18:15:23+00:00",
-   "move_pct": 1.29,
+   "last": 0.236,
+   "last_ts": "2026-11-12T18:20:33+00:00",
+   "move_pct": 1.42,
    "closed": false,
    "rsi": 35.8,
    "trade_on": "Perps 1x",
@@ -6794,7 +6794,7 @@
     "tokens": 50411392,
     "tracked": true,
     "ts": 1794528000,
-    "usd": 508122,
+    "usd": 501847,
     "who": [
      "Ecosystem & Incubation",
      "Strategic Network Participants",
@@ -6809,7 +6809,7 @@
     "tokens": 1941766,
     "tracked": true,
     "ts": 1794528000,
-    "usd": 26378,
+    "usd": 25933,
     "who": [
      "Ecosystem & Community",
      "Treasury"
@@ -6823,7 +6823,7 @@
     "tokens": 119861110,
     "tracked": true,
     "ts": 1794531177,
-    "usd": 5175715,
+    "usd": 5080113,
     "who": [
      "Private Sale",
      "Team",
@@ -6838,7 +6838,7 @@
     "tokens": 226356431,
     "tracked": true,
     "ts": 1794612576,
-    "usd": 8315940,
+    "usd": 8173784,
     "who": [
      "Early Contributors",
      "Investors",
@@ -6853,7 +6853,7 @@
     "tokens": 92645833,
     "tracked": true,
     "ts": 1794702576,
-    "usd": 13727485,
+    "usd": 13495680,
     "who": [
      "Team, Contributors & Advisors",
      "Investors"
@@ -6867,7 +6867,7 @@
     "tokens": 298235294,
     "tracked": true,
     "ts": 1794781287,
-    "usd": 2817806,
+    "usd": 2786028,
     "who": [
      "Community Rewards & Future Airdrops",
      "Foundation",
@@ -6882,7 +6882,7 @@
     "tokens": 173038250,
     "tracked": true,
     "ts": 1794844957,
-    "usd": 1591873,
+    "usd": 1551656,
     "who": [
      "Investors",
      "Team"
@@ -6896,7 +6896,7 @@
     "tokens": 7091667,
     "tracked": true,
     "ts": 1794889515,
-    "usd": 1840271,
+    "usd": 1827142,
     "who": [
      "Ecosystem"
     ]
@@ -6909,7 +6909,7 @@
     "tokens": 17597619,
     "tracked": true,
     "ts": 1795061403,
-    "usd": 3580566,
+    "usd": 3565278,
     "who": [
      "Ecosystem & Network Growth",
      "Core Contributors",
@@ -6924,7 +6924,7 @@
     "tokens": 23625000,
     "tracked": true,
     "ts": 1795104157,
-    "usd": 36647982,
+    "usd": 36070650,
     "who": [
      "Strategic Partners",
      "Core Contributors"
@@ -6938,7 +6938,7 @@
     "tokens": 1941766,
     "tracked": true,
     "ts": 1795132800,
-    "usd": 26378,
+    "usd": 25933,
     "who": [
      "Ecosystem & Community",
      "Treasury"
@@ -6952,7 +6952,7 @@
     "tokens": 36583333,
     "tracked": true,
     "ts": 1795364259,
-    "usd": 45202221,
+    "usd": 45605778,
     "who": [
      "TON Believers Fund"
     ]
@@ -6965,7 +6965,7 @@
     "tokens": 292857143,
     "tracked": true,
     "ts": 1795428831,
-    "usd": 7003043,
+    "usd": 6719529,
     "who": [
      "Team",
      "Investors",
@@ -6980,7 +6980,7 @@
     "tokens": 17105208333,
     "tracked": true,
     "ts": 1795499326,
-    "usd": 287922352,
+    "usd": 290810402,
     "who": [
      "Team",
      "Investors",
@@ -6995,7 +6995,7 @@
     "tokens": 12328169,
     "tracked": true,
     "ts": 1795564800,
-    "usd": 418066,
+    "usd": 415002,
     "who": [
      "Tangle Ecosystem Association",
      "IOTA DLT Foundation",
@@ -7010,7 +7010,7 @@
     "tokens": 227777778,
     "tracked": true,
     "ts": 1795574802,
-    "usd": 11421466,
+    "usd": 11234157,
     "who": [
      "Ecosystem & Growth",
      "Team",
@@ -7025,7 +7025,7 @@
     "tokens": 32708333,
     "tracked": true,
     "ts": 1795628460,
-    "usd": 887350,
+    "usd": 868419,
     "who": [
      "Community Reserve",
      "Subsidies",
@@ -7040,7 +7040,7 @@
     "tokens": 18241468,
     "tracked": true,
     "ts": 1795704858,
-    "usd": 247802,
+    "usd": 243620,
     "who": [
      "Team",
      "Private Sale",
@@ -7055,7 +7055,7 @@
     "tokens": 50411392,
     "tracked": true,
     "ts": 1795737600,
-    "usd": 508122,
+    "usd": 501847,
     "who": [
      "Ecosystem & Incubation",
      "Strategic Network Participants",
@@ -7070,7 +7070,7 @@
     "tokens": 1941766,
     "tracked": true,
     "ts": 1795737600,
-    "usd": 26378,
+    "usd": 25933,
     "who": [
      "Ecosystem & Community",
      "Treasury"
@@ -7084,7 +7084,7 @@
     "tokens": 10212489,
     "tracked": true,
     "ts": 1795817175,
-    "usd": 4624067,
+    "usd": 4503344,
     "who": [
      "Contributors",
      "Future Incentives",
@@ -7099,7 +7099,7 @@
     "tokens": 20833333,
     "tracked": true,
     "ts": 1795904487,
-    "usd": 565191,
+    "usd": 553133,
     "who": [
      "Early Contributor"
     ]
@@ -7112,7 +7112,7 @@
     "tokens": 20000000,
     "tracked": true,
     "ts": 1795919490,
-    "usd": 100196,
+    "usd": 98851,
     "who": [
      "Community / Marketing"
     ]
@@ -7123,9 +7123,9 @@
     "insider_pct": 75,
     "pct": 2.86,
     "tokens": 166666667,
-    "tracked": false,
+    "tracked": true,
     "ts": 1795958145,
-    "usd": 795429,
+    "usd": 788982,
     "who": [
      "Investors",
      "Team",
@@ -7140,7 +7140,7 @@
     "tokens": 73633120,
     "tracked": true,
     "ts": 1795968000,
-    "usd": 13587175,
+    "usd": 13077405,
     "who": [
      "Vested Tranches"
     ]
@@ -7153,7 +7153,7 @@
     "tokens": 36820227,
     "tracked": true,
     "ts": 1796082288,
-    "usd": 5726402,
+    "usd": 5590518,
     "who": [
      "Investors",
      "Early Contributors"
@@ -7165,9 +7165,9 @@
     "insider_pct": 51,
     "pct": 2.6,
     "tokens": 44260417,
-    "tracked": false,
+    "tracked": true,
     "ts": 1796156862,
-    "usd": 1458052,
+    "usd": 1422733,
     "who": [
      "Core Contributors",
      "Protocol Treasury",
@@ -7182,7 +7182,7 @@
     "tokens": 600000000,
     "tracked": true,
     "ts": 1796256000,
-    "usd": 3005884,
+    "usd": 2965534,
     "who": [
      "Player Rewards",
      "Ecosystem / Treasury"
@@ -7196,7 +7196,7 @@
     "tokens": 192500000,
     "tracked": true,
     "ts": 1796276916,
-    "usd": 8797250,
+    "usd": 8654894,
     "who": [
      "Foundation",
      "Labs",
@@ -7211,7 +7211,7 @@
     "tokens": 10358084,
     "tracked": true,
     "ts": 1796282829,
-    "usd": 352810,
+    "usd": 343924,
     "who": [
      "Foundation",
      "Ecosystem & Incentives"
@@ -7225,7 +7225,7 @@
     "tokens": 1941766,
     "tracked": true,
     "ts": 1796342400,
-    "usd": 26378,
+    "usd": 25933,
     "who": [
      "Ecosystem & Community",
      "Treasury"
@@ -7239,7 +7239,7 @@
     "tokens": 50661600,
     "tracked": true,
     "ts": 1796679351,
-    "usd": 304637,
+    "usd": 300093,
     "who": [
      "Ecosystem / Treasury",
      "Team",
@@ -7254,7 +7254,7 @@
     "tokens": 12328169,
     "tracked": true,
     "ts": 1796774400,
-    "usd": 418066,
+    "usd": 415002,
     "who": [
      "Tangle Ecosystem Association",
      "IOTA DLT Foundation",
@@ -7267,9 +7267,9 @@
     "insider_pct": 70,
     "pct": 3.45,
     "tokens": 164583333,
-    "tracked": false,
+    "tracked": true,
     "ts": 1796816232,
-    "usd": 904181,
+    "usd": 889910,
     "who": [
      "Early Backers",
      "Ecosystem & Community",
@@ -7284,7 +7284,7 @@
     "tokens": 10729470,
     "tracked": true,
     "ts": 1796902632,
-    "usd": 452956,
+    "usd": 444890,
     "who": [
      "Community & Ecosystem",
      "Strategic Participants",
@@ -7299,7 +7299,7 @@
     "tokens": 50411392,
     "tracked": true,
     "ts": 1796947200,
-    "usd": 508122,
+    "usd": 501847,
     "who": [
      "Ecosystem & Incubation",
      "Strategic Network Participants",
@@ -7314,7 +7314,7 @@
     "tokens": 1941766,
     "tracked": true,
     "ts": 1796947200,
-    "usd": 26378,
+    "usd": 25933,
     "who": [
      "Ecosystem & Community",
      "Treasury"
@@ -7328,7 +7328,7 @@
     "tokens": 4543478,
     "tracked": true,
     "ts": 1797019950,
-    "usd": 2516726,
+    "usd": 2468933,
     "who": [
      "Community",
      "Foundation"
@@ -7342,7 +7342,7 @@
     "tokens": 6875000000,
     "tracked": true,
     "ts": 1797030841,
-    "usd": 23561352,
+    "usd": 23129529,
     "who": [
      "Team",
      "Existing Investors"
@@ -7355,7 +7355,7 @@
     "pct": 1.27,
     "tokens": 6875000000,
     "ts": 1794401098,
-    "usd": 23561352,
+    "usd": 23129529,
     "who": [
      "Team",
      "Existing Investors"
@@ -7367,7 +7367,7 @@
     "pct": 0.51,
     "tokens": 4543478,
     "ts": 1794390207,
-    "usd": 2516726,
+    "usd": 2468933,
     "who": [
      "Community",
      "Foundation"
@@ -7375,11 +7375,23 @@
     "coin": "APT"
    },
    {
+    "insider_pct": 0,
+    "pct": 4.57,
+    "tokens": 27018750,
+    "ts": 1794370203,
+    "usd": 1325198,
+    "who": [
+     "Community and Ecosystem",
+     "Foundation"
+    ],
+    "coin": "LAYER"
+   },
+   {
     "insider_pct": 23,
     "pct": 0.26,
     "tokens": 12328169,
     "ts": 1794355200,
-    "usd": 418066,
+    "usd": 415002,
     "who": [
      "Tangle Ecosystem Association",
      "IOTA DLT Foundation",
@@ -7392,7 +7404,7 @@
     "pct": 1.47,
     "tokens": 10729470,
     "ts": 1794272889,
-    "usd": 452956,
+    "usd": 444890,
     "who": [
      "Community & Ecosystem",
      "Strategic Participants",
@@ -7401,11 +7413,24 @@
     "coin": "ME"
    },
    {
+    "insider_pct": 70,
+    "pct": 3.45,
+    "tokens": 164583333,
+    "ts": 1794186489,
+    "usd": 889910,
+    "who": [
+     "Early Backers",
+     "Ecosystem & Community",
+     "Early Contributors"
+    ],
+    "coin": "MOVE"
+   },
+   {
     "insider_pct": 35,
     "pct": 1.06,
     "tokens": 50661600,
     "ts": 1794049608,
-    "usd": 304637,
+    "usd": 300093,
     "who": [
      "Ecosystem / Treasury",
      "Team",
@@ -7418,7 +7443,7 @@
     "pct": 0.36,
     "tokens": 1941766,
     "ts": 1793923200,
-    "usd": 26378,
+    "usd": 25933,
     "who": [
      "Ecosystem & Community",
      "Treasury"
@@ -7430,7 +7455,7 @@
     "pct": 2.4,
     "tokens": 10358084,
     "ts": 1793653086,
-    "usd": 352810,
+    "usd": 343924,
     "who": [
      "Foundation",
      "Ecosystem & Incentives"
@@ -7438,41 +7463,17 @@
     "coin": "OPN"
    },
    {
-    "insider_pct": 100,
-    "pct": 3.92,
-    "tokens": 36820227,
-    "ts": 1793452545,
-    "usd": 5726402,
+    "insider_pct": 51,
+    "pct": 2.6,
+    "tokens": 44260417,
+    "ts": 1793527119,
+    "usd": 1422733,
     "who": [
-     "Investors",
-     "Early Contributors"
+     "Core Contributors",
+     "Protocol Treasury",
+     "Purchasers & Advisors"
     ],
-    "coin": "EIGEN"
-   },
-   {
-    "insider_pct": 0,
-    "pct": 0.36,
-    "tokens": 1941766,
-    "ts": 1793318400,
-    "usd": 26378,
-    "who": [
-     "Ecosystem & Community",
-     "Treasury"
-    ],
-    "coin": "RESOLV"
-   },
-   {
-    "insider_pct": 100,
-    "pct": 0.75,
-    "tokens": 50411392,
-    "ts": 1793318400,
-    "usd": 508122,
-    "who": [
-     "Ecosystem & Incubation",
-     "Strategic Network Participants",
-     "Core Contributors"
-    ],
-    "coin": "W"
+    "coin": "ZETA"
    }
   ],
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
@@ -8082,6 +8083,12 @@
     "size": 226151
    },
    {
+    "coin": "ZRX",
+    "metric": "DEX volume",
+    "chg7d": 23.3,
+    "size": 123073851
+   },
+   {
     "coin": "RAY",
     "metric": "Fees",
     "chg7d": 19.4,
@@ -8106,24 +8113,18 @@
     "size": 982960490
    },
    {
-    "coin": "BARD",
-    "metric": "TVL",
-    "chg7d": -10.6,
-    "size": 573845572
-   },
-   {
     "coin": "HYPE",
     "metric": "Chain TVL",
-    "chg7d": -10.6,
-    "size": 2301766357
+    "chg7d": -10.5,
+    "size": 2304218684
    }
   ],
   "updated": {
-   "unlocks": 1794485726,
+   "unlocks": 1794507622,
    "onchain": 1794506439,
    "sectors": 1794507323,
    "listings": 1794506130,
-   "fundamentals": 1794485726
+   "fundamentals": 1794507623
   }
  },
  "filters": {
@@ -8160,6 +8161,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "c4e70fde09587886acc5344cf55b90d06ab8ed2eab1bf13ee87c3e0f5b97bdf3",
- "generated": "2026-11-12T18:15:31+00:00"
+ "digest": "eb3d0141ee2afe896511397d6ac299d545785663d05acce888d5299c7493df34",
+ "generated": "2026-11-12T18:20:37+00:00"
 }
