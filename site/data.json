@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.003249,
-   "last_ts": "2026-11-12T23:25:18+00:00",
-   "move_pct": -0.68,
+   "last": 0.003254,
+   "last_ts": "2026-11-12T23:30:27+00:00",
+   "move_pct": -0.84,
    "closed": false,
    "rsi": 33.9,
    "trade_on": "Perps 1x",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1552,
-   "last_ts": "2026-11-12T23:25:18+00:00",
-   "move_pct": 3.12,
+   "last": 0.1553,
+   "last_ts": "2026-11-12T23:30:27+00:00",
+   "move_pct": 3.19,
    "closed": false,
    "rsi": 51.5,
    "trade_on": "Perps 1x",
@@ -117,7 +117,7 @@
     5.9822574901354
    ],
    "lev": 2,
-   "funding_pct": -0.0488,
+   "funding_pct": -0.0476,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-12T00:00:00+00:00",
@@ -125,9 +125,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 7.457,
-   "last_ts": "2026-11-12T23:25:18+00:00",
-   "move_pct": 0.85,
+   "last": 7.485,
+   "last_ts": "2026-11-12T23:30:27+00:00",
+   "move_pct": 0.48,
    "closed": false,
    "rsi": 28.8,
    "trade_on": "Perps 2x",
@@ -7475,6 +7475,28 @@
     ]
    },
    {
+    "id": "layer-2",
+    "name": "Layer 2",
+    "chg7d": -4.87,
+    "top": [
+     "OKB",
+     "MNT",
+     "ARB",
+     "POL",
+     "STX"
+    ],
+    "tracked": [
+     "OKB",
+     "ARB",
+     "STRK",
+     "OP",
+     "MEGA",
+     "MAGIC",
+     "STX",
+     "POL"
+    ]
+   },
+   {
     "id": "gaming",
     "name": "Gaming",
     "chg7d": -4.89,
@@ -7516,28 +7538,6 @@
      "ENA",
      "AAVE",
      "ONDO"
-    ]
-   },
-   {
-    "id": "layer-2",
-    "name": "Layer 2",
-    "chg7d": -5.41,
-    "top": [
-     "OKB",
-     "MNT",
-     "ARB",
-     "POL",
-     "STX"
-    ],
-    "tracked": [
-     "OKB",
-     "ARB",
-     "STRK",
-     "OP",
-     "MEGA",
-     "MAGIC",
-     "STX",
-     "POL"
     ]
    },
    {
@@ -7991,7 +7991,7 @@
   "updated": {
    "unlocks": 1794507622,
    "onchain": 1794524427,
-   "sectors": 1794525323,
+   "sectors": 1794526227,
    "listings": 1794525323,
    "fundamentals": 1794507623
   }
@@ -8030,6 +8030,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "f79566c916198d05f8ebe09b1c3ebda952fca0080cfbe7b2456e77b2ea76d7a7",
- "generated": "2026-11-12T23:25:20+00:00"
+ "digest": "4a1c788cee7b22b148a4077b976750f2b767b65889a552d7b71cb705bedf92ba",
+ "generated": "2026-11-12T23:30:30+00:00"
 }
