@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.003217,
-   "last_ts": "2026-11-12T16:40:24+00:00",
-   "move_pct": 0.31,
+   "last": 0.003205,
+   "last_ts": "2026-11-12T16:45:25+00:00",
+   "move_pct": 0.68,
    "closed": false,
    "rsi": 33.9,
    "trade_on": "Perps 1x",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.004337,
-   "last_ts": "2026-11-12T16:40:24+00:00",
-   "move_pct": 2.78,
+   "last": 0.004326,
+   "last_ts": "2026-11-12T16:45:25+00:00",
+   "move_pct": 3.03,
    "closed": false,
    "rsi": 29.2,
    "trade_on": "Perps 1x",
@@ -124,9 +124,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1503,
-   "last_ts": "2026-11-12T16:40:24+00:00",
-   "move_pct": -0.13,
+   "last": 0.1504,
+   "last_ts": "2026-11-12T16:45:25+00:00",
+   "move_pct": -0.07,
    "closed": false,
    "rsi": 51.5,
    "trade_on": "Perps 1x",
@@ -161,7 +161,7 @@
     5.9822574901354
    ],
    "lev": 2,
-   "funding_pct": -0.0451,
+   "funding_pct": -0.0457,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-12T00:00:00+00:00",
@@ -169,9 +169,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 7.429,
-   "last_ts": "2026-11-12T16:40:24+00:00",
-   "move_pct": 1.22,
+   "last": 7.394,
+   "last_ts": "2026-11-12T16:45:25+00:00",
+   "move_pct": 1.69,
    "closed": false,
    "rsi": 28.8,
    "trade_on": "Perps 2x",
@@ -207,7 +207,7 @@
     0.05567406146881575
    ],
    "lev": 1,
-   "funding_pct": 0.0007,
+   "funding_pct": -0.0003,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-12T00:00:00+00:00",
@@ -215,9 +215,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.06424,
-   "last_ts": "2026-11-12T16:40:24+00:00",
-   "move_pct": -0.28,
+   "last": 0.06422,
+   "last_ts": "2026-11-12T16:45:25+00:00",
+   "move_pct": -0.25,
    "closed": false,
    "rsi": 34.4,
    "trade_on": "Perps 1x",
@@ -253,7 +253,7 @@
     0.22693203019089464
    ],
    "lev": 1,
-   "funding_pct": 0.0093,
+   "funding_pct": 0.0094,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-11-12T02:00:00+00:00",
@@ -261,15 +261,55 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2359,
-   "last_ts": "2026-11-12T16:40:24+00:00",
-   "move_pct": 1.46,
+   "last": 0.2352,
+   "last_ts": "2026-11-12T16:45:25+00:00",
+   "move_pct": 1.75,
    "closed": false,
    "rsi": 35.8,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": "charts/CRV-PERP-1794445200.png",
    "setup": "RETEST"
+  },
+  {
+   "id": "BARD-PERP-HOT-20769",
+   "kind": "HOT",
+   "score": 339.96,
+   "reasons": [
+    "24h hot mover +24% with volume spike (2.1x the prior 3 days)",
+    "24h volume $6.9M on the OKX perp book, listed 420 days",
+    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
+    "Stop 0.10111 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
+   ],
+   "coin": "BARD",
+   "market": "PERP",
+   "side": "LONG",
+   "entry": 0.1058,
+   "sl0": 0.10111185558679844,
+   "sl": 0.10111185558679844,
+   "tps": [
+    0.11048814441320157,
+    0.11517628882640311,
+    0.11986443323960466
+   ],
+   "lev": 1,
+   "funding_pct": -0.2112,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-11-12T16:45:25+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.1057,
+   "last_ts": "2026-11-12T16:45:25+00:00",
+   "move_pct": -0.09,
+   "closed": false,
+   "rsi": null,
+   "trade_on": "Perps 1x",
+   "market_reason": "the perp book is where the 24h move and volume are; thin perp market, so 1x",
+   "chart": "charts/BARD-PERP-HOT-20769.png",
+   "setup": "HOT24"
   }
  ],
  "closed": [
@@ -4167,7 +4207,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 6
+  "open": 7
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7945,7 +7985,7 @@
    {
     "id": "interoperability",
     "name": "Interoperability",
-    "chg7d": -13.53,
+    "chg7d": -13.1,
     "top": [
      "TRAC",
      "W",
@@ -8127,7 +8167,7 @@
   "updated": {
    "unlocks": 1794485726,
    "onchain": 1794499234,
-   "sectors": 1794501029,
+   "sectors": 1794501925,
    "listings": 1794498623,
    "fundamentals": 1794485726
   }
@@ -8166,6 +8206,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "42ac046a52327e6e868219ce47f276279ec99c13fa644e0135d36b84f918e0fb",
- "generated": "2026-11-12T16:40:27+00:00"
+ "digest": "69ee45d9c6e714ce94e4fd3ee066d4323a4fd4232d7b4ab971e4596d555a4ff8",
+ "generated": "2026-11-12T16:45:30+00:00"
 }
