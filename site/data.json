@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.003253,
-   "last_ts": "2026-11-12T23:55:30+00:00",
-   "move_pct": -0.81,
+   "last": 0.003251,
+   "last_ts": "2026-11-13T00:01:40+00:00",
+   "move_pct": -0.74,
    "closed": false,
    "rsi": 33.9,
    "trade_on": "Perps 1x",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1541,
-   "last_ts": "2026-11-12T23:55:30+00:00",
-   "move_pct": 2.39,
+   "last": 0.1546,
+   "last_ts": "2026-11-13T00:01:40+00:00",
+   "move_pct": 2.72,
    "closed": false,
    "rsi": 51.5,
    "trade_on": "Perps 1x",
@@ -117,7 +117,7 @@
     5.9822574901354
    ],
    "lev": 2,
-   "funding_pct": -0.0429,
+   "funding_pct": -0.0422,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-12T00:00:00+00:00",
@@ -125,9 +125,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 7.477,
-   "last_ts": "2026-11-12T23:55:30+00:00",
-   "move_pct": 0.59,
+   "last": 7.459,
+   "last_ts": "2026-11-13T00:01:40+00:00",
+   "move_pct": 0.82,
    "closed": false,
    "rsi": 28.8,
    "trade_on": "Perps 2x",
@@ -6677,35 +6677,6 @@
   "unlocks": [
    {
     "big": false,
-    "coin": "W",
-    "insider_pct": 100,
-    "pct": 0.75,
-    "tokens": 50411392,
-    "tracked": true,
-    "ts": 1794528000,
-    "usd": 501847,
-    "who": [
-     "Ecosystem & Incubation",
-     "Strategic Network Participants",
-     "Core Contributors"
-    ]
-   },
-   {
-    "big": false,
-    "coin": "RESOLV",
-    "insider_pct": 0,
-    "pct": 0.36,
-    "tokens": 1941766,
-    "tracked": true,
-    "ts": 1794528000,
-    "usd": 25933,
-    "who": [
-     "Ecosystem & Community",
-     "Treasury"
-    ]
-   },
-   {
-    "big": false,
     "coin": "SEI",
     "insider_pct": 89,
     "pct": 1.56,
@@ -7368,45 +7339,64 @@
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
   "onchain": [
    {
-    "chain": "Base",
-    "symbol": "TSLAC",
-    "name": "Tesla Inc.",
-    "token": "0xb2000000000000000000001e800a7f5189430cd0",
-    "price": 395.951555646927,
-    "liq": 502415,
-    "vol24h": 8972495,
-    "age_d": 21.8,
-    "chg24h": 2.001,
-    "chg7d": 17.5,
-    "mcap": 2463629.57872888,
-    "safety": "ok",
-    "safety_notes": [],
-    "trigger": false,
-    "trend_up": true,
-    "rsi": 59.4,
-    "url": "https://www.geckoterminal.com/base/pools/0x7a33000372f3f028f074182ccb9d16cbeefbf920"
-   },
-   {
-    "chain": "Solana",
-    "symbol": "MIHAO",
-    "name": "ni hao cat",
-    "token": "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump",
-    "price": 0.014196614011644227,
-    "liq": 412812,
-    "vol24h": 11559538,
-    "age_d": 18.3,
-    "chg24h": -26.049,
-    "chg7d": 5222.5,
-    "mcap": 13335414.2959682,
+    "chain": "BSC",
+    "symbol": "JCT",
+    "name": "JANCTION",
+    "token": "0xea37a8de1de2d9d10772eeb569e28bfa5cb17707",
+    "price": 0.00237222751807295,
+    "liq": 631447,
+    "vol24h": 15047085,
+    "age_d": 162.4,
+    "chg24h": -52.58,
+    "chg7d": -21.4,
+    "mcap": 27277886.3983654,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 43.2,
-    "url": "https://www.geckoterminal.com/solana/pools/Ho1aSG6WGH1FfXdEHrK2f4Ggt1Hoxo9s5jcLMDqeyeBz"
+    "rsi": 26.5,
+    "url": "https://www.geckoterminal.com/bsc/pools/0x7bb2f6dab157e444ad8717b0178035c1b1cf24958b37c2a205e61a3582283249"
+   },
+   {
+    "chain": "Base",
+    "symbol": "METAC",
+    "name": "Meta Platforms Inc.",
+    "token": "0xb2000000000000000000008bc8786b856e61707c",
+    "price": 625.885912436542,
+    "liq": 917727,
+    "vol24h": 11121629,
+    "age_d": 21.9,
+    "chg24h": 0.369,
+    "chg7d": 5.1,
+    "mcap": 5480058.60804045,
+    "safety": "ok",
+    "safety_notes": [],
+    "trigger": false,
+    "trend_up": false,
+    "rsi": 47.6,
+    "url": "https://www.geckoterminal.com/base/pools/0xd072410fa13d242e1d53721bcf7af02e3455dc96"
+   },
+   {
+    "chain": "Arbitrum",
+    "symbol": "USDG",
+    "name": "Global Dollar",
+    "token": "0x004b506865409877c9fa29bfb1eba929984b9bbc",
+    "price": 0.999127494372019,
+    "liq": 1407786,
+    "vol24h": 7599266,
+    "age_d": 17.9,
+    "chg24h": -0.172,
+    "chg7d": -0.0,
+    "mcap": 2664819768.29888,
+    "safety": "ok",
+    "safety_notes": [],
+    "trigger": false,
+    "trend_up": false,
+    "rsi": 47.6,
+    "url": "https://www.geckoterminal.com/arbitrum/pools/0x09328be718d89228a985471bb470988a34d0b162"
    }
   ],
-  "onchain_checked": 85,
+  "onchain_checked": 84,
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
@@ -7433,7 +7423,7 @@
    {
     "id": "artificial-intelligence",
     "name": "Artificial Intelligence",
-    "chg7d": -3.34,
+    "chg7d": -2.75,
     "top": [
      "NEAR",
      "TAO",
@@ -7990,8 +7980,8 @@
   ],
   "updated": {
    "unlocks": 1794507622,
-   "onchain": 1794524427,
-   "sectors": 1794527123,
+   "onchain": 1794528035,
+   "sectors": 1794528035,
    "listings": 1794525323,
    "fundamentals": 1794507623
   }
@@ -8030,6 +8020,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "f1ed0ed0c37d3d95bfcb704efe07f3ac6a0077dd0d1d9c574bc801f35470074b",
- "generated": "2026-11-12T23:55:32+00:00"
+ "digest": "efc91d6d3a41c908ad2b268bf1d3fc6bca11ed3de909442c934b6e48d8726c35",
+ "generated": "2026-11-13T00:02:11+00:00"
 }
