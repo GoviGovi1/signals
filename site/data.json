@@ -27,7 +27,7 @@
     0.0028474776986802002
    ],
    "lev": 1,
-   "funding_pct": -0.0017,
+   "funding_pct": 0.0007,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-11T23:00:00+00:00",
@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.003141,
-   "last_ts": "2026-11-13T03:55:20+00:00",
-   "move_pct": 2.67,
+   "last": 0.003144,
+   "last_ts": "2026-11-13T04:01:31+00:00",
+   "move_pct": 2.57,
    "closed": false,
    "rsi": 33.9,
    "trade_on": "Perps 1x",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1496,
-   "last_ts": "2026-11-13T03:55:20+00:00",
-   "move_pct": -0.6,
+   "last": 0.1501,
+   "last_ts": "2026-11-13T04:01:31+00:00",
+   "move_pct": -0.27,
    "closed": false,
    "rsi": 51.5,
    "trade_on": "Perps 1x",
@@ -117,7 +117,7 @@
     5.9822574901354
    ],
    "lev": 2,
-   "funding_pct": -0.0296,
+   "funding_pct": -0.0287,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-12T00:00:00+00:00",
@@ -125,15 +125,105 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 7.305,
-   "last_ts": "2026-11-13T03:55:20+00:00",
-   "move_pct": 2.87,
+   "last": 7.289,
+   "last_ts": "2026-11-13T04:01:31+00:00",
+   "move_pct": 3.08,
    "closed": false,
    "rsi": 28.8,
    "trade_on": "Perps 2x",
    "market_reason": "shorts need perps; 2x keeps liquidation 3x+ further away than the stop",
    "chart": "charts/INJ-PERP-1794438000.png",
    "setup": "RANGE_BREAK"
+  },
+  {
+   "id": "MOODENG-PERP-1794538800",
+   "kind": "TA",
+   "score": 1,
+   "reasons": [
+    "Chart: Broke the 20-hour low on 4.2x volume",
+    "Timeframes: 1d down, 4h down, 4h structure mixed",
+    "No support below in the last 50 days",
+    "Stop 0.030663 (structure); targets at 1R/2R/3R",
+    "BTC 4h trend down",
+    "Weaker than BTC by 2.3% over 7d",
+    "OI +1% 24h",
+    "Sector: Solana Meme Coins -9.6% 7d (lagging, #19 of 20)",
+    "Track record: +2.2R on MOODENG in the last 45 days (backtest)"
+   ],
+   "coin": "MOODENG",
+   "market": "PERP",
+   "side": "SHORT",
+   "entry": 0.02925,
+   "sl0": 0.030662959671910652,
+   "sl": 0.030662959671910652,
+   "tps": [
+    0.02783704032808935,
+    0.0264240806561787,
+    0.02501112098426805
+   ],
+   "lev": 1,
+   "funding_pct": -0.0068,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-11-13T04:00:00+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.02923,
+   "last_ts": "2026-11-13T04:01:31+00:00",
+   "move_pct": 0.07,
+   "closed": false,
+   "rsi": 25.7,
+   "trade_on": "Perps 1x",
+   "market_reason": "shorts need perps; thin perp market, so 1x",
+   "chart": "charts/MOODENG-PERP-1794538800.png",
+   "setup": "BREAKOUT20"
+  },
+  {
+   "id": "1INCH-PERP-1794538800",
+   "kind": "TA",
+   "score": 0,
+   "reasons": [
+    "Chart: Break of structure: closed below the last swing low 0.07169, after a lower high",
+    "Timeframes: 1d down, 4h down, 4h structure lower highs/lows",
+    "No support below in the last 50 days",
+    "Stop 0.072808 (structure); targets at 1R/2R/3R",
+    "BTC 4h trend down",
+    "Weaker than BTC by 1.7% over 7d",
+    "OI +5% 24h",
+    "Sector: Decentralized Exchange -5.9% 7d (middle, #9 of 20)",
+    "Track record: +0.6R on 1INCH in the last 45 days (backtest)"
+   ],
+   "coin": "1INCH",
+   "market": "PERP",
+   "side": "SHORT",
+   "entry": 0.07127,
+   "sl0": 0.07280810197214942,
+   "sl": 0.07280810197214942,
+   "tps": [
+    0.06973189802785058,
+    0.06819379605570117,
+    0.06665569408355175
+   ],
+   "lev": 1,
+   "funding_pct": 0.01,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-11-13T04:00:00+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.07123,
+   "last_ts": "2026-11-13T04:01:31+00:00",
+   "move_pct": 0.06,
+   "closed": false,
+   "rsi": 26.3,
+   "trade_on": "Perps 1x",
+   "market_reason": "shorts need perps; thin perp market, so 1x",
+   "chart": "charts/1INCH-PERP-1794538800.png",
+   "setup": "BOS"
   }
  ],
  "closed": [
@@ -4052,7 +4142,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 3
+  "open": 5
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7324,61 +7414,61 @@
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
   "onchain": [
    {
-    "chain": "Base",
-    "symbol": "SNDKC",
-    "name": "Sandisk Corporation",
-    "token": "0xb200000000000000000000397293cb8cda9a10c5",
-    "price": 942.355957000164,
-    "liq": 1985548,
-    "vol24h": 27508723,
-    "age_d": 22.0,
-    "chg24h": -2.773,
-    "chg7d": 8.7,
-    "mcap": 2016991.13079045,
+    "chain": "BSC",
+    "symbol": "JCT",
+    "name": "JANCTION",
+    "token": "0xea37a8de1de2d9d10772eeb569e28bfa5cb17707",
+    "price": 0.0021346563314454,
+    "liq": 593790,
+    "vol24h": 14103872,
+    "age_d": 162.5,
+    "chg24h": -48.55,
+    "chg7d": -23.6,
+    "mcap": 24305889.0734333,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
-    "trend_up": true,
-    "rsi": 49.3,
-    "url": "https://www.geckoterminal.com/base/pools/0x2836e062a3fe75943a7f4a552e2365b98e414e75"
+    "trend_up": false,
+    "rsi": 24.0,
+    "url": "https://www.geckoterminal.com/bsc/pools/0x7bb2f6dab157e444ad8717b0178035c1b1cf24958b37c2a205e61a3582283249"
    },
    {
     "chain": "Solana",
     "symbol": "MIHAO",
     "name": "ni hao cat",
     "token": "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump",
-    "price": 0.015442272451890036,
-    "liq": 431351,
-    "vol24h": 11053090,
-    "age_d": 18.4,
-    "chg24h": -22.9,
-    "chg7d": 4934.0,
-    "mcap": 14633086.6036518,
+    "price": 0.014573863894249167,
+    "liq": 413552,
+    "vol24h": 9734646,
+    "age_d": 18.5,
+    "chg24h": -31.571,
+    "chg7d": 4603.8,
+    "mcap": 13664274.0860836,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
-    "trend_up": true,
-    "rsi": 48.8,
+    "trend_up": false,
+    "rsi": 45.9,
     "url": "https://www.geckoterminal.com/solana/pools/Ho1aSG6WGH1FfXdEHrK2f4Ggt1Hoxo9s5jcLMDqeyeBz"
    },
    {
-    "chain": "Base",
-    "symbol": "TSLAC",
-    "name": "Tesla Inc.",
-    "token": "0xb2000000000000000000001e800a7f5189430cd0",
-    "price": 399.326438742931,
-    "liq": 530791,
-    "vol24h": 8479106,
-    "age_d": 22.0,
-    "chg24h": 2.918,
-    "chg7d": 14.2,
-    "mcap": 2500148.97339052,
+    "chain": "BSC",
+    "symbol": "Q",
+    "name": "Quack AI Token",
+    "token": "0xc07e1300dc138601fa6b0b59f8d0fa477e690589",
+    "price": 0.0265795648378168,
+    "liq": 1064046,
+    "vol24h": 4726233,
+    "age_d": 438.8,
+    "chg24h": -0.304,
+    "chg7d": 4.6,
+    "mcap": 132086984.304481,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
-    "trend_up": true,
-    "rsi": 60.4,
-    "url": "https://www.geckoterminal.com/base/pools/0x7a33000372f3f028f074182ccb9d16cbeefbf920"
+    "trend_up": false,
+    "rsi": 45.6,
+    "url": "https://www.geckoterminal.com/bsc/pools/0x8bafe0bdd3eb9ae0539f5b32e771c1a72a189b7f"
    }
   ],
   "onchain_checked": 83,
@@ -7561,23 +7651,6 @@
     ]
    },
    {
-    "id": "bitcoin-ecosystem",
-    "name": "Bitcoin Ecosystem",
-    "chg7d": -5.54,
-    "top": [
-     "BTC",
-     "DOG",
-     "ORDI",
-     "USTBL",
-     "LOBO"
-    ],
-    "tracked": [
-     "BTC",
-     "ORDI",
-     "SATS"
-    ]
-   },
-   {
     "id": "decentralized-exchange",
     "name": "Decentralized Exchange",
     "chg7d": -5.94,
@@ -7661,6 +7734,23 @@
      "ZKP",
      "API3",
      "WIN"
+    ]
+   },
+   {
+    "id": "bitcoin-ecosystem",
+    "name": "Bitcoin Ecosystem",
+    "chg7d": -6.82,
+    "top": [
+     "BTC",
+     "DOG",
+     "ORDI",
+     "USTBL",
+     "LOBO"
+    ],
+    "tracked": [
+     "BTC",
+     "ORDI",
+     "SATS"
     ]
    },
    {
@@ -7966,8 +8056,8 @@
   ],
   "updated": {
    "unlocks": 1794529224,
-   "onchain": 1794538836,
-   "sectors": 1794541525,
+   "onchain": 1794542431,
+   "sectors": 1794542431,
    "listings": 1794540327,
    "fundamentals": 1794529225
   }
@@ -8006,6 +8096,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "5ba0c4a988bf6dbcc278d2cd2fa53d186b9708388f5601a5c15ac8b447339b49",
- "generated": "2026-11-13T03:55:23+00:00"
+ "digest": "85e517420f0c644aa26ad895f759ac24c94ba09aa1843fa30fd010e3e051e47f",
+ "generated": "2026-11-13T04:02:52+00:00"
 }
