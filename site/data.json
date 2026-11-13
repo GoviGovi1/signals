@@ -27,7 +27,7 @@
     0.17762323492937077
    ],
    "lev": 1,
-   "funding_pct": 0.005,
+   "funding_pct": 0.0043,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-12T00:00:00+00:00",
@@ -36,7 +36,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.1577,
-   "last_ts": "2026-11-13T20:10:22+00:00",
+   "last_ts": "2026-11-13T20:15:21+00:00",
    "move_pct": 4.78,
    "closed": false,
    "rsi": 51.5,
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.017370646982257498,
-   "last_ts": "2026-11-13T20:10:22+00:00",
-   "move_pct": -0.14,
+   "last": 0.0172916567306739,
+   "last_ts": "2026-11-13T20:15:21+00:00",
+   "move_pct": -0.6,
    "closed": false,
    "rsi": 71.0,
    "trade_on": "On-chain spot (Base DEX)",
@@ -123,9 +123,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.5184,
-   "last_ts": "2026-11-13T20:10:22+00:00",
-   "move_pct": -0.15,
+   "last": 0.518,
+   "last_ts": "2026-11-13T20:15:21+00:00",
+   "move_pct": -0.23,
    "closed": false,
    "rsi": 64.4,
    "trade_on": "Spot",
@@ -7651,6 +7651,28 @@
     ]
    },
    {
+    "id": "ai-agents",
+    "name": "AI Agents",
+    "chg7d": -8.42,
+    "top": [
+     "VVV",
+     "VIRTUAL",
+     "FET",
+     "KITE",
+     "TRAC"
+    ],
+    "tracked": [
+     "VVV",
+     "MAGIC",
+     "VIRTUAL",
+     "FET",
+     "AEON",
+     "KITE",
+     "PIPPIN",
+     "AIXBT"
+    ]
+   },
+   {
     "id": "depin",
     "name": "DePIN",
     "chg7d": -8.87,
@@ -7709,28 +7731,6 @@
      "FIL",
      "AR",
      "WAL"
-    ]
-   },
-   {
-    "id": "ai-agents",
-    "name": "AI Agents",
-    "chg7d": -9.05,
-    "top": [
-     "VVV",
-     "VIRTUAL",
-     "FET",
-     "KITE",
-     "TRAC"
-    ],
-    "tracked": [
-     "VVV",
-     "MAGIC",
-     "VIRTUAL",
-     "FET",
-     "AEON",
-     "KITE",
-     "PIPPIN",
-     "AIXBT"
     ]
    },
    {
@@ -8019,8 +8019,8 @@
   "updated": {
    "unlocks": 1794594625,
    "onchain": 1794600036,
-   "sectors": 1794600036,
-   "listings": 1794597319,
+   "sectors": 1794600921,
+   "listings": 1794600921,
    "fundamentals": 1794594626
   }
  },
@@ -8058,6 +8058,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "f7025a310a87fb6100e2c0460f982ee3a48d6bf138701f7a3aa486ee018daa4c",
- "generated": "2026-11-13T20:10:27+00:00"
+ "digest": "e0ad3d109670b8b78b0319c98693aa29ac40578f5da751d9c95468d0b54d320b",
+ "generated": "2026-11-13T20:15:26+00:00"
 }
