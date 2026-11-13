@@ -27,7 +27,7 @@
     0.0028474776986802002
    ],
    "lev": 1,
-   "funding_pct": -0.0161,
+   "funding_pct": -0.0143,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-11T23:00:00+00:00",
@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.003272,
-   "last_ts": "2026-11-13T08:55:20+00:00",
-   "move_pct": -1.39,
+   "last": 0.003285,
+   "last_ts": "2026-11-13T09:01:34+00:00",
+   "move_pct": -1.8,
    "closed": false,
    "rsi": 33.9,
    "trade_on": "Perps 1x",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1579,
-   "last_ts": "2026-11-13T08:55:20+00:00",
-   "move_pct": 4.92,
+   "last": 0.1585,
+   "last_ts": "2026-11-13T09:01:34+00:00",
+   "move_pct": 5.32,
    "closed": false,
    "rsi": 51.5,
    "trade_on": "Perps 1x",
@@ -117,7 +117,7 @@
     5.9822574901354
    ],
    "lev": 2,
-   "funding_pct": -0.0459,
+   "funding_pct": -0.0457,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-12T00:00:00+00:00",
@@ -125,9 +125,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 7.554,
-   "last_ts": "2026-11-13T08:55:20+00:00",
-   "move_pct": -0.44,
+   "last": 7.574,
+   "last_ts": "2026-11-13T09:01:34+00:00",
+   "move_pct": -0.7,
    "closed": false,
    "rsi": 28.8,
    "trade_on": "Perps 2x",
@@ -170,9 +170,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.03017,
-   "last_ts": "2026-11-13T08:55:20+00:00",
-   "move_pct": -3.15,
+   "last": 0.03016,
+   "last_ts": "2026-11-13T09:01:34+00:00",
+   "move_pct": -3.11,
    "closed": false,
    "rsi": 25.7,
    "trade_on": "Perps 1x",
@@ -215,9 +215,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.07195,
-   "last_ts": "2026-11-13T08:55:20+00:00",
-   "move_pct": -0.95,
+   "last": 0.07174,
+   "last_ts": "2026-11-13T09:01:34+00:00",
+   "move_pct": -0.66,
    "closed": false,
    "rsi": 26.3,
    "trade_on": "Perps 1x",
@@ -7416,64 +7416,64 @@
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
   "onchain": [
    {
-    "chain": "BSC",
-    "symbol": "AKE",
-    "name": "AKE",
-    "token": "0x2c3a8ee94ddd97244a93bc48298f97d2c412f7db",
-    "price": 0.00451076301299386,
-    "liq": 1126374,
-    "vol24h": 16441464,
-    "age_d": 450.0,
-    "chg24h": 83.175,
-    "chg7d": -10.3,
-    "mcap": 102794158.913565,
-    "safety": "ok",
-    "safety_notes": [],
-    "trigger": false,
-    "trend_up": true,
-    "rsi": 84.6,
-    "url": "https://www.geckoterminal.com/bsc/pools/0x4d3bf29ba30f8bfe4624e7678709afa195689c5d"
-   },
-   {
     "chain": "Base",
-    "symbol": "METAC",
-    "name": "Meta Platforms Inc.",
-    "token": "0xb2000000000000000000008bc8786b856e61707c",
-    "price": 626.088845866768,
-    "liq": 909593,
-    "vol24h": 10353950,
-    "age_d": 22.2,
-    "chg24h": -0.06,
-    "chg7d": 3.8,
-    "mcap": 5482284.06002781,
+    "symbol": "NVDAC",
+    "name": "NVIDIA Corporation",
+    "token": "0xb20000000000000000000078ee7ce2fe4908108c",
+    "price": 167.30705311177,
+    "liq": 1413594,
+    "vol24h": 13504541,
+    "age_d": 22.3,
+    "chg24h": 2.962,
+    "chg7d": -10.8,
+    "mcap": 7792689.3618703,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 49.0,
-    "url": "https://www.geckoterminal.com/base/pools/0xd072410fa13d242e1d53721bcf7af02e3455dc96"
+    "rsi": 54.5,
+    "url": "https://www.geckoterminal.com/base/pools/0xf668e21993f0acd7ab00bb1cfbaed0df28a3c8ec"
    },
    {
-    "chain": "Base",
-    "symbol": "AERO",
-    "name": "Aero",
-    "token": "0x3f5bf3edac59d650d8fdf9657a71f2f904a3a4ee",
-    "price": 0.479663146105679,
-    "liq": 27380142,
-    "vol24h": 7144920,
-    "age_d": 14.9,
-    "chg24h": -10.718,
-    "chg7d": -18.6,
-    "mcap": 346421224.932776,
+    "chain": "Solana",
+    "symbol": "MIHAO",
+    "name": "ni hao cat",
+    "token": "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump",
+    "price": 0.013840429719185747,
+    "liq": 408750,
+    "vol24h": 8399484,
+    "age_d": 18.7,
+    "chg24h": -18.83,
+    "chg7d": 4101.2,
+    "mcap": 13021557.9927302,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 25.3,
-    "url": "https://www.geckoterminal.com/base/pools/0xf634058dc94e6bf8e828e27621320c423bc8b18e"
+    "rsi": 44.1,
+    "url": "https://www.geckoterminal.com/solana/pools/Ho1aSG6WGH1FfXdEHrK2f4Ggt1Hoxo9s5jcLMDqeyeBz"
+   },
+   {
+    "chain": "Arbitrum",
+    "symbol": "ARB",
+    "name": "Arbitrum",
+    "token": "0x912ce59144191c1204e64559fe8253a0e49e6548",
+    "price": 0.145314438857739,
+    "liq": 1529754,
+    "vol24h": 4942913,
+    "age_d": 1337.3,
+    "chg24h": -1.909,
+    "chg7d": -12.2,
+    "mcap": 1001523828.56402,
+    "safety": "ok",
+    "safety_notes": [],
+    "trigger": false,
+    "trend_up": false,
+    "rsi": 39.6,
+    "url": "https://www.geckoterminal.com/arbitrum/pools/0xc6f780497a95e246eb9449f5e4770916dcd6396a"
    }
   ],
-  "onchain_checked": 83,
+  "onchain_checked": 81,
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
@@ -7496,23 +7496,6 @@
      "PLUME",
      "CARDS",
      "ZBCN"
-    ]
-   },
-   {
-    "id": "bitcoin-ecosystem",
-    "name": "Bitcoin Ecosystem",
-    "chg7d": -6.82,
-    "top": [
-     "BTC",
-     "DOG",
-     "ORDI",
-     "USTBL",
-     "LOBO"
-    ],
-    "tracked": [
-     "BTC",
-     "ORDI",
-     "SATS"
     ]
    },
    {
@@ -7769,6 +7752,23 @@
      "FARTCOIN",
      "BONK",
      "ACT"
+    ]
+   },
+   {
+    "id": "bitcoin-ecosystem",
+    "name": "Bitcoin Ecosystem",
+    "chg7d": -9.54,
+    "top": [
+     "BTC",
+     "DOG",
+     "ORDI",
+     "USTBL",
+     "LOBO"
+    ],
+    "tracked": [
+     "BTC",
+     "ORDI",
+     "SATS"
     ]
    },
    {
@@ -8058,8 +8058,8 @@
   ],
   "updated": {
    "unlocks": 1794551122,
-   "onchain": 1794556836,
-   "sectors": 1794559523,
+   "onchain": 1794560430,
+   "sectors": 1794560430,
    "listings": 1794559523,
    "fundamentals": 1794551123
   }
@@ -8098,6 +8098,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "d304459db6cbe08c240176c3f80f56d287ccd2d3e9da2cec8677196abfb209c7",
- "generated": "2026-11-13T08:55:23+00:00"
+ "digest": "269071b7d75a893069bb01a0495b2c39585d8d31dda071ed76d32a6c386bf796",
+ "generated": "2026-11-13T09:02:07+00:00"
 }
