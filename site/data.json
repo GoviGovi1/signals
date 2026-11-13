@@ -27,7 +27,7 @@
     0.0028474776986802002
    ],
    "lev": 1,
-   "funding_pct": -0.0064,
+   "funding_pct": -0.007,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-11T23:00:00+00:00",
@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0033,
-   "last_ts": "2026-11-13T10:01:32+00:00",
-   "move_pct": -2.26,
+   "last": 0.003291,
+   "last_ts": "2026-11-13T10:05:21+00:00",
+   "move_pct": -1.98,
    "closed": false,
    "rsi": 33.9,
    "trade_on": "Perps 1x",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1582,
-   "last_ts": "2026-11-13T10:01:32+00:00",
-   "move_pct": 5.12,
+   "last": 0.1581,
+   "last_ts": "2026-11-13T10:05:21+00:00",
+   "move_pct": 5.05,
    "closed": false,
    "rsi": 51.5,
    "trade_on": "Perps 1x",
@@ -117,7 +117,7 @@
     5.9822574901354
    ],
    "lev": 2,
-   "funding_pct": -0.0498,
+   "funding_pct": -0.0499,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-12T00:00:00+00:00",
@@ -125,9 +125,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 7.581,
-   "last_ts": "2026-11-13T10:01:32+00:00",
-   "move_pct": -0.8,
+   "last": 7.575,
+   "last_ts": "2026-11-13T10:05:21+00:00",
+   "move_pct": -0.72,
    "closed": false,
    "rsi": 28.8,
    "trade_on": "Perps 2x",
@@ -171,7 +171,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.03019,
-   "last_ts": "2026-11-13T10:01:32+00:00",
+   "last_ts": "2026-11-13T10:05:21+00:00",
    "move_pct": -3.21,
    "closed": false,
    "rsi": 25.7,
@@ -215,15 +215,55 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.07197,
-   "last_ts": "2026-11-13T10:01:32+00:00",
-   "move_pct": -0.98,
+   "last": 0.07205,
+   "last_ts": "2026-11-13T10:05:21+00:00",
+   "move_pct": -1.09,
    "closed": false,
    "rsi": 26.3,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": "charts/1INCH-PERP-1794538800.png",
    "setup": "BOS"
+  },
+  {
+   "id": "SOPH-PERP-HOT-20770",
+   "kind": "HOT",
+   "score": 274.49,
+   "reasons": [
+    "24h hot mover +22% with volume spike (1.8x the prior 3 days)",
+    "24h volume $7.7M on the OKX perp book, listed 534 days",
+    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
+    "Stop 0.0014707 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
+   ],
+   "coin": "SOPH",
+   "market": "PERP",
+   "side": "LONG",
+   "entry": 0.00159,
+   "sl0": 0.0014707277096377425,
+   "sl": 0.0014707277096377425,
+   "tps": [
+    0.0017092722903622576,
+    0.0018285445807245152,
+    0.0019478168710867728
+   ],
+   "lev": 1,
+   "funding_pct": -0.0122,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-11-13T10:05:21+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.00159,
+   "last_ts": "2026-11-13T10:05:21+00:00",
+   "move_pct": 0.0,
+   "closed": false,
+   "rsi": null,
+   "trade_on": "Perps 1x",
+   "market_reason": "the perp book is where the 24h move and volume are; very volatile, so 1x",
+   "chart": "charts/SOPH-PERP-HOT-20770.png",
+   "setup": "HOT24"
   }
  ],
  "closed": [
@@ -4143,7 +4183,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 5
+  "open": 6
  },
  "backtest": {
   "from": "2026-07-24",
@@ -8098,6 +8138,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "795099776fa4e6c5fa15c950772af7988d598bf379ebc40fa96ca300e0e3165e",
- "generated": "2026-11-13T10:02:06+00:00"
+ "digest": "727efb818e07fb540adc9a663941b031d9477f4c02be490a7e16333a60f9f6a2",
+ "generated": "2026-11-13T10:05:28+00:00"
 }
