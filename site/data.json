@@ -27,7 +27,7 @@
     0.0028474776986802002
    ],
    "lev": 1,
-   "funding_pct": -0.0041,
+   "funding_pct": -0.0029,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-11T23:00:00+00:00",
@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.003264,
-   "last_ts": "2026-11-13T02:25:22+00:00",
-   "move_pct": -1.15,
+   "last": 0.003266,
+   "last_ts": "2026-11-13T02:30:30+00:00",
+   "move_pct": -1.21,
    "closed": false,
    "rsi": 33.9,
    "trade_on": "Perps 1x",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1537,
-   "last_ts": "2026-11-13T02:25:22+00:00",
-   "move_pct": 2.13,
+   "last": 0.1536,
+   "last_ts": "2026-11-13T02:30:30+00:00",
+   "move_pct": 2.06,
    "closed": false,
    "rsi": 51.5,
    "trade_on": "Perps 1x",
@@ -117,7 +117,7 @@
     5.9822574901354
    ],
    "lev": 2,
-   "funding_pct": -0.0299,
+   "funding_pct": -0.0298,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-12T00:00:00+00:00",
@@ -125,9 +125,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 7.428,
-   "last_ts": "2026-11-13T02:25:22+00:00",
-   "move_pct": 1.24,
+   "last": 7.453,
+   "last_ts": "2026-11-13T02:30:30+00:00",
+   "move_pct": 0.9,
    "closed": false,
    "rsi": 28.8,
    "trade_on": "Perps 2x",
@@ -7622,6 +7622,28 @@
     ]
    },
    {
+    "id": "depin",
+    "name": "DePIN",
+    "chg7d": -6.21,
+    "top": [
+     "TAO",
+     "RENDER",
+     "FIL",
+     "BDX",
+     "GRASS"
+    ],
+    "tracked": [
+     "FIL",
+     "TAO",
+     "GRASS",
+     "AR",
+     "RENDER",
+     "ATH",
+     "LPT",
+     "IOTA"
+    ]
+   },
+   {
     "id": "ai-agents",
     "name": "AI Agents",
     "chg7d": -6.33,
@@ -7704,28 +7726,6 @@
      "KMNO",
      "COMP",
      "SPK"
-    ]
-   },
-   {
-    "id": "depin",
-    "name": "DePIN",
-    "chg7d": -7.25,
-    "top": [
-     "TAO",
-     "RENDER",
-     "FIL",
-     "BDX",
-     "GRASS"
-    ],
-    "tracked": [
-     "FIL",
-     "TAO",
-     "GRASS",
-     "AR",
-     "RENDER",
-     "ATH",
-     "LPT",
-     "IOTA"
     ]
    },
    {
@@ -7967,7 +7967,7 @@
   "updated": {
    "unlocks": 1794529224,
    "onchain": 1794535235,
-   "sectors": 1794536129,
+   "sectors": 1794537029,
    "listings": 1794536722,
    "fundamentals": 1794529225
   }
@@ -8006,6 +8006,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "9a55001d325f27d34b6610d9897fa3c91ddd4ec27c18ea1ec3e8e868c3b847be",
- "generated": "2026-11-13T02:25:24+00:00"
+ "digest": "f6218520cb89f62fab4711b071e69c801c8d2ed186a14e3df69f3aeb3276e208",
+ "generated": "2026-11-13T02:30:32+00:00"
 }
