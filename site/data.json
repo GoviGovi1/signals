@@ -27,7 +27,7 @@
     0.0028474776986802002
    ],
    "lev": 1,
-   "funding_pct": 0.0019,
+   "funding_pct": 0.0029,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-11T23:00:00+00:00",
@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.003288,
-   "last_ts": "2026-11-13T11:40:22+00:00",
-   "move_pct": -1.89,
+   "last": 0.003295,
+   "last_ts": "2026-11-13T11:45:32+00:00",
+   "move_pct": -2.11,
    "closed": false,
    "rsi": 33.9,
    "trade_on": "Perps 1x",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1606,
-   "last_ts": "2026-11-13T11:40:22+00:00",
-   "move_pct": 6.71,
+   "last": 0.1612,
+   "last_ts": "2026-11-13T11:45:32+00:00",
+   "move_pct": 7.11,
    "closed": false,
    "rsi": 51.5,
    "trade_on": "Perps 1x",
@@ -125,9 +125,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0301,
-   "last_ts": "2026-11-13T11:40:22+00:00",
-   "move_pct": -2.91,
+   "last": 0.03014,
+   "last_ts": "2026-11-13T11:45:32+00:00",
+   "move_pct": -3.04,
    "closed": false,
    "rsi": 25.7,
    "trade_on": "Perps 1x",
@@ -170,9 +170,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0719,
-   "last_ts": "2026-11-13T11:40:22+00:00",
-   "move_pct": -0.88,
+   "last": 0.07187,
+   "last_ts": "2026-11-13T11:45:32+00:00",
+   "move_pct": -0.84,
    "closed": false,
    "rsi": 26.3,
    "trade_on": "Perps 1x",
@@ -195,24 +195,24 @@
    "side": "LONG",
    "entry": 0.00159,
    "sl0": 0.0014707277096377425,
-   "sl": 0.0014707277096377425,
+   "sl": 0.00159,
    "tps": [
     0.0017092722903622576,
     0.0018285445807245152,
     0.0019478168710867728
    ],
    "lev": 1,
-   "funding_pct": -0.0236,
-   "status": "open",
-   "hits": 0,
+   "funding_pct": -0.0221,
+   "status": "tp1",
+   "hits": 1,
    "opened": "2026-11-13T10:05:21+00:00",
    "closed_at": null,
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.001686,
-   "last_ts": "2026-11-13T11:40:22+00:00",
-   "move_pct": 6.04,
+   "last": 0.001704,
+   "last_ts": "2026-11-13T11:45:32+00:00",
+   "move_pct": 7.17,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -7690,28 +7690,6 @@
     ]
    },
    {
-    "id": "gaming",
-    "name": "Gaming",
-    "chg7d": -8.33,
-    "top": [
-     "BEAM",
-     "FLOKI",
-     "GEOD",
-     "GOMINING",
-     "AXS"
-    ],
-    "tracked": [
-     "ONE",
-     "BEAT",
-     "SAND",
-     "APE",
-     "ENJ",
-     "GALA",
-     "AXS",
-     "NOT"
-    ]
-   },
-   {
     "id": "decentralized-finance-defi",
     "name": "Decentralized Finance DeFi",
     "chg7d": -8.42,
@@ -7753,6 +7731,28 @@
      "USELESS",
      "PENGU",
      "WIF"
+    ]
+   },
+   {
+    "id": "gaming",
+    "name": "Gaming",
+    "chg7d": -8.62,
+    "top": [
+     "BEAM",
+     "FLOKI",
+     "GEOD",
+     "GOMINING",
+     "AXS"
+    ],
+    "tracked": [
+     "ONE",
+     "BEAT",
+     "SAND",
+     "APE",
+     "ENJ",
+     "GALA",
+     "AXS",
+     "NOT"
     ]
    },
    {
@@ -8060,8 +8060,8 @@
   "updated": {
    "unlocks": 1794551122,
    "onchain": 1794567631,
-   "sectors": 1794569425,
-   "listings": 1794566728,
+   "sectors": 1794570331,
+   "listings": 1794570330,
    "fundamentals": 1794551123
   }
  },
@@ -8099,6 +8099,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "eda85cb24a0fc3125ecdd2dc5f8a73decc292568dbf1b258742f30d83f4623f1",
- "generated": "2026-11-13T11:40:25+00:00"
+ "digest": "08e014a82ba6dfa071481810149166a74e06e94e0ea0afd2585f3c94415a805a",
+ "generated": "2026-11-13T11:45:36+00:00"
 }
