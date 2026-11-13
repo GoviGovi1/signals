@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1576,
-   "last_ts": "2026-11-13T18:55:18+00:00",
-   "move_pct": 4.72,
+   "last": 0.1572,
+   "last_ts": "2026-11-13T19:01:35+00:00",
+   "move_pct": 4.45,
    "closed": false,
    "rsi": 51.5,
    "trade_on": "Perps 1x",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0173721381686037,
-   "last_ts": "2026-11-13T18:55:18+00:00",
-   "move_pct": -0.13,
+   "last": 0.0173848274396319,
+   "last_ts": "2026-11-13T19:01:35+00:00",
+   "move_pct": -0.06,
    "closed": false,
    "rsi": 71.0,
    "trade_on": "On-chain spot (Base DEX)",
@@ -124,7 +124,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.5189,
-   "last_ts": "2026-11-13T18:55:18+00:00",
+   "last_ts": "2026-11-13T19:01:35+00:00",
    "move_pct": -0.06,
    "closed": false,
    "rsi": 64.4,
@@ -7376,64 +7376,83 @@
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
   "onchain": [
    {
-    "chain": "Solana",
-    "symbol": "CLOUD",
-    "name": "Cloud",
-    "token": "CLoUDKc4Ane7HeQcPpE3YHnznRxhMimJ4MyaUqyHFzAu",
-    "price": 0.08836595828895975,
-    "liq": 472157,
-    "vol24h": 6138000,
-    "age_d": 848.1,
-    "chg24h": 102.056,
-    "chg7d": 102.2,
-    "mcap": 43980139.867998,
+    "chain": "BSC",
+    "symbol": "KGEN",
+    "name": "KGEN",
+    "token": "0xf3d5b4c34ed623478cc5141861776e6cf7ae3a1e",
+    "price": 0.0838105763095669,
+    "liq": 625028,
+    "vol24h": 7080728,
+    "age_d": 403.4,
+    "chg24h": 13.356,
+    "chg7d": 17.1,
+    "mcap": 22055854.1101911,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": true,
-    "rsi": 56.8,
-    "url": "https://www.geckoterminal.com/solana/pools/F1KKNyUCsQcZLRjwQ4abX6Ri8gDAQ46nHwSHFKA5sFQv"
+    "rsi": 52.1,
+    "url": "https://www.geckoterminal.com/bsc/pools/0xb9b436c3869da550f943d3493e262be84a20e53b22223810eb7aa12acb8b6d34"
    },
    {
     "chain": "BSC",
-    "symbol": "JCT",
-    "name": "JANCTION",
-    "token": "0xea37a8de1de2d9d10772eeb569e28bfa5cb17707",
-    "price": 0.00219236078093977,
-    "liq": 606118,
-    "vol24h": 12236216,
-    "age_d": 163.1,
-    "chg24h": -2.363,
-    "chg7d": -32.2,
-    "mcap": 25198309.7040699,
+    "symbol": "IDOL",
+    "name": "MEET48 Token",
+    "token": "0x3b4de3c7855c03bb9f50ea252cd2c9fa1125ab07",
+    "price": 0.0184390869871849,
+    "liq": 1082005,
+    "vol24h": 31508744,
+    "age_d": 521.2,
+    "chg24h": -9.763,
+    "chg7d": -29.2,
+    "mcap": 39954811.3613862,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 38.9,
-    "url": "https://www.geckoterminal.com/bsc/pools/0x7bb2f6dab157e444ad8717b0178035c1b1cf24958b37c2a205e61a3582283249"
+    "rsi": 39.3,
+    "url": "https://www.geckoterminal.com/bsc/pools/0xfff4857a955b2b460c27fd431aa5a85fabca5559"
    },
    {
-    "chain": "Ethereum",
-    "symbol": "PAXG",
-    "name": "Paxos Gold",
-    "token": "0x45804880de22913dafe09f4980848ece6ecbaf78",
-    "price": 3868.88778057215,
-    "liq": 6571942,
-    "vol24h": 4293893,
-    "age_d": 387.2,
-    "chg24h": 0.005,
-    "chg7d": -4.1,
-    "mcap": 1732015317.94168,
+    "chain": "Base",
+    "symbol": "GOOGLC",
+    "name": "Alphabet Inc.",
+    "token": "0xb2000000000000000000002d0ba3164cc74f58b7",
+    "price": 295.356898720435,
+    "liq": 1972222,
+    "vol24h": 12142082,
+    "age_d": 22.7,
+    "chg24h": -1.529,
+    "chg7d": 3.2,
+    "mcap": 10420617.1999991,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 42.7,
-    "url": "https://www.geckoterminal.com/eth/pools/0xc756bba710d45647715079ce50aa16aab36ded42"
+    "rsi": 42.4,
+    "url": "https://www.geckoterminal.com/base/pools/0x16c70f04c3080a127486cdf5a4c33c066bbf47c3"
+   },
+   {
+    "chain": "BSC",
+    "symbol": "ARK",
+    "name": "ARK",
+    "token": "0xcae117ca6bc8a341d2e7207f30e180f0e5618b9d",
+    "price": 6.39532730728829,
+    "liq": 58233988,
+    "vol24h": 5218243,
+    "age_d": 444.3,
+    "chg24h": -0.081,
+    "chg7d": 0.1,
+    "mcap": 0.0,
+    "safety": "ok",
+    "safety_notes": [],
+    "trigger": false,
+    "trend_up": false,
+    "rsi": 50.4,
+    "url": "https://www.geckoterminal.com/bsc/pools/0xcaaf3c41a40103a23eeaa4bba468af3cf5b0e0d8"
    }
   ],
-  "onchain_checked": 85,
+  "onchain_checked": 86,
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
@@ -7591,6 +7610,23 @@
     ]
    },
    {
+    "id": "bitcoin-ecosystem",
+    "name": "Bitcoin Ecosystem",
+    "chg7d": -7.88,
+    "top": [
+     "BTC",
+     "DOG",
+     "ORDI",
+     "USTBL",
+     "LOBO"
+    ],
+    "tracked": [
+     "BTC",
+     "ORDI",
+     "SATS"
+    ]
+   },
+   {
     "id": "exchange-based-tokens",
     "name": "Exchange Based Tokens",
     "chg7d": -7.97,
@@ -7631,23 +7667,6 @@
      "COMP",
      "SPK",
      "KMNO"
-    ]
-   },
-   {
-    "id": "bitcoin-ecosystem",
-    "name": "Bitcoin Ecosystem",
-    "chg7d": -8.49,
-    "top": [
-     "BTC",
-     "DOG",
-     "ORDI",
-     "USTBL",
-     "LOBO"
-    ],
-    "tracked": [
-     "BTC",
-     "ORDI",
-     "SATS"
     ]
    },
    {
@@ -8018,8 +8037,8 @@
   ],
   "updated": {
    "unlocks": 1794594625,
-   "onchain": 1794592834,
-   "sectors": 1794595523,
+   "onchain": 1794596434,
+   "sectors": 1794596434,
    "listings": 1794593429,
    "fundamentals": 1794594626
   }
@@ -8058,6 +8077,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "0e07194f8b5a98e19e357661e7a397de67795f0108a4a23e691a09fe39956c47",
- "generated": "2026-11-13T18:55:22+00:00"
+ "digest": "c46abd921ab099065238566141abcc91fdfec6bc896f48c2bc76762db57d09cf",
+ "generated": "2026-11-13T19:02:11+00:00"
 }
