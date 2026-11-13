@@ -1,7 +1,14 @@
 {
- "checked": 81,
+ "checked": 82,
  "errors": [],
  "rejected": [
+  {
+   "chain": "Solana",
+   "fails": [
+    "no DEX candles"
+   ],
+   "symbol": "MIHAO"
+  },
   {
    "chain": "Solana",
    "fails": [
@@ -22,14 +29,21 @@
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "ANSEM"
+   "symbol": "STONK"
   },
   {
    "chain": "Solana",
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "STONK"
+   "symbol": "ANSEM"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "liquidity under $250k"
+   ],
+   "symbol": "GTA6"
   },
   {
    "chain": "Solana",
@@ -38,13 +52,6 @@
     "pool younger than 7 days"
    ],
    "symbol": "HUANG"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "liquidity under $250k"
-   ],
-   "symbol": "GTA6"
   },
   {
    "chain": "Solana",
@@ -94,13 +101,6 @@
   {
    "chain": "Solana",
    "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "PUMP"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
     "liquidity under $250k"
    ],
    "symbol": "DACITY"
@@ -110,7 +110,22 @@
    "fails": [
     "no DEX candles"
    ],
+   "symbol": "PUMP"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "no DEX candles"
+   ],
    "symbol": "DACITYCOIN"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "liquidity under $250k",
+    "24h volume under $250k"
+   ],
+   "symbol": "WEALTH"
   },
   {
    "chain": "Solana",
@@ -130,12 +145,11 @@
    "symbol": "SPCX"
   },
   {
-   "chain": "Solana",
+   "chain": "Base",
    "fails": [
-    "liquidity under $250k",
-    "24h volume under $250k"
+    "no DEX candles"
    ],
-   "symbol": "WEALTH"
+   "symbol": "NVDAC"
   },
   {
    "chain": "Base",
@@ -155,16 +169,16 @@
   {
    "chain": "Base",
    "fails": [
-    "no DEX candles"
+    "24h volume under $250k"
    ],
-   "symbol": "GOOGLC"
+   "symbol": "DRB"
   },
   {
    "chain": "Base",
    "fails": [
     "24h volume under $250k"
    ],
-   "symbol": "DRB"
+   "symbol": "TIBBIR"
   },
   {
    "chain": "Base",
@@ -176,9 +190,9 @@
   {
    "chain": "Base",
    "fails": [
-    "24h volume under $250k"
+    "no DEX candles"
    ],
-   "symbol": "TIBBIR"
+   "symbol": "VVV"
   },
   {
    "chain": "Base",
@@ -199,7 +213,7 @@
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "VVV"
+   "symbol": "SPCXC"
   },
   {
    "chain": "Base",
@@ -211,9 +225,16 @@
   {
    "chain": "Base",
    "fails": [
-    "no DEX candles"
+    "24h volume under $250k"
    ],
-   "symbol": "SPCXC"
+   "symbol": "POD"
+  },
+  {
+   "chain": "Base",
+   "fails": [
+    "24h volume under $250k"
+   ],
+   "symbol": "TIG"
   },
   {
    "chain": "Base",
@@ -225,24 +246,10 @@
   {
    "chain": "Base",
    "fails": [
-    "24h volume under $250k"
-   ],
-   "symbol": "POD"
-  },
-  {
-   "chain": "Base",
-   "fails": [
     "liquidity under $250k",
     "24h volume under $250k"
    ],
    "symbol": "FLOWER"
-  },
-  {
-   "chain": "Base",
-   "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "SNDKC"
   },
   {
    "chain": "BSC",
@@ -264,13 +271,6 @@
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "ARIA"
-  },
-  {
-   "chain": "BSC",
-   "fails": [
-    "no DEX candles"
-   ],
    "symbol": "AKE"
   },
   {
@@ -278,7 +278,7 @@
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "ARK"
+   "symbol": "ARIA"
   },
   {
    "chain": "BSC",
@@ -292,95 +292,95 @@
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "JCT"
+   "symbol": "ARK"
   }
  ],
  "rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
- "updated": 1794560430,
+ "updated": 1794564029,
  "watchlist": [
   {
    "age_d": 22.3,
-   "atr": 3.3892761249081587,
-   "bar_ts": 1794556800000,
+   "atr": 4.339075962316184,
+   "bar_ts": 1794560400000,
    "chain": "Base",
-   "chg24h": 2.962,
-   "chg7d": -10.8,
-   "close": 167.30705311177,
-   "ema20": 165.5719719407649,
-   "ema50": 167.1898301971257,
+   "chg24h": 2.436,
+   "chg7d": 6.0,
+   "close": 302.62378693292294,
+   "ema20": 299.3893357270709,
+   "ema50": 296.52330481050365,
    "fails": [],
-   "gecko_id": "nvidia-coinbase-tokenized-stock",
-   "liq": 1413594,
-   "mcap": 7792689.3618703,
-   "name": "NVIDIA Corporation",
+   "gecko_id": "alphabet-coinbase-tokenized-stock",
+   "liq": 1983817,
+   "mcap": 10523505.8232223,
+   "name": "Alphabet Inc.",
    "net": "base",
-   "pool": "0xf668e21993f0acd7ab00bb1cfbaed0df28a3c8ec",
-   "price": 167.30705311177,
-   "rsi": 54.5,
+   "pool": "0x16c70f04c3080a127486cdf5a4c33c066bbf47c3",
+   "price": 302.623786932923,
+   "rsi": 59.3,
    "safety": "ok",
    "safety_notes": [],
-   "symbol": "NVDAC",
-   "token": "0xb20000000000000000000078ee7ce2fe4908108c",
-   "trend_up": false,
+   "symbol": "GOOGLC",
+   "token": "0xb2000000000000000000002d0ba3164cc74f58b7",
+   "trend_up": true,
    "trigger": false,
-   "url": "https://www.geckoterminal.com/base/pools/0xf668e21993f0acd7ab00bb1cfbaed0df28a3c8ec",
-   "vol24h": 13504541
+   "url": "https://www.geckoterminal.com/base/pools/0x16c70f04c3080a127486cdf5a4c33c066bbf47c3",
+   "vol24h": 12839785
   },
   {
-   "age_d": 18.7,
-   "atr": 0.002441489336983599,
-   "bar_ts": 1794556800000,
-   "chain": "Solana",
-   "chg24h": -18.83,
-   "chg7d": 4101.2,
-   "close": 0.013880133709919825,
-   "ema20": 0.015232375402372732,
-   "ema50": 0.014782151113139784,
-   "fails": [],
-   "gecko_id": "ni-hao-cat-2",
-   "liq": 408750,
-   "mcap": 13021557.9927302,
-   "name": "ni hao cat",
-   "net": "solana",
-   "pool": "Ho1aSG6WGH1FfXdEHrK2f4Ggt1Hoxo9s5jcLMDqeyeBz",
-   "price": 0.013840429719185747,
-   "rsi": 44.1,
-   "safety": "ok",
-   "safety_notes": [],
-   "symbol": "MIHAO",
-   "token": "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump",
-   "trend_up": false,
-   "trigger": false,
-   "url": "https://www.geckoterminal.com/solana/pools/Ho1aSG6WGH1FfXdEHrK2f4Ggt1Hoxo9s5jcLMDqeyeBz",
-   "vol24h": 8399484
-  },
-  {
-   "age_d": 1337.3,
-   "atr": 0.0021705422207482163,
-   "bar_ts": 1794556800000,
+   "age_d": 18.3,
+   "atr": 0.0038455814788385307,
+   "bar_ts": 1794560400000,
    "chain": "Arbitrum",
-   "chg24h": -1.909,
-   "chg7d": -12.2,
-   "close": 0.14542284128195698,
-   "ema20": 0.14752282109413223,
-   "ema50": 0.15163202498245834,
+   "chg24h": 0.126,
+   "chg7d": 0.1,
+   "close": 1.00052995434988,
+   "ema20": 0.9995870970025966,
+   "ema50": 0.9996839142358819,
    "fails": [],
-   "gecko_id": "arbitrum",
-   "liq": 1529754,
-   "mcap": 1001523828.56402,
-   "name": "Arbitrum",
+   "gecko_id": "global-dollar",
+   "liq": 1350301,
+   "mcap": 2668560334.81276,
+   "name": "Global Dollar",
    "net": "arbitrum",
-   "pool": "0xc6f780497a95e246eb9449f5e4770916dcd6396a",
-   "price": 0.145314438857739,
-   "rsi": 39.6,
+   "pool": "0x09328be718d89228a985471bb470988a34d0b162",
+   "price": 1.00052995434988,
+   "rsi": 53.0,
    "safety": "ok",
    "safety_notes": [],
-   "symbol": "ARB",
-   "token": "0x912ce59144191c1204e64559fe8253a0e49e6548",
+   "symbol": "USDG",
+   "token": "0x004b506865409877c9fa29bfb1eba929984b9bbc",
    "trend_up": false,
    "trigger": false,
-   "url": "https://www.geckoterminal.com/arbitrum/pools/0xc6f780497a95e246eb9449f5e4770916dcd6396a",
-   "vol24h": 4942913
+   "url": "https://www.geckoterminal.com/arbitrum/pools/0x09328be718d89228a985471bb470988a34d0b162",
+   "vol24h": 8316799
+  },
+  {
+   "age_d": 386.9,
+   "atr": 26.98911333262023,
+   "bar_ts": 1794560400000,
+   "chain": "Ethereum",
+   "chg24h": -1.546,
+   "chg7d": -4.6,
+   "close": 3879.7984658310497,
+   "ema20": 3896.741641287295,
+   "ema50": 3934.26504942883,
+   "fails": [],
+   "gecko_id": "pax-gold",
+   "liq": 6354356,
+   "mcap": 1736924513.23378,
+   "name": "Paxos Gold",
+   "net": "eth",
+   "pool": "0xc756bba710d45647715079ce50aa16aab36ded42",
+   "price": 3879.79846583105,
+   "rsi": 42.1,
+   "safety": "ok",
+   "safety_notes": [],
+   "symbol": "PAXG",
+   "token": "0x45804880de22913dafe09f4980848ece6ecbaf78",
+   "trend_up": false,
+   "trigger": false,
+   "url": "https://www.geckoterminal.com/eth/pools/0xc756bba710d45647715079ce50aa16aab36ded42",
+   "vol24h": 4949416
   }
  ]
 }

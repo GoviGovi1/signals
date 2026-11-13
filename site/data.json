@@ -27,7 +27,7 @@
     0.0028474776986802002
    ],
    "lev": 1,
-   "funding_pct": -0.0047,
+   "funding_pct": -0.0064,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-11T23:00:00+00:00",
@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.003301,
-   "last_ts": "2026-11-13T09:55:21+00:00",
-   "move_pct": -2.29,
+   "last": 0.0033,
+   "last_ts": "2026-11-13T10:01:32+00:00",
+   "move_pct": -2.26,
    "closed": false,
    "rsi": 33.9,
    "trade_on": "Perps 1x",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1575,
-   "last_ts": "2026-11-13T09:55:21+00:00",
-   "move_pct": 4.65,
+   "last": 0.1582,
+   "last_ts": "2026-11-13T10:01:32+00:00",
+   "move_pct": 5.12,
    "closed": false,
    "rsi": 51.5,
    "trade_on": "Perps 1x",
@@ -117,7 +117,7 @@
     5.9822574901354
    ],
    "lev": 2,
-   "funding_pct": -0.0507,
+   "funding_pct": -0.0498,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-12T00:00:00+00:00",
@@ -125,9 +125,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 7.549,
-   "last_ts": "2026-11-13T09:55:21+00:00",
-   "move_pct": -0.37,
+   "last": 7.581,
+   "last_ts": "2026-11-13T10:01:32+00:00",
+   "move_pct": -0.8,
    "closed": false,
    "rsi": 28.8,
    "trade_on": "Perps 2x",
@@ -170,9 +170,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.03009,
-   "last_ts": "2026-11-13T09:55:21+00:00",
-   "move_pct": -2.87,
+   "last": 0.03019,
+   "last_ts": "2026-11-13T10:01:32+00:00",
+   "move_pct": -3.21,
    "closed": false,
    "rsi": 25.7,
    "trade_on": "Perps 1x",
@@ -215,9 +215,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.07183,
-   "last_ts": "2026-11-13T09:55:21+00:00",
-   "move_pct": -0.79,
+   "last": 0.07197,
+   "last_ts": "2026-11-13T10:01:32+00:00",
+   "move_pct": -0.98,
    "closed": false,
    "rsi": 26.3,
    "trade_on": "Perps 1x",
@@ -7417,63 +7417,63 @@
   "onchain": [
    {
     "chain": "Base",
-    "symbol": "NVDAC",
-    "name": "NVIDIA Corporation",
-    "token": "0xb20000000000000000000078ee7ce2fe4908108c",
-    "price": 167.30705311177,
-    "liq": 1413594,
-    "vol24h": 13504541,
+    "symbol": "GOOGLC",
+    "name": "Alphabet Inc.",
+    "token": "0xb2000000000000000000002d0ba3164cc74f58b7",
+    "price": 302.623786932923,
+    "liq": 1983817,
+    "vol24h": 12839785,
     "age_d": 22.3,
-    "chg24h": 2.962,
-    "chg7d": -10.8,
-    "mcap": 7792689.3618703,
+    "chg24h": 2.436,
+    "chg7d": 6.0,
+    "mcap": 10523505.8232223,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
-    "trend_up": false,
-    "rsi": 54.5,
-    "url": "https://www.geckoterminal.com/base/pools/0xf668e21993f0acd7ab00bb1cfbaed0df28a3c8ec"
-   },
-   {
-    "chain": "Solana",
-    "symbol": "MIHAO",
-    "name": "ni hao cat",
-    "token": "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump",
-    "price": 0.013840429719185747,
-    "liq": 408750,
-    "vol24h": 8399484,
-    "age_d": 18.7,
-    "chg24h": -18.83,
-    "chg7d": 4101.2,
-    "mcap": 13021557.9927302,
-    "safety": "ok",
-    "safety_notes": [],
-    "trigger": false,
-    "trend_up": false,
-    "rsi": 44.1,
-    "url": "https://www.geckoterminal.com/solana/pools/Ho1aSG6WGH1FfXdEHrK2f4Ggt1Hoxo9s5jcLMDqeyeBz"
+    "trend_up": true,
+    "rsi": 59.3,
+    "url": "https://www.geckoterminal.com/base/pools/0x16c70f04c3080a127486cdf5a4c33c066bbf47c3"
    },
    {
     "chain": "Arbitrum",
-    "symbol": "ARB",
-    "name": "Arbitrum",
-    "token": "0x912ce59144191c1204e64559fe8253a0e49e6548",
-    "price": 0.145314438857739,
-    "liq": 1529754,
-    "vol24h": 4942913,
-    "age_d": 1337.3,
-    "chg24h": -1.909,
-    "chg7d": -12.2,
-    "mcap": 1001523828.56402,
+    "symbol": "USDG",
+    "name": "Global Dollar",
+    "token": "0x004b506865409877c9fa29bfb1eba929984b9bbc",
+    "price": 1.00052995434988,
+    "liq": 1350301,
+    "vol24h": 8316799,
+    "age_d": 18.3,
+    "chg24h": 0.126,
+    "chg7d": 0.1,
+    "mcap": 2668560334.81276,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 39.6,
-    "url": "https://www.geckoterminal.com/arbitrum/pools/0xc6f780497a95e246eb9449f5e4770916dcd6396a"
+    "rsi": 53.0,
+    "url": "https://www.geckoterminal.com/arbitrum/pools/0x09328be718d89228a985471bb470988a34d0b162"
+   },
+   {
+    "chain": "Ethereum",
+    "symbol": "PAXG",
+    "name": "Paxos Gold",
+    "token": "0x45804880de22913dafe09f4980848ece6ecbaf78",
+    "price": 3879.79846583105,
+    "liq": 6354356,
+    "vol24h": 4949416,
+    "age_d": 386.9,
+    "chg24h": -1.546,
+    "chg7d": -4.6,
+    "mcap": 1736924513.23378,
+    "safety": "ok",
+    "safety_notes": [],
+    "trigger": false,
+    "trend_up": false,
+    "rsi": 42.1,
+    "url": "https://www.geckoterminal.com/eth/pools/0xc756bba710d45647715079ce50aa16aab36ded42"
    }
   ],
-  "onchain_checked": 81,
+  "onchain_checked": 82,
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
@@ -7496,6 +7496,28 @@
      "PLUME",
      "CARDS",
      "ZBCN"
+    ]
+   },
+   {
+    "id": "artificial-intelligence",
+    "name": "Artificial Intelligence",
+    "chg7d": -5.63,
+    "top": [
+     "NEAR",
+     "TAO",
+     "ICP",
+     "SN0",
+     "VVV"
+    ],
+    "tracked": [
+     "NEAR",
+     "AKE",
+     "PIEVERSE",
+     "TAO",
+     "ICP",
+     "GRASS",
+     "VVV",
+     "ALLO"
     ]
    },
    {
@@ -7561,28 +7583,6 @@
      "KMNO",
      "COMP",
      "SPK"
-    ]
-   },
-   {
-    "id": "artificial-intelligence",
-    "name": "Artificial Intelligence",
-    "chg7d": -7.78,
-    "top": [
-     "NEAR",
-     "TAO",
-     "ICP",
-     "SN0",
-     "VVV"
-    ],
-    "tracked": [
-     "NEAR",
-     "AKE",
-     "PIEVERSE",
-     "TAO",
-     "ICP",
-     "GRASS",
-     "VVV",
-     "ALLO"
     ]
    },
    {
@@ -8058,8 +8058,8 @@
   ],
   "updated": {
    "unlocks": 1794551122,
-   "onchain": 1794560430,
-   "sectors": 1794563124,
+   "onchain": 1794564029,
+   "sectors": 1794564029,
    "listings": 1794563124,
    "fundamentals": 1794551123
   }
@@ -8098,6 +8098,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "da5a237838aafe605539b3410ff825ea6d477a49d0a76aa7c851920e674300fc",
- "generated": "2026-11-13T09:55:25+00:00"
+ "digest": "795099776fa4e6c5fa15c950772af7988d598bf379ebc40fa96ca300e0e3165e",
+ "generated": "2026-11-13T10:02:06+00:00"
 }
