@@ -27,7 +27,7 @@
     0.0028474776986802002
    ],
    "lev": 1,
-   "funding_pct": -0.0022,
+   "funding_pct": -0.005,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-11T23:00:00+00:00",
@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.003269,
-   "last_ts": "2026-11-13T02:10:28+00:00",
-   "move_pct": -1.3,
+   "last": 0.003258,
+   "last_ts": "2026-11-13T02:15:29+00:00",
+   "move_pct": -0.96,
    "closed": false,
    "rsi": 33.9,
    "trade_on": "Perps 1x",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1542,
-   "last_ts": "2026-11-13T02:10:28+00:00",
-   "move_pct": 2.46,
+   "last": 0.1539,
+   "last_ts": "2026-11-13T02:15:29+00:00",
+   "move_pct": 2.26,
    "closed": false,
    "rsi": 51.5,
    "trade_on": "Perps 1x",
@@ -117,7 +117,7 @@
     5.9822574901354
    ],
    "lev": 2,
-   "funding_pct": -0.0304,
+   "funding_pct": -0.0302,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-12T00:00:00+00:00",
@@ -125,9 +125,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 7.483,
-   "last_ts": "2026-11-13T02:10:28+00:00",
-   "move_pct": 0.51,
+   "last": 7.451,
+   "last_ts": "2026-11-13T02:15:29+00:00",
+   "move_pct": 0.93,
    "closed": false,
    "rsi": 28.8,
    "trade_on": "Perps 2x",
@@ -7664,6 +7664,28 @@
     ]
    },
    {
+    "id": "zero-knowledge-zk",
+    "name": "Zero Knowledge ZK",
+    "chg7d": -7.09,
+    "top": [
+     "ZEC",
+     "POL",
+     "NIGHT",
+     "STRK",
+     "OZO"
+    ],
+    "tracked": [
+     "ZEC",
+     "NIGHT",
+     "STRK",
+     "H",
+     "MAGIC",
+     "POL",
+     "ZK",
+     "MINA"
+    ]
+   },
+   {
     "id": "lending-borrowing",
     "name": "Lending Borrowing",
     "chg7d": -7.17,
@@ -7743,28 +7765,6 @@
      "FARTCOIN",
      "BONK",
      "ACT"
-    ]
-   },
-   {
-    "id": "zero-knowledge-zk",
-    "name": "Zero Knowledge ZK",
-    "chg7d": -8.86,
-    "top": [
-     "ZEC",
-     "POL",
-     "NIGHT",
-     "STRK",
-     "OZO"
-    ],
-    "tracked": [
-     "ZEC",
-     "NIGHT",
-     "STRK",
-     "H",
-     "MAGIC",
-     "POL",
-     "ZK",
-     "MINA"
     ]
    },
    {
@@ -7967,7 +7967,7 @@
   "updated": {
    "unlocks": 1794529224,
    "onchain": 1794535235,
-   "sectors": 1794535235,
+   "sectors": 1794536129,
    "listings": 1794532827,
    "fundamentals": 1794529225
   }
@@ -8006,6 +8006,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "fdb58dfc178134481beaf94945355aa2ccd246a21eceb0c7f57f3858826bd787",
- "generated": "2026-11-13T02:10:30+00:00"
+ "digest": "767d5e3aac19168a4a9c77797c2ae1d496c87948ad5ab07db07eea0a5441f97f",
+ "generated": "2026-11-13T02:15:32+00:00"
 }
