@@ -27,7 +27,7 @@
     0.17762323492937077
    ],
    "lev": 1,
-   "funding_pct": 0.0024,
+   "funding_pct": 0.0006,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-12T00:00:00+00:00",
@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1581,
-   "last_ts": "2026-11-13T20:55:18+00:00",
-   "move_pct": 5.05,
+   "last": 0.158,
+   "last_ts": "2026-11-13T21:01:30+00:00",
+   "move_pct": 4.98,
    "closed": false,
    "rsi": 51.5,
    "trade_on": "Perps 1x",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0174567418608957,
-   "last_ts": "2026-11-13T20:55:18+00:00",
-   "move_pct": 0.35,
+   "last": 0.0173997228274062,
+   "last_ts": "2026-11-13T21:01:30+00:00",
+   "move_pct": 0.03,
    "closed": false,
    "rsi": 71.0,
    "trade_on": "On-chain spot (Base DEX)",
@@ -123,15 +123,60 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.5127,
-   "last_ts": "2026-11-13T20:55:18+00:00",
-   "move_pct": -1.25,
+   "last": 0.5139,
+   "last_ts": "2026-11-13T21:01:30+00:00",
+   "move_pct": -1.02,
    "closed": false,
    "rsi": 64.4,
    "trade_on": "Spot",
    "market_reason": "thin perp market: spot is safer",
    "chart": "charts/PROS-SPOT-1794585600.png",
    "setup": "RETEST"
+  },
+  {
+   "id": "TIA-PERP-1794600000",
+   "kind": "TA",
+   "score": -1,
+   "reasons": [
+    "Chart: Broke the 20-hour low on 1.0x volume",
+    "Timeframes: 1d down, 4h down, 4h structure mixed",
+    "No support below in the last 50 days",
+    "Stop 0.41531 (2 ATR); targets at 1R/2R/3R",
+    "BTC 4h trend down",
+    "Weaker than BTC by 0.2% over 7d",
+    "OI +4% 24h",
+    "Sector: Layer 1 -7.0% 7d (leading, #3 of 20)",
+    "Track record: +0.1R on TIA in the last 45 days (backtest)"
+   ],
+   "coin": "TIA",
+   "market": "PERP",
+   "side": "SHORT",
+   "entry": 0.3968,
+   "sl0": 0.41531435304979425,
+   "sl": 0.41531435304979425,
+   "tps": [
+    0.3782856469502057,
+    0.35977129390041146,
+    0.3412569408506172
+   ],
+   "lev": 1,
+   "funding_pct": -0.0026,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-11-13T21:00:00+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.3954,
+   "last_ts": "2026-11-13T21:01:30+00:00",
+   "move_pct": 0.35,
+   "closed": false,
+   "rsi": 37.1,
+   "trade_on": "Perps 1x",
+   "market_reason": "shorts need perps; 1x keeps liquidation 3x+ further away than the stop",
+   "chart": "charts/TIA-PERP-1794600000.png",
+   "setup": "BREAKOUT20"
   }
  ],
  "closed": [
@@ -4062,7 +4107,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 3
+  "open": 4
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7376,61 +7421,61 @@
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
   "onchain": [
    {
-    "chain": "Solana",
-    "symbol": "CLOUD",
-    "name": "Cloud",
-    "token": "CLoUDKc4Ane7HeQcPpE3YHnznRxhMimJ4MyaUqyHFzAu",
-    "price": 0.08697795453306141,
-    "liq": 467732,
-    "vol24h": 6244374,
-    "age_d": 848.2,
-    "chg24h": 99.252,
-    "chg7d": 98.9,
-    "mcap": 43376992.0082757,
+    "chain": "BSC",
+    "symbol": "Q",
+    "name": "Quack AI Token",
+    "token": "0xc07e1300dc138601fa6b0b59f8d0fa477e690589",
+    "price": 0.0289282660989698,
+    "liq": 1091476,
+    "vol24h": 5734549,
+    "age_d": 439.5,
+    "chg24h": 4.275,
+    "chg7d": 6.3,
+    "mcap": 142838598.092952,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": true,
-    "rsi": 55.2,
-    "url": "https://www.geckoterminal.com/solana/pools/F1KKNyUCsQcZLRjwQ4abX6Ri8gDAQ46nHwSHFKA5sFQv"
+    "rsi": 52.5,
+    "url": "https://www.geckoterminal.com/bsc/pools/0x8bafe0bdd3eb9ae0539f5b32e771c1a72a189b7f"
    },
    {
     "chain": "BSC",
     "symbol": "JCT",
     "name": "JANCTION",
     "token": "0xea37a8de1de2d9d10772eeb569e28bfa5cb17707",
-    "price": 0.00198729306453387,
-    "liq": 586943,
-    "vol24h": 12400176,
+    "price": 0.00204418107612576,
+    "liq": 589862,
+    "vol24h": 12350002,
     "age_d": 163.2,
-    "chg24h": -11.563,
-    "chg7d": -37.0,
-    "mcap": 22899113.226647,
+    "chg24h": -11.557,
+    "chg7d": -36.1,
+    "mcap": 23387368.4852722,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 33.5,
+    "rsi": 34.2,
     "url": "https://www.geckoterminal.com/bsc/pools/0x7bb2f6dab157e444ad8717b0178035c1b1cf24958b37c2a205e61a3582283249"
    },
    {
-    "chain": "Arbitrum",
-    "symbol": "ARB",
-    "name": "Arbitrum",
-    "token": "0x912ce59144191c1204e64559fe8253a0e49e6548",
-    "price": 0.146045109488805,
-    "liq": 1550054,
-    "vol24h": 4106003,
-    "age_d": 1337.8,
-    "chg24h": -2.257,
-    "chg7d": -12.0,
-    "mcap": 1006789853.12439,
+    "chain": "BSC",
+    "symbol": "UAI",
+    "name": "UnifAI",
+    "token": "0x3e5d4f8aee0d9b3082d5f6da5d6e225d17ba9ea0",
+    "price": 0.0385894382526624,
+    "liq": 311407,
+    "vol24h": 3470213,
+    "age_d": 374.6,
+    "chg24h": 9.299,
+    "chg7d": -72.1,
+    "mcap": 9251631.01002,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 46.1,
-    "url": "https://www.geckoterminal.com/arbitrum/pools/0xc6f780497a95e246eb9449f5e4770916dcd6396a"
+    "rsi": 54.2,
+    "url": "https://www.geckoterminal.com/bsc/pools/0x57004a34731b96d9e86b706cd629f24456ca2c7bdfcc5aae2417496d65090eb7"
    }
   ],
   "onchain_checked": 87,
@@ -7673,6 +7718,28 @@
     ]
    },
    {
+    "id": "decentralized-perpetuals",
+    "name": "Decentralized Perpetuals",
+    "chg7d": -8.73,
+    "top": [
+     "HYPE",
+     "ASTER",
+     "JUP",
+     "LIT",
+     "CAKE"
+    ],
+    "tracked": [
+     "HYPE",
+     "LIT",
+     "ASTER",
+     "GRVT",
+     "RAY",
+     "DYDX",
+     "BASED",
+     "ARKM"
+    ]
+   },
+   {
     "id": "depin",
     "name": "DePIN",
     "chg7d": -8.87,
@@ -7731,28 +7798,6 @@
      "FIL",
      "AR",
      "WAL"
-    ]
-   },
-   {
-    "id": "decentralized-perpetuals",
-    "name": "Decentralized Perpetuals",
-    "chg7d": -9.21,
-    "top": [
-     "HYPE",
-     "ASTER",
-     "JUP",
-     "LIT",
-     "CAKE"
-    ],
-    "tracked": [
-     "HYPE",
-     "LIT",
-     "ASTER",
-     "GRVT",
-     "RAY",
-     "DYDX",
-     "BASED",
-     "ARKM"
     ]
    },
    {
@@ -8018,8 +8063,8 @@
   ],
   "updated": {
    "unlocks": 1794594625,
-   "onchain": 1794600036,
-   "sectors": 1794602722,
+   "onchain": 1794603630,
+   "sectors": 1794603630,
    "listings": 1794600921,
    "fundamentals": 1794594626
   }
@@ -8058,6 +8103,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "27d694425305259e1adafbe422891fa3e80af9d2c0f97dc102f43ce57223c0d7",
- "generated": "2026-11-13T20:55:22+00:00"
+ "digest": "3b2879ba55af368f0982933eb29745998237b0b3e04f6640062028817e9482c8",
+ "generated": "2026-11-13T21:02:02+00:00"
 }
