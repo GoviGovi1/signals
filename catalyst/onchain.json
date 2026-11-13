@@ -34,20 +34,6 @@
   {
    "chain": "Solana",
    "fails": [
-    "liquidity under $250k"
-   ],
-   "symbol": ":3"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "DACITY"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
     "liquidity under $250k",
     "pool younger than 7 days"
    ],
@@ -56,10 +42,9 @@
   {
    "chain": "Solana",
    "fails": [
-    "liquidity under $250k",
-    "pool younger than 7 days"
+    "liquidity under $250k"
    ],
-   "symbol": "FLC"
+   "symbol": ":3"
   },
   {
    "chain": "Solana",
@@ -74,6 +59,21 @@
     "liquidity under $250k",
     "pool younger than 7 days"
    ],
+   "symbol": "FLC"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "no DEX candles"
+   ],
+   "symbol": "DACITY"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "liquidity under $250k",
+    "pool younger than 7 days"
+   ],
    "symbol": "HUNG"
   },
   {
@@ -81,14 +81,14 @@
    "fails": [
     "liquidity under $250k"
    ],
-   "symbol": "GATO"
+   "symbol": "PAWS"
   },
   {
    "chain": "Solana",
    "fails": [
     "liquidity under $250k"
    ],
-   "symbol": "PAWS"
+   "symbol": "GATO"
   },
   {
    "chain": "Solana",
@@ -182,6 +182,13 @@
   {
    "chain": "Base",
    "fails": [
+    "24h volume under $250k"
+   ],
+   "symbol": "BNKR"
+  },
+  {
+   "chain": "Base",
+   "fails": [
     "no DEX candles"
    ],
    "symbol": "XDP"
@@ -191,7 +198,7 @@
    "fails": [
     "24h volume under $250k"
    ],
-   "symbol": "BNKR"
+   "symbol": "TIBBIR"
   },
   {
    "chain": "Base",
@@ -210,23 +217,16 @@
   {
    "chain": "Base",
    "fails": [
-    "24h volume under $250k"
-   ],
-   "symbol": "TIBBIR"
-  },
-  {
-   "chain": "Base",
-   "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "TSLAC"
-  },
-  {
-   "chain": "Base",
-   "fails": [
     "no DEX candles"
    ],
    "symbol": "SPCXC"
+  },
+  {
+   "chain": "Base",
+   "fails": [
+    "no DEX candles"
+   ],
+   "symbol": "METAC"
   },
   {
    "chain": "Base",
@@ -235,13 +235,6 @@
     "24h volume under $250k"
    ],
    "symbol": "RSGP"
-  },
-  {
-   "chain": "Base",
-   "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "METAC"
   },
   {
    "chain": "Base",
@@ -292,30 +285,37 @@
     "no DEX candles"
    ],
    "symbol": "JCT"
+  },
+  {
+   "chain": "BSC",
+   "fails": [
+    "no DEX candles"
+   ],
+   "symbol": "IDOL"
   }
  ],
  "rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
- "updated": 1794535235,
+ "updated": 1794538836,
  "watchlist": [
   {
    "age_d": 22.0,
-   "atr": 22.6163880500014,
-   "bar_ts": 1794531600000,
+   "atr": 22.74523091785425,
+   "bar_ts": 1794535200000,
    "chain": "Base",
-   "chg24h": -0.179,
-   "chg7d": 13.0,
-   "close": 960.8432955303849,
-   "ema20": 944.700221136891,
-   "ema50": 933.7725231621707,
+   "chg24h": -2.773,
+   "chg7d": 8.7,
+   "close": 941.2414197014459,
+   "ema20": 944.365483881346,
+   "ema50": 934.0610216159765,
    "fails": [],
    "gecko_id": "sandisk-coinbase-tokenized-stock",
-   "liq": 1996228,
-   "mcap": 2040864.60839174,
+   "liq": 1985548,
+   "mcap": 2016991.13079045,
    "name": "Sandisk Corporation",
    "net": "base",
    "pool": "0x2836e062a3fe75943a7f4a552e2365b98e414e75",
-   "price": 960.081729017599,
-   "rsi": 57.6,
+   "price": 942.355957000164,
+   "rsi": 49.3,
    "safety": "ok",
    "safety_notes": [],
    "symbol": "SNDKC",
@@ -323,63 +323,63 @@
    "trend_up": true,
    "trigger": false,
    "url": "https://www.geckoterminal.com/base/pools/0x2836e062a3fe75943a7f4a552e2365b98e414e75",
-   "vol24h": 27259699
+   "vol24h": 27508723
   },
   {
    "age_d": 18.4,
-   "atr": 0.002761237912465187,
-   "bar_ts": 1794531600000,
+   "atr": 0.0028447617448562157,
+   "bar_ts": 1794535200000,
    "chain": "Solana",
-   "chg24h": -21.655,
-   "chg7d": 4089.8,
-   "close": 0.014203754652639428,
-   "ema20": 0.015813676714405065,
-   "ema50": 0.014813021684565147,
+   "chg24h": -22.9,
+   "chg7d": 4934.0,
+   "close": 0.01556468338223334,
+   "ema20": 0.015789963063758985,
+   "ema50": 0.014842492703690865,
    "fails": [],
    "gecko_id": "ni-hao-cat-2",
-   "liq": 416091,
-   "mcap": 13463444.3004463,
+   "liq": 431351,
+   "mcap": 14633086.6036518,
    "name": "ni hao cat",
    "net": "solana",
    "pool": "Ho1aSG6WGH1FfXdEHrK2f4Ggt1Hoxo9s5jcLMDqeyeBz",
-   "price": 0.014168087889239234,
-   "rsi": 44.2,
+   "price": 0.015442272451890036,
+   "rsi": 48.8,
    "safety": "ok",
    "safety_notes": [],
    "symbol": "MIHAO",
    "token": "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump",
-   "trend_up": false,
+   "trend_up": true,
    "trigger": false,
    "url": "https://www.geckoterminal.com/solana/pools/Ho1aSG6WGH1FfXdEHrK2f4Ggt1Hoxo9s5jcLMDqeyeBz",
-   "vol24h": 11001672
+   "vol24h": 11053090
   },
   {
-   "age_d": 18.0,
-   "atr": 0.003480159573267836,
-   "bar_ts": 1794531600000,
-   "chain": "Arbitrum",
-   "chg24h": 0.096,
-   "chg7d": 0.0,
-   "close": 1.00001928974593,
-   "ema20": 0.9997488987324594,
-   "ema50": 0.9997873003686537,
+   "age_d": 22.0,
+   "atr": 5.944983585422262,
+   "bar_ts": 1794535200000,
+   "chain": "Base",
+   "chg24h": 2.918,
+   "chg7d": 14.2,
+   "close": 399.326438742931,
+   "ema20": 394.1202334638101,
+   "ema50": 388.9265349763689,
    "fails": [],
-   "gecko_id": "global-dollar",
-   "liq": 1409138,
-   "mcap": 2667198317.34096,
-   "name": "Global Dollar",
-   "net": "arbitrum",
-   "pool": "0x09328be718d89228a985471bb470988a34d0b162",
-   "price": 1.00001928974593,
-   "rsi": 50.9,
+   "gecko_id": "tesla-coinbase-tokenized-stocks",
+   "liq": 530791,
+   "mcap": 2500148.97339052,
+   "name": "Tesla Inc.",
+   "net": "base",
+   "pool": "0x7a33000372f3f028f074182ccb9d16cbeefbf920",
+   "price": 399.326438742931,
+   "rsi": 60.4,
    "safety": "ok",
    "safety_notes": [],
-   "symbol": "USDG",
-   "token": "0x004b506865409877c9fa29bfb1eba929984b9bbc",
-   "trend_up": false,
+   "symbol": "TSLAC",
+   "token": "0xb2000000000000000000001e800a7f5189430cd0",
+   "trend_up": true,
    "trigger": false,
-   "url": "https://www.geckoterminal.com/arbitrum/pools/0x09328be718d89228a985471bb470988a34d0b162",
-   "vol24h": 7516645
+   "url": "https://www.geckoterminal.com/base/pools/0x7a33000372f3f028f074182ccb9d16cbeefbf920",
+   "vol24h": 8479106
   }
  ]
 }
