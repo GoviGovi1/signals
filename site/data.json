@@ -27,7 +27,7 @@
     0.0028474776986802002
    ],
    "lev": 1,
-   "funding_pct": 0.0024,
+   "funding_pct": 0.0032,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-11T23:00:00+00:00",
@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.003144,
-   "last_ts": "2026-11-13T04:25:21+00:00",
-   "move_pct": 2.57,
+   "last": 0.003159,
+   "last_ts": "2026-11-13T04:30:30+00:00",
+   "move_pct": 2.11,
    "closed": false,
    "rsi": 33.9,
    "trade_on": "Perps 1x",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1494,
-   "last_ts": "2026-11-13T04:25:21+00:00",
-   "move_pct": -0.73,
+   "last": 0.1501,
+   "last_ts": "2026-11-13T04:30:30+00:00",
+   "move_pct": -0.27,
    "closed": false,
    "rsi": 51.5,
    "trade_on": "Perps 1x",
@@ -117,7 +117,7 @@
     5.9822574901354
    ],
    "lev": 2,
-   "funding_pct": -0.029,
+   "funding_pct": -0.0293,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-12T00:00:00+00:00",
@@ -125,9 +125,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 7.214,
-   "last_ts": "2026-11-13T04:25:21+00:00",
-   "move_pct": 4.08,
+   "last": 7.185,
+   "last_ts": "2026-11-13T04:30:30+00:00",
+   "move_pct": 4.47,
    "closed": false,
    "rsi": 28.8,
    "trade_on": "Perps 2x",
@@ -170,9 +170,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.02921,
-   "last_ts": "2026-11-13T04:25:21+00:00",
-   "move_pct": 0.14,
+   "last": 0.02929,
+   "last_ts": "2026-11-13T04:30:30+00:00",
+   "move_pct": -0.14,
    "closed": false,
    "rsi": 25.7,
    "trade_on": "Perps 1x",
@@ -215,9 +215,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.07107,
-   "last_ts": "2026-11-13T04:25:21+00:00",
-   "move_pct": 0.28,
+   "last": 0.07124,
+   "last_ts": "2026-11-13T04:30:30+00:00",
+   "move_pct": 0.04,
    "closed": false,
    "rsi": 26.3,
    "trade_on": "Perps 1x",
@@ -7541,28 +7541,6 @@
     ]
    },
    {
-    "id": "layer-2",
-    "name": "Layer 2",
-    "chg7d": -4.87,
-    "top": [
-     "OKB",
-     "MNT",
-     "ARB",
-     "POL",
-     "STX"
-    ],
-    "tracked": [
-     "OKB",
-     "ARB",
-     "STRK",
-     "OP",
-     "MEGA",
-     "MAGIC",
-     "STX",
-     "POL"
-    ]
-   },
-   {
     "id": "decentralized-perpetuals",
     "name": "Decentralized Perpetuals",
     "chg7d": -4.96,
@@ -7814,6 +7792,28 @@
     ]
    },
    {
+    "id": "layer-2",
+    "name": "Layer 2",
+    "chg7d": -8.38,
+    "top": [
+     "OKB",
+     "MNT",
+     "ARB",
+     "POL",
+     "STX"
+    ],
+    "tracked": [
+     "OKB",
+     "ARB",
+     "STRK",
+     "OP",
+     "MEGA",
+     "MAGIC",
+     "STX",
+     "POL"
+    ]
+   },
+   {
     "id": "layer-1",
     "name": "Layer 1",
     "chg7d": -8.81,
@@ -8057,8 +8057,8 @@
   "updated": {
    "unlocks": 1794529224,
    "onchain": 1794542431,
-   "sectors": 1794543325,
-   "listings": 1794540327,
+   "sectors": 1794544230,
+   "listings": 1794544230,
    "fundamentals": 1794529225
   }
  },
@@ -8096,6 +8096,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "d945d65b28615c7da039425709cb99468934ecb6a74278eac0c00d74d6818b86",
- "generated": "2026-11-13T04:25:24+00:00"
+ "digest": "acb07c598821d037d5a2010e09c53bf23569a5f9f9696276f08d314c387d6c46",
+ "generated": "2026-11-13T04:30:34+00:00"
 }
