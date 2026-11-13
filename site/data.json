@@ -27,7 +27,7 @@
     0.17762323492937077
    ],
    "lev": 1,
-   "funding_pct": 0.002,
+   "funding_pct": 0.0026,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-12T00:00:00+00:00",
@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1576,
-   "last_ts": "2026-11-13T22:25:24+00:00",
-   "move_pct": 4.72,
+   "last": 0.1591,
+   "last_ts": "2026-11-13T22:30:30+00:00",
+   "move_pct": 5.71,
    "closed": false,
    "rsi": 51.5,
    "trade_on": "Perps 1x",
@@ -79,59 +79,15 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0172651650285953,
-   "last_ts": "2026-11-13T22:25:24+00:00",
-   "move_pct": -0.75,
+   "last": 0.0172550065173902,
+   "last_ts": "2026-11-13T22:30:30+00:00",
+   "move_pct": -0.81,
    "closed": false,
    "rsi": 71.0,
    "trade_on": "On-chain spot (Base DEX)",
    "market_reason": "not listed on OKX; buy on a DEX, small size, no leverage",
    "chart": "charts/XDP-DEX-base-0x07b3d902-1794567600.png",
    "setup": null
-  },
-  {
-   "id": "PROS-SPOT-1794585600",
-   "kind": "TA",
-   "score": 0,
-   "reasons": [
-    "Chart: Retest of the 0.5183 breakout level held (3h after the break)",
-    "Timeframes: 1d down, 4h down, 4h structure lower highs/lows",
-    "Next resistance 0.54543 (2.5R away, 4h swing/swing/volume node)",
-    "Stop 0.50817 (structure); targets at the next 3 level(s)",
-    "BTC 4h trend down",
-    "Stronger than BTC by 6.0% over 7d",
-    "OI +0% 24h",
-    "Track record: +1.1R on PROS in the last 45 days (backtest)"
-   ],
-   "coin": "PROS",
-   "market": "SPOT",
-   "side": "LONG",
-   "entry": 0.5192,
-   "sl0": 0.5085631350575579,
-   "sl": 0.5085631350575579,
-   "tps": [
-    0.5447959609291578,
-    0.5667816490556032,
-    0.573346706881355
-   ],
-   "lev": null,
-   "funding_pct": null,
-   "status": "open",
-   "hits": 0,
-   "opened": "2026-11-13T17:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.51,
-   "last_ts": "2026-11-13T22:25:24+00:00",
-   "move_pct": -1.77,
-   "closed": false,
-   "rsi": 64.4,
-   "trade_on": "Spot",
-   "market_reason": "thin perp market: spot is safer",
-   "chart": "charts/PROS-SPOT-1794585600.png",
-   "setup": "RETEST"
   },
   {
    "id": "TIA-PERP-1794600000",
@@ -160,7 +116,7 @@
     0.3412569408506172
    ],
    "lev": 1,
-   "funding_pct": -0.0003,
+   "funding_pct": 0.0005,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-13T21:00:00+00:00",
@@ -168,9 +124,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.3821,
-   "last_ts": "2026-11-13T22:25:24+00:00",
-   "move_pct": 3.7,
+   "last": 0.3843,
+   "last_ts": "2026-11-13T22:30:30+00:00",
+   "move_pct": 3.15,
    "closed": false,
    "rsi": 37.1,
    "trade_on": "Perps 1x",
@@ -180,6 +136,50 @@
   }
  ],
  "closed": [
+  {
+   "id": "PROS-SPOT-1794585600",
+   "kind": "TA",
+   "score": 0,
+   "reasons": [
+    "Chart: Retest of the 0.5183 breakout level held (3h after the break)",
+    "Timeframes: 1d down, 4h down, 4h structure lower highs/lows",
+    "Next resistance 0.54543 (2.5R away, 4h swing/swing/volume node)",
+    "Stop 0.50817 (structure); targets at the next 3 level(s)",
+    "BTC 4h trend down",
+    "Stronger than BTC by 6.0% over 7d",
+    "OI +0% 24h",
+    "Track record: +1.1R on PROS in the last 45 days (backtest)"
+   ],
+   "coin": "PROS",
+   "market": "SPOT",
+   "side": "LONG",
+   "entry": 0.5192,
+   "sl0": 0.5085631350575579,
+   "sl": 0.5085631350575579,
+   "tps": [
+    0.5447959609291578,
+    0.5667816490556032,
+    0.573346706881355
+   ],
+   "lev": null,
+   "funding_pct": null,
+   "status": "stopped",
+   "hits": 0,
+   "opened": "2026-11-13T17:00:00+00:00",
+   "closed_at": "2026-11-13T22:30:30+00:00",
+   "exit_price": 0.5085631350575579,
+   "result_r": -1.0,
+   "result_pct": -2.05,
+   "last": 0.5084,
+   "last_ts": "2026-11-13T22:30:30+00:00",
+   "move_pct": -1.77,
+   "closed": true,
+   "rsi": 64.4,
+   "trade_on": "Spot",
+   "market_reason": "thin perp market: spot is safer",
+   "chart": "charts/PROS-SPOT-1794585600.png",
+   "setup": "RETEST"
+  },
   {
    "id": "BEAT-PERP-1794567600",
    "kind": "TA",
@@ -1927,7 +1927,7 @@
    "rsi": 25.4,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": "charts/FOGO-PERP-1794128400.png",
+   "chart": null,
    "setup": "BREAKOUT20"
   },
   {
@@ -2760,70 +2760,26 @@
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": null,
    "setup": "RANGE_BREAK"
-  },
-  {
-   "id": "BAT-PERP-1794110400",
-   "kind": "TA",
-   "score": 0,
-   "reasons": [
-    "Chart: Break of structure: closed below the last swing low 0.12056, after a lower high",
-    "Timeframes: 1d down, 4h down, 4h structure lower highs/lows",
-    "Next support 0.10882 (2.9R away, 4h swing)",
-    "Stop 0.12443 (structure); targets at the next 3 level(s)",
-    "BTC 4h trend down",
-    "Weaker than BTC by 11.5% over 7d",
-    "OI +2% 24h",
-    "Track record: +4.8R on BAT in the last 45 days (backtest)"
-   ],
-   "coin": "BAT",
-   "market": "PERP",
-   "side": "SHORT",
-   "entry": 0.12046,
-   "sl0": 0.12443104018005578,
-   "sl": 0.12443104018005578,
-   "tps": [
-    0.10902849925669457,
-    0.10644183259002789,
-    0.1013218325900279
-   ],
-   "lev": 1,
-   "funding_pct": 0.01,
-   "status": "stopped",
-   "hits": 0,
-   "opened": "2026-11-08T05:00:00+00:00",
-   "closed_at": "2026-11-08T15:25:24+00:00",
-   "exit_price": 0.12443104018005578,
-   "result_r": -1.0,
-   "result_pct": -3.3,
-   "last": 0.12454,
-   "last_ts": "2026-11-08T15:25:24+00:00",
-   "move_pct": -2.94,
-   "closed": true,
-   "rsi": 34.7,
-   "trade_on": "Perps 1x",
-   "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": null,
-   "setup": "BOS"
   }
  ],
  "stats": {
   "all": {
-   "trades": 212,
+   "trades": 213,
    "wins": 99,
-   "losses": 113,
-   "win_rate": 46.7,
-   "total_r": 17.9,
-   "avg_r": 0.084,
-   "total_pct": 16.21
+   "losses": 114,
+   "win_rate": 46.5,
+   "total_r": 16.9,
+   "avg_r": 0.079,
+   "total_pct": 14.16
   },
   "SPOT": {
-   "trades": 57,
+   "trades": 58,
    "wins": 21,
-   "losses": 36,
-   "win_rate": 36.8,
-   "total_r": -11.97,
-   "avg_r": -0.21,
-   "total_pct": -17.58
+   "losses": 37,
+   "win_rate": 36.2,
+   "total_r": -12.97,
+   "avg_r": -0.224,
+   "total_pct": -19.63
   },
   "PERP": {
    "trades": 145,
@@ -2863,13 +2819,13 @@
     "total_pct": 5.42
    },
    "TA": {
-    "trades": 151,
+    "trades": 152,
     "wins": 67,
-    "losses": 84,
-    "win_rate": 44.4,
-    "total_r": 15.72,
-    "avg_r": 0.104,
-    "total_pct": 15.39
+    "losses": 85,
+    "win_rate": 44.1,
+    "total_r": 14.72,
+    "avg_r": 0.097,
+    "total_pct": 13.34
    }
   },
   "coins": {
@@ -3809,6 +3765,15 @@
     "avg_r": -0.375,
     "total_pct": -3.72
    },
+   "PROS": {
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate": 0.0,
+    "total_r": -1.0,
+    "avg_r": -1.0,
+    "total_pct": -2.05
+   },
    "PYTH": {
     "trades": 1,
     "wins": 0,
@@ -4107,7 +4072,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 4
+  "open": 3
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7740,6 +7705,28 @@
     ]
    },
    {
+    "id": "depin",
+    "name": "DePIN",
+    "chg7d": -8.7,
+    "top": [
+     "TAO",
+     "RENDER",
+     "FIL",
+     "BDX",
+     "BTT"
+    ],
+    "tracked": [
+     "FIL",
+     "TAO",
+     "GRASS",
+     "RENDER",
+     "AR",
+     "ATH",
+     "IOTA",
+     "LPT"
+    ]
+   },
+   {
     "id": "decentralized-perpetuals",
     "name": "Decentralized Perpetuals",
     "chg7d": -8.73,
@@ -7759,28 +7746,6 @@
      "DYDX",
      "BASED",
      "ARKM"
-    ]
-   },
-   {
-    "id": "depin",
-    "name": "DePIN",
-    "chg7d": -8.87,
-    "top": [
-     "TAO",
-     "RENDER",
-     "FIL",
-     "BDX",
-     "BTT"
-    ],
-    "tracked": [
-     "FIL",
-     "TAO",
-     "GRASS",
-     "RENDER",
-     "AR",
-     "ATH",
-     "IOTA",
-     "LPT"
     ]
    },
    {
@@ -8064,7 +8029,7 @@
   "updated": {
    "unlocks": 1794594625,
    "onchain": 1794607233,
-   "sectors": 1794608121,
+   "sectors": 1794609030,
    "listings": 1794608430,
    "fundamentals": 1794594626
   }
@@ -8103,6 +8068,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "8dae967160df35ac00471881beb4ccacab3eaaa762e48ee37aa69fd7fc1ae893",
- "generated": "2026-11-13T22:25:29+00:00"
+ "digest": "ccf4b5aa42646ff4729bf42440aed7a4732c3a99f1dd47606ca908f96fca79fb",
+ "generated": "2026-11-13T22:30:36+00:00"
 }
