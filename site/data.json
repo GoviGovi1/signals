@@ -35,61 +35,15 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1576,
-   "last_ts": "2026-11-13T17:45:21+00:00",
-   "move_pct": 4.72,
+   "last": 0.1579,
+   "last_ts": "2026-11-13T17:50:21+00:00",
+   "move_pct": 4.92,
    "closed": false,
    "rsi": 51.5,
    "trade_on": "Perps 1x",
    "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
    "chart": "charts/0G-PERP-1794438000.png",
    "setup": "RETEST"
-  },
-  {
-   "id": "BEAT-PERP-1794567600",
-   "kind": "TA",
-   "score": 0,
-   "reasons": [
-    "Chart: Broke out of a 2-day range at 0.08306 (range 0.07543\u20130.08306) on 2.1x volume",
-    "Timeframes: 1d down, 4h down, 4h structure mixed",
-    "Next resistance 0.09347 (2.5R away, 4h swing)",
-    "Stop 0.081926 (below the breakout level); targets at the next 3 level(s)",
-    "BTC 4h trend down",
-    "Weaker than BTC by 17.1% over 7d",
-    "OI +18% 24h with breakout",
-    "funding +0.058%/8h: longs crowded",
-    "Sector: Gaming -8.6% 7d (middle, #13 of 20)",
-    "Track record: +4.4R on BEAT in the last 45 days (backtest)"
-   ],
-   "coin": "BEAT",
-   "market": "PERP",
-   "side": "LONG",
-   "entry": 0.08527,
-   "sl0": 0.08192562323248197,
-   "sl": 0.08192562323248197,
-   "tps": [
-    0.09318640580812049,
-    0.09870946747478716,
-    0.1045397375388897
-   ],
-   "lev": 1,
-   "funding_pct": 0.01,
-   "status": "open",
-   "hits": 0,
-   "opened": "2026-11-13T12:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.08254,
-   "last_ts": "2026-11-13T17:45:21+00:00",
-   "move_pct": -3.2,
-   "closed": false,
-   "rsi": 77.7,
-   "trade_on": "Perps 1x",
-   "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
-   "chart": "charts/BEAT-PERP-1794567600.png",
-   "setup": "RANGE_BREAK"
   },
   {
    "id": "XDP-DEX-base-0x07b3d902-1794567600",
@@ -125,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0174072276875743,
-   "last_ts": "2026-11-13T17:45:21+00:00",
-   "move_pct": 0.07,
+   "last": 0.017531018911808298,
+   "last_ts": "2026-11-13T17:50:21+00:00",
+   "move_pct": 0.78,
    "closed": false,
    "rsi": 71.0,
    "trade_on": "On-chain spot (Base DEX)",
@@ -169,9 +123,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.5242,
-   "last_ts": "2026-11-13T17:45:21+00:00",
-   "move_pct": 0.96,
+   "last": 0.5253,
+   "last_ts": "2026-11-13T17:50:21+00:00",
+   "move_pct": 1.17,
    "closed": false,
    "rsi": 64.4,
    "trade_on": "Spot",
@@ -181,6 +135,52 @@
   }
  ],
  "closed": [
+  {
+   "id": "BEAT-PERP-1794567600",
+   "kind": "TA",
+   "score": 0,
+   "reasons": [
+    "Chart: Broke out of a 2-day range at 0.08306 (range 0.07543\u20130.08306) on 2.1x volume",
+    "Timeframes: 1d down, 4h down, 4h structure mixed",
+    "Next resistance 0.09347 (2.5R away, 4h swing)",
+    "Stop 0.081926 (below the breakout level); targets at the next 3 level(s)",
+    "BTC 4h trend down",
+    "Weaker than BTC by 17.1% over 7d",
+    "OI +18% 24h with breakout",
+    "funding +0.058%/8h: longs crowded",
+    "Sector: Gaming -8.6% 7d (middle, #13 of 20)",
+    "Track record: +4.4R on BEAT in the last 45 days (backtest)"
+   ],
+   "coin": "BEAT",
+   "market": "PERP",
+   "side": "LONG",
+   "entry": 0.08527,
+   "sl0": 0.08192562323248197,
+   "sl": 0.08192562323248197,
+   "tps": [
+    0.09318640580812049,
+    0.09870946747478716,
+    0.1045397375388897
+   ],
+   "lev": 1,
+   "funding_pct": 0.01,
+   "status": "stopped",
+   "hits": 0,
+   "opened": "2026-11-13T12:00:00+00:00",
+   "closed_at": "2026-11-13T17:50:21+00:00",
+   "exit_price": 0.08192562323248197,
+   "result_r": -1.0,
+   "result_pct": -3.92,
+   "last": 0.0821,
+   "last_ts": "2026-11-13T17:50:21+00:00",
+   "move_pct": -3.2,
+   "closed": true,
+   "rsi": 77.7,
+   "trade_on": "Perps 1x",
+   "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
+   "chart": "charts/BEAT-PERP-1794567600.png",
+   "setup": "RANGE_BREAK"
+  },
   {
    "id": "SHELL-PERP-HOT-20770",
    "kind": "HOT",
@@ -1927,7 +1927,7 @@
    "rsi": 56.2,
    "trade_on": "Spot",
    "market_reason": "only spot is listed",
-   "chart": "charts/WIN-SPOT-1794286800.png",
+   "chart": null,
    "setup": "BREAKOUT20"
   },
   {
@@ -2759,57 +2759,17 @@
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": null,
    "setup": "BOS"
-  },
-  {
-   "id": "ONE-SPOT-HOT-20764",
-   "kind": "HOT",
-   "score": 1849.04,
-   "reasons": [
-    "24h hot mover +45% with volume spike (14.0x the prior 3 days)",
-    "24h volume $6.3M on the OKX spot book, listed 1766 days",
-    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
-    "Stop 0.0016984 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
-   ],
-   "coin": "ONE",
-   "market": "SPOT",
-   "side": "LONG",
-   "entry": 0.00193,
-   "sl0": 0.0016984,
-   "sl": 0.00193,
-   "tps": [
-    0.0021616,
-    0.0023932,
-    0.0026248
-   ],
-   "lev": null,
-   "funding_pct": null,
-   "status": "stopped_be",
-   "hits": 2,
-   "opened": "2026-11-07T11:00:32+00:00",
-   "closed_at": "2026-11-08T02:45:27+00:00",
-   "exit_price": 0.00193,
-   "result_r": 0.75,
-   "result_pct": 9.0,
-   "last": 0.00192,
-   "last_ts": "2026-11-08T02:45:27+00:00",
-   "move_pct": 1.66,
-   "closed": true,
-   "rsi": null,
-   "trade_on": "Spot",
-   "market_reason": "very volatile coin: spot avoids liquidation",
-   "chart": null,
-   "setup": "HOT24"
   }
  ],
  "stats": {
   "all": {
-   "trades": 211,
+   "trades": 212,
    "wins": 99,
-   "losses": 112,
-   "win_rate": 46.9,
-   "total_r": 18.9,
-   "avg_r": 0.09,
-   "total_pct": 20.13
+   "losses": 113,
+   "win_rate": 46.7,
+   "total_r": 17.9,
+   "avg_r": 0.084,
+   "total_pct": 16.21
   },
   "SPOT": {
    "trades": 57,
@@ -2821,13 +2781,13 @@
    "total_pct": -17.58
   },
   "PERP": {
-   "trades": 144,
+   "trades": 145,
    "wins": 73,
-   "losses": 71,
-   "win_rate": 50.7,
-   "total_r": 31.44,
-   "avg_r": 0.218,
-   "total_pct": 32.29
+   "losses": 72,
+   "win_rate": 50.3,
+   "total_r": 30.44,
+   "avg_r": 0.21,
+   "total_pct": 28.37
   },
   "DEX": {
    "trades": 10,
@@ -2858,13 +2818,13 @@
     "total_pct": 5.42
    },
    "TA": {
-    "trades": 150,
+    "trades": 151,
     "wins": 67,
-    "losses": 83,
-    "win_rate": 44.7,
-    "total_r": 16.72,
-    "avg_r": 0.111,
-    "total_pct": 19.31
+    "losses": 84,
+    "win_rate": 44.4,
+    "total_r": 15.72,
+    "avg_r": 0.104,
+    "total_pct": 15.39
    }
   },
   "coins": {
@@ -3112,13 +3072,13 @@
     "total_pct": 8.18
    },
    "BEAT": {
-    "trades": 2,
+    "trades": 3,
     "wins": 2,
-    "losses": 0,
-    "win_rate": 100.0,
-    "total_r": 6.81,
-    "avg_r": 3.405,
-    "total_pct": 21.96
+    "losses": 1,
+    "win_rate": 66.7,
+    "total_r": 5.81,
+    "avg_r": 1.937,
+    "total_pct": 18.04
    },
    "BERA": {
     "trades": 2,
@@ -4102,7 +4062,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 4
+  "open": 3
  },
  "backtest": {
   "from": "2026-07-24",
@@ -8142,6 +8102,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "01365d4d4e9bbdc67f0be6867275697d326c50a301995266f2dc26e74a53e32d",
- "generated": "2026-11-13T17:45:26+00:00"
+ "digest": "3ea26f0612a2961c8fe3f24a1a573aa39ccd566880b8af118b1cd7c76273d3dc",
+ "generated": "2026-11-13T17:50:26+00:00"
 }
