@@ -27,7 +27,7 @@
     0.0028474776986802002
    ],
    "lev": 1,
-   "funding_pct": 0.0008,
+   "funding_pct": 0.0007,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-11T23:00:00+00:00",
@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.003148,
-   "last_ts": "2026-11-13T04:55:26+00:00",
-   "move_pct": 2.45,
+   "last": 0.003141,
+   "last_ts": "2026-11-13T05:01:34+00:00",
+   "move_pct": 2.67,
    "closed": false,
    "rsi": 33.9,
    "trade_on": "Perps 1x",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1498,
-   "last_ts": "2026-11-13T04:55:26+00:00",
-   "move_pct": -0.47,
+   "last": 0.1488,
+   "last_ts": "2026-11-13T05:01:34+00:00",
+   "move_pct": -1.13,
    "closed": false,
    "rsi": 51.5,
    "trade_on": "Perps 1x",
@@ -117,7 +117,7 @@
     5.9822574901354
    ],
    "lev": 2,
-   "funding_pct": -0.0296,
+   "funding_pct": -0.0304,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-12T00:00:00+00:00",
@@ -125,9 +125,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 7.203,
-   "last_ts": "2026-11-13T04:55:26+00:00",
-   "move_pct": 4.23,
+   "last": 7.193,
+   "last_ts": "2026-11-13T05:01:34+00:00",
+   "move_pct": 4.36,
    "closed": false,
    "rsi": 28.8,
    "trade_on": "Perps 2x",
@@ -170,9 +170,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.02926,
-   "last_ts": "2026-11-13T04:55:26+00:00",
-   "move_pct": -0.03,
+   "last": 0.02918,
+   "last_ts": "2026-11-13T05:01:34+00:00",
+   "move_pct": 0.24,
    "closed": false,
    "rsi": 25.7,
    "trade_on": "Perps 1x",
@@ -215,14 +215,59 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.07121,
-   "last_ts": "2026-11-13T04:55:26+00:00",
-   "move_pct": 0.08,
+   "last": 0.07102,
+   "last_ts": "2026-11-13T05:01:34+00:00",
+   "move_pct": 0.35,
    "closed": false,
    "rsi": 26.3,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": "charts/1INCH-PERP-1794538800.png",
+   "setup": "BOS"
+  },
+  {
+   "id": "BOME-PERP-1794542400",
+   "kind": "TA",
+   "score": 2,
+   "reasons": [
+    "Chart: Break of structure: closed below the last swing low 0.0005465, after a lower high",
+    "Timeframes: 1d down, 4h down, 4h structure lower highs/lows",
+    "No support below in the last 50 days",
+    "Stop 0.00055943 (structure); targets at 1R/2R/3R",
+    "BTC 4h trend down",
+    "Weaker than BTC by 4.8% over 7d",
+    "OI +13% 24h with breakout",
+    "Sector: Solana Meme Coins -9.6% 7d (lagging, #18 of 20)",
+    "Track record: +1.3R on BOME in the last 45 days (backtest)"
+   ],
+   "coin": "BOME",
+   "market": "PERP",
+   "side": "SHORT",
+   "entry": 0.000545,
+   "sl0": 0.0005594274791063492,
+   "sl": 0.0005594274791063492,
+   "tps": [
+    0.0005305725208936508,
+    0.0005161450417873016,
+    0.0005017175626809523
+   ],
+   "lev": 1,
+   "funding_pct": 0.005,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-11-13T05:00:00+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.000545,
+   "last_ts": "2026-11-13T05:01:34+00:00",
+   "move_pct": -0.0,
+   "closed": false,
+   "rsi": 24.8,
+   "trade_on": "Perps 1x",
+   "market_reason": "shorts need perps; thin perp market, so 1x",
+   "chart": "charts/BOME-PERP-1794542400.png",
    "setup": "BOS"
   }
  ],
@@ -4142,7 +4187,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 5
+  "open": 6
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7414,64 +7459,64 @@
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
   "onchain": [
    {
-    "chain": "BSC",
-    "symbol": "JCT",
-    "name": "JANCTION",
-    "token": "0xea37a8de1de2d9d10772eeb569e28bfa5cb17707",
-    "price": 0.0021346563314454,
-    "liq": 593790,
-    "vol24h": 14103872,
-    "age_d": 162.5,
-    "chg24h": -48.55,
-    "chg7d": -23.6,
-    "mcap": 24305889.0734333,
+    "chain": "Base",
+    "symbol": "GOOGLC",
+    "name": "Alphabet Inc.",
+    "token": "0xb2000000000000000000002d0ba3164cc74f58b7",
+    "price": 298.816649109769,
+    "liq": 1912132,
+    "vol24h": 12604588,
+    "age_d": 22.1,
+    "chg24h": 1.074,
+    "chg7d": 5.0,
+    "mcap": 10390641.8444928,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
-    "trend_up": false,
-    "rsi": 24.0,
-    "url": "https://www.geckoterminal.com/bsc/pools/0x7bb2f6dab157e444ad8717b0178035c1b1cf24958b37c2a205e61a3582283249"
+    "trend_up": true,
+    "rsi": 52.4,
+    "url": "https://www.geckoterminal.com/base/pools/0x16c70f04c3080a127486cdf5a4c33c066bbf47c3"
+   },
+   {
+    "chain": "Base",
+    "symbol": "AAPLC",
+    "name": "Apple Inc.",
+    "token": "0xb200000000000000000000c2e324d24d7eecd1fb",
+    "price": 354.833110917748,
+    "liq": 484056,
+    "vol24h": 5131812,
+    "age_d": 22.1,
+    "chg24h": -0.33,
+    "chg7d": 3.3,
+    "mcap": 2171012.19016085,
+    "safety": "ok",
+    "safety_notes": [],
+    "trigger": false,
+    "trend_up": true,
+    "rsi": 48.1,
+    "url": "https://www.geckoterminal.com/base/pools/0xf5fcb9cdafce67d50afef298f88e709d2b946ba6"
    },
    {
     "chain": "Solana",
     "symbol": "MIHAO",
     "name": "ni hao cat",
     "token": "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump",
-    "price": 0.014573863894249167,
-    "liq": 413552,
-    "vol24h": 9734646,
+    "price": 0.013788703740762718,
+    "liq": 402314,
+    "vol24h": 9189564,
     "age_d": 18.5,
-    "chg24h": -31.571,
-    "chg7d": 4603.8,
-    "mcap": 13664274.0860836,
+    "chg24h": -30.947,
+    "chg7d": 4259.7,
+    "mcap": 12971833.1665216,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 45.9,
+    "rsi": 43.5,
     "url": "https://www.geckoterminal.com/solana/pools/Ho1aSG6WGH1FfXdEHrK2f4Ggt1Hoxo9s5jcLMDqeyeBz"
-   },
-   {
-    "chain": "BSC",
-    "symbol": "Q",
-    "name": "Quack AI Token",
-    "token": "0xc07e1300dc138601fa6b0b59f8d0fa477e690589",
-    "price": 0.0265795648378168,
-    "liq": 1064046,
-    "vol24h": 4726233,
-    "age_d": 438.8,
-    "chg24h": -0.304,
-    "chg7d": 4.6,
-    "mcap": 132086984.304481,
-    "safety": "ok",
-    "safety_notes": [],
-    "trigger": false,
-    "trend_up": false,
-    "rsi": 45.6,
-    "url": "https://www.geckoterminal.com/bsc/pools/0x8bafe0bdd3eb9ae0539f5b32e771c1a72a189b7f"
    }
   ],
-  "onchain_checked": 83,
+  "onchain_checked": 82,
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
@@ -7494,28 +7539,6 @@
      "PLUME",
      "CARDS",
      "ZBCN"
-    ]
-   },
-   {
-    "id": "artificial-intelligence",
-    "name": "Artificial Intelligence",
-    "chg7d": -2.75,
-    "top": [
-     "NEAR",
-     "TAO",
-     "SN0",
-     "ICP",
-     "VVV"
-    ],
-    "tracked": [
-     "NEAR",
-     "AKE",
-     "PIEVERSE",
-     "TAO",
-     "ICP",
-     "GRASS",
-     "VVV",
-     "ALLO"
     ]
    },
    {
@@ -7750,6 +7773,28 @@
      "KMNO",
      "COMP",
      "SPK"
+    ]
+   },
+   {
+    "id": "artificial-intelligence",
+    "name": "Artificial Intelligence",
+    "chg7d": -7.78,
+    "top": [
+     "NEAR",
+     "TAO",
+     "ICP",
+     "SN0",
+     "VVV"
+    ],
+    "tracked": [
+     "NEAR",
+     "AKE",
+     "PIEVERSE",
+     "TAO",
+     "ICP",
+     "GRASS",
+     "VVV",
+     "ALLO"
     ]
    },
    {
@@ -8056,8 +8101,8 @@
   ],
   "updated": {
    "unlocks": 1794529224,
-   "onchain": 1794542431,
-   "sectors": 1794545124,
+   "onchain": 1794546030,
+   "sectors": 1794546030,
    "listings": 1794544230,
    "fundamentals": 1794529225
   }
@@ -8096,6 +8141,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "5514d5f14f13941e2fcd579d1f4943eb72169666b998e04d787c93c89be0cb3b",
- "generated": "2026-11-13T04:55:29+00:00"
+ "digest": "56c605bed74cd26e42b8e403b39e5c745ab2fce6c84a087a2fdde59c4b9f1f47",
+ "generated": "2026-11-13T05:02:07+00:00"
 }
