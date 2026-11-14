@@ -27,7 +27,7 @@
     182.77755834665348
    ],
    "lev": 1,
-   "funding_pct": -0.024,
+   "funding_pct": -0.0244,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-14T08:00:00+00:00",
@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 200.73,
-   "last_ts": "2026-11-14T21:55:19+00:00",
-   "move_pct": 6.15,
+   "last": 200.34,
+   "last_ts": "2026-11-14T22:01:32+00:00",
+   "move_pct": 6.33,
    "closed": false,
    "rsi": 30.3,
    "trade_on": "Perps 1x",
@@ -73,7 +73,7 @@
     0.040568868878454095
    ],
    "lev": 1,
-   "funding_pct": -0.0569,
+   "funding_pct": -0.0583,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-11-14T08:00:00+00:00",
@@ -81,9 +81,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0432,
-   "last_ts": "2026-11-14T21:55:19+00:00",
-   "move_pct": 9.59,
+   "last": 0.04291,
+   "last_ts": "2026-11-14T22:01:32+00:00",
+   "move_pct": 10.19,
    "closed": false,
    "rsi": 42.3,
    "trade_on": "Perps 1x",
@@ -126,9 +126,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.004375,
-   "last_ts": "2026-11-14T21:55:19+00:00",
-   "move_pct": 7.09,
+   "last": 0.004372,
+   "last_ts": "2026-11-14T22:01:32+00:00",
+   "move_pct": 7.16,
    "closed": false,
    "rsi": 27.6,
    "trade_on": "Perps 1x",
@@ -163,7 +163,7 @@
     0.008015266637785345
    ],
    "lev": 1,
-   "funding_pct": -0.0072,
+   "funding_pct": -0.0087,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-11-14T13:00:00+00:00",
@@ -171,15 +171,55 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.008523,
-   "last_ts": "2026-11-14T21:55:19+00:00",
-   "move_pct": 8.53,
+   "last": 0.008517,
+   "last_ts": "2026-11-14T22:01:32+00:00",
+   "move_pct": 8.6,
    "closed": false,
    "rsi": 25.9,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": "charts/W-PERP-1794657600.png",
    "setup": "BOS"
+  },
+  {
+   "id": "PROMPT-SPOT-HOT-20771",
+   "kind": "HOT",
+   "score": 362.96,
+   "reasons": [
+    "24h hot mover +22% with volume spike (2.8x the prior 3 days)",
+    "24h volume $571k on the OKX spot book, listed 583 days",
+    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
+    "Stop 0.013532 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
+   ],
+   "coin": "PROMPT",
+   "market": "SPOT",
+   "side": "LONG",
+   "entry": 0.01528,
+   "sl0": 0.013532082781254515,
+   "sl": 0.013532082781254515,
+   "tps": [
+    0.017027917218745487,
+    0.018775834437490972,
+    0.020523751656236457
+   ],
+   "lev": null,
+   "funding_pct": null,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-11-14T22:01:32+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.01528,
+   "last_ts": "2026-11-14T22:01:32+00:00",
+   "move_pct": 0.0,
+   "closed": false,
+   "rsi": null,
+   "trade_on": "Spot",
+   "market_reason": "only spot is listed",
+   "chart": "charts/PROMPT-SPOT-HOT-20771.png",
+   "setup": "HOT24"
   }
  ],
  "closed": [
@@ -4119,7 +4159,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 4
+  "open": 5
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7426,60 +7466,60 @@
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
   "onchain": [
    {
-    "chain": "BSC",
-    "symbol": "UP",
-    "name": "Unitas",
-    "token": "0x000008d2175f9aeaddb2430c26f8a6f73c5a0000",
-    "price": 0.150098888072226,
-    "liq": 811981,
-    "vol24h": 7681345,
-    "age_d": 248.6,
-    "chg24h": -17.326,
-    "chg7d": 40.2,
-    "mcap": 32672734.1371258,
+    "chain": "Arbitrum",
+    "symbol": "USDG",
+    "name": "Global Dollar",
+    "token": "0x004b506865409877c9fa29bfb1eba929984b9bbc",
+    "price": 1.00040931748574,
+    "liq": 1119355,
+    "vol24h": 5530807,
+    "age_d": 19.8,
+    "chg24h": 0.105,
+    "chg7d": 0.0,
+    "mcap": 2650231211.03401,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
-    "trend_up": false,
-    "rsi": 38.9,
-    "url": "https://www.geckoterminal.com/bsc/pools/0x97ef267d87abd28dd5070d485efc7cdd960e1b3045a4e2dc0b2e9abbdc9b1837"
+    "trend_up": true,
+    "rsi": 50.3,
+    "url": "https://www.geckoterminal.com/arbitrum/pools/0x81659867a8ce20bb57be82fd9184f2ff1f887605"
    },
    {
-    "chain": "BSC",
-    "symbol": "ARK",
-    "name": "ARK",
-    "token": "0xcae117ca6bc8a341d2e7207f30e180f0e5618b9d",
-    "price": 6.42015464643213,
-    "liq": 58187217,
-    "vol24h": 4963831,
-    "age_d": 445.4,
-    "chg24h": -1.117,
-    "chg7d": -0.6,
-    "mcap": 0.0,
+    "chain": "Base",
+    "symbol": "AERO",
+    "name": "Aero",
+    "token": "0x3f5bf3edac59d650d8fdf9657a71f2f904a3a4ee",
+    "price": 0.430111879845616,
+    "liq": 2603980,
+    "vol24h": 7997921,
+    "age_d": 23.8,
+    "chg24h": -8.589,
+    "chg7d": -30.3,
+    "mcap": 311441349.41409,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 46.0,
-    "url": "https://www.geckoterminal.com/bsc/pools/0xcaaf3c41a40103a23eeaa4bba468af3cf5b0e0d8"
+    "rsi": 28.6,
+    "url": "https://www.geckoterminal.com/base/pools/0xc85d5cb72d1aad6f152a8decad228ae4a59ac9b3"
    },
    {
     "chain": "BSC",
     "symbol": "HANA",
     "name": "Hana Token",
     "token": "0x6261963ebe9ff014aad10ecc3b0238d4d04e8353",
-    "price": 0.0137484561331613,
-    "liq": 924834,
-    "vol24h": 1734187,
+    "price": 0.0135560623013602,
+    "liq": 915322,
+    "vol24h": 1946324,
     "age_d": 415.8,
-    "chg24h": -22.334,
-    "chg7d": 2.9,
-    "mcap": 3309453.4728,
+    "chg24h": -21.913,
+    "chg7d": -0.5,
+    "mcap": 3253454.952,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 17.2,
+    "rsi": 16.6,
     "url": "https://www.geckoterminal.com/bsc/pools/0xd21bc2291c1aef340f5265e257b18aa5dafed759"
    }
   ],
@@ -7604,28 +7644,6 @@
      "ASTER",
      "AERO",
      "CRV"
-    ]
-   },
-   {
-    "id": "decentralized-perpetuals",
-    "name": "Decentralized Perpetuals",
-    "chg7d": -14.34,
-    "top": [
-     "HYPE",
-     "ASTER",
-     "JUP",
-     "LIT",
-     "CAKE"
-    ],
-    "tracked": [
-     "HYPE",
-     "LIT",
-     "ASTER",
-     "RAY",
-     "DYDX",
-     "BASED",
-     "GRVT",
-     "AVNT"
     ]
    },
    {
@@ -7835,6 +7853,28 @@
      "AERO",
      "CRV",
      "RAY"
+    ]
+   },
+   {
+    "id": "decentralized-perpetuals",
+    "name": "Decentralized Perpetuals",
+    "chg7d": -17.53,
+    "top": [
+     "HYPE",
+     "ASTER",
+     "JUP",
+     "LIT",
+     "CAKE"
+    ],
+    "tracked": [
+     "HYPE",
+     "LIT",
+     "ASTER",
+     "RAY",
+     "DYDX",
+     "BASED",
+     "GRVT",
+     "AVNT"
     ]
    },
    {
@@ -8065,8 +8105,8 @@
   ],
   "updated": {
    "unlocks": 1794681621,
-   "onchain": 1794690031,
-   "sectors": 1794692720,
+   "onchain": 1794693632,
+   "sectors": 1794693632,
    "listings": 1794691229,
    "fundamentals": 1794681622
   }
@@ -8105,6 +8145,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "8b3417965d2d08f0be369a745bb6111be51930dd889d1994956fbab884de1490",
- "generated": "2026-11-14T21:55:22+00:00"
+ "digest": "6574fb3e204795abc40022e420d693318ac29b6c4e181beca5901ed80d73eb33",
+ "generated": "2026-11-14T22:02:06+00:00"
 }
