@@ -1,50 +1,6 @@
 {
  "open": [
   {
-   "id": "XDP-DEX-base-0x07b3d902-1794567600",
-   "kind": "ONCHAIN",
-   "score": null,
-   "reasons": [
-    "Trending on Base (GeckoTerminal), $9.5M volume 24h",
-    "Liquidity $1.7M, pool 46 days old",
-    "Safety: GoPlus OK",
-    "Chart: 20-hour breakout above EMA50 on the DEX, RSI 71",
-    "Untested: no free history to backtest on-chain signals"
-   ],
-   "chain": "Base",
-   "token": "0x07b3d902783c3c12b077508c3b5c00113d1291d0",
-   "url": "https://www.geckoterminal.com/base/pools/0x2df380544b88adb3ad0a94100dcc45fd705aae2d",
-   "coin": "XDP",
-   "market": "DEX",
-   "side": "LONG",
-   "entry": 0.0173952690027448,
-   "sl0": 0.016771995649241464,
-   "sl": 0.0173952690027448,
-   "tps": [
-    0.018018542356248134,
-    0.01864181570975147,
-    0.019265089063254803
-   ],
-   "lev": null,
-   "funding_pct": null,
-   "status": "tp1",
-   "hits": 1,
-   "opened": "2026-11-13T12:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.017574363416911497,
-   "last_ts": "2026-11-14T19:20:23+00:00",
-   "move_pct": 1.03,
-   "closed": false,
-   "rsi": 71.0,
-   "trade_on": "On-chain spot (Base DEX)",
-   "market_reason": "not listed on OKX; buy on a DEX, small size, no leverage",
-   "chart": "charts/XDP-DEX-base-0x07b3d902-1794567600.png",
-   "setup": null
-  },
-  {
    "id": "TIA-PERP-1794600000",
    "kind": "TA",
    "score": -1,
@@ -71,7 +27,7 @@
     0.3412569408506172
    ],
    "lev": 1,
-   "funding_pct": -0.0092,
+   "funding_pct": -0.0091,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-11-13T21:00:00+00:00",
@@ -79,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.3468,
-   "last_ts": "2026-11-14T19:20:23+00:00",
-   "move_pct": 12.6,
+   "last": 0.3469,
+   "last_ts": "2026-11-14T19:25:27+00:00",
+   "move_pct": 12.58,
    "closed": false,
    "rsi": 37.1,
    "trade_on": "Perps 1x",
@@ -116,7 +72,7 @@
     182.77755834665348
    ],
    "lev": 1,
-   "funding_pct": -0.0201,
+   "funding_pct": -0.0198,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-14T08:00:00+00:00",
@@ -124,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 207.1,
-   "last_ts": "2026-11-14T19:20:23+00:00",
-   "move_pct": 3.17,
+   "last": 206.57,
+   "last_ts": "2026-11-14T19:25:27+00:00",
+   "move_pct": 3.42,
    "closed": false,
    "rsi": 30.3,
    "trade_on": "Perps 1x",
@@ -162,7 +118,7 @@
     0.040568868878454095
    ],
    "lev": 1,
-   "funding_pct": -0.1002,
+   "funding_pct": -0.0992,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-14T08:00:00+00:00",
@@ -170,9 +126,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04486,
-   "last_ts": "2026-11-14T19:20:23+00:00",
-   "move_pct": 6.11,
+   "last": 0.04494,
+   "last_ts": "2026-11-14T19:25:27+00:00",
+   "move_pct": 5.94,
    "closed": false,
    "rsi": 42.3,
    "trade_on": "Perps 1x",
@@ -215,9 +171,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.02392,
-   "last_ts": "2026-11-14T19:20:23+00:00",
-   "move_pct": 5.72,
+   "last": 0.02396,
+   "last_ts": "2026-11-14T19:25:27+00:00",
+   "move_pct": 5.56,
    "closed": false,
    "rsi": 27.5,
    "trade_on": "Perps 1x",
@@ -260,9 +216,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.004471,
-   "last_ts": "2026-11-14T19:20:23+00:00",
-   "move_pct": 5.05,
+   "last": 0.00448,
+   "last_ts": "2026-11-14T19:25:27+00:00",
+   "move_pct": 4.86,
    "closed": false,
    "rsi": 27.6,
    "trade_on": "Perps 1x",
@@ -296,7 +252,7 @@
     0.025378899295660846
    ],
    "lev": 1,
-   "funding_pct": -0.0017,
+   "funding_pct": -0.0015,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-14T11:00:00+00:00",
@@ -304,9 +260,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.02767,
-   "last_ts": "2026-11-14T19:20:23+00:00",
-   "move_pct": 7.58,
+   "last": 0.02766,
+   "last_ts": "2026-11-14T19:25:27+00:00",
+   "move_pct": 7.62,
    "closed": false,
    "rsi": 30.3,
    "trade_on": "Perps 1x",
@@ -341,7 +297,7 @@
     0.008015266637785345
    ],
    "lev": 1,
-   "funding_pct": -0.018,
+   "funding_pct": -0.017,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-14T13:00:00+00:00",
@@ -349,9 +305,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.008773,
-   "last_ts": "2026-11-14T19:20:23+00:00",
-   "move_pct": 5.85,
+   "last": 0.008754,
+   "last_ts": "2026-11-14T19:25:27+00:00",
+   "move_pct": 6.05,
    "closed": false,
    "rsi": 25.9,
    "trade_on": "Perps 1x",
@@ -361,6 +317,50 @@
   }
  ],
  "closed": [
+  {
+   "id": "XDP-DEX-base-0x07b3d902-1794567600",
+   "kind": "ONCHAIN",
+   "score": null,
+   "reasons": [
+    "Trending on Base (GeckoTerminal), $9.5M volume 24h",
+    "Liquidity $1.7M, pool 46 days old",
+    "Safety: GoPlus OK",
+    "Chart: 20-hour breakout above EMA50 on the DEX, RSI 71",
+    "Untested: no free history to backtest on-chain signals"
+   ],
+   "chain": "Base",
+   "token": "0x07b3d902783c3c12b077508c3b5c00113d1291d0",
+   "url": "https://www.geckoterminal.com/base/pools/0x2df380544b88adb3ad0a94100dcc45fd705aae2d",
+   "coin": "XDP",
+   "market": "DEX",
+   "side": "LONG",
+   "entry": 0.0173952690027448,
+   "sl0": 0.016771995649241464,
+   "sl": 0.0173952690027448,
+   "tps": [
+    0.018018542356248134,
+    0.01864181570975147,
+    0.019265089063254803
+   ],
+   "lev": null,
+   "funding_pct": null,
+   "status": "stopped_be",
+   "hits": 1,
+   "opened": "2026-11-13T12:00:00+00:00",
+   "closed_at": "2026-11-14T19:25:27+00:00",
+   "exit_price": 0.0173952690027448,
+   "result_r": 0.333,
+   "result_pct": 1.19,
+   "last": 0.0175123389149344,
+   "last_ts": "2026-11-14T19:25:27+00:00",
+   "move_pct": 1.03,
+   "closed": true,
+   "rsi": 71.0,
+   "trade_on": "On-chain spot (Base DEX)",
+   "market_reason": "not listed on OKX; buy on a DEX, small size, no leverage",
+   "chart": "charts/XDP-DEX-base-0x07b3d902-1794567600.png",
+   "setup": null
+  },
   {
    "id": "FLOCK-PERP-1794636000",
    "kind": "TA",
@@ -2109,7 +2109,7 @@
    "rsi": 29.1,
    "trade_on": "Perps 3x",
    "market_reason": "shorts need perps; 3x keeps liquidation 3x+ further away than the stop",
-   "chart": "charts/XRP-PERP-1794315600.png",
+   "chart": null,
    "setup": "BREAKOUT20"
   },
   {
@@ -2931,62 +2931,17 @@
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": null,
    "setup": "BREAKOUT20"
-  },
-  {
-   "id": "XPL-PERP-1794103200",
-   "kind": "TA",
-   "score": 0,
-   "reasons": [
-    "Chart: Broke the 20-hour low on 3.1x volume",
-    "Timeframes: 1d down, 4h down, 4h structure higher highs/lows",
-    "No support below in the last 50 days",
-    "Stop 0.057617 (structure); targets at 1R/2R/3R",
-    "BTC 4h trend down",
-    "Weaker than BTC by 29.2% over 7d",
-    "OI +2% 24h",
-    "Sector: Layer 1 -5.3% 7d (middle, #11 of 20)",
-    "Track record: +1.8R on XPL in the last 45 days (backtest)"
-   ],
-   "coin": "XPL",
-   "market": "PERP",
-   "side": "SHORT",
-   "entry": 0.05632,
-   "sl0": 0.05761718727814561,
-   "sl": 0.05632,
-   "tps": [
-    0.05502281272185439,
-    0.053725625443708784,
-    0.052428438165563175
-   ],
-   "lev": 3,
-   "funding_pct": -0.0024,
-   "status": "tp3",
-   "hits": 3,
-   "opened": "2026-11-08T03:00:00+00:00",
-   "closed_at": "2026-11-08T21:55:22+00:00",
-   "exit_price": 0.052428438165563175,
-   "result_r": 2.25,
-   "result_pct": 5.18,
-   "last": 0.0521,
-   "last_ts": "2026-11-08T21:55:22+00:00",
-   "move_pct": 3.75,
-   "closed": true,
-   "rsi": 33.4,
-   "trade_on": "Perps 3x",
-   "market_reason": "shorts need perps; 3x keeps liquidation 3x+ further away than the stop",
-   "chart": null,
-   "setup": "BREAKOUT20"
   }
  ],
  "stats": {
   "all": {
-   "trades": 218,
-   "wins": 103,
+   "trades": 219,
+   "wins": 104,
    "losses": 115,
-   "win_rate": 47.2,
-   "total_r": 22.33,
-   "avg_r": 0.102,
-   "total_pct": 50.33
+   "win_rate": 47.5,
+   "total_r": 22.67,
+   "avg_r": 0.103,
+   "total_pct": 51.52
   },
   "SPOT": {
    "trades": 60,
@@ -3007,13 +2962,13 @@
    "total_pct": 36.23
   },
   "DEX": {
-   "trades": 10,
-   "wins": 5,
+   "trades": 11,
+   "wins": 6,
    "losses": 5,
-   "win_rate": 50.0,
-   "total_r": -0.57,
-   "avg_r": -0.057,
-   "total_pct": 5.42
+   "win_rate": 54.5,
+   "total_r": -0.24,
+   "avg_r": -0.022,
+   "total_pct": 6.61
   },
   "kinds": {
    "HOT": {
@@ -3026,13 +2981,13 @@
     "total_pct": 23.71
    },
    "ONCHAIN": {
-    "trades": 10,
-    "wins": 5,
+    "trades": 11,
+    "wins": 6,
     "losses": 5,
-    "win_rate": 50.0,
-    "total_r": -0.57,
-    "avg_r": -0.057,
-    "total_pct": 5.42
+    "win_rate": 54.5,
+    "total_r": -0.24,
+    "avg_r": -0.022,
+    "total_pct": 6.61
    },
    "TA": {
     "trades": 155,
@@ -4198,13 +4153,13 @@
     "total_pct": -10.48
    },
    "XDP": {
-    "trades": 1,
-    "wins": 1,
+    "trades": 2,
+    "wins": 2,
     "losses": 0,
     "win_rate": 100.0,
-    "total_r": 0.09,
-    "avg_r": 0.094,
-    "total_pct": 0.29
+    "total_r": 0.43,
+    "avg_r": 0.214,
+    "total_pct": 1.48
    },
    "XPL": {
     "trades": 2,
@@ -4288,7 +4243,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 8
+  "open": 7
  },
  "backtest": {
   "from": "2026-07-24",
@@ -8274,6 +8229,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "124c2a804014a0cb7f19fb56dce044004150317f06929a351a47fdc47887ec81",
- "generated": "2026-11-14T19:20:29+00:00"
+ "digest": "0b9df8199c3e93b4c8d2cb15ea4e89610019e91610564ff54444e6edab687cc6",
+ "generated": "2026-11-14T19:25:33+00:00"
 }
