@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0169875713599471,
-   "last_ts": "2026-11-14T04:10:22+00:00",
-   "move_pct": -2.34,
+   "last": 0.0170702568858577,
+   "last_ts": "2026-11-14T04:15:25+00:00",
+   "move_pct": -1.87,
    "closed": false,
    "rsi": 71.0,
    "trade_on": "On-chain spot (Base DEX)",
@@ -71,7 +71,7 @@
     0.3412569408506172
    ],
    "lev": 1,
-   "funding_pct": -0.0027,
+   "funding_pct": -0.0024,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-13T21:00:00+00:00",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.3712,
-   "last_ts": "2026-11-14T04:10:22+00:00",
-   "move_pct": 6.45,
+   "last": 0.3694,
+   "last_ts": "2026-11-14T04:15:25+00:00",
+   "move_pct": 6.91,
    "closed": false,
    "rsi": 37.1,
    "trade_on": "Perps 1x",
@@ -7489,27 +7489,6 @@
     ]
    },
    {
-    "id": "lending-borrowing",
-    "name": "Lending Borrowing",
-    "chg7d": -8.27,
-    "top": [
-     "AAVE",
-     "MORPHO",
-     "OHM",
-     "COMP",
-     "KMNO"
-    ],
-    "tracked": [
-     "AAVE",
-     "CAP",
-     "CT",
-     "MORPHO",
-     "COMP",
-     "SPK",
-     "KMNO"
-    ]
-   },
-   {
     "id": "exchange-based-tokens",
     "name": "Exchange Based Tokens",
     "chg7d": -8.7,
@@ -7595,6 +7574,27 @@
      "SHIB",
      "PENGU",
      "WIF"
+    ]
+   },
+   {
+    "id": "lending-borrowing",
+    "name": "Lending Borrowing",
+    "chg7d": -9.09,
+    "top": [
+     "AAVE",
+     "MORPHO",
+     "OHM",
+     "COMP",
+     "KMNO"
+    ],
+    "tracked": [
+     "AAVE",
+     "CAP",
+     "CT",
+     "MORPHO",
+     "COMP",
+     "SPK",
+     "KMNO"
     ]
    },
    {
@@ -7966,7 +7966,7 @@
   "updated": {
    "unlocks": 1794616518,
    "onchain": 1794628833,
-   "sectors": 1794628833,
+   "sectors": 1794629724,
    "listings": 1794627323,
    "fundamentals": 1794616519
   }
@@ -8005,6 +8005,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "4a1591e32445a3cd2537c71e3936a3e99780acb6f4be34d1e7181fdb5cfcdba4",
- "generated": "2026-11-14T04:10:27+00:00"
+ "digest": "a1c303699a1bf2ed7cdf5a03b670fe0f1ebb180803322672d252d13160a36d83",
+ "generated": "2026-11-14T04:15:29+00:00"
 }
