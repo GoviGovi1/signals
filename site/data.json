@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0170160247352514,
-   "last_ts": "2026-11-14T02:25:20+00:00",
-   "move_pct": -2.18,
+   "last": 0.0168021253288498,
+   "last_ts": "2026-11-14T02:30:26+00:00",
+   "move_pct": -3.41,
    "closed": false,
    "rsi": 71.0,
    "trade_on": "On-chain spot (Base DEX)",
@@ -71,7 +71,7 @@
     0.3412569408506172
    ],
    "lev": 1,
-   "funding_pct": -0.0017,
+   "funding_pct": -0.0014,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-13T21:00:00+00:00",
@@ -79,16 +79,18 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.3743,
-   "last_ts": "2026-11-14T02:25:20+00:00",
-   "move_pct": 5.67,
+   "last": 0.372,
+   "last_ts": "2026-11-14T02:30:26+00:00",
+   "move_pct": 6.25,
    "closed": false,
    "rsi": 37.1,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; 1x keeps liquidation 3x+ further away than the stop",
    "chart": "charts/TIA-PERP-1794600000.png",
    "setup": "BREAKOUT20"
-  },
+  }
+ ],
+ "closed": [
   {
    "id": "BERA-SPOT-HOT-20771",
    "kind": "HOT",
@@ -112,25 +114,23 @@
    ],
    "lev": null,
    "funding_pct": null,
-   "status": "tp1",
+   "status": "stopped_be",
    "hits": 1,
    "opened": "2026-11-14T00:35:32+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.1273,
-   "last_ts": "2026-11-14T02:25:20+00:00",
+   "closed_at": "2026-11-14T02:30:26+00:00",
+   "exit_price": 0.1249,
+   "result_r": 0.25,
+   "result_pct": 1.31,
+   "last": 0.1266,
+   "last_ts": "2026-11-14T02:30:26+00:00",
    "move_pct": 1.92,
-   "closed": false,
+   "closed": true,
    "rsi": null,
    "trade_on": "Spot",
    "market_reason": "trend not strong enough for leverage: spot has no liquidation or funding",
    "chart": "charts/BERA-SPOT-HOT-20771.png",
    "setup": "HOT24"
-  }
- ],
- "closed": [
+  },
   {
    "id": "0G-PERP-1794438000",
    "kind": "TA",
@@ -1879,7 +1879,7 @@
    "rsi": 43.4,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": "charts/FLOW-PERP-1794304800.png",
+   "chart": null,
    "setup": "BREAKOUT20"
   },
   {
@@ -2711,70 +2711,26 @@
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": null,
    "setup": "BOS"
-  },
-  {
-   "id": "ENSO-PERP-1794042000",
-   "kind": "TA",
-   "score": 0,
-   "reasons": [
-    "Chart: Broke the 20-hour low on 1.2x volume",
-    "Timeframes: 1d down, 4h down, 4h structure lower highs/lows",
-    "Next support 0.458 (2.7R away, 4h swing/swing)",
-    "Stop 0.48409 (structure); targets at the next 1 level(s)",
-    "BTC 4h trend down",
-    "Weaker than BTC by 18.0% over 7d",
-    "OI +4% 24h",
-    "Track record: +0.6R on ENSO in the last 45 days (backtest)"
-   ],
-   "coin": "ENSO",
-   "market": "PERP",
-   "side": "SHORT",
-   "entry": 0.4771,
-   "sl0": 0.4840900147939399,
-   "sl": 0.4771,
-   "tps": [
-    0.45876375739697,
-    0.4517737426030301,
-    0.4447837278090902
-   ],
-   "lev": 1,
-   "funding_pct": 0.005,
-   "status": "tp3",
-   "hits": 3,
-   "opened": "2026-11-07T10:00:00+00:00",
-   "closed_at": "2026-11-08T16:10:27+00:00",
-   "exit_price": 0.4447837278090902,
-   "result_r": 3.873,
-   "result_pct": 5.67,
-   "last": 0.4443,
-   "last_ts": "2026-11-08T16:10:27+00:00",
-   "move_pct": 6.58,
-   "closed": true,
-   "rsi": 36.9,
-   "trade_on": "Perps 1x",
-   "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": null,
-   "setup": "BREAKOUT20"
   }
  ],
  "stats": {
   "all": {
-   "trades": 214,
-   "wins": 100,
+   "trades": 215,
+   "wins": 101,
    "losses": 114,
-   "win_rate": 46.7,
-   "total_r": 18.58,
-   "avg_r": 0.087,
-   "total_pct": 20.54
+   "win_rate": 47.0,
+   "total_r": 18.83,
+   "avg_r": 0.088,
+   "total_pct": 21.85
   },
   "SPOT": {
-   "trades": 58,
-   "wins": 21,
+   "trades": 59,
+   "wins": 22,
    "losses": 37,
-   "win_rate": 36.2,
-   "total_r": -12.97,
-   "avg_r": -0.224,
-   "total_pct": -19.63
+   "win_rate": 37.3,
+   "total_r": -12.72,
+   "avg_r": -0.216,
+   "total_pct": -18.32
   },
   "PERP": {
    "trades": 146,
@@ -2796,13 +2752,13 @@
   },
   "kinds": {
    "HOT": {
-    "trades": 51,
-    "wins": 27,
+    "trades": 52,
+    "wins": 28,
     "losses": 24,
-    "win_rate": 52.9,
-    "total_r": 2.75,
-    "avg_r": 0.054,
-    "total_pct": -4.6
+    "win_rate": 53.8,
+    "total_r": 3.0,
+    "avg_r": 0.058,
+    "total_pct": -3.29
    },
    "ONCHAIN": {
     "trades": 10,
@@ -3077,13 +3033,13 @@
     "total_pct": 18.04
    },
    "BERA": {
-    "trades": 2,
-    "wins": 1,
+    "trades": 3,
+    "wins": 2,
     "losses": 1,
-    "win_rate": 50.0,
-    "total_r": -0.95,
-    "avg_r": -0.475,
-    "total_pct": -4.96
+    "win_rate": 66.7,
+    "total_r": -0.7,
+    "avg_r": -0.233,
+    "total_pct": -3.65
    },
    "BICO": {
     "trades": 1,
@@ -4067,7 +4023,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 3
+  "open": 2
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7772,7 +7728,7 @@
    {
     "id": "privacy-coins",
     "name": "Privacy Coins",
-    "chg7d": -10.52,
+    "chg7d": -10.55,
     "top": [
      "ZEC",
      "XMR",
@@ -7991,7 +7947,7 @@
   "updated": {
    "unlocks": 1794616518,
    "onchain": 1794621628,
-   "sectors": 1794622523,
+   "sectors": 1794623426,
    "listings": 1794619828,
    "fundamentals": 1794616519
   }
@@ -8030,6 +7986,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "b720f1dfa13a17c46b1b52c0f785095f2fcd324b45522d7dd657c3d903bda078",
- "generated": "2026-11-14T02:25:25+00:00"
+ "digest": "93a8524f4b3e11baec21416da106f967647f342d3bfe8b2f16cbbaf09b76ca62",
+ "generated": "2026-11-14T02:30:32+00:00"
 }
