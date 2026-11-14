@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.017064929006605997,
-   "last_ts": "2026-11-14T03:55:20+00:00",
-   "move_pct": -1.9,
+   "last": 0.0169986413378739,
+   "last_ts": "2026-11-14T04:01:34+00:00",
+   "move_pct": -2.28,
    "closed": false,
    "rsi": 71.0,
    "trade_on": "On-chain spot (Base DEX)",
@@ -71,7 +71,7 @@
     0.3412569408506172
    ],
    "lev": 1,
-   "funding_pct": -0.0022,
+   "funding_pct": -0.0017,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-13T21:00:00+00:00",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.3718,
-   "last_ts": "2026-11-14T03:55:20+00:00",
-   "move_pct": 6.3,
+   "last": 0.3721,
+   "last_ts": "2026-11-14T04:01:34+00:00",
+   "move_pct": 6.22,
    "closed": false,
    "rsi": 37.1,
    "trade_on": "Perps 1x",
@@ -7325,63 +7325,63 @@
   "onchain": [
    {
     "chain": "Solana",
-    "symbol": "MIHAO",
-    "name": "ni hao cat",
-    "token": "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump",
-    "price": 0.01635242585354507,
-    "liq": 441601,
-    "vol24h": 5541812,
-    "age_d": 19.4,
-    "chg24h": 5.38,
-    "chg7d": 3368.0,
-    "mcap": 15420240.1742253,
+    "symbol": "CLOUD",
+    "name": "Cloud",
+    "token": "CLoUDKc4Ane7HeQcPpE3YHnznRxhMimJ4MyaUqyHFzAu",
+    "price": 0.07637671841186172,
+    "liq": 447701,
+    "vol24h": 4516570,
+    "age_d": 848.5,
+    "chg24h": -41.507,
+    "chg7d": 74.0,
+    "mcap": 37271423.3394679,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": true,
-    "rsi": 51.2,
-    "url": "https://www.geckoterminal.com/solana/pools/Ho1aSG6WGH1FfXdEHrK2f4Ggt1Hoxo9s5jcLMDqeyeBz"
+    "rsi": 43.4,
+    "url": "https://www.geckoterminal.com/solana/pools/F1KKNyUCsQcZLRjwQ4abX6Ri8gDAQ46nHwSHFKA5sFQv"
+   },
+   {
+    "chain": "Base",
+    "symbol": "AERO",
+    "name": "Aero",
+    "token": "0x3f5bf3edac59d650d8fdf9657a71f2f904a3a4ee",
+    "price": 0.459014816886688,
+    "liq": 2322814,
+    "vol24h": 10855725,
+    "age_d": 23.0,
+    "chg24h": -8.637,
+    "chg7d": -23.8,
+    "mcap": 331879969.934564,
+    "safety": "ok",
+    "safety_notes": [],
+    "trigger": false,
+    "trend_up": false,
+    "rsi": 26.7,
+    "url": "https://www.geckoterminal.com/base/pools/0xc85d5cb72d1aad6f152a8decad228ae4a59ac9b3"
    },
    {
     "chain": "BSC",
-    "symbol": "JCT",
-    "name": "JANCTION",
-    "token": "0xea37a8de1de2d9d10772eeb569e28bfa5cb17707",
-    "price": 0.00198727122463562,
-    "liq": 582156,
-    "vol24h": 11693216,
-    "age_d": 163.5,
-    "chg24h": -9.053,
-    "chg7d": -40.4,
-    "mcap": 22841074.4378922,
+    "symbol": "Q",
+    "name": "Quack AI Token",
+    "token": "0xc07e1300dc138601fa6b0b59f8d0fa477e690589",
+    "price": 0.0280431519034856,
+    "liq": 1079806,
+    "vol24h": 5646925,
+    "age_d": 439.8,
+    "chg24h": 4.447,
+    "chg7d": 0.5,
+    "mcap": 138324406.834964,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 34.1,
-    "url": "https://www.geckoterminal.com/bsc/pools/0x7bb2f6dab157e444ad8717b0178035c1b1cf24958b37c2a205e61a3582283249"
-   },
-   {
-    "chain": "Arbitrum",
-    "symbol": "ARB",
-    "name": "Arbitrum",
-    "token": "0x912ce59144191c1204e64559fe8253a0e49e6548",
-    "price": 0.141577752937569,
-    "liq": 1503876,
-    "vol24h": 3726806,
-    "age_d": 1338.0,
-    "chg24h": -4.056,
-    "chg7d": -13.7,
-    "mcap": 975770158.817294,
-    "safety": "ok",
-    "safety_notes": [],
-    "trigger": false,
-    "trend_up": false,
-    "rsi": 32.8,
-    "url": "https://www.geckoterminal.com/arbitrum/pools/0xc6f780497a95e246eb9449f5e4770916dcd6396a"
+    "rsi": 44.7,
+    "url": "https://www.geckoterminal.com/bsc/pools/0x8bafe0bdd3eb9ae0539f5b32e771c1a72a189b7f"
    }
   ],
-  "onchain_checked": 86,
+  "onchain_checked": 85,
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
@@ -7620,23 +7620,6 @@
     ]
    },
    {
-    "id": "storage",
-    "name": "Storage",
-    "chg7d": -9.41,
-    "top": [
-     "FIL",
-     "BTT",
-     "AR",
-     "AIOZ",
-     "WAL"
-    ],
-    "tracked": [
-     "FIL",
-     "AR",
-     "WAL"
-    ]
-   },
-   {
     "id": "ai-agents",
     "name": "AI Agents",
     "chg7d": -9.97,
@@ -7656,6 +7639,23 @@
      "KITE",
      "PIPPIN",
      "AIXBT"
+    ]
+   },
+   {
+    "id": "storage",
+    "name": "Storage",
+    "chg7d": -9.98,
+    "top": [
+     "FIL",
+     "BTT",
+     "AR",
+     "AIOZ",
+     "WAL"
+    ],
+    "tracked": [
+     "FIL",
+     "AR",
+     "WAL"
     ]
    },
    {
@@ -7965,8 +7965,8 @@
   ],
   "updated": {
    "unlocks": 1794616518,
-   "onchain": 1794625233,
-   "sectors": 1794627921,
+   "onchain": 1794628833,
+   "sectors": 1794628833,
    "listings": 1794627323,
    "fundamentals": 1794616519
   }
@@ -8005,6 +8005,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "0f5e62b6501dbe43f45572ad32d9ebe199c5994d7a231e07d9c112f8db40d1b0",
- "generated": "2026-11-14T03:55:25+00:00"
+ "digest": "55ae175e12d15ffb484967efab4669a539f716d2c857fbc3b569d55561a2057f",
+ "generated": "2026-11-14T04:02:15+00:00"
 }
