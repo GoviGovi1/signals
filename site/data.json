@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.017062488132296497,
-   "last_ts": "2026-11-14T00:10:30+00:00",
-   "move_pct": -1.91,
+   "last": 0.0169764795586975,
+   "last_ts": "2026-11-14T00:15:22+00:00",
+   "move_pct": -2.41,
    "closed": false,
    "rsi": 71.0,
    "trade_on": "On-chain spot (Base DEX)",
@@ -71,7 +71,7 @@
     0.3412569408506172
    ],
    "lev": 1,
-   "funding_pct": 0.0005,
+   "funding_pct": 0.0009,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-13T21:00:00+00:00",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.3827,
-   "last_ts": "2026-11-14T00:10:30+00:00",
-   "move_pct": 3.55,
+   "last": 0.3829,
+   "last_ts": "2026-11-14T00:15:22+00:00",
+   "move_pct": 3.5,
    "closed": false,
    "rsi": 37.1,
    "trade_on": "Perps 1x",
@@ -7448,28 +7448,6 @@
     ]
    },
    {
-    "id": "layer-1",
-    "name": "Layer 1",
-    "chg7d": -7.0,
-    "top": [
-     "BTC",
-     "ETH",
-     "BNB",
-     "XRP",
-     "SOL"
-    ],
-    "tracked": [
-     "BTC",
-     "ETH",
-     "SOL",
-     "XRP",
-     "BNB",
-     "SUI",
-     "AVAX",
-     "ZEC"
-    ]
-   },
-   {
     "id": "layer-2",
     "name": "Layer 2",
     "chg7d": -7.04,
@@ -7533,6 +7511,28 @@
      "ASTER",
      "CRV",
      "RAY"
+    ]
+   },
+   {
+    "id": "layer-1",
+    "name": "Layer 1",
+    "chg7d": -7.95,
+    "top": [
+     "BTC",
+     "ETH",
+     "BNB",
+     "XRP",
+     "SOL"
+    ],
+    "tracked": [
+     "BTC",
+     "ETH",
+     "SOL",
+     "XRP",
+     "BNB",
+     "SUI",
+     "AVAX",
+     "ZEC"
     ]
    },
    {
@@ -7969,7 +7969,7 @@
   "updated": {
    "unlocks": 1794594625,
    "onchain": 1794614435,
-   "sectors": 1794614435,
+   "sectors": 1794615321,
    "listings": 1794612322,
    "fundamentals": 1794594626
   }
@@ -8008,6 +8008,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "9e822b0a5e4537b65523b9197f324018b27f97fc0c5761ceb5f0e180edfd8325",
- "generated": "2026-11-14T00:10:35+00:00"
+ "digest": "20583199f2f94f7fa111d8163816cfe461237e4a8fe22dd666e9a296f4de3eea",
+ "generated": "2026-11-14T00:15:26+00:00"
 }
