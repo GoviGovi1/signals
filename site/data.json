@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0169877109343447,
-   "last_ts": "2026-11-14T00:55:20+00:00",
-   "move_pct": -2.34,
+   "last": 0.0169652814502397,
+   "last_ts": "2026-11-14T01:01:29+00:00",
+   "move_pct": -2.47,
    "closed": false,
    "rsi": 71.0,
    "trade_on": "On-chain spot (Base DEX)",
@@ -71,7 +71,7 @@
     0.3412569408506172
    ],
    "lev": 1,
-   "funding_pct": 0.0001,
+   "funding_pct": -0.0002,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-13T21:00:00+00:00",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.3779,
-   "last_ts": "2026-11-14T00:55:20+00:00",
-   "move_pct": 4.76,
+   "last": 0.3778,
+   "last_ts": "2026-11-14T01:01:29+00:00",
+   "move_pct": 4.79,
    "closed": false,
    "rsi": 37.1,
    "trade_on": "Perps 1x",
@@ -119,9 +119,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1252,
-   "last_ts": "2026-11-14T00:55:20+00:00",
-   "move_pct": 0.24,
+   "last": 0.1247,
+   "last_ts": "2026-11-14T01:01:29+00:00",
+   "move_pct": -0.16,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -7368,64 +7368,45 @@
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
   "onchain": [
    {
-    "chain": "Solana",
-    "symbol": "CLOUD",
-    "name": "Cloud",
-    "token": "CLoUDKc4Ane7HeQcPpE3YHnznRxhMimJ4MyaUqyHFzAu",
-    "price": 0.08440151356110617,
-    "liq": 463889,
-    "vol24h": 6374316,
-    "age_d": 848.3,
-    "chg24h": 92.988,
-    "chg7d": 92.7,
-    "mcap": 41187479.7511388,
+    "chain": "Base",
+    "symbol": "XDP",
+    "name": "Doppler Finance",
+    "token": "0x07b3d902783c3c12b077508c3b5c00113d1291d0",
+    "price": 0.0169694040186335,
+    "liq": 1656834,
+    "vol24h": 9446142,
+    "age_d": 46.5,
+    "chg24h": 1.822,
+    "chg7d": 5.0,
+    "mcap": 16966073.86,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": true,
-    "rsi": 52.1,
-    "url": "https://www.geckoterminal.com/solana/pools/F1KKNyUCsQcZLRjwQ4abX6Ri8gDAQ46nHwSHFKA5sFQv"
-   },
-   {
-    "chain": "Base",
-    "symbol": "GOOGLC",
-    "name": "Alphabet Inc.",
-    "token": "0xb2000000000000000000002d0ba3164cc74f58b7",
-    "price": 293.593095010649,
-    "liq": 1996325,
-    "vol24h": 13008353,
-    "age_d": 22.9,
-    "chg24h": -2.876,
-    "chg7d": 3.3,
-    "mcap": 10353445.391594,
-    "safety": "ok",
-    "safety_notes": [],
-    "trigger": false,
-    "trend_up": false,
-    "rsi": 40.2,
-    "url": "https://www.geckoterminal.com/base/pools/0x16c70f04c3080a127486cdf5a4c33c066bbf47c3"
+    "rsi": 45.6,
+    "url": "https://www.geckoterminal.com/base/pools/0x2df380544b88adb3ad0a94100dcc45fd705aae2d"
    },
    {
     "chain": "BSC",
-    "symbol": "$BANANA",
-    "name": "Banana For Scale",
-    "token": "0x3d4f0513e8a29669b960f9dbca61861548a9a760",
-    "price": 0.00385463181797012,
-    "liq": 2649849,
-    "vol24h": 4315729,
-    "age_d": 725.6,
-    "chg24h": -20.899,
-    "chg7d": -34.2,
-    "mcap": 38546318.18,
+    "symbol": "ARK",
+    "name": "ARK",
+    "token": "0xcae117ca6bc8a341d2e7207f30e180f0e5618b9d",
+    "price": 6.38040632863186,
+    "liq": 58129231,
+    "vol24h": 5201484,
+    "age_d": 444.6,
+    "chg24h": -0.332,
+    "chg7d": -0.5,
+    "mcap": 0.0,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 23.7,
-    "url": "https://www.geckoterminal.com/bsc/pools/0x7f51bbf34156ba802deb0e38b7671dc4fa32041d"
+    "rsi": 43.1,
+    "url": "https://www.geckoterminal.com/bsc/pools/0xcaaf3c41a40103a23eeaa4bba468af3cf5b0e0d8"
    }
   ],
-  "onchain_checked": 87,
+  "onchain_checked": 86,
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
@@ -7448,28 +7429,6 @@
      "PLUME",
      "CARDS",
      "ZBCN"
-    ]
-   },
-   {
-    "id": "artificial-intelligence",
-    "name": "Artificial Intelligence",
-    "chg7d": -5.63,
-    "top": [
-     "NEAR",
-     "TAO",
-     "SN0",
-     "ICP",
-     "VVV"
-    ],
-    "tracked": [
-     "AKE",
-     "NEAR",
-     "PIEVERSE",
-     "TAO",
-     "ICP",
-     "VVV",
-     "GRASS",
-     "ALLO"
     ]
    },
    {
@@ -7509,6 +7468,28 @@
      "ENA",
      "AAVE",
      "INJ"
+    ]
+   },
+   {
+    "id": "artificial-intelligence",
+    "name": "Artificial Intelligence",
+    "chg7d": -7.63,
+    "top": [
+     "NEAR",
+     "TAO",
+     "SN0",
+     "ICP",
+     "VVV"
+    ],
+    "tracked": [
+     "AKE",
+     "NEAR",
+     "PIEVERSE",
+     "TAO",
+     "ICP",
+     "VVV",
+     "GRASS",
+     "ALLO"
     ]
    },
    {
@@ -8010,8 +7991,8 @@
   ],
   "updated": {
    "unlocks": 1794616518,
-   "onchain": 1794614435,
-   "sectors": 1794617123,
+   "onchain": 1794618028,
+   "sectors": 1794618028,
    "listings": 1794616225,
    "fundamentals": 1794616519
   }
@@ -8050,6 +8031,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "66dff38cf75d52efe7c909a74ea6c31679589d88aa75f8683a96d8214d0d9767",
- "generated": "2026-11-14T00:55:25+00:00"
+ "digest": "37f5e34d46e05e59eddce0f9147b1ac502734aa4cd4d0ce83f314f0f426a3e8e",
+ "generated": "2026-11-14T01:02:08+00:00"
 }
