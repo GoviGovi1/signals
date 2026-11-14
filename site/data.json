@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0170630964684135,
-   "last_ts": "2026-11-14T02:55:19+00:00",
-   "move_pct": -1.91,
+   "last": 0.0169252198545609,
+   "last_ts": "2026-11-14T03:01:34+00:00",
+   "move_pct": -2.7,
    "closed": false,
    "rsi": 71.0,
    "trade_on": "On-chain spot (Base DEX)",
@@ -71,7 +71,7 @@
     0.3412569408506172
    ],
    "lev": 1,
-   "funding_pct": -0.0009,
+   "funding_pct": -0.0007,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-13T21:00:00+00:00",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.3735,
-   "last_ts": "2026-11-14T02:55:19+00:00",
-   "move_pct": 5.87,
+   "last": 0.374,
+   "last_ts": "2026-11-14T03:01:34+00:00",
+   "move_pct": 5.75,
    "closed": false,
    "rsi": 37.1,
    "trade_on": "Perps 1x",
@@ -7324,42 +7324,61 @@
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
   "onchain": [
    {
-    "chain": "Base",
-    "symbol": "XDP",
-    "name": "Doppler Finance",
-    "token": "0x07b3d902783c3c12b077508c3b5c00113d1291d0",
-    "price": 0.0169620109374079,
-    "liq": 1655360,
-    "vol24h": 9491082,
-    "age_d": 46.5,
-    "chg24h": 1.603,
-    "chg7d": 3.8,
-    "mcap": 16962010.94,
+    "chain": "Solana",
+    "symbol": "MIHAO",
+    "name": "ni hao cat",
+    "token": "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump",
+    "price": 0.01635242585354507,
+    "liq": 441601,
+    "vol24h": 5541812,
+    "age_d": 19.4,
+    "chg24h": 5.38,
+    "chg7d": 3368.0,
+    "mcap": 15420240.1742253,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": true,
-    "rsi": 45.0,
-    "url": "https://www.geckoterminal.com/base/pools/0x2df380544b88adb3ad0a94100dcc45fd705aae2d"
+    "rsi": 51.2,
+    "url": "https://www.geckoterminal.com/solana/pools/Ho1aSG6WGH1FfXdEHrK2f4Ggt1Hoxo9s5jcLMDqeyeBz"
    },
    {
     "chain": "BSC",
-    "symbol": "ARK",
-    "name": "ARK",
-    "token": "0xcae117ca6bc8a341d2e7207f30e180f0e5618b9d",
-    "price": 6.41382932666407,
-    "liq": 57990861,
-    "vol24h": 5152498,
-    "age_d": 444.6,
-    "chg24h": 0.413,
-    "chg7d": -0.3,
-    "mcap": 0.0,
+    "symbol": "JCT",
+    "name": "JANCTION",
+    "token": "0xea37a8de1de2d9d10772eeb569e28bfa5cb17707",
+    "price": 0.00198727122463562,
+    "liq": 582156,
+    "vol24h": 11693216,
+    "age_d": 163.5,
+    "chg24h": -9.053,
+    "chg7d": -40.4,
+    "mcap": 22841074.4378922,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 50.8,
-    "url": "https://www.geckoterminal.com/bsc/pools/0xcaaf3c41a40103a23eeaa4bba468af3cf5b0e0d8"
+    "rsi": 34.1,
+    "url": "https://www.geckoterminal.com/bsc/pools/0x7bb2f6dab157e444ad8717b0178035c1b1cf24958b37c2a205e61a3582283249"
+   },
+   {
+    "chain": "Arbitrum",
+    "symbol": "ARB",
+    "name": "Arbitrum",
+    "token": "0x912ce59144191c1204e64559fe8253a0e49e6548",
+    "price": 0.141577752937569,
+    "liq": 1503876,
+    "vol24h": 3726806,
+    "age_d": 1338.0,
+    "chg24h": -4.056,
+    "chg7d": -13.7,
+    "mcap": 975770158.817294,
+    "safety": "ok",
+    "safety_notes": [],
+    "trigger": false,
+    "trend_up": false,
+    "rsi": 32.8,
+    "url": "https://www.geckoterminal.com/arbitrum/pools/0xc6f780497a95e246eb9449f5e4770916dcd6396a"
    }
   ],
   "onchain_checked": 86,
@@ -7662,26 +7681,6 @@
     ]
    },
    {
-    "id": "oracle",
-    "name": "Oracle",
-    "chg7d": -9.76,
-    "top": [
-     "LINK",
-     "PYTH",
-     "RED",
-     "WIN",
-     "TRB"
-    ],
-    "tracked": [
-     "LINK",
-     "PYTH",
-     "TRB",
-     "API3",
-     "ZKP",
-     "BAND"
-    ]
-   },
-   {
     "id": "ai-agents",
     "name": "AI Agents",
     "chg7d": -9.97,
@@ -7760,6 +7759,26 @@
      "FARTCOIN",
      "PNUT",
      "BONK"
+    ]
+   },
+   {
+    "id": "oracle",
+    "name": "Oracle",
+    "chg7d": -11.66,
+    "top": [
+     "LINK",
+     "PYTH",
+     "RED",
+     "WIN",
+     "TRB"
+    ],
+    "tracked": [
+     "LINK",
+     "PYTH",
+     "TRB",
+     "API3",
+     "ZKP",
+     "BAND"
     ]
    },
    {
@@ -7946,8 +7965,8 @@
   ],
   "updated": {
    "unlocks": 1794616518,
-   "onchain": 1794621628,
-   "sectors": 1794624324,
+   "onchain": 1794625233,
+   "sectors": 1794625233,
    "listings": 1794623722,
    "fundamentals": 1794616519
   }
@@ -7986,6 +8005,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "50a95f79926d514b14cf05bfb481ee521e9528fa80aefb4744b5cbd156d07947",
- "generated": "2026-11-14T02:55:24+00:00"
+ "digest": "7c5500cf7d9436cc1c021ab75dcd71fc476658bde2031b5469bed486697ae04a",
+ "generated": "2026-11-14T03:02:38+00:00"
 }
