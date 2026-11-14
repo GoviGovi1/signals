@@ -27,7 +27,7 @@
     182.77755834665348
    ],
    "lev": 1,
-   "funding_pct": -0.0206,
+   "funding_pct": -0.0201,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-14T08:00:00+00:00",
@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 200.7,
-   "last_ts": "2026-11-14T20:55:19+00:00",
-   "move_pct": 6.16,
+   "last": 202.2,
+   "last_ts": "2026-11-14T21:01:31+00:00",
+   "move_pct": 5.46,
    "closed": false,
    "rsi": 30.3,
    "trade_on": "Perps 1x",
@@ -73,7 +73,7 @@
     0.040568868878454095
    ],
    "lev": 1,
-   "funding_pct": -0.0963,
+   "funding_pct": -0.0899,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-11-14T08:00:00+00:00",
@@ -81,9 +81,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04302,
-   "last_ts": "2026-11-14T20:55:19+00:00",
-   "move_pct": 9.96,
+   "last": 0.04324,
+   "last_ts": "2026-11-14T21:01:31+00:00",
+   "move_pct": 9.5,
    "closed": false,
    "rsi": 42.3,
    "trade_on": "Perps 1x",
@@ -126,9 +126,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.004371,
-   "last_ts": "2026-11-14T20:55:19+00:00",
-   "move_pct": 7.18,
+   "last": 0.004398,
+   "last_ts": "2026-11-14T21:01:31+00:00",
+   "move_pct": 6.6,
    "closed": false,
    "rsi": 27.6,
    "trade_on": "Perps 1x",
@@ -163,7 +163,7 @@
     0.008015266637785345
    ],
    "lev": 1,
-   "funding_pct": -0.0138,
+   "funding_pct": -0.0118,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-11-14T13:00:00+00:00",
@@ -171,9 +171,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.00853,
-   "last_ts": "2026-11-14T20:55:19+00:00",
-   "move_pct": 8.46,
+   "last": 0.008568,
+   "last_ts": "2026-11-14T21:01:31+00:00",
+   "move_pct": 8.05,
    "closed": false,
    "rsi": 25.9,
    "trade_on": "Perps 1x",
@@ -7426,63 +7426,61 @@
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
   "onchain": [
    {
-    "chain": "Solana",
-    "symbol": "GATO",
-    "name": "GTA6CAT",
-    "token": "HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump",
-    "price": 0.0073476338548199936,
-    "liq": 277370,
-    "vol24h": 1400222,
-    "age_d": 81.3,
-    "chg24h": 6.628,
-    "chg7d": -43.4,
-    "mcap": 7280151.92802218,
-    "safety": "unknown",
-    "safety_notes": [
-     "safety not checked"
-    ],
-    "trigger": false,
-    "trend_up": true,
-    "rsi": 53.0,
-    "url": "https://www.geckoterminal.com/solana/pools/5E3dXLXGwmTDCokA51WYYaKttjFZBwqCoyUHBUi5gt2m"
-   },
-   {
-    "chain": "Base",
-    "symbol": "AERO",
-    "name": "Aero",
-    "token": "0x3f5bf3edac59d650d8fdf9657a71f2f904a3a4ee",
-    "price": 0.441399170452065,
-    "liq": 3258485,
-    "vol24h": 7439449,
-    "age_d": 23.7,
-    "chg24h": -7.638,
-    "chg7d": -27.4,
-    "mcap": 319364089.215047,
+    "chain": "BSC",
+    "symbol": "UP",
+    "name": "Unitas",
+    "token": "0x000008d2175f9aeaddb2430c26f8a6f73c5a0000",
+    "price": 0.150098888072226,
+    "liq": 811981,
+    "vol24h": 7681345,
+    "age_d": 248.6,
+    "chg24h": -17.326,
+    "chg7d": 40.2,
+    "mcap": 32672734.1371258,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 33.2,
-    "url": "https://www.geckoterminal.com/base/pools/0xc85d5cb72d1aad6f152a8decad228ae4a59ac9b3"
+    "rsi": 38.9,
+    "url": "https://www.geckoterminal.com/bsc/pools/0x97ef267d87abd28dd5070d485efc7cdd960e1b3045a4e2dc0b2e9abbdc9b1837"
    },
    {
-    "chain": "Arbitrum",
-    "symbol": "ARB",
-    "name": "Arbitrum",
-    "token": "0x912ce59144191c1204e64559fe8253a0e49e6548",
-    "price": 0.131313120652942,
-    "liq": 1531184,
-    "vol24h": 4492949,
-    "age_d": 1338.8,
-    "chg24h": -10.144,
-    "chg7d": -21.7,
-    "mcap": 904658167.103642,
+    "chain": "BSC",
+    "symbol": "ARK",
+    "name": "ARK",
+    "token": "0xcae117ca6bc8a341d2e7207f30e180f0e5618b9d",
+    "price": 6.42015464643213,
+    "liq": 58187217,
+    "vol24h": 4963831,
+    "age_d": 445.4,
+    "chg24h": -1.117,
+    "chg7d": -0.6,
+    "mcap": 0.0,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 25.4,
-    "url": "https://www.geckoterminal.com/arbitrum/pools/0xc6f780497a95e246eb9449f5e4770916dcd6396a"
+    "rsi": 46.0,
+    "url": "https://www.geckoterminal.com/bsc/pools/0xcaaf3c41a40103a23eeaa4bba468af3cf5b0e0d8"
+   },
+   {
+    "chain": "BSC",
+    "symbol": "HANA",
+    "name": "Hana Token",
+    "token": "0x6261963ebe9ff014aad10ecc3b0238d4d04e8353",
+    "price": 0.0137484561331613,
+    "liq": 924834,
+    "vol24h": 1734187,
+    "age_d": 415.8,
+    "chg24h": -22.334,
+    "chg7d": 2.9,
+    "mcap": 3309453.4728,
+    "safety": "ok",
+    "safety_notes": [],
+    "trigger": false,
+    "trend_up": false,
+    "rsi": 17.2,
+    "url": "https://www.geckoterminal.com/bsc/pools/0xd21bc2291c1aef340f5265e257b18aa5dafed759"
    }
   ],
   "onchain_checked": 86,
@@ -7545,28 +7543,6 @@
      "COMP",
      "KMNO",
      "SPK"
-    ]
-   },
-   {
-    "id": "artificial-intelligence",
-    "name": "Artificial Intelligence",
-    "chg7d": -11.85,
-    "top": [
-     "NEAR",
-     "TAO",
-     "SN0",
-     "ICP",
-     "VVV"
-    ],
-    "tracked": [
-     "AKE",
-     "NEAR",
-     "PIEVERSE",
-     "TAO",
-     "ICP",
-     "VVV",
-     "ALLO",
-     "GRASS"
     ]
    },
    {
@@ -7862,6 +7838,28 @@
     ]
    },
    {
+    "id": "artificial-intelligence",
+    "name": "Artificial Intelligence",
+    "chg7d": -16.08,
+    "top": [
+     "NEAR",
+     "TAO",
+     "SN0",
+     "ICP",
+     "VVV"
+    ],
+    "tracked": [
+     "AKE",
+     "NEAR",
+     "PIEVERSE",
+     "TAO",
+     "ICP",
+     "VVV",
+     "ALLO",
+     "GRASS"
+    ]
+   },
+   {
     "id": "solana-meme-coins",
     "name": "Solana Meme Coins",
     "chg7d": -16.77,
@@ -8067,8 +8065,8 @@
   ],
   "updated": {
    "unlocks": 1794681621,
-   "onchain": 1794686429,
-   "sectors": 1794689123,
+   "onchain": 1794690031,
+   "sectors": 1794690031,
    "listings": 1794687627,
    "fundamentals": 1794681622
   }
@@ -8107,6 +8105,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "c4b477409f6dbb00346dd45722557081033827eb8d101cfd581e61e43605be7d",
- "generated": "2026-11-14T20:55:27+00:00"
+ "digest": "5a782c16f85992d038f24218a512ad3d294acb6eb11e794dbffe373c3df3b871",
+ "generated": "2026-11-14T21:02:02+00:00"
 }
