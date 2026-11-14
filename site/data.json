@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.017002974457677296,
-   "last_ts": "2026-11-14T01:55:20+00:00",
-   "move_pct": -2.26,
+   "last": 0.016965601540101398,
+   "last_ts": "2026-11-14T02:01:29+00:00",
+   "move_pct": -2.47,
    "closed": false,
    "rsi": 71.0,
    "trade_on": "On-chain spot (Base DEX)",
@@ -71,7 +71,7 @@
     0.3412569408506172
    ],
    "lev": 1,
-   "funding_pct": -0.0015,
+   "funding_pct": -0.0024,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-13T21:00:00+00:00",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.3765,
-   "last_ts": "2026-11-14T01:55:20+00:00",
-   "move_pct": 5.12,
+   "last": 0.3766,
+   "last_ts": "2026-11-14T02:01:29+00:00",
+   "move_pct": 5.09,
    "closed": false,
    "rsi": 37.1,
    "trade_on": "Perps 1x",
@@ -119,9 +119,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1341,
-   "last_ts": "2026-11-14T01:55:20+00:00",
-   "move_pct": 7.37,
+   "last": 0.1336,
+   "last_ts": "2026-11-14T02:01:29+00:00",
+   "move_pct": 6.97,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -7372,18 +7372,18 @@
     "symbol": "XDP",
     "name": "Doppler Finance",
     "token": "0x07b3d902783c3c12b077508c3b5c00113d1291d0",
-    "price": 0.0169694040186335,
-    "liq": 1656834,
-    "vol24h": 9446142,
+    "price": 0.0169620109374079,
+    "liq": 1655360,
+    "vol24h": 9491082,
     "age_d": 46.5,
-    "chg24h": 1.822,
-    "chg7d": 5.0,
-    "mcap": 16966073.86,
+    "chg24h": 1.603,
+    "chg7d": 3.8,
+    "mcap": 16962010.94,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": true,
-    "rsi": 45.6,
+    "rsi": 45.0,
     "url": "https://www.geckoterminal.com/base/pools/0x2df380544b88adb3ad0a94100dcc45fd705aae2d"
    },
    {
@@ -7391,18 +7391,18 @@
     "symbol": "ARK",
     "name": "ARK",
     "token": "0xcae117ca6bc8a341d2e7207f30e180f0e5618b9d",
-    "price": 6.38040632863186,
-    "liq": 58129231,
-    "vol24h": 5201484,
+    "price": 6.41382932666407,
+    "liq": 57990861,
+    "vol24h": 5152498,
     "age_d": 444.6,
-    "chg24h": -0.332,
-    "chg7d": -0.5,
+    "chg24h": 0.413,
+    "chg7d": -0.3,
     "mcap": 0.0,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 43.1,
+    "rsi": 50.8,
     "url": "https://www.geckoterminal.com/bsc/pools/0xcaaf3c41a40103a23eeaa4bba468af3cf5b0e0d8"
    }
   ],
@@ -7624,28 +7624,6 @@
     ]
    },
    {
-    "id": "decentralized-perpetuals",
-    "name": "Decentralized Perpetuals",
-    "chg7d": -8.73,
-    "top": [
-     "HYPE",
-     "ASTER",
-     "JUP",
-     "LIT",
-     "CAKE"
-    ],
-    "tracked": [
-     "HYPE",
-     "LIT",
-     "ASTER",
-     "GRVT",
-     "RAY",
-     "DYDX",
-     "BASED",
-     "ARKM"
-    ]
-   },
-   {
     "id": "meme-token",
     "name": "Meme Token",
     "chg7d": -9.03,
@@ -7768,6 +7746,28 @@
      "KITE",
      "PIPPIN",
      "AIXBT"
+    ]
+   },
+   {
+    "id": "decentralized-perpetuals",
+    "name": "Decentralized Perpetuals",
+    "chg7d": -10.0,
+    "top": [
+     "HYPE",
+     "ASTER",
+     "JUP",
+     "LIT",
+     "CAKE"
+    ],
+    "tracked": [
+     "HYPE",
+     "LIT",
+     "ASTER",
+     "GRVT",
+     "RAY",
+     "DYDX",
+     "BASED",
+     "ARKM"
     ]
    },
    {
@@ -7991,8 +7991,8 @@
   ],
   "updated": {
    "unlocks": 1794616518,
-   "onchain": 1794618028,
-   "sectors": 1794620722,
+   "onchain": 1794621628,
+   "sectors": 1794621628,
    "listings": 1794619828,
    "fundamentals": 1794616519
   }
@@ -8031,6 +8031,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "17d8e7a295862a08c853beca9580206ba9ff0b3ba75c80f936ef8375f24d6874",
- "generated": "2026-11-14T01:55:25+00:00"
+ "digest": "b9281f6b7c7196defdcdb507d2b771c076106a2a504ec71c98381f83d3564659",
+ "generated": "2026-11-14T02:02:10+00:00"
 }
