@@ -1,51 +1,6 @@
 {
  "open": [
   {
-   "id": "0G-PERP-1794438000",
-   "kind": "TA",
-   "score": 1,
-   "reasons": [
-    "Chart: Retest of the 0.1502 breakout level held (10h after the break)",
-    "Timeframes: 1d down, 4h down, 4h structure mixed",
-    "Next resistance 0.16483 (2.5R away, 4h swing/swing)",
-    "Stop 0.14481 (2 ATR); targets at the next 3 level(s)",
-    "BTC 4h trend down",
-    "Stronger than BTC by 2.7% over 7d",
-    "OI +6% 24h with breakout",
-    "Sector: Artificial Intelligence -8.3% 7d (middle, #9 of 20)",
-    "Track record: +1.4R on 0G in the last 45 days (backtest)"
-   ],
-   "coin": "0G",
-   "market": "PERP",
-   "side": "LONG",
-   "entry": 0.1505,
-   "sl0": 0.14480979905827712,
-   "sl": 0.14480979905827712,
-   "tps": [
-    0.16440656826270408,
-    0.1724065682627041,
-    0.17762323492937077
-   ],
-   "lev": 1,
-   "funding_pct": -0.0009,
-   "status": "open",
-   "hits": 0,
-   "opened": "2026-11-12T00:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.16,
-   "last_ts": "2026-11-13T23:55:24+00:00",
-   "move_pct": 6.31,
-   "closed": false,
-   "rsi": 51.5,
-   "trade_on": "Perps 1x",
-   "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
-   "chart": "charts/0G-PERP-1794438000.png",
-   "setup": "RETEST"
-  },
-  {
    "id": "XDP-DEX-base-0x07b3d902-1794567600",
    "kind": "ONCHAIN",
    "score": null,
@@ -79,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.017030115039049,
-   "last_ts": "2026-11-13T23:55:24+00:00",
-   "move_pct": -2.1,
+   "last": 0.0169894564340682,
+   "last_ts": "2026-11-14T00:01:36+00:00",
+   "move_pct": -2.33,
    "closed": false,
    "rsi": 71.0,
    "trade_on": "On-chain spot (Base DEX)",
@@ -116,7 +71,7 @@
     0.3412569408506172
    ],
    "lev": 1,
-   "funding_pct": -0.0004,
+   "funding_pct": 0.0,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-13T21:00:00+00:00",
@@ -124,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.3845,
-   "last_ts": "2026-11-13T23:55:24+00:00",
-   "move_pct": 3.1,
+   "last": 0.3848,
+   "last_ts": "2026-11-14T00:01:36+00:00",
+   "move_pct": 3.02,
    "closed": false,
    "rsi": 37.1,
    "trade_on": "Perps 1x",
@@ -136,6 +91,51 @@
   }
  ],
  "closed": [
+  {
+   "id": "0G-PERP-1794438000",
+   "kind": "TA",
+   "score": 1,
+   "reasons": [
+    "Chart: Retest of the 0.1502 breakout level held (10h after the break)",
+    "Timeframes: 1d down, 4h down, 4h structure mixed",
+    "Next resistance 0.16483 (2.5R away, 4h swing/swing)",
+    "Stop 0.14481 (2 ATR); targets at the next 3 level(s)",
+    "BTC 4h trend down",
+    "Stronger than BTC by 2.7% over 7d",
+    "OI +6% 24h with breakout",
+    "Sector: Artificial Intelligence -8.3% 7d (middle, #9 of 20)",
+    "Track record: +1.4R on 0G in the last 45 days (backtest)"
+   ],
+   "coin": "0G",
+   "market": "PERP",
+   "side": "LONG",
+   "entry": 0.1505,
+   "sl0": 0.14480979905827712,
+   "sl": 0.14480979905827712,
+   "tps": [
+    0.16440656826270408,
+    0.1724065682627041,
+    0.17762323492937077
+   ],
+   "lev": 1,
+   "funding_pct": -0.0009,
+   "status": "expired",
+   "hits": 0,
+   "opened": "2026-11-12T00:00:00+00:00",
+   "closed_at": "2026-11-14T00:01:36+00:00",
+   "exit_price": 0.1601,
+   "result_r": 1.687,
+   "result_pct": 6.38,
+   "last": 0.1601,
+   "last_ts": "2026-11-14T00:01:36+00:00",
+   "move_pct": 6.31,
+   "closed": true,
+   "rsi": 51.5,
+   "trade_on": "Perps 1x",
+   "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
+   "chart": "charts/0G-PERP-1794438000.png",
+   "setup": "RETEST"
+  },
   {
    "id": "PROS-SPOT-1794585600",
    "kind": "TA",
@@ -2715,62 +2715,17 @@
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": null,
    "setup": "BREAKOUT20"
-  },
-  {
-   "id": "AT-PERP-1794124800",
-   "kind": "TA",
-   "score": 0,
-   "reasons": [
-    "Chart: Broke down from a 2-day range at 0.0941 (range 0.0941\u20130.1017) on 1.1x volume",
-    "Timeframes: 1d down, 4h down, 4h structure higher highs/lows",
-    "No support below in the last 50 days",
-    "Stop 0.095057 (above the breakdown level); targets at 1R/2R/3R",
-    "BTC 4h trend down",
-    "Weaker than BTC by 20.0% over 7d",
-    "OI +4% 24h",
-    "Sector: Oracle -5.9% 7d (middle, #10 of 20)",
-    "Track record: +3.5R on AT in the last 45 days (backtest)"
-   ],
-   "coin": "AT",
-   "market": "PERP",
-   "side": "SHORT",
-   "entry": 0.0933,
-   "sl0": 0.09505653167710441,
-   "sl": 0.0933,
-   "tps": [
-    0.09154346832289557,
-    0.08978693664579115,
-    0.08803040496868673
-   ],
-   "lev": 1,
-   "funding_pct": 0.005,
-   "status": "stopped_be",
-   "hits": 1,
-   "opened": "2026-11-08T09:00:00+00:00",
-   "closed_at": "2026-11-08T15:31:32+00:00",
-   "exit_price": 0.0933,
-   "result_r": 0.25,
-   "result_pct": 0.47,
-   "last": 0.0938,
-   "last_ts": "2026-11-08T15:31:32+00:00",
-   "move_pct": 1.82,
-   "closed": true,
-   "rsi": 33.2,
-   "trade_on": "Perps 1x",
-   "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": null,
-   "setup": "RANGE_BREAK"
   }
  ],
  "stats": {
   "all": {
-   "trades": 213,
-   "wins": 99,
+   "trades": 214,
+   "wins": 100,
    "losses": 114,
-   "win_rate": 46.5,
-   "total_r": 16.9,
-   "avg_r": 0.079,
-   "total_pct": 14.16
+   "win_rate": 46.7,
+   "total_r": 18.58,
+   "avg_r": 0.087,
+   "total_pct": 20.54
   },
   "SPOT": {
    "trades": 58,
@@ -2782,13 +2737,13 @@
    "total_pct": -19.63
   },
   "PERP": {
-   "trades": 145,
-   "wins": 73,
+   "trades": 146,
+   "wins": 74,
    "losses": 72,
-   "win_rate": 50.3,
-   "total_r": 30.44,
-   "avg_r": 0.21,
-   "total_pct": 28.37
+   "win_rate": 50.7,
+   "total_r": 32.13,
+   "avg_r": 0.22,
+   "total_pct": 34.75
   },
   "DEX": {
    "trades": 10,
@@ -2819,24 +2774,24 @@
     "total_pct": 5.42
    },
    "TA": {
-    "trades": 152,
-    "wins": 67,
+    "trades": 153,
+    "wins": 68,
     "losses": 85,
-    "win_rate": 44.1,
-    "total_r": 14.72,
-    "avg_r": 0.097,
-    "total_pct": 13.34
+    "win_rate": 44.4,
+    "total_r": 16.41,
+    "avg_r": 0.107,
+    "total_pct": 19.72
    }
   },
   "coins": {
    "0G": {
-    "trades": 1,
-    "wins": 0,
+    "trades": 2,
+    "wins": 1,
     "losses": 1,
-    "win_rate": 0.0,
-    "total_r": -1.0,
-    "avg_r": -1.0,
-    "total_pct": -1.5
+    "win_rate": 50.0,
+    "total_r": 0.69,
+    "avg_r": 0.344,
+    "total_pct": 4.88
    },
    "1INCH": {
     "trades": 4,
@@ -4072,7 +4027,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 3
+  "open": 2
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7371,121 +7326,64 @@
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
   "onchain": [
    {
-    "chain": "BSC",
-    "symbol": "AKE",
-    "name": "AKE",
-    "token": "0x2c3a8ee94ddd97244a93bc48298f97d2c412f7db",
-    "price": 0.0124410419163685,
-    "liq": 1870511,
-    "vol24h": 134343640,
-    "age_d": 450.6,
-    "chg24h": 360.304,
-    "chg7d": 208.8,
-    "mcap": 283680418.56915,
-    "safety": "ok",
-    "safety_notes": [],
-    "trigger": false,
-    "trend_up": true,
-    "rsi": 87.1,
-    "url": "https://www.geckoterminal.com/bsc/pools/0x4d3bf29ba30f8bfe4624e7678709afa195689c5d"
-   },
-   {
     "chain": "Solana",
     "symbol": "CLOUD",
     "name": "Cloud",
     "token": "CLoUDKc4Ane7HeQcPpE3YHnznRxhMimJ4MyaUqyHFzAu",
-    "price": 0.08521975403537044,
-    "liq": 463037,
-    "vol24h": 6315036,
+    "price": 0.08440151356110617,
+    "liq": 463889,
+    "vol24h": 6374316,
     "age_d": 848.3,
-    "chg24h": 94.149,
-    "chg7d": 94.9,
-    "mcap": 41492846.8581904,
+    "chg24h": 92.988,
+    "chg7d": 92.7,
+    "mcap": 41187479.7511388,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": true,
-    "rsi": 53.3,
+    "rsi": 52.1,
     "url": "https://www.geckoterminal.com/solana/pools/F1KKNyUCsQcZLRjwQ4abX6Ri8gDAQ46nHwSHFKA5sFQv"
    },
    {
-    "chain": "BSC",
-    "symbol": "ARIA",
-    "name": "ARIA.AI",
-    "token": "0x5d3a12c42e5372b2cc3264ab3cdcf660a1555238",
-    "price": 0.195875593942929,
-    "liq": 1959269,
-    "vol24h": 38596902,
-    "age_d": 451.6,
-    "chg24h": -4.704,
-    "chg7d": 33.2,
-    "mcap": 35845233.6837,
-    "safety": "ok",
-    "safety_notes": [],
-    "trigger": false,
-    "trend_up": false,
-    "rsi": 46.3,
-    "url": "https://www.geckoterminal.com/bsc/pools/0xa5dbeaf16fc031eae92175974f8d0a439be4ad17"
-   },
-   {
     "chain": "Base",
-    "symbol": "NVDAC",
-    "name": "NVIDIA Corporation",
-    "token": "0xb20000000000000000000078ee7ce2fe4908108c",
-    "price": 161.272556948333,
-    "liq": 1450154,
-    "vol24h": 15139593,
-    "age_d": 22.8,
-    "chg24h": -3.061,
-    "chg7d": -14.4,
-    "mcap": 7727265.80972121,
+    "symbol": "GOOGLC",
+    "name": "Alphabet Inc.",
+    "token": "0xb2000000000000000000002d0ba3164cc74f58b7",
+    "price": 293.593095010649,
+    "liq": 1996325,
+    "vol24h": 13008353,
+    "age_d": 22.9,
+    "chg24h": -2.876,
+    "chg7d": 3.3,
+    "mcap": 10353445.391594,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 41.8,
-    "url": "https://www.geckoterminal.com/base/pools/0xf668e21993f0acd7ab00bb1cfbaed0df28a3c8ec"
+    "rsi": 40.2,
+    "url": "https://www.geckoterminal.com/base/pools/0x16c70f04c3080a127486cdf5a4c33c066bbf47c3"
    },
    {
     "chain": "BSC",
-    "symbol": "JCT",
-    "name": "JANCTION",
-    "token": "0xea37a8de1de2d9d10772eeb569e28bfa5cb17707",
-    "price": 0.00211931042103603,
-    "liq": 600246,
-    "vol24h": 12355319,
-    "age_d": 163.3,
-    "chg24h": -12.849,
-    "chg7d": -34.1,
-    "mcap": 24322365.0790719,
+    "symbol": "$BANANA",
+    "name": "Banana For Scale",
+    "token": "0x3d4f0513e8a29669b960f9dbca61861548a9a760",
+    "price": 0.00385463181797012,
+    "liq": 2649849,
+    "vol24h": 4315729,
+    "age_d": 725.6,
+    "chg24h": -20.899,
+    "chg7d": -34.2,
+    "mcap": 38546318.18,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 38.0,
-    "url": "https://www.geckoterminal.com/bsc/pools/0x7bb2f6dab157e444ad8717b0178035c1b1cf24958b37c2a205e61a3582283249"
-   },
-   {
-    "chain": "Base",
-    "symbol": "AERO",
-    "name": "Aero",
-    "token": "0x3f5bf3edac59d650d8fdf9657a71f2f904a3a4ee",
-    "price": 0.467321342167813,
-    "liq": 2732771,
-    "vol24h": 10738588,
-    "age_d": 22.8,
-    "chg24h": -10.639,
-    "chg7d": -24.0,
-    "mcap": 337876769.283634,
-    "safety": "ok",
-    "safety_notes": [],
-    "trigger": false,
-    "trend_up": false,
-    "rsi": 28.9,
-    "url": "https://www.geckoterminal.com/base/pools/0xc85d5cb72d1aad6f152a8decad228ae4a59ac9b3"
+    "rsi": 23.7,
+    "url": "https://www.geckoterminal.com/bsc/pools/0x7f51bbf34156ba802deb0e38b7671dc4fa32041d"
    }
   ],
-  "onchain_checked": 86,
+  "onchain_checked": 87,
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
@@ -7530,6 +7428,23 @@
      "VVV",
      "GRASS",
      "ALLO"
+    ]
+   },
+   {
+    "id": "bitcoin-ecosystem",
+    "name": "Bitcoin Ecosystem",
+    "chg7d": -5.81,
+    "top": [
+     "BTC",
+     "DOG",
+     "ORDI",
+     "USTBL",
+     "LOBO"
+    ],
+    "tracked": [
+     "BTC",
+     "ORDI",
+     "SATS"
     ]
    },
    {
@@ -7618,23 +7533,6 @@
      "ASTER",
      "CRV",
      "RAY"
-    ]
-   },
-   {
-    "id": "bitcoin-ecosystem",
-    "name": "Bitcoin Ecosystem",
-    "chg7d": -7.88,
-    "top": [
-     "BTC",
-     "DOG",
-     "ORDI",
-     "USTBL",
-     "LOBO"
-    ],
-    "tracked": [
-     "BTC",
-     "ORDI",
-     "SATS"
     ]
    },
    {
@@ -8070,8 +7968,8 @@
   ],
   "updated": {
    "unlocks": 1794594625,
-   "onchain": 1794610831,
-   "sectors": 1794613522,
+   "onchain": 1794614435,
+   "sectors": 1794614435,
    "listings": 1794612322,
    "fundamentals": 1794594626
   }
@@ -8110,6 +8008,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "fa915a4bbf4bc5bc471c709f597e5ac3e2246295f1b18cff2bf057ffde08f427",
- "generated": "2026-11-13T23:55:29+00:00"
+ "digest": "2ab9e7803dd66df5e60fb516fbd2aabdd7bfacb75c5dacc5b5ce56a8d705d684",
+ "generated": "2026-11-14T00:02:11+00:00"
 }
