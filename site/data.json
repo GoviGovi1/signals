@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0176238370328223,
-   "last_ts": "2026-11-14T16:25:26+00:00",
-   "move_pct": 1.31,
+   "last": 0.0177503788246856,
+   "last_ts": "2026-11-14T16:30:27+00:00",
+   "move_pct": 2.04,
    "closed": false,
    "rsi": 71.0,
    "trade_on": "On-chain spot (Base DEX)",
@@ -71,7 +71,7 @@
     0.3412569408506172
    ],
    "lev": 1,
-   "funding_pct": -0.0024,
+   "funding_pct": -0.0027,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-11-13T21:00:00+00:00",
@@ -79,59 +79,15 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.3534,
-   "last_ts": "2026-11-14T16:25:26+00:00",
-   "move_pct": 10.94,
+   "last": 0.3493,
+   "last_ts": "2026-11-14T16:30:27+00:00",
+   "move_pct": 11.97,
    "closed": false,
    "rsi": 37.1,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; 1x keeps liquidation 3x+ further away than the stop",
    "chart": "charts/TIA-PERP-1794600000.png",
    "setup": "BREAKOUT20"
-  },
-  {
-   "id": "FLOCK-PERP-1794636000",
-   "kind": "TA",
-   "score": 1,
-   "reasons": [
-    "Chart: Retest of the 0.03521 breakoutdown level held (4h after the break)",
-    "Timeframes: 1d down, 4h down, 4h structure mixed",
-    "No support below in the last 50 days",
-    "Stop 0.035548 (above the breakdown level); targets at 1R/2R/3R",
-    "BTC 4h trend down",
-    "Weaker than BTC by 1.5% over 7d",
-    "OI +12% 24h with breakout",
-    "Track record: +0.2R on FLOCK in the last 45 days (backtest)"
-   ],
-   "coin": "FLOCK",
-   "market": "PERP",
-   "side": "SHORT",
-   "entry": 0.03456,
-   "sl0": 0.03554786677066476,
-   "sl": 0.03456,
-   "tps": [
-    0.03357213322933524,
-    0.032584266458670484,
-    0.031596399688005726
-   ],
-   "lev": 1,
-   "funding_pct": -0.0286,
-   "status": "tp2",
-   "hits": 2,
-   "opened": "2026-11-14T07:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.03172,
-   "last_ts": "2026-11-14T16:25:26+00:00",
-   "move_pct": 8.22,
-   "closed": false,
-   "rsi": 24.3,
-   "trade_on": "Perps 1x",
-   "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": "charts/FLOCK-PERP-1794636000.png",
-   "setup": "RETEST"
   },
   {
    "id": "BCH-PERP-1794639600",
@@ -160,7 +116,7 @@
     182.77755834665348
    ],
    "lev": 1,
-   "funding_pct": -0.011,
+   "funding_pct": -0.0111,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-14T08:00:00+00:00",
@@ -168,9 +124,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 207.34,
-   "last_ts": "2026-11-14T16:25:26+00:00",
-   "move_pct": 3.06,
+   "last": 206.94,
+   "last_ts": "2026-11-14T16:30:27+00:00",
+   "move_pct": 3.24,
    "closed": false,
    "rsi": 30.3,
    "trade_on": "Perps 1x",
@@ -206,7 +162,7 @@
     0.040568868878454095
    ],
    "lev": 1,
-   "funding_pct": -0.059,
+   "funding_pct": -0.0704,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-14T08:00:00+00:00",
@@ -214,9 +170,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04526,
-   "last_ts": "2026-11-14T16:25:26+00:00",
-   "move_pct": 5.27,
+   "last": 0.04515,
+   "last_ts": "2026-11-14T16:30:27+00:00",
+   "move_pct": 5.5,
    "closed": false,
    "rsi": 42.3,
    "trade_on": "Perps 1x",
@@ -259,9 +215,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.02438,
-   "last_ts": "2026-11-14T16:25:26+00:00",
-   "move_pct": 3.9,
+   "last": 0.02427,
+   "last_ts": "2026-11-14T16:30:27+00:00",
+   "move_pct": 4.34,
    "closed": false,
    "rsi": 27.5,
    "trade_on": "Perps 1x",
@@ -304,9 +260,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.004515,
-   "last_ts": "2026-11-14T16:25:26+00:00",
-   "move_pct": 4.12,
+   "last": 0.004492,
+   "last_ts": "2026-11-14T16:30:27+00:00",
+   "move_pct": 4.61,
    "closed": false,
    "rsi": 27.6,
    "trade_on": "Perps 1x",
@@ -348,9 +304,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.028,
-   "last_ts": "2026-11-14T16:25:26+00:00",
-   "move_pct": 6.48,
+   "last": 0.02795,
+   "last_ts": "2026-11-14T16:30:27+00:00",
+   "move_pct": 6.65,
    "closed": false,
    "rsi": 30.3,
    "trade_on": "Perps 1x",
@@ -378,24 +334,24 @@
    "side": "SHORT",
    "entry": 0.009318,
    "sl0": 0.009752244454071551,
-   "sl": 0.009752244454071551,
+   "sl": 0.009318,
    "tps": [
     0.008883755545928448,
     0.008449511091856897,
     0.008015266637785345
    ],
    "lev": 1,
-   "funding_pct": 0.0033,
-   "status": "open",
-   "hits": 0,
+   "funding_pct": 0.0027,
+   "status": "tp1",
+   "hits": 1,
    "opened": "2026-11-14T13:00:00+00:00",
    "closed_at": null,
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.008928,
-   "last_ts": "2026-11-14T16:25:26+00:00",
-   "move_pct": 4.19,
+   "last": 0.008869,
+   "last_ts": "2026-11-14T16:30:27+00:00",
+   "move_pct": 4.82,
    "closed": false,
    "rsi": 25.9,
    "trade_on": "Perps 1x",
@@ -405,6 +361,50 @@
   }
  ],
  "closed": [
+  {
+   "id": "FLOCK-PERP-1794636000",
+   "kind": "TA",
+   "score": 1,
+   "reasons": [
+    "Chart: Retest of the 0.03521 breakoutdown level held (4h after the break)",
+    "Timeframes: 1d down, 4h down, 4h structure mixed",
+    "No support below in the last 50 days",
+    "Stop 0.035548 (above the breakdown level); targets at 1R/2R/3R",
+    "BTC 4h trend down",
+    "Weaker than BTC by 1.5% over 7d",
+    "OI +12% 24h with breakout",
+    "Track record: +0.2R on FLOCK in the last 45 days (backtest)"
+   ],
+   "coin": "FLOCK",
+   "market": "PERP",
+   "side": "SHORT",
+   "entry": 0.03456,
+   "sl0": 0.03554786677066476,
+   "sl": 0.03456,
+   "tps": [
+    0.03357213322933524,
+    0.032584266458670484,
+    0.031596399688005726
+   ],
+   "lev": 1,
+   "funding_pct": -0.0286,
+   "status": "tp3",
+   "hits": 3,
+   "opened": "2026-11-14T07:00:00+00:00",
+   "closed_at": "2026-11-14T16:30:27+00:00",
+   "exit_price": 0.031596399688005726,
+   "result_r": 2.25,
+   "result_pct": 6.43,
+   "last": 0.03156,
+   "last_ts": "2026-11-14T16:30:27+00:00",
+   "move_pct": 8.22,
+   "closed": true,
+   "rsi": 24.3,
+   "trade_on": "Perps 1x",
+   "market_reason": "shorts need perps; thin perp market, so 1x",
+   "chart": "charts/FLOCK-PERP-1794636000.png",
+   "setup": "RETEST"
+  },
   {
    "id": "SOPH-SPOT-HOT-20771",
    "kind": "HOT",
@@ -2149,7 +2149,7 @@
    "rsi": null,
    "trade_on": "Perps 1x",
    "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
-   "chart": "charts/PIEVERSE-PERP-HOT-20767.png",
+   "chart": null,
    "setup": "HOT24"
   },
   {
@@ -2976,62 +2976,17 @@
    "market_reason": "shorts need perps; 3x keeps liquidation 3x+ further away than the stop",
    "chart": null,
    "setup": "BREAKOUT20"
-  },
-  {
-   "id": "MOODENG-PERP-1794139200",
-   "kind": "TA",
-   "score": 0,
-   "reasons": [
-    "Chart: Break of structure: closed below the last swing low 0.03181, after a lower high",
-    "Timeframes: 1d down, 4h down, 4h structure lower highs/lows",
-    "No support below in the last 50 days",
-    "Stop 0.032131 (structure); targets at 1R/2R/3R",
-    "BTC 4h trend down",
-    "Weaker than BTC by 10.1% over 7d",
-    "OI +2% 24h",
-    "Sector: Solana Meme Coins -4.9% 7d (middle, #7 of 20)",
-    "Track record: +0.0R on MOODENG in the last 45 days (backtest)"
-   ],
-   "coin": "MOODENG",
-   "market": "PERP",
-   "side": "SHORT",
-   "entry": 0.03162,
-   "sl0": 0.03213117572297588,
-   "sl": 0.03162,
-   "tps": [
-    0.031108824277024126,
-    0.03059764855404825,
-    0.030086472831072374
-   ],
-   "lev": 1,
-   "funding_pct": -0.0056,
-   "status": "tp3",
-   "hits": 3,
-   "opened": "2026-11-08T13:00:00+00:00",
-   "closed_at": "2026-11-08T21:55:22+00:00",
-   "exit_price": 0.030086472831072374,
-   "result_r": 2.25,
-   "result_pct": 3.64,
-   "last": 0.02997,
-   "last_ts": "2026-11-08T21:55:22+00:00",
-   "move_pct": 2.21,
-   "closed": true,
-   "rsi": 31.8,
-   "trade_on": "Perps 1x",
-   "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": null,
-   "setup": "BOS"
   }
  ],
  "stats": {
   "all": {
-   "trades": 217,
-   "wins": 102,
+   "trades": 218,
+   "wins": 103,
    "losses": 115,
-   "win_rate": 47.0,
-   "total_r": 20.08,
-   "avg_r": 0.093,
-   "total_pct": 43.9
+   "win_rate": 47.2,
+   "total_r": 22.33,
+   "avg_r": 0.102,
+   "total_pct": 50.33
   },
   "SPOT": {
    "trades": 60,
@@ -3043,13 +2998,13 @@
    "total_pct": 8.68
   },
   "PERP": {
-   "trades": 147,
-   "wins": 74,
+   "trades": 148,
+   "wins": 75,
    "losses": 73,
-   "win_rate": 50.3,
-   "total_r": 31.13,
-   "avg_r": 0.212,
-   "total_pct": 29.8
+   "win_rate": 50.7,
+   "total_r": 33.38,
+   "avg_r": 0.226,
+   "total_pct": 36.23
   },
   "DEX": {
    "trades": 10,
@@ -3080,13 +3035,13 @@
     "total_pct": 5.42
    },
    "TA": {
-    "trades": 154,
-    "wins": 68,
+    "trades": 155,
+    "wins": 69,
     "losses": 86,
-    "win_rate": 44.2,
-    "total_r": 15.41,
-    "avg_r": 0.1,
-    "total_pct": 14.77
+    "win_rate": 44.5,
+    "total_r": 17.66,
+    "avg_r": 0.114,
+    "total_pct": 21.2
    }
   },
   "coins": {
@@ -3613,13 +3568,13 @@
     "total_pct": -0.87
    },
    "FLOCK": {
-    "trades": 1,
-    "wins": 0,
+    "trades": 2,
+    "wins": 1,
     "losses": 1,
-    "win_rate": 0.0,
-    "total_r": -1.0,
-    "avg_r": -1.0,
-    "total_pct": -5.25
+    "win_rate": 50.0,
+    "total_r": 1.25,
+    "avg_r": 0.625,
+    "total_pct": 1.18
    },
    "FLOW": {
     "trades": 1,
@@ -4333,7 +4288,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 9
+  "open": 8
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7804,28 +7759,6 @@
     ]
    },
    {
-    "id": "decentralized-finance-defi",
-    "name": "Decentralized Finance DeFi",
-    "chg7d": -10.75,
-    "top": [
-     "STETH",
-     "HYPE",
-     "WSTETH",
-     "LINK",
-     "DAI"
-    ],
-    "tracked": [
-     "LINK",
-     "HYPE",
-     "UNI",
-     "PUMP",
-     "LIT",
-     "INJ",
-     "ENA",
-     "AAVE"
-    ]
-   },
-   {
     "id": "privacy-coins",
     "name": "Privacy Coins",
     "chg7d": -11.06,
@@ -8027,6 +7960,28 @@
      "BNB",
      "AVAX",
      "ZEC"
+    ]
+   },
+   {
+    "id": "decentralized-finance-defi",
+    "name": "Decentralized Finance DeFi",
+    "chg7d": -13.08,
+    "top": [
+     "STETH",
+     "HYPE",
+     "WSTETH",
+     "LINK",
+     "DAI"
+    ],
+    "tracked": [
+     "LINK",
+     "HYPE",
+     "UNI",
+     "PUMP",
+     "LIT",
+     "INJ",
+     "ENA",
+     "AAVE"
     ]
    },
    {
@@ -8280,7 +8235,7 @@
   "updated": {
    "unlocks": 1794659724,
    "onchain": 1794672029,
-   "sectors": 1794672924,
+   "sectors": 1794673827,
    "listings": 1794672626,
    "fundamentals": 1794659724
   }
@@ -8319,6 +8274,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "6d444e7f0e0abd5aa5a275a4c62d94cf9f9b8cdb3e04b0fbfdc5898aaabf9190",
- "generated": "2026-11-14T16:25:32+00:00"
+ "digest": "c8ee1a78a2a349954651d8583ee42ed866cebb95cc3c0f0e760e1d3e54a40cbb",
+ "generated": "2026-11-14T16:30:35+00:00"
 }
