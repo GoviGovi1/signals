@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0170836367392824,
-   "last_ts": "2026-11-14T06:55:20+00:00",
-   "move_pct": -1.79,
+   "last": 0.017036208439063,
+   "last_ts": "2026-11-14T07:01:32+00:00",
+   "move_pct": -2.06,
    "closed": false,
    "rsi": 71.0,
    "trade_on": "On-chain spot (Base DEX)",
@@ -71,7 +71,7 @@
     0.3412569408506172
    ],
    "lev": 1,
-   "funding_pct": -0.0145,
+   "funding_pct": -0.0131,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-13T21:00:00+00:00",
@@ -79,15 +79,59 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.3679,
-   "last_ts": "2026-11-14T06:55:20+00:00",
-   "move_pct": 7.28,
+   "last": 0.3685,
+   "last_ts": "2026-11-14T07:01:32+00:00",
+   "move_pct": 7.13,
    "closed": false,
    "rsi": 37.1,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; 1x keeps liquidation 3x+ further away than the stop",
    "chart": "charts/TIA-PERP-1794600000.png",
    "setup": "BREAKOUT20"
+  },
+  {
+   "id": "FLOCK-PERP-1794636000",
+   "kind": "TA",
+   "score": 1,
+   "reasons": [
+    "Chart: Retest of the 0.03521 breakoutdown level held (4h after the break)",
+    "Timeframes: 1d down, 4h down, 4h structure mixed",
+    "No support below in the last 50 days",
+    "Stop 0.035548 (above the breakdown level); targets at 1R/2R/3R",
+    "BTC 4h trend down",
+    "Weaker than BTC by 1.5% over 7d",
+    "OI +12% 24h with breakout",
+    "Track record: +0.2R on FLOCK in the last 45 days (backtest)"
+   ],
+   "coin": "FLOCK",
+   "market": "PERP",
+   "side": "SHORT",
+   "entry": 0.03456,
+   "sl0": 0.03554786677066476,
+   "sl": 0.03554786677066476,
+   "tps": [
+    0.03357213322933524,
+    0.032584266458670484,
+    0.031596399688005726
+   ],
+   "lev": 1,
+   "funding_pct": -0.0134,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-11-14T07:00:00+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.03458,
+   "last_ts": "2026-11-14T07:01:32+00:00",
+   "move_pct": -0.06,
+   "closed": false,
+   "rsi": 24.3,
+   "trade_on": "Perps 1x",
+   "market_reason": "shorts need perps; thin perp market, so 1x",
+   "chart": "charts/FLOCK-PERP-1794636000.png",
+   "setup": "RETEST"
   }
  ],
  "closed": [
@@ -4023,7 +4067,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 2
+  "open": 3
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7325,82 +7369,63 @@
   "onchain": [
    {
     "chain": "Base",
-    "symbol": "AERO",
-    "name": "Aero",
-    "token": "0x3f5bf3edac59d650d8fdf9657a71f2f904a3a4ee",
-    "price": 0.466031844852483,
-    "liq": 3482740,
-    "vol24h": 10576289,
-    "age_d": 23.1,
-    "chg24h": -6.17,
-    "chg7d": -23.2,
-    "mcap": 336955478.957451,
+    "symbol": "XDP",
+    "name": "Doppler Finance",
+    "token": "0x07b3d902783c3c12b077508c3b5c00113d1291d0",
+    "price": 0.0170316256653861,
+    "liq": 1661117,
+    "vol24h": 9418396,
+    "age_d": 46.8,
+    "chg24h": 0.284,
+    "chg7d": 5.3,
+    "mcap": 17032663.89,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
-    "trend_up": false,
-    "rsi": 36.3,
-    "url": "https://www.geckoterminal.com/base/pools/0xc85d5cb72d1aad6f152a8decad228ae4a59ac9b3"
-   },
-   {
-    "chain": "Base",
-    "symbol": "VVV",
-    "name": "Venice Token",
-    "token": "0xacfe6019ed1a7dc6f7b508c02d1b04ec88cc21bf",
-    "price": 18.8014136694108,
-    "liq": 3395575,
-    "vol24h": 5672438,
-    "age_d": 23.1,
-    "chg24h": 4.505,
-    "chg7d": -10.0,
-    "mcap": 920172425.200478,
-    "safety": "ok",
-    "safety_notes": [],
-    "trigger": false,
-    "trend_up": false,
-    "rsi": 46.5,
-    "url": "https://www.geckoterminal.com/base/pools/0xdebaebe5b2729f7d62072b2ea40472d78d2c1626"
+    "trend_up": true,
+    "rsi": 49.2,
+    "url": "https://www.geckoterminal.com/base/pools/0x2df380544b88adb3ad0a94100dcc45fd705aae2d"
    },
    {
     "chain": "BSC",
-    "symbol": "ARK",
-    "name": "ARK",
-    "token": "0xcae117ca6bc8a341d2e7207f30e180f0e5618b9d",
-    "price": 6.40981178536114,
-    "liq": 58135079,
-    "vol24h": 4856740,
-    "age_d": 444.8,
-    "chg24h": 0.102,
-    "chg7d": 0.2,
-    "mcap": 0.0,
+    "symbol": "Q",
+    "name": "Quack AI Token",
+    "token": "0xc07e1300dc138601fa6b0b59f8d0fa477e690589",
+    "price": 0.027332809350245,
+    "liq": 1071421,
+    "vol24h": 5517874,
+    "age_d": 440.0,
+    "chg24h": -2.523,
+    "chg7d": -2.4,
+    "mcap": 134773375.195746,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 48.4,
-    "url": "https://www.geckoterminal.com/bsc/pools/0xcaaf3c41a40103a23eeaa4bba468af3cf5b0e0d8"
+    "rsi": 39.6,
+    "url": "https://www.geckoterminal.com/bsc/pools/0x8bafe0bdd3eb9ae0539f5b32e771c1a72a189b7f"
    },
    {
     "chain": "Ethereum",
     "symbol": "PAXG",
     "name": "Paxos Gold",
     "token": "0x45804880de22913dafe09f4980848ece6ecbaf78",
-    "price": 3842.3808878025,
-    "liq": 6538594,
-    "vol24h": 4416977,
+    "price": 3853.60828806701,
+    "liq": 6545541,
+    "vol24h": 4192122,
     "age_d": 387.7,
-    "chg24h": -0.861,
-    "chg7d": -5.7,
-    "mcap": 1719869522.69765,
+    "chg24h": -0.777,
+    "chg7d": -5.1,
+    "mcap": 1724894965.02049,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 37.1,
+    "rsi": 42.1,
     "url": "https://www.geckoterminal.com/eth/pools/0xc756bba710d45647715079ce50aa16aab36ded42"
    }
   ],
-  "onchain_checked": 86,
+  "onchain_checked": 87,
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
@@ -7590,28 +7615,6 @@
     ]
    },
    {
-    "id": "decentralized-perpetuals",
-    "name": "Decentralized Perpetuals",
-    "chg7d": -10.0,
-    "top": [
-     "HYPE",
-     "ASTER",
-     "JUP",
-     "LIT",
-     "CAKE"
-    ],
-    "tracked": [
-     "HYPE",
-     "LIT",
-     "ASTER",
-     "GRVT",
-     "RAY",
-     "DYDX",
-     "BASED",
-     "ARKM"
-    ]
-   },
-   {
     "id": "exchange-based-tokens",
     "name": "Exchange Based Tokens",
     "chg7d": -10.02,
@@ -7756,6 +7759,28 @@
      "MAGIC",
      "POL",
      "ZK"
+    ]
+   },
+   {
+    "id": "decentralized-perpetuals",
+    "name": "Decentralized Perpetuals",
+    "chg7d": -11.58,
+    "top": [
+     "HYPE",
+     "ASTER",
+     "JUP",
+     "LIT",
+     "CAKE"
+    ],
+    "tracked": [
+     "HYPE",
+     "LIT",
+     "ASTER",
+     "GRVT",
+     "RAY",
+     "DYDX",
+     "BASED",
+     "ARKM"
     ]
    },
    {
@@ -7984,8 +8009,8 @@
   ],
   "updated": {
    "unlocks": 1794638122,
-   "onchain": 1794636031,
-   "sectors": 1794638722,
+   "onchain": 1794639631,
+   "sectors": 1794639631,
    "listings": 1794638438,
    "fundamentals": 1794638122
   }
@@ -8024,6 +8049,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "95aa4ab44cad5fdbb355bb1d8ea2d6648d1aaabc6cfc75d75eccb7377948a9cf",
- "generated": "2026-11-14T06:55:25+00:00"
+ "digest": "581ec0f383ba2f70393675d9b1a88c0af797dd32c5a779d1b9550ae96cc151fe",
+ "generated": "2026-11-14T07:02:16+00:00"
 }
