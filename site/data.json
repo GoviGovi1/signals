@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 206.68,
-   "last_ts": "2026-11-15T03:55:17+00:00",
-   "move_pct": 3.37,
+   "last": 207.22,
+   "last_ts": "2026-11-15T04:01:32+00:00",
+   "move_pct": 3.11,
    "closed": false,
    "rsi": 30.3,
    "trade_on": "Perps 1x",
@@ -81,9 +81,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04408,
-   "last_ts": "2026-11-15T03:55:17+00:00",
-   "move_pct": 7.74,
+   "last": 0.04421,
+   "last_ts": "2026-11-15T04:01:32+00:00",
+   "move_pct": 7.47,
    "closed": false,
    "rsi": 42.3,
    "trade_on": "Perps 1x",
@@ -118,7 +118,7 @@
     0.004234108855935367
    ],
    "lev": 1,
-   "funding_pct": 0.0009,
+   "funding_pct": 0.0019,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-11-14T11:00:00+00:00",
@@ -126,9 +126,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.004434,
-   "last_ts": "2026-11-15T03:55:17+00:00",
-   "move_pct": 5.84,
+   "last": 0.004441,
+   "last_ts": "2026-11-15T04:01:32+00:00",
+   "move_pct": 5.69,
    "closed": false,
    "rsi": 27.6,
    "trade_on": "Perps 1x",
@@ -163,7 +163,7 @@
     0.008015266637785345
    ],
    "lev": 1,
-   "funding_pct": -0.0064,
+   "funding_pct": -0.0052,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-11-14T13:00:00+00:00",
@@ -171,15 +171,60 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.008835,
-   "last_ts": "2026-11-15T03:55:17+00:00",
-   "move_pct": 5.18,
+   "last": 0.00886,
+   "last_ts": "2026-11-15T04:01:32+00:00",
+   "move_pct": 4.92,
    "closed": false,
    "rsi": 25.9,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": "charts/W-PERP-1794657600.png",
    "setup": "BOS"
+  },
+  {
+   "id": "KAT-PERP-1794711600",
+   "kind": "TA",
+   "score": 0,
+   "reasons": [
+    "Chart: Retest of the 0.002968 breakoutdown level held (7h after the break)",
+    "Timeframes: 1d down, 4h down, 4h structure mixed",
+    "No support below in the last 50 days",
+    "Stop 0.003087 (2 ATR); targets at 1R/2R/3R",
+    "BTC 4h trend down",
+    "Weaker than BTC by 4.8% over 7d",
+    "OI +0% 24h",
+    "Sector: Layer 2 -15.2% 7d (middle, #8 of 20)",
+    "Track record: +1.2R on KAT in the last 45 days (backtest)"
+   ],
+   "coin": "KAT",
+   "market": "PERP",
+   "side": "SHORT",
+   "entry": 0.00295,
+   "sl0": 0.003086976570903195,
+   "sl": 0.003086976570903195,
+   "tps": [
+    0.002813023429096805,
+    0.00267604685819361,
+    0.002539070287290415
+   ],
+   "lev": 1,
+   "funding_pct": 0.0003,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-11-15T04:00:00+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.002953,
+   "last_ts": "2026-11-15T04:01:32+00:00",
+   "move_pct": -0.1,
+   "closed": false,
+   "rsi": 38.0,
+   "trade_on": "Perps 1x",
+   "market_reason": "shorts need perps; thin perp market, so 1x",
+   "chart": "charts/KAT-PERP-1794711600.png",
+   "setup": "RETEST"
   }
  ],
  "closed": [
@@ -4114,7 +4159,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 4
+  "open": 5
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7406,64 +7451,64 @@
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
   "onchain": [
    {
-    "chain": "Base",
-    "symbol": "XDP",
-    "name": "Doppler Finance",
-    "token": "0x07b3d902783c3c12b077508c3b5c00113d1291d0",
-    "price": 0.0174436060022135,
-    "liq": 1686677,
-    "vol24h": 11513404,
-    "age_d": 47.6,
-    "chg24h": 3.069,
-    "chg7d": 10.9,
-    "mcap": 17444325.86,
+    "chain": "BSC",
+    "symbol": "UP",
+    "name": "Unitas",
+    "token": "0x000008d2175f9aeaddb2430c26f8a6f73c5a0000",
+    "price": 0.159606913725031,
+    "liq": 842386,
+    "vol24h": 9071720,
+    "age_d": 248.9,
+    "chg24h": -12.229,
+    "chg7d": 51.7,
+    "mcap": 34475075.0900216,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
-    "trend_up": true,
-    "rsi": 53.5,
-    "url": "https://www.geckoterminal.com/base/pools/0x2df380544b88adb3ad0a94100dcc45fd705aae2d"
+    "trend_up": false,
+    "rsi": 52.7,
+    "url": "https://www.geckoterminal.com/bsc/pools/0x97ef267d87abd28dd5070d485efc7cdd960e1b3045a4e2dc0b2e9abbdc9b1837"
    },
    {
     "chain": "BSC",
-    "symbol": "JCT",
-    "name": "JANCTION",
-    "token": "0xea37a8de1de2d9d10772eeb569e28bfa5cb17707",
-    "price": 0.00199578296077707,
-    "liq": 585219,
-    "vol24h": 6919413,
-    "age_d": 164.5,
-    "chg24h": -0.24,
-    "chg7d": -29.0,
-    "mcap": 22938905.6715587,
+    "symbol": "UAI",
+    "name": "UnifAI",
+    "token": "0x3e5d4f8aee0d9b3082d5f6da5d6e225d17ba9ea0",
+    "price": 0.030577875050918,
+    "liq": 255711,
+    "vol24h": 4938264,
+    "age_d": 375.9,
+    "chg24h": -22.879,
+    "chg7d": -60.1,
+    "mcap": 7309182.16863,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 46.2,
-    "url": "https://www.geckoterminal.com/bsc/pools/0x7bb2f6dab157e444ad8717b0178035c1b1cf24958b37c2a205e61a3582283249"
+    "rsi": 36.4,
+    "url": "https://www.geckoterminal.com/bsc/pools/0x57004a34731b96d9e86b706cd629f24456ca2c7bdfcc5aae2417496d65090eb7"
    },
    {
-    "chain": "Solana",
-    "symbol": "MIHAO",
-    "name": "ni hao cat",
-    "token": "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump",
-    "price": 0.015805819324522685,
-    "liq": 425215,
-    "vol24h": 3187083,
-    "age_d": 20.4,
-    "chg24h": -3.113,
-    "chg7d": 3348.0,
-    "mcap": 14870596.5012599,
+    "chain": "BSC",
+    "symbol": "HANA",
+    "name": "Hana Token",
+    "token": "0x6261963ebe9ff014aad10ecc3b0238d4d04e8353",
+    "price": 0.0143184526398199,
+    "liq": 943335,
+    "vol24h": 2006996,
+    "age_d": 416.1,
+    "chg24h": -14.21,
+    "chg7d": 5.9,
+    "mcap": 3434949.072,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 53.6,
-    "url": "https://www.geckoterminal.com/solana/pools/Ho1aSG6WGH1FfXdEHrK2f4Ggt1Hoxo9s5jcLMDqeyeBz"
+    "rsi": 36.8,
+    "url": "https://www.geckoterminal.com/bsc/pools/0xd21bc2291c1aef340f5265e257b18aa5dafed759"
    }
   ],
-  "onchain_checked": 87,
+  "onchain_checked": 85,
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
@@ -7624,6 +7669,24 @@
     ]
    },
    {
+    "id": "oracle",
+    "name": "Oracle",
+    "chg7d": -15.69,
+    "top": [
+     "LINK",
+     "PYTH",
+     "RED",
+     "WIN",
+     "TRB"
+    ],
+    "tracked": [
+     "LINK",
+     "PYTH",
+     "TRB",
+     "API3"
+    ]
+   },
+   {
     "id": "exchange-based-tokens",
     "name": "Exchange Based Tokens",
     "chg7d": -15.89,
@@ -7775,24 +7838,6 @@
      "IOTA",
      "ATH",
      "LPT"
-    ]
-   },
-   {
-    "id": "oracle",
-    "name": "Oracle",
-    "chg7d": -18.59,
-    "top": [
-     "LINK",
-     "PYTH",
-     "RED",
-     "WIN",
-     "TRB"
-    ],
-    "tracked": [
-     "LINK",
-     "PYTH",
-     "TRB",
-     "API3"
     ]
    },
    {
@@ -8045,8 +8090,8 @@
   ],
   "updated": {
    "unlocks": 1794703229,
-   "onchain": 1794711637,
-   "sectors": 1794714325,
+   "onchain": 1794715232,
+   "sectors": 1794715232,
    "listings": 1794714325,
    "fundamentals": 1794703229
   }
@@ -8085,6 +8130,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "1bfc4c7f535508f76a774ea03aff121210f64de3b47303030d321092a0e19ffe",
- "generated": "2026-11-15T03:55:19+00:00"
+ "digest": "09e12cf9fd7416f9d5d5112d9afd02c8d41b8309de6f442ca58302df1dc9cf59",
+ "generated": "2026-11-15T04:02:12+00:00"
 }
