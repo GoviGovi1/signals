@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 206.88,
-   "last_ts": "2026-11-15T04:55:22+00:00",
-   "move_pct": 3.27,
+   "last": 206.05,
+   "last_ts": "2026-11-15T05:01:28+00:00",
+   "move_pct": 3.66,
    "closed": false,
    "rsi": 30.3,
    "trade_on": "Perps 1x",
@@ -81,9 +81,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04424,
-   "last_ts": "2026-11-15T04:55:22+00:00",
-   "move_pct": 7.41,
+   "last": 0.04418,
+   "last_ts": "2026-11-15T05:01:28+00:00",
+   "move_pct": 7.53,
    "closed": false,
    "rsi": 42.3,
    "trade_on": "Perps 1x",
@@ -126,9 +126,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.004446,
-   "last_ts": "2026-11-15T04:55:22+00:00",
-   "move_pct": 5.59,
+   "last": 0.00443,
+   "last_ts": "2026-11-15T05:01:28+00:00",
+   "move_pct": 5.92,
    "closed": false,
    "rsi": 27.6,
    "trade_on": "Perps 1x",
@@ -163,7 +163,7 @@
     0.008015266637785345
    ],
    "lev": 1,
-   "funding_pct": -0.0012,
+   "funding_pct": -0.0017,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-11-14T13:00:00+00:00",
@@ -171,9 +171,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.008861,
-   "last_ts": "2026-11-15T04:55:22+00:00",
-   "move_pct": 4.9,
+   "last": 0.00881,
+   "last_ts": "2026-11-15T05:01:28+00:00",
+   "move_pct": 5.45,
    "closed": false,
    "rsi": 25.9,
    "trade_on": "Perps 1x",
@@ -208,7 +208,7 @@
     0.002539070287290415
    ],
    "lev": 1,
-   "funding_pct": 0.0003,
+   "funding_pct": 0.0007,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-15T04:00:00+00:00",
@@ -216,9 +216,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002963,
-   "last_ts": "2026-11-15T04:55:22+00:00",
-   "move_pct": -0.44,
+   "last": 0.002954,
+   "last_ts": "2026-11-15T05:01:28+00:00",
+   "move_pct": -0.14,
    "closed": false,
    "rsi": 38.0,
    "trade_on": "Perps 1x",
@@ -248,7 +248,7 @@
     0.2029635556317268
    ],
    "lev": 1,
-   "funding_pct": -0.0223,
+   "funding_pct": -0.021,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-15T04:30:26+00:00",
@@ -256,15 +256,60 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1632,
-   "last_ts": "2026-11-15T04:55:22+00:00",
-   "move_pct": -1.09,
+   "last": 0.1645,
+   "last_ts": "2026-11-15T05:01:28+00:00",
+   "move_pct": -0.3,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
    "market_reason": "the perp book is where the 24h move and volume are; very volatile, so 1x",
    "chart": "charts/NES-PERP-HOT-20772.png",
    "setup": "HOT24"
+  },
+  {
+   "id": "MEGA-SPOT-1794715200",
+   "kind": "TA",
+   "score": 1,
+   "reasons": [
+    "Chart: Broke the 20-hour high on 0.8x volume",
+    "Timeframes: 1d down, 4h up, 4h structure higher highs/lows",
+    "Next resistance 0.05385 (3.4R away, 4h swing)",
+    "Stop 0.046012 (structure); targets at the next 2 level(s)",
+    "BTC 4h trend down",
+    "Stronger than BTC by 10.8% over 7d",
+    "OI +11% 24h with breakout",
+    "Sector: Layer 2 -15.2% 7d (middle, #9 of 20)",
+    "Track record: +0.3R on MEGA in the last 45 days (backtest)"
+   ],
+   "coin": "MEGA",
+   "market": "SPOT",
+   "side": "LONG",
+   "entry": 0.04786,
+   "sl0": 0.04606925798628368,
+   "sl": 0.04606925798628368,
+   "tps": [
+    0.053744243068080746,
+    0.055896941812850626,
+    0.057687683826566936
+   ],
+   "lev": null,
+   "funding_pct": null,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-11-15T05:00:00+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.04788,
+   "last_ts": "2026-11-15T05:01:28+00:00",
+   "move_pct": 0.04,
+   "closed": false,
+   "rsi": 64.6,
+   "trade_on": "Spot",
+   "market_reason": "thin perp market: spot is safer",
+   "chart": "charts/MEGA-SPOT-1794715200.png",
+   "setup": "BREAKOUT20"
   }
  ],
  "closed": [
@@ -4199,7 +4244,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 6
+  "open": 7
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7492,60 +7537,41 @@
   "onchain": [
    {
     "chain": "BSC",
-    "symbol": "UP",
-    "name": "Unitas",
-    "token": "0x000008d2175f9aeaddb2430c26f8a6f73c5a0000",
-    "price": 0.159606913725031,
-    "liq": 842386,
-    "vol24h": 9071720,
-    "age_d": 248.9,
-    "chg24h": -12.229,
-    "chg7d": 51.7,
-    "mcap": 34475075.0900216,
+    "symbol": "JCT",
+    "name": "JANCTION",
+    "token": "0xea37a8de1de2d9d10772eeb569e28bfa5cb17707",
+    "price": 0.00198184571587521,
+    "liq": 582352,
+    "vol24h": 6811539,
+    "age_d": 164.6,
+    "chg24h": -2.044,
+    "chg7d": -24.7,
+    "mcap": 22778715.3329178,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 52.7,
-    "url": "https://www.geckoterminal.com/bsc/pools/0x97ef267d87abd28dd5070d485efc7cdd960e1b3045a4e2dc0b2e9abbdc9b1837"
+    "rsi": 45.5,
+    "url": "https://www.geckoterminal.com/bsc/pools/0x7bb2f6dab157e444ad8717b0178035c1b1cf24958b37c2a205e61a3582283249"
    },
    {
-    "chain": "BSC",
-    "symbol": "UAI",
-    "name": "UnifAI",
-    "token": "0x3e5d4f8aee0d9b3082d5f6da5d6e225d17ba9ea0",
-    "price": 0.030577875050918,
-    "liq": 255711,
-    "vol24h": 4938264,
-    "age_d": 375.9,
-    "chg24h": -22.879,
-    "chg7d": -60.1,
-    "mcap": 7309182.16863,
+    "chain": "Solana",
+    "symbol": "MIHAO",
+    "name": "ni hao cat",
+    "token": "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump",
+    "price": 0.017486098757280626,
+    "liq": 446718,
+    "vol24h": 3168883,
+    "age_d": 20.5,
+    "chg24h": 15.454,
+    "chg7d": 3616.8,
+    "mcap": 16480480.1894087,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 36.4,
-    "url": "https://www.geckoterminal.com/bsc/pools/0x57004a34731b96d9e86b706cd629f24456ca2c7bdfcc5aae2417496d65090eb7"
-   },
-   {
-    "chain": "BSC",
-    "symbol": "HANA",
-    "name": "Hana Token",
-    "token": "0x6261963ebe9ff014aad10ecc3b0238d4d04e8353",
-    "price": 0.0143184526398199,
-    "liq": 943335,
-    "vol24h": 2006996,
-    "age_d": 416.1,
-    "chg24h": -14.21,
-    "chg7d": 5.9,
-    "mcap": 3434949.072,
-    "safety": "ok",
-    "safety_notes": [],
-    "trigger": false,
-    "trend_up": false,
-    "rsi": 36.8,
-    "url": "https://www.geckoterminal.com/bsc/pools/0xd21bc2291c1aef340f5265e257b18aa5dafed759"
+    "rsi": 60.9,
+    "url": "https://www.geckoterminal.com/solana/pools/Ho1aSG6WGH1FfXdEHrK2f4Ggt1Hoxo9s5jcLMDqeyeBz"
    }
   ],
   "onchain_checked": 85,
@@ -7648,6 +7674,23 @@
     ]
    },
    {
+    "id": "storage",
+    "name": "Storage",
+    "chg7d": -14.36,
+    "top": [
+     "FIL",
+     "BTT",
+     "AR",
+     "AIOZ",
+     "WAL"
+    ],
+    "tracked": [
+     "FIL",
+     "AR",
+     "WAL"
+    ]
+   },
+   {
     "id": "depin",
     "name": "DePIN",
     "chg7d": -14.99,
@@ -7689,23 +7732,6 @@
      "BASED",
      "GRVT",
      "AVNT"
-    ]
-   },
-   {
-    "id": "storage",
-    "name": "Storage",
-    "chg7d": -15.1,
-    "top": [
-     "FIL",
-     "BTT",
-     "AR",
-     "AIOZ",
-     "WAL"
-    ],
-    "tracked": [
-     "FIL",
-     "AR",
-     "WAL"
     ]
    },
    {
@@ -8130,8 +8156,8 @@
   ],
   "updated": {
    "unlocks": 1794703229,
-   "onchain": 1794715232,
-   "sectors": 1794717926,
+   "onchain": 1794718828,
+   "sectors": 1794718828,
    "listings": 1794717926,
    "fundamentals": 1794703229
   }
@@ -8170,6 +8196,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "135940a58bc2e3c99e967ad000d3760ba79bacc5f553ca078645ad8666ac495b",
- "generated": "2026-11-15T04:55:26+00:00"
+ "digest": "2f0c436e625d834afcb09361e381ec4849c14d6599ce4128ff8a6158bd2fc1aa",
+ "generated": "2026-11-15T05:02:02+00:00"
 }
