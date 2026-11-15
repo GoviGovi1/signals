@@ -27,7 +27,7 @@
     182.77755834665348
    ],
    "lev": 1,
-   "funding_pct": -0.0141,
+   "funding_pct": -0.0138,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-14T08:00:00+00:00",
@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 209.19,
-   "last_ts": "2026-11-15T22:25:20+00:00",
-   "move_pct": 2.19,
+   "last": 209.43,
+   "last_ts": "2026-11-15T22:30:31+00:00",
+   "move_pct": 2.08,
    "closed": false,
    "rsi": 30.3,
    "trade_on": "Perps 1x",
@@ -73,7 +73,7 @@
     0.040568868878454095
    ],
    "lev": 1,
-   "funding_pct": -0.0297,
+   "funding_pct": -0.031,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-11-14T08:00:00+00:00",
@@ -81,9 +81,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04586,
-   "last_ts": "2026-11-15T22:25:20+00:00",
-   "move_pct": 4.02,
+   "last": 0.0458,
+   "last_ts": "2026-11-15T22:30:31+00:00",
+   "move_pct": 4.14,
    "closed": false,
    "rsi": 42.3,
    "trade_on": "Perps 1x",
@@ -126,9 +126,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.004332,
-   "last_ts": "2026-11-15T22:25:20+00:00",
-   "move_pct": 8.01,
+   "last": 0.004339,
+   "last_ts": "2026-11-15T22:30:31+00:00",
+   "move_pct": 7.86,
    "closed": false,
    "rsi": 27.6,
    "trade_on": "Perps 1x",
@@ -171,9 +171,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.008601,
-   "last_ts": "2026-11-15T22:25:20+00:00",
-   "move_pct": 7.69,
+   "last": 0.00861,
+   "last_ts": "2026-11-15T22:30:31+00:00",
+   "move_pct": 7.6,
    "closed": false,
    "rsi": 25.9,
    "trade_on": "Perps 1x",
@@ -208,7 +208,7 @@
     0.002539070287290415
    ],
    "lev": 1,
-   "funding_pct": -0.0005,
+   "funding_pct": -0.0008,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-15T04:00:00+00:00",
@@ -216,9 +216,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002955,
-   "last_ts": "2026-11-15T22:25:20+00:00",
-   "move_pct": -0.17,
+   "last": 0.002961,
+   "last_ts": "2026-11-15T22:30:31+00:00",
+   "move_pct": -0.37,
    "closed": false,
    "rsi": 38.0,
    "trade_on": "Perps 1x",
@@ -261,9 +261,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04966,
-   "last_ts": "2026-11-15T22:25:20+00:00",
-   "move_pct": 3.76,
+   "last": 0.04967,
+   "last_ts": "2026-11-15T22:30:31+00:00",
+   "move_pct": 3.78,
    "closed": false,
    "rsi": 64.6,
    "trade_on": "Spot",
@@ -305,9 +305,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 20.1558314115657,
-   "last_ts": "2026-11-15T22:25:20+00:00",
-   "move_pct": -1.47,
+   "last": 20.166373933428996,
+   "last_ts": "2026-11-15T22:30:31+00:00",
+   "move_pct": -1.42,
    "closed": false,
    "rsi": 66.6,
    "trade_on": "On-chain spot (Base DEX)",
@@ -7824,6 +7824,28 @@
     ]
    },
    {
+    "id": "decentralized-finance-defi",
+    "name": "Decentralized Finance DeFi",
+    "chg7d": -13.42,
+    "top": [
+     "STETH",
+     "HYPE",
+     "WSTETH",
+     "LINK",
+     "DAI"
+    ],
+    "tracked": [
+     "LINK",
+     "HYPE",
+     "UNI",
+     "PUMP",
+     "LIT",
+     "ENA",
+     "ASTER",
+     "INJ"
+    ]
+   },
+   {
     "id": "ai-agents",
     "name": "AI Agents",
     "chg7d": -13.81,
@@ -7985,28 +8007,6 @@
      "BAND",
      "UMA",
      "WIN"
-    ]
-   },
-   {
-    "id": "decentralized-finance-defi",
-    "name": "Decentralized Finance DeFi",
-    "chg7d": -14.57,
-    "top": [
-     "STETH",
-     "HYPE",
-     "WSTETH",
-     "LINK",
-     "DAI"
-    ],
-    "tracked": [
-     "LINK",
-     "HYPE",
-     "UNI",
-     "PUMP",
-     "LIT",
-     "ENA",
-     "ASTER",
-     "INJ"
     ]
    },
    {
@@ -8216,8 +8216,8 @@
   "updated": {
    "unlocks": 1794768622,
    "onchain": 1794780029,
-   "sectors": 1794780923,
-   "listings": 1794777923,
+   "sectors": 1794781831,
+   "listings": 1794781831,
    "fundamentals": 1794768623
   }
  },
@@ -8255,6 +8255,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "b75e09a5ed23653f19a9512a1befdd03b93988f57ac56d41a266406b87c202b8",
- "generated": "2026-11-15T22:25:25+00:00"
+ "digest": "7b4e569501fd9eb122549c17e71cca15fe74e58a208c662315eba7e00eb79002",
+ "generated": "2026-11-15T22:30:36+00:00"
 }
