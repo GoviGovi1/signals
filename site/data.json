@@ -27,7 +27,7 @@
     182.77755834665348
    ],
    "lev": 1,
-   "funding_pct": -0.0162,
+   "funding_pct": -0.0165,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-14T08:00:00+00:00",
@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 208.51,
-   "last_ts": "2026-11-15T10:55:23+00:00",
-   "move_pct": 2.51,
+   "last": 208.49,
+   "last_ts": "2026-11-15T11:01:28+00:00",
+   "move_pct": 2.52,
    "closed": false,
    "rsi": 30.3,
    "trade_on": "Perps 1x",
@@ -73,7 +73,7 @@
     0.040568868878454095
    ],
    "lev": 1,
-   "funding_pct": -0.0028,
+   "funding_pct": -0.0022,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-11-14T08:00:00+00:00",
@@ -81,9 +81,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04544,
-   "last_ts": "2026-11-15T10:55:23+00:00",
-   "move_pct": 4.9,
+   "last": 0.04551,
+   "last_ts": "2026-11-15T11:01:28+00:00",
+   "move_pct": 4.75,
    "closed": false,
    "rsi": 42.3,
    "trade_on": "Perps 1x",
@@ -126,9 +126,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.004394,
-   "last_ts": "2026-11-15T10:55:23+00:00",
-   "move_pct": 6.69,
+   "last": 0.004381,
+   "last_ts": "2026-11-15T11:01:28+00:00",
+   "move_pct": 6.97,
    "closed": false,
    "rsi": 27.6,
    "trade_on": "Perps 1x",
@@ -171,9 +171,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.008747,
-   "last_ts": "2026-11-15T10:55:23+00:00",
-   "move_pct": 6.13,
+   "last": 0.008732,
+   "last_ts": "2026-11-15T11:01:28+00:00",
+   "move_pct": 6.29,
    "closed": false,
    "rsi": 25.9,
    "trade_on": "Perps 1x",
@@ -208,7 +208,7 @@
     0.002539070287290415
    ],
    "lev": 1,
-   "funding_pct": -0.0016,
+   "funding_pct": -0.0024,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-15T04:00:00+00:00",
@@ -216,9 +216,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002977,
-   "last_ts": "2026-11-15T10:55:23+00:00",
-   "move_pct": -0.92,
+   "last": 0.002973,
+   "last_ts": "2026-11-15T11:01:28+00:00",
+   "move_pct": -0.78,
    "closed": false,
    "rsi": 38.0,
    "trade_on": "Perps 1x",
@@ -261,9 +261,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.05043,
-   "last_ts": "2026-11-15T10:55:23+00:00",
-   "move_pct": 5.37,
+   "last": 0.05014,
+   "last_ts": "2026-11-15T11:01:28+00:00",
+   "move_pct": 4.76,
    "closed": false,
    "rsi": 64.6,
    "trade_on": "Spot",
@@ -7500,64 +7500,45 @@
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
   "onchain": [
    {
-    "chain": "BSC",
-    "symbol": "KAVA",
-    "name": "Kava",
-    "token": "0x9bafc8d4b487cebff201721702507a3e2c67ad79",
-    "price": 0.0416922547608527,
-    "liq": 329464,
-    "vol24h": 9448014,
-    "age_d": 466.4,
-    "chg24h": -38.572,
-    "chg7d": -38.6,
-    "mcap": 45146326.7362635,
+    "chain": "Arbitrum",
+    "symbol": "ARB",
+    "name": "Arbitrum",
+    "token": "0x912ce59144191c1204e64559fe8253a0e49e6548",
+    "price": 0.135253799865495,
+    "liq": 1561089,
+    "vol24h": 6885627,
+    "age_d": 1339.4,
+    "chg24h": -3.331,
+    "chg7d": -20.3,
+    "mcap": 932184747.290656,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 41.4,
-    "url": "https://www.geckoterminal.com/bsc/pools/0x99e1a43e738b026a2cd4359409594debab61b48d"
+    "rsi": 53.7,
+    "url": "https://www.geckoterminal.com/arbitrum/pools/0xc6f780497a95e246eb9449f5e4770916dcd6396a"
    },
    {
     "chain": "BSC",
-    "symbol": "JCT",
-    "name": "JANCTION",
-    "token": "0xea37a8de1de2d9d10772eeb569e28bfa5cb17707",
-    "price": 0.00203170053030287,
-    "liq": 587709,
-    "vol24h": 5960531,
-    "age_d": 164.8,
-    "chg24h": 1.223,
-    "chg7d": -56.5,
-    "mcap": 23351730.9854044,
+    "symbol": "COLLECT",
+    "name": "Collect on Fanable",
+    "token": "0x4b3d30992f003c8167699735f5ab2831b2a087d3",
+    "price": 0.0252274332760671,
+    "liq": 2204027,
+    "vol24h": 3511668,
+    "age_d": 324.0,
+    "chg24h": 3.209,
+    "chg7d": 5.5,
+    "mcap": 13547131.67136,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 51.0,
-    "url": "https://www.geckoterminal.com/bsc/pools/0x7bb2f6dab157e444ad8717b0178035c1b1cf24958b37c2a205e61a3582283249"
-   },
-   {
-    "chain": "BSC",
-    "symbol": "UAI",
-    "name": "UnifAI",
-    "token": "0x3e5d4f8aee0d9b3082d5f6da5d6e225d17ba9ea0",
-    "price": 0.0311640602311082,
-    "liq": 259862,
-    "vol24h": 2243659,
-    "age_d": 376.1,
-    "chg24h": -13.763,
-    "chg7d": -60.5,
-    "mcap": 7448210.39497,
-    "safety": "ok",
-    "safety_notes": [],
-    "trigger": false,
-    "trend_up": false,
-    "rsi": 42.4,
-    "url": "https://www.geckoterminal.com/bsc/pools/0x57004a34731b96d9e86b706cd629f24456ca2c7bdfcc5aae2417496d65090eb7"
+    "rsi": 62.7,
+    "url": "https://www.geckoterminal.com/bsc/pools/0xef470f9ae8512d2762e4f1cd91ae58caea17143afa61b8d56e9b20c8f87688c4"
    }
   ],
-  "onchain_checked": 87,
+  "onchain_checked": 88,
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
@@ -7582,6 +7563,23 @@
     ]
    },
    {
+    "id": "bitcoin-ecosystem",
+    "name": "Bitcoin Ecosystem",
+    "chg7d": -9.67,
+    "top": [
+     "BTC",
+     "DOG",
+     "ORDI",
+     "USTBL",
+     "LOBO"
+    ],
+    "tracked": [
+     "BTC",
+     "ORDI",
+     "SATS"
+    ]
+   },
+   {
     "id": "lending-borrowing",
     "name": "Lending Borrowing",
     "chg7d": -10.39,
@@ -7600,23 +7598,6 @@
      "COMP",
      "KMNO",
      "SPK"
-    ]
-   },
-   {
-    "id": "bitcoin-ecosystem",
-    "name": "Bitcoin Ecosystem",
-    "chg7d": -11.06,
-    "top": [
-     "BTC",
-     "DOG",
-     "ORDI",
-     "USTBL",
-     "LOBO"
-    ],
-    "tracked": [
-     "BTC",
-     "ORDI",
-     "SATS"
     ]
    },
    {
@@ -8139,8 +8120,8 @@
   ],
   "updated": {
    "unlocks": 1794725125,
-   "onchain": 1794736835,
-   "sectors": 1794739521,
+   "onchain": 1794740427,
+   "sectors": 1794740427,
    "listings": 1794740123,
    "fundamentals": 1794725125
   }
@@ -8179,6 +8160,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "d914f16d84840c7d75d62dae68db46e08bf70d6ef3ec3b89e4f87f2f33a9fa7c",
- "generated": "2026-11-15T10:55:25+00:00"
+ "digest": "dacb401862389c5b86f4d59f1c3204e1c45c633a495c48eedb4e801469608496",
+ "generated": "2026-11-15T11:01:59+00:00"
 }
