@@ -27,7 +27,7 @@
     182.77755834665348
    ],
    "lev": 1,
-   "funding_pct": -0.0164,
+   "funding_pct": -0.0169,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-14T08:00:00+00:00",
@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 209.01,
-   "last_ts": "2026-11-15T11:25:24+00:00",
-   "move_pct": 2.28,
+   "last": 209.07,
+   "last_ts": "2026-11-15T11:30:29+00:00",
+   "move_pct": 2.25,
    "closed": false,
    "rsi": 30.3,
    "trade_on": "Perps 1x",
@@ -73,7 +73,7 @@
     0.040568868878454095
    ],
    "lev": 1,
-   "funding_pct": -0.0064,
+   "funding_pct": -0.0103,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-11-14T08:00:00+00:00",
@@ -81,9 +81,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04634,
-   "last_ts": "2026-11-15T11:25:24+00:00",
-   "move_pct": 3.01,
+   "last": 0.04735,
+   "last_ts": "2026-11-15T11:30:29+00:00",
+   "move_pct": 0.9,
    "closed": false,
    "rsi": 42.3,
    "trade_on": "Perps 1x",
@@ -127,7 +127,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.004389,
-   "last_ts": "2026-11-15T11:25:24+00:00",
+   "last_ts": "2026-11-15T11:30:29+00:00",
    "move_pct": 6.8,
    "closed": false,
    "rsi": 27.6,
@@ -171,9 +171,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.008775,
-   "last_ts": "2026-11-15T11:25:24+00:00",
-   "move_pct": 5.83,
+   "last": 0.008784,
+   "last_ts": "2026-11-15T11:30:29+00:00",
+   "move_pct": 5.73,
    "closed": false,
    "rsi": 25.9,
    "trade_on": "Perps 1x",
@@ -208,7 +208,7 @@
     0.002539070287290415
    ],
    "lev": 1,
-   "funding_pct": -0.0032,
+   "funding_pct": -0.002,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-15T04:00:00+00:00",
@@ -216,9 +216,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002977,
-   "last_ts": "2026-11-15T11:25:24+00:00",
-   "move_pct": -0.92,
+   "last": 0.002979,
+   "last_ts": "2026-11-15T11:30:29+00:00",
+   "move_pct": -0.98,
    "closed": false,
    "rsi": 38.0,
    "trade_on": "Perps 1x",
@@ -261,9 +261,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.05012,
-   "last_ts": "2026-11-15T11:25:24+00:00",
-   "move_pct": 4.72,
+   "last": 0.05047,
+   "last_ts": "2026-11-15T11:30:29+00:00",
+   "move_pct": 5.45,
    "closed": false,
    "rsi": 64.6,
    "trade_on": "Spot",
@@ -7601,6 +7601,28 @@
     ]
    },
    {
+    "id": "layer-2",
+    "name": "Layer 2",
+    "chg7d": -11.54,
+    "top": [
+     "OKB",
+     "MNT",
+     "ARB",
+     "POL",
+     "STX"
+    ],
+    "tracked": [
+     "SOPH",
+     "ARB",
+     "OKB",
+     "STRK",
+     "OP",
+     "MERL",
+     "STX",
+     "POL"
+    ]
+   },
+   {
     "id": "exchange-based-tokens",
     "name": "Exchange Based Tokens",
     "chg7d": -12.31,
@@ -7620,28 +7642,6 @@
      "ASTER",
      "AERO",
      "CRV"
-    ]
-   },
-   {
-    "id": "layer-2",
-    "name": "Layer 2",
-    "chg7d": -12.59,
-    "top": [
-     "OKB",
-     "MNT",
-     "ARB",
-     "POL",
-     "STX"
-    ],
-    "tracked": [
-     "SOPH",
-     "ARB",
-     "OKB",
-     "STRK",
-     "OP",
-     "MERL",
-     "STX",
-     "POL"
     ]
    },
    {
@@ -8121,7 +8121,7 @@
   "updated": {
    "unlocks": 1794725125,
    "onchain": 1794740427,
-   "sectors": 1794741324,
+   "sectors": 1794742229,
    "listings": 1794740123,
    "fundamentals": 1794725125
   }
@@ -8160,6 +8160,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "703214a663f9a08ff73b69e2cc296500aa06143a52b17dde44f8b9a694cad7e9",
- "generated": "2026-11-15T11:25:27+00:00"
+ "digest": "27457a099f739cf14a74b6b166a5f707804f11ffe6880cfd0ea8c8b13f227d62",
+ "generated": "2026-11-15T11:30:32+00:00"
 }
