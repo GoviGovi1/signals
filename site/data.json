@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 209.12,
-   "last_ts": "2026-11-15T22:10:24+00:00",
-   "move_pct": 2.23,
+   "last": 209.19,
+   "last_ts": "2026-11-15T22:15:23+00:00",
+   "move_pct": 2.19,
    "closed": false,
    "rsi": 30.3,
    "trade_on": "Perps 1x",
@@ -73,7 +73,7 @@
     0.040568868878454095
    ],
    "lev": 1,
-   "funding_pct": -0.032,
+   "funding_pct": -0.0327,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-11-14T08:00:00+00:00",
@@ -81,9 +81,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04558,
-   "last_ts": "2026-11-15T22:10:24+00:00",
-   "move_pct": 4.6,
+   "last": 0.04586,
+   "last_ts": "2026-11-15T22:15:23+00:00",
+   "move_pct": 4.02,
    "closed": false,
    "rsi": 42.3,
    "trade_on": "Perps 1x",
@@ -126,9 +126,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.004331,
-   "last_ts": "2026-11-15T22:10:24+00:00",
-   "move_pct": 8.03,
+   "last": 0.004334,
+   "last_ts": "2026-11-15T22:15:23+00:00",
+   "move_pct": 7.96,
    "closed": false,
    "rsi": 27.6,
    "trade_on": "Perps 1x",
@@ -171,9 +171,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.008605,
-   "last_ts": "2026-11-15T22:10:24+00:00",
-   "move_pct": 7.65,
+   "last": 0.008603,
+   "last_ts": "2026-11-15T22:15:23+00:00",
+   "move_pct": 7.67,
    "closed": false,
    "rsi": 25.9,
    "trade_on": "Perps 1x",
@@ -208,7 +208,7 @@
     0.002539070287290415
    ],
    "lev": 1,
-   "funding_pct": -0.0021,
+   "funding_pct": -0.001,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-15T04:00:00+00:00",
@@ -216,9 +216,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002955,
-   "last_ts": "2026-11-15T22:10:24+00:00",
-   "move_pct": -0.17,
+   "last": 0.002957,
+   "last_ts": "2026-11-15T22:15:23+00:00",
+   "move_pct": -0.24,
    "closed": false,
    "rsi": 38.0,
    "trade_on": "Perps 1x",
@@ -261,9 +261,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04957,
-   "last_ts": "2026-11-15T22:10:24+00:00",
-   "move_pct": 3.57,
+   "last": 0.0498,
+   "last_ts": "2026-11-15T22:15:23+00:00",
+   "move_pct": 4.05,
    "closed": false,
    "rsi": 64.6,
    "trade_on": "Spot",
@@ -305,9 +305,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 20.248776430362,
-   "last_ts": "2026-11-15T22:10:24+00:00",
-   "move_pct": -1.02,
+   "last": 20.2648154440165,
+   "last_ts": "2026-11-15T22:15:23+00:00",
+   "move_pct": -0.94,
    "closed": false,
    "rsi": 66.6,
    "trade_on": "On-chain spot (Base DEX)",
@@ -7839,6 +7839,28 @@
     ]
    },
    {
+    "id": "ai-agents",
+    "name": "AI Agents",
+    "chg7d": -13.81,
+    "top": [
+     "VVV",
+     "KITE",
+     "FET",
+     "VIRTUAL",
+     "TRAC"
+    ],
+    "tracked": [
+     "VVV",
+     "VIRTUAL",
+     "FET",
+     "AEON",
+     "MAGIC",
+     "PIPPIN",
+     "KITE",
+     "AIXBT"
+    ]
+   },
+   {
     "id": "decentralized-perpetuals",
     "name": "Decentralized Perpetuals",
     "chg7d": -13.87,
@@ -8000,28 +8022,6 @@
      "ENA",
      "ASTER",
      "INJ"
-    ]
-   },
-   {
-    "id": "ai-agents",
-    "name": "AI Agents",
-    "chg7d": -14.86,
-    "top": [
-     "VVV",
-     "KITE",
-     "FET",
-     "VIRTUAL",
-     "TRAC"
-    ],
-    "tracked": [
-     "VVV",
-     "VIRTUAL",
-     "FET",
-     "AEON",
-     "MAGIC",
-     "PIPPIN",
-     "KITE",
-     "AIXBT"
     ]
    },
    {
@@ -8231,7 +8231,7 @@
   "updated": {
    "unlocks": 1794768622,
    "onchain": 1794780029,
-   "sectors": 1794780029,
+   "sectors": 1794780923,
    "listings": 1794777923,
    "fundamentals": 1794768623
   }
@@ -8270,6 +8270,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "6f84516fe35f65eaffc043434533c1c3c60b4ed29334b861305f08503d771f43",
- "generated": "2026-11-15T22:10:30+00:00"
+ "digest": "d6066ebfb0eb239de41de5b222c5d12d9fce1d3a6d460476a697698f249b291f",
+ "generated": "2026-11-15T22:15:28+00:00"
 }
