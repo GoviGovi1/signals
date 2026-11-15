@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 208.4,
-   "last_ts": "2026-11-15T21:40:23+00:00",
-   "move_pct": 2.56,
+   "last": 208.74,
+   "last_ts": "2026-11-15T21:45:23+00:00",
+   "move_pct": 2.4,
    "closed": false,
    "rsi": 30.3,
    "trade_on": "Perps 1x",
@@ -73,7 +73,7 @@
     0.040568868878454095
    ],
    "lev": 1,
-   "funding_pct": -0.0289,
+   "funding_pct": -0.03,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-11-14T08:00:00+00:00",
@@ -81,9 +81,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04544,
-   "last_ts": "2026-11-15T21:40:23+00:00",
-   "move_pct": 4.9,
+   "last": 0.04545,
+   "last_ts": "2026-11-15T21:45:23+00:00",
+   "move_pct": 4.88,
    "closed": false,
    "rsi": 42.3,
    "trade_on": "Perps 1x",
@@ -126,9 +126,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.004284,
-   "last_ts": "2026-11-15T21:40:23+00:00",
-   "move_pct": 9.03,
+   "last": 0.004305,
+   "last_ts": "2026-11-15T21:45:23+00:00",
+   "move_pct": 8.58,
    "closed": false,
    "rsi": 27.6,
    "trade_on": "Perps 1x",
@@ -171,9 +171,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.008518,
-   "last_ts": "2026-11-15T21:40:23+00:00",
-   "move_pct": 8.59,
+   "last": 0.008546,
+   "last_ts": "2026-11-15T21:45:23+00:00",
+   "move_pct": 8.29,
    "closed": false,
    "rsi": 25.9,
    "trade_on": "Perps 1x",
@@ -208,7 +208,7 @@
     0.002539070287290415
    ],
    "lev": 1,
-   "funding_pct": -0.0095,
+   "funding_pct": -0.0082,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-15T04:00:00+00:00",
@@ -216,9 +216,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002945,
-   "last_ts": "2026-11-15T21:40:23+00:00",
-   "move_pct": 0.17,
+   "last": 0.002951,
+   "last_ts": "2026-11-15T21:45:23+00:00",
+   "move_pct": -0.03,
    "closed": false,
    "rsi": 38.0,
    "trade_on": "Perps 1x",
@@ -261,9 +261,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04981,
-   "last_ts": "2026-11-15T21:40:23+00:00",
-   "move_pct": 4.07,
+   "last": 0.04975,
+   "last_ts": "2026-11-15T21:45:23+00:00",
+   "move_pct": 3.95,
    "closed": false,
    "rsi": 64.6,
    "trade_on": "Spot",
@@ -305,9 +305,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 20.193983532672597,
-   "last_ts": "2026-11-15T21:40:23+00:00",
-   "move_pct": -1.29,
+   "last": 20.2064871017458,
+   "last_ts": "2026-11-15T21:45:23+00:00",
+   "move_pct": -1.23,
    "closed": false,
    "rsi": 66.6,
    "trade_on": "On-chain spot (Base DEX)",
@@ -7900,6 +7900,28 @@
     ]
    },
    {
+    "id": "meme-token",
+    "name": "Meme Token",
+    "chg7d": -13.97,
+    "top": [
+     "DOGE",
+     "SHIB",
+     "M",
+     "PEPE",
+     "PUMP"
+    ],
+    "tracked": [
+     "DOGE",
+     "PEPE",
+     "PUMP",
+     "TRUMP",
+     "PENGU",
+     "SHIB",
+     "USELESS",
+     "ORDI"
+    ]
+   },
+   {
     "id": "interoperability",
     "name": "Interoperability",
     "chg7d": -14.27,
@@ -7978,28 +8000,6 @@
      "ENA",
      "ASTER",
      "INJ"
-    ]
-   },
-   {
-    "id": "meme-token",
-    "name": "Meme Token",
-    "chg7d": -14.77,
-    "top": [
-     "DOGE",
-     "SHIB",
-     "M",
-     "PEPE",
-     "PUMP"
-    ],
-    "tracked": [
-     "DOGE",
-     "PEPE",
-     "PUMP",
-     "TRUMP",
-     "PENGU",
-     "SHIB",
-     "USELESS",
-     "ORDI"
     ]
    },
    {
@@ -8231,7 +8231,7 @@
   "updated": {
    "unlocks": 1794768622,
    "onchain": 1794776433,
-   "sectors": 1794778225,
+   "sectors": 1794779123,
    "listings": 1794777923,
    "fundamentals": 1794768623
   }
@@ -8270,6 +8270,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "7abcce6dce2c905da48469b71f0de9b4ca5ac6fc2016a8036150d3c3f7a232bc",
- "generated": "2026-11-15T21:40:28+00:00"
+ "digest": "240ab7711b504d0d313ebe41c4b8690cf236e875a72f6e1f14751dad88e2d201",
+ "generated": "2026-11-15T21:45:28+00:00"
 }
