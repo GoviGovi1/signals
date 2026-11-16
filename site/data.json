@@ -27,7 +27,7 @@
     182.77755834665348
    ],
    "lev": 1,
-   "funding_pct": -0.0115,
+   "funding_pct": -0.0117,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-14T08:00:00+00:00",
@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 210.25,
-   "last_ts": "2026-11-16T00:10:27+00:00",
-   "move_pct": 1.7,
+   "last": 209.7,
+   "last_ts": "2026-11-16T00:15:25+00:00",
+   "move_pct": 1.95,
    "closed": false,
    "rsi": 30.3,
    "trade_on": "Perps 1x",
@@ -73,7 +73,7 @@
     0.040568868878454095
    ],
    "lev": 1,
-   "funding_pct": -0.0538,
+   "funding_pct": -0.054,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-11-14T08:00:00+00:00",
@@ -81,9 +81,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04515,
-   "last_ts": "2026-11-16T00:10:27+00:00",
-   "move_pct": 5.5,
+   "last": 0.04451,
+   "last_ts": "2026-11-16T00:15:25+00:00",
+   "move_pct": 6.84,
    "closed": false,
    "rsi": 42.3,
    "trade_on": "Perps 1x",
@@ -126,9 +126,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.004363,
-   "last_ts": "2026-11-16T00:10:27+00:00",
-   "move_pct": 7.35,
+   "last": 0.00436,
+   "last_ts": "2026-11-16T00:15:25+00:00",
+   "move_pct": 7.41,
    "closed": false,
    "rsi": 27.6,
    "trade_on": "Perps 1x",
@@ -171,9 +171,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0086,
-   "last_ts": "2026-11-16T00:10:27+00:00",
-   "move_pct": 7.71,
+   "last": 0.008579,
+   "last_ts": "2026-11-16T00:15:25+00:00",
+   "move_pct": 7.93,
    "closed": false,
    "rsi": 25.9,
    "trade_on": "Perps 1x",
@@ -208,7 +208,7 @@
     0.002539070287290415
    ],
    "lev": 1,
-   "funding_pct": -0.014,
+   "funding_pct": -0.0151,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-15T04:00:00+00:00",
@@ -216,9 +216,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002969,
-   "last_ts": "2026-11-16T00:10:27+00:00",
-   "move_pct": -0.64,
+   "last": 0.002954,
+   "last_ts": "2026-11-16T00:15:25+00:00",
+   "move_pct": -0.14,
    "closed": false,
    "rsi": 38.0,
    "trade_on": "Perps 1x",
@@ -261,9 +261,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04959,
-   "last_ts": "2026-11-16T00:10:27+00:00",
-   "move_pct": 3.61,
+   "last": 0.0496,
+   "last_ts": "2026-11-16T00:15:25+00:00",
+   "move_pct": 3.64,
    "closed": false,
    "rsi": 64.6,
    "trade_on": "Spot",
@@ -305,9 +305,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 20.500179739714998,
-   "last_ts": "2026-11-16T00:10:27+00:00",
-   "move_pct": 0.21,
+   "last": 20.293616691561898,
+   "last_ts": "2026-11-16T00:15:25+00:00",
+   "move_pct": -0.8,
    "closed": false,
    "rsi": 66.6,
    "trade_on": "On-chain spot (Base DEX)",
@@ -7779,6 +7779,28 @@
     ]
    },
    {
+    "id": "zero-knowledge-zk",
+    "name": "Zero Knowledge ZK",
+    "chg7d": -11.23,
+    "top": [
+     "ZEC",
+     "POL",
+     "NIGHT",
+     "STRK",
+     "OZO"
+    ],
+    "tracked": [
+     "ZEC",
+     "NIGHT",
+     "STRK",
+     "H",
+     "POL",
+     "ZK",
+     "MAGIC",
+     "MINA"
+    ]
+   },
+   {
     "id": "artificial-intelligence",
     "name": "Artificial Intelligence",
     "chg7d": -11.46,
@@ -8024,28 +8046,6 @@
     ]
    },
    {
-    "id": "zero-knowledge-zk",
-    "name": "Zero Knowledge ZK",
-    "chg7d": -14.29,
-    "top": [
-     "ZEC",
-     "POL",
-     "NIGHT",
-     "STRK",
-     "OZO"
-    ],
-    "tracked": [
-     "ZEC",
-     "NIGHT",
-     "STRK",
-     "H",
-     "POL",
-     "ZK",
-     "MAGIC",
-     "MINA"
-    ]
-   },
-   {
     "id": "solana-meme-coins",
     "name": "Solana Meme Coins",
     "chg7d": -15.67,
@@ -8237,7 +8237,7 @@
   "updated": {
    "unlocks": 1794768622,
    "onchain": 1794787245,
-   "sectors": 1794787245,
+   "sectors": 1794788124,
    "listings": 1794785719,
    "fundamentals": 1794768623
   }
@@ -8276,6 +8276,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "9ff25f247253bc7c822e765529c5777777d72e66b68d185a43a5e5d4ae88f18d",
- "generated": "2026-11-16T00:10:33+00:00"
+ "digest": "ac149c4e7598d2c6ec2ea297bf3e4ec7bd7abe118ae61faee2b13578d909df4d",
+ "generated": "2026-11-16T00:15:30+00:00"
 }
