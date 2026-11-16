@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002969,
-   "last_ts": "2026-11-16T21:30:26+00:00",
-   "move_pct": -0.64,
+   "last": 0.002972,
+   "last_ts": "2026-11-16T21:35:26+00:00",
+   "move_pct": -0.75,
    "closed": false,
    "rsi": 38.0,
    "trade_on": "Perps 1x",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04969,
-   "last_ts": "2026-11-16T21:30:26+00:00",
-   "move_pct": 3.82,
+   "last": 0.04964,
+   "last_ts": "2026-11-16T21:35:26+00:00",
+   "move_pct": 3.72,
    "closed": false,
    "rsi": 64.6,
    "trade_on": "Spot",
@@ -125,7 +125,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 20.3089399912254,
-   "last_ts": "2026-11-16T21:30:26+00:00",
+   "last_ts": "2026-11-16T21:35:26+00:00",
    "move_pct": -0.73,
    "closed": false,
    "rsi": 66.6,
@@ -169,9 +169,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1284,
-   "last_ts": "2026-11-16T21:30:26+00:00",
-   "move_pct": -1.9,
+   "last": 0.1285,
+   "last_ts": "2026-11-16T21:35:26+00:00",
+   "move_pct": -1.98,
    "closed": false,
    "rsi": 30.3,
    "trade_on": "Perps 1x",
@@ -213,9 +213,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.4356,
-   "last_ts": "2026-11-16T21:30:26+00:00",
-   "move_pct": 3.35,
+   "last": 0.4349,
+   "last_ts": "2026-11-16T21:35:26+00:00",
+   "move_pct": 3.51,
    "closed": false,
    "rsi": 34.6,
    "trade_on": "Perps 1x",
@@ -249,7 +249,7 @@
     0.0035012361344905775
    ],
    "lev": 1,
-   "funding_pct": 0.0072,
+   "funding_pct": 0.0099,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-16T02:00:00+00:00",
@@ -257,9 +257,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.00402,
-   "last_ts": "2026-11-16T21:30:26+00:00",
-   "move_pct": -0.1,
+   "last": 0.004038,
+   "last_ts": "2026-11-16T21:35:26+00:00",
+   "move_pct": -0.55,
    "closed": false,
    "rsi": 39.6,
    "trade_on": "Perps 1x",
@@ -294,7 +294,7 @@
     0.04931798864327875
    ],
    "lev": 1,
-   "funding_pct": 0.003,
+   "funding_pct": 0.0038,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-16T08:00:00+00:00",
@@ -302,9 +302,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.05282,
-   "last_ts": "2026-11-16T21:30:26+00:00",
-   "move_pct": 2.51,
+   "last": 0.0528,
+   "last_ts": "2026-11-16T21:35:26+00:00",
+   "move_pct": 2.55,
    "closed": false,
    "rsi": 36.3,
    "trade_on": "Perps 1x",
@@ -348,9 +348,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.42,
-   "last_ts": "2026-11-16T21:30:26+00:00",
-   "move_pct": -1.65,
+   "last": 1.417,
+   "last_ts": "2026-11-16T21:35:26+00:00",
+   "move_pct": -1.43,
    "closed": false,
    "rsi": 33.5,
    "trade_on": "Perps 1x",
@@ -7717,6 +7717,28 @@
     ]
    },
    {
+    "id": "exchange-based-tokens",
+    "name": "Exchange Based Tokens",
+    "chg7d": -11.87,
+    "top": [
+     "BNB",
+     "HYPE",
+     "LEO",
+     "WBT",
+     "UNI"
+    ],
+    "tracked": [
+     "BNB",
+     "HYPE",
+     "ASTER",
+     "UNI",
+     "PUMP",
+     "OKB",
+     "CRV",
+     "AERO"
+    ]
+   },
+   {
     "id": "bitcoin-ecosystem",
     "name": "Bitcoin Ecosystem",
     "chg7d": -12.16,
@@ -7814,28 +7836,6 @@
      "FIL",
      "AR",
      "WAL"
-    ]
-   },
-   {
-    "id": "exchange-based-tokens",
-    "name": "Exchange Based Tokens",
-    "chg7d": -12.7,
-    "top": [
-     "BNB",
-     "HYPE",
-     "LEO",
-     "WBT",
-     "UNI"
-    ],
-    "tracked": [
-     "BNB",
-     "HYPE",
-     "ASTER",
-     "UNI",
-     "PUMP",
-     "OKB",
-     "CRV",
-     "AERO"
     ]
    },
    {
@@ -8218,8 +8218,8 @@
   "updated": {
    "unlocks": 1794855326,
    "onchain": 1794862827,
-   "sectors": 1794864025,
-   "listings": 1794861027,
+   "sectors": 1794864925,
+   "listings": 1794864925,
    "fundamentals": 1794855326
   }
  },
@@ -8257,6 +8257,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "d3237ea59da76d7e3a0daa9a84de97a6f8fc3b1833a57175dfe52c303728aaec",
- "generated": "2026-11-16T21:30:33+00:00"
+ "digest": "cc7a292a6a79c36952ee92589779e02bb2d43b2e4af900e6811f74dcc445e81c",
+ "generated": "2026-11-16T21:35:32+00:00"
 }
