@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.00298,
-   "last_ts": "2026-11-16T20:01:39+00:00",
-   "move_pct": -1.02,
+   "last": 0.002984,
+   "last_ts": "2026-11-16T20:05:22+00:00",
+   "move_pct": -1.15,
    "closed": false,
    "rsi": 38.0,
    "trade_on": "Perps 1x",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04976,
-   "last_ts": "2026-11-16T20:01:39+00:00",
-   "move_pct": 3.97,
+   "last": 0.04961,
+   "last_ts": "2026-11-16T20:05:22+00:00",
+   "move_pct": 3.66,
    "closed": false,
    "rsi": 64.6,
    "trade_on": "Spot",
@@ -124,9 +124,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 20.201030316141598,
-   "last_ts": "2026-11-16T20:01:39+00:00",
-   "move_pct": -1.25,
+   "last": 20.252190730676,
+   "last_ts": "2026-11-16T20:05:22+00:00",
+   "move_pct": -1.0,
    "closed": false,
    "rsi": 66.6,
    "trade_on": "On-chain spot (Base DEX)",
@@ -169,9 +169,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1279,
-   "last_ts": "2026-11-16T20:01:39+00:00",
-   "move_pct": -1.51,
+   "last": 0.1287,
+   "last_ts": "2026-11-16T20:05:22+00:00",
+   "move_pct": -2.14,
    "closed": false,
    "rsi": 30.3,
    "trade_on": "Perps 1x",
@@ -213,9 +213,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.436,
-   "last_ts": "2026-11-16T20:01:39+00:00",
-   "move_pct": 3.26,
+   "last": 0.4365,
+   "last_ts": "2026-11-16T20:05:22+00:00",
+   "move_pct": 3.15,
    "closed": false,
    "rsi": 34.6,
    "trade_on": "Perps 1x",
@@ -257,9 +257,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.004017,
-   "last_ts": "2026-11-16T20:01:39+00:00",
-   "move_pct": -0.02,
+   "last": 0.00403,
+   "last_ts": "2026-11-16T20:05:22+00:00",
+   "move_pct": -0.35,
    "closed": false,
    "rsi": 39.6,
    "trade_on": "Perps 1x",
@@ -294,7 +294,7 @@
     0.04931798864327875
    ],
    "lev": 1,
-   "funding_pct": -0.0006,
+   "funding_pct": -0.0004,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-16T08:00:00+00:00",
@@ -302,9 +302,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.05299,
-   "last_ts": "2026-11-16T20:01:39+00:00",
-   "move_pct": 2.2,
+   "last": 0.05307,
+   "last_ts": "2026-11-16T20:05:22+00:00",
+   "move_pct": 2.05,
    "closed": false,
    "rsi": 36.3,
    "trade_on": "Perps 1x",
@@ -348,9 +348,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.42,
-   "last_ts": "2026-11-16T20:01:39+00:00",
-   "move_pct": -1.65,
+   "last": 1.418,
+   "last_ts": "2026-11-16T20:05:22+00:00",
+   "move_pct": -1.5,
    "closed": false,
    "rsi": 33.5,
    "trade_on": "Perps 1x",
@@ -7892,25 +7892,6 @@
     ]
    },
    {
-    "id": "oracle",
-    "name": "Oracle",
-    "chg7d": -13.35,
-    "top": [
-     "LINK",
-     "PYTH",
-     "RED",
-     "WIN",
-     "TRB"
-    ],
-    "tracked": [
-     "LINK",
-     "PYTH",
-     "TRB",
-     "AT",
-     "API3"
-    ]
-   },
-   {
     "id": "layer-1",
     "name": "Layer 1",
     "chg7d": -13.61,
@@ -7969,6 +7950,25 @@
      "PUMP",
      "AAVE",
      "ENA"
+    ]
+   },
+   {
+    "id": "oracle",
+    "name": "Oracle",
+    "chg7d": -13.77,
+    "top": [
+     "LINK",
+     "PYTH",
+     "RED",
+     "WIN",
+     "TRB"
+    ],
+    "tracked": [
+     "LINK",
+     "PYTH",
+     "TRB",
+     "AT",
+     "API3"
     ]
    },
    {
@@ -8237,7 +8237,7 @@
   "updated": {
    "unlocks": 1794855326,
    "onchain": 1794859239,
-   "sectors": 1794858634,
+   "sectors": 1794859522,
    "listings": 1794857132,
    "fundamentals": 1794855326
   }
@@ -8276,6 +8276,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "06aaf9dd5dda11e9f8e8b4d4fa6e22dc6273ba255355c5556a9527661b589e4b",
- "generated": "2026-11-16T20:02:12+00:00"
+ "digest": "b7a1c77876dcbd4556434917c5003fc430a1cd0a0fa4b04300a1292835e2a055",
+ "generated": "2026-11-16T20:05:28+00:00"
 }
