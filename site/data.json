@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002962,
-   "last_ts": "2026-11-16T21:01:29+00:00",
-   "move_pct": -0.41,
+   "last": 0.00296,
+   "last_ts": "2026-11-16T21:05:21+00:00",
+   "move_pct": -0.34,
    "closed": false,
    "rsi": 38.0,
    "trade_on": "Perps 1x",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04948,
-   "last_ts": "2026-11-16T21:01:29+00:00",
-   "move_pct": 3.38,
+   "last": 0.04942,
+   "last_ts": "2026-11-16T21:05:21+00:00",
+   "move_pct": 3.26,
    "closed": false,
    "rsi": 64.6,
    "trade_on": "Spot",
@@ -124,9 +124,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 20.1654043262551,
-   "last_ts": "2026-11-16T21:01:29+00:00",
-   "move_pct": -1.43,
+   "last": 20.1485847883508,
+   "last_ts": "2026-11-16T21:05:21+00:00",
+   "move_pct": -1.51,
    "closed": false,
    "rsi": 66.6,
    "trade_on": "On-chain spot (Base DEX)",
@@ -169,9 +169,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1279,
-   "last_ts": "2026-11-16T21:01:29+00:00",
-   "move_pct": -1.51,
+   "last": 0.1275,
+   "last_ts": "2026-11-16T21:05:21+00:00",
+   "move_pct": -1.19,
    "closed": false,
    "rsi": 30.3,
    "trade_on": "Perps 1x",
@@ -213,9 +213,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.4325,
-   "last_ts": "2026-11-16T21:01:29+00:00",
-   "move_pct": 4.04,
+   "last": 0.4332,
+   "last_ts": "2026-11-16T21:05:21+00:00",
+   "move_pct": 3.88,
    "closed": false,
    "rsi": 34.6,
    "trade_on": "Perps 1x",
@@ -249,7 +249,7 @@
     0.0035012361344905775
    ],
    "lev": 1,
-   "funding_pct": 0.0061,
+   "funding_pct": 0.005,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-16T02:00:00+00:00",
@@ -257,9 +257,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.003995,
-   "last_ts": "2026-11-16T21:01:29+00:00",
-   "move_pct": 0.52,
+   "last": 0.003986,
+   "last_ts": "2026-11-16T21:05:21+00:00",
+   "move_pct": 0.75,
    "closed": false,
    "rsi": 39.6,
    "trade_on": "Perps 1x",
@@ -294,7 +294,7 @@
     0.04931798864327875
    ],
    "lev": 1,
-   "funding_pct": -0.0014,
+   "funding_pct": -0.0009,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-16T08:00:00+00:00",
@@ -302,9 +302,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.05256,
-   "last_ts": "2026-11-16T21:01:29+00:00",
-   "move_pct": 2.99,
+   "last": 0.05255,
+   "last_ts": "2026-11-16T21:05:21+00:00",
+   "move_pct": 3.01,
    "closed": false,
    "rsi": 36.3,
    "trade_on": "Perps 1x",
@@ -348,9 +348,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.415,
-   "last_ts": "2026-11-16T21:01:29+00:00",
-   "move_pct": -1.29,
+   "last": 1.411,
+   "last_ts": "2026-11-16T21:05:21+00:00",
+   "move_pct": -1.0,
    "closed": false,
    "rsi": 33.5,
    "trade_on": "Perps 1x",
@@ -7800,6 +7800,23 @@
     ]
    },
    {
+    "id": "storage",
+    "name": "Storage",
+    "chg7d": -12.63,
+    "top": [
+     "FIL",
+     "BTT",
+     "AR",
+     "AIOZ",
+     "WAL"
+    ],
+    "tracked": [
+     "FIL",
+     "AR",
+     "WAL"
+    ]
+   },
+   {
     "id": "exchange-based-tokens",
     "name": "Exchange Based Tokens",
     "chg7d": -12.7,
@@ -7907,23 +7924,6 @@
      "BNB",
      "AVAX",
      "ZEC"
-    ]
-   },
-   {
-    "id": "storage",
-    "name": "Storage",
-    "chg7d": -13.63,
-    "top": [
-     "FIL",
-     "BTT",
-     "AR",
-     "AIOZ",
-     "WAL"
-    ],
-    "tracked": [
-     "FIL",
-     "AR",
-     "WAL"
     ]
    },
    {
@@ -8218,7 +8218,7 @@
   "updated": {
    "unlocks": 1794855326,
    "onchain": 1794862827,
-   "sectors": 1794862223,
+   "sectors": 1794863121,
    "listings": 1794861027,
    "fundamentals": 1794855326
   }
@@ -8257,6 +8257,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "3b0574e3a2a8c53003650dc80de26f46d8cf22181e882b8dc5f0d07dff8db67f",
- "generated": "2026-11-16T21:02:00+00:00"
+ "digest": "4a30e2be8fade011cbe6f33b51faed63591cd42bf8ca2eee8b00f7b2bf5677c8",
+ "generated": "2026-11-16T21:05:26+00:00"
 }
