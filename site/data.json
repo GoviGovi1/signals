@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 21.232625700911196,
-   "last_ts": "2026-11-17T06:15:22+00:00",
-   "move_pct": 3.79,
+   "last": 21.4505919742298,
+   "last_ts": "2026-11-17T06:20:23+00:00",
+   "move_pct": 4.85,
    "closed": false,
    "rsi": 66.6,
    "trade_on": "On-chain spot (Base DEX)",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1268,
-   "last_ts": "2026-11-17T06:15:22+00:00",
-   "move_pct": -0.63,
+   "last": 0.1263,
+   "last_ts": "2026-11-17T06:20:23+00:00",
+   "move_pct": -0.24,
    "closed": false,
    "rsi": 30.3,
    "trade_on": "Perps 1x",
@@ -123,9 +123,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.4429,
-   "last_ts": "2026-11-17T06:15:22+00:00",
-   "move_pct": 1.73,
+   "last": 0.4423,
+   "last_ts": "2026-11-17T06:20:23+00:00",
+   "move_pct": 1.86,
    "closed": false,
    "rsi": 34.6,
    "trade_on": "Perps 1x",
@@ -167,9 +167,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.004007,
-   "last_ts": "2026-11-17T06:15:22+00:00",
-   "move_pct": 0.22,
+   "last": 0.003986,
+   "last_ts": "2026-11-17T06:20:23+00:00",
+   "move_pct": 0.75,
    "closed": false,
    "rsi": 39.6,
    "trade_on": "Perps 1x",
@@ -205,7 +205,7 @@
     1.1815019619211906
    ],
    "lev": 1,
-   "funding_pct": 0.0036,
+   "funding_pct": 0.0044,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-16T09:00:00+00:00",
@@ -213,9 +213,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.415,
-   "last_ts": "2026-11-17T06:15:22+00:00",
-   "move_pct": -1.29,
+   "last": 1.411,
+   "last_ts": "2026-11-17T06:20:23+00:00",
+   "move_pct": -1.0,
    "closed": false,
    "rsi": 33.5,
    "trade_on": "Perps 1x",
@@ -257,9 +257,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 23.39,
-   "last_ts": "2026-11-17T06:15:22+00:00",
-   "move_pct": 0.39,
+   "last": 23.28,
+   "last_ts": "2026-11-17T06:20:23+00:00",
+   "move_pct": -0.09,
    "closed": false,
    "rsi": 63.2,
    "trade_on": "Perps 1x",
@@ -301,9 +301,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.027285,
-   "last_ts": "2026-11-17T06:15:22+00:00",
-   "move_pct": 2.21,
+   "last": 0.027217,
+   "last_ts": "2026-11-17T06:20:23+00:00",
+   "move_pct": 2.45,
    "closed": false,
    "rsi": 38.3,
    "trade_on": "Perps 1x",
@@ -347,9 +347,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 5.31,
-   "last_ts": "2026-11-17T06:15:22+00:00",
-   "move_pct": 0.38,
+   "last": 5.298,
+   "last_ts": "2026-11-17T06:20:23+00:00",
+   "move_pct": 0.15,
    "closed": false,
    "rsi": 64.0,
    "trade_on": "Spot",
@@ -8011,6 +8011,28 @@
     ]
    },
    {
+    "id": "zero-knowledge-zk",
+    "name": "Zero Knowledge ZK",
+    "chg7d": -13.19,
+    "top": [
+     "ZEC",
+     "POL",
+     "NIGHT",
+     "STRK",
+     "OZO"
+    ],
+    "tracked": [
+     "ZEC",
+     "NIGHT",
+     "STRK",
+     "H",
+     "ZK",
+     "POL",
+     "MAGIC",
+     "IMX"
+    ]
+   },
+   {
     "id": "meme-token",
     "name": "Meme Token",
     "chg7d": -13.36,
@@ -8030,28 +8052,6 @@
      "PENGU",
      "SHIB",
      "USELESS"
-    ]
-   },
-   {
-    "id": "zero-knowledge-zk",
-    "name": "Zero Knowledge ZK",
-    "chg7d": -13.79,
-    "top": [
-     "ZEC",
-     "POL",
-     "NIGHT",
-     "STRK",
-     "OZO"
-    ],
-    "tracked": [
-     "ZEC",
-     "NIGHT",
-     "STRK",
-     "H",
-     "ZK",
-     "POL",
-     "MAGIC",
-     "IMX"
     ]
    },
    {
@@ -8246,7 +8246,7 @@
   "updated": {
    "unlocks": 1794877228,
    "onchain": 1794895231,
-   "sectors": 1794895521,
+   "sectors": 1794896423,
    "listings": 1794895521,
    "fundamentals": 1794877229
   }
@@ -8285,6 +8285,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "220fc1c34236aada974b8eb57af6fb3e8ad5eea222e7e312528db26d77b181b1",
- "generated": "2026-11-17T06:15:28+00:00"
+ "digest": "41ef2d05838c8d3229b64d78e9d4b266b830e7af62c34ec521003e457fef2129",
+ "generated": "2026-11-17T06:20:29+00:00"
 }
