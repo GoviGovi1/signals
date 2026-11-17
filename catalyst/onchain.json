@@ -1,6 +1,10 @@
 {
- "checked": 85,
- "errors": [],
+ "checked": 29,
+ "errors": [
+  "base: HTTPError",
+  "bsc: HTTPError",
+  "eth: HTTPError"
+ ],
  "rejected": [
   {
    "chain": "Solana",
@@ -22,14 +26,6 @@
     "no DEX candles"
    ],
    "symbol": "CLAUDIA"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "liquidity under $250k",
-    "pool younger than 7 days"
-   ],
-   "symbol": "GTA"
   },
   {
    "chain": "Solana",
@@ -57,17 +53,17 @@
   {
    "chain": "Solana",
    "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "CATE"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
     "liquidity under $250k",
     "pool younger than 7 days"
    ],
    "symbol": "CHAR"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "no DEX candles"
+   ],
+   "symbol": "CATE"
   },
   {
    "chain": "Solana",
@@ -119,6 +115,20 @@
   {
    "chain": "Solana",
    "fails": [
+    "liquidity under $250k"
+   ],
+   "symbol": "DIGS"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "liquidity under $250k"
+   ],
+   "symbol": "BLOB"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
     "no DEX candles"
    ],
    "symbol": "VINE"
@@ -128,174 +138,84 @@
    "fails": [
     "liquidity under $250k"
    ],
-   "symbol": "DIGS"
+   "symbol": "GATO"
   },
   {
-   "chain": "Solana",
+   "chain": "Arbitrum",
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "DACITYCOIN"
+   "symbol": "ARB"
   },
   {
-   "chain": "Base",
-   "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "DRB"
-  },
-  {
-   "chain": "Base",
-   "fails": [
-    "liquidity under $250k"
-   ],
-   "symbol": "OWB"
-  },
-  {
-   "chain": "Base",
-   "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "AERO"
-  },
-  {
-   "chain": "Base",
-   "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "NOCK"
-  },
-  {
-   "chain": "Base",
-   "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "VVV"
-  },
-  {
-   "chain": "Base",
-   "fails": [
-    "24h volume under $250k"
-   ],
-   "symbol": "BNKR"
-  },
-  {
-   "chain": "Base",
-   "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "AERO"
-  },
-  {
-   "chain": "Base",
-   "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "SPCXC"
-  },
-  {
-   "chain": "Base",
-   "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "NVDAC"
-  },
-  {
-   "chain": "Base",
+   "chain": "Arbitrum",
    "fails": [
     "liquidity under $250k",
     "24h volume under $250k"
    ],
-   "symbol": "FLOWER"
+   "symbol": "RAIN"
   },
   {
-   "chain": "Base",
+   "chain": "Arbitrum",
    "fails": [
     "24h volume under $250k"
    ],
-   "symbol": "TIBBIR"
+   "symbol": "LINK"
   },
   {
-   "chain": "Base",
+   "chain": "Arbitrum",
    "fails": [
     "24h volume under $250k"
    ],
-   "symbol": "KTA"
+   "symbol": "CHIP"
   },
   {
-   "chain": "Base",
+   "chain": "Arbitrum",
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "SNDKC"
+   "symbol": "USDG"
   },
   {
-   "chain": "Base",
+   "chain": "Arbitrum",
+   "fails": [
+    "24h volume under $250k"
+   ],
+   "symbol": "GRT"
+  },
+  {
+   "chain": "Arbitrum",
+   "fails": [
+    "24h volume under $250k"
+   ],
+   "symbol": "UNI"
+  },
+  {
+   "chain": "Arbitrum",
+   "fails": [
+    "24h volume under $250k"
+   ],
+   "symbol": "PENDLE"
+  },
+  {
+   "chain": "Arbitrum",
    "fails": [
     "liquidity under $250k",
     "24h volume under $250k"
    ],
-   "symbol": "RSGP"
+   "symbol": "ZRO"
   },
   {
-   "chain": "Base",
+   "chain": "Arbitrum",
    "fails": [
-    "no DEX candles"
+    "liquidity under $250k",
+    "24h volume under $250k"
    ],
-   "symbol": "DRV"
-  },
-  {
-   "chain": "BSC",
-   "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "EVAA"
-  },
-  {
-   "chain": "BSC",
-   "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "AKE"
-  },
-  {
-   "chain": "BSC",
-   "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "$BANANA"
-  },
-  {
-   "chain": "BSC",
-   "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "ARK"
-  },
-  {
-   "chain": "BSC",
-   "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "ARIA"
-  },
-  {
-   "chain": "BSC",
-   "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "JCT"
-  },
-  {
-   "chain": "BSC",
-   "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "BTW"
+   "symbol": "GMX"
   }
  ],
  "rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
- "updated": 1794945638,
+ "updated": 1794949239,
  "watchlist": [
   {
    "age_d": 504.6,
@@ -354,6 +274,36 @@
    "trigger": false,
    "url": "https://www.geckoterminal.com/base/pools/0x8a8e4170c09074b109352190d47e54d7c1f61e4e",
    "vol24h": 6190853
+  },
+  {
+   "age_d": 33.3,
+   "atr": 0.0008428068270592353,
+   "bar_ts": 1794945600000,
+   "chain": "Solana",
+   "chg24h": 93.603,
+   "chg7d": 150.6,
+   "close": 0.007563727357684761,
+   "ema20": 0.00634546862146166,
+   "ema50": 0.005568910553526938,
+   "fails": [],
+   "gecko_id": "audacity",
+   "liq": 389951,
+   "mcap": 7341409.02722328,
+   "name": "AudaCity",
+   "net": "solana",
+   "pool": "7Te1wXcfeQjKLGHXFvxSCnGZTqunoZ9fxBn7KKjrkNEr",
+   "price": 0.007566109248486001,
+   "rsi": 68.7,
+   "safety": "unknown",
+   "safety_notes": [
+    "safety not checked"
+   ],
+   "symbol": "DACITYCOIN",
+   "token": "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump",
+   "trend_up": true,
+   "trigger": false,
+   "url": "https://www.geckoterminal.com/solana/pools/7Te1wXcfeQjKLGHXFvxSCnGZTqunoZ9fxBn7KKjrkNEr",
+   "vol24h": 2490335
   },
   {
    "age_d": 50.3,
