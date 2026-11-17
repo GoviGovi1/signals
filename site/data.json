@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 21.195111739254497,
-   "last_ts": "2026-11-17T05:01:35+00:00",
-   "move_pct": 3.61,
+   "last": 21.170153569121,
+   "last_ts": "2026-11-17T05:05:21+00:00",
+   "move_pct": 3.48,
    "closed": false,
    "rsi": 66.6,
    "trade_on": "On-chain spot (Base DEX)",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1279,
-   "last_ts": "2026-11-17T05:01:35+00:00",
-   "move_pct": -1.51,
+   "last": 0.1275,
+   "last_ts": "2026-11-17T05:05:21+00:00",
+   "move_pct": -1.19,
    "closed": false,
    "rsi": 30.3,
    "trade_on": "Perps 1x",
@@ -124,7 +124,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.4406,
-   "last_ts": "2026-11-17T05:01:35+00:00",
+   "last_ts": "2026-11-17T05:05:21+00:00",
    "move_pct": 2.24,
    "closed": false,
    "rsi": 34.6,
@@ -167,9 +167,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.004041,
-   "last_ts": "2026-11-17T05:01:35+00:00",
-   "move_pct": -0.62,
+   "last": 0.004037,
+   "last_ts": "2026-11-17T05:05:21+00:00",
+   "move_pct": -0.52,
    "closed": false,
    "rsi": 39.6,
    "trade_on": "Perps 1x",
@@ -213,9 +213,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.42,
-   "last_ts": "2026-11-17T05:01:35+00:00",
-   "move_pct": -1.65,
+   "last": 1.419,
+   "last_ts": "2026-11-17T05:05:21+00:00",
+   "move_pct": -1.57,
    "closed": false,
    "rsi": 33.5,
    "trade_on": "Perps 1x",
@@ -253,9 +253,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.008915,
-   "last_ts": "2026-11-17T05:01:35+00:00",
-   "move_pct": -8.81,
+   "last": 0.008987,
+   "last_ts": "2026-11-17T05:05:21+00:00",
+   "move_pct": -8.07,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -297,9 +297,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 23.45,
-   "last_ts": "2026-11-17T05:01:35+00:00",
-   "move_pct": 0.64,
+   "last": 23.4,
+   "last_ts": "2026-11-17T05:05:21+00:00",
+   "move_pct": 0.43,
    "closed": false,
    "rsi": 63.2,
    "trade_on": "Perps 1x",
@@ -341,9 +341,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.027771,
-   "last_ts": "2026-11-17T05:01:35+00:00",
-   "move_pct": 0.47,
+   "last": 0.027781,
+   "last_ts": "2026-11-17T05:05:21+00:00",
+   "move_pct": 0.43,
    "closed": false,
    "rsi": 38.3,
    "trade_on": "Perps 1x",
@@ -7718,6 +7718,28 @@
     ]
    },
    {
+    "id": "decentralized-perpetuals",
+    "name": "Decentralized Perpetuals",
+    "chg7d": -10.41,
+    "top": [
+     "HYPE",
+     "ASTER",
+     "JUP",
+     "LIT",
+     "CAKE"
+    ],
+    "tracked": [
+     "HYPE",
+     "ASTER",
+     "LIT",
+     "BASED",
+     "RAY",
+     "DYDX",
+     "GRVT",
+     "AVNT"
+    ]
+   },
+   {
     "id": "exchange-based-tokens",
     "name": "Exchange Based Tokens",
     "chg7d": -10.79,
@@ -7852,28 +7874,6 @@
      "AEON",
      "PIPPIN",
      "AIXBT"
-    ]
-   },
-   {
-    "id": "decentralized-perpetuals",
-    "name": "Decentralized Perpetuals",
-    "chg7d": -11.97,
-    "top": [
-     "HYPE",
-     "ASTER",
-     "JUP",
-     "LIT",
-     "CAKE"
-    ],
-    "tracked": [
-     "HYPE",
-     "ASTER",
-     "LIT",
-     "BASED",
-     "RAY",
-     "DYDX",
-     "GRVT",
-     "AVNT"
     ]
    },
    {
@@ -8212,7 +8212,7 @@
   "updated": {
    "unlocks": 1794877228,
    "onchain": 1794891634,
-   "sectors": 1794891030,
+   "sectors": 1794891921,
    "listings": 1794891634,
    "fundamentals": 1794877229
   }
@@ -8251,6 +8251,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "0eefa18ad91a4cda49105699d6e19302660b117dcb6724b4c964871be98d12a1",
- "generated": "2026-11-17T05:02:15+00:00"
+ "digest": "2aec61b090642282f577a3bd3e16a1c7193d1653ea34e8d03a68fe6055e0754c",
+ "generated": "2026-11-17T05:05:27+00:00"
 }
