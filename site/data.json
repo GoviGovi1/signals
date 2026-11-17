@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 21.170798787063898,
-   "last_ts": "2026-11-17T05:15:25+00:00",
-   "move_pct": 3.49,
+   "last": 21.154697687080997,
+   "last_ts": "2026-11-17T05:20:28+00:00",
+   "move_pct": 3.41,
    "closed": false,
    "rsi": 66.6,
    "trade_on": "On-chain spot (Base DEX)",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1273,
-   "last_ts": "2026-11-17T05:15:25+00:00",
-   "move_pct": -1.03,
+   "last": 0.1275,
+   "last_ts": "2026-11-17T05:20:28+00:00",
+   "move_pct": -1.19,
    "closed": false,
    "rsi": 30.3,
    "trade_on": "Perps 1x",
@@ -123,9 +123,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.4402,
-   "last_ts": "2026-11-17T05:15:25+00:00",
-   "move_pct": 2.33,
+   "last": 0.44,
+   "last_ts": "2026-11-17T05:20:28+00:00",
+   "move_pct": 2.37,
    "closed": false,
    "rsi": 34.6,
    "trade_on": "Perps 1x",
@@ -167,9 +167,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.004015,
-   "last_ts": "2026-11-17T05:15:25+00:00",
-   "move_pct": 0.02,
+   "last": 0.00403,
+   "last_ts": "2026-11-17T05:20:28+00:00",
+   "move_pct": -0.35,
    "closed": false,
    "rsi": 39.6,
    "trade_on": "Perps 1x",
@@ -213,55 +213,15 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.414,
-   "last_ts": "2026-11-17T05:15:25+00:00",
-   "move_pct": -1.22,
+   "last": 1.418,
+   "last_ts": "2026-11-17T05:20:28+00:00",
+   "move_pct": -1.5,
    "closed": false,
    "rsi": 33.5,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": "charts/CVX-PERP-1794816000.png",
    "setup": "BREAKOUT20"
-  },
-  {
-   "id": "HUMA-SPOT-HOT-20774",
-   "kind": "HOT",
-   "score": 1885.9,
-   "reasons": [
-    "24h hot mover +49% with volume spike (6.2x the prior 3 days)",
-    "24h volume $2.4M on the OKX spot book, listed 540 days",
-    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
-    "Stop 0.0086874 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
-   ],
-   "coin": "HUMA",
-   "market": "SPOT",
-   "side": "LONG",
-   "entry": 0.009776,
-   "sl0": 0.008687401825877013,
-   "sl": 0.008687401825877013,
-   "tps": [
-    0.010864598174122986,
-    0.011953196348245975,
-    0.013041794522368961
-   ],
-   "lev": null,
-   "funding_pct": null,
-   "status": "open",
-   "hits": 0,
-   "opened": "2026-11-17T00:01:32+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.00895,
-   "last_ts": "2026-11-17T05:15:25+00:00",
-   "move_pct": -8.45,
-   "closed": false,
-   "rsi": null,
-   "trade_on": "Spot",
-   "market_reason": "very volatile coin: spot avoids liquidation",
-   "chart": "charts/HUMA-SPOT-HOT-20774.png",
-   "setup": "HOT24"
   },
   {
    "id": "GIGGLE-PERP-1794884400",
@@ -297,9 +257,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 23.3,
-   "last_ts": "2026-11-17T05:15:25+00:00",
-   "move_pct": 0.0,
+   "last": 23.34,
+   "last_ts": "2026-11-17T05:20:28+00:00",
+   "move_pct": 0.17,
    "closed": false,
    "rsi": 63.2,
    "trade_on": "Perps 1x",
@@ -341,9 +301,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.027607,
-   "last_ts": "2026-11-17T05:15:25+00:00",
-   "move_pct": 1.05,
+   "last": 0.027678,
+   "last_ts": "2026-11-17T05:20:28+00:00",
+   "move_pct": 0.8,
    "closed": false,
    "rsi": 38.3,
    "trade_on": "Perps 1x",
@@ -353,6 +313,46 @@
   }
  ],
  "closed": [
+  {
+   "id": "HUMA-SPOT-HOT-20774",
+   "kind": "HOT",
+   "score": 1885.9,
+   "reasons": [
+    "24h hot mover +49% with volume spike (6.2x the prior 3 days)",
+    "24h volume $2.4M on the OKX spot book, listed 540 days",
+    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
+    "Stop 0.0086874 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
+   ],
+   "coin": "HUMA",
+   "market": "SPOT",
+   "side": "LONG",
+   "entry": 0.009776,
+   "sl0": 0.008687401825877013,
+   "sl": 0.008687401825877013,
+   "tps": [
+    0.010864598174122986,
+    0.011953196348245975,
+    0.013041794522368961
+   ],
+   "lev": null,
+   "funding_pct": null,
+   "status": "stopped",
+   "hits": 0,
+   "opened": "2026-11-17T00:01:32+00:00",
+   "closed_at": "2026-11-17T05:20:28+00:00",
+   "exit_price": 0.008687401825877013,
+   "result_r": -1.0,
+   "result_pct": -11.14,
+   "last": 0.008765,
+   "last_ts": "2026-11-17T05:20:28+00:00",
+   "move_pct": -8.45,
+   "closed": true,
+   "rsi": null,
+   "trade_on": "Spot",
+   "market_reason": "very volatile coin: spot avoids liquidation",
+   "chart": "charts/HUMA-SPOT-HOT-20774.png",
+   "setup": "HOT24"
+  },
   {
    "id": "MEGA-SPOT-1794715200",
    "kind": "TA",
@@ -2086,7 +2086,7 @@
    "rsi": 34.4,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": "charts/PYTH-PERP-1794438000.png",
+   "chart": null,
    "setup": "BREAKOUT20"
   },
   {
@@ -2925,66 +2925,26 @@
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": null,
    "setup": "BOS"
-  },
-  {
-   "id": "INIT-PERP-HOT-20768",
-   "kind": "HOT",
-   "score": 1542.49,
-   "reasons": [
-    "24h hot mover +30% with volume spike (13.8x the prior 3 days)",
-    "24h volume $297.4M on the OKX perp book, listed 566 days",
-    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
-    "Stop 0.18676 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
-   ],
-   "coin": "INIT",
-   "market": "PERP",
-   "side": "LONG",
-   "entry": 0.21223,
-   "sl0": 0.1867624,
-   "sl": 0.21223,
-   "tps": [
-    0.2376976,
-    0.2631652,
-    0.2886328
-   ],
-   "lev": 1,
-   "funding_pct": -0.9299,
-   "status": "stopped_be",
-   "hits": 2,
-   "opened": "2026-11-11T02:50:30+00:00",
-   "closed_at": "2026-11-11T06:30:24+00:00",
-   "exit_price": 0.21223,
-   "result_r": 0.75,
-   "result_pct": 9.0,
-   "last": 0.21185,
-   "last_ts": "2026-11-11T06:30:24+00:00",
-   "move_pct": 4.26,
-   "closed": true,
-   "rsi": null,
-   "trade_on": "Perps 1x",
-   "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
-   "chart": null,
-   "setup": "HOT24"
   }
  ],
  "stats": {
   "all": {
-   "trades": 241,
+   "trades": 242,
    "wins": 118,
-   "losses": 123,
-   "win_rate": 49.0,
-   "total_r": 35.56,
-   "avg_r": 0.148,
-   "total_pct": 117.64
+   "losses": 124,
+   "win_rate": 48.8,
+   "total_r": 34.56,
+   "avg_r": 0.143,
+   "total_pct": 106.5
   },
   "SPOT": {
-   "trades": 66,
+   "trades": 67,
    "wins": 27,
-   "losses": 39,
-   "win_rate": 40.9,
-   "total_r": -6.23,
-   "avg_r": -0.094,
-   "total_pct": 22.48
+   "losses": 40,
+   "win_rate": 40.3,
+   "total_r": -7.23,
+   "avg_r": -0.108,
+   "total_pct": 11.34
   },
   "PERP": {
    "trades": 163,
@@ -3006,13 +2966,13 @@
   },
   "kinds": {
    "HOT": {
-    "trades": 60,
+    "trades": 61,
     "wins": 33,
-    "losses": 27,
-    "win_rate": 55.0,
-    "total_r": 7.25,
-    "avg_r": 0.121,
-    "total_pct": 26.02
+    "losses": 28,
+    "win_rate": 54.1,
+    "total_r": 6.25,
+    "avg_r": 0.102,
+    "total_pct": 14.88
    },
    "ONCHAIN": {
     "trades": 12,
@@ -3654,6 +3614,15 @@
     "total_r": 0.76,
     "avg_r": 0.763,
     "total_pct": 1.2
+   },
+   "HUMA": {
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate": 0.0,
+    "total_r": -1.0,
+    "avg_r": -1.0,
+    "total_pct": -11.14
    },
    "HYPE": {
     "trades": 1,
@@ -4367,7 +4336,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 8
+  "open": 7
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7634,7 +7603,7 @@
    {
     "id": "real-world-assets-rwa",
     "name": "Real World Assets RWA",
-    "chg7d": -0.51,
+    "chg7d": -0.05,
     "top": [
      "FIGR_HELOC",
      "LINK",
@@ -8212,7 +8181,7 @@
   "updated": {
    "unlocks": 1794877228,
    "onchain": 1794891634,
-   "sectors": 1794891921,
+   "sectors": 1794892828,
    "listings": 1794891634,
    "fundamentals": 1794877229
   }
@@ -8251,6 +8220,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "08824ca2b41a5b0ac5b6dc31e288d21fc505cfdde14747eaf858de3d944bc6f6",
- "generated": "2026-11-17T05:15:31+00:00"
+ "digest": "a3bcc678b4c1d9bdda9e5d0593c5211c2272fe449a27033f002a57a8505c804d",
+ "generated": "2026-11-17T05:20:35+00:00"
 }
