@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1275,
-   "last_ts": "2026-11-17T17:01:36+00:00",
-   "move_pct": -1.19,
+   "last": 0.1283,
+   "last_ts": "2026-11-17T17:05:20+00:00",
+   "move_pct": -1.83,
    "closed": false,
    "rsi": 30.3,
    "trade_on": "Perps 1x",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.003934,
-   "last_ts": "2026-11-17T17:01:36+00:00",
-   "move_pct": 2.04,
+   "last": 0.003953,
+   "last_ts": "2026-11-17T17:05:20+00:00",
+   "move_pct": 1.57,
    "closed": false,
    "rsi": 39.6,
    "trade_on": "Perps 1x",
@@ -125,9 +125,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.399,
-   "last_ts": "2026-11-17T17:01:36+00:00",
-   "move_pct": -0.14,
+   "last": 1.405,
+   "last_ts": "2026-11-17T17:05:20+00:00",
+   "move_pct": -0.57,
    "closed": false,
    "rsi": 33.5,
    "trade_on": "Perps 1x",
@@ -157,7 +157,7 @@
     0.6412704298771444
    ],
    "lev": 1,
-   "funding_pct": 0.005,
+   "funding_pct": 0.0061,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-17T06:45:22+00:00",
@@ -165,9 +165,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.5563,
-   "last_ts": "2026-11-17T17:01:36+00:00",
-   "move_pct": 2.45,
+   "last": 0.5559,
+   "last_ts": "2026-11-17T17:05:20+00:00",
+   "move_pct": 2.38,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -201,7 +201,7 @@
     0.2738283190490114
    ],
    "lev": 1,
-   "funding_pct": -0.0128,
+   "funding_pct": -0.0127,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-17T11:00:00+00:00",
@@ -209,9 +209,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2966,
-   "last_ts": "2026-11-17T17:01:36+00:00",
-   "move_pct": 1.43,
+   "last": 0.2973,
+   "last_ts": "2026-11-17T17:05:20+00:00",
+   "move_pct": 1.2,
    "closed": false,
    "rsi": 41.3,
    "trade_on": "Perps 1x",
@@ -7812,6 +7812,23 @@
     ]
    },
    {
+    "id": "storage",
+    "name": "Storage",
+    "chg7d": -10.84,
+    "top": [
+     "FIL",
+     "BTT",
+     "AR",
+     "AIOZ",
+     "WAL"
+    ],
+    "tracked": [
+     "FIL",
+     "AR",
+     "WAL"
+    ]
+   },
+   {
     "id": "bitcoin-ecosystem",
     "name": "Bitcoin Ecosystem",
     "chg7d": -10.92,
@@ -7864,23 +7881,6 @@
      "FARTCOIN",
      "PNUT",
      "BOME"
-    ]
-   },
-   {
-    "id": "storage",
-    "name": "Storage",
-    "chg7d": -12.7,
-    "top": [
-     "FIL",
-     "BTT",
-     "AR",
-     "AIOZ",
-     "WAL"
-    ],
-    "tracked": [
-     "FIL",
-     "AR",
-     "WAL"
     ]
    },
    {
@@ -8139,7 +8139,7 @@
   "updated": {
    "unlocks": 1794920722,
    "onchain": 1794934833,
-   "sectors": 1794934231,
+   "sectors": 1794935120,
    "listings": 1794933630,
    "fundamentals": 1794920723
   }
@@ -8178,6 +8178,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "3b3b6e9f16f2c8eb3bc75820dd0e1c31eff8210176b3dc05f50f0650bd1c6ed1",
- "generated": "2026-11-17T17:02:12+00:00"
+ "digest": "2255967c8bdcc284b36c7ca10c788e85b6ed9fe76590da2a05e9438e3fa61b2c",
+ "generated": "2026-11-17T17:05:24+00:00"
 }
