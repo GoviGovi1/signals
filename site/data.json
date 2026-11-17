@@ -1,50 +1,6 @@
 {
  "open": [
   {
-   "id": "VVV-DEX-base-0xacfe6019-1794772800",
-   "kind": "ONCHAIN",
-   "score": null,
-   "reasons": [
-    "Trending on Base (GeckoTerminal), $6.4M volume 24h",
-    "Liquidity $5.9M, pool 25 days old",
-    "Safety: GoPlus OK",
-    "Chart: 20-hour breakout above EMA50 on the DEX, RSI 67",
-    "Untested: no free history to backtest on-chain signals"
-   ],
-   "chain": "Base",
-   "token": "0xacfe6019ed1a7dc6f7b508c02d1b04ec88cc21bf",
-   "url": "https://www.geckoterminal.com/base/pools/0xdebaebe5b2729f7d62072b2ea40472d78d2c1626",
-   "coin": "VVV",
-   "market": "DEX",
-   "side": "LONG",
-   "entry": 20.457452211608498,
-   "sl0": 19.553953611677223,
-   "sl": 20.457452211608498,
-   "tps": [
-    21.360950811539773,
-    22.264449411471052,
-    23.16794801140233
-   ],
-   "lev": null,
-   "funding_pct": null,
-   "status": "tp1",
-   "hits": 1,
-   "opened": "2026-11-15T21:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 20.633868795572297,
-   "last_ts": "2026-11-17T16:55:19+00:00",
-   "move_pct": 0.86,
-   "closed": false,
-   "rsi": 66.6,
-   "trade_on": "On-chain spot (Base DEX)",
-   "market_reason": "not listed on OKX; buy on a DEX, small size, no leverage",
-   "chart": "charts/VVV-DEX-base-0xacfe6019-1794772800.png",
-   "setup": null
-  },
-  {
    "id": "0G-PERP-1794787200",
    "kind": "TA",
    "score": 1,
@@ -79,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1271,
-   "last_ts": "2026-11-17T16:55:19+00:00",
-   "move_pct": -0.87,
+   "last": 0.1275,
+   "last_ts": "2026-11-17T17:01:36+00:00",
+   "move_pct": -1.19,
    "closed": false,
    "rsi": 30.3,
    "trade_on": "Perps 1x",
@@ -123,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.003936,
-   "last_ts": "2026-11-17T16:55:19+00:00",
-   "move_pct": 1.99,
+   "last": 0.003934,
+   "last_ts": "2026-11-17T17:01:36+00:00",
+   "move_pct": 2.04,
    "closed": false,
    "rsi": 39.6,
    "trade_on": "Perps 1x",
@@ -169,9 +125,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.396,
-   "last_ts": "2026-11-17T16:55:19+00:00",
-   "move_pct": 0.07,
+   "last": 1.399,
+   "last_ts": "2026-11-17T17:01:36+00:00",
+   "move_pct": -0.14,
    "closed": false,
    "rsi": 33.5,
    "trade_on": "Perps 1x",
@@ -209,9 +165,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.5504,
-   "last_ts": "2026-11-17T16:55:19+00:00",
-   "move_pct": 1.36,
+   "last": 0.5563,
+   "last_ts": "2026-11-17T17:01:36+00:00",
+   "move_pct": 2.45,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -245,7 +201,7 @@
     0.2738283190490114
    ],
    "lev": 1,
-   "funding_pct": -0.0127,
+   "funding_pct": -0.0128,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-17T11:00:00+00:00",
@@ -253,9 +209,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2964,
-   "last_ts": "2026-11-17T16:55:19+00:00",
-   "move_pct": 1.5,
+   "last": 0.2966,
+   "last_ts": "2026-11-17T17:01:36+00:00",
+   "move_pct": 1.43,
    "closed": false,
    "rsi": 41.3,
    "trade_on": "Perps 1x",
@@ -265,6 +221,50 @@
   }
  ],
  "closed": [
+  {
+   "id": "VVV-DEX-base-0xacfe6019-1794772800",
+   "kind": "ONCHAIN",
+   "score": null,
+   "reasons": [
+    "Trending on Base (GeckoTerminal), $6.4M volume 24h",
+    "Liquidity $5.9M, pool 25 days old",
+    "Safety: GoPlus OK",
+    "Chart: 20-hour breakout above EMA50 on the DEX, RSI 67",
+    "Untested: no free history to backtest on-chain signals"
+   ],
+   "chain": "Base",
+   "token": "0xacfe6019ed1a7dc6f7b508c02d1b04ec88cc21bf",
+   "url": "https://www.geckoterminal.com/base/pools/0xdebaebe5b2729f7d62072b2ea40472d78d2c1626",
+   "coin": "VVV",
+   "market": "DEX",
+   "side": "LONG",
+   "entry": 20.457452211608498,
+   "sl0": 19.553953611677223,
+   "sl": 20.457452211608498,
+   "tps": [
+    21.360950811539773,
+    22.264449411471052,
+    23.16794801140233
+   ],
+   "lev": null,
+   "funding_pct": null,
+   "status": "stopped_be",
+   "hits": 1,
+   "opened": "2026-11-15T21:00:00+00:00",
+   "closed_at": "2026-11-17T17:01:36+00:00",
+   "exit_price": 20.457452211608498,
+   "result_r": 0.333,
+   "result_pct": 1.47,
+   "last": 20.456414361048797,
+   "last_ts": "2026-11-17T17:01:36+00:00",
+   "move_pct": 0.86,
+   "closed": true,
+   "rsi": 66.6,
+   "trade_on": "On-chain spot (Base DEX)",
+   "market_reason": "not listed on OKX; buy on a DEX, small size, no leverage",
+   "chart": "charts/VVV-DEX-base-0xacfe6019-1794772800.png",
+   "setup": null
+  },
   {
    "id": "ZBT-PERP-1794913200",
    "kind": "TA",
@@ -1996,7 +1996,7 @@
    "rsi": null,
    "trade_on": "Perps 1x",
    "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
-   "chart": "charts/SHELL-PERP-HOT-20770.png",
+   "chart": null,
    "setup": "HOT24"
   },
   {
@@ -2832,62 +2832,17 @@
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": null,
    "setup": "BREAKOUT20"
-  },
-  {
-   "id": "LPT-PERP-1794430800",
-   "kind": "TA",
-   "score": -1,
-   "reasons": [
-    "Chart: Break of structure: closed below the last swing low 1.2720, after a lower high",
-    "Timeframes: 1d down, 4h down, 4h structure lower highs/lows",
-    "No support below in the last 50 days",
-    "Stop 1.2852 (structure); targets at 1R/2R/3R",
-    "BTC 4h trend down",
-    "Weaker than BTC by 3.4% over 7d",
-    "OI +3% 24h",
-    "Sector: Artificial Intelligence -7.1% 7d (leading, #5 of 20)",
-    "Track record: +0.1R on LPT in the last 45 days (backtest)"
-   ],
-   "coin": "LPT",
-   "market": "PERP",
-   "side": "SHORT",
-   "entry": 1.263,
-   "sl0": 1.2852271610230641,
-   "sl": 1.263,
-   "tps": [
-    1.2407728389769357,
-    1.2185456779538715,
-    1.1963185169308073
-   ],
-   "lev": 1,
-   "funding_pct": 0.0021,
-   "status": "stopped_be",
-   "hits": 1,
-   "opened": "2026-11-11T22:00:00+00:00",
-   "closed_at": "2026-11-12T00:25:22+00:00",
-   "exit_price": 1.263,
-   "result_r": 0.25,
-   "result_pct": 0.44,
-   "last": 1.264,
-   "last_ts": "2026-11-12T00:25:22+00:00",
-   "move_pct": 0.24,
-   "closed": true,
-   "rsi": 33.9,
-   "trade_on": "Perps 1x",
-   "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": null,
-   "setup": "BOS"
   }
  ],
  "stats": {
   "all": {
-   "trades": 250,
-   "wins": 121,
+   "trades": 251,
+   "wins": 122,
    "losses": 129,
-   "win_rate": 48.4,
-   "total_r": 30.56,
-   "avg_r": 0.122,
-   "total_pct": 96.46
+   "win_rate": 48.6,
+   "total_r": 30.89,
+   "avg_r": 0.123,
+   "total_pct": 97.93
   },
   "SPOT": {
    "trades": 69,
@@ -2908,13 +2863,13 @@
    "total_pct": 63.51
   },
   "DEX": {
-   "trades": 12,
-   "wins": 7,
+   "trades": 13,
+   "wins": 8,
    "losses": 5,
-   "win_rate": 58.3,
-   "total_r": 0.76,
-   "avg_r": 0.063,
-   "total_pct": 21.94
+   "win_rate": 61.5,
+   "total_r": 1.09,
+   "avg_r": 0.084,
+   "total_pct": 23.41
   },
   "kinds": {
    "HOT": {
@@ -2927,13 +2882,13 @@
     "total_pct": 8.14
    },
    "ONCHAIN": {
-    "trades": 12,
-    "wins": 7,
+    "trades": 13,
+    "wins": 8,
     "losses": 5,
-    "win_rate": 58.3,
-    "total_r": 0.76,
-    "avg_r": 0.063,
-    "total_pct": 21.94
+    "win_rate": 61.5,
+    "total_r": 1.09,
+    "avg_r": 0.084,
+    "total_pct": 23.41
    },
    "TA": {
     "trades": 176,
@@ -4170,6 +4125,15 @@
     "avg_r": 0.568,
     "total_pct": 2.7
    },
+   "VVV": {
+    "trades": 1,
+    "wins": 1,
+    "losses": 0,
+    "win_rate": 100.0,
+    "total_r": 0.33,
+    "avg_r": 0.333,
+    "total_pct": 1.47
+   },
    "W": {
     "trades": 1,
     "wins": 1,
@@ -4297,7 +4261,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 6
+  "open": 5
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7532,61 +7496,61 @@
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
   "onchain": [
    {
-    "chain": "Solana",
-    "symbol": "GTA6",
-    "name": "GTA VI",
-    "token": "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz",
-    "price": 0.017822138413939696,
-    "liq": 258167,
-    "vol24h": 8205073,
-    "age_d": 19.1,
-    "chg24h": 61.941,
-    "chg7d": 104.7,
-    "mcap": 17916900.79,
+    "chain": "BSC",
+    "symbol": "DGAI",
+    "name": "DGrid AI",
+    "token": "0x10d4183389e99233db3cc981c43443ebd28ebd5e",
+    "price": 0.689193305718235,
+    "liq": 2633823,
+    "vol24h": 12553334,
+    "age_d": 85.4,
+    "chg24h": -0.984,
+    "chg7d": -4.0,
+    "mcap": 103358703.149311,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": true,
-    "rsi": 62.7,
-    "url": "https://www.geckoterminal.com/solana/pools/5AFbwVSQPJf4cgEjq4TajZYyPYUvYktrRN3SahNrPnmv"
-   },
-   {
-    "chain": "BSC",
-    "symbol": "DNA",
-    "name": "DE NEO AGENT",
-    "token": "0xa991f61940095aea0724ef54077223b048c5cf7b",
-    "price": 0.157731195618208,
-    "liq": 1730522,
-    "vol24h": 13641293,
-    "age_d": 33.3,
-    "chg24h": 2.262,
-    "chg7d": 1.4,
-    "mcap": 20471405.643,
-    "safety": "ok",
-    "safety_notes": [],
-    "trigger": false,
-    "trend_up": false,
-    "rsi": 43.5,
-    "url": "https://www.geckoterminal.com/bsc/pools/0xd0949ad5874cee7991ccd4cc2c5f7f80a7be4a220689cf5947ccb12a946fa50d"
+    "rsi": 49.2,
+    "url": "https://www.geckoterminal.com/bsc/pools/0x0e6e1f47c64f517fc9dc35698718c7dfc708d534"
    },
    {
     "chain": "Base",
-    "symbol": "NVDAC",
-    "name": "NVIDIA Corporation",
-    "token": "0xb20000000000000000000078ee7ce2fe4908108c",
-    "price": 154.194425598911,
-    "liq": 1605212,
-    "vol24h": 11863948,
-    "age_d": 26.5,
-    "chg24h": -3.611,
-    "chg7d": -9.1,
-    "mcap": 8239888.02605182,
+    "symbol": "PROS",
+    "name": "Wrapped PROS",
+    "token": "0x8b7dde054be9d180c1be7fae0874697374a49832",
+    "price": 0.493121301594011,
+    "liq": 818440,
+    "vol24h": 5512318,
+    "age_d": 188.2,
+    "chg24h": 12.15,
+    "chg7d": -4.3,
+    "mcap": 1928750.74230367,
+    "safety": "ok",
+    "safety_notes": [],
+    "trigger": false,
+    "trend_up": true,
+    "rsi": 76.5,
+    "url": "https://www.geckoterminal.com/base/pools/0x8a8e4170c09074b109352190d47e54d7c1f61e4e"
+   },
+   {
+    "chain": "BSC",
+    "symbol": "BTW",
+    "name": "Bitway Token",
+    "token": "0x444045b0ee1ee319a660a5e3d604ca0ffa35acaa",
+    "price": 0.448717349201163,
+    "liq": 1969734,
+    "vol24h": 11092776,
+    "age_d": 264.4,
+    "chg24h": 4.536,
+    "chg7d": -59.9,
+    "mcap": 675065424.779199,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 38.7,
-    "url": "https://www.geckoterminal.com/base/pools/0xf668e21993f0acd7ab00bb1cfbaed0df28a3c8ec"
+    "rsi": 53.7,
+    "url": "https://www.geckoterminal.com/bsc/pools/0x3122a3fa830e4918d6a9c09bd4769d0d95bf291548e7c7960cd7ccd9e3ac3627"
    }
   ],
   "onchain_checked": 86,
@@ -8174,7 +8138,7 @@
   ],
   "updated": {
    "unlocks": 1794920722,
-   "onchain": 1794931236,
+   "onchain": 1794934833,
    "sectors": 1794934231,
    "listings": 1794933630,
    "fundamentals": 1794920723
@@ -8214,6 +8178,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "c565bb66f2c9d2405108a51308cde66caea0f91e7a4857e9e71cf76f13c63f35",
- "generated": "2026-11-17T16:55:25+00:00"
+ "digest": "3b3b6e9f16f2c8eb3bc75820dd0e1c31eff8210176b3dc05f50f0650bd1c6ed1",
+ "generated": "2026-11-17T17:02:12+00:00"
 }
