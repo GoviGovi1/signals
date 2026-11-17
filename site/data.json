@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1303,
-   "last_ts": "2026-11-17T23:15:22+00:00",
-   "move_pct": -3.41,
+   "last": 0.1299,
+   "last_ts": "2026-11-17T23:20:21+00:00",
+   "move_pct": -3.1,
    "closed": false,
    "rsi": 30.3,
    "trade_on": "Perps 1x",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.004071,
-   "last_ts": "2026-11-17T23:15:22+00:00",
-   "move_pct": -1.37,
+   "last": 0.004053,
+   "last_ts": "2026-11-17T23:20:21+00:00",
+   "move_pct": -0.92,
    "closed": false,
    "rsi": 39.6,
    "trade_on": "Perps 1x",
@@ -125,9 +125,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.454,
-   "last_ts": "2026-11-17T23:15:22+00:00",
-   "move_pct": -4.08,
+   "last": 1.446,
+   "last_ts": "2026-11-17T23:20:21+00:00",
+   "move_pct": -3.51,
    "closed": false,
    "rsi": 33.5,
    "trade_on": "Perps 1x",
@@ -165,9 +165,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.5544,
-   "last_ts": "2026-11-17T23:15:22+00:00",
-   "move_pct": 2.1,
+   "last": 0.5528,
+   "last_ts": "2026-11-17T23:20:21+00:00",
+   "move_pct": 1.8,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -201,7 +201,7 @@
     0.2738283190490114
    ],
    "lev": 1,
-   "funding_pct": 0.0018,
+   "funding_pct": 0.0012,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-17T11:00:00+00:00",
@@ -209,9 +209,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2971,
-   "last_ts": "2026-11-17T23:15:22+00:00",
-   "move_pct": 1.26,
+   "last": 0.2953,
+   "last_ts": "2026-11-17T23:20:21+00:00",
+   "move_pct": 1.86,
    "closed": false,
    "rsi": 41.3,
    "trade_on": "Perps 1x",
@@ -253,9 +253,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 143.033083374484,
-   "last_ts": "2026-11-17T23:15:22+00:00",
-   "move_pct": 0.04,
+   "last": 143.56263203420698,
+   "last_ts": "2026-11-17T23:20:21+00:00",
+   "move_pct": 0.41,
    "closed": false,
    "rsi": 67.2,
    "trade_on": "On-chain spot (Base DEX)",
@@ -7710,24 +7710,9 @@
     ]
    },
    {
-    "id": "privacy-coins",
-    "name": "Privacy Coins",
-    "chg7d": -8.8,
-    "top": [
-     "ZEC",
-     "XMR",
-     "DCR",
-     "ZANO",
-     "NOCK"
-    ],
-    "tracked": [
-     "ZEC"
-    ]
-   },
-   {
     "id": "layer-1",
     "name": "Layer 1",
-    "chg7d": -9.16,
+    "chg7d": -8.59,
     "top": [
      "BTC",
      "ETH",
@@ -7743,6 +7728,21 @@
      "SUI",
      "BNB",
      "AVAX",
+     "ZEC"
+    ]
+   },
+   {
+    "id": "privacy-coins",
+    "name": "Privacy Coins",
+    "chg7d": -8.8,
+    "top": [
+     "ZEC",
+     "XMR",
+     "DCR",
+     "ZANO",
+     "NOCK"
+    ],
+    "tracked": [
      "ZEC"
     ]
    },
@@ -8211,7 +8211,7 @@
   "updated": {
    "unlocks": 1794942625,
    "onchain": 1794956428,
-   "sectors": 1794956727,
+   "sectors": 1794957621,
    "listings": 1794956428,
    "fundamentals": 1794942626
   }
@@ -8250,6 +8250,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "f8ac24b41db99218401eed9c1f3521fd24adbd2be8d34f30a9168e93f49e8323",
- "generated": "2026-11-17T23:15:28+00:00"
+ "digest": "0a1bc5a9241be40bf4f3d0206717a2e19ce39e60ce49b23daa6eb6024da5d694",
+ "generated": "2026-11-17T23:20:27+00:00"
 }
