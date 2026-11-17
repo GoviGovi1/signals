@@ -1,5 +1,5 @@
 {
- "checked": 87,
+ "checked": 88,
  "errors": [],
  "rejected": [
   {
@@ -15,13 +15,6 @@
     "no DEX candles"
    ],
    "symbol": "MIHAO"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "CLAUDIA"
   },
   {
    "chain": "Solana",
@@ -88,17 +81,17 @@
   {
    "chain": "Solana",
    "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "STONK"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
     "liquidity under $250k",
     "pool younger than 7 days"
    ],
    "symbol": "GEKKO"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "no DEX candles"
+   ],
+   "symbol": "STONK"
   },
   {
    "chain": "Solana",
@@ -125,23 +118,24 @@
   {
    "chain": "Solana",
    "fails": [
-    "no DEX candles"
+    "liquidity under $250k"
    ],
    "symbol": "GATO"
   },
   {
    "chain": "Solana",
    "fails": [
-    "liquidity under $250k"
+    "no DEX candles"
    ],
-   "symbol": "BLOB"
+   "symbol": "VINE"
   },
   {
    "chain": "Solana",
    "fails": [
-    "24h volume under $250k"
+    "liquidity under $250k",
+    "pool younger than 7 days"
    ],
-   "symbol": "TROLL"
+   "symbol": "GROKIA"
   },
   {
    "chain": "Base",
@@ -149,6 +143,13 @@
     "no DEX candles"
    ],
    "symbol": "DRB"
+  },
+  {
+   "chain": "Base",
+   "fails": [
+    "no DEX candles"
+   ],
+   "symbol": "PROS"
   },
   {
    "chain": "Base",
@@ -162,7 +163,7 @@
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "AERO"
+   "symbol": "XDP"
   },
   {
    "chain": "Base",
@@ -170,6 +171,13 @@
     "no DEX candles"
    ],
    "symbol": "VVV"
+  },
+  {
+   "chain": "Base",
+   "fails": [
+    "no DEX candles"
+   ],
+   "symbol": "AERO"
   },
   {
    "chain": "Base",
@@ -198,13 +206,6 @@
     "no DEX candles"
    ],
    "symbol": "NVDAC"
-  },
-  {
-   "chain": "Base",
-   "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "SPCXC"
   },
   {
    "chain": "Base",
@@ -293,63 +294,93 @@
   }
  ],
  "rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
- "updated": 1794952827,
+ "updated": 1794956428,
  "watchlist": [
   {
-   "age_d": 188.4,
-   "atr": 0.01759792709491287,
-   "bar_ts": 1794949200000,
+   "age_d": 26.8,
+   "atr": 2.5725352552202234,
+   "bar_ts": 1794952800000,
    "chain": "Base",
-   "chg24h": 16.267,
-   "chg7d": -2.8,
-   "close": 0.5109056133632041,
-   "ema20": 0.4786842510690734,
-   "ema50": 0.4650631523166219,
+   "chg24h": 3.732,
+   "chg7d": 0.1,
+   "close": 142.97117344842798,
+   "ema20": 140.09368990244877,
+   "ema50": 139.13155237291986,
    "fails": [],
-   "gecko_id": "wrapped-pros",
-   "liq": 833027,
-   "mcap": 1986500.84684427,
-   "name": "Wrapped PROS",
+   "gecko_id": "spacex-coinbase-tokenized-stock",
+   "liq": 970030,
+   "mcap": 4000745.05915342,
+   "name": "Space Exploration Technologies Corp.",
    "net": "base",
-   "pool": "0x8a8e4170c09074b109352190d47e54d7c1f61e4e",
-   "price": 0.515177001727748,
-   "rsi": 76.4,
+   "pool": "0x880db7dda4407d99508574e680d067d1164b3cfe",
+   "price": 142.971173448428,
+   "rsi": 67.2,
    "safety": "ok",
    "safety_notes": [],
-   "symbol": "PROS",
-   "token": "0x8b7dde054be9d180c1be7fae0874697374a49832",
+   "symbol": "SPCXC",
+   "token": "0xb2000000000000000000007b9fcbd005511acbd5",
    "trend_up": true,
-   "trigger": false,
-   "url": "https://www.geckoterminal.com/base/pools/0x8a8e4170c09074b109352190d47e54d7c1f61e4e",
-   "vol24h": 6561284
+   "trigger": true,
+   "url": "https://www.geckoterminal.com/base/pools/0x880db7dda4407d99508574e680d067d1164b3cfe",
+   "vol24h": 12384606
   },
   {
-   "age_d": 50.4,
-   "atr": 0.00038576660358019364,
-   "bar_ts": 1794949200000,
-   "chain": "Base",
-   "chg24h": 0.726,
-   "chg7d": 3.6,
-   "close": 0.0168530291704703,
-   "ema20": 0.01713873734681468,
-   "ema50": 0.017085485135377974,
+   "age_d": 22.8,
+   "atr": 0.004544798708269202,
+   "bar_ts": 1794952800000,
+   "chain": "Arbitrum",
+   "chg24h": 0.182,
+   "chg7d": 0.1,
+   "close": 1.00111375503092,
+   "ema20": 1.0000610859471795,
+   "ema50": 0.9999699380743565,
    "fails": [],
-   "gecko_id": "doppler-finance",
-   "liq": 780336,
-   "mcap": 16853029.17,
-   "name": "Doppler Finance",
-   "net": "base",
-   "pool": "0x2df380544b88adb3ad0a94100dcc45fd705aae2d",
-   "price": 0.0168619417548171,
-   "rsi": 44.0,
+   "gecko_id": "global-dollar",
+   "liq": 1405514,
+   "mcap": 2622022009.05678,
+   "name": "Global Dollar",
+   "net": "arbitrum",
+   "pool": "0x09328be718d89228a985471bb470988a34d0b162",
+   "price": 1.00111375503092,
+   "rsi": 53.9,
    "safety": "ok",
    "safety_notes": [],
-   "symbol": "XDP",
-   "token": "0x07b3d902783c3c12b077508c3b5c00113d1291d0",
-   "trend_up": false,
+   "symbol": "USDG",
+   "token": "0x004b506865409877c9fa29bfb1eba929984b9bbc",
+   "trend_up": true,
    "trigger": false,
-   "url": "https://www.geckoterminal.com/base/pools/0x2df380544b88adb3ad0a94100dcc45fd705aae2d",
-   "vol24h": 11158029
+   "url": "https://www.geckoterminal.com/arbitrum/pools/0x09328be718d89228a985471bb470988a34d0b162",
+   "vol24h": 7870641
+  },
+  {
+   "age_d": 41.9,
+   "atr": 0.0007182648255534921,
+   "bar_ts": 1794952800000,
+   "chain": "Solana",
+   "chg24h": 45.763,
+   "chg7d": 14.0,
+   "close": 0.005853128759724913,
+   "ema20": 0.005883116522472801,
+   "ema50": 0.00540139293480281,
+   "fails": [],
+   "gecko_id": "claudia-2",
+   "liq": 339545,
+   "mcap": 5504372.22419781,
+   "name": "Claudia",
+   "net": "solana",
+   "pool": "Fe7bpDYCs74GqiCUF14HwgUMToPKV1d9mDYVX5BTohFr",
+   "price": 0.00581415842191414,
+   "rsi": 51.0,
+   "safety": "unknown",
+   "safety_notes": [
+    "safety not checked"
+   ],
+   "symbol": "CLAUDIA",
+   "token": "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM",
+   "trend_up": true,
+   "trigger": false,
+   "url": "https://www.geckoterminal.com/solana/pools/Fe7bpDYCs74GqiCUF14HwgUMToPKV1d9mDYVX5BTohFr",
+   "vol24h": 5214302
   }
  ]
 }
