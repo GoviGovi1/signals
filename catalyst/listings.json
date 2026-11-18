@@ -22,7 +22,7 @@
    "coin": "XPFE",
    "list_ts": 1794981600,
    "market": "SPOT",
-   "state": "preopen"
+   "state": "live"
   },
   {
    "coin": "XPEP",
@@ -185,14 +185,8 @@
    "list_ts": 1793781000,
    "market": "PERP",
    "state": "live"
-  },
-  {
-   "coin": "MURATA",
-   "list_ts": 1793770200,
-   "market": "PERP",
-   "state": "live"
   }
  ],
  "rule": "New on OKX. Chart signals need the universe rules (volume rank, 30+ days on the chart market). Hot-mover signals can fire from day 2 when the 24h move and volume spike pass hot.py.",
- "updated": 1794978922
+ "updated": 1794982526
 }
