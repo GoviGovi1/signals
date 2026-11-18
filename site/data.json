@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.5659,
-   "last_ts": "2026-11-18T09:15:21+00:00",
-   "move_pct": 4.22,
+   "last": 0.5671,
+   "last_ts": "2026-11-18T09:20:24+00:00",
+   "move_pct": 4.44,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -66,7 +66,7 @@
     0.2738283190490114
    ],
    "lev": 1,
-   "funding_pct": -0.0155,
+   "funding_pct": -0.0166,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-17T11:00:00+00:00",
@@ -74,9 +74,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.292,
-   "last_ts": "2026-11-18T09:15:21+00:00",
-   "move_pct": 2.96,
+   "last": 0.2911,
+   "last_ts": "2026-11-18T09:20:24+00:00",
+   "move_pct": 3.26,
    "closed": false,
    "rsi": 41.3,
    "trade_on": "Perps 1x",
@@ -118,9 +118,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 142.08705000800398,
-   "last_ts": "2026-11-18T09:15:21+00:00",
-   "move_pct": -0.62,
+   "last": 142.14011141884197,
+   "last_ts": "2026-11-18T09:20:24+00:00",
+   "move_pct": -0.58,
    "closed": false,
    "rsi": 67.2,
    "trade_on": "On-chain spot (Base DEX)",
@@ -158,9 +158,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.4402,
-   "last_ts": "2026-11-18T09:15:21+00:00",
-   "move_pct": -2.35,
+   "last": 0.4455,
+   "last_ts": "2026-11-18T09:20:24+00:00",
+   "move_pct": -1.18,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -203,9 +203,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.02582,
-   "last_ts": "2026-11-18T09:15:21+00:00",
-   "move_pct": 0.31,
+   "last": 0.02574,
+   "last_ts": "2026-11-18T09:20:24+00:00",
+   "move_pct": 0.62,
    "closed": false,
    "rsi": 36.7,
    "trade_on": "Perps 1x",
@@ -248,9 +248,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.14178,
-   "last_ts": "2026-11-18T09:15:21+00:00",
-   "move_pct": -0.42,
+   "last": 0.14172,
+   "last_ts": "2026-11-18T09:20:24+00:00",
+   "move_pct": -0.46,
    "closed": false,
    "rsi": 63.0,
    "trade_on": "Spot",
@@ -293,9 +293,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.01957,
-   "last_ts": "2026-11-18T09:15:21+00:00",
-   "move_pct": -0.96,
+   "last": 0.01967,
+   "last_ts": "2026-11-18T09:20:24+00:00",
+   "move_pct": -0.46,
    "closed": false,
    "rsi": 70.6,
    "trade_on": "Spot",
@@ -7809,7 +7809,7 @@
    {
     "id": "layer-1",
     "name": "Layer 1",
-    "chg7d": -9.84,
+    "chg7d": -9.86,
     "top": [
      "BTC",
      "ETH",
@@ -8121,6 +8121,42 @@
   ],
   "listings": [
    {
+    "coin": "XTLT",
+    "list_ts": 1795077000,
+    "market": "SPOT",
+    "state": "preopen"
+   },
+   {
+    "coin": "XSECZ",
+    "list_ts": 1795075200,
+    "market": "SPOT",
+    "state": "preopen"
+   },
+   {
+    "coin": "XMSTU",
+    "list_ts": 1795073400,
+    "market": "SPOT",
+    "state": "preopen"
+   },
+   {
+    "coin": "XKSTR",
+    "list_ts": 1795071600,
+    "market": "SPOT",
+    "state": "preopen"
+   },
+   {
+    "coin": "XZHONGJI",
+    "list_ts": 1795069800,
+    "market": "SPOT",
+    "state": "preopen"
+   },
+   {
+    "coin": "XMINIMAX",
+    "list_ts": 1795068000,
+    "market": "SPOT",
+    "state": "preopen"
+   },
+   {
     "coin": "SSPC",
     "list_ts": 1794994200,
     "market": "PERP",
@@ -8130,13 +8166,13 @@
     "coin": "XLF",
     "list_ts": 1794993300,
     "market": "PERP",
-    "state": "preopen"
+    "state": "live"
    },
    {
     "coin": "SOXX",
     "list_ts": 1794992400,
     "market": "PERP",
-    "state": "preopen"
+    "state": "live"
    },
    {
     "coin": "XCYPH",
@@ -8171,42 +8207,6 @@
    {
     "coin": "XPDD",
     "list_ts": 1794898800,
-    "market": "SPOT",
-    "state": "live"
-   },
-   {
-    "coin": "XPANW",
-    "list_ts": 1794897000,
-    "market": "SPOT",
-    "state": "live"
-   },
-   {
-    "coin": "XNVO",
-    "list_ts": 1794895200,
-    "market": "SPOT",
-    "state": "live"
-   },
-   {
-    "coin": "JCT",
-    "list_ts": 1794826800,
-    "market": "PERP",
-    "state": "live"
-   },
-   {
-    "coin": "XMPWR",
-    "list_ts": 1794555000,
-    "market": "SPOT",
-    "state": "live"
-   },
-   {
-    "coin": "XMP",
-    "list_ts": 1794553200,
-    "market": "SPOT",
-    "state": "live"
-   },
-   {
-    "coin": "XIBKR",
-    "list_ts": 1794551400,
     "market": "SPOT",
     "state": "live"
    }
@@ -8288,8 +8288,8 @@
   "updated": {
    "unlocks": 1794986121,
    "onchain": 1794992430,
-   "sectors": 1794992720,
-   "listings": 1794990023,
+   "sectors": 1794993623,
+   "listings": 1794993623,
    "fundamentals": 1794986122
   }
  },
@@ -8327,6 +8327,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "b16b2b77a93e7479b443c03e83987192bfdc6e67410607bb572999178dd6b697",
- "generated": "2026-11-18T09:15:27+00:00"
+ "digest": "83b0c3561e1af31af7dd90a14abf43c339cd4501672070228c926c6914739119",
+ "generated": "2026-11-18T09:20:29+00:00"
 }

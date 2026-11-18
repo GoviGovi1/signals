@@ -1,6 +1,42 @@
 {
  "new": [
   {
+   "coin": "XTLT",
+   "list_ts": 1795077000,
+   "market": "SPOT",
+   "state": "preopen"
+  },
+  {
+   "coin": "XSECZ",
+   "list_ts": 1795075200,
+   "market": "SPOT",
+   "state": "preopen"
+  },
+  {
+   "coin": "XMSTU",
+   "list_ts": 1795073400,
+   "market": "SPOT",
+   "state": "preopen"
+  },
+  {
+   "coin": "XKSTR",
+   "list_ts": 1795071600,
+   "market": "SPOT",
+   "state": "preopen"
+  },
+  {
+   "coin": "XZHONGJI",
+   "list_ts": 1795069800,
+   "market": "SPOT",
+   "state": "preopen"
+  },
+  {
+   "coin": "XMINIMAX",
+   "list_ts": 1795068000,
+   "market": "SPOT",
+   "state": "preopen"
+  },
+  {
    "coin": "SSPC",
    "list_ts": 1794994200,
    "market": "PERP",
@@ -10,13 +46,13 @@
    "coin": "XLF",
    "list_ts": 1794993300,
    "market": "PERP",
-   "state": "preopen"
+   "state": "live"
   },
   {
    "coin": "SOXX",
    "list_ts": 1794992400,
    "market": "PERP",
-   "state": "preopen"
+   "state": "live"
   },
   {
    "coin": "XCYPH",
@@ -191,20 +227,8 @@
    "list_ts": 1793955600,
    "market": "PERP",
    "state": "live"
-  },
-  {
-   "coin": "SMR",
-   "list_ts": 1793781900,
-   "market": "PERP",
-   "state": "live"
-  },
-  {
-   "coin": "OXY",
-   "list_ts": 1793781000,
-   "market": "PERP",
-   "state": "live"
   }
  ],
  "rule": "New on OKX. Chart signals need the universe rules (volume rank, 30+ days on the chart market). Hot-mover signals can fire from day 2 when the 24h move and volume spike pass hot.py.",
- "updated": 1794990023
+ "updated": 1794993623
 }
