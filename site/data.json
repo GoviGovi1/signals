@@ -36,9 +36,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.414,
-   "last_ts": "2026-11-18T08:01:32+00:00",
-   "move_pct": -1.22,
+   "last": 1.415,
+   "last_ts": "2026-11-18T08:05:17+00:00",
+   "move_pct": -1.29,
    "closed": false,
    "rsi": 33.5,
    "trade_on": "Perps 1x",
@@ -76,9 +76,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.5658,
-   "last_ts": "2026-11-18T08:01:32+00:00",
-   "move_pct": 4.2,
+   "last": 0.5626,
+   "last_ts": "2026-11-18T08:05:17+00:00",
+   "move_pct": 3.61,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -112,7 +112,7 @@
     0.2738283190490114
    ],
    "lev": 1,
-   "funding_pct": 0.0022,
+   "funding_pct": 0.0021,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-17T11:00:00+00:00",
@@ -120,9 +120,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2923,
-   "last_ts": "2026-11-18T08:01:32+00:00",
-   "move_pct": 2.86,
+   "last": 0.2926,
+   "last_ts": "2026-11-18T08:05:17+00:00",
+   "move_pct": 2.76,
    "closed": false,
    "rsi": 41.3,
    "trade_on": "Perps 1x",
@@ -164,9 +164,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 143.415597786839,
-   "last_ts": "2026-11-18T08:01:32+00:00",
-   "move_pct": 0.31,
+   "last": 142.40948698699998,
+   "last_ts": "2026-11-18T08:05:17+00:00",
+   "move_pct": -0.39,
    "closed": false,
    "rsi": 67.2,
    "trade_on": "On-chain spot (Base DEX)",
@@ -204,9 +204,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.4568,
-   "last_ts": "2026-11-18T08:01:32+00:00",
-   "move_pct": 1.33,
+   "last": 0.4594,
+   "last_ts": "2026-11-18T08:05:17+00:00",
+   "move_pct": 1.91,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -249,9 +249,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.02597,
-   "last_ts": "2026-11-18T08:01:32+00:00",
-   "move_pct": -0.27,
+   "last": 0.02593,
+   "last_ts": "2026-11-18T08:05:17+00:00",
+   "move_pct": -0.12,
    "closed": false,
    "rsi": 36.7,
    "trade_on": "Perps 1x",
@@ -294,9 +294,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.14228,
-   "last_ts": "2026-11-18T08:01:32+00:00",
-   "move_pct": -0.07,
+   "last": 0.14222,
+   "last_ts": "2026-11-18T08:05:17+00:00",
+   "move_pct": -0.11,
    "closed": false,
    "rsi": 63.0,
    "trade_on": "Spot",
@@ -7820,6 +7820,23 @@
     ]
    },
    {
+    "id": "storage",
+    "name": "Storage",
+    "chg7d": -10.12,
+    "top": [
+     "FIL",
+     "BTT",
+     "AR",
+     "AIOZ",
+     "ICNT"
+    ],
+    "tracked": [
+     "FIL",
+     "AR",
+     "WAL"
+    ]
+   },
+   {
     "id": "depin",
     "name": "DePIN",
     "chg7d": -10.23,
@@ -7921,23 +7938,6 @@
      "IMX",
      "AXS",
      "FLOKI"
-    ]
-   },
-   {
-    "id": "storage",
-    "name": "Storage",
-    "chg7d": -10.8,
-    "top": [
-     "FIL",
-     "BTT",
-     "AR",
-     "AIOZ",
-     "ICNT"
-    ],
-    "tracked": [
-     "FIL",
-     "AR",
-     "WAL"
     ]
    },
    {
@@ -8279,7 +8279,7 @@
   "updated": {
    "unlocks": 1794986121,
    "onchain": 1794988831,
-   "sectors": 1794988222,
+   "sectors": 1794989117,
    "listings": 1794986132,
    "fundamentals": 1794986122
   }
@@ -8318,6 +8318,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "7d7fd00a087962071e5c0fdd3f95b22a150ededa419aa8fb69a35512de06a342",
- "generated": "2026-11-18T08:02:10+00:00"
+ "digest": "c59ebe18597637ca7f3b399588dd30b8cc1961bf024bc2623bbd8fb93b89db7e",
+ "generated": "2026-11-18T08:05:23+00:00"
 }
