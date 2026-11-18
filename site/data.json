@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.5582,
-   "last_ts": "2026-11-18T10:45:22+00:00",
-   "move_pct": 2.8,
+   "last": 0.558,
+   "last_ts": "2026-11-18T10:50:27+00:00",
+   "move_pct": 2.76,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -66,7 +66,7 @@
     0.2738283190490114
    ],
    "lev": 1,
-   "funding_pct": -0.0223,
+   "funding_pct": -0.0217,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-17T11:00:00+00:00",
@@ -74,9 +74,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2909,
-   "last_ts": "2026-11-18T10:45:22+00:00",
-   "move_pct": 3.32,
+   "last": 0.2915,
+   "last_ts": "2026-11-18T10:50:27+00:00",
+   "move_pct": 3.12,
    "closed": false,
    "rsi": 41.3,
    "trade_on": "Perps 1x",
@@ -118,9 +118,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 142.13148665089997,
-   "last_ts": "2026-11-18T10:45:22+00:00",
-   "move_pct": -0.59,
+   "last": 142.090968534086,
+   "last_ts": "2026-11-18T10:50:27+00:00",
+   "move_pct": -0.62,
    "closed": false,
    "rsi": 67.2,
    "trade_on": "On-chain spot (Base DEX)",
@@ -158,9 +158,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.4596,
-   "last_ts": "2026-11-18T10:45:22+00:00",
-   "move_pct": 1.95,
+   "last": 0.4611,
+   "last_ts": "2026-11-18T10:50:27+00:00",
+   "move_pct": 2.28,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -203,9 +203,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.02577,
-   "last_ts": "2026-11-18T10:45:22+00:00",
-   "move_pct": 0.5,
+   "last": 0.02579,
+   "last_ts": "2026-11-18T10:50:27+00:00",
+   "move_pct": 0.42,
    "closed": false,
    "rsi": 36.7,
    "trade_on": "Perps 1x",
@@ -248,9 +248,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.14118,
-   "last_ts": "2026-11-18T10:45:22+00:00",
-   "move_pct": -0.84,
+   "last": 0.14151,
+   "last_ts": "2026-11-18T10:50:27+00:00",
+   "move_pct": -0.61,
    "closed": false,
    "rsi": 63.0,
    "trade_on": "Spot",
@@ -293,9 +293,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0194,
-   "last_ts": "2026-11-18T10:45:22+00:00",
-   "move_pct": -1.82,
+   "last": 0.0195,
+   "last_ts": "2026-11-18T10:50:27+00:00",
+   "move_pct": -1.32,
    "closed": false,
    "rsi": 70.6,
    "trade_on": "Spot",
@@ -7770,6 +7770,28 @@
     ]
    },
    {
+    "id": "decentralized-exchange",
+    "name": "Decentralized Exchange",
+    "chg7d": -8.87,
+    "top": [
+     "HYPE",
+     "UNI",
+     "ASTER",
+     "PUMP",
+     "JUP"
+    ],
+    "tracked": [
+     "HYPE",
+     "LIT",
+     "UNI",
+     "PUMP",
+     "ASTER",
+     "MMT",
+     "CRV",
+     "AERO"
+    ]
+   },
+   {
     "id": "layer-2",
     "name": "Layer 2",
     "chg7d": -9.32,
@@ -8008,28 +8030,6 @@
     "tracked": [
      "W",
      "PHA"
-    ]
-   },
-   {
-    "id": "decentralized-exchange",
-    "name": "Decentralized Exchange",
-    "chg7d": -10.76,
-    "top": [
-     "HYPE",
-     "UNI",
-     "ASTER",
-     "PUMP",
-     "JUP"
-    ],
-    "tracked": [
-     "HYPE",
-     "LIT",
-     "UNI",
-     "PUMP",
-     "ASTER",
-     "MMT",
-     "CRV",
-     "AERO"
     ]
    },
    {
@@ -8288,7 +8288,7 @@
   "updated": {
    "unlocks": 1794986121,
    "onchain": 1794996032,
-   "sectors": 1794998127,
+   "sectors": 1794999027,
    "listings": 1794997519,
    "fundamentals": 1794986122
   }
@@ -8327,6 +8327,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "6e0c7338620620f6b7bec90ba1c58e64cdd0d05f899646358ac671f21179daf4",
- "generated": "2026-11-18T10:45:28+00:00"
+ "digest": "46823de7eb0621e311f5090cf462e4d7fec6afe2697e89897f8700c8531db6f0",
+ "generated": "2026-11-18T10:50:33+00:00"
 }
