@@ -1,6 +1,12 @@
 {
  "new": [
   {
+   "coin": "XANT",
+   "list_ts": 1795111200,
+   "market": "SPOT",
+   "state": "preopen"
+  },
+  {
    "coin": "XTLT",
    "list_ts": 1795077000,
    "market": "SPOT",
@@ -230,5 +236,5 @@
   }
  ],
  "rule": "New on OKX. Chart signals need the universe rules (volume rank, 30+ days on the chart market). Hot-mover signals can fire from day 2 when the 24h move and volume spike pass hot.py.",
- "updated": 1795008322
+ "updated": 1795012224
 }

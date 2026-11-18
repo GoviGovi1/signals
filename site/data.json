@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.5664,
-   "last_ts": "2026-11-18T14:25:19+00:00",
-   "move_pct": 4.31,
+   "last": 0.5661,
+   "last_ts": "2026-11-18T14:30:25+00:00",
+   "move_pct": 4.25,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -66,7 +66,7 @@
     0.2738283190490114
    ],
    "lev": 1,
-   "funding_pct": -0.028,
+   "funding_pct": -0.0265,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-17T11:00:00+00:00",
@@ -74,9 +74,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2911,
-   "last_ts": "2026-11-18T14:25:19+00:00",
-   "move_pct": 3.26,
+   "last": 0.2918,
+   "last_ts": "2026-11-18T14:30:25+00:00",
+   "move_pct": 3.02,
    "closed": false,
    "rsi": 41.3,
    "trade_on": "Perps 1x",
@@ -118,9 +118,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 142.649135952524,
-   "last_ts": "2026-11-18T14:25:19+00:00",
-   "move_pct": -0.23,
+   "last": 142.47904208005997,
+   "last_ts": "2026-11-18T14:30:25+00:00",
+   "move_pct": -0.34,
    "closed": false,
    "rsi": 67.2,
    "trade_on": "On-chain spot (Base DEX)",
@@ -158,9 +158,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.4857,
-   "last_ts": "2026-11-18T14:25:19+00:00",
-   "move_pct": 7.74,
+   "last": 0.4849,
+   "last_ts": "2026-11-18T14:30:25+00:00",
+   "move_pct": 7.56,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -203,9 +203,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.02513,
-   "last_ts": "2026-11-18T14:25:19+00:00",
-   "move_pct": 2.97,
+   "last": 0.02517,
+   "last_ts": "2026-11-18T14:30:25+00:00",
+   "move_pct": 2.82,
    "closed": false,
    "rsi": 36.7,
    "trade_on": "Perps 1x",
@@ -248,9 +248,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.14102,
-   "last_ts": "2026-11-18T14:25:19+00:00",
-   "move_pct": -0.96,
+   "last": 0.14143,
+   "last_ts": "2026-11-18T14:30:25+00:00",
+   "move_pct": -0.67,
    "closed": false,
    "rsi": 63.0,
    "trade_on": "Spot",
@@ -293,9 +293,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.01949,
-   "last_ts": "2026-11-18T14:25:19+00:00",
-   "move_pct": -1.37,
+   "last": 0.01966,
+   "last_ts": "2026-11-18T14:30:25+00:00",
+   "move_pct": -0.51,
    "closed": false,
    "rsi": 70.6,
    "trade_on": "Spot",
@@ -8186,6 +8186,12 @@
   ],
   "listings": [
    {
+    "coin": "XANT",
+    "list_ts": 1795111200,
+    "market": "SPOT",
+    "state": "preopen"
+   },
+   {
     "coin": "XTLT",
     "list_ts": 1795077000,
     "market": "SPOT",
@@ -8268,12 +8274,6 @@
     "list_ts": 1794900600,
     "market": "SPOT",
     "state": "live"
-   },
-   {
-    "coin": "XPDD",
-    "list_ts": 1794898800,
-    "market": "SPOT",
-    "state": "live"
    }
   ],
   "fund_movers": [
@@ -8354,7 +8354,7 @@
    "unlocks": 1795007724,
    "onchain": 1795010433,
    "sectors": 1795011623,
-   "listings": 1795008322,
+   "listings": 1795012224,
    "fundamentals": 1795007726
   }
  },
@@ -8392,6 +8392,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "c7396dd717d63c765349094713125b99a4ef2df3bbb8c702237d6bba684e4f27",
- "generated": "2026-11-18T14:25:26+00:00"
+ "digest": "bbf0a1eb5bd35642f6287ae49ad4bb1bba1bc167fe467476c90ee7cd0c95c9ca",
+ "generated": "2026-11-18T14:30:31+00:00"
 }
