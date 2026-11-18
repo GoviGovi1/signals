@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.5654,
-   "last_ts": "2026-11-18T09:01:30+00:00",
-   "move_pct": 4.13,
+   "last": 0.5655,
+   "last_ts": "2026-11-18T09:05:20+00:00",
+   "move_pct": 4.14,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -66,7 +66,7 @@
     0.2738283190490114
    ],
    "lev": 1,
-   "funding_pct": -0.0161,
+   "funding_pct": -0.0155,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-17T11:00:00+00:00",
@@ -74,9 +74,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2924,
-   "last_ts": "2026-11-18T09:01:30+00:00",
-   "move_pct": 2.82,
+   "last": 0.2923,
+   "last_ts": "2026-11-18T09:05:20+00:00",
+   "move_pct": 2.86,
    "closed": false,
    "rsi": 41.3,
    "trade_on": "Perps 1x",
@@ -118,9 +118,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 143.28422102707097,
-   "last_ts": "2026-11-18T09:01:30+00:00",
-   "move_pct": 0.22,
+   "last": 143.59569333557798,
+   "last_ts": "2026-11-18T09:05:20+00:00",
+   "move_pct": 0.44,
    "closed": false,
    "rsi": 67.2,
    "trade_on": "On-chain spot (Base DEX)",
@@ -158,9 +158,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.458,
-   "last_ts": "2026-11-18T09:01:30+00:00",
-   "move_pct": 1.6,
+   "last": 0.4532,
+   "last_ts": "2026-11-18T09:05:20+00:00",
+   "move_pct": 0.53,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -203,9 +203,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.02587,
-   "last_ts": "2026-11-18T09:01:30+00:00",
-   "move_pct": 0.12,
+   "last": 0.02586,
+   "last_ts": "2026-11-18T09:05:20+00:00",
+   "move_pct": 0.15,
    "closed": false,
    "rsi": 36.7,
    "trade_on": "Perps 1x",
@@ -248,9 +248,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.14177,
-   "last_ts": "2026-11-18T09:01:30+00:00",
-   "move_pct": -0.43,
+   "last": 0.14179,
+   "last_ts": "2026-11-18T09:05:20+00:00",
+   "move_pct": -0.41,
    "closed": false,
    "rsi": 63.0,
    "trade_on": "Spot",
@@ -293,9 +293,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.01971,
-   "last_ts": "2026-11-18T09:01:30+00:00",
-   "move_pct": -0.25,
+   "last": 0.01968,
+   "last_ts": "2026-11-18T09:05:20+00:00",
+   "move_pct": -0.4,
    "closed": false,
    "rsi": 70.6,
    "trade_on": "Spot",
@@ -7829,6 +7829,23 @@
     ]
    },
    {
+    "id": "bitcoin-ecosystem",
+    "name": "Bitcoin Ecosystem",
+    "chg7d": -9.87,
+    "top": [
+     "BTC",
+     "DOG",
+     "ORDI",
+     "USTBL",
+     "LOBO"
+    ],
+    "tracked": [
+     "BTC",
+     "ORDI",
+     "SATS"
+    ]
+   },
+   {
     "id": "storage",
     "name": "Storage",
     "chg7d": -10.12,
@@ -8013,23 +8030,6 @@
      "POL",
      "MAGIC",
      "ZK"
-    ]
-   },
-   {
-    "id": "bitcoin-ecosystem",
-    "name": "Bitcoin Ecosystem",
-    "chg7d": -11.23,
-    "top": [
-     "BTC",
-     "DOG",
-     "ORDI",
-     "USTBL",
-     "LOBO"
-    ],
-    "tracked": [
-     "BTC",
-     "ORDI",
-     "SATS"
     ]
    },
    {
@@ -8288,7 +8288,7 @@
   "updated": {
    "unlocks": 1794986121,
    "onchain": 1794992430,
-   "sectors": 1794991825,
+   "sectors": 1794992720,
    "listings": 1794990023,
    "fundamentals": 1794986122
   }
@@ -8327,6 +8327,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "fb06eda4f3661105accffe72e65580b0e76a218842dc4045565066f2353fd5f6",
- "generated": "2026-11-18T09:02:11+00:00"
+ "digest": "175b5340dcb3b331dd1fcc2ada93811cb03dd3cc2121105cbfc399fac998690e",
+ "generated": "2026-11-18T09:05:26+00:00"
 }
