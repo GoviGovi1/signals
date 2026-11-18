@@ -22,7 +22,7 @@
     0.6412704298771444
    ],
    "lev": 1,
-   "funding_pct": 0.0161,
+   "funding_pct": 0.0187,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-17T06:45:22+00:00",
@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.5505,
-   "last_ts": "2026-11-18T17:15:23+00:00",
-   "move_pct": 1.38,
+   "last": 0.5525,
+   "last_ts": "2026-11-18T17:20:24+00:00",
+   "move_pct": 1.75,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -66,7 +66,7 @@
     0.2738283190490114
    ],
    "lev": 1,
-   "funding_pct": 0.0001,
+   "funding_pct": 0.0015,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-17T11:00:00+00:00",
@@ -74,9 +74,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2872,
-   "last_ts": "2026-11-18T17:15:23+00:00",
-   "move_pct": 4.55,
+   "last": 0.2893,
+   "last_ts": "2026-11-18T17:20:24+00:00",
+   "move_pct": 3.86,
    "closed": false,
    "rsi": 41.3,
    "trade_on": "Perps 1x",
@@ -118,9 +118,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 143.90910627134198,
-   "last_ts": "2026-11-18T17:15:23+00:00",
-   "move_pct": 0.66,
+   "last": 143.775324347004,
+   "last_ts": "2026-11-18T17:20:24+00:00",
+   "move_pct": 0.56,
    "closed": false,
    "rsi": 67.2,
    "trade_on": "On-chain spot (Base DEX)",
@@ -158,60 +158,15 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.4833,
-   "last_ts": "2026-11-18T17:15:23+00:00",
-   "move_pct": 7.21,
+   "last": 0.4999,
+   "last_ts": "2026-11-18T17:20:24+00:00",
+   "move_pct": 10.89,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
    "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
    "chart": "charts/BTW-PERP-HOT-20775.png",
    "setup": "HOT24"
-  },
-  {
-   "id": "KMNO-PERP-1794974400",
-   "kind": "TA",
-   "score": 0,
-   "reasons": [
-    "Chart: Break of structure: closed below the last swing low 0.02597, after a lower high",
-    "Timeframes: 1d down, 4h down, 4h structure lower highs/lows",
-    "No support below in the last 50 days",
-    "Stop 0.026727 (2 ATR); targets at 1R/2R/3R",
-    "BTC 4h trend down",
-    "Weaker than BTC by 6.8% over 7d",
-    "OI +3% 24h",
-    "Sector: Lending Borrowing -9.5% 7d (middle, #9 of 20)",
-    "Track record: +4.0R on KMNO in the last 45 days (backtest)"
-   ],
-   "coin": "KMNO",
-   "market": "PERP",
-   "side": "SHORT",
-   "entry": 0.0259,
-   "sl0": 0.026727203390827587,
-   "sl": 0.0259,
-   "tps": [
-    0.025072796609172412,
-    0.024245593218344824,
-    0.023418389827517237
-   ],
-   "lev": 1,
-   "funding_pct": 0.005,
-   "status": "tp1",
-   "hits": 1,
-   "opened": "2026-11-18T05:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.02565,
-   "last_ts": "2026-11-18T17:15:23+00:00",
-   "move_pct": 0.97,
-   "closed": false,
-   "rsi": 36.7,
-   "trade_on": "Perps 1x",
-   "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": "charts/KMNO-PERP-1794974400.png",
-   "setup": "BOS"
   },
   {
    "id": "SENT-SPOT-1794988800",
@@ -248,9 +203,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.01963,
-   "last_ts": "2026-11-18T17:15:23+00:00",
-   "move_pct": -0.66,
+   "last": 0.01983,
+   "last_ts": "2026-11-18T17:20:24+00:00",
+   "move_pct": 0.35,
    "closed": false,
    "rsi": 70.6,
    "trade_on": "Spot",
@@ -286,7 +241,7 @@
     0.029164618237489587
    ],
    "lev": 2,
-   "funding_pct": 0.0043,
+   "funding_pct": 0.005,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-18T16:00:00+00:00",
@@ -294,9 +249,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.03192,
-   "last_ts": "2026-11-18T17:15:23+00:00",
-   "move_pct": -0.06,
+   "last": 0.03225,
+   "last_ts": "2026-11-18T17:20:24+00:00",
+   "move_pct": -1.1,
    "closed": false,
    "rsi": 29.3,
    "trade_on": "Perps 2x",
@@ -331,7 +286,7 @@
     0.003659580182098863
    ],
    "lev": 1,
-   "funding_pct": 0.0003,
+   "funding_pct": 0.0005,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-18T16:00:00+00:00",
@@ -339,9 +294,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.003931,
-   "last_ts": "2026-11-18T17:15:23+00:00",
-   "move_pct": 0.28,
+   "last": 0.003954,
+   "last_ts": "2026-11-18T17:20:24+00:00",
+   "move_pct": -0.3,
    "closed": false,
    "rsi": 27.1,
    "trade_on": "Perps 1x",
@@ -351,6 +306,51 @@
   }
  ],
  "closed": [
+  {
+   "id": "KMNO-PERP-1794974400",
+   "kind": "TA",
+   "score": 0,
+   "reasons": [
+    "Chart: Break of structure: closed below the last swing low 0.02597, after a lower high",
+    "Timeframes: 1d down, 4h down, 4h structure lower highs/lows",
+    "No support below in the last 50 days",
+    "Stop 0.026727 (2 ATR); targets at 1R/2R/3R",
+    "BTC 4h trend down",
+    "Weaker than BTC by 6.8% over 7d",
+    "OI +3% 24h",
+    "Sector: Lending Borrowing -9.5% 7d (middle, #9 of 20)",
+    "Track record: +4.0R on KMNO in the last 45 days (backtest)"
+   ],
+   "coin": "KMNO",
+   "market": "PERP",
+   "side": "SHORT",
+   "entry": 0.0259,
+   "sl0": 0.026727203390827587,
+   "sl": 0.0259,
+   "tps": [
+    0.025072796609172412,
+    0.024245593218344824,
+    0.023418389827517237
+   ],
+   "lev": 1,
+   "funding_pct": 0.005,
+   "status": "stopped_be",
+   "hits": 1,
+   "opened": "2026-11-18T05:00:00+00:00",
+   "closed_at": "2026-11-18T17:20:24+00:00",
+   "exit_price": 0.0259,
+   "result_r": 0.25,
+   "result_pct": 0.8,
+   "last": 0.02592,
+   "last_ts": "2026-11-18T17:20:24+00:00",
+   "move_pct": 0.97,
+   "closed": true,
+   "rsi": 36.7,
+   "trade_on": "Perps 1x",
+   "market_reason": "shorts need perps; thin perp market, so 1x",
+   "chart": "charts/KMNO-PERP-1794974400.png",
+   "setup": "BOS"
+  },
   {
    "id": "XLM-SPOT-1794985200",
    "kind": "TA",
@@ -2087,7 +2087,7 @@
    "rsi": 71.0,
    "trade_on": "On-chain spot (Base DEX)",
    "market_reason": "not listed on OKX; buy on a DEX, small size, no leverage",
-   "chart": "charts/XDP-DEX-base-0x07b3d902-1794567600.png",
+   "chart": null,
    "setup": null
   },
   {
@@ -2914,62 +2914,17 @@
    "market_reason": "the perp book is where the 24h move and volume are; thin perp market, so 1x",
    "chart": null,
    "setup": "HOT24"
-  },
-  {
-   "id": "VIRTUAL-PERP-1794481200",
-   "kind": "TA",
-   "score": -1,
-   "reasons": [
-    "Chart: Broke the 20-hour low on 1.4x volume",
-    "Timeframes: 1d down, 4h down, 4h structure higher highs/lows",
-    "No support below in the last 50 days",
-    "Stop 0.52608 (structure); targets at 1R/2R/3R",
-    "BTC 4h trend down",
-    "Weaker than BTC by 4.6% over 7d",
-    "OI +3% 24h",
-    "Sector: Artificial Intelligence -8.7% 7d (leading, #4 of 20)",
-    "Track record: +2.2R on VIRTUAL in the last 45 days (backtest)"
-   ],
-   "coin": "VIRTUAL",
-   "market": "PERP",
-   "side": "SHORT",
-   "entry": 0.5178,
-   "sl0": 0.5260763335167807,
-   "sl": 0.5178,
-   "tps": [
-    0.5095236664832193,
-    0.5012473329664386,
-    0.49297099944965794
-   ],
-   "lev": 1,
-   "funding_pct": 0.0033,
-   "status": "stopped_be",
-   "hits": 1,
-   "opened": "2026-11-12T12:00:00+00:00",
-   "closed_at": "2026-11-12T16:15:26+00:00",
-   "exit_price": 0.5178,
-   "result_r": 0.25,
-   "result_pct": 0.4,
-   "last": 0.5151,
-   "last_ts": "2026-11-12T16:15:26+00:00",
-   "move_pct": 0.12,
-   "closed": true,
-   "rsi": 33.8,
-   "trade_on": "Perps 1x",
-   "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": null,
-   "setup": "BREAKOUT20"
   }
  ],
  "stats": {
   "all": {
-   "trades": 258,
-   "wins": 125,
+   "trades": 259,
+   "wins": 126,
    "losses": 133,
-   "win_rate": 48.4,
-   "total_r": 31.97,
+   "win_rate": 48.6,
+   "total_r": 32.22,
    "avg_r": 0.124,
-   "total_pct": 123.86
+   "total_pct": 124.66
   },
   "SPOT": {
    "trades": 73,
@@ -2981,13 +2936,13 @@
    "total_pct": 38.73
   },
   "PERP": {
-   "trades": 172,
-   "wins": 87,
+   "trades": 173,
+   "wins": 88,
    "losses": 85,
-   "win_rate": 50.6,
-   "total_r": 37.61,
+   "win_rate": 50.9,
+   "total_r": 37.86,
    "avg_r": 0.219,
-   "total_pct": 61.72
+   "total_pct": 62.52
   },
   "DEX": {
    "trades": 13,
@@ -3018,13 +2973,13 @@
     "total_pct": 23.41
    },
    "TA": {
-    "trades": 181,
-    "wins": 82,
+    "trades": 182,
+    "wins": 83,
     "losses": 99,
-    "win_rate": 45.3,
-    "total_r": 22.63,
-    "avg_r": 0.125,
-    "total_pct": 60.9
+    "win_rate": 45.6,
+    "total_r": 22.88,
+    "avg_r": 0.126,
+    "total_pct": 61.7
    }
   },
   "coins": {
@@ -3749,13 +3704,13 @@
     "total_pct": -1.79
    },
    "KMNO": {
-    "trades": 3,
-    "wins": 3,
+    "trades": 4,
+    "wins": 4,
     "losses": 0,
     "win_rate": 100.0,
-    "total_r": 4.55,
-    "avg_r": 1.518,
-    "total_pct": 11.58
+    "total_r": 4.8,
+    "avg_r": 1.201,
+    "total_pct": 12.38
    },
    "LIGHT": {
     "trades": 3,
@@ -4424,7 +4379,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 8
+  "open": 7
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7926,28 +7881,6 @@
     ]
    },
    {
-    "id": "zero-knowledge-zk",
-    "name": "Zero Knowledge ZK",
-    "chg7d": -10.21,
-    "top": [
-     "ZEC",
-     "POL",
-     "NIGHT",
-     "STRK",
-     "OZO"
-    ],
-    "tracked": [
-     "ZEC",
-     "BREV",
-     "STRK",
-     "NIGHT",
-     "ZKP",
-     "H",
-     "ZK",
-     "POL"
-    ]
-   },
-   {
     "id": "decentralized-exchange",
     "name": "Decentralized Exchange",
     "chg7d": -10.34,
@@ -8163,6 +8096,28 @@
     ]
    },
    {
+    "id": "zero-knowledge-zk",
+    "name": "Zero Knowledge ZK",
+    "chg7d": -12.35,
+    "top": [
+     "ZEC",
+     "POL",
+     "NIGHT",
+     "STRK",
+     "OZO"
+    ],
+    "tracked": [
+     "ZEC",
+     "BREV",
+     "STRK",
+     "NIGHT",
+     "ZKP",
+     "H",
+     "ZK",
+     "POL"
+    ]
+   },
+   {
     "id": "oracle",
     "name": "Oracle",
     "chg7d": -13.44,
@@ -8352,7 +8307,7 @@
   "updated": {
    "unlocks": 1795007724,
    "onchain": 1795021236,
-   "sectors": 1795021523,
+   "sectors": 1795022424,
    "listings": 1795019427,
    "fundamentals": 1795007726
   }
@@ -8391,6 +8346,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "48a4da6e6a736399e5e1ec85eb282323d5c4cd89b8924bccd0a7be971603d72f",
- "generated": "2026-11-18T17:15:30+00:00"
+ "digest": "4afaaf9207f759219128a030c9b38a2412ecec679d24e443e693aae9615f4c4f",
+ "generated": "2026-11-18T17:20:31+00:00"
 }
