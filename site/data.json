@@ -22,7 +22,7 @@
     0.6412704298771444
    ],
    "lev": 1,
-   "funding_pct": 0.007,
+   "funding_pct": 0.006,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-17T06:45:22+00:00",
@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.5488,
-   "last_ts": "2026-11-18T19:45:30+00:00",
-   "move_pct": 1.07,
+   "last": 0.5476,
+   "last_ts": "2026-11-18T19:50:29+00:00",
+   "move_pct": 0.85,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -66,7 +66,7 @@
     0.2738283190490114
    ],
    "lev": 1,
-   "funding_pct": -0.0121,
+   "funding_pct": -0.0153,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-17T11:00:00+00:00",
@@ -74,9 +74,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.29,
-   "last_ts": "2026-11-18T19:45:30+00:00",
-   "move_pct": 3.62,
+   "last": 0.2891,
+   "last_ts": "2026-11-18T19:50:29+00:00",
+   "move_pct": 3.92,
    "closed": false,
    "rsi": 41.3,
    "trade_on": "Perps 1x",
@@ -118,9 +118,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 143.520328649124,
-   "last_ts": "2026-11-18T19:45:30+00:00",
-   "move_pct": 0.38,
+   "last": 144.218056020288,
+   "last_ts": "2026-11-18T19:50:29+00:00",
+   "move_pct": 0.87,
    "closed": false,
    "rsi": 67.2,
    "trade_on": "On-chain spot (Base DEX)",
@@ -158,9 +158,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.5008,
-   "last_ts": "2026-11-18T19:45:30+00:00",
-   "move_pct": 11.09,
+   "last": 0.4907,
+   "last_ts": "2026-11-18T19:50:29+00:00",
+   "move_pct": 8.85,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -203,9 +203,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.01985,
-   "last_ts": "2026-11-18T19:45:30+00:00",
-   "move_pct": 0.46,
+   "last": 0.01981,
+   "last_ts": "2026-11-18T19:50:29+00:00",
+   "move_pct": 0.25,
    "closed": false,
    "rsi": 70.6,
    "trade_on": "Spot",
@@ -249,9 +249,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0324,
-   "last_ts": "2026-11-18T19:45:30+00:00",
-   "move_pct": -1.57,
+   "last": 0.03231,
+   "last_ts": "2026-11-18T19:50:29+00:00",
+   "move_pct": -1.29,
    "closed": false,
    "rsi": 29.3,
    "trade_on": "Perps 2x",
@@ -293,9 +293,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.02961,
-   "last_ts": "2026-11-18T19:45:30+00:00",
-   "move_pct": -1.1,
+   "last": 0.02958,
+   "last_ts": "2026-11-18T19:50:29+00:00",
+   "move_pct": -1.2,
    "closed": false,
    "rsi": 70.9,
    "trade_on": "Spot",
@@ -8016,28 +8016,6 @@
     ]
    },
    {
-    "id": "meme-token",
-    "name": "Meme Token",
-    "chg7d": -12.2,
-    "top": [
-     "DOGE",
-     "SHIB",
-     "M",
-     "PEPE",
-     "PUMP"
-    ],
-    "tracked": [
-     "DOGE",
-     "PEPE",
-     "PUMP",
-     "TRUMP",
-     "PENGU",
-     "SHIB",
-     "USELESS",
-     "CASHCAT"
-    ]
-   },
-   {
     "id": "interoperability",
     "name": "Interoperability",
     "chg7d": -12.31,
@@ -8132,6 +8110,28 @@
      "TRB",
      "API3",
      "PHA"
+    ]
+   },
+   {
+    "id": "meme-token",
+    "name": "Meme Token",
+    "chg7d": -13.62,
+    "top": [
+     "DOGE",
+     "SHIB",
+     "M",
+     "PEPE",
+     "PUMP"
+    ],
+    "tracked": [
+     "DOGE",
+     "PEPE",
+     "PUMP",
+     "TRUMP",
+     "PENGU",
+     "SHIB",
+     "USELESS",
+     "CASHCAT"
     ]
    },
    {
@@ -8326,7 +8326,7 @@
   "updated": {
    "unlocks": 1795029622,
    "onchain": 1795028430,
-   "sectors": 1795030521,
+   "sectors": 1795031429,
    "listings": 1795030833,
    "fundamentals": 1795029623
   }
@@ -8365,6 +8365,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "7583899f53f2b4b52d9e51d873275cd3161a1cf19f47109bf46457c8948d5f51",
- "generated": "2026-11-18T19:45:36+00:00"
+ "digest": "6db64cc2766c9ee6fc82af3c524a7ceb82ff26c4743af064d2b09348415b5809",
+ "generated": "2026-11-18T19:50:35+00:00"
 }
