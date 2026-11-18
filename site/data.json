@@ -36,9 +36,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.413,
-   "last_ts": "2026-11-18T07:30:27+00:00",
-   "move_pct": -1.15,
+   "last": 1.409,
+   "last_ts": "2026-11-18T07:35:21+00:00",
+   "move_pct": -0.86,
    "closed": false,
    "rsi": 33.5,
    "trade_on": "Perps 1x",
@@ -76,9 +76,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.5619,
-   "last_ts": "2026-11-18T07:30:27+00:00",
-   "move_pct": 3.48,
+   "last": 0.5625,
+   "last_ts": "2026-11-18T07:35:21+00:00",
+   "move_pct": 3.59,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -112,7 +112,7 @@
     0.2738283190490114
    ],
    "lev": 1,
-   "funding_pct": -0.0056,
+   "funding_pct": -0.0049,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-17T11:00:00+00:00",
@@ -120,9 +120,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2919,
-   "last_ts": "2026-11-18T07:30:27+00:00",
-   "move_pct": 2.99,
+   "last": 0.2912,
+   "last_ts": "2026-11-18T07:35:21+00:00",
+   "move_pct": 3.22,
    "closed": false,
    "rsi": 41.3,
    "trade_on": "Perps 1x",
@@ -164,9 +164,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 142.28990155677798,
-   "last_ts": "2026-11-18T07:30:27+00:00",
-   "move_pct": -0.48,
+   "last": 142.061280818266,
+   "last_ts": "2026-11-18T07:35:21+00:00",
+   "move_pct": -0.64,
    "closed": false,
    "rsi": 67.2,
    "trade_on": "On-chain spot (Base DEX)",
@@ -204,9 +204,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.4584,
-   "last_ts": "2026-11-18T07:30:27+00:00",
-   "move_pct": 1.69,
+   "last": 0.4555,
+   "last_ts": "2026-11-18T07:35:21+00:00",
+   "move_pct": 1.04,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -249,9 +249,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.02594,
-   "last_ts": "2026-11-18T07:30:27+00:00",
-   "move_pct": -0.15,
+   "last": 0.0258,
+   "last_ts": "2026-11-18T07:35:21+00:00",
+   "move_pct": 0.39,
    "closed": false,
    "rsi": 36.7,
    "trade_on": "Perps 1x",
@@ -7754,6 +7754,28 @@
     ]
    },
    {
+    "id": "depin",
+    "name": "DePIN",
+    "chg7d": -10.23,
+    "top": [
+     "TAO",
+     "RENDER",
+     "BDX",
+     "FIL",
+     "BTT"
+    ],
+    "tracked": [
+     "SPACE",
+     "FIL",
+     "TAO",
+     "GRASS",
+     "RENDER",
+     "AR",
+     "LPT",
+     "ATH"
+    ]
+   },
+   {
     "id": "decentralized-perpetuals",
     "name": "Decentralized Perpetuals",
     "chg7d": -10.36,
@@ -7773,28 +7795,6 @@
      "GRVT",
      "DYDX",
      "AVNT"
-    ]
-   },
-   {
-    "id": "depin",
-    "name": "DePIN",
-    "chg7d": -10.64,
-    "top": [
-     "TAO",
-     "RENDER",
-     "BDX",
-     "FIL",
-     "BTT"
-    ],
-    "tracked": [
-     "SPACE",
-     "FIL",
-     "TAO",
-     "GRASS",
-     "RENDER",
-     "AR",
-     "LPT",
-     "ATH"
     ]
    },
    {
@@ -8213,7 +8213,7 @@
   "updated": {
    "unlocks": 1794986121,
    "onchain": 1794985227,
-   "sectors": 1794986424,
+   "sectors": 1794987321,
    "listings": 1794986132,
    "fundamentals": 1794986122
   }
@@ -8252,6 +8252,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "c995a07dbbe64d40f2cb9c57c7f8511b777e01073df658b437f3e28926f1fea5",
- "generated": "2026-11-18T07:30:33+00:00"
+ "digest": "d29c8197609924b6e383a546e8a5e3ce3e7c7b767ed485fa67035b286515d98f",
+ "generated": "2026-11-18T07:35:27+00:00"
 }
