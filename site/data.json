@@ -22,7 +22,7 @@
     0.6412704298771444
    ],
    "lev": 1,
-   "funding_pct": 0.0136,
+   "funding_pct": 0.0119,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-17T06:45:22+00:00",
@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.5673,
-   "last_ts": "2026-11-19T02:50:35+00:00",
-   "move_pct": 4.48,
+   "last": 0.5666,
+   "last_ts": "2026-11-19T02:55:20+00:00",
+   "move_pct": 4.35,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -66,7 +66,7 @@
     0.2738283190490114
    ],
    "lev": 1,
-   "funding_pct": -0.0041,
+   "funding_pct": -0.0039,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-17T11:00:00+00:00",
@@ -74,9 +74,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2919,
-   "last_ts": "2026-11-19T02:50:35+00:00",
-   "move_pct": 2.99,
+   "last": 0.2928,
+   "last_ts": "2026-11-19T02:55:20+00:00",
+   "move_pct": 2.69,
    "closed": false,
    "rsi": 41.3,
    "trade_on": "Perps 1x",
@@ -118,9 +118,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 145.010442412283,
-   "last_ts": "2026-11-19T02:50:35+00:00",
-   "move_pct": 1.43,
+   "last": 144.170490927486,
+   "last_ts": "2026-11-19T02:55:20+00:00",
+   "move_pct": 0.84,
    "closed": false,
    "rsi": 67.2,
    "trade_on": "On-chain spot (Base DEX)",
@@ -158,9 +158,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.5063,
-   "last_ts": "2026-11-19T02:50:35+00:00",
-   "move_pct": 12.31,
+   "last": 0.5182,
+   "last_ts": "2026-11-19T02:55:20+00:00",
+   "move_pct": 14.95,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -203,9 +203,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.02202,
-   "last_ts": "2026-11-19T02:50:35+00:00",
-   "move_pct": 11.44,
+   "last": 0.02215,
+   "last_ts": "2026-11-19T02:55:20+00:00",
+   "move_pct": 12.1,
    "closed": false,
    "rsi": 70.6,
    "trade_on": "Spot",
@@ -248,7 +248,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.02925,
-   "last_ts": "2026-11-19T02:50:35+00:00",
+   "last_ts": "2026-11-19T02:55:20+00:00",
    "move_pct": -2.3,
    "closed": false,
    "rsi": 70.9,
@@ -287,9 +287,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.01766,
-   "last_ts": "2026-11-19T02:50:35+00:00",
-   "move_pct": -2.27,
+   "last": 0.01787,
+   "last_ts": "2026-11-19T02:55:20+00:00",
+   "move_pct": -1.11,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -7951,6 +7951,28 @@
     ]
    },
    {
+    "id": "gaming",
+    "name": "Gaming",
+    "chg7d": -10.96,
+    "top": [
+     "BEAM",
+     "FLOKI",
+     "GEOD",
+     "GOMINING",
+     "MANA"
+    ],
+    "tracked": [
+     "BEAT",
+     "ONE",
+     "SAND",
+     "APE",
+     "YGG",
+     "GALA",
+     "AXS",
+     "IMX"
+    ]
+   },
+   {
     "id": "exchange-based-tokens",
     "name": "Exchange Based Tokens",
     "chg7d": -10.99,
@@ -8091,28 +8113,6 @@
      "SHIB",
      "USELESS",
      "CASHCAT"
-    ]
-   },
-   {
-    "id": "gaming",
-    "name": "Gaming",
-    "chg7d": -12.76,
-    "top": [
-     "BEAM",
-     "FLOKI",
-     "GEOD",
-     "GOMINING",
-     "MANA"
-    ],
-    "tracked": [
-     "BEAT",
-     "ONE",
-     "SAND",
-     "APE",
-     "YGG",
-     "GALA",
-     "AXS",
-     "IMX"
     ]
    },
    {
@@ -8327,7 +8327,7 @@
   "updated": {
    "unlocks": 1795051224,
    "onchain": 1795053635,
-   "sectors": 1795055723,
+   "sectors": 1795056920,
    "listings": 1795053635,
    "fundamentals": 1795051226
   }
@@ -8366,6 +8366,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "4fd8b1e1937a0ff9828e4b520fd0b6516d4523675d21dd4ab03d2468d64be613",
- "generated": "2026-11-19T02:50:40+00:00"
+ "digest": "0d70427e6f874a21004f11ea338ddbd465b04f8141b22b5039368bc163043587",
+ "generated": "2026-11-19T02:55:27+00:00"
 }
