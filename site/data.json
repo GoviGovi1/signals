@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 143.637154567037,
-   "last_ts": "2026-11-19T15:05:26+00:00",
-   "move_pct": 0.47,
+   "last": 143.05814570182,
+   "last_ts": "2026-11-19T15:10:23+00:00",
+   "move_pct": 0.06,
    "closed": false,
    "rsi": 67.2,
    "trade_on": "On-chain spot (Base DEX)",
@@ -74,9 +74,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.01807,
-   "last_ts": "2026-11-19T15:05:26+00:00",
-   "move_pct": 0.0,
+   "last": 0.01816,
+   "last_ts": "2026-11-19T15:10:23+00:00",
+   "move_pct": 0.5,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -114,9 +114,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.02234,
-   "last_ts": "2026-11-19T15:05:26+00:00",
-   "move_pct": -4.94,
+   "last": 0.02287,
+   "last_ts": "2026-11-19T15:10:23+00:00",
+   "move_pct": -2.68,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -154,9 +154,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 2.886,
-   "last_ts": "2026-11-19T15:05:26+00:00",
-   "move_pct": 10.82,
+   "last": 2.8894,
+   "last_ts": "2026-11-19T15:10:23+00:00",
+   "move_pct": 10.95,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -199,9 +199,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.00461,
-   "last_ts": "2026-11-19T15:05:26+00:00",
-   "move_pct": 1.74,
+   "last": 0.004608,
+   "last_ts": "2026-11-19T15:10:23+00:00",
+   "move_pct": 1.7,
    "closed": false,
    "rsi": 68.8,
    "trade_on": "Spot",
@@ -7691,6 +7691,23 @@
     ]
    },
    {
+    "id": "bitcoin-ecosystem",
+    "name": "Bitcoin Ecosystem",
+    "chg7d": -5.84,
+    "top": [
+     "BTC",
+     "DOG",
+     "ORDI",
+     "USTBL",
+     "LOBO"
+    ],
+    "tracked": [
+     "BTC",
+     "ORDI",
+     "SATS"
+    ]
+   },
+   {
     "id": "layer-2",
     "name": "Layer 2",
     "chg7d": -6.85,
@@ -7911,23 +7928,6 @@
      "ENA",
      "AAVE",
      "INJ"
-    ]
-   },
-   {
-    "id": "bitcoin-ecosystem",
-    "name": "Bitcoin Ecosystem",
-    "chg7d": -9.18,
-    "top": [
-     "BTC",
-     "DOG",
-     "ORDI",
-     "USTBL",
-     "LOBO"
-    ],
-    "tracked": [
-     "BTC",
-     "ORDI",
-     "SATS"
     ]
    },
    {
@@ -8229,7 +8229,7 @@
   "updated": {
    "unlocks": 1795094720,
    "onchain": 1795100431,
-   "sectors": 1795100118,
+   "sectors": 1795101023,
    "listings": 1795098924,
    "fundamentals": 1795094721
   }
@@ -8268,6 +8268,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "0d1bb28b6cbe6ab99dd4ab8ece3fe8a6a30dc2d3bd5d64d0d7da56f322eb6924",
- "generated": "2026-11-19T15:05:31+00:00"
+ "digest": "2e86157b076844fb649292347d96bc3d1900b74432e282d98c81edb2517d3de6",
+ "generated": "2026-11-19T15:10:29+00:00"
 }
