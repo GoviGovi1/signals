@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 145.231408754398,
-   "last_ts": "2026-11-19T14:20:23+00:00",
-   "move_pct": 1.58,
+   "last": 144.98552651734497,
+   "last_ts": "2026-11-19T14:25:21+00:00",
+   "move_pct": 1.41,
    "closed": false,
    "rsi": 67.2,
    "trade_on": "On-chain spot (Base DEX)",
@@ -74,9 +74,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.01772,
-   "last_ts": "2026-11-19T14:20:23+00:00",
-   "move_pct": -1.94,
+   "last": 0.01777,
+   "last_ts": "2026-11-19T14:25:21+00:00",
+   "move_pct": -1.66,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -114,9 +114,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.02305,
-   "last_ts": "2026-11-19T14:20:23+00:00",
-   "move_pct": -1.91,
+   "last": 0.02239,
+   "last_ts": "2026-11-19T14:25:21+00:00",
+   "move_pct": -4.72,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -154,9 +154,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 3.0744,
-   "last_ts": "2026-11-19T14:20:23+00:00",
-   "move_pct": 18.05,
+   "last": 2.9736,
+   "last_ts": "2026-11-19T14:25:21+00:00",
+   "move_pct": 14.18,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -199,9 +199,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.004561,
-   "last_ts": "2026-11-19T14:20:23+00:00",
-   "move_pct": 0.66,
+   "last": 0.004568,
+   "last_ts": "2026-11-19T14:25:21+00:00",
+   "move_pct": 0.82,
    "closed": false,
    "rsi": 68.8,
    "trade_on": "Spot",
@@ -7670,6 +7670,27 @@
     ]
    },
    {
+    "id": "lending-borrowing",
+    "name": "Lending Borrowing",
+    "chg7d": -4.59,
+    "top": [
+     "AAVE",
+     "MORPHO",
+     "OHM",
+     "COMP",
+     "CAP"
+    ],
+    "tracked": [
+     "AAVE",
+     "CAP",
+     "CT",
+     "KMNO",
+     "SPK",
+     "MORPHO",
+     "COMP"
+    ]
+   },
+   {
     "id": "layer-2",
     "name": "Layer 2",
     "chg7d": -6.85,
@@ -7704,27 +7725,6 @@
     ],
     "tracked": [
      "ZEC"
-    ]
-   },
-   {
-    "id": "lending-borrowing",
-    "name": "Lending Borrowing",
-    "chg7d": -7.76,
-    "top": [
-     "AAVE",
-     "MORPHO",
-     "OHM",
-     "COMP",
-     "KMNO"
-    ],
-    "tracked": [
-     "AAVE",
-     "CAP",
-     "CT",
-     "KMNO",
-     "SPK",
-     "MORPHO",
-     "COMP"
     ]
    },
    {
@@ -8229,7 +8229,7 @@
   "updated": {
    "unlocks": 1795094720,
    "onchain": 1795096831,
-   "sectors": 1795097425,
+   "sectors": 1795098321,
    "listings": 1795095046,
    "fundamentals": 1795094721
   }
@@ -8268,6 +8268,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "348330c755c3741cf22cd05075e70a20cfb7cccc838981ceb80010840e3e5d8b",
- "generated": "2026-11-19T14:20:28+00:00"
+ "digest": "fd8485ae9597160e570457cbbb6f9b7da9d6c548fbf5d1949102f703c5070982",
+ "generated": "2026-11-19T14:25:27+00:00"
 }
