@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.01809,
-   "last_ts": "2026-11-19T19:05:20+00:00",
-   "move_pct": 0.11,
+   "last": 0.01799,
+   "last_ts": "2026-11-19T19:10:24+00:00",
+   "move_pct": -0.44,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -70,9 +70,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 2.882,
-   "last_ts": "2026-11-19T19:05:20+00:00",
-   "move_pct": 10.66,
+   "last": 2.8933,
+   "last_ts": "2026-11-19T19:10:24+00:00",
+   "move_pct": 11.1,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -108,7 +108,7 @@
     0.1805829813635573
    ],
    "lev": 1,
-   "funding_pct": 0.0039,
+   "funding_pct": 0.0037,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-19T16:00:00+00:00",
@@ -116,9 +116,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1934,
-   "last_ts": "2026-11-19T19:05:20+00:00",
-   "move_pct": -1.2,
+   "last": 0.194,
+   "last_ts": "2026-11-19T19:10:24+00:00",
+   "move_pct": -1.52,
    "closed": false,
    "rsi": 32.1,
    "trade_on": "Perps 1x",
@@ -153,7 +153,7 @@
     0.0767624056199815
    ],
    "lev": 1,
-   "funding_pct": 0.0028,
+   "funding_pct": 0.0031,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-19T17:00:00+00:00",
@@ -161,9 +161,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.08396,
-   "last_ts": "2026-11-19T19:05:20+00:00",
-   "move_pct": -0.68,
+   "last": 0.08434,
+   "last_ts": "2026-11-19T19:10:24+00:00",
+   "move_pct": -1.14,
    "closed": false,
    "rsi": 32.3,
    "trade_on": "Perps 1x",
@@ -206,9 +206,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.003172,
-   "last_ts": "2026-11-19T19:05:20+00:00",
-   "move_pct": 0.35,
+   "last": 0.003173,
+   "last_ts": "2026-11-19T19:10:24+00:00",
+   "move_pct": 0.38,
    "closed": false,
    "rsi": 58.0,
    "trade_on": "Spot",
@@ -251,9 +251,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.004489,
-   "last_ts": "2026-11-19T19:05:20+00:00",
-   "move_pct": -1.12,
+   "last": 0.004499,
+   "last_ts": "2026-11-19T19:10:24+00:00",
+   "move_pct": -0.9,
    "closed": false,
    "rsi": 64.2,
    "trade_on": "Spot",
@@ -7930,23 +7930,6 @@
     ]
    },
    {
-    "id": "storage",
-    "name": "Storage",
-    "chg7d": -8.13,
-    "top": [
-     "FIL",
-     "BTT",
-     "AR",
-     "AIOZ",
-     "ICNT"
-    ],
-    "tracked": [
-     "FIL",
-     "AR",
-     "WAL"
-    ]
-   },
-   {
     "id": "ai-agents",
     "name": "AI Agents",
     "chg7d": -8.21,
@@ -8069,6 +8052,23 @@
      "RAY",
      "DYDX",
      "F"
+    ]
+   },
+   {
+    "id": "storage",
+    "name": "Storage",
+    "chg7d": -10.37,
+    "top": [
+     "FIL",
+     "BTT",
+     "AR",
+     "ICNT",
+     "AIOZ"
+    ],
+    "tracked": [
+     "FIL",
+     "AR",
+     "WAL"
     ]
    },
    {
@@ -8260,7 +8260,7 @@
   "updated": {
    "unlocks": 1795094720,
    "onchain": 1795114830,
-   "sectors": 1795114528,
+   "sectors": 1795115423,
    "listings": 1795114225,
    "fundamentals": 1795094721
   }
@@ -8299,6 +8299,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "f4c1122e423ef75c8df4a304c8b2ee21a8df896c14728eb83c27d5bc4d3db1cd",
- "generated": "2026-11-19T19:05:25+00:00"
+ "digest": "cdebd40469470b26d1643a15c057279057a1a051f2f47628fbeca3034252caf6",
+ "generated": "2026-11-19T19:10:27+00:00"
 }
