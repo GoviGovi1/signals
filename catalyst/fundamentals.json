@@ -1,5 +1,20 @@
 {
  "coins": {
+  "1INCH": {
+   "dex_7d": 75922016,
+   "dex_slugs": [
+    "1inch"
+   ],
+   "dex_wow_pct": 4291.1,
+   "fees_7d": 47329,
+   "fees_slugs": [
+    "1inch"
+   ],
+   "fees_wow_pct": 304.9,
+   "name": "1inch Swap",
+   "tvl": 2427969,
+   "tvl_7d_pct": -11.0
+  },
   "2Z": {
    "fees_7d": 575,
    "fees_slugs": [
@@ -7,8 +22,8 @@
    ],
    "fees_wow_pct": -84.1,
    "name": "DoubleZero Staked SOL",
-   "tvl": 794511,
-   "tvl_7d_pct": -9.7
+   "tvl": 795047,
+   "tvl_7d_pct": -9.0
   },
   "AAVE": {
    "fees_7d": 11059576,
@@ -17,13 +32,13 @@
    ],
    "fees_wow_pct": 17.6,
    "name": "Aave",
-   "tvl": 14953843032,
-   "tvl_7d_pct": -8.7
+   "tvl": 15043690178,
+   "tvl_7d_pct": -7.6
   },
   "ADA": {
    "chain": "Cardano",
-   "chain_tvl": 45016178,
-   "chain_tvl_7d_pct": -9.8
+   "chain_tvl": 45247284,
+   "chain_tvl_7d_pct": -9.4
   },
   "AEON": {
    "fees_7d": 9527,
@@ -32,8 +47,8 @@
    ],
    "fees_wow_pct": 279.3,
    "name": "AEON Protocol",
-   "tvl": 4104,
-   "tvl_7d_pct": -9.2
+   "tvl": 4134,
+   "tvl_7d_pct": -8.0
   },
   "AERO": {
    "dex_7d": 6468491539,
@@ -47,8 +62,13 @@
    ],
    "fees_wow_pct": 8.9,
    "name": "Aero Slipstream",
-   "tvl": 323675101,
-   "tvl_7d_pct": -5.5
+   "tvl": 312302465,
+   "tvl_7d_pct": -5.7
+  },
+  "AEVO": {
+   "name": "Aevo Perps",
+   "tvl": 14634877,
+   "tvl_7d_pct": -1.1
   },
   "API3": {
    "fees_7d": 24736,
@@ -57,8 +77,8 @@
    ],
    "fees_wow_pct": 16.9,
    "name": "Api3",
-   "tvl": 10799257,
-   "tvl_7d_pct": -16.6
+   "tvl": 10813269,
+   "tvl_7d_pct": -16.2
   },
   "APR": {
    "fees_7d": 260,
@@ -67,18 +87,18 @@
    ],
    "fees_wow_pct": -4.1,
    "name": "aPriori",
-   "tvl": 147109,
-   "tvl_7d_pct": -17.1
+   "tvl": 146575,
+   "tvl_7d_pct": -15.7
   },
   "APT": {
    "chain": "Aptos",
-   "chain_tvl": 37712710,
-   "chain_tvl_7d_pct": -5.4
+   "chain_tvl": 37854512,
+   "chain_tvl_7d_pct": -5.1
   },
   "ARB": {
    "chain": "Arbitrum",
-   "chain_tvl": 1309993379,
-   "chain_tvl_7d_pct": -5.0,
+   "chain_tvl": 1315805966,
+   "chain_tvl_7d_pct": -4.6,
    "fees_7d": 18662,
    "fees_slugs": [
     "arbitrum-foundation"
@@ -97,8 +117,8 @@
    ],
    "fees_wow_pct": -42.9,
    "name": "Arbitrum Exchange",
-   "tvl": 561,
-   "tvl_7d_pct": -9.4
+   "tvl": 566,
+   "tvl_7d_pct": -8.6
   },
   "ASTER": {
    "dex_7d": 85498990,
@@ -112,8 +132,8 @@
    ],
    "fees_wow_pct": 40.8,
    "name": "Aster USDF",
-   "tvl": 164352867,
-   "tvl_7d_pct": -2.2
+   "tvl": 164658692,
+   "tvl_7d_pct": -1.9
   },
   "ATH": {
    "fees_7d": 0,
@@ -122,15 +142,10 @@
    ],
    "fees_wow_pct": -100.0
   },
-  "AUCTION": {
-   "name": "Bounce Finance",
-   "tvl": 6066,
-   "tvl_7d_pct": 0.0
-  },
   "AVAX": {
    "chain": "Avalanche",
-   "chain_tvl": 545142284,
-   "chain_tvl_7d_pct": -10.5
+   "chain_tvl": 548556069,
+   "chain_tvl_7d_pct": -9.9
   },
   "AVNT": {
    "fees_7d": 854400,
@@ -139,8 +154,8 @@
    ],
    "fees_wow_pct": 480.1,
    "name": "Veranta",
-   "tvl": 10302790,
-   "tvl_7d_pct": -9.5
+   "tvl": 11901814,
+   "tvl_7d_pct": 3.3
   },
   "AXS": {
    "fees_7d": 20264,
@@ -151,8 +166,8 @@
   },
   "BABY": {
    "name": "Babylon Protocol",
-   "tvl": 2634723661,
-   "tvl_7d_pct": -12.7
+   "tvl": 2661507273,
+   "tvl_7d_pct": -11.7
   },
   "BARD": {
    "fees_7d": 185720,
@@ -161,8 +176,8 @@
    ],
    "fees_wow_pct": 14.2,
    "name": "Lombard LBTC",
-   "tvl": 474410356,
-   "tvl_7d_pct": -17.5
+   "tvl": 477523194,
+   "tvl_7d_pct": -16.8
   },
   "BASED": {
    "dex_7d": 1322924,
@@ -177,18 +192,18 @@
    ],
    "fees_wow_pct": 76.8,
    "name": "Based",
-   "tvl": 130,
-   "tvl_7d_pct": -31.8
+   "tvl": 95,
+   "tvl_7d_pct": -37.0
   },
   "BERA": {
    "chain": "Berachain",
-   "chain_tvl": 27695296,
+   "chain_tvl": 27691125,
    "chain_tvl_7d_pct": -6.8
   },
   "BIO": {
    "name": "Bio Protocol",
-   "tvl": 2254506,
-   "tvl_7d_pct": -17.8
+   "tvl": 2264001,
+   "tvl_7d_pct": -17.5
   },
   "BLUR": {
    "dex_7d": 85369,
@@ -202,13 +217,13 @@
    ],
    "fees_wow_pct": -99.8,
    "name": "Blur Bids",
-   "tvl": 9137924,
-   "tvl_7d_pct": -17.6
+   "tvl": 9170100,
+   "tvl_7d_pct": -15.7
   },
   "BNB": {
    "chain": "BSC",
-   "chain_tvl": 4487593583,
-   "chain_tvl_7d_pct": -10.6,
+   "chain_tvl": 4514062999,
+   "chain_tvl_7d_pct": -10.1,
    "fees_7d": 148547,
    "fees_slugs": [
     "binance-alpha"
@@ -216,24 +231,24 @@
    "fees_wow_pct": -23.7
   },
   "BONK": {
-   "dex_7d": 1717739,
+   "dex_7d": 2165373,
    "dex_slugs": [
     "bonkfun"
    ],
-   "dex_wow_pct": -23.3,
+   "dex_wow_pct": -3.3,
    "fees_7d": 265199,
    "fees_slugs": [
     "bonkfun"
    ],
    "fees_wow_pct": -76.1,
    "name": "Bonk Staked SOL",
-   "tvl": 5913379,
-   "tvl_7d_pct": -10.2
+   "tvl": 5937524,
+   "tvl_7d_pct": -9.6
   },
   "BTC": {
    "chain": "Bitcoin",
-   "chain_tvl": 3194536509,
-   "chain_tvl_7d_pct": -13.9
+   "chain_tvl": 3225674111,
+   "chain_tvl_7d_pct": -13.0
   },
   "CAP": {
    "fees_7d": 131738,
@@ -243,8 +258,8 @@
    ],
    "fees_wow_pct": 53.5,
    "name": "cap",
-   "tvl": 144784506,
-   "tvl_7d_pct": -15.6
+   "tvl": 145539994,
+   "tvl_7d_pct": -14.3
   },
   "CARDS": {
    "dex_7d": 24705752,
@@ -258,6 +273,13 @@
    ],
    "fees_wow_pct": -17.8
   },
+  "CFG": {
+   "fees_7d": 648575,
+   "fees_slugs": [
+    "centrifuge"
+   ],
+   "fees_wow_pct": 21.9
+  },
   "CHIP": {
    "fees_7d": 170238,
    "fees_slugs": [
@@ -265,7 +287,7 @@
    ],
    "fees_wow_pct": 4690.0,
    "name": "USD AI",
-   "tvl": 159118946,
+   "tvl": 159155481,
    "tvl_7d_pct": 0.8
   },
   "COMP": {
@@ -275,13 +297,13 @@
    ],
    "fees_wow_pct": -12.6,
    "name": "Compound",
-   "tvl": 1146004935,
-   "tvl_7d_pct": -10.1
+   "tvl": 1150177468,
+   "tvl_7d_pct": -9.5
   },
   "CORE": {
    "name": "cVault Finance",
-   "tvl": 4710056,
-   "tvl_7d_pct": -12.0
+   "tvl": 4735240,
+   "tvl_7d_pct": -11.5
   },
   "CRO": {
    "dex_7d": 336322,
@@ -295,8 +317,8 @@
    ],
    "fees_wow_pct": -17.9,
    "name": "Defi Swap",
-   "tvl": 868389,
-   "tvl_7d_pct": -8.1
+   "tvl": 867456,
+   "tvl_7d_pct": -7.9
   },
   "CRV": {
    "dex_7d": 892191805,
@@ -310,8 +332,8 @@
    ],
    "fees_wow_pct": 6.1,
    "name": "Curve DEX",
-   "tvl": 1196532331,
-   "tvl_7d_pct": -6.6
+   "tvl": 1200330458,
+   "tvl_7d_pct": -5.9
   },
   "CT": {
    "fees_7d": 219101,
@@ -320,23 +342,13 @@
    ],
    "fees_wow_pct": 26.0,
    "name": "Concrete",
-   "tvl": 1042811174,
-   "tvl_7d_pct": -9.5
-  },
-  "CVX": {
-   "fees_7d": 233729,
-   "fees_slugs": [
-    "convex-finance"
-   ],
-   "fees_wow_pct": -48.5,
-   "name": "Convex Finance",
-   "tvl": 426723968,
-   "tvl_7d_pct": -11.2
+   "tvl": 1044148090,
+   "tvl_7d_pct": -9.2
   },
   "DNA": {
    "name": "STOCKMON",
-   "tvl": 26485,
-   "tvl_7d_pct": -2.6
+   "tvl": 26775,
+   "tvl_7d_pct": -1.2
   },
   "DOS": {
    "dex_7d": 0,
@@ -352,8 +364,8 @@
   },
   "DOT": {
    "name": "Acala LCDOT",
-   "tvl": 3229770,
-   "tvl_7d_pct": -14.9
+   "tvl": 3227905,
+   "tvl_7d_pct": -14.6
   },
   "DYDX": {
    "fees_7d": 59370,
@@ -362,8 +374,8 @@
    ],
    "fees_wow_pct": 12.1,
    "name": "dYdX",
-   "tvl": 71797905,
-   "tvl_7d_pct": -4.8
+   "tvl": 71812917,
+   "tvl_7d_pct": -5.7
   },
   "EDGE": {
    "dex_7d": 168012588,
@@ -377,8 +389,8 @@
    ],
    "fees_wow_pct": 36.0,
    "name": "Definitive Yield",
-   "tvl": 1924,
-   "tvl_7d_pct": -5.1
+   "tvl": 1926,
+   "tvl_7d_pct": -4.8
   },
   "EIGEN": {
    "fees_7d": 16938,
@@ -387,8 +399,8 @@
    ],
    "fees_wow_pct": 3.0,
    "name": "EigenCloud",
-   "tvl": 4553340709,
-   "tvl_7d_pct": -12.9
+   "tvl": 4582541802,
+   "tvl_7d_pct": -12.4
   },
   "ENA": {
    "dex_7d": 741696,
@@ -402,8 +414,8 @@
    ],
    "fees_wow_pct": 19.1,
    "name": "Ethena USDe",
-   "tvl": 5222716741,
-   "tvl_7d_pct": -2.0
+   "tvl": 5234263009,
+   "tvl_7d_pct": -1.5
   },
   "ENS": {
    "fees_7d": 65572,
@@ -414,8 +426,8 @@
   },
   "ETH": {
    "chain": "Ethereum",
-   "chain_tvl": 36985959977,
-   "chain_tvl_7d_pct": -9.4
+   "chain_tvl": 37119989659,
+   "chain_tvl_7d_pct": -9.1
   },
   "ETHFI": {
    "dex_7d": 33431861,
@@ -429,8 +441,8 @@
    ],
    "fees_wow_pct": 3.6,
    "name": "ether.fi Stake",
-   "tvl": 4242837150,
-   "tvl_7d_pct": -11.2
+   "tvl": 4246684615,
+   "tvl_7d_pct": -10.1
   },
   "F": {
    "fees_7d": 68729,
@@ -439,7 +451,7 @@
    ],
    "fees_wow_pct": 25.5,
    "name": "SynFutures",
-   "tvl": 2090623,
+   "tvl": 2090869,
    "tvl_7d_pct": -0.3
   },
   "FLOCK": {
@@ -451,8 +463,8 @@
   },
   "FLOKI": {
    "name": "FlokiFi Locker",
-   "tvl": 9561301,
-   "tvl_7d_pct": -11.2
+   "tvl": 9646465,
+   "tvl_7d_pct": -9.9
   },
   "FLOW": {
    "dex_7d": 2241423,
@@ -467,8 +479,8 @@
    ],
    "fees_wow_pct": 151.2,
    "name": "FlowSwap",
-   "tvl": 2458208,
-   "tvl_7d_pct": -11.5
+   "tvl": 2451501,
+   "tvl_7d_pct": -10.9
   },
   "GAS": {
    "fees_7d": 4108,
@@ -477,8 +489,8 @@
    ],
    "fees_wow_pct": 1241.2,
    "name": "Gas404Swap",
-   "tvl": 16641,
-   "tvl_7d_pct": -13.4
+   "tvl": 16939,
+   "tvl_7d_pct": -10.7
   },
   "GMX": {
    "dex_7d": 16131677,
@@ -492,25 +504,8 @@
    ],
    "fees_wow_pct": -17.4,
    "name": "GMX EVM",
-   "tvl": 191091455,
-   "tvl_7d_pct": -4.0
-  },
-  "GPS": {
-   "fees_7d": 99,
-   "fees_slugs": [
-    "goplus-security"
-   ],
-   "fees_wow_pct": -95.2,
-   "name": "GoPlus Locker",
-   "tvl": 25772115,
-   "tvl_7d_pct": -11.1
-  },
-  "GRT": {
-   "fees_7d": 1777,
-   "fees_slugs": [
-    "the-graph"
-   ],
-   "fees_wow_pct": -24.9
+   "tvl": 191638807,
+   "tvl_7d_pct": -3.3
   },
   "HOME": {
    "dex_7d": 0,
@@ -531,13 +526,13 @@
    ],
    "fees_wow_pct": 7.2,
    "name": "Huma",
-   "tvl": 339395738,
-   "tvl_7d_pct": -1.8
+   "tvl": 339581925,
+   "tvl_7d_pct": -1.7
   },
   "HYPE": {
    "chain": "Hyperliquid L1",
-   "chain_tvl": 2261398381,
-   "chain_tvl_7d_pct": -1.5,
+   "chain_tvl": 2279408445,
+   "chain_tvl_7d_pct": -0.7,
    "dex_7d": 1520677113,
    "dex_slugs": [
     "hyperliquid"
@@ -551,13 +546,13 @@
   },
   "IMX": {
    "name": "ImmutableX",
-   "tvl": 441239,
-   "tvl_7d_pct": -11.3
+   "tvl": 442780,
+   "tvl_7d_pct": -10.7
   },
   "INJ": {
    "chain": "Injective",
-   "chain_tvl": 16131300,
-   "chain_tvl_7d_pct": -8.1,
+   "chain_tvl": 16609886,
+   "chain_tvl_7d_pct": -5.4,
    "dex_7d": 7788396,
    "dex_slugs": [
     "injective-orderbook"
@@ -565,14 +560,14 @@
    "dex_wow_pct": -8.4
   },
   "JTO": {
-   "fees_7d": 1512295,
+   "fees_7d": 1524884,
    "fees_slugs": [
     "jito"
    ],
-   "fees_wow_pct": -16.1,
+   "fees_wow_pct": -15.4,
    "name": "Jito Liquid Staking",
-   "tvl": 765001891,
-   "tvl_7d_pct": -11.3
+   "tvl": 764833785,
+   "tvl_7d_pct": -11.2
   },
   "KAITO": {
    "fees_7d": 0,
@@ -589,14 +584,14 @@
    "fees_wow_pct": null
   },
   "KMNO": {
-   "fees_7d": 792814,
+   "fees_7d": 913288,
    "fees_slugs": [
     "kamino-finance"
    ],
-   "fees_wow_pct": -15.9,
+   "fees_wow_pct": -3.1,
    "name": "Kamino Lend",
-   "tvl": 1218345854,
-   "tvl_7d_pct": -0.2
+   "tvl": 1219953768,
+   "tvl_7d_pct": 0.1
   },
   "KSM": {
    "dex_7d": 1584,
@@ -605,8 +600,8 @@
    ],
    "dex_wow_pct": -14.5,
    "name": "Karura Liquid Staking",
-   "tvl": 260090,
-   "tvl_7d_pct": -10.0
+   "tvl": 264570,
+   "tvl_7d_pct": -8.7
   },
   "LAB": {
    "fees_7d": 10772,
@@ -615,8 +610,8 @@
    ],
    "fees_wow_pct": -12.7,
    "name": "LayerBank",
-   "tvl": 4236231,
-   "tvl_7d_pct": -20.9
+   "tvl": 4258048,
+   "tvl_7d_pct": -20.6
   },
   "LAYER": {
    "dex_7d": 37,
@@ -630,8 +625,8 @@
    ],
    "fees_wow_pct": -32.2,
    "name": "Solayer Restaking",
-   "tvl": 8047956,
-   "tvl_7d_pct": -10.4
+   "tvl": 8054664,
+   "tvl_7d_pct": -10.3
   },
   "LDO": {
    "fees_7d": 8910967,
@@ -640,8 +635,8 @@
    ],
    "fees_wow_pct": -14.2,
    "name": "Lido",
-   "tvl": 17549777198,
-   "tvl_7d_pct": -12.1
+   "tvl": 17660581776,
+   "tvl_7d_pct": -11.3
   },
   "LIGHT": {
    "dex_7d": 55,
@@ -674,8 +669,8 @@
    ],
    "fees_wow_pct": 15.4,
    "name": "Lighter Robinhood Perps",
-   "tvl": 183662473,
-   "tvl_7d_pct": -14.1
+   "tvl": 184029626,
+   "tvl_7d_pct": -13.9
   },
   "LPT": {
    "fees_7d": 5614,
@@ -686,7 +681,7 @@
   },
   "LTC": {
    "chain": "Litecoin",
-   "chain_tvl": 771572,
+   "chain_tvl": 771472,
    "chain_tvl_7d_pct": -10.9
   },
   "LUNA": {
@@ -702,13 +697,13 @@
    ],
    "fees_wow_pct": null,
    "name": "LUNA",
-   "tvl": 1804,
-   "tvl_7d_pct": -12.7
+   "tvl": 1811,
+   "tvl_7d_pct": -12.1
   },
   "MAGIC": {
    "name": "Magic Land",
-   "tvl": 29799,
-   "tvl_7d_pct": -7.9
+   "tvl": 30885,
+   "tvl_7d_pct": -3.5
   },
   "MASK": {
    "fees_7d": 212202,
@@ -717,34 +712,34 @@
    ],
    "fees_wow_pct": 10.1,
    "name": "Nullmask",
-   "tvl": 176795,
-   "tvl_7d_pct": -18.3
+   "tvl": 166451,
+   "tvl_7d_pct": -31.6
   },
   "ME": {
    "name": "Magic Eden",
-   "tvl": 116012,
-   "tvl_7d_pct": -11.0
+   "tvl": 117995,
+   "tvl_7d_pct": -8.3
   },
   "MEME": {
    "name": "MemeDex",
-   "tvl": 44558,
-   "tvl_7d_pct": -9.0
+   "tvl": 44661,
+   "tvl_7d_pct": -8.7
   },
   "MET": {
-   "dex_7d": 1000021374,
+   "dex_7d": 1246196132,
    "dex_slugs": [
     "meteora"
    ],
-   "dex_wow_pct": 1.7,
-   "fees_7d": 3508087,
+   "dex_wow_pct": 26.8,
+   "fees_7d": 4435878,
    "fees_slugs": [
     "meteora",
     "metronome"
    ],
-   "fees_wow_pct": -27.8,
+   "fees_wow_pct": -8.8,
    "name": "Meteora DLMM",
-   "tvl": 225408315,
-   "tvl_7d_pct": -8.7
+   "tvl": 225815733,
+   "tvl_7d_pct": -8.3
   },
   "MMT": {
    "dex_7d": 7283445,
@@ -758,8 +753,8 @@
    ],
    "fees_wow_pct": 210.9,
    "name": "Momentum",
-   "tvl": 3170451,
-   "tvl_7d_pct": -5.4
+   "tvl": 3181365,
+   "tvl_7d_pct": -4.6
   },
   "MORPHO": {
    "fees_7d": 11098285,
@@ -768,8 +763,8 @@
    ],
    "fees_wow_pct": 33.2,
    "name": "Morpho Blue",
-   "tvl": 10200063036,
-   "tvl_7d_pct": -7.4
+   "tvl": 10236783635,
+   "tvl_7d_pct": -6.8
   },
   "MOVE": {
    "fees_7d": 0,
@@ -778,18 +773,18 @@
    ],
    "fees_wow_pct": null,
    "name": "Mover",
-   "tvl": 29473,
-   "tvl_7d_pct": 2.2
+   "tvl": 29773,
+   "tvl_7d_pct": 2.8
   },
   "NEAR": {
    "chain": "Near",
-   "chain_tvl": 157511410,
-   "chain_tvl_7d_pct": -6.1
+   "chain_tvl": 159270516,
+   "chain_tvl_7d_pct": -5.1
   },
   "NMR": {
    "name": "Erasure",
    "tvl": 1641,
-   "tvl_7d_pct": -8.9
+   "tvl_7d_pct": -9.2
   },
   "O": {
    "dex_7d": 999582,
@@ -805,8 +800,8 @@
   },
   "OKB": {
    "chain": "X Layer",
-   "chain_tvl": 208462884,
-   "chain_tvl_7d_pct": 29.7
+   "chain_tvl": 209641172,
+   "chain_tvl_7d_pct": 30.4
   },
   "ONDO": {
    "dex_7d": 130162424,
@@ -822,8 +817,8 @@
   },
   "OP": {
    "chain": "OP Mainnet",
-   "chain_tvl": 372477622,
-   "chain_tvl_7d_pct": -6.6,
+   "chain_tvl": 375556736,
+   "chain_tvl_7d_pct": -5.8,
    "fees_7d": 0,
    "fees_slugs": [
     "optimism-foundation"
@@ -842,8 +837,8 @@
    ],
    "fees_wow_pct": -6.2,
    "name": "OPINION",
-   "tvl": 2697795,
-   "tvl_7d_pct": -2.1
+   "tvl": 2697460,
+   "tvl_7d_pct": -0.8
   },
   "ORDER": {
    "dex_7d": 0,
@@ -869,13 +864,13 @@
    ],
    "fees_wow_pct": 38.1,
    "name": "Pendle",
-   "tvl": 1006883257,
-   "tvl_7d_pct": -3.8
+   "tvl": 999996429,
+   "tvl_7d_pct": -4.9
   },
   "POL": {
    "chain": "Polygon",
-   "chain_tvl": 599482027,
-   "chain_tvl_7d_pct": -5.3
+   "chain_tvl": 603813320,
+   "chain_tvl_7d_pct": -4.6
   },
   "PONS": {
    "dex_7d": 13672722,
@@ -890,19 +885,19 @@
    "fees_wow_pct": -38.2
   },
   "PUMP": {
-   "dex_7d": 2138466601,
+   "dex_7d": 2276910672,
    "dex_slugs": [
     "pump"
    ],
-   "dex_wow_pct": -3.4,
+   "dex_wow_pct": 2.9,
    "fees_7d": 24041420,
    "fees_slugs": [
     "pump"
    ],
    "fees_wow_pct": 2.5,
    "name": "PumpSwap",
-   "tvl": 251620131,
-   "tvl_7d_pct": -7.6
+   "tvl": 251446848,
+   "tvl_7d_pct": -7.3
   },
   "PYTH": {
    "fees_7d": 394,
@@ -912,7 +907,7 @@
    "fees_wow_pct": -36.9
   },
   "RAY": {
-   "dex_7d": 988912897,
+   "dex_7d": 989805388,
    "dex_slugs": [
     "raydium"
    ],
@@ -923,8 +918,8 @@
    ],
    "fees_wow_pct": -40.6,
    "name": "Raydium AMM",
-   "tvl": 824915569,
-   "tvl_7d_pct": -12.6
+   "tvl": 823107904,
+   "tvl_7d_pct": -13.1
   },
   "RE": {
    "fees_7d": 549832,
@@ -933,8 +928,8 @@
    ],
    "fees_wow_pct": -0.0,
    "name": "Re",
-   "tvl": 469429588,
-   "tvl_7d_pct": -3.8
+   "tvl": 468464804,
+   "tvl_7d_pct": -4.0
   },
   "RENDER": {
    "fees_7d": 105613,
@@ -950,7 +945,7 @@
    ],
    "fees_wow_pct": null,
    "name": "Resolv USR",
-   "tvl": 6149340,
+   "tvl": 6148756,
    "tvl_7d_pct": 0.0
   },
   "RIVER": {
@@ -960,8 +955,8 @@
    ],
    "fees_wow_pct": -98.6,
    "name": "River Omni-CDP",
-   "tvl": 16183181,
-   "tvl_7d_pct": -77.7
+   "tvl": 16319036,
+   "tvl_7d_pct": -77.4
   },
   "RSR": {
    "fees_7d": 16689,
@@ -970,18 +965,18 @@
    ],
    "fees_wow_pct": -7.4,
    "name": "Reserve Protocol",
-   "tvl": 42218818,
-   "tvl_7d_pct": -5.1
+   "tvl": 42233170,
+   "tvl_7d_pct": -4.9
   },
   "S": {
    "chain": "Sonic",
-   "chain_tvl": 11578059,
+   "chain_tvl": 11580896,
    "chain_tvl_7d_pct": -17.1
   },
   "SEI": {
    "chain": "Sei",
-   "chain_tvl": 20613421,
-   "chain_tvl_7d_pct": -1.8
+   "chain_tvl": 20594958,
+   "chain_tvl_7d_pct": -1.9
   },
   "SHELL": {
    "dex_7d": 0,
@@ -990,13 +985,13 @@
    ],
    "dex_wow_pct": null,
    "name": "Shell Protocol",
-   "tvl": 106340,
-   "tvl_7d_pct": -7.1
+   "tvl": 106793,
+   "tvl_7d_pct": -6.7
   },
   "SHIB": {
    "name": "Shibex",
-   "tvl": 4070,
-   "tvl_7d_pct": -12.7
+   "tvl": 4091,
+   "tvl_7d_pct": -11.5
   },
   "SKY": {
    "fees_7d": 6564689,
@@ -1005,8 +1000,8 @@
    ],
    "fees_wow_pct": 11.4,
    "name": "Sky Lending",
-   "tvl": 3759768740,
-   "tvl_7d_pct": -8.6
+   "tvl": 3728502819,
+   "tvl_7d_pct": -9.3
   },
   "SLX": {
    "fees_7d": 2651,
@@ -1015,7 +1010,7 @@
    ],
    "fees_wow_pct": -42.1,
    "name": "Solstice",
-   "tvl": 201129752,
+   "tvl": 201084163,
    "tvl_7d_pct": 0.0
   },
   "SNX": {
@@ -1025,13 +1020,13 @@
    ],
    "fees_wow_pct": 25.0,
    "name": "Synthetix",
-   "tvl": 856215,
-   "tvl_7d_pct": -1.9
+   "tvl": 856961,
+   "tvl_7d_pct": -1.7
   },
   "SOL": {
    "chain": "Solana",
-   "chain_tvl": 4760543762,
-   "chain_tvl_7d_pct": -5.5
+   "chain_tvl": 4762048762,
+   "chain_tvl_7d_pct": -5.4
   },
   "SPACE": {
    "dex_7d": 181678,
@@ -1040,8 +1035,8 @@
    ],
    "dex_wow_pct": 72.1,
    "name": "SpaceFi zkSync",
-   "tvl": 855513,
-   "tvl_7d_pct": -5.6
+   "tvl": 928542,
+   "tvl_7d_pct": 2.5
   },
   "SPK": {
    "fees_7d": 4648862,
@@ -1050,23 +1045,33 @@
    ],
    "fees_wow_pct": -4.1,
    "name": "SparkLend",
-   "tvl": 7983131853,
-   "tvl_7d_pct": -6.5
+   "tvl": 7973994880,
+   "tvl_7d_pct": -7.3
+  },
+  "SSV": {
+   "fees_7d": 52088,
+   "fees_slugs": [
+    "ssv-network"
+   ],
+   "fees_wow_pct": -15.0,
+   "name": "SSV Network",
+   "tvl": 9581370609,
+   "tvl_7d_pct": -11.5
   },
   "STABLE": {
    "name": "USDFI Lending",
-   "tvl": 70594,
-   "tvl_7d_pct": -9.0
+   "tvl": 70965,
+   "tvl_7d_pct": -9.2
   },
   "STRK": {
    "chain": "Starknet",
-   "chain_tvl": 34314358,
-   "chain_tvl_7d_pct": 3.0
+   "chain_tvl": 34784708,
+   "chain_tvl_7d_pct": 4.4
   },
   "SUI": {
    "chain": "Sui",
-   "chain_tvl": 355435682,
-   "chain_tvl_7d_pct": -13.9
+   "chain_tvl": 363374997,
+   "chain_tvl_7d_pct": -12.0
   },
   "SUSHI": {
    "dex_7d": 47462811,
@@ -1080,8 +1085,8 @@
    ],
    "fees_wow_pct": 1.2,
    "name": "SushiSwap",
-   "tvl": 82210944,
-   "tvl_7d_pct": -7.5
+   "tvl": 82401976,
+   "tvl_7d_pct": -6.8
   },
   "TRIA": {
    "dex_7d": 499,
@@ -1098,12 +1103,12 @@
   "TRUST": {
    "name": "Intuition",
    "tvl": 0,
-   "tvl_7d_pct": -13.2
+   "tvl_7d_pct": -12.1
   },
   "TRX": {
    "chain": "Tron",
-   "chain_tvl": 4304854241,
-   "chain_tvl_7d_pct": -12.2
+   "chain_tvl": 4459309135,
+   "chain_tvl_7d_pct": -9.0
   },
   "UNI": {
    "dex_7d": 14589757224,
@@ -1111,14 +1116,14 @@
     "uniswap"
    ],
    "dex_wow_pct": 8.3,
-   "fees_7d": 12727157,
+   "fees_7d": 12740074,
    "fees_slugs": [
     "uniswap"
    ],
-   "fees_wow_pct": -6.3,
+   "fees_wow_pct": -6.2,
    "name": "Uniswap",
-   "tvl": 2989783819,
-   "tvl_7d_pct": -12.4
+   "tvl": 3006115902,
+   "tvl_7d_pct": -11.4
   },
   "VIRTUAL": {
    "dex_7d": 98539,
@@ -1146,15 +1151,15 @@
    ],
    "fees_wow_pct": -65.7,
    "name": "WhaleEx",
-   "tvl": 3364594,
-   "tvl_7d_pct": -4.3
+   "tvl": 3369334,
+   "tvl_7d_pct": -4.1
   },
   "WET": {
-   "dex_7d": 26113393,
+   "dex_7d": 63389300,
    "dex_slugs": [
     "humidifi"
    ],
-   "dex_wow_pct": 73.7,
+   "dex_wow_pct": 321.6,
    "fees_7d": 541,
    "fees_slugs": [
     "humidifi"
@@ -1170,13 +1175,28 @@
   },
   "XPL": {
    "chain": "Plasma",
-   "chain_tvl": 410315142,
-   "chain_tvl_7d_pct": -3.3
+   "chain_tvl": 406852820,
+   "chain_tvl_7d_pct": -4.1
   },
   "XRP": {
    "chain": "XRPL",
-   "chain_tvl": 31146388,
-   "chain_tvl_7d_pct": -3.9
+   "chain_tvl": 31346466,
+   "chain_tvl_7d_pct": -3.3
+  },
+  "YB": {
+   "dex_7d": 10374897,
+   "dex_slugs": [
+    "yield-basis"
+   ],
+   "dex_wow_pct": 139.2,
+   "fees_7d": 128283,
+   "fees_slugs": [
+    "yield-basis"
+   ],
+   "fees_wow_pct": null,
+   "name": "Yield Basis",
+   "tvl": 78850966,
+   "tvl_7d_pct": -10.1
   },
   "YFI": {
    "fees_7d": 166712,
@@ -1185,18 +1205,18 @@
    ],
    "fees_wow_pct": -26.3,
    "name": "Yearn Finance",
-   "tvl": 174914120,
-   "tvl_7d_pct": -7.7
+   "tvl": 174833727,
+   "tvl_7d_pct": -6.7
   },
   "ZAMA": {
    "name": "Zama",
-   "tvl": 81703760,
-   "tvl_7d_pct": -17.7
+   "tvl": 82485495,
+   "tvl_7d_pct": -16.8
   },
   "ZBT": {
    "name": "ZEROBASE CeDeFi",
-   "tvl": 60127323,
-   "tvl_7d_pct": -0.1
+   "tvl": 60163261,
+   "tvl_7d_pct": -0.0
   },
   "ZEN": {
    "fees_7d": 50,
@@ -1205,13 +1225,13 @@
    ],
    "fees_wow_pct": 1600.7,
    "name": "Zena Finance",
-   "tvl": 243,
-   "tvl_7d_pct": -13.6
+   "tvl": 245,
+   "tvl_7d_pct": -12.3
   },
   "ZKP": {
    "name": "Panther Protocol",
-   "tvl": 82,
-   "tvl_7d_pct": -7.6
+   "tvl": 84,
+   "tvl_7d_pct": -3.6
   },
   "ZORA": {
    "dex_7d": 11705,
@@ -1227,5 +1247,5 @@
   }
  },
  "source": "DefiLlama (free API)",
- "updated": 1795072826
+ "updated": 1795094721
 }
