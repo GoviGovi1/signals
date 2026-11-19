@@ -1,50 +1,6 @@
 {
  "open": [
   {
-   "id": "SPCXC-DEX-base-0xb2000000-1794952800",
-   "kind": "ONCHAIN",
-   "score": null,
-   "reasons": [
-    "Trending on Base (GeckoTerminal), $12.4M volume 24h",
-    "Liquidity $970k, pool 27 days old",
-    "Safety: GoPlus OK",
-    "Chart: 20-hour breakout above EMA50 on the DEX, RSI 67",
-    "Untested: no free history to backtest on-chain signals"
-   ],
-   "chain": "Base",
-   "token": "0xb2000000000000000000007b9fcbd005511acbd5",
-   "url": "https://www.geckoterminal.com/base/pools/0x880db7dda4407d99508574e680d067d1164b3cfe",
-   "coin": "SPCXC",
-   "market": "DEX",
-   "side": "LONG",
-   "entry": 142.97117344842798,
-   "sl0": 137.82610293798754,
-   "sl": 137.82610293798754,
-   "tps": [
-    148.1162439588684,
-    153.26131446930887,
-    158.4063849797493
-   ],
-   "lev": null,
-   "funding_pct": null,
-   "status": "open",
-   "hits": 0,
-   "opened": "2026-11-17T23:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 139.562608909071,
-   "last_ts": "2026-11-19T16:50:24+00:00",
-   "move_pct": -2.38,
-   "closed": false,
-   "rsi": 67.2,
-   "trade_on": "On-chain spot (Base DEX)",
-   "market_reason": "not listed on OKX; buy on a DEX, small size, no leverage",
-   "chart": "charts/SPCXC-DEX-base-0xb2000000-1794952800.png",
-   "setup": null
-  },
-  {
    "id": "PIPPIN-PERP-HOT-20776",
    "kind": "HOT",
    "score": 2988.0,
@@ -74,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.01778,
-   "last_ts": "2026-11-19T16:50:24+00:00",
-   "move_pct": -1.6,
+   "last": 0.01788,
+   "last_ts": "2026-11-19T16:55:19+00:00",
+   "move_pct": -1.05,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -114,9 +70,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 2.9427,
-   "last_ts": "2026-11-19T16:50:24+00:00",
-   "move_pct": 12.99,
+   "last": 2.9566,
+   "last_ts": "2026-11-19T16:55:19+00:00",
+   "move_pct": 13.53,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -159,9 +115,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.004565,
-   "last_ts": "2026-11-19T16:50:24+00:00",
-   "move_pct": 0.75,
+   "last": 0.00453,
+   "last_ts": "2026-11-19T16:55:19+00:00",
+   "move_pct": -0.02,
    "closed": false,
    "rsi": 68.8,
    "trade_on": "Spot",
@@ -197,7 +153,7 @@
     0.1805829813635573
    ],
    "lev": 1,
-   "funding_pct": 0.0072,
+   "funding_pct": 0.006,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-19T16:00:00+00:00",
@@ -205,9 +161,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.192,
-   "last_ts": "2026-11-19T16:50:24+00:00",
-   "move_pct": -0.47,
+   "last": 0.1912,
+   "last_ts": "2026-11-19T16:55:19+00:00",
+   "move_pct": -0.05,
    "closed": false,
    "rsi": 32.1,
    "trade_on": "Perps 1x",
@@ -217,6 +173,50 @@
   }
  ],
  "closed": [
+  {
+   "id": "SPCXC-DEX-base-0xb2000000-1794952800",
+   "kind": "ONCHAIN",
+   "score": null,
+   "reasons": [
+    "Trending on Base (GeckoTerminal), $12.4M volume 24h",
+    "Liquidity $970k, pool 27 days old",
+    "Safety: GoPlus OK",
+    "Chart: 20-hour breakout above EMA50 on the DEX, RSI 67",
+    "Untested: no free history to backtest on-chain signals"
+   ],
+   "chain": "Base",
+   "token": "0xb2000000000000000000007b9fcbd005511acbd5",
+   "url": "https://www.geckoterminal.com/base/pools/0x880db7dda4407d99508574e680d067d1164b3cfe",
+   "coin": "SPCXC",
+   "market": "DEX",
+   "side": "LONG",
+   "entry": 142.97117344842798,
+   "sl0": 137.82610293798754,
+   "sl": 137.82610293798754,
+   "tps": [
+    148.1162439588684,
+    153.26131446930887,
+    158.4063849797493
+   ],
+   "lev": null,
+   "funding_pct": null,
+   "status": "stopped",
+   "hits": 0,
+   "opened": "2026-11-17T23:00:00+00:00",
+   "closed_at": "2026-11-19T16:55:19+00:00",
+   "exit_price": 137.82610293798754,
+   "result_r": -1.0,
+   "result_pct": -3.6,
+   "last": 137.962151609232,
+   "last_ts": "2026-11-19T16:55:19+00:00",
+   "move_pct": -2.38,
+   "closed": true,
+   "rsi": 67.2,
+   "trade_on": "On-chain spot (Base DEX)",
+   "market_reason": "not listed on OKX; buy on a DEX, small size, no leverage",
+   "chart": "charts/SPCXC-DEX-base-0xb2000000-1794952800.png",
+   "setup": null
+  },
   {
    "id": "IRYS-SPOT-HOT-20776",
    "kind": "HOT",
@@ -1957,7 +1957,7 @@
    "rsi": 72.0,
    "trade_on": "On-chain spot (BSC DEX)",
    "market_reason": "not listed on OKX; buy on a DEX, small size, no leverage",
-   "chart": "charts/EVAA-DEX-bsc-0xaa036928-1794812400.png",
+   "chart": null,
    "setup": null
   },
   {
@@ -2782,57 +2782,17 @@
    "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
    "chart": null,
    "setup": "RANGE_BREAK"
-  },
-  {
-   "id": "SHELL-PERP-HOT-20770",
-   "kind": "HOT",
-   "score": 385.72,
-   "reasons": [
-    "24h hot mover +25% with volume spike (2.6x the prior 3 days)",
-    "24h volume $788k on the OKX perp book, listed 624 days",
-    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
-    "Stop 0.02328 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
-   ],
-   "coin": "SHELL",
-   "market": "PERP",
-   "side": "LONG",
-   "entry": 0.02425,
-   "sl0": 0.023280000000000002,
-   "sl": 0.02425,
-   "tps": [
-    0.02522,
-    0.02619,
-    0.02716
-   ],
-   "lev": 1,
-   "funding_pct": 0.005,
-   "status": "tp3",
-   "hits": 3,
-   "opened": "2026-11-13T16:30:28+00:00",
-   "closed_at": "2026-11-13T17:40:23+00:00",
-   "exit_price": 0.02716,
-   "result_r": 2.25,
-   "result_pct": 9.0,
-   "last": 0.02968,
-   "last_ts": "2026-11-13T17:40:23+00:00",
-   "move_pct": 11.22,
-   "closed": true,
-   "rsi": null,
-   "trade_on": "Perps 1x",
-   "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
-   "chart": null,
-   "setup": "HOT24"
   }
  ],
  "stats": {
   "all": {
-   "trades": 270,
+   "trades": 271,
    "wins": 130,
-   "losses": 140,
-   "win_rate": 48.1,
-   "total_r": 34.8,
-   "avg_r": 0.129,
-   "total_pct": 149.08
+   "losses": 141,
+   "win_rate": 48.0,
+   "total_r": 33.8,
+   "avg_r": 0.125,
+   "total_pct": 145.48
   },
   "SPOT": {
    "trades": 77,
@@ -2853,13 +2813,13 @@
    "total_pct": 87.99
   },
   "DEX": {
-   "trades": 13,
+   "trades": 14,
    "wins": 8,
-   "losses": 5,
-   "win_rate": 61.5,
-   "total_r": 1.09,
-   "avg_r": 0.084,
-   "total_pct": 23.41
+   "losses": 6,
+   "win_rate": 57.1,
+   "total_r": 0.09,
+   "avg_r": 0.007,
+   "total_pct": 19.81
   },
   "kinds": {
    "HOT": {
@@ -2872,13 +2832,13 @@
     "total_pct": 58.25
    },
    "ONCHAIN": {
-    "trades": 13,
+    "trades": 14,
     "wins": 8,
-    "losses": 5,
-    "win_rate": 61.5,
-    "total_r": 1.09,
-    "avg_r": 0.084,
-    "total_pct": 23.41
+    "losses": 6,
+    "win_rate": 57.1,
+    "total_r": 0.09,
+    "avg_r": 0.007,
+    "total_pct": 19.81
    },
    "TA": {
     "trades": 190,
@@ -4070,6 +4030,15 @@
     "avg_r": 0.625,
     "total_pct": 11.17
    },
+   "SPCXC": {
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate": 0.0,
+    "total_r": -1.0,
+    "avg_r": -1.0,
+    "total_pct": -3.6
+   },
    "STONK": {
     "trades": 1,
     "wins": 0,
@@ -4314,7 +4283,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 5
+  "open": 4
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7819,6 +7788,28 @@
     ]
    },
    {
+    "id": "decentralized-exchange",
+    "name": "Decentralized Exchange",
+    "chg7d": -7.72,
+    "top": [
+     "HYPE",
+     "UNI",
+     "ASTER",
+     "PUMP",
+     "JUP"
+    ],
+    "tracked": [
+     "MMT",
+     "HYPE",
+     "PUMP",
+     "UNI",
+     "LIT",
+     "ASTER",
+     "CRV",
+     "BASED"
+    ]
+   },
+   {
     "id": "depin",
     "name": "DePIN",
     "chg7d": -7.85,
@@ -7914,28 +7905,6 @@
     ],
     "tracked": [
      "W"
-    ]
-   },
-   {
-    "id": "decentralized-exchange",
-    "name": "Decentralized Exchange",
-    "chg7d": -8.5,
-    "top": [
-     "HYPE",
-     "UNI",
-     "ASTER",
-     "PUMP",
-     "JUP"
-    ],
-    "tracked": [
-     "MMT",
-     "HYPE",
-     "PUMP",
-     "UNI",
-     "LIT",
-     "ASTER",
-     "CRV",
-     "BASED"
     ]
    },
    {
@@ -8259,7 +8228,7 @@
   "updated": {
    "unlocks": 1795094720,
    "onchain": 1795104030,
-   "sectors": 1795106431,
+   "sectors": 1795107318,
    "listings": 1795106431,
    "fundamentals": 1795094721
   }
@@ -8298,6 +8267,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "8756c83df2cc4ce4da5944055d30db792e9821b7f69d8c2ed6bbb33a115c19ec",
- "generated": "2026-11-19T16:50:30+00:00"
+ "digest": "a903f626c0b5e32da940dda806c0bd1dcdf8b1ae2a69ddb36e0ef1c962aeda55",
+ "generated": "2026-11-19T16:55:26+00:00"
 }
