@@ -1,46 +1,6 @@
 {
  "open": [
   {
-   "id": "O-PERP-HOT-20774",
-   "kind": "HOT",
-   "score": 805.97,
-   "reasons": [
-    "24h hot mover +21% with volume spike (5.6x the prior 3 days)",
-    "24h volume $5.2M on the OKX perp book, listed 153 days",
-    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
-    "Stop 0.51024 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
-   ],
-   "coin": "O",
-   "market": "PERP",
-   "side": "LONG",
-   "entry": 0.543,
-   "sl0": 0.5102431900409519,
-   "sl": 0.543,
-   "tps": [
-    0.5757568099590482,
-    0.6085136199180963,
-    0.6412704298771444
-   ],
-   "lev": 1,
-   "funding_pct": 0.0074,
-   "status": "tp1",
-   "hits": 1,
-   "opened": "2026-11-17T06:45:22+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.5572,
-   "last_ts": "2026-11-19T06:40:27+00:00",
-   "move_pct": 2.62,
-   "closed": false,
-   "rsi": null,
-   "trade_on": "Perps 1x",
-   "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
-   "chart": "charts/O-PERP-HOT-20774.png",
-   "setup": "HOT24"
-  },
-  {
    "id": "MASK-PERP-1794909600",
    "kind": "TA",
    "score": 0,
@@ -66,7 +26,7 @@
     0.2738283190490114
    ],
    "lev": 1,
-   "funding_pct": -0.0069,
+   "funding_pct": -0.006,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-17T11:00:00+00:00",
@@ -74,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2913,
-   "last_ts": "2026-11-19T06:40:27+00:00",
-   "move_pct": 3.19,
+   "last": 0.2914,
+   "last_ts": "2026-11-19T06:45:23+00:00",
+   "move_pct": 3.16,
    "closed": false,
    "rsi": 41.3,
    "trade_on": "Perps 1x",
@@ -118,9 +78,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 146.598730562259,
-   "last_ts": "2026-11-19T06:40:27+00:00",
-   "move_pct": 2.54,
+   "last": 145.89245111588897,
+   "last_ts": "2026-11-19T06:45:23+00:00",
+   "move_pct": 2.04,
    "closed": false,
    "rsi": 67.2,
    "trade_on": "On-chain spot (Base DEX)",
@@ -158,9 +118,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.5498,
-   "last_ts": "2026-11-19T06:40:27+00:00",
-   "move_pct": 21.96,
+   "last": 0.5514,
+   "last_ts": "2026-11-19T06:45:23+00:00",
+   "move_pct": 22.32,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -198,18 +158,98 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.01676,
-   "last_ts": "2026-11-19T06:40:27+00:00",
-   "move_pct": -7.25,
+   "last": 0.01673,
+   "last_ts": "2026-11-19T06:45:23+00:00",
+   "move_pct": -7.42,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
    "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
    "chart": "charts/PIPPIN-PERP-HOT-20776.png",
    "setup": "HOT24"
+  },
+  {
+   "id": "IRYS-SPOT-HOT-20776",
+   "kind": "HOT",
+   "score": 2031.29,
+   "reasons": [
+    "24h hot mover +48% with volume spike (9.1x the prior 3 days)",
+    "24h volume $11.4M on the OKX spot book, listed 176 days",
+    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
+    "Stop 0.02068 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
+   ],
+   "coin": "IRYS",
+   "market": "SPOT",
+   "side": "LONG",
+   "entry": 0.0235,
+   "sl0": 0.02068,
+   "sl": 0.02068,
+   "tps": [
+    0.02632,
+    0.02914,
+    0.03196
+   ],
+   "lev": null,
+   "funding_pct": null,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-11-19T06:45:23+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.0235,
+   "last_ts": "2026-11-19T06:45:23+00:00",
+   "move_pct": 0.0,
+   "closed": false,
+   "rsi": null,
+   "trade_on": "Spot",
+   "market_reason": "very volatile coin: spot avoids liquidation",
+   "chart": "charts/IRYS-SPOT-HOT-20776.png",
+   "setup": "HOT24"
   }
  ],
  "closed": [
+  {
+   "id": "O-PERP-HOT-20774",
+   "kind": "HOT",
+   "score": 805.97,
+   "reasons": [
+    "24h hot mover +21% with volume spike (5.6x the prior 3 days)",
+    "24h volume $5.2M on the OKX perp book, listed 153 days",
+    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
+    "Stop 0.51024 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
+   ],
+   "coin": "O",
+   "market": "PERP",
+   "side": "LONG",
+   "entry": 0.543,
+   "sl0": 0.5102431900409519,
+   "sl": 0.543,
+   "tps": [
+    0.5757568099590482,
+    0.6085136199180963,
+    0.6412704298771444
+   ],
+   "lev": 1,
+   "funding_pct": 0.0074,
+   "status": "expired",
+   "hits": 1,
+   "opened": "2026-11-17T06:45:22+00:00",
+   "closed_at": "2026-11-19T06:45:23+00:00",
+   "exit_price": 0.5589,
+   "result_r": 0.614,
+   "result_pct": 3.7,
+   "last": 0.5589,
+   "last_ts": "2026-11-19T06:45:23+00:00",
+   "move_pct": 2.62,
+   "closed": true,
+   "rsi": null,
+   "trade_on": "Perps 1x",
+   "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
+   "chart": "charts/O-PERP-HOT-20774.png",
+   "setup": "HOT24"
+  },
   {
    "id": "IOST-SPOT-1795057200",
    "kind": "TA",
@@ -1961,7 +2001,7 @@
    "rsi": null,
    "trade_on": "Spot",
    "market_reason": "only spot is listed",
-   "chart": "charts/CSPR-SPOT-HOT-20772.png",
+   "chart": null,
    "setup": "HOT24"
   },
   {
@@ -2775,62 +2815,17 @@
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": null,
    "setup": "BREAKOUT20"
-  },
-  {
-   "id": "1INCH-PERP-1794538800",
-   "kind": "TA",
-   "score": 0,
-   "reasons": [
-    "Chart: Break of structure: closed below the last swing low 0.07169, after a lower high",
-    "Timeframes: 1d down, 4h down, 4h structure lower highs/lows",
-    "No support below in the last 50 days",
-    "Stop 0.072808 (structure); targets at 1R/2R/3R",
-    "BTC 4h trend down",
-    "Weaker than BTC by 1.7% over 7d",
-    "OI +5% 24h",
-    "Sector: Decentralized Exchange -5.9% 7d (middle, #9 of 20)",
-    "Track record: +0.6R on 1INCH in the last 45 days (backtest)"
-   ],
-   "coin": "1INCH",
-   "market": "PERP",
-   "side": "SHORT",
-   "entry": 0.07127,
-   "sl0": 0.07280810197214942,
-   "sl": 0.07280810197214942,
-   "tps": [
-    0.06973189802785058,
-    0.06819379605570117,
-    0.06665569408355175
-   ],
-   "lev": 1,
-   "funding_pct": 0.01,
-   "status": "stopped",
-   "hits": 0,
-   "opened": "2026-11-13T04:00:00+00:00",
-   "closed_at": "2026-11-13T13:35:18+00:00",
-   "exit_price": 0.07280810197214942,
-   "result_r": -1.0,
-   "result_pct": -2.16,
-   "last": 0.07279,
-   "last_ts": "2026-11-13T13:35:18+00:00",
-   "move_pct": -1.38,
-   "closed": true,
-   "rsi": 26.3,
-   "trade_on": "Perps 1x",
-   "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": null,
-   "setup": "BOS"
   }
  ],
  "stats": {
   "all": {
-   "trades": 265,
-   "wins": 127,
+   "trades": 266,
+   "wins": 128,
    "losses": 138,
-   "win_rate": 47.9,
-   "total_r": 32.24,
-   "avg_r": 0.122,
-   "total_pct": 128.96
+   "win_rate": 48.1,
+   "total_r": 32.86,
+   "avg_r": 0.124,
+   "total_pct": 132.66
   },
   "SPOT": {
    "trades": 76,
@@ -2842,13 +2837,13 @@
    "total_pct": 49.68
   },
   "PERP": {
-   "trades": 176,
-   "wins": 88,
+   "trades": 177,
+   "wins": 89,
    "losses": 88,
-   "win_rate": 50.0,
-   "total_r": 34.86,
-   "avg_r": 0.198,
-   "total_pct": 55.87
+   "win_rate": 50.3,
+   "total_r": 35.47,
+   "avg_r": 0.2,
+   "total_pct": 59.57
   },
   "DEX": {
    "trades": 13,
@@ -2861,13 +2856,13 @@
   },
   "kinds": {
    "HOT": {
-    "trades": 64,
-    "wins": 35,
+    "trades": 65,
+    "wins": 36,
     "losses": 29,
-    "win_rate": 54.7,
-    "total_r": 8.25,
-    "avg_r": 0.129,
-    "total_pct": 39.55
+    "win_rate": 55.4,
+    "total_r": 8.86,
+    "avg_r": 0.136,
+    "total_pct": 43.25
    },
    "ONCHAIN": {
     "trades": 13,
@@ -3779,6 +3774,15 @@
     "total_r": -1.0,
     "avg_r": -1.0,
     "total_pct": -1.11
+   },
+   "O": {
+    "trades": 1,
+    "wins": 1,
+    "losses": 0,
+    "win_rate": 100.0,
+    "total_r": 0.61,
+    "avg_r": 0.614,
+    "total_pct": 3.7
    },
    "OFC": {
     "trades": 1,
@@ -8272,6 +8276,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "d1632c8d21be9e2f547fbeb5594443c2aa17df43a5a78def04d04f9d507bbdc3",
- "generated": "2026-11-19T06:40:32+00:00"
+ "digest": "51fe0d901f25c2080e9072a1409195a2437d8c809713f0e5653662ab24137488",
+ "generated": "2026-11-19T06:45:31+00:00"
 }
