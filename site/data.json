@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.01778,
-   "last_ts": "2026-11-19T18:20:24+00:00",
-   "move_pct": -1.6,
+   "last": 0.01783,
+   "last_ts": "2026-11-19T18:25:19+00:00",
+   "move_pct": -1.33,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -70,9 +70,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 2.8853,
-   "last_ts": "2026-11-19T18:20:24+00:00",
-   "move_pct": 10.79,
+   "last": 2.8836,
+   "last_ts": "2026-11-19T18:25:19+00:00",
+   "move_pct": 10.72,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -108,7 +108,7 @@
     0.1805829813635573
    ],
    "lev": 1,
-   "funding_pct": 0.0009,
+   "funding_pct": 0.0015,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-19T16:00:00+00:00",
@@ -116,9 +116,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1911,
-   "last_ts": "2026-11-19T18:20:24+00:00",
-   "move_pct": -0.0,
+   "last": 0.1916,
+   "last_ts": "2026-11-19T18:25:19+00:00",
+   "move_pct": -0.26,
    "closed": false,
    "rsi": 32.1,
    "trade_on": "Perps 1x",
@@ -153,7 +153,7 @@
     0.0767624056199815
    ],
    "lev": 1,
-   "funding_pct": 0.0002,
+   "funding_pct": 0.0005,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-19T17:00:00+00:00",
@@ -161,9 +161,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.084,
-   "last_ts": "2026-11-19T18:20:24+00:00",
-   "move_pct": -0.73,
+   "last": 0.0846,
+   "last_ts": "2026-11-19T18:25:19+00:00",
+   "move_pct": -1.45,
    "closed": false,
    "rsi": 32.3,
    "trade_on": "Perps 1x",
@@ -206,9 +206,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.00317,
-   "last_ts": "2026-11-19T18:20:24+00:00",
-   "move_pct": 0.28,
+   "last": 0.003173,
+   "last_ts": "2026-11-19T18:25:19+00:00",
+   "move_pct": 0.38,
    "closed": false,
    "rsi": 58.0,
    "trade_on": "Spot",
@@ -252,7 +252,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.004541,
-   "last_ts": "2026-11-19T18:20:24+00:00",
+   "last_ts": "2026-11-19T18:25:19+00:00",
    "move_pct": 0.02,
    "closed": false,
    "rsi": 64.2,
@@ -7839,6 +7839,28 @@
     ]
    },
    {
+    "id": "zero-knowledge-zk",
+    "name": "Zero Knowledge ZK",
+    "chg7d": -7.65,
+    "top": [
+     "ZEC",
+     "POL",
+     "NIGHT",
+     "STRK",
+     "OZO"
+    ],
+    "tracked": [
+     "ZEC",
+     "STRK",
+     "BREV",
+     "NIGHT",
+     "H",
+     "ZKP",
+     "MAGIC",
+     "ZK"
+    ]
+   },
+   {
     "id": "decentralized-exchange",
     "name": "Decentralized Exchange",
     "chg7d": -7.72,
@@ -8022,28 +8044,6 @@
      "FARTCOIN",
      "BOME",
      "BONK"
-    ]
-   },
-   {
-    "id": "zero-knowledge-zk",
-    "name": "Zero Knowledge ZK",
-    "chg7d": -9.24,
-    "top": [
-     "ZEC",
-     "POL",
-     "NIGHT",
-     "STRK",
-     "OZO"
-    ],
-    "tracked": [
-     "ZEC",
-     "STRK",
-     "BREV",
-     "NIGHT",
-     "H",
-     "ZKP",
-     "MAGIC",
-     "ZK"
     ]
    },
    {
@@ -8279,7 +8279,7 @@
   "updated": {
    "unlocks": 1795094720,
    "onchain": 1795111233,
-   "sectors": 1795111829,
+   "sectors": 1795112719,
    "listings": 1795110330,
    "fundamentals": 1795094721
   }
@@ -8318,6 +8318,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "2367dd27ce37031083a7559dc177ee8486148fae8ef2747b46aae2bdf83db0c8",
- "generated": "2026-11-19T18:20:29+00:00"
+ "digest": "d589707b55bf306da3c92073e79255d3cedbb1f0e9e2043eea34cf7344ab0b85",
+ "generated": "2026-11-19T18:25:23+00:00"
 }
