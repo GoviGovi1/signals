@@ -22,7 +22,7 @@
     0.6412704298771444
    ],
    "lev": 1,
-   "funding_pct": 0.0112,
+   "funding_pct": 0.0106,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-17T06:45:22+00:00",
@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.5609,
-   "last_ts": "2026-11-19T03:10:23+00:00",
-   "move_pct": 3.3,
+   "last": 0.564,
+   "last_ts": "2026-11-19T03:15:31+00:00",
+   "move_pct": 3.87,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -66,7 +66,7 @@
     0.2738283190490114
    ],
    "lev": 1,
-   "funding_pct": -0.0142,
+   "funding_pct": -0.023,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-17T11:00:00+00:00",
@@ -75,7 +75,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.2902,
-   "last_ts": "2026-11-19T03:10:23+00:00",
+   "last_ts": "2026-11-19T03:15:31+00:00",
    "move_pct": 3.56,
    "closed": false,
    "rsi": 41.3,
@@ -118,9 +118,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 144.583094437294,
-   "last_ts": "2026-11-19T03:10:23+00:00",
-   "move_pct": 1.13,
+   "last": 143.685274767855,
+   "last_ts": "2026-11-19T03:15:31+00:00",
+   "move_pct": 0.5,
    "closed": false,
    "rsi": 67.2,
    "trade_on": "On-chain spot (Base DEX)",
@@ -158,9 +158,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.5164,
-   "last_ts": "2026-11-19T03:10:23+00:00",
-   "move_pct": 14.55,
+   "last": 0.5128,
+   "last_ts": "2026-11-19T03:15:31+00:00",
+   "move_pct": 13.75,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -203,59 +203,15 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.02239,
-   "last_ts": "2026-11-19T03:10:23+00:00",
-   "move_pct": 13.31,
+   "last": 0.02241,
+   "last_ts": "2026-11-19T03:15:31+00:00",
+   "move_pct": 13.41,
    "closed": false,
    "rsi": 70.6,
    "trade_on": "Spot",
    "market_reason": "thin perp market: spot is safer",
    "chart": "charts/SENT-SPOT-1794988800.png",
    "setup": "RETEST"
-  },
-  {
-   "id": "WCT-SPOT-1795024800",
-   "kind": "TA",
-   "score": 1,
-   "reasons": [
-    "Chart: Break of structure: closed above the last swing high 0.02979, after a higher low",
-    "Timeframes: 1d down, 4h down, 4h structure higher highs/lows",
-    "Next resistance 0.03243 (3.1R away, 4h swing/swing)",
-    "Stop 0.02912 (structure); targets at the next 3 level(s)",
-    "BTC 4h trend down",
-    "Stronger than BTC by 16.5% over 7d",
-    "OI +9% 24h with breakout",
-    "Track record: +2.5R on WCT in the last 45 days (backtest)"
-   ],
-   "coin": "WCT",
-   "market": "SPOT",
-   "side": "LONG",
-   "entry": 0.02994,
-   "sl0": 0.029130036440755798,
-   "sl": 0.029130036440755798,
-   "tps": [
-    0.032369517902723736,
-    0.03305974844064555,
-    0.03346988542694693
-   ],
-   "lev": null,
-   "funding_pct": null,
-   "status": "open",
-   "hits": 0,
-   "opened": "2026-11-18T19:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.02914,
-   "last_ts": "2026-11-19T03:10:23+00:00",
-   "move_pct": -2.67,
-   "closed": false,
-   "rsi": 70.9,
-   "trade_on": "Spot",
-   "market_reason": "thin perp market: spot is safer",
-   "chart": "charts/WCT-SPOT-1795024800.png",
-   "setup": "BOS"
   },
   {
    "id": "PIPPIN-PERP-HOT-20776",
@@ -287,9 +243,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.01767,
-   "last_ts": "2026-11-19T03:10:23+00:00",
-   "move_pct": -2.21,
+   "last": 0.01796,
+   "last_ts": "2026-11-19T03:15:31+00:00",
+   "move_pct": -0.61,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -299,6 +255,50 @@
   }
  ],
  "closed": [
+  {
+   "id": "WCT-SPOT-1795024800",
+   "kind": "TA",
+   "score": 1,
+   "reasons": [
+    "Chart: Break of structure: closed above the last swing high 0.02979, after a higher low",
+    "Timeframes: 1d down, 4h down, 4h structure higher highs/lows",
+    "Next resistance 0.03243 (3.1R away, 4h swing/swing)",
+    "Stop 0.02912 (structure); targets at the next 3 level(s)",
+    "BTC 4h trend down",
+    "Stronger than BTC by 16.5% over 7d",
+    "OI +9% 24h with breakout",
+    "Track record: +2.5R on WCT in the last 45 days (backtest)"
+   ],
+   "coin": "WCT",
+   "market": "SPOT",
+   "side": "LONG",
+   "entry": 0.02994,
+   "sl0": 0.029130036440755798,
+   "sl": 0.029130036440755798,
+   "tps": [
+    0.032369517902723736,
+    0.03305974844064555,
+    0.03346988542694693
+   ],
+   "lev": null,
+   "funding_pct": null,
+   "status": "stopped",
+   "hits": 0,
+   "opened": "2026-11-18T19:00:00+00:00",
+   "closed_at": "2026-11-19T03:15:31+00:00",
+   "exit_price": 0.029130036440755798,
+   "result_r": -1.0,
+   "result_pct": -2.71,
+   "last": 0.02915,
+   "last_ts": "2026-11-19T03:15:31+00:00",
+   "move_pct": -2.67,
+   "closed": true,
+   "rsi": 70.9,
+   "trade_on": "Spot",
+   "market_reason": "thin perp market: spot is safer",
+   "chart": "charts/WCT-SPOT-1795024800.png",
+   "setup": "BOS"
+  },
   {
    "id": "GIGGLE-PERP-1795039200",
    "kind": "TA",
@@ -2037,7 +2037,7 @@
    "rsi": null,
    "trade_on": "Spot",
    "market_reason": "only spot is listed",
-   "chart": "charts/PROMPT-SPOT-HOT-20771.png",
+   "chart": null,
    "setup": "HOT24"
   },
   {
@@ -2866,70 +2866,26 @@
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": null,
    "setup": "BOS"
-  },
-  {
-   "id": "OL-PERP-1794438000",
-   "kind": "TA",
-   "score": 1,
-   "reasons": [
-    "Chart: Broke the 20-hour low on 1.0x volume",
-    "Timeframes: 1d down, 4h down, 4h structure mixed",
-    "No support below in the last 50 days",
-    "Stop 0.0046329 (2 ATR); targets at 1R/2R/3R",
-    "BTC 4h trend down",
-    "Weaker than BTC by 13.0% over 7d",
-    "OI +14% 24h with breakout",
-    "Track record: +2.2R on OL in the last 45 days (backtest)"
-   ],
-   "coin": "OL",
-   "market": "PERP",
-   "side": "SHORT",
-   "entry": 0.004461,
-   "sl0": 0.004632906906214757,
-   "sl": 0.004461,
-   "tps": [
-    0.0042890930937852425,
-    0.004117186187570485,
-    0.003945279281355728
-   ],
-   "lev": 1,
-   "funding_pct": 0.005,
-   "status": "stopped_be",
-   "hits": 1,
-   "opened": "2026-11-12T00:00:00+00:00",
-   "closed_at": "2026-11-12T22:01:40+00:00",
-   "exit_price": 0.004461,
-   "result_r": 0.25,
-   "result_pct": 0.96,
-   "last": 0.004451,
-   "last_ts": "2026-11-12T22:01:40+00:00",
-   "move_pct": 0.9,
-   "closed": true,
-   "rsi": 29.2,
-   "trade_on": "Perps 1x",
-   "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": null,
-   "setup": "BREAKOUT20"
   }
  ],
  "stats": {
   "all": {
-   "trades": 262,
+   "trades": 263,
    "wins": 126,
-   "losses": 136,
-   "win_rate": 48.1,
-   "total_r": 29.22,
-   "avg_r": 0.112,
-   "total_pct": 118.01
+   "losses": 137,
+   "win_rate": 47.9,
+   "total_r": 28.22,
+   "avg_r": 0.107,
+   "total_pct": 115.3
   },
   "SPOT": {
-   "trades": 73,
+   "trades": 74,
    "wins": 30,
-   "losses": 43,
-   "win_rate": 41.1,
-   "total_r": -6.73,
-   "avg_r": -0.092,
-   "total_pct": 38.73
+   "losses": 44,
+   "win_rate": 40.5,
+   "total_r": -7.73,
+   "avg_r": -0.104,
+   "total_pct": 36.02
   },
   "PERP": {
    "trades": 176,
@@ -2969,13 +2925,13 @@
     "total_pct": 23.41
    },
    "TA": {
-    "trades": 185,
+    "trades": 186,
     "wins": 83,
-    "losses": 102,
-    "win_rate": 44.9,
-    "total_r": 19.88,
-    "avg_r": 0.107,
-    "total_pct": 55.05
+    "losses": 103,
+    "win_rate": 44.6,
+    "total_r": 18.88,
+    "avg_r": 0.101,
+    "total_pct": 52.34
    }
   },
   "coins": {
@@ -4257,6 +4213,15 @@
     "avg_r": 0.625,
     "total_pct": 4.29
    },
+   "WCT": {
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate": 0.0,
+    "total_r": -1.0,
+    "avg_r": -1.0,
+    "total_pct": -2.71
+   },
    "WIF": {
     "trades": 1,
     "wins": 0,
@@ -4384,7 +4349,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 7
+  "open": 6
  },
  "backtest": {
   "from": "2026-07-24",
@@ -8347,6 +8312,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "a7f9cbe4ffacae172848af1eacc684a151e8801d4e5aba0b1a398ffa364ef697",
- "generated": "2026-11-19T03:10:29+00:00"
+ "digest": "cd7e9eda3d29c3e190e3165b611c86217d445a06130f2a2a86c98dababb1daf2",
+ "generated": "2026-11-19T03:15:37+00:00"
 }
