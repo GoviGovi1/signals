@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.566,
-   "last_ts": "2026-11-19T04:08:30+00:00",
-   "move_pct": 4.24,
+   "last": 0.5633,
+   "last_ts": "2026-11-19T04:10:24+00:00",
+   "move_pct": 3.74,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -66,7 +66,7 @@
     0.2738283190490114
    ],
    "lev": 1,
-   "funding_pct": -0.0173,
+   "funding_pct": -0.0167,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-17T11:00:00+00:00",
@@ -74,9 +74,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2945,
-   "last_ts": "2026-11-19T04:08:30+00:00",
-   "move_pct": 2.13,
+   "last": 0.2939,
+   "last_ts": "2026-11-19T04:10:24+00:00",
+   "move_pct": 2.33,
    "closed": false,
    "rsi": 41.3,
    "trade_on": "Perps 1x",
@@ -118,9 +118,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 145.79291055739,
-   "last_ts": "2026-11-19T04:08:30+00:00",
-   "move_pct": 1.97,
+   "last": 145.63736317370999,
+   "last_ts": "2026-11-19T04:10:24+00:00",
+   "move_pct": 1.86,
    "closed": false,
    "rsi": 67.2,
    "trade_on": "On-chain spot (Base DEX)",
@@ -158,9 +158,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.5713,
-   "last_ts": "2026-11-19T04:08:30+00:00",
-   "move_pct": 26.73,
+   "last": 0.5741,
+   "last_ts": "2026-11-19T04:10:24+00:00",
+   "move_pct": 27.35,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -198,9 +198,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.01752,
-   "last_ts": "2026-11-19T04:08:30+00:00",
-   "move_pct": -3.04,
+   "last": 0.01758,
+   "last_ts": "2026-11-19T04:10:24+00:00",
+   "move_pct": -2.71,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -243,7 +243,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.0005884,
-   "last_ts": "2026-11-19T04:08:30+00:00",
+   "last_ts": "2026-11-19T04:10:24+00:00",
    "move_pct": 0.15,
    "closed": false,
    "rsi": 63.7,
@@ -6975,21 +6975,6 @@
   "unlocks": [
    {
     "big": true,
-    "coin": "KAITO",
-    "insider_pct": 53,
-    "pct": 3.56,
-    "tokens": 17597619,
-    "tracked": true,
-    "ts": 1795061403,
-    "usd": 3126761,
-    "who": [
-     "Ecosystem & Network Growth",
-     "Core Contributors",
-     "Early Backers"
-    ]
-   },
-   {
-    "big": true,
     "coin": "ZRO",
     "insider_pct": 100,
     "pct": 3.48,
@@ -7828,6 +7813,23 @@
     ]
    },
    {
+    "id": "storage",
+    "name": "Storage",
+    "chg7d": -10.06,
+    "top": [
+     "FIL",
+     "BTT",
+     "AR",
+     "AIOZ",
+     "ICNT"
+    ],
+    "tracked": [
+     "FIL",
+     "AR",
+     "WAL"
+    ]
+   },
+   {
     "id": "lending-borrowing",
     "name": "Lending Borrowing",
     "chg7d": -10.13,
@@ -8016,23 +8018,6 @@
      "ASTER",
      "OKB",
      "CRV"
-    ]
-   },
-   {
-    "id": "storage",
-    "name": "Storage",
-    "chg7d": -11.77,
-    "top": [
-     "FIL",
-     "BTT",
-     "AR",
-     "AIOZ",
-     "ICNT"
-    ],
-    "tracked": [
-     "FIL",
-     "AR",
-     "WAL"
     ]
    },
    {
@@ -8291,7 +8276,7 @@
   "updated": {
    "unlocks": 1795051224,
    "onchain": 1795060832,
-   "sectors": 1795060519,
+   "sectors": 1795061424,
    "listings": 1795061124,
    "fundamentals": 1795051226
   }
@@ -8330,6 +8315,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "1513c4142fe789931df8747f7a73944ef5fc72b77c759fb2cc0097ec49f6184f",
- "generated": "2026-11-19T04:08:37+00:00"
+ "digest": "09e50aa07f6b81b7c4c1bb77cdadcee5ad5dec05565e4813ae7a64bccfa04961",
+ "generated": "2026-11-19T04:10:30+00:00"
 }
