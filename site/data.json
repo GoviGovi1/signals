@@ -1,50 +1,6 @@
 {
  "open": [
   {
-   "id": "MASK-PERP-1794909600",
-   "kind": "TA",
-   "score": 0,
-   "reasons": [
-    "Chart: Broke the 20-hour low on 2.3x volume",
-    "Timeframes: 1d down, 4h down, 4h structure mixed",
-    "Next support 0.2861 (2.3R away, 4h swing/swing)",
-    "Stop 0.30724 (structure); targets at the next 1 level(s)",
-    "BTC 4h trend down",
-    "Weaker than BTC by 2.9% over 7d",
-    "OI +0% 24h",
-    "Track record: +6.1R on MASK in the last 45 days (backtest)"
-   ],
-   "coin": "MASK",
-   "market": "PERP",
-   "side": "SHORT",
-   "entry": 0.3009,
-   "sl0": 0.30723945396732577,
-   "sl": 0.3009,
-   "tps": [
-    0.28650722698366293,
-    0.28016777301633716,
-    0.2738283190490114
-   ],
-   "lev": 1,
-   "funding_pct": 0.01,
-   "status": "tp1",
-   "hits": 1,
-   "opened": "2026-11-17T11:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.292,
-   "last_ts": "2026-11-19T10:55:20+00:00",
-   "move_pct": 2.96,
-   "closed": false,
-   "rsi": 41.3,
-   "trade_on": "Perps 1x",
-   "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": "charts/MASK-PERP-1794909600.png",
-   "setup": "BREAKOUT20"
-  },
-  {
    "id": "SPCXC-DEX-base-0xb2000000-1794952800",
    "kind": "ONCHAIN",
    "score": null,
@@ -78,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 147.05671919130899,
-   "last_ts": "2026-11-19T10:55:20+00:00",
-   "move_pct": 2.86,
+   "last": 146.86436895332798,
+   "last_ts": "2026-11-19T11:01:03+00:00",
+   "move_pct": 2.72,
    "closed": false,
    "rsi": 67.2,
    "trade_on": "On-chain spot (Base DEX)",
@@ -118,9 +74,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0173,
-   "last_ts": "2026-11-19T10:55:20+00:00",
-   "move_pct": -4.26,
+   "last": 0.01731,
+   "last_ts": "2026-11-19T11:01:03+00:00",
+   "move_pct": -4.21,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -158,9 +114,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.02247,
-   "last_ts": "2026-11-19T10:55:20+00:00",
-   "move_pct": -4.38,
+   "last": 0.02252,
+   "last_ts": "2026-11-19T11:01:03+00:00",
+   "move_pct": -4.17,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -198,18 +154,108 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 2.7134,
-   "last_ts": "2026-11-19T10:55:20+00:00",
-   "move_pct": 4.19,
+   "last": 2.7506,
+   "last_ts": "2026-11-19T11:01:03+00:00",
+   "move_pct": 5.62,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
    "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
    "chart": "charts/PIEVERSE-PERP-HOT-20776.png",
    "setup": "HOT24"
+  },
+  {
+   "id": "CRV-PERP-1795082400",
+   "kind": "TA",
+   "score": 0,
+   "reasons": [
+    "Chart: Broke down from a 4-day range at 0.1954 (range 0.1954\u20130.2116) on 2.5x volume",
+    "Timeframes: 1d down, 4h down, 4h structure mixed",
+    "No support below in the last 50 days",
+    "Stop 0.19896 (structure); targets at 1R/2R/3R",
+    "BTC 4h trend down",
+    "Weaker than BTC by 4.2% over 7d",
+    "OI +1% 24h",
+    "DEX volume -38% 7d",
+    "Sector: Exchange Based Tokens -8.5% 7d (middle, #6 of 20)",
+    "Track record: +1.9R on CRV in the last 45 days (backtest)"
+   ],
+   "coin": "CRV",
+   "market": "PERP",
+   "side": "SHORT",
+   "entry": 0.1948,
+   "sl0": 0.1989640082825953,
+   "sl": 0.1989640082825953,
+   "tps": [
+    0.1906359917174047,
+    0.1864719834348094,
+    0.18230797515221409
+   ],
+   "lev": 1,
+   "funding_pct": 0.0041,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-11-19T11:00:00+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.195,
+   "last_ts": "2026-11-19T11:01:03+00:00",
+   "move_pct": -0.1,
+   "closed": false,
+   "rsi": 34.1,
+   "trade_on": "Perps 1x",
+   "market_reason": "shorts need perps; thin perp market, so 1x",
+   "chart": "charts/CRV-PERP-1795082400.png",
+   "setup": "RANGE_BREAK"
   }
  ],
  "closed": [
+  {
+   "id": "MASK-PERP-1794909600",
+   "kind": "TA",
+   "score": 0,
+   "reasons": [
+    "Chart: Broke the 20-hour low on 2.3x volume",
+    "Timeframes: 1d down, 4h down, 4h structure mixed",
+    "Next support 0.2861 (2.3R away, 4h swing/swing)",
+    "Stop 0.30724 (structure); targets at the next 1 level(s)",
+    "BTC 4h trend down",
+    "Weaker than BTC by 2.9% over 7d",
+    "OI +0% 24h",
+    "Track record: +6.1R on MASK in the last 45 days (backtest)"
+   ],
+   "coin": "MASK",
+   "market": "PERP",
+   "side": "SHORT",
+   "entry": 0.3009,
+   "sl0": 0.30723945396732577,
+   "sl": 0.3009,
+   "tps": [
+    0.28650722698366293,
+    0.28016777301633716,
+    0.2738283190490114
+   ],
+   "lev": 1,
+   "funding_pct": 0.01,
+   "status": "expired",
+   "hits": 1,
+   "opened": "2026-11-17T11:00:00+00:00",
+   "closed_at": "2026-11-19T11:01:03+00:00",
+   "exit_price": 0.2914,
+   "result_r": 1.692,
+   "result_pct": 3.56,
+   "last": 0.2914,
+   "last_ts": "2026-11-19T11:01:03+00:00",
+   "move_pct": 2.96,
+   "closed": true,
+   "rsi": 41.3,
+   "trade_on": "Perps 1x",
+   "market_reason": "shorts need perps; thin perp market, so 1x",
+   "chart": "charts/MASK-PERP-1794909600.png",
+   "setup": "BREAKOUT20"
+  },
   {
    "id": "BTW-PERP-HOT-20775",
    "kind": "HOT",
@@ -1955,7 +2001,7 @@
    "rsi": 30.3,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; 1x keeps liquidation 3x+ further away than the stop",
-   "chart": "charts/BCH-PERP-1794639600.png",
+   "chart": null,
    "setup": "BREAKOUT20"
   },
   {
@@ -2765,62 +2811,17 @@
    "market_reason": "the perp book is where the 24h move and volume are; very volatile, so 1x",
    "chart": null,
    "setup": "HOT24"
-  },
-  {
-   "id": "KAT-PERP-1794434400",
-   "kind": "TA",
-   "score": 0,
-   "reasons": [
-    "Chart: Broke the 20-hour low on 2.2x volume",
-    "Timeframes: 1d down, 4h down, 4h structure lower highs/lows",
-    "No support below in the last 50 days",
-    "Stop 0.0033535 (structure); targets at 1R/2R/3R",
-    "BTC 4h trend down",
-    "Weaker than BTC by 7.8% over 7d",
-    "OI +4% 24h",
-    "Sector: Layer 2 -9.2% 7d (middle, #13 of 20)",
-    "Track record: +1.1R on KAT in the last 45 days (backtest)"
-   ],
-   "coin": "KAT",
-   "market": "PERP",
-   "side": "SHORT",
-   "entry": 0.003227,
-   "sl0": 0.0033535074337732664,
-   "sl": 0.0033535074337732664,
-   "tps": [
-    0.0031004925662267333,
-    0.0029739851324534668,
-    0.0028474776986802002
-   ],
-   "lev": 1,
-   "funding_pct": 0.005,
-   "status": "stopped",
-   "hits": 0,
-   "opened": "2026-11-11T23:00:00+00:00",
-   "closed_at": "2026-11-13T13:35:18+00:00",
-   "exit_price": 0.0033535074337732664,
-   "result_r": -1.0,
-   "result_pct": -3.92,
-   "last": 0.003349,
-   "last_ts": "2026-11-13T13:35:18+00:00",
-   "move_pct": -3.07,
-   "closed": true,
-   "rsi": 33.9,
-   "trade_on": "Perps 1x",
-   "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": null,
-   "setup": "BREAKOUT20"
   }
  ],
  "stats": {
   "all": {
-   "trades": 267,
-   "wins": 129,
+   "trades": 268,
+   "wins": 130,
    "losses": 138,
-   "win_rate": 48.3,
-   "total_r": 35.11,
-   "avg_r": 0.131,
-   "total_pct": 159.66
+   "win_rate": 48.5,
+   "total_r": 36.8,
+   "avg_r": 0.137,
+   "total_pct": 163.22
   },
   "SPOT": {
    "trades": 76,
@@ -2832,13 +2833,13 @@
    "total_pct": 49.68
   },
   "PERP": {
-   "trades": 178,
-   "wins": 90,
+   "trades": 179,
+   "wins": 91,
    "losses": 88,
-   "win_rate": 50.6,
-   "total_r": 37.72,
-   "avg_r": 0.212,
-   "total_pct": 86.57
+   "win_rate": 50.8,
+   "total_r": 39.41,
+   "avg_r": 0.22,
+   "total_pct": 90.13
   },
   "DEX": {
    "trades": 13,
@@ -2869,13 +2870,13 @@
     "total_pct": 23.41
    },
    "TA": {
-    "trades": 188,
-    "wins": 84,
+    "trades": 189,
+    "wins": 85,
     "losses": 104,
-    "win_rate": 44.7,
-    "total_r": 22.9,
-    "avg_r": 0.122,
-    "total_pct": 66.0
+    "win_rate": 45.0,
+    "total_r": 24.59,
+    "avg_r": 0.13,
+    "total_pct": 69.56
    }
   },
   "coins": {
@@ -3663,13 +3664,13 @@
     "total_pct": -2.0
    },
    "MASK": {
-    "trades": 1,
-    "wins": 1,
+    "trades": 2,
+    "wins": 2,
     "losses": 0,
     "win_rate": 100.0,
-    "total_r": 1.65,
-    "avg_r": 1.653,
-    "total_pct": 2.63
+    "total_r": 3.34,
+    "avg_r": 1.672,
+    "total_pct": 6.19
    },
    "ME": {
     "trades": 1,
@@ -7643,9 +7644,28 @@
     "trend_up": false,
     "rsi": 48.3,
     "url": "https://www.geckoterminal.com/arbitrum/pools/0x09328be718d89228a985471bb470988a34d0b162"
+   },
+   {
+    "chain": "Solana",
+    "symbol": "CATE",
+    "name": "Catecoin",
+    "token": "Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump",
+    "price": 0.018510829496089915,
+    "liq": 1357748,
+    "vol24h": 620689,
+    "age_d": 115.8,
+    "chg24h": -14.457,
+    "chg7d": -23.0,
+    "mcap": 17962471.8570091,
+    "safety": "ok",
+    "safety_notes": [],
+    "trigger": false,
+    "trend_up": false,
+    "rsi": 47.2,
+    "url": "https://www.geckoterminal.com/solana/pools/HMzvsEEmtzHhvZNw9uwbaG85HCTmFnkbhzUx16cy7ca3"
    }
   ],
-  "onchain_checked": 83,
+  "onchain_checked": 18,
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
@@ -8230,7 +8250,7 @@
   ],
   "updated": {
    "unlocks": 1795072824,
-   "onchain": 1795082431,
+   "onchain": 1795086036,
    "sectors": 1795085720,
    "listings": 1795083922,
    "fundamentals": 1795072826
@@ -8270,6 +8290,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "96f58308360c49edc27a553a4de6271de3a2176875b040f3ddbc5f047092c342",
- "generated": "2026-11-19T10:55:25+00:00"
+ "digest": "c6349ddd02e0da5490cf91cb857d41dc4a9158ccf42f1c5ab2a809754cd822ac",
+ "generated": "2026-11-19T11:01:46+00:00"
 }
