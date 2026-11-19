@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.5736,
-   "last_ts": "2026-11-19T05:35:26+00:00",
-   "move_pct": 5.64,
+   "last": 0.5697,
+   "last_ts": "2026-11-19T05:40:25+00:00",
+   "move_pct": 4.92,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -66,7 +66,7 @@
     0.2738283190490114
    ],
    "lev": 1,
-   "funding_pct": -0.0119,
+   "funding_pct": -0.0122,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-17T11:00:00+00:00",
@@ -74,9 +74,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2913,
-   "last_ts": "2026-11-19T05:35:26+00:00",
-   "move_pct": 3.19,
+   "last": 0.2909,
+   "last_ts": "2026-11-19T05:40:25+00:00",
+   "move_pct": 3.32,
    "closed": false,
    "rsi": 41.3,
    "trade_on": "Perps 1x",
@@ -118,9 +118,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 144.32782706190397,
-   "last_ts": "2026-11-19T05:35:26+00:00",
-   "move_pct": 0.95,
+   "last": 145.2919723989,
+   "last_ts": "2026-11-19T05:40:25+00:00",
+   "move_pct": 1.62,
    "closed": false,
    "rsi": 67.2,
    "trade_on": "On-chain spot (Base DEX)",
@@ -158,9 +158,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.5538,
-   "last_ts": "2026-11-19T05:35:26+00:00",
-   "move_pct": 22.85,
+   "last": 0.5565,
+   "last_ts": "2026-11-19T05:40:25+00:00",
+   "move_pct": 23.45,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -198,9 +198,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.01725,
-   "last_ts": "2026-11-19T05:35:26+00:00",
-   "move_pct": -4.54,
+   "last": 0.01728,
+   "last_ts": "2026-11-19T05:40:25+00:00",
+   "move_pct": -4.37,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -7683,6 +7683,28 @@
     ]
    },
    {
+    "id": "layer-2",
+    "name": "Layer 2",
+    "chg7d": -7.49,
+    "top": [
+     "OKB",
+     "MNT",
+     "ARB",
+     "POL",
+     "STX"
+    ],
+    "tracked": [
+     "STRK",
+     "OKB",
+     "ARB",
+     "OP",
+     "MEGA",
+     "STX",
+     "SOON",
+     "ZK"
+    ]
+   },
+   {
     "id": "lending-borrowing",
     "name": "Lending Borrowing",
     "chg7d": -7.56,
@@ -7701,28 +7723,6 @@
      "MORPHO",
      "COMP",
      "KMNO"
-    ]
-   },
-   {
-    "id": "layer-2",
-    "name": "Layer 2",
-    "chg7d": -9.0,
-    "top": [
-     "OKB",
-     "MNT",
-     "ARB",
-     "POL",
-     "STX"
-    ],
-    "tracked": [
-     "STRK",
-     "OKB",
-     "ARB",
-     "OP",
-     "MEGA",
-     "STX",
-     "SOON",
-     "ZK"
     ]
    },
    {
@@ -8212,7 +8212,7 @@
   "updated": {
    "unlocks": 1795051224,
    "onchain": 1795064427,
-   "sectors": 1795065919,
+   "sectors": 1795066825,
    "listings": 1795065030,
    "fundamentals": 1795051226
   }
@@ -8251,6 +8251,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "590b93cf905a9e671973cfdccc7d4a5961bec38100060d7bfbd478dbb4ce5bda",
- "generated": "2026-11-19T05:35:32+00:00"
+ "digest": "8f953f4b65f058d0859a4931a4510f21dda81c0340c54bb6f685a46196f70151",
+ "generated": "2026-11-19T05:40:31+00:00"
 }
