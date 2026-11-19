@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.565,
-   "last_ts": "2026-11-19T04:55:21+00:00",
-   "move_pct": 4.05,
+   "last": 0.5665,
+   "last_ts": "2026-11-19T05:01:32+00:00",
+   "move_pct": 4.33,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -66,7 +66,7 @@
     0.2738283190490114
    ],
    "lev": 1,
-   "funding_pct": -0.0068,
+   "funding_pct": -0.0105,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-17T11:00:00+00:00",
@@ -74,9 +74,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2922,
-   "last_ts": "2026-11-19T04:55:21+00:00",
-   "move_pct": 2.89,
+   "last": 0.2915,
+   "last_ts": "2026-11-19T05:01:32+00:00",
+   "move_pct": 3.12,
    "closed": false,
    "rsi": 41.3,
    "trade_on": "Perps 1x",
@@ -118,9 +118,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 144.313242014371,
-   "last_ts": "2026-11-19T04:55:21+00:00",
-   "move_pct": 0.94,
+   "last": 145.18743392546898,
+   "last_ts": "2026-11-19T05:01:32+00:00",
+   "move_pct": 1.55,
    "closed": false,
    "rsi": 67.2,
    "trade_on": "On-chain spot (Base DEX)",
@@ -158,9 +158,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.5602,
-   "last_ts": "2026-11-19T04:55:21+00:00",
-   "move_pct": 24.27,
+   "last": 0.558,
+   "last_ts": "2026-11-19T05:01:32+00:00",
+   "move_pct": 23.78,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -198,16 +198,18 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.01734,
-   "last_ts": "2026-11-19T04:55:21+00:00",
-   "move_pct": -4.04,
+   "last": 0.01727,
+   "last_ts": "2026-11-19T05:01:32+00:00",
+   "move_pct": -4.43,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
    "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
    "chart": "charts/PIPPIN-PERP-HOT-20776.png",
    "setup": "HOT24"
-  },
+  }
+ ],
+ "closed": [
   {
    "id": "IOST-SPOT-1795057200",
    "kind": "TA",
@@ -235,25 +237,23 @@
    ],
    "lev": null,
    "funding_pct": null,
-   "status": "open",
+   "status": "stopped",
    "hits": 0,
    "opened": "2026-11-19T04:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.0005794,
-   "last_ts": "2026-11-19T04:55:21+00:00",
+   "closed_at": "2026-11-19T05:01:32+00:00",
+   "exit_price": 0.0005788840356791683,
+   "result_r": -1.0,
+   "result_pct": -1.47,
+   "last": 0.0005766,
+   "last_ts": "2026-11-19T05:01:32+00:00",
    "move_pct": -1.38,
-   "closed": false,
+   "closed": true,
    "rsi": 63.7,
    "trade_on": "Spot",
    "market_reason": "thin perp market: spot is safer",
    "chart": "charts/IOST-SPOT-1795057200.png",
    "setup": "RETEST"
-  }
- ],
- "closed": [
+  },
   {
    "id": "SENT-SPOT-1794988800",
    "kind": "TA",
@@ -2001,7 +2001,7 @@
    "rsi": null,
    "trade_on": "Spot",
    "market_reason": "only spot is listed",
-   "chart": "charts/VINE-SPOT-HOT-20772.png",
+   "chart": null,
    "setup": "HOT24"
   },
   {
@@ -2820,71 +2820,26 @@
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": null,
    "setup": "BOS"
-  },
-  {
-   "id": "INJ-PERP-1794438000",
-   "kind": "TA",
-   "score": 0,
-   "reasons": [
-    "Chart: Broke down from a 7-day range at 7.6550 (range 7.6550\u20138.5910) on 2.4x volume",
-    "Timeframes: 1d flat, 4h flat, 4h structure mixed",
-    "Next support 6.4110 (4.9R away, 4h swing)",
-    "Stop 7.7469 (above the breakdown level); targets at the next 1 level(s)",
-    "BTC 4h trend down",
-    "Stronger than BTC by 2.8% over 7d",
-    "OI +9% 24h with breakout",
-    "Sector: Real World Assets RWA +0.0% 7d (leading, #1 of 20)",
-    "Track record: +3.0R on INJ in the last 45 days (backtest)"
-   ],
-   "coin": "INJ",
-   "market": "PERP",
-   "side": "SHORT",
-   "entry": 7.521,
-   "sl0": 7.746852862779771,
-   "sl": 7.746852862779771,
-   "tps": [
-    6.433963215694942,
-    6.208110352915171,
-    5.9822574901354
-   ],
-   "lev": 2,
-   "funding_pct": -0.0356,
-   "status": "stopped",
-   "hits": 0,
-   "opened": "2026-11-12T00:00:00+00:00",
-   "closed_at": "2026-11-13T11:30:26+00:00",
-   "exit_price": 7.746852862779771,
-   "result_r": -1.0,
-   "result_pct": -3.0,
-   "last": 7.743,
-   "last_ts": "2026-11-13T11:30:26+00:00",
-   "move_pct": -2.71,
-   "closed": true,
-   "rsi": 28.8,
-   "trade_on": "Perps 2x",
-   "market_reason": "shorts need perps; 2x keeps liquidation 3x+ further away than the stop",
-   "chart": null,
-   "setup": "RANGE_BREAK"
   }
  ],
  "stats": {
   "all": {
-   "trades": 264,
+   "trades": 265,
    "wins": 127,
-   "losses": 137,
-   "win_rate": 48.1,
-   "total_r": 33.24,
-   "avg_r": 0.126,
-   "total_pct": 130.43
+   "losses": 138,
+   "win_rate": 47.9,
+   "total_r": 32.24,
+   "avg_r": 0.122,
+   "total_pct": 128.96
   },
   "SPOT": {
-   "trades": 75,
+   "trades": 76,
    "wins": 31,
-   "losses": 44,
-   "win_rate": 41.3,
-   "total_r": -2.71,
-   "avg_r": -0.036,
-   "total_pct": 51.15
+   "losses": 45,
+   "win_rate": 40.8,
+   "total_r": -3.71,
+   "avg_r": -0.049,
+   "total_pct": 49.68
   },
   "PERP": {
    "trades": 176,
@@ -2924,13 +2879,13 @@
     "total_pct": 23.41
    },
    "TA": {
-    "trades": 187,
+    "trades": 188,
     "wins": 84,
-    "losses": 103,
-    "win_rate": 44.9,
-    "total_r": 23.9,
-    "avg_r": 0.128,
-    "total_pct": 67.47
+    "losses": 104,
+    "win_rate": 44.7,
+    "total_r": 22.9,
+    "avg_r": 0.122,
+    "total_pct": 66.0
    }
   },
   "coins": {
@@ -3610,13 +3565,13 @@
     "total_pct": -1.6
    },
    "IOST": {
-    "trades": 1,
+    "trades": 2,
     "wins": 1,
-    "losses": 0,
-    "win_rate": 100.0,
-    "total_r": 0.75,
-    "avg_r": 0.75,
-    "total_pct": 1.39
+    "losses": 1,
+    "win_rate": 50.0,
+    "total_r": -0.25,
+    "avg_r": -0.125,
+    "total_pct": -0.08
    },
    "IRYS": {
     "trades": 2,
@@ -4348,7 +4303,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 6
+  "open": 5
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7633,61 +7588,42 @@
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
   "onchain": [
    {
-    "chain": "Base",
-    "symbol": "NVDAC",
-    "name": "NVIDIA Corporation",
-    "token": "0xb20000000000000000000078ee7ce2fe4908108c",
-    "price": 152.239900366261,
-    "liq": 1750950,
-    "vol24h": 15541196,
-    "age_d": 28.0,
-    "chg24h": -3.691,
-    "chg7d": -5.7,
-    "mcap": 8467837.76853139,
+    "chain": "BSC",
+    "symbol": "CROSS",
+    "name": "Cross",
+    "token": "0x6bf62ca91e397b5a7d1d6bce97d9092065d7a510",
+    "price": 0.179338791133963,
+    "liq": 1391308,
+    "vol24h": 11968032,
+    "age_d": 506.0,
+    "chg24h": 15.567,
+    "chg7d": 69.2,
+    "mcap": 101799492.503406,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
-    "trend_up": false,
-    "rsi": 43.2,
-    "url": "https://www.geckoterminal.com/base/pools/0xf668e21993f0acd7ab00bb1cfbaed0df28a3c8ec"
-   },
-   {
-    "chain": "Arbitrum",
-    "symbol": "USDG",
-    "name": "Global Dollar",
-    "token": "0x004b506865409877c9fa29bfb1eba929984b9bbc",
-    "price": 0.999622721556468,
-    "liq": 1554981,
-    "vol24h": 8005569,
-    "age_d": 24.0,
-    "chg24h": -0.188,
-    "chg7d": -0.1,
-    "mcap": 2614418231.77241,
-    "safety": "ok",
-    "safety_notes": [],
-    "trigger": false,
-    "trend_up": false,
-    "rsi": 49.4,
-    "url": "https://www.geckoterminal.com/arbitrum/pools/0x09328be718d89228a985471bb470988a34d0b162"
+    "trend_up": true,
+    "rsi": 69.1,
+    "url": "https://www.geckoterminal.com/bsc/pools/0xe6e51ea572502dbdf8b40834d0619f9a9144d3a5"
    },
    {
     "chain": "Base",
-    "symbol": "AERO",
-    "name": "Aero",
-    "token": "0x3f5bf3edac59d650d8fdf9657a71f2f904a3a4ee",
-    "price": 0.440733812243362,
-    "liq": 3845892,
-    "vol24h": 4624912,
-    "age_d": 28.0,
-    "chg24h": -0.203,
-    "chg7d": -18.3,
-    "mcap": 337524639.018736,
+    "symbol": "GOOGLC",
+    "name": "Alphabet Inc.",
+    "token": "0xb2000000000000000000002d0ba3164cc74f58b7",
+    "price": 286.626183906219,
+    "liq": 1566151,
+    "vol24h": 7505874,
+    "age_d": 28.1,
+    "chg24h": 1.453,
+    "chg7d": -3.0,
+    "mcap": 10406152.1279443,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 58.7,
-    "url": "https://www.geckoterminal.com/base/pools/0xc85d5cb72d1aad6f152a8decad228ae4a59ac9b3"
+    "rsi": 58.5,
+    "url": "https://www.geckoterminal.com/base/pools/0x16c70f04c3080a127486cdf5a4c33c066bbf47c3"
    }
   ],
   "onchain_checked": 86,
@@ -8275,7 +8211,7 @@
   ],
   "updated": {
    "unlocks": 1795051224,
-   "onchain": 1795060832,
+   "onchain": 1795064427,
    "sectors": 1795064121,
    "listings": 1795061124,
    "fundamentals": 1795051226
@@ -8315,6 +8251,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "0b89092d5566ae37bfcf3b8db5cd0689898fd2b5ea16ae8861e46b6ff2850f74",
- "generated": "2026-11-19T04:55:27+00:00"
+ "digest": "5dcde9e740ea3aba34005ba5182d8a326036ae90c13c71d0635f2d8f3db8424c",
+ "generated": "2026-11-19T05:02:11+00:00"
 }
