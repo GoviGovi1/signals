@@ -1,46 +1,6 @@
 {
  "open": [
   {
-   "id": "PIEVERSE-PERP-HOT-20776",
-   "kind": "HOT",
-   "score": 760.15,
-   "reasons": [
-    "24h hot mover +21% with volume spike (4.3x the prior 3 days)",
-    "24h volume $220.4M on the OKX perp book, listed 368 days",
-    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
-    "Stop 2.2918 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
-   ],
-   "coin": "PIEVERSE",
-   "market": "PERP",
-   "side": "LONG",
-   "entry": 2.6043,
-   "sl0": 2.291784,
-   "sl": 2.6043,
-   "tps": [
-    2.916816,
-    3.229332,
-    3.541848
-   ],
-   "lev": 1,
-   "funding_pct": 0.005,
-   "status": "tp1",
-   "hits": 1,
-   "opened": "2026-11-19T07:35:24+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 2.672,
-   "last_ts": "2026-11-20T10:10:25+00:00",
-   "move_pct": 2.6,
-   "closed": false,
-   "rsi": null,
-   "trade_on": "Perps 1x",
-   "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
-   "chart": "charts/PIEVERSE-PERP-HOT-20776.png",
-   "setup": "HOT24"
-  },
-  {
    "id": "CRV-PERP-1795118400",
    "kind": "TA",
    "score": 1,
@@ -68,7 +28,7 @@
     0.1707107172639346
    ],
    "lev": 1,
-   "funding_pct": 0.0069,
+   "funding_pct": 0.0067,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-19T21:00:00+00:00",
@@ -76,9 +36,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1913,
-   "last_ts": "2026-11-20T10:10:25+00:00",
-   "move_pct": 0.52,
+   "last": 0.1914,
+   "last_ts": "2026-11-20T10:15:26+00:00",
+   "move_pct": 0.47,
    "closed": false,
    "rsi": 37.9,
    "trade_on": "Perps 1x",
@@ -116,9 +76,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2435,
-   "last_ts": "2026-11-20T10:10:25+00:00",
-   "move_pct": -9.11,
+   "last": 0.2491,
+   "last_ts": "2026-11-20T10:15:26+00:00",
+   "move_pct": -7.02,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -161,7 +121,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.01511,
-   "last_ts": "2026-11-20T10:10:25+00:00",
+   "last_ts": "2026-11-20T10:15:26+00:00",
    "move_pct": -0.73,
    "closed": false,
    "rsi": 31.5,
@@ -197,7 +157,7 @@
     0.04572875031075807
    ],
    "lev": 1,
-   "funding_pct": -0.003,
+   "funding_pct": -0.0025,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-20T02:00:00+00:00",
@@ -205,9 +165,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0511,
-   "last_ts": "2026-11-20T10:10:25+00:00",
-   "move_pct": 1.08,
+   "last": 0.05092,
+   "last_ts": "2026-11-20T10:15:26+00:00",
+   "move_pct": 1.43,
    "closed": false,
    "rsi": 33.2,
    "trade_on": "Perps 1x",
@@ -242,7 +202,7 @@
     0.004749593048860754
    ],
    "lev": 1,
-   "funding_pct": -0.0726,
+   "funding_pct": -0.0745,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-20T02:00:00+00:00",
@@ -250,9 +210,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.005422,
-   "last_ts": "2026-11-20T10:10:25+00:00",
-   "move_pct": 0.04,
+   "last": 0.005423,
+   "last_ts": "2026-11-20T10:15:26+00:00",
+   "move_pct": 0.02,
    "closed": false,
    "rsi": 36.1,
    "trade_on": "Perps 1x",
@@ -290,9 +250,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.00928,
-   "last_ts": "2026-11-20T10:10:25+00:00",
-   "move_pct": 9.78,
+   "last": 0.008909,
+   "last_ts": "2026-11-20T10:15:26+00:00",
+   "move_pct": 5.39,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -334,9 +294,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.00492,
-   "last_ts": "2026-11-20T10:10:25+00:00",
-   "move_pct": -1.11,
+   "last": 0.004915,
+   "last_ts": "2026-11-20T10:15:26+00:00",
+   "move_pct": -1.01,
    "closed": false,
    "rsi": 31.9,
    "trade_on": "Perps 1x",
@@ -371,7 +331,7 @@
     0.13348493690253851
    ],
    "lev": 1,
-   "funding_pct": -0.0089,
+   "funding_pct": -0.0112,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-20T08:00:00+00:00",
@@ -379,9 +339,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.156,
-   "last_ts": "2026-11-20T10:10:25+00:00",
-   "move_pct": 1.52,
+   "last": 0.1559,
+   "last_ts": "2026-11-20T10:15:26+00:00",
+   "move_pct": 1.58,
    "closed": false,
    "rsi": 39.0,
    "trade_on": "Perps 1x",
@@ -416,7 +376,7 @@
     0.00043707891654587227
    ],
    "lev": 1,
-   "funding_pct": -0.0037,
+   "funding_pct": -0.0033,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-20T10:00:00+00:00",
@@ -424,9 +384,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0004693,
-   "last_ts": "2026-11-20T10:10:25+00:00",
-   "move_pct": -0.06,
+   "last": 0.0004685,
+   "last_ts": "2026-11-20T10:15:26+00:00",
+   "move_pct": 0.11,
    "closed": false,
    "rsi": 32.9,
    "trade_on": "Perps 1x",
@@ -436,6 +396,46 @@
   }
  ],
  "closed": [
+  {
+   "id": "PIEVERSE-PERP-HOT-20776",
+   "kind": "HOT",
+   "score": 760.15,
+   "reasons": [
+    "24h hot mover +21% with volume spike (4.3x the prior 3 days)",
+    "24h volume $220.4M on the OKX perp book, listed 368 days",
+    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
+    "Stop 2.2918 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
+   ],
+   "coin": "PIEVERSE",
+   "market": "PERP",
+   "side": "LONG",
+   "entry": 2.6043,
+   "sl0": 2.291784,
+   "sl": 2.6043,
+   "tps": [
+    2.916816,
+    3.229332,
+    3.541848
+   ],
+   "lev": 1,
+   "funding_pct": 0.005,
+   "status": "stopped_be",
+   "hits": 1,
+   "opened": "2026-11-19T07:35:24+00:00",
+   "closed_at": "2026-11-20T10:15:26+00:00",
+   "exit_price": 2.6043,
+   "result_r": 0.25,
+   "result_pct": 3.0,
+   "last": 2.6074,
+   "last_ts": "2026-11-20T10:15:26+00:00",
+   "move_pct": 2.6,
+   "closed": true,
+   "rsi": null,
+   "trade_on": "Perps 1x",
+   "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
+   "chart": "charts/PIEVERSE-PERP-HOT-20776.png",
+   "setup": "HOT24"
+  },
   {
    "id": "FARTCOIN-PERP-1795104000",
    "kind": "TA",
@@ -2188,7 +2188,7 @@
    "rsi": 36.3,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": "charts/PYTH-PERP-1794812400.png",
+   "chart": null,
    "setup": "BREAKOUT20"
   },
   {
@@ -3007,61 +3007,17 @@
    "market_reason": "not listed on OKX; buy on a DEX, small size, no leverage",
    "chart": null,
    "setup": null
-  },
-  {
-   "id": "FLOCK-PERP-1794636000",
-   "kind": "TA",
-   "score": 1,
-   "reasons": [
-    "Chart: Retest of the 0.03521 breakoutdown level held (4h after the break)",
-    "Timeframes: 1d down, 4h down, 4h structure mixed",
-    "No support below in the last 50 days",
-    "Stop 0.035548 (above the breakdown level); targets at 1R/2R/3R",
-    "BTC 4h trend down",
-    "Weaker than BTC by 1.5% over 7d",
-    "OI +12% 24h with breakout",
-    "Track record: +0.2R on FLOCK in the last 45 days (backtest)"
-   ],
-   "coin": "FLOCK",
-   "market": "PERP",
-   "side": "SHORT",
-   "entry": 0.03456,
-   "sl0": 0.03554786677066476,
-   "sl": 0.03456,
-   "tps": [
-    0.03357213322933524,
-    0.032584266458670484,
-    0.031596399688005726
-   ],
-   "lev": 1,
-   "funding_pct": -0.0286,
-   "status": "tp3",
-   "hits": 3,
-   "opened": "2026-11-14T07:00:00+00:00",
-   "closed_at": "2026-11-14T16:30:27+00:00",
-   "exit_price": 0.031596399688005726,
-   "result_r": 2.25,
-   "result_pct": 6.43,
-   "last": 0.03156,
-   "last_ts": "2026-11-14T16:30:27+00:00",
-   "move_pct": 8.22,
-   "closed": true,
-   "rsi": 24.3,
-   "trade_on": "Perps 1x",
-   "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": null,
-   "setup": "RETEST"
   }
  ],
  "stats": {
   "all": {
-   "trades": 277,
-   "wins": 132,
+   "trades": 278,
+   "wins": 133,
    "losses": 145,
-   "win_rate": 47.7,
-   "total_r": 30.3,
-   "avg_r": 0.109,
-   "total_pct": 141.45
+   "win_rate": 47.8,
+   "total_r": 30.55,
+   "avg_r": 0.11,
+   "total_pct": 144.45
   },
   "SPOT": {
    "trades": 80,
@@ -3073,13 +3029,13 @@
    "total_pct": 31.82
   },
   "PERP": {
-   "trades": 183,
-   "wins": 93,
+   "trades": 184,
+   "wins": 94,
    "losses": 90,
-   "win_rate": 50.8,
-   "total_r": 37.91,
+   "win_rate": 51.1,
+   "total_r": 38.16,
    "avg_r": 0.207,
-   "total_pct": 89.82
+   "total_pct": 92.82
   },
   "DEX": {
    "trades": 14,
@@ -3092,13 +3048,13 @@
   },
   "kinds": {
    "HOT": {
-    "trades": 68,
-    "wins": 38,
+    "trades": 69,
+    "wins": 39,
     "losses": 30,
-    "win_rate": 55.9,
-    "total_r": 10.36,
-    "avg_r": 0.152,
-    "total_pct": 61.25
+    "win_rate": 56.5,
+    "total_r": 10.61,
+    "avg_r": 0.154,
+    "total_pct": 64.25
    },
    "ONCHAIN": {
     "trades": 14,
@@ -4129,13 +4085,13 @@
     "total_pct": 0.86
    },
    "PIEVERSE": {
-    "trades": 2,
-    "wins": 1,
+    "trades": 3,
+    "wins": 2,
     "losses": 1,
-    "win_rate": 50.0,
-    "total_r": 1.25,
-    "avg_r": 0.625,
-    "total_pct": 1.49
+    "win_rate": 66.7,
+    "total_r": 1.5,
+    "avg_r": 0.5,
+    "total_pct": 4.49
    },
    "PIPPIN": {
     "trades": 2,
@@ -4561,7 +4517,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 10
+  "open": 9
  },
  "backtest": {
   "from": "2026-07-24",
@@ -8234,23 +8190,6 @@
     ]
    },
    {
-    "id": "storage",
-    "name": "Storage",
-    "chg7d": -10.09,
-    "top": [
-     "FIL",
-     "BTT",
-     "AR",
-     "ICNT",
-     "AIOZ"
-    ],
-    "tracked": [
-     "FIL",
-     "AR",
-     "WAL"
-    ]
-   },
-   {
     "id": "zero-knowledge-zk",
     "name": "Zero Knowledge ZK",
     "chg7d": -10.19,
@@ -8270,6 +8209,23 @@
      "ZKP",
      "MAGIC",
      "ZK"
+    ]
+   },
+   {
+    "id": "storage",
+    "name": "Storage",
+    "chg7d": -10.48,
+    "top": [
+     "FIL",
+     "BTT",
+     "AR",
+     "ICNT",
+     "AIOZ"
+    ],
+    "tracked": [
+     "FIL",
+     "AR",
+     "WAL"
     ]
    },
    {
@@ -8483,7 +8439,7 @@
   "updated": {
    "unlocks": 1795160122,
    "onchain": 1795168828,
-   "sectors": 1795168828,
+   "sectors": 1795169726,
    "listings": 1795167923,
    "fundamentals": 1795160123
   }
@@ -8522,6 +8478,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "50bade9c683c82a53f1aa72553ad675eee52c81fe2503825b95cc9936df1a54a",
- "generated": "2026-11-20T10:10:28+00:00"
+ "digest": "b2f91539b825a06a8b64e3082315fba9d2451e87984e88516b1fefd9441de34f",
+ "generated": "2026-11-20T10:15:31+00:00"
 }
