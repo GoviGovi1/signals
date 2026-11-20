@@ -28,7 +28,7 @@
     0.1707107172639346
    ],
    "lev": 1,
-   "funding_pct": 0.0072,
+   "funding_pct": 0.006,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-11-19T21:00:00+00:00",
@@ -36,9 +36,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1777,
-   "last_ts": "2026-11-20T18:40:24+00:00",
-   "move_pct": 7.59,
+   "last": 0.1771,
+   "last_ts": "2026-11-20T18:45:21+00:00",
+   "move_pct": 7.9,
    "closed": false,
    "rsi": 37.9,
    "trade_on": "Perps 1x",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.01416,
-   "last_ts": "2026-11-20T18:40:24+00:00",
-   "move_pct": 5.6,
+   "last": 0.01415,
+   "last_ts": "2026-11-20T18:45:21+00:00",
+   "move_pct": 5.67,
    "closed": false,
    "rsi": 31.5,
    "trade_on": "Perps 1x",
@@ -117,7 +117,7 @@
     0.04572875031075807
    ],
    "lev": 1,
-   "funding_pct": -0.0018,
+   "funding_pct": -0.0015,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-11-20T02:00:00+00:00",
@@ -125,9 +125,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04732,
-   "last_ts": "2026-11-20T18:40:24+00:00",
-   "move_pct": 8.4,
+   "last": 0.04759,
+   "last_ts": "2026-11-20T18:45:21+00:00",
+   "move_pct": 7.88,
    "closed": false,
    "rsi": 33.2,
    "trade_on": "Perps 1x",
@@ -162,7 +162,7 @@
     0.004749593048860754
    ],
    "lev": 1,
-   "funding_pct": -0.0305,
+   "funding_pct": -0.031,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-20T02:00:00+00:00",
@@ -170,9 +170,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.005174,
-   "last_ts": "2026-11-20T18:40:24+00:00",
-   "move_pct": 4.61,
+   "last": 0.005156,
+   "last_ts": "2026-11-20T18:45:21+00:00",
+   "move_pct": 4.94,
    "closed": false,
    "rsi": 36.1,
    "trade_on": "Perps 1x",
@@ -214,9 +214,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.004663,
-   "last_ts": "2026-11-20T18:40:24+00:00",
-   "move_pct": 4.17,
+   "last": 0.004647,
+   "last_ts": "2026-11-20T18:45:21+00:00",
+   "move_pct": 4.5,
    "closed": false,
    "rsi": 31.9,
    "trade_on": "Perps 1x",
@@ -251,7 +251,7 @@
     0.13348493690253851
    ],
    "lev": 1,
-   "funding_pct": -0.0145,
+   "funding_pct": -0.0163,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-20T08:00:00+00:00",
@@ -259,9 +259,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1486,
-   "last_ts": "2026-11-20T18:40:24+00:00",
-   "move_pct": 6.19,
+   "last": 0.148,
+   "last_ts": "2026-11-20T18:45:21+00:00",
+   "move_pct": 6.57,
    "closed": false,
    "rsi": 39.0,
    "trade_on": "Perps 1x",
@@ -296,7 +296,7 @@
     3.4324737719137317e-06
    ],
    "lev": 1,
-   "funding_pct": -0.0091,
+   "funding_pct": -0.0101,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-11-20T13:00:00+00:00",
@@ -304,9 +304,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 3.557e-06,
-   "last_ts": "2026-11-20T18:40:24+00:00",
-   "move_pct": 3.34,
+   "last": 3.546e-06,
+   "last_ts": "2026-11-20T18:45:21+00:00",
+   "move_pct": 3.64,
    "closed": false,
    "rsi": 32.7,
    "trade_on": "Perps 1x",
@@ -7822,21 +7822,6 @@
     ]
    },
    {
-    "id": "privacy-coins",
-    "name": "Privacy Coins",
-    "chg7d": -9.51,
-    "top": [
-     "ZEC",
-     "XMR",
-     "DCR",
-     "ZANO",
-     "NOCK"
-    ],
-    "tracked": [
-     "ZEC"
-    ]
-   },
-   {
     "id": "depin",
     "name": "DePIN",
     "chg7d": -9.9,
@@ -7871,6 +7856,21 @@
     ],
     "tracked": [
      "W"
+    ]
+   },
+   {
+    "id": "privacy-coins",
+    "name": "Privacy Coins",
+    "chg7d": -11.25,
+    "top": [
+     "ZEC",
+     "XMR",
+     "DCR",
+     "ZANO",
+     "NOCK"
+    ],
+    "tracked": [
+     "ZEC"
     ]
    },
    {
@@ -8366,7 +8366,7 @@
   "updated": {
    "unlocks": 1795182025,
    "onchain": 1795197634,
-   "sectors": 1795199429,
+   "sectors": 1795200321,
    "listings": 1795198523,
    "fundamentals": 1795182026
   }
@@ -8405,6 +8405,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "36b31f96d81c5b77a29219049cbbdc971e52b0565abd2aeb0c764838601029ae",
- "generated": "2026-11-20T18:40:27+00:00"
+ "digest": "020880269c2fffecc2fdb07a509d5cd6efff500348908d6615c9e66380a5d81d",
+ "generated": "2026-11-20T18:45:26+00:00"
 }
