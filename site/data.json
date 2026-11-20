@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 3.0106,
-   "last_ts": "2026-11-20T05:20:23+00:00",
-   "move_pct": 15.6,
+   "last": 2.9776,
+   "last_ts": "2026-11-20T05:25:22+00:00",
+   "move_pct": 14.33,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -68,7 +68,7 @@
     0.1707107172639346
    ],
    "lev": 1,
-   "funding_pct": 0.0076,
+   "funding_pct": 0.0075,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-19T21:00:00+00:00",
@@ -76,9 +76,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1883,
-   "last_ts": "2026-11-20T05:20:23+00:00",
-   "move_pct": 2.08,
+   "last": 0.1892,
+   "last_ts": "2026-11-20T05:25:22+00:00",
+   "move_pct": 1.61,
    "closed": false,
    "rsi": 37.9,
    "trade_on": "Perps 1x",
@@ -116,9 +116,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2551,
-   "last_ts": "2026-11-20T05:20:23+00:00",
-   "move_pct": -4.78,
+   "last": 0.258,
+   "last_ts": "2026-11-20T05:25:22+00:00",
+   "move_pct": -3.7,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -160,9 +160,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0149,
-   "last_ts": "2026-11-20T05:20:23+00:00",
-   "move_pct": 0.67,
+   "last": 0.01497,
+   "last_ts": "2026-11-20T05:25:22+00:00",
+   "move_pct": 0.2,
    "closed": false,
    "rsi": 31.5,
    "trade_on": "Perps 1x",
@@ -197,7 +197,7 @@
     0.04572875031075807
    ],
    "lev": 1,
-   "funding_pct": -0.0022,
+   "funding_pct": -0.0027,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-20T02:00:00+00:00",
@@ -205,9 +205,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0509,
-   "last_ts": "2026-11-20T05:20:23+00:00",
-   "move_pct": 1.47,
+   "last": 0.05107,
+   "last_ts": "2026-11-20T05:25:22+00:00",
+   "move_pct": 1.14,
    "closed": false,
    "rsi": 33.2,
    "trade_on": "Perps 1x",
@@ -242,7 +242,7 @@
     0.004749593048860754
    ],
    "lev": 1,
-   "funding_pct": -0.0755,
+   "funding_pct": -0.0753,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-20T02:00:00+00:00",
@@ -250,9 +250,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.005386,
-   "last_ts": "2026-11-20T05:20:23+00:00",
-   "move_pct": 0.7,
+   "last": 0.005403,
+   "last_ts": "2026-11-20T05:25:22+00:00",
+   "move_pct": 0.39,
    "closed": false,
    "rsi": 36.1,
    "trade_on": "Perps 1x",
@@ -290,9 +290,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.010733,
-   "last_ts": "2026-11-20T05:20:23+00:00",
-   "move_pct": 26.97,
+   "last": 0.010631,
+   "last_ts": "2026-11-20T05:25:22+00:00",
+   "move_pct": 25.77,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -334,9 +334,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.004858,
-   "last_ts": "2026-11-20T05:20:23+00:00",
-   "move_pct": 0.16,
+   "last": 0.004868,
+   "last_ts": "2026-11-20T05:25:22+00:00",
+   "move_pct": -0.04,
    "closed": false,
    "rsi": 31.9,
    "trade_on": "Perps 1x",
@@ -7837,9 +7837,24 @@
     ]
    },
    {
+    "id": "privacy-coins",
+    "name": "Privacy Coins",
+    "chg7d": -8.63,
+    "top": [
+     "ZEC",
+     "XMR",
+     "DCR",
+     "ZANO",
+     "NOCK"
+    ],
+    "tracked": [
+     "ZEC"
+    ]
+   },
+   {
     "id": "lending-borrowing",
     "name": "Lending Borrowing",
-    "chg7d": -8.55,
+    "chg7d": -8.64,
     "top": [
      "AAVE",
      "MORPHO",
@@ -7855,21 +7870,6 @@
      "SPK",
      "MORPHO",
      "COMP"
-    ]
-   },
-   {
-    "id": "privacy-coins",
-    "name": "Privacy Coins",
-    "chg7d": -8.63,
-    "top": [
-     "ZEC",
-     "XMR",
-     "DCR",
-     "ZANO",
-     "NOCK"
-    ],
-    "tracked": [
-     "ZEC"
     ]
    },
    {
@@ -8379,8 +8379,8 @@
   "updated": {
    "unlocks": 1795138232,
    "onchain": 1795150829,
-   "sectors": 1795151428,
-   "listings": 1795148425,
+   "sectors": 1795152322,
+   "listings": 1795152322,
    "fundamentals": 1795138232
   }
  },
@@ -8418,6 +8418,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "5c26719c7a050ee3931b18f88be11404eb512104ba1145687258b11bfe3fd16b",
- "generated": "2026-11-20T05:20:27+00:00"
+ "digest": "a6f3c818d03c4fb6a28e2d7fb0045ed1a055c8f35434aeb4be5e2495762236a3",
+ "generated": "2026-11-20T05:25:25+00:00"
 }
