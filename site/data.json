@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.01902,
-   "last_ts": "2026-11-20T01:50:22+00:00",
-   "move_pct": 5.26,
+   "last": 0.01873,
+   "last_ts": "2026-11-20T01:55:20+00:00",
+   "move_pct": 3.65,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -62,7 +62,7 @@
     3.541848
    ],
    "lev": 1,
-   "funding_pct": 0.0081,
+   "funding_pct": 0.007,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-19T07:35:24+00:00",
@@ -70,9 +70,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 2.8765,
-   "last_ts": "2026-11-20T01:50:22+00:00",
-   "move_pct": 10.45,
+   "last": 2.88,
+   "last_ts": "2026-11-20T01:55:20+00:00",
+   "move_pct": 10.59,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -100,75 +100,30 @@
    "side": "SHORT",
    "entry": 0.08339,
    "sl0": 0.08559919812667284,
-   "sl": 0.08559919812667284,
+   "sl": 0.08339,
    "tps": [
     0.08118080187332717,
     0.07897160374665434,
     0.0767624056199815
    ],
    "lev": 1,
-   "funding_pct": -0.0081,
-   "status": "open",
-   "hits": 0,
+   "funding_pct": -0.0091,
+   "status": "tp1",
+   "hits": 1,
    "opened": "2026-11-19T17:00:00+00:00",
    "closed_at": null,
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.08323,
-   "last_ts": "2026-11-20T01:50:22+00:00",
-   "move_pct": 0.19,
+   "last": 0.08204,
+   "last_ts": "2026-11-20T01:55:20+00:00",
+   "move_pct": 1.62,
    "closed": false,
    "rsi": 32.3,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": "charts/FARTCOIN-PERP-1795104000.png",
    "setup": "BREAKOUT20"
-  },
-  {
-   "id": "KAT-SPOT-1795107600",
-   "kind": "TA",
-   "score": 1,
-   "reasons": [
-    "Chart: Break of structure: closed above the last swing high 0.003149, after a higher low",
-    "Timeframes: 1d down, 4h down, 4h structure higher highs/lows",
-    "Next resistance 0.0033699 (2.2R away, 4h swing/swing/volume node)",
-    "Stop 0.0030706 (structure); targets at the next 3 level(s)",
-    "BTC 4h trend down",
-    "Stronger than BTC by 11.1% over 7d",
-    "OI +3% 24h",
-    "Sector: Layer 2 -6.2% 7d (leading, #4 of 20)",
-    "Track record: +1.8R on KAT in the last 45 days (backtest)"
-   ],
-   "coin": "KAT",
-   "market": "SPOT",
-   "side": "LONG",
-   "entry": 0.003161,
-   "sl0": 0.003068695031361913,
-   "sl": 0.003068695031361913,
-   "tps": [
-    0.0033597820036794434,
-    0.003477780384002171,
-    0.0036196905958263883
-   ],
-   "lev": null,
-   "funding_pct": null,
-   "status": "open",
-   "hits": 0,
-   "opened": "2026-11-19T18:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.003092,
-   "last_ts": "2026-11-20T01:50:22+00:00",
-   "move_pct": -2.18,
-   "closed": false,
-   "rsi": 58.0,
-   "trade_on": "Spot",
-   "market_reason": "thin perp market: spot is safer",
-   "chart": "charts/KAT-SPOT-1795107600.png",
-   "setup": "BOS"
   },
   {
    "id": "CRV-PERP-1795118400",
@@ -198,7 +153,7 @@
     0.1707107172639346
    ],
    "lev": 1,
-   "funding_pct": 0.0071,
+   "funding_pct": 0.0069,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-19T21:00:00+00:00",
@@ -206,9 +161,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1888,
-   "last_ts": "2026-11-20T01:50:22+00:00",
-   "move_pct": 1.82,
+   "last": 0.1869,
+   "last_ts": "2026-11-20T01:55:20+00:00",
+   "move_pct": 2.81,
    "closed": false,
    "rsi": 37.9,
    "trade_on": "Perps 1x",
@@ -246,9 +201,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2666,
-   "last_ts": "2026-11-20T01:50:22+00:00",
-   "move_pct": -0.49,
+   "last": 0.2604,
+   "last_ts": "2026-11-20T01:55:20+00:00",
+   "move_pct": -2.8,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -258,6 +213,51 @@
   }
  ],
  "closed": [
+  {
+   "id": "KAT-SPOT-1795107600",
+   "kind": "TA",
+   "score": 1,
+   "reasons": [
+    "Chart: Break of structure: closed above the last swing high 0.003149, after a higher low",
+    "Timeframes: 1d down, 4h down, 4h structure higher highs/lows",
+    "Next resistance 0.0033699 (2.2R away, 4h swing/swing/volume node)",
+    "Stop 0.0030706 (structure); targets at the next 3 level(s)",
+    "BTC 4h trend down",
+    "Stronger than BTC by 11.1% over 7d",
+    "OI +3% 24h",
+    "Sector: Layer 2 -6.2% 7d (leading, #4 of 20)",
+    "Track record: +1.8R on KAT in the last 45 days (backtest)"
+   ],
+   "coin": "KAT",
+   "market": "SPOT",
+   "side": "LONG",
+   "entry": 0.003161,
+   "sl0": 0.003068695031361913,
+   "sl": 0.003068695031361913,
+   "tps": [
+    0.0033597820036794434,
+    0.003477780384002171,
+    0.0036196905958263883
+   ],
+   "lev": null,
+   "funding_pct": null,
+   "status": "stopped",
+   "hits": 0,
+   "opened": "2026-11-19T18:00:00+00:00",
+   "closed_at": "2026-11-20T01:55:20+00:00",
+   "exit_price": 0.003068695031361913,
+   "result_r": -1.0,
+   "result_pct": -2.92,
+   "last": 0.003068,
+   "last_ts": "2026-11-20T01:55:20+00:00",
+   "move_pct": -2.18,
+   "closed": true,
+   "rsi": 58.0,
+   "trade_on": "Spot",
+   "market_reason": "thin perp market: spot is safer",
+   "chart": "charts/KAT-SPOT-1795107600.png",
+   "setup": "BOS"
+  },
   {
    "id": "BIGTIME-SPOT-1795107600",
    "kind": "TA",
@@ -2004,7 +2004,7 @@
    "rsi": null,
    "trade_on": "Spot",
    "market_reason": "only spot is listed",
-   "chart": "charts/VINE-SPOT-HOT-20773.png",
+   "chart": null,
    "setup": "HOT24"
   },
   {
@@ -2828,66 +2828,26 @@
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": null,
    "setup": "BREAKOUT20"
-  },
-  {
-   "id": "BERA-SPOT-HOT-20771",
-   "kind": "HOT",
-   "score": 882.59,
-   "reasons": [
-    "24h hot mover +24% with volume spike (5.9x the prior 3 days)",
-    "24h volume $2.0M on the OKX spot book, listed 646 days",
-    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
-    "Stop 0.11837 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
-   ],
-   "coin": "BERA",
-   "market": "SPOT",
-   "side": "LONG",
-   "entry": 0.1249,
-   "sl0": 0.11836643743199099,
-   "sl": 0.1249,
-   "tps": [
-    0.131433562568009,
-    0.137967125136018,
-    0.144500687704027
-   ],
-   "lev": null,
-   "funding_pct": null,
-   "status": "stopped_be",
-   "hits": 1,
-   "opened": "2026-11-14T00:35:32+00:00",
-   "closed_at": "2026-11-14T02:30:26+00:00",
-   "exit_price": 0.1249,
-   "result_r": 0.25,
-   "result_pct": 1.31,
-   "last": 0.1266,
-   "last_ts": "2026-11-14T02:30:26+00:00",
-   "move_pct": 1.92,
-   "closed": true,
-   "rsi": null,
-   "trade_on": "Spot",
-   "market_reason": "trend not strong enough for leverage: spot has no liquidation or funding",
-   "chart": null,
-   "setup": "HOT24"
   }
  ],
  "stats": {
   "all": {
-   "trades": 274,
+   "trades": 275,
    "wins": 130,
-   "losses": 144,
-   "win_rate": 47.4,
-   "total_r": 30.8,
-   "avg_r": 0.112,
-   "total_pct": 140.71
+   "losses": 145,
+   "win_rate": 47.3,
+   "total_r": 29.8,
+   "avg_r": 0.108,
+   "total_pct": 137.79
   },
   "SPOT": {
-   "trades": 79,
+   "trades": 80,
    "wins": 31,
-   "losses": 48,
-   "win_rate": 39.2,
-   "total_r": -6.71,
-   "avg_r": -0.085,
-   "total_pct": 34.74
+   "losses": 49,
+   "win_rate": 38.8,
+   "total_r": -7.71,
+   "avg_r": -0.096,
+   "total_pct": 31.82
   },
   "PERP": {
    "trades": 181,
@@ -2927,13 +2887,13 @@
     "total_pct": 19.81
    },
    "TA": {
-    "trades": 193,
+    "trades": 194,
     "wins": 85,
-    "losses": 108,
-    "win_rate": 44.0,
-    "total_r": 20.59,
-    "avg_r": 0.107,
-    "total_pct": 62.65
+    "losses": 109,
+    "win_rate": 43.8,
+    "total_r": 19.59,
+    "avg_r": 0.101,
+    "total_pct": 59.73
    }
   },
   "coins": {
@@ -3631,13 +3591,13 @@
     "total_pct": 9.33
    },
    "KAT": {
-    "trades": 4,
+    "trades": 5,
     "wins": 1,
-    "losses": 3,
-    "win_rate": 25.0,
-    "total_r": 1.88,
-    "avg_r": 0.47,
-    "total_pct": 3.54
+    "losses": 4,
+    "win_rate": 20.0,
+    "total_r": 0.88,
+    "avg_r": 0.176,
+    "total_pct": 0.62
    },
    "KGEN": {
     "trades": 1,
@@ -4369,7 +4329,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 6
+  "open": 5
  },
  "backtest": {
   "from": "2026-07-24",
@@ -8045,28 +8005,6 @@
     ]
    },
    {
-    "id": "meme-token",
-    "name": "Meme Token",
-    "chg7d": -11.33,
-    "top": [
-     "DOGE",
-     "SHIB",
-     "M",
-     "PEPE",
-     "PUMP"
-    ],
-    "tracked": [
-     "DOGE",
-     "PEPE",
-     "PUMP",
-     "TRUMP",
-     "PENGU",
-     "SHIB",
-     "USELESS",
-     "CASHCAT"
-    ]
-   },
-   {
     "id": "decentralized-perpetuals",
     "name": "Decentralized Perpetuals",
     "chg7d": -11.39,
@@ -8105,6 +8043,28 @@
      "ZKP",
      "TRB",
      "API3"
+    ]
+   },
+   {
+    "id": "meme-token",
+    "name": "Meme Token",
+    "chg7d": -13.25,
+    "top": [
+     "DOGE",
+     "SHIB",
+     "M",
+     "PEPE",
+     "PUMP"
+    ],
+    "tracked": [
+     "DOGE",
+     "PEPE",
+     "PUMP",
+     "TRUMP",
+     "PENGU",
+     "SHIB",
+     "USELESS",
+     "CASHCAT"
     ]
    }
   ],
@@ -8277,7 +8237,7 @@
   "updated": {
    "unlocks": 1795138232,
    "onchain": 1795136432,
-   "sectors": 1795138823,
+   "sectors": 1795139719,
    "listings": 1795137033,
    "fundamentals": 1795138232
   }
@@ -8316,6 +8276,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "bf14f972a1b3ffb2217c4419a13af3d7d36f035c6e5a30d41fb3be4d94ba28a8",
- "generated": "2026-11-20T01:50:25+00:00"
+ "digest": "cbb88637799e048c997a19f7fa282cb19257fa9baad5921b75773a81a82f6e20",
+ "generated": "2026-11-20T01:55:25+00:00"
 }
