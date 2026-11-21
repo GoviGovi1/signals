@@ -28,7 +28,7 @@
     0.1707107172639346
    ],
    "lev": 1,
-   "funding_pct": 0.0018,
+   "funding_pct": 0.0014,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-11-19T21:00:00+00:00",
@@ -36,9 +36,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1802,
-   "last_ts": "2026-11-20T23:55:19+00:00",
-   "move_pct": 6.29,
+   "last": 0.1799,
+   "last_ts": "2026-11-21T00:01:40+00:00",
+   "move_pct": 6.45,
    "closed": false,
    "rsi": 37.9,
    "trade_on": "Perps 1x",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.01429,
-   "last_ts": "2026-11-20T23:55:19+00:00",
-   "move_pct": 4.73,
+   "last": 0.01431,
+   "last_ts": "2026-11-21T00:01:40+00:00",
+   "move_pct": 4.6,
    "closed": false,
    "rsi": 31.5,
    "trade_on": "Perps 1x",
@@ -117,7 +117,7 @@
     0.04572875031075807
    ],
    "lev": 1,
-   "funding_pct": 0.0011,
+   "funding_pct": 0.0005,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-11-20T02:00:00+00:00",
@@ -126,7 +126,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.04817,
-   "last_ts": "2026-11-20T23:55:19+00:00",
+   "last_ts": "2026-11-21T00:01:40+00:00",
    "move_pct": 6.76,
    "closed": false,
    "rsi": 33.2,
@@ -162,7 +162,7 @@
     0.004749593048860754
    ],
    "lev": 1,
-   "funding_pct": -0.0435,
+   "funding_pct": -0.045,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-20T02:00:00+00:00",
@@ -170,9 +170,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.005197,
-   "last_ts": "2026-11-20T23:55:19+00:00",
-   "move_pct": 4.19,
+   "last": 0.005199,
+   "last_ts": "2026-11-21T00:01:40+00:00",
+   "move_pct": 4.15,
    "closed": false,
    "rsi": 36.1,
    "trade_on": "Perps 1x",
@@ -215,7 +215,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.004712,
-   "last_ts": "2026-11-20T23:55:19+00:00",
+   "last_ts": "2026-11-21T00:01:40+00:00",
    "move_pct": 3.16,
    "closed": false,
    "rsi": 31.9,
@@ -251,7 +251,7 @@
     0.13348493690253851
    ],
    "lev": 1,
-   "funding_pct": -0.0511,
+   "funding_pct": -0.0534,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-20T08:00:00+00:00",
@@ -259,9 +259,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1474,
-   "last_ts": "2026-11-20T23:55:19+00:00",
-   "move_pct": 6.94,
+   "last": 0.1476,
+   "last_ts": "2026-11-21T00:01:40+00:00",
+   "move_pct": 6.82,
    "closed": false,
    "rsi": 39.0,
    "trade_on": "Perps 1x",
@@ -296,7 +296,7 @@
     3.4324737719137317e-06
    ],
    "lev": 1,
-   "funding_pct": -0.0054,
+   "funding_pct": -0.0048,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-11-20T13:00:00+00:00",
@@ -305,7 +305,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 3.583e-06,
-   "last_ts": "2026-11-20T23:55:19+00:00",
+   "last_ts": "2026-11-21T00:01:40+00:00",
    "move_pct": 2.64,
    "closed": false,
    "rsi": 32.7,
@@ -7732,64 +7732,64 @@
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
   "onchain": [
    {
+    "chain": "Base",
+    "symbol": "XDP",
+    "name": "Doppler Finance",
+    "token": "0x07b3d902783c3c12b077508c3b5c00113d1291d0",
+    "price": 0.0142661247818994,
+    "liq": 713422,
+    "vol24h": 8270242,
+    "age_d": 53.5,
+    "chg24h": -3.705,
+    "chg7d": -16.7,
+    "mcap": 14265790.05,
+    "safety": "ok",
+    "safety_notes": [],
+    "trigger": false,
+    "trend_up": false,
+    "rsi": 30.5,
+    "url": "https://www.geckoterminal.com/base/pools/0x2df380544b88adb3ad0a94100dcc45fd705aae2d"
+   },
+   {
+    "chain": "Base",
+    "symbol": "VVV",
+    "name": "Venice Token",
+    "token": "0xacfe6019ed1a7dc6f7b508c02d1b04ec88cc21bf",
+    "price": 20.6484600462085,
+    "liq": 2758520,
+    "vol24h": 5740094,
+    "age_d": 29.9,
+    "chg24h": -6.152,
+    "chg7d": 8.9,
+    "mcap": 1014058068.4073,
+    "safety": "ok",
+    "safety_notes": [],
+    "trigger": false,
+    "trend_up": false,
+    "rsi": 50.5,
+    "url": "https://www.geckoterminal.com/base/pools/0xdebaebe5b2729f7d62072b2ea40472d78d2c1626"
+   },
+   {
     "chain": "Solana",
-    "symbol": "PIPPIN",
-    "name": "Pippin",
-    "token": "Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump",
-    "price": 0.018612651120163536,
-    "liq": 3342713,
-    "vol24h": 6275115,
-    "age_d": 741.1,
-    "chg24h": 1.436,
-    "chg7d": 51.3,
-    "mcap": 18709890.0260686,
-    "safety": "ok",
-    "safety_notes": [],
-    "trigger": false,
-    "trend_up": true,
-    "rsi": 53.6,
-    "url": "https://www.geckoterminal.com/solana/pools/8WwcNqdZjCY5Pt7AkhupAFknV2txca9sq6YBkGzLbvdt"
-   },
-   {
-    "chain": "Arbitrum",
-    "symbol": "ARB",
-    "name": "Arbitrum",
-    "token": "0x912ce59144191c1204e64559fe8253a0e49e6548",
-    "price": 0.114774832528193,
-    "liq": 1192073,
-    "vol24h": 5398726,
-    "age_d": 1344.9,
-    "chg24h": -6.351,
-    "chg7d": -20.6,
-    "mcap": 801895502.856878,
+    "symbol": "PUMP",
+    "name": "Pump",
+    "token": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+    "price": 0.0024210366857570884,
+    "liq": 17618450,
+    "vol24h": 4304197,
+    "age_d": 494.3,
+    "chg24h": -7.964,
+    "chg7d": -29.8,
+    "mcap": 857011096.776918,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 39.6,
-    "url": "https://www.geckoterminal.com/arbitrum/pools/0xc6f780497a95e246eb9449f5e4770916dcd6396a"
-   },
-   {
-    "chain": "Ethereum",
-    "symbol": "PAXG",
-    "name": "Paxos Gold",
-    "token": "0x45804880de22913dafe09f4980848ece6ecbaf78",
-    "price": 3521.1637604105,
-    "liq": 5538837,
-    "vol24h": 3660501,
-    "age_d": 394.4,
-    "chg24h": -2.363,
-    "chg7d": -9.0,
-    "mcap": 1575275439.22029,
-    "safety": "ok",
-    "safety_notes": [],
-    "trigger": false,
-    "trend_up": false,
-    "rsi": 40.2,
-    "url": "https://www.geckoterminal.com/eth/pools/0xc756bba710d45647715079ce50aa16aab36ded42"
+    "rsi": 38.7,
+    "url": "https://www.geckoterminal.com/solana/pools/2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd"
    }
   ],
-  "onchain_checked": 85,
+  "onchain_checked": 86,
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
@@ -7826,6 +7826,28 @@
     ],
     "tracked": [
      "ZEC"
+    ]
+   },
+   {
+    "id": "gaming",
+    "name": "Gaming",
+    "chg7d": -12.75,
+    "top": [
+     "BEAM",
+     "FLOKI",
+     "GEOD",
+     "GOMINING",
+     "MANA"
+    ],
+    "tracked": [
+     "ONE",
+     "BEAT",
+     "SAND",
+     "GALA",
+     "APE",
+     "AXS",
+     "IMX",
+     "FLOKI"
     ]
    },
    {
@@ -7909,28 +7931,6 @@
      "MAGIC",
      "POL",
      "MINA"
-    ]
-   },
-   {
-    "id": "gaming",
-    "name": "Gaming",
-    "chg7d": -13.8,
-    "top": [
-     "BEAM",
-     "FLOKI",
-     "GEOD",
-     "GOMINING",
-     "MANA"
-    ],
-    "tracked": [
-     "ONE",
-     "BEAT",
-     "SAND",
-     "GALA",
-     "APE",
-     "AXS",
-     "IMX",
-     "FLOKI"
     ]
    },
    {
@@ -8374,8 +8374,8 @@
   ],
   "updated": {
    "unlocks": 1795203925,
-   "onchain": 1795215630,
-   "sectors": 1795218321,
+   "onchain": 1795219236,
+   "sectors": 1795219236,
    "listings": 1795217428,
    "fundamentals": 1795203926
   }
@@ -8414,6 +8414,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "722a0e73dd2b5e212cc057c2acb282ce46e96290cd6e92ca7a7153783caaa8b9",
- "generated": "2026-11-20T23:55:22+00:00"
+ "digest": "f393c7492ae34cc70de65ba3709502093c6b7e9075beda827471c7f22776c081",
+ "generated": "2026-11-21T00:02:19+00:00"
 }
