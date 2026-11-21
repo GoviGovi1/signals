@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.01392,
-   "last_ts": "2026-11-21T06:55:21+00:00",
-   "move_pct": 7.2,
+   "last": 0.01389,
+   "last_ts": "2026-11-21T07:01:34+00:00",
+   "move_pct": 7.4,
    "closed": false,
    "rsi": 31.5,
    "trade_on": "Perps 1x",
@@ -71,7 +71,7 @@
     0.004749593048860754
    ],
    "lev": 1,
-   "funding_pct": -0.0535,
+   "funding_pct": -0.0495,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-11-20T02:00:00+00:00",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.005073,
-   "last_ts": "2026-11-21T06:55:21+00:00",
-   "move_pct": 6.47,
+   "last": 0.005076,
+   "last_ts": "2026-11-21T07:01:34+00:00",
+   "move_pct": 6.42,
    "closed": false,
    "rsi": 36.1,
    "trade_on": "Perps 1x",
@@ -116,7 +116,7 @@
     0.13348493690253851
    ],
    "lev": 1,
-   "funding_pct": -0.0538,
+   "funding_pct": -0.053,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-11-20T08:00:00+00:00",
@@ -124,9 +124,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1457,
-   "last_ts": "2026-11-21T06:55:21+00:00",
-   "move_pct": 8.02,
+   "last": 0.1452,
+   "last_ts": "2026-11-21T07:01:34+00:00",
+   "move_pct": 8.33,
    "closed": false,
    "rsi": 39.0,
    "trade_on": "Perps 1x",
@@ -161,7 +161,7 @@
     3.294276142141741
    ],
    "lev": 1,
-   "funding_pct": 0.0014,
+   "funding_pct": 0.0017,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-21T04:00:00+00:00",
@@ -169,9 +169,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 4.441,
-   "last_ts": "2026-11-21T06:55:21+00:00",
-   "move_pct": -3.23,
+   "last": 4.421,
+   "last_ts": "2026-11-21T07:01:34+00:00",
+   "move_pct": -2.77,
    "closed": false,
    "rsi": 24.5,
    "trade_on": "Perps 1x",
@@ -7624,42 +7624,61 @@
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
   "onchain": [
    {
-    "chain": "BSC",
-    "symbol": "ARK",
-    "name": "ARK",
-    "token": "0xcae117ca6bc8a341d2e7207f30e180f0e5618b9d",
-    "price": 6.34605539769711,
-    "liq": 58031283,
-    "vol24h": 6111115,
-    "age_d": 451.8,
-    "chg24h": -0.747,
-    "chg7d": -1.1,
-    "mcap": 0.0,
+    "chain": "Base",
+    "symbol": "VVV",
+    "name": "Venice Token",
+    "token": "0xacfe6019ed1a7dc6f7b508c02d1b04ec88cc21bf",
+    "price": 21.552835271871,
+    "liq": 2555513,
+    "vol24h": 6102535,
+    "age_d": 30.2,
+    "chg24h": 4.095,
+    "chg7d": 19.5,
+    "mcap": 1058758878.50815,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 42.3,
-    "url": "https://www.geckoterminal.com/bsc/pools/0xcaaf3c41a40103a23eeaa4bba468af3cf5b0e0d8"
+    "rsi": 59.6,
+    "url": "https://www.geckoterminal.com/base/pools/0xdebaebe5b2729f7d62072b2ea40472d78d2c1626"
    },
    {
     "chain": "Arbitrum",
     "symbol": "ARB",
     "name": "Arbitrum",
     "token": "0x912ce59144191c1204e64559fe8253a0e49e6548",
-    "price": 0.106061675544446,
-    "liq": 1121031,
-    "vol24h": 4631772,
+    "price": 0.108793393407996,
+    "liq": 1162812,
+    "vol24h": 4808271,
     "age_d": 1345.2,
-    "chg24h": -9.907,
-    "chg7d": -25.2,
-    "mcap": 742184645.948015,
+    "chg24h": -8.521,
+    "chg7d": -22.5,
+    "mcap": 762340672.05481,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 21.8,
+    "rsi": 33.9,
     "url": "https://www.geckoterminal.com/arbitrum/pools/0xc6f780497a95e246eb9449f5e4770916dcd6396a"
+   },
+   {
+    "chain": "BSC",
+    "symbol": "$BANANA",
+    "name": "Banana For Scale",
+    "token": "0x3d4f0513e8a29669b960f9dbca61861548a9a760",
+    "price": 0.00460068873229865,
+    "liq": 2742438,
+    "vol24h": 3509748,
+    "age_d": 732.9,
+    "chg24h": -9.141,
+    "chg7d": 3.0,
+    "mcap": 45903363.6,
+    "safety": "ok",
+    "safety_notes": [],
+    "trigger": false,
+    "trend_up": false,
+    "rsi": 35.4,
+    "url": "https://www.geckoterminal.com/bsc/pools/0x7f51bbf34156ba802deb0e38b7671dc4fa32041d"
    }
   ],
   "onchain_checked": 86,
@@ -7802,28 +7821,6 @@
     ]
    },
    {
-    "id": "solana-meme-coins",
-    "name": "Solana Meme Coins",
-    "chg7d": -13.85,
-    "top": [
-     "PENGU",
-     "TRUMP",
-     "BONK",
-     "WIF",
-     "FARTCOIN"
-    ],
-    "tracked": [
-     "TRUMP",
-     "PIPPIN",
-     "PENGU",
-     "VINE",
-     "USELESS",
-     "WIF",
-     "FARTCOIN",
-     "BONK"
-    ]
-   },
-   {
     "id": "depin",
     "name": "DePIN",
     "chg7d": -14.2,
@@ -7923,6 +7920,28 @@
     ],
     "tracked": [
      "W"
+    ]
+   },
+   {
+    "id": "solana-meme-coins",
+    "name": "Solana Meme Coins",
+    "chg7d": -14.81,
+    "top": [
+     "PENGU",
+     "TRUMP",
+     "BONK",
+     "WIF",
+     "FARTCOIN"
+    ],
+    "tracked": [
+     "TRUMP",
+     "PIPPIN",
+     "PENGU",
+     "VINE",
+     "USELESS",
+     "WIF",
+     "FARTCOIN",
+     "BONK"
     ]
    },
    {
@@ -8247,8 +8266,8 @@
   ],
   "updated": {
    "unlocks": 1795225830,
-   "onchain": 1795240828,
-   "sectors": 1795243524,
+   "onchain": 1795244428,
+   "sectors": 1795244428,
    "listings": 1795243524,
    "fundamentals": 1795225830
   }
@@ -8287,6 +8306,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "f6179db4a787a85c1f0837b80224df12005e284b3962811e28def370409f61b2",
- "generated": "2026-11-21T06:55:24+00:00"
+ "digest": "a3de348d594bc0ea08225c4203c4227d6936ec1fe6c35b9241b5cd3d683c6e44",
+ "generated": "2026-11-21T07:02:07+00:00"
 }
