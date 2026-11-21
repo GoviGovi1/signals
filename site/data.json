@@ -26,7 +26,7 @@
     0.012609291317851833
    ],
    "lev": 1,
-   "funding_pct": -0.0011,
+   "funding_pct": -0.0005,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-20T02:00:00+00:00",
@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0137,
-   "last_ts": "2026-11-21T03:40:22+00:00",
-   "move_pct": 8.67,
+   "last": 0.0136,
+   "last_ts": "2026-11-21T03:45:21+00:00",
+   "move_pct": 9.33,
    "closed": false,
    "rsi": 31.5,
    "trade_on": "Perps 1x",
@@ -71,7 +71,7 @@
     0.004749593048860754
    ],
    "lev": 1,
-   "funding_pct": -0.0678,
+   "funding_pct": -0.0677,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-20T02:00:00+00:00",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.005014,
-   "last_ts": "2026-11-21T03:40:22+00:00",
-   "move_pct": 7.56,
+   "last": 0.004992,
+   "last_ts": "2026-11-21T03:45:21+00:00",
+   "move_pct": 7.96,
    "closed": false,
    "rsi": 36.1,
    "trade_on": "Perps 1x",
@@ -115,7 +115,7 @@
     0.004420994074315442
    ],
    "lev": 1,
-   "funding_pct": -0.0069,
+   "funding_pct": -0.0058,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-11-20T05:00:00+00:00",
@@ -123,9 +123,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.004537,
-   "last_ts": "2026-11-21T03:40:22+00:00",
-   "move_pct": 6.76,
+   "last": 0.004518,
+   "last_ts": "2026-11-21T03:45:21+00:00",
+   "move_pct": 7.15,
    "closed": false,
    "rsi": 31.9,
    "trade_on": "Perps 1x",
@@ -160,7 +160,7 @@
     0.13348493690253851
    ],
    "lev": 1,
-   "funding_pct": -0.0789,
+   "funding_pct": -0.0786,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-20T08:00:00+00:00",
@@ -168,9 +168,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1427,
-   "last_ts": "2026-11-21T03:40:22+00:00",
-   "move_pct": 9.91,
+   "last": 0.1417,
+   "last_ts": "2026-11-21T03:45:21+00:00",
+   "move_pct": 10.54,
    "closed": false,
    "rsi": 39.0,
    "trade_on": "Perps 1x",
@@ -200,7 +200,7 @@
     0.5808172908877869
    ],
    "lev": 1,
-   "funding_pct": -0.6817,
+   "funding_pct": -0.6795,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-21T02:15:23+00:00",
@@ -208,9 +208,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.4714,
-   "last_ts": "2026-11-21T03:40:22+00:00",
-   "move_pct": -3.78,
+   "last": 0.456,
+   "last_ts": "2026-11-21T03:45:21+00:00",
+   "move_pct": -6.92,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -7959,6 +7959,28 @@
     ]
    },
    {
+    "id": "decentralized-finance-defi",
+    "name": "Decentralized Finance DeFi",
+    "chg7d": -13.38,
+    "top": [
+     "STETH",
+     "HYPE",
+     "WSTETH",
+     "LINK",
+     "DAI"
+    ],
+    "tracked": [
+     "LINK",
+     "HYPE",
+     "UNI",
+     "PUMP",
+     "LIT",
+     "ENA",
+     "AAVE",
+     "INJ"
+    ]
+   },
+   {
     "id": "layer-2",
     "name": "Layer 2",
     "chg7d": -13.38,
@@ -8022,28 +8044,6 @@
      "WIF",
      "FARTCOIN",
      "BONK"
-    ]
-   },
-   {
-    "id": "decentralized-finance-defi",
-    "name": "Decentralized Finance DeFi",
-    "chg7d": -14.66,
-    "top": [
-     "STETH",
-     "HYPE",
-     "WSTETH",
-     "LINK",
-     "DAI"
-    ],
-    "tracked": [
-     "LINK",
-     "HYPE",
-     "UNI",
-     "PUMP",
-     "LIT",
-     "ENA",
-     "AAVE",
-     "INJ"
     ]
    },
    {
@@ -8304,7 +8304,7 @@
   "updated": {
    "unlocks": 1795225830,
    "onchain": 1795230031,
-   "sectors": 1795231832,
+   "sectors": 1795232720,
    "listings": 1795232422,
    "fundamentals": 1795225830
   }
@@ -8343,6 +8343,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "229d3a3ebbc857e8f7cda3c4625a5d6d9b305a6f464e9dcf0775c97e02204ddc",
- "generated": "2026-11-21T03:40:25+00:00"
+ "digest": "7d88b207b8263d3697fb152bc0d8796145aaa19d28250ecaebc81c27d80e2c11",
+ "generated": "2026-11-21T03:45:23+00:00"
 }
