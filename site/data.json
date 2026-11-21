@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.01364,
-   "last_ts": "2026-11-21T04:55:17+00:00",
-   "move_pct": 9.07,
+   "last": 0.0137,
+   "last_ts": "2026-11-21T05:01:33+00:00",
+   "move_pct": 8.67,
    "closed": false,
    "rsi": 31.5,
    "trade_on": "Perps 1x",
@@ -71,7 +71,7 @@
     0.004749593048860754
    ],
    "lev": 1,
-   "funding_pct": -0.0604,
+   "funding_pct": -0.0595,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-11-20T02:00:00+00:00",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.005028,
-   "last_ts": "2026-11-21T04:55:17+00:00",
-   "move_pct": 7.3,
+   "last": 0.005033,
+   "last_ts": "2026-11-21T05:01:33+00:00",
+   "move_pct": 7.21,
    "closed": false,
    "rsi": 36.1,
    "trade_on": "Perps 1x",
@@ -116,7 +116,7 @@
     0.13348493690253851
    ],
    "lev": 1,
-   "funding_pct": -0.0619,
+   "funding_pct": -0.0609,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-11-20T08:00:00+00:00",
@@ -125,7 +125,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.1423,
-   "last_ts": "2026-11-21T04:55:17+00:00",
+   "last_ts": "2026-11-21T05:01:33+00:00",
    "move_pct": 10.16,
    "closed": false,
    "rsi": 39.0,
@@ -161,7 +161,7 @@
     3.294276142141741
    ],
    "lev": 1,
-   "funding_pct": -0.0044,
+   "funding_pct": -0.0041,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-21T04:00:00+00:00",
@@ -169,9 +169,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 4.267,
-   "last_ts": "2026-11-21T04:55:17+00:00",
-   "move_pct": 0.81,
+   "last": 4.266,
+   "last_ts": "2026-11-21T05:01:33+00:00",
+   "move_pct": 0.84,
    "closed": false,
    "rsi": 24.5,
    "trade_on": "Perps 1x",
@@ -7625,60 +7625,60 @@
   "onchain": [
    {
     "chain": "Base",
-    "symbol": "ELSA",
-    "name": "Elsa",
-    "token": "0x29cc30f9d113b356ce408667aa6433589cecbdca",
-    "price": 0.0643679840572969,
-    "liq": 449699,
-    "vol24h": 6633154,
-    "age_d": 304.8,
-    "chg24h": 13.888,
-    "chg7d": -1.6,
-    "mcap": 19618236.3051927,
-    "safety": "ok",
-    "safety_notes": [],
-    "trigger": false,
-    "trend_up": true,
-    "rsi": 49.2,
-    "url": "https://www.geckoterminal.com/base/pools/0x83f3aca29bc79b048b99c56013475570acc97ccf"
-   },
-   {
-    "chain": "Solana",
-    "symbol": "PIPPIN",
-    "name": "Pippin",
-    "token": "Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump",
-    "price": 0.0176241920569117,
-    "liq": 3180255,
-    "vol24h": 5280264,
-    "age_d": 741.3,
-    "chg24h": -10.659,
-    "chg7d": 46.8,
-    "mcap": 17627354.8068842,
+    "symbol": "XDP",
+    "name": "Doppler Finance",
+    "token": "0x07b3d902783c3c12b077508c3b5c00113d1291d0",
+    "price": 0.0136472276400261,
+    "liq": 694882,
+    "vol24h": 8340947,
+    "age_d": 53.7,
+    "chg24h": -11.298,
+    "chg7d": -19.7,
+    "mcap": 13644744.67,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 44.4,
-    "url": "https://www.geckoterminal.com/solana/pools/8WwcNqdZjCY5Pt7AkhupAFknV2txca9sq6YBkGzLbvdt"
+    "rsi": 26.4,
+    "url": "https://www.geckoterminal.com/base/pools/0x2df380544b88adb3ad0a94100dcc45fd705aae2d"
+   },
+   {
+    "chain": "Base",
+    "symbol": "AERO",
+    "name": "Aero",
+    "token": "0x3f5bf3edac59d650d8fdf9657a71f2f904a3a4ee",
+    "price": 0.371895626107285,
+    "liq": 731993,
+    "vol24h": 5469862,
+    "age_d": 30.1,
+    "chg24h": -8.793,
+    "chg7d": -19.4,
+    "mcap": 286160441.251142,
+    "safety": "ok",
+    "safety_notes": [],
+    "trigger": false,
+    "trend_up": false,
+    "rsi": 24.5,
+    "url": "https://www.geckoterminal.com/base/pools/0x422df9aa896e883c9cdcbad309c0785b7364a1cf"
    },
    {
     "chain": "BSC",
-    "symbol": "AGT",
-    "name": "Alaya Governance Token",
-    "token": "0x5dbde81fce337ff4bcaaee4ca3466c00aecae274",
-    "price": 0.0213825998447871,
-    "liq": 1331387,
-    "vol24h": 3847264,
-    "age_d": 554.6,
-    "chg24h": -10.329,
-    "chg7d": -56.0,
-    "mcap": 0.0,
+    "symbol": "IRYS",
+    "name": "Irys",
+    "token": "0x91152b4ef635403efbae860edd0f8c321d7c035d",
+    "price": 0.0205114048125693,
+    "liq": 455129,
+    "vol24h": 3574729,
+    "age_d": 337.7,
+    "chg24h": 3.541,
+    "chg7d": 32.0,
+    "mcap": 41022809.62,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 33.4,
-    "url": "https://www.geckoterminal.com/bsc/pools/0xd3cffc6b02a34dfc72f1350339031043a854599f"
+    "rsi": 44.3,
+    "url": "https://www.geckoterminal.com/bsc/pools/0x73de8b8d37fac1afe156f6533788a0eff197d636"
    }
   ],
   "onchain_checked": 86,
@@ -7810,28 +7810,6 @@
     ],
     "tracked": [
      "W"
-    ]
-   },
-   {
-    "id": "gaming",
-    "name": "Gaming",
-    "chg7d": -12.75,
-    "top": [
-     "BEAM",
-     "FLOKI",
-     "GEOD",
-     "GOMINING",
-     "MANA"
-    ],
-    "tracked": [
-     "ONE",
-     "BEAT",
-     "SAND",
-     "GALA",
-     "APE",
-     "AXS",
-     "IMX",
-     "FLOKI"
     ]
    },
    {
@@ -8007,6 +7985,28 @@
      "MAGIC",
      "KITE",
      "AIXBT"
+    ]
+   },
+   {
+    "id": "gaming",
+    "name": "Gaming",
+    "chg7d": -14.82,
+    "top": [
+     "BEAM",
+     "FLOKI",
+     "GOMINING",
+     "GEOD",
+     "MANA"
+    ],
+    "tracked": [
+     "ONE",
+     "BEAT",
+     "SAND",
+     "GALA",
+     "APE",
+     "AXS",
+     "IMX",
+     "FLOKI"
     ]
    },
    {
@@ -8266,8 +8266,8 @@
   ],
   "updated": {
    "unlocks": 1795225830,
-   "onchain": 1795233631,
-   "sectors": 1795236320,
+   "onchain": 1795237232,
+   "sectors": 1795237232,
    "listings": 1795236028,
    "fundamentals": 1795225830
   }
@@ -8306,6 +8306,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "ae70734054cae3803fd877aa3c43d40b4f6ed1ed7bcf3f931f77c7a3e1e87a23",
- "generated": "2026-11-21T04:55:20+00:00"
+ "digest": "6245fc234a7b8b7912f472c2f7cc98a1a78275567d8e3a0e69090b0552039a4a",
+ "generated": "2026-11-21T05:02:12+00:00"
 }
