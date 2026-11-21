@@ -26,7 +26,7 @@
     0.012609291317851833
    ],
    "lev": 1,
-   "funding_pct": -0.0111,
+   "funding_pct": -0.0126,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-11-20T02:00:00+00:00",
@@ -34,9 +34,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.01346,
-   "last_ts": "2026-11-21T06:10:21+00:00",
-   "move_pct": 10.27,
+   "last": 0.01344,
+   "last_ts": "2026-11-21T06:15:24+00:00",
+   "move_pct": 10.4,
    "closed": false,
    "rsi": 31.5,
    "trade_on": "Perps 1x",
@@ -71,7 +71,7 @@
     0.004749593048860754
    ],
    "lev": 1,
-   "funding_pct": -0.0667,
+   "funding_pct": -0.069,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-11-20T02:00:00+00:00",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.004949,
-   "last_ts": "2026-11-21T06:10:21+00:00",
-   "move_pct": 8.76,
+   "last": 0.004937,
+   "last_ts": "2026-11-21T06:15:24+00:00",
+   "move_pct": 8.98,
    "closed": false,
    "rsi": 36.1,
    "trade_on": "Perps 1x",
@@ -116,7 +116,7 @@
     0.13348493690253851
    ],
    "lev": 1,
-   "funding_pct": -0.0677,
+   "funding_pct": -0.0676,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-11-20T08:00:00+00:00",
@@ -124,9 +124,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.14,
-   "last_ts": "2026-11-21T06:10:21+00:00",
-   "move_pct": 11.62,
+   "last": 0.1398,
+   "last_ts": "2026-11-21T06:15:24+00:00",
+   "move_pct": 11.74,
    "closed": false,
    "rsi": 39.0,
    "trade_on": "Perps 1x",
@@ -161,7 +161,7 @@
     3.294276142141741
    ],
    "lev": 1,
-   "funding_pct": -0.0002,
+   "funding_pct": 0.0001,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-21T04:00:00+00:00",
@@ -169,9 +169,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 4.248,
-   "last_ts": "2026-11-21T06:10:21+00:00",
-   "move_pct": 1.26,
+   "last": 4.231,
+   "last_ts": "2026-11-21T06:15:24+00:00",
+   "move_pct": 1.65,
    "closed": false,
    "rsi": 24.5,
    "trade_on": "Perps 1x",
@@ -7719,23 +7719,6 @@
     ]
    },
    {
-    "id": "storage",
-    "name": "Storage",
-    "chg7d": -11.76,
-    "top": [
-     "FIL",
-     "BTT",
-     "AR",
-     "ICNT",
-     "AIOZ"
-    ],
-    "tracked": [
-     "FIL",
-     "AR",
-     "WAL"
-    ]
-   },
-   {
     "id": "lending-borrowing",
     "name": "Lending Borrowing",
     "chg7d": -12.65,
@@ -7754,6 +7737,23 @@
      "MORPHO",
      "KMNO",
      "COMP"
+    ]
+   },
+   {
+    "id": "storage",
+    "name": "Storage",
+    "chg7d": -12.98,
+    "top": [
+     "FIL",
+     "BTT",
+     "AR",
+     "ICNT",
+     "AIOZ"
+    ],
+    "tracked": [
+     "FIL",
+     "AR",
+     "WAL"
     ]
    },
    {
@@ -8248,7 +8248,7 @@
   "updated": {
    "unlocks": 1795225830,
    "onchain": 1795240828,
-   "sectors": 1795240828,
+   "sectors": 1795241723,
    "listings": 1795239922,
    "fundamentals": 1795225830
   }
@@ -8287,6 +8287,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "508b2e9885d8b749f92ca4a808947babbda88e3448b47255f3f4f555671a0896",
- "generated": "2026-11-21T06:10:24+00:00"
+ "digest": "19c550a53d95c3503fd45285fc2439236f17123fded0d58dfa54bc74fd94d8d6",
+ "generated": "2026-11-21T06:15:26+00:00"
 }
