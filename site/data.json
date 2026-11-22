@@ -27,7 +27,7 @@
     0.13348493690253851
    ],
    "lev": 1,
-   "funding_pct": -0.0195,
+   "funding_pct": -0.0201,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-11-20T08:00:00+00:00",
@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1402,
-   "last_ts": "2026-11-22T07:15:25+00:00",
-   "move_pct": 11.49,
+   "last": 0.1405,
+   "last_ts": "2026-11-22T07:20:21+00:00",
+   "move_pct": 11.3,
    "closed": false,
    "rsi": 39.0,
    "trade_on": "Perps 1x",
@@ -75,9 +75,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 24.795,
-   "last_ts": "2026-11-22T07:15:25+00:00",
-   "move_pct": -0.68,
+   "last": 24.805,
+   "last_ts": "2026-11-22T07:20:21+00:00",
+   "move_pct": -0.64,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -112,7 +112,7 @@
     0.0008187129688906061
    ],
    "lev": 1,
-   "funding_pct": -0.0183,
+   "funding_pct": -0.0197,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-22T01:00:00+00:00",
@@ -120,55 +120,15 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0009532,
-   "last_ts": "2026-11-22T07:15:25+00:00",
-   "move_pct": 2.33,
+   "last": 0.0009542,
+   "last_ts": "2026-11-22T07:20:21+00:00",
+   "move_pct": 2.22,
    "closed": false,
    "rsi": 35.5,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": "charts/ONE-PERP-1795305600.png",
    "setup": "BOS"
-  },
-  {
-   "id": "MENGO-SPOT-HOT-20779",
-   "kind": "HOT",
-   "score": 1635.42,
-   "reasons": [
-    "24h hot mover +48% with volume spike (20x+ the prior 3 days)",
-    "24h volume $504k on the OKX spot book, listed 1521 days",
-    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
-    "Stop 0.0154 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
-   ],
-   "coin": "MENGO",
-   "market": "SPOT",
-   "side": "LONG",
-   "entry": 0.0175,
-   "sl0": 0.0154,
-   "sl": 0.0175,
-   "tps": [
-    0.019600000000000003,
-    0.021700000000000004,
-    0.0238
-   ],
-   "lev": null,
-   "funding_pct": null,
-   "status": "tp2",
-   "hits": 2,
-   "opened": "2026-11-22T03:25:21+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.01936,
-   "last_ts": "2026-11-22T07:15:25+00:00",
-   "move_pct": 10.63,
-   "closed": false,
-   "rsi": null,
-   "trade_on": "Spot",
-   "market_reason": "only spot is listed",
-   "chart": "charts/MENGO-SPOT-HOT-20779.png",
-   "setup": "HOT24"
   },
   {
    "id": "WLD-PERP-1795323600",
@@ -196,7 +156,7 @@
     0.19388288859387304
    ],
    "lev": 2,
-   "funding_pct": -0.0065,
+   "funding_pct": -0.0053,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-22T06:00:00+00:00",
@@ -204,9 +164,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2237,
-   "last_ts": "2026-11-22T07:15:25+00:00",
-   "move_pct": 0.45,
+   "last": 0.2241,
+   "last_ts": "2026-11-22T07:20:21+00:00",
+   "move_pct": 0.27,
    "closed": false,
    "rsi": 43.2,
    "trade_on": "Perps 2x",
@@ -241,7 +201,7 @@
     0.2352334608266743
    ],
    "lev": 1,
-   "funding_pct": -0.0372,
+   "funding_pct": -0.0369,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-22T06:00:00+00:00",
@@ -249,9 +209,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2645,
-   "last_ts": "2026-11-22T07:15:25+00:00",
-   "move_pct": 0.6,
+   "last": 0.2655,
+   "last_ts": "2026-11-22T07:20:21+00:00",
+   "move_pct": 0.23,
    "closed": false,
    "rsi": 44.7,
    "trade_on": "Perps 1x",
@@ -285,7 +245,7 @@
     0.02495533931248029
    ],
    "lev": 1,
-   "funding_pct": -0.0026,
+   "funding_pct": -0.0035,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-22T07:00:00+00:00",
@@ -293,9 +253,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.02854,
-   "last_ts": "2026-11-22T07:15:25+00:00",
-   "move_pct": 0.45,
+   "last": 0.02869,
+   "last_ts": "2026-11-22T07:20:21+00:00",
+   "move_pct": -0.07,
    "closed": false,
    "rsi": 45.0,
    "trade_on": "Perps 1x",
@@ -305,6 +265,46 @@
   }
  ],
  "closed": [
+  {
+   "id": "MENGO-SPOT-HOT-20779",
+   "kind": "HOT",
+   "score": 1635.42,
+   "reasons": [
+    "24h hot mover +48% with volume spike (20x+ the prior 3 days)",
+    "24h volume $504k on the OKX spot book, listed 1521 days",
+    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
+    "Stop 0.0154 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
+   ],
+   "coin": "MENGO",
+   "market": "SPOT",
+   "side": "LONG",
+   "entry": 0.0175,
+   "sl0": 0.0154,
+   "sl": 0.0175,
+   "tps": [
+    0.019600000000000003,
+    0.021700000000000004,
+    0.0238
+   ],
+   "lev": null,
+   "funding_pct": null,
+   "status": "stopped_be",
+   "hits": 2,
+   "opened": "2026-11-22T03:25:21+00:00",
+   "closed_at": "2026-11-22T07:20:21+00:00",
+   "exit_price": 0.0175,
+   "result_r": 0.75,
+   "result_pct": 9.0,
+   "last": 0.01825,
+   "last_ts": "2026-11-22T07:20:21+00:00",
+   "move_pct": 10.63,
+   "closed": true,
+   "rsi": null,
+   "trade_on": "Spot",
+   "market_reason": "only spot is listed",
+   "chart": "charts/MENGO-SPOT-HOT-20779.png",
+   "setup": "HOT24"
+  },
   {
    "id": "PARTI-PERP-HOT-20778",
    "kind": "HOT",
@@ -2034,7 +2034,7 @@
    "rsi": 39.6,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": "charts/BILL-PERP-1794790800.png",
+   "chart": null,
    "setup": "BOS"
   },
   {
@@ -2867,66 +2867,26 @@
    "market_reason": "very volatile coin: spot avoids liquidation",
    "chart": null,
    "setup": "HOT24"
-  },
-  {
-   "id": "VINE-SPOT-HOT-20773",
-   "kind": "HOT",
-   "score": 1240.09,
-   "reasons": [
-    "24h hot mover +29% with volume spike (20x+ the prior 3 days)",
-    "24h volume $16.2M on the OKX spot book, listed 659 days",
-    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
-    "Stop 0.0092224 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
-   ],
-   "coin": "VINE",
-   "market": "SPOT",
-   "side": "LONG",
-   "entry": 0.01048,
-   "sl0": 0.0092224,
-   "sl": 0.0092224,
-   "tps": [
-    0.011737599999999999,
-    0.0129952,
-    0.0142528
-   ],
-   "lev": null,
-   "funding_pct": null,
-   "status": "stopped",
-   "hits": 0,
-   "opened": "2026-11-16T16:37:46+00:00",
-   "closed_at": "2026-11-16T17:15:23+00:00",
-   "exit_price": 0.0092224,
-   "result_r": -1.0,
-   "result_pct": -12.0,
-   "last": 0.00937,
-   "last_ts": "2026-11-16T17:15:23+00:00",
-   "move_pct": -10.03,
-   "closed": true,
-   "rsi": null,
-   "trade_on": "Spot",
-   "market_reason": "only spot is listed",
-   "chart": null,
-   "setup": "HOT24"
   }
  ],
  "stats": {
   "all": {
-   "trades": 294,
-   "wins": 144,
+   "trades": 295,
+   "wins": 145,
    "losses": 150,
-   "win_rate": 49.0,
-   "total_r": 45.87,
-   "avg_r": 0.156,
-   "total_pct": 191.41
+   "win_rate": 49.2,
+   "total_r": 46.62,
+   "avg_r": 0.158,
+   "total_pct": 200.41
   },
   "SPOT": {
-   "trades": 85,
-   "wins": 34,
+   "trades": 86,
+   "wins": 35,
    "losses": 51,
-   "win_rate": 40.0,
-   "total_r": -5.96,
-   "avg_r": -0.07,
-   "total_pct": 45.23
+   "win_rate": 40.7,
+   "total_r": -5.21,
+   "avg_r": -0.061,
+   "total_pct": 54.23
   },
   "PERP": {
    "trades": 195,
@@ -2948,13 +2908,13 @@
   },
   "kinds": {
    "HOT": {
-    "trades": 76,
-    "wins": 43,
+    "trades": 77,
+    "wins": 44,
     "losses": 33,
-    "win_rate": 56.6,
-    "total_r": 11.61,
-    "avg_r": 0.153,
-    "total_pct": 72.98
+    "win_rate": 57.1,
+    "total_r": 12.36,
+    "avg_r": 0.161,
+    "total_pct": 81.98
    },
    "ONCHAIN": {
     "trades": 14,
@@ -3813,6 +3773,15 @@
     "avg_r": -1.0,
     "total_pct": -2.85
    },
+   "MENGO": {
+    "trades": 1,
+    "wins": 1,
+    "losses": 0,
+    "win_rate": 100.0,
+    "total_r": 0.75,
+    "avg_r": 0.75,
+    "total_pct": 9.0
+   },
    "MERL": {
     "trades": 1,
     "wins": 0,
@@ -4453,7 +4422,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 7
+  "open": 6
  },
  "backtest": {
   "from": "2026-07-24",
@@ -8014,23 +7983,6 @@
     ]
    },
    {
-    "id": "storage",
-    "name": "Storage",
-    "chg7d": -6.77,
-    "top": [
-     "FIL",
-     "BTT",
-     "AR",
-     "AIOZ",
-     "ICNT"
-    ],
-    "tracked": [
-     "FIL",
-     "AR",
-     "WAL"
-    ]
-   },
-   {
     "id": "decentralized-finance-defi",
     "name": "Decentralized Finance DeFi",
     "chg7d": -7.14,
@@ -8236,6 +8188,23 @@
      "KITE",
      "AIXBT"
     ]
+   },
+   {
+    "id": "storage",
+    "name": "Storage",
+    "chg7d": -10.19,
+    "top": [
+     "FIL",
+     "BTT",
+     "AR",
+     "AIOZ",
+     "ICNT"
+    ],
+    "tracked": [
+     "FIL",
+     "AR",
+     "WAL"
+    ]
    }
   ],
   "listings": [
@@ -8407,7 +8376,7 @@
   "updated": {
    "unlocks": 1795313429,
    "onchain": 1795330827,
-   "sectors": 1795331120,
+   "sectors": 1795332021,
    "listings": 1795329924,
    "fundamentals": 1795313430
   }
@@ -8446,6 +8415,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "2b91054b707c166fc704a3898d050957ed6df5c21277dd9ce4732cc7df032646",
- "generated": "2026-11-22T07:15:29+00:00"
+ "digest": "4a33d8af364b0895bc0980c236596114d5d6d3bd87c1d83510917bcd4394913c",
+ "generated": "2026-11-22T07:20:26+00:00"
 }
