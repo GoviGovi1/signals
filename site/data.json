@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 25.245,
-   "last_ts": "2026-11-22T12:01:31+00:00",
-   "move_pct": 1.12,
+   "last": 25.151,
+   "last_ts": "2026-11-22T12:05:22+00:00",
+   "move_pct": 0.75,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -67,7 +67,7 @@
     0.0008187129688906061
    ],
    "lev": 1,
-   "funding_pct": -0.001,
+   "funding_pct": -0.0006,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-22T01:00:00+00:00",
@@ -75,9 +75,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0009551,
-   "last_ts": "2026-11-22T12:01:31+00:00",
-   "move_pct": 2.13,
+   "last": 0.0009552,
+   "last_ts": "2026-11-22T12:05:22+00:00",
+   "move_pct": 2.12,
    "closed": false,
    "rsi": 35.5,
    "trade_on": "Perps 1x",
@@ -120,9 +120,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2698,
-   "last_ts": "2026-11-22T12:01:31+00:00",
-   "move_pct": -1.39,
+   "last": 0.2704,
+   "last_ts": "2026-11-22T12:05:22+00:00",
+   "move_pct": -1.62,
    "closed": false,
    "rsi": 44.7,
    "trade_on": "Perps 1x",
@@ -7847,6 +7847,22 @@
     ]
    },
    {
+    "id": "interoperability",
+    "name": "Interoperability",
+    "chg7d": -6.08,
+    "top": [
+     "TRAC",
+     "W",
+     "AXL",
+     "CKB",
+     "PHA"
+    ],
+    "tracked": [
+     "W",
+     "PHA"
+    ]
+   },
+   {
     "id": "solana-meme-coins",
     "name": "Solana Meme Coins",
     "chg7d": -6.2,
@@ -7991,22 +8007,6 @@
     ],
     "tracked": [
      "ZEC"
-    ]
-   },
-   {
-    "id": "interoperability",
-    "name": "Interoperability",
-    "chg7d": -7.28,
-    "top": [
-     "TRAC",
-     "W",
-     "AXL",
-     "CKB",
-     "PHA"
-    ],
-    "tracked": [
-     "W",
-     "PHA"
     ]
    },
    {
@@ -8256,8 +8256,8 @@
   "updated": {
    "unlocks": 1795335052,
    "onchain": 1795348827,
-   "sectors": 1795348222,
-   "listings": 1795345230,
+   "sectors": 1795349122,
+   "listings": 1795349122,
    "fundamentals": 1795335052
   }
  },
@@ -8295,6 +8295,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "d01b994cc56e37c1c968548a4aa2b95d3ab5a7d9ce9028c2e0610686fba1c613",
- "generated": "2026-11-22T12:02:05+00:00"
+ "digest": "690bdf6d56f5522a69860c75c67b4c148876b8c31edd360a93094a6678f10737",
+ "generated": "2026-11-22T12:05:25+00:00"
 }
