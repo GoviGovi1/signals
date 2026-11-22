@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 25.32,
-   "last_ts": "2026-11-22T13:30:26+00:00",
-   "move_pct": 1.42,
+   "last": 25.321,
+   "last_ts": "2026-11-22T13:35:22+00:00",
+   "move_pct": 1.43,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -67,7 +67,7 @@
     0.0008187129688906061
    ],
    "lev": 1,
-   "funding_pct": 0.005,
+   "funding_pct": 0.0046,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-22T01:00:00+00:00",
@@ -75,9 +75,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0009689,
-   "last_ts": "2026-11-22T13:30:26+00:00",
-   "move_pct": 0.72,
+   "last": 0.0009697,
+   "last_ts": "2026-11-22T13:35:22+00:00",
+   "move_pct": 0.64,
    "closed": false,
    "rsi": 35.5,
    "trade_on": "Perps 1x",
@@ -120,9 +120,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2711,
-   "last_ts": "2026-11-22T13:30:26+00:00",
-   "move_pct": -1.88,
+   "last": 0.2712,
+   "last_ts": "2026-11-22T13:35:22+00:00",
+   "move_pct": -1.92,
    "closed": false,
    "rsi": 44.7,
    "trade_on": "Perps 1x",
@@ -7884,6 +7884,28 @@
     ]
    },
    {
+    "id": "layer-1",
+    "name": "Layer 1",
+    "chg7d": -6.42,
+    "top": [
+     "BTC",
+     "ETH",
+     "BNB",
+     "XRP",
+     "SOL"
+    ],
+    "tracked": [
+     "BTC",
+     "ETH",
+     "SOL",
+     "XRP",
+     "SUI",
+     "BNB",
+     "AVAX",
+     "ZEC"
+    ]
+   },
+   {
     "id": "zero-knowledge-zk",
     "name": "Zero Knowledge ZK",
     "chg7d": -6.46,
@@ -8001,28 +8023,6 @@
      "VINE",
      "BONK",
      "BOME"
-    ]
-   },
-   {
-    "id": "layer-1",
-    "name": "Layer 1",
-    "chg7d": -7.47,
-    "top": [
-     "BTC",
-     "ETH",
-     "BNB",
-     "XRP",
-     "SOL"
-    ],
-    "tracked": [
-     "BTC",
-     "ETH",
-     "SOL",
-     "XRP",
-     "SUI",
-     "BNB",
-     "AVAX",
-     "ZEC"
     ]
    },
    {
@@ -8212,7 +8212,7 @@
   "updated": {
    "unlocks": 1795335052,
    "onchain": 1795352726,
-   "sectors": 1795353622,
+   "sectors": 1795354522,
    "listings": 1795352726,
    "fundamentals": 1795335052
   }
@@ -8251,6 +8251,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "867eeeb03875f4cc847a8e3f7ffed27794b0eb6f910b267da51a4bec974674c1",
- "generated": "2026-11-22T13:30:29+00:00"
+ "digest": "f2ee81bdd9573ab451f3a130a5828e47b5b65f88a76edf806c1d77411ffd3ebd",
+ "generated": "2026-11-22T13:35:25+00:00"
 }
