@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 25.513,
-   "last_ts": "2026-11-22T14:55:26+00:00",
-   "move_pct": 2.2,
+   "last": 25.507,
+   "last_ts": "2026-11-22T15:00:28+00:00",
+   "move_pct": 2.17,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -67,7 +67,7 @@
     0.0008187129688906061
    ],
    "lev": 1,
-   "funding_pct": -0.0097,
+   "funding_pct": -0.01,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-22T01:00:00+00:00",
@@ -75,9 +75,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0009591,
-   "last_ts": "2026-11-22T14:55:26+00:00",
-   "move_pct": 1.72,
+   "last": 0.0009596,
+   "last_ts": "2026-11-22T15:00:28+00:00",
+   "move_pct": 1.67,
    "closed": false,
    "rsi": 35.5,
    "trade_on": "Perps 1x",
@@ -112,7 +112,7 @@
     0.2352334608266743
    ],
    "lev": 1,
-   "funding_pct": 0.0047,
+   "funding_pct": 0.0064,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-22T06:00:00+00:00",
@@ -120,15 +120,61 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2726,
-   "last_ts": "2026-11-22T14:55:26+00:00",
-   "move_pct": -2.44,
+   "last": 0.2724,
+   "last_ts": "2026-11-22T15:00:28+00:00",
+   "move_pct": -2.37,
    "closed": false,
    "rsi": 44.7,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": "charts/MASK-PERP-1795323600.png",
    "setup": "BOS"
+  },
+  {
+   "id": "SKY-PERP-1795356000",
+   "kind": "TA",
+   "score": 0,
+   "reasons": [
+    "Chart: Broke the 20-hour low on 5.7x volume",
+    "Timeframes: 1d down, 4h down, 4h structure mixed",
+    "Next support 0.03666 (3.5R away, 4h swing/swing)",
+    "Stop 0.043819 (structure); targets at the next 1 level(s)",
+    "BTC 4h trend down",
+    "Weaker than BTC by 15.6% over 7d",
+    "OI -0% 24h",
+    "TVL -27% 7d",
+    "Sector: Decentralized Finance DeFi -6.6% 7d (middle, #14 of 20)",
+    "Track record: +0.7R on SKY in the last 45 days (backtest)"
+   ],
+   "coin": "SKY",
+   "market": "PERP",
+   "side": "SHORT",
+   "entry": 0.04223,
+   "sl0": 0.043818533987370074,
+   "sl": 0.043818533987370074,
+   "tps": [
+    0.03675626699368503,
+    0.035167733006314955,
+    0.03357919901894488
+   ],
+   "lev": 1,
+   "funding_pct": -0.0001,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-11-22T15:00:00+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.04227,
+   "last_ts": "2026-11-22T15:00:28+00:00",
+   "move_pct": -0.09,
+   "closed": false,
+   "rsi": 31.7,
+   "trade_on": "Perps 1x",
+   "market_reason": "shorts need perps; thin perp market, so 1x",
+   "chart": "charts/SKY-PERP-1795356000.png",
+   "setup": "BREAKOUT20"
   }
  ],
  "closed": [
@@ -4302,7 +4348,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 3
+  "open": 4
  },
  "backtest": {
   "from": "2026-07-24",
@@ -8237,6 +8283,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "91adb28d1f70ae80425fceeb51ff06ed62348118c1a440cd780164c962607084",
- "generated": "2026-11-22T14:55:29+00:00"
+ "digest": "1ab01684e8c454213c91c01772b9e1c5c5f53c66ca29e976f9fd68df396a1e83",
+ "generated": "2026-11-22T15:01:03+00:00"
 }
