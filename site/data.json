@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 25.527,
-   "last_ts": "2026-11-22T16:35:21+00:00",
-   "move_pct": 2.25,
+   "last": 25.359,
+   "last_ts": "2026-11-22T16:40:22+00:00",
+   "move_pct": 1.58,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -67,7 +67,7 @@
     0.0008187129688906061
    ],
    "lev": 1,
-   "funding_pct": 0.0036,
+   "funding_pct": 0.0023,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-22T01:00:00+00:00",
@@ -75,9 +75,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0009655,
-   "last_ts": "2026-11-22T16:35:21+00:00",
-   "move_pct": 1.07,
+   "last": 0.0009615,
+   "last_ts": "2026-11-22T16:40:22+00:00",
+   "move_pct": 1.48,
    "closed": false,
    "rsi": 35.5,
    "trade_on": "Perps 1x",
@@ -112,7 +112,7 @@
     0.2352334608266743
    ],
    "lev": 1,
-   "funding_pct": -0.0088,
+   "funding_pct": -0.0101,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-22T06:00:00+00:00",
@@ -120,9 +120,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2714,
-   "last_ts": "2026-11-22T16:35:21+00:00",
-   "move_pct": -1.99,
+   "last": 0.2713,
+   "last_ts": "2026-11-22T16:40:22+00:00",
+   "move_pct": -1.95,
    "closed": false,
    "rsi": 44.7,
    "trade_on": "Perps 1x",
@@ -158,7 +158,7 @@
     0.03357919901894488
    ],
    "lev": 1,
-   "funding_pct": -0.0021,
+   "funding_pct": -0.0025,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-22T15:00:00+00:00",
@@ -166,9 +166,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04229,
-   "last_ts": "2026-11-22T16:35:21+00:00",
-   "move_pct": -0.14,
+   "last": 0.04211,
+   "last_ts": "2026-11-22T16:40:22+00:00",
+   "move_pct": 0.28,
    "closed": false,
    "rsi": 31.7,
    "trade_on": "Perps 1x",
@@ -210,9 +210,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.421033205923997,
-   "last_ts": "2026-11-22T16:35:21+00:00",
-   "move_pct": 0.1,
+   "last": 0.42118021469503697,
+   "last_ts": "2026-11-22T16:40:22+00:00",
+   "move_pct": 0.14,
    "closed": false,
    "rsi": 71.0,
    "trade_on": "On-chain spot (Base DEX)",
@@ -7739,6 +7739,28 @@
     ]
    },
    {
+    "id": "zero-knowledge-zk",
+    "name": "Zero Knowledge ZK",
+    "chg7d": -5.24,
+    "top": [
+     "ZEC",
+     "NIGHT",
+     "POL",
+     "STRK",
+     "OZO"
+    ],
+    "tracked": [
+     "ZEC",
+     "STRK",
+     "NIGHT",
+     "H",
+     "POL",
+     "BREV",
+     "MAGIC",
+     "ZK"
+    ]
+   },
+   {
     "id": "oracle",
     "name": "Oracle",
     "chg7d": -5.65,
@@ -7902,28 +7924,6 @@
      "BNB",
      "AVAX",
      "ZEC"
-    ]
-   },
-   {
-    "id": "zero-knowledge-zk",
-    "name": "Zero Knowledge ZK",
-    "chg7d": -6.46,
-    "top": [
-     "ZEC",
-     "POL",
-     "NIGHT",
-     "STRK",
-     "OZO"
-    ],
-    "tracked": [
-     "ZEC",
-     "STRK",
-     "NIGHT",
-     "H",
-     "POL",
-     "BREV",
-     "MAGIC",
-     "ZK"
     ]
    },
    {
@@ -8277,7 +8277,7 @@
   "updated": {
    "unlocks": 1795356924,
    "onchain": 1795363526,
-   "sectors": 1795364718,
+   "sectors": 1795365622,
    "listings": 1795364422,
    "fundamentals": 1795356925
   }
@@ -8316,6 +8316,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "26a31a0914576001f8e1e297cc805a8bf09bf6a1436cd03b5a6873ffb5ddd1bf",
- "generated": "2026-11-22T16:35:27+00:00"
+ "digest": "0d07540499efb80108550c9d5c497c5c52016cc9031ca7a2be7f91a93c84e90b",
+ "generated": "2026-11-22T16:40:27+00:00"
 }
