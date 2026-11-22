@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 25.295,
-   "last_ts": "2026-11-22T09:55:20+00:00",
-   "move_pct": 1.32,
+   "last": 25.278,
+   "last_ts": "2026-11-22T10:01:34+00:00",
+   "move_pct": 1.25,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -67,7 +67,7 @@
     0.0008187129688906061
    ],
    "lev": 1,
-   "funding_pct": -0.0089,
+   "funding_pct": -0.0098,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-22T01:00:00+00:00",
@@ -75,58 +75,14 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0009709,
-   "last_ts": "2026-11-22T09:55:20+00:00",
-   "move_pct": 0.51,
+   "last": 0.0009693,
+   "last_ts": "2026-11-22T10:01:34+00:00",
+   "move_pct": 0.68,
    "closed": false,
    "rsi": 35.5,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": "charts/ONE-PERP-1795305600.png",
-   "setup": "BOS"
-  },
-  {
-   "id": "WLD-PERP-1795323600",
-   "kind": "TA",
-   "score": 1,
-   "reasons": [
-    "Chart: Break of structure: closed below the last swing low 0.2254, after a lower high",
-    "Timeframes: 1d down, 4h down, 4h structure lower highs/lows",
-    "Next support 0.2089 (2.0R away, 4h swing/swing)",
-    "Stop 0.23247 (structure); targets at the next 1 level(s)",
-    "BTC 4h trend down",
-    "Weaker than BTC by 5.2% over 7d",
-    "OI +5% 24h with breakout",
-    "Track record: +2.1R on WLD in the last 45 days (backtest)"
-   ],
-   "coin": "WLD",
-   "market": "PERP",
-   "side": "SHORT",
-   "entry": 0.2247,
-   "sl0": 0.23246696315964022,
-   "sl": 0.23246696315964022,
-   "tps": [
-    0.20941681491315345,
-    0.20164985175351324,
-    0.19388288859387304
-   ],
-   "lev": 2,
-   "funding_pct": 0.0005,
-   "status": "open",
-   "hits": 0,
-   "opened": "2026-11-22T06:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.2305,
-   "last_ts": "2026-11-22T09:55:20+00:00",
-   "move_pct": -2.58,
-   "closed": false,
-   "rsi": 43.2,
-   "trade_on": "Perps 2x",
-   "market_reason": "shorts need perps; 2x keeps liquidation 3x+ further away than the stop",
-   "chart": "charts/WLD-PERP-1795323600.png",
    "setup": "BOS"
   },
   {
@@ -156,7 +112,7 @@
     0.2352334608266743
    ],
    "lev": 1,
-   "funding_pct": -0.0061,
+   "funding_pct": -0.0022,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-22T06:00:00+00:00",
@@ -164,9 +120,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2712,
-   "last_ts": "2026-11-22T09:55:20+00:00",
-   "move_pct": -1.92,
+   "last": 0.2723,
+   "last_ts": "2026-11-22T10:01:34+00:00",
+   "move_pct": -2.33,
    "closed": false,
    "rsi": 44.7,
    "trade_on": "Perps 1x",
@@ -176,6 +132,50 @@
   }
  ],
  "closed": [
+  {
+   "id": "WLD-PERP-1795323600",
+   "kind": "TA",
+   "score": 1,
+   "reasons": [
+    "Chart: Break of structure: closed below the last swing low 0.2254, after a lower high",
+    "Timeframes: 1d down, 4h down, 4h structure lower highs/lows",
+    "Next support 0.2089 (2.0R away, 4h swing/swing)",
+    "Stop 0.23247 (structure); targets at the next 1 level(s)",
+    "BTC 4h trend down",
+    "Weaker than BTC by 5.2% over 7d",
+    "OI +5% 24h with breakout",
+    "Track record: +2.1R on WLD in the last 45 days (backtest)"
+   ],
+   "coin": "WLD",
+   "market": "PERP",
+   "side": "SHORT",
+   "entry": 0.2247,
+   "sl0": 0.23246696315964022,
+   "sl": 0.23246696315964022,
+   "tps": [
+    0.20941681491315345,
+    0.20164985175351324,
+    0.19388288859387304
+   ],
+   "lev": 2,
+   "funding_pct": 0.0005,
+   "status": "stopped",
+   "hits": 0,
+   "opened": "2026-11-22T06:00:00+00:00",
+   "closed_at": "2026-11-22T10:01:34+00:00",
+   "exit_price": 0.23246696315964022,
+   "result_r": -1.0,
+   "result_pct": -3.46,
+   "last": 0.2311,
+   "last_ts": "2026-11-22T10:01:34+00:00",
+   "move_pct": -2.58,
+   "closed": true,
+   "rsi": 43.2,
+   "trade_on": "Perps 2x",
+   "market_reason": "shorts need perps; 2x keeps liquidation 3x+ further away than the stop",
+   "chart": "charts/WLD-PERP-1795323600.png",
+   "setup": "BOS"
+  },
   {
    "id": "WCT-PERP-1795327200",
    "kind": "TA",
@@ -1904,7 +1904,7 @@
    "rsi": 63.0,
    "trade_on": "Spot",
    "market_reason": "thin perp market: spot is safer",
-   "chart": "charts/XLM-SPOT-1794985200.png",
+   "chart": null,
    "setup": "RANGE_BREAK"
   },
   {
@@ -2738,62 +2738,17 @@
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": null,
    "setup": "RANGE_BREAK"
-  },
-  {
-   "id": "PYTH-PERP-1794812400",
-   "kind": "TA",
-   "score": 2,
-   "reasons": [
-    "Chart: Broke the 20-hour low on 1.5x volume",
-    "Timeframes: 1d down, 4h down, 4h structure lower highs/lows",
-    "Next support 0.05141 (2.5R away, 4h swing/swing)",
-    "Stop 0.05529 (structure); targets at the next 1 level(s)",
-    "BTC 4h trend down",
-    "Stronger than BTC by 3.2% over 7d",
-    "OI +7% 24h with breakout",
-    "Sector: Decentralized Finance DeFi -12.6% 7d (lagging, #17 of 20)",
-    "Track record: +3.9R on PYTH in the last 45 days (backtest)"
-   ],
-   "coin": "PYTH",
-   "market": "PERP",
-   "side": "SHORT",
-   "entry": 0.05418,
-   "sl0": 0.05528967423781416,
-   "sl": 0.05528967423781416,
-   "tps": [
-    0.051537337118907074,
-    0.05042766288109291,
-    0.04931798864327875
-   ],
-   "lev": 1,
-   "funding_pct": -0.0001,
-   "status": "stopped",
-   "hits": 0,
-   "opened": "2026-11-16T08:00:00+00:00",
-   "closed_at": "2026-11-17T03:40:25+00:00",
-   "exit_price": 0.05528967423781416,
-   "result_r": -1.0,
-   "result_pct": -2.05,
-   "last": 0.05516,
-   "last_ts": "2026-11-17T03:40:25+00:00",
-   "move_pct": -1.83,
-   "closed": true,
-   "rsi": 36.3,
-   "trade_on": "Perps 1x",
-   "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": null,
-   "setup": "BREAKOUT20"
   }
  ],
  "stats": {
   "all": {
-   "trades": 297,
+   "trades": 298,
    "wins": 146,
-   "losses": 151,
-   "win_rate": 49.2,
-   "total_r": 48.35,
-   "avg_r": 0.163,
-   "total_pct": 208.52
+   "losses": 152,
+   "win_rate": 49.0,
+   "total_r": 47.35,
+   "avg_r": 0.159,
+   "total_pct": 205.06
   },
   "SPOT": {
    "trades": 86,
@@ -2805,13 +2760,13 @@
    "total_pct": 54.23
   },
   "PERP": {
-   "trades": 197,
+   "trades": 198,
    "wins": 103,
-   "losses": 94,
-   "win_rate": 52.3,
-   "total_r": 53.47,
-   "avg_r": 0.271,
-   "total_pct": 134.48
+   "losses": 95,
+   "win_rate": 52.0,
+   "total_r": 52.47,
+   "avg_r": 0.265,
+   "total_pct": 131.02
   },
   "DEX": {
    "trades": 14,
@@ -2842,13 +2797,13 @@
     "total_pct": 19.81
    },
    "TA": {
-    "trades": 206,
+    "trades": 207,
     "wins": 94,
-    "losses": 112,
-    "win_rate": 45.6,
-    "total_r": 35.9,
-    "avg_r": 0.174,
-    "total_pct": 106.73
+    "losses": 113,
+    "win_rate": 45.4,
+    "total_r": 34.9,
+    "avg_r": 0.169,
+    "total_pct": 103.27
    }
   },
   "coins": {
@@ -4229,6 +4184,15 @@
     "avg_r": -1.0,
     "total_pct": -2.2
    },
+   "WLD": {
+    "trades": 1,
+    "wins": 0,
+    "losses": 1,
+    "win_rate": 0.0,
+    "total_r": -1.0,
+    "avg_r": -1.0,
+    "total_pct": -3.46
+   },
    "WOO": {
     "trades": 3,
     "wins": 0,
@@ -4338,7 +4302,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 4
+  "open": 3
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7667,65 +7631,63 @@
   "onchain": [
    {
     "chain": "Base",
-    "symbol": "AERO",
-    "name": "Aero",
-    "token": "0x3f5bf3edac59d650d8fdf9657a71f2f904a3a4ee",
-    "price": 0.405343051081411,
-    "liq": 2143849,
-    "vol24h": 7929909,
-    "age_d": 31.3,
-    "chg24h": 6.179,
-    "chg7d": -6.8,
-    "mcap": 311710645.132416,
+    "symbol": "ELSA",
+    "name": "Elsa",
+    "token": "0x29cc30f9d113b356ce408667aa6433589cecbdca",
+    "price": 0.0848507335753466,
+    "liq": 556321,
+    "vol24h": 5377421,
+    "age_d": 306.0,
+    "chg24h": 24.6,
+    "chg7d": 41.5,
+    "mcap": 26037362.7524027,
+    "safety": "ok",
+    "safety_notes": [],
+    "trigger": false,
+    "trend_up": true,
+    "rsi": 86.2,
+    "url": "https://www.geckoterminal.com/base/pools/0x83f3aca29bc79b048b99c56013475570acc97ccf"
+   },
+   {
+    "chain": "Base",
+    "symbol": "XDP",
+    "name": "Doppler Finance",
+    "token": "0x07b3d902783c3c12b077508c3b5c00113d1291d0",
+    "price": 0.0145892352284504,
+    "liq": 725831,
+    "vol24h": 8915424,
+    "age_d": 54.9,
+    "chg24h": 3.934,
+    "chg7d": -18.9,
+    "mcap": 14589235.23,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 60.9,
-    "url": "https://www.geckoterminal.com/base/pools/0xc85d5cb72d1aad6f152a8decad228ae4a59ac9b3"
+    "rsi": 45.9,
+    "url": "https://www.geckoterminal.com/base/pools/0x2df380544b88adb3ad0a94100dcc45fd705aae2d"
    },
    {
     "chain": "BSC",
-    "symbol": "ARK",
-    "name": "ARK",
-    "token": "0xcae117ca6bc8a341d2e7207f30e180f0e5618b9d",
-    "price": 6.39663918139624,
-    "liq": 58176944,
-    "vol24h": 4785754,
-    "age_d": 452.9,
-    "chg24h": -0.232,
-    "chg7d": -0.0,
-    "mcap": 0.0,
+    "symbol": "$BANANA",
+    "name": "Banana For Scale",
+    "token": "0x3d4f0513e8a29669b960f9dbca61861548a9a760",
+    "price": 0.00485205317679604,
+    "liq": 2895049,
+    "vol24h": 2178512,
+    "age_d": 734.0,
+    "chg24h": 5.617,
+    "chg7d": 7.2,
+    "mcap": 48541258.78,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 57.8,
-    "url": "https://www.geckoterminal.com/bsc/pools/0xcaaf3c41a40103a23eeaa4bba468af3cf5b0e0d8"
-   },
-   {
-    "chain": "Solana",
-    "symbol": "PUMP",
-    "name": "Pump",
-    "token": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-    "price": 0.002400964855354172,
-    "liq": 17561851,
-    "vol24h": 2012690,
-    "age_d": 495.7,
-    "chg24h": 6.822,
-    "chg7d": -18.5,
-    "mcap": 848386237.27444,
-    "safety": "unknown",
-    "safety_notes": [
-     "safety not checked"
-    ],
-    "trigger": false,
-    "trend_up": false,
-    "rsi": 54.7,
-    "url": "https://www.geckoterminal.com/solana/pools/2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd"
+    "rsi": 65.0,
+    "url": "https://www.geckoterminal.com/bsc/pools/0x7f51bbf34156ba802deb0e38b7671dc4fa32041d"
    }
   ],
-  "onchain_checked": 84,
+  "onchain_checked": 83,
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
@@ -8312,9 +8274,9 @@
   ],
   "updated": {
    "unlocks": 1795335052,
-   "onchain": 1795338029,
+   "onchain": 1795341630,
    "sectors": 1795341019,
-   "listings": 1795337721,
+   "listings": 1795341630,
    "fundamentals": 1795335052
   }
  },
@@ -8352,6 +8314,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "4ca6e7da29cfd25816e055d74cb2822a8bc5c22bd666efc7c8e8a0b761332814",
- "generated": "2026-11-22T09:55:24+00:00"
+ "digest": "53fb9cb6811f5bf49dc417a36f04ac8160f4e818d3d9a8cccff991f3c746fc2b",
+ "generated": "2026-11-22T10:02:12+00:00"
 }
