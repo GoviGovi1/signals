@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 25.243,
-   "last_ts": "2026-11-22T11:15:20+00:00",
-   "move_pct": 1.11,
+   "last": 25.312,
+   "last_ts": "2026-11-22T11:20:25+00:00",
+   "move_pct": 1.39,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -67,7 +67,7 @@
     0.0008187129688906061
    ],
    "lev": 1,
-   "funding_pct": -0.005,
+   "funding_pct": -0.0067,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-22T01:00:00+00:00",
@@ -75,9 +75,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0009667,
-   "last_ts": "2026-11-22T11:15:20+00:00",
-   "move_pct": 0.94,
+   "last": 0.0009638,
+   "last_ts": "2026-11-22T11:20:25+00:00",
+   "move_pct": 1.24,
    "closed": false,
    "rsi": 35.5,
    "trade_on": "Perps 1x",
@@ -120,9 +120,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.271,
-   "last_ts": "2026-11-22T11:15:20+00:00",
-   "move_pct": -1.84,
+   "last": 0.2705,
+   "last_ts": "2026-11-22T11:20:25+00:00",
+   "move_pct": -1.65,
    "closed": false,
    "rsi": 44.7,
    "trade_on": "Perps 1x",
@@ -7844,6 +7844,28 @@
     ]
    },
    {
+    "id": "oracle",
+    "name": "Oracle",
+    "chg7d": -5.97,
+    "top": [
+     "LINK",
+     "PYTH",
+     "RED",
+     "WIN",
+     "XYO"
+    ],
+    "tracked": [
+     "LINK",
+     "TRB",
+     "PYTH",
+     "API3",
+     "ZKP",
+     "AT",
+     "BAND",
+     "UMA"
+    ]
+   },
+   {
     "id": "solana-meme-coins",
     "name": "Solana Meme Coins",
     "chg7d": -6.2,
@@ -7982,28 +8004,6 @@
     "tracked": [
      "W",
      "PHA"
-    ]
-   },
-   {
-    "id": "oracle",
-    "name": "Oracle",
-    "chg7d": -7.43,
-    "top": [
-     "LINK",
-     "PYTH",
-     "RED",
-     "WIN",
-     "XYO"
-    ],
-    "tracked": [
-     "LINK",
-     "TRB",
-     "PYTH",
-     "API3",
-     "ZKP",
-     "AT",
-     "BAND",
-     "UMA"
     ]
    },
    {
@@ -8275,7 +8275,7 @@
   "updated": {
    "unlocks": 1795335052,
    "onchain": 1795345230,
-   "sectors": 1795345521,
+   "sectors": 1795346424,
    "listings": 1795345230,
    "fundamentals": 1795335052
   }
@@ -8314,6 +8314,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "765dbba1f1a5cf62e5d82b5ce48bc050dcf437c863346962d34d3e9a2c3c5fd7",
- "generated": "2026-11-22T11:15:24+00:00"
+ "digest": "0b3ac0af0853882f4373f7829f18ecadbc59a7f81e707fc28786fc39573aa399",
+ "generated": "2026-11-22T11:20:28+00:00"
 }
