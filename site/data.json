@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 25.945,
-   "last_ts": "2026-11-22T18:35:20+00:00",
-   "move_pct": 3.93,
+   "last": 26.1,
+   "last_ts": "2026-11-22T18:40:23+00:00",
+   "move_pct": 4.55,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -67,7 +67,7 @@
     0.0008187129688906061
    ],
    "lev": 1,
-   "funding_pct": -0.0084,
+   "funding_pct": -0.0074,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-22T01:00:00+00:00",
@@ -75,9 +75,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0009509,
-   "last_ts": "2026-11-22T18:35:20+00:00",
-   "move_pct": 2.56,
+   "last": 0.0009512,
+   "last_ts": "2026-11-22T18:40:23+00:00",
+   "move_pct": 2.53,
    "closed": false,
    "rsi": 35.5,
    "trade_on": "Perps 1x",
@@ -112,7 +112,7 @@
     0.2352334608266743
    ],
    "lev": 1,
-   "funding_pct": -0.04,
+   "funding_pct": -0.0402,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-22T06:00:00+00:00",
@@ -120,9 +120,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2699,
-   "last_ts": "2026-11-22T18:35:20+00:00",
-   "move_pct": -1.43,
+   "last": 0.2701,
+   "last_ts": "2026-11-22T18:40:23+00:00",
+   "move_pct": -1.5,
    "closed": false,
    "rsi": 44.7,
    "trade_on": "Perps 1x",
@@ -158,7 +158,7 @@
     0.03357919901894488
    ],
    "lev": 1,
-   "funding_pct": -0.0097,
+   "funding_pct": -0.0105,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-22T15:00:00+00:00",
@@ -166,9 +166,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04142,
-   "last_ts": "2026-11-22T18:35:20+00:00",
-   "move_pct": 1.92,
+   "last": 0.04156,
+   "last_ts": "2026-11-22T18:40:23+00:00",
+   "move_pct": 1.59,
    "closed": false,
    "rsi": 31.7,
    "trade_on": "Perps 1x",
@@ -210,9 +210,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.42456940536448595,
-   "last_ts": "2026-11-22T18:35:20+00:00",
-   "move_pct": 0.94,
+   "last": 0.4250908566763709,
+   "last_ts": "2026-11-22T18:40:23+00:00",
+   "move_pct": 1.07,
    "closed": false,
    "rsi": 71.0,
    "trade_on": "On-chain spot (Base DEX)",
@@ -7798,6 +7798,28 @@
     ]
    },
    {
+    "id": "layer-1",
+    "name": "Layer 1",
+    "chg7d": -5.61,
+    "top": [
+     "BTC",
+     "ETH",
+     "BNB",
+     "XRP",
+     "SOL"
+    ],
+    "tracked": [
+     "BTC",
+     "ETH",
+     "SOL",
+     "XRP",
+     "SUI",
+     "BNB",
+     "AVAX",
+     "ZEC"
+    ]
+   },
+   {
     "id": "oracle",
     "name": "Oracle",
     "chg7d": -5.65,
@@ -7941,28 +7963,6 @@
      "GALA",
      "IMX",
      "YGG"
-    ]
-   },
-   {
-    "id": "layer-1",
-    "name": "Layer 1",
-    "chg7d": -6.42,
-    "top": [
-     "BTC",
-     "ETH",
-     "BNB",
-     "XRP",
-     "SOL"
-    ],
-    "tracked": [
-     "BTC",
-     "ETH",
-     "SOL",
-     "XRP",
-     "SUI",
-     "BNB",
-     "AVAX",
-     "ZEC"
     ]
    },
    {
@@ -8277,7 +8277,7 @@
   "updated": {
    "unlocks": 1795356924,
    "onchain": 1795370726,
-   "sectors": 1795371920,
+   "sectors": 1795372823,
    "listings": 1795372227,
    "fundamentals": 1795356925
   }
@@ -8316,6 +8316,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "6bc914ba6c6aeab93467506c2d5d728bc2913469dd92083ab3e0cb6461f231b1",
- "generated": "2026-11-22T18:35:25+00:00"
+ "digest": "d706e60cdf87e24f4445a75c84fcff726039014ad098ad34497f355c45457760",
+ "generated": "2026-11-22T18:40:29+00:00"
 }
