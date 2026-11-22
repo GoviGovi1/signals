@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 25.822,
-   "last_ts": "2026-11-22T19:35:17+00:00",
-   "move_pct": 3.43,
+   "last": 26.027,
+   "last_ts": "2026-11-22T19:40:23+00:00",
+   "move_pct": 4.25,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -67,7 +67,7 @@
     0.0008187129688906061
    ],
    "lev": 1,
-   "funding_pct": -0.0006,
+   "funding_pct": 0.0002,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-22T01:00:00+00:00",
@@ -75,9 +75,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0009493,
-   "last_ts": "2026-11-22T19:35:17+00:00",
-   "move_pct": 2.73,
+   "last": 0.0009499,
+   "last_ts": "2026-11-22T19:40:23+00:00",
+   "move_pct": 2.66,
    "closed": false,
    "rsi": 35.5,
    "trade_on": "Perps 1x",
@@ -112,7 +112,7 @@
     0.2352334608266743
    ],
    "lev": 1,
-   "funding_pct": -0.0251,
+   "funding_pct": -0.0236,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-22T06:00:00+00:00",
@@ -120,9 +120,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2715,
-   "last_ts": "2026-11-22T19:35:17+00:00",
-   "move_pct": -2.03,
+   "last": 0.2712,
+   "last_ts": "2026-11-22T19:40:23+00:00",
+   "move_pct": -1.92,
    "closed": false,
    "rsi": 44.7,
    "trade_on": "Perps 1x",
@@ -158,7 +158,7 @@
     0.03357919901894488
    ],
    "lev": 1,
-   "funding_pct": -0.005,
+   "funding_pct": -0.0039,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-22T15:00:00+00:00",
@@ -166,9 +166,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04179,
-   "last_ts": "2026-11-22T19:35:17+00:00",
-   "move_pct": 1.04,
+   "last": 0.04183,
+   "last_ts": "2026-11-22T19:40:23+00:00",
+   "move_pct": 0.95,
    "closed": false,
    "rsi": 31.7,
    "trade_on": "Perps 1x",
@@ -210,9 +210,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.42323659658091994,
-   "last_ts": "2026-11-22T19:35:17+00:00",
-   "move_pct": 0.63,
+   "last": 0.42411934495502995,
+   "last_ts": "2026-11-22T19:40:23+00:00",
+   "move_pct": 0.84,
    "closed": false,
    "rsi": 71.0,
    "trade_on": "On-chain spot (Base DEX)",
@@ -7842,6 +7842,28 @@
     ]
    },
    {
+    "id": "ai-agents",
+    "name": "AI Agents",
+    "chg7d": -5.57,
+    "top": [
+     "VVV",
+     "KITE",
+     "VIRTUAL",
+     "FET",
+     "TRAC"
+    ],
+    "tracked": [
+     "VVV",
+     "PIPPIN",
+     "VIRTUAL",
+     "FET",
+     "MAGIC",
+     "AEON",
+     "KITE",
+     "AIXBT"
+    ]
+   },
+   {
     "id": "layer-1",
     "name": "Layer 1",
     "chg7d": -5.61,
@@ -8054,28 +8076,6 @@
     ]
    },
    {
-    "id": "ai-agents",
-    "name": "AI Agents",
-    "chg7d": -7.14,
-    "top": [
-     "VVV",
-     "KITE",
-     "FET",
-     "VIRTUAL",
-     "TRAC"
-    ],
-    "tracked": [
-     "VVV",
-     "PIPPIN",
-     "VIRTUAL",
-     "FET",
-     "MAGIC",
-     "AEON",
-     "KITE",
-     "AIXBT"
-    ]
-   },
-   {
     "id": "storage",
     "name": "Storage",
     "chg7d": -7.77,
@@ -8277,7 +8277,7 @@
   "updated": {
    "unlocks": 1795356924,
    "onchain": 1795374321,
-   "sectors": 1795375518,
+   "sectors": 1795376423,
    "listings": 1795375829,
    "fundamentals": 1795356925
   }
@@ -8316,6 +8316,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "6251b669d0e08c64b2d8edbb86f8fb0358af33597387ef0de060585ec6ee5649",
- "generated": "2026-11-22T19:35:23+00:00"
+ "digest": "46d22011dbfd0d80858c77a118278dcf9edcedf6b2122bc29548ef7922ef418a",
+ "generated": "2026-11-22T19:40:28+00:00"
 }
