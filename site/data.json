@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 25.256,
-   "last_ts": "2026-11-22T14:00:34+00:00",
-   "move_pct": 1.17,
+   "last": 25.316,
+   "last_ts": "2026-11-22T14:06:23+00:00",
+   "move_pct": 1.41,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -67,7 +67,7 @@
     0.0008187129688906061
    ],
    "lev": 1,
-   "funding_pct": 0.001,
+   "funding_pct": 0.0021,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-22T01:00:00+00:00",
@@ -75,9 +75,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0009681,
-   "last_ts": "2026-11-22T14:00:34+00:00",
-   "move_pct": 0.8,
+   "last": 0.0009722,
+   "last_ts": "2026-11-22T14:06:23+00:00",
+   "move_pct": 0.38,
    "closed": false,
    "rsi": 35.5,
    "trade_on": "Perps 1x",
@@ -112,7 +112,7 @@
     0.2352334608266743
    ],
    "lev": 1,
-   "funding_pct": 0.01,
+   "funding_pct": 0.0095,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-22T06:00:00+00:00",
@@ -120,9 +120,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2707,
-   "last_ts": "2026-11-22T14:00:34+00:00",
-   "move_pct": -1.73,
+   "last": 0.2705,
+   "last_ts": "2026-11-22T14:06:23+00:00",
+   "move_pct": -1.65,
    "closed": false,
    "rsi": 44.7,
    "trade_on": "Perps 1x",
@@ -7594,41 +7594,41 @@
     "symbol": "AERO",
     "name": "Aero",
     "token": "0x3f5bf3edac59d650d8fdf9657a71f2f904a3a4ee",
-    "price": 0.412903150123215,
-    "liq": 2082162,
-    "vol24h": 7793369,
-    "age_d": 31.4,
-    "chg24h": 6.044,
-    "chg7d": -7.2,
-    "mcap": 317539911.908922,
+    "price": 0.417135113735894,
+    "liq": 3287393,
+    "vol24h": 7759982,
+    "age_d": 31.5,
+    "chg24h": 4.394,
+    "chg7d": -5.8,
+    "mcap": 320794470.147144,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": true,
-    "rsi": 64.2,
+    "rsi": 67.7,
     "url": "https://www.geckoterminal.com/base/pools/0xc85d5cb72d1aad6f152a8decad228ae4a59ac9b3"
    },
    {
     "chain": "Solana",
-    "symbol": "CLAUDIA",
-    "name": "Claudia",
-    "token": "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM",
-    "price": 0.011609380054016275,
-    "liq": 487998,
-    "vol24h": 3633700,
-    "age_d": 46.5,
-    "chg24h": 76.278,
-    "chg7d": 152.1,
-    "mcap": 10984952.9576636,
+    "symbol": "DCTY",
+    "name": "DacityCoin",
+    "token": "9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump",
+    "price": 0.0031540538869535306,
+    "liq": 257725,
+    "vol24h": 2422667,
+    "age_d": 33.5,
+    "chg24h": 66.718,
+    "chg7d": -36.1,
+    "mcap": 2982500.07899175,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
-    "trend_up": true,
-    "rsi": 59.9,
-    "url": "https://www.geckoterminal.com/solana/pools/Fe7bpDYCs74GqiCUF14HwgUMToPKV1d9mDYVX5BTohFr"
+    "trend_up": false,
+    "rsi": 51.6,
+    "url": "https://www.geckoterminal.com/solana/pools/DChXQ4qFPpNPEDfZLNiwvPhrVuuFGfqEDLAAZbiZHUWf"
    }
   ],
-  "onchain_checked": 85,
+  "onchain_checked": 87,
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
@@ -7693,28 +7693,6 @@
      "ZBCN",
      "SPACE",
      "IOTA"
-    ]
-   },
-   {
-    "id": "meme-token",
-    "name": "Meme Token",
-    "chg7d": -4.98,
-    "top": [
-     "DOGE",
-     "SHIB",
-     "M",
-     "PEPE",
-     "\u5e01\u5b89\u4eba\u751f"
-    ],
-    "tracked": [
-     "DOGE",
-     "PEPE",
-     "TRUMP",
-     "PENGU",
-     "SHIB",
-     "CASHCAT",
-     "USELESS",
-     "WIF"
     ]
    },
    {
@@ -7987,6 +7965,28 @@
     ]
    },
    {
+    "id": "meme-token",
+    "name": "Meme Token",
+    "chg7d": -7.34,
+    "top": [
+     "DOGE",
+     "SHIB",
+     "M",
+     "PEPE",
+     "\u5e01\u5b89\u4eba\u751f"
+    ],
+    "tracked": [
+     "DOGE",
+     "PEPE",
+     "TRUMP",
+     "PENGU",
+     "SHIB",
+     "CASHCAT",
+     "USELESS",
+     "WIF"
+    ]
+   },
+   {
     "id": "bitcoin-ecosystem",
     "name": "Bitcoin Ecosystem",
     "chg7d": -7.37,
@@ -8211,8 +8211,8 @@
   ],
   "updated": {
    "unlocks": 1795335052,
-   "onchain": 1795352726,
-   "sectors": 1795355423,
+   "onchain": 1795356320,
+   "sectors": 1795356320,
    "listings": 1795352726,
    "fundamentals": 1795335052
   }
@@ -8251,6 +8251,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "13cdf176a5c5db39a35207966e78b367ad365f7538a1c50705a5abc097b1442c",
- "generated": "2026-11-22T14:01:05+00:00"
+ "digest": "cb534f50a1d1185fd19f673030f17a9aa48b6c2a8109ccd83df7f4b9953af97d",
+ "generated": "2026-11-22T14:06:26+00:00"
 }
