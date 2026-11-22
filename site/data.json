@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 25.469,
-   "last_ts": "2026-11-22T08:30:26+00:00",
-   "move_pct": 2.02,
+   "last": 25.553,
+   "last_ts": "2026-11-22T08:35:21+00:00",
+   "move_pct": 2.36,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -67,7 +67,7 @@
     0.0008187129688906061
    ],
    "lev": 1,
-   "funding_pct": -0.0144,
+   "funding_pct": -0.0155,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-22T01:00:00+00:00",
@@ -75,9 +75,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0009808,
-   "last_ts": "2026-11-22T08:30:26+00:00",
-   "move_pct": -0.5,
+   "last": 0.0009747,
+   "last_ts": "2026-11-22T08:35:21+00:00",
+   "move_pct": 0.12,
    "closed": false,
    "rsi": 35.5,
    "trade_on": "Perps 1x",
@@ -111,7 +111,7 @@
     0.19388288859387304
    ],
    "lev": 2,
-   "funding_pct": 0.001,
+   "funding_pct": 0.0014,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-22T06:00:00+00:00",
@@ -119,9 +119,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.227,
-   "last_ts": "2026-11-22T08:30:26+00:00",
-   "move_pct": -1.02,
+   "last": 0.229,
+   "last_ts": "2026-11-22T08:35:21+00:00",
+   "move_pct": -1.91,
    "closed": false,
    "rsi": 43.2,
    "trade_on": "Perps 2x",
@@ -156,7 +156,7 @@
     0.2352334608266743
    ],
    "lev": 1,
-   "funding_pct": -0.0163,
+   "funding_pct": -0.0166,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-22T06:00:00+00:00",
@@ -164,16 +164,18 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.268,
-   "last_ts": "2026-11-22T08:30:26+00:00",
-   "move_pct": -0.71,
+   "last": 0.2686,
+   "last_ts": "2026-11-22T08:35:21+00:00",
+   "move_pct": -0.94,
    "closed": false,
    "rsi": 44.7,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": "charts/MASK-PERP-1795323600.png",
    "setup": "BOS"
-  },
+  }
+ ],
+ "closed": [
   {
    "id": "WCT-PERP-1795327200",
    "kind": "TA",
@@ -201,25 +203,23 @@
    ],
    "lev": 1,
    "funding_pct": 0.005,
-   "status": "open",
+   "status": "stopped",
    "hits": 0,
    "opened": "2026-11-22T07:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.02927,
-   "last_ts": "2026-11-22T08:30:26+00:00",
+   "closed_at": "2026-11-22T08:35:21+00:00",
+   "exit_price": 0.029407857499737275,
+   "result_r": -1.0,
+   "result_pct": -2.57,
+   "last": 0.02937,
+   "last_ts": "2026-11-22T08:35:21+00:00",
    "move_pct": -2.09,
-   "closed": false,
+   "closed": true,
    "rsi": 45.0,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": "charts/WCT-PERP-1795327200.png",
    "setup": "BOS"
-  }
- ],
- "closed": [
+  },
   {
    "id": "SNX-PERP-1795158000",
    "kind": "TA",
@@ -1950,7 +1950,7 @@
    "rsi": 33.5,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": "charts/CVX-PERP-1794816000.png",
+   "chart": null,
    "setup": "BREAKOUT20"
   },
   {
@@ -2783,61 +2783,17 @@
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": null,
    "setup": "BREAKOUT20"
-  },
-  {
-   "id": "MEME-PERP-1794816000",
-   "kind": "TA",
-   "score": 1,
-   "reasons": [
-    "Chart: Broke the 20-hour low on 0.8x volume",
-    "Timeframes: 1d down, 4h down, 4h structure lower highs/lows",
-    "No support below in the last 50 days",
-    "Stop 0.00032532 (structure); targets at 1R/2R/3R",
-    "BTC 4h trend down",
-    "Weaker than BTC by 2.2% over 7d",
-    "OI +14% 24h with breakout",
-    "Track record: +0.2R on MEME in the last 45 days (backtest)"
-   ],
-   "coin": "MEME",
-   "market": "PERP",
-   "side": "SHORT",
-   "entry": 0.0003163,
-   "sl0": 0.0003253212329252443,
-   "sl": 0.0003253212329252443,
-   "tps": [
-    0.0003072787670747557,
-    0.00029825753414951137,
-    0.00028923630122426705
-   ],
-   "lev": 1,
-   "funding_pct": 0.0003,
-   "status": "stopped",
-   "hits": 0,
-   "opened": "2026-11-16T09:00:00+00:00",
-   "closed_at": "2026-11-16T19:25:32+00:00",
-   "exit_price": 0.0003253212329252443,
-   "result_r": -1.0,
-   "result_pct": -2.85,
-   "last": 0.0003243,
-   "last_ts": "2026-11-16T19:25:32+00:00",
-   "move_pct": -1.93,
-   "closed": true,
-   "rsi": 33.8,
-   "trade_on": "Perps 1x",
-   "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": null,
-   "setup": "BREAKOUT20"
   }
  ],
  "stats": {
   "all": {
-   "trades": 296,
+   "trades": 297,
    "wins": 146,
-   "losses": 150,
-   "win_rate": 49.3,
-   "total_r": 49.35,
-   "avg_r": 0.167,
-   "total_pct": 211.09
+   "losses": 151,
+   "win_rate": 49.2,
+   "total_r": 48.35,
+   "avg_r": 0.163,
+   "total_pct": 208.52
   },
   "SPOT": {
    "trades": 86,
@@ -2849,13 +2805,13 @@
    "total_pct": 54.23
   },
   "PERP": {
-   "trades": 196,
+   "trades": 197,
    "wins": 103,
-   "losses": 93,
-   "win_rate": 52.6,
-   "total_r": 54.47,
-   "avg_r": 0.278,
-   "total_pct": 137.05
+   "losses": 94,
+   "win_rate": 52.3,
+   "total_r": 53.47,
+   "avg_r": 0.271,
+   "total_pct": 134.48
   },
   "DEX": {
    "trades": 14,
@@ -2886,13 +2842,13 @@
     "total_pct": 19.81
    },
    "TA": {
-    "trades": 205,
+    "trades": 206,
     "wins": 94,
-    "losses": 111,
-    "win_rate": 45.9,
-    "total_r": 36.9,
-    "avg_r": 0.18,
-    "total_pct": 109.3
+    "losses": 112,
+    "win_rate": 45.6,
+    "total_r": 35.9,
+    "avg_r": 0.174,
+    "total_pct": 106.73
    }
   },
   "coins": {
@@ -4247,13 +4203,13 @@
     "total_pct": 4.29
    },
    "WCT": {
-    "trades": 1,
+    "trades": 2,
     "wins": 0,
-    "losses": 1,
+    "losses": 2,
     "win_rate": 0.0,
-    "total_r": -1.0,
+    "total_r": -2.0,
     "avg_r": -1.0,
-    "total_pct": -2.71
+    "total_pct": -5.28
    },
    "WIF": {
     "trades": 1,
@@ -4382,7 +4338,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 5
+  "open": 4
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7795,28 +7751,6 @@
     ]
    },
    {
-    "id": "layer-1",
-    "name": "Layer 1",
-    "chg7d": -3.46,
-    "top": [
-     "BTC",
-     "ETH",
-     "BNB",
-     "XRP",
-     "SOL"
-    ],
-    "tracked": [
-     "BTC",
-     "ETH",
-     "SOL",
-     "XRP",
-     "SUI",
-     "BNB",
-     "AVAX",
-     "ZEC"
-    ]
-   },
-   {
     "id": "depin",
     "name": "DePIN",
     "chg7d": -5.56,
@@ -8065,6 +7999,28 @@
      "ASTER",
      "CRV",
      "RAY"
+    ]
+   },
+   {
+    "id": "layer-1",
+    "name": "Layer 1",
+    "chg7d": -7.47,
+    "top": [
+     "BTC",
+     "ETH",
+     "BNB",
+     "XRP",
+     "SOL"
+    ],
+    "tracked": [
+     "BTC",
+     "ETH",
+     "SOL",
+     "XRP",
+     "SUI",
+     "BNB",
+     "AVAX",
+     "ZEC"
     ]
    },
    {
@@ -8336,7 +8292,7 @@
   "updated": {
    "unlocks": 1795335052,
    "onchain": 1795334425,
-   "sectors": 1795335624,
+   "sectors": 1795336521,
    "listings": 1795333826,
    "fundamentals": 1795335052
   }
@@ -8375,6 +8331,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "a7b776466c0660420a18532664d7a08a7d1c21d431a8871c0eeb407535ab9016",
- "generated": "2026-11-22T08:30:29+00:00"
+ "digest": "93f161a7da9eca7b782e68bd06d99197f42c04d67b304ade2937aa5dfc7a4297",
+ "generated": "2026-11-22T08:35:25+00:00"
 }
