@@ -27,7 +27,7 @@
     0.13348493690253851
    ],
    "lev": 1,
-   "funding_pct": -0.0093,
+   "funding_pct": -0.0087,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-11-20T08:00:00+00:00",
@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.141,
-   "last_ts": "2026-11-22T06:45:24+00:00",
-   "move_pct": 10.98,
+   "last": 0.1409,
+   "last_ts": "2026-11-22T06:50:22+00:00",
+   "move_pct": 11.05,
    "closed": false,
    "rsi": 39.0,
    "trade_on": "Perps 1x",
@@ -75,9 +75,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 24.808,
-   "last_ts": "2026-11-22T06:45:24+00:00",
-   "move_pct": -0.63,
+   "last": 24.92,
+   "last_ts": "2026-11-22T06:50:22+00:00",
+   "move_pct": -0.18,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -112,7 +112,7 @@
     0.0008187129688906061
    ],
    "lev": 1,
-   "funding_pct": -0.0012,
+   "funding_pct": -0.0017,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-22T01:00:00+00:00",
@@ -120,9 +120,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0009596,
-   "last_ts": "2026-11-22T06:45:24+00:00",
-   "move_pct": 1.67,
+   "last": 0.0009589,
+   "last_ts": "2026-11-22T06:50:22+00:00",
+   "move_pct": 1.74,
    "closed": false,
    "rsi": 35.5,
    "trade_on": "Perps 1x",
@@ -153,16 +153,16 @@
    ],
    "lev": null,
    "funding_pct": null,
-   "status": "tp1",
-   "hits": 1,
+   "status": "tp2",
+   "hits": 2,
    "opened": "2026-11-22T03:25:21+00:00",
    "closed_at": null,
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.02081,
-   "last_ts": "2026-11-22T06:45:24+00:00",
-   "move_pct": 18.91,
+   "last": 0.0217,
+   "last_ts": "2026-11-22T06:50:22+00:00",
+   "move_pct": 24.0,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -196,7 +196,7 @@
     0.19388288859387304
    ],
    "lev": 2,
-   "funding_pct": -0.0109,
+   "funding_pct": -0.01,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-22T06:00:00+00:00",
@@ -204,9 +204,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2249,
-   "last_ts": "2026-11-22T06:45:24+00:00",
-   "move_pct": -0.09,
+   "last": 0.2252,
+   "last_ts": "2026-11-22T06:50:22+00:00",
+   "move_pct": -0.22,
    "closed": false,
    "rsi": 43.2,
    "trade_on": "Perps 2x",
@@ -241,7 +241,7 @@
     0.2352334608266743
    ],
    "lev": 1,
-   "funding_pct": -0.0347,
+   "funding_pct": -0.034,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-22T06:00:00+00:00",
@@ -249,9 +249,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2662,
-   "last_ts": "2026-11-22T06:45:24+00:00",
-   "move_pct": -0.04,
+   "last": 0.2663,
+   "last_ts": "2026-11-22T06:50:22+00:00",
+   "move_pct": -0.08,
    "closed": false,
    "rsi": 44.7,
    "trade_on": "Perps 1x",
@@ -7800,28 +7800,6 @@
     ]
    },
    {
-    "id": "depin",
-    "name": "DePIN",
-    "chg7d": -1.95,
-    "top": [
-     "TAO",
-     "RENDER",
-     "BDX",
-     "FIL",
-     "BTT"
-    ],
-    "tracked": [
-     "FIL",
-     "TAO",
-     "GRASS",
-     "RENDER",
-     "AR",
-     "LPT",
-     "SPACE",
-     "ATH"
-    ]
-   },
-   {
     "id": "solana-meme-coins",
     "name": "Solana Meme Coins",
     "chg7d": -2.12,
@@ -7961,6 +7939,28 @@
      "BTC",
      "ORDI",
      "SATS"
+    ]
+   },
+   {
+    "id": "depin",
+    "name": "DePIN",
+    "chg7d": -5.56,
+    "top": [
+     "TAO",
+     "RENDER",
+     "BDX",
+     "FIL",
+     "BTT"
+    ],
+    "tracked": [
+     "FIL",
+     "TAO",
+     "GRASS",
+     "RENDER",
+     "AR",
+     "LPT",
+     "SPACE",
+     "ATH"
     ]
    },
    {
@@ -8363,7 +8363,7 @@
   "updated": {
    "unlocks": 1795313429,
    "onchain": 1795327225,
-   "sectors": 1795329321,
+   "sectors": 1795330222,
    "listings": 1795329924,
    "fundamentals": 1795313430
   }
@@ -8402,6 +8402,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "265b4b491dccfc2005f3208dad501a57bd25e42ac734b50367675800c4ecd5b0",
- "generated": "2026-11-22T06:45:27+00:00"
+ "digest": "0c7c88d4cb294055956ba0d914e3b9ae1f0d1aae2ba32cddb51c4d7f24c9dc35",
+ "generated": "2026-11-22T06:50:26+00:00"
 }
