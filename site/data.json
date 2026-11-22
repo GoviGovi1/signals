@@ -27,7 +27,7 @@
     0.13348493690253851
    ],
    "lev": 1,
-   "funding_pct": -0.0141,
+   "funding_pct": -0.0149,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-11-20T08:00:00+00:00",
@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1431,
-   "last_ts": "2026-11-22T02:01:49+00:00",
-   "move_pct": 9.66,
+   "last": 0.1435,
+   "last_ts": "2026-11-22T02:05:21+00:00",
+   "move_pct": 9.41,
    "closed": false,
    "rsi": 39.0,
    "trade_on": "Perps 1x",
@@ -67,7 +67,7 @@
     0.04436588048076303
    ],
    "lev": 1,
-   "funding_pct": -0.0063,
+   "funding_pct": -0.0055,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-21T14:50:22+00:00",
@@ -75,9 +75,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.03622,
-   "last_ts": "2026-11-22T02:01:49+00:00",
-   "move_pct": -3.1,
+   "last": 0.03614,
+   "last_ts": "2026-11-22T02:05:21+00:00",
+   "move_pct": -3.32,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -115,9 +115,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 25.004,
-   "last_ts": "2026-11-22T02:01:49+00:00",
-   "move_pct": 0.16,
+   "last": 24.976,
+   "last_ts": "2026-11-22T02:05:21+00:00",
+   "move_pct": 0.04,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -152,7 +152,7 @@
     0.0008187129688906061
    ],
    "lev": 1,
-   "funding_pct": -0.0115,
+   "funding_pct": -0.0114,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-22T01:00:00+00:00",
@@ -160,9 +160,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0009799,
-   "last_ts": "2026-11-22T02:01:49+00:00",
-   "move_pct": -0.41,
+   "last": 0.0009794,
+   "last_ts": "2026-11-22T02:05:21+00:00",
+   "move_pct": -0.36,
    "closed": false,
    "rsi": 35.5,
    "trade_on": "Perps 1x",
@@ -7878,6 +7878,22 @@
     ]
    },
    {
+    "id": "interoperability",
+    "name": "Interoperability",
+    "chg7d": -2.87,
+    "top": [
+     "TRAC",
+     "W",
+     "AXL",
+     "CKB",
+     "PHA"
+    ],
+    "tracked": [
+     "W",
+     "PHA"
+    ]
+   },
+   {
     "id": "layer-1",
     "name": "Layer 1",
     "chg7d": -2.94,
@@ -8114,22 +8130,6 @@
     ]
    },
    {
-    "id": "interoperability",
-    "name": "Interoperability",
-    "chg7d": -7.26,
-    "top": [
-     "TRAC",
-     "W",
-     "AXL",
-     "CKB",
-     "PHA"
-    ],
-    "tracked": [
-     "W",
-     "PHA"
-    ]
-   },
-   {
     "id": "storage",
     "name": "Storage",
     "chg7d": -9.13,
@@ -8316,7 +8316,7 @@
   "updated": {
    "unlocks": 1795291521,
    "onchain": 1795312847,
-   "sectors": 1795312222,
+   "sectors": 1795313121,
    "listings": 1795311320,
    "fundamentals": 1795291521
   }
@@ -8355,6 +8355,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "f8f7e40b0d7498dddd63809ce0fb5e69e690bbdac1aaa89393a96242a559259e",
- "generated": "2026-11-22T02:02:24+00:00"
+ "digest": "785a9c0ef6d8f64f9616fc84da05ff0bd13e4f7ecaa4e1ef4e507aa807e14669",
+ "generated": "2026-11-22T02:05:24+00:00"
 }
