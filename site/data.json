@@ -27,7 +27,7 @@
     0.13348493690253851
    ],
    "lev": 1,
-   "funding_pct": -0.0212,
+   "funding_pct": -0.0211,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-11-20T08:00:00+00:00",
@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1422,
-   "last_ts": "2026-11-22T02:45:24+00:00",
-   "move_pct": 10.23,
+   "last": 0.1424,
+   "last_ts": "2026-11-22T02:50:26+00:00",
+   "move_pct": 10.1,
    "closed": false,
    "rsi": 39.0,
    "trade_on": "Perps 1x",
@@ -67,7 +67,7 @@
     0.04436588048076303
    ],
    "lev": 1,
-   "funding_pct": -0.0019,
+   "funding_pct": -0.002,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-21T14:50:22+00:00",
@@ -75,9 +75,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.03629,
-   "last_ts": "2026-11-22T02:45:24+00:00",
-   "move_pct": -2.92,
+   "last": 0.0363,
+   "last_ts": "2026-11-22T02:50:26+00:00",
+   "move_pct": -2.89,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -115,9 +115,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 24.837,
-   "last_ts": "2026-11-22T02:45:24+00:00",
-   "move_pct": -0.51,
+   "last": 24.723,
+   "last_ts": "2026-11-22T02:50:26+00:00",
+   "move_pct": -0.97,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -152,7 +152,7 @@
     0.0008187129688906061
    ],
    "lev": 1,
-   "funding_pct": -0.0315,
+   "funding_pct": -0.0296,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-22T01:00:00+00:00",
@@ -160,9 +160,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0009695,
-   "last_ts": "2026-11-22T02:45:24+00:00",
-   "move_pct": 0.66,
+   "last": 0.0009696,
+   "last_ts": "2026-11-22T02:50:26+00:00",
+   "move_pct": 0.65,
    "closed": false,
    "rsi": 35.5,
    "trade_on": "Perps 1x",
@@ -7938,6 +7938,28 @@
     ]
    },
    {
+    "id": "exchange-based-tokens",
+    "name": "Exchange Based Tokens",
+    "chg7d": -3.69,
+    "top": [
+     "BNB",
+     "HYPE",
+     "LEO",
+     "WBT",
+     "UNI"
+    ],
+    "tracked": [
+     "BNB",
+     "HYPE",
+     "UNI",
+     "PUMP",
+     "MMT",
+     "OKB",
+     "ASTER",
+     "CRV"
+    ]
+   },
+   {
     "id": "solana-meme-coins",
     "name": "Solana Meme Coins",
     "chg7d": -3.81,
@@ -8088,28 +8110,6 @@
      "MAGIC",
      "KITE",
      "AIXBT"
-    ]
-   },
-   {
-    "id": "exchange-based-tokens",
-    "name": "Exchange Based Tokens",
-    "chg7d": -5.6,
-    "top": [
-     "BNB",
-     "HYPE",
-     "LEO",
-     "WBT",
-     "UNI"
-    ],
-    "tracked": [
-     "BNB",
-     "HYPE",
-     "UNI",
-     "PUMP",
-     "MMT",
-     "OKB",
-     "ASTER",
-     "CRV"
     ]
    },
    {
@@ -8316,7 +8316,7 @@
   "updated": {
    "unlocks": 1795313429,
    "onchain": 1795312847,
-   "sectors": 1795314921,
+   "sectors": 1795315826,
    "listings": 1795314921,
    "fundamentals": 1795313430
   }
@@ -8355,6 +8355,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "f9225cb6546bcd2fbe34c786f739d2214413f93e47388464e421a2a6e6542729",
- "generated": "2026-11-22T02:45:27+00:00"
+ "digest": "0365a2f49d41652e9ea8884df05945ac79dc2bd0397403c2bdb631cdc31da0f3",
+ "generated": "2026-11-22T02:50:28+00:00"
 }
