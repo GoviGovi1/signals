@@ -22,7 +22,7 @@
     1.2340486711629053
    ],
    "lev": 1,
-   "funding_pct": 0.0204,
+   "funding_pct": 0.0229,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-23T00:00:30+00:00",
@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.1095,
-   "last_ts": "2026-11-23T17:50:23+00:00",
-   "move_pct": 12.01,
+   "last": 1.1094,
+   "last_ts": "2026-11-23T17:55:20+00:00",
+   "move_pct": 12.0,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -62,7 +62,7 @@
     0.02918017389916424
    ],
    "lev": 1,
-   "funding_pct": 0.005,
+   "funding_pct": 0.0042,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-23T13:00:31+00:00",
@@ -70,9 +70,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.025936,
-   "last_ts": "2026-11-23T17:50:23+00:00",
-   "move_pct": 3.77,
+   "last": 0.026145,
+   "last_ts": "2026-11-23T17:55:20+00:00",
+   "move_pct": 4.61,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -115,9 +115,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.00316,
-   "last_ts": "2026-11-23T17:50:23+00:00",
-   "move_pct": 0.32,
+   "last": 0.003171,
+   "last_ts": "2026-11-23T17:55:20+00:00",
+   "move_pct": 0.67,
    "closed": false,
    "rsi": 65.7,
    "trade_on": "Spot",
@@ -160,9 +160,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1101,
-   "last_ts": "2026-11-23T17:50:23+00:00",
-   "move_pct": -1.96,
+   "last": 0.1103,
+   "last_ts": "2026-11-23T17:55:20+00:00",
+   "move_pct": -1.78,
    "closed": false,
    "rsi": 67.3,
    "trade_on": "Perps 1x",
@@ -204,9 +204,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 3666.35311974826,
-   "last_ts": "2026-11-23T17:50:23+00:00",
-   "move_pct": 0.02,
+   "last": 3634.5422526203497,
+   "last_ts": "2026-11-23T17:55:20+00:00",
+   "move_pct": -0.85,
    "closed": false,
    "rsi": 66.8,
    "trade_on": "On-chain spot (Ethereum DEX)",
@@ -244,9 +244,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2367,
-   "last_ts": "2026-11-23T17:50:23+00:00",
-   "move_pct": -0.13,
+   "last": 0.2218,
+   "last_ts": "2026-11-23T17:55:20+00:00",
+   "move_pct": -6.41,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -7948,6 +7948,28 @@
     ]
    },
    {
+    "id": "depin",
+    "name": "DePIN",
+    "chg7d": -1.38,
+    "top": [
+     "TAO",
+     "RENDER",
+     "BDX",
+     "FIL",
+     "BTT"
+    ],
+    "tracked": [
+     "FIL",
+     "TAO",
+     "GRASS",
+     "RENDER",
+     "AR",
+     "ATH",
+     "LPT",
+     "IOTA"
+    ]
+   },
+   {
     "id": "decentralized-perpetuals",
     "name": "Decentralized Perpetuals",
     "chg7d": -1.73,
@@ -8011,28 +8033,6 @@
      "FARTCOIN",
      "BONK",
      "BOME"
-    ]
-   },
-   {
-    "id": "depin",
-    "name": "DePIN",
-    "chg7d": -2.72,
-    "top": [
-     "TAO",
-     "RENDER",
-     "BDX",
-     "FIL",
-     "BTT"
-    ],
-    "tracked": [
-     "FIL",
-     "TAO",
-     "GRASS",
-     "RENDER",
-     "AR",
-     "ATH",
-     "LPT",
-     "IOTA"
     ]
    },
    {
@@ -8338,7 +8338,7 @@
   "updated": {
    "unlocks": 1795443329,
    "onchain": 1795453519,
-   "sectors": 1795455623,
+   "sectors": 1795456520,
    "listings": 1795455322,
    "fundamentals": 1795443331
   }
@@ -8377,6 +8377,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "3d84906e625b68777e3adf191bb37110d1d49736344ae2a9bfb8144d13a6f647",
- "generated": "2026-11-23T17:50:28+00:00"
+ "digest": "c50e75676dbe753f5dc5b7829868e4fe9387aa8e474ceb22ba5aff5f6b735eae",
+ "generated": "2026-11-23T17:55:26+00:00"
 }
