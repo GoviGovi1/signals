@@ -22,7 +22,7 @@
     1.2340486711629053
    ],
    "lev": 1,
-   "funding_pct": 0.0158,
+   "funding_pct": 0.0172,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-23T00:00:30+00:00",
@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.0707,
-   "last_ts": "2026-11-23T19:20:21+00:00",
-   "move_pct": 8.1,
+   "last": 1.067,
+   "last_ts": "2026-11-23T19:25:19+00:00",
+   "move_pct": 7.72,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -62,7 +62,7 @@
     0.02918017389916424
    ],
    "lev": 1,
-   "funding_pct": -0.0201,
+   "funding_pct": -0.0222,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-23T13:00:31+00:00",
@@ -70,9 +70,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.025619,
-   "last_ts": "2026-11-23T19:20:21+00:00",
-   "move_pct": 2.5,
+   "last": 0.025581,
+   "last_ts": "2026-11-23T19:25:19+00:00",
+   "move_pct": 2.35,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -115,59 +115,14 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.00315,
-   "last_ts": "2026-11-23T19:20:21+00:00",
-   "move_pct": 0.0,
+   "last": 0.003144,
+   "last_ts": "2026-11-23T19:25:19+00:00",
+   "move_pct": -0.19,
    "closed": false,
    "rsi": 65.7,
    "trade_on": "Spot",
    "market_reason": "thin perp market: spot is safer",
    "chart": "charts/KAT-SPOT-1795438800.png",
-   "setup": "RANGE_BREAK"
-  },
-  {
-   "id": "0G-PERP-1795438800",
-   "kind": "TA",
-   "score": 0,
-   "reasons": [
-    "Chart: Broke out of a 2-day range at 0.1118 (range 0.1063\u20130.1118) on 5.6x volume",
-    "Timeframes: 1d down, 4h down, 4h structure mixed",
-    "Next resistance 0.1197 (2.2R away, 4h swing/swing)",
-    "Stop 0.1089 (structure); targets at the next 3 level(s)",
-    "BTC 4h trend down",
-    "Weaker than BTC by 7.5% over 7d",
-    "OI +2% 24h",
-    "Sector: Artificial Intelligence -4.0% 7d (middle, #6 of 20)",
-    "Track record: +2.7R on 0G in the last 45 days (backtest)"
-   ],
-   "coin": "0G",
-   "market": "PERP",
-   "side": "LONG",
-   "entry": 0.1123,
-   "sl0": 0.10889716950056758,
-   "sl": 0.10889716950056758,
-   "tps": [
-    0.11949358475028378,
-    0.12665807004440138,
-    0.1313935847502838
-   ],
-   "lev": 1,
-   "funding_pct": 0.005,
-   "status": "open",
-   "hits": 0,
-   "opened": "2026-11-23T14:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.109,
-   "last_ts": "2026-11-23T19:20:21+00:00",
-   "move_pct": -2.94,
-   "closed": false,
-   "rsi": 67.3,
-   "trade_on": "Perps 1x",
-   "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
-   "chart": "charts/0G-PERP-1795438800.png",
    "setup": "RANGE_BREAK"
   },
   {
@@ -205,7 +160,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 3633.34182086663,
-   "last_ts": "2026-11-23T19:20:21+00:00",
+   "last_ts": "2026-11-23T19:25:19+00:00",
    "move_pct": -0.88,
    "closed": false,
    "rsi": 66.8,
@@ -216,6 +171,51 @@
   }
  ],
  "closed": [
+  {
+   "id": "0G-PERP-1795438800",
+   "kind": "TA",
+   "score": 0,
+   "reasons": [
+    "Chart: Broke out of a 2-day range at 0.1118 (range 0.1063\u20130.1118) on 5.6x volume",
+    "Timeframes: 1d down, 4h down, 4h structure mixed",
+    "Next resistance 0.1197 (2.2R away, 4h swing/swing)",
+    "Stop 0.1089 (structure); targets at the next 3 level(s)",
+    "BTC 4h trend down",
+    "Weaker than BTC by 7.5% over 7d",
+    "OI +2% 24h",
+    "Sector: Artificial Intelligence -4.0% 7d (middle, #6 of 20)",
+    "Track record: +2.7R on 0G in the last 45 days (backtest)"
+   ],
+   "coin": "0G",
+   "market": "PERP",
+   "side": "LONG",
+   "entry": 0.1123,
+   "sl0": 0.10889716950056758,
+   "sl": 0.10889716950056758,
+   "tps": [
+    0.11949358475028378,
+    0.12665807004440138,
+    0.1313935847502838
+   ],
+   "lev": 1,
+   "funding_pct": 0.005,
+   "status": "stopped",
+   "hits": 0,
+   "opened": "2026-11-23T14:00:00+00:00",
+   "closed_at": "2026-11-23T19:25:19+00:00",
+   "exit_price": 0.10889716950056758,
+   "result_r": -1.0,
+   "result_pct": -3.03,
+   "last": 0.1087,
+   "last_ts": "2026-11-23T19:25:19+00:00",
+   "move_pct": -2.94,
+   "closed": true,
+   "rsi": 67.3,
+   "trade_on": "Perps 1x",
+   "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
+   "chart": "charts/0G-PERP-1795438800.png",
+   "setup": "RANGE_BREAK"
+  },
   {
    "id": "LIGHT-PERP-HOT-20780",
    "kind": "HOT",
@@ -1953,7 +1953,7 @@
    "rsi": 67.2,
    "trade_on": "On-chain spot (Base DEX)",
    "market_reason": "not listed on OKX; buy on a DEX, small size, no leverage",
-   "chart": "charts/SPCXC-DEX-base-0xb2000000-1794952800.png",
+   "chart": null,
    "setup": null
   },
   {
@@ -2783,61 +2783,17 @@
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": null,
    "setup": "BOS"
-  },
-  {
-   "id": "VVV-DEX-base-0xacfe6019-1794772800",
-   "kind": "ONCHAIN",
-   "score": null,
-   "reasons": [
-    "Trending on Base (GeckoTerminal), $6.4M volume 24h",
-    "Liquidity $5.9M, pool 25 days old",
-    "Safety: GoPlus OK",
-    "Chart: 20-hour breakout above EMA50 on the DEX, RSI 67",
-    "Untested: no free history to backtest on-chain signals"
-   ],
-   "chain": "Base",
-   "token": "0xacfe6019ed1a7dc6f7b508c02d1b04ec88cc21bf",
-   "url": "https://www.geckoterminal.com/base/pools/0xdebaebe5b2729f7d62072b2ea40472d78d2c1626",
-   "coin": "VVV",
-   "market": "DEX",
-   "side": "LONG",
-   "entry": 20.457452211608498,
-   "sl0": 19.553953611677223,
-   "sl": 20.457452211608498,
-   "tps": [
-    21.360950811539773,
-    22.264449411471052,
-    23.16794801140233
-   ],
-   "lev": null,
-   "funding_pct": null,
-   "status": "stopped_be",
-   "hits": 1,
-   "opened": "2026-11-15T21:00:00+00:00",
-   "closed_at": "2026-11-17T17:01:36+00:00",
-   "exit_price": 20.457452211608498,
-   "result_r": 0.333,
-   "result_pct": 1.47,
-   "last": 20.456414361048797,
-   "last_ts": "2026-11-17T17:01:36+00:00",
-   "move_pct": 0.86,
-   "closed": true,
-   "rsi": 66.6,
-   "trade_on": "On-chain spot (Base DEX)",
-   "market_reason": "not listed on OKX; buy on a DEX, small size, no leverage",
-   "chart": null,
-   "setup": null
   }
  ],
  "stats": {
   "all": {
-   "trades": 310,
+   "trades": 311,
    "wins": 150,
-   "losses": 160,
-   "win_rate": 48.4,
-   "total_r": 41.05,
-   "avg_r": 0.132,
-   "total_pct": 191.39
+   "losses": 161,
+   "win_rate": 48.2,
+   "total_r": 40.05,
+   "avg_r": 0.129,
+   "total_pct": 188.36
   },
   "SPOT": {
    "trades": 89,
@@ -2849,13 +2805,13 @@
    "total_pct": 47.88
   },
   "PERP": {
-   "trades": 206,
+   "trades": 207,
    "wins": 106,
-   "losses": 100,
-   "win_rate": 51.5,
-   "total_r": 48.83,
-   "avg_r": 0.237,
-   "total_pct": 122.79
+   "losses": 101,
+   "win_rate": 51.2,
+   "total_r": 47.83,
+   "avg_r": 0.231,
+   "total_pct": 119.76
   },
   "DEX": {
    "trades": 15,
@@ -2886,24 +2842,24 @@
     "total_pct": 20.72
    },
    "TA": {
-    "trades": 216,
+    "trades": 217,
     "wins": 96,
-    "losses": 120,
-    "win_rate": 44.4,
-    "total_r": 29.01,
-    "avg_r": 0.134,
-    "total_pct": 93.32
+    "losses": 121,
+    "win_rate": 44.2,
+    "total_r": 28.01,
+    "avg_r": 0.129,
+    "total_pct": 90.29
    }
   },
   "coins": {
    "0G": {
-    "trades": 3,
+    "trades": 4,
     "wins": 1,
-    "losses": 2,
-    "win_rate": 33.3,
-    "total_r": 0.33,
-    "avg_r": 0.111,
-    "total_pct": 2.34
+    "losses": 3,
+    "win_rate": 25.0,
+    "total_r": -0.67,
+    "avg_r": -0.166,
+    "total_pct": -0.69
    },
    "1INCH": {
     "trades": 4,
@@ -4418,7 +4374,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 5
+  "open": 4
  },
  "backtest": {
   "from": "2026-07-24",
@@ -8332,6 +8288,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "cdc79326f4846112dfa0fdf07fcdf756989286e0ca0573911cc3ca96cba2ad96",
- "generated": "2026-11-23T19:20:26+00:00"
+ "digest": "875f99c5a371f8b2bd8e63bf532cdbee4b10d5d94484ceccc232a039f1739732",
+ "generated": "2026-11-23T19:25:25+00:00"
 }
