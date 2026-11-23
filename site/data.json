@@ -22,7 +22,7 @@
     1.2340486711629053
    ],
    "lev": 1,
-   "funding_pct": 0.0186,
+   "funding_pct": 0.0191,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-23T00:00:30+00:00",
@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.0935,
-   "last_ts": "2026-11-23T17:40:23+00:00",
-   "move_pct": 10.4,
+   "last": 1.0926,
+   "last_ts": "2026-11-23T17:45:28+00:00",
+   "move_pct": 10.31,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -70,9 +70,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.026132,
-   "last_ts": "2026-11-23T17:40:23+00:00",
-   "move_pct": 4.56,
+   "last": 0.026055,
+   "last_ts": "2026-11-23T17:45:28+00:00",
+   "move_pct": 4.25,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -115,9 +115,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.003162,
-   "last_ts": "2026-11-23T17:40:23+00:00",
-   "move_pct": 0.38,
+   "last": 0.003146,
+   "last_ts": "2026-11-23T17:45:28+00:00",
+   "move_pct": -0.13,
    "closed": false,
    "rsi": 65.7,
    "trade_on": "Spot",
@@ -160,60 +160,15 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1107,
-   "last_ts": "2026-11-23T17:40:23+00:00",
-   "move_pct": -1.42,
+   "last": 0.1101,
+   "last_ts": "2026-11-23T17:45:28+00:00",
+   "move_pct": -1.96,
    "closed": false,
    "rsi": 67.3,
    "trade_on": "Perps 1x",
    "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
    "chart": "charts/0G-PERP-1795438800.png",
    "setup": "RANGE_BREAK"
-  },
-  {
-   "id": "CVX-SPOT-1795438800",
-   "kind": "TA",
-   "score": 0,
-   "reasons": [
-    "Chart: Break of structure: closed above the last swing high 1.1950, after a higher low",
-    "Timeframes: 1d down, 4h down, 4h structure higher highs/lows",
-    "Next resistance 1.3379 (2.6R away, 4h swing/swing)",
-    "Stop 1.1987 (structure); targets at the next 3 level(s)",
-    "BTC 4h trend down",
-    "Weaker than BTC by 11.2% over 7d",
-    "OI +4% 24h",
-    "Fees -48% 7d",
-    "Track record: +7.5R on CVX in the last 45 days (backtest)"
-   ],
-   "coin": "CVX",
-   "market": "SPOT",
-   "side": "LONG",
-   "entry": 1.242,
-   "sl0": 1.203527684921561,
-   "sl": 1.203527684921561,
-   "tps": [
-    1.3406272216038686,
-    1.4018289472428214,
-    1.4486733008277974
-   ],
-   "lev": null,
-   "funding_pct": null,
-   "status": "open",
-   "hits": 0,
-   "opened": "2026-11-23T14:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 1.211,
-   "last_ts": "2026-11-23T17:40:23+00:00",
-   "move_pct": -2.5,
-   "closed": false,
-   "rsi": 71.6,
-   "trade_on": "Spot",
-   "market_reason": "thin perp market: spot is safer",
-   "chart": "charts/CVX-SPOT-1795438800.png",
-   "setup": "BOS"
   },
   {
    "id": "PAXG-DEX-eth-0x45804880-1795442400",
@@ -249,9 +204,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 3640.31795813599,
-   "last_ts": "2026-11-23T17:40:23+00:00",
-   "move_pct": -0.69,
+   "last": 3666.35311974826,
+   "last_ts": "2026-11-23T17:45:28+00:00",
+   "move_pct": 0.02,
    "closed": false,
    "rsi": 66.8,
    "trade_on": "On-chain spot (Ethereum DEX)",
@@ -289,9 +244,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.238,
-   "last_ts": "2026-11-23T17:40:23+00:00",
-   "move_pct": 0.42,
+   "last": 0.2368,
+   "last_ts": "2026-11-23T17:45:28+00:00",
+   "move_pct": -0.08,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -301,6 +256,51 @@
   }
  ],
  "closed": [
+  {
+   "id": "CVX-SPOT-1795438800",
+   "kind": "TA",
+   "score": 0,
+   "reasons": [
+    "Chart: Break of structure: closed above the last swing high 1.1950, after a higher low",
+    "Timeframes: 1d down, 4h down, 4h structure higher highs/lows",
+    "Next resistance 1.3379 (2.6R away, 4h swing/swing)",
+    "Stop 1.1987 (structure); targets at the next 3 level(s)",
+    "BTC 4h trend down",
+    "Weaker than BTC by 11.2% over 7d",
+    "OI +4% 24h",
+    "Fees -48% 7d",
+    "Track record: +7.5R on CVX in the last 45 days (backtest)"
+   ],
+   "coin": "CVX",
+   "market": "SPOT",
+   "side": "LONG",
+   "entry": 1.242,
+   "sl0": 1.203527684921561,
+   "sl": 1.203527684921561,
+   "tps": [
+    1.3406272216038686,
+    1.4018289472428214,
+    1.4486733008277974
+   ],
+   "lev": null,
+   "funding_pct": null,
+   "status": "stopped",
+   "hits": 0,
+   "opened": "2026-11-23T14:00:00+00:00",
+   "closed_at": "2026-11-23T17:45:28+00:00",
+   "exit_price": 1.203527684921561,
+   "result_r": -1.0,
+   "result_pct": -3.1,
+   "last": 1.196,
+   "last_ts": "2026-11-23T17:45:28+00:00",
+   "move_pct": -2.5,
+   "closed": true,
+   "rsi": 71.6,
+   "trade_on": "Spot",
+   "market_reason": "thin perp market: spot is safer",
+   "chart": "charts/CVX-SPOT-1795438800.png",
+   "setup": "BOS"
+  },
   {
    "id": "GMT-SPOT-1795442400",
    "kind": "TA",
@@ -2039,7 +2039,7 @@
    "rsi": 34.1,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": "charts/CRV-PERP-1795082400.png",
+   "chart": null,
    "setup": "RANGE_BREAK"
   },
   {
@@ -2872,70 +2872,26 @@
    "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
    "chart": null,
    "setup": "RANGE_BREAK"
-  },
-  {
-   "id": "GIGGLE-PERP-1794884400",
-   "kind": "TA",
-   "score": 0,
-   "reasons": [
-    "Chart: Broke out of a 2-day range at 23.170 (range 22.150\u201323.170) on 1.0x volume",
-    "Timeframes: 1d down, 4h down, 4h structure mixed",
-    "Next resistance 24.590 (4.2R away, 4h swing/swing)",
-    "Stop 22.993 (below the breakout level); targets at the next 1 level(s)",
-    "BTC 4h trend down",
-    "Weaker than BTC by 5.0% over 7d",
-    "OI +4% 24h",
-    "Track record: +1.8R on GIGGLE in the last 45 days (backtest)"
-   ],
-   "coin": "GIGGLE",
-   "market": "PERP",
-   "side": "LONG",
-   "entry": 23.3,
-   "sl0": 22.99336260372998,
-   "sl": 22.99336260372998,
-   "tps": [
-    24.545840650932494,
-    24.852478047202514,
-    25.159115443472533
-   ],
-   "lev": 1,
-   "funding_pct": 0.005,
-   "status": "stopped",
-   "hits": 0,
-   "opened": "2026-11-17T04:00:00+00:00",
-   "closed_at": "2026-11-17T15:10:22+00:00",
-   "exit_price": 22.99336260372998,
-   "result_r": -1.0,
-   "result_pct": -1.32,
-   "last": 22.94,
-   "last_ts": "2026-11-17T15:10:22+00:00",
-   "move_pct": -0.99,
-   "closed": true,
-   "rsi": 63.2,
-   "trade_on": "Perps 1x",
-   "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
-   "chart": null,
-   "setup": "RANGE_BREAK"
   }
  ],
  "stats": {
   "all": {
-   "trades": 308,
+   "trades": 309,
    "wins": 150,
-   "losses": 158,
-   "win_rate": 48.7,
-   "total_r": 43.05,
-   "avg_r": 0.14,
-   "total_pct": 200.52
+   "losses": 159,
+   "win_rate": 48.5,
+   "total_r": 42.05,
+   "avg_r": 0.136,
+   "total_pct": 197.42
   },
   "SPOT": {
-   "trades": 88,
+   "trades": 89,
    "wins": 35,
-   "losses": 53,
-   "win_rate": 39.8,
-   "total_r": -7.21,
-   "avg_r": -0.082,
-   "total_pct": 50.98
+   "losses": 54,
+   "win_rate": 39.3,
+   "total_r": -8.21,
+   "avg_r": -0.092,
+   "total_pct": 47.88
   },
   "PERP": {
    "trades": 205,
@@ -2975,13 +2931,13 @@
     "total_pct": 20.72
    },
    "TA": {
-    "trades": 215,
+    "trades": 216,
     "wins": 96,
-    "losses": 119,
-    "win_rate": 44.7,
-    "total_r": 30.01,
-    "avg_r": 0.14,
-    "total_pct": 96.42
+    "losses": 120,
+    "win_rate": 44.4,
+    "total_r": 29.01,
+    "avg_r": 0.134,
+    "total_pct": 93.32
    }
   },
   "coins": {
@@ -3445,13 +3401,13 @@
     "total_pct": -10.98
    },
    "CVX": {
-    "trades": 1,
+    "trades": 2,
     "wins": 0,
-    "losses": 1,
+    "losses": 2,
     "win_rate": 0.0,
-    "total_r": -0.25,
-    "avg_r": -0.251,
-    "total_pct": -1.29
+    "total_r": -1.25,
+    "avg_r": -0.625,
+    "total_pct": -4.39
    },
    "DATA": {
     "trades": 5,
@@ -4507,7 +4463,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 7
+  "open": 6
  },
  "backtest": {
   "from": "2026-07-24",
@@ -8421,6 +8377,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "1980214e9d97fa6a7a1b2dac19f3ca413fb7dc7b480701b07e4579777efbb6ba",
- "generated": "2026-11-23T17:40:28+00:00"
+ "digest": "9d86ac21973a248687cb5b5a4c09c44088a35d33482fb8901381f666f2d192ce",
+ "generated": "2026-11-23T17:45:34+00:00"
 }
