@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.0712,
-   "last_ts": "2026-11-23T22:10:21+00:00",
-   "move_pct": 8.15,
+   "last": 1.074,
+   "last_ts": "2026-11-23T22:15:24+00:00",
+   "move_pct": 8.43,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -62,7 +62,7 @@
     0.02918017389916424
    ],
    "lev": 1,
-   "funding_pct": 0.0042,
+   "funding_pct": 0.0015,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-23T13:00:31+00:00",
@@ -70,60 +70,15 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.025743,
-   "last_ts": "2026-11-23T22:10:21+00:00",
-   "move_pct": 3.0,
+   "last": 0.025798,
+   "last_ts": "2026-11-23T22:15:24+00:00",
+   "move_pct": 3.22,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
    "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
    "chart": "charts/MUBARAK-PERP-HOT-20780.png",
    "setup": "HOT24"
-  },
-  {
-   "id": "KAT-SPOT-1795438800",
-   "kind": "TA",
-   "score": 0,
-   "reasons": [
-    "Chart: Broke out of a 2-day range at 0.003115 (range 0.002957\u20130.003115) on 3.1x volume",
-    "Timeframes: 1d down, 4h down, 4h structure higher highs/lows",
-    "Next resistance 0.003302 (2.6R away, 4h swing/swing)",
-    "Stop 0.0030926 (below the breakout level); targets at the next 3 level(s)",
-    "BTC 4h trend down",
-    "Stronger than BTC by 8.4% over 7d",
-    "OI +3% 24h",
-    "Sector: Layer 2 -4.2% 7d (middle, #10 of 20)",
-    "Track record: +0.7R on KAT in the last 45 days (backtest)"
-   ],
-   "coin": "KAT",
-   "market": "SPOT",
-   "side": "LONG",
-   "entry": 0.00315,
-   "sl0": 0.0030926147870666966,
-   "sl": 0.0030926147870666966,
-   "tps": [
-    0.0032964036967666746,
-    0.0033714036967666746,
-    0.0034114036967666742
-   ],
-   "lev": null,
-   "funding_pct": null,
-   "status": "open",
-   "hits": 0,
-   "opened": "2026-11-23T14:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.003096,
-   "last_ts": "2026-11-23T22:10:21+00:00",
-   "move_pct": -1.71,
-   "closed": false,
-   "rsi": 65.7,
-   "trade_on": "Spot",
-   "market_reason": "thin perp market: spot is safer",
-   "chart": "charts/KAT-SPOT-1795438800.png",
-   "setup": "RANGE_BREAK"
   },
   {
    "id": "PAXG-DEX-eth-0x45804880-1795442400",
@@ -159,9 +114,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 3621.5926035435996,
-   "last_ts": "2026-11-23T22:10:21+00:00",
-   "move_pct": -1.2,
+   "last": 3613.0333053092295,
+   "last_ts": "2026-11-23T22:15:24+00:00",
+   "move_pct": -1.44,
    "closed": false,
    "rsi": 66.8,
    "trade_on": "On-chain spot (Ethereum DEX)",
@@ -171,6 +126,51 @@
   }
  ],
  "closed": [
+  {
+   "id": "KAT-SPOT-1795438800",
+   "kind": "TA",
+   "score": 0,
+   "reasons": [
+    "Chart: Broke out of a 2-day range at 0.003115 (range 0.002957\u20130.003115) on 3.1x volume",
+    "Timeframes: 1d down, 4h down, 4h structure higher highs/lows",
+    "Next resistance 0.003302 (2.6R away, 4h swing/swing)",
+    "Stop 0.0030926 (below the breakout level); targets at the next 3 level(s)",
+    "BTC 4h trend down",
+    "Stronger than BTC by 8.4% over 7d",
+    "OI +3% 24h",
+    "Sector: Layer 2 -4.2% 7d (middle, #10 of 20)",
+    "Track record: +0.7R on KAT in the last 45 days (backtest)"
+   ],
+   "coin": "KAT",
+   "market": "SPOT",
+   "side": "LONG",
+   "entry": 0.00315,
+   "sl0": 0.0030926147870666966,
+   "sl": 0.0030926147870666966,
+   "tps": [
+    0.0032964036967666746,
+    0.0033714036967666746,
+    0.0034114036967666742
+   ],
+   "lev": null,
+   "funding_pct": null,
+   "status": "stopped",
+   "hits": 0,
+   "opened": "2026-11-23T14:00:00+00:00",
+   "closed_at": "2026-11-23T22:15:24+00:00",
+   "exit_price": 0.0030926147870666966,
+   "result_r": -1.0,
+   "result_pct": -1.82,
+   "last": 0.003076,
+   "last_ts": "2026-11-23T22:15:24+00:00",
+   "move_pct": -1.71,
+   "closed": true,
+   "rsi": 65.7,
+   "trade_on": "Spot",
+   "market_reason": "thin perp market: spot is safer",
+   "chart": "charts/KAT-SPOT-1795438800.png",
+   "setup": "RANGE_BREAK"
+  },
   {
    "id": "0G-PERP-1795438800",
    "kind": "TA",
@@ -1909,7 +1909,7 @@
    "rsi": 68.8,
    "trade_on": "Spot",
    "market_reason": "thin perp market: spot is safer",
-   "chart": "charts/BIGTIME-SPOT-1795093200.png",
+   "chart": null,
    "setup": "RANGE_BREAK"
   },
   {
@@ -2738,71 +2738,26 @@
    "market_reason": "very volatile coin: spot avoids liquidation",
    "chart": null,
    "setup": "HOT24"
-  },
-  {
-   "id": "0G-PERP-1794787200",
-   "kind": "TA",
-   "score": 1,
-   "reasons": [
-    "Chart: Break of structure: closed below the last swing low 0.1264, after a lower high",
-    "Timeframes: 1d down, 4h down, 4h structure lower highs/lows",
-    "No support below in the last 50 days",
-    "Stop 0.13506 (structure); targets at 1R/2R/3R",
-    "BTC 4h trend down",
-    "Stronger than BTC by 2.6% over 7d",
-    "OI +6% 24h with breakout",
-    "Sector: Artificial Intelligence -11.5% 7d (middle, #9 of 20)",
-    "Track record: +2.0R on 0G in the last 45 days (backtest)"
-   ],
-   "coin": "0G",
-   "market": "PERP",
-   "side": "SHORT",
-   "entry": 0.126,
-   "sl0": 0.13506370802585208,
-   "sl": 0.13506370802585208,
-   "tps": [
-    0.11693629197414793,
-    0.10787258394829585,
-    0.09880887592244378
-   ],
-   "lev": 1,
-   "funding_pct": 0.005,
-   "status": "expired",
-   "hits": 0,
-   "opened": "2026-11-16T01:00:00+00:00",
-   "closed_at": "2026-11-18T01:01:29+00:00",
-   "exit_price": 0.1292,
-   "result_r": -0.353,
-   "result_pct": -2.54,
-   "last": 0.1292,
-   "last_ts": "2026-11-18T01:01:29+00:00",
-   "move_pct": -2.54,
-   "closed": true,
-   "rsi": 30.3,
-   "trade_on": "Perps 1x",
-   "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": null,
-   "setup": "BOS"
   }
  ],
  "stats": {
   "all": {
-   "trades": 311,
+   "trades": 312,
    "wins": 150,
-   "losses": 161,
-   "win_rate": 48.2,
-   "total_r": 40.05,
-   "avg_r": 0.129,
-   "total_pct": 188.36
+   "losses": 162,
+   "win_rate": 48.1,
+   "total_r": 39.05,
+   "avg_r": 0.125,
+   "total_pct": 186.54
   },
   "SPOT": {
-   "trades": 89,
+   "trades": 90,
    "wins": 35,
-   "losses": 54,
-   "win_rate": 39.3,
-   "total_r": -8.21,
-   "avg_r": -0.092,
-   "total_pct": 47.88
+   "losses": 55,
+   "win_rate": 38.9,
+   "total_r": -9.21,
+   "avg_r": -0.102,
+   "total_pct": 46.06
   },
   "PERP": {
    "trades": 207,
@@ -2842,13 +2797,13 @@
     "total_pct": 20.72
    },
    "TA": {
-    "trades": 217,
+    "trades": 218,
     "wins": 96,
-    "losses": 121,
-    "win_rate": 44.2,
-    "total_r": 28.01,
-    "avg_r": 0.129,
-    "total_pct": 90.29
+    "losses": 122,
+    "win_rate": 44.0,
+    "total_r": 27.01,
+    "avg_r": 0.124,
+    "total_pct": 88.47
    }
   },
   "coins": {
@@ -3582,13 +3537,13 @@
     "total_pct": 9.33
    },
    "KAT": {
-    "trades": 5,
+    "trades": 6,
     "wins": 1,
-    "losses": 4,
-    "win_rate": 20.0,
-    "total_r": 0.88,
-    "avg_r": 0.176,
-    "total_pct": 0.62
+    "losses": 5,
+    "win_rate": 16.7,
+    "total_r": -0.12,
+    "avg_r": -0.02,
+    "total_pct": -1.2
    },
    "KGEN": {
     "trades": 1,
@@ -4374,7 +4329,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 4
+  "open": 3
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7793,28 +7748,6 @@
     ]
    },
    {
-    "id": "gaming",
-    "name": "Gaming",
-    "chg7d": -2.84,
-    "top": [
-     "BEAM",
-     "FLOKI",
-     "GOMINING",
-     "GEOD",
-     "MANA"
-    ],
-    "tracked": [
-     "BEAT",
-     "ONE",
-     "SAND",
-     "GALA",
-     "APE",
-     "AXS",
-     "IMX",
-     "FLOKI"
-    ]
-   },
-   {
     "id": "artificial-intelligence",
     "name": "Artificial Intelligence",
     "chg7d": -3.22,
@@ -7993,6 +7926,28 @@
      "ASTER",
      "CRV",
      "AERO"
+    ]
+   },
+   {
+    "id": "gaming",
+    "name": "Gaming",
+    "chg7d": -5.38,
+    "top": [
+     "BEAM",
+     "FLOKI",
+     "GOMINING",
+     "GEOD",
+     "MANA"
+    ],
+    "tracked": [
+     "BEAT",
+     "ONE",
+     "SAND",
+     "GALA",
+     "APE",
+     "AXS",
+     "IMX",
+     "FLOKI"
     ]
    },
    {
@@ -8264,7 +8219,7 @@
   "updated": {
    "unlocks": 1795465223,
    "onchain": 1795471521,
-   "sectors": 1795471234,
+   "sectors": 1795472124,
    "listings": 1795470627,
    "fundamentals": 1795465223
   }
@@ -8303,6 +8258,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "5b350a276d629ae4b91c28e8cb9f1442cddb96fd2408fd964a0479f24b8297a1",
- "generated": "2026-11-23T22:10:26+00:00"
+ "digest": "fa229c6e6429e1f61d9b2e61f3811396363a085860a4f174ebe925dc8f04357e",
+ "generated": "2026-11-23T22:15:31+00:00"
 }
