@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 25.636,
-   "last_ts": "2026-11-23T12:55:20+00:00",
-   "move_pct": 2.69,
+   "last": 25.572,
+   "last_ts": "2026-11-23T13:00:31+00:00",
+   "move_pct": 2.43,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -75,9 +75,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2695,
-   "last_ts": "2026-11-23T12:55:20+00:00",
-   "move_pct": -1.28,
+   "last": 0.2696,
+   "last_ts": "2026-11-23T13:00:31+00:00",
+   "move_pct": -1.32,
    "closed": false,
    "rsi": 44.7,
    "trade_on": "Perps 1x",
@@ -119,9 +119,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.42289445516179297,
-   "last_ts": "2026-11-23T12:55:20+00:00",
-   "move_pct": 0.55,
+   "last": 0.421779836542435,
+   "last_ts": "2026-11-23T13:00:31+00:00",
+   "move_pct": 0.28,
    "closed": false,
    "rsi": 71.0,
    "trade_on": "On-chain spot (Base DEX)",
@@ -159,9 +159,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.0049,
-   "last_ts": "2026-11-23T12:55:20+00:00",
-   "move_pct": 1.45,
+   "last": 0.9995,
+   "last_ts": "2026-11-23T13:00:31+00:00",
+   "move_pct": 0.91,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -204,15 +204,55 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04907,
-   "last_ts": "2026-11-23T12:55:20+00:00",
-   "move_pct": -0.95,
+   "last": 0.04912,
+   "last_ts": "2026-11-23T13:00:31+00:00",
+   "move_pct": -0.85,
    "closed": false,
    "rsi": 64.9,
    "trade_on": "Perps 1x",
    "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
    "chart": "charts/ZBT-PERP-1795417200.png",
    "setup": "RANGE_BREAK"
+  },
+  {
+   "id": "MUBARAK-PERP-HOT-20780",
+   "kind": "HOT",
+   "score": 595.71,
+   "reasons": [
+    "24h hot mover +20% with volume spike (4.2x the prior 3 days)",
+    "24h volume $10.6M on the OKX perp book, listed 538 days",
+    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
+    "Stop 0.023597 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
+   ],
+   "coin": "MUBARAK",
+   "market": "PERP",
+   "side": "LONG",
+   "entry": 0.024993,
+   "sl0": 0.023597275366945256,
+   "sl": 0.023597275366945256,
+   "tps": [
+    0.026388724633054746,
+    0.02778444926610949,
+    0.02918017389916424
+   ],
+   "lev": 1,
+   "funding_pct": 0.005,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-11-23T13:00:31+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.024978,
+   "last_ts": "2026-11-23T13:00:31+00:00",
+   "move_pct": -0.06,
+   "closed": false,
+   "rsi": null,
+   "trade_on": "Perps 1x",
+   "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
+   "chart": "charts/MUBARAK-PERP-HOT-20780.png",
+   "setup": "HOT24"
   }
  ],
  "closed": [
@@ -4407,7 +4447,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 5
+  "open": 6
  },
  "backtest": {
   "from": "2026-07-24",
@@ -8333,6 +8373,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "14132e8abee28e8aae363f05a95e6e1f80947be7816bf062218954f3277e7a7a",
- "generated": "2026-11-23T12:55:26+00:00"
+ "digest": "9b47a95f186bd32b84af0b5041e5f082ca8a95f9d85df3047086e266ac8c326c",
+ "generated": "2026-11-23T13:01:10+00:00"
 }
