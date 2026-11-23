@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 25.88,
-   "last_ts": "2026-11-23T12:15:27+00:00",
-   "move_pct": 3.67,
+   "last": 25.818,
+   "last_ts": "2026-11-23T12:20:21+00:00",
+   "move_pct": 3.42,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -75,61 +75,15 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2708,
-   "last_ts": "2026-11-23T12:15:27+00:00",
-   "move_pct": -1.77,
+   "last": 0.2711,
+   "last_ts": "2026-11-23T12:20:21+00:00",
+   "move_pct": -1.88,
    "closed": false,
    "rsi": 44.7,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": "charts/MASK-PERP-1795323600.png",
    "setup": "BOS"
-  },
-  {
-   "id": "SKY-PERP-1795356000",
-   "kind": "TA",
-   "score": 0,
-   "reasons": [
-    "Chart: Broke the 20-hour low on 5.7x volume",
-    "Timeframes: 1d down, 4h down, 4h structure mixed",
-    "Next support 0.03666 (3.5R away, 4h swing/swing)",
-    "Stop 0.043819 (structure); targets at the next 1 level(s)",
-    "BTC 4h trend down",
-    "Weaker than BTC by 15.6% over 7d",
-    "OI -0% 24h",
-    "TVL -27% 7d",
-    "Sector: Decentralized Finance DeFi -6.6% 7d (middle, #14 of 20)",
-    "Track record: +0.7R on SKY in the last 45 days (backtest)"
-   ],
-   "coin": "SKY",
-   "market": "PERP",
-   "side": "SHORT",
-   "entry": 0.04223,
-   "sl0": 0.043818533987370074,
-   "sl": 0.04223,
-   "tps": [
-    0.03675626699368503,
-    0.035167733006314955,
-    0.03357919901894488
-   ],
-   "lev": 1,
-   "funding_pct": 0.005,
-   "status": "tp1",
-   "hits": 1,
-   "opened": "2026-11-22T15:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.04,
-   "last_ts": "2026-11-23T12:15:27+00:00",
-   "move_pct": 5.28,
-   "closed": false,
-   "rsi": 31.7,
-   "trade_on": "Perps 1x",
-   "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": "charts/SKY-PERP-1795356000.png",
-   "setup": "BREAKOUT20"
   },
   {
    "id": "AERO-DEX-base-0x3f5bf3ed-1795356000",
@@ -165,9 +119,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.42480507195149697,
-   "last_ts": "2026-11-23T12:15:27+00:00",
-   "move_pct": 1.0,
+   "last": 0.42667921555718097,
+   "last_ts": "2026-11-23T12:20:21+00:00",
+   "move_pct": 1.45,
    "closed": false,
    "rsi": 71.0,
    "trade_on": "On-chain spot (Base DEX)",
@@ -197,7 +151,7 @@
     1.2340486711629053
    ],
    "lev": 1,
-   "funding_pct": 0.0105,
+   "funding_pct": 0.0091,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-23T00:00:30+00:00",
@@ -205,9 +159,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.0041,
-   "last_ts": "2026-11-23T12:15:27+00:00",
-   "move_pct": 1.37,
+   "last": 1.0016,
+   "last_ts": "2026-11-23T12:20:21+00:00",
+   "move_pct": 1.12,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -251,7 +205,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.04926,
-   "last_ts": "2026-11-23T12:15:27+00:00",
+   "last_ts": "2026-11-23T12:20:21+00:00",
    "move_pct": -0.57,
    "closed": false,
    "rsi": 64.9,
@@ -262,6 +216,52 @@
   }
  ],
  "closed": [
+  {
+   "id": "SKY-PERP-1795356000",
+   "kind": "TA",
+   "score": 0,
+   "reasons": [
+    "Chart: Broke the 20-hour low on 5.7x volume",
+    "Timeframes: 1d down, 4h down, 4h structure mixed",
+    "Next support 0.03666 (3.5R away, 4h swing/swing)",
+    "Stop 0.043819 (structure); targets at the next 1 level(s)",
+    "BTC 4h trend down",
+    "Weaker than BTC by 15.6% over 7d",
+    "OI -0% 24h",
+    "TVL -27% 7d",
+    "Sector: Decentralized Finance DeFi -6.6% 7d (middle, #14 of 20)",
+    "Track record: +0.7R on SKY in the last 45 days (backtest)"
+   ],
+   "coin": "SKY",
+   "market": "PERP",
+   "side": "SHORT",
+   "entry": 0.04223,
+   "sl0": 0.043818533987370074,
+   "sl": 0.04223,
+   "tps": [
+    0.03675626699368503,
+    0.035167733006314955,
+    0.03357919901894488
+   ],
+   "lev": 1,
+   "funding_pct": 0.005,
+   "status": "stopped_be",
+   "hits": 1,
+   "opened": "2026-11-22T15:00:00+00:00",
+   "closed_at": "2026-11-23T12:20:21+00:00",
+   "exit_price": 0.04223,
+   "result_r": 0.861,
+   "result_pct": 3.24,
+   "last": 0.04122,
+   "last_ts": "2026-11-23T12:20:21+00:00",
+   "move_pct": 5.28,
+   "closed": true,
+   "rsi": 31.7,
+   "trade_on": "Perps 1x",
+   "market_reason": "shorts need perps; thin perp market, so 1x",
+   "chart": "charts/SKY-PERP-1795356000.png",
+   "setup": "BREAKOUT20"
+  },
   {
    "id": "ONE-PERP-1795305600",
    "kind": "TA",
@@ -1991,7 +1991,7 @@
    "rsi": 29.3,
    "trade_on": "Perps 2x",
    "market_reason": "shorts need perps; 2x keeps liquidation 3x+ further away than the stop",
-   "chart": "charts/STRK-PERP-1795014000.png",
+   "chart": null,
    "setup": "BREAKOUT20"
   },
   {
@@ -2825,62 +2825,17 @@
    "market_reason": "very volatile coin: spot avoids liquidation",
    "chart": null,
    "setup": "HOT24"
-  },
-  {
-   "id": "MEGA-SPOT-1794715200",
-   "kind": "TA",
-   "score": 1,
-   "reasons": [
-    "Chart: Broke the 20-hour high on 0.8x volume",
-    "Timeframes: 1d down, 4h up, 4h structure higher highs/lows",
-    "Next resistance 0.05385 (3.4R away, 4h swing)",
-    "Stop 0.046012 (structure); targets at the next 2 level(s)",
-    "BTC 4h trend down",
-    "Stronger than BTC by 10.8% over 7d",
-    "OI +11% 24h with breakout",
-    "Sector: Layer 2 -15.2% 7d (middle, #9 of 20)",
-    "Track record: +0.3R on MEGA in the last 45 days (backtest)"
-   ],
-   "coin": "MEGA",
-   "market": "SPOT",
-   "side": "LONG",
-   "entry": 0.04786,
-   "sl0": 0.04606925798628368,
-   "sl": 0.04606925798628368,
-   "tps": [
-    0.053744243068080746,
-    0.055896941812850626,
-    0.057687683826566936
-   ],
-   "lev": null,
-   "funding_pct": null,
-   "status": "expired",
-   "hits": 0,
-   "opened": "2026-11-15T05:00:00+00:00",
-   "closed_at": "2026-11-17T05:01:35+00:00",
-   "exit_price": 0.05054,
-   "result_r": 1.497,
-   "result_pct": 5.6,
-   "last": 0.05054,
-   "last_ts": "2026-11-17T05:01:35+00:00",
-   "move_pct": 5.62,
-   "closed": true,
-   "rsi": 64.6,
-   "trade_on": "Spot",
-   "market_reason": "thin perp market: spot is safer",
-   "chart": null,
-   "setup": "BREAKOUT20"
   }
  ],
  "stats": {
   "all": {
-   "trades": 300,
-   "wins": 147,
+   "trades": 301,
+   "wins": 148,
    "losses": 153,
-   "win_rate": 49.0,
-   "total_r": 46.6,
-   "avg_r": 0.155,
-   "total_pct": 204.7
+   "win_rate": 49.2,
+   "total_r": 47.47,
+   "avg_r": 0.158,
+   "total_pct": 207.94
   },
   "SPOT": {
    "trades": 86,
@@ -2892,13 +2847,13 @@
    "total_pct": 54.23
   },
   "PERP": {
-   "trades": 200,
-   "wins": 104,
+   "trades": 201,
+   "wins": 105,
    "losses": 96,
-   "win_rate": 52.0,
-   "total_r": 51.72,
-   "avg_r": 0.259,
-   "total_pct": 130.66
+   "win_rate": 52.2,
+   "total_r": 52.58,
+   "avg_r": 0.262,
+   "total_pct": 133.9
   },
   "DEX": {
    "trades": 14,
@@ -2929,13 +2884,13 @@
     "total_pct": 19.81
    },
    "TA": {
-    "trades": 209,
-    "wins": 95,
+    "trades": 210,
+    "wins": 96,
     "losses": 114,
-    "win_rate": 45.5,
-    "total_r": 34.15,
-    "avg_r": 0.163,
-    "total_pct": 102.91
+    "win_rate": 45.7,
+    "total_r": 35.01,
+    "avg_r": 0.167,
+    "total_pct": 106.15
    }
   },
   "coins": {
@@ -4136,6 +4091,15 @@
     "avg_r": 2.25,
     "total_pct": 5.04
    },
+   "SKY": {
+    "trades": 1,
+    "wins": 1,
+    "losses": 0,
+    "win_rate": 100.0,
+    "total_r": 0.86,
+    "avg_r": 0.861,
+    "total_pct": 3.24
+   },
    "SLX": {
     "trades": 3,
     "wins": 2,
@@ -4443,7 +4407,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 6
+  "open": 5
  },
  "backtest": {
   "from": "2026-07-24",
@@ -8379,6 +8343,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "926319be8f83b2603a605c0914f4a71f493f1bd7ea42f49cde36c9c2532519cd",
- "generated": "2026-11-23T12:15:32+00:00"
+ "digest": "576b6c0e8ed5c69da8de9e698084e48f3fd001ef8917b5258ad63b8d65789ae5",
+ "generated": "2026-11-23T12:20:27+00:00"
 }
