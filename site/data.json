@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 25.664,
-   "last_ts": "2026-11-23T13:20:25+00:00",
-   "move_pct": 2.8,
+   "last": 25.592,
+   "last_ts": "2026-11-23T13:25:27+00:00",
+   "move_pct": 2.51,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -75,9 +75,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2694,
-   "last_ts": "2026-11-23T13:20:25+00:00",
-   "move_pct": -1.24,
+   "last": 0.2691,
+   "last_ts": "2026-11-23T13:25:27+00:00",
+   "move_pct": -1.13,
    "closed": false,
    "rsi": 44.7,
    "trade_on": "Perps 1x",
@@ -119,9 +119,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.42260049231411495,
-   "last_ts": "2026-11-23T13:20:25+00:00",
-   "move_pct": 0.48,
+   "last": 0.42238594620968395,
+   "last_ts": "2026-11-23T13:25:27+00:00",
+   "move_pct": 0.42,
    "closed": false,
    "rsi": 71.0,
    "trade_on": "On-chain spot (Base DEX)",
@@ -159,9 +159,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.003,
-   "last_ts": "2026-11-23T13:20:25+00:00",
-   "move_pct": 1.26,
+   "last": 1.009,
+   "last_ts": "2026-11-23T13:25:27+00:00",
+   "move_pct": 1.87,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -204,9 +204,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04905,
-   "last_ts": "2026-11-23T13:20:25+00:00",
-   "move_pct": -0.99,
+   "last": 0.049,
+   "last_ts": "2026-11-23T13:25:27+00:00",
+   "move_pct": -1.09,
    "closed": false,
    "rsi": 64.9,
    "trade_on": "Perps 1x",
@@ -244,9 +244,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.024029,
-   "last_ts": "2026-11-23T13:20:25+00:00",
-   "move_pct": -3.86,
+   "last": 0.023883,
+   "last_ts": "2026-11-23T13:25:27+00:00",
+   "move_pct": -4.44,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -8127,6 +8127,23 @@
     ]
    },
    {
+    "id": "storage",
+    "name": "Storage",
+    "chg7d": -5.91,
+    "top": [
+     "FIL",
+     "BTT",
+     "AR",
+     "AIOZ",
+     "ICNT"
+    ],
+    "tracked": [
+     "FIL",
+     "AR",
+     "WAL"
+    ]
+   },
+   {
     "id": "lending-borrowing",
     "name": "Lending Borrowing",
     "chg7d": -6.2,
@@ -8145,23 +8162,6 @@
      "MORPHO",
      "COMP",
      "KMNO"
-    ]
-   },
-   {
-    "id": "storage",
-    "name": "Storage",
-    "chg7d": -7.03,
-    "top": [
-     "FIL",
-     "BTT",
-     "AR",
-     "AIOZ",
-     "ICNT"
-    ],
-    "tracked": [
-     "FIL",
-     "AR",
-     "WAL"
     ]
    }
   ],
@@ -8334,8 +8334,8 @@
   "updated": {
    "unlocks": 1795421729,
    "onchain": 1795439121,
-   "sectors": 1795439424,
-   "listings": 1795436721,
+   "sectors": 1795440327,
+   "listings": 1795440326,
    "fundamentals": 1795421730
   }
  },
@@ -8373,6 +8373,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "f782cd7fa192a9916fa9f061e16f1ef66cc2bc74ef9c94bf58307f8b2017887b",
- "generated": "2026-11-23T13:20:30+00:00"
+ "digest": "2be644df05ae53d48f76982ae132e0ae8ce201759ec8c26ba96096da6f3766c6",
+ "generated": "2026-11-23T13:25:32+00:00"
 }
