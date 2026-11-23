@@ -1,5 +1,5 @@
 {
- "checked": 82,
+ "checked": 83,
  "errors": [],
  "rejected": [
   {
@@ -117,28 +117,14 @@
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "FLOAT"
+   "symbol": "PIPPIN"
   },
   {
    "chain": "Solana",
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "PIPPIN"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "liquidity under $250k"
-   ],
-   "symbol": "RINGS"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "liquidity under $250k"
-   ],
-   "symbol": "BLOB"
+   "symbol": "FLOAT"
   },
   {
    "chain": "Solana",
@@ -146,6 +132,23 @@
     "liquidity under $250k"
    ],
    "symbol": "SHIIT"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "liquidity under $250k",
+    "pool younger than 7 days",
+    "24h volume under $250k"
+   ],
+   "symbol": "JINGYU"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "liquidity under $250k",
+    "pool younger than 7 days"
+   ],
+   "symbol": "SIDOOR"
   },
   {
    "chain": "Base",
@@ -194,7 +197,7 @@
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "XDP"
+   "symbol": "GOOGLC"
   },
   {
    "chain": "Base",
@@ -208,7 +211,7 @@
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "GOOGLC"
+   "symbol": "XDP"
   },
   {
    "chain": "Base",
@@ -280,38 +283,38 @@
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "DGAI"
+   "symbol": "IDOL"
   },
   {
    "chain": "BSC",
    "fails": [
-    "no DEX candles"
+    "liquidity under $250k"
    ],
-   "symbol": "IDOL"
+   "symbol": "EVAA"
   }
  ],
  "rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
- "updated": 1795392323,
+ "updated": 1795395925,
  "watchlist": [
   {
    "age_d": 27.9,
-   "atr": 0.004130350037749777,
-   "bar_ts": 1795388400000,
+   "atr": 0.004187195411662985,
+   "bar_ts": 1795392000000,
    "chain": "Arbitrum",
-   "chg24h": 0.214,
-   "chg7d": 0.1,
-   "close": 1.00164461587683,
-   "ema20": 1.000062484627158,
-   "ema50": 1.0000843810380378,
+   "chg24h": 0.014,
+   "chg7d": -0.4,
+   "close": 0.9990948781309489,
+   "ema20": 0.9999703316272984,
+   "ema50": 1.0000455539640392,
    "fails": [],
    "gecko_id": "global-dollar",
-   "liq": 539016,
-   "mcap": 2604481465.46759,
+   "liq": 533272,
+   "mcap": 2601022455.9909,
    "name": "Global Dollar",
    "net": "arbitrum",
    "pool": "0x81659867a8ce20bb57be82fd9184f2ff1f887605",
-   "price": 1.00164461587683,
-   "rsi": 53.6,
+   "price": 1.00135867304172,
+   "rsi": 48.0,
    "safety": "unknown",
    "safety_notes": [
     "safety not checked"
@@ -321,27 +324,27 @@
    "trend_up": false,
    "trigger": false,
    "url": "https://www.geckoterminal.com/arbitrum/pools/0x81659867a8ce20bb57be82fd9184f2ff1f887605",
-   "vol24h": 7707488
+   "vol24h": 7800999
   },
   {
-   "age_d": 396.4,
-   "atr": 20.78392719334463,
-   "bar_ts": 1795388400000,
+   "age_d": 396.5,
+   "atr": 21.536320609342916,
+   "bar_ts": 1795392000000,
    "chain": "Ethereum",
-   "chg24h": -0.051,
-   "chg7d": -8.6,
-   "close": 3553.5944827547996,
-   "ema20": 3544.1212595790607,
-   "ema50": 3551.6126591103985,
+   "chg24h": 0.861,
+   "chg7d": -7.8,
+   "close": 3576.27069022615,
+   "ema20": 3547.183110086319,
+   "ema50": 3552.578312705255,
    "fails": [],
    "gecko_id": "pax-gold",
-   "liq": 5501313,
-   "mcap": 1592807130.90212,
+   "liq": 5513032,
+   "mcap": 1597911677.36494,
    "name": "Paxos Gold",
    "net": "eth",
    "pool": "0xc756bba710d45647715079ce50aa16aab36ded42",
-   "price": 3560.64522443356,
-   "rsi": 55.0,
+   "price": 3572.05619732106,
+   "rsi": 63.6,
    "safety": "ok",
    "safety_notes": [],
    "symbol": "PAXG",
@@ -349,7 +352,7 @@
    "trend_up": false,
    "trigger": false,
    "url": "https://www.geckoterminal.com/eth/pools/0xc756bba710d45647715079ce50aa16aab36ded42",
-   "vol24h": 5289434
+   "vol24h": 5322161
   }
  ]
 }
