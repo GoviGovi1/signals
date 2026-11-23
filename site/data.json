@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 25.626,
-   "last_ts": "2026-11-23T13:35:22+00:00",
-   "move_pct": 2.65,
+   "last": 25.66,
+   "last_ts": "2026-11-23T13:40:25+00:00",
+   "move_pct": 2.78,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -75,9 +75,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2691,
-   "last_ts": "2026-11-23T13:35:22+00:00",
-   "move_pct": -1.13,
+   "last": 0.2694,
+   "last_ts": "2026-11-23T13:40:25+00:00",
+   "move_pct": -1.24,
    "closed": false,
    "rsi": 44.7,
    "trade_on": "Perps 1x",
@@ -119,9 +119,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.421427925059669,
-   "last_ts": "2026-11-23T13:35:22+00:00",
-   "move_pct": 0.2,
+   "last": 0.4212860982085829,
+   "last_ts": "2026-11-23T13:40:25+00:00",
+   "move_pct": 0.16,
    "closed": false,
    "rsi": 71.0,
    "trade_on": "On-chain spot (Base DEX)",
@@ -159,60 +159,15 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.0003,
-   "last_ts": "2026-11-23T13:35:22+00:00",
-   "move_pct": 0.99,
+   "last": 1.0047,
+   "last_ts": "2026-11-23T13:40:25+00:00",
+   "move_pct": 1.43,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
    "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
    "chart": "charts/DGAI-PERP-HOT-20780.png",
    "setup": "HOT24"
-  },
-  {
-   "id": "ZBT-PERP-1795417200",
-   "kind": "TA",
-   "score": 2,
-   "reasons": [
-    "Chart: Broke out of a 2-day range at 0.04947 (range 0.04725\u20130.04947) on 1.1x volume",
-    "Timeframes: 1d down, 4h down, 4h structure higher highs/lows",
-    "Next resistance 0.051194 (2.8R away, 4h swing/swing/volume node)",
-    "Stop 0.04894 (structure); targets at the next 2 level(s)",
-    "BTC 4h trend down",
-    "Stronger than BTC by 5.2% over 7d",
-    "OI +8% 24h with breakout",
-    "Sector: Zero Knowledge ZK -4.2% 7d (leading, #3 of 20)",
-    "Track record: +4.1R on ZBT in the last 45 days (backtest)"
-   ],
-   "coin": "ZBT",
-   "market": "PERP",
-   "side": "LONG",
-   "entry": 0.04954,
-   "sl0": 0.048939519138930555,
-   "sl": 0.048939519138930555,
-   "tps": [
-    0.051131723190098115,
-    0.05251761170361162,
-    0.053118092564681064
-   ],
-   "lev": 1,
-   "funding_pct": 0.005,
-   "status": "open",
-   "hits": 0,
-   "opened": "2026-11-23T08:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.04896,
-   "last_ts": "2026-11-23T13:35:22+00:00",
-   "move_pct": -1.17,
-   "closed": false,
-   "rsi": 64.9,
-   "trade_on": "Perps 1x",
-   "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
-   "chart": "charts/ZBT-PERP-1795417200.png",
-   "setup": "RANGE_BREAK"
   },
   {
    "id": "MUBARAK-PERP-HOT-20780",
@@ -244,9 +199,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.024146,
-   "last_ts": "2026-11-23T13:35:22+00:00",
-   "move_pct": -3.39,
+   "last": 0.024471,
+   "last_ts": "2026-11-23T13:40:25+00:00",
+   "move_pct": -2.09,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -256,6 +211,51 @@
   }
  ],
  "closed": [
+  {
+   "id": "ZBT-PERP-1795417200",
+   "kind": "TA",
+   "score": 2,
+   "reasons": [
+    "Chart: Broke out of a 2-day range at 0.04947 (range 0.04725\u20130.04947) on 1.1x volume",
+    "Timeframes: 1d down, 4h down, 4h structure higher highs/lows",
+    "Next resistance 0.051194 (2.8R away, 4h swing/swing/volume node)",
+    "Stop 0.04894 (structure); targets at the next 2 level(s)",
+    "BTC 4h trend down",
+    "Stronger than BTC by 5.2% over 7d",
+    "OI +8% 24h with breakout",
+    "Sector: Zero Knowledge ZK -4.2% 7d (leading, #3 of 20)",
+    "Track record: +4.1R on ZBT in the last 45 days (backtest)"
+   ],
+   "coin": "ZBT",
+   "market": "PERP",
+   "side": "LONG",
+   "entry": 0.04954,
+   "sl0": 0.048939519138930555,
+   "sl": 0.048939519138930555,
+   "tps": [
+    0.051131723190098115,
+    0.05251761170361162,
+    0.053118092564681064
+   ],
+   "lev": 1,
+   "funding_pct": 0.005,
+   "status": "stopped",
+   "hits": 0,
+   "opened": "2026-11-23T08:00:00+00:00",
+   "closed_at": "2026-11-23T13:40:25+00:00",
+   "exit_price": 0.048939519138930555,
+   "result_r": -1.0,
+   "result_pct": -1.21,
+   "last": 0.04891,
+   "last_ts": "2026-11-23T13:40:25+00:00",
+   "move_pct": -1.17,
+   "closed": true,
+   "rsi": 64.9,
+   "trade_on": "Perps 1x",
+   "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
+   "chart": "charts/ZBT-PERP-1795417200.png",
+   "setup": "RANGE_BREAK"
+  },
   {
    "id": "SKY-PERP-1795356000",
    "kind": "TA",
@@ -1985,7 +1985,7 @@
    "rsi": 37.6,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": "charts/GIGGLE-PERP-1795039200.png",
+   "chart": null,
    "setup": "BREAKOUT20"
   },
   {
@@ -2825,57 +2825,17 @@
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": null,
    "setup": "BREAKOUT20"
-  },
-  {
-   "id": "HUMA-SPOT-HOT-20774",
-   "kind": "HOT",
-   "score": 1885.9,
-   "reasons": [
-    "24h hot mover +49% with volume spike (6.2x the prior 3 days)",
-    "24h volume $2.4M on the OKX spot book, listed 540 days",
-    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
-    "Stop 0.0086874 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
-   ],
-   "coin": "HUMA",
-   "market": "SPOT",
-   "side": "LONG",
-   "entry": 0.009776,
-   "sl0": 0.008687401825877013,
-   "sl": 0.008687401825877013,
-   "tps": [
-    0.010864598174122986,
-    0.011953196348245975,
-    0.013041794522368961
-   ],
-   "lev": null,
-   "funding_pct": null,
-   "status": "stopped",
-   "hits": 0,
-   "opened": "2026-11-17T00:01:32+00:00",
-   "closed_at": "2026-11-17T05:20:28+00:00",
-   "exit_price": 0.008687401825877013,
-   "result_r": -1.0,
-   "result_pct": -11.14,
-   "last": 0.008765,
-   "last_ts": "2026-11-17T05:20:28+00:00",
-   "move_pct": -8.45,
-   "closed": true,
-   "rsi": null,
-   "trade_on": "Spot",
-   "market_reason": "very volatile coin: spot avoids liquidation",
-   "chart": null,
-   "setup": "HOT24"
   }
  ],
  "stats": {
   "all": {
-   "trades": 301,
+   "trades": 302,
    "wins": 148,
-   "losses": 153,
-   "win_rate": 49.2,
-   "total_r": 47.47,
-   "avg_r": 0.158,
-   "total_pct": 207.94
+   "losses": 154,
+   "win_rate": 49.0,
+   "total_r": 46.47,
+   "avg_r": 0.154,
+   "total_pct": 206.73
   },
   "SPOT": {
    "trades": 86,
@@ -2887,13 +2847,13 @@
    "total_pct": 54.23
   },
   "PERP": {
-   "trades": 201,
+   "trades": 202,
    "wins": 105,
-   "losses": 96,
-   "win_rate": 52.2,
-   "total_r": 52.58,
-   "avg_r": 0.262,
-   "total_pct": 133.9
+   "losses": 97,
+   "win_rate": 52.0,
+   "total_r": 51.58,
+   "avg_r": 0.255,
+   "total_pct": 132.69
   },
   "DEX": {
    "trades": 14,
@@ -2924,13 +2884,13 @@
     "total_pct": 19.81
    },
    "TA": {
-    "trades": 210,
+    "trades": 211,
     "wins": 96,
-    "losses": 114,
-    "win_rate": 45.7,
-    "total_r": 35.01,
-    "avg_r": 0.167,
-    "total_pct": 106.15
+    "losses": 115,
+    "win_rate": 45.5,
+    "total_r": 34.01,
+    "avg_r": 0.161,
+    "total_pct": 104.94
    }
   },
   "coins": {
@@ -4402,13 +4362,13 @@
     "total_pct": -1.68
    },
    "ZBT": {
-    "trades": 5,
+    "trades": 6,
     "wins": 1,
-    "losses": 4,
-    "win_rate": 20.0,
-    "total_r": -1.53,
-    "avg_r": -0.307,
-    "total_pct": -5.48
+    "losses": 5,
+    "win_rate": 16.7,
+    "total_r": -2.53,
+    "avg_r": -0.422,
+    "total_pct": -6.69
    },
    "ZEN": {
     "trades": 1,
@@ -4447,7 +4407,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 6
+  "open": 5
  },
  "backtest": {
   "from": "2026-07-24",
@@ -8146,7 +8106,7 @@
    {
     "id": "lending-borrowing",
     "name": "Lending Borrowing",
-    "chg7d": -6.2,
+    "chg7d": -7.47,
     "top": [
      "AAVE",
      "MORPHO",
@@ -8334,7 +8294,7 @@
   "updated": {
    "unlocks": 1795421729,
    "onchain": 1795439121,
-   "sectors": 1795440327,
+   "sectors": 1795441225,
    "listings": 1795440326,
    "fundamentals": 1795421730
   }
@@ -8373,6 +8333,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "9dede144d10eb84253a2a218e920d1d8b4b6a36eaeee303f86c8be69f5957343",
- "generated": "2026-11-23T13:35:27+00:00"
+ "digest": "5501d766b0d50860f1a5c1c79fecd000142c285b6ba167c78e7f6ff6ea0c7638",
+ "generated": "2026-11-23T13:40:32+00:00"
 }
