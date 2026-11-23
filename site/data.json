@@ -30,59 +30,15 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 26.404,
-   "last_ts": "2026-11-23T14:15:43+00:00",
-   "move_pct": 5.76,
+   "last": 26.545,
+   "last_ts": "2026-11-23T14:20:22+00:00",
+   "move_pct": 6.33,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
    "market_reason": "the perp book is where the 24h move and volume are; 1x keeps liquidation 3x+ further away than the stop",
    "chart": "charts/VVV-PERP-HOT-20779.png",
    "setup": "HOT24"
-  },
-  {
-   "id": "AERO-DEX-base-0x3f5bf3ed-1795356000",
-   "kind": "ONCHAIN",
-   "score": null,
-   "reasons": [
-    "Trending on Base (GeckoTerminal), $7.7M volume 24h",
-    "Liquidity $2.3M, pool 32 days old",
-    "Safety: GoPlus had no data, be careful",
-    "Chart: 20-hour breakout above EMA50 on the DEX, RSI 71",
-    "Untested: no free history to backtest on-chain signals"
-   ],
-   "chain": "Base",
-   "token": "0x3f5bf3edac59d650d8fdf9657a71f2f904a3a4ee",
-   "url": "https://www.geckoterminal.com/base/pools/0xc85d5cb72d1aad6f152a8decad228ae4a59ac9b3",
-   "coin": "AERO",
-   "market": "DEX",
-   "side": "LONG",
-   "entry": 0.42060117321514395,
-   "sl0": 0.40916643274044245,
-   "sl": 0.42060117321514395,
-   "tps": [
-    0.43203591368984545,
-    0.4434706541645469,
-    0.4549053946392484
-   ],
-   "lev": null,
-   "funding_pct": null,
-   "status": "tp1",
-   "hits": 1,
-   "opened": "2026-11-22T15:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.41615416176723796,
-   "last_ts": "2026-11-23T14:15:43+00:00",
-   "move_pct": -1.06,
-   "closed": false,
-   "rsi": 71.0,
-   "trade_on": "On-chain spot (Base DEX)",
-   "market_reason": "not listed on OKX; buy on a DEX, small size, no leverage",
-   "chart": "charts/AERO-DEX-base-0x3f5bf3ed-1795356000.png",
-   "setup": null
   },
   {
    "id": "DGAI-PERP-HOT-20780",
@@ -114,9 +70,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.02,
-   "last_ts": "2026-11-23T14:15:43+00:00",
-   "move_pct": 2.98,
+   "last": 1.036,
+   "last_ts": "2026-11-23T14:20:22+00:00",
+   "move_pct": 4.59,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -154,9 +110,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.02621,
-   "last_ts": "2026-11-23T14:15:43+00:00",
-   "move_pct": 4.87,
+   "last": 0.025829,
+   "last_ts": "2026-11-23T14:20:22+00:00",
+   "move_pct": 3.34,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -199,9 +155,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.003168,
-   "last_ts": "2026-11-23T14:15:43+00:00",
-   "move_pct": 0.57,
+   "last": 0.003181,
+   "last_ts": "2026-11-23T14:20:22+00:00",
+   "move_pct": 0.98,
    "closed": false,
    "rsi": 65.7,
    "trade_on": "Spot",
@@ -236,7 +192,7 @@
     0.1313935847502838
    ],
    "lev": 1,
-   "funding_pct": 0.005,
+   "funding_pct": 0.0051,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-23T14:00:00+00:00",
@@ -244,9 +200,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1137,
-   "last_ts": "2026-11-23T14:15:43+00:00",
-   "move_pct": 1.25,
+   "last": 0.1148,
+   "last_ts": "2026-11-23T14:20:22+00:00",
+   "move_pct": 2.23,
    "closed": false,
    "rsi": 67.3,
    "trade_on": "Perps 1x",
@@ -289,9 +245,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.249,
-   "last_ts": "2026-11-23T14:15:43+00:00",
-   "move_pct": 0.56,
+   "last": 1.258,
+   "last_ts": "2026-11-23T14:20:22+00:00",
+   "move_pct": 1.29,
    "closed": false,
    "rsi": 71.6,
    "trade_on": "Spot",
@@ -301,6 +257,50 @@
   }
  ],
  "closed": [
+  {
+   "id": "AERO-DEX-base-0x3f5bf3ed-1795356000",
+   "kind": "ONCHAIN",
+   "score": null,
+   "reasons": [
+    "Trending on Base (GeckoTerminal), $7.7M volume 24h",
+    "Liquidity $2.3M, pool 32 days old",
+    "Safety: GoPlus had no data, be careful",
+    "Chart: 20-hour breakout above EMA50 on the DEX, RSI 71",
+    "Untested: no free history to backtest on-chain signals"
+   ],
+   "chain": "Base",
+   "token": "0x3f5bf3edac59d650d8fdf9657a71f2f904a3a4ee",
+   "url": "https://www.geckoterminal.com/base/pools/0xc85d5cb72d1aad6f152a8decad228ae4a59ac9b3",
+   "coin": "AERO",
+   "market": "DEX",
+   "side": "LONG",
+   "entry": 0.42060117321514395,
+   "sl0": 0.40916643274044245,
+   "sl": 0.42060117321514395,
+   "tps": [
+    0.43203591368984545,
+    0.4434706541645469,
+    0.4549053946392484
+   ],
+   "lev": null,
+   "funding_pct": null,
+   "status": "stopped_be",
+   "hits": 1,
+   "opened": "2026-11-22T15:00:00+00:00",
+   "closed_at": "2026-11-23T14:20:22+00:00",
+   "exit_price": 0.42060117321514395,
+   "result_r": 0.333,
+   "result_pct": 0.91,
+   "last": 0.43758122628015195,
+   "last_ts": "2026-11-23T14:20:22+00:00",
+   "move_pct": -1.06,
+   "closed": true,
+   "rsi": 71.0,
+   "trade_on": "On-chain spot (Base DEX)",
+   "market_reason": "not listed on OKX; buy on a DEX, small size, no leverage",
+   "chart": "charts/AERO-DEX-base-0x3f5bf3ed-1795356000.png",
+   "setup": null
+  },
   {
    "id": "MASK-PERP-1795323600",
    "kind": "TA",
@@ -2032,7 +2032,7 @@
    "rsi": 70.6,
    "trade_on": "Spot",
    "market_reason": "thin perp market: spot is safer",
-   "chart": "charts/SENT-SPOT-1794988800.png",
+   "chart": null,
    "setup": "RETEST"
   },
   {
@@ -2870,63 +2870,17 @@
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": null,
    "setup": "BOS"
-  },
-  {
-   "id": "UNI-SPOT-1794891600",
-   "kind": "TA",
-   "score": 1,
-   "reasons": [
-    "Chart: Retest of the 5.2530 breakout level held (2h after the break)",
-    "News (neutral, CryptoSlate, 3h ago): Uniswap freezes $300,000 in stranded fees, halting automatic token burns https://cryptoslate.com/uniswap-freezes-300000-in-stranded-fees-halting-automatic-token-burns/",
-    "Timeframes: 1d down, 4h down, 4h structure mixed",
-    "Next resistance 5.4925 (2.7R away, swing)",
-    "Stop 5.2085 (below the breakout level); targets at the next 2 level(s)",
-    "BTC 4h trend down",
-    "Weaker than BTC by 11.2% over 7d",
-    "OI +2% 24h",
-    "Sector: Decentralized Exchange -10.3% 7d (leading, #3 of 20)",
-    "Track record: +4.3R on UNI in the last 45 days (backtest)"
-   ],
-   "coin": "UNI",
-   "market": "SPOT",
-   "side": "LONG",
-   "entry": 5.29,
-   "sl0": 5.212416244661089,
-   "sl": 5.212416244661089,
-   "tps": [
-    5.485516565894746,
-    5.63287799230413,
-    5.710461747643041
-   ],
-   "lev": null,
-   "funding_pct": null,
-   "status": "stopped",
-   "hits": 0,
-   "opened": "2026-11-17T06:00:00+00:00",
-   "closed_at": "2026-11-17T10:45:27+00:00",
-   "exit_price": 5.212416244661089,
-   "result_r": -1.0,
-   "result_pct": -1.47,
-   "last": 5.212,
-   "last_ts": "2026-11-17T10:45:27+00:00",
-   "move_pct": -1.12,
-   "closed": true,
-   "rsi": 64.0,
-   "trade_on": "Spot",
-   "market_reason": "trend not strong enough for leverage: spot has no liquidation or funding",
-   "chart": null,
-   "setup": "RETEST"
   }
  ],
  "stats": {
   "all": {
-   "trades": 303,
-   "wins": 148,
+   "trades": 304,
+   "wins": 149,
    "losses": 155,
-   "win_rate": 48.8,
-   "total_r": 45.47,
-   "avg_r": 0.15,
-   "total_pct": 203.91
+   "win_rate": 49.0,
+   "total_r": 45.8,
+   "avg_r": 0.151,
+   "total_pct": 204.82
   },
   "SPOT": {
    "trades": 86,
@@ -2947,13 +2901,13 @@
    "total_pct": 129.87
   },
   "DEX": {
-   "trades": 14,
-   "wins": 8,
+   "trades": 15,
+   "wins": 9,
    "losses": 6,
-   "win_rate": 57.1,
-   "total_r": 0.09,
-   "avg_r": 0.007,
-   "total_pct": 19.81
+   "win_rate": 60.0,
+   "total_r": 0.43,
+   "avg_r": 0.028,
+   "total_pct": 20.72
   },
   "kinds": {
    "HOT": {
@@ -2966,13 +2920,13 @@
     "total_pct": 81.98
    },
    "ONCHAIN": {
-    "trades": 14,
-    "wins": 8,
+    "trades": 15,
+    "wins": 9,
     "losses": 6,
-    "win_rate": 57.1,
-    "total_r": 0.09,
-    "avg_r": 0.007,
-    "total_pct": 19.81
+    "win_rate": 60.0,
+    "total_r": 0.43,
+    "avg_r": 0.028,
+    "total_pct": 20.72
    },
    "TA": {
     "trades": 212,
@@ -3047,6 +3001,15 @@
     "total_r": -2.0,
     "avg_r": -1.0,
     "total_pct": -2.79
+   },
+   "AERO": {
+    "trades": 1,
+    "wins": 1,
+    "losses": 0,
+    "win_rate": 100.0,
+    "total_r": 0.33,
+    "avg_r": 0.333,
+    "total_pct": 0.91
    },
    "AGLD": {
     "trades": 2,
@@ -4498,7 +4461,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 7
+  "open": 6
  },
  "backtest": {
   "from": "2026-07-24",
@@ -8392,6 +8355,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "7bb8536eb1d9d771f08301c7a396d534d636faafa9c3c18c6d9038aae8da1f5e",
- "generated": "2026-11-23T14:15:48+00:00"
+ "digest": "e568b65a1b8eb4cea9cf43637f686cbfd5d513a1a31e47ec59070482a08ec87f",
+ "generated": "2026-11-23T14:20:28+00:00"
 }
