@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 25.679,
-   "last_ts": "2026-11-23T15:50:23+00:00",
-   "move_pct": 2.86,
+   "last": 25.29,
+   "last_ts": "2026-11-23T15:55:20+00:00",
+   "move_pct": 1.3,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -62,7 +62,7 @@
     1.2340486711629053
    ],
    "lev": 1,
-   "funding_pct": 0.0098,
+   "funding_pct": 0.0088,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-23T00:00:30+00:00",
@@ -70,9 +70,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.018,
-   "last_ts": "2026-11-23T15:50:23+00:00",
-   "move_pct": 2.78,
+   "last": 1.0189,
+   "last_ts": "2026-11-23T15:55:20+00:00",
+   "move_pct": 2.87,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -110,9 +110,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.026069,
-   "last_ts": "2026-11-23T15:50:23+00:00",
-   "move_pct": 4.31,
+   "last": 0.02595,
+   "last_ts": "2026-11-23T15:55:20+00:00",
+   "move_pct": 3.83,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -156,7 +156,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.00316,
-   "last_ts": "2026-11-23T15:50:23+00:00",
+   "last_ts": "2026-11-23T15:55:20+00:00",
    "move_pct": 0.32,
    "closed": false,
    "rsi": 65.7,
@@ -200,9 +200,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1113,
-   "last_ts": "2026-11-23T15:50:23+00:00",
-   "move_pct": -0.89,
+   "last": 0.1115,
+   "last_ts": "2026-11-23T15:55:20+00:00",
+   "move_pct": -0.71,
    "closed": false,
    "rsi": 67.3,
    "trade_on": "Perps 1x",
@@ -246,7 +246,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 1.221,
-   "last_ts": "2026-11-23T15:50:23+00:00",
+   "last_ts": "2026-11-23T15:55:20+00:00",
    "move_pct": -1.69,
    "closed": false,
    "rsi": 71.6,
@@ -291,9 +291,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.005271,
-   "last_ts": "2026-11-23T15:50:23+00:00",
-   "move_pct": -1.35,
+   "last": 0.005265,
+   "last_ts": "2026-11-23T15:55:20+00:00",
+   "move_pct": -1.46,
    "closed": false,
    "rsi": 72.0,
    "trade_on": "Spot",
@@ -338,7 +338,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.004086,
-   "last_ts": "2026-11-23T15:50:23+00:00",
+   "last_ts": "2026-11-23T15:55:20+00:00",
    "move_pct": -1.07,
    "closed": false,
    "rsi": 70.0,
@@ -381,9 +381,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1752,
-   "last_ts": "2026-11-23T15:50:23+00:00",
-   "move_pct": -1.13,
+   "last": 0.1747,
+   "last_ts": "2026-11-23T15:55:20+00:00",
+   "move_pct": -1.41,
    "closed": false,
    "rsi": 69.1,
    "trade_on": "Perps 1x",
@@ -426,7 +426,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 3670.1621171274496,
-   "last_ts": "2026-11-23T15:50:23+00:00",
+   "last_ts": "2026-11-23T15:55:20+00:00",
    "move_pct": 0.12,
    "closed": false,
    "rsi": 66.8,
@@ -7977,6 +7977,28 @@
     ]
    },
    {
+    "id": "decentralized-finance-defi",
+    "name": "Decentralized Finance DeFi",
+    "chg7d": 0.13,
+    "top": [
+     "STETH",
+     "HYPE",
+     "WSTETH",
+     "LINK",
+     "DAI"
+    ],
+    "tracked": [
+     "LINK",
+     "HYPE",
+     "UNI",
+     "PUMP",
+     "LIT",
+     "ENA",
+     "AAVE",
+     "INJ"
+    ]
+   },
+   {
     "id": "real-world-assets-rwa",
     "name": "Real World Assets RWA",
     "chg7d": -0.15,
@@ -8181,28 +8203,6 @@
      "BTC",
      "ORDI",
      "SATS"
-    ]
-   },
-   {
-    "id": "decentralized-finance-defi",
-    "name": "Decentralized Finance DeFi",
-    "chg7d": -4.05,
-    "top": [
-     "STETH",
-     "HYPE",
-     "WSTETH",
-     "LINK",
-     "DAI"
-    ],
-    "tracked": [
-     "LINK",
-     "HYPE",
-     "UNI",
-     "PUMP",
-     "LIT",
-     "ENA",
-     "AAVE",
-     "INJ"
     ]
    },
    {
@@ -8535,7 +8535,7 @@
   "updated": {
    "unlocks": 1795443329,
    "onchain": 1795446330,
-   "sectors": 1795448424,
+   "sectors": 1795449320,
    "listings": 1795447826,
    "fundamentals": 1795443331
   }
@@ -8574,6 +8574,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "7337cab242ccc4e58dd6473f3eb6392f5c268db4462c1199e708a7c15612be9b",
- "generated": "2026-11-23T15:50:29+00:00"
+ "digest": "40e99166f702386b381b383c4a5aebdad7718dcb1dd7891d9fb2af5ae763d9a3",
+ "generated": "2026-11-23T15:55:26+00:00"
 }
