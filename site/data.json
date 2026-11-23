@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 25.728,
-   "last_ts": "2026-11-23T12:35:17+00:00",
-   "move_pct": 3.06,
+   "last": 25.674,
+   "last_ts": "2026-11-23T12:40:23+00:00",
+   "move_pct": 2.84,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -75,9 +75,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2702,
-   "last_ts": "2026-11-23T12:35:17+00:00",
-   "move_pct": -1.54,
+   "last": 0.2703,
+   "last_ts": "2026-11-23T12:40:23+00:00",
+   "move_pct": -1.58,
    "closed": false,
    "rsi": 44.7,
    "trade_on": "Perps 1x",
@@ -119,9 +119,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.422837424010665,
-   "last_ts": "2026-11-23T12:35:17+00:00",
-   "move_pct": 0.53,
+   "last": 0.422092671122151,
+   "last_ts": "2026-11-23T12:40:23+00:00",
+   "move_pct": 0.35,
    "closed": false,
    "rsi": 71.0,
    "trade_on": "On-chain spot (Base DEX)",
@@ -151,7 +151,7 @@
     1.2340486711629053
    ],
    "lev": 1,
-   "funding_pct": 0.0052,
+   "funding_pct": 0.005,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-23T00:00:30+00:00",
@@ -159,9 +159,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.001,
-   "last_ts": "2026-11-23T12:35:17+00:00",
-   "move_pct": 1.06,
+   "last": 1.0,
+   "last_ts": "2026-11-23T12:40:23+00:00",
+   "move_pct": 0.96,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -204,9 +204,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04911,
-   "last_ts": "2026-11-23T12:35:17+00:00",
-   "move_pct": -0.87,
+   "last": 0.04916,
+   "last_ts": "2026-11-23T12:40:23+00:00",
+   "move_pct": -0.77,
    "closed": false,
    "rsi": 64.9,
    "trade_on": "Perps 1x",
@@ -7744,6 +7744,28 @@
     ]
    },
    {
+    "id": "zero-knowledge-zk",
+    "name": "Zero Knowledge ZK",
+    "chg7d": -2.41,
+    "top": [
+     "ZEC",
+     "POL",
+     "NIGHT",
+     "STRK",
+     "OZO"
+    ],
+    "tracked": [
+     "ZEC",
+     "STRK",
+     "NIGHT",
+     "H",
+     "POL",
+     "BREV",
+     "MAGIC",
+     "ZK"
+    ]
+   },
+   {
     "id": "depin",
     "name": "DePIN",
     "chg7d": -2.47,
@@ -7910,28 +7932,6 @@
      "STX",
      "SOON",
      "POL"
-    ]
-   },
-   {
-    "id": "zero-knowledge-zk",
-    "name": "Zero Knowledge ZK",
-    "chg7d": -4.18,
-    "top": [
-     "ZEC",
-     "NIGHT",
-     "POL",
-     "STRK",
-     "OZO"
-    ],
-    "tracked": [
-     "ZEC",
-     "STRK",
-     "NIGHT",
-     "H",
-     "POL",
-     "BREV",
-     "MAGIC",
-     "ZK"
     ]
    },
    {
@@ -8304,7 +8304,7 @@
   "updated": {
    "unlocks": 1795421729,
    "onchain": 1795435526,
-   "sectors": 1795436722,
+   "sectors": 1795437623,
    "listings": 1795436721,
    "fundamentals": 1795421730
   }
@@ -8343,6 +8343,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "68a2c6e8afffe1b8c533c6c1c8ca7558f07d7e8e1f90815489a6bb12d7dafcfa",
- "generated": "2026-11-23T12:35:22+00:00"
+ "digest": "9622d9da128f0584f0fa4b713b98f6c36ba60e8a43e079842d605179cdec841f",
+ "generated": "2026-11-23T12:40:29+00:00"
 }
