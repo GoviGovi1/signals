@@ -22,7 +22,7 @@
     1.2340486711629053
    ],
    "lev": 1,
-   "funding_pct": 0.0172,
+   "funding_pct": 0.0179,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-23T00:00:30+00:00",
@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.067,
-   "last_ts": "2026-11-23T19:25:19+00:00",
-   "move_pct": 7.72,
+   "last": 1.0675,
+   "last_ts": "2026-11-23T19:30:27+00:00",
+   "move_pct": 7.77,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -62,7 +62,7 @@
     0.02918017389916424
    ],
    "lev": 1,
-   "funding_pct": -0.0222,
+   "funding_pct": -0.0223,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-23T13:00:31+00:00",
@@ -70,9 +70,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.025581,
-   "last_ts": "2026-11-23T19:25:19+00:00",
-   "move_pct": 2.35,
+   "last": 0.025691,
+   "last_ts": "2026-11-23T19:30:27+00:00",
+   "move_pct": 2.79,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -115,9 +115,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.003144,
-   "last_ts": "2026-11-23T19:25:19+00:00",
-   "move_pct": -0.19,
+   "last": 0.003136,
+   "last_ts": "2026-11-23T19:30:27+00:00",
+   "move_pct": -0.44,
    "closed": false,
    "rsi": 65.7,
    "trade_on": "Spot",
@@ -159,9 +159,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 3633.34182086663,
-   "last_ts": "2026-11-23T19:25:19+00:00",
-   "move_pct": -0.88,
+   "last": 3644.6947502848197,
+   "last_ts": "2026-11-23T19:30:27+00:00",
+   "move_pct": -0.57,
    "closed": false,
    "rsi": 66.8,
    "trade_on": "On-chain spot (Ethereum DEX)",
@@ -7988,23 +7988,6 @@
     ]
    },
    {
-    "id": "bitcoin-ecosystem",
-    "name": "Bitcoin Ecosystem",
-    "chg7d": -3.84,
-    "top": [
-     "BTC",
-     "DOG",
-     "ORDI",
-     "USTBL",
-     "LOBO"
-    ],
-    "tracked": [
-     "BTC",
-     "ORDI",
-     "SATS"
-    ]
-   },
-   {
     "id": "solana-meme-coins",
     "name": "Solana Meme Coins",
     "chg7d": -3.96,
@@ -8077,6 +8060,23 @@
      "FIL",
      "AR",
      "WAL"
+    ]
+   },
+   {
+    "id": "bitcoin-ecosystem",
+    "name": "Bitcoin Ecosystem",
+    "chg7d": -5.97,
+    "top": [
+     "BTC",
+     "DOG",
+     "ORDI",
+     "USTBL",
+     "LOBO"
+    ],
+    "tracked": [
+     "BTC",
+     "ORDI",
+     "SATS"
     ]
    }
   ],
@@ -8249,7 +8249,7 @@
   "updated": {
    "unlocks": 1795443329,
    "onchain": 1795460721,
-   "sectors": 1795461323,
+   "sectors": 1795462226,
    "listings": 1795459228,
    "fundamentals": 1795443331
   }
@@ -8288,6 +8288,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "875f99c5a371f8b2bd8e63bf532cdbee4b10d5d94484ceccc232a039f1739732",
- "generated": "2026-11-23T19:25:25+00:00"
+ "digest": "d5d7dd2b4e5750527fe10b201656e928297e6361b7b4a27412a18a3c2ddad3b0",
+ "generated": "2026-11-23T19:30:32+00:00"
 }
