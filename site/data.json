@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 26.571,
-   "last_ts": "2026-11-23T00:06:24+00:00",
-   "move_pct": 6.43,
+   "last": 26.582,
+   "last_ts": "2026-11-23T00:10:24+00:00",
+   "move_pct": 6.48,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -75,9 +75,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0009315,
-   "last_ts": "2026-11-23T00:06:24+00:00",
-   "move_pct": 4.55,
+   "last": 0.00093,
+   "last_ts": "2026-11-23T00:10:24+00:00",
+   "move_pct": 4.7,
    "closed": false,
    "rsi": 35.5,
    "trade_on": "Perps 1x",
@@ -112,7 +112,7 @@
     0.2352334608266743
    ],
    "lev": 1,
-   "funding_pct": 0.008,
+   "funding_pct": 0.0074,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-22T06:00:00+00:00",
@@ -120,9 +120,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2702,
-   "last_ts": "2026-11-23T00:06:24+00:00",
-   "move_pct": -1.54,
+   "last": 0.2699,
+   "last_ts": "2026-11-23T00:10:24+00:00",
+   "move_pct": -1.43,
    "closed": false,
    "rsi": 44.7,
    "trade_on": "Perps 1x",
@@ -158,7 +158,7 @@
     0.03357919901894488
    ],
    "lev": 1,
-   "funding_pct": -0.0167,
+   "funding_pct": -0.0169,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-22T15:00:00+00:00",
@@ -166,9 +166,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0415,
-   "last_ts": "2026-11-23T00:06:24+00:00",
-   "move_pct": 1.73,
+   "last": 0.04143,
+   "last_ts": "2026-11-23T00:10:24+00:00",
+   "move_pct": 1.89,
    "closed": false,
    "rsi": 31.7,
    "trade_on": "Perps 1x",
@@ -210,9 +210,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.426382482754561,
-   "last_ts": "2026-11-23T00:06:24+00:00",
-   "move_pct": 1.37,
+   "last": 0.42593197964264595,
+   "last_ts": "2026-11-23T00:10:24+00:00",
+   "move_pct": 1.27,
    "closed": false,
    "rsi": 71.0,
    "trade_on": "On-chain spot (Base DEX)",
@@ -242,7 +242,7 @@
     1.2340486711629053
    ],
    "lev": 1,
-   "funding_pct": 0.0194,
+   "funding_pct": 0.0197,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-23T00:00:30+00:00",
@@ -250,9 +250,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.9902,
-   "last_ts": "2026-11-23T00:06:24+00:00",
-   "move_pct": -0.03,
+   "last": 0.9933,
+   "last_ts": "2026-11-23T00:10:24+00:00",
+   "move_pct": 0.28,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -7945,28 +7945,6 @@
     ]
    },
    {
-    "id": "meme-token",
-    "name": "Meme Token",
-    "chg7d": -6.03,
-    "top": [
-     "DOGE",
-     "SHIB",
-     "M",
-     "PEPE",
-     "\u5e01\u5b89\u4eba\u751f"
-    ],
-    "tracked": [
-     "DOGE",
-     "PEPE",
-     "TRUMP",
-     "PENGU",
-     "SHIB",
-     "CASHCAT",
-     "USELESS",
-     "WIF"
-    ]
-   },
-   {
     "id": "decentralized-perpetuals",
     "name": "Decentralized Perpetuals",
     "chg7d": -6.1,
@@ -8073,6 +8051,28 @@
      "GALA",
      "IMX",
      "YGG"
+    ]
+   },
+   {
+    "id": "meme-token",
+    "name": "Meme Token",
+    "chg7d": -7.09,
+    "top": [
+     "DOGE",
+     "SHIB",
+     "M",
+     "PEPE",
+     "\u5e01\u5b89\u4eba\u751f"
+    ],
+    "tracked": [
+     "DOGE",
+     "PEPE",
+     "TRUMP",
+     "PENGU",
+     "SHIB",
+     "CASHCAT",
+     "USELESS",
+     "WIF"
     ]
    },
    {
@@ -8316,7 +8316,7 @@
   "updated": {
    "unlocks": 1795378528,
    "onchain": 1795392323,
-   "sectors": 1795391720,
+   "sectors": 1795392624,
    "listings": 1795390824,
    "fundamentals": 1795378529
   }
@@ -8355,6 +8355,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "b498f7794ac97dae414f90b51287c371097707746690f5d5bb0da14c1dd04a2c",
- "generated": "2026-11-23T00:06:29+00:00"
+ "digest": "3856efb024fde04cdead514cc2bf25299861ff2fa4590d997ae5d2bf58984390",
+ "generated": "2026-11-23T00:10:29+00:00"
 }
