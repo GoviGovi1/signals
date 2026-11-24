@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.094,
-   "last_ts": "2026-11-24T00:55:19+00:00",
-   "move_pct": 10.45,
+   "last": 1.0995,
+   "last_ts": "2026-11-24T01:00:30+00:00",
+   "move_pct": 11.0,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -62,7 +62,7 @@
     0.02918017389916424
    ],
    "lev": 1,
-   "funding_pct": -0.0082,
+   "funding_pct": -0.0102,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-23T13:00:31+00:00",
@@ -70,9 +70,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.026311,
-   "last_ts": "2026-11-24T00:55:19+00:00",
-   "move_pct": 5.27,
+   "last": 0.026236,
+   "last_ts": "2026-11-24T01:00:30+00:00",
+   "move_pct": 4.97,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -115,7 +115,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 3636.06083695144,
-   "last_ts": "2026-11-24T00:55:19+00:00",
+   "last_ts": "2026-11-24T01:00:30+00:00",
    "move_pct": -0.81,
    "closed": false,
    "rsi": 66.8,
@@ -154,9 +154,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0334,
-   "last_ts": "2026-11-24T00:55:19+00:00",
-   "move_pct": 0.97,
+   "last": 0.03341,
+   "last_ts": "2026-11-24T01:00:30+00:00",
+   "move_pct": 1.0,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -7763,6 +7763,28 @@
     ]
    },
    {
+    "id": "layer-2",
+    "name": "Layer 2",
+    "chg7d": -3.68,
+    "top": [
+     "OKB",
+     "MNT",
+     "POL",
+     "ARB",
+     "STX"
+    ],
+    "tracked": [
+     "OKB",
+     "ARB",
+     "STRK",
+     "OP",
+     "MEGA",
+     "STX",
+     "MAGIC",
+     "POL"
+    ]
+   },
+   {
     "id": "zero-knowledge-zk",
     "name": "Zero Knowledge ZK",
     "chg7d": -3.69,
@@ -7782,28 +7804,6 @@
      "MAGIC",
      "POL",
      "MINA"
-    ]
-   },
-   {
-    "id": "layer-2",
-    "name": "Layer 2",
-    "chg7d": -4.08,
-    "top": [
-     "OKB",
-     "MNT",
-     "POL",
-     "ARB",
-     "STX"
-    ],
-    "tracked": [
-     "OKB",
-     "ARB",
-     "STRK",
-     "OP",
-     "MEGA",
-     "STX",
-     "MAGIC",
-     "POL"
     ]
    },
    {
@@ -8278,8 +8278,8 @@
   "updated": {
    "unlocks": 1795465223,
    "onchain": 1795478722,
-   "sectors": 1795481130,
-   "listings": 1795478428,
+   "sectors": 1795482030,
+   "listings": 1795482028,
    "fundamentals": 1795465223
   }
  },
@@ -8317,6 +8317,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "6b1e2deb1622fe05a33328eea1e9b32f9c012e72bc9cbfbbad2b6fd3a0376146",
- "generated": "2026-11-24T00:55:24+00:00"
+ "digest": "8d657abc8a378cb71c4d363d11bc2ab5320427d18e5e8c7c36d310d99dcf32ad",
+ "generated": "2026-11-24T01:01:00+00:00"
 }
