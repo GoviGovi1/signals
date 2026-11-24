@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.0598,
-   "last_ts": "2026-11-24T03:40:25+00:00",
-   "move_pct": 7.0,
+   "last": 1.06,
+   "last_ts": "2026-11-24T03:45:22+00:00",
+   "move_pct": 7.02,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -62,7 +62,7 @@
     0.02918017389916424
    ],
    "lev": 1,
-   "funding_pct": 0.0006,
+   "funding_pct": -0.0044,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-23T13:00:31+00:00",
@@ -70,9 +70,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.025993,
-   "last_ts": "2026-11-24T03:40:25+00:00",
-   "move_pct": 4.0,
+   "last": 0.0259,
+   "last_ts": "2026-11-24T03:45:22+00:00",
+   "move_pct": 3.63,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -115,7 +115,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 3620.5852057182096,
-   "last_ts": "2026-11-24T03:40:25+00:00",
+   "last_ts": "2026-11-24T03:45:22+00:00",
    "move_pct": -1.23,
    "closed": false,
    "rsi": 66.8,
@@ -146,7 +146,7 @@
     0.03846716835256488
    ],
    "lev": 1,
-   "funding_pct": 0.0058,
+   "funding_pct": 0.005,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-24T00:00:35+00:00",
@@ -154,9 +154,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.03285,
-   "last_ts": "2026-11-24T03:40:25+00:00",
-   "move_pct": -0.7,
+   "last": 0.03233,
+   "last_ts": "2026-11-24T03:45:22+00:00",
+   "move_pct": -2.27,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -191,7 +191,7 @@
     0.06650790090405218
    ],
    "lev": 1,
-   "funding_pct": -0.3447,
+   "funding_pct": -0.3409,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-24T03:00:00+00:00",
@@ -199,9 +199,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0789,
-   "last_ts": "2026-11-24T03:40:25+00:00",
-   "move_pct": -0.95,
+   "last": 0.07903,
+   "last_ts": "2026-11-24T03:45:22+00:00",
+   "move_pct": -1.11,
    "closed": false,
    "rsi": 30.7,
    "trade_on": "Perps 1x",
@@ -237,7 +237,7 @@
     0.08935394374766642
    ],
    "lev": 1,
-   "funding_pct": -0.0221,
+   "funding_pct": -0.0239,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-24T03:00:00+00:00",
@@ -245,9 +245,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.107,
-   "last_ts": "2026-11-24T03:40:25+00:00",
-   "move_pct": -0.38,
+   "last": 0.1066,
+   "last_ts": "2026-11-24T03:45:22+00:00",
+   "move_pct": -0.0,
    "closed": false,
    "rsi": 40.9,
    "trade_on": "Perps 1x",
@@ -290,9 +290,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.4127,
-   "last_ts": "2026-11-24T03:40:25+00:00",
-   "move_pct": -0.17,
+   "last": 0.412,
+   "last_ts": "2026-11-24T03:45:22+00:00",
+   "move_pct": -0.0,
    "closed": false,
    "rsi": 41.9,
    "trade_on": "Perps 1x",
@@ -7853,6 +7853,28 @@
     ]
    },
    {
+    "id": "zero-knowledge-zk",
+    "name": "Zero Knowledge ZK",
+    "chg7d": -3.0,
+    "top": [
+     "ZEC",
+     "POL",
+     "NIGHT",
+     "STRK",
+     "OZO"
+    ],
+    "tracked": [
+     "ZEC",
+     "NIGHT",
+     "STRK",
+     "H",
+     "BREV",
+     "MAGIC",
+     "POL",
+     "MINA"
+    ]
+   },
+   {
     "id": "decentralized-finance-defi",
     "name": "Decentralized Finance DeFi",
     "chg7d": -3.05,
@@ -7916,28 +7938,6 @@
      "STX",
      "MAGIC",
      "POL"
-    ]
-   },
-   {
-    "id": "zero-knowledge-zk",
-    "name": "Zero Knowledge ZK",
-    "chg7d": -3.69,
-    "top": [
-     "ZEC",
-     "POL",
-     "NIGHT",
-     "STRK",
-     "OZO"
-    ],
-    "tracked": [
-     "ZEC",
-     "NIGHT",
-     "STRK",
-     "H",
-     "BREV",
-     "MAGIC",
-     "POL",
-     "MINA"
     ]
    },
    {
@@ -8412,7 +8412,7 @@
   "updated": {
    "unlocks": 1795487122,
    "onchain": 1795489521,
-   "sectors": 1795491027,
+   "sectors": 1795491922,
    "listings": 1795489521,
    "fundamentals": 1795487122
   }
@@ -8451,6 +8451,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "03b379fa8fafe9b88abf1cc923e1c4a1bee310bb233e5990d1d4455384360383",
- "generated": "2026-11-24T03:40:31+00:00"
+ "digest": "4e381605ee7860eb3deff00732ec1f5838fdb5fc1b97a68c0c4c28c709a5990d",
+ "generated": "2026-11-24T03:45:28+00:00"
 }
