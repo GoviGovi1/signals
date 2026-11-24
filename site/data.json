@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.0574,
-   "last_ts": "2026-11-24T04:55:21+00:00",
-   "move_pct": 6.75,
+   "last": 1.0525,
+   "last_ts": "2026-11-24T05:00:30+00:00",
+   "move_pct": 6.26,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -75,7 +75,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 3624.4369219424893,
-   "last_ts": "2026-11-24T04:55:21+00:00",
+   "last_ts": "2026-11-24T05:00:30+00:00",
    "move_pct": -1.13,
    "closed": false,
    "rsi": 66.8,
@@ -111,7 +111,7 @@
     0.06650790090405218
    ],
    "lev": 1,
-   "funding_pct": -0.4269,
+   "funding_pct": -0.4357,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-24T03:00:00+00:00",
@@ -119,9 +119,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0782,
-   "last_ts": "2026-11-24T04:55:21+00:00",
-   "move_pct": -0.05,
+   "last": 0.07841,
+   "last_ts": "2026-11-24T05:00:30+00:00",
+   "move_pct": -0.32,
    "closed": false,
    "rsi": 30.7,
    "trade_on": "Perps 1x",
@@ -157,7 +157,7 @@
     0.08935394374766642
    ],
    "lev": 1,
-   "funding_pct": -0.0124,
+   "funding_pct": -0.0125,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-24T03:00:00+00:00",
@@ -165,9 +165,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1084,
-   "last_ts": "2026-11-24T04:55:21+00:00",
-   "move_pct": -1.69,
+   "last": 0.1082,
+   "last_ts": "2026-11-24T05:00:30+00:00",
+   "move_pct": -1.5,
    "closed": false,
    "rsi": 40.9,
    "trade_on": "Perps 1x",
@@ -210,15 +210,55 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.4103,
-   "last_ts": "2026-11-24T04:55:21+00:00",
-   "move_pct": 0.41,
+   "last": 0.4078,
+   "last_ts": "2026-11-24T05:00:30+00:00",
+   "move_pct": 1.02,
    "closed": false,
    "rsi": 41.9,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": "charts/AERO-PERP-1795485600.png",
    "setup": "BREAKOUT20"
+  },
+  {
+   "id": "SAHARA-PERP-HOT-20781",
+   "kind": "HOT",
+   "score": 947.39,
+   "reasons": [
+    "24h hot mover +23% with volume spike (16.2x the prior 3 days)",
+    "24h volume $6.6M on the OKX perp book, listed 516 days",
+    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
+    "Stop 0.0057287 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
+   ],
+   "coin": "SAHARA",
+   "market": "PERP",
+   "side": "LONG",
+   "entry": 0.006131,
+   "sl0": 0.005728655192678705,
+   "sl": 0.005728655192678705,
+   "tps": [
+    0.006533344807321296,
+    0.006935689614642591,
+    0.007338034421963886
+   ],
+   "lev": 1,
+   "funding_pct": -0.3462,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-11-24T05:00:30+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.006148,
+   "last_ts": "2026-11-24T05:00:30+00:00",
+   "move_pct": 0.28,
+   "closed": false,
+   "rsi": null,
+   "trade_on": "Perps 1x",
+   "market_reason": "the perp book is where the 24h move and volume are; very volatile, so 1x",
+   "chart": "charts/SAHARA-PERP-HOT-20781.png",
+   "setup": "HOT24"
   }
  ],
  "closed": [
@@ -4420,7 +4460,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 5
+  "open": 6
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7920,28 +7960,6 @@
     ]
    },
    {
-    "id": "exchange-based-tokens",
-    "name": "Exchange Based Tokens",
-    "chg7d": -4.43,
-    "top": [
-     "BNB",
-     "HYPE",
-     "LEO",
-     "WBT",
-     "UNI"
-    ],
-    "tracked": [
-     "BNB",
-     "HYPE",
-     "UNI",
-     "PUMP",
-     "MMT",
-     "OKB",
-     "ASTER",
-     "CRV"
-    ]
-   },
-   {
     "id": "layer-1",
     "name": "Layer 1",
     "chg7d": -4.44,
@@ -7961,6 +7979,28 @@
      "BNB",
      "AVAX",
      "ZEC"
+    ]
+   },
+   {
+    "id": "exchange-based-tokens",
+    "name": "Exchange Based Tokens",
+    "chg7d": -4.82,
+    "top": [
+     "BNB",
+     "HYPE",
+     "LEO",
+     "WBT",
+     "UNI"
+    ],
+    "tracked": [
+     "BNB",
+     "HYPE",
+     "UNI",
+     "PUMP",
+     "MMT",
+     "OKB",
+     "ASTER",
+     "CRV"
     ]
    },
    {
@@ -8325,7 +8365,7 @@
   "updated": {
    "unlocks": 1795487122,
    "onchain": 1795493121,
-   "sectors": 1795495522,
+   "sectors": 1795496429,
    "listings": 1795493121,
    "fundamentals": 1795487122
   }
@@ -8364,6 +8404,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "348948668c88062b05620ddd7ba8c78b50633b3e5b34b5c5b2c62a6afa26c449",
- "generated": "2026-11-24T04:55:26+00:00"
+ "digest": "3e6d764a9948fb87dffc37dc2c589e1f5b1feb4f9274ee8bc97b6e8dfb3831b1",
+ "generated": "2026-11-24T05:01:08+00:00"
 }
