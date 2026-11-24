@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.0816,
-   "last_ts": "2026-11-24T03:25:22+00:00",
-   "move_pct": 9.2,
+   "last": 1.0675,
+   "last_ts": "2026-11-24T03:30:27+00:00",
+   "move_pct": 7.77,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -62,7 +62,7 @@
     0.02918017389916424
    ],
    "lev": 1,
-   "funding_pct": 0.0019,
+   "funding_pct": -0.0003,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-23T13:00:31+00:00",
@@ -70,9 +70,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.025946,
-   "last_ts": "2026-11-24T03:25:22+00:00",
-   "move_pct": 3.81,
+   "last": 0.02606,
+   "last_ts": "2026-11-24T03:30:27+00:00",
+   "move_pct": 4.27,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -114,9 +114,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 3640.9661676739197,
-   "last_ts": "2026-11-24T03:25:22+00:00",
-   "move_pct": -0.67,
+   "last": 3613.9846751267696,
+   "last_ts": "2026-11-24T03:30:27+00:00",
+   "move_pct": -1.41,
    "closed": false,
    "rsi": 66.8,
    "trade_on": "On-chain spot (Ethereum DEX)",
@@ -154,9 +154,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.03277,
-   "last_ts": "2026-11-24T03:25:22+00:00",
-   "move_pct": -0.94,
+   "last": 0.03315,
+   "last_ts": "2026-11-24T03:30:27+00:00",
+   "move_pct": 0.21,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -191,7 +191,7 @@
     0.06650790090405218
    ],
    "lev": 1,
-   "funding_pct": -0.367,
+   "funding_pct": -0.3505,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-24T03:00:00+00:00",
@@ -199,9 +199,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.07907,
-   "last_ts": "2026-11-24T03:25:22+00:00",
-   "move_pct": -1.16,
+   "last": 0.07927,
+   "last_ts": "2026-11-24T03:30:27+00:00",
+   "move_pct": -1.42,
    "closed": false,
    "rsi": 30.7,
    "trade_on": "Perps 1x",
@@ -237,7 +237,7 @@
     0.08935394374766642
    ],
    "lev": 1,
-   "funding_pct": -0.0247,
+   "funding_pct": -0.0228,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-24T03:00:00+00:00",
@@ -245,9 +245,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1066,
-   "last_ts": "2026-11-24T03:25:22+00:00",
-   "move_pct": -0.0,
+   "last": 0.1074,
+   "last_ts": "2026-11-24T03:30:27+00:00",
+   "move_pct": -0.75,
    "closed": false,
    "rsi": 40.9,
    "trade_on": "Perps 1x",
@@ -290,9 +290,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.4113,
-   "last_ts": "2026-11-24T03:25:22+00:00",
-   "move_pct": 0.17,
+   "last": 0.4142,
+   "last_ts": "2026-11-24T03:30:27+00:00",
+   "move_pct": -0.53,
    "closed": false,
    "rsi": 41.9,
    "trade_on": "Perps 1x",
@@ -8088,25 +8088,6 @@
     ]
    },
    {
-    "id": "oracle",
-    "name": "Oracle",
-    "chg7d": -5.16,
-    "top": [
-     "LINK",
-     "PYTH",
-     "RED",
-     "WIN",
-     "TRB"
-    ],
-    "tracked": [
-     "LINK",
-     "PYTH",
-     "TRB",
-     "API3",
-     "ZKP"
-    ]
-   },
-   {
     "id": "interoperability",
     "name": "Interoperability",
     "chg7d": -5.47,
@@ -8163,6 +8144,25 @@
      "DYDX",
      "BASED",
      "ARKM"
+    ]
+   },
+   {
+    "id": "oracle",
+    "name": "Oracle",
+    "chg7d": -6.13,
+    "top": [
+     "LINK",
+     "PYTH",
+     "RED",
+     "WIN",
+     "TRB"
+    ],
+    "tracked": [
+     "LINK",
+     "PYTH",
+     "TRB",
+     "API3",
+     "ZKP"
     ]
    },
    {
@@ -8412,7 +8412,7 @@
   "updated": {
    "unlocks": 1795487122,
    "onchain": 1795489521,
-   "sectors": 1795490124,
+   "sectors": 1795491027,
    "listings": 1795489521,
    "fundamentals": 1795487122
   }
@@ -8451,6 +8451,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "420c5373166380937fcaac3c04f1ca5d02dddc6f63de99b2322107b94e1f4c99",
- "generated": "2026-11-24T03:25:27+00:00"
+ "digest": "65801d0da0609acd7974328fc3a22050c461fe9b2aad3fc31fed8126fdbb446c",
+ "generated": "2026-11-24T03:30:32+00:00"
 }
