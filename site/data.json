@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.0673,
-   "last_ts": "2026-11-24T10:25:21+00:00",
-   "move_pct": 7.75,
+   "last": 1.0641,
+   "last_ts": "2026-11-24T10:30:27+00:00",
+   "move_pct": 7.43,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -76,9 +76,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1067,
-   "last_ts": "2026-11-24T10:25:21+00:00",
-   "move_pct": -0.09,
+   "last": 0.1064,
+   "last_ts": "2026-11-24T10:30:27+00:00",
+   "move_pct": 0.19,
    "closed": false,
    "rsi": 40.9,
    "trade_on": "Perps 1x",
@@ -121,9 +121,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.4115,
-   "last_ts": "2026-11-24T10:25:21+00:00",
-   "move_pct": 0.12,
+   "last": 0.411,
+   "last_ts": "2026-11-24T10:30:27+00:00",
+   "move_pct": 0.24,
    "closed": false,
    "rsi": 41.9,
    "trade_on": "Perps 1x",
@@ -166,9 +166,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1036,
-   "last_ts": "2026-11-24T10:25:21+00:00",
-   "move_pct": -2.07,
+   "last": 0.103,
+   "last_ts": "2026-11-24T10:30:27+00:00",
+   "move_pct": -1.48,
    "closed": false,
    "rsi": 32.0,
    "trade_on": "Perps 1x",
@@ -203,7 +203,7 @@
     1.117108823451442
    ],
    "lev": 1,
-   "funding_pct": 0.0027,
+   "funding_pct": 0.0017,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-24T10:00:00+00:00",
@@ -211,9 +211,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.284,
-   "last_ts": "2026-11-24T10:25:21+00:00",
-   "move_pct": 0.36,
+   "last": 1.2813,
+   "last_ts": "2026-11-24T10:30:27+00:00",
+   "move_pct": 0.57,
    "closed": false,
    "rsi": 38.3,
    "trade_on": "Perps 1x",
@@ -8038,6 +8038,23 @@
     ]
    },
    {
+    "id": "bitcoin-ecosystem",
+    "name": "Bitcoin Ecosystem",
+    "chg7d": -6.39,
+    "top": [
+     "BTC",
+     "DOG",
+     "ORDI",
+     "USTBL",
+     "LOBO"
+    ],
+    "tracked": [
+     "BTC",
+     "ORDI",
+     "SATS"
+    ]
+   },
+   {
     "id": "decentralized-perpetuals",
     "name": "Decentralized Perpetuals",
     "chg7d": -6.58,
@@ -8057,23 +8074,6 @@
      "DYDX",
      "BASED",
      "ARKM"
-    ]
-   },
-   {
-    "id": "bitcoin-ecosystem",
-    "name": "Bitcoin Ecosystem",
-    "chg7d": -6.67,
-    "top": [
-     "BTC",
-     "DOG",
-     "ORDI",
-     "USTBL",
-     "LOBO"
-    ],
-    "tracked": [
-     "BTC",
-     "ORDI",
-     "SATS"
     ]
    },
    {
@@ -8321,7 +8321,7 @@
   "updated": {
    "unlocks": 1795508723,
    "onchain": 1795514721,
-   "sectors": 1795515323,
+   "sectors": 1795516227,
    "listings": 1795515629,
    "fundamentals": 1795508723
   }
@@ -8360,6 +8360,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "6514ad6c8943f086b47c64bb7103b0ced95c92e66976c069b1803098515b2f09",
- "generated": "2026-11-24T10:25:24+00:00"
+ "digest": "1c81b946ac23680d0f83d8b4782e32a0cc9622ae1c933560d5178b85bee60275",
+ "generated": "2026-11-24T10:30:30+00:00"
 }
