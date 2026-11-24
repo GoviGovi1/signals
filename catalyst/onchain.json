@@ -1,5 +1,5 @@
 {
- "checked": 82,
+ "checked": 83,
  "errors": [],
  "rejected": [
   {
@@ -78,9 +78,23 @@
   {
    "chain": "Solana",
    "fails": [
+    "liquidity under $250k"
+   ],
+   "symbol": "KIMCHI"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
     "no DEX candles"
    ],
    "symbol": "CLAUDIA"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "no DEX candles"
+   ],
+   "symbol": "$WIF"
   },
   {
    "chain": "Solana",
@@ -92,13 +106,6 @@
   {
    "chain": "Solana",
    "fails": [
-    "liquidity under $250k"
-   ],
-   "symbol": "MOMO"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
     "no DEX candles"
    ],
    "symbol": "TROLL"
@@ -106,17 +113,9 @@
   {
    "chain": "Solana",
    "fails": [
-    "liquidity under $250k",
-    "pool younger than 7 days"
-   ],
-   "symbol": "GROKIA"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
     "liquidity under $250k"
    ],
-   "symbol": "KIMCHI"
+   "symbol": "MOMO"
   },
   {
    "chain": "Solana",
@@ -129,9 +128,10 @@
   {
    "chain": "Solana",
    "fails": [
-    "no DEX candles"
+    "liquidity under $250k",
+    "pool younger than 7 days"
    ],
-   "symbol": "$WIF"
+   "symbol": "GROKIA"
   },
   {
    "chain": "Solana",
@@ -172,6 +172,13 @@
   {
    "chain": "Base",
    "fails": [
+    "pool younger than 7 days"
+   ],
+   "symbol": "ANTC"
+  },
+  {
+   "chain": "Base",
+   "fails": [
     "24h volume under $250k"
    ],
    "symbol": "DRB"
@@ -196,13 +203,6 @@
     "no DEX candles"
    ],
    "symbol": "SPCXC"
-  },
-  {
-   "chain": "Base",
-   "fails": [
-    "pool younger than 7 days"
-   ],
-   "symbol": "ANTC"
   },
   {
    "chain": "Base",
@@ -287,34 +287,33 @@
   {
    "chain": "BSC",
    "fails": [
-    "owner can change balances",
-    "blacklist"
+    "no DEX candles"
    ],
-   "symbol": "CYS"
+   "symbol": "ARK"
   }
  ],
  "rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
- "updated": 1795547121,
+ "updated": 1795550720,
  "watchlist": [
   {
    "age_d": 33.7,
-   "atr": 0.009230853931044706,
-   "bar_ts": 1795543200000,
+   "atr": 0.009208666615672847,
+   "bar_ts": 1795546800000,
    "chain": "Base",
-   "chg24h": -5.648,
-   "chg7d": -9.5,
-   "close": 0.399115892369157,
-   "ema20": 0.4093660247392944,
-   "ema50": 0.4126360888742979,
+   "chg24h": -5.169,
+   "chg7d": -10.9,
+   "close": 0.39629926048976294,
+   "ema20": 0.40812157101427593,
+   "ema50": 0.4119970202367385,
    "fails": [],
    "gecko_id": "aero",
-   "liq": 759395,
-   "mcap": 307330485.626875,
+   "liq": 737332,
+   "mcap": 304994201.279492,
    "name": "Aero",
    "net": "base",
    "pool": "0x422df9aa896e883c9cdcbad309c0785b7364a1cf",
-   "price": 0.399104668713022,
-   "rsi": 37.3,
+   "price": 0.395837461828806,
+   "rsi": 35.1,
    "safety": "ok",
    "safety_notes": [],
    "symbol": "AERO",
@@ -322,35 +321,35 @@
    "trend_up": false,
    "trigger": false,
    "url": "https://www.geckoterminal.com/base/pools/0x422df9aa896e883c9cdcbad309c0785b7364a1cf",
-   "vol24h": 6921147
+   "vol24h": 6946769
   },
   {
-   "age_d": 455.3,
-   "atr": 0.10231347387723777,
-   "bar_ts": 1795543200000,
+   "age_d": 532.3,
+   "atr": 0.0009417927407926883,
+   "bar_ts": 1795546800000,
    "chain": "BSC",
-   "chg24h": 0.431,
-   "chg7d": -0.2,
-   "close": 6.3866024477595,
-   "ema20": 6.399887525717882,
-   "ema50": 6.395465272861518,
+   "chg24h": 4.737,
+   "chg7d": -9.2,
+   "close": 0.0172577260518367,
+   "ema20": 0.016978989733956007,
+   "ema50": 0.017443507720070927,
    "fails": [],
-   "gecko_id": "ark-3",
-   "liq": 58068416,
-   "mcap": 0.0,
-   "name": "ARK",
+   "gecko_id": "meet48",
+   "liq": 1006572,
+   "mcap": 39594774.8100958,
+   "name": "MEET48 Token",
    "net": "bsc",
-   "pool": "0xcaaf3c41a40103a23eeaa4bba468af3cf5b0e0d8",
-   "price": 6.39651060426633,
-   "rsi": 48.4,
+   "pool": "0xfff4857a955b2b460c27fd431aa5a85fabca5559",
+   "price": 0.0173918400724461,
+   "rsi": 54.0,
    "safety": "ok",
    "safety_notes": [],
-   "symbol": "ARK",
-   "token": "0xcae117ca6bc8a341d2e7207f30e180f0e5618b9d",
+   "symbol": "IDOL",
+   "token": "0x3b4de3c7855c03bb9f50ea252cd2c9fa1125ab07",
    "trend_up": false,
    "trigger": false,
-   "url": "https://www.geckoterminal.com/bsc/pools/0xcaaf3c41a40103a23eeaa4bba468af3cf5b0e0d8",
-   "vol24h": 5486777
+   "url": "https://www.geckoterminal.com/bsc/pools/0xfff4857a955b2b460c27fd431aa5a85fabca5559",
+   "vol24h": 5676694
   }
  ]
 }
