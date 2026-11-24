@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.0568,
-   "last_ts": "2026-11-24T05:55:27+00:00",
-   "move_pct": 6.69,
+   "last": 1.0581,
+   "last_ts": "2026-11-24T06:00:35+00:00",
+   "move_pct": 6.82,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -75,7 +75,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 3632.9774816121494,
-   "last_ts": "2026-11-24T05:55:27+00:00",
+   "last_ts": "2026-11-24T06:00:35+00:00",
    "move_pct": -0.89,
    "closed": false,
    "rsi": 66.8,
@@ -111,7 +111,7 @@
     0.06650790090405218
    ],
    "lev": 1,
-   "funding_pct": -0.3549,
+   "funding_pct": -0.3572,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-24T03:00:00+00:00",
@@ -119,9 +119,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0807,
-   "last_ts": "2026-11-24T05:55:27+00:00",
-   "move_pct": -3.25,
+   "last": 0.08035,
+   "last_ts": "2026-11-24T06:00:35+00:00",
+   "move_pct": -2.8,
    "closed": false,
    "rsi": 30.7,
    "trade_on": "Perps 1x",
@@ -157,7 +157,7 @@
     0.08935394374766642
    ],
    "lev": 1,
-   "funding_pct": -0.0021,
+   "funding_pct": -0.0015,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-24T03:00:00+00:00",
@@ -165,9 +165,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1103,
-   "last_ts": "2026-11-24T05:55:27+00:00",
-   "move_pct": -3.47,
+   "last": 0.1102,
+   "last_ts": "2026-11-24T06:00:35+00:00",
+   "move_pct": -3.38,
    "closed": false,
    "rsi": 40.9,
    "trade_on": "Perps 1x",
@@ -210,9 +210,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.4161,
-   "last_ts": "2026-11-24T05:55:27+00:00",
-   "move_pct": -1.0,
+   "last": 0.4185,
+   "last_ts": "2026-11-24T06:00:35+00:00",
+   "move_pct": -1.58,
    "closed": false,
    "rsi": 41.9,
    "trade_on": "Perps 1x",
@@ -242,7 +242,7 @@
     0.007338034421963886
    ],
    "lev": 1,
-   "funding_pct": -0.647,
+   "funding_pct": -0.67,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-24T05:00:30+00:00",
@@ -250,15 +250,60 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.005859,
-   "last_ts": "2026-11-24T05:55:27+00:00",
-   "move_pct": -4.44,
+   "last": 0.005946,
+   "last_ts": "2026-11-24T06:00:35+00:00",
+   "move_pct": -3.02,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
    "market_reason": "the perp book is where the 24h move and volume are; very volatile, so 1x",
    "chart": "charts/SAHARA-PERP-HOT-20781.png",
    "setup": "HOT24"
+  },
+  {
+   "id": "PENGU-SPOT-1795496400",
+   "kind": "TA",
+   "score": 1,
+   "reasons": [
+    "Chart: Break of structure: closed above the last swing high 0.004497, after a higher low",
+    "Timeframes: 1d down, 4h down, 4h structure higher highs/lows",
+    "Next resistance 0.004881 (3.0R away, 4h swing/swing/volume node)",
+    "Stop 0.0043776 (structure); targets at the next 2 level(s)",
+    "BTC 4h trend down",
+    "Weaker than BTC by 0.3% over 7d",
+    "OI +6% 24h with breakout",
+    "Sector: Solana Meme Coins -5.4% 7d (middle, #12 of 20)",
+    "Track record: +3.7R on PENGU in the last 45 days (backtest)"
+   ],
+   "coin": "PENGU",
+   "market": "SPOT",
+   "side": "LONG",
+   "entry": 0.004508,
+   "sl0": 0.004382424205721847,
+   "sl": 0.004382424205721847,
+   "tps": [
+    0.004874353291321445,
+    0.005075614396712463,
+    0.005201190190990615
+   ],
+   "lev": null,
+   "funding_pct": null,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-11-24T06:00:00+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.004498,
+   "last_ts": "2026-11-24T06:00:35+00:00",
+   "move_pct": -0.22,
+   "closed": false,
+   "rsi": 58.7,
+   "trade_on": "Spot",
+   "market_reason": "trend not strong enough for leverage: spot has no liquidation or funding",
+   "chart": "charts/PENGU-SPOT-1795496400.png",
+   "setup": "BOS"
   }
  ],
  "closed": [
@@ -4460,7 +4505,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 6
+  "open": 7
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7857,28 +7902,6 @@
     ]
    },
    {
-    "id": "layer-2",
-    "name": "Layer 2",
-    "chg7d": -3.68,
-    "top": [
-     "OKB",
-     "MNT",
-     "POL",
-     "ARB",
-     "STX"
-    ],
-    "tracked": [
-     "OKB",
-     "ARB",
-     "STRK",
-     "OP",
-     "MEGA",
-     "STX",
-     "MAGIC",
-     "POL"
-    ]
-   },
-   {
     "id": "artificial-intelligence",
     "name": "Artificial Intelligence",
     "chg7d": -3.8,
@@ -7898,6 +7921,28 @@
      "ICP",
      "ALLO",
      "GRASS"
+    ]
+   },
+   {
+    "id": "layer-2",
+    "name": "Layer 2",
+    "chg7d": -4.01,
+    "top": [
+     "OKB",
+     "MNT",
+     "POL",
+     "ARB",
+     "STX"
+    ],
+    "tracked": [
+     "OKB",
+     "ARB",
+     "STRK",
+     "OP",
+     "MEGA",
+     "STX",
+     "MAGIC",
+     "POL"
     ]
    },
    {
@@ -8350,7 +8395,7 @@
   "updated": {
    "unlocks": 1795487122,
    "onchain": 1795496727,
-   "sectors": 1795499122,
+   "sectors": 1795500035,
    "listings": 1795496727,
    "fundamentals": 1795487122
   }
@@ -8389,6 +8434,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "3fe0344db9300351c16176fb9b00ec6eb9f55afb78f94ba0c3ad20c5e6d8338d",
- "generated": "2026-11-24T05:55:32+00:00"
+ "digest": "7839ae8d8bee12013377422d7b83bc37263c74ec7be327a760e9abe8c919d8c9",
+ "generated": "2026-11-24T06:01:14+00:00"
 }
