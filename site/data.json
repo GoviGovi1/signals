@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.0776,
-   "last_ts": "2026-11-24T09:06:31+00:00",
-   "move_pct": 8.79,
+   "last": 1.0755,
+   "last_ts": "2026-11-24T09:10:20+00:00",
+   "move_pct": 8.58,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -76,9 +76,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1082,
-   "last_ts": "2026-11-24T09:06:31+00:00",
-   "move_pct": -1.5,
+   "last": 0.1078,
+   "last_ts": "2026-11-24T09:10:20+00:00",
+   "move_pct": -1.13,
    "closed": false,
    "rsi": 40.9,
    "trade_on": "Perps 1x",
@@ -121,16 +121,18 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.4109,
-   "last_ts": "2026-11-24T09:06:31+00:00",
-   "move_pct": 0.27,
+   "last": 0.4095,
+   "last_ts": "2026-11-24T09:10:20+00:00",
+   "move_pct": 0.61,
    "closed": false,
    "rsi": 41.9,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": "charts/AERO-PERP-1795485600.png",
    "setup": "BREAKOUT20"
-  },
+  }
+ ],
+ "closed": [
   {
    "id": "ZBT-PERP-1795500000",
    "kind": "TA",
@@ -159,25 +161,23 @@
    ],
    "lev": 1,
    "funding_pct": 0.005,
-   "status": "open",
+   "status": "stopped",
    "hits": 0,
    "opened": "2026-11-24T07:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.05023,
-   "last_ts": "2026-11-24T09:06:31+00:00",
+   "closed_at": "2026-11-24T09:10:20+00:00",
+   "exit_price": 0.050070649211636405,
+   "result_r": -1.0,
+   "result_pct": -2.81,
+   "last": 0.05005,
+   "last_ts": "2026-11-24T09:10:20+00:00",
    "move_pct": -2.5,
-   "closed": false,
+   "closed": true,
    "rsi": 70.1,
    "trade_on": "Perps 1x",
    "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
    "chart": "charts/ZBT-PERP-1795500000.png",
    "setup": "BOS"
-  }
- ],
- "closed": [
+  },
   {
    "id": "PENGU-SPOT-1795496400",
    "kind": "TA",
@@ -1909,7 +1909,7 @@
    "rsi": null,
    "trade_on": "Spot",
    "market_reason": "only spot is listed",
-   "chart": "charts/VINE-SPOT-HOT-20777.png",
+   "chart": null,
    "setup": "HOT24"
   },
   {
@@ -2739,62 +2739,17 @@
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": null,
    "setup": "RANGE_BREAK"
-  },
-  {
-   "id": "KMNO-PERP-1794974400",
-   "kind": "TA",
-   "score": 0,
-   "reasons": [
-    "Chart: Break of structure: closed below the last swing low 0.02597, after a lower high",
-    "Timeframes: 1d down, 4h down, 4h structure lower highs/lows",
-    "No support below in the last 50 days",
-    "Stop 0.026727 (2 ATR); targets at 1R/2R/3R",
-    "BTC 4h trend down",
-    "Weaker than BTC by 6.8% over 7d",
-    "OI +3% 24h",
-    "Sector: Lending Borrowing -9.5% 7d (middle, #9 of 20)",
-    "Track record: +4.0R on KMNO in the last 45 days (backtest)"
-   ],
-   "coin": "KMNO",
-   "market": "PERP",
-   "side": "SHORT",
-   "entry": 0.0259,
-   "sl0": 0.026727203390827587,
-   "sl": 0.0259,
-   "tps": [
-    0.025072796609172412,
-    0.024245593218344824,
-    0.023418389827517237
-   ],
-   "lev": 1,
-   "funding_pct": 0.005,
-   "status": "stopped_be",
-   "hits": 1,
-   "opened": "2026-11-18T05:00:00+00:00",
-   "closed_at": "2026-11-18T17:20:24+00:00",
-   "exit_price": 0.0259,
-   "result_r": 0.25,
-   "result_pct": 0.8,
-   "last": 0.02592,
-   "last_ts": "2026-11-18T17:20:24+00:00",
-   "move_pct": 0.97,
-   "closed": true,
-   "rsi": 36.7,
-   "trade_on": "Perps 1x",
-   "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": null,
-   "setup": "BOS"
   }
  ],
  "stats": {
   "all": {
-   "trades": 318,
+   "trades": 319,
    "wins": 151,
-   "losses": 167,
-   "win_rate": 47.5,
-   "total_r": 34.3,
-   "avg_r": 0.108,
-   "total_pct": 166.37
+   "losses": 168,
+   "win_rate": 47.3,
+   "total_r": 33.3,
+   "avg_r": 0.104,
+   "total_pct": 163.56
   },
   "SPOT": {
    "trades": 91,
@@ -2806,13 +2761,13 @@
    "total_pct": 43.27
   },
   "PERP": {
-   "trades": 211,
+   "trades": 212,
    "wins": 107,
-   "losses": 104,
-   "win_rate": 50.7,
-   "total_r": 45.08,
-   "avg_r": 0.214,
-   "total_pct": 104.2
+   "losses": 105,
+   "win_rate": 50.5,
+   "total_r": 44.08,
+   "avg_r": 0.208,
+   "total_pct": 101.39
   },
   "DEX": {
    "trades": 16,
@@ -2843,13 +2798,13 @@
     "total_pct": 18.9
    },
    "TA": {
-    "trades": 220,
+    "trades": 221,
     "wins": 96,
-    "losses": 124,
-    "win_rate": 43.6,
-    "total_r": 25.01,
-    "avg_r": 0.114,
-    "total_pct": 80.71
+    "losses": 125,
+    "win_rate": 43.4,
+    "total_r": 24.01,
+    "avg_r": 0.109,
+    "total_pct": 77.9
    }
   },
   "coins": {
@@ -4339,13 +4294,13 @@
     "total_pct": -1.68
    },
    "ZBT": {
-    "trades": 6,
+    "trades": 7,
     "wins": 1,
-    "losses": 5,
-    "win_rate": 16.7,
-    "total_r": -2.53,
-    "avg_r": -0.422,
-    "total_pct": -6.69
+    "losses": 6,
+    "win_rate": 14.3,
+    "total_r": -3.53,
+    "avg_r": -0.505,
+    "total_pct": -9.5
    },
    "ZEN": {
     "trades": 1,
@@ -4384,7 +4339,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 4
+  "open": 3
  },
  "backtest": {
   "from": "2026-07-24",
@@ -8313,6 +8268,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "567266acd804228b3a310d3346ae39ec03f7e735291e4b1c151af919df7d1fd2",
- "generated": "2026-11-24T09:06:34+00:00"
+ "digest": "d435061126c5106b569579befa38ddfdbfbb14ad1df10ca5397cc889b947fadb",
+ "generated": "2026-11-24T09:10:24+00:00"
 }
