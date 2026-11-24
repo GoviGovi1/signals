@@ -20,17 +20,17 @@
   {
    "chain": "Solana",
    "fails": [
-    "liquidity under $250k",
-    "pool younger than 7 days"
+    "no DEX candles"
    ],
-   "symbol": "JIMMY"
+   "symbol": "MIHAO"
   },
   {
    "chain": "Solana",
    "fails": [
-    "no DEX candles"
+    "liquidity under $250k",
+    "pool younger than 7 days"
    ],
-   "symbol": "MIHAO"
+   "symbol": "JIMMY"
   },
   {
    "chain": "Solana",
@@ -47,13 +47,6 @@
     "balances can be changed"
    ],
    "symbol": "NVDA"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "TRUMP"
   },
   {
    "chain": "Solana",
@@ -75,7 +68,7 @@
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "CLAUDIA"
+   "symbol": "TRUMP"
   },
   {
    "chain": "Solana",
@@ -88,10 +81,9 @@
   {
    "chain": "Solana",
    "fails": [
-    "liquidity under $250k",
-    "pool younger than 7 days"
+    "no DEX candles"
    ],
-   "symbol": "UCASH"
+   "symbol": "CLAUDIA"
   },
   {
    "chain": "Solana",
@@ -99,13 +91,6 @@
     "no DEX candles"
    ],
    "symbol": "CYBERLEEK"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "liquidity under $250k"
-   ],
-   "symbol": "DCTY"
   },
   {
    "chain": "Solana",
@@ -120,7 +105,7 @@
    "fails": [
     "liquidity under $250k"
    ],
-   "symbol": "RINGS"
+   "symbol": "DCTY"
   },
   {
    "chain": "Solana",
@@ -141,14 +126,29 @@
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "SI"
+   "symbol": "PIPPIN"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "liquidity under $250k"
+   ],
+   "symbol": "MOMO"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "liquidity under $250k",
+    "pool younger than 7 days"
+   ],
+   "symbol": "SIDOOR"
   },
   {
    "chain": "Solana",
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "PIPPIN"
+   "symbol": "SI"
   },
   {
    "chain": "Base",
@@ -183,6 +183,13 @@
    "fails": [
     "no DEX candles"
    ],
+   "symbol": "VVV"
+  },
+  {
+   "chain": "Base",
+   "fails": [
+    "no DEX candles"
+   ],
    "symbol": "GOOGLC"
   },
   {
@@ -195,6 +202,13 @@
   {
    "chain": "Base",
    "fails": [
+    "24h volume under $250k"
+   ],
+   "symbol": "TIBBIR"
+  },
+  {
+   "chain": "Base",
+   "fails": [
     "no DEX candles"
    ],
    "symbol": "SPCXC"
@@ -202,9 +216,10 @@
   {
    "chain": "Base",
    "fails": [
+    "liquidity under $250k",
     "24h volume under $250k"
    ],
-   "symbol": "TIBBIR"
+   "symbol": "FLOWER"
   },
   {
    "chain": "Base",
@@ -223,6 +238,13 @@
   {
    "chain": "Base",
    "fails": [
+    "pool younger than 7 days"
+   ],
+   "symbol": "ANTC"
+  },
+  {
+   "chain": "Base",
+   "fails": [
     "no DEX candles"
    ],
    "symbol": "VELVET"
@@ -230,24 +252,9 @@
   {
    "chain": "Base",
    "fails": [
-    "liquidity under $250k",
-    "24h volume under $250k"
-   ],
-   "symbol": "FLOWER"
-  },
-  {
-   "chain": "Base",
-   "fails": [
     "no DEX candles"
    ],
    "symbol": "POD"
-  },
-  {
-   "chain": "Base",
-   "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "AAPLC"
   },
   {
    "chain": "BSC",
@@ -283,75 +290,68 @@
     "no DEX candles"
    ],
    "symbol": "ARK"
-  },
-  {
-   "chain": "BSC",
-   "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "MUBARAK"
   }
  ],
  "rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
- "updated": 1795518321,
+ "updated": 1795521920,
  "watchlist": [
   {
-   "age_d": 397.9,
-   "atr": 0.008234781186433542,
-   "bar_ts": 1795514400000,
+   "age_d": 428.2,
+   "atr": 0.0015066329929568317,
+   "bar_ts": 1795518000000,
    "chain": "BSC",
-   "chg24h": 3.187,
-   "chg7d": 23.7,
-   "close": 0.12021308745804998,
-   "ema20": 0.12333048076924111,
-   "ema50": 0.11935907116807626,
+   "chg24h": -7.128,
+   "chg7d": 80.1,
+   "close": 0.0186381061251406,
+   "ema20": 0.016920044086410846,
+   "ema50": 0.016240116410036753,
    "fails": [],
-   "gecko_id": "orochi-network",
-   "liq": 639730,
-   "mcap": 17384144.48403,
-   "name": "Orochi Network Token",
+   "gecko_id": "bless-2",
+   "liq": 296607,
+   "mcap": 33762038.1980274,
+   "name": "Bless Token",
    "net": "bsc",
-   "pool": "0x4620f5c127a6055fbebb1f71327d60ff079c9060",
-   "price": 0.120510416257429,
-   "rsi": 48.2,
+   "pool": "0x49986efbeedea3ab962ca95caf86919860ecc9db",
+   "price": 0.0186335722120828,
+   "rsi": 61.8,
+   "safety": "ok",
+   "safety_notes": [],
+   "symbol": "BLESS",
+   "token": "0x7c8217517ed4711fe2deccdfeffe8d906b9ae11f",
+   "trend_up": true,
+   "trigger": false,
+   "url": "https://www.geckoterminal.com/bsc/pools/0x49986efbeedea3ab962ca95caf86919860ecc9db",
+   "vol24h": 4972354
+  },
+  {
+   "age_d": 1285.8,
+   "atr": 0.005971896624735934,
+   "bar_ts": 1795518000000,
+   "chain": "Ethereum",
+   "chg24h": 0.024,
+   "chg7d": -0.2,
+   "close": 0.996264281913083,
+   "ema20": 0.9972678229336677,
+   "ema50": 0.9973024396251157,
+   "fails": [],
+   "gecko_id": "crvusd",
+   "liq": 7781511,
+   "mcap": 140084708.576846,
+   "name": "Curve.Fi USD Stablecoin",
+   "net": "eth",
+   "pool": "0x4dece678ceceb27446b35c672dc7d61f30bad69e",
+   "price": 0.998305043315598,
+   "rsi": 47.1,
    "safety": "unknown",
    "safety_notes": [
     "safety not checked"
    ],
-   "symbol": "ON",
-   "token": "0x0e4f6209ed984b21edea43ace6e09559ed051d48",
-   "trend_up": true,
+   "symbol": "CRVUSD",
+   "token": "0xf939e0a03fb07f59a73314e73794be0e57ac1b4e",
+   "trend_up": false,
    "trigger": false,
-   "url": "https://www.geckoterminal.com/bsc/pools/0x4620f5c127a6055fbebb1f71327d60ff079c9060",
-   "vol24h": 9298578
-  },
-  {
-   "age_d": 33.3,
-   "atr": 0.5386529001104982,
-   "bar_ts": 1795514400000,
-   "chain": "Base",
-   "chg24h": -3.302,
-   "chg7d": 20.4,
-   "close": 25.123600354151996,
-   "ema20": 25.103346528432617,
-   "ema50": 24.98009313327017,
-   "fails": [],
-   "gecko_id": "venice-token",
-   "liq": 2488939,
-   "mcap": 1244603174.05052,
-   "name": "Venice Token",
-   "net": "base",
-   "pool": "0xdebaebe5b2729f7d62072b2ea40472d78d2c1626",
-   "price": 25.3956355072716,
-   "rsi": 49.9,
-   "safety": "ok",
-   "safety_notes": [],
-   "symbol": "VVV",
-   "token": "0xacfe6019ed1a7dc6f7b508c02d1b04ec88cc21bf",
-   "trend_up": true,
-   "trigger": false,
-   "url": "https://www.geckoterminal.com/base/pools/0xdebaebe5b2729f7d62072b2ea40472d78d2c1626",
-   "vol24h": 5510933
+   "url": "https://www.geckoterminal.com/eth/pools/0x4dece678ceceb27446b35c672dc7d61f30bad69e",
+   "vol24h": 9143569
   }
  ]
 }

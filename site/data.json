@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.0859,
-   "last_ts": "2026-11-24T12:00:33+00:00",
-   "move_pct": 9.63,
+   "last": 1.087,
+   "last_ts": "2026-11-24T12:06:24+00:00",
+   "move_pct": 9.74,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -68,7 +68,7 @@
     0.08935394374766642
    ],
    "lev": 1,
-   "funding_pct": 0.0023,
+   "funding_pct": 0.0017,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-24T03:00:00+00:00",
@@ -76,9 +76,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.107,
-   "last_ts": "2026-11-24T12:00:33+00:00",
-   "move_pct": -0.38,
+   "last": 0.1066,
+   "last_ts": "2026-11-24T12:06:24+00:00",
+   "move_pct": -0.0,
    "closed": false,
    "rsi": 40.9,
    "trade_on": "Perps 1x",
@@ -121,9 +121,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.4152,
-   "last_ts": "2026-11-24T12:00:33+00:00",
-   "move_pct": -0.78,
+   "last": 0.4136,
+   "last_ts": "2026-11-24T12:06:24+00:00",
+   "move_pct": -0.39,
    "closed": false,
    "rsi": 41.9,
    "trade_on": "Perps 1x",
@@ -158,7 +158,7 @@
     0.08582100076152281
    ],
    "lev": 1,
-   "funding_pct": 0.0003,
+   "funding_pct": -0.0023,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-24T10:00:00+00:00",
@@ -166,9 +166,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0999,
-   "last_ts": "2026-11-24T12:00:33+00:00",
-   "move_pct": 1.58,
+   "last": 0.0991,
+   "last_ts": "2026-11-24T12:06:24+00:00",
+   "move_pct": 2.36,
    "closed": false,
    "rsi": 32.0,
    "trade_on": "Perps 1x",
@@ -203,7 +203,7 @@
     1.117108823451442
    ],
    "lev": 1,
-   "funding_pct": -0.0063,
+   "funding_pct": -0.0072,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-24T10:00:00+00:00",
@@ -211,9 +211,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.291,
-   "last_ts": "2026-11-24T12:00:33+00:00",
-   "move_pct": -0.19,
+   "last": 1.2858,
+   "last_ts": "2026-11-24T12:06:24+00:00",
+   "move_pct": 0.22,
    "closed": false,
    "rsi": 38.3,
    "trade_on": "Perps 1x",
@@ -7698,43 +7698,43 @@
   "onchain": [
    {
     "chain": "BSC",
-    "symbol": "ON",
-    "name": "Orochi Network Token",
-    "token": "0x0e4f6209ed984b21edea43ace6e09559ed051d48",
-    "price": 0.120510416257429,
-    "liq": 639730,
-    "vol24h": 9298578,
-    "age_d": 397.9,
-    "chg24h": 3.187,
-    "chg7d": 23.7,
-    "mcap": 17384144.48403,
+    "symbol": "BLESS",
+    "name": "Bless Token",
+    "token": "0x7c8217517ed4711fe2deccdfeffe8d906b9ae11f",
+    "price": 0.0186335722120828,
+    "liq": 296607,
+    "vol24h": 4972354,
+    "age_d": 428.2,
+    "chg24h": -7.128,
+    "chg7d": 80.1,
+    "mcap": 33762038.1980274,
+    "safety": "ok",
+    "safety_notes": [],
+    "trigger": false,
+    "trend_up": true,
+    "rsi": 61.8,
+    "url": "https://www.geckoterminal.com/bsc/pools/0x49986efbeedea3ab962ca95caf86919860ecc9db"
+   },
+   {
+    "chain": "Ethereum",
+    "symbol": "CRVUSD",
+    "name": "Curve.Fi USD Stablecoin",
+    "token": "0xf939e0a03fb07f59a73314e73794be0e57ac1b4e",
+    "price": 0.998305043315598,
+    "liq": 7781511,
+    "vol24h": 9143569,
+    "age_d": 1285.8,
+    "chg24h": 0.024,
+    "chg7d": -0.2,
+    "mcap": 140084708.576846,
     "safety": "unknown",
     "safety_notes": [
      "safety not checked"
     ],
     "trigger": false,
-    "trend_up": true,
-    "rsi": 48.2,
-    "url": "https://www.geckoterminal.com/bsc/pools/0x4620f5c127a6055fbebb1f71327d60ff079c9060"
-   },
-   {
-    "chain": "Base",
-    "symbol": "VVV",
-    "name": "Venice Token",
-    "token": "0xacfe6019ed1a7dc6f7b508c02d1b04ec88cc21bf",
-    "price": 25.3956355072716,
-    "liq": 2488939,
-    "vol24h": 5510933,
-    "age_d": 33.3,
-    "chg24h": -3.302,
-    "chg7d": 20.4,
-    "mcap": 1244603174.05052,
-    "safety": "ok",
-    "safety_notes": [],
-    "trigger": false,
-    "trend_up": true,
-    "rsi": 49.9,
-    "url": "https://www.geckoterminal.com/base/pools/0xdebaebe5b2729f7d62072b2ea40472d78d2c1626"
+    "trend_up": false,
+    "rsi": 47.1,
+    "url": "https://www.geckoterminal.com/eth/pools/0x4dece678ceceb27446b35c672dc7d61f30bad69e"
    }
   ],
   "onchain_checked": 83,
@@ -7825,6 +7825,28 @@
      "ASTER",
      "CRV",
      "AERO"
+    ]
+   },
+   {
+    "id": "decentralized-finance-defi",
+    "name": "Decentralized Finance DeFi",
+    "chg7d": -4.74,
+    "top": [
+     "STETH",
+     "HYPE",
+     "WSTETH",
+     "LINK",
+     "DAI"
+    ],
+    "tracked": [
+     "LINK",
+     "HYPE",
+     "UNI",
+     "PUMP",
+     "LIT",
+     "ENA",
+     "AAVE",
+     "INJ"
     ]
    },
    {
@@ -7928,28 +7950,6 @@
      "BNB",
      "AVAX",
      "ZEC"
-    ]
-   },
-   {
-    "id": "decentralized-finance-defi",
-    "name": "Decentralized Finance DeFi",
-    "chg7d": -5.76,
-    "top": [
-     "STETH",
-     "HYPE",
-     "WSTETH",
-     "LINK",
-     "DAI"
-    ],
-    "tracked": [
-     "LINK",
-     "HYPE",
-     "UNI",
-     "PUMP",
-     "LIT",
-     "ENA",
-     "AAVE",
-     "INJ"
     ]
    },
    {
@@ -8320,8 +8320,8 @@
   ],
   "updated": {
    "unlocks": 1795508723,
-   "onchain": 1795518321,
-   "sectors": 1795521022,
+   "onchain": 1795521920,
+   "sectors": 1795521920,
    "listings": 1795519520,
    "fundamentals": 1795508723
   }
@@ -8360,6 +8360,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "03cf8989cc96b9d258099273ab76d26bee25433a1802154b07691e637cd0f4e3",
- "generated": "2026-11-24T12:01:02+00:00"
+ "digest": "8d06b983244b82a82366275e97e0d9d3746860ccbe098fe3b51688e485472450",
+ "generated": "2026-11-24T12:06:26+00:00"
 }
