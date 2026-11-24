@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.0592,
-   "last_ts": "2026-11-24T11:00:31+00:00",
-   "move_pct": 6.94,
+   "last": 1.062,
+   "last_ts": "2026-11-24T11:06:26+00:00",
+   "move_pct": 7.22,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -76,9 +76,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1074,
-   "last_ts": "2026-11-24T11:00:31+00:00",
-   "move_pct": -0.75,
+   "last": 0.1066,
+   "last_ts": "2026-11-24T11:06:26+00:00",
+   "move_pct": -0.0,
    "closed": false,
    "rsi": 40.9,
    "trade_on": "Perps 1x",
@@ -121,9 +121,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.4107,
-   "last_ts": "2026-11-24T11:00:31+00:00",
-   "move_pct": 0.32,
+   "last": 0.4116,
+   "last_ts": "2026-11-24T11:06:26+00:00",
+   "move_pct": 0.1,
    "closed": false,
    "rsi": 41.9,
    "trade_on": "Perps 1x",
@@ -158,7 +158,7 @@
     0.08582100076152281
    ],
    "lev": 1,
-   "funding_pct": 0.0034,
+   "funding_pct": 0.001,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-24T10:00:00+00:00",
@@ -166,9 +166,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1023,
-   "last_ts": "2026-11-24T11:00:31+00:00",
-   "move_pct": -0.79,
+   "last": 0.1018,
+   "last_ts": "2026-11-24T11:06:26+00:00",
+   "move_pct": -0.3,
    "closed": false,
    "rsi": 32.0,
    "trade_on": "Perps 1x",
@@ -203,7 +203,7 @@
     1.117108823451442
    ],
    "lev": 1,
-   "funding_pct": 0.0006,
+   "funding_pct": 0.0005,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-24T10:00:00+00:00",
@@ -211,9 +211,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.2833,
-   "last_ts": "2026-11-24T11:00:31+00:00",
-   "move_pct": 0.41,
+   "last": 1.2783,
+   "last_ts": "2026-11-24T11:06:26+00:00",
+   "move_pct": 0.8,
    "closed": false,
    "rsi": 38.3,
    "trade_on": "Perps 1x",
@@ -7697,47 +7697,47 @@
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
   "onchain": [
    {
-    "chain": "Ethereum",
-    "symbol": "CRVUSD",
-    "name": "Curve.Fi USD Stablecoin",
-    "token": "0xf939e0a03fb07f59a73314e73794be0e57ac1b4e",
-    "price": 0.996503150104384,
-    "liq": 7670576,
-    "vol24h": 8744347,
-    "age_d": 1285.7,
-    "chg24h": -0.069,
-    "chg7d": 0.3,
-    "mcap": 139833958.648073,
+    "chain": "BSC",
+    "symbol": "ON",
+    "name": "Orochi Network Token",
+    "token": "0x0e4f6209ed984b21edea43ace6e09559ed051d48",
+    "price": 0.120510416257429,
+    "liq": 639730,
+    "vol24h": 9298578,
+    "age_d": 397.9,
+    "chg24h": 3.187,
+    "chg7d": 23.7,
+    "mcap": 17384144.48403,
     "safety": "unknown",
     "safety_notes": [
      "safety not checked"
     ],
     "trigger": false,
     "trend_up": true,
-    "rsi": 56.1,
-    "url": "https://www.geckoterminal.com/eth/pools/0x4dece678ceceb27446b35c672dc7d61f30bad69e"
+    "rsi": 48.2,
+    "url": "https://www.geckoterminal.com/bsc/pools/0x4620f5c127a6055fbebb1f71327d60ff079c9060"
    },
    {
-    "chain": "BSC",
-    "symbol": "ARK",
-    "name": "ARK",
-    "token": "0xcae117ca6bc8a341d2e7207f30e180f0e5618b9d",
-    "price": 6.41709576673116,
-    "liq": 58534967,
-    "vol24h": 5510705,
-    "age_d": 455.0,
-    "chg24h": -0.178,
-    "chg7d": -0.2,
-    "mcap": 0.0,
+    "chain": "Base",
+    "symbol": "VVV",
+    "name": "Venice Token",
+    "token": "0xacfe6019ed1a7dc6f7b508c02d1b04ec88cc21bf",
+    "price": 25.3956355072716,
+    "liq": 2488939,
+    "vol24h": 5510933,
+    "age_d": 33.3,
+    "chg24h": -3.302,
+    "chg7d": 20.4,
+    "mcap": 1244603174.05052,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": true,
-    "rsi": 53.7,
-    "url": "https://www.geckoterminal.com/bsc/pools/0xcaaf3c41a40103a23eeaa4bba468af3cf5b0e0d8"
+    "rsi": 49.9,
+    "url": "https://www.geckoterminal.com/base/pools/0xdebaebe5b2729f7d62072b2ea40472d78d2c1626"
    }
   ],
-  "onchain_checked": 84,
+  "onchain_checked": 83,
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
@@ -7825,28 +7825,6 @@
      "ICP",
      "ALLO",
      "GRASS"
-    ]
-   },
-   {
-    "id": "layer-2",
-    "name": "Layer 2",
-    "chg7d": -4.01,
-    "top": [
-     "OKB",
-     "MNT",
-     "POL",
-     "ARB",
-     "STX"
-    ],
-    "tracked": [
-     "OKB",
-     "ARB",
-     "STRK",
-     "OP",
-     "MEGA",
-     "STX",
-     "MAGIC",
-     "POL"
     ]
    },
    {
@@ -8035,6 +8013,28 @@
      "OKB",
      "ASTER",
      "CRV"
+    ]
+   },
+   {
+    "id": "layer-2",
+    "name": "Layer 2",
+    "chg7d": -5.97,
+    "top": [
+     "OKB",
+     "MNT",
+     "POL",
+     "ARB",
+     "STX"
+    ],
+    "tracked": [
+     "OKB",
+     "ARB",
+     "STRK",
+     "OP",
+     "MEGA",
+     "STX",
+     "MAGIC",
+     "POL"
     ]
    },
    {
@@ -8320,8 +8320,8 @@
   ],
   "updated": {
    "unlocks": 1795508723,
-   "onchain": 1795514721,
-   "sectors": 1795517428,
+   "onchain": 1795518321,
+   "sectors": 1795518321,
    "listings": 1795515629,
    "fundamentals": 1795508723
   }
@@ -8360,6 +8360,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "e7050b460b4d283b7a361e252a222e7708db248ad4c656e48007b50b01b764cf",
- "generated": "2026-11-24T11:01:08+00:00"
+ "digest": "7b11d041117e28698d766b45ad61f29cdd1cbcf3f2dd79a4394680cd8cd87acb",
+ "generated": "2026-11-24T11:06:31+00:00"
 }
