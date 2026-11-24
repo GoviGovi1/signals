@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.0835,
-   "last_ts": "2026-11-24T14:30:54+00:00",
-   "move_pct": 9.39,
+   "last": 1.0833,
+   "last_ts": "2026-11-24T14:35:25+00:00",
+   "move_pct": 9.37,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -68,7 +68,7 @@
     0.08935394374766642
    ],
    "lev": 1,
-   "funding_pct": -0.0292,
+   "funding_pct": -0.0287,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-24T03:00:00+00:00",
@@ -76,9 +76,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1088,
-   "last_ts": "2026-11-24T14:30:54+00:00",
-   "move_pct": -2.06,
+   "last": 0.1072,
+   "last_ts": "2026-11-24T14:35:25+00:00",
+   "move_pct": -0.56,
    "closed": false,
    "rsi": 40.9,
    "trade_on": "Perps 1x",
@@ -121,9 +121,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.4112,
-   "last_ts": "2026-11-24T14:30:54+00:00",
-   "move_pct": 0.19,
+   "last": 0.4071,
+   "last_ts": "2026-11-24T14:35:25+00:00",
+   "move_pct": 1.19,
    "closed": false,
    "rsi": 41.9,
    "trade_on": "Perps 1x",
@@ -166,9 +166,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0983,
-   "last_ts": "2026-11-24T14:30:54+00:00",
-   "move_pct": 3.15,
+   "last": 0.0973,
+   "last_ts": "2026-11-24T14:35:25+00:00",
+   "move_pct": 4.14,
    "closed": false,
    "rsi": 32.0,
    "trade_on": "Perps 1x",
@@ -203,7 +203,7 @@
     1.117108823451442
    ],
    "lev": 1,
-   "funding_pct": -0.0142,
+   "funding_pct": -0.0162,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-24T10:00:00+00:00",
@@ -211,9 +211,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.2779,
-   "last_ts": "2026-11-24T14:30:54+00:00",
-   "move_pct": 0.83,
+   "last": 1.2608,
+   "last_ts": "2026-11-24T14:35:25+00:00",
+   "move_pct": 2.16,
    "closed": false,
    "rsi": 38.3,
    "trade_on": "Perps 1x",
@@ -251,9 +251,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.6852,
-   "last_ts": "2026-11-24T14:30:54+00:00",
-   "move_pct": 0.41,
+   "last": 0.6824,
+   "last_ts": "2026-11-24T14:35:25+00:00",
+   "move_pct": 0.0,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -296,9 +296,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.003083,
-   "last_ts": "2026-11-24T14:30:54+00:00",
-   "move_pct": -0.98,
+   "last": 0.003068,
+   "last_ts": "2026-11-24T14:35:25+00:00",
+   "move_pct": -0.49,
    "closed": false,
    "rsi": 41.4,
    "trade_on": "Perps 1x",
@@ -8125,23 +8125,6 @@
     ]
    },
    {
-    "id": "storage",
-    "name": "Storage",
-    "chg7d": -7.29,
-    "top": [
-     "FIL",
-     "BTT",
-     "AR",
-     "AIOZ",
-     "ICNT"
-    ],
-    "tracked": [
-     "FIL",
-     "AR",
-     "WAL"
-    ]
-   },
-   {
     "id": "privacy-coins",
     "name": "Privacy Coins",
     "chg7d": -7.37,
@@ -8234,6 +8217,23 @@
     ],
     "tracked": [
      "W"
+    ]
+   },
+   {
+    "id": "storage",
+    "name": "Storage",
+    "chg7d": -8.78,
+    "top": [
+     "FIL",
+     "BTT",
+     "AR",
+     "AIOZ",
+     "ICNT"
+    ],
+    "tracked": [
+     "FIL",
+     "AR",
+     "WAL"
     ]
    }
   ],
@@ -8406,7 +8406,7 @@
   "updated": {
    "unlocks": 1795530628,
    "onchain": 1795529122,
-   "sectors": 1795530030,
+   "sectors": 1795530925,
    "listings": 1795530654,
    "fundamentals": 1795530630
   }
@@ -8445,6 +8445,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "c6229413137849331322967ad38cc7de33588e8ec1adabe1ce770f5e4fb46a60",
- "generated": "2026-11-24T14:30:57+00:00"
+ "digest": "c18bb12a063abdfab6bb1db3b2b1abce7dcfb9a1cf9288c61a617703584ba364",
+ "generated": "2026-11-24T14:35:29+00:00"
 }
