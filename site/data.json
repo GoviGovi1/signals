@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.0763,
-   "last_ts": "2026-11-24T06:55:23+00:00",
-   "move_pct": 8.66,
+   "last": 1.0747,
+   "last_ts": "2026-11-24T07:00:31+00:00",
+   "move_pct": 8.5,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -74,9 +74,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 3602.3009650318595,
-   "last_ts": "2026-11-24T06:55:23+00:00",
-   "move_pct": -1.73,
+   "last": 3604.59108873153,
+   "last_ts": "2026-11-24T07:00:31+00:00",
+   "move_pct": -1.67,
    "closed": false,
    "rsi": 66.8,
    "trade_on": "On-chain spot (Ethereum DEX)",
@@ -112,7 +112,7 @@
     0.08935394374766642
    ],
    "lev": 1,
-   "funding_pct": 0.0012,
+   "funding_pct": 0.002,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-24T03:00:00+00:00",
@@ -120,9 +120,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1094,
-   "last_ts": "2026-11-24T06:55:23+00:00",
-   "move_pct": -2.63,
+   "last": 0.1093,
+   "last_ts": "2026-11-24T07:00:31+00:00",
+   "move_pct": -2.53,
    "closed": false,
    "rsi": 40.9,
    "trade_on": "Perps 1x",
@@ -165,9 +165,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.4205,
-   "last_ts": "2026-11-24T06:55:23+00:00",
-   "move_pct": -2.06,
+   "last": 0.4199,
+   "last_ts": "2026-11-24T07:00:31+00:00",
+   "move_pct": -1.92,
    "closed": false,
    "rsi": 41.9,
    "trade_on": "Perps 1x",
@@ -210,14 +210,59 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.004484,
-   "last_ts": "2026-11-24T06:55:23+00:00",
-   "move_pct": -0.53,
+   "last": 0.004478,
+   "last_ts": "2026-11-24T07:00:31+00:00",
+   "move_pct": -0.67,
    "closed": false,
    "rsi": 58.7,
    "trade_on": "Spot",
    "market_reason": "trend not strong enough for leverage: spot has no liquidation or funding",
    "chart": "charts/PENGU-SPOT-1795496400.png",
+   "setup": "BOS"
+  },
+  {
+   "id": "ZBT-PERP-1795500000",
+   "kind": "TA",
+   "score": 2,
+   "reasons": [
+    "Chart: Break of structure: closed above the last swing high 0.05151, after a higher low",
+    "Timeframes: 1d down, 4h down, 4h structure higher highs/lows",
+    "Next resistance 0.055678 (2.9R away, 4h swing/swing)",
+    "Stop 0.050071 (structure); targets at the next 3 level(s)",
+    "BTC 4h trend down",
+    "Stronger than BTC by 6.4% over 7d",
+    "OI +10% 24h with breakout",
+    "Sector: Zero Knowledge ZK -3.0% 7d (leading, #2 of 20)",
+    "Track record: +4.1R on ZBT in the last 45 days (backtest)"
+   ],
+   "coin": "ZBT",
+   "market": "PERP",
+   "side": "LONG",
+   "entry": 0.05152,
+   "sl0": 0.050070649211636405,
+   "sl": 0.050070649211636405,
+   "tps": [
+    0.05558276649178311,
+    0.05811693315844979,
+    0.05894443315844979
+   ],
+   "lev": 1,
+   "funding_pct": 0.005,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-11-24T07:00:00+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.05154,
+   "last_ts": "2026-11-24T07:00:31+00:00",
+   "move_pct": 0.04,
+   "closed": false,
+   "rsi": 70.1,
+   "trade_on": "Perps 1x",
+   "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
+   "chart": "charts/ZBT-PERP-1795500000.png",
    "setup": "BOS"
   }
  ],
@@ -4430,7 +4475,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 5
+  "open": 6
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7783,28 +7828,6 @@
     ]
    },
    {
-    "id": "decentralized-finance-defi",
-    "name": "Decentralized Finance DeFi",
-    "chg7d": -3.05,
-    "top": [
-     "STETH",
-     "HYPE",
-     "WSTETH",
-     "LINK",
-     "DAI"
-    ],
-    "tracked": [
-     "LINK",
-     "HYPE",
-     "UNI",
-     "PUMP",
-     "LIT",
-     "ENA",
-     "AAVE",
-     "INJ"
-    ]
-   },
-   {
     "id": "artificial-intelligence",
     "name": "Artificial Intelligence",
     "chg7d": -3.66,
@@ -8015,6 +8038,28 @@
      "CASHCAT",
      "USELESS",
      "WIF"
+    ]
+   },
+   {
+    "id": "decentralized-finance-defi",
+    "name": "Decentralized Finance DeFi",
+    "chg7d": -5.76,
+    "top": [
+     "STETH",
+     "HYPE",
+     "WSTETH",
+     "LINK",
+     "DAI"
+    ],
+    "tracked": [
+     "LINK",
+     "HYPE",
+     "UNI",
+     "PUMP",
+     "LIT",
+     "ENA",
+     "AAVE",
+     "INJ"
     ]
    },
    {
@@ -8320,7 +8365,7 @@
   "updated": {
    "unlocks": 1795487122,
    "onchain": 1795500327,
-   "sectors": 1795502722,
+   "sectors": 1795503631,
    "listings": 1795500327,
    "fundamentals": 1795487122
   }
@@ -8359,6 +8404,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "be27d1874780d193ac5a2df9d01a599d70808d16ff59eeea9df1520cca8d879a",
- "generated": "2026-11-24T06:55:28+00:00"
+ "digest": "413554504d90c1814fa6c9069069043bf5112503718302547ac03caad1b7a14e",
+ "generated": "2026-11-24T07:01:06+00:00"
 }
