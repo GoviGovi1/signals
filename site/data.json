@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.0787,
-   "last_ts": "2026-11-24T14:00:31+00:00",
-   "move_pct": 8.9,
+   "last": 1.0804,
+   "last_ts": "2026-11-24T14:06:27+00:00",
+   "move_pct": 9.08,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -68,7 +68,7 @@
     0.08935394374766642
    ],
    "lev": 1,
-   "funding_pct": -0.0319,
+   "funding_pct": -0.0326,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-24T03:00:00+00:00",
@@ -76,9 +76,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1066,
-   "last_ts": "2026-11-24T14:00:31+00:00",
-   "move_pct": -0.0,
+   "last": 0.107,
+   "last_ts": "2026-11-24T14:06:27+00:00",
+   "move_pct": -0.38,
    "closed": false,
    "rsi": 40.9,
    "trade_on": "Perps 1x",
@@ -121,9 +121,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.4077,
-   "last_ts": "2026-11-24T14:00:31+00:00",
-   "move_pct": 1.04,
+   "last": 0.4092,
+   "last_ts": "2026-11-24T14:06:27+00:00",
+   "move_pct": 0.68,
    "closed": false,
    "rsi": 41.9,
    "trade_on": "Perps 1x",
@@ -158,7 +158,7 @@
     0.08582100076152281
    ],
    "lev": 1,
-   "funding_pct": 0.0048,
+   "funding_pct": 0.005,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-24T10:00:00+00:00",
@@ -166,9 +166,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0972,
-   "last_ts": "2026-11-24T14:00:31+00:00",
-   "move_pct": 4.24,
+   "last": 0.0976,
+   "last_ts": "2026-11-24T14:06:27+00:00",
+   "move_pct": 3.84,
    "closed": false,
    "rsi": 32.0,
    "trade_on": "Perps 1x",
@@ -203,7 +203,7 @@
     1.117108823451442
    ],
    "lev": 1,
-   "funding_pct": -0.0158,
+   "funding_pct": -0.0156,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-24T10:00:00+00:00",
@@ -211,9 +211,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.2653,
-   "last_ts": "2026-11-24T14:00:31+00:00",
-   "move_pct": 1.81,
+   "last": 1.2697,
+   "last_ts": "2026-11-24T14:06:27+00:00",
+   "move_pct": 1.47,
    "closed": false,
    "rsi": 38.3,
    "trade_on": "Perps 1x",
@@ -251,9 +251,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.674,
-   "last_ts": "2026-11-24T14:00:31+00:00",
-   "move_pct": -1.23,
+   "last": 0.6764,
+   "last_ts": "2026-11-24T14:06:27+00:00",
+   "move_pct": -0.88,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -296,9 +296,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.003047,
-   "last_ts": "2026-11-24T14:00:31+00:00",
-   "move_pct": 0.2,
+   "last": 0.00306,
+   "last_ts": "2026-11-24T14:06:27+00:00",
+   "move_pct": -0.23,
    "closed": false,
    "rsi": 41.4,
    "trade_on": "Perps 1x",
@@ -7782,44 +7782,44 @@
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
   "onchain": [
    {
-    "chain": "Base",
-    "symbol": "AERO",
-    "name": "Aero",
-    "token": "0x3f5bf3edac59d650d8fdf9657a71f2f904a3a4ee",
-    "price": 0.413671946209053,
-    "liq": 767646,
-    "vol24h": 7235720,
-    "age_d": 33.4,
-    "chg24h": -3.53,
-    "chg7d": -8.1,
-    "mcap": 316566527.999409,
+    "chain": "BSC",
+    "symbol": "CYS",
+    "name": "Cysic Token",
+    "token": "0x0c69199c1562233640e0db5ce2c399a88eb507c7",
+    "price": 0.0521134800181033,
+    "liq": 564955,
+    "vol24h": 8627125,
+    "age_d": 349.2,
+    "chg24h": 8.331,
+    "chg7d": -11.9,
+    "mcap": 8368909.33284,
     "safety": "unknown",
     "safety_notes": [
      "safety not checked"
     ],
     "trigger": false,
-    "trend_up": false,
-    "rsi": 45.3,
-    "url": "https://www.geckoterminal.com/base/pools/0x422df9aa896e883c9cdcbad309c0785b7364a1cf"
+    "trend_up": true,
+    "rsi": 47.7,
+    "url": "https://www.geckoterminal.com/bsc/pools/0x9cfea9ef82f26857c3426487774c088330555da6113c61ac7fb8b30d0ae434b3"
    },
    {
     "chain": "BSC",
-    "symbol": "ARK",
-    "name": "ARK",
-    "token": "0xcae117ca6bc8a341d2e7207f30e180f0e5618b9d",
-    "price": 6.42431509954789,
-    "liq": 58315299,
-    "vol24h": 5412003,
-    "age_d": 455.1,
-    "chg24h": -0.466,
-    "chg7d": -0.1,
-    "mcap": 0.0,
+    "symbol": "DOS",
+    "name": "DAPPOS",
+    "token": "0xb0f09ea9ae0515c3551080d4a745c8115aa30e37",
+    "price": 0.11451991331911,
+    "liq": 532500,
+    "vol24h": 5605983,
+    "age_d": 106.1,
+    "chg24h": -10.966,
+    "chg7d": -25.0,
+    "mcap": 22916820.14,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 49.3,
-    "url": "https://www.geckoterminal.com/bsc/pools/0xcaaf3c41a40103a23eeaa4bba468af3cf5b0e0d8"
+    "rsi": 30.3,
+    "url": "https://www.geckoterminal.com/bsc/pools/0xcbeaad783ffd2cea125e9d9b2ec21e639d20fa59"
    }
   ],
   "onchain_checked": 82,
@@ -7844,28 +7844,6 @@
      "ALGO",
      "ZBCN",
      "CARDS"
-    ]
-   },
-   {
-    "id": "depin",
-    "name": "DePIN",
-    "chg7d": -3.65,
-    "top": [
-     "TAO",
-     "RENDER",
-     "BDX",
-     "FIL",
-     "BTT"
-    ],
-    "tracked": [
-     "FIL",
-     "TAO",
-     "GRASS",
-     "RENDER",
-     "AR",
-     "ATH",
-     "LPT",
-     "IOTA"
     ]
    },
    {
@@ -8061,6 +8039,28 @@
      "TRB",
      "API3",
      "ZKP"
+    ]
+   },
+   {
+    "id": "depin",
+    "name": "DePIN",
+    "chg7d": -6.34,
+    "top": [
+     "TAO",
+     "RENDER",
+     "BDX",
+     "FIL",
+     "BTT"
+    ],
+    "tracked": [
+     "FIL",
+     "TAO",
+     "GRASS",
+     "RENDER",
+     "AR",
+     "ATH",
+     "LPT",
+     "IOTA"
     ]
    },
    {
@@ -8405,8 +8405,8 @@
   ],
   "updated": {
    "unlocks": 1795508723,
-   "onchain": 1795525518,
-   "sectors": 1795528229,
+   "onchain": 1795529122,
+   "sectors": 1795529122,
    "listings": 1795526722,
    "fundamentals": 1795508723
   }
@@ -8445,6 +8445,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "58473cc0ef54750f277cff0586221bae4bc13bafe7b4d601b2dada074072bc0e",
- "generated": "2026-11-24T14:01:01+00:00"
+ "digest": "05c28c6ee6625c0cae872ca014f41d5640d02cace020144e5eea567e6eefd3be",
+ "generated": "2026-11-24T14:06:30+00:00"
 }
