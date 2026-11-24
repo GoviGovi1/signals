@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.093,
-   "last_ts": "2026-11-23T23:55:19+00:00",
-   "move_pct": 10.35,
+   "last": 1.0883,
+   "last_ts": "2026-11-24T00:00:35+00:00",
+   "move_pct": 9.87,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -62,7 +62,7 @@
     0.02918017389916424
    ],
    "lev": 1,
-   "funding_pct": -0.0088,
+   "funding_pct": -0.0085,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-23T13:00:31+00:00",
@@ -70,9 +70,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.026592,
-   "last_ts": "2026-11-23T23:55:19+00:00",
-   "move_pct": 6.4,
+   "last": 0.02661,
+   "last_ts": "2026-11-24T00:00:35+00:00",
+   "move_pct": 6.47,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -114,15 +114,55 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 3605.93440865682,
-   "last_ts": "2026-11-23T23:55:19+00:00",
-   "move_pct": -1.63,
+   "last": 3608.2358218403197,
+   "last_ts": "2026-11-24T00:00:35+00:00",
+   "move_pct": -1.57,
    "closed": false,
    "rsi": 66.8,
    "trade_on": "On-chain spot (Ethereum DEX)",
    "market_reason": "not listed on OKX; buy on a DEX, small size, no leverage",
    "chart": "charts/PAXG-DEX-eth-0x45804880-1795442400.png",
    "setup": null
+  },
+  {
+   "id": "APR-PERP-HOT-20781",
+   "kind": "HOT",
+   "score": 430.12,
+   "reasons": [
+    "24h hot mover +23% with volume spike (2.7x the prior 3 days)",
+    "24h volume $6.9M on the OKX perp book, listed 396 days",
+    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
+    "Stop 0.031284 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
+   ],
+   "coin": "APR",
+   "market": "PERP",
+   "side": "LONG",
+   "entry": 0.03308,
+   "sl0": 0.0312842772158117,
+   "sl": 0.0312842772158117,
+   "tps": [
+    0.034875722784188296,
+    0.036671445568376586,
+    0.03846716835256488
+   ],
+   "lev": 1,
+   "funding_pct": 0.0057,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-11-24T00:00:35+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.03303,
+   "last_ts": "2026-11-24T00:00:35+00:00",
+   "move_pct": -0.15,
+   "closed": false,
+   "rsi": null,
+   "trade_on": "Perps 1x",
+   "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
+   "chart": "charts/APR-PERP-HOT-20781.png",
+   "setup": "HOT24"
   }
  ],
  "closed": [
@@ -4329,7 +4369,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 3
+  "open": 4
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7682,28 +7722,6 @@
     ]
    },
    {
-    "id": "exchange-based-tokens",
-    "name": "Exchange Based Tokens",
-    "chg7d": -2.77,
-    "top": [
-     "BNB",
-     "HYPE",
-     "LEO",
-     "WBT",
-     "UNI"
-    ],
-    "tracked": [
-     "BNB",
-     "HYPE",
-     "UNI",
-     "PUMP",
-     "MMT",
-     "OKB",
-     "ASTER",
-     "CRV"
-    ]
-   },
-   {
     "id": "artificial-intelligence",
     "name": "Artificial Intelligence",
     "chg7d": -3.22,
@@ -7870,6 +7888,28 @@
      "KITE",
      "AEON",
      "AIXBT"
+    ]
+   },
+   {
+    "id": "exchange-based-tokens",
+    "name": "Exchange Based Tokens",
+    "chg7d": -4.43,
+    "top": [
+     "BNB",
+     "HYPE",
+     "LEO",
+     "WBT",
+     "UNI"
+    ],
+    "tracked": [
+     "BNB",
+     "HYPE",
+     "UNI",
+     "PUMP",
+     "MMT",
+     "OKB",
+     "ASTER",
+     "CRV"
     ]
    },
    {
@@ -8219,8 +8259,8 @@
   "updated": {
    "unlocks": 1795465223,
    "onchain": 1795475127,
-   "sectors": 1795477522,
-   "listings": 1795474526,
+   "sectors": 1795478434,
+   "listings": 1795478428,
    "fundamentals": 1795465223
   }
  },
@@ -8258,6 +8298,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "8d2823f8ef206368032a63950019c6219b64c0675726b10e721c99db625f3d1c",
- "generated": "2026-11-23T23:55:24+00:00"
+ "digest": "47cacf97cc248e89720cdcceb78cbe2c061355be6c71ad245c7c3d877185af22",
+ "generated": "2026-11-24T00:01:10+00:00"
 }
