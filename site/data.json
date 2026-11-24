@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.0778,
-   "last_ts": "2026-11-24T09:00:32+00:00",
-   "move_pct": 8.81,
+   "last": 1.0776,
+   "last_ts": "2026-11-24T09:06:31+00:00",
+   "move_pct": 8.79,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -76,9 +76,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1083,
-   "last_ts": "2026-11-24T09:00:32+00:00",
-   "move_pct": -1.59,
+   "last": 0.1082,
+   "last_ts": "2026-11-24T09:06:31+00:00",
+   "move_pct": -1.5,
    "closed": false,
    "rsi": 40.9,
    "trade_on": "Perps 1x",
@@ -121,60 +121,15 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.4122,
-   "last_ts": "2026-11-24T09:00:32+00:00",
-   "move_pct": -0.05,
+   "last": 0.4109,
+   "last_ts": "2026-11-24T09:06:31+00:00",
+   "move_pct": 0.27,
    "closed": false,
    "rsi": 41.9,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": "charts/AERO-PERP-1795485600.png",
    "setup": "BREAKOUT20"
-  },
-  {
-   "id": "PENGU-SPOT-1795496400",
-   "kind": "TA",
-   "score": 1,
-   "reasons": [
-    "Chart: Break of structure: closed above the last swing high 0.004497, after a higher low",
-    "Timeframes: 1d down, 4h down, 4h structure higher highs/lows",
-    "Next resistance 0.004881 (3.0R away, 4h swing/swing/volume node)",
-    "Stop 0.0043776 (structure); targets at the next 2 level(s)",
-    "BTC 4h trend down",
-    "Weaker than BTC by 0.3% over 7d",
-    "OI +6% 24h with breakout",
-    "Sector: Solana Meme Coins -5.4% 7d (middle, #12 of 20)",
-    "Track record: +3.7R on PENGU in the last 45 days (backtest)"
-   ],
-   "coin": "PENGU",
-   "market": "SPOT",
-   "side": "LONG",
-   "entry": 0.004508,
-   "sl0": 0.004382424205721847,
-   "sl": 0.004382424205721847,
-   "tps": [
-    0.004874353291321445,
-    0.005075614396712463,
-    0.005201190190990615
-   ],
-   "lev": null,
-   "funding_pct": null,
-   "status": "open",
-   "hits": 0,
-   "opened": "2026-11-24T06:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.004398,
-   "last_ts": "2026-11-24T09:00:32+00:00",
-   "move_pct": -2.44,
-   "closed": false,
-   "rsi": 58.7,
-   "trade_on": "Spot",
-   "market_reason": "trend not strong enough for leverage: spot has no liquidation or funding",
-   "chart": "charts/PENGU-SPOT-1795496400.png",
-   "setup": "BOS"
   },
   {
    "id": "ZBT-PERP-1795500000",
@@ -211,9 +166,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.05041,
-   "last_ts": "2026-11-24T09:00:32+00:00",
-   "move_pct": -2.15,
+   "last": 0.05023,
+   "last_ts": "2026-11-24T09:06:31+00:00",
+   "move_pct": -2.5,
    "closed": false,
    "rsi": 70.1,
    "trade_on": "Perps 1x",
@@ -223,6 +178,51 @@
   }
  ],
  "closed": [
+  {
+   "id": "PENGU-SPOT-1795496400",
+   "kind": "TA",
+   "score": 1,
+   "reasons": [
+    "Chart: Break of structure: closed above the last swing high 0.004497, after a higher low",
+    "Timeframes: 1d down, 4h down, 4h structure higher highs/lows",
+    "Next resistance 0.004881 (3.0R away, 4h swing/swing/volume node)",
+    "Stop 0.0043776 (structure); targets at the next 2 level(s)",
+    "BTC 4h trend down",
+    "Weaker than BTC by 0.3% over 7d",
+    "OI +6% 24h with breakout",
+    "Sector: Solana Meme Coins -5.4% 7d (middle, #12 of 20)",
+    "Track record: +3.7R on PENGU in the last 45 days (backtest)"
+   ],
+   "coin": "PENGU",
+   "market": "SPOT",
+   "side": "LONG",
+   "entry": 0.004508,
+   "sl0": 0.004382424205721847,
+   "sl": 0.004382424205721847,
+   "tps": [
+    0.004874353291321445,
+    0.005075614396712463,
+    0.005201190190990615
+   ],
+   "lev": null,
+   "funding_pct": null,
+   "status": "stopped",
+   "hits": 0,
+   "opened": "2026-11-24T06:00:00+00:00",
+   "closed_at": "2026-11-24T09:06:31+00:00",
+   "exit_price": 0.004382424205721847,
+   "result_r": -1.0,
+   "result_pct": -2.79,
+   "last": 0.004381,
+   "last_ts": "2026-11-24T09:06:31+00:00",
+   "move_pct": -2.44,
+   "closed": true,
+   "rsi": 58.7,
+   "trade_on": "Spot",
+   "market_reason": "trend not strong enough for leverage: spot has no liquidation or funding",
+   "chart": "charts/PENGU-SPOT-1795496400.png",
+   "setup": "BOS"
+  },
   {
    "id": "PAXG-DEX-eth-0x45804880-1795442400",
    "kind": "ONCHAIN",
@@ -1949,7 +1949,7 @@
    "rsi": null,
    "trade_on": "Perps 1x",
    "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
-   "chart": "charts/PIEVERSE-PERP-HOT-20776.png",
+   "chart": null,
    "setup": "HOT24"
   },
   {
@@ -2784,71 +2784,26 @@
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": null,
    "setup": "BOS"
-  },
-  {
-   "id": "XLM-SPOT-1794985200",
-   "kind": "TA",
-   "score": 1,
-   "reasons": [
-    "Chart: Broke out of a 2-day range at 0.14205 (range 0.1357\u20130.14205) on 1.2x volume",
-    "Timeframes: 1d down, 4h down, 4h structure lower highs/lows",
-    "Next resistance 0.14939 (2.3R away, 4h swing/swing/volume node)",
-    "Stop 0.13915 (2 ATR); targets at the next 3 level(s)",
-    "BTC 4h trend down",
-    "Stronger than BTC by 10.4% over 7d",
-    "OI +4% 24h",
-    "Sector: Real World Assets RWA -0.3% 7d (leading, #1 of 20)",
-    "Track record: +0.0R on XLM in the last 45 days (backtest)"
-   ],
-   "coin": "XLM",
-   "market": "SPOT",
-   "side": "LONG",
-   "entry": 0.14238,
-   "sl0": 0.13924848271119475,
-   "sl": 0.13924848271119475,
-   "tps": [
-    0.14925864830638486,
-    0.15433369678810205,
-    0.15712565771022746
-   ],
-   "lev": null,
-   "funding_pct": null,
-   "status": "stopped",
-   "hits": 0,
-   "opened": "2026-11-18T08:00:00+00:00",
-   "closed_at": "2026-11-18T15:45:24+00:00",
-   "exit_price": 0.13924848271119475,
-   "result_r": -1.0,
-   "result_pct": -2.2,
-   "last": 0.13928,
-   "last_ts": "2026-11-18T15:45:24+00:00",
-   "move_pct": -1.96,
-   "closed": true,
-   "rsi": 63.0,
-   "trade_on": "Spot",
-   "market_reason": "thin perp market: spot is safer",
-   "chart": null,
-   "setup": "RANGE_BREAK"
   }
  ],
  "stats": {
   "all": {
-   "trades": 317,
+   "trades": 318,
    "wins": 151,
-   "losses": 166,
-   "win_rate": 47.6,
-   "total_r": 35.3,
-   "avg_r": 0.111,
-   "total_pct": 169.16
+   "losses": 167,
+   "win_rate": 47.5,
+   "total_r": 34.3,
+   "avg_r": 0.108,
+   "total_pct": 166.37
   },
   "SPOT": {
-   "trades": 90,
+   "trades": 91,
    "wins": 35,
-   "losses": 55,
-   "win_rate": 38.9,
-   "total_r": -9.21,
-   "avg_r": -0.102,
-   "total_pct": 46.06
+   "losses": 56,
+   "win_rate": 38.5,
+   "total_r": -10.21,
+   "avg_r": -0.112,
+   "total_pct": 43.27
   },
   "PERP": {
    "trades": 211,
@@ -2888,13 +2843,13 @@
     "total_pct": 18.9
    },
    "TA": {
-    "trades": 219,
+    "trades": 220,
     "wins": 96,
-    "losses": 123,
-    "win_rate": 43.8,
-    "total_r": 26.01,
-    "avg_r": 0.119,
-    "total_pct": 83.5
+    "losses": 124,
+    "win_rate": 43.6,
+    "total_r": 25.01,
+    "avg_r": 0.114,
+    "total_pct": 80.71
    }
   },
   "coins": {
@@ -3934,13 +3889,13 @@
     "total_pct": -0.35
    },
    "PENGU": {
-    "trades": 1,
+    "trades": 2,
     "wins": 1,
-    "losses": 0,
-    "win_rate": 100.0,
-    "total_r": 0.57,
-    "avg_r": 0.567,
-    "total_pct": 0.86
+    "losses": 1,
+    "win_rate": 50.0,
+    "total_r": -0.43,
+    "avg_r": -0.217,
+    "total_pct": -1.93
    },
    "PEOPLE": {
     "trades": 1,
@@ -4429,7 +4384,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 5
+  "open": 4
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7697,45 +7652,45 @@
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
   "onchain": [
    {
-    "chain": "BSC",
-    "symbol": "DNA",
-    "name": "DE NEO AGENT",
-    "token": "0xa991f61940095aea0724ef54077223b048c5cf7b",
-    "price": 0.17084593824793,
-    "liq": 1762857,
-    "vol24h": 12875743,
-    "age_d": 39.9,
-    "chg24h": 4.048,
-    "chg7d": 0.4,
-    "mcap": 22155205.202,
+    "chain": "Base",
+    "symbol": "SPCXC",
+    "name": "Space Exploration Technologies Corp.",
+    "token": "0xb2000000000000000000007b9fcbd005511acbd5",
+    "price": 133.394055263118,
+    "liq": 1108885,
+    "vol24h": 12798802,
+    "age_d": 33.3,
+    "chg24h": 0.161,
+    "chg7d": -2.8,
+    "mcap": 4064793.07595371,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": true,
-    "rsi": 57.5,
-    "url": "https://www.geckoterminal.com/bsc/pools/0xd0949ad5874cee7991ccd4cc2c5f7f80a7be4a220689cf5947ccb12a946fa50d"
+    "rsi": 50.8,
+    "url": "https://www.geckoterminal.com/base/pools/0x880db7dda4407d99508574e680d067d1164b3cfe"
    },
    {
-    "chain": "BSC",
-    "symbol": "ARK",
-    "name": "ARK",
-    "token": "0xcae117ca6bc8a341d2e7207f30e180f0e5618b9d",
-    "price": 6.41531326733496,
-    "liq": 58318392,
-    "vol24h": 5591171,
-    "age_d": 454.9,
-    "chg24h": 0.029,
-    "chg7d": -0.5,
-    "mcap": 0.0,
+    "chain": "Base",
+    "symbol": "AERO",
+    "name": "Aero",
+    "token": "0x3f5bf3edac59d650d8fdf9657a71f2f904a3a4ee",
+    "price": 0.41166957723365,
+    "liq": 769203,
+    "vol24h": 7279095,
+    "age_d": 33.2,
+    "chg24h": -3.192,
+    "chg7d": -5.9,
+    "mcap": 316959246.193528,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 47.6,
-    "url": "https://www.geckoterminal.com/bsc/pools/0xcaaf3c41a40103a23eeaa4bba468af3cf5b0e0d8"
+    "rsi": 46.2,
+    "url": "https://www.geckoterminal.com/base/pools/0x422df9aa896e883c9cdcbad309c0785b7364a1cf"
    }
   ],
-  "onchain_checked": 84,
+  "onchain_checked": 85,
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
@@ -8318,7 +8273,7 @@
   ],
   "updated": {
    "unlocks": 1795508723,
-   "onchain": 1795507528,
+   "onchain": 1795511129,
    "sectors": 1795510832,
    "listings": 1795508131,
    "fundamentals": 1795508723
@@ -8358,6 +8313,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "97671b8e587bc61bdf60ed5db8e70878a1f8ef04f92dbfe86e4b18fc7cc9c6ec",
- "generated": "2026-11-24T09:01:02+00:00"
+ "digest": "567266acd804228b3a310d3346ae39ec03f7e735291e4b1c151af919df7d1fd2",
+ "generated": "2026-11-24T09:06:34+00:00"
 }
