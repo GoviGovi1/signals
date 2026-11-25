@@ -36,9 +36,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1052,
-   "last_ts": "2026-11-25T02:50:29+00:00",
-   "move_pct": 1.31,
+   "last": 0.1048,
+   "last_ts": "2026-11-25T02:55:28+00:00",
+   "move_pct": 1.69,
    "closed": false,
    "rsi": 40.9,
    "trade_on": "Perps 1x",
@@ -81,9 +81,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.3907,
-   "last_ts": "2026-11-25T02:50:29+00:00",
-   "move_pct": 5.17,
+   "last": 0.3897,
+   "last_ts": "2026-11-25T02:55:28+00:00",
+   "move_pct": 5.41,
    "closed": false,
    "rsi": 41.9,
    "trade_on": "Perps 1x",
@@ -126,9 +126,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0925,
-   "last_ts": "2026-11-25T02:50:29+00:00",
-   "move_pct": 8.87,
+   "last": 0.0921,
+   "last_ts": "2026-11-25T02:55:28+00:00",
+   "move_pct": 9.26,
    "closed": false,
    "rsi": 32.0,
    "trade_on": "Perps 1x",
@@ -163,7 +163,7 @@
     1.117108823451442
    ],
    "lev": 1,
-   "funding_pct": -0.0307,
+   "funding_pct": -0.0325,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-24T10:00:00+00:00",
@@ -171,9 +171,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.2233,
-   "last_ts": "2026-11-25T02:50:29+00:00",
-   "move_pct": 5.07,
+   "last": 1.2182,
+   "last_ts": "2026-11-25T02:55:28+00:00",
+   "move_pct": 5.46,
    "closed": false,
    "rsi": 38.3,
    "trade_on": "Perps 1x",
@@ -216,9 +216,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.002994,
-   "last_ts": "2026-11-25T02:50:29+00:00",
-   "move_pct": 1.93,
+   "last": 0.002983,
+   "last_ts": "2026-11-25T02:55:28+00:00",
+   "move_pct": 2.29,
    "closed": false,
    "rsi": 41.4,
    "trade_on": "Perps 1x",
@@ -248,7 +248,7 @@
     0.19635317146867803
    ],
    "lev": 1,
-   "funding_pct": -0.0199,
+   "funding_pct": -0.0208,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-25T00:05:58+00:00",
@@ -256,9 +256,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.16904,
-   "last_ts": "2026-11-25T02:50:29+00:00",
-   "move_pct": 0.7,
+   "last": 0.16908,
+   "last_ts": "2026-11-25T02:55:28+00:00",
+   "move_pct": 0.72,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -8198,6 +8198,30 @@
   ],
   "listings": [
    {
+    "coin": "JD",
+    "list_ts": 1795597200,
+    "market": "PERP",
+    "state": "preopen"
+   },
+   {
+    "coin": "KUAISHOU",
+    "list_ts": 1795588200,
+    "market": "PERP",
+    "state": "preopen"
+   },
+   {
+    "coin": "MEITUAN",
+    "list_ts": 1795587300,
+    "market": "PERP",
+    "state": "preopen"
+   },
+   {
+    "coin": "TENCENT",
+    "list_ts": 1795586400,
+    "market": "PERP",
+    "state": "preopen"
+   },
+   {
     "coin": "AMDL",
     "list_ts": 1795513500,
     "market": "PERP",
@@ -8260,30 +8284,6 @@
    {
     "coin": "XMINIMAX",
     "list_ts": 1795068000,
-    "market": "SPOT",
-    "state": "live"
-   },
-   {
-    "coin": "SSPC",
-    "list_ts": 1794994200,
-    "market": "PERP",
-    "state": "live"
-   },
-   {
-    "coin": "XLF",
-    "list_ts": 1794993300,
-    "market": "PERP",
-    "state": "live"
-   },
-   {
-    "coin": "SOXX",
-    "list_ts": 1794992400,
-    "market": "PERP",
-    "state": "live"
-   },
-   {
-    "coin": "XCYPH",
-    "list_ts": 1794987000,
     "market": "SPOT",
     "state": "live"
    }
@@ -8366,7 +8366,7 @@
    "unlocks": 1795574119,
    "onchain": 1795572320,
    "sectors": 1795575029,
-   "listings": 1795571720,
+   "listings": 1795575328,
    "fundamentals": 1795574120
   }
  },
@@ -8404,6 +8404,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "ecbf1f6674f7229a4cacc1ef5d294fa40ee357baa691ab39098d0f661994a4ff",
- "generated": "2026-11-25T02:50:32+00:00"
+ "digest": "8eda8771cdc7fddef6692c9927b84310ac450a1b83b82cf1139c753d4def524e",
+ "generated": "2026-11-25T02:55:31+00:00"
 }
