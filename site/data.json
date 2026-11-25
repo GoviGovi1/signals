@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.4012,
-   "last_ts": "2026-11-25T19:55:22+00:00",
-   "move_pct": 2.62,
+   "last": 0.4002,
+   "last_ts": "2026-11-25T20:00:32+00:00",
+   "move_pct": 2.86,
    "closed": false,
    "rsi": 41.9,
    "trade_on": "Perps 1x",
@@ -72,7 +72,7 @@
     0.08582100076152281
    ],
    "lev": 1,
-   "funding_pct": 0.002,
+   "funding_pct": 0.0025,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-11-24T10:00:00+00:00",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0969,
-   "last_ts": "2026-11-25T19:55:22+00:00",
-   "move_pct": 4.53,
+   "last": 0.0966,
+   "last_ts": "2026-11-25T20:00:32+00:00",
+   "move_pct": 4.83,
    "closed": false,
    "rsi": 32.0,
    "trade_on": "Perps 1x",
@@ -7735,6 +7735,26 @@
     ]
    },
    {
+    "id": "oracle",
+    "name": "Oracle",
+    "chg7d": -6.07,
+    "top": [
+     "LINK",
+     "PYTH",
+     "RED",
+     "WIN",
+     "TRB"
+    ],
+    "tracked": [
+     "LINK",
+     "TRB",
+     "PYTH",
+     "API3",
+     "AT",
+     "WIN"
+    ]
+   },
+   {
     "id": "layer-1",
     "name": "Layer 1",
     "chg7d": -7.26,
@@ -7881,26 +7901,6 @@
      "SHIB",
      "USELESS",
      "WIF"
-    ]
-   },
-   {
-    "id": "oracle",
-    "name": "Oracle",
-    "chg7d": -9.43,
-    "top": [
-     "LINK",
-     "PYTH",
-     "RED",
-     "WIN",
-     "TRB"
-    ],
-    "tracked": [
-     "LINK",
-     "TRB",
-     "PYTH",
-     "API3",
-     "AT",
-     "WIN"
     ]
    },
    {
@@ -8207,7 +8207,7 @@
   "updated": {
    "unlocks": 1795617623,
    "onchain": 1795633519,
-   "sectors": 1795635920,
+   "sectors": 1795636832,
    "listings": 1795636222,
    "fundamentals": 1795617623
   }
@@ -8246,6 +8246,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "5468e171e12c50b91d4e70c70f2db38c61503c65a4c2334af45fa06409a413f1",
- "generated": "2026-11-25T19:55:25+00:00"
+ "digest": "a34eed1a4dd408084db7059425ff0a6dbf2c13c2de4d8319e6ad9af04448125e",
+ "generated": "2026-11-25T20:01:06+00:00"
 }
