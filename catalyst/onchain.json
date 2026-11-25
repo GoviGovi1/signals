@@ -51,13 +51,6 @@
   {
    "chain": "Solana",
    "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "CATE"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
     "liquidity under $250k",
     "pool younger than 7 days"
    ],
@@ -66,9 +59,24 @@
   {
    "chain": "Solana",
    "fails": [
+    "no DEX candles"
+   ],
+   "symbol": "CATE"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
     "liquidity under $250k"
    ],
    "symbol": "DCTY"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "liquidity under $250k",
+    "pool younger than 7 days"
+   ],
+   "symbol": "BASKET"
   },
   {
    "chain": "Solana",
@@ -96,6 +104,14 @@
   {
    "chain": "Solana",
    "fails": [
+    "liquidity under $250k",
+    "24h volume under $250k"
+   ],
+   "symbol": "SWORDCAT"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
     "liquidity under $250k"
    ],
    "symbol": "HUSS"
@@ -117,10 +133,9 @@
   {
    "chain": "Solana",
    "fails": [
-    "liquidity under $250k",
-    "24h volume under $250k"
+    "liquidity under $250k"
    ],
-   "symbol": "SWORDCAT"
+   "symbol": "WASTED"
   },
   {
    "chain": "Solana",
@@ -129,21 +144,6 @@
     "pool younger than 7 days"
    ],
    "symbol": "GROKIA"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "liquidity under $250k",
-    "pool younger than 7 days"
-   ],
-   "symbol": "BASKET"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "liquidity under $250k"
-   ],
-   "symbol": "WASTED"
   },
   {
    "chain": "Base",
@@ -190,16 +190,16 @@
   {
    "chain": "Base",
    "fails": [
-    "no DEX candles"
+    "24h volume under $250k"
    ],
-   "symbol": "AERO"
+   "symbol": "BNKR"
   },
   {
    "chain": "Base",
    "fails": [
-    "24h volume under $250k"
+    "no DEX candles"
    ],
-   "symbol": "BNKR"
+   "symbol": "AERO"
   },
   {
    "chain": "Base",
@@ -211,17 +211,17 @@
   {
    "chain": "Base",
    "fails": [
-    "liquidity under $250k",
     "24h volume under $250k"
    ],
-   "symbol": "FLOWER"
+   "symbol": "SOGNI"
   },
   {
    "chain": "Base",
    "fails": [
+    "liquidity under $250k",
     "24h volume under $250k"
    ],
-   "symbol": "SOGNI"
+   "symbol": "FLOWER"
   },
   {
    "chain": "Base",
@@ -242,6 +242,13 @@
    "fails": [
     "no DEX candles"
    ],
+   "symbol": "TTWOC"
+  },
+  {
+   "chain": "Base",
+   "fails": [
+    "no DEX candles"
+   ],
    "symbol": "SPCXC"
   },
   {
@@ -249,20 +256,12 @@
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "TTWOC"
+   "symbol": "GOOGLC"
   },
   {
    "chain": "BSC",
    "fails": [
-    "liquidity under $250k",
-    "pool younger than 7 days"
-   ],
-   "symbol": "GOAT"
-  },
-  {
-   "chain": "BSC",
-   "fails": [
-    "liquidity under $250k"
+    "no DEX candles"
    ],
    "symbol": "EVAA"
   },
@@ -292,69 +291,67 @@
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "ARK"
+   "symbol": "BLESS"
   }
  ],
  "rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
- "updated": 1795601122,
+ "updated": 1795604719,
  "watchlist": [
   {
    "age_d": 575.0,
-   "atr": 0.0066538681960923605,
-   "bar_ts": 1795597200000,
+   "atr": 0.006361349988935896,
+   "bar_ts": 1795600800000,
    "chain": "BSC",
-   "chg24h": 0.035,
+   "chg24h": -3.284,
    "chg7d": 4.0,
-   "close": 0.0894354074823527,
-   "ema20": 0.08677483493232832,
-   "ema50": 0.08113505585525181,
+   "close": 0.0881102471618868,
+   "ema20": 0.08690201705216362,
+   "ema50": 0.08140862829633096,
    "fails": [],
    "gecko_id": "okzoo",
-   "liq": 2440766,
-   "mcap": 49045841.367329,
+   "liq": 2412536,
+   "mcap": 48501908.3335118,
    "name": "OKZOO",
    "net": "bsc",
    "pool": "0xb433ae7e7011a2fb9a4bbb86140e0f653dcfcfba",
-   "price": 0.0892960244956739,
-   "rsi": 56.9,
-   "safety": "unknown",
-   "safety_notes": [
-    "safety not checked"
-   ],
+   "price": 0.0883057049114985,
+   "rsi": 54.4,
+   "safety": "ok",
+   "safety_notes": [],
    "symbol": "AIOT",
    "token": "0x55ad16bd573b3365f43a9daeb0cc66a73821b4a5",
    "trend_up": true,
    "trigger": false,
    "url": "https://www.geckoterminal.com/bsc/pools/0xb433ae7e7011a2fb9a4bbb86140e0f653dcfcfba",
-   "vol24h": 7986926
+   "vol24h": 7145097
   },
   {
-   "age_d": 429.1,
-   "atr": 0.0012632142843358033,
-   "bar_ts": 1795597200000,
+   "age_d": 463.1,
+   "atr": 0.016120251274667183,
+   "bar_ts": 1795600800000,
    "chain": "BSC",
-   "chg24h": -12.132,
-   "chg7d": 53.2,
-   "close": 0.0166930541731681,
-   "ema20": 0.01712426026291828,
-   "ema50": 0.01689358919249844,
+   "chg24h": -10.679,
+   "chg7d": 23.0,
+   "close": 0.294274851072729,
+   "ema20": 0.301669855709469,
+   "ema50": 0.29955206220899183,
    "fails": [],
-   "gecko_id": "bless-2",
-   "liq": 279746,
-   "mcap": 30680386.277803,
-   "name": "Bless Token",
+   "gecko_id": "aria-ai",
+   "liq": 2155499,
+   "mcap": 53907885.5751,
+   "name": "ARIA.AI",
    "net": "bsc",
-   "pool": "0x49986efbeedea3ab962ca95caf86919860ecc9db",
-   "price": 0.0166590332737213,
-   "rsi": 46.9,
+   "pool": "0xa5dbeaf16fc031eae92175974f8d0a439be4ad17",
+   "price": 0.294578609707402,
+   "rsi": 44.6,
    "safety": "ok",
    "safety_notes": [],
-   "symbol": "BLESS",
-   "token": "0x7c8217517ed4711fe2deccdfeffe8d906b9ae11f",
+   "symbol": "ARIA",
+   "token": "0x5d3a12c42e5372b2cc3264ab3cdcf660a1555238",
    "trend_up": false,
    "trigger": false,
-   "url": "https://www.geckoterminal.com/bsc/pools/0x49986efbeedea3ab962ca95caf86919860ecc9db",
-   "vol24h": 4337808
+   "url": "https://www.geckoterminal.com/bsc/pools/0xa5dbeaf16fc031eae92175974f8d0a439be4ad17",
+   "vol24h": 3959370
   }
  ]
 }
