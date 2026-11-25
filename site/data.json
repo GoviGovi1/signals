@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.3952,
-   "last_ts": "2026-11-25T17:40:23+00:00",
-   "move_pct": 4.08,
+   "last": 0.3958,
+   "last_ts": "2026-11-25T17:45:23+00:00",
+   "move_pct": 3.93,
    "closed": false,
    "rsi": 41.9,
    "trade_on": "Perps 1x",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0923,
-   "last_ts": "2026-11-25T17:40:23+00:00",
-   "move_pct": 9.06,
+   "last": 0.0927,
+   "last_ts": "2026-11-25T17:45:23+00:00",
+   "move_pct": 8.67,
    "closed": false,
    "rsi": 32.0,
    "trade_on": "Perps 1x",
@@ -117,7 +117,7 @@
     1.117108823451442
    ],
    "lev": 1,
-   "funding_pct": -0.0075,
+   "funding_pct": -0.0066,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-24T10:00:00+00:00",
@@ -125,9 +125,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.2488,
-   "last_ts": "2026-11-25T17:40:23+00:00",
-   "move_pct": 3.09,
+   "last": 1.2566,
+   "last_ts": "2026-11-25T17:45:23+00:00",
+   "move_pct": 2.48,
    "closed": false,
    "rsi": 38.3,
    "trade_on": "Perps 1x",
@@ -170,9 +170,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.003088,
-   "last_ts": "2026-11-25T17:40:23+00:00",
-   "move_pct": -1.15,
+   "last": 0.003087,
+   "last_ts": "2026-11-25T17:45:23+00:00",
+   "move_pct": -1.11,
    "closed": false,
    "rsi": 41.4,
    "trade_on": "Perps 1x",
@@ -207,7 +207,7 @@
     3.261259028126541e-06
    ],
    "lev": 1,
-   "funding_pct": -0.0084,
+   "funding_pct": -0.0081,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-25T03:00:00+00:00",
@@ -215,16 +215,18 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 3.519e-06,
-   "last_ts": "2026-11-25T17:40:23+00:00",
-   "move_pct": -0.74,
+   "last": 3.525e-06,
+   "last_ts": "2026-11-25T17:45:23+00:00",
+   "move_pct": -0.92,
    "closed": false,
    "rsi": 33.0,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": "charts/SHIB-PERP-1795572000.png",
    "setup": "BREAKOUT20"
-  },
+  }
+ ],
+ "closed": [
   {
    "id": "ORDI-PERP-1795604400",
    "kind": "TA",
@@ -253,25 +255,23 @@
    ],
    "lev": 1,
    "funding_pct": 0.005,
-   "status": "open",
+   "status": "stopped",
    "hits": 0,
    "opened": "2026-11-25T12:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 2.565,
-   "last_ts": "2026-11-25T17:40:23+00:00",
+   "closed_at": "2026-11-25T17:45:23+00:00",
+   "exit_price": 2.5689528756224362,
+   "result_r": -1.0,
+   "result_pct": -1.86,
+   "last": 2.57,
+   "last_ts": "2026-11-25T17:45:23+00:00",
    "move_pct": -1.7,
-   "closed": false,
+   "closed": true,
    "rsi": 37.9,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": "charts/ORDI-PERP-1795604400.png",
    "setup": "BREAKOUT20"
-  }
- ],
- "closed": [
+  },
   {
    "id": "VIRTUAL-PERP-1795611600",
    "kind": "TA",
@@ -1998,7 +1998,7 @@
    "rsi": 31.9,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": "charts/PEOPLE-PERP-1795147200.png",
+   "chart": null,
    "setup": "RETEST"
   },
   {
@@ -2822,61 +2822,17 @@
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": null,
    "setup": "RANGE_BREAK"
-  },
-  {
-   "id": "MASK-PERP-1794909600",
-   "kind": "TA",
-   "score": 0,
-   "reasons": [
-    "Chart: Broke the 20-hour low on 2.3x volume",
-    "Timeframes: 1d down, 4h down, 4h structure mixed",
-    "Next support 0.2861 (2.3R away, 4h swing/swing)",
-    "Stop 0.30724 (structure); targets at the next 1 level(s)",
-    "BTC 4h trend down",
-    "Weaker than BTC by 2.9% over 7d",
-    "OI +0% 24h",
-    "Track record: +6.1R on MASK in the last 45 days (backtest)"
-   ],
-   "coin": "MASK",
-   "market": "PERP",
-   "side": "SHORT",
-   "entry": 0.3009,
-   "sl0": 0.30723945396732577,
-   "sl": 0.3009,
-   "tps": [
-    0.28650722698366293,
-    0.28016777301633716,
-    0.2738283190490114
-   ],
-   "lev": 1,
-   "funding_pct": 0.01,
-   "status": "expired",
-   "hits": 1,
-   "opened": "2026-11-17T11:00:00+00:00",
-   "closed_at": "2026-11-19T11:01:03+00:00",
-   "exit_price": 0.2914,
-   "result_r": 1.692,
-   "result_pct": 3.56,
-   "last": 0.2914,
-   "last_ts": "2026-11-19T11:01:03+00:00",
-   "move_pct": 2.96,
-   "closed": true,
-   "rsi": 41.3,
-   "trade_on": "Perps 1x",
-   "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": null,
-   "setup": "BREAKOUT20"
   }
  ],
  "stats": {
   "all": {
-   "trades": 327,
+   "trades": 328,
    "wins": 155,
-   "losses": 172,
-   "win_rate": 47.4,
-   "total_r": 32.62,
-   "avg_r": 0.1,
-   "total_pct": 169.93
+   "losses": 173,
+   "win_rate": 47.3,
+   "total_r": 31.62,
+   "avg_r": 0.096,
+   "total_pct": 168.07
   },
   "SPOT": {
    "trades": 94,
@@ -2888,13 +2844,13 @@
    "total_pct": 47.27
   },
   "PERP": {
-   "trades": 217,
+   "trades": 218,
    "wins": 110,
-   "losses": 107,
-   "win_rate": 50.7,
-   "total_r": 43.15,
-   "avg_r": 0.199,
-   "total_pct": 103.76
+   "losses": 108,
+   "win_rate": 50.5,
+   "total_r": 42.15,
+   "avg_r": 0.193,
+   "total_pct": 101.9
   },
   "DEX": {
    "trades": 16,
@@ -2925,13 +2881,13 @@
     "total_pct": 18.9
    },
    "TA": {
-    "trades": 224,
+    "trades": 225,
     "wins": 97,
-    "losses": 127,
-    "win_rate": 43.3,
-    "total_r": 22.26,
-    "avg_r": 0.099,
-    "total_pct": 74.16
+    "losses": 128,
+    "win_rate": 43.1,
+    "total_r": 21.26,
+    "avg_r": 0.094,
+    "total_pct": 72.3
    }
   },
   "coins": {
@@ -3944,13 +3900,13 @@
     "total_pct": -12.0
    },
    "ORDI": {
-    "trades": 1,
+    "trades": 2,
     "wins": 0,
-    "losses": 1,
+    "losses": 2,
     "win_rate": 0.0,
-    "total_r": -1.0,
+    "total_r": -2.0,
     "avg_r": -1.0,
-    "total_pct": -2.04
+    "total_pct": -3.9
    },
    "PARTI": {
     "trades": 2,
@@ -4466,7 +4422,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 6
+  "open": 5
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7091,21 +7047,6 @@
  "catalysts": {
   "unlocks": [
    {
-    "big": false,
-    "coin": "WAL",
-    "insider_pct": 23,
-    "pct": 1.24,
-    "tokens": 32708333,
-    "tracked": true,
-    "ts": 1795628460,
-    "usd": 670302,
-    "who": [
-     "Community Reserve",
-     "Subsidies",
-     "Mysten Labs"
-    ]
-   },
-   {
     "big": true,
     "coin": "RESOLV",
     "insider_pct": 100,
@@ -8388,7 +8329,7 @@
    "unlocks": 1795617623,
    "onchain": 1795626330,
    "sectors": 1795628423,
-   "listings": 1795624828,
+   "listings": 1795628722,
    "fundamentals": 1795617623
   }
  },
@@ -8426,6 +8367,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "efb9b9f4b1489b6ff629a837c466d4c7fadb3b989edbcaa8fe7b5b4bfc427c01",
- "generated": "2026-11-25T17:40:29+00:00"
+ "digest": "8adf1f0c6dd52debb40023e59076426198ea356a973edc149f1877b81884c231",
+ "generated": "2026-11-25T17:45:28+00:00"
 }
