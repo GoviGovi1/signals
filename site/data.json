@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.4016,
-   "last_ts": "2026-11-25T21:00:32+00:00",
-   "move_pct": 2.52,
+   "last": 0.4025,
+   "last_ts": "2026-11-25T21:06:22+00:00",
+   "move_pct": 2.31,
    "closed": false,
    "rsi": 41.9,
    "trade_on": "Perps 1x",
@@ -72,7 +72,7 @@
     0.08582100076152281
    ],
    "lev": 1,
-   "funding_pct": -0.0013,
+   "funding_pct": 0.0033,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-11-24T10:00:00+00:00",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0964,
-   "last_ts": "2026-11-25T21:00:32+00:00",
-   "move_pct": 5.02,
+   "last": 0.0974,
+   "last_ts": "2026-11-25T21:06:22+00:00",
+   "move_pct": 4.04,
    "closed": false,
    "rsi": 32.0,
    "trade_on": "Perps 1x",
@@ -7600,44 +7600,46 @@
   "onchain": [
    {
     "chain": "BSC",
-    "symbol": "ARK",
-    "name": "ARK",
-    "token": "0xcae117ca6bc8a341d2e7207f30e180f0e5618b9d",
-    "price": 6.36891781027561,
-    "liq": 58211371,
-    "vol24h": 5655654,
-    "age_d": 456.4,
-    "chg24h": -0.187,
-    "chg7d": -0.0,
-    "mcap": 0.0,
+    "symbol": "ARIA",
+    "name": "ARIA.AI",
+    "token": "0x5d3a12c42e5372b2cc3264ab3cdcf660a1555238",
+    "price": 0.332799191369431,
+    "liq": 2216379,
+    "vol24h": 3728422,
+    "age_d": 463.5,
+    "chg24h": 8.608,
+    "chg7d": 38.4,
+    "mcap": 60868327.8339,
+    "safety": "unknown",
+    "safety_notes": [
+     "safety not checked"
+    ],
+    "trigger": false,
+    "trend_up": true,
+    "rsi": 59.5,
+    "url": "https://www.geckoterminal.com/bsc/pools/0xa5dbeaf16fc031eae92175974f8d0a439be4ad17"
+   },
+   {
+    "chain": "BSC",
+    "symbol": "BLESS",
+    "name": "Bless Token",
+    "token": "0x7c8217517ed4711fe2deccdfeffe8d906b9ae11f",
+    "price": 0.0171741137676695,
+    "liq": 288948,
+    "vol24h": 2540894,
+    "age_d": 429.5,
+    "chg24h": -3.51,
+    "chg7d": 43.8,
+    "mcap": 31686648.3031518,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": true,
-    "rsi": 53.5,
-    "url": "https://www.geckoterminal.com/bsc/pools/0xcaaf3c41a40103a23eeaa4bba468af3cf5b0e0d8"
-   },
-   {
-    "chain": "BSC",
-    "symbol": "SKYAI",
-    "name": "SKYAI",
-    "token": "0x92aa03137385f18539301349dcfc9ebc923ffb10",
-    "price": 0.0335062917351617,
-    "liq": 4573840,
-    "vol24h": 3055926,
-    "age_d": 584.7,
-    "chg24h": -7.404,
-    "chg7d": -0.5,
-    "mcap": 33623083.6127291,
-    "safety": "ok",
-    "safety_notes": [],
-    "trigger": false,
-    "trend_up": false,
-    "rsi": 42.5,
-    "url": "https://www.geckoterminal.com/bsc/pools/0xbc42145d5a574ede9b8860fca2a49eb7b239efa5"
+    "rsi": 51.4,
+    "url": "https://www.geckoterminal.com/bsc/pools/0x49986efbeedea3ab962ca95caf86919860ecc9db"
    }
   ],
-  "onchain_checked": 84,
+  "onchain_checked": 85,
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
@@ -8221,7 +8223,7 @@
   ],
   "updated": {
    "unlocks": 1795639364,
-   "onchain": 1795637121,
+   "onchain": 1795640721,
    "sectors": 1795640432,
    "listings": 1795639826,
    "fundamentals": 1795639365
@@ -8261,6 +8263,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "2bc4bb792cf30ff4e9d8844869d56db9066753deb745c367cd5189505f957c75",
- "generated": "2026-11-25T21:01:06+00:00"
+ "digest": "1ef3e254d80c0d829099fed4750c37272cab8e1424025978caad8003093859e3",
+ "generated": "2026-11-25T21:06:25+00:00"
 }
