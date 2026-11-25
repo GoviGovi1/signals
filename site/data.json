@@ -1,46 +1,6 @@
 {
  "open": [
   {
-   "id": "DGAI-PERP-HOT-20780",
-   "kind": "HOT",
-   "score": 1068.21,
-   "reasons": [
-    "24h hot mover +23% with volume spike (6.1x the prior 3 days)",
-    "24h volume $53.8M on the OKX perp book, listed 81 days",
-    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
-    "Stop 0.90932 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
-   ],
-   "coin": "DGAI",
-   "market": "PERP",
-   "side": "LONG",
-   "entry": 0.9905,
-   "sl0": 0.909317109612365,
-   "sl": 0.9905,
-   "tps": [
-    1.0716828903876352,
-    1.1528657807752702,
-    1.2340486711629053
-   ],
-   "lev": 1,
-   "funding_pct": 0.005,
-   "status": "tp1",
-   "hits": 1,
-   "opened": "2026-11-23T00:00:30+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 1.037,
-   "last_ts": "2026-11-24T23:55:21+00:00",
-   "move_pct": 4.69,
-   "closed": false,
-   "rsi": null,
-   "trade_on": "Perps 1x",
-   "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
-   "chart": "charts/DGAI-PERP-HOT-20780.png",
-   "setup": "HOT24"
-  },
-  {
    "id": "FET-PERP-1795485600",
    "kind": "TA",
    "score": -1,
@@ -76,9 +36,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1065,
-   "last_ts": "2026-11-24T23:55:21+00:00",
-   "move_pct": 0.09,
+   "last": 0.1066,
+   "last_ts": "2026-11-25T00:00:32+00:00",
+   "move_pct": -0.0,
    "closed": false,
    "rsi": 40.9,
    "trade_on": "Perps 1x",
@@ -122,7 +82,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.3987,
-   "last_ts": "2026-11-24T23:55:21+00:00",
+   "last_ts": "2026-11-25T00:00:32+00:00",
    "move_pct": 3.23,
    "closed": false,
    "rsi": 41.9,
@@ -158,7 +118,7 @@
     0.08582100076152281
    ],
    "lev": 1,
-   "funding_pct": 0.0011,
+   "funding_pct": 0.0013,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-24T10:00:00+00:00",
@@ -166,9 +126,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0923,
-   "last_ts": "2026-11-24T23:55:21+00:00",
-   "move_pct": 9.06,
+   "last": 0.092,
+   "last_ts": "2026-11-25T00:00:32+00:00",
+   "move_pct": 9.36,
    "closed": false,
    "rsi": 32.0,
    "trade_on": "Perps 1x",
@@ -203,7 +163,7 @@
     1.117108823451442
    ],
    "lev": 1,
-   "funding_pct": -0.0044,
+   "funding_pct": -0.0043,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-24T10:00:00+00:00",
@@ -211,9 +171,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.2341,
-   "last_ts": "2026-11-24T23:55:21+00:00",
-   "move_pct": 4.23,
+   "last": 1.232,
+   "last_ts": "2026-11-25T00:00:32+00:00",
+   "move_pct": 4.39,
    "closed": false,
    "rsi": 38.3,
    "trade_on": "Perps 1x",
@@ -251,9 +211,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.6765,
-   "last_ts": "2026-11-24T23:55:21+00:00",
-   "move_pct": -0.86,
+   "last": 0.6746,
+   "last_ts": "2026-11-25T00:00:32+00:00",
+   "move_pct": -1.14,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -297,7 +257,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.00302,
-   "last_ts": "2026-11-24T23:55:21+00:00",
+   "last_ts": "2026-11-25T00:00:32+00:00",
    "move_pct": 1.08,
    "closed": false,
    "rsi": 41.4,
@@ -308,6 +268,46 @@
   }
  ],
  "closed": [
+  {
+   "id": "DGAI-PERP-HOT-20780",
+   "kind": "HOT",
+   "score": 1068.21,
+   "reasons": [
+    "24h hot mover +23% with volume spike (6.1x the prior 3 days)",
+    "24h volume $53.8M on the OKX perp book, listed 81 days",
+    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
+    "Stop 0.90932 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
+   ],
+   "coin": "DGAI",
+   "market": "PERP",
+   "side": "LONG",
+   "entry": 0.9905,
+   "sl0": 0.909317109612365,
+   "sl": 0.9905,
+   "tps": [
+    1.0716828903876352,
+    1.1528657807752702,
+    1.2340486711629053
+   ],
+   "lev": 1,
+   "funding_pct": 0.005,
+   "status": "expired",
+   "hits": 1,
+   "opened": "2026-11-23T00:00:30+00:00",
+   "closed_at": "2026-11-25T00:00:32+00:00",
+   "exit_price": 1.0255,
+   "result_r": 0.573,
+   "result_pct": 4.7,
+   "last": 1.0255,
+   "last_ts": "2026-11-25T00:00:32+00:00",
+   "move_pct": 4.69,
+   "closed": true,
+   "rsi": null,
+   "trade_on": "Perps 1x",
+   "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
+   "chart": "charts/DGAI-PERP-HOT-20780.png",
+   "setup": "HOT24"
+  },
   {
    "id": "ZBT-PERP-1795500000",
    "kind": "TA",
@@ -2044,7 +2044,7 @@
    "rsi": 29.6,
    "trade_on": "Perps 3x",
    "market_reason": "shorts need perps; 3x keeps liquidation 3x+ further away than the stop",
-   "chart": "charts/BCH-PERP-1795176000.png",
+   "chart": null,
    "setup": "RANGE_BREAK"
   },
   {
@@ -2869,62 +2869,17 @@
    "market_reason": "shorts need perps; 2x keeps liquidation 3x+ further away than the stop",
    "chart": null,
    "setup": "BREAKOUT20"
-  },
-  {
-   "id": "ATH-PERP-1795014000",
-   "kind": "TA",
-   "score": 0,
-   "reasons": [
-    "Chart: Broke down from a 2-day range at 0.003964 (range 0.003964\u20130.004212) on 1.1x volume",
-    "Timeframes: 1d down, 4h down, 4h structure higher highs/lows",
-    "Next support 0.003758 (3.5R away, 4h swing/swing)",
-    "Stop 0.0039951 (above the breakdown level); targets at the next 1 level(s)",
-    "BTC 4h trend down",
-    "Weaker than BTC by 1.7% over 7d",
-    "OI +2% 24h",
-    "Sector: DePIN -9.4% 7d (middle, #6 of 20)",
-    "Track record: +0.2R on ATH in the last 45 days (backtest)"
-   ],
-   "coin": "ATH",
-   "market": "PERP",
-   "side": "SHORT",
-   "entry": 0.003942,
-   "sl0": 0.00399509703880065,
-   "sl": 0.00399509703880065,
-   "tps": [
-    0.003765774259700162,
-    0.0037126772208995124,
-    0.003659580182098863
-   ],
-   "lev": 1,
-   "funding_pct": 0.0009,
-   "status": "stopped",
-   "hits": 0,
-   "opened": "2026-11-18T16:00:00+00:00",
-   "closed_at": "2026-11-18T17:30:25+00:00",
-   "exit_price": 0.00399509703880065,
-   "result_r": -1.0,
-   "result_pct": -1.35,
-   "last": 0.003994,
-   "last_ts": "2026-11-18T17:30:25+00:00",
-   "move_pct": -1.17,
-   "closed": true,
-   "rsi": 27.1,
-   "trade_on": "Perps 1x",
-   "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": null,
-   "setup": "RANGE_BREAK"
   }
  ],
  "stats": {
   "all": {
-   "trades": 319,
-   "wins": 151,
+   "trades": 320,
+   "wins": 152,
    "losses": 168,
-   "win_rate": 47.3,
-   "total_r": 33.3,
-   "avg_r": 0.104,
-   "total_pct": 163.56
+   "win_rate": 47.5,
+   "total_r": 33.87,
+   "avg_r": 0.106,
+   "total_pct": 168.26
   },
   "SPOT": {
    "trades": 91,
@@ -2936,13 +2891,13 @@
    "total_pct": 43.27
   },
   "PERP": {
-   "trades": 212,
-   "wins": 107,
+   "trades": 213,
+   "wins": 108,
    "losses": 105,
-   "win_rate": 50.5,
-   "total_r": 44.08,
-   "avg_r": 0.208,
-   "total_pct": 101.39
+   "win_rate": 50.7,
+   "total_r": 44.65,
+   "avg_r": 0.21,
+   "total_pct": 106.09
   },
   "DEX": {
    "trades": 16,
@@ -2955,13 +2910,13 @@
   },
   "kinds": {
    "HOT": {
-    "trades": 82,
-    "wins": 46,
+    "trades": 83,
+    "wins": 47,
     "losses": 36,
-    "win_rate": 56.1,
-    "total_r": 9.86,
-    "avg_r": 0.12,
-    "total_pct": 66.76
+    "win_rate": 56.6,
+    "total_r": 10.44,
+    "avg_r": 0.126,
+    "total_pct": 71.46
    },
    "ONCHAIN": {
     "trades": 16,
@@ -3461,13 +3416,13 @@
     "total_pct": 20.84
    },
    "DGAI": {
-    "trades": 3,
-    "wins": 3,
+    "trades": 4,
+    "wins": 4,
     "losses": 0,
     "win_rate": 100.0,
-    "total_r": 0.75,
-    "avg_r": 0.25,
-    "total_pct": 3.45
+    "total_r": 1.32,
+    "avg_r": 0.331,
+    "total_pct": 8.15
    },
    "DOGE": {
     "trades": 2,
@@ -4514,7 +4469,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 7
+  "open": 6
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7136,21 +7091,6 @@
  "catalysts": {
   "unlocks": [
    {
-    "big": false,
-    "coin": "IOTA",
-    "insider_pct": 23,
-    "pct": 0.26,
-    "tokens": 12328169,
-    "tracked": true,
-    "ts": 1795564800,
-    "usd": 381204,
-    "who": [
-     "Tangle Ecosystem Association",
-     "IOTA DLT Foundation",
-     "IOTA Foundation"
-    ]
-   },
-   {
     "big": true,
     "coin": "XPL",
     "insider_pct": 61,
@@ -8456,6 +8396,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "91b701b6ca0eb4d63a0cf5f446d0c60cc9aab9862886950ed19f12a7c634c0db",
- "generated": "2026-11-24T23:55:25+00:00"
+ "digest": "13bc88137e26622c355efbd29278fab3b2780f05b3f09b5f484714c0f5ab24ce",
+ "generated": "2026-11-25T00:01:07+00:00"
 }
