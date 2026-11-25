@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.4014,
-   "last_ts": "2026-11-25T21:10:26+00:00",
-   "move_pct": 2.57,
+   "last": 0.4006,
+   "last_ts": "2026-11-25T21:15:24+00:00",
+   "move_pct": 2.77,
    "closed": false,
    "rsi": 41.9,
    "trade_on": "Perps 1x",
@@ -72,7 +72,7 @@
     0.08582100076152281
    ],
    "lev": 1,
-   "funding_pct": 0.004,
+   "funding_pct": 0.0043,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-11-24T10:00:00+00:00",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0974,
-   "last_ts": "2026-11-25T21:10:26+00:00",
-   "move_pct": 4.04,
+   "last": 0.0972,
+   "last_ts": "2026-11-25T21:15:24+00:00",
+   "move_pct": 4.24,
    "closed": false,
    "rsi": 32.0,
    "trade_on": "Perps 1x",
@@ -7909,6 +7909,27 @@
     ]
    },
    {
+    "id": "lending-borrowing",
+    "name": "Lending Borrowing",
+    "chg7d": -8.13,
+    "top": [
+     "AAVE",
+     "MORPHO",
+     "OHM",
+     "COMP",
+     "CAP"
+    ],
+    "tracked": [
+     "AAVE",
+     "CT",
+     "CAP",
+     "SPK",
+     "MORPHO",
+     "COMP",
+     "KMNO"
+    ]
+   },
+   {
     "id": "decentralized-perpetuals",
     "name": "Decentralized Perpetuals",
     "chg7d": -8.38,
@@ -8031,27 +8052,6 @@
      "WIF",
      "PNUT",
      "FARTCOIN"
-    ]
-   },
-   {
-    "id": "lending-borrowing",
-    "name": "Lending Borrowing",
-    "chg7d": -12.12,
-    "top": [
-     "AAVE",
-     "MORPHO",
-     "OHM",
-     "COMP",
-     "CAP"
-    ],
-    "tracked": [
-     "AAVE",
-     "CT",
-     "CAP",
-     "SPK",
-     "MORPHO",
-     "COMP",
-     "KMNO"
     ]
    }
   ],
@@ -8224,7 +8224,7 @@
   "updated": {
    "unlocks": 1795639364,
    "onchain": 1795640721,
-   "sectors": 1795640432,
+   "sectors": 1795641324,
    "listings": 1795639826,
    "fundamentals": 1795639365
   }
@@ -8263,6 +8263,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "21f943585ece691dc4b2fe692b15067a4e857fb08d4918f25a1993e683bbe942",
- "generated": "2026-11-25T21:10:30+00:00"
+ "digest": "acd263f65851ad9a1e22f8289363b7588f788fe2c9976281cc96b60649e17263",
+ "generated": "2026-11-25T21:15:28+00:00"
 }
