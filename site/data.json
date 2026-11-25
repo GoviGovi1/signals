@@ -37,7 +37,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.106,
-   "last_ts": "2026-11-25T00:15:24+00:00",
+   "last_ts": "2026-11-25T00:20:23+00:00",
    "move_pct": 0.56,
    "closed": false,
    "rsi": 40.9,
@@ -81,9 +81,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.396,
-   "last_ts": "2026-11-25T00:15:24+00:00",
-   "move_pct": 3.88,
+   "last": 0.3951,
+   "last_ts": "2026-11-25T00:20:23+00:00",
+   "move_pct": 4.1,
    "closed": false,
    "rsi": 41.9,
    "trade_on": "Perps 1x",
@@ -118,7 +118,7 @@
     0.08582100076152281
    ],
    "lev": 1,
-   "funding_pct": 0.0008,
+   "funding_pct": 0.0017,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-24T10:00:00+00:00",
@@ -126,9 +126,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.092,
-   "last_ts": "2026-11-25T00:15:24+00:00",
-   "move_pct": 9.36,
+   "last": 0.0922,
+   "last_ts": "2026-11-25T00:20:23+00:00",
+   "move_pct": 9.16,
    "closed": false,
    "rsi": 32.0,
    "trade_on": "Perps 1x",
@@ -163,7 +163,7 @@
     1.117108823451442
    ],
    "lev": 1,
-   "funding_pct": -0.0035,
+   "funding_pct": -0.0037,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-24T10:00:00+00:00",
@@ -171,9 +171,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.2292,
-   "last_ts": "2026-11-25T00:15:24+00:00",
-   "move_pct": 4.61,
+   "last": 1.2281,
+   "last_ts": "2026-11-25T00:20:23+00:00",
+   "move_pct": 4.7,
    "closed": false,
    "rsi": 38.3,
    "trade_on": "Perps 1x",
@@ -211,9 +211,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.6776,
-   "last_ts": "2026-11-25T00:15:24+00:00",
-   "move_pct": -0.7,
+   "last": 0.6829,
+   "last_ts": "2026-11-25T00:20:23+00:00",
+   "move_pct": 0.07,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -256,9 +256,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.003007,
-   "last_ts": "2026-11-25T00:15:24+00:00",
-   "move_pct": 1.51,
+   "last": 0.003001,
+   "last_ts": "2026-11-25T00:20:23+00:00",
+   "move_pct": 1.7,
    "closed": false,
    "rsi": 41.4,
    "trade_on": "Perps 1x",
@@ -288,7 +288,7 @@
     0.19635317146867803
    ],
    "lev": 1,
-   "funding_pct": 0.0,
+   "funding_pct": -0.0032,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-25T00:05:58+00:00",
@@ -296,9 +296,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.17061,
-   "last_ts": "2026-11-25T00:15:24+00:00",
-   "move_pct": 1.63,
+   "last": 0.17025,
+   "last_ts": "2026-11-25T00:20:23+00:00",
+   "move_pct": 1.42,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -8231,21 +8231,6 @@
     ]
    },
    {
-    "id": "interoperability",
-    "name": "Interoperability",
-    "chg7d": -8.99,
-    "top": [
-     "TRAC",
-     "W",
-     "AXL",
-     "CKB",
-     "PHA"
-    ],
-    "tracked": [
-     "W"
-    ]
-   },
-   {
     "id": "solana-meme-coins",
     "name": "Solana Meme Coins",
     "chg7d": -9.01,
@@ -8265,6 +8250,21 @@
      "FARTCOIN",
      "BONK",
      "PNUT"
+    ]
+   },
+   {
+    "id": "interoperability",
+    "name": "Interoperability",
+    "chg7d": -9.07,
+    "top": [
+     "TRAC",
+     "W",
+     "AXL",
+     "CKB",
+     "PHA"
+    ],
+    "tracked": [
+     "W"
     ]
    }
   ],
@@ -8437,7 +8437,7 @@
   "updated": {
    "unlocks": 1795552230,
    "onchain": 1795565123,
-   "sectors": 1795565123,
+   "sectors": 1795566023,
    "listings": 1795564224,
    "fundamentals": 1795552231
   }
@@ -8476,6 +8476,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "8eed3fbd8e84613f7fd4d5205a86ebc7eb3a99a72f556d1df88c3fd05cdf4194",
- "generated": "2026-11-25T00:15:27+00:00"
+ "digest": "23e07487f93b3fafa475c397520fd52a643459e7bbda9b1dc2b9cf17d0f43048",
+ "generated": "2026-11-25T00:20:26+00:00"
 }
