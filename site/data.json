@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.401,
-   "last_ts": "2026-11-25T21:55:21+00:00",
-   "move_pct": 2.67,
+   "last": 0.4005,
+   "last_ts": "2026-11-25T22:00:36+00:00",
+   "move_pct": 2.79,
    "closed": false,
    "rsi": 41.9,
    "trade_on": "Perps 1x",
@@ -72,7 +72,7 @@
     0.08582100076152281
    ],
    "lev": 1,
-   "funding_pct": 0.0041,
+   "funding_pct": 0.005,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-11-24T10:00:00+00:00",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0971,
-   "last_ts": "2026-11-25T21:55:21+00:00",
-   "move_pct": 4.33,
+   "last": 0.097,
+   "last_ts": "2026-11-25T22:00:36+00:00",
+   "move_pct": 4.43,
    "closed": false,
    "rsi": 32.0,
    "trade_on": "Perps 1x",
@@ -7664,6 +7664,23 @@
     ]
    },
    {
+    "id": "bitcoin-ecosystem",
+    "name": "Bitcoin Ecosystem",
+    "chg7d": -3.21,
+    "top": [
+     "BTC",
+     "DOG",
+     "ORDI",
+     "USTBL",
+     "LOBO"
+    ],
+    "tracked": [
+     "BTC",
+     "ORDI",
+     "SATS"
+    ]
+   },
+   {
     "id": "exchange-based-tokens",
     "name": "Exchange Based Tokens",
     "chg7d": -3.55,
@@ -7896,23 +7913,6 @@
      "BNB",
      "AVAX",
      "ZEC"
-    ]
-   },
-   {
-    "id": "bitcoin-ecosystem",
-    "name": "Bitcoin Ecosystem",
-    "chg7d": -7.83,
-    "top": [
-     "BTC",
-     "DOG",
-     "ORDI",
-     "USTBL",
-     "LOBO"
-    ],
-    "tracked": [
-     "BTC",
-     "ORDI",
-     "SATS"
     ]
    },
    {
@@ -8224,7 +8224,7 @@
   "updated": {
    "unlocks": 1795639364,
    "onchain": 1795640721,
-   "sectors": 1795643131,
+   "sectors": 1795644035,
    "listings": 1795643721,
    "fundamentals": 1795639365
   }
@@ -8263,6 +8263,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "089ec32f020d97a1b4a3dbc11aecd03835e9d87da2c99cf0dfa825bfe3bc4495",
- "generated": "2026-11-25T21:55:24+00:00"
+ "digest": "d9a70c5d9bba08c447fe83bb58ff627577c88f6a891188a0f3a0e404479ddf1e",
+ "generated": "2026-11-25T22:01:04+00:00"
 }
