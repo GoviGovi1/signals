@@ -36,7 +36,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.4002,
-   "last_ts": "2026-11-25T20:42:56+00:00",
+   "last_ts": "2026-11-25T20:45:20+00:00",
    "move_pct": 2.86,
    "closed": false,
    "rsi": 41.9,
@@ -72,7 +72,7 @@
     0.08582100076152281
    ],
    "lev": 1,
-   "funding_pct": -0.006,
+   "funding_pct": -0.0055,
    "status": "tp2",
    "hits": 2,
    "opened": "2026-11-24T10:00:00+00:00",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0953,
-   "last_ts": "2026-11-25T20:42:56+00:00",
-   "move_pct": 6.11,
+   "last": 0.0954,
+   "last_ts": "2026-11-25T20:45:20+00:00",
+   "move_pct": 6.01,
    "closed": false,
    "rsi": 32.0,
    "trade_on": "Perps 1x",
@@ -7875,6 +7875,21 @@
     ]
    },
    {
+    "id": "interoperability",
+    "name": "Interoperability",
+    "chg7d": -7.85,
+    "top": [
+     "TRAC",
+     "W",
+     "AXL",
+     "CKB",
+     "PHA"
+    ],
+    "tracked": [
+     "W"
+    ]
+   },
+   {
     "id": "decentralized-perpetuals",
     "name": "Decentralized Perpetuals",
     "chg7d": -8.38,
@@ -8035,21 +8050,6 @@
      "MORPHO",
      "COMP",
      "KMNO"
-    ]
-   },
-   {
-    "id": "interoperability",
-    "name": "Interoperability",
-    "chg7d": -13.24,
-    "top": [
-     "TRAC",
-     "W",
-     "CKB",
-     "AXL",
-     "PHA"
-    ],
-    "tracked": [
-     "W"
     ]
    }
   ],
@@ -8222,7 +8222,7 @@
   "updated": {
    "unlocks": 1795639364,
    "onchain": 1795637121,
-   "sectors": 1795638626,
+   "sectors": 1795639520,
    "listings": 1795636222,
    "fundamentals": 1795639365
   }
@@ -8261,6 +8261,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "0ae72a2a83a05255fc5433b460a44cc4926b9723781979d08caf9df03f375f07",
- "generated": "2026-11-25T20:43:00+00:00"
+ "digest": "8bf940e7858df8f12bbb8294d4b27e3e9b278af5c89920bf918cac1b8e30cda8",
+ "generated": "2026-11-25T20:45:25+00:00"
 }
