@@ -1,52 +1,6 @@
 {
  "open": [
   {
-   "id": "FET-PERP-1795485600",
-   "kind": "TA",
-   "score": -1,
-   "reasons": [
-    "Chart: Broke the 20-hour low on 0.6x volume",
-    "Timeframes: 1d down, 4h down, 4h structure mixed",
-    "No support below in the last 50 days",
-    "Stop 0.11235 (structure); targets at 1R/2R/3R",
-    "BTC 4h trend down",
-    "Weaker than BTC by 11.6% over 7d",
-    "OI +19% 24h with breakout",
-    "funding -0.054%/8h: shorts crowded",
-    "Sector: AI Agents -3.7% 7d (leading, #3 of 20)",
-    "Track record: +0.1R on FET in the last 45 days (backtest)"
-   ],
-   "coin": "FET",
-   "market": "PERP",
-   "side": "SHORT",
-   "entry": 0.1066,
-   "sl0": 0.11234868541744453,
-   "sl": 0.1066,
-   "tps": [
-    0.10085131458255547,
-    0.09510262916511095,
-    0.08935394374766642
-   ],
-   "lev": 1,
-   "funding_pct": 0.005,
-   "status": "tp1",
-   "hits": 1,
-   "opened": "2026-11-24T03:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.1057,
-   "last_ts": "2026-11-25T17:15:22+00:00",
-   "move_pct": 0.84,
-   "closed": false,
-   "rsi": 40.9,
-   "trade_on": "Perps 1x",
-   "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": "charts/FET-PERP-1795485600.png",
-   "setup": "BREAKOUT20"
-  },
-  {
    "id": "AERO-PERP-1795485600",
    "kind": "TA",
    "score": -1,
@@ -81,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.392,
-   "last_ts": "2026-11-25T17:15:22+00:00",
-   "move_pct": 4.85,
+   "last": 0.3924,
+   "last_ts": "2026-11-25T17:20:35+00:00",
+   "move_pct": 4.76,
    "closed": false,
    "rsi": 41.9,
    "trade_on": "Perps 1x",
@@ -126,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0911,
-   "last_ts": "2026-11-25T17:15:22+00:00",
-   "move_pct": 10.25,
+   "last": 0.0914,
+   "last_ts": "2026-11-25T17:20:35+00:00",
+   "move_pct": 9.95,
    "closed": false,
    "rsi": 32.0,
    "trade_on": "Perps 1x",
@@ -163,7 +117,7 @@
     1.117108823451442
    ],
    "lev": 1,
-   "funding_pct": -0.0279,
+   "funding_pct": -0.0232,
    "status": "tp1",
    "hits": 1,
    "opened": "2026-11-24T10:00:00+00:00",
@@ -171,9 +125,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.2424,
-   "last_ts": "2026-11-25T17:15:22+00:00",
-   "move_pct": 3.59,
+   "last": 1.2462,
+   "last_ts": "2026-11-25T17:20:35+00:00",
+   "move_pct": 3.29,
    "closed": false,
    "rsi": 38.3,
    "trade_on": "Perps 1x",
@@ -216,9 +170,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.003072,
-   "last_ts": "2026-11-25T17:15:22+00:00",
-   "move_pct": -0.62,
+   "last": 0.003085,
+   "last_ts": "2026-11-25T17:20:35+00:00",
+   "move_pct": -1.05,
    "closed": false,
    "rsi": 41.4,
    "trade_on": "Perps 1x",
@@ -253,7 +207,7 @@
     3.261259028126541e-06
    ],
    "lev": 1,
-   "funding_pct": -0.0083,
+   "funding_pct": -0.0084,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-25T03:00:00+00:00",
@@ -261,59 +215,14 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 3.498e-06,
-   "last_ts": "2026-11-25T17:15:22+00:00",
-   "move_pct": -0.14,
+   "last": 3.507e-06,
+   "last_ts": "2026-11-25T17:20:35+00:00",
+   "move_pct": -0.4,
    "closed": false,
    "rsi": 33.0,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": "charts/SHIB-PERP-1795572000.png",
-   "setup": "BREAKOUT20"
-  },
-  {
-   "id": "MASK-PERP-1795597200",
-   "kind": "TA",
-   "score": 0,
-   "reasons": [
-    "Chart: Broke the 20-hour low on 0.7x volume",
-    "Timeframes: 1d down, 4h down, 4h structure mixed",
-    "Next support 0.2498 (3.4R away, 4h swing/swing)",
-    "Stop 0.27095 (structure); targets at the next 1 level(s)",
-    "BTC 4h trend down",
-    "Weaker than BTC by 0.1% over 7d",
-    "OI +1% 24h",
-    "Fees -40% 7d",
-    "Track record: +6.7R on MASK in the last 45 days (backtest)"
-   ],
-   "coin": "MASK",
-   "market": "PERP",
-   "side": "SHORT",
-   "entry": 0.2661,
-   "sl0": 0.2709452472106292,
-   "sl": 0.2709452472106292,
-   "tps": [
-    0.2502982585259495,
-    0.24545301131532032,
-    0.24060776410469115
-   ],
-   "lev": 1,
-   "funding_pct": 0.0057,
-   "status": "open",
-   "hits": 0,
-   "opened": "2026-11-25T10:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.2697,
-   "last_ts": "2026-11-25T17:15:22+00:00",
-   "move_pct": -1.35,
-   "closed": false,
-   "rsi": 39.4,
-   "trade_on": "Perps 1x",
-   "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": "charts/MASK-PERP-1795597200.png",
    "setup": "BREAKOUT20"
   },
   {
@@ -351,9 +260,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 2.534,
-   "last_ts": "2026-11-25T17:15:22+00:00",
-   "move_pct": -0.48,
+   "last": 2.545,
+   "last_ts": "2026-11-25T17:20:35+00:00",
+   "move_pct": -0.91,
    "closed": false,
    "rsi": 37.9,
    "trade_on": "Perps 1x",
@@ -388,7 +297,7 @@
     0.30486900385605864
    ],
    "lev": 1,
-   "funding_pct": 0.0018,
+   "funding_pct": 0.0022,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-25T14:00:00+00:00",
@@ -396,9 +305,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.3453,
-   "last_ts": "2026-11-25T17:15:22+00:00",
-   "move_pct": -2.16,
+   "last": 0.3473,
+   "last_ts": "2026-11-25T17:20:35+00:00",
+   "move_pct": -2.75,
    "closed": false,
    "rsi": 29.1,
    "trade_on": "Perps 1x",
@@ -408,6 +317,97 @@
   }
  ],
  "closed": [
+  {
+   "id": "FET-PERP-1795485600",
+   "kind": "TA",
+   "score": -1,
+   "reasons": [
+    "Chart: Broke the 20-hour low on 0.6x volume",
+    "Timeframes: 1d down, 4h down, 4h structure mixed",
+    "No support below in the last 50 days",
+    "Stop 0.11235 (structure); targets at 1R/2R/3R",
+    "BTC 4h trend down",
+    "Weaker than BTC by 11.6% over 7d",
+    "OI +19% 24h with breakout",
+    "funding -0.054%/8h: shorts crowded",
+    "Sector: AI Agents -3.7% 7d (leading, #3 of 20)",
+    "Track record: +0.1R on FET in the last 45 days (backtest)"
+   ],
+   "coin": "FET",
+   "market": "PERP",
+   "side": "SHORT",
+   "entry": 0.1066,
+   "sl0": 0.11234868541744453,
+   "sl": 0.1066,
+   "tps": [
+    0.10085131458255547,
+    0.09510262916511095,
+    0.08935394374766642
+   ],
+   "lev": 1,
+   "funding_pct": 0.005,
+   "status": "stopped_be",
+   "hits": 1,
+   "opened": "2026-11-24T03:00:00+00:00",
+   "closed_at": "2026-11-25T17:20:35+00:00",
+   "exit_price": 0.1066,
+   "result_r": 0.25,
+   "result_pct": 1.35,
+   "last": 0.1062,
+   "last_ts": "2026-11-25T17:20:35+00:00",
+   "move_pct": 0.84,
+   "closed": true,
+   "rsi": 40.9,
+   "trade_on": "Perps 1x",
+   "market_reason": "shorts need perps; thin perp market, so 1x",
+   "chart": "charts/FET-PERP-1795485600.png",
+   "setup": "BREAKOUT20"
+  },
+  {
+   "id": "MASK-PERP-1795597200",
+   "kind": "TA",
+   "score": 0,
+   "reasons": [
+    "Chart: Broke the 20-hour low on 0.7x volume",
+    "Timeframes: 1d down, 4h down, 4h structure mixed",
+    "Next support 0.2498 (3.4R away, 4h swing/swing)",
+    "Stop 0.27095 (structure); targets at the next 1 level(s)",
+    "BTC 4h trend down",
+    "Weaker than BTC by 0.1% over 7d",
+    "OI +1% 24h",
+    "Fees -40% 7d",
+    "Track record: +6.7R on MASK in the last 45 days (backtest)"
+   ],
+   "coin": "MASK",
+   "market": "PERP",
+   "side": "SHORT",
+   "entry": 0.2661,
+   "sl0": 0.2709452472106292,
+   "sl": 0.2709452472106292,
+   "tps": [
+    0.2502982585259495,
+    0.24545301131532032,
+    0.24060776410469115
+   ],
+   "lev": 1,
+   "funding_pct": 0.0057,
+   "status": "stopped",
+   "hits": 0,
+   "opened": "2026-11-25T10:00:00+00:00",
+   "closed_at": "2026-11-25T17:20:35+00:00",
+   "exit_price": 0.2709452472106292,
+   "result_r": -1.0,
+   "result_pct": -1.82,
+   "last": 0.2706,
+   "last_ts": "2026-11-25T17:20:35+00:00",
+   "move_pct": -1.35,
+   "closed": true,
+   "rsi": 39.4,
+   "trade_on": "Perps 1x",
+   "market_reason": "shorts need perps; thin perp market, so 1x",
+   "chart": "charts/MASK-PERP-1795597200.png",
+   "setup": "BREAKOUT20"
+  },
   {
    "id": "MOODENG-SPOT-HOT-20782",
    "kind": "HOT",
@@ -2084,7 +2084,7 @@
    "rsi": 37.9,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": "charts/CRV-PERP-1795118400.png",
+   "chart": null,
    "setup": "RETEST"
   },
   {
@@ -2129,7 +2129,7 @@
    "rsi": 33.2,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": "charts/PYTH-PERP-1795136400.png",
+   "chart": null,
    "setup": "BREAKOUT20"
   },
   {
@@ -2906,101 +2906,17 @@
    "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
    "chart": null,
    "setup": "HOT24"
-  },
-  {
-   "id": "O-PERP-HOT-20774",
-   "kind": "HOT",
-   "score": 805.97,
-   "reasons": [
-    "24h hot mover +21% with volume spike (5.6x the prior 3 days)",
-    "24h volume $5.2M on the OKX perp book, listed 153 days",
-    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
-    "Stop 0.51024 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
-   ],
-   "coin": "O",
-   "market": "PERP",
-   "side": "LONG",
-   "entry": 0.543,
-   "sl0": 0.5102431900409519,
-   "sl": 0.543,
-   "tps": [
-    0.5757568099590482,
-    0.6085136199180963,
-    0.6412704298771444
-   ],
-   "lev": 1,
-   "funding_pct": 0.0074,
-   "status": "expired",
-   "hits": 1,
-   "opened": "2026-11-17T06:45:22+00:00",
-   "closed_at": "2026-11-19T06:45:23+00:00",
-   "exit_price": 0.5589,
-   "result_r": 0.614,
-   "result_pct": 3.7,
-   "last": 0.5589,
-   "last_ts": "2026-11-19T06:45:23+00:00",
-   "move_pct": 2.62,
-   "closed": true,
-   "rsi": null,
-   "trade_on": "Perps 1x",
-   "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
-   "chart": null,
-   "setup": "HOT24"
-  },
-  {
-   "id": "IOST-SPOT-1795057200",
-   "kind": "TA",
-   "score": 1,
-   "reasons": [
-    "Chart: Retest of the 0.0005828 breakout level held (3h after the break)",
-    "Timeframes: 1d down, 4h down, 4h structure mixed",
-    "Next resistance 0.0006216 (4.1R away, 4h swing/swing)",
-    "Stop 0.0005778 (below the breakout level); targets at the next 2 level(s)",
-    "BTC 4h trend down",
-    "Stronger than BTC by 4.7% over 7d",
-    "OI +8% 24h with breakout",
-    "Track record: +4.6R on IOST in the last 45 days (backtest)"
-   ],
-   "coin": "IOST",
-   "market": "SPOT",
-   "side": "LONG",
-   "entry": 0.0005875,
-   "sl0": 0.0005788840356791683,
-   "sl": 0.0005788840356791683,
-   "tps": [
-    0.0006215137272008287,
-    0.0006322337988242941,
-    0.0006408497631451257
-   ],
-   "lev": null,
-   "funding_pct": null,
-   "status": "stopped",
-   "hits": 0,
-   "opened": "2026-11-19T04:00:00+00:00",
-   "closed_at": "2026-11-19T05:01:32+00:00",
-   "exit_price": 0.0005788840356791683,
-   "result_r": -1.0,
-   "result_pct": -1.47,
-   "last": 0.0005766,
-   "last_ts": "2026-11-19T05:01:32+00:00",
-   "move_pct": -1.38,
-   "closed": true,
-   "rsi": 63.7,
-   "trade_on": "Spot",
-   "market_reason": "thin perp market: spot is safer",
-   "chart": null,
-   "setup": "RETEST"
   }
  ],
  "stats": {
   "all": {
-   "trades": 324,
-   "wins": 154,
-   "losses": 170,
+   "trades": 326,
+   "wins": 155,
+   "losses": 171,
    "win_rate": 47.5,
-   "total_r": 34.37,
-   "avg_r": 0.106,
-   "total_pct": 173.67
+   "total_r": 33.62,
+   "avg_r": 0.103,
+   "total_pct": 173.2
   },
   "SPOT": {
    "trades": 94,
@@ -3012,13 +2928,13 @@
    "total_pct": 47.27
   },
   "PERP": {
-   "trades": 214,
-   "wins": 109,
-   "losses": 105,
+   "trades": 216,
+   "wins": 110,
+   "losses": 106,
    "win_rate": 50.9,
-   "total_r": 44.9,
-   "avg_r": 0.21,
-   "total_pct": 107.5
+   "total_r": 44.15,
+   "avg_r": 0.204,
+   "total_pct": 107.03
   },
   "DEX": {
    "trades": 16,
@@ -3049,13 +2965,13 @@
     "total_pct": 18.9
    },
    "TA": {
-    "trades": 221,
-    "wins": 96,
-    "losses": 125,
-    "win_rate": 43.4,
-    "total_r": 24.01,
-    "avg_r": 0.109,
-    "total_pct": 77.9
+    "trades": 223,
+    "wins": 97,
+    "losses": 126,
+    "win_rate": 43.5,
+    "total_r": 23.26,
+    "avg_r": 0.104,
+    "total_pct": 77.43
    }
   },
   "coins": {
@@ -3645,13 +3561,13 @@
     "total_pct": 0.66
    },
    "FET": {
-    "trades": 2,
-    "wins": 1,
+    "trades": 3,
+    "wins": 2,
     "losses": 1,
-    "win_rate": 50.0,
-    "total_r": -0.47,
-    "avg_r": -0.234,
-    "total_pct": -0.87
+    "win_rate": 66.7,
+    "total_r": -0.22,
+    "avg_r": -0.073,
+    "total_pct": 0.48
    },
    "FLOCK": {
     "trades": 2,
@@ -3879,13 +3795,13 @@
     "total_pct": -2.0
    },
    "MASK": {
-    "trades": 3,
+    "trades": 4,
     "wins": 2,
-    "losses": 1,
-    "win_rate": 66.7,
-    "total_r": 2.34,
-    "avg_r": 0.782,
-    "total_pct": 3.37
+    "losses": 2,
+    "win_rate": 50.0,
+    "total_r": 1.34,
+    "avg_r": 0.336,
+    "total_pct": 1.55
    },
    "ME": {
     "trades": 1,
@@ -4590,7 +4506,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 9
+  "open": 7
  },
  "backtest": {
   "from": "2026-07-24",
@@ -8550,6 +8466,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "7f581a58b40dfdde1510b3a82c0e717901d4f435f9b05546b613ea397868ecfa",
- "generated": "2026-11-25T17:15:28+00:00"
+ "digest": "949142352ab3b50e8ef36f11a51ead6259378794d964d0140efd0924822b6706",
+ "generated": "2026-11-25T17:20:43+00:00"
 }
