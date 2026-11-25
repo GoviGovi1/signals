@@ -53,14 +53,7 @@
     "liquidity under $250k",
     "pool younger than 7 days"
    ],
-   "symbol": "HOLDERS"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "TRUMP"
+   "symbol": "4CHAN"
   },
   {
    "chain": "Solana",
@@ -68,21 +61,7 @@
     "liquidity under $250k",
     "pool younger than 7 days"
    ],
-   "symbol": "4CHAN"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "PIPPIN"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "PUMP"
+   "symbol": "HOLDERS"
   },
   {
    "chain": "Solana",
@@ -96,7 +75,21 @@
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "CLAUDIA"
+   "symbol": "TRUMP"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "no DEX candles"
+   ],
+   "symbol": "PUMP"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "no DEX candles"
+   ],
+   "symbol": "PIPPIN"
   },
   {
    "chain": "Solana",
@@ -116,6 +109,21 @@
   {
    "chain": "Solana",
    "fails": [
+    "no DEX candles"
+   ],
+   "symbol": "CLAUDIA"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "liquidity under $250k",
+    "24h volume under $250k"
+   ],
+   "symbol": "SWORDCAT"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
     "liquidity under $250k",
     "pool younger than 7 days"
    ],
@@ -127,14 +135,6 @@
     "liquidity under $250k"
    ],
    "symbol": "WASTED"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "liquidity under $250k",
-    "24h volume under $250k"
-   ],
-   "symbol": "SWORDCAT"
   },
   {
    "chain": "Solana",
@@ -174,23 +174,9 @@
   {
    "chain": "Base",
    "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "SPCXC"
-  },
-  {
-   "chain": "Base",
-   "fails": [
     "24h volume under $250k"
    ],
    "symbol": "TIBBIR"
-  },
-  {
-   "chain": "Base",
-   "fails": [
-    "24h volume under $250k"
-   ],
-   "symbol": "DRB"
   },
   {
    "chain": "Base",
@@ -202,9 +188,9 @@
   {
    "chain": "Base",
    "fails": [
-    "no DEX candles"
+    "24h volume under $250k"
    ],
-   "symbol": "GOOGLC"
+   "symbol": "DRB"
   },
   {
    "chain": "Base",
@@ -219,13 +205,6 @@
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "XDP"
-  },
-  {
-   "chain": "Base",
-   "fails": [
-    "no DEX candles"
-   ],
    "symbol": "PROS"
   },
   {
@@ -233,7 +212,14 @@
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "SNDKC"
+   "symbol": "SPCXC"
+  },
+  {
+   "chain": "Base",
+   "fails": [
+    "no DEX candles"
+   ],
+   "symbol": "GOOGLC"
   },
   {
    "chain": "Base",
@@ -247,7 +233,21 @@
    "fails": [
     "no DEX candles"
    ],
+   "symbol": "SNDKC"
+  },
+  {
+   "chain": "Base",
+   "fails": [
+    "no DEX candles"
+   ],
    "symbol": "MUC"
+  },
+  {
+   "chain": "Base",
+   "fails": [
+    "no DEX candles"
+   ],
+   "symbol": "XDP"
   },
   {
    "chain": "BSC",
@@ -276,14 +276,14 @@
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "ARK"
+   "symbol": "AKE"
   },
   {
    "chain": "BSC",
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "AKE"
+   "symbol": "ARK"
   },
   {
    "chain": "BSC",
@@ -294,63 +294,65 @@
   }
  ],
  "rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
- "updated": 1795586726,
+ "updated": 1795590320,
  "watchlist": [
   {
    "age_d": 308.9,
-   "atr": 0.004221438483981815,
-   "bar_ts": 1795582800000,
+   "atr": 0.004125531390452076,
+   "bar_ts": 1795586400000,
    "chain": "Base",
-   "chg24h": -19.851,
-   "chg7d": 20.0,
-   "close": 0.0739096125101409,
-   "ema20": 0.07989998488739278,
-   "ema50": 0.08517897612162802,
+   "chg24h": -25.928,
+   "chg7d": 20.7,
+   "close": 0.07361144501134319,
+   "ema20": 0.07930107632845895,
+   "ema50": 0.08472537167717986,
    "fails": [],
    "gecko_id": "elsa",
-   "liq": 506290,
-   "mcap": 22605314.9650195,
+   "liq": 506804,
+   "mcap": 22648156.5369521,
    "name": "Elsa",
    "net": "base",
    "pool": "0x83f3aca29bc79b048b99c56013475570acc97ccf",
-   "price": 0.0738119064689623,
-   "rsi": 33.3,
-   "safety": "ok",
-   "safety_notes": [],
+   "price": 0.0738529686913613,
+   "rsi": 32.9,
+   "safety": "unknown",
+   "safety_notes": [
+    "safety not checked"
+   ],
    "symbol": "ELSA",
    "token": "0x29cc30f9d113b356ce408667aa6433589cecbdca",
    "trend_up": false,
    "trigger": false,
    "url": "https://www.geckoterminal.com/base/pools/0x83f3aca29bc79b048b99c56013475570acc97ccf",
-   "vol24h": 11626676
+   "vol24h": 10167838
   },
   {
-   "age_d": 106.7,
-   "atr": 0.005661961839991762,
-   "bar_ts": 1795582800000,
-   "chain": "BSC",
-   "chg24h": -24.239,
-   "chg7d": -37.3,
-   "close": 0.09674632833174669,
-   "ema20": 0.10636346672305405,
-   "ema50": 0.11949907677085392,
+   "age_d": 30.2,
+   "atr": 0.004586885775238969,
+   "bar_ts": 1795586400000,
+   "chain": "Arbitrum",
+   "chg24h": -0.069,
+   "chg7d": -0.2,
+   "close": 0.9985299735119898,
+   "ema20": 0.9999825834858481,
+   "ema50": 0.999895358804037,
    "fails": [],
-   "gecko_id": "dappos",
-   "liq": 710436,
-   "mcap": 19388177.018,
-   "name": "DAPPOS",
-   "net": "bsc",
-   "pool": "0xcbeaad783ffd2cea125e9d9b2ec21e639d20fa59",
-   "price": 0.0969408850947993,
-   "rsi": 28.5,
+   "gecko_id": "global-dollar",
+   "liq": 1731378,
+   "mcap": 2613527787.71614,
+   "name": "Global Dollar",
+   "net": "arbitrum",
+   "pool": "0x09328be718d89228a985471bb470988a34d0b162",
+   "price": 0.999812363600428,
+   "rsi": 45.6,
    "safety": "ok",
    "safety_notes": [],
-   "symbol": "DOS",
-   "token": "0xb0f09ea9ae0515c3551080d4a745c8115aa30e37",
+   "symbol": "USDG",
+   "token": "0x004b506865409877c9fa29bfb1eba929984b9bbc",
    "trend_up": false,
    "trigger": false,
-   "url": "https://www.geckoterminal.com/bsc/pools/0xcbeaad783ffd2cea125e9d9b2ec21e639d20fa59",
-   "vol24h": 6767973
+   "url": "https://www.geckoterminal.com/arbitrum/pools/0x09328be718d89228a985471bb470988a34d0b162",
+   "vol24h": 7397088
   }
  ]
 }
