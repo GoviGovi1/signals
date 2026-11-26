@@ -35,15 +35,60 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.393,
-   "last_ts": "2026-11-26T17:55:24+00:00",
-   "move_pct": 0.56,
+   "last": 0.3939,
+   "last_ts": "2026-11-26T18:00:34+00:00",
+   "move_pct": 0.33,
    "closed": false,
    "rsi": 42.5,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": "charts/AERO-PERP-1795708800.png",
    "setup": "BOS"
+  },
+  {
+   "id": "BEAT-PERP-1795712400",
+   "kind": "TA",
+   "score": 0,
+   "reasons": [
+    "Chart: Broke the 20-hour low on 1.9x volume",
+    "Timeframes: 1d down, 4h down, 4h structure lower highs/lows",
+    "No support below in the last 50 days",
+    "Stop 0.063945 (structure); targets at 1R/2R/3R",
+    "BTC 4h trend down",
+    "Weaker than BTC by 22.4% over 7d",
+    "OI +4% 24h",
+    "Sector: Gaming -4.8% 7d (middle, #11 of 20)",
+    "Track record: +2.4R on BEAT in the last 45 days (backtest)"
+   ],
+   "coin": "BEAT",
+   "market": "PERP",
+   "side": "SHORT",
+   "entry": 0.06057,
+   "sl0": 0.06394540384830417,
+   "sl": 0.06394540384830417,
+   "tps": [
+    0.05719459615169582,
+    0.05381919230339165,
+    0.05044378845508747
+   ],
+   "lev": 1,
+   "funding_pct": 0.005,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-11-26T18:00:00+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.06055,
+   "last_ts": "2026-11-26T18:00:34+00:00",
+   "move_pct": 0.03,
+   "closed": false,
+   "rsi": 26.1,
+   "trade_on": "Perps 1x",
+   "market_reason": "shorts need perps; thin perp market, so 1x",
+   "chart": "charts/BEAT-PERP-1795712400.png",
+   "setup": "BREAKOUT20"
   }
  ],
  "closed": [
@@ -4262,7 +4307,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 1
+  "open": 2
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7608,6 +7653,23 @@
     ]
    },
    {
+    "id": "bitcoin-ecosystem",
+    "name": "Bitcoin Ecosystem",
+    "chg7d": -2.21,
+    "top": [
+     "BTC",
+     "DOG",
+     "ORDI",
+     "USTBL",
+     "LOBO"
+    ],
+    "tracked": [
+     "BTC",
+     "ORDI",
+     "SATS"
+    ]
+   },
+   {
     "id": "depin",
     "name": "DePIN",
     "chg7d": -3.95,
@@ -7693,23 +7755,6 @@
      "PIPPIN",
      "PNUT",
      "BONK"
-    ]
-   },
-   {
-    "id": "bitcoin-ecosystem",
-    "name": "Bitcoin Ecosystem",
-    "chg7d": -4.54,
-    "top": [
-     "BTC",
-     "DOG",
-     "ORDI",
-     "USTBL",
-     "LOBO"
-    ],
-    "tracked": [
-     "BTC",
-     "ORDI",
-     "SATS"
     ]
    },
    {
@@ -8168,8 +8213,8 @@
   "updated": {
    "unlocks": 1795704623,
    "onchain": 1795712720,
-   "sectors": 1795715121,
-   "listings": 1795712429,
+   "sectors": 1795716034,
+   "listings": 1795716033,
    "fundamentals": 1795704624
   }
  },
@@ -8207,6 +8252,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "d91c28ec77aa574d8e38b7fd6076cfebf7f159882bc9a57e92511d794260e365",
- "generated": "2026-11-26T17:55:26+00:00"
+ "digest": "071331e50e1461c026cd8fc949604c8f48626e05b1042c41f220c22f99487704",
+ "generated": "2026-11-26T18:01:10+00:00"
 }
