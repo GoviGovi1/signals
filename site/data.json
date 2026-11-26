@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.402,
-   "last_ts": "2026-11-25T23:55:18+00:00",
-   "move_pct": 2.43,
+   "last": 0.4012,
+   "last_ts": "2026-11-26T00:00:45+00:00",
+   "move_pct": 2.62,
    "closed": false,
    "rsi": 41.9,
    "trade_on": "Perps 1x",
@@ -80,15 +80,95 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0979,
-   "last_ts": "2026-11-25T23:55:18+00:00",
-   "move_pct": 3.55,
+   "last": 0.0976,
+   "last_ts": "2026-11-26T00:00:45+00:00",
+   "move_pct": 3.84,
    "closed": false,
    "rsi": 32.0,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": "charts/0G-PERP-1795510800.png",
    "setup": "RANGE_BREAK"
+  },
+  {
+   "id": "SSV-SPOT-HOT-20783",
+   "kind": "HOT",
+   "score": 1909.86,
+   "reasons": [
+    "24h hot mover +50% with volume spike (6.1x the prior 3 days)",
+    "24h volume $2.1M on the OKX spot book, listed 1366 days",
+    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
+    "Stop 2.1487 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
+   ],
+   "coin": "SSV",
+   "market": "SPOT",
+   "side": "LONG",
+   "entry": 2.312,
+   "sl0": 2.148747142506745,
+   "sl": 2.148747142506745,
+   "tps": [
+    2.475252857493255,
+    2.63850571498651,
+    2.801758572479765
+   ],
+   "lev": null,
+   "funding_pct": null,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-11-26T00:00:45+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 2.308,
+   "last_ts": "2026-11-26T00:00:45+00:00",
+   "move_pct": -0.17,
+   "closed": false,
+   "rsi": null,
+   "trade_on": "Spot",
+   "market_reason": "very volatile coin: spot avoids liquidation",
+   "chart": "charts/SSV-SPOT-HOT-20783.png",
+   "setup": "HOT24"
+  },
+  {
+   "id": "AT-PERP-HOT-20783",
+   "kind": "HOT",
+   "score": 844.8,
+   "reasons": [
+    "24h hot mover +21% with volume spike (12.6x the prior 3 days)",
+    "24h volume $4.6M on the OKX perp book, listed 392 days",
+    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
+    "Stop 0.058287 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
+   ],
+   "coin": "AT",
+   "market": "PERP",
+   "side": "LONG",
+   "entry": 0.06432,
+   "sl0": 0.05828681295127094,
+   "sl": 0.05828681295127094,
+   "tps": [
+    0.07035318704872906,
+    0.07638637409745813,
+    0.0824195611461872
+   ],
+   "lev": 1,
+   "funding_pct": 0.005,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-11-26T00:00:45+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.06432,
+   "last_ts": "2026-11-26T00:00:45+00:00",
+   "move_pct": 0.0,
+   "closed": false,
+   "rsi": null,
+   "trade_on": "Perps 1x",
+   "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
+   "chart": "charts/AT-PERP-HOT-20783.png",
+   "setup": "HOT24"
   }
  ],
  "closed": [
@@ -4301,7 +4381,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 2
+  "open": 4
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7958,6 +8038,28 @@
     ]
    },
    {
+    "id": "decentralized-perpetuals",
+    "name": "Decentralized Perpetuals",
+    "chg7d": -6.4,
+    "top": [
+     "HYPE",
+     "ASTER",
+     "JUP",
+     "LIT",
+     "CAKE"
+    ],
+    "tracked": [
+     "HYPE",
+     "LIT",
+     "ASTER",
+     "GRVT",
+     "RAY",
+     "DYDX",
+     "BASED",
+     "F"
+    ]
+   },
+   {
     "id": "artificial-intelligence",
     "name": "Artificial Intelligence",
     "chg7d": -6.89,
@@ -8013,28 +8115,6 @@
      "MORPHO",
      "COMP",
      "KMNO"
-    ]
-   },
-   {
-    "id": "decentralized-perpetuals",
-    "name": "Decentralized Perpetuals",
-    "chg7d": -8.38,
-    "top": [
-     "HYPE",
-     "ASTER",
-     "JUP",
-     "LIT",
-     "CAKE"
-    ],
-    "tracked": [
-     "HYPE",
-     "LIT",
-     "ASTER",
-     "GRVT",
-     "RAY",
-     "DYDX",
-     "BASED",
-     "F"
     ]
    },
    {
@@ -8222,8 +8302,8 @@
   "updated": {
    "unlocks": 1795639364,
    "onchain": 1795647919,
-   "sectors": 1795650323,
-   "listings": 1795647321,
+   "sectors": 1795651244,
+   "listings": 1795651244,
    "fundamentals": 1795639365
   }
  },
@@ -8261,6 +8341,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "bd277b95245b8731fbe2e93495825b528baad9d8b62b01260af7e7d885758491",
- "generated": "2026-11-25T23:55:21+00:00"
+ "digest": "4ec7adb929431c5e0103b1e5fb1d8be6d6715e14e0704da31a1e504ff00a7343",
+ "generated": "2026-11-26T00:01:20+00:00"
 }
