@@ -91,13 +91,6 @@
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "PIPPIN"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "no DEX candles"
-   ],
    "symbol": "PUMP"
   },
   {
@@ -112,7 +105,21 @@
    "fails": [
     "no DEX candles"
    ],
+   "symbol": "PIPPIN"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "no DEX candles"
+   ],
    "symbol": "VINE"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "liquidity under $250k"
+   ],
+   "symbol": "HONEY"
   },
   {
    "chain": "Solana",
@@ -125,31 +132,24 @@
   {
    "chain": "Solana",
    "fails": [
+    "no DEX candles"
+   ],
+   "symbol": "FLOAT"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
     "liquidity under $250k"
    ],
-   "symbol": "HUSS"
+   "symbol": "WASTED"
   },
   {
    "chain": "Solana",
    "fails": [
     "liquidity under $250k",
-    "pool younger than 7 days"
-   ],
-   "symbol": "HOLDERS"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "liquidity under $250k"
-   ],
-   "symbol": "HONEY"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
     "24h volume under $250k"
    ],
-   "symbol": "FLOAT"
+   "symbol": "SWORDCAT"
   },
   {
    "chain": "Base",
@@ -190,13 +190,6 @@
   {
    "chain": "Base",
    "fails": [
-    "24h volume under $250k"
-   ],
-   "symbol": "TIBBIR"
-  },
-  {
-   "chain": "Base",
-   "fails": [
     "no DEX candles"
    ],
    "symbol": "VVV"
@@ -211,9 +204,9 @@
   {
    "chain": "Base",
    "fails": [
-    "no DEX candles"
+    "24h volume under $250k"
    ],
-   "symbol": "AERO"
+   "symbol": "TIBBIR"
   },
   {
    "chain": "Base",
@@ -227,14 +220,14 @@
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "TTWOC"
+   "symbol": "AERO"
   },
   {
    "chain": "Base",
    "fails": [
-    "pool younger than 7 days"
+    "no DEX candles"
    ],
-   "symbol": "ANTC"
+   "symbol": "TTWOC"
   },
   {
    "chain": "Base",
@@ -249,6 +242,13 @@
     "24h volume under $250k"
    ],
    "symbol": "DOT"
+  },
+  {
+   "chain": "Base",
+   "fails": [
+    "pool younger than 7 days"
+   ],
+   "symbol": "ANTC"
   },
   {
    "chain": "Base",
@@ -296,55 +296,57 @@
   }
  ],
  "rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
- "updated": 1795647919,
+ "updated": 1795651519,
  "watchlist": [
   {
    "age_d": 463.6,
-   "atr": 0.016609757799561302,
-   "bar_ts": 1795644000000,
+   "atr": 0.0159130196701553,
+   "bar_ts": 1795647600000,
    "chain": "BSC",
-   "chg24h": 12.621,
-   "chg7d": 40.5,
-   "close": 0.33202834920117097,
-   "ema20": 0.31745750517102456,
-   "ema50": 0.308286545053943,
+   "chg24h": 10.503,
+   "chg7d": 42.4,
+   "close": 0.33815969344836094,
+   "ema20": 0.3194291421566133,
+   "ema50": 0.3094583682449884,
    "fails": [],
    "gecko_id": "aria-ai",
-   "liq": 2225159,
-   "mcap": 61607203.5099,
+   "liq": 2219505,
+   "mcap": 61288971.4326,
    "name": "ARIA.AI",
    "net": "bsc",
    "pool": "0xa5dbeaf16fc031eae92175974f8d0a439be4ad17",
-   "price": 0.33440046939853,
-   "rsi": 58.8,
-   "safety": "ok",
-   "safety_notes": [],
+   "price": 0.335802140624756,
+   "rsi": 61.2,
+   "safety": "unknown",
+   "safety_notes": [
+    "safety not checked"
+   ],
    "symbol": "ARIA",
    "token": "0x5d3a12c42e5372b2cc3264ab3cdcf660a1555238",
    "trend_up": true,
    "trigger": false,
    "url": "https://www.geckoterminal.com/bsc/pools/0xa5dbeaf16fc031eae92175974f8d0a439be4ad17",
-   "vol24h": 3772824
+   "vol24h": 3748377
   },
   {
    "age_d": 1349.9,
-   "atr": 0.0014912030988944846,
-   "bar_ts": 1795644000000,
+   "atr": 0.0014704018189750344,
+   "bar_ts": 1795647600000,
    "chain": "Arbitrum",
-   "chg24h": 1.878,
-   "chg7d": -11.0,
-   "close": 0.11206737750759599,
-   "ema20": 0.10987962282522168,
-   "ema50": 0.11079672059338198,
+   "chg24h": 2.725,
+   "chg7d": -11.2,
+   "close": 0.11310311689804399,
+   "ema20": 0.11018662226300473,
+   "ema50": 0.1108872845238555,
    "fails": [],
    "gecko_id": "arbitrum",
-   "liq": 1071643,
-   "mcap": 784074399.924953,
+   "liq": 1081529,
+   "mcap": 792513434.364832,
    "name": "Arbitrum",
    "net": "arbitrum",
    "pool": "0xc6f780497a95e246eb9449f5e4770916dcd6396a",
-   "price": 0.112065331938359,
-   "rsi": 61.5,
+   "price": 0.11325389600423,
+   "rsi": 65.5,
    "safety": "ok",
    "safety_notes": [],
    "symbol": "ARB",
@@ -352,7 +354,7 @@
    "trend_up": false,
    "trigger": false,
    "url": "https://www.geckoterminal.com/arbitrum/pools/0xc6f780497a95e246eb9449f5e4770916dcd6396a",
-   "vol24h": 2497557
+   "vol24h": 2496414
   }
  ]
 }
