@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.06129,
-   "last_ts": "2026-11-26T03:00:30+00:00",
-   "move_pct": -4.71,
+   "last": 0.0611,
+   "last_ts": "2026-11-26T03:06:22+00:00",
+   "move_pct": -5.01,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -7557,44 +7557,46 @@
   "onchain": [
    {
     "chain": "BSC",
-    "symbol": "ARK",
-    "name": "ARK",
-    "token": "0xcae117ca6bc8a341d2e7207f30e180f0e5618b9d",
-    "price": 6.43049827924029,
-    "liq": 58268973,
-    "vol24h": 5643389,
-    "age_d": 456.6,
-    "chg24h": 0.259,
-    "chg7d": 0.5,
-    "mcap": 0.0,
-    "safety": "ok",
-    "safety_notes": [],
+    "symbol": "EVAA",
+    "name": "EVAA",
+    "token": "0xaa036928c9c0df07d525b55ea8ee690bb5a628c1",
+    "price": 2.80440662473588,
+    "liq": 251201,
+    "vol24h": 6112134,
+    "age_d": 419.8,
+    "chg24h": 32.373,
+    "chg7d": -29.4,
+    "mcap": 18559484.5188791,
+    "safety": "unknown",
+    "safety_notes": [
+     "safety not checked"
+    ],
     "trigger": false,
     "trend_up": true,
-    "rsi": 50.5,
-    "url": "https://www.geckoterminal.com/bsc/pools/0xcaaf3c41a40103a23eeaa4bba468af3cf5b0e0d8"
+    "rsi": 58.8,
+    "url": "https://www.geckoterminal.com/bsc/pools/0x26deb24a2623cf54452ab5183e2c34551831d54d"
    },
    {
     "chain": "BSC",
     "symbol": "$BANANA",
     "name": "Banana For Scale",
     "token": "0x3d4f0513e8a29669b960f9dbca61861548a9a760",
-    "price": 0.00486916678093359,
-    "liq": 2902579,
-    "vol24h": 3635075,
-    "age_d": 737.7,
-    "chg24h": 5.292,
-    "chg7d": -4.3,
-    "mcap": 48691691.37,
+    "price": 0.00488068520181316,
+    "liq": 2908239,
+    "vol24h": 3778587,
+    "age_d": 737.8,
+    "chg24h": 5.742,
+    "chg7d": -3.7,
+    "mcap": 48806852.02,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": true,
-    "rsi": 65.9,
+    "rsi": 66.5,
     "url": "https://www.geckoterminal.com/bsc/pools/0x7f51bbf34156ba802deb0e38b7671dc4fa32041d"
    }
   ],
-  "onchain_checked": 85,
+  "onchain_checked": 84,
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
@@ -8178,7 +8180,7 @@
   ],
   "updated": {
    "unlocks": 1795661122,
-   "onchain": 1795658721,
+   "onchain": 1795662318,
    "sectors": 1795662030,
    "listings": 1795659026,
    "fundamentals": 1795661122
@@ -8218,6 +8220,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "f7fe6bcc993c4f9372b1512877d97229eefb095885f69e0e39826350e8fa7e79",
- "generated": "2026-11-26T03:01:06+00:00"
+ "digest": "a997fcefa70aecafc9206c60676de6f0ded775efafa68573f575430923d38c01",
+ "generated": "2026-11-26T03:06:26+00:00"
 }
