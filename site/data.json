@@ -36,7 +36,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.06145,
-   "last_ts": "2026-11-26T23:00:31+00:00",
+   "last_ts": "2026-11-26T23:06:21+00:00",
    "move_pct": -1.45,
    "closed": false,
    "rsi": 26.1,
@@ -7548,42 +7548,44 @@
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
   "onchain": [
    {
-    "chain": "Arbitrum",
-    "symbol": "USDG",
-    "name": "Global Dollar",
-    "token": "0x004b506865409877c9fa29bfb1eba929984b9bbc",
-    "price": 1.00154262276041,
-    "liq": 2241159,
-    "vol24h": 3502790,
-    "age_d": 31.8,
-    "chg24h": 0.207,
-    "chg7d": -0.3,
-    "mcap": 2577686226.84586,
-    "safety": "ok",
-    "safety_notes": [],
+    "chain": "BSC",
+    "symbol": "AIOT",
+    "name": "OKZOO",
+    "token": "0x55ad16bd573b3365f43a9daeb0cc66a73821b4a5",
+    "price": 0.103836500529751,
+    "liq": 2812960,
+    "vol24h": 4790543,
+    "age_d": 576.5,
+    "chg24h": 12.526,
+    "chg7d": 28.6,
+    "mcap": 57032197.7957885,
+    "safety": "unknown",
+    "safety_notes": [
+     "safety not checked"
+    ],
     "trigger": false,
-    "trend_up": false,
-    "rsi": 48.4,
-    "url": "https://www.geckoterminal.com/arbitrum/pools/0x09328be718d89228a985471bb470988a34d0b162"
+    "trend_up": true,
+    "rsi": 54.6,
+    "url": "https://www.geckoterminal.com/bsc/pools/0xb433ae7e7011a2fb9a4bbb86140e0f653dcfcfba"
    },
    {
     "chain": "BSC",
-    "symbol": "BLESS",
-    "name": "Bless Token",
-    "token": "0x7c8217517ed4711fe2deccdfeffe8d906b9ae11f",
-    "price": 0.0160695891889049,
-    "liq": 279284,
-    "vol24h": 2251603,
-    "age_d": 430.6,
-    "chg24h": -5.264,
-    "chg7d": 33.8,
-    "mcap": 29530857.208595,
+    "symbol": "SPCXB",
+    "name": "SpaceX",
+    "token": "0xbe9d156892e55e7154bcd3cb0fea677f9d3103e1",
+    "price": 129.038432043082,
+    "liq": 838940,
+    "vol24h": 2242460,
+    "age_d": 117.4,
+    "chg24h": 1.147,
+    "chg7d": -6.4,
+    "mcap": 112507646.23785,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
-    "trend_up": false,
-    "rsi": 41.6,
-    "url": "https://www.geckoterminal.com/bsc/pools/0x49986efbeedea3ab962ca95caf86919860ecc9db"
+    "trend_up": true,
+    "rsi": 56.2,
+    "url": "https://www.geckoterminal.com/bsc/pools/0x66faad27cf481f82d0089ec8156b3aa3636010c7"
    }
   ],
   "onchain_checked": 82,
@@ -8170,7 +8172,7 @@
   ],
   "updated": {
    "unlocks": 1795726526,
-   "onchain": 1795730721,
+   "onchain": 1795734319,
    "sectors": 1795734031,
    "listings": 1795731328,
    "fundamentals": 1795726528
@@ -8210,6 +8212,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "3d57bc28b310b426d3330227b5bcc9deb74e23602da8ceff22d0a252db4a44fc",
- "generated": "2026-11-26T23:00:59+00:00"
+ "digest": "c03b25650fe935ecb25cb28d6c7940485083c8ad3a04387562b6205ac9cecbcf",
+ "generated": "2026-11-26T23:06:23+00:00"
 }
