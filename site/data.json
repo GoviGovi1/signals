@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.3944,
-   "last_ts": "2026-11-26T18:10:21+00:00",
-   "move_pct": 0.2,
+   "last": 0.3936,
+   "last_ts": "2026-11-26T18:15:24+00:00",
+   "move_pct": 0.4,
    "closed": false,
    "rsi": 42.5,
    "trade_on": "Perps 1x",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.06038,
-   "last_ts": "2026-11-26T18:10:21+00:00",
-   "move_pct": 0.31,
+   "last": 0.06025,
+   "last_ts": "2026-11-26T18:15:24+00:00",
+   "move_pct": 0.53,
    "closed": false,
    "rsi": 26.1,
    "trade_on": "Perps 1x",
@@ -7670,6 +7670,28 @@
     ]
    },
    {
+    "id": "layer-1",
+    "name": "Layer 1",
+    "chg7d": -2.6,
+    "top": [
+     "BTC",
+     "ETH",
+     "BNB",
+     "XRP",
+     "SOL"
+    ],
+    "tracked": [
+     "BTC",
+     "ETH",
+     "SOL",
+     "XRP",
+     "SUI",
+     "BNB",
+     "AVAX",
+     "ZEC"
+    ]
+   },
+   {
     "id": "depin",
     "name": "DePIN",
     "chg7d": -3.95,
@@ -7792,28 +7814,6 @@
     ],
     "tracked": [
      "W"
-    ]
-   },
-   {
-    "id": "layer-1",
-    "name": "Layer 1",
-    "chg7d": -4.76,
-    "top": [
-     "BTC",
-     "ETH",
-     "BNB",
-     "XRP",
-     "SOL"
-    ],
-    "tracked": [
-     "BTC",
-     "ETH",
-     "SOL",
-     "XRP",
-     "SUI",
-     "BNB",
-     "AVAX",
-     "ZEC"
     ]
    },
    {
@@ -8213,7 +8213,7 @@
   "updated": {
    "unlocks": 1795704623,
    "onchain": 1795716321,
-   "sectors": 1795716034,
+   "sectors": 1795716923,
    "listings": 1795716033,
    "fundamentals": 1795704624
   }
@@ -8252,6 +8252,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "8170a4e54b3597ad7644d80a29255709ebcb8c7608937ba59bd515a4b916388a",
- "generated": "2026-11-26T18:10:24+00:00"
+ "digest": "804d58e57b8fa7710fa258e2ca389345bf3bca3a4ffa1d2fe16bfd80832eb50b",
+ "generated": "2026-11-26T18:15:27+00:00"
 }
