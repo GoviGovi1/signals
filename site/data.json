@@ -7497,47 +7497,45 @@
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
   "onchain": [
    {
-    "chain": "BSC",
-    "symbol": "EVAA",
-    "name": "EVAA",
-    "token": "0xaa036928c9c0df07d525b55ea8ee690bb5a628c1",
-    "price": 3.26173583410256,
-    "liq": 267061,
-    "vol24h": 4008534,
-    "age_d": 420.2,
-    "chg24h": 16.574,
-    "chg7d": -32.9,
-    "mcap": 21586076.4214704,
+    "chain": "Ethereum",
+    "symbol": "CRVUSD",
+    "name": "Curve.Fi USD Stablecoin",
+    "token": "0xf939e0a03fb07f59a73314e73794be0e57ac1b4e",
+    "price": 1.00327769491646,
+    "liq": 7814820,
+    "vol24h": 4145435,
+    "age_d": 1287.9,
+    "chg24h": 0.635,
+    "chg7d": -0.1,
+    "mcap": 140707231.376211,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": true,
-    "rsi": 67.6,
-    "url": "https://www.geckoterminal.com/bsc/pools/0x26deb24a2623cf54452ab5183e2c34551831d54d"
+    "rsi": 50.7,
+    "url": "https://www.geckoterminal.com/eth/pools/0x4dece678ceceb27446b35c672dc7d61f30bad69e"
    },
    {
     "chain": "BSC",
     "symbol": "GUA",
     "name": "GUA",
     "token": "0xa5c8e1513b6a08334b479fe4d71f1253259469be",
-    "price": 0.0329654979012117,
-    "liq": 1035174,
-    "vol24h": 6715084,
+    "price": 0.0322243283998019,
+    "liq": 1021159,
+    "vol24h": 6327990,
     "age_d": 365.4,
-    "chg24h": -7.585,
-    "chg7d": 32.6,
-    "mcap": 1480540.1895,
-    "safety": "unknown",
-    "safety_notes": [
-     "safety not checked"
-    ],
+    "chg24h": -11.169,
+    "chg7d": 29.0,
+    "mcap": 1445059.323,
+    "safety": "ok",
+    "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 40.6,
+    "rsi": 37.7,
     "url": "https://www.geckoterminal.com/bsc/pools/0xb89dabc63fd0b83c29071bc4a52f1e8f42466810616e4c5c988965eef39a78ed"
    }
   ],
-  "onchain_checked": 83,
+  "onchain_checked": 82,
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
@@ -8121,7 +8119,7 @@
   ],
   "updated": {
    "unlocks": 1795704623,
-   "onchain": 1795701921,
+   "onchain": 1795705525,
    "sectors": 1795705239,
    "listings": 1795704648,
    "fundamentals": 1795704624
@@ -8161,6 +8159,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "155561a08f8f90f159a9b9e497b80484c2aa1145321526e3224a1a3397987ffc",
- "generated": "2026-11-26T15:01:11+00:00"
+ "digest": "8083af257dad114c00dbec14dc2af1b639b094064abd7acb03b964b6467816af",
+ "generated": "2026-11-26T15:06:38+00:00"
 }
