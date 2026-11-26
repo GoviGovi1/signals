@@ -1,51 +1,6 @@
 {
  "open": [
   {
-   "id": "AERO-PERP-1795708800",
-   "kind": "TA",
-   "score": 0,
-   "reasons": [
-    "Chart: Break of structure: closed below the last swing low 0.3965, after a lower high",
-    "Timeframes: 1d down, 4h down, 4h structure lower highs/lows",
-    "Next support 0.3753 (2.4R away, 4h swing/swing)",
-    "Stop 0.40363 (structure); targets at the next 2 level(s)",
-    "BTC 4h trend down",
-    "Weaker than BTC by 2.1% over 7d",
-    "OI +8% 24h with breakout",
-    "Sector: Exchange Based Tokens -4.2% 7d (leading, #3 of 20)",
-    "Track record: +1.4R on AERO in the last 45 days (backtest)"
-   ],
-   "coin": "AERO",
-   "market": "PERP",
-   "side": "SHORT",
-   "entry": 0.3952,
-   "sl0": 0.40363164433957216,
-   "sl": 0.40363164433957216,
-   "tps": [
-    0.37596582216978613,
-    0.36786582216978614,
-    0.359434177830214
-   ],
-   "lev": 1,
-   "funding_pct": 0.005,
-   "status": "open",
-   "hits": 0,
-   "opened": "2026-11-26T17:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.4023,
-   "last_ts": "2026-11-26T21:06:25+00:00",
-   "move_pct": -1.8,
-   "closed": false,
-   "rsi": 42.5,
-   "trade_on": "Perps 1x",
-   "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": "charts/AERO-PERP-1795708800.png",
-   "setup": "BOS"
-  },
-  {
    "id": "BEAT-PERP-1795712400",
    "kind": "TA",
    "score": 0,
@@ -80,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.06248,
-   "last_ts": "2026-11-26T21:06:25+00:00",
-   "move_pct": -3.15,
+   "last": 0.06235,
+   "last_ts": "2026-11-26T21:10:21+00:00",
+   "move_pct": -2.94,
    "closed": false,
    "rsi": 26.1,
    "trade_on": "Perps 1x",
@@ -92,6 +47,51 @@
   }
  ],
  "closed": [
+  {
+   "id": "AERO-PERP-1795708800",
+   "kind": "TA",
+   "score": 0,
+   "reasons": [
+    "Chart: Break of structure: closed below the last swing low 0.3965, after a lower high",
+    "Timeframes: 1d down, 4h down, 4h structure lower highs/lows",
+    "Next support 0.3753 (2.4R away, 4h swing/swing)",
+    "Stop 0.40363 (structure); targets at the next 2 level(s)",
+    "BTC 4h trend down",
+    "Weaker than BTC by 2.1% over 7d",
+    "OI +8% 24h with breakout",
+    "Sector: Exchange Based Tokens -4.2% 7d (leading, #3 of 20)",
+    "Track record: +1.4R on AERO in the last 45 days (backtest)"
+   ],
+   "coin": "AERO",
+   "market": "PERP",
+   "side": "SHORT",
+   "entry": 0.3952,
+   "sl0": 0.40363164433957216,
+   "sl": 0.40363164433957216,
+   "tps": [
+    0.37596582216978613,
+    0.36786582216978614,
+    0.359434177830214
+   ],
+   "lev": 1,
+   "funding_pct": 0.005,
+   "status": "stopped",
+   "hits": 0,
+   "opened": "2026-11-26T17:00:00+00:00",
+   "closed_at": "2026-11-26T21:10:21+00:00",
+   "exit_price": 0.40363164433957216,
+   "result_r": -1.0,
+   "result_pct": -2.13,
+   "last": 0.4033,
+   "last_ts": "2026-11-26T21:10:21+00:00",
+   "move_pct": -1.8,
+   "closed": true,
+   "rsi": 42.5,
+   "trade_on": "Perps 1x",
+   "market_reason": "shorts need perps; thin perp market, so 1x",
+   "chart": "charts/AERO-PERP-1795708800.png",
+   "setup": "BOS"
+  },
   {
    "id": "DATA-SPOT-1795665600",
    "kind": "TA",
@@ -1825,7 +1825,7 @@
    "rsi": 43.2,
    "trade_on": "Perps 2x",
    "market_reason": "shorts need perps; 2x keeps liquidation 3x+ further away than the stop",
-   "chart": "charts/WLD-PERP-1795323600.png",
+   "chart": null,
    "setup": "BOS"
   },
   {
@@ -2640,57 +2640,17 @@
    "market_reason": "only spot is listed",
    "chart": null,
    "setup": "HOT24"
-  },
-  {
-   "id": "PIEVERSE-PERP-HOT-20776",
-   "kind": "HOT",
-   "score": 760.15,
-   "reasons": [
-    "24h hot mover +21% with volume spike (4.3x the prior 3 days)",
-    "24h volume $220.4M on the OKX perp book, listed 368 days",
-    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
-    "Stop 2.2918 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
-   ],
-   "coin": "PIEVERSE",
-   "market": "PERP",
-   "side": "LONG",
-   "entry": 2.6043,
-   "sl0": 2.291784,
-   "sl": 2.6043,
-   "tps": [
-    2.916816,
-    3.229332,
-    3.541848
-   ],
-   "lev": 1,
-   "funding_pct": 0.005,
-   "status": "stopped_be",
-   "hits": 1,
-   "opened": "2026-11-19T07:35:24+00:00",
-   "closed_at": "2026-11-20T10:15:26+00:00",
-   "exit_price": 2.6043,
-   "result_r": 0.25,
-   "result_pct": 3.0,
-   "last": 2.6074,
-   "last_ts": "2026-11-20T10:15:26+00:00",
-   "move_pct": 2.6,
-   "closed": true,
-   "rsi": null,
-   "trade_on": "Perps 1x",
-   "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
-   "chart": null,
-   "setup": "HOT24"
   }
  ],
  "stats": {
   "all": {
-   "trades": 337,
+   "trades": 338,
    "wins": 160,
-   "losses": 177,
-   "win_rate": 47.5,
-   "total_r": 31.86,
-   "avg_r": 0.095,
-   "total_pct": 171.37
+   "losses": 178,
+   "win_rate": 47.3,
+   "total_r": 30.86,
+   "avg_r": 0.091,
+   "total_pct": 169.24
   },
   "SPOT": {
    "trades": 97,
@@ -2702,13 +2662,13 @@
    "total_pct": 56.77
   },
   "PERP": {
-   "trades": 224,
+   "trades": 225,
    "wins": 113,
-   "losses": 111,
-   "win_rate": 50.4,
-   "total_r": 40.89,
-   "avg_r": 0.183,
-   "total_pct": 95.7
+   "losses": 112,
+   "win_rate": 50.2,
+   "total_r": 39.89,
+   "avg_r": 0.177,
+   "total_pct": 93.57
   },
   "DEX": {
    "trades": 16,
@@ -2739,13 +2699,13 @@
     "total_pct": 18.9
    },
    "TA": {
-    "trades": 231,
+    "trades": 232,
     "wins": 100,
-    "losses": 131,
-    "win_rate": 43.3,
-    "total_r": 20.0,
-    "avg_r": 0.087,
-    "total_pct": 73.48
+    "losses": 132,
+    "win_rate": 43.1,
+    "total_r": 19.0,
+    "avg_r": 0.082,
+    "total_pct": 71.35
    }
   },
   "coins": {
@@ -2813,13 +2773,13 @@
     "total_pct": -2.79
    },
    "AERO": {
-    "trades": 2,
+    "trades": 3,
     "wins": 2,
-    "losses": 0,
-    "win_rate": 100.0,
-    "total_r": 0.82,
-    "avg_r": 0.409,
-    "total_pct": 2.56
+    "losses": 1,
+    "win_rate": 66.7,
+    "total_r": -0.18,
+    "avg_r": -0.06,
+    "total_pct": 0.43
    },
    "AGLD": {
     "trades": 2,
@@ -4307,7 +4267,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 2
+  "open": 1
  },
  "backtest": {
   "from": "2026-07-24",
@@ -8250,6 +8210,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "01e0bb1c6f50d53874c95a071e699862fad14fbb6190546e07531fae7b58cf68",
- "generated": "2026-11-26T21:06:28+00:00"
+ "digest": "9d9f6a12421f881bd7ffacf437bd08384786d1c04d1fb3b31a37adfd416c5412",
+ "generated": "2026-11-26T21:10:24+00:00"
 }
