@@ -7515,44 +7515,44 @@
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
   "onchain": [
    {
+    "chain": "Solana",
+    "symbol": "PUMP",
+    "name": "Pump",
+    "token": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+    "price": 0.0026214919385485025,
+    "liq": 18412311,
+    "vol24h": 3825696,
+    "age_d": 499.5,
+    "chg24h": 8.107,
+    "chg7d": 0.1,
+    "mcap": 924190750.706366,
+    "safety": "ok",
+    "safety_notes": [],
+    "trigger": false,
+    "trend_up": true,
+    "rsi": 71.9,
+    "url": "https://www.geckoterminal.com/solana/pools/2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd"
+   },
+   {
     "chain": "BSC",
-    "symbol": "EVAA",
-    "name": "EVAA",
-    "token": "0xaa036928c9c0df07d525b55ea8ee690bb5a628c1",
-    "price": 2.80440662473588,
-    "liq": 251201,
-    "vol24h": 6112134,
-    "age_d": 419.8,
-    "chg24h": 32.373,
-    "chg7d": -29.4,
-    "mcap": 18559484.5188791,
+    "symbol": "ARK",
+    "name": "ARK",
+    "token": "0xcae117ca6bc8a341d2e7207f30e180f0e5618b9d",
+    "price": 6.41532186287297,
+    "liq": 58625798,
+    "vol24h": 5590657,
+    "age_d": 456.7,
+    "chg24h": 0.82,
+    "chg7d": -0.8,
+    "mcap": 0.0,
     "safety": "unknown",
     "safety_notes": [
      "safety not checked"
     ],
     "trigger": false,
-    "trend_up": true,
-    "rsi": 58.8,
-    "url": "https://www.geckoterminal.com/bsc/pools/0x26deb24a2623cf54452ab5183e2c34551831d54d"
-   },
-   {
-    "chain": "BSC",
-    "symbol": "$BANANA",
-    "name": "Banana For Scale",
-    "token": "0x3d4f0513e8a29669b960f9dbca61861548a9a760",
-    "price": 0.00488068520181316,
-    "liq": 2908239,
-    "vol24h": 3778587,
-    "age_d": 737.8,
-    "chg24h": 5.742,
-    "chg7d": -3.7,
-    "mcap": 48806852.02,
-    "safety": "ok",
-    "safety_notes": [],
-    "trigger": false,
-    "trend_up": true,
-    "rsi": 66.5,
-    "url": "https://www.geckoterminal.com/bsc/pools/0x7f51bbf34156ba802deb0e38b7671dc4fa32041d"
+    "trend_up": false,
+    "rsi": 47.3,
+    "url": "https://www.geckoterminal.com/bsc/pools/0xcaaf3c41a40103a23eeaa4bba468af3cf5b0e0d8"
    }
   ],
   "onchain_checked": 84,
@@ -8139,7 +8139,7 @@
   ],
   "updated": {
    "unlocks": 1795661122,
-   "onchain": 1795662318,
+   "onchain": 1795665921,
    "sectors": 1795665630,
    "listings": 1795662629,
    "fundamentals": 1795661122
@@ -8179,6 +8179,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "3b718fcf8bd96a766867c6c3e1d6f54af839108a909b8afea21797a307736058",
- "generated": "2026-11-26T04:01:03+00:00"
+ "digest": "f9e42649220d3a04d07224fac05a9ed1a8a1c21cc39bda26859ada8d16f28223",
+ "generated": "2026-11-26T04:06:26+00:00"
 }
