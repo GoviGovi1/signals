@@ -1,5 +1,50 @@
 {
- "open": [],
+ "open": [
+  {
+   "id": "DATA-SPOT-1795665600",
+   "kind": "TA",
+   "score": 1,
+   "reasons": [
+    "Chart: Broke out of a 4-day range at 0.0858 (range 0.07451\u20130.0858) on 1.6x volume",
+    "Timeframes: 1d down, 4h down, 4h structure lower highs/lows",
+    "Next resistance 0.096557 (5.8R away, 4h swing/swing)",
+    "Stop 0.084834 (below the breakout level); targets at the next 1 level(s)",
+    "BTC 4h trend down",
+    "Stronger than BTC by 1.2% over 7d",
+    "OI +11% 24h with breakout",
+    "Track record: +9.4R on DATA in the last 45 days (backtest)"
+   ],
+   "coin": "DATA",
+   "market": "SPOT",
+   "side": "LONG",
+   "entry": 0.08673,
+   "sl0": 0.08499117846638418,
+   "sl": 0.08499117846638418,
+   "tps": [
+    0.096493531459169,
+    0.09823235299278482,
+    0.09997117452640063
+   ],
+   "lev": null,
+   "funding_pct": null,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-11-26T05:00:00+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.08685,
+   "last_ts": "2026-11-26T05:00:29+00:00",
+   "move_pct": 0.14,
+   "closed": false,
+   "rsi": 73.6,
+   "trade_on": "Spot",
+   "market_reason": "thin perp market: spot is safer",
+   "chart": "charts/DATA-SPOT-1795665600.png",
+   "setup": "RANGE_BREAK"
+  }
+ ],
  "closed": [
   {
    "id": "AT-PERP-HOT-20783",
@@ -4217,7 +4262,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 0
+  "open": 1
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7859,6 +7904,28 @@
     ]
    },
    {
+    "id": "decentralized-perpetuals",
+    "name": "Decentralized Perpetuals",
+    "chg7d": -6.03,
+    "top": [
+     "HYPE",
+     "ASTER",
+     "JUP",
+     "LIT",
+     "CAKE"
+    ],
+    "tracked": [
+     "HYPE",
+     "LIT",
+     "ASTER",
+     "GRVT",
+     "RAY",
+     "DYDX",
+     "BASED",
+     "F"
+    ]
+   },
+   {
     "id": "interoperability",
     "name": "Interoperability",
     "chg7d": -6.26,
@@ -7893,28 +7960,6 @@
      "ICP",
      "VIRTUAL",
      "GRASS"
-    ]
-   },
-   {
-    "id": "decentralized-perpetuals",
-    "name": "Decentralized Perpetuals",
-    "chg7d": -6.4,
-    "top": [
-     "HYPE",
-     "ASTER",
-     "JUP",
-     "LIT",
-     "CAKE"
-    ],
-    "tracked": [
-     "HYPE",
-     "LIT",
-     "ASTER",
-     "GRVT",
-     "RAY",
-     "DYDX",
-     "BASED",
-     "F"
     ]
    },
    {
@@ -8140,7 +8185,7 @@
   "updated": {
    "unlocks": 1795661122,
    "onchain": 1795665921,
-   "sectors": 1795668324,
+   "sectors": 1795669229,
    "listings": 1795666525,
    "fundamentals": 1795661122
   }
@@ -8179,6 +8224,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "dac6d96ceda83fb20074697821de10c31c7f0d773c84cf955f9f17bd1cb2d56c",
- "generated": "2026-11-26T04:45:27+00:00"
+ "digest": "37e62162a15d464a8c8f31c59270b6dabd1845824045e1211da8846eb232f67e",
+ "generated": "2026-11-26T05:01:03+00:00"
 }

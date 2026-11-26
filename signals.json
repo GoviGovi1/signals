@@ -21074,5 +21074,74 @@
   "funding_pct": null,
   "chart": "charts/MOVE-SPOT-HOT-20783.png",
   "news_sent": []
+ },
+ {
+  "dir": 1,
+  "entry": 0.08673,
+  "sl": 0.08499117846638418,
+  "sl0": 0.08499117846638418,
+  "R": 0.0017388215336158197,
+  "tps": [
+   0.096493531459169,
+   0.09823235299278482,
+   0.09997117452640063
+  ],
+  "hits": 0,
+  "be_from": null,
+  "opened": 1795669200000,
+  "status": "open",
+  "closed": false,
+  "exit_price": null,
+  "result_r": null,
+  "lev": 1,
+  "id": "DATA-SPOT-1795665600",
+  "kind": "TA",
+  "coin": "DATA",
+  "market": "SPOT",
+  "bar_ts": 1795665600000,
+  "side": "LONG",
+  "next_bar": 1795669200000,
+  "last": 0.08685,
+  "last_ts": 1795669229898,
+  "rsi": 73.6,
+  "atr": 0.001620839090942704,
+  "result_pct": null,
+  "closed_at": null,
+  "move_pct": 0.14,
+  "score": 1,
+  "trade_on": "Spot",
+  "market_reason": "thin perp market: spot is safer",
+  "setup": "RANGE_BREAK",
+  "reasons": [
+   "Chart: Broke out of a 4-day range at 0.0858 (range 0.07451\u20130.0858) on 1.6x volume",
+   "Timeframes: 1d down, 4h down, 4h structure lower highs/lows",
+   "Next resistance 0.096557 (5.8R away, 4h swing/swing)",
+   "Stop 0.084834 (below the breakout level); targets at the next 1 level(s)",
+   "BTC 4h trend down",
+   "Stronger than BTC by 1.2% over 7d",
+   "OI +11% 24h with breakout",
+   "Track record: +9.4R on DATA in the last 45 days (backtest)"
+  ],
+  "w": [
+   0.25,
+   0.25,
+   0.5
+  ],
+  "strategy": "v4.1",
+  "levels": [
+   0.0746477105,
+   0.076070335,
+   0.0852310259,
+   0.0967353811,
+   0.0991829733,
+   0.1005855608
+  ],
+  "range_box": [
+   0.07464771052327597,
+   0.08595857687420584,
+   1795320000000
+  ],
+  "funding_pct": null,
+  "chart": "charts/DATA-SPOT-1795665600.png"
  }
 ]
