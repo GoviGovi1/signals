@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.4023,
-   "last_ts": "2026-11-26T20:55:50+00:00",
-   "move_pct": -1.8,
+   "last": 0.4019,
+   "last_ts": "2026-11-26T21:00:35+00:00",
+   "move_pct": -1.7,
    "closed": false,
    "rsi": 42.5,
    "trade_on": "Perps 1x",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.06319,
-   "last_ts": "2026-11-26T20:55:50+00:00",
-   "move_pct": -4.33,
+   "last": 0.06259,
+   "last_ts": "2026-11-26T21:00:35+00:00",
+   "move_pct": -3.33,
    "closed": false,
    "rsi": 26.1,
    "trade_on": "Perps 1x",
@@ -7964,6 +7964,26 @@
     ]
    },
    {
+    "id": "oracle",
+    "name": "Oracle",
+    "chg7d": -5.99,
+    "top": [
+     "LINK",
+     "PYTH",
+     "RED",
+     "WIN",
+     "TRB"
+    ],
+    "tracked": [
+     "LINK",
+     "AT",
+     "TRB",
+     "PYTH",
+     "API3",
+     "BAND"
+    ]
+   },
+   {
     "id": "lending-borrowing",
     "name": "Lending Borrowing",
     "chg7d": -6.11,
@@ -8019,26 +8039,6 @@
     ],
     "tracked": [
      "ZEC"
-    ]
-   },
-   {
-    "id": "oracle",
-    "name": "Oracle",
-    "chg7d": -8.44,
-    "top": [
-     "LINK",
-     "PYTH",
-     "RED",
-     "WIN",
-     "TRB"
-    ],
-    "tracked": [
-     "LINK",
-     "AT",
-     "TRB",
-     "PYTH",
-     "API3",
-     "BAND"
     ]
    }
   ],
@@ -8211,7 +8211,7 @@
   "updated": {
    "unlocks": 1795726526,
    "onchain": 1795723523,
-   "sectors": 1795725921,
+   "sectors": 1795726835,
    "listings": 1795723823,
    "fundamentals": 1795726528
   }
@@ -8250,6 +8250,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "7724b06251931be3b20753a0b876d97525ada3f85ff23994bb0488a58b086f8d",
- "generated": "2026-11-26T20:55:53+00:00"
+ "digest": "f1992cbebe263eb2fe48a9fd4820b5f5a851f0b6d1ee3c4dc5955cef11a296a1",
+ "generated": "2026-11-26T21:01:06+00:00"
 }
