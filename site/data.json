@@ -7529,45 +7529,45 @@
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
   "onchain": [
    {
-    "chain": "Base",
-    "symbol": "AERO",
-    "name": "Aero",
-    "token": "0x3f5bf3edac59d650d8fdf9657a71f2f904a3a4ee",
-    "price": 0.405041993236775,
-    "liq": 758760,
-    "vol24h": 5293349,
-    "age_d": 35.2,
-    "chg24h": 4.809,
-    "chg7d": -7.6,
-    "mcap": 312842946.341564,
+    "chain": "Ethereum",
+    "symbol": "CRVUSD",
+    "name": "Curve.Fi USD Stablecoin",
+    "token": "0xf939e0a03fb07f59a73314e73794be0e57ac1b4e",
+    "price": 0.996183846719645,
+    "liq": 7685988,
+    "vol24h": 4863820,
+    "age_d": 1287.7,
+    "chg24h": -0.094,
+    "chg7d": 0.0,
+    "mcap": 139760129.856316,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
-    "trend_up": false,
-    "rsi": 56.8,
-    "url": "https://www.geckoterminal.com/base/pools/0x422df9aa896e883c9cdcbad309c0785b7364a1cf"
+    "trend_up": true,
+    "rsi": 52.0,
+    "url": "https://www.geckoterminal.com/eth/pools/0x4dece678ceceb27446b35c672dc7d61f30bad69e"
    },
    {
-    "chain": "Arbitrum",
-    "symbol": "USDG",
-    "name": "Global Dollar",
-    "token": "0x004b506865409877c9fa29bfb1eba929984b9bbc",
-    "price": 1.00076028120041,
-    "liq": 1871874,
-    "vol24h": 3935591,
-    "age_d": 31.2,
-    "chg24h": 0.168,
-    "chg7d": -0.1,
-    "mcap": 2575672701.78853,
+    "chain": "BSC",
+    "symbol": "ARIA",
+    "name": "ARIA.AI",
+    "token": "0x5d3a12c42e5372b2cc3264ab3cdcf660a1555238",
+    "price": 0.338529397616953,
+    "liq": 2220466,
+    "vol24h": 3217600,
+    "age_d": 464.0,
+    "chg24h": 18.444,
+    "chg7d": 19.4,
+    "mcap": 61925316.4725,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
-    "trend_up": false,
-    "rsi": 49.0,
-    "url": "https://www.geckoterminal.com/arbitrum/pools/0x09328be718d89228a985471bb470988a34d0b162"
+    "trend_up": true,
+    "rsi": 55.7,
+    "url": "https://www.geckoterminal.com/bsc/pools/0xa5dbeaf16fc031eae92175974f8d0a439be4ad17"
    }
   ],
-  "onchain_checked": 81,
+  "onchain_checked": 83,
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
@@ -8151,7 +8151,7 @@
   ],
   "updated": {
    "unlocks": 1795682722,
-   "onchain": 1795683920,
+   "onchain": 1795687519,
    "sectors": 1795687233,
    "listings": 1795685723,
    "fundamentals": 1795682723
@@ -8191,6 +8191,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "c8c692dbd5e8143c2e2c3b938ed08049b7f0f4cf045ff88c3f7b7479d1931cc2",
- "generated": "2026-11-26T10:01:01+00:00"
+ "digest": "f3568f78d4549818df78e99a4c28dc27c5330c2d4d4d585dbecc1a06454eae45",
+ "generated": "2026-11-26T10:06:25+00:00"
 }
