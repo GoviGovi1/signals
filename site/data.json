@@ -1,5 +1,51 @@
 {
- "open": [],
+ "open": [
+  {
+   "id": "AERO-PERP-1795708800",
+   "kind": "TA",
+   "score": 0,
+   "reasons": [
+    "Chart: Break of structure: closed below the last swing low 0.3965, after a lower high",
+    "Timeframes: 1d down, 4h down, 4h structure lower highs/lows",
+    "Next support 0.3753 (2.4R away, 4h swing/swing)",
+    "Stop 0.40363 (structure); targets at the next 2 level(s)",
+    "BTC 4h trend down",
+    "Weaker than BTC by 2.1% over 7d",
+    "OI +8% 24h with breakout",
+    "Sector: Exchange Based Tokens -4.2% 7d (leading, #3 of 20)",
+    "Track record: +1.4R on AERO in the last 45 days (backtest)"
+   ],
+   "coin": "AERO",
+   "market": "PERP",
+   "side": "SHORT",
+   "entry": 0.3952,
+   "sl0": 0.40363164433957216,
+   "sl": 0.40363164433957216,
+   "tps": [
+    0.37596582216978613,
+    0.36786582216978614,
+    0.359434177830214
+   ],
+   "lev": 1,
+   "funding_pct": 0.005,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-11-26T17:00:00+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.3954,
+   "last_ts": "2026-11-26T17:00:32+00:00",
+   "move_pct": -0.05,
+   "closed": false,
+   "rsi": 42.5,
+   "trade_on": "Perps 1x",
+   "market_reason": "shorts need perps; thin perp market, so 1x",
+   "chart": "charts/AERO-PERP-1795708800.png",
+   "setup": "BOS"
+  }
+ ],
  "closed": [
   {
    "id": "DATA-SPOT-1795665600",
@@ -4216,7 +4262,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 0
+  "open": 1
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7814,6 +7860,23 @@
     ]
    },
    {
+    "id": "storage",
+    "name": "Storage",
+    "chg7d": -5.45,
+    "top": [
+     "FIL",
+     "BTT",
+     "AR",
+     "AIOZ",
+     "ICNT"
+    ],
+    "tracked": [
+     "FIL",
+     "AR",
+     "WAL"
+    ]
+   },
+   {
     "id": "zero-knowledge-zk",
     "name": "Zero Knowledge ZK",
     "chg7d": -5.73,
@@ -7833,23 +7896,6 @@
      "POL",
      "MAGIC",
      "H"
-    ]
-   },
-   {
-    "id": "storage",
-    "name": "Storage",
-    "chg7d": -5.9,
-    "top": [
-     "FIL",
-     "BTT",
-     "AR",
-     "AIOZ",
-     "ICNT"
-    ],
-    "tracked": [
-     "FIL",
-     "AR",
-     "WAL"
     ]
    },
    {
@@ -8122,8 +8168,8 @@
   "updated": {
    "unlocks": 1795704623,
    "onchain": 1795709119,
-   "sectors": 1795711523,
-   "listings": 1795708522,
+   "sectors": 1795712432,
+   "listings": 1795712429,
    "fundamentals": 1795704624
   }
  },
@@ -8161,6 +8207,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "7ae01cf6c2e92fd3065a971130723c3e048574b1cfaf33f20670926f0d0aa970",
- "generated": "2026-11-26T16:45:27+00:00"
+ "digest": "f1cd485e1999d35eda6002147038194912433cdd58727cb7117c943990d98906",
+ "generated": "2026-11-26T17:01:06+00:00"
 }

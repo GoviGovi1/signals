@@ -21143,5 +21143,73 @@
   "funding_pct": null,
   "chart": "charts/DATA-SPOT-1795665600.png",
   "news_sent": []
+ },
+ {
+  "dir": -1,
+  "entry": 0.3952,
+  "sl": 0.40363164433957216,
+  "sl0": 0.40363164433957216,
+  "R": 0.008431644339572164,
+  "tps": [
+   0.37596582216978613,
+   0.36786582216978614,
+   0.359434177830214
+  ],
+  "hits": 0,
+  "be_from": null,
+  "opened": 1795712400000,
+  "status": "open",
+  "closed": false,
+  "exit_price": null,
+  "result_r": null,
+  "lev": 1,
+  "id": "AERO-PERP-1795708800",
+  "kind": "TA",
+  "coin": "AERO",
+  "market": "PERP",
+  "bar_ts": 1795708800000,
+  "side": "SHORT",
+  "next_bar": 1795712400000,
+  "last": 0.3954,
+  "last_ts": 1795712432418,
+  "rsi": 42.5,
+  "atr": 0.004438814465240594,
+  "result_pct": null,
+  "closed_at": null,
+  "move_pct": -0.05,
+  "score": 0,
+  "trade_on": "Perps 1x",
+  "market_reason": "shorts need perps; thin perp market, so 1x",
+  "setup": "BOS",
+  "reasons": [
+   "Chart: Break of structure: closed below the last swing low 0.3965, after a lower high",
+   "Timeframes: 1d down, 4h down, 4h structure lower highs/lows",
+   "Next support 0.3753 (2.4R away, 4h swing/swing)",
+   "Stop 0.40363 (structure); targets at the next 2 level(s)",
+   "BTC 4h trend down",
+   "Weaker than BTC by 2.1% over 7d",
+   "OI +8% 24h with breakout",
+   "Sector: Exchange Based Tokens -4.2% 7d (leading, #3 of 20)",
+   "Track record: +1.4R on AERO in the last 45 days (backtest)"
+  ],
+  "w": [
+   0.25,
+   0.25,
+   0.5
+  ],
+  "strategy": "v4.1",
+  "levels": [
+   0.3672,
+   0.3753,
+   0.396369837,
+   0.4023,
+   0.4087714286,
+   0.41970625,
+   0.4382115466,
+   0.4552142857
+  ],
+  "range_box": null,
+  "funding_pct": 0.005,
+  "chart": "charts/AERO-PERP-1795708800.png"
  }
 ]
