@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.06103,
-   "last_ts": "2026-11-26T23:10:24+00:00",
-   "move_pct": -0.76,
+   "last": 0.06101,
+   "last_ts": "2026-11-26T23:15:24+00:00",
+   "move_pct": -0.73,
    "closed": false,
    "rsi": 26.1,
    "trade_on": "Perps 1x",
@@ -7613,6 +7613,28 @@
     ]
    },
    {
+    "id": "layer-1",
+    "name": "Layer 1",
+    "chg7d": -1.66,
+    "top": [
+     "BTC",
+     "ETH",
+     "BNB",
+     "XRP",
+     "SOL"
+    ],
+    "tracked": [
+     "BTC",
+     "ETH",
+     "SOL",
+     "XRP",
+     "SUI",
+     "BNB",
+     "AVAX",
+     "ZEC"
+    ]
+   },
+   {
     "id": "bitcoin-ecosystem",
     "name": "Bitcoin Ecosystem",
     "chg7d": -1.82,
@@ -7671,28 +7693,6 @@
      "SPACE",
      "ATH",
      "LPT"
-    ]
-   },
-   {
-    "id": "layer-1",
-    "name": "Layer 1",
-    "chg7d": -2.6,
-    "top": [
-     "BTC",
-     "ETH",
-     "BNB",
-     "XRP",
-     "SOL"
-    ],
-    "tracked": [
-     "BTC",
-     "ETH",
-     "SOL",
-     "XRP",
-     "SUI",
-     "BNB",
-     "AVAX",
-     "ZEC"
     ]
    },
    {
@@ -8173,7 +8173,7 @@
   "updated": {
    "unlocks": 1795726526,
    "onchain": 1795734319,
-   "sectors": 1795734031,
+   "sectors": 1795734923,
    "listings": 1795731328,
    "fundamentals": 1795726528
   }
@@ -8212,6 +8212,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "6f45fa2a3c8ee5e3e76ef4b69699f3171ae5db1863a26285844dc4b5abd009ca",
- "generated": "2026-11-26T23:10:26+00:00"
+ "digest": "4c89cf0d0d32ee9e279e1392c3e2e2f5739039a44cb7aa348b0cbb0d5b2f1a09",
+ "generated": "2026-11-26T23:15:26+00:00"
 }
