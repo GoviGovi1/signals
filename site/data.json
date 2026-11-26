@@ -1,5 +1,6 @@
 {
- "open": [
+ "open": [],
+ "closed": [
   {
    "id": "AT-PERP-HOT-20783",
    "kind": "HOT",
@@ -23,25 +24,23 @@
    ],
    "lev": 1,
    "funding_pct": 0.005,
-   "status": "open",
+   "status": "stopped",
    "hits": 0,
    "opened": "2026-11-26T00:00:45+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.0603,
-   "last_ts": "2026-11-26T03:10:29+00:00",
+   "closed_at": "2026-11-26T03:14:07+00:00",
+   "exit_price": 0.05828681295127094,
+   "result_r": -1.0,
+   "result_pct": -9.38,
+   "last": 0.05832,
+   "last_ts": "2026-11-26T03:14:07+00:00",
    "move_pct": -6.25,
-   "closed": false,
+   "closed": true,
    "rsi": null,
    "trade_on": "Perps 1x",
    "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
    "chart": "charts/AT-PERP-HOT-20783.png",
    "setup": "HOT24"
-  }
- ],
- "closed": [
+  },
   {
    "id": "AERO-PERP-1795485600",
    "kind": "TA",
@@ -1780,7 +1779,7 @@
    "rsi": 39.0,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": "charts/SNX-PERP-1795158000.png",
+   "chart": null,
    "setup": "BREAKOUT20"
   },
   {
@@ -2591,57 +2590,17 @@
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": null,
    "setup": "BREAKOUT20"
-  },
-  {
-   "id": "PIPPIN-PERP-HOT-20776",
-   "kind": "HOT",
-   "score": 2988.0,
-   "reasons": [
-    "24h hot mover +62% with volume spike (20x+ the prior 3 days)",
-    "24h volume $115.4M on the OKX perp book, listed 351 days",
-    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
-    "Stop 0.015902 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
-   ],
-   "coin": "PIPPIN",
-   "market": "PERP",
-   "side": "LONG",
-   "entry": 0.01807,
-   "sl0": 0.0159016,
-   "sl": 0.01807,
-   "tps": [
-    0.0202384,
-    0.022406799999999998,
-    0.0245752
-   ],
-   "lev": 1,
-   "funding_pct": 0.005,
-   "status": "stopped_be",
-   "hits": 1,
-   "opened": "2026-11-19T00:01:37+00:00",
-   "closed_at": "2026-11-20T02:10:23+00:00",
-   "exit_price": 0.01807,
-   "result_r": 0.25,
-   "result_pct": 3.0,
-   "last": 0.01815,
-   "last_ts": "2026-11-20T02:10:23+00:00",
-   "move_pct": 2.21,
-   "closed": true,
-   "rsi": null,
-   "trade_on": "Perps 1x",
-   "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
-   "chart": null,
-   "setup": "HOT24"
   }
  ],
  "stats": {
   "all": {
-   "trades": 335,
+   "trades": 336,
    "wins": 160,
-   "losses": 175,
-   "win_rate": 47.8,
-   "total_r": 33.86,
-   "avg_r": 0.101,
-   "total_pct": 182.75
+   "losses": 176,
+   "win_rate": 47.6,
+   "total_r": 32.86,
+   "avg_r": 0.098,
+   "total_pct": 173.37
   },
   "SPOT": {
    "trades": 96,
@@ -2653,13 +2612,13 @@
    "total_pct": 58.77
   },
   "PERP": {
-   "trades": 223,
+   "trades": 224,
    "wins": 113,
-   "losses": 110,
-   "win_rate": 50.7,
-   "total_r": 41.89,
-   "avg_r": 0.188,
-   "total_pct": 105.08
+   "losses": 111,
+   "win_rate": 50.4,
+   "total_r": 40.89,
+   "avg_r": 0.183,
+   "total_pct": 95.7
   },
   "DEX": {
    "trades": 16,
@@ -2672,13 +2631,13 @@
   },
   "kinds": {
    "HOT": {
-    "trades": 89,
+    "trades": 90,
     "wins": 51,
-    "losses": 38,
-    "win_rate": 57.3,
-    "total_r": 13.44,
-    "avg_r": 0.151,
-    "total_pct": 88.37
+    "losses": 39,
+    "win_rate": 56.7,
+    "total_r": 12.44,
+    "avg_r": 0.138,
+    "total_pct": 78.99
    },
    "ONCHAIN": {
     "trades": 16,
@@ -2890,13 +2849,13 @@
     "total_pct": -0.92
    },
    "AT": {
-    "trades": 1,
+    "trades": 2,
     "wins": 1,
-    "losses": 0,
-    "win_rate": 100.0,
-    "total_r": 0.25,
-    "avg_r": 0.25,
-    "total_pct": 0.47
+    "losses": 1,
+    "win_rate": 50.0,
+    "total_r": -0.75,
+    "avg_r": -0.375,
+    "total_pct": -8.91
    },
    "ATH": {
     "trades": 3,
@@ -4258,7 +4217,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 1
+  "open": 0
  },
  "backtest": {
   "from": "2026-07-24",
@@ -8220,6 +8179,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "c772be5927c04b9610983a23cfb1b7a84840c9b375d4ab0483e4d08b60dd7f74",
- "generated": "2026-11-26T03:10:32+00:00"
+ "digest": "9ea8c38b518ab22ea5f60d492192c28dad9044594101a75366903851b048c95e",
+ "generated": "2026-11-26T03:14:11+00:00"
 }
