@@ -1,91 +1,6 @@
 {
  "open": [
   {
-   "id": "AERO-PERP-1795485600",
-   "kind": "TA",
-   "score": -1,
-   "reasons": [
-    "Chart: Broke the 20-hour low on 1.1x volume",
-    "Timeframes: 1d down, 4h down, 4h structure mixed",
-    "Next support 0.3672 (3.2R away, 4h swing/swing)",
-    "Stop 0.42598 (2 ATR); targets at the next 1 level(s)",
-    "BTC 4h trend down",
-    "Stronger than BTC by 2.0% over 7d",
-    "OI +1% 24h",
-    "Sector: Decentralized Finance DeFi -3.0% 7d (leading, #2 of 20)",
-    "Track record: +1.1R on AERO in the last 45 days (backtest)"
-   ],
-   "coin": "AERO",
-   "market": "PERP",
-   "side": "SHORT",
-   "entry": 0.412,
-   "sl0": 0.42598199273727555,
-   "sl": 0.42598199273727555,
-   "tps": [
-    0.3682486494552957,
-    0.3542666567180201,
-    0.34028466398074453
-   ],
-   "lev": 1,
-   "funding_pct": 0.005,
-   "status": "open",
-   "hits": 0,
-   "opened": "2026-11-24T03:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.405,
-   "last_ts": "2026-11-26T02:55:26+00:00",
-   "move_pct": 1.7,
-   "closed": false,
-   "rsi": 41.9,
-   "trade_on": "Perps 1x",
-   "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": "charts/AERO-PERP-1795485600.png",
-   "setup": "BREAKOUT20"
-  },
-  {
-   "id": "SSV-SPOT-HOT-20783",
-   "kind": "HOT",
-   "score": 1909.86,
-   "reasons": [
-    "24h hot mover +50% with volume spike (6.1x the prior 3 days)",
-    "24h volume $2.1M on the OKX spot book, listed 1366 days",
-    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
-    "Stop 2.1487 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
-   ],
-   "coin": "SSV",
-   "market": "SPOT",
-   "side": "LONG",
-   "entry": 2.312,
-   "sl0": 2.148747142506745,
-   "sl": 2.312,
-   "tps": [
-    2.475252857493255,
-    2.63850571498651,
-    2.801758572479765
-   ],
-   "lev": null,
-   "funding_pct": null,
-   "status": "tp1",
-   "hits": 1,
-   "opened": "2026-11-26T00:00:45+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 2.305,
-   "last_ts": "2026-11-26T02:55:26+00:00",
-   "move_pct": -0.3,
-   "closed": false,
-   "rsi": null,
-   "trade_on": "Spot",
-   "market_reason": "very volatile coin: spot avoids liquidation",
-   "chart": "charts/SSV-SPOT-HOT-20783.png",
-   "setup": "HOT24"
-  },
-  {
    "id": "AT-PERP-HOT-20783",
    "kind": "HOT",
    "score": 844.8,
@@ -115,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.06112,
-   "last_ts": "2026-11-26T02:55:26+00:00",
-   "move_pct": -4.98,
+   "last": 0.06129,
+   "last_ts": "2026-11-26T03:00:30+00:00",
+   "move_pct": -4.71,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -127,6 +42,91 @@
   }
  ],
  "closed": [
+  {
+   "id": "AERO-PERP-1795485600",
+   "kind": "TA",
+   "score": -1,
+   "reasons": [
+    "Chart: Broke the 20-hour low on 1.1x volume",
+    "Timeframes: 1d down, 4h down, 4h structure mixed",
+    "Next support 0.3672 (3.2R away, 4h swing/swing)",
+    "Stop 0.42598 (2 ATR); targets at the next 1 level(s)",
+    "BTC 4h trend down",
+    "Stronger than BTC by 2.0% over 7d",
+    "OI +1% 24h",
+    "Sector: Decentralized Finance DeFi -3.0% 7d (leading, #2 of 20)",
+    "Track record: +1.1R on AERO in the last 45 days (backtest)"
+   ],
+   "coin": "AERO",
+   "market": "PERP",
+   "side": "SHORT",
+   "entry": 0.412,
+   "sl0": 0.42598199273727555,
+   "sl": 0.42598199273727555,
+   "tps": [
+    0.3682486494552957,
+    0.3542666567180201,
+    0.34028466398074453
+   ],
+   "lev": 1,
+   "funding_pct": 0.005,
+   "status": "expired",
+   "hits": 0,
+   "opened": "2026-11-24T03:00:00+00:00",
+   "closed_at": "2026-11-26T03:00:30+00:00",
+   "exit_price": 0.4052,
+   "result_r": 0.486,
+   "result_pct": 1.65,
+   "last": 0.4052,
+   "last_ts": "2026-11-26T03:00:30+00:00",
+   "move_pct": 1.7,
+   "closed": true,
+   "rsi": 41.9,
+   "trade_on": "Perps 1x",
+   "market_reason": "shorts need perps; thin perp market, so 1x",
+   "chart": "charts/AERO-PERP-1795485600.png",
+   "setup": "BREAKOUT20"
+  },
+  {
+   "id": "SSV-SPOT-HOT-20783",
+   "kind": "HOT",
+   "score": 1909.86,
+   "reasons": [
+    "24h hot mover +50% with volume spike (6.1x the prior 3 days)",
+    "24h volume $2.1M on the OKX spot book, listed 1366 days",
+    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
+    "Stop 2.1487 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
+   ],
+   "coin": "SSV",
+   "market": "SPOT",
+   "side": "LONG",
+   "entry": 2.312,
+   "sl0": 2.148747142506745,
+   "sl": 2.312,
+   "tps": [
+    2.475252857493255,
+    2.63850571498651,
+    2.801758572479765
+   ],
+   "lev": null,
+   "funding_pct": null,
+   "status": "stopped_be",
+   "hits": 1,
+   "opened": "2026-11-26T00:00:45+00:00",
+   "closed_at": "2026-11-26T03:00:30+00:00",
+   "exit_price": 2.312,
+   "result_r": 0.25,
+   "result_pct": 1.77,
+   "last": 2.314,
+   "last_ts": "2026-11-26T03:00:30+00:00",
+   "move_pct": -0.3,
+   "closed": true,
+   "rsi": null,
+   "trade_on": "Spot",
+   "market_reason": "very volatile coin: spot avoids liquidation",
+   "chart": "charts/SSV-SPOT-HOT-20783.png",
+   "setup": "HOT24"
+  },
   {
    "id": "MOVE-SPOT-HOT-20783",
    "kind": "HOT",
@@ -1820,7 +1820,7 @@
    "rsi": null,
    "trade_on": "Spot",
    "market_reason": "only spot is listed",
-   "chart": "charts/MENGO-SPOT-HOT-20779.png",
+   "chart": null,
    "setup": "HOT24"
   },
   {
@@ -1860,7 +1860,7 @@
    "rsi": null,
    "trade_on": "Perps 1x",
    "market_reason": "the perp book is where the 24h move and volume are; very volatile, so 1x",
-   "chart": "charts/PARTI-PERP-HOT-20778.png",
+   "chart": null,
    "setup": "HOT24"
   },
   {
@@ -2631,125 +2631,35 @@
    "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
    "chart": null,
    "setup": "HOT24"
-  },
-  {
-   "id": "KAT-SPOT-1795107600",
-   "kind": "TA",
-   "score": 1,
-   "reasons": [
-    "Chart: Break of structure: closed above the last swing high 0.003149, after a higher low",
-    "Timeframes: 1d down, 4h down, 4h structure higher highs/lows",
-    "Next resistance 0.0033699 (2.2R away, 4h swing/swing/volume node)",
-    "Stop 0.0030706 (structure); targets at the next 3 level(s)",
-    "BTC 4h trend down",
-    "Stronger than BTC by 11.1% over 7d",
-    "OI +3% 24h",
-    "Sector: Layer 2 -6.2% 7d (leading, #4 of 20)",
-    "Track record: +1.8R on KAT in the last 45 days (backtest)"
-   ],
-   "coin": "KAT",
-   "market": "SPOT",
-   "side": "LONG",
-   "entry": 0.003161,
-   "sl0": 0.003068695031361913,
-   "sl": 0.003068695031361913,
-   "tps": [
-    0.0033597820036794434,
-    0.003477780384002171,
-    0.0036196905958263883
-   ],
-   "lev": null,
-   "funding_pct": null,
-   "status": "stopped",
-   "hits": 0,
-   "opened": "2026-11-19T18:00:00+00:00",
-   "closed_at": "2026-11-20T01:55:20+00:00",
-   "exit_price": 0.003068695031361913,
-   "result_r": -1.0,
-   "result_pct": -2.92,
-   "last": 0.003068,
-   "last_ts": "2026-11-20T01:55:20+00:00",
-   "move_pct": -2.18,
-   "closed": true,
-   "rsi": 58.0,
-   "trade_on": "Spot",
-   "market_reason": "thin perp market: spot is safer",
-   "chart": null,
-   "setup": "BOS"
-  },
-  {
-   "id": "BIGTIME-SPOT-1795107600",
-   "kind": "TA",
-   "score": 0,
-   "reasons": [
-    "Chart: Retest of the 0.004494 breakout level held (4h after the break)",
-    "Timeframes: 1d down, 4h down, 4h structure mixed",
-    "Next resistance 0.004771 (3.1R away, 4h swing/swing)",
-    "Stop 0.0044606 (below the breakout level); targets at the next 2 level(s)",
-    "BTC 4h trend down",
-    "Stronger than BTC by 4.0% over 7d",
-    "OI +4% 24h",
-    "Sector: Gaming -7.9% 7d (middle, #10 of 20)",
-    "Track record: +4.4R on BIGTIME in the last 45 days (backtest)"
-   ],
-   "coin": "BIGTIME",
-   "market": "SPOT",
-   "side": "LONG",
-   "entry": 0.00454,
-   "sl0": 0.00446452273395178,
-   "sl": 0.00446452273395178,
-   "tps": [
-    0.004766847173787768,
-    0.004845916838690767,
-    0.004921394104738987
-   ],
-   "lev": null,
-   "funding_pct": null,
-   "status": "stopped",
-   "hits": 0,
-   "opened": "2026-11-19T18:00:00+00:00",
-   "closed_at": "2026-11-19T19:50:22+00:00",
-   "exit_price": 0.00446452273395178,
-   "result_r": -1.0,
-   "result_pct": -1.66,
-   "last": 0.004459,
-   "last_ts": "2026-11-19T19:50:22+00:00",
-   "move_pct": -1.56,
-   "closed": true,
-   "rsi": 64.2,
-   "trade_on": "Spot",
-   "market_reason": "thin perp market: spot is safer",
-   "chart": null,
-   "setup": "RETEST"
   }
  ],
  "stats": {
   "all": {
-   "trades": 333,
-   "wins": 158,
+   "trades": 335,
+   "wins": 160,
    "losses": 175,
-   "win_rate": 47.4,
-   "total_r": 33.12,
-   "avg_r": 0.099,
-   "total_pct": 179.33
+   "win_rate": 47.8,
+   "total_r": 33.86,
+   "avg_r": 0.101,
+   "total_pct": 182.75
   },
   "SPOT": {
-   "trades": 95,
-   "wins": 37,
+   "trades": 96,
+   "wins": 38,
    "losses": 58,
-   "win_rate": 38.9,
-   "total_r": -7.71,
-   "avg_r": -0.081,
-   "total_pct": 57.0
+   "win_rate": 39.6,
+   "total_r": -7.46,
+   "avg_r": -0.078,
+   "total_pct": 58.77
   },
   "PERP": {
-   "trades": 222,
-   "wins": 112,
+   "trades": 223,
+   "wins": 113,
    "losses": 110,
-   "win_rate": 50.5,
-   "total_r": 41.41,
-   "avg_r": 0.187,
-   "total_pct": 103.43
+   "win_rate": 50.7,
+   "total_r": 41.89,
+   "avg_r": 0.188,
+   "total_pct": 105.08
   },
   "DEX": {
    "trades": 16,
@@ -2762,13 +2672,13 @@
   },
   "kinds": {
    "HOT": {
-    "trades": 88,
-    "wins": 50,
+    "trades": 89,
+    "wins": 51,
     "losses": 38,
-    "win_rate": 56.8,
-    "total_r": 13.19,
-    "avg_r": 0.15,
-    "total_pct": 86.6
+    "win_rate": 57.3,
+    "total_r": 13.44,
+    "avg_r": 0.151,
+    "total_pct": 88.37
    },
    "ONCHAIN": {
     "trades": 16,
@@ -2780,13 +2690,13 @@
     "total_pct": 18.9
    },
    "TA": {
-    "trades": 229,
-    "wins": 99,
+    "trades": 230,
+    "wins": 100,
     "losses": 130,
-    "win_rate": 43.2,
-    "total_r": 20.51,
-    "avg_r": 0.09,
-    "total_pct": 73.83
+    "win_rate": 43.5,
+    "total_r": 21.0,
+    "avg_r": 0.091,
+    "total_pct": 75.48
    }
   },
   "coins": {
@@ -2854,13 +2764,13 @@
     "total_pct": -2.79
    },
    "AERO": {
-    "trades": 1,
-    "wins": 1,
+    "trades": 2,
+    "wins": 2,
     "losses": 0,
     "win_rate": 100.0,
-    "total_r": 0.33,
-    "avg_r": 0.333,
-    "total_pct": 0.91
+    "total_r": 0.82,
+    "avg_r": 0.409,
+    "total_pct": 2.56
    },
    "AGLD": {
     "trades": 2,
@@ -4086,6 +3996,15 @@
     "avg_r": -1.0,
     "total_pct": -3.6
    },
+   "SSV": {
+    "trades": 1,
+    "wins": 1,
+    "losses": 0,
+    "win_rate": 100.0,
+    "total_r": 0.25,
+    "avg_r": 0.25,
+    "total_pct": 1.77
+   },
    "STONK": {
     "trades": 1,
     "wins": 0,
@@ -4339,7 +4258,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 3
+  "open": 1
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7702,7 +7621,7 @@
    {
     "id": "bitcoin-ecosystem",
     "name": "Bitcoin Ecosystem",
-    "chg7d": -3.21,
+    "chg7d": -1.32,
     "top": [
      "BTC",
      "DOG",
@@ -8260,7 +8179,7 @@
   "updated": {
    "unlocks": 1795661122,
    "onchain": 1795658721,
-   "sectors": 1795661135,
+   "sectors": 1795662030,
    "listings": 1795659026,
    "fundamentals": 1795661122
   }
@@ -8299,6 +8218,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "d107688b48b8db39f175f7b665e1a6ad7b19e65a766b0e55bfbf1f50810071d1",
- "generated": "2026-11-26T02:55:29+00:00"
+ "digest": "f7fe6bcc993c4f9372b1512877d97229eefb095885f69e0e39826350e8fa7e79",
+ "generated": "2026-11-26T03:01:06+00:00"
 }
