@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.398,
-   "last_ts": "2026-11-27T22:45:24+00:00",
-   "move_pct": 3.63,
+   "last": 1.396,
+   "last_ts": "2026-11-27T22:50:23+00:00",
+   "move_pct": 3.48,
    "closed": false,
    "rsi": 67.9,
    "trade_on": "Spot",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.6707,
-   "last_ts": "2026-11-27T22:45:24+00:00",
-   "move_pct": -1.03,
+   "last": 0.6714,
+   "last_ts": "2026-11-27T22:50:23+00:00",
+   "move_pct": -0.93,
    "closed": false,
    "rsi": 61.3,
    "trade_on": "Perps 1x",
@@ -118,7 +118,7 @@
     0.30861634681613415
    ],
    "lev": 1,
-   "funding_pct": 0.002,
+   "funding_pct": 0.0025,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-27T15:00:00+00:00",
@@ -126,9 +126,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.3693,
-   "last_ts": "2026-11-27T22:45:24+00:00",
-   "move_pct": 0.83,
+   "last": 0.3688,
+   "last_ts": "2026-11-27T22:50:23+00:00",
+   "move_pct": 0.97,
    "closed": false,
    "rsi": 38.2,
    "trade_on": "Perps 1x",
@@ -171,9 +171,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.004185,
-   "last_ts": "2026-11-27T22:45:24+00:00",
-   "move_pct": 1.97,
+   "last": 0.004181,
+   "last_ts": "2026-11-27T22:50:23+00:00",
+   "move_pct": 1.88,
    "closed": false,
    "rsi": 63.1,
    "trade_on": "Perps 1x",
@@ -7930,6 +7930,21 @@
     ]
    },
    {
+    "id": "interoperability",
+    "name": "Interoperability",
+    "chg7d": 2.69,
+    "top": [
+     "TRAC",
+     "W",
+     "CKB",
+     "AXL",
+     "PHA"
+    ],
+    "tracked": [
+     "W"
+    ]
+   },
+   {
     "id": "decentralized-perpetuals",
     "name": "Decentralized Perpetuals",
     "chg7d": 2.38,
@@ -8015,21 +8030,6 @@
      "OKB",
      "CRV",
      "ASTER"
-    ]
-   },
-   {
-    "id": "interoperability",
-    "name": "Interoperability",
-    "chg7d": 0.62,
-    "top": [
-     "TRAC",
-     "W",
-     "CKB",
-     "AXL",
-     "PHA"
-    ],
-    "tracked": [
-     "W"
     ]
    },
    {
@@ -8312,7 +8312,7 @@
   "updated": {
    "unlocks": 1795813235,
    "onchain": 1795817118,
-   "sectors": 1795818925,
+   "sectors": 1795819823,
    "listings": 1795817726,
    "fundamentals": 1795813236
   }
@@ -8351,6 +8351,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "232f9cc92d2db5c5a71e53152d663756153bd54b36d9ff6d1be022ad3c9c1923",
- "generated": "2026-11-27T22:45:26+00:00"
+ "digest": "7dd69ba909be226492f8a877d08ebdfe9c64966ac751a2aa9f469d41ee4a50f1",
+ "generated": "2026-11-27T22:50:26+00:00"
 }
