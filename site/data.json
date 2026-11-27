@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.06188,
-   "last_ts": "2026-11-27T01:50:21+00:00",
-   "move_pct": -2.16,
+   "last": 0.06209,
+   "last_ts": "2026-11-27T01:55:22+00:00",
+   "move_pct": -2.51,
    "closed": false,
    "rsi": 26.1,
    "trade_on": "Perps 1x",
@@ -67,7 +67,7 @@
     0.18697095479163034
    ],
    "lev": 1,
-   "funding_pct": 0.0001,
+   "funding_pct": -0.0033,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-27T00:00:32+00:00",
@@ -75,14 +75,54 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.13254,
-   "last_ts": "2026-11-27T01:50:21+00:00",
-   "move_pct": -5.21,
+   "last": 0.13391,
+   "last_ts": "2026-11-27T01:55:22+00:00",
+   "move_pct": -4.23,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
    "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
    "chart": "charts/INIT-PERP-HOT-20784.png",
+   "setup": "HOT24"
+  },
+  {
+   "id": "NES-PERP-HOT-20784",
+   "kind": "HOT",
+   "score": 457.43,
+   "reasons": [
+    "24h hot mover +20% with volume spike (3.0x the prior 3 days)",
+    "24h volume $29.1M on the OKX perp book, listed 156 days",
+    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
+    "Stop 0.23804 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
+   ],
+   "coin": "NES",
+   "market": "PERP",
+   "side": "LONG",
+   "entry": 0.2686,
+   "sl0": 0.23804036409904233,
+   "sl": 0.23804036409904233,
+   "tps": [
+    0.2991596359009577,
+    0.32971927180191535,
+    0.360278907702873
+   ],
+   "lev": 1,
+   "funding_pct": 0.005,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-11-27T01:55:22+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.2684,
+   "last_ts": "2026-11-27T01:55:22+00:00",
+   "move_pct": -0.07,
+   "closed": false,
+   "rsi": null,
+   "trade_on": "Perps 1x",
+   "market_reason": "the perp book is where the 24h move and volume are; very volatile, so 1x",
+   "chart": "charts/NES-PERP-HOT-20784.png",
    "setup": "HOT24"
   }
  ],
@@ -4307,7 +4347,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 2
+  "open": 3
  },
  "backtest": {
   "from": "2026-07-24",
@@ -8223,6 +8263,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "5ed53f30fb632a2cea39f9bd704f46bffcd185ed83a96c6e73d15726c9523132",
- "generated": "2026-11-27T01:50:23+00:00"
+ "digest": "b62a1528a39029d24912d3392281323840c622fb06a8061ccf8910b4bdaa385d",
+ "generated": "2026-11-27T01:55:28+00:00"
 }
