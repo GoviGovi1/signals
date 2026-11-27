@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.395,
-   "last_ts": "2026-11-27T18:00:36+00:00",
-   "move_pct": 3.41,
+   "last": 1.394,
+   "last_ts": "2026-11-27T18:06:20+00:00",
+   "move_pct": 3.34,
    "closed": false,
    "rsi": 67.9,
    "trade_on": "Spot",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.6717,
-   "last_ts": "2026-11-27T18:00:36+00:00",
-   "move_pct": -0.89,
+   "last": 0.6735,
+   "last_ts": "2026-11-27T18:06:20+00:00",
+   "move_pct": -0.62,
    "closed": false,
    "rsi": 61.3,
    "trade_on": "Perps 1x",
@@ -126,9 +126,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.371,
-   "last_ts": "2026-11-27T18:00:36+00:00",
-   "move_pct": 0.38,
+   "last": 0.3713,
+   "last_ts": "2026-11-27T18:06:20+00:00",
+   "move_pct": 0.3,
    "closed": false,
    "rsi": 38.2,
    "trade_on": "Perps 1x",
@@ -171,9 +171,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.004085,
-   "last_ts": "2026-11-27T18:00:36+00:00",
-   "move_pct": -0.46,
+   "last": 0.004094,
+   "last_ts": "2026-11-27T18:06:20+00:00",
+   "move_pct": -0.24,
    "closed": false,
    "rsi": 63.1,
    "trade_on": "Perps 1x",
@@ -7705,47 +7705,45 @@
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
   "onchain": [
    {
-    "chain": "BSC",
-    "symbol": "ARK",
-    "name": "ARK",
-    "token": "0xcae117ca6bc8a341d2e7207f30e180f0e5618b9d",
-    "price": 6.44773307859238,
-    "liq": 58428123,
-    "vol24h": 5610340,
-    "age_d": 458.2,
-    "chg24h": -0.373,
-    "chg7d": -0.1,
-    "mcap": 0.0,
-    "safety": "unknown",
-    "safety_notes": [
-     "safety not checked"
-    ],
-    "trigger": false,
-    "trend_up": false,
-    "rsi": 48.7,
-    "url": "https://www.geckoterminal.com/bsc/pools/0xcaaf3c41a40103a23eeaa4bba468af3cf5b0e0d8"
-   },
-   {
     "chain": "Base",
-    "symbol": "XDP",
-    "name": "Doppler Finance",
-    "token": "0x07b3d902783c3c12b077508c3b5c00113d1291d0",
-    "price": 0.013048219926159,
-    "liq": 679077,
-    "vol24h": 3486965,
-    "age_d": 60.2,
-    "chg24h": 4.271,
-    "chg7d": -12.6,
-    "mcap": 13048219.93,
+    "symbol": "ELSA",
+    "name": "Elsa",
+    "token": "0x29cc30f9d113b356ce408667aa6433589cecbdca",
+    "price": 0.0915119164080829,
+    "liq": 587584,
+    "vol24h": 5532657,
+    "age_d": 311.4,
+    "chg24h": -5.987,
+    "chg7d": 32.5,
+    "mcap": 28166550.1890262,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 52.6,
-    "url": "https://www.geckoterminal.com/base/pools/0x2df380544b88adb3ad0a94100dcc45fd705aae2d"
+    "rsi": 47.2,
+    "url": "https://www.geckoterminal.com/base/pools/0x83f3aca29bc79b048b99c56013475570acc97ccf"
+   },
+   {
+    "chain": "Ethereum",
+    "symbol": "CRVUSD",
+    "name": "Curve.Fi USD Stablecoin",
+    "token": "0xf939e0a03fb07f59a73314e73794be0e57ac1b4e",
+    "price": 0.996141596748838,
+    "liq": 7779028,
+    "vol24h": 3567614,
+    "age_d": 1289.1,
+    "chg24h": 0.014,
+    "chg7d": 0.1,
+    "mcap": 139558072.685045,
+    "safety": "ok",
+    "safety_notes": [],
+    "trigger": false,
+    "trend_up": false,
+    "rsi": 48.7,
+    "url": "https://www.geckoterminal.com/eth/pools/0x4dece678ceceb27446b35c672dc7d61f30bad69e"
    }
   ],
-  "onchain_checked": 82,
+  "onchain_checked": 84,
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
@@ -7939,6 +7937,23 @@
     ]
    },
    {
+    "id": "storage",
+    "name": "Storage",
+    "chg7d": -0.1,
+    "top": [
+     "FIL",
+     "BTT",
+     "AR",
+     "AIOZ",
+     "ICNT"
+    ],
+    "tracked": [
+     "FIL",
+     "AR",
+     "WAL"
+    ]
+   },
+   {
     "id": "decentralized-finance-defi",
     "name": "Decentralized Finance DeFi",
     "chg7d": -0.18,
@@ -8082,23 +8097,6 @@
      "CRV",
      "ASTER",
      "RAY"
-    ]
-   },
-   {
-    "id": "storage",
-    "name": "Storage",
-    "chg7d": -2.2,
-    "top": [
-     "FIL",
-     "BTT",
-     "AR",
-     "AIOZ",
-     "ICNT"
-    ],
-    "tracked": [
-     "FIL",
-     "AR",
-     "WAL"
     ]
    },
    {
@@ -8328,8 +8326,8 @@
   ],
   "updated": {
    "unlocks": 1795791631,
-   "onchain": 1795799122,
-   "sectors": 1795801523,
+   "onchain": 1795802718,
+   "sectors": 1795802718,
    "listings": 1795799122,
    "fundamentals": 1795791632
   }
@@ -8368,6 +8366,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "ccb6e4c65befcd21eb59db981f19fa9e96177bba1a8661a3a8591811ca1f1176",
- "generated": "2026-11-27T18:01:07+00:00"
+ "digest": "c7ff650c7d4eae7815f736f48ffab56abbd4424c6c6da8b3c661090af22b94e0",
+ "generated": "2026-11-27T18:06:23+00:00"
 }
