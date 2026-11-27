@@ -22,7 +22,7 @@
     0.18697095479163034
    ],
    "lev": 1,
-   "funding_pct": -0.0419,
+   "funding_pct": -0.0357,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-27T00:00:32+00:00",
@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.13273,
-   "last_ts": "2026-11-27T03:55:22+00:00",
-   "move_pct": -5.08,
+   "last": 0.13169,
+   "last_ts": "2026-11-27T04:00:33+00:00",
+   "move_pct": -5.82,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -62,7 +62,7 @@
     0.360278907702873
    ],
    "lev": 1,
-   "funding_pct": -0.0192,
+   "funding_pct": -0.0225,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-27T01:55:22+00:00",
@@ -70,9 +70,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2735,
-   "last_ts": "2026-11-27T03:55:22+00:00",
-   "move_pct": 1.82,
+   "last": 0.2723,
+   "last_ts": "2026-11-27T04:00:33+00:00",
+   "move_pct": 1.38,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -110,9 +110,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 2.798,
-   "last_ts": "2026-11-27T03:55:22+00:00",
-   "move_pct": -0.46,
+   "last": 2.793,
+   "last_ts": "2026-11-27T04:00:33+00:00",
+   "move_pct": -0.64,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -155,9 +155,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.6656,
-   "last_ts": "2026-11-27T03:55:22+00:00",
-   "move_pct": -0.83,
+   "last": 0.6646,
+   "last_ts": "2026-11-27T04:00:33+00:00",
+   "move_pct": -0.98,
    "closed": false,
    "rsi": 61.3,
    "trade_on": "Perps 1x",
@@ -201,7 +201,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 1.357,
-   "last_ts": "2026-11-27T03:55:22+00:00",
+   "last_ts": "2026-11-27T04:00:33+00:00",
    "move_pct": 0.59,
    "closed": false,
    "rsi": 67.9,
@@ -244,15 +244,61 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 133.564322047996,
-   "last_ts": "2026-11-27T03:55:22+00:00",
-   "move_pct": 0.86,
+   "last": 132.80514057705,
+   "last_ts": "2026-11-27T04:00:33+00:00",
+   "move_pct": 0.29,
    "closed": false,
    "rsi": 72.5,
    "trade_on": "On-chain spot (BSC DEX)",
    "market_reason": "not listed on OKX; buy on a DEX, small size, no leverage",
    "chart": "charts/SPCXB-DEX-bsc-0xbe9d1568-1795744800.png",
    "setup": null
+  },
+  {
+   "id": "GMT-SPOT-1795748400",
+   "kind": "TA",
+   "score": 2,
+   "reasons": [
+    "Chart: Break of structure: closed above the last swing high 0.005264, after a higher low",
+    "Timeframes: 1d down, 4h down, 4h structure higher highs/lows",
+    "Next resistance 0.005495 (3.3R away, 4h swing/swing/volume node)",
+    "Stop 0.005212 (structure); targets at the next 2 level(s)",
+    "BTC 4h trend down",
+    "Weaker than BTC by 1.7% over 7d",
+    "OI +11% 24h with breakout",
+    "funding -0.100%/8h: other side crowded",
+    "Sector: Gaming -1.3% 7d (leading, #5 of 20)",
+    "Track record: +1.4R on GMT in the last 45 days (backtest)"
+   ],
+   "coin": "GMT",
+   "market": "SPOT",
+   "side": "LONG",
+   "entry": 0.005273,
+   "sl0": 0.005207049429494712,
+   "sl": 0.005207049429494712,
+   "tps": [
+    0.005483096660188996,
+    0.005656384456729512,
+    0.0057223350272348
+   ],
+   "lev": null,
+   "funding_pct": null,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-11-27T04:00:00+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.005276,
+   "last_ts": "2026-11-27T04:00:33+00:00",
+   "move_pct": 0.06,
+   "closed": false,
+   "rsi": 69.5,
+   "trade_on": "Spot",
+   "market_reason": "thin perp market: spot is safer",
+   "chart": "charts/GMT-SPOT-1795748400.png",
+   "setup": "BOS"
   }
  ],
  "closed": [
@@ -4481,7 +4527,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 6
+  "open": 7
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7856,6 +7902,23 @@
     ]
    },
    {
+    "id": "bitcoin-ecosystem",
+    "name": "Bitcoin Ecosystem",
+    "chg7d": -0.84,
+    "top": [
+     "BTC",
+     "DOG",
+     "ORDI",
+     "USTBL",
+     "LOBO"
+    ],
+    "tracked": [
+     "BTC",
+     "ORDI",
+     "SATS"
+    ]
+   },
+   {
     "id": "gaming",
     "name": "Gaming",
     "chg7d": -1.34,
@@ -7897,23 +7960,6 @@
      "BNB",
      "AVAX",
      "ZEC"
-    ]
-   },
-   {
-    "id": "bitcoin-ecosystem",
-    "name": "Bitcoin Ecosystem",
-    "chg7d": -1.82,
-    "top": [
-     "BTC",
-     "DOG",
-     "ORDI",
-     "USTBL",
-     "LOBO"
-    ],
-    "tracked": [
-     "BTC",
-     "ORDI",
-     "SATS"
     ]
    },
    {
@@ -8372,7 +8418,7 @@
   "updated": {
    "unlocks": 1795748429,
    "onchain": 1795748720,
-   "sectors": 1795751125,
+   "sectors": 1795752033,
    "listings": 1795750228,
    "fundamentals": 1795748429
   }
@@ -8411,6 +8457,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "441114a94787d5d1bef78084cae5c32a5468cd7db40178de85b655c8ed22ee04",
- "generated": "2026-11-27T03:55:27+00:00"
+ "digest": "ef0af68a9f836a927ef32ba5c26f4663e13311372b45a9ee145acc93c7301f76",
+ "generated": "2026-11-27T04:01:12+00:00"
 }
