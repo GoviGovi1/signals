@@ -22,7 +22,7 @@
     0.360278907702873
    ],
    "lev": 1,
-   "funding_pct": -0.0082,
+   "funding_pct": -0.0058,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-27T01:55:22+00:00",
@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2527,
-   "last_ts": "2026-11-27T09:40:22+00:00",
-   "move_pct": -5.92,
+   "last": 0.2538,
+   "last_ts": "2026-11-27T09:45:25+00:00",
+   "move_pct": -5.51,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -76,7 +76,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 1.368,
-   "last_ts": "2026-11-27T09:40:22+00:00",
+   "last_ts": "2026-11-27T09:45:25+00:00",
    "move_pct": 1.41,
    "closed": false,
    "rsi": 67.9,
@@ -119,9 +119,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 133.70605475662998,
-   "last_ts": "2026-11-27T09:40:22+00:00",
-   "move_pct": 0.97,
+   "last": 133.41474148254298,
+   "last_ts": "2026-11-27T09:45:25+00:00",
+   "move_pct": 0.75,
    "closed": false,
    "rsi": 72.5,
    "trade_on": "On-chain spot (BSC DEX)",
@@ -165,9 +165,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.005301,
-   "last_ts": "2026-11-27T09:40:22+00:00",
-   "move_pct": 0.53,
+   "last": 0.005287,
+   "last_ts": "2026-11-27T09:45:25+00:00",
+   "move_pct": 0.27,
    "closed": false,
    "rsi": 69.5,
    "trade_on": "Spot",
@@ -7709,6 +7709,28 @@
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
+    "id": "meme-token",
+    "name": "Meme Token",
+    "chg7d": 0.75,
+    "top": [
+     "DOGE",
+     "SHIB",
+     "M",
+     "PEPE",
+     "\u5e01\u5b89\u4eba\u751f"
+    ],
+    "tracked": [
+     "DOGE",
+     "PEPE",
+     "TRUMP",
+     "MOODENG",
+     "SHIB",
+     "PENGU",
+     "WIF",
+     "USELESS"
+    ]
+   },
+   {
     "id": "gaming",
     "name": "Gaming",
     "chg7d": 0.38,
@@ -7793,28 +7815,6 @@
      "ALGO",
      "CARDS",
      "ZBCN"
-    ]
-   },
-   {
-    "id": "meme-token",
-    "name": "Meme Token",
-    "chg7d": -0.01,
-    "top": [
-     "DOGE",
-     "SHIB",
-     "M",
-     "PEPE",
-     "\u5e01\u5b89\u4eba\u751f"
-    ],
-    "tracked": [
-     "DOGE",
-     "PEPE",
-     "TRUMP",
-     "MOODENG",
-     "SHIB",
-     "PENGU",
-     "WIF",
-     "USELESS"
     ]
    },
    {
@@ -8290,7 +8290,7 @@
   "updated": {
    "unlocks": 1795770031,
    "onchain": 1795770322,
-   "sectors": 1795771826,
+   "sectors": 1795772724,
    "listings": 1795769129,
    "fundamentals": 1795770032
   }
@@ -8329,6 +8329,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "4aa6771f89918269cea8f54cf9302b0b63f3f68359041811766234ee233791cb",
- "generated": "2026-11-27T09:40:27+00:00"
+ "digest": "e699acdb28eb8e8df6155b8e00b9b3bdbdc30f26c7f48008328ff80e8b74cdf8",
+ "generated": "2026-11-27T09:45:30+00:00"
 }
