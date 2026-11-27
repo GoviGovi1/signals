@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.384,
-   "last_ts": "2026-11-27T16:55:22+00:00",
-   "move_pct": 2.59,
+   "last": 1.374,
+   "last_ts": "2026-11-27T17:00:36+00:00",
+   "move_pct": 1.85,
    "closed": false,
    "rsi": 67.9,
    "trade_on": "Spot",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.6711,
-   "last_ts": "2026-11-27T16:55:22+00:00",
-   "move_pct": -0.97,
+   "last": 0.669,
+   "last_ts": "2026-11-27T17:00:36+00:00",
+   "move_pct": -1.28,
    "closed": false,
    "rsi": 61.3,
    "trade_on": "Perps 1x",
@@ -126,15 +126,60 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.3761,
-   "last_ts": "2026-11-27T16:55:22+00:00",
-   "move_pct": -0.99,
+   "last": 0.3745,
+   "last_ts": "2026-11-27T17:00:36+00:00",
+   "move_pct": -0.56,
    "closed": false,
    "rsi": 38.2,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": "charts/GRASS-PERP-1795788000.png",
    "setup": "BREAKOUT20"
+  },
+  {
+   "id": "BILL-PERP-1795795200",
+   "kind": "TA",
+   "score": -1,
+   "reasons": [
+    "Chart: Break of structure: closed above the last swing high 0.004046, after a higher low",
+    "Timeframes: 1d down, 4h down, 4h structure higher highs/lows",
+    "Next resistance 0.0043317 (2.1R away, 4h swing/swing)",
+    "Stop 0.0039931 (structure); targets at the next 3 level(s)",
+    "BTC 4h trend down",
+    "Stronger than BTC by 6.3% over 7d",
+    "OI +4% 24h",
+    "funding +0.082%/8h: longs crowded",
+    "Track record: +9.4R on BILL in the last 45 days (backtest)"
+   ],
+   "coin": "BILL",
+   "market": "PERP",
+   "side": "LONG",
+   "entry": 0.004104,
+   "sl0": 0.00399305524640573,
+   "sl": 0.00399305524640573,
+   "tps": [
+    0.004322583409040516,
+    0.004380916742373849,
+    0.00455391674237385
+   ],
+   "lev": 1,
+   "funding_pct": 0.0412,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-11-27T17:00:00+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.004115,
+   "last_ts": "2026-11-27T17:00:36+00:00",
+   "move_pct": 0.27,
+   "closed": false,
+   "rsi": 63.1,
+   "trade_on": "Perps 1x",
+   "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
+   "chart": "charts/BILL-PERP-1795795200.png",
+   "setup": "BOS"
   }
  ],
  "closed": [
@@ -4380,7 +4425,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 3
+  "open": 4
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7999,6 +8044,25 @@
     ]
    },
    {
+    "id": "oracle",
+    "name": "Oracle",
+    "chg7d": -1.53,
+    "top": [
+     "LINK",
+     "PYTH",
+     "RED",
+     "WIN",
+     "TRB"
+    ],
+    "tracked": [
+     "LINK",
+     "TRB",
+     "PYTH",
+     "AT",
+     "API3"
+    ]
+   },
+   {
     "id": "decentralized-exchange",
     "name": "Decentralized Exchange",
     "chg7d": -1.88,
@@ -8078,25 +8142,6 @@
      "MORPHO",
      "COMP",
      "KMNO"
-    ]
-   },
-   {
-    "id": "oracle",
-    "name": "Oracle",
-    "chg7d": -2.99,
-    "top": [
-     "LINK",
-     "PYTH",
-     "RED",
-     "WIN",
-     "TRB"
-    ],
-    "tracked": [
-     "LINK",
-     "TRB",
-     "PYTH",
-     "AT",
-     "API3"
     ]
    },
    {
@@ -8284,7 +8329,7 @@
   "updated": {
    "unlocks": 1795791631,
    "onchain": 1795795520,
-   "sectors": 1795797923,
+   "sectors": 1795798836,
    "listings": 1795795520,
    "fundamentals": 1795791632
   }
@@ -8323,6 +8368,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "c5aa150e2b98fd9a2859440b718e549a87b512c73d2750a2124791e6bceccb32",
- "generated": "2026-11-27T16:55:24+00:00"
+ "digest": "605d254fdfe75158e6a8f48d3866fc7065e8c28bb3f15cc9afc017cdbd271ee7",
+ "generated": "2026-11-27T17:01:12+00:00"
 }
