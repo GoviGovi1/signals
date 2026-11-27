@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.352,
-   "last_ts": "2026-11-27T14:40:24+00:00",
-   "move_pct": 0.22,
+   "last": 1.36,
+   "last_ts": "2026-11-27T14:45:25+00:00",
+   "move_pct": 0.82,
    "closed": false,
    "rsi": 67.9,
    "trade_on": "Spot",
@@ -79,60 +79,15 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 130.840181535071,
-   "last_ts": "2026-11-27T14:40:24+00:00",
-   "move_pct": -1.2,
+   "last": 130.94097330776697,
+   "last_ts": "2026-11-27T14:45:25+00:00",
+   "move_pct": -1.12,
    "closed": false,
    "rsi": 72.5,
    "trade_on": "On-chain spot (BSC DEX)",
    "market_reason": "not listed on OKX; buy on a DEX, small size, no leverage",
    "chart": "charts/SPCXB-DEX-bsc-0xbe9d1568-1795744800.png",
    "setup": null
-  },
-  {
-   "id": "VIRTUAL-SPOT-1795773600",
-   "kind": "TA",
-   "score": 0,
-   "reasons": [
-    "Chart: Break of structure: closed above the last swing high 0.3804, after a higher low",
-    "Timeframes: 1d down, 4h down, 4h structure higher highs/lows",
-    "Next resistance 0.41643 (3.8R away, 4h swing/swing)",
-    "Stop 0.37486 (2 ATR); targets at the next 1 level(s)",
-    "BTC 4h trend down",
-    "Weaker than BTC by 4.9% over 7d",
-    "OI +0% 24h",
-    "Sector: Artificial Intelligence -0.3% 7d (middle, #10 of 20)",
-    "Track record: +1.4R on VIRTUAL in the last 45 days (backtest)"
-   ],
-   "coin": "VIRTUAL",
-   "market": "SPOT",
-   "side": "LONG",
-   "entry": 0.3839,
-   "sl0": 0.3752473253738363,
-   "sl": 0.3752473253738363,
-   "tps": [
-    0.4162139661473104,
-    0.4248666407734741,
-    0.43351931539963773
-   ],
-   "lev": null,
-   "funding_pct": null,
-   "status": "open",
-   "hits": 0,
-   "opened": "2026-11-27T11:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.3785,
-   "last_ts": "2026-11-27T14:40:24+00:00",
-   "move_pct": -1.41,
-   "closed": false,
-   "rsi": 75.5,
-   "trade_on": "Spot",
-   "market_reason": "thin perp market: spot is safer",
-   "chart": "charts/VIRTUAL-SPOT-1795773600.png",
-   "setup": "BOS"
   },
   {
    "id": "O-PERP-1795784400",
@@ -169,9 +124,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.6786,
-   "last_ts": "2026-11-27T14:40:24+00:00",
-   "move_pct": 0.13,
+   "last": 0.678,
+   "last_ts": "2026-11-27T14:45:25+00:00",
+   "move_pct": 0.04,
    "closed": false,
    "rsi": 61.3,
    "trade_on": "Perps 1x",
@@ -181,6 +136,51 @@
   }
  ],
  "closed": [
+  {
+   "id": "VIRTUAL-SPOT-1795773600",
+   "kind": "TA",
+   "score": 0,
+   "reasons": [
+    "Chart: Break of structure: closed above the last swing high 0.3804, after a higher low",
+    "Timeframes: 1d down, 4h down, 4h structure higher highs/lows",
+    "Next resistance 0.41643 (3.8R away, 4h swing/swing)",
+    "Stop 0.37486 (2 ATR); targets at the next 1 level(s)",
+    "BTC 4h trend down",
+    "Weaker than BTC by 4.9% over 7d",
+    "OI +0% 24h",
+    "Sector: Artificial Intelligence -0.3% 7d (middle, #10 of 20)",
+    "Track record: +1.4R on VIRTUAL in the last 45 days (backtest)"
+   ],
+   "coin": "VIRTUAL",
+   "market": "SPOT",
+   "side": "LONG",
+   "entry": 0.3839,
+   "sl0": 0.3752473253738363,
+   "sl": 0.3752473253738363,
+   "tps": [
+    0.4162139661473104,
+    0.4248666407734741,
+    0.43351931539963773
+   ],
+   "lev": null,
+   "funding_pct": null,
+   "status": "stopped",
+   "hits": 0,
+   "opened": "2026-11-27T11:00:00+00:00",
+   "closed_at": "2026-11-27T14:45:25+00:00",
+   "exit_price": 0.3752473253738363,
+   "result_r": -1.0,
+   "result_pct": -2.25,
+   "last": 0.3779,
+   "last_ts": "2026-11-27T14:45:25+00:00",
+   "move_pct": -1.41,
+   "closed": true,
+   "rsi": 75.5,
+   "trade_on": "Spot",
+   "market_reason": "thin perp market: spot is safer",
+   "chart": "charts/VIRTUAL-SPOT-1795773600.png",
+   "setup": "BOS"
+  },
   {
    "id": "GMT-SPOT-1795748400",
    "kind": "TA",
@@ -1899,7 +1899,7 @@
    "rsi": 70.0,
    "trade_on": "Spot",
    "market_reason": "thin perp market: spot is safer",
-   "chart": "charts/BIGTIME-SPOT-1795442400.png",
+   "chart": null,
    "setup": "RANGE_BREAK"
   },
   {
@@ -2730,71 +2730,26 @@
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": null,
    "setup": "RETEST"
-  },
-  {
-   "id": "PYTH-PERP-1795136400",
-   "kind": "TA",
-   "score": 1,
-   "reasons": [
-    "Chart: Broke the 20-hour low on 0.9x volume",
-    "Timeframes: 1d down, 4h down, 4h structure mixed",
-    "No support below in the last 50 days",
-    "Stop 0.053637 (structure); targets at 1R/2R/3R",
-    "BTC 4h trend down",
-    "Weaker than BTC by 9.0% over 7d",
-    "OI +1% 24h",
-    "Sector: Decentralized Finance DeFi -11.1% 7d (lagging, #17 of 20)",
-    "Track record: +2.9R on PYTH in the last 45 days (backtest)"
-   ],
-   "coin": "PYTH",
-   "market": "PERP",
-   "side": "SHORT",
-   "entry": 0.05166,
-   "sl0": 0.05363708322974731,
-   "sl": 0.05166,
-   "tps": [
-    0.04968291677025269,
-    0.04770583354050538,
-    0.04572875031075807
-   ],
-   "lev": 1,
-   "funding_pct": 0.005,
-   "status": "tp3",
-   "hits": 3,
-   "opened": "2026-11-20T02:00:00+00:00",
-   "closed_at": "2026-11-21T03:35:22+00:00",
-   "exit_price": 0.04572875031075807,
-   "result_r": 2.25,
-   "result_pct": 8.61,
-   "last": 0.04563,
-   "last_ts": "2026-11-21T03:35:22+00:00",
-   "move_pct": 9.19,
-   "closed": true,
-   "rsi": 33.2,
-   "trade_on": "Perps 1x",
-   "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": null,
-   "setup": "BREAKOUT20"
   }
  ],
  "stats": {
   "all": {
-   "trades": 344,
+   "trades": 345,
    "wins": 160,
-   "losses": 184,
-   "win_rate": 46.5,
-   "total_r": 24.86,
-   "avg_r": 0.072,
-   "total_pct": 125.68
+   "losses": 185,
+   "win_rate": 46.4,
+   "total_r": 23.86,
+   "avg_r": 0.069,
+   "total_pct": 123.43
   },
   "SPOT": {
-   "trades": 99,
+   "trades": 100,
    "wins": 38,
-   "losses": 61,
-   "win_rate": 38.4,
-   "total_r": -10.46,
-   "avg_r": -0.106,
-   "total_pct": 45.19
+   "losses": 62,
+   "win_rate": 38.0,
+   "total_r": -11.46,
+   "avg_r": -0.115,
+   "total_pct": 42.94
   },
   "PERP": {
    "trades": 229,
@@ -2834,13 +2789,13 @@
     "total_pct": 18.9
    },
    "TA": {
-    "trades": 235,
+    "trades": 236,
     "wins": 100,
-    "losses": 135,
-    "win_rate": 42.6,
-    "total_r": 16.0,
-    "avg_r": 0.068,
-    "total_pct": 60.74
+    "losses": 136,
+    "win_rate": 42.4,
+    "total_r": 15.0,
+    "avg_r": 0.064,
+    "total_pct": 58.49
    }
   },
   "coins": {
@@ -4222,13 +4177,13 @@
     "total_pct": 11.79
    },
    "VIRTUAL": {
-    "trades": 3,
+    "trades": 4,
     "wins": 2,
-    "losses": 1,
-    "win_rate": 66.7,
-    "total_r": 0.14,
-    "avg_r": 0.045,
-    "total_pct": -0.57
+    "losses": 2,
+    "win_rate": 50.0,
+    "total_r": -0.86,
+    "avg_r": -0.216,
+    "total_pct": -2.82
    },
    "VVV": {
     "trades": 2,
@@ -4402,7 +4357,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 4
+  "open": 3
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7711,6 +7666,28 @@
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
+    "id": "meme-token",
+    "name": "Meme Token",
+    "chg7d": 2.69,
+    "top": [
+     "DOGE",
+     "SHIB",
+     "M",
+     "PEPE",
+     "\u5e01\u5b89\u4eba\u751f"
+    ],
+    "tracked": [
+     "DOGE",
+     "PEPE",
+     "TRUMP",
+     "WIF",
+     "CASHCAT",
+     "SHIB",
+     "PENGU",
+     "USELESS"
+    ]
+   },
+   {
     "id": "layer-1",
     "name": "Layer 1",
     "chg7d": 2.23,
@@ -7774,28 +7751,6 @@
      "POL",
      "SOON",
      "MAGIC"
-    ]
-   },
-   {
-    "id": "meme-token",
-    "name": "Meme Token",
-    "chg7d": 0.75,
-    "top": [
-     "DOGE",
-     "SHIB",
-     "M",
-     "PEPE",
-     "\u5e01\u5b89\u4eba\u751f"
-    ],
-    "tracked": [
-     "DOGE",
-     "PEPE",
-     "TRUMP",
-     "WIF",
-     "CASHCAT",
-     "SHIB",
-     "PENGU",
-     "USELESS"
     ]
    },
    {
@@ -8291,7 +8246,7 @@
   "updated": {
    "unlocks": 1795770031,
    "onchain": 1795788322,
-   "sectors": 1795789828,
+   "sectors": 1795790725,
    "listings": 1795788033,
    "fundamentals": 1795770032
   }
@@ -8330,6 +8285,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "8334a4671f48f5da18737e2e6662c6be0795c999d6ba04bf3e5a11915f49c53d",
- "generated": "2026-11-27T14:40:30+00:00"
+ "digest": "57675e7e58d3e63d0cd056bee72b45eb7444cf6d5b6fa3539464a74fa4b4ad47",
+ "generated": "2026-11-27T14:45:31+00:00"
 }
