@@ -1,46 +1,6 @@
 {
  "open": [
   {
-   "id": "NES-PERP-HOT-20784",
-   "kind": "HOT",
-   "score": 457.43,
-   "reasons": [
-    "24h hot mover +20% with volume spike (3.0x the prior 3 days)",
-    "24h volume $29.1M on the OKX perp book, listed 156 days",
-    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
-    "Stop 0.23804 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
-   ],
-   "coin": "NES",
-   "market": "PERP",
-   "side": "LONG",
-   "entry": 0.2686,
-   "sl0": 0.23804036409904233,
-   "sl": 0.23804036409904233,
-   "tps": [
-    0.2991596359009577,
-    0.32971927180191535,
-    0.360278907702873
-   ],
-   "lev": 1,
-   "funding_pct": 0.005,
-   "status": "open",
-   "hits": 0,
-   "opened": "2026-11-27T01:55:22+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.2416,
-   "last_ts": "2026-11-27T11:55:21+00:00",
-   "move_pct": -10.05,
-   "closed": false,
-   "rsi": null,
-   "trade_on": "Perps 1x",
-   "market_reason": "the perp book is where the 24h move and volume are; very volatile, so 1x",
-   "chart": "charts/NES-PERP-HOT-20784.png",
-   "setup": "HOT24"
-  },
-  {
    "id": "RENDER-SPOT-1795744800",
    "kind": "TA",
    "score": 1,
@@ -75,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.364,
-   "last_ts": "2026-11-27T11:55:21+00:00",
-   "move_pct": 1.11,
+   "last": 1.366,
+   "last_ts": "2026-11-27T12:00:36+00:00",
+   "move_pct": 1.26,
    "closed": false,
    "rsi": 67.9,
    "trade_on": "Spot",
@@ -119,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 130.554322941996,
-   "last_ts": "2026-11-27T11:55:21+00:00",
-   "move_pct": -1.41,
+   "last": 130.68827618221098,
+   "last_ts": "2026-11-27T12:00:36+00:00",
+   "move_pct": -1.31,
    "closed": false,
    "rsi": 72.5,
    "trade_on": "On-chain spot (BSC DEX)",
@@ -165,9 +125,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.005279,
-   "last_ts": "2026-11-27T11:55:21+00:00",
-   "move_pct": 0.11,
+   "last": 0.00528,
+   "last_ts": "2026-11-27T12:00:36+00:00",
+   "move_pct": 0.13,
    "closed": false,
    "rsi": 69.5,
    "trade_on": "Spot",
@@ -210,9 +170,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.3837,
-   "last_ts": "2026-11-27T11:55:21+00:00",
-   "move_pct": -0.05,
+   "last": 0.3852,
+   "last_ts": "2026-11-27T12:00:36+00:00",
+   "move_pct": 0.34,
    "closed": false,
    "rsi": 75.5,
    "trade_on": "Spot",
@@ -222,6 +182,46 @@
   }
  ],
  "closed": [
+  {
+   "id": "NES-PERP-HOT-20784",
+   "kind": "HOT",
+   "score": 457.43,
+   "reasons": [
+    "24h hot mover +20% with volume spike (3.0x the prior 3 days)",
+    "24h volume $29.1M on the OKX perp book, listed 156 days",
+    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
+    "Stop 0.23804 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
+   ],
+   "coin": "NES",
+   "market": "PERP",
+   "side": "LONG",
+   "entry": 0.2686,
+   "sl0": 0.23804036409904233,
+   "sl": 0.23804036409904233,
+   "tps": [
+    0.2991596359009577,
+    0.32971927180191535,
+    0.360278907702873
+   ],
+   "lev": 1,
+   "funding_pct": 0.005,
+   "status": "stopped",
+   "hits": 0,
+   "opened": "2026-11-27T01:55:22+00:00",
+   "closed_at": "2026-11-27T12:00:36+00:00",
+   "exit_price": 0.23804036409904233,
+   "result_r": -1.0,
+   "result_pct": -11.38,
+   "last": 0.2385,
+   "last_ts": "2026-11-27T12:00:36+00:00",
+   "move_pct": -10.05,
+   "closed": true,
+   "rsi": null,
+   "trade_on": "Perps 1x",
+   "market_reason": "the perp book is where the 24h move and volume are; very volatile, so 1x",
+   "chart": "charts/NES-PERP-HOT-20784.png",
+   "setup": "HOT24"
+  },
   {
    "id": "SSV-SPOT-HOT-20784",
    "kind": "HOT",
@@ -1943,7 +1943,7 @@
    "rsi": 44.7,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
-   "chart": "charts/MASK-PERP-1795323600.png",
+   "chart": null,
    "setup": "BOS"
   },
   {
@@ -2775,57 +2775,17 @@
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": null,
    "setup": "BREAKOUT20"
-  },
-  {
-   "id": "ARG-SPOT-HOT-20777",
-   "kind": "HOT",
-   "score": 2150.72,
-   "reasons": [
-    "24h hot mover +63% with volume spike (20x+ the prior 3 days)",
-    "24h volume $505k on the OKX spot book, listed 1520 days",
-    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
-    "Stop 0.063254 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
-   ],
-   "coin": "ARG",
-   "market": "SPOT",
-   "side": "LONG",
-   "entry": 0.07188,
-   "sl0": 0.0632544,
-   "sl": 0.07188,
-   "tps": [
-    0.0805056,
-    0.0891312,
-    0.0977568
-   ],
-   "lev": null,
-   "funding_pct": null,
-   "status": "stopped_be",
-   "hits": 2,
-   "opened": "2026-11-20T19:20:22+00:00",
-   "closed_at": "2026-11-20T23:50:27+00:00",
-   "exit_price": 0.07188,
-   "result_r": 0.75,
-   "result_pct": 9.0,
-   "last": 0.07518,
-   "last_ts": "2026-11-20T23:50:27+00:00",
-   "move_pct": 12.12,
-   "closed": true,
-   "rsi": null,
-   "trade_on": "Spot",
-   "market_reason": "only spot is listed",
-   "chart": null,
-   "setup": "HOT24"
   }
  ],
  "stats": {
   "all": {
-   "trades": 342,
+   "trades": 343,
    "wins": 160,
-   "losses": 182,
-   "win_rate": 46.8,
-   "total_r": 26.86,
-   "avg_r": 0.079,
-   "total_pct": 138.31
+   "losses": 183,
+   "win_rate": 46.6,
+   "total_r": 25.86,
+   "avg_r": 0.075,
+   "total_pct": 126.93
   },
   "SPOT": {
    "trades": 98,
@@ -2837,13 +2797,13 @@
    "total_pct": 46.44
   },
   "PERP": {
-   "trades": 228,
+   "trades": 229,
    "wins": 113,
-   "losses": 115,
-   "win_rate": 49.6,
-   "total_r": 36.89,
-   "avg_r": 0.162,
-   "total_pct": 72.97
+   "losses": 116,
+   "win_rate": 49.3,
+   "total_r": 35.89,
+   "avg_r": 0.157,
+   "total_pct": 61.59
   },
   "DEX": {
    "trades": 16,
@@ -2856,13 +2816,13 @@
   },
   "kinds": {
    "HOT": {
-    "trades": 92,
+    "trades": 93,
     "wins": 51,
-    "losses": 41,
-    "win_rate": 55.4,
-    "total_r": 10.44,
-    "avg_r": 0.113,
-    "total_pct": 57.42
+    "losses": 42,
+    "win_rate": 54.8,
+    "total_r": 9.44,
+    "avg_r": 0.101,
+    "total_pct": 46.04
    },
    "ONCHAIN": {
     "trades": 16,
@@ -3803,13 +3763,13 @@
     "total_pct": -3.73
    },
    "NES": {
-    "trades": 1,
+    "trades": 2,
     "wins": 0,
-    "losses": 1,
+    "losses": 2,
     "win_rate": 0.0,
-    "total_r": -1.0,
+    "total_r": -2.0,
     "avg_r": -1.0,
-    "total_pct": -7.67
+    "total_pct": -19.05
    },
    "NIGHT": {
     "trades": 3,
@@ -4442,7 +4402,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 5
+  "open": 4
  },
  "backtest": {
   "from": "2026-07-24",
@@ -8093,26 +8053,6 @@
     ]
    },
    {
-    "id": "oracle",
-    "name": "Oracle",
-    "chg7d": -2.42,
-    "top": [
-     "LINK",
-     "PYTH",
-     "RED",
-     "WIN",
-     "TRB"
-    ],
-    "tracked": [
-     "LINK",
-     "AT",
-     "TRB",
-     "PYTH",
-     "API3",
-     "BAND"
-    ]
-   },
-   {
     "id": "storage",
     "name": "Storage",
     "chg7d": -2.79,
@@ -8148,6 +8088,26 @@
      "SPK",
      "COMP",
      "KMNO"
+    ]
+   },
+   {
+    "id": "oracle",
+    "name": "Oracle",
+    "chg7d": -2.99,
+    "top": [
+     "LINK",
+     "PYTH",
+     "RED",
+     "WIN",
+     "TRB"
+    ],
+    "tracked": [
+     "LINK",
+     "AT",
+     "TRB",
+     "PYTH",
+     "API3",
+     "BAND"
     ]
    },
    {
@@ -8335,7 +8295,7 @@
   "updated": {
    "unlocks": 1795770031,
    "onchain": 1795777519,
-   "sectors": 1795779924,
+   "sectors": 1795780835,
    "listings": 1795780521,
    "fundamentals": 1795770032
   }
@@ -8374,6 +8334,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "b752f64fda2b6ad8e15c8ecc8f3a82bae3c61ed062b2df50fc375f7a2268d08d",
- "generated": "2026-11-27T11:55:27+00:00"
+ "digest": "8de9d1b5b0f8b7044bc07d7f2727afc6ff7876e4cb0db865e3518cac9b99a9d6",
+ "generated": "2026-11-27T12:01:08+00:00"
 }
