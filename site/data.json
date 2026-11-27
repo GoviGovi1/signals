@@ -36,7 +36,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 1.37,
-   "last_ts": "2026-11-27T14:10:23+00:00",
+   "last_ts": "2026-11-27T14:15:23+00:00",
    "move_pct": 1.56,
    "closed": false,
    "rsi": 67.9,
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 131.48469012627598,
-   "last_ts": "2026-11-27T14:10:23+00:00",
-   "move_pct": -0.71,
+   "last": 131.517051017077,
+   "last_ts": "2026-11-27T14:15:23+00:00",
+   "move_pct": -0.69,
    "closed": false,
    "rsi": 72.5,
    "trade_on": "On-chain spot (BSC DEX)",
@@ -125,9 +125,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.005291,
-   "last_ts": "2026-11-27T14:10:23+00:00",
-   "move_pct": 0.34,
+   "last": 0.005294,
+   "last_ts": "2026-11-27T14:15:23+00:00",
+   "move_pct": 0.4,
    "closed": false,
    "rsi": 69.5,
    "trade_on": "Spot",
@@ -170,9 +170,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.3864,
-   "last_ts": "2026-11-27T14:10:23+00:00",
-   "move_pct": 0.65,
+   "last": 0.3859,
+   "last_ts": "2026-11-27T14:15:23+00:00",
+   "move_pct": 0.52,
    "closed": false,
    "rsi": 75.5,
    "trade_on": "Spot",
@@ -215,9 +215,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.6805,
-   "last_ts": "2026-11-27T14:10:23+00:00",
-   "move_pct": 0.41,
+   "last": 0.6767,
+   "last_ts": "2026-11-27T14:15:23+00:00",
+   "move_pct": -0.15,
    "closed": false,
    "rsi": 61.3,
    "trade_on": "Perps 1x",
@@ -7757,6 +7757,28 @@
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
+    "id": "layer-1",
+    "name": "Layer 1",
+    "chg7d": 2.23,
+    "top": [
+     "BTC",
+     "ETH",
+     "BNB",
+     "XRP",
+     "SOL"
+    ],
+    "tracked": [
+     "BTC",
+     "ETH",
+     "SOL",
+     "XRP",
+     "SUI",
+     "BNB",
+     "AVAX",
+     "ZEC"
+    ]
+   },
+   {
     "id": "solana-meme-coins",
     "name": "Solana Meme Coins",
     "chg7d": 1.46,
@@ -7798,28 +7820,6 @@
      "PENGU",
      "WIF",
      "USELESS"
-    ]
-   },
-   {
-    "id": "layer-1",
-    "name": "Layer 1",
-    "chg7d": 0.38,
-    "top": [
-     "BTC",
-     "ETH",
-     "BNB",
-     "XRP",
-     "SOL"
-    ],
-    "tracked": [
-     "BTC",
-     "ETH",
-     "SOL",
-     "XRP",
-     "SUI",
-     "BNB",
-     "AVAX",
-     "ZEC"
     ]
    },
    {
@@ -8338,7 +8338,7 @@
   "updated": {
    "unlocks": 1795770031,
    "onchain": 1795788322,
-   "sectors": 1795788034,
+   "sectors": 1795788923,
    "listings": 1795788033,
    "fundamentals": 1795770032
   }
@@ -8377,6 +8377,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "e0cda3681606bc9d1c21e2f124aa60e5a9504376941532fa3e8596b441e73f03",
- "generated": "2026-11-27T14:10:28+00:00"
+ "digest": "10a5ab5fa66fd4a2370795eae2bd0e15cc32058eef9455da8caf6fe483ba54aa",
+ "generated": "2026-11-27T14:15:28+00:00"
 }
