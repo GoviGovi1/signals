@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.399,
-   "last_ts": "2026-11-27T22:30:26+00:00",
-   "move_pct": 3.71,
+   "last": 1.395,
+   "last_ts": "2026-11-27T22:35:25+00:00",
+   "move_pct": 3.41,
    "closed": false,
    "rsi": 67.9,
    "trade_on": "Spot",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.6706,
-   "last_ts": "2026-11-27T22:30:26+00:00",
-   "move_pct": -1.05,
+   "last": 0.6723,
+   "last_ts": "2026-11-27T22:35:25+00:00",
+   "move_pct": -0.8,
    "closed": false,
    "rsi": 61.3,
    "trade_on": "Perps 1x",
@@ -126,9 +126,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.3698,
-   "last_ts": "2026-11-27T22:30:26+00:00",
-   "move_pct": 0.7,
+   "last": 0.3686,
+   "last_ts": "2026-11-27T22:35:25+00:00",
+   "move_pct": 1.02,
    "closed": false,
    "rsi": 38.2,
    "trade_on": "Perps 1x",
@@ -171,9 +171,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.004158,
-   "last_ts": "2026-11-27T22:30:26+00:00",
-   "move_pct": 1.32,
+   "last": 0.004168,
+   "last_ts": "2026-11-27T22:35:25+00:00",
+   "move_pct": 1.56,
    "closed": false,
    "rsi": 63.1,
    "trade_on": "Perps 1x",
@@ -7732,6 +7732,28 @@
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
+    "id": "depin",
+    "name": "DePIN",
+    "chg7d": 5.49,
+    "top": [
+     "TAO",
+     "RENDER",
+     "BDX",
+     "FIL",
+     "BTT"
+    ],
+    "tracked": [
+     "FIL",
+     "TAO",
+     "GRASS",
+     "RENDER",
+     "SPACE",
+     "AR",
+     "ATH",
+     "LPT"
+    ]
+   },
+   {
     "id": "zero-knowledge-zk",
     "name": "Zero Knowledge ZK",
     "chg7d": 4.95,
@@ -7905,28 +7927,6 @@
      "LIT",
      "AAVE",
      "SEI"
-    ]
-   },
-   {
-    "id": "depin",
-    "name": "DePIN",
-    "chg7d": 2.82,
-    "top": [
-     "TAO",
-     "RENDER",
-     "BDX",
-     "FIL",
-     "BTT"
-    ],
-    "tracked": [
-     "FIL",
-     "TAO",
-     "GRASS",
-     "RENDER",
-     "SPACE",
-     "AR",
-     "ATH",
-     "LPT"
     ]
    },
    {
@@ -8312,7 +8312,7 @@
   "updated": {
    "unlocks": 1795813235,
    "onchain": 1795817118,
-   "sectors": 1795818025,
+   "sectors": 1795818925,
    "listings": 1795817726,
    "fundamentals": 1795813236
   }
@@ -8351,6 +8351,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "a79dd303259b69f6a5a01a95bf903810e7950f2d395808d6bc1aecd4daf88b96",
- "generated": "2026-11-27T22:30:28+00:00"
+ "digest": "19020dc6bdd4a7101acf13cdd472f74d7f204eea304d31c1158ef60f90e49b9e",
+ "generated": "2026-11-27T22:35:27+00:00"
 }
