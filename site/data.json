@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.367,
-   "last_ts": "2026-11-27T13:55:22+00:00",
-   "move_pct": 1.33,
+   "last": 1.369,
+   "last_ts": "2026-11-27T14:00:34+00:00",
+   "move_pct": 1.48,
    "closed": false,
    "rsi": 67.9,
    "trade_on": "Spot",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 131.089859144822,
-   "last_ts": "2026-11-27T13:55:22+00:00",
-   "move_pct": -1.01,
+   "last": 131.652043484894,
+   "last_ts": "2026-11-27T14:00:34+00:00",
+   "move_pct": -0.58,
    "closed": false,
    "rsi": 72.5,
    "trade_on": "On-chain spot (BSC DEX)",
@@ -125,9 +125,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.005314,
-   "last_ts": "2026-11-27T13:55:22+00:00",
-   "move_pct": 0.78,
+   "last": 0.005303,
+   "last_ts": "2026-11-27T14:00:34+00:00",
+   "move_pct": 0.57,
    "closed": false,
    "rsi": 69.5,
    "trade_on": "Spot",
@@ -170,15 +170,60 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.3872,
-   "last_ts": "2026-11-27T13:55:22+00:00",
-   "move_pct": 0.86,
+   "last": 0.3857,
+   "last_ts": "2026-11-27T14:00:34+00:00",
+   "move_pct": 0.47,
    "closed": false,
    "rsi": 75.5,
    "trade_on": "Spot",
    "market_reason": "thin perp market: spot is safer",
    "chart": "charts/VIRTUAL-SPOT-1795773600.png",
    "setup": "BOS"
+  },
+  {
+   "id": "O-PERP-1795784400",
+   "kind": "TA",
+   "score": 1,
+   "reasons": [
+    "Chart: Broke out of a 7-day range at 0.6738 (range 0.55\u20130.6738) on 0.6x volume",
+    "Timeframes: 1d up, 4h up, 4h structure higher highs/lows",
+    "No resistance overhead in the last 50 days",
+    "Stop 0.65005 (structure); targets at 1R/2R/3R",
+    "BTC 4h trend down",
+    "Stronger than BTC by 22.0% over 7d",
+    "OI +4% 24h",
+    "Sector: Decentralized Exchange +0.2% 7d (leading, #5 of 20)",
+    "Track record: +0.0R on O in the last 45 days (backtest)"
+   ],
+   "coin": "O",
+   "market": "PERP",
+   "side": "LONG",
+   "entry": 0.6777,
+   "sl0": 0.6500467543430892,
+   "sl": 0.6500467543430892,
+   "tps": [
+    0.7053532456569107,
+    0.7330064913138215,
+    0.7606597369707322
+   ],
+   "lev": 1,
+   "funding_pct": 0.005,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-11-27T14:00:00+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.6777,
+   "last_ts": "2026-11-27T14:00:34+00:00",
+   "move_pct": 0.0,
+   "closed": false,
+   "rsi": 61.3,
+   "trade_on": "Perps 1x",
+   "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
+   "chart": "charts/O-PERP-1795784400.png",
+   "setup": "RANGE_BREAK"
   }
  ],
  "closed": [
@@ -4402,7 +4447,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 4
+  "open": 5
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7935,7 +7980,7 @@
    {
     "id": "bitcoin-ecosystem",
     "name": "Bitcoin Ecosystem",
-    "chg7d": -0.44,
+    "chg7d": -0.38,
     "top": [
      "BTC",
      "DOG",
@@ -8295,8 +8340,8 @@
   "updated": {
    "unlocks": 1795770031,
    "onchain": 1795784721,
-   "sectors": 1795787127,
-   "listings": 1795784430,
+   "sectors": 1795788034,
+   "listings": 1795788033,
    "fundamentals": 1795770032
   }
  },
@@ -8334,6 +8379,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "3edc0627a149c4803ffeaa6904838e138ccad8c24b4b889058093aa86e02b61d",
- "generated": "2026-11-27T13:55:27+00:00"
+ "digest": "e8bf9f0c63a4e3773d6dcdcd907c01e61ae5260f2323d8749625d5a5bad8c58d",
+ "generated": "2026-11-27T14:01:13+00:00"
 }
