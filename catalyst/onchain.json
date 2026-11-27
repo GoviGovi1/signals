@@ -1,5 +1,5 @@
 {
- "checked": 82,
+ "checked": 81,
  "errors": [],
  "rejected": [
   {
@@ -42,17 +42,17 @@
   {
    "chain": "Solana",
    "fails": [
-    "liquidity under $250k",
-    "pool younger than 7 days"
+    "no DEX candles"
    ],
-   "symbol": "ELONMAS"
+   "symbol": "CATE"
   },
   {
    "chain": "Solana",
    "fails": [
-    "no DEX candles"
+    "liquidity under $250k",
+    "pool younger than 7 days"
    ],
-   "symbol": "CATE"
+   "symbol": "ELONMAS"
   },
   {
    "chain": "Solana",
@@ -69,7 +69,7 @@
     "liquidity under $250k",
     "pool younger than 7 days"
    ],
-   "symbol": "BASKET"
+   "symbol": "PAIR"
   },
   {
    "chain": "Solana",
@@ -77,7 +77,7 @@
     "liquidity under $250k",
     "pool younger than 7 days"
    ],
-   "symbol": "PAIR"
+   "symbol": "BASKET"
   },
   {
    "chain": "Solana",
@@ -110,6 +110,14 @@
   {
    "chain": "Solana",
    "fails": [
+    "liquidity under $250k",
+    "pool younger than 7 days"
+   ],
+   "symbol": "INVESTOR"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
     "liquidity under $250k"
    ],
    "symbol": "HELLO"
@@ -117,10 +125,9 @@
   {
    "chain": "Solana",
    "fails": [
-    "liquidity under $250k",
-    "pool younger than 7 days"
+    "24h volume under $250k"
    ],
-   "symbol": "INVESTOR"
+   "symbol": "TROLL"
   },
   {
    "chain": "Solana",
@@ -142,17 +149,9 @@
   {
    "chain": "Solana",
    "fails": [
-    "24h volume under $250k"
+    "no DEX candles"
    ],
-   "symbol": "TROLL"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "liquidity under $250k",
-    "24h volume under $250k"
-   ],
-   "symbol": "DCTY"
+   "symbol": "TRUMP"
   },
   {
    "chain": "Base",
@@ -173,14 +172,14 @@
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "NVDAC"
+   "symbol": "SURPLUS"
   },
   {
    "chain": "Base",
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "SURPLUS"
+   "symbol": "NVDAC"
   },
   {
    "chain": "Base",
@@ -268,13 +267,6 @@
    "symbol": "TIBBIR"
   },
   {
-   "chain": "Base",
-   "fails": [
-    "liquidity under $250k"
-   ],
-   "symbol": "ZRO"
-  },
-  {
    "chain": "BSC",
    "fails": [
     "hidden owner"
@@ -294,66 +286,76 @@
     "liquidity under $250k"
    ],
    "symbol": "EVAA"
+  },
+  {
+   "chain": "BSC",
+   "fails": [
+    "liquidity under $250k",
+    "pool younger than 7 days"
+   ],
+   "symbol": "SPACEXCOIN"
   }
  ],
  "rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
- "updated": 1795752318,
+ "updated": 1795755919,
  "watchlist": [
   {
-   "age_d": 32.0,
-   "atr": 0.0035612111323510345,
-   "bar_ts": 1795748400000,
+   "age_d": 32.1,
+   "atr": 0.003592684833655346,
+   "bar_ts": 1795752000000,
    "chain": "Arbitrum",
-   "chg24h": 0.135,
-   "chg7d": 0.3,
-   "close": 1.00058656083216,
-   "ema20": 1.0000644683447601,
-   "ema50": 0.9999504784161988,
+   "chg24h": -0.229,
+   "chg7d": 0.2,
+   "close": 1.0012233793759597,
+   "ema20": 1.0001748408230045,
+   "ema50": 1.0000003255331888,
    "fails": [],
    "gecko_id": "global-dollar",
-   "liq": 2121811,
-   "mcap": 2575616724.0108,
+   "liq": 1783824,
+   "mcap": 2569402759.08435,
    "name": "Global Dollar",
    "net": "arbitrum",
    "pool": "0x09328be718d89228a985471bb470988a34d0b162",
-   "price": 1.00075797330621,
-   "rsi": 52.1,
-   "safety": "ok",
-   "safety_notes": [],
+   "price": 0.998325184519925,
+   "rsi": 54.3,
+   "safety": "unknown",
+   "safety_notes": [
+    "safety not checked"
+   ],
    "symbol": "USDG",
    "token": "0x004b506865409877c9fa29bfb1eba929984b9bbc",
    "trend_up": true,
    "trigger": false,
    "url": "https://www.geckoterminal.com/arbitrum/pools/0x09328be718d89228a985471bb470988a34d0b162",
-   "vol24h": 4475810
+   "vol24h": 4814635
   },
   {
-   "age_d": 430.8,
-   "atr": 0.0008311208855709461,
-   "bar_ts": 1795748400000,
-   "chain": "BSC",
-   "chg24h": 4.955,
-   "chg7d": 38.1,
-   "close": 0.0169479381662629,
-   "ema20": 0.016872531920691314,
-   "ema50": 0.01690108312668369,
+   "age_d": 1288.5,
+   "atr": 0.005016586399956388,
+   "bar_ts": 1795752000000,
+   "chain": "Ethereum",
+   "chg24h": -0.021,
+   "chg7d": 0.1,
+   "close": 0.997994640560967,
+   "ema20": 0.9969494613387292,
+   "ema50": 0.9967904145930312,
    "fails": [],
-   "gecko_id": "bless-2",
-   "liq": 295814,
-   "mcap": 31473454.2256966,
-   "name": "Bless Token",
-   "net": "bsc",
-   "pool": "0x49986efbeedea3ab962ca95caf86919860ecc9db",
-   "price": 0.0170980988922801,
-   "rsi": 50.6,
+   "gecko_id": "crvusd",
+   "liq": 7777262,
+   "mcap": 139839694.870382,
+   "name": "Curve.Fi USD Stablecoin",
+   "net": "eth",
+   "pool": "0x4dece678ceceb27446b35c672dc7d61f30bad69e",
+   "price": 0.997240633210967,
+   "rsi": 52.6,
    "safety": "ok",
    "safety_notes": [],
-   "symbol": "BLESS",
-   "token": "0x7c8217517ed4711fe2deccdfeffe8d906b9ae11f",
-   "trend_up": false,
+   "symbol": "CRVUSD",
+   "token": "0xf939e0a03fb07f59a73314e73794be0e57ac1b4e",
+   "trend_up": true,
    "trigger": false,
-   "url": "https://www.geckoterminal.com/bsc/pools/0x49986efbeedea3ab962ca95caf86919860ecc9db",
-   "vol24h": 2306548
+   "url": "https://www.geckoterminal.com/eth/pools/0x4dece678ceceb27446b35c672dc7d61f30bad69e",
+   "vol24h": 2102593
   }
  ]
 }
