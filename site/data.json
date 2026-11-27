@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.396,
-   "last_ts": "2026-11-27T19:15:23+00:00",
-   "move_pct": 3.48,
+   "last": 1.393,
+   "last_ts": "2026-11-27T19:20:23+00:00",
+   "move_pct": 3.26,
    "closed": false,
    "rsi": 67.9,
    "trade_on": "Spot",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.6687,
-   "last_ts": "2026-11-27T19:15:23+00:00",
-   "move_pct": -1.33,
+   "last": 0.6679,
+   "last_ts": "2026-11-27T19:20:23+00:00",
+   "move_pct": -1.45,
    "closed": false,
    "rsi": 61.3,
    "trade_on": "Perps 1x",
@@ -126,9 +126,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.3731,
-   "last_ts": "2026-11-27T19:15:23+00:00",
-   "move_pct": -0.19,
+   "last": 0.374,
+   "last_ts": "2026-11-27T19:20:23+00:00",
+   "move_pct": -0.43,
    "closed": false,
    "rsi": 38.2,
    "trade_on": "Perps 1x",
@@ -163,7 +163,7 @@
     0.00455391674237385
    ],
    "lev": 1,
-   "funding_pct": 0.0109,
+   "funding_pct": 0.0095,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-27T17:00:00+00:00",
@@ -171,9 +171,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.004183,
-   "last_ts": "2026-11-27T19:15:23+00:00",
-   "move_pct": 1.92,
+   "last": 0.00414,
+   "last_ts": "2026-11-27T19:20:23+00:00",
+   "move_pct": 0.88,
    "closed": false,
    "rsi": 63.1,
    "trade_on": "Perps 1x",
@@ -7769,6 +7769,28 @@
     ]
    },
    {
+    "id": "layer-1",
+    "name": "Layer 1",
+    "chg7d": 3.76,
+    "top": [
+     "BTC",
+     "ETH",
+     "BNB",
+     "XRP",
+     "SOL"
+    ],
+    "tracked": [
+     "BTC",
+     "ETH",
+     "SOL",
+     "XRP",
+     "SUI",
+     "BNB",
+     "AVAX",
+     "ZEC"
+    ]
+   },
+   {
     "id": "depin",
     "name": "DePIN",
     "chg7d": 2.82,
@@ -7832,28 +7854,6 @@
      "MAGIC",
      "MINA",
      "ZK"
-    ]
-   },
-   {
-    "id": "layer-1",
-    "name": "Layer 1",
-    "chg7d": 2.23,
-    "top": [
-     "BTC",
-     "ETH",
-     "BNB",
-     "XRP",
-     "SOL"
-    ],
-    "tracked": [
-     "BTC",
-     "ETH",
-     "SOL",
-     "XRP",
-     "SUI",
-     "BNB",
-     "AVAX",
-     "ZEC"
     ]
    },
    {
@@ -8327,7 +8327,7 @@
   "updated": {
    "unlocks": 1795791631,
    "onchain": 1795806318,
-   "sectors": 1795806318,
+   "sectors": 1795807223,
    "listings": 1795806623,
    "fundamentals": 1795791632
   }
@@ -8366,6 +8366,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "ee05ec6a71631b7ffce4d216f214dc34d831b6b42da74af92048177379e20e15",
- "generated": "2026-11-27T19:15:26+00:00"
+ "digest": "f2809909bb17e2a5a036667f5da00cdc640fdbadbd60ef8c659ff82342747a5e",
+ "generated": "2026-11-27T19:20:26+00:00"
 }
