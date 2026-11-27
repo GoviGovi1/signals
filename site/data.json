@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.248,
-   "last_ts": "2026-11-27T10:55:21+00:00",
-   "move_pct": -7.67,
+   "last": 0.247,
+   "last_ts": "2026-11-27T11:00:38+00:00",
+   "move_pct": -8.04,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -75,9 +75,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.366,
-   "last_ts": "2026-11-27T10:55:21+00:00",
-   "move_pct": 1.26,
+   "last": 1.365,
+   "last_ts": "2026-11-27T11:00:38+00:00",
+   "move_pct": 1.19,
    "closed": false,
    "rsi": 67.9,
    "trade_on": "Spot",
@@ -119,9 +119,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 132.267920854338,
-   "last_ts": "2026-11-27T10:55:21+00:00",
-   "move_pct": -0.12,
+   "last": 133.014853633197,
+   "last_ts": "2026-11-27T11:00:38+00:00",
+   "move_pct": 0.45,
    "closed": false,
    "rsi": 72.5,
    "trade_on": "On-chain spot (BSC DEX)",
@@ -165,14 +165,59 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.005288,
-   "last_ts": "2026-11-27T10:55:21+00:00",
-   "move_pct": 0.28,
+   "last": 0.005279,
+   "last_ts": "2026-11-27T11:00:38+00:00",
+   "move_pct": 0.11,
    "closed": false,
    "rsi": 69.5,
    "trade_on": "Spot",
    "market_reason": "thin perp market: spot is safer",
    "chart": "charts/GMT-SPOT-1795748400.png",
+   "setup": "BOS"
+  },
+  {
+   "id": "VIRTUAL-SPOT-1795773600",
+   "kind": "TA",
+   "score": 0,
+   "reasons": [
+    "Chart: Break of structure: closed above the last swing high 0.3804, after a higher low",
+    "Timeframes: 1d down, 4h down, 4h structure higher highs/lows",
+    "Next resistance 0.41643 (3.8R away, 4h swing/swing)",
+    "Stop 0.37486 (2 ATR); targets at the next 1 level(s)",
+    "BTC 4h trend down",
+    "Weaker than BTC by 4.9% over 7d",
+    "OI +0% 24h",
+    "Sector: Artificial Intelligence -0.3% 7d (middle, #10 of 20)",
+    "Track record: +1.4R on VIRTUAL in the last 45 days (backtest)"
+   ],
+   "coin": "VIRTUAL",
+   "market": "SPOT",
+   "side": "LONG",
+   "entry": 0.3839,
+   "sl0": 0.3752473253738363,
+   "sl": 0.3752473253738363,
+   "tps": [
+    0.4162139661473104,
+    0.4248666407734741,
+    0.43351931539963773
+   ],
+   "lev": null,
+   "funding_pct": null,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-11-27T11:00:00+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.3846,
+   "last_ts": "2026-11-27T11:00:38+00:00",
+   "move_pct": 0.18,
+   "closed": false,
+   "rsi": 75.5,
+   "trade_on": "Spot",
+   "market_reason": "thin perp market: spot is safer",
+   "chart": "charts/VIRTUAL-SPOT-1795773600.png",
    "setup": "BOS"
   }
  ],
@@ -4397,7 +4442,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 4
+  "open": 5
  },
  "backtest": {
   "from": "2026-07-24",
@@ -8024,6 +8069,28 @@
     ]
    },
    {
+    "id": "decentralized-perpetuals",
+    "name": "Decentralized Perpetuals",
+    "chg7d": -1.91,
+    "top": [
+     "HYPE",
+     "ASTER",
+     "JUP",
+     "LIT",
+     "CAKE"
+    ],
+    "tracked": [
+     "HYPE",
+     "LIT",
+     "ASTER",
+     "RAY",
+     "GRVT",
+     "BASED",
+     "DYDX",
+     "AVNT"
+    ]
+   },
+   {
     "id": "oracle",
     "name": "Oracle",
     "chg7d": -2.42,
@@ -8041,28 +8108,6 @@
      "PYTH",
      "API3",
      "BAND"
-    ]
-   },
-   {
-    "id": "decentralized-perpetuals",
-    "name": "Decentralized Perpetuals",
-    "chg7d": -2.71,
-    "top": [
-     "HYPE",
-     "ASTER",
-     "JUP",
-     "LIT",
-     "CAKE"
-    ],
-    "tracked": [
-     "HYPE",
-     "LIT",
-     "ASTER",
-     "RAY",
-     "GRVT",
-     "BASED",
-     "DYDX",
-     "AVNT"
     ]
    },
    {
@@ -8288,7 +8333,7 @@
   "updated": {
    "unlocks": 1795770031,
    "onchain": 1795773919,
-   "sectors": 1795776329,
+   "sectors": 1795777238,
    "listings": 1795776921,
    "fundamentals": 1795770032
   }
@@ -8327,6 +8372,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "c1cf690bceb900b3560fdab5f87bca2c7cf734369eb66c1d2691252a34ab1134",
- "generated": "2026-11-27T10:55:26+00:00"
+ "digest": "c622b80d8d0805d5be85f401ba69eea32eb283f5609c481d38e73bf814ff49a9",
+ "generated": "2026-11-27T11:01:17+00:00"
 }
