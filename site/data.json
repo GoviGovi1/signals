@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.385,
-   "last_ts": "2026-11-27T18:30:27+00:00",
-   "move_pct": 2.67,
+   "last": 1.39,
+   "last_ts": "2026-11-27T18:35:18+00:00",
+   "move_pct": 3.04,
    "closed": false,
    "rsi": 67.9,
    "trade_on": "Spot",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.6693,
-   "last_ts": "2026-11-27T18:30:27+00:00",
-   "move_pct": -1.24,
+   "last": 0.6708,
+   "last_ts": "2026-11-27T18:35:18+00:00",
+   "move_pct": -1.02,
    "closed": false,
    "rsi": 61.3,
    "trade_on": "Perps 1x",
@@ -126,9 +126,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.3709,
-   "last_ts": "2026-11-27T18:30:27+00:00",
-   "move_pct": 0.4,
+   "last": 0.3707,
+   "last_ts": "2026-11-27T18:35:18+00:00",
+   "move_pct": 0.46,
    "closed": false,
    "rsi": 38.2,
    "trade_on": "Perps 1x",
@@ -163,7 +163,7 @@
     0.00455391674237385
    ],
    "lev": 1,
-   "funding_pct": 0.0067,
+   "funding_pct": 0.0072,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-27T17:00:00+00:00",
@@ -171,9 +171,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.004084,
-   "last_ts": "2026-11-27T18:30:27+00:00",
-   "move_pct": -0.49,
+   "last": 0.004091,
+   "last_ts": "2026-11-27T18:35:18+00:00",
+   "move_pct": -0.32,
    "closed": false,
    "rsi": 63.1,
    "trade_on": "Perps 1x",
@@ -7857,6 +7857,28 @@
     ]
    },
    {
+    "id": "exchange-based-tokens",
+    "name": "Exchange Based Tokens",
+    "chg7d": 1.24,
+    "top": [
+     "BNB",
+     "HYPE",
+     "LEO",
+     "WBT",
+     "UNI"
+    ],
+    "tracked": [
+     "BNB",
+     "HYPE",
+     "MMT",
+     "UNI",
+     "PUMP",
+     "OKB",
+     "CRV",
+     "ASTER"
+    ]
+   },
+   {
     "id": "layer-2",
     "name": "Layer 2",
     "chg7d": 0.75,
@@ -7891,28 +7913,6 @@
     ],
     "tracked": [
      "W"
-    ]
-   },
-   {
-    "id": "exchange-based-tokens",
-    "name": "Exchange Based Tokens",
-    "chg7d": 0.06,
-    "top": [
-     "BNB",
-     "HYPE",
-     "LEO",
-     "WBT",
-     "UNI"
-    ],
-    "tracked": [
-     "BNB",
-     "HYPE",
-     "MMT",
-     "UNI",
-     "PUMP",
-     "OKB",
-     "CRV",
-     "ASTER"
     ]
    },
    {
@@ -8327,7 +8327,7 @@
   "updated": {
    "unlocks": 1795791631,
    "onchain": 1795802718,
-   "sectors": 1795803622,
+   "sectors": 1795804518,
    "listings": 1795803023,
    "fundamentals": 1795791632
   }
@@ -8366,6 +8366,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "22d75606e2cba7578f1f7a1c6c7631105547c2a9e0724dc2b9ee40ddc3a9f516",
- "generated": "2026-11-27T18:30:30+00:00"
+ "digest": "1b0497c17df9160dfb464901075d5663cf3a94881d377aaae943308fbc268c0e",
+ "generated": "2026-11-27T18:35:21+00:00"
 }
