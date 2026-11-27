@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.389,
-   "last_ts": "2026-11-27T18:15:29+00:00",
-   "move_pct": 2.97,
+   "last": 1.392,
+   "last_ts": "2026-11-27T18:20:22+00:00",
+   "move_pct": 3.19,
    "closed": false,
    "rsi": 67.9,
    "trade_on": "Spot",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.6735,
-   "last_ts": "2026-11-27T18:15:29+00:00",
-   "move_pct": -0.62,
+   "last": 0.6712,
+   "last_ts": "2026-11-27T18:20:22+00:00",
+   "move_pct": -0.96,
    "closed": false,
    "rsi": 61.3,
    "trade_on": "Perps 1x",
@@ -126,9 +126,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.3719,
-   "last_ts": "2026-11-27T18:15:29+00:00",
-   "move_pct": 0.13,
+   "last": 0.3708,
+   "last_ts": "2026-11-27T18:20:22+00:00",
+   "move_pct": 0.43,
    "closed": false,
    "rsi": 38.2,
    "trade_on": "Perps 1x",
@@ -163,7 +163,7 @@
     0.00455391674237385
    ],
    "lev": 1,
-   "funding_pct": 0.0054,
+   "funding_pct": 0.005,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-27T17:00:00+00:00",
@@ -171,9 +171,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.004083,
-   "last_ts": "2026-11-27T18:15:29+00:00",
-   "move_pct": -0.51,
+   "last": 0.004092,
+   "last_ts": "2026-11-27T18:20:22+00:00",
+   "move_pct": -0.29,
    "closed": false,
    "rsi": 63.1,
    "trade_on": "Perps 1x",
@@ -8037,6 +8037,27 @@
     ]
    },
    {
+    "id": "lending-borrowing",
+    "name": "Lending Borrowing",
+    "chg7d": -1.02,
+    "top": [
+     "AAVE",
+     "MORPHO",
+     "OHM",
+     "COMP",
+     "CAP"
+    ],
+    "tracked": [
+     "AAVE",
+     "CT",
+     "CAP",
+     "SPK",
+     "MORPHO",
+     "COMP",
+     "KMNO"
+    ]
+   },
+   {
     "id": "artificial-intelligence",
     "name": "Artificial Intelligence",
     "chg7d": -1.23,
@@ -8119,27 +8140,6 @@
      "BASED",
      "DYDX",
      "AVNT"
-    ]
-   },
-   {
-    "id": "lending-borrowing",
-    "name": "Lending Borrowing",
-    "chg7d": -2.72,
-    "top": [
-     "AAVE",
-     "MORPHO",
-     "OHM",
-     "COMP",
-     "KMNO"
-    ],
-    "tracked": [
-     "AAVE",
-     "CT",
-     "CAP",
-     "SPK",
-     "MORPHO",
-     "COMP",
-     "KMNO"
     ]
    },
    {
@@ -8327,7 +8327,7 @@
   "updated": {
    "unlocks": 1795791631,
    "onchain": 1795802718,
-   "sectors": 1795802718,
+   "sectors": 1795803622,
    "listings": 1795803023,
    "fundamentals": 1795791632
   }
@@ -8366,6 +8366,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "ef10b332bb995855400001e513d90f0f0717250e685d7883f4cec48b38338288",
- "generated": "2026-11-27T18:15:31+00:00"
+ "digest": "69049875200ee841fabdccf3b90ac2d4fcf79a17e369f8f77a8e30141db416bd",
+ "generated": "2026-11-27T18:20:25+00:00"
 }
