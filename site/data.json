@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.408,
-   "last_ts": "2026-11-27T21:01:02+00:00",
-   "move_pct": 4.37,
+   "last": 1.407,
+   "last_ts": "2026-11-27T21:06:21+00:00",
+   "move_pct": 4.3,
    "closed": false,
    "rsi": 67.9,
    "trade_on": "Spot",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.6678,
-   "last_ts": "2026-11-27T21:01:02+00:00",
-   "move_pct": -1.46,
+   "last": 0.6675,
+   "last_ts": "2026-11-27T21:06:21+00:00",
+   "move_pct": -1.51,
    "closed": false,
    "rsi": 61.3,
    "trade_on": "Perps 1x",
@@ -126,9 +126,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.3725,
-   "last_ts": "2026-11-27T21:01:02+00:00",
-   "move_pct": -0.03,
+   "last": 0.3727,
+   "last_ts": "2026-11-27T21:06:21+00:00",
+   "move_pct": -0.08,
    "closed": false,
    "rsi": 38.2,
    "trade_on": "Perps 1x",
@@ -171,9 +171,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.004109,
-   "last_ts": "2026-11-27T21:01:02+00:00",
-   "move_pct": 0.12,
+   "last": 0.004107,
+   "last_ts": "2026-11-27T21:06:21+00:00",
+   "move_pct": 0.07,
    "closed": false,
    "rsi": 63.1,
    "trade_on": "Perps 1x",
@@ -7709,43 +7709,43 @@
     "symbol": "SPCXB",
     "name": "SpaceX",
     "token": "0xbe9d156892e55e7154bcd3cb0fea677f9d3103e1",
-    "price": 132.153336659445,
-    "liq": 728151,
-    "vol24h": 3184624,
-    "age_d": 164.2,
-    "chg24h": 2.121,
-    "chg7d": 2.4,
-    "mcap": 115408813.862525,
+    "price": 132.273970345125,
+    "liq": 728866,
+    "vol24h": 3143552,
+    "age_d": 164.3,
+    "chg24h": 2.266,
+    "chg7d": 3.9,
+    "mcap": 114808521.026439,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": true,
-    "rsi": 54.4,
+    "rsi": 56.5,
     "url": "https://www.geckoterminal.com/bsc/pools/0x51a45a72cc96ca3ba615e25e80a6af2740ae2e2d"
    },
    {
     "chain": "Base",
-    "symbol": "ELSA",
-    "name": "Elsa",
-    "token": "0x29cc30f9d113b356ce408667aa6433589cecbdca",
-    "price": 0.0915340141142192,
-    "liq": 583954,
-    "vol24h": 5564968,
-    "age_d": 311.5,
-    "chg24h": -6.783,
-    "chg7d": 25.2,
-    "mcap": 28023823.9590876,
+    "symbol": "AERO",
+    "name": "Aero",
+    "token": "0x3f5bf3edac59d650d8fdf9657a71f2f904a3a4ee",
+    "price": 0.388410444429011,
+    "liq": 823908,
+    "vol24h": 5415942,
+    "age_d": 36.7,
+    "chg24h": -3.132,
+    "chg7d": 1.3,
+    "mcap": 302413197.054092,
     "safety": "unknown",
     "safety_notes": [
      "safety not checked"
     ],
     "trigger": false,
     "trend_up": false,
-    "rsi": 47.9,
-    "url": "https://www.geckoterminal.com/base/pools/0x83f3aca29bc79b048b99c56013475570acc97ccf"
+    "rsi": 38.4,
+    "url": "https://www.geckoterminal.com/base/pools/0x422df9aa896e883c9cdcbad309c0785b7364a1cf"
    }
   ],
-  "onchain_checked": 84,
+  "onchain_checked": 85,
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
@@ -7922,6 +7922,28 @@
      "MAGIC",
      "MINA",
      "ZK"
+    ]
+   },
+   {
+    "id": "decentralized-perpetuals",
+    "name": "Decentralized Perpetuals",
+    "chg7d": 2.38,
+    "top": [
+     "HYPE",
+     "ASTER",
+     "JUP",
+     "LIT",
+     "CAKE"
+    ],
+    "tracked": [
+     "HYPE",
+     "LIT",
+     "GRVT",
+     "ASTER",
+     "RAY",
+     "BASED",
+     "DYDX",
+     "AVNT"
     ]
    },
    {
@@ -8123,28 +8145,6 @@
     ]
    },
    {
-    "id": "decentralized-perpetuals",
-    "name": "Decentralized Perpetuals",
-    "chg7d": -2.43,
-    "top": [
-     "HYPE",
-     "ASTER",
-     "JUP",
-     "LIT",
-     "CAKE"
-    ],
-    "tracked": [
-     "HYPE",
-     "LIT",
-     "GRVT",
-     "ASTER",
-     "RAY",
-     "BASED",
-     "DYDX",
-     "AVNT"
-    ]
-   },
-   {
     "id": "privacy-coins",
     "name": "Privacy Coins",
     "chg7d": -5.98,
@@ -8328,8 +8328,8 @@
   ],
   "updated": {
    "unlocks": 1795813235,
-   "onchain": 1795809919,
-   "sectors": 1795812625,
+   "onchain": 1795813519,
+   "sectors": 1795813519,
    "listings": 1795810224,
    "fundamentals": 1795813236
   }
@@ -8368,6 +8368,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "7ab160e7f249c8c2b31fc57a5bb1a0c0c83e69b38114ca0660e7e539d1eacb55",
- "generated": "2026-11-27T21:01:32+00:00"
+ "digest": "23ca49172cd57eae9fb0409a0120fa09d16f413fb956da4f68419e9c56603130",
+ "generated": "2026-11-27T21:06:23+00:00"
 }
