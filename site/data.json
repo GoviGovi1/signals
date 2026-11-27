@@ -36,7 +36,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 1.401,
-   "last_ts": "2026-11-27T19:00:29+00:00",
+   "last_ts": "2026-11-27T19:06:20+00:00",
    "move_pct": 3.85,
    "closed": false,
    "rsi": 67.9,
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.6688,
-   "last_ts": "2026-11-27T19:00:29+00:00",
-   "move_pct": -1.31,
+   "last": 0.6674,
+   "last_ts": "2026-11-27T19:06:20+00:00",
+   "move_pct": -1.52,
    "closed": false,
    "rsi": 61.3,
    "trade_on": "Perps 1x",
@@ -126,9 +126,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.3729,
-   "last_ts": "2026-11-27T19:00:29+00:00",
-   "move_pct": -0.13,
+   "last": 0.3723,
+   "last_ts": "2026-11-27T19:06:20+00:00",
+   "move_pct": 0.03,
    "closed": false,
    "rsi": 38.2,
    "trade_on": "Perps 1x",
@@ -171,9 +171,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.004126,
-   "last_ts": "2026-11-27T19:00:29+00:00",
-   "move_pct": 0.54,
+   "last": 0.004172,
+   "last_ts": "2026-11-27T19:06:20+00:00",
+   "move_pct": 1.66,
    "closed": false,
    "rsi": 63.1,
    "trade_on": "Perps 1x",
@@ -7705,42 +7705,42 @@
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
   "onchain": [
    {
-    "chain": "Base",
-    "symbol": "ELSA",
-    "name": "Elsa",
-    "token": "0x29cc30f9d113b356ce408667aa6433589cecbdca",
-    "price": 0.0915119164080829,
-    "liq": 587584,
-    "vol24h": 5532657,
-    "age_d": 311.4,
-    "chg24h": -5.987,
-    "chg7d": 32.5,
-    "mcap": 28166550.1890262,
+    "chain": "BSC",
+    "symbol": "FXION",
+    "name": "iShares China Large-Cap ETF (Ondo Tokenized)",
+    "token": "0x9b8e987e6fec8cf1380c4dca7071e2c7853aeea1",
+    "price": 32.2191824181434,
+    "liq": 525340,
+    "vol24h": 5260529,
+    "age_d": 80.6,
+    "chg24h": 0.364,
+    "chg7d": 2.2,
+    "mcap": 3180517.16793645,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
-    "trend_up": false,
-    "rsi": 47.2,
-    "url": "https://www.geckoterminal.com/base/pools/0x83f3aca29bc79b048b99c56013475570acc97ccf"
+    "trend_up": true,
+    "rsi": 52.0,
+    "url": "https://www.geckoterminal.com/bsc/pools/0x8768c8969e177575e37435b8295afa2dfb231c86"
    },
    {
-    "chain": "Ethereum",
-    "symbol": "CRVUSD",
-    "name": "Curve.Fi USD Stablecoin",
-    "token": "0xf939e0a03fb07f59a73314e73794be0e57ac1b4e",
-    "price": 0.996141596748838,
-    "liq": 7779028,
-    "vol24h": 3567614,
-    "age_d": 1289.1,
-    "chg24h": 0.014,
-    "chg7d": 0.1,
-    "mcap": 139558072.685045,
+    "chain": "BSC",
+    "symbol": "ARIA",
+    "name": "ARIA.AI",
+    "token": "0x5d3a12c42e5372b2cc3264ab3cdcf660a1555238",
+    "price": 0.335032803496474,
+    "liq": 2220992,
+    "vol24h": 2589991,
+    "age_d": 465.4,
+    "chg24h": -1.836,
+    "chg7d": 50.3,
+    "mcap": 61291147.3026,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
-    "trend_up": false,
-    "rsi": 48.7,
-    "url": "https://www.geckoterminal.com/eth/pools/0x4dece678ceceb27446b35c672dc7d61f30bad69e"
+    "trend_up": true,
+    "rsi": 54.4,
+    "url": "https://www.geckoterminal.com/bsc/pools/0xa5dbeaf16fc031eae92175974f8d0a439be4ad17"
    }
   ],
   "onchain_checked": 84,
@@ -7916,6 +7916,23 @@
     ]
    },
    {
+    "id": "bitcoin-ecosystem",
+    "name": "Bitcoin Ecosystem",
+    "chg7d": 0.09,
+    "top": [
+     "BTC",
+     "DOG",
+     "ORDI",
+     "USTBL",
+     "LOBO"
+    ],
+    "tracked": [
+     "BTC",
+     "ORDI",
+     "SATS"
+    ]
+   },
+   {
     "id": "real-world-assets-rwa",
     "name": "Real World Assets RWA",
     "chg7d": 0.06,
@@ -7973,23 +7990,6 @@
      "LIT",
      "AAVE",
      "SEI"
-    ]
-   },
-   {
-    "id": "bitcoin-ecosystem",
-    "name": "Bitcoin Ecosystem",
-    "chg7d": -0.38,
-    "top": [
-     "BTC",
-     "DOG",
-     "ORDI",
-     "USTBL",
-     "LOBO"
-    ],
-    "tracked": [
-     "BTC",
-     "ORDI",
-     "SATS"
     ]
    },
    {
@@ -8326,8 +8326,8 @@
   ],
   "updated": {
    "unlocks": 1795791631,
-   "onchain": 1795802718,
-   "sectors": 1795805425,
+   "onchain": 1795806318,
+   "sectors": 1795806318,
    "listings": 1795803023,
    "fundamentals": 1795791632
   }
@@ -8366,6 +8366,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "d87e93eab6f4cf2a81187e5c4c42d224af0b0cc3629feb78438af58dacd4c3e6",
- "generated": "2026-11-27T19:00:58+00:00"
+ "digest": "f8ccf851279f91000010f58b73395b00f046ccc7fdd431e34fc9302b7700cf4e",
+ "generated": "2026-11-27T19:06:23+00:00"
 }
