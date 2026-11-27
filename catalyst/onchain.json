@@ -1,5 +1,5 @@
 {
- "checked": 83,
+ "checked": 82,
  "errors": [],
  "rejected": [
   {
@@ -29,16 +29,16 @@
   {
    "chain": "Solana",
    "fails": [
-    "liquidity under $250k"
+    "no DEX candles"
    ],
-   "symbol": "FIONA"
+   "symbol": "MIHAO"
   },
   {
    "chain": "Solana",
    "fails": [
-    "no DEX candles"
+    "liquidity under $250k"
    ],
-   "symbol": "MIHAO"
+   "symbol": "FIONA"
   },
   {
    "chain": "Solana",
@@ -77,7 +77,44 @@
    "fails": [
     "no DEX candles"
    ],
+   "symbol": "ANSEM"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "no DEX candles"
+   ],
    "symbol": "PUMP"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "no DEX candles"
+   ],
+   "symbol": "PIPPIN"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "liquidity under $250k",
+    "pool younger than 7 days"
+   ],
+   "symbol": "SIDOOR"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "liquidity under $250k",
+    "pool younger than 7 days"
+   ],
+   "symbol": "INVESTOR"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "liquidity under $250k"
+   ],
+   "symbol": "HELLO"
   },
   {
    "chain": "Solana",
@@ -92,45 +129,7 @@
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "ANSEM"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "PIPPIN"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "no DEX candles"
-   ],
    "symbol": "CLAUDIA"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "liquidity under $250k",
-    "pool younger than 7 days"
-   ],
-   "symbol": "INVESTOR"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "liquidity under $250k",
-    "pool younger than 7 days",
-    "24h volume under $250k"
-   ],
-   "symbol": "SIDOOR"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "liquidity under $250k"
-   ],
-   "symbol": "HELLO"
   },
   {
    "chain": "Solana",
@@ -143,7 +142,8 @@
    "chain": "Solana",
    "fails": [
     "liquidity under $250k",
-    "pool younger than 7 days"
+    "pool younger than 7 days",
+    "24h volume under $250k"
    ],
    "symbol": "POMPOM"
   },
@@ -221,6 +221,13 @@
   {
    "chain": "Base",
    "fails": [
+    "no DEX candles"
+   ],
+   "symbol": "XDP"
+  },
+  {
+   "chain": "Base",
+   "fails": [
     "24h volume under $250k"
    ],
    "symbol": "AEON"
@@ -242,6 +249,13 @@
   {
    "chain": "Base",
    "fails": [
+    "24h volume under $250k"
+   ],
+   "symbol": "TIBBIR"
+  },
+  {
+   "chain": "Base",
+   "fails": [
     "no DEX candles"
    ],
    "symbol": "AAVE"
@@ -252,13 +266,6 @@
     "24h volume under $250k"
    ],
    "symbol": "SOGNI"
-  },
-  {
-   "chain": "Base",
-   "fails": [
-    "24h volume under $250k"
-   ],
-   "symbol": "TIBBIR"
   },
   {
    "chain": "Base",
@@ -284,79 +291,71 @@
   {
    "chain": "BSC",
    "fails": [
-    "liquidity under $250k",
-    "pool younger than 7 days"
-   ],
-   "symbol": "SPACEXCOIN"
-  },
-  {
-   "chain": "BSC",
-   "fails": [
     "liquidity under $250k"
    ],
    "symbol": "BULLA"
   }
  ],
  "rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
- "updated": 1795759524,
+ "updated": 1795763118,
  "watchlist": [
   {
-   "age_d": 576.8,
-   "atr": 0.006173647275719311,
-   "bar_ts": 1795755600000,
+   "age_d": 457.8,
+   "atr": 0.09187764447442205,
+   "bar_ts": 1795759200000,
    "chain": "BSC",
-   "chg24h": 13.711,
-   "chg7d": 40.1,
-   "close": 0.11203225371270399,
-   "ema20": 0.108702891348644,
-   "ema50": 0.100431770662332,
+   "chg24h": -0.284,
+   "chg7d": -0.7,
+   "close": 6.4139642571602895,
+   "ema20": 6.409285090489514,
+   "ema50": 6.408820695931949,
    "fails": [],
-   "gecko_id": "okzoo",
-   "liq": 3017190,
-   "mcap": 61294056.3120041,
-   "name": "OKZOO",
+   "gecko_id": "ark-3",
+   "liq": 58275101,
+   "mcap": 0.0,
+   "name": "ARK",
    "net": "bsc",
-   "pool": "0xb433ae7e7011a2fb9a4bbb86140e0f653dcfcfba",
-   "price": 0.111680057308672,
-   "rsi": 58.7,
+   "pool": "0xcaaf3c41a40103a23eeaa4bba468af3cf5b0e0d8",
+   "price": 6.40949860756518,
+   "rsi": 50.5,
    "safety": "unknown",
    "safety_notes": [
     "safety not checked"
    ],
-   "symbol": "AIOT",
-   "token": "0x55ad16bd573b3365f43a9daeb0cc66a73821b4a5",
+   "symbol": "ARK",
+   "token": "0xcae117ca6bc8a341d2e7207f30e180f0e5618b9d",
    "trend_up": true,
    "trigger": false,
-   "url": "https://www.geckoterminal.com/bsc/pools/0xb433ae7e7011a2fb9a4bbb86140e0f653dcfcfba",
-   "vol24h": 5319694
+   "url": "https://www.geckoterminal.com/bsc/pools/0xcaaf3c41a40103a23eeaa4bba468af3cf5b0e0d8",
+   "vol24h": 5159931
   },
   {
-   "age_d": 59.7,
-   "atr": 0.00030748815540540883,
-   "bar_ts": 1795755600000,
-   "chain": "Base",
-   "chg24h": -4.034,
-   "chg7d": -16.9,
-   "close": 0.012775040072567398,
-   "ema20": 0.012867193150499182,
-   "ema50": 0.013197260165748263,
+   "age_d": 1351.2,
+   "atr": 0.0013957332828363935,
+   "bar_ts": 1795759200000,
+   "chain": "Arbitrum",
+   "chg24h": 3.138,
+   "chg7d": -1.1,
+   "close": 0.11780357774539499,
+   "ema20": 0.11501989447948985,
+   "ema50": 0.11359658481547731,
    "fails": [],
-   "gecko_id": "doppler-finance",
-   "liq": 672549,
-   "mcap": 12838816.24,
-   "name": "Doppler Finance",
-   "net": "base",
-   "pool": "0x2df380544b88adb3ad0a94100dcc45fd705aae2d",
-   "price": 0.0128215954446272,
-   "rsi": 45.5,
+   "gecko_id": "arbitrum",
+   "liq": 1241680,
+   "mcap": 824646433.087633,
+   "name": "Arbitrum",
+   "net": "arbitrum",
+   "pool": "0xc6f780497a95e246eb9449f5e4770916dcd6396a",
+   "price": 0.11786640264853,
+   "rsi": 67.1,
    "safety": "ok",
    "safety_notes": [],
-   "symbol": "XDP",
-   "token": "0x07b3d902783c3c12b077508c3b5c00113d1291d0",
-   "trend_up": false,
+   "symbol": "ARB",
+   "token": "0x912ce59144191c1204e64559fe8253a0e49e6548",
+   "trend_up": true,
    "trigger": false,
-   "url": "https://www.geckoterminal.com/base/pools/0x2df380544b88adb3ad0a94100dcc45fd705aae2d",
-   "vol24h": 3376750
+   "url": "https://www.geckoterminal.com/arbitrum/pools/0xc6f780497a95e246eb9449f5e4770916dcd6396a",
+   "vol24h": 2229268
   }
  ]
 }
