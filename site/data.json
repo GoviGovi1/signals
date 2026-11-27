@@ -35,15 +35,55 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.06114,
-   "last_ts": "2026-11-26T23:55:24+00:00",
-   "move_pct": -0.94,
+   "last": 0.0611,
+   "last_ts": "2026-11-27T00:00:32+00:00",
+   "move_pct": -0.88,
    "closed": false,
    "rsi": 26.1,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": "charts/BEAT-PERP-1795712400.png",
    "setup": "BREAKOUT20"
+  },
+  {
+   "id": "INIT-PERP-HOT-20784",
+   "kind": "HOT",
+   "score": 3177.76,
+   "reasons": [
+    "24h hot mover +66% with volume spike (15.0x the prior 3 days)",
+    "24h volume $106.7M on the OKX perp book, listed 582 days",
+    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
+    "Stop 0.12412 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
+   ],
+   "coin": "INIT",
+   "market": "PERP",
+   "side": "LONG",
+   "entry": 0.13983,
+   "sl0": 0.1241163484027899,
+   "sl": 0.1241163484027899,
+   "tps": [
+    0.15554365159721012,
+    0.17125730319442023,
+    0.18697095479163034
+   ],
+   "lev": 1,
+   "funding_pct": 0.005,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-11-27T00:00:32+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.13986,
+   "last_ts": "2026-11-27T00:00:32+00:00",
+   "move_pct": 0.02,
+   "closed": false,
+   "rsi": null,
+   "trade_on": "Perps 1x",
+   "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
+   "chart": "charts/INIT-PERP-HOT-20784.png",
+   "setup": "HOT24"
   }
  ],
  "closed": [
@@ -4267,7 +4307,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 1
+  "open": 2
  },
  "backtest": {
   "from": "2026-07-24",
@@ -6889,35 +6929,6 @@
   "unlocks": [
    {
     "big": false,
-    "coin": "W",
-    "insider_pct": 100,
-    "pct": 0.74,
-    "tokens": 50411392,
-    "tracked": true,
-    "ts": 1795737600,
-    "usd": 443508,
-    "who": [
-     "Ecosystem & Incubation",
-     "Strategic Network Participants",
-     "Core Contributors"
-    ]
-   },
-   {
-    "big": false,
-    "coin": "RESOLV",
-    "insider_pct": 0,
-    "pct": 0.36,
-    "tokens": 1941766,
-    "tracked": true,
-    "ts": 1795737600,
-    "usd": 27034,
-    "who": [
-     "Ecosystem & Community",
-     "Treasury"
-    ]
-   },
-   {
-    "big": false,
     "coin": "GRASS",
     "insider_pct": 48,
     "pct": 1.4,
@@ -7927,7 +7938,7 @@
    {
     "id": "artificial-intelligence",
     "name": "Artificial Intelligence",
-    "chg7d": -5.05,
+    "chg7d": -4.93,
     "top": [
      "NEAR",
      "TAO",
@@ -7939,11 +7950,11 @@
      "PIEVERSE",
      "NEAR",
      "VVV",
-     "AKE",
      "TAO",
      "ICP",
      "OPG",
-     "GRASS"
+     "GRASS",
+     "FET"
     ]
    },
    {
@@ -8173,7 +8184,7 @@
   "updated": {
    "unlocks": 1795726526,
    "onchain": 1795734319,
-   "sectors": 1795736721,
+   "sectors": 1795737632,
    "listings": 1795735224,
    "fundamentals": 1795726528
   }
@@ -8212,6 +8223,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "9256d057bf5a74584fa0fec8928a4c919dca03fe364251f71f7b91aa8fb5bb3e",
- "generated": "2026-11-26T23:55:26+00:00"
+ "digest": "a2af2fb55e991a63d8cd6fbddb8a98f9d11e5e8fe95add8c83fe710a65f0b873",
+ "generated": "2026-11-27T00:01:02+00:00"
 }
