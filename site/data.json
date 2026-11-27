@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.395,
-   "last_ts": "2026-11-27T20:00:27+00:00",
-   "move_pct": 3.41,
+   "last": 1.399,
+   "last_ts": "2026-11-27T20:06:22+00:00",
+   "move_pct": 3.71,
    "closed": false,
    "rsi": 67.9,
    "trade_on": "Spot",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.6695,
-   "last_ts": "2026-11-27T20:00:27+00:00",
-   "move_pct": -1.21,
+   "last": 0.6679,
+   "last_ts": "2026-11-27T20:06:22+00:00",
+   "move_pct": -1.45,
    "closed": false,
    "rsi": 61.3,
    "trade_on": "Perps 1x",
@@ -126,9 +126,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.372,
-   "last_ts": "2026-11-27T20:00:27+00:00",
-   "move_pct": 0.11,
+   "last": 0.3713,
+   "last_ts": "2026-11-27T20:06:22+00:00",
+   "move_pct": 0.3,
    "closed": false,
    "rsi": 38.2,
    "trade_on": "Perps 1x",
@@ -163,7 +163,7 @@
     0.00455391674237385
    ],
    "lev": 1,
-   "funding_pct": 0.0061,
+   "funding_pct": 0.0087,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-27T17:00:00+00:00",
@@ -171,9 +171,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.004176,
-   "last_ts": "2026-11-27T20:00:27+00:00",
-   "move_pct": 1.75,
+   "last": 0.004193,
+   "last_ts": "2026-11-27T20:06:22+00:00",
+   "move_pct": 2.17,
    "closed": false,
    "rsi": 63.1,
    "trade_on": "Perps 1x",
@@ -7706,41 +7706,43 @@
   "onchain": [
    {
     "chain": "BSC",
-    "symbol": "FXION",
-    "name": "iShares China Large-Cap ETF (Ondo Tokenized)",
-    "token": "0x9b8e987e6fec8cf1380c4dca7071e2c7853aeea1",
-    "price": 32.2191824181434,
-    "liq": 525340,
-    "vol24h": 5260529,
-    "age_d": 80.6,
-    "chg24h": 0.364,
-    "chg7d": 2.2,
-    "mcap": 3180517.16793645,
-    "safety": "ok",
-    "safety_notes": [],
-    "trigger": false,
-    "trend_up": true,
-    "rsi": 52.0,
-    "url": "https://www.geckoterminal.com/bsc/pools/0x8768c8969e177575e37435b8295afa2dfb231c86"
-   },
-   {
-    "chain": "BSC",
-    "symbol": "ARIA",
-    "name": "ARIA.AI",
-    "token": "0x5d3a12c42e5372b2cc3264ab3cdcf660a1555238",
-    "price": 0.335032803496474,
-    "liq": 2220992,
-    "vol24h": 2589991,
-    "age_d": 465.4,
-    "chg24h": -1.836,
-    "chg7d": 50.3,
-    "mcap": 61291147.3026,
+    "symbol": "SPCXB",
+    "name": "SpaceX",
+    "token": "0xbe9d156892e55e7154bcd3cb0fea677f9d3103e1",
+    "price": 132.153336659445,
+    "liq": 728151,
+    "vol24h": 3184624,
+    "age_d": 164.2,
+    "chg24h": 2.121,
+    "chg7d": 2.4,
+    "mcap": 115408813.862525,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": true,
     "rsi": 54.4,
-    "url": "https://www.geckoterminal.com/bsc/pools/0xa5dbeaf16fc031eae92175974f8d0a439be4ad17"
+    "url": "https://www.geckoterminal.com/bsc/pools/0x51a45a72cc96ca3ba615e25e80a6af2740ae2e2d"
+   },
+   {
+    "chain": "Base",
+    "symbol": "ELSA",
+    "name": "Elsa",
+    "token": "0x29cc30f9d113b356ce408667aa6433589cecbdca",
+    "price": 0.0915340141142192,
+    "liq": 583954,
+    "vol24h": 5564968,
+    "age_d": 311.5,
+    "chg24h": -6.783,
+    "chg7d": 25.2,
+    "mcap": 28023823.9590876,
+    "safety": "unknown",
+    "safety_notes": [
+     "safety not checked"
+    ],
+    "trigger": false,
+    "trend_up": false,
+    "rsi": 47.9,
+    "url": "https://www.geckoterminal.com/base/pools/0x83f3aca29bc79b048b99c56013475570acc97ccf"
    }
   ],
   "onchain_checked": 84,
@@ -7832,6 +7834,28 @@
      "POL",
      "SOON",
      "MAGIC"
+    ]
+   },
+   {
+    "id": "artificial-intelligence",
+    "name": "Artificial Intelligence",
+    "chg7d": 3.34,
+    "top": [
+     "NEAR",
+     "TAO",
+     "VVV",
+     "SN0",
+     "PIEVERSE"
+    ],
+    "tracked": [
+     "PIEVERSE",
+     "NEAR",
+     "VVV",
+     "TAO",
+     "ICP",
+     "FET",
+     "OPG",
+     "VIRTUAL"
     ]
    },
    {
@@ -8055,28 +8079,6 @@
      "MORPHO",
      "COMP",
      "KMNO"
-    ]
-   },
-   {
-    "id": "artificial-intelligence",
-    "name": "Artificial Intelligence",
-    "chg7d": -1.23,
-    "top": [
-     "NEAR",
-     "TAO",
-     "VVV",
-     "SN0",
-     "ICP"
-    ],
-    "tracked": [
-     "PIEVERSE",
-     "NEAR",
-     "VVV",
-     "TAO",
-     "ICP",
-     "FET",
-     "OPG",
-     "VIRTUAL"
     ]
    },
    {
@@ -8326,8 +8328,8 @@
   ],
   "updated": {
    "unlocks": 1795791631,
-   "onchain": 1795806318,
-   "sectors": 1795809024,
+   "onchain": 1795809919,
+   "sectors": 1795809919,
    "listings": 1795806623,
    "fundamentals": 1795791632
   }
@@ -8366,6 +8368,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "c2a223862f8f3437d7c8a6ad75a47bf73b5113ab3b96ea9a487e3787eb2d2b8e",
- "generated": "2026-11-27T20:00:56+00:00"
+ "digest": "47e14b15dc5fe7e1a8959e5bd66ac9e29350450e54734071da21a357e6c24504",
+ "generated": "2026-11-27T20:06:24+00:00"
 }
