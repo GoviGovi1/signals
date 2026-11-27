@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.4,
-   "last_ts": "2026-11-27T19:45:21+00:00",
-   "move_pct": 3.78,
+   "last": 1.396,
+   "last_ts": "2026-11-27T19:50:24+00:00",
+   "move_pct": 3.48,
    "closed": false,
    "rsi": 67.9,
    "trade_on": "Spot",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.669,
-   "last_ts": "2026-11-27T19:45:21+00:00",
-   "move_pct": -1.28,
+   "last": 0.6685,
+   "last_ts": "2026-11-27T19:50:24+00:00",
+   "move_pct": -1.36,
    "closed": false,
    "rsi": 61.3,
    "trade_on": "Perps 1x",
@@ -126,9 +126,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.3724,
-   "last_ts": "2026-11-27T19:45:21+00:00",
-   "move_pct": -0.0,
+   "last": 0.3721,
+   "last_ts": "2026-11-27T19:50:24+00:00",
+   "move_pct": 0.08,
    "closed": false,
    "rsi": 38.2,
    "trade_on": "Perps 1x",
@@ -171,9 +171,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.004143,
-   "last_ts": "2026-11-27T19:45:21+00:00",
-   "move_pct": 0.95,
+   "last": 0.004144,
+   "last_ts": "2026-11-27T19:50:24+00:00",
+   "move_pct": 0.97,
    "closed": false,
    "rsi": 63.1,
    "trade_on": "Perps 1x",
@@ -7747,6 +7747,28 @@
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
+    "id": "meme-token",
+    "name": "Meme Token",
+    "chg7d": 4.91,
+    "top": [
+     "DOGE",
+     "SHIB",
+     "M",
+     "PEPE",
+     "\u5e01\u5b89\u4eba\u751f"
+    ],
+    "tracked": [
+     "DOGE",
+     "PEPE",
+     "TRUMP",
+     "WIF",
+     "CASHCAT",
+     "SHIB",
+     "PENGU",
+     "USELESS"
+    ]
+   },
+   {
     "id": "solana-meme-coins",
     "name": "Solana Meme Coins",
     "chg7d": 4.03,
@@ -7832,28 +7854,6 @@
      "AR",
      "ATH",
      "LPT"
-    ]
-   },
-   {
-    "id": "meme-token",
-    "name": "Meme Token",
-    "chg7d": 2.69,
-    "top": [
-     "DOGE",
-     "SHIB",
-     "M",
-     "PEPE",
-     "\u5e01\u5b89\u4eba\u751f"
-    ],
-    "tracked": [
-     "DOGE",
-     "PEPE",
-     "TRUMP",
-     "WIF",
-     "CASHCAT",
-     "SHIB",
-     "PENGU",
-     "USELESS"
     ]
    },
    {
@@ -8327,7 +8327,7 @@
   "updated": {
    "unlocks": 1795791631,
    "onchain": 1795806318,
-   "sectors": 1795808122,
+   "sectors": 1795809024,
    "listings": 1795806623,
    "fundamentals": 1795791632
   }
@@ -8366,6 +8366,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "1bc88076af111398853235d5110c64dc24ac3316fae99aa1489cdcaa9e4762ce",
- "generated": "2026-11-27T19:45:24+00:00"
+ "digest": "b7bdbc3390bb3fc258f578cd6d7904739960c4a218b28372531f152e768c1cca",
+ "generated": "2026-11-27T19:50:28+00:00"
 }
