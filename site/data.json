@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.364,
-   "last_ts": "2026-11-27T14:25:27+00:00",
-   "move_pct": 1.11,
+   "last": 1.361,
+   "last_ts": "2026-11-27T14:30:28+00:00",
+   "move_pct": 0.89,
    "closed": false,
    "rsi": 67.9,
    "trade_on": "Spot",
@@ -79,9 +79,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 131.583767297983,
-   "last_ts": "2026-11-27T14:25:27+00:00",
-   "move_pct": -0.64,
+   "last": 131.21383197473298,
+   "last_ts": "2026-11-27T14:30:28+00:00",
+   "move_pct": -0.91,
    "closed": false,
    "rsi": 72.5,
    "trade_on": "On-chain spot (BSC DEX)",
@@ -125,9 +125,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.005271,
-   "last_ts": "2026-11-27T14:25:27+00:00",
-   "move_pct": -0.04,
+   "last": 0.005269,
+   "last_ts": "2026-11-27T14:30:28+00:00",
+   "move_pct": -0.08,
    "closed": false,
    "rsi": 69.5,
    "trade_on": "Spot",
@@ -170,9 +170,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.3843,
-   "last_ts": "2026-11-27T14:25:27+00:00",
-   "move_pct": 0.1,
+   "last": 0.3816,
+   "last_ts": "2026-11-27T14:30:28+00:00",
+   "move_pct": -0.6,
    "closed": false,
    "rsi": 75.5,
    "trade_on": "Spot",
@@ -215,9 +215,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.6784,
-   "last_ts": "2026-11-27T14:25:27+00:00",
-   "move_pct": 0.1,
+   "last": 0.6781,
+   "last_ts": "2026-11-27T14:30:28+00:00",
+   "move_pct": 0.06,
    "closed": false,
    "rsi": 61.3,
    "trade_on": "Perps 1x",
@@ -7800,6 +7800,28 @@
     ]
    },
    {
+    "id": "layer-2",
+    "name": "Layer 2",
+    "chg7d": 0.75,
+    "top": [
+     "OKB",
+     "MNT",
+     "POL",
+     "ARB",
+     "STX"
+    ],
+    "tracked": [
+     "OKB",
+     "ARB",
+     "STRK",
+     "OP",
+     "STX",
+     "POL",
+     "SOON",
+     "MAGIC"
+    ]
+   },
+   {
     "id": "meme-token",
     "name": "Meme Token",
     "chg7d": 0.75,
@@ -8033,28 +8055,6 @@
      "MAGIC",
      "MINA",
      "ZK"
-    ]
-   },
-   {
-    "id": "layer-2",
-    "name": "Layer 2",
-    "chg7d": -1.05,
-    "top": [
-     "OKB",
-     "MNT",
-     "POL",
-     "ARB",
-     "STX"
-    ],
-    "tracked": [
-     "OKB",
-     "ARB",
-     "STRK",
-     "OP",
-     "STX",
-     "POL",
-     "SOON",
-     "MAGIC"
     ]
    },
    {
@@ -8336,7 +8336,7 @@
   "updated": {
    "unlocks": 1795770031,
    "onchain": 1795788322,
-   "sectors": 1795788923,
+   "sectors": 1795789828,
    "listings": 1795788033,
    "fundamentals": 1795770032
   }
@@ -8375,6 +8375,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "d0d528636b88ab02d53a3313045bfbf8e8aad0650c11a2d0657028b2f37d130d",
- "generated": "2026-11-27T14:25:33+00:00"
+ "digest": "93262b90351011c4c7026889baa1e14a93dfb605a16e0a17670a5c23c3114b6f",
+ "generated": "2026-11-27T14:30:34+00:00"
 }
