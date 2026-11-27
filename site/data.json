@@ -22,7 +22,7 @@
     0.18697095479163034
    ],
    "lev": 1,
-   "funding_pct": -0.0535,
+   "funding_pct": -0.054,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-27T00:00:32+00:00",
@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.12783,
-   "last_ts": "2026-11-27T05:40:26+00:00",
-   "move_pct": -8.58,
+   "last": 0.12835,
+   "last_ts": "2026-11-27T05:45:24+00:00",
+   "move_pct": -8.21,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -62,7 +62,7 @@
     0.360278907702873
    ],
    "lev": 1,
-   "funding_pct": -0.022,
+   "funding_pct": -0.021,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-27T01:55:22+00:00",
@@ -70,9 +70,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.263,
-   "last_ts": "2026-11-27T05:40:26+00:00",
-   "move_pct": -2.08,
+   "last": 0.264,
+   "last_ts": "2026-11-27T05:45:24+00:00",
+   "move_pct": -1.71,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -110,9 +110,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 2.703,
-   "last_ts": "2026-11-27T05:40:26+00:00",
-   "move_pct": -3.84,
+   "last": 2.717,
+   "last_ts": "2026-11-27T05:45:24+00:00",
+   "move_pct": -3.34,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -155,9 +155,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.662,
-   "last_ts": "2026-11-27T05:40:26+00:00",
-   "move_pct": -1.37,
+   "last": 0.6618,
+   "last_ts": "2026-11-27T05:45:24+00:00",
+   "move_pct": -1.4,
    "closed": false,
    "rsi": 61.3,
    "trade_on": "Perps 1x",
@@ -201,7 +201,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 1.359,
-   "last_ts": "2026-11-27T05:40:26+00:00",
+   "last_ts": "2026-11-27T05:45:24+00:00",
    "move_pct": 0.74,
    "closed": false,
    "rsi": 67.9,
@@ -244,9 +244,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 133.29021013982498,
-   "last_ts": "2026-11-27T05:40:26+00:00",
-   "move_pct": 0.65,
+   "last": 133.99012780137699,
+   "last_ts": "2026-11-27T05:45:24+00:00",
+   "move_pct": 1.18,
    "closed": false,
    "rsi": 72.5,
    "trade_on": "On-chain spot (BSC DEX)",
@@ -291,7 +291,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.005274,
-   "last_ts": "2026-11-27T05:40:26+00:00",
+   "last_ts": "2026-11-27T05:45:24+00:00",
    "move_pct": 0.02,
    "closed": false,
    "rsi": 69.5,
@@ -7926,6 +7926,28 @@
     ]
    },
    {
+    "id": "decentralized-exchange",
+    "name": "Decentralized Exchange",
+    "chg7d": -0.14,
+    "top": [
+     "HYPE",
+     "UNI",
+     "ASTER",
+     "PUMP",
+     "JUP"
+    ],
+    "tracked": [
+     "HYPE",
+     "MMT",
+     "UNI",
+     "PUMP",
+     "LIT",
+     "CRV",
+     "ASTER",
+     "RAY"
+    ]
+   },
+   {
     "id": "layer-1",
     "name": "Layer 1",
     "chg7d": -0.2,
@@ -8116,28 +8138,6 @@
      "POL",
      "MAGIC",
      "H"
-    ]
-   },
-   {
-    "id": "decentralized-exchange",
-    "name": "Decentralized Exchange",
-    "chg7d": -3.0,
-    "top": [
-     "HYPE",
-     "UNI",
-     "ASTER",
-     "PUMP",
-     "JUP"
-    ],
-    "tracked": [
-     "HYPE",
-     "MMT",
-     "UNI",
-     "PUMP",
-     "LIT",
-     "CRV",
-     "ASTER",
-     "RAY"
     ]
    },
    {
@@ -8420,7 +8420,7 @@
   "updated": {
    "unlocks": 1795748429,
    "onchain": 1795755919,
-   "sectors": 1795757427,
+   "sectors": 1795758324,
    "listings": 1795757725,
    "fundamentals": 1795748429
   }
@@ -8459,6 +8459,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "869f0b16a8856e13aa191187c15136284779348bcbceff7b309cb87bb78313bf",
- "generated": "2026-11-27T05:40:30+00:00"
+ "digest": "985625c2bb3869a4792193b875a22545db5f0f40ca2ac63a6c9914f851c6ac61",
+ "generated": "2026-11-27T05:45:29+00:00"
 }
