@@ -22,7 +22,7 @@
     0.18697095479163034
    ],
    "lev": 1,
-   "funding_pct": -0.0465,
+   "funding_pct": -0.0423,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-27T00:00:32+00:00",
@@ -30,9 +30,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.13076,
-   "last_ts": "2026-11-27T05:55:18+00:00",
-   "move_pct": -6.49,
+   "last": 0.12884,
+   "last_ts": "2026-11-27T06:00:29+00:00",
+   "move_pct": -7.86,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -62,7 +62,7 @@
     0.360278907702873
    ],
    "lev": 1,
-   "funding_pct": -0.0182,
+   "funding_pct": -0.0162,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-27T01:55:22+00:00",
@@ -70,9 +70,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.2638,
-   "last_ts": "2026-11-27T05:55:18+00:00",
-   "move_pct": -1.79,
+   "last": 0.2637,
+   "last_ts": "2026-11-27T06:00:29+00:00",
+   "move_pct": -1.82,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -110,9 +110,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 2.681,
-   "last_ts": "2026-11-27T05:55:18+00:00",
-   "move_pct": -4.62,
+   "last": 2.666,
+   "last_ts": "2026-11-27T06:00:29+00:00",
+   "move_pct": -5.16,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -155,9 +155,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.6615,
-   "last_ts": "2026-11-27T05:55:18+00:00",
-   "move_pct": -1.45,
+   "last": 0.6629,
+   "last_ts": "2026-11-27T06:00:29+00:00",
+   "move_pct": -1.24,
    "closed": false,
    "rsi": 61.3,
    "trade_on": "Perps 1x",
@@ -201,7 +201,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 1.359,
-   "last_ts": "2026-11-27T05:55:18+00:00",
+   "last_ts": "2026-11-27T06:00:29+00:00",
    "move_pct": 0.74,
    "closed": false,
    "rsi": 67.9,
@@ -244,9 +244,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 134.18488265756,
-   "last_ts": "2026-11-27T05:55:18+00:00",
-   "move_pct": 1.33,
+   "last": 133.53706241367698,
+   "last_ts": "2026-11-27T06:00:29+00:00",
+   "move_pct": 0.84,
    "closed": false,
    "rsi": 72.5,
    "trade_on": "On-chain spot (BSC DEX)",
@@ -290,9 +290,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.005278,
-   "last_ts": "2026-11-27T05:55:18+00:00",
-   "move_pct": 0.09,
+   "last": 0.005277,
+   "last_ts": "2026-11-27T06:00:29+00:00",
+   "move_pct": 0.08,
    "closed": false,
    "rsi": 69.5,
    "trade_on": "Spot",
@@ -8141,6 +8141,28 @@
     ]
    },
    {
+    "id": "decentralized-perpetuals",
+    "name": "Decentralized Perpetuals",
+    "chg7d": -2.71,
+    "top": [
+     "HYPE",
+     "ASTER",
+     "JUP",
+     "LIT",
+     "CAKE"
+    ],
+    "tracked": [
+     "HYPE",
+     "LIT",
+     "ASTER",
+     "RAY",
+     "GRVT",
+     "BASED",
+     "DYDX",
+     "AVNT"
+    ]
+   },
+   {
     "id": "lending-borrowing",
     "name": "Lending Borrowing",
     "chg7d": -3.27,
@@ -8206,28 +8228,6 @@
     ],
     "tracked": [
      "ZEC"
-    ]
-   },
-   {
-    "id": "decentralized-perpetuals",
-    "name": "Decentralized Perpetuals",
-    "chg7d": -5.55,
-    "top": [
-     "HYPE",
-     "ASTER",
-     "JUP",
-     "LIT",
-     "CAKE"
-    ],
-    "tracked": [
-     "HYPE",
-     "LIT",
-     "ASTER",
-     "RAY",
-     "GRVT",
-     "BASED",
-     "DYDX",
-     "AVNT"
     ]
    },
    {
@@ -8420,7 +8420,7 @@
   "updated": {
    "unlocks": 1795748429,
    "onchain": 1795755919,
-   "sectors": 1795758324,
+   "sectors": 1795759229,
    "listings": 1795757725,
    "fundamentals": 1795748429
   }
@@ -8459,6 +8459,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "c7a8e7b861dfcf175cb61249491f81cab59af93537ffa3219fc9d3f3a1e77be6",
- "generated": "2026-11-27T05:55:23+00:00"
+ "digest": "bf80c805ff86c58d7a89b46c775a2ca2a7f55be953a3b92e85d212058b3df39b",
+ "generated": "2026-11-27T06:01:01+00:00"
 }
