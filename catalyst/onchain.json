@@ -1,5 +1,5 @@
 {
- "checked": 87,
+ "checked": 88,
  "errors": [],
  "rejected": [
   {
@@ -16,7 +16,7 @@
     "liquidity under $250k",
     "pool younger than 7 days"
    ],
-   "symbol": "JIMMY"
+   "symbol": "WINSTON"
   },
   {
    "chain": "Solana",
@@ -24,7 +24,7 @@
     "liquidity under $250k",
     "pool younger than 7 days"
    ],
-   "symbol": "WINSTON"
+   "symbol": "JIMMY"
   },
   {
    "chain": "Solana",
@@ -51,6 +51,14 @@
   {
    "chain": "Solana",
    "fails": [
+    "liquidity under $250k",
+    "pool younger than 7 days"
+   ],
+   "symbol": "SPLIT"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
     "liquidity under $250k"
    ],
    "symbol": "FIONA"
@@ -69,7 +77,7 @@
     "liquidity under $250k",
     "pool younger than 7 days"
    ],
-   "symbol": "SPLIT"
+   "symbol": "KIBO"
   },
   {
    "chain": "Solana",
@@ -77,7 +85,7 @@
     "liquidity under $250k",
     "pool younger than 7 days"
    ],
-   "symbol": "KIBO"
+   "symbol": "MOONBOY"
   },
   {
    "chain": "Solana",
@@ -106,18 +114,18 @@
    "chain": "Solana",
    "fails": [
     "liquidity under $250k",
+    "pool younger than 7 days",
     "24h volume under $250k"
    ],
-   "symbol": "67"
+   "symbol": "DUK"
   },
   {
    "chain": "Solana",
    "fails": [
     "liquidity under $250k",
-    "pool younger than 7 days",
     "24h volume under $250k"
    ],
-   "symbol": "DUK"
+   "symbol": "67"
   },
   {
    "chain": "Solana",
@@ -129,11 +137,9 @@
   {
    "chain": "Solana",
    "fails": [
-    "liquidity under $250k",
-    "pool younger than 7 days",
-    "24h volume under $250k"
+    "no DEX candles"
    ],
-   "symbol": "INVESTOR"
+   "symbol": "CLAUDIA"
   },
   {
    "chain": "Solana",
@@ -147,24 +153,17 @@
   {
    "chain": "Solana",
    "fails": [
-    "no DEX candles"
-   ],
-   "symbol": "CLAUDIA"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
     "liquidity under $250k",
-    "pool younger than 7 days"
+    "24h volume under $250k"
    ],
-   "symbol": "MOONBOY"
+   "symbol": "SINGULARITY"
   },
   {
    "chain": "Base",
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "NVDAC"
+   "symbol": "ELSA"
   },
   {
    "chain": "Base",
@@ -183,16 +182,16 @@
   {
    "chain": "Base",
    "fails": [
-    "24h volume under $250k"
+    "liquidity under $250k"
    ],
-   "symbol": "DRB"
+   "symbol": "PORTAL"
   },
   {
    "chain": "Base",
    "fails": [
-    "liquidity under $250k"
+    "no DEX candles"
    ],
-   "symbol": "PORTAL"
+   "symbol": "NVDAC"
   },
   {
    "chain": "Base",
@@ -213,14 +212,14 @@
    "fails": [
     "24h volume under $250k"
    ],
-   "symbol": "REI"
+   "symbol": "SOGNI"
   },
   {
    "chain": "Base",
    "fails": [
     "24h volume under $250k"
    ],
-   "symbol": "SOGNI"
+   "symbol": "REI"
   },
   {
    "chain": "Base",
@@ -246,6 +245,13 @@
   {
    "chain": "Base",
    "fails": [
+    "24h volume under $250k"
+   ],
+   "symbol": "DRB"
+  },
+  {
+   "chain": "Base",
+   "fails": [
     "no DEX candles"
    ],
    "symbol": "SNDKC"
@@ -267,10 +273,9 @@
   {
    "chain": "Base",
    "fails": [
-    "liquidity under $250k",
-    "24h volume under $250k"
+    "no DEX candles"
    ],
-   "symbol": "FLOWER"
+   "symbol": "MSTRC"
   },
   {
    "chain": "BSC",
@@ -289,69 +294,61 @@
   {
    "chain": "BSC",
    "fails": [
-    "liquidity under $250k",
-    "pool younger than 7 days"
-   ],
-   "symbol": "SPACEXCOIN"
-  },
-  {
-   "chain": "BSC",
-   "fails": [
     "hidden owner"
    ],
    "symbol": "PIEVERSE"
   }
  ],
  "rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
- "updated": 1795827922,
+ "updated": 1795831522,
  "watchlist": [
   {
-   "age_d": 311.7,
-   "atr": 0.003666017877716451,
-   "bar_ts": 1795824000000,
-   "chain": "Base",
-   "chg24h": -6.937,
-   "chg7d": 39.9,
-   "close": 0.09290803935380519,
-   "ema20": 0.09160715915903236,
-   "ema50": 0.091789316911549,
+   "age_d": 80.9,
+   "atr": 0.44742324648995563,
+   "bar_ts": 1795827600000,
+   "chain": "BSC",
+   "chg24h": 3.53,
+   "chg7d": 3.2,
+   "close": 32.211346412880296,
+   "ema20": 32.101215306456275,
+   "ema50": 31.92808785734896,
    "fails": [],
-   "gecko_id": "elsa",
-   "liq": 598394,
-   "mcap": 29174224.262889,
-   "name": "Elsa",
-   "net": "base",
-   "pool": "0x83f3aca29bc79b048b99c56013475570acc97ccf",
-   "price": 0.0947315422461727,
-   "rsi": 51.8,
+   "gecko_id": "ishares-china-large-cap-etf-ondo-tokenized",
+   "liq": 754182,
+   "mcap": 3325832.90570989,
+   "name": "iShares China Large-Cap ETF (Ondo Tokenized)",
+   "net": "bsc",
+   "pool": "0x8768c8969e177575e37435b8295afa2dfb231c86",
+   "price": 32.3731911178438,
+   "rsi": 54.7,
    "safety": "ok",
    "safety_notes": [],
-   "symbol": "ELSA",
-   "token": "0x29cc30f9d113b356ce408667aa6433589cecbdca",
-   "trend_up": false,
+   "symbol": "FXION",
+   "token": "0x9b8e987e6fec8cf1380c4dca7071e2c7853aeea1",
+   "trend_up": true,
    "trigger": false,
-   "url": "https://www.geckoterminal.com/base/pools/0x83f3aca29bc79b048b99c56013475570acc97ccf",
-   "vol24h": 5496354
+   "url": "https://www.geckoterminal.com/bsc/pools/0x8768c8969e177575e37435b8295afa2dfb231c86",
+   "vol24h": 5180979
   },
   {
-   "age_d": 60.5,
-   "atr": 0.00029563785821161415,
-   "bar_ts": 1795824000000,
+   "age_d": 60.6,
+   "atr": 0.00029002579924498597,
+   "bar_ts": 1795827600000,
    "chain": "Base",
-   "chg24h": 1.82,
-   "chg7d": -6.9,
-   "close": 0.0130681766088974,
-   "ema20": 0.013019289554439211,
-   "ema50": 0.013103279194804014,
+   "chg24h": 2.932,
+   "chg7d": -7.2,
+   "close": 0.013040320264984,
+   "ema20": 0.01302129247921127,
+   "ema50": 0.01310080359773594,
    "fails": [],
    "gecko_id": "doppler-finance",
-   "liq": 681484,
-   "mcap": 13114232.55,
+   "liq": 681632,
+   "mcap": 13111146.27,
    "name": "Doppler Finance",
    "net": "base",
    "pool": "0x2df380544b88adb3ad0a94100dcc45fd705aae2d",
-   "price": 0.0131142325489272,
-   "rsi": 51.8,
+   "price": 0.0131111462746433,
+   "rsi": 50.9,
    "safety": "ok",
    "safety_notes": [],
    "symbol": "XDP",
@@ -359,7 +356,7 @@
    "trend_up": false,
    "trigger": false,
    "url": "https://www.geckoterminal.com/base/pools/0x2df380544b88adb3ad0a94100dcc45fd705aae2d",
-   "vol24h": 3447833
+   "vol24h": 3431777
   }
  ]
 }
