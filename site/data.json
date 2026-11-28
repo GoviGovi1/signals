@@ -36,9 +36,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.3514,
-   "last_ts": "2026-11-28T17:00:30+00:00",
-   "move_pct": 5.64,
+   "last": 0.3527,
+   "last_ts": "2026-11-28T17:06:18+00:00",
+   "move_pct": 5.29,
    "closed": false,
    "rsi": 38.2,
    "trade_on": "Perps 1x",
@@ -73,7 +73,7 @@
     0.06414423883869416
    ],
    "lev": 1,
-   "funding_pct": -0.0081,
+   "funding_pct": -0.0064,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-28T03:00:00+00:00",
@@ -81,9 +81,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.06773,
-   "last_ts": "2026-11-28T17:00:30+00:00",
-   "move_pct": 4.58,
+   "last": 0.06795,
+   "last_ts": "2026-11-28T17:06:18+00:00",
+   "move_pct": 4.27,
    "closed": false,
    "rsi": 40.8,
    "trade_on": "Perps 1x",
@@ -125,9 +125,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.03989,
-   "last_ts": "2026-11-28T17:00:30+00:00",
-   "move_pct": -0.83,
+   "last": 0.03984,
+   "last_ts": "2026-11-28T17:06:18+00:00",
+   "move_pct": -0.71,
    "closed": false,
    "rsi": 35.0,
    "trade_on": "Perps 1x",
@@ -162,7 +162,7 @@
     0.04908381378895341
    ],
    "lev": 1,
-   "funding_pct": -0.0179,
+   "funding_pct": -0.0165,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-28T10:00:00+00:00",
@@ -170,9 +170,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.05522,
-   "last_ts": "2026-11-28T17:00:30+00:00",
-   "move_pct": -0.02,
+   "last": 0.05514,
+   "last_ts": "2026-11-28T17:06:18+00:00",
+   "move_pct": 0.13,
    "closed": false,
    "rsi": 30.3,
    "trade_on": "Perps 1x",
@@ -215,9 +215,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.1,
-   "last_ts": "2026-11-28T17:00:30+00:00",
-   "move_pct": -0.0,
+   "last": 0.1004,
+   "last_ts": "2026-11-28T17:06:18+00:00",
+   "move_pct": -0.4,
    "closed": false,
    "rsi": 32.3,
    "trade_on": "Perps 1x",
@@ -7759,42 +7759,44 @@
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
   "onchain": [
    {
-    "chain": "Base",
-    "symbol": "AERO",
-    "name": "Aero",
-    "token": "0x3f5bf3edac59d650d8fdf9657a71f2f904a3a4ee",
-    "price": 0.380615881634114,
-    "liq": 741580,
-    "vol24h": 3517847,
-    "age_d": 37.5,
-    "chg24h": -2.519,
-    "chg7d": -2.9,
-    "mcap": 296571392.166059,
-    "safety": "ok",
-    "safety_notes": [],
+    "chain": "Ethereum",
+    "symbol": "WLFI",
+    "name": "World Liberty Financial",
+    "token": "0xda5e1988097297dcdc1f90d4dfe7909e847cbef6",
+    "price": 0.0176571038782817,
+    "liq": 1002100,
+    "vol24h": 3333130,
+    "age_d": 453.7,
+    "chg24h": -53.096,
+    "chg7d": -61.7,
+    "mcap": 559075180.885734,
+    "safety": "unknown",
+    "safety_notes": [
+     "safety not checked"
+    ],
     "trigger": false,
     "trend_up": false,
-    "rsi": 43.4,
-    "url": "https://www.geckoterminal.com/base/pools/0x422df9aa896e883c9cdcbad309c0785b7364a1cf"
+    "rsi": 14.8,
+    "url": "https://www.geckoterminal.com/eth/pools/0x7f2869b24d83f03e0438c045ce24fd18045b2b6cdec47cd7b62e67e2284d1be9"
    },
    {
-    "chain": "Base",
-    "symbol": "VELVET",
-    "name": "Velvet",
-    "token": "0xbf927b841994731c573bdf09ceb0c6b0aa887cdd",
-    "price": 0.0937743284887355,
-    "liq": 1257651,
-    "vol24h": 2818682,
-    "age_d": 461.7,
-    "chg24h": -6.383,
-    "chg7d": 56.0,
-    "mcap": 44435551.4074681,
+    "chain": "BSC",
+    "symbol": "BLESS",
+    "name": "Bless Token",
+    "token": "0x7c8217517ed4711fe2deccdfeffe8d906b9ae11f",
+    "price": 0.0144186228042559,
+    "liq": 270060,
+    "vol24h": 2495691,
+    "age_d": 432.4,
+    "chg24h": 0.872,
+    "chg7d": 26.0,
+    "mcap": 26554296.9948062,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 41.2,
-    "url": "https://www.geckoterminal.com/base/pools/0x6b0f53cbd9272d8117e9535fe25371dedf39a1be"
+    "rsi": 48.4,
+    "url": "https://www.geckoterminal.com/bsc/pools/0x49986efbeedea3ab962ca95caf86919860ecc9db"
    }
   ],
   "onchain_checked": 89,
@@ -7886,28 +7888,6 @@
      "PIPPIN",
      "BONK",
      "ACT"
-    ]
-   },
-   {
-    "id": "decentralized-perpetuals",
-    "name": "Decentralized Perpetuals",
-    "chg7d": 0.94,
-    "top": [
-     "HYPE",
-     "ASTER",
-     "JUP",
-     "LIT",
-     "CAKE"
-    ],
-    "tracked": [
-     "HYPE",
-     "LIT",
-     "ASTER",
-     "RAY",
-     "GRVT",
-     "DYDX",
-     "BASED",
-     "GMX"
     ]
    },
    {
@@ -8196,6 +8176,28 @@
     ]
    },
    {
+    "id": "decentralized-perpetuals",
+    "name": "Decentralized Perpetuals",
+    "chg7d": -2.86,
+    "top": [
+     "HYPE",
+     "ASTER",
+     "JUP",
+     "LIT",
+     "CAKE"
+    ],
+    "tracked": [
+     "HYPE",
+     "LIT",
+     "ASTER",
+     "RAY",
+     "GRVT",
+     "DYDX",
+     "BASED",
+     "GMX"
+    ]
+   },
+   {
     "id": "privacy-coins",
     "name": "Privacy Coins",
     "chg7d": -3.36,
@@ -8379,8 +8381,8 @@
   ],
   "updated": {
    "unlocks": 1795878924,
-   "onchain": 1795881921,
-   "sectors": 1795884622,
+   "onchain": 1795885518,
+   "sectors": 1795885518,
    "listings": 1795881920,
    "fundamentals": 1795878924
   }
@@ -8419,6 +8421,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "c13d7586aef12101bbb600813a8a356857064a5f8a1ee094673ca6139528b169",
- "generated": "2026-11-28T17:01:11+00:00"
+ "digest": "d8adc5fe5cd0fd8b3a248c87dffd69b064597dda1186a0833b101ef9d5398452",
+ "generated": "2026-11-28T17:06:21+00:00"
 }
