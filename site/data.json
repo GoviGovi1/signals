@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.372,
-   "last_ts": "2026-11-28T05:40:24+00:00",
-   "move_pct": 1.7,
+   "last": 1.371,
+   "last_ts": "2026-11-28T05:45:20+00:00",
+   "move_pct": 1.63,
    "closed": false,
    "rsi": 67.9,
    "trade_on": "Spot",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.6808,
-   "last_ts": "2026-11-28T05:40:24+00:00",
-   "move_pct": 0.46,
+   "last": 0.6809,
+   "last_ts": "2026-11-28T05:45:20+00:00",
+   "move_pct": 0.47,
    "closed": false,
    "rsi": 61.3,
    "trade_on": "Perps 1x",
@@ -118,7 +118,7 @@
     0.30861634681613415
    ],
    "lev": 1,
-   "funding_pct": 0.0007,
+   "funding_pct": -0.0029,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-27T15:00:00+00:00",
@@ -126,60 +126,15 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.3634,
-   "last_ts": "2026-11-28T05:40:24+00:00",
-   "move_pct": 2.42,
+   "last": 0.36,
+   "last_ts": "2026-11-28T05:45:20+00:00",
+   "move_pct": 3.33,
    "closed": false,
    "rsi": 38.2,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": "charts/GRASS-PERP-1795788000.png",
    "setup": "BREAKOUT20"
-  },
-  {
-   "id": "BILL-PERP-1795795200",
-   "kind": "TA",
-   "score": -1,
-   "reasons": [
-    "Chart: Break of structure: closed above the last swing high 0.004046, after a higher low",
-    "Timeframes: 1d down, 4h down, 4h structure higher highs/lows",
-    "Next resistance 0.0043317 (2.1R away, 4h swing/swing)",
-    "Stop 0.0039931 (structure); targets at the next 3 level(s)",
-    "BTC 4h trend down",
-    "Stronger than BTC by 6.3% over 7d",
-    "OI +4% 24h",
-    "funding +0.082%/8h: longs crowded",
-    "Track record: +9.4R on BILL in the last 45 days (backtest)"
-   ],
-   "coin": "BILL",
-   "market": "PERP",
-   "side": "LONG",
-   "entry": 0.004104,
-   "sl0": 0.00399305524640573,
-   "sl": 0.00399305524640573,
-   "tps": [
-    0.004322583409040516,
-    0.004380916742373849,
-    0.00455391674237385
-   ],
-   "lev": 1,
-   "funding_pct": 0.005,
-   "status": "open",
-   "hits": 0,
-   "opened": "2026-11-27T17:00:00+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.004076,
-   "last_ts": "2026-11-28T05:40:24+00:00",
-   "move_pct": -0.68,
-   "closed": false,
-   "rsi": 63.1,
-   "trade_on": "Perps 1x",
-   "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
-   "chart": "charts/BILL-PERP-1795795200.png",
-   "setup": "BOS"
   },
   {
    "id": "CFG-SPOT-HOT-20785",
@@ -211,9 +166,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.06693,
-   "last_ts": "2026-11-28T05:40:24+00:00",
-   "move_pct": 8.25,
+   "last": 0.06493,
+   "last_ts": "2026-11-28T05:45:20+00:00",
+   "move_pct": 5.01,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -248,7 +203,7 @@
     0.06414423883869416
    ],
    "lev": 1,
-   "funding_pct": -0.0233,
+   "funding_pct": -0.0244,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-28T03:00:00+00:00",
@@ -256,9 +211,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.06944,
-   "last_ts": "2026-11-28T05:40:24+00:00",
-   "move_pct": 2.17,
+   "last": 0.06911,
+   "last_ts": "2026-11-28T05:45:20+00:00",
+   "move_pct": 2.63,
    "closed": false,
    "rsi": 40.8,
    "trade_on": "Perps 1x",
@@ -268,6 +223,51 @@
   }
  ],
  "closed": [
+  {
+   "id": "BILL-PERP-1795795200",
+   "kind": "TA",
+   "score": -1,
+   "reasons": [
+    "Chart: Break of structure: closed above the last swing high 0.004046, after a higher low",
+    "Timeframes: 1d down, 4h down, 4h structure higher highs/lows",
+    "Next resistance 0.0043317 (2.1R away, 4h swing/swing)",
+    "Stop 0.0039931 (structure); targets at the next 3 level(s)",
+    "BTC 4h trend down",
+    "Stronger than BTC by 6.3% over 7d",
+    "OI +4% 24h",
+    "funding +0.082%/8h: longs crowded",
+    "Track record: +9.4R on BILL in the last 45 days (backtest)"
+   ],
+   "coin": "BILL",
+   "market": "PERP",
+   "side": "LONG",
+   "entry": 0.004104,
+   "sl0": 0.00399305524640573,
+   "sl": 0.00399305524640573,
+   "tps": [
+    0.004322583409040516,
+    0.004380916742373849,
+    0.00455391674237385
+   ],
+   "lev": 1,
+   "funding_pct": 0.005,
+   "status": "stopped",
+   "hits": 0,
+   "opened": "2026-11-27T17:00:00+00:00",
+   "closed_at": "2026-11-28T05:45:20+00:00",
+   "exit_price": 0.00399305524640573,
+   "result_r": -1.0,
+   "result_pct": -2.7,
+   "last": 0.004006,
+   "last_ts": "2026-11-28T05:45:20+00:00",
+   "move_pct": -0.68,
+   "closed": true,
+   "rsi": 63.1,
+   "trade_on": "Perps 1x",
+   "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
+   "chart": "charts/BILL-PERP-1795795200.png",
+   "setup": "BOS"
+  },
   {
    "id": "ROBO-PERP-HOT-20785",
    "kind": "HOT",
@@ -1984,7 +1984,7 @@
    "rsi": 71.6,
    "trade_on": "Spot",
    "market_reason": "thin perp market: spot is safer",
-   "chart": "charts/CVX-SPOT-1795438800.png",
+   "chart": null,
    "setup": "BOS"
   },
   {
@@ -2821,57 +2821,17 @@
    "market_reason": "shorts need perps; 1x keeps liquidation 3x+ further away than the stop",
    "chart": null,
    "setup": "BOS"
-  },
-  {
-   "id": "POR-SPOT-HOT-20778",
-   "kind": "HOT",
-   "score": 1402.8,
-   "reasons": [
-    "24h hot mover +41% with volume spike (8.1x the prior 3 days)",
-    "24h volume $524k on the OKX spot book, listed 1520 days",
-    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
-    "Stop 0.076179 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
-   ],
-   "coin": "POR",
-   "market": "SPOT",
-   "side": "LONG",
-   "entry": 0.08337,
-   "sl0": 0.076178869333886,
-   "sl": 0.08337,
-   "tps": [
-    0.090561130666114,
-    0.09775226133222799,
-    0.10494339199834199
-   ],
-   "lev": null,
-   "funding_pct": null,
-   "status": "tp3",
-   "hits": 3,
-   "opened": "2026-11-21T11:10:20+00:00",
-   "closed_at": "2026-11-21T12:01:43+00:00",
-   "exit_price": 0.10494339199834199,
-   "result_r": 2.25,
-   "result_pct": 19.41,
-   "last": 0.10374,
-   "last_ts": "2026-11-21T12:01:43+00:00",
-   "move_pct": 30.38,
-   "closed": true,
-   "rsi": null,
-   "trade_on": "Spot",
-   "market_reason": "only spot is listed",
-   "chart": null,
-   "setup": "HOT24"
   }
  ],
  "stats": {
   "all": {
-   "trades": 348,
+   "trades": 349,
    "wins": 160,
-   "losses": 188,
-   "win_rate": 46.0,
-   "total_r": 20.86,
-   "avg_r": 0.06,
-   "total_pct": 112.81
+   "losses": 189,
+   "win_rate": 45.8,
+   "total_r": 19.86,
+   "avg_r": 0.057,
+   "total_pct": 110.11
   },
   "SPOT": {
    "trades": 100,
@@ -2883,13 +2843,13 @@
    "total_pct": 42.94
   },
   "PERP": {
-   "trades": 231,
+   "trades": 232,
    "wins": 113,
-   "losses": 118,
-   "win_rate": 48.9,
-   "total_r": 33.89,
-   "avg_r": 0.147,
-   "total_pct": 53.18
+   "losses": 119,
+   "win_rate": 48.7,
+   "total_r": 32.89,
+   "avg_r": 0.142,
+   "total_pct": 50.48
   },
   "DEX": {
    "trades": 17,
@@ -2920,13 +2880,13 @@
     "total_pct": 16.69
    },
    "TA": {
-    "trades": 237,
+    "trades": 238,
     "wins": 100,
-    "losses": 137,
-    "win_rate": 42.2,
-    "total_r": 14.0,
-    "avg_r": 0.059,
-    "total_pct": 56.76
+    "losses": 138,
+    "win_rate": 42.0,
+    "total_r": 13.0,
+    "avg_r": 0.055,
+    "total_pct": 54.06
    }
   },
   "coins": {
@@ -3237,13 +3197,13 @@
     "total_pct": 11.78
    },
    "BILL": {
-    "trades": 2,
+    "trades": 3,
     "wins": 2,
-    "losses": 0,
-    "win_rate": 100.0,
-    "total_r": 5.4,
-    "avg_r": 2.701,
-    "total_pct": 10.45
+    "losses": 1,
+    "win_rate": 66.7,
+    "total_r": 4.4,
+    "avg_r": 1.467,
+    "total_pct": 7.75
    },
    "BLEND": {
     "trades": 2,
@@ -4515,7 +4475,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 6
+  "open": 5
  },
  "backtest": {
   "from": "2026-07-24",
@@ -8445,6 +8405,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "f3821ad267d4c26045c02bae33b4ad10bf5660b89e6d7089d1ff186ececd77b0",
- "generated": "2026-11-28T05:40:27+00:00"
+ "digest": "f837ac243032eb9a16c0b871eedaa0e00dca0667881c023c0472e546ff7f259c",
+ "generated": "2026-11-28T05:45:24+00:00"
 }
