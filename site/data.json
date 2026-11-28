@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.351,
-   "last_ts": "2026-11-28T07:55:22+00:00",
-   "move_pct": 0.15,
+   "last": 1.352,
+   "last_ts": "2026-11-28T08:00:30+00:00",
+   "move_pct": 0.22,
    "closed": false,
    "rsi": 67.9,
    "trade_on": "Spot",
@@ -81,9 +81,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.3623,
-   "last_ts": "2026-11-28T07:55:22+00:00",
-   "move_pct": 2.71,
+   "last": 0.3625,
+   "last_ts": "2026-11-28T08:00:30+00:00",
+   "move_pct": 2.66,
    "closed": false,
    "rsi": 38.2,
    "trade_on": "Perps 1x",
@@ -118,7 +118,7 @@
     0.06414423883869416
    ],
    "lev": 1,
-   "funding_pct": -0.0054,
+   "funding_pct": -0.0049,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-28T03:00:00+00:00",
@@ -127,7 +127,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.06937,
-   "last_ts": "2026-11-28T07:55:22+00:00",
+   "last_ts": "2026-11-28T08:00:30+00:00",
    "move_pct": 2.27,
    "closed": false,
    "rsi": 40.8,
@@ -162,7 +162,7 @@
     0.034947586835546184
    ],
    "lev": 1,
-   "funding_pct": 0.0079,
+   "funding_pct": 0.0068,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-28T06:00:00+00:00",
@@ -171,7 +171,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.03968,
-   "last_ts": "2026-11-28T07:55:22+00:00",
+   "last_ts": "2026-11-28T08:00:30+00:00",
    "move_pct": -0.3,
    "closed": false,
    "rsi": 35.0,
@@ -179,6 +179,46 @@
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": "charts/JELLYJELLY-PERP-1795842000.png",
    "setup": "BREAKOUT20"
+  },
+  {
+   "id": "BTW-PERP-HOT-20785",
+   "kind": "HOT",
+   "score": 727.6,
+   "reasons": [
+    "24h hot mover +48% with volume spike (2.0x the prior 3 days)",
+    "24h volume $50.1M on the OKX perp book, listed 37 days",
+    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
+    "Stop 1.2925 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
+   ],
+   "coin": "BTW",
+   "market": "PERP",
+   "side": "LONG",
+   "entry": 1.4121,
+   "sl0": 1.2924555778421845,
+   "sl": 1.2924555778421845,
+   "tps": [
+    1.5317444221578154,
+    1.651388844315631,
+    1.7710332664734465
+   ],
+   "lev": 1,
+   "funding_pct": 0.005,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-11-28T08:00:30+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 1.4126,
+   "last_ts": "2026-11-28T08:00:30+00:00",
+   "move_pct": 0.04,
+   "closed": false,
+   "rsi": null,
+   "trade_on": "Perps 1x",
+   "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
+   "chart": "charts/BTW-PERP-HOT-20785.png",
+   "setup": "HOT24"
   }
  ],
  "closed": [
@@ -4443,7 +4483,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 4
+  "open": 5
  },
  "backtest": {
   "from": "2026-07-24",
@@ -8373,6 +8413,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "dedff46ccc8aa507a4294ea8f02b0f7924e2973619154f57a29a34de60b2ebb3",
- "generated": "2026-11-28T07:55:24+00:00"
+ "digest": "3246cfca3dc2ae3087985ee1930aa231cc42c24b58c54bff53bb024b4c786d11",
+ "generated": "2026-11-28T08:01:04+00:00"
 }
