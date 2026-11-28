@@ -1,5 +1,5 @@
 {
- "checked": 89,
+ "checked": 90,
  "errors": [],
  "rejected": [
   {
@@ -120,7 +120,7 @@
     "liquidity under $250k",
     "pool younger than 7 days"
    ],
-   "symbol": "VICEWIRE"
+   "symbol": "MANDY"
   },
   {
    "chain": "Solana",
@@ -128,16 +128,7 @@
     "liquidity under $250k",
     "pool younger than 7 days"
    ],
-   "symbol": "MANDY"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "liquidity under $250k",
-    "pool younger than 7 days",
-    "24h volume under $250k"
-   ],
-   "symbol": "VAULT"
+   "symbol": "VICEWIRE"
   },
   {
    "chain": "Solana",
@@ -145,6 +136,14 @@
     "liquidity under $250k"
    ],
    "symbol": "JOB"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "liquidity under $250k",
+    "pool younger than 7 days"
+   ],
+   "symbol": "FULLBALL"
   },
   {
    "chain": "Solana",
@@ -178,7 +177,7 @@
   {
    "chain": "Base",
    "fails": [
-    "no DEX candles"
+    "24h volume under $250k"
    ],
    "symbol": "KTA"
   },
@@ -234,13 +233,6 @@
   {
    "chain": "Base",
    "fails": [
-    "24h volume under $250k"
-   ],
-   "symbol": "REI"
-  },
-  {
-   "chain": "Base",
-   "fails": [
     "no DEX candles"
    ],
    "symbol": "SPCXC"
@@ -257,7 +249,14 @@
    "fails": [
     "24h volume under $250k"
    ],
-   "symbol": "SURPLUS"
+   "symbol": "REI"
+  },
+  {
+   "chain": "Base",
+   "fails": [
+    "no DEX candles"
+   ],
+   "symbol": "CTR"
   },
   {
    "chain": "Base",
@@ -272,7 +271,7 @@
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "CTR"
+   "symbol": "AERO"
   },
   {
    "chain": "Base",
@@ -284,9 +283,9 @@
   {
    "chain": "Base",
    "fails": [
-    "no DEX candles"
+    "24h volume under $250k"
    ],
-   "symbol": "AERO"
+   "symbol": "SURPLUS"
   },
   {
    "chain": "BSC",
@@ -297,65 +296,63 @@
   }
  ],
  "rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
- "updated": 1795874719,
+ "updated": 1795878319,
  "watchlist": [
   {
-   "age_d": 578.1,
-   "atr": 0.004305341522034455,
-   "bar_ts": 1795870800000,
-   "chain": "BSC",
-   "chg24h": -13.371,
-   "chg7d": 22.9,
-   "close": 0.0844402627030659,
-   "ema20": 0.08911240170274096,
-   "ema50": 0.09267604382792285,
-   "fails": [],
-   "gecko_id": "okzoo",
-   "liq": 2313215,
-   "mcap": 46337812.5483044,
-   "name": "OKZOO",
-   "net": "bsc",
-   "pool": "0xb433ae7e7011a2fb9a4bbb86140e0f653dcfcfba",
-   "price": 0.0843656124390099,
-   "rsi": 35.9,
-   "safety": "unknown",
-   "safety_notes": [
-    "safety not checked"
-   ],
-   "symbol": "AIOT",
-   "token": "0x55ad16bd573b3365f43a9daeb0cc66a73821b4a5",
-   "trend_up": false,
-   "trigger": false,
-   "url": "https://www.geckoterminal.com/bsc/pools/0xb433ae7e7011a2fb9a4bbb86140e0f653dcfcfba",
-   "vol24h": 3174535
-  },
-  {
-   "age_d": 1289.9,
-   "atr": 0.003538571645904975,
-   "bar_ts": 1795870800000,
+   "age_d": 453.6,
+   "atr": 0.0017543359740042903,
+   "bar_ts": 1795874400000,
    "chain": "Ethereum",
-   "chg24h": -0.215,
-   "chg7d": -0.1,
-   "close": 0.9969644969272149,
-   "ema20": 0.9968871187527448,
-   "ema50": 0.9969164256943186,
+   "chg24h": -52.418,
+   "chg7d": -59.8,
+   "close": 0.0185254666541974,
+   "ema20": 0.02562052797434692,
+   "ema50": 0.032545939620476375,
    "fails": [],
-   "gecko_id": "crvusd",
-   "liq": 7837926,
-   "mcap": 139236184.815751,
-   "name": "Curve.Fi USD Stablecoin",
+   "gecko_id": "world-liberty-financial",
+   "liq": 1022429,
+   "mcap": 584938437.735287,
+   "name": "World Liberty Financial",
    "net": "eth",
-   "pool": "0x4dece678ceceb27446b35c672dc7d61f30bad69e",
-   "price": 0.995527333739023,
-   "rsi": 50.2,
+   "pool": "0x7f2869b24d83f03e0438c045ce24fd18045b2b6cdec47cd7b62e67e2284d1be9",
+   "price": 0.0184740372477787,
+   "rsi": 15.8,
    "safety": "ok",
    "safety_notes": [],
-   "symbol": "CRVUSD",
-   "token": "0xf939e0a03fb07f59a73314e73794be0e57ac1b4e",
+   "symbol": "WLFI",
+   "token": "0xda5e1988097297dcdc1f90d4dfe7909e847cbef6",
    "trend_up": false,
    "trigger": false,
-   "url": "https://www.geckoterminal.com/eth/pools/0x4dece678ceceb27446b35c672dc7d61f30bad69e",
-   "vol24h": 2659494
+   "url": "https://www.geckoterminal.com/eth/pools/0x7f2869b24d83f03e0438c045ce24fd18045b2b6cdec47cd7b62e67e2284d1be9",
+   "vol24h": 3303622
+  },
+  {
+   "age_d": 432.3,
+   "atr": 0.0008852908679596522,
+   "bar_ts": 1795874400000,
+   "chain": "BSC",
+   "chg24h": -3.48,
+   "chg7d": 22.5,
+   "close": 0.014743733759050198,
+   "ema20": 0.0144375530454598,
+   "ema50": 0.015142607439464353,
+   "fails": [],
+   "gecko_id": "bless-2",
+   "liq": 271494,
+   "mcap": 26875917.1161978,
+   "name": "Bless Token",
+   "net": "bsc",
+   "pool": "0x49986efbeedea3ab962ca95caf86919860ecc9db",
+   "price": 0.0145767453356887,
+   "rsi": 51.1,
+   "safety": "ok",
+   "safety_notes": [],
+   "symbol": "BLESS",
+   "token": "0x7c8217517ed4711fe2deccdfeffe8d906b9ae11f",
+   "trend_up": false,
+   "trigger": false,
+   "url": "https://www.geckoterminal.com/bsc/pools/0x49986efbeedea3ab962ca95caf86919860ecc9db",
+   "vol24h": 2775557
   }
  ]
 }
