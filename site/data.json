@@ -36,9 +36,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.352,
-   "last_ts": "2026-11-28T15:45:21+00:00",
-   "move_pct": 5.48,
+   "last": 0.3523,
+   "last_ts": "2026-11-28T15:50:20+00:00",
+   "move_pct": 5.4,
    "closed": false,
    "rsi": 38.2,
    "trade_on": "Perps 1x",
@@ -73,7 +73,7 @@
     0.06414423883869416
    ],
    "lev": 1,
-   "funding_pct": -0.0095,
+   "funding_pct": -0.0091,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-28T03:00:00+00:00",
@@ -81,9 +81,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.06768,
-   "last_ts": "2026-11-28T15:45:21+00:00",
-   "move_pct": 4.65,
+   "last": 0.06772,
+   "last_ts": "2026-11-28T15:50:20+00:00",
+   "move_pct": 4.59,
    "closed": false,
    "rsi": 40.8,
    "trade_on": "Perps 1x",
@@ -125,9 +125,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04025,
-   "last_ts": "2026-11-28T15:45:21+00:00",
-   "move_pct": -1.74,
+   "last": 0.04031,
+   "last_ts": "2026-11-28T15:50:20+00:00",
+   "move_pct": -1.9,
    "closed": false,
    "rsi": 35.0,
    "trade_on": "Perps 1x",
@@ -162,7 +162,7 @@
     0.04908381378895341
    ],
    "lev": 1,
-   "funding_pct": -0.0133,
+   "funding_pct": -0.0126,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-28T10:00:00+00:00",
@@ -170,9 +170,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.05501,
-   "last_ts": "2026-11-28T15:45:21+00:00",
-   "move_pct": 0.36,
+   "last": 0.05516,
+   "last_ts": "2026-11-28T15:50:20+00:00",
+   "move_pct": 0.09,
    "closed": false,
    "rsi": 30.3,
    "trade_on": "Perps 1x",
@@ -7756,28 +7756,6 @@
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
-    "id": "meme-token",
-    "name": "Meme Token",
-    "chg7d": 5.64,
-    "top": [
-     "DOGE",
-     "SHIB",
-     "M",
-     "PEPE",
-     "\u5e01\u5b89\u4eba\u751f"
-    ],
-    "tracked": [
-     "DOGE",
-     "PEPE",
-     "TRUMP",
-     "SHIB",
-     "WIF",
-     "PENGU",
-     "CASHCAT",
-     "USELESS"
-    ]
-   },
-   {
     "id": "gaming",
     "name": "Gaming",
     "chg7d": 3.98,
@@ -7951,6 +7929,28 @@
      "DYDX",
      "BASED",
      "GMX"
+    ]
+   },
+   {
+    "id": "meme-token",
+    "name": "Meme Token",
+    "chg7d": 0.53,
+    "top": [
+     "DOGE",
+     "SHIB",
+     "M",
+     "PEPE",
+     "\u5e01\u5b89\u4eba\u751f"
+    ],
+    "tracked": [
+     "DOGE",
+     "PEPE",
+     "TRUMP",
+     "SHIB",
+     "WIF",
+     "PENGU",
+     "CASHCAT",
+     "USELESS"
     ]
    },
    {
@@ -8335,7 +8335,7 @@
   "updated": {
    "unlocks": 1795878924,
    "onchain": 1795878319,
-   "sectors": 1795880122,
+   "sectors": 1795881020,
    "listings": 1795878032,
    "fundamentals": 1795878924
   }
@@ -8374,6 +8374,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "02a485be901eb12126e87119732953a359387ea23e03f140f8668a754b9f52df",
- "generated": "2026-11-28T15:45:24+00:00"
+ "digest": "0e255e3328d8cdf4ebb3fc403cce85981492d8c17d89154bd92100236beb54e0",
+ "generated": "2026-11-28T15:50:24+00:00"
 }
