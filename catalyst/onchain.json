@@ -5,6 +5,14 @@
   {
    "chain": "Solana",
    "fails": [
+    "liquidity under $250k",
+    "pool younger than 7 days"
+   ],
+   "symbol": "MOONBOY"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
     "liquidity under $250k"
    ],
    "symbol": "SNOWBALL"
@@ -15,22 +23,7 @@
     "liquidity under $250k",
     "pool younger than 7 days"
    ],
-   "symbol": "MOONBOY"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "liquidity under $250k",
-    "pool younger than 7 days"
-   ],
    "symbol": "SPLIT"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "liquidity under $250k"
-   ],
-   "symbol": "JIMMY"
   },
   {
    "chain": "Solana",
@@ -45,22 +38,14 @@
    "fails": [
     "liquidity under $250k"
    ],
+   "symbol": "JIMMY"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "liquidity under $250k"
+   ],
    "symbol": "FIONA"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "liquidity under $250k",
-    "pool younger than 7 days"
-   ],
-   "symbol": "VAULT"
-  },
-  {
-   "chain": "Solana",
-   "fails": [
-    "24h volume under $250k"
-   ],
-   "symbol": "BATON"
   },
   {
    "chain": "Solana",
@@ -88,6 +73,13 @@
   {
    "chain": "Solana",
    "fails": [
+    "24h volume under $250k"
+   ],
+   "symbol": "BATON"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
     "liquidity under $250k",
     "pool younger than 7 days"
    ],
@@ -100,6 +92,14 @@
     "pool younger than 7 days"
    ],
    "symbol": "RICE"
+  },
+  {
+   "chain": "Solana",
+   "fails": [
+    "liquidity under $250k",
+    "pool younger than 7 days"
+   ],
+   "symbol": "VAULT"
   },
   {
    "chain": "Solana",
@@ -152,7 +152,7 @@
     "liquidity under $250k",
     "24h volume under $250k"
    ],
-   "symbol": "BASKET"
+   "symbol": "SIDOOR"
   },
   {
    "chain": "Base",
@@ -178,16 +178,16 @@
   {
    "chain": "Base",
    "fails": [
-    "24h volume under $250k"
+    "no DEX candles"
    ],
-   "symbol": "TIBBIR"
+   "symbol": "KTA"
   },
   {
    "chain": "Base",
    "fails": [
-    "no DEX candles"
+    "24h volume under $250k"
    ],
-   "symbol": "KTA"
+   "symbol": "POD"
   },
   {
    "chain": "Base",
@@ -201,7 +201,14 @@
    "fails": [
     "24h volume under $250k"
    ],
-   "symbol": "POD"
+   "symbol": "DRB"
+  },
+  {
+   "chain": "Base",
+   "fails": [
+    "24h volume under $250k"
+   ],
+   "symbol": "TIBBIR"
   },
   {
    "chain": "Base",
@@ -215,7 +222,7 @@
    "fails": [
     "24h volume under $250k"
    ],
-   "symbol": "DRB"
+   "symbol": "SOGNI"
   },
   {
    "chain": "Base",
@@ -223,13 +230,6 @@
     "24h volume under $250k"
    ],
    "symbol": "REI"
-  },
-  {
-   "chain": "Base",
-   "fails": [
-    "24h volume under $250k"
-   ],
-   "symbol": "SOGNI"
   },
   {
    "chain": "Base",
@@ -243,14 +243,14 @@
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "CTR"
+   "symbol": "SPCXC"
   },
   {
    "chain": "Base",
    "fails": [
     "no DEX candles"
    ],
-   "symbol": "SPCXC"
+   "symbol": "CTR"
   },
   {
    "chain": "Base",
@@ -293,67 +293,69 @@
    "fails": [
     "liquidity under $250k"
    ],
-   "symbol": "BTW"
+   "symbol": "EVAA"
   }
  ],
  "rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
- "updated": 1795867521,
+ "updated": 1795871119,
  "watchlist": [
   {
-   "age_d": 461.5,
-   "atr": 0.006714217854404352,
-   "bar_ts": 1795863600000,
+   "age_d": 461.6,
+   "atr": 0.006650007814657652,
+   "bar_ts": 1795867200000,
    "chain": "Base",
-   "chg24h": 6.853,
-   "chg7d": 56.4,
-   "close": 0.0976609939349087,
-   "ema20": 0.10378574269291034,
-   "ema50": 0.09795670306626059,
+   "chg24h": 11.048,
+   "chg7d": 62.7,
+   "close": 0.100415810178888,
+   "ema20": 0.10346479673700087,
+   "ema50": 0.09805276378138832,
    "fails": [],
    "gecko_id": "velvet",
-   "liq": 1274249,
-   "mcap": 45747233.1988402,
+   "liq": 1301709,
+   "mcap": 47982073.1026147,
    "name": "Velvet",
    "net": "base",
    "pool": "0x6b0f53cbd9272d8117e9535fe25371dedf39a1be",
-   "price": 0.0962874561383722,
-   "rsi": 43.3,
-   "safety": "ok",
-   "safety_notes": [],
+   "price": 0.10103304988168,
+   "rsi": 47.4,
+   "safety": "unknown",
+   "safety_notes": [
+    "safety not checked"
+   ],
    "symbol": "VELVET",
    "token": "0xbf927b841994731c573bdf09ceb0c6b0aa887cdd",
-   "trend_up": false,
+   "trend_up": true,
    "trigger": false,
    "url": "https://www.geckoterminal.com/base/pools/0x6b0f53cbd9272d8117e9535fe25371dedf39a1be",
-   "vol24h": 3108489
+   "vol24h": 3161430
   },
   {
-   "age_d": 465.2,
-   "atr": 0.00011785543615007858,
-   "bar_ts": 1795863600000,
-   "chain": "BSC",
-   "chg24h": 2.741,
-   "chg7d": -76.8,
-   "close": 0.00113320559918588,
-   "ema20": 0.0010962656273023476,
-   "ema50": 0.0012422791566377754,
+   "age_d": 1289.8,
+   "atr": 0.0034493267904181116,
+   "bar_ts": 1795867200000,
+   "chain": "Ethereum",
+   "chg24h": -0.269,
+   "chg7d": -0.0,
+   "close": 0.997194503983844,
+   "ema20": 0.9968789736809056,
+   "ema50": 0.9969145202468566,
    "fails": [],
-   "gecko_id": "akedo",
-   "liq": 415095,
-   "mcap": 25553467.7900325,
-   "name": "AKE",
-   "net": "bsc",
-   "pool": "0x4d3bf29ba30f8bfe4624e7678709afa195689c5d",
-   "price": 0.0011209504984682,
+   "gecko_id": "crvusd",
+   "liq": 7687614,
+   "mcap": 139403490.111453,
+   "name": "Curve.Fi USD Stablecoin",
+   "net": "eth",
+   "pool": "0x4dece678ceceb27446b35c672dc7d61f30bad69e",
+   "price": 0.996274779735112,
    "rsi": 51.2,
    "safety": "ok",
    "safety_notes": [],
-   "symbol": "AKE",
-   "token": "0x2c3a8ee94ddd97244a93bc48298f97d2c412f7db",
+   "symbol": "CRVUSD",
+   "token": "0xf939e0a03fb07f59a73314e73794be0e57ac1b4e",
    "trend_up": false,
    "trigger": false,
-   "url": "https://www.geckoterminal.com/bsc/pools/0x4d3bf29ba30f8bfe4624e7678709afa195689c5d",
-   "vol24h": 2751815
+   "url": "https://www.geckoterminal.com/eth/pools/0x4dece678ceceb27446b35c672dc7d61f30bad69e",
+   "vol24h": 2524414
   }
  ]
 }
