@@ -36,9 +36,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.3611,
-   "last_ts": "2026-11-28T11:00:28+00:00",
-   "move_pct": 3.03,
+   "last": 0.3602,
+   "last_ts": "2026-11-28T11:06:20+00:00",
+   "move_pct": 3.28,
    "closed": false,
    "rsi": 38.2,
    "trade_on": "Perps 1x",
@@ -73,7 +73,7 @@
     0.06414423883869416
    ],
    "lev": 1,
-   "funding_pct": 0.0038,
+   "funding_pct": 0.0021,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-28T03:00:00+00:00",
@@ -81,9 +81,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.06895,
-   "last_ts": "2026-11-28T11:00:28+00:00",
-   "move_pct": 2.86,
+   "last": 0.06869,
+   "last_ts": "2026-11-28T11:06:20+00:00",
+   "move_pct": 3.23,
    "closed": false,
    "rsi": 40.8,
    "trade_on": "Perps 1x",
@@ -125,9 +125,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.03995,
-   "last_ts": "2026-11-28T11:00:28+00:00",
-   "move_pct": -0.99,
+   "last": 0.03988,
+   "last_ts": "2026-11-28T11:06:20+00:00",
+   "move_pct": -0.81,
    "closed": false,
    "rsi": 35.0,
    "trade_on": "Perps 1x",
@@ -165,9 +165,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.4691,
-   "last_ts": "2026-11-28T11:00:28+00:00",
-   "move_pct": 4.04,
+   "last": 1.4746,
+   "last_ts": "2026-11-28T11:06:20+00:00",
+   "move_pct": 4.43,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -210,9 +210,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.052566,
-   "last_ts": "2026-11-28T11:00:28+00:00",
-   "move_pct": -0.51,
+   "last": 0.052406,
+   "last_ts": "2026-11-28T11:06:20+00:00",
+   "move_pct": -0.82,
    "closed": false,
    "rsi": 73.0,
    "trade_on": "Spot",
@@ -247,7 +247,7 @@
     0.04908381378895341
    ],
    "lev": 1,
-   "funding_pct": -0.0053,
+   "funding_pct": -0.0061,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-28T10:00:00+00:00",
@@ -255,9 +255,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0554,
-   "last_ts": "2026-11-28T11:00:28+00:00",
-   "move_pct": -0.34,
+   "last": 0.05505,
+   "last_ts": "2026-11-28T11:06:20+00:00",
+   "move_pct": 0.29,
    "closed": false,
    "rsi": 30.3,
    "trade_on": "Perps 1x",
@@ -7810,38 +7810,36 @@
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
   "onchain": [
    {
-    "chain": "BSC",
-    "symbol": "AGT",
-    "name": "Alaya Governance Token",
-    "token": "0x5dbde81fce337ff4bcaaee4ca3466c00aecae274",
-    "price": 0.0155026018275217,
-    "liq": 1180789,
-    "vol24h": 2926279,
-    "age_d": 561.9,
-    "chg24h": -3.455,
-    "chg7d": -26.0,
-    "mcap": 0.0,
-    "safety": "unknown",
-    "safety_notes": [
-     "safety not checked"
-    ],
+    "chain": "Base",
+    "symbol": "VELVET",
+    "name": "Velvet",
+    "token": "0xbf927b841994731c573bdf09ceb0c6b0aa887cdd",
+    "price": 0.102891759397023,
+    "liq": 1315846,
+    "vol24h": 2938856,
+    "age_d": 461.5,
+    "chg24h": 14.064,
+    "chg7d": 65.5,
+    "mcap": 49129586.3735207,
+    "safety": "ok",
+    "safety_notes": [],
     "trigger": false,
-    "trend_up": false,
-    "rsi": 32.4,
-    "url": "https://www.geckoterminal.com/bsc/pools/0xd3cffc6b02a34dfc72f1350339031043a854599f"
+    "trend_up": true,
+    "rsi": 53.3,
+    "url": "https://www.geckoterminal.com/base/pools/0x6b0f53cbd9272d8117e9535fe25371dedf39a1be"
    },
    {
     "chain": "BSC",
     "symbol": "COLLECT",
     "name": "Collect on Fanable",
     "token": "0x4b3d30992f003c8167699735f5ab2831b2a087d3",
-    "price": 0.0277473593583987,
-    "liq": 2234997,
-    "vol24h": 2605802,
+    "price": 0.027688517199184,
+    "liq": 2228043,
+    "vol24h": 2468575,
     "age_d": 337.0,
-    "chg24h": -3.885,
-    "chg7d": 8.8,
-    "mcap": 14900331.97632,
+    "chg24h": -1.501,
+    "chg7d": 9.0,
+    "mcap": 14868733.7364,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
@@ -7873,28 +7871,6 @@
      "IMX",
      "APE",
      "AXS"
-    ]
-   },
-   {
-    "id": "artificial-intelligence",
-    "name": "Artificial Intelligence",
-    "chg7d": 6.72,
-    "top": [
-     "NEAR",
-     "TAO",
-     "VVV",
-     "SN0",
-     "ICP"
-    ],
-    "tracked": [
-     "PIEVERSE",
-     "NEAR",
-     "VVV",
-     "TAO",
-     "ICP",
-     "FET",
-     "OPG",
-     "VIRTUAL"
     ]
    },
    {
@@ -8154,6 +8130,28 @@
      "OKB",
      "CRV",
      "ASTER"
+    ]
+   },
+   {
+    "id": "artificial-intelligence",
+    "name": "Artificial Intelligence",
+    "chg7d": 2.39,
+    "top": [
+     "NEAR",
+     "TAO",
+     "VVV",
+     "SN0",
+     "PIEVERSE"
+    ],
+    "tracked": [
+     "PIEVERSE",
+     "NEAR",
+     "VVV",
+     "TAO",
+     "ICP",
+     "FET",
+     "OPG",
+     "VIRTUAL"
     ]
    },
    {
@@ -8433,8 +8431,8 @@
   ],
   "updated": {
    "unlocks": 1795857023,
-   "onchain": 1795860320,
-   "sectors": 1795863026,
+   "onchain": 1795863920,
+   "sectors": 1795863920,
    "listings": 1795863026,
    "fundamentals": 1795857023
   }
@@ -8473,6 +8471,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "8b4b460bb6fe92ed167cec12d4ed07a90ad9de493e5e58abbef8ade95e725620",
- "generated": "2026-11-28T11:00:58+00:00"
+ "digest": "32b9d987fc89c788ff5e13512afd2f7483adad281cc5358a75b1f970003bf2f4",
+ "generated": "2026-11-28T11:06:22+00:00"
 }
