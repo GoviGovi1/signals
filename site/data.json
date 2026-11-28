@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.394,
-   "last_ts": "2026-11-28T01:15:24+00:00",
-   "move_pct": 3.34,
+   "last": 1.403,
+   "last_ts": "2026-11-28T01:20:22+00:00",
+   "move_pct": 4.0,
    "closed": false,
    "rsi": 67.9,
    "trade_on": "Spot",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.6698,
-   "last_ts": "2026-11-28T01:15:24+00:00",
-   "move_pct": -1.17,
+   "last": 0.6691,
+   "last_ts": "2026-11-28T01:20:22+00:00",
+   "move_pct": -1.27,
    "closed": false,
    "rsi": 61.3,
    "trade_on": "Perps 1x",
@@ -118,7 +118,7 @@
     0.30861634681613415
    ],
    "lev": 1,
-   "funding_pct": 0.0013,
+   "funding_pct": 0.0023,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-27T15:00:00+00:00",
@@ -126,9 +126,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.3692,
-   "last_ts": "2026-11-28T01:15:24+00:00",
-   "move_pct": 0.86,
+   "last": 0.3702,
+   "last_ts": "2026-11-28T01:20:22+00:00",
+   "move_pct": 0.59,
    "closed": false,
    "rsi": 38.2,
    "trade_on": "Perps 1x",
@@ -172,7 +172,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.004215,
-   "last_ts": "2026-11-28T01:15:24+00:00",
+   "last_ts": "2026-11-28T01:20:22+00:00",
    "move_pct": 2.7,
    "closed": false,
    "rsi": 63.1,
@@ -180,6 +180,46 @@
    "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
    "chart": "charts/BILL-PERP-1795795200.png",
    "setup": "BOS"
+  },
+  {
+   "id": "CFG-SPOT-HOT-20785",
+   "kind": "HOT",
+   "score": 462.52,
+   "reasons": [
+    "24h hot mover +21% with volume spike (3.7x the prior 3 days)",
+    "24h volume $1.3M on the OKX spot book, listed 1963 days",
+    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
+    "Stop 0.057646 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
+   ],
+   "coin": "CFG",
+   "market": "SPOT",
+   "side": "LONG",
+   "entry": 0.06183,
+   "sl0": 0.05764588589498381,
+   "sl": 0.05764588589498381,
+   "tps": [
+    0.0660141141050162,
+    0.0701982282100324,
+    0.07438234231504859
+   ],
+   "lev": null,
+   "funding_pct": null,
+   "status": "open",
+   "hits": 0,
+   "opened": "2026-11-28T01:20:22+00:00",
+   "closed_at": null,
+   "exit_price": null,
+   "result_r": null,
+   "result_pct": null,
+   "last": 0.06183,
+   "last_ts": "2026-11-28T01:20:22+00:00",
+   "move_pct": 0.0,
+   "closed": false,
+   "rsi": null,
+   "trade_on": "Spot",
+   "market_reason": "only spot is listed",
+   "chart": "charts/CFG-SPOT-HOT-20785.png",
+   "setup": "HOT24"
   }
  ],
  "closed": [
@@ -4425,7 +4465,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 4
+  "open": 5
  },
  "backtest": {
   "from": "2026-07-24",
@@ -7967,28 +8007,6 @@
     ]
    },
    {
-    "id": "ai-agents",
-    "name": "AI Agents",
-    "chg7d": 1.94,
-    "top": [
-     "VVV",
-     "KITE",
-     "FET",
-     "VIRTUAL",
-     "TRAC"
-    ],
-    "tracked": [
-     "VVV",
-     "FET",
-     "VIRTUAL",
-     "PIPPIN",
-     "MAGIC",
-     "AEON",
-     "KITE",
-     "AIXBT"
-    ]
-   },
-   {
     "id": "decentralized-exchange",
     "name": "Decentralized Exchange",
     "chg7d": 1.7,
@@ -8008,6 +8026,28 @@
      "CRV",
      "ASTER",
      "RAY"
+    ]
+   },
+   {
+    "id": "ai-agents",
+    "name": "AI Agents",
+    "chg7d": 1.69,
+    "top": [
+     "VVV",
+     "KITE",
+     "FET",
+     "VIRTUAL",
+     "TRAC"
+    ],
+    "tracked": [
+     "VVV",
+     "FET",
+     "VIRTUAL",
+     "PIPPIN",
+     "MAGIC",
+     "AEON",
+     "KITE",
+     "AIXBT"
     ]
    },
    {
@@ -8312,7 +8352,7 @@
   "updated": {
    "unlocks": 1795813235,
    "onchain": 1795827922,
-   "sectors": 1795827922,
+   "sectors": 1795828822,
    "listings": 1795825224,
    "fundamentals": 1795813236
   }
@@ -8351,6 +8391,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "83ccdd19ac3c5dfbbc68037a574ad0e5d40daea58034ed1c870336c7302dec50",
- "generated": "2026-11-28T01:15:26+00:00"
+ "digest": "10e1274b678b6121faae45ede2fcbc24077a1789b5bd3ca9de6410638c333318",
+ "generated": "2026-11-28T01:20:27+00:00"
 }
