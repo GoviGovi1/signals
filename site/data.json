@@ -36,9 +36,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.363,
-   "last_ts": "2026-11-28T09:00:31+00:00",
-   "move_pct": 2.52,
+   "last": 0.3627,
+   "last_ts": "2026-11-28T09:06:17+00:00",
+   "move_pct": 2.6,
    "closed": false,
    "rsi": 38.2,
    "trade_on": "Perps 1x",
@@ -73,7 +73,7 @@
     0.06414423883869416
    ],
    "lev": 1,
-   "funding_pct": 0.007,
+   "funding_pct": 0.0068,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-28T03:00:00+00:00",
@@ -81,9 +81,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.06942,
-   "last_ts": "2026-11-28T09:00:31+00:00",
-   "move_pct": 2.2,
+   "last": 0.06927,
+   "last_ts": "2026-11-28T09:06:17+00:00",
+   "move_pct": 2.41,
    "closed": false,
    "rsi": 40.8,
    "trade_on": "Perps 1x",
@@ -117,7 +117,7 @@
     0.034947586835546184
    ],
    "lev": 1,
-   "funding_pct": 0.0156,
+   "funding_pct": 0.016,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-28T06:00:00+00:00",
@@ -125,9 +125,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.04028,
-   "last_ts": "2026-11-28T09:00:31+00:00",
-   "move_pct": -1.82,
+   "last": 0.0403,
+   "last_ts": "2026-11-28T09:06:17+00:00",
+   "move_pct": -1.87,
    "closed": false,
    "rsi": 35.0,
    "trade_on": "Perps 1x",
@@ -165,9 +165,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.4016,
-   "last_ts": "2026-11-28T09:00:31+00:00",
-   "move_pct": -0.74,
+   "last": 1.4169,
+   "last_ts": "2026-11-28T09:06:17+00:00",
+   "move_pct": 0.34,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -7709,43 +7709,22 @@
     "symbol": "VELVET",
     "name": "Velvet",
     "token": "0xbf927b841994731c573bdf09ceb0c6b0aa887cdd",
-    "price": 0.106971470599347,
-    "liq": 1340249,
-    "vol24h": 2806028,
-    "age_d": 461.3,
-    "chg24h": 15.116,
-    "chg7d": 69.4,
-    "mcap": 50689099.645066,
-    "safety": "unknown",
-    "safety_notes": [
-     "safety not checked"
-    ],
-    "trigger": false,
-    "trend_up": true,
-    "rsi": 58.1,
-    "url": "https://www.geckoterminal.com/base/pools/0x6b0f53cbd9272d8117e9535fe25371dedf39a1be"
-   },
-   {
-    "chain": "BSC",
-    "symbol": "$BANANA",
-    "name": "Banana For Scale",
-    "token": "0x3d4f0513e8a29669b960f9dbca61861548a9a760",
-    "price": 0.00482305229812248,
-    "liq": 2877184,
-    "vol24h": 2323054,
-    "age_d": 740.0,
-    "chg24h": -2.44,
-    "chg7d": 5.3,
-    "mcap": 48254052.34,
+    "price": 0.106521256753885,
+    "liq": 1335974,
+    "vol24h": 2827694,
+    "age_d": 461.4,
+    "chg24h": 14.664,
+    "chg7d": 67.6,
+    "mcap": 50475763.023238,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
-    "trend_up": false,
-    "rsi": 42.0,
-    "url": "https://www.geckoterminal.com/bsc/pools/0x7f51bbf34156ba802deb0e38b7671dc4fa32041d"
+    "trend_up": true,
+    "rsi": 55.8,
+    "url": "https://www.geckoterminal.com/base/pools/0x6b0f53cbd9272d8117e9535fe25371dedf39a1be"
    }
   ],
-  "onchain_checked": 86,
+  "onchain_checked": 87,
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
@@ -8013,6 +7992,23 @@
     ]
    },
    {
+    "id": "storage",
+    "name": "Storage",
+    "chg7d": 2.71,
+    "top": [
+     "FIL",
+     "BTT",
+     "AR",
+     "AIOZ",
+     "ICNT"
+    ],
+    "tracked": [
+     "FIL",
+     "AR",
+     "WAL"
+    ]
+   },
+   {
     "id": "exchange-based-tokens",
     "name": "Exchange Based Tokens",
     "chg7d": 1.59,
@@ -8032,23 +8028,6 @@
      "OKB",
      "CRV",
      "ASTER"
-    ]
-   },
-   {
-    "id": "storage",
-    "name": "Storage",
-    "chg7d": 0.82,
-    "top": [
-     "FIL",
-     "BTT",
-     "AR",
-     "AIOZ",
-     "ICNT"
-    ],
-    "tracked": [
-     "FIL",
-     "AR",
-     "WAL"
     ]
    },
    {
@@ -8328,8 +8307,8 @@
   ],
   "updated": {
    "unlocks": 1795835120,
-   "onchain": 1795853119,
-   "sectors": 1795855823,
+   "onchain": 1795856716,
+   "sectors": 1795856716,
    "listings": 1795855822,
    "fundamentals": 1795835120
   }
@@ -8368,6 +8347,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "a45fd4b334b13d75832bfc7475d7abf287e87a65eaaec059d3e42d6cfef937e7",
- "generated": "2026-11-28T09:01:00+00:00"
+ "digest": "672393e3f2e143b587e05d04893104fe5ce08e18e0860793377baa97b5bf71c3",
+ "generated": "2026-11-28T09:06:20+00:00"
 }
