@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.375,
-   "last_ts": "2026-11-28T06:40:25+00:00",
-   "move_pct": 1.93,
+   "last": 1.371,
+   "last_ts": "2026-11-28T06:45:29+00:00",
+   "move_pct": 1.63,
    "closed": false,
    "rsi": 67.9,
    "trade_on": "Spot",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.6833,
-   "last_ts": "2026-11-28T06:40:25+00:00",
-   "move_pct": 0.83,
+   "last": 0.6838,
+   "last_ts": "2026-11-28T06:45:29+00:00",
+   "move_pct": 0.9,
    "closed": false,
    "rsi": 61.3,
    "trade_on": "Perps 1x",
@@ -126,55 +126,15 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.3624,
-   "last_ts": "2026-11-28T06:40:25+00:00",
-   "move_pct": 2.69,
+   "last": 0.3628,
+   "last_ts": "2026-11-28T06:45:29+00:00",
+   "move_pct": 2.58,
    "closed": false,
    "rsi": 38.2,
    "trade_on": "Perps 1x",
    "market_reason": "shorts need perps; thin perp market, so 1x",
    "chart": "charts/GRASS-PERP-1795788000.png",
    "setup": "BREAKOUT20"
-  },
-  {
-   "id": "CFG-SPOT-HOT-20785",
-   "kind": "HOT",
-   "score": 462.52,
-   "reasons": [
-    "24h hot mover +21% with volume spike (3.7x the prior 3 days)",
-    "24h volume $1.3M on the OKX spot book, listed 1963 days",
-    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
-    "Stop 0.057646 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
-   ],
-   "coin": "CFG",
-   "market": "SPOT",
-   "side": "LONG",
-   "entry": 0.06183,
-   "sl0": 0.05764588589498381,
-   "sl": 0.06183,
-   "tps": [
-    0.0660141141050162,
-    0.0701982282100324,
-    0.07438234231504859
-   ],
-   "lev": null,
-   "funding_pct": null,
-   "status": "tp2",
-   "hits": 2,
-   "opened": "2026-11-28T01:20:22+00:00",
-   "closed_at": null,
-   "exit_price": null,
-   "result_r": null,
-   "result_pct": null,
-   "last": 0.06288,
-   "last_ts": "2026-11-28T06:40:25+00:00",
-   "move_pct": 1.7,
-   "closed": false,
-   "rsi": null,
-   "trade_on": "Spot",
-   "market_reason": "only spot is listed",
-   "chart": "charts/CFG-SPOT-HOT-20785.png",
-   "setup": "HOT24"
   },
   {
    "id": "ARKM-PERP-1795831200",
@@ -203,7 +163,7 @@
     0.06414423883869416
    ],
    "lev": 1,
-   "funding_pct": -0.0149,
+   "funding_pct": -0.0143,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-28T03:00:00+00:00",
@@ -211,9 +171,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0696,
-   "last_ts": "2026-11-28T06:40:25+00:00",
-   "move_pct": 1.94,
+   "last": 0.0695,
+   "last_ts": "2026-11-28T06:45:29+00:00",
+   "move_pct": 2.09,
    "closed": false,
    "rsi": 40.8,
    "trade_on": "Perps 1x",
@@ -247,7 +207,7 @@
     0.034947586835546184
    ],
    "lev": 1,
-   "funding_pct": 0.0109,
+   "funding_pct": 0.0106,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-28T06:00:00+00:00",
@@ -255,9 +215,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.03968,
-   "last_ts": "2026-11-28T06:40:25+00:00",
-   "move_pct": -0.3,
+   "last": 0.03967,
+   "last_ts": "2026-11-28T06:45:29+00:00",
+   "move_pct": -0.28,
    "closed": false,
    "rsi": 35.0,
    "trade_on": "Perps 1x",
@@ -267,6 +227,46 @@
   }
  ],
  "closed": [
+  {
+   "id": "CFG-SPOT-HOT-20785",
+   "kind": "HOT",
+   "score": 462.52,
+   "reasons": [
+    "24h hot mover +21% with volume spike (3.7x the prior 3 days)",
+    "24h volume $1.3M on the OKX spot book, listed 1963 days",
+    "Separate from the chart scan: this can fire when a coin is not in the main list, or when the chart rules skip a fast move",
+    "Stop 0.057646 is 2\u00d7 the 1h ATR, held between 4% and 12% of price; targets at 1R, 2R and 3R"
+   ],
+   "coin": "CFG",
+   "market": "SPOT",
+   "side": "LONG",
+   "entry": 0.06183,
+   "sl0": 0.05764588589498381,
+   "sl": 0.06183,
+   "tps": [
+    0.0660141141050162,
+    0.0701982282100324,
+    0.07438234231504859
+   ],
+   "lev": null,
+   "funding_pct": null,
+   "status": "stopped_be",
+   "hits": 2,
+   "opened": "2026-11-28T01:20:22+00:00",
+   "closed_at": "2026-11-28T06:45:29+00:00",
+   "exit_price": 0.06183,
+   "result_r": 0.75,
+   "result_pct": 5.08,
+   "last": 0.06178,
+   "last_ts": "2026-11-28T06:45:29+00:00",
+   "move_pct": 1.7,
+   "closed": true,
+   "rsi": null,
+   "trade_on": "Spot",
+   "market_reason": "only spot is listed",
+   "chart": "charts/CFG-SPOT-HOT-20785.png",
+   "setup": "HOT24"
+  },
   {
    "id": "BILL-PERP-1795795200",
    "kind": "TA",
@@ -1983,7 +1983,7 @@
    "rsi": null,
    "trade_on": "Perps 1x",
    "market_reason": "only perps are listed; 1x keeps liquidation far from the stop",
-   "chart": "charts/LIGHT-PERP-HOT-20780.png",
+   "chart": null,
    "setup": "HOT24"
   },
   {
@@ -2820,71 +2820,26 @@
    "market_reason": "only spot is listed",
    "chart": null,
    "setup": "HOT24"
-  },
-  {
-   "id": "UNI-PERP-1795230000",
-   "kind": "TA",
-   "score": 0,
-   "reasons": [
-    "Chart: Break of structure: closed below the last swing low 4.3080, after a lower high",
-    "Timeframes: 1d down, 4h down, 4h structure lower highs/lows",
-    "No support below in the last 50 days",
-    "Stop 4.6379 (structure); targets at 1R/2R/3R",
-    "BTC 4h trend down",
-    "Weaker than BTC by 7.3% over 7d",
-    "OI +2% 24h",
-    "Sector: Exchange Based Tokens -13.1% 7d (middle, #9 of 20)",
-    "Track record: +3.1R on UNI in the last 45 days (backtest)"
-   ],
-   "coin": "UNI",
-   "market": "PERP",
-   "side": "SHORT",
-   "entry": 4.302,
-   "sl0": 4.637907952619419,
-   "sl": 4.637907952619419,
-   "tps": [
-    3.96609204738058,
-    3.6301840947611606,
-    3.294276142141741
-   ],
-   "lev": 1,
-   "funding_pct": -0.0047,
-   "status": "stopped",
-   "hits": 0,
-   "opened": "2026-11-21T04:00:00+00:00",
-   "closed_at": "2026-11-21T13:35:18+00:00",
-   "exit_price": 4.637907952619419,
-   "result_r": -1.0,
-   "result_pct": -7.81,
-   "last": 4.682,
-   "last_ts": "2026-11-21T13:35:18+00:00",
-   "move_pct": -7.35,
-   "closed": true,
-   "rsi": 24.5,
-   "trade_on": "Perps 1x",
-   "market_reason": "shorts need perps; 1x keeps liquidation 3x+ further away than the stop",
-   "chart": null,
-   "setup": "BOS"
   }
  ],
  "stats": {
   "all": {
-   "trades": 349,
-   "wins": 160,
+   "trades": 350,
+   "wins": 161,
    "losses": 189,
-   "win_rate": 45.8,
-   "total_r": 19.86,
-   "avg_r": 0.057,
-   "total_pct": 110.11
+   "win_rate": 46.0,
+   "total_r": 20.61,
+   "avg_r": 0.059,
+   "total_pct": 115.19
   },
   "SPOT": {
-   "trades": 100,
-   "wins": 38,
+   "trades": 101,
+   "wins": 39,
    "losses": 62,
-   "win_rate": 38.0,
-   "total_r": -11.46,
-   "avg_r": -0.115,
-   "total_pct": 42.94
+   "win_rate": 38.6,
+   "total_r": -10.71,
+   "avg_r": -0.106,
+   "total_pct": 48.02
   },
   "PERP": {
    "trades": 232,
@@ -2906,13 +2861,13 @@
   },
   "kinds": {
    "HOT": {
-    "trades": 94,
-    "wins": 51,
+    "trades": 95,
+    "wins": 52,
     "losses": 43,
-    "win_rate": 54.3,
-    "total_r": 8.44,
-    "avg_r": 0.09,
-    "total_pct": 39.36
+    "win_rate": 54.7,
+    "total_r": 9.19,
+    "avg_r": 0.097,
+    "total_pct": 44.44
    },
    "ONCHAIN": {
     "trades": 17,
@@ -3338,6 +3293,15 @@
     "total_r": 0.25,
     "avg_r": 0.25,
     "total_pct": 1.78
+   },
+   "CFG": {
+    "trades": 1,
+    "wins": 1,
+    "losses": 0,
+    "win_rate": 100.0,
+    "total_r": 0.75,
+    "avg_r": 0.75,
+    "total_pct": 5.08
    },
    "CHIP": {
     "trades": 2,
@@ -4519,7 +4483,7 @@
     "total_pct": -3.2
    }
   },
-  "open": 6
+  "open": 5
  },
  "backtest": {
   "from": "2026-07-24",
@@ -8449,6 +8413,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "7287cf68b6526ad89c0bcf685cbdf06a3f38289a0b5fd422c4a0118b1fd7b519",
- "generated": "2026-11-28T06:40:29+00:00"
+ "digest": "fd8ee9d940689aac51f0f6ddb9179072e5696631f96e752a239e15e0ade0af7e",
+ "generated": "2026-11-28T06:45:33+00:00"
 }
