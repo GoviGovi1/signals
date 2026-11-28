@@ -37,7 +37,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.3524,
-   "last_ts": "2026-11-28T19:00:29+00:00",
+   "last_ts": "2026-11-28T19:06:27+00:00",
    "move_pct": 5.37,
    "closed": false,
    "rsi": 38.2,
@@ -73,7 +73,7 @@
     0.06414423883869416
    ],
    "lev": 1,
-   "funding_pct": -0.0031,
+   "funding_pct": -0.0034,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-28T03:00:00+00:00",
@@ -81,9 +81,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.06775,
-   "last_ts": "2026-11-28T19:00:29+00:00",
-   "move_pct": 4.55,
+   "last": 0.06773,
+   "last_ts": "2026-11-28T19:06:27+00:00",
+   "move_pct": 4.58,
    "closed": false,
    "rsi": 40.8,
    "trade_on": "Perps 1x",
@@ -117,7 +117,7 @@
     0.034947586835546184
    ],
    "lev": 1,
-   "funding_pct": 0.0222,
+   "funding_pct": 0.0236,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-28T06:00:00+00:00",
@@ -125,9 +125,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.03975,
-   "last_ts": "2026-11-28T19:00:29+00:00",
-   "move_pct": -0.48,
+   "last": 0.03972,
+   "last_ts": "2026-11-28T19:06:27+00:00",
+   "move_pct": -0.4,
    "closed": false,
    "rsi": 35.0,
    "trade_on": "Perps 1x",
@@ -162,7 +162,7 @@
     0.04908381378895341
    ],
    "lev": 1,
-   "funding_pct": -0.0058,
+   "funding_pct": -0.0053,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-28T10:00:00+00:00",
@@ -170,9 +170,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0542,
-   "last_ts": "2026-11-28T19:00:29+00:00",
-   "move_pct": 1.83,
+   "last": 0.05409,
+   "last_ts": "2026-11-28T19:06:27+00:00",
+   "move_pct": 2.03,
    "closed": false,
    "rsi": 30.3,
    "trade_on": "Perps 1x",
@@ -215,9 +215,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0995,
-   "last_ts": "2026-11-28T19:00:29+00:00",
-   "move_pct": 0.5,
+   "last": 0.0994,
+   "last_ts": "2026-11-28T19:06:27+00:00",
+   "move_pct": 0.6,
    "closed": false,
    "rsi": 32.3,
    "trade_on": "Perps 1x",
@@ -260,9 +260,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.052189,
-   "last_ts": "2026-11-28T19:00:29+00:00",
-   "move_pct": -0.34,
+   "last": 0.052256,
+   "last_ts": "2026-11-28T19:06:27+00:00",
+   "move_pct": -0.21,
    "closed": false,
    "rsi": 55.8,
    "trade_on": "Spot",
@@ -7804,47 +7804,45 @@
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
   "onchain": [
    {
-    "chain": "Ethereum",
-    "symbol": "WLFI",
-    "name": "World Liberty Financial",
-    "token": "0xda5e1988097297dcdc1f90d4dfe7909e847cbef6",
-    "price": 0.016155182848331,
-    "liq": 954225,
-    "vol24h": 3354425,
-    "age_d": 453.8,
-    "chg24h": -56.737,
-    "chg7d": -64.4,
-    "mcap": 511519999.853218,
-    "safety": "unknown",
-    "safety_notes": [
-     "safety not checked"
-    ],
+    "chain": "Base",
+    "symbol": "ELSA",
+    "name": "Elsa",
+    "token": "0x29cc30f9d113b356ce408667aa6433589cecbdca",
+    "price": 0.108371691462742,
+    "liq": 637280,
+    "vol24h": 4678415,
+    "age_d": 312.4,
+    "chg24h": 14.602,
+    "chg7d": 61.8,
+    "mcap": 33049700.5013496,
+    "safety": "ok",
+    "safety_notes": [],
     "trigger": false,
-    "trend_up": false,
-    "rsi": 13.6,
-    "url": "https://www.geckoterminal.com/eth/pools/0x7f2869b24d83f03e0438c045ce24fd18045b2b6cdec47cd7b62e67e2284d1be9"
+    "trend_up": true,
+    "rsi": 68.7,
+    "url": "https://www.geckoterminal.com/base/pools/0x83f3aca29bc79b048b99c56013475570acc97ccf"
    },
    {
-    "chain": "BSC",
-    "symbol": "BLESS",
-    "name": "Bless Token",
-    "token": "0x7c8217517ed4711fe2deccdfeffe8d906b9ae11f",
-    "price": 0.013825171655002,
-    "liq": 264387,
-    "vol24h": 2478286,
-    "age_d": 432.4,
-    "chg24h": -2.452,
-    "chg7d": 18.3,
-    "mcap": 25461357.8117751,
+    "chain": "Base",
+    "symbol": "XDP",
+    "name": "Doppler Finance",
+    "token": "0x07b3d902783c3c12b077508c3b5c00113d1291d0",
+    "price": 0.0120163344072136,
+    "liq": 648676,
+    "vol24h": 3079591,
+    "age_d": 61.3,
+    "chg24h": -9.045,
+    "chg7d": -19.7,
+    "mcap": 12017285.92,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 45.4,
-    "url": "https://www.geckoterminal.com/bsc/pools/0x49986efbeedea3ab962ca95caf86919860ecc9db"
+    "rsi": 32.0,
+    "url": "https://www.geckoterminal.com/base/pools/0x2df380544b88adb3ad0a94100dcc45fd705aae2d"
    }
   ],
-  "onchain_checked": 89,
+  "onchain_checked": 88,
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
@@ -7973,23 +7971,6 @@
     ]
    },
    {
-    "id": "storage",
-    "name": "Storage",
-    "chg7d": -0.13,
-    "top": [
-     "FIL",
-     "BTT",
-     "AR",
-     "AIOZ",
-     "ICNT"
-    ],
-    "tracked": [
-     "FIL",
-     "AR",
-     "WAL"
-    ]
-   },
-   {
     "id": "exchange-based-tokens",
     "name": "Exchange Based Tokens",
     "chg7d": -0.31,
@@ -8031,6 +8012,23 @@
      "APE",
      "YGG",
      "AXS"
+    ]
+   },
+   {
+    "id": "storage",
+    "name": "Storage",
+    "chg7d": -0.49,
+    "top": [
+     "FIL",
+     "BTT",
+     "AR",
+     "AIOZ",
+     "ICNT"
+    ],
+    "tracked": [
+     "FIL",
+     "AR",
+     "WAL"
     ]
    },
    {
@@ -8426,8 +8424,8 @@
   ],
   "updated": {
    "unlocks": 1795878924,
-   "onchain": 1795889119,
-   "sectors": 1795891819,
+   "onchain": 1795892727,
+   "sectors": 1795892727,
    "listings": 1795889426,
    "fundamentals": 1795878924
   }
@@ -8466,6 +8464,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "da878e663a113a73b3d8c74283f154ee803eb965cf58e90797622a30c6033a9e",
- "generated": "2026-11-28T19:00:57+00:00"
+ "digest": "4107c5aeee93af4c412653a0e1e31dfba0506d77f88b1d7f055594bcdbe3ccad",
+ "generated": "2026-11-28T19:06:30+00:00"
 }
