@@ -36,9 +36,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.3561,
-   "last_ts": "2026-11-28T14:00:30+00:00",
-   "move_pct": 4.38,
+   "last": 0.3571,
+   "last_ts": "2026-11-28T14:06:20+00:00",
+   "move_pct": 4.11,
    "closed": false,
    "rsi": 38.2,
    "trade_on": "Perps 1x",
@@ -73,7 +73,7 @@
     0.06414423883869416
    ],
    "lev": 1,
-   "funding_pct": -0.0025,
+   "funding_pct": -0.0049,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-28T03:00:00+00:00",
@@ -81,9 +81,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.06788,
-   "last_ts": "2026-11-28T14:00:30+00:00",
-   "move_pct": 4.37,
+   "last": 0.06796,
+   "last_ts": "2026-11-28T14:06:20+00:00",
+   "move_pct": 4.25,
    "closed": false,
    "rsi": 40.8,
    "trade_on": "Perps 1x",
@@ -125,9 +125,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0397,
-   "last_ts": "2026-11-28T14:00:30+00:00",
-   "move_pct": -0.35,
+   "last": 0.03973,
+   "last_ts": "2026-11-28T14:06:20+00:00",
+   "move_pct": -0.43,
    "closed": false,
    "rsi": 35.0,
    "trade_on": "Perps 1x",
@@ -165,9 +165,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.4955,
-   "last_ts": "2026-11-28T14:00:30+00:00",
-   "move_pct": 5.91,
+   "last": 1.493,
+   "last_ts": "2026-11-28T14:06:20+00:00",
+   "move_pct": 5.73,
    "closed": false,
    "rsi": null,
    "trade_on": "Perps 1x",
@@ -210,9 +210,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.053945,
-   "last_ts": "2026-11-28T14:00:30+00:00",
-   "move_pct": 2.1,
+   "last": 0.053943,
+   "last_ts": "2026-11-28T14:06:20+00:00",
+   "move_pct": 2.09,
    "closed": false,
    "rsi": 73.0,
    "trade_on": "Spot",
@@ -247,7 +247,7 @@
     0.04908381378895341
    ],
    "lev": 1,
-   "funding_pct": -0.016,
+   "funding_pct": -0.0177,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-28T10:00:00+00:00",
@@ -255,9 +255,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.05487,
-   "last_ts": "2026-11-28T14:00:30+00:00",
-   "move_pct": 0.62,
+   "last": 0.05474,
+   "last_ts": "2026-11-28T14:06:20+00:00",
+   "move_pct": 0.85,
    "closed": false,
    "rsi": 30.3,
    "trade_on": "Perps 1x",
@@ -7811,47 +7811,47 @@
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
   "onchain": [
    {
-    "chain": "Base",
-    "symbol": "VELVET",
-    "name": "Velvet",
-    "token": "0xbf927b841994731c573bdf09ceb0c6b0aa887cdd",
-    "price": 0.10103304988168,
-    "liq": 1301709,
-    "vol24h": 3161430,
-    "age_d": 461.6,
-    "chg24h": 11.048,
-    "chg7d": 62.7,
-    "mcap": 47982073.1026147,
+    "chain": "BSC",
+    "symbol": "AIOT",
+    "name": "OKZOO",
+    "token": "0x55ad16bd573b3365f43a9daeb0cc66a73821b4a5",
+    "price": 0.0843656124390099,
+    "liq": 2313215,
+    "vol24h": 3174535,
+    "age_d": 578.1,
+    "chg24h": -13.371,
+    "chg7d": 22.9,
+    "mcap": 46337812.5483044,
     "safety": "unknown",
     "safety_notes": [
      "safety not checked"
     ],
     "trigger": false,
-    "trend_up": true,
-    "rsi": 47.4,
-    "url": "https://www.geckoterminal.com/base/pools/0x6b0f53cbd9272d8117e9535fe25371dedf39a1be"
+    "trend_up": false,
+    "rsi": 35.9,
+    "url": "https://www.geckoterminal.com/bsc/pools/0xb433ae7e7011a2fb9a4bbb86140e0f653dcfcfba"
    },
    {
     "chain": "Ethereum",
     "symbol": "CRVUSD",
     "name": "Curve.Fi USD Stablecoin",
     "token": "0xf939e0a03fb07f59a73314e73794be0e57ac1b4e",
-    "price": 0.996274779735112,
-    "liq": 7687614,
-    "vol24h": 2524414,
-    "age_d": 1289.8,
-    "chg24h": -0.269,
-    "chg7d": -0.0,
-    "mcap": 139403490.111453,
+    "price": 0.995527333739023,
+    "liq": 7837926,
+    "vol24h": 2659494,
+    "age_d": 1289.9,
+    "chg24h": -0.215,
+    "chg7d": -0.1,
+    "mcap": 139236184.815751,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
     "trend_up": false,
-    "rsi": 51.2,
+    "rsi": 50.2,
     "url": "https://www.geckoterminal.com/eth/pools/0x4dece678ceceb27446b35c672dc7d61f30bad69e"
    }
   ],
-  "onchain_checked": 88,
+  "onchain_checked": 89,
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
@@ -7984,23 +7984,6 @@
      "H",
      "ZK",
      "POL"
-    ]
-   },
-   {
-    "id": "storage",
-    "name": "Storage",
-    "chg7d": 2.71,
-    "top": [
-     "FIL",
-     "BTT",
-     "AR",
-     "AIOZ",
-     "ICNT"
-    ],
-    "tracked": [
-     "FIL",
-     "AR",
-     "WAL"
     ]
    },
    {
@@ -8192,6 +8175,23 @@
      "XLM",
      "ALGO",
      "ZBCN"
+    ]
+   },
+   {
+    "id": "storage",
+    "name": "Storage",
+    "chg7d": -0.13,
+    "top": [
+     "FIL",
+     "BTT",
+     "AR",
+     "AIOZ",
+     "ICNT"
+    ],
+    "tracked": [
+     "FIL",
+     "AR",
+     "WAL"
     ]
    },
    {
@@ -8433,8 +8433,8 @@
   ],
   "updated": {
    "unlocks": 1795857023,
-   "onchain": 1795871119,
-   "sectors": 1795873824,
+   "onchain": 1795874719,
+   "sectors": 1795874719,
    "listings": 1795874429,
    "fundamentals": 1795857023
   }
@@ -8473,6 +8473,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "df947058defd573a15c61347456206c3c0bef19977b461e7b173be21e305434f",
- "generated": "2026-11-28T14:01:09+00:00"
+ "digest": "80cc989df1209122dbb5666c0d082c93eb676c03270739ddef4d2b74fe4012d9",
+ "generated": "2026-11-28T14:06:23+00:00"
 }
