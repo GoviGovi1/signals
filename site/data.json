@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.352,
-   "last_ts": "2026-11-28T07:45:23+00:00",
-   "move_pct": 0.22,
+   "last": 1.355,
+   "last_ts": "2026-11-28T07:50:22+00:00",
+   "move_pct": 0.44,
    "closed": false,
    "rsi": 67.9,
    "trade_on": "Spot",
@@ -73,7 +73,7 @@
     0.30861634681613415
    ],
    "lev": 1,
-   "funding_pct": 0.005,
+   "funding_pct": 0.0049,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-27T15:00:00+00:00",
@@ -81,9 +81,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.3624,
-   "last_ts": "2026-11-28T07:45:23+00:00",
-   "move_pct": 2.69,
+   "last": 0.3632,
+   "last_ts": "2026-11-28T07:50:22+00:00",
+   "move_pct": 2.47,
    "closed": false,
    "rsi": 38.2,
    "trade_on": "Perps 1x",
@@ -118,7 +118,7 @@
     0.06414423883869416
    ],
    "lev": 1,
-   "funding_pct": -0.0065,
+   "funding_pct": -0.0061,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-28T03:00:00+00:00",
@@ -126,9 +126,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.0694,
-   "last_ts": "2026-11-28T07:45:23+00:00",
-   "move_pct": 2.23,
+   "last": 0.06953,
+   "last_ts": "2026-11-28T07:50:22+00:00",
+   "move_pct": 2.04,
    "closed": false,
    "rsi": 40.8,
    "trade_on": "Perps 1x",
@@ -162,7 +162,7 @@
     0.034947586835546184
    ],
    "lev": 1,
-   "funding_pct": 0.0095,
+   "funding_pct": 0.009,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-28T06:00:00+00:00",
@@ -171,7 +171,7 @@
    "result_r": null,
    "result_pct": null,
    "last": 0.0397,
-   "last_ts": "2026-11-28T07:45:23+00:00",
+   "last_ts": "2026-11-28T07:50:22+00:00",
    "move_pct": -0.35,
    "closed": false,
    "rsi": 35.0,
@@ -7754,6 +7754,28 @@
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
+    "id": "gaming",
+    "name": "Gaming",
+    "chg7d": 7.15,
+    "top": [
+     "BEAM",
+     "FLOKI",
+     "GOMINING",
+     "GEOD",
+     "AXS"
+    ],
+    "tracked": [
+     "ONE",
+     "BIGTIME",
+     "SAND",
+     "GALA",
+     "BEAT",
+     "IMX",
+     "APE",
+     "AXS"
+    ]
+   },
+   {
     "id": "meme-token",
     "name": "Meme Token",
     "chg7d": 7.11,
@@ -7927,28 +7949,6 @@
      "BASED",
      "DYDX",
      "AVNT"
-    ]
-   },
-   {
-    "id": "gaming",
-    "name": "Gaming",
-    "chg7d": 3.78,
-    "top": [
-     "BEAM",
-     "FLOKI",
-     "GOMINING",
-     "GEOD",
-     "AXS"
-    ],
-    "tracked": [
-     "ONE",
-     "BIGTIME",
-     "SAND",
-     "GALA",
-     "BEAT",
-     "IMX",
-     "APE",
-     "AXS"
     ]
    },
    {
@@ -8334,7 +8334,7 @@
   "updated": {
    "unlocks": 1795835120,
    "onchain": 1795849519,
-   "sectors": 1795851318,
+   "sectors": 1795852222,
    "listings": 1795851923,
    "fundamentals": 1795835120
   }
@@ -8373,6 +8373,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "9b5c53eb1d1a601abc08bf7eed911d6048fa25bf640f542033e9908fd026e5de",
- "generated": "2026-11-28T07:45:26+00:00"
+ "digest": "44868466ac0252f3e391b427bbf97735f431982c2ca1230c4924b8304e3c5b51",
+ "generated": "2026-11-28T07:50:25+00:00"
 }
