@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.391,
-   "last_ts": "2026-11-28T03:15:23+00:00",
-   "move_pct": 3.11,
+   "last": 1.387,
+   "last_ts": "2026-11-28T03:20:20+00:00",
+   "move_pct": 2.82,
    "closed": false,
    "rsi": 67.9,
    "trade_on": "Spot",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.6785,
-   "last_ts": "2026-11-28T03:15:23+00:00",
-   "move_pct": 0.12,
+   "last": 0.6804,
+   "last_ts": "2026-11-28T03:20:20+00:00",
+   "move_pct": 0.4,
    "closed": false,
    "rsi": 61.3,
    "trade_on": "Perps 1x",
@@ -118,7 +118,7 @@
     0.30861634681613415
    ],
    "lev": 1,
-   "funding_pct": 0.005,
+   "funding_pct": 0.0047,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-27T15:00:00+00:00",
@@ -126,9 +126,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.3659,
-   "last_ts": "2026-11-28T03:15:23+00:00",
-   "move_pct": 1.75,
+   "last": 0.3655,
+   "last_ts": "2026-11-28T03:20:20+00:00",
+   "move_pct": 1.85,
    "closed": false,
    "rsi": 38.2,
    "trade_on": "Perps 1x",
@@ -171,9 +171,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.004152,
-   "last_ts": "2026-11-28T03:15:23+00:00",
-   "move_pct": 1.17,
+   "last": 0.004179,
+   "last_ts": "2026-11-28T03:20:20+00:00",
+   "move_pct": 1.83,
    "closed": false,
    "rsi": 63.1,
    "trade_on": "Perps 1x",
@@ -204,16 +204,16 @@
    ],
    "lev": null,
    "funding_pct": null,
-   "status": "tp1",
-   "hits": 1,
+   "status": "tp2",
+   "hits": 2,
    "opened": "2026-11-28T01:20:22+00:00",
    "closed_at": null,
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.06993,
-   "last_ts": "2026-11-28T03:15:23+00:00",
-   "move_pct": 13.1,
+   "last": 0.07127,
+   "last_ts": "2026-11-28T03:20:20+00:00",
+   "move_pct": 15.27,
    "closed": false,
    "rsi": null,
    "trade_on": "Spot",
@@ -248,7 +248,7 @@
     0.06414423883869416
    ],
    "lev": 1,
-   "funding_pct": -0.017,
+   "funding_pct": -0.021,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-28T03:00:00+00:00",
@@ -256,9 +256,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.07105,
-   "last_ts": "2026-11-28T03:15:23+00:00",
-   "move_pct": -0.1,
+   "last": 0.071,
+   "last_ts": "2026-11-28T03:20:20+00:00",
+   "move_pct": -0.03,
    "closed": false,
    "rsi": 40.8,
    "trade_on": "Perps 1x",
@@ -7860,28 +7860,6 @@
     ]
    },
    {
-    "id": "zero-knowledge-zk",
-    "name": "Zero Knowledge ZK",
-    "chg7d": 4.95,
-    "top": [
-     "ZEC",
-     "NIGHT",
-     "POL",
-     "STRK",
-     "OZO"
-    ],
-    "tracked": [
-     "ZEC",
-     "NIGHT",
-     "MOVE",
-     "STRK",
-     "POL",
-     "MAGIC",
-     "MINA",
-     "ZK"
-    ]
-   },
-   {
     "id": "solana-meme-coins",
     "name": "Solana Meme Coins",
     "chg7d": 4.06,
@@ -7945,6 +7923,28 @@
      "SHIB",
      "PENGU",
      "USELESS"
+    ]
+   },
+   {
+    "id": "zero-knowledge-zk",
+    "name": "Zero Knowledge ZK",
+    "chg7d": 2.87,
+    "top": [
+     "ZEC",
+     "NIGHT",
+     "POL",
+     "STRK",
+     "OZO"
+    ],
+    "tracked": [
+     "ZEC",
+     "NIGHT",
+     "MOVE",
+     "STRK",
+     "POL",
+     "MAGIC",
+     "MINA",
+     "ZK"
     ]
    },
    {
@@ -8418,7 +8418,7 @@
   "updated": {
    "unlocks": 1795835120,
    "onchain": 1795835133,
-   "sectors": 1795835133,
+   "sectors": 1795836020,
    "listings": 1795833027,
    "fundamentals": 1795835120
   }
@@ -8457,6 +8457,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "61a2ea03e4ce5a1b5b51e5d8b887c40568f0f0727789429e23ce382e9fc47adc",
- "generated": "2026-11-28T03:15:26+00:00"
+ "digest": "7b0596c0e38dfa79eb2bc3e42eb710059e75054e1912ba579e2da87dad0fcd6c",
+ "generated": "2026-11-28T03:20:24+00:00"
 }
