@@ -35,9 +35,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 1.387,
-   "last_ts": "2026-11-28T01:00:30+00:00",
-   "move_pct": 2.82,
+   "last": 1.388,
+   "last_ts": "2026-11-28T01:06:24+00:00",
+   "move_pct": 2.89,
    "closed": false,
    "rsi": 67.9,
    "trade_on": "Spot",
@@ -80,9 +80,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.6666,
-   "last_ts": "2026-11-28T01:00:30+00:00",
-   "move_pct": -1.64,
+   "last": 0.6673,
+   "last_ts": "2026-11-28T01:06:24+00:00",
+   "move_pct": -1.53,
    "closed": false,
    "rsi": 61.3,
    "trade_on": "Perps 1x",
@@ -118,7 +118,7 @@
     0.30861634681613415
    ],
    "lev": 1,
-   "funding_pct": -0.0004,
+   "funding_pct": 0.0,
    "status": "open",
    "hits": 0,
    "opened": "2026-11-27T15:00:00+00:00",
@@ -126,9 +126,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.3691,
-   "last_ts": "2026-11-28T01:00:30+00:00",
-   "move_pct": 0.89,
+   "last": 0.3687,
+   "last_ts": "2026-11-28T01:06:24+00:00",
+   "move_pct": 0.99,
    "closed": false,
    "rsi": 38.2,
    "trade_on": "Perps 1x",
@@ -171,9 +171,9 @@
    "exit_price": null,
    "result_r": null,
    "result_pct": null,
-   "last": 0.004191,
-   "last_ts": "2026-11-28T01:00:30+00:00",
-   "move_pct": 2.12,
+   "last": 0.004179,
+   "last_ts": "2026-11-28T01:06:24+00:00",
+   "move_pct": 1.83,
    "closed": false,
    "rsi": 63.1,
    "trade_on": "Perps 1x",
@@ -7690,47 +7690,45 @@
   "unlock_rule": "big = cliff unlock >= 2.0% of circulating supply, or >= $10M and >= 0.5%",
   "onchain": [
    {
-    "chain": "BSC",
-    "symbol": "FXION",
-    "name": "iShares China Large-Cap ETF (Ondo Tokenized)",
-    "token": "0x9b8e987e6fec8cf1380c4dca7071e2c7853aeea1",
-    "price": 32.2458391487716,
-    "liq": 616756,
-    "vol24h": 5317324,
-    "age_d": 80.8,
-    "chg24h": 0.375,
-    "chg7d": 2.4,
-    "mcap": 3312749.506932,
-    "safety": "unknown",
-    "safety_notes": [
-     "safety not checked"
-    ],
-    "trigger": false,
-    "trend_up": true,
-    "rsi": 55.7,
-    "url": "https://www.geckoterminal.com/bsc/pools/0x8768c8969e177575e37435b8295afa2dfb231c86"
-   },
-   {
-    "chain": "Ethereum",
-    "symbol": "PAXG",
-    "name": "Paxos Gold",
-    "token": "0x45804880de22913dafe09f4980848ece6ecbaf78",
-    "price": 3645.11446109926,
-    "liq": 5752493,
-    "vol24h": 2630835,
-    "age_d": 401.4,
-    "chg24h": 2.044,
-    "chg7d": 2.9,
-    "mcap": 1630454738.38573,
+    "chain": "Base",
+    "symbol": "ELSA",
+    "name": "Elsa",
+    "token": "0x29cc30f9d113b356ce408667aa6433589cecbdca",
+    "price": 0.0947315422461727,
+    "liq": 598394,
+    "vol24h": 5496354,
+    "age_d": 311.7,
+    "chg24h": -6.937,
+    "chg7d": 39.9,
+    "mcap": 29174224.262889,
     "safety": "ok",
     "safety_notes": [],
     "trigger": false,
-    "trend_up": true,
-    "rsi": 57.3,
-    "url": "https://www.geckoterminal.com/eth/pools/0xc756bba710d45647715079ce50aa16aab36ded42"
+    "trend_up": false,
+    "rsi": 51.8,
+    "url": "https://www.geckoterminal.com/base/pools/0x83f3aca29bc79b048b99c56013475570acc97ccf"
+   },
+   {
+    "chain": "Base",
+    "symbol": "XDP",
+    "name": "Doppler Finance",
+    "token": "0x07b3d902783c3c12b077508c3b5c00113d1291d0",
+    "price": 0.0131142325489272,
+    "liq": 681484,
+    "vol24h": 3447833,
+    "age_d": 60.5,
+    "chg24h": 1.82,
+    "chg7d": -6.9,
+    "mcap": 13114232.55,
+    "safety": "ok",
+    "safety_notes": [],
+    "trigger": false,
+    "trend_up": false,
+    "rsi": 51.8,
+    "url": "https://www.geckoterminal.com/base/pools/0x2df380544b88adb3ad0a94100dcc45fd705aae2d"
    }
   ],
-  "onchain_checked": 85,
+  "onchain_checked": 87,
   "onchain_rule": "GeckoTerminal trending pools on Solana, Base, BSC, Ethereum, Arbitrum; liquidity > $250k, pool older than 7 days, 24h volume > $250k, GoPlus safety (no honeypot, taxes <= 5%, no mint/freeze authority on Solana). Signal when the 1h DEX chart breaks its 20-hour high above EMA50 with RSI 55-75.",
   "sectors": [
    {
@@ -7844,28 +7842,6 @@
     ]
    },
    {
-    "id": "artificial-intelligence",
-    "name": "Artificial Intelligence",
-    "chg7d": 3.34,
-    "top": [
-     "NEAR",
-     "TAO",
-     "VVV",
-     "SN0",
-     "PIEVERSE"
-    ],
-    "tracked": [
-     "PIEVERSE",
-     "NEAR",
-     "VVV",
-     "TAO",
-     "ICP",
-     "FET",
-     "OPG",
-     "VIRTUAL"
-    ]
-   },
-   {
     "id": "decentralized-finance-defi",
     "name": "Decentralized Finance DeFi",
     "chg7d": 2.84,
@@ -7885,6 +7861,28 @@
      "LIT",
      "AAVE",
      "SEI"
+    ]
+   },
+   {
+    "id": "artificial-intelligence",
+    "name": "Artificial Intelligence",
+    "chg7d": 2.8,
+    "top": [
+     "NEAR",
+     "TAO",
+     "SN0",
+     "VVV",
+     "ICP"
+    ],
+    "tracked": [
+     "PIEVERSE",
+     "NEAR",
+     "VVV",
+     "TAO",
+     "ICP",
+     "FET",
+     "OPG",
+     "VIRTUAL"
     ]
    },
    {
@@ -8313,8 +8311,8 @@
   ],
   "updated": {
    "unlocks": 1795813235,
-   "onchain": 1795824320,
-   "sectors": 1795827029,
+   "onchain": 1795827922,
+   "sectors": 1795827922,
    "listings": 1795825224,
    "fundamentals": 1795813236
   }
@@ -8353,6 +8351,6 @@
   "expire_h": 48,
   "max_lev": 3
  },
- "digest": "d0c39eccfaf3707c54c5364d572d147f8d4ddf587ebf0f6d62870d681d40a95f",
- "generated": "2026-11-28T01:00:59+00:00"
+ "digest": "946c614766f435d7d63056a738fc857fc8b8881d01c03b98b4233e2c16004ab7",
+ "generated": "2026-11-28T01:06:26+00:00"
 }
